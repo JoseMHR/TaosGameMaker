@@ -7,11 +7,12 @@
 
 ![Engine](https://img.shields.io/badge/Engine-Godot_4.3%2B-478CBF?logo=godot-engine&logoColor=white)
 ![Studio](https://img.shields.io/badge/Web_Studio-45%2B_visual_tools-8A2BE2)
+![Release](https://img.shields.io/github/v/release/JoseMHR/taos-game-maker?color=2ea44f&label=Release)
 ![License](https://img.shields.io/badge/License-100%25_Free_%26_Open_Source-brightgreen)
 ![Royalties](https://img.shields.io/badge/Games_you_build-100%25_Royalty--Free-F9A825)
 ![Export](https://img.shields.io/badge/Export-Windows_%7C_macOS_%7C_Linux_%7C_Android-00A8E8)
 
-**[📖 Official Documentation & Showcase](https://josemhr.github.io/taos-game-maker/) · [🎮 Play Free Demo (Echoes of Truth)](https://taosworld.itch.io/echoesoftruth) · [🎬 Engine Video Tour](https://youtu.be/9ugIta7vTkQ)**
+**[📖 Official Documentation & Showcase](https://josemhr.github.io/taos-game-maker/) · [📦 Download v1.1 Packages](https://github.com/JoseMHR/taos-game-maker/releases/latest) · [🎮 Play Free Demo (Echoes of Truth)](https://taosworld.itch.io/echoesoftruth) · [🎬 Engine Video Tour](https://youtu.be/9ugIta7vTkQ)**
 
 </div>
 
