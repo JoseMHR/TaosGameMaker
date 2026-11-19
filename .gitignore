@@ -30,6 +30,12 @@ Desktop.ini
 *.tmp
 *.temp
 
+# Heavy distribution exports & binaries (published via GitHub Releases)
+dist/engine/
+dist/game_echoes_of_truth/
+*.zip
+*.mp4
+
 # IDE / Editor config
 .idea/
 .vscode/
