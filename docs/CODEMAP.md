@@ -6,7 +6,7 @@
 > Índice de ALTA SEÑAL para localizar *dónde tocar* sin abrir ficheros enormes.
 > Para saltar a un símbolo concreto, busca en `docs/SYMBOLS.tsv` (`symbol · kind · file · line`).
 
-**Totales:** 146 ficheros `.gd` · 73252 líneas · 2387 funciones.
+**Totales:** 146 ficheros `.gd` · 74808 líneas · 2414 funciones.
 
 Leyenda: `nombre Lnn` = función en la línea *nn*. `(s)` = static · `_nombre` = privada.
 
@@ -21,25 +21,25 @@ GESTOR GLOBAL DE AUDIO — Autoload/Singleton
 - **privadas:** `_ready` L149, `_bind_existing_button_sounds` L172, `_on_node_added_for_sound` L180, `_bind_button_sound` L189, `_on_button_hover` L196, `_apply_crossfade` L267, `_on_ambient_finished` L383
 
 ### `Design`  ·  autoload **Design**
-`scripts/autoload/Design.gd` · 1712 líneas · extends `Node`
+`scripts/autoload/Design.gd` · 1730 líneas · extends `Node`
 
 Autoload Singleton — CARGADOR DE DISEÑO DATA-DRIVEN.
-- **funcs:** `reload` L192, `get_skill_field` L307, `tr_cell_name` L349, `tr_cell_desc` L355, `world_boat_spawn` L364, `world_spawn` L375, `get_id` L438, `has_id` L443
-  `id_raw` L448, `get_dungeon_tile` L453, `get_dungeon_tile_render` L459, `id_name` L466, `id_icon` L471, `get_item` L477, `get_item_name` L481, `get_item_desc` L488
-  `get_item_icon` L495, `get_item_category` L499, `has_item_def` L503, `get_profession` L514, `get_professions` L520, `get_profession_skills` L529, `get_skill` L545, `has_skill` L549
-  `get_enemy_skill` L556, `get_synergy` L567, `get_triple_synergy` L586, `skill_pa_cost` L610, `skill_tag` L624, `get_enemy` L630, `enemy` L634, `has_dungeon_layout` L646
-  `get_dungeon_layout` L653, `all_dungeon_ids` L668, `canonical_dungeon_ids` L675, `get_dungeon_display_name` L688, `get_dungeon_total_floors` L697, `is_dungeon_completed` L710, `kit_piece` L747, `kit_pieces` L755
-  `kits` L760, `get_terrain_ambience` L767, `get_weather_def` L776, `pick_terrain_weather` L792, `get_zone_at` L810, `get_zone_music_at` L825, `get_terrain_def` L841, `terrain_is_walkable` L847
-  `terrain_damage` L854, `terrain_damage_interval` L858, `terrain_speed_mult` L862, `terrain_hazard` L871, `terrain_is_slippery` L877, `terrain_is_blendable` L882, `get_world_resource` L892, `resolve_gather_resource` L903
-  `get_world_building` L915, `get_classic_building_style` L925, `get_cinematic` L958, `has_cinematic` L964, `get_scene` L971, `has_scene` L982, `get_achievement` L991, `get_tutorial` L996
-  `get_npc` L1010, `has_npc` L1023, `get_quest_secondary` L1033, `get_quest_secondary_stage` L1048, `npc_meta` L1057, `entry_node` L1080, `resolve_poi_encounter` L1126, `eval_condition` L1177
-  `has_item` L1214, `no_item` L1217, `has_flag` L1220, `no_flag` L1223, `gflag` L1228, `has_gflag` L1231, `no_gflag` L1236, `discovered` L1242
-  `not_discovered` L1247, `has_quest` L1253, `quest_stage` L1258, `quest_done` L1262, `gate_flag` L1268, `is_gate_locked` L1284, `stat` L1295, `rel` L1309
-  `visits_of` L1315, `has_prof` L1321, `no_prof` L1326, `has_all_professions` L1330, `defeated` L1336, `hunt_progress` L1343, `apply_reward` L1350, `get_codex_entry` L1585
-  `codex_ids` L1591, `codex_total` L1602, `has_event` L1645, `run_event` L1652, `quest_order` L1677, `quest_desc` L1684, `quest_combat_event` L1698, `get_world_transform` L1710
-- **privadas:** `_ready` L186, `_validate_loaded_data` L317, `_build_indices` L335, `_load_json` L389, `_load_ids_dir` L410, `_load_dir_collection` L417, `_dungeon_path` L721, `_ensure_dungeon_ids` L724
-  `_ensure_dialogues_loaded` L931, `_ensure_scenes_loaded` L944, `_ensure_cinematics_loaded` L951, `_loc_str` L1001, `_apply_token` L1375, `_emit_global_event` L1567, `_check_codex_completion` L1608, `_give_item` L1620
-  `_pint` L1627
+- **funcs:** `reload` L192, `get_skill_field` L307, `tr_cell_name` L349, `tr_cell_desc` L364, `world_boat_spawn` L382, `world_spawn` L393, `get_id` L456, `has_id` L461
+  `id_raw` L466, `get_dungeon_tile` L471, `get_dungeon_tile_render` L477, `id_name` L484, `id_icon` L489, `get_item` L495, `get_item_name` L499, `get_item_desc` L506
+  `get_item_icon` L513, `get_item_category` L517, `has_item_def` L521, `get_profession` L532, `get_professions` L538, `get_profession_skills` L547, `get_skill` L563, `has_skill` L567
+  `get_enemy_skill` L574, `get_synergy` L585, `get_triple_synergy` L604, `skill_pa_cost` L628, `skill_tag` L642, `get_enemy` L648, `enemy` L652, `has_dungeon_layout` L664
+  `get_dungeon_layout` L671, `all_dungeon_ids` L686, `canonical_dungeon_ids` L693, `get_dungeon_display_name` L706, `get_dungeon_total_floors` L715, `is_dungeon_completed` L728, `kit_piece` L765, `kit_pieces` L773
+  `kits` L778, `get_terrain_ambience` L785, `get_weather_def` L794, `pick_terrain_weather` L810, `get_zone_at` L828, `get_zone_music_at` L843, `get_terrain_def` L859, `terrain_is_walkable` L865
+  `terrain_damage` L872, `terrain_damage_interval` L876, `terrain_speed_mult` L880, `terrain_hazard` L889, `terrain_is_slippery` L895, `terrain_is_blendable` L900, `get_world_resource` L910, `resolve_gather_resource` L921
+  `get_world_building` L933, `get_classic_building_style` L943, `get_cinematic` L976, `has_cinematic` L982, `get_scene` L989, `has_scene` L1000, `get_achievement` L1009, `get_tutorial` L1014
+  `get_npc` L1028, `has_npc` L1041, `get_quest_secondary` L1051, `get_quest_secondary_stage` L1066, `npc_meta` L1075, `entry_node` L1098, `resolve_poi_encounter` L1144, `eval_condition` L1195
+  `has_item` L1232, `no_item` L1235, `has_flag` L1238, `no_flag` L1241, `gflag` L1246, `has_gflag` L1249, `no_gflag` L1254, `discovered` L1260
+  `not_discovered` L1265, `has_quest` L1271, `quest_stage` L1276, `quest_done` L1280, `gate_flag` L1286, `is_gate_locked` L1302, `stat` L1313, `rel` L1327
+  `visits_of` L1333, `has_prof` L1339, `no_prof` L1344, `has_all_professions` L1348, `defeated` L1354, `hunt_progress` L1361, `apply_reward` L1368, `get_codex_entry` L1603
+  `codex_ids` L1609, `codex_total` L1620, `has_event` L1663, `run_event` L1670, `quest_order` L1695, `quest_desc` L1702, `quest_combat_event` L1716, `get_world_transform` L1728
+- **privadas:** `_ready` L186, `_validate_loaded_data` L317, `_build_indices` L335, `_load_json` L407, `_load_ids_dir` L428, `_load_dir_collection` L435, `_dungeon_path` L739, `_ensure_dungeon_ids` L742
+  `_ensure_dialogues_loaded` L949, `_ensure_scenes_loaded` L962, `_ensure_cinematics_loaded` L969, `_loc_str` L1019, `_apply_token` L1393, `_emit_global_event` L1585, `_check_codex_completion` L1626, `_give_item` L1638
+  `_pint` L1645
 
 ### `ExplorationSkills`  ·  autoload **ExplorationSkills**
 `scripts/autoload/ExplorationSkills.gd` · 239 líneas · extends `Node`
@@ -59,55 +59,57 @@ Autoload Singleton — BUS GLOBAL DE EVENTOS.
 - **privadas:** `_record` L149
 
 ### `GlobalState`  ·  autoload **GlobalState**
-`scripts/autoload/GlobalState.gd` · 2846 líneas · extends `Node`
+`scripts/autoload/GlobalState.gd` · 2852 líneas · extends `Node`
 
 Singleton Autoload — Estado global del héroe, inventario y misiones.
 
-- **regions:** `DATOS DEL HÉROE` L25, `FACETAS DE PERSONALIDAD (-10 a +10)` L57, `HABILIDADES DE FARMEO` L62, `BUFFS TEMPORALES DE COMIDA (Cocinero)` L67, `6 SLOTS DE EQUIPAMIENTO` L85, `INVENTARIO, MISIONES Y PROFESIÓN` L136, `ESTADO DEL MAPAMUNDI (persistente)` L250, `ENCARGOS (TABLÓN), CONTADORES Y MEMORIA DE NPCs` L290, `PROGRESO OFFLINE  (marca de tiempo del último guardado, en unix segundos)` L311, `CICLO DE VIDA` L319, `GESTIÓN DE XP Y NIVEL` L571, `RECÁLCULO DE ESTADÍSTICAS DERIVADAS Y EQUIPO` L802, `SUMA DE BONUS DE COMBATE DEL EQUIPO` L829, `GESTIÓN DE INVENTARIO` L912, `ALMACÉN DEL COFRE DE LA BASE (persistente — ver task4.md)` L977, `MÉTODOS DE EQUIPAMIENTO` L1070, `HABILIDADES DE FARMEO — Ganancia de XP` L1099, `RECURSOS DESCUBIERTOS / DESBLOQUEO DE LA BASE` L1164, `NIVELES DE CONSTRUCCIÓN — Mejoras (sumidero de oro + recursos)` L1398, `REINICIO DE CARACTERÍSTICAS (sumidero de oro: devuelve los puntos gastados)` L1422, `BOTÍN, RAREZA, FORJA Y RE-FORJA` L1450, `ENCARGOS (TABLÓN)  — repetibles, dan dirección al bucle` L1500, `FACETAS (consultas) Y MEMORIA DE NPCs` L1662, `ENEMIGOS DEL MAPAMUNDI — derrota y reaparición` L1817, `PROGRESO OFFLINE (idle) — al volver tras cerrar la app` L1907, `COCINA, CONSUMIBLES Y COMIDA` L1920, `MAPA — Marcar coordenada como explorada` L1950, `NODOS DE RECOLECCIÓN FINITOS  (reserva limitada + regeneración temporal)` L1958, `SERIALIZACIÓN (GUARDADO / CARGA)` L2404
+- **regions:** `DATOS DEL HÉROE` L25, `FACETAS DE PERSONALIDAD (-10 a +10)` L57, `HABILIDADES DE FARMEO` L62, `BUFFS TEMPORALES DE COMIDA (Cocinero)` L67, `6 SLOTS DE EQUIPAMIENTO` L85, `INVENTARIO, MISIONES Y PROFESIÓN` L136, `ESTADO DEL MAPAMUNDI (persistente)` L250, `ENCARGOS (TABLÓN), CONTADORES Y MEMORIA DE NPCs` L290, `PROGRESO OFFLINE  (marca de tiempo del último guardado, en unix segundos)` L311, `CICLO DE VIDA` L319, `GESTIÓN DE XP Y NIVEL` L573, `RECÁLCULO DE ESTADÍSTICAS DERIVADAS Y EQUIPO` L804, `SUMA DE BONUS DE COMBATE DEL EQUIPO` L831, `GESTIÓN DE INVENTARIO` L914, `ALMACÉN DEL COFRE DE LA BASE (persistente — ver task4.md)` L979, `MÉTODOS DE EQUIPAMIENTO` L1072, `HABILIDADES DE FARMEO — Ganancia de XP` L1101, `RECURSOS DESCUBIERTOS / DESBLOQUEO DE LA BASE` L1166, `NIVELES DE CONSTRUCCIÓN — Mejoras (sumidero de oro + recursos)` L1400, `REINICIO DE CARACTERÍSTICAS (sumidero de oro: devuelve los puntos gastados)` L1424, `BOTÍN, RAREZA, FORJA Y RE-FORJA` L1452, `ENCARGOS (TABLÓN)  — repetibles, dan dirección al bucle` L1502, `FACETAS (consultas) Y MEMORIA DE NPCs` L1664, `ENEMIGOS DEL MAPAMUNDI — derrota y reaparición` L1819, `PROGRESO OFFLINE (idle) — al volver tras cerrar la app` L1909, `COCINA, CONSUMIBLES Y COMIDA` L1922, `MAPA — Marcar coordenada como explorada` L1952, `NODOS DE RECOLECCIÓN FINITOS  (reserva limitada + regeneración temporal)` L1960, `SERIALIZACIÓN (GUARDADO / CARGA)` L2410
 
 - **signals:** `state_updated` L14, `leveled_up` L18, `job_leveled_up` L19, `skill_leveled_up` L23
-- **funcs:** `grant_food_buff` L76, `has_food_buff` L80, `set_orientation` L388, `toggle_orientation` L403, `reset_for_new_game` L421, `reset_for_test_room` L519, `add_xp` L572, `debug_add_level` L599
-  `debug_remove_level` L616, `add_job_xp` L639, `add_xp_to_all_jobs` L672, `add_job_xp_to` L689, `set_profession` L731, `get_profession_progress` L780, `get_profession_level` L796, `get_stat_with_bonuses` L803
-  `recalculate_derived_stats` L811, `get_equip_combat` L831, `get_phys_damage` L846, `get_mag_damage` L854, `get_range_damage` L858, `get_speed` L863, `get_phys_defense` L868, `get_mag_defense` L877
-  `get_dodge` L883, `get_crit` L890, `get_accuracy` L897, `get_carry_weight` L904, `add_item` L924, `grant_all_game_items` L931, `inventory_slot_cap` L968, `inventory_slot_count` L973
-  `chest_slot_count` L985, `move_item_to_chest` L1015, `move_item_from_chest` L1034, `remove_item` L1056, `has_item` L1060, `get_item` L1064, `add_equipment_item` L1079, `equip_resource` L1085
-  `equip_item` L1089, `unequip_item` L1093, `add_skill_xp` L1105, `gather_speed_multiplier` L1135, `gather_amount_multiplier` L1151, `discover_resource` L1167, `discover_lore` L1176, `is_lore_discovered` L1184
-  `grant_codex_completion_reward` L1199, `is_building_unlocked` L1204, `is_building_built` L1214, `can_afford_building` L1218, `build_building` L1228, `is_shop_item_sold_out` L1243, `record_shop_purchase` L1249, `get_combat_skill_slots` L1264
-  `has_any_job_skill_overflow` L1304, `get_active_combat_skills` L1368, `toggle_active_combat_skill` L1378, `building_level` L1401, `is_building_max` L1404, `building_upgrade_cost` L1407, `can_afford_upgrade` L1410, `upgrade_building` L1413
-  `get_dummy_idle_xp` L1416, `spent_stat_points` L1424, `can_reset_stats` L1431, `reset_stats` L1436, `roll_rarity` L1455, `roll_equipment_drop` L1459, `grant_loot` L1464, `grant_loot_entries` L1468
-  `can_forge` L1472, `forge` L1476, `is_reforgeable` L1480, `reforge_item` L1485, `can_refine` L1490, `refine_item` L1494, `is_encargo_active` L1505, `encargo_count` L1508
-  `can_accept_encargo` L1511, `accept_encargo` L1514, `is_encargo_done` L1517, `claim_encargo` L1520, `encargo_effective_xp` L1525, `report_gather` L1529, `report_kill` L1533, `mark_enemy_seen` L1549
-  `record_enemy_kill` L1559, `discover_travel_point` L1607, `get_travel_points` L1615, `discover_enemy_reaction` L1630, `report_visit` L1647, `generate_encargo` L1652, `ensure_encargos_for_city` L1656, `get_relation` L1672
-  `add_relation` L1680, `get_faceta` L1687, `get_npc_relationship` L1697, `charm_price` L1704, `npc_visit_count` L1711, `mark_npc_visited` L1715, `npc_has_flag` L1723, `set_npc_flag` L1730
-  `has_flag` L1744, `has_world_flag` L1748, `set_world_flag` L1752, `get_world_flag_val` L1756, `spawn_boat_at_port` L1761, `world_delta_key` L1789, `record_world_delta` L1798, `is_overworld_enemy_defeated` L1819
-  `defeat_overworld_enemy` L1831, `get_world_delta` L1838, `has_world_delta` L1845, `clear_world_delta` L1851, `is_boss_defeated` L1864, `mark_boss_defeated` L1868, `is_chest_opened` L1874, `open_chest` L1881
-  `apply_offline_progress` L1910, `cook` L1924, `cook_recipe` L1928, `use_consumable` L1932, `food_restore_values` L1936, `food_preview` L1940, `eat_food` L1944, `mark_explored` L1952
-  `get_gather_remaining` L1996, `get_gather_capacity` L2007, `get_base_coord` L2011, `establish_base_at` L2021, `get_campfire_build_spot` L2086, `build_campfire_at` L2103, `get_camp_structure_def` L2140, `has_camp_structure` L2144
-  `camp_current_structure_key` L2148, `camp_level_up_cost` L2152, `can_level_up_camp` L2156, `level_up_camp` L2160, `build_camp_structure` L2175, `can_establish_base_at` L2234, `base_territory_size` L2310, `is_within_base_territory` L2323
-  `get_buildable_structure_at` L2339, `is_valid_camp_build_spot` L2352, `consume_gather` L2383, `to_dict` L2407, `from_dict` L2494, `get_surrounding_hex_coords` L2816, `has_all_professions_unlocked` L2835
-- **privadas:** `_ready` L358, `_unhandled_input` L411, `_grant_job_xp_to_non_active` L703, `_store_active_job_progress` L741, `_don_nadie_progress` L752, `_load_job_progress_for` L759, `_item_counts_toward_cap` L954, `_slot_count_of` L958
-  `_transfer_item_entry` L991, `_default_combat_skill_slots` L1336, `_bestiary_entry` L1539, `_progress_hunt_quests` L1591, `_canonical_npc_id` L1663, `_now_unix` L1960, `_node_key` L1964, `_apply_node_regen` L1968
-  `_capacity_for` L1989, `_refresh_base_label` L2073, `_parse_delta_key` L2130, `_is_free_camp_cell` L2254, `_find_free_camp_spot` L2283, `_reset_camp_cell` L2367, `_run_save_migrations` L2481, `_serialize_explored` L2740
-  `_deserialize_explored_entry` L2767, `_serialize_equipped` L2780, `_serialize_inventory` L2793, `_serialize_inventory_array` L2798
+- **funcs:** `grant_food_buff` L76, `has_food_buff` L80, `set_orientation` L388, `toggle_orientation` L403, `reset_for_new_game` L421, `reset_for_test_room` L521, `add_xp` L574, `debug_add_level` L601
+  `debug_remove_level` L618, `add_job_xp` L641, `add_xp_to_all_jobs` L674, `add_job_xp_to` L691, `set_profession` L733, `get_profession_progress` L782, `get_profession_level` L798, `get_stat_with_bonuses` L805
+  `recalculate_derived_stats` L813, `get_equip_combat` L833, `get_phys_damage` L848, `get_mag_damage` L856, `get_range_damage` L860, `get_speed` L865, `get_phys_defense` L870, `get_mag_defense` L879
+  `get_dodge` L885, `get_crit` L892, `get_accuracy` L899, `get_carry_weight` L906, `add_item` L926, `grant_all_game_items` L933, `inventory_slot_cap` L970, `inventory_slot_count` L975
+  `chest_slot_count` L987, `move_item_to_chest` L1017, `move_item_from_chest` L1036, `remove_item` L1058, `has_item` L1062, `get_item` L1066, `add_equipment_item` L1081, `equip_resource` L1087
+  `equip_item` L1091, `unequip_item` L1095, `add_skill_xp` L1107, `gather_speed_multiplier` L1137, `gather_amount_multiplier` L1153, `discover_resource` L1169, `discover_lore` L1178, `is_lore_discovered` L1186
+  `grant_codex_completion_reward` L1201, `is_building_unlocked` L1206, `is_building_built` L1216, `can_afford_building` L1220, `build_building` L1230, `is_shop_item_sold_out` L1245, `record_shop_purchase` L1251, `get_combat_skill_slots` L1266
+  `has_any_job_skill_overflow` L1306, `get_active_combat_skills` L1370, `toggle_active_combat_skill` L1380, `building_level` L1403, `is_building_max` L1406, `building_upgrade_cost` L1409, `can_afford_upgrade` L1412, `upgrade_building` L1415
+  `get_dummy_idle_xp` L1418, `spent_stat_points` L1426, `can_reset_stats` L1433, `reset_stats` L1438, `roll_rarity` L1457, `roll_equipment_drop` L1461, `grant_loot` L1466, `grant_loot_entries` L1470
+  `can_forge` L1474, `forge` L1478, `is_reforgeable` L1482, `reforge_item` L1487, `can_refine` L1492, `refine_item` L1496, `is_encargo_active` L1507, `encargo_count` L1510
+  `can_accept_encargo` L1513, `accept_encargo` L1516, `is_encargo_done` L1519, `claim_encargo` L1522, `encargo_effective_xp` L1527, `report_gather` L1531, `report_kill` L1535, `mark_enemy_seen` L1551
+  `record_enemy_kill` L1561, `discover_travel_point` L1609, `get_travel_points` L1617, `discover_enemy_reaction` L1632, `report_visit` L1649, `generate_encargo` L1654, `ensure_encargos_for_city` L1658, `get_relation` L1674
+  `add_relation` L1682, `get_faceta` L1689, `get_npc_relationship` L1699, `charm_price` L1706, `npc_visit_count` L1713, `mark_npc_visited` L1717, `npc_has_flag` L1725, `set_npc_flag` L1732
+  `has_flag` L1746, `has_world_flag` L1750, `set_world_flag` L1754, `get_world_flag_val` L1758, `spawn_boat_at_port` L1763, `world_delta_key` L1791, `record_world_delta` L1800, `is_overworld_enemy_defeated` L1821
+  `defeat_overworld_enemy` L1833, `get_world_delta` L1840, `has_world_delta` L1847, `clear_world_delta` L1853, `is_boss_defeated` L1866, `mark_boss_defeated` L1870, `is_chest_opened` L1876, `open_chest` L1883
+  `apply_offline_progress` L1912, `cook` L1926, `cook_recipe` L1930, `use_consumable` L1934, `food_restore_values` L1938, `food_preview` L1942, `eat_food` L1946, `mark_explored` L1954
+  `get_gather_remaining` L1998, `get_gather_capacity` L2009, `get_base_coord` L2013, `establish_base_at` L2023, `get_campfire_build_spot` L2092, `build_campfire_at` L2109, `get_camp_structure_def` L2146, `has_camp_structure` L2150
+  `camp_current_structure_key` L2154, `camp_level_up_cost` L2158, `can_level_up_camp` L2162, `level_up_camp` L2166, `build_camp_structure` L2181, `can_establish_base_at` L2240, `base_territory_size` L2316, `is_within_base_territory` L2329
+  `get_buildable_structure_at` L2345, `is_valid_camp_build_spot` L2358, `consume_gather` L2389, `to_dict` L2413, `from_dict` L2500, `get_surrounding_hex_coords` L2822, `has_all_professions_unlocked` L2841
+- **privadas:** `_ready` L358, `_unhandled_input` L411, `_grant_job_xp_to_non_active` L705, `_store_active_job_progress` L743, `_don_nadie_progress` L754, `_load_job_progress_for` L761, `_item_counts_toward_cap` L956, `_slot_count_of` L960
+  `_transfer_item_entry` L993, `_default_combat_skill_slots` L1338, `_bestiary_entry` L1541, `_progress_hunt_quests` L1593, `_canonical_npc_id` L1665, `_now_unix` L1962, `_node_key` L1966, `_apply_node_regen` L1970
+  `_capacity_for` L1991, `_refresh_base_label` L2075, `_parse_delta_key` L2136, `_is_free_camp_cell` L2260, `_find_free_camp_spot` L2289, `_reset_camp_cell` L2373, `_run_save_migrations` L2487, `_serialize_explored` L2746
+  `_deserialize_explored_entry` L2773, `_serialize_equipped` L2786, `_serialize_inventory` L2799, `_serialize_inventory_array` L2804
 
 ### `Juice`  ·  autoload **Juice**
-`scripts/autoload/Juice.gd` · 277 líneas · extends `Node`
+`scripts/autoload/Juice.gd` · 562 líneas · extends `Node`
 
 SERVICIO DE "JUICE" (game feel) — Autoload/Singleton
-- **funcs:** `reduced` L44, `fade_out` L54, `fade_in` L62, `transition` L72, `view_in` L85, `hit_stop` L105, `shake` L123, `flash` L192
-  `pop` L209, `damage_number` L226
-- **privadas:** `_ready` L31, `_shake_control` L146, `_shake_node2d` L158, `_shake_camera3d` L170
+- **funcs:** `show_loading` L274, `set_loading_subtitle` L297, `hide_loading` L303, `reduced` L320, `fade_out` L330, `fade_in` L338, `transition` L349, `view_in` L370
+  `hit_stop` L390, `shake` L408, `flash` L477, `pop` L494, `damage_number` L511
+- **privadas:** `_ready` L43, `_build_loading_ui` L57, `_draw_loading_web_icon` L175, `_draw_loading_spinner` L199, `_draw_loading_divider` L241, `_process` L264, `_shake_control` L431, `_shake_node2d` L443
+  `_shake_camera3d` L455
 
 ### `Locale`  ·  autoload **Locale**
-`scripts/autoload/Locale.gd` · 984 líneas · extends `Node`
+`scripts/autoload/Locale.gd` · 1003 líneas · extends `Node`
 
 Autoload Singleton — Internacionalización (i18n) y ajustes persistentes.
 
 - **signals:** `locale_changed` L12, `audio_changed` L15, `accessibility_changed` L18, `theme_changed` L49
-- **funcs:** `t` L112, `pick` L127, `is_supported` L139, `set_locale` L148, `toggle_locale` L159, `set_master_volume` L164, `set_sfx_enabled` L171, `set_reduce_motion` L179
-  `set_font_scale` L186, `set_colorblind` L201, `set_text_speed` L208, `set_left_handed` L215, `set_ui_theme_id` L224, `has_key` L967, `translate_cell_name` L971, `translate_cell_desc` L979
-- **privadas:** `_ready` L55, `_ensure_main_theme_cjk` L70, `_resolve_fallback` L89, `_apply_font_scale` L194, `_apply_theme_font` L241, `_load_settings` L256, `_save_settings` L273, `_apply_audio` L287
-  `_build_table` L299
+- **funcs:** `t` L117, `pick` L132, `is_supported` L144, `set_locale` L153, `toggle_locale` L164, `set_master_volume` L169, `set_sfx_enabled` L176, `set_reduce_motion` L184
+  `set_font_scale` L191, `set_colorblind` L206, `set_text_speed` L213, `set_left_handed` L220, `set_ui_theme_id` L229, `has_key` L972, `translate_cell_name` L976, `translate_cell_desc` L984
+  `translate_profession` L993
+- **privadas:** `_ready` L55, `_ensure_main_theme_cjk` L70, `_resolve_fallback` L94, `_apply_font_scale` L199, `_apply_theme_font` L246, `_load_settings` L261, `_save_settings` L278, `_apply_audio` L292
+  `_build_table` L304
 
 ### `MetaManager`  ·  autoload **MetaManager**
 `scripts/autoload/MetaManager.gd` · 109 líneas · extends `Node`
@@ -139,15 +141,15 @@ Autoload Singleton — Sistema de guardado y carga de la partida.
 - **privadas:** `_ready` L33, `_await_pending_async_save` L90, `_on_state_updated` L144, `_on_autosave_timeout` L148, `_notification` L172
 
 ### `SceneManager`  ·  autoload **SceneManager**
-`scripts/autoload/SceneManager.gd` · 282 líneas · extends `Node`
+`scripts/autoload/SceneManager.gd` · 287 líneas · extends `Node`
 
 Autoload Singleton — Gestiona la navegación entre vistas sin destruir escenas.
 
 - **signals:** `navigate_to` L10, `view_changed` L13, `tab_switched` L16, `combat_started` L19, `combat_ended` L23
-- **funcs:** `is_orb_allowed` L52, `go_to_splash` L73, `go_to_menu` L83, `go_to_world` L97, `go_to_orb_room` L109, `go_to_place` L115, `go_to_city` L122, `go_to_building` L128
-  `back_to_city` L137, `go_to_dungeon` L143, `go_to_cook` L152, `go_to_forge` L158, `go_to_shop` L164, `go_to_training` L170, `go_to_encargos` L178, `go_to_transport` L184
-  `go_to_view` L190, `switch_tab` L196, `start_combat` L204, `end_combat` L215, `change_view_threaded` L235
-- **privadas:** `_ready` L31, `_process` L255, `_finish_threaded_load` L269
+- **funcs:** `is_orb_allowed` L52, `go_to_splash` L76, `go_to_menu` L86, `go_to_world` L100, `go_to_orb_room` L112, `go_to_place` L118, `go_to_city` L125, `go_to_building` L131
+  `back_to_city` L140, `go_to_dungeon` L146, `go_to_cook` L157, `go_to_forge` L163, `go_to_shop` L169, `go_to_training` L175, `go_to_encargos` L183, `go_to_transport` L189
+  `go_to_view` L195, `switch_tab` L201, `start_combat` L209, `end_combat` L220, `change_view_threaded` L240
+- **privadas:** `_ready` L31, `_process` L260, `_finish_threaded_load` L274
 
 ### `SceneRunner`  ·  autoload **SceneRunner**
 `scripts/autoload/SceneRunner.gd` · 627 líneas · extends `Node`
@@ -228,24 +230,24 @@ CARGADOR UNIVERSAL INTELIGENTE DE MODELOS 3D (.tscn, .glb, .gltf, .obj)
 - **privadas:** `_do_resolve_path`(s) L267, `_check_file_with_extensions`(s) L325
 
 ### `OrbBarksManager`  ·  autoload **OrbBarksManager**
-`scripts/systems/OrbBarksManager.gd` · 347 líneas · extends `Node`
+`scripts/systems/OrbBarksManager.gd` · 472 líneas · extends `Node`
 
 GESTOR DE FASES Y MENSAJES DE LA ESFERA DE LA VERDAD
 
 - **signals:** `bark_requested` L13, `important_message_requested` L14
-- **funcs:** `get_current_phase` L95, `set_phase` L102, `get_small_hint` L115, `trigger_auto_comment` L130, `trigger_bark` L135, `trigger_story_popup` L142, `trigger_bark_key` L147, `trigger_important_message` L159
-  `trigger_bark_from_token` L166, `check_overworld_milestones` L174, `trigger_stuck_hint` L244, `reset_stuck_timer` L249, `check_skill_overflow_milestone` L259, `check_trial_completed_milestone` L280
-- **privadas:** `_ready` L48, `_load_barks_db` L68, `_process` L80, `_on_state_updated` L253
+- **funcs:** `get_current_phase` L175, `set_phase` L182, `get_small_hint` L196, `trigger_auto_comment` L220, `trigger_bark` L234, `trigger_story_popup` L250, `trigger_bark_key` L255, `trigger_important_message` L267
+  `trigger_bark_from_token` L274, `check_overworld_milestones` L282, `trigger_stuck_hint` L360, `reset_stuck_timer` L374, `check_skill_overflow_milestone` L384, `check_trial_completed_milestone` L405
+- **privadas:** `_ready` L128, `_load_barks_db` L148, `_process` L160, `_on_state_updated` L378
 
 ### `OrbCompanionManager`  ·  autoload **OrbCompanionManager**
-`scripts/systems/OrbCompanionManager.gd` · 1698 líneas · extends `Node`
+`scripts/systems/OrbCompanionManager.gd` · 1760 líneas · extends `Node`
 
 GESTOR DINÁMICO DE DIÁLOGOS Y COMPORTAMIENTO DE LA ESFERA ACOMPAÑANTE
 
 - **signals:** `play_orb_bark` L17
-- **funcs:** `trigger_bark` L1359, `play` L1523, `set_cooldown` L1532, `is_on_cooldown` L1537, `notify_step` L1565, `notify_idle` L1622, `on_orb_clicked` L1639, `on_combat_ended` L1672
+- **funcs:** `trigger_bark` L1359, `play` L1523, `set_cooldown` L1532, `is_on_cooldown` L1537, `notify_step` L1565, `notify_idle` L1622, `on_orb_clicked` L1690, `on_combat_ended` L1734
 - **privadas:** `_ready` L1282, `_on_locale_changed` L1294, `_pool` L1301, `_process` L1320, `_get_next_line` L1332, `_init_deck` L1349, `_get_global_state` L1543, `_get_orb_barks_manager` L1550
-  `_get_quest_manager` L1557, `_pick_locale` L1627
+  `_get_quest_manager` L1557, `_pick_locale` L1676
 
 ### `RefineManager`
 `scripts/systems/RefineManager.gd` · 156 líneas · extends `RefCounted`
@@ -270,13 +272,13 @@ ADAPTADORES DEL SISTEMA NARRATIVO.
 - **funcs:** `punch_scale`(s) L16, `pop_in`(s) L31, `burst`(s) L44, `glow_flash`(s) L74, `harvest_fx`(s) L92, `build_fx`(s) L102, `explosion_fx`(s) L111
 
 ### `WorldMapBuilder`
-`scripts/systems/WorldMapBuilder.gd` · 744 líneas · extends `RefCounted`
+`scripts/systems/WorldMapBuilder.gd` · 761 líneas · extends `RefCounted`
 
 Constructor del MAPAMUNDI (datos) que consume la vista 3D (TabWorld3D).
-- **funcs:** `build_into_global`(s) L49, `apply_world_deltas`(s) L425, `apply_delta_to_cell`(s) L450, `apply_transform`(s) L469, `apply_monkey_cleared`(s) L581, `apply_cave_cleared`(s) L599, `apply_dam_opened`(s) L617
-- **privadas:** `_make_cell`(s) L175, `_apply_terrain_visual`(s) L270, `_apply_terrain_def`(s) L292, `_apply_grs`(s) L317, `_apply_des`(s) L324, `_apply_ice`(s) L328, `_apply_bad`(s) L333, `_apply_gnd`(s) L337
-  `_apply_cst`(s) L342, `_apply_sea`(s) L347, `_apply_mnt`(s) L352, `_apply_lav`(s) L357, `_apply_resource_visual`(s) L366, `_parse_coord_key`(s) L458, `_run_builtin`(s) L479, `_apply_rules`(s) L497
-  `_cell_matches`(s) L517, `_apply_set`(s) L542, `_text`(s) L571
+- **funcs:** `build_into_global`(s) L49, `apply_world_deltas`(s) L442, `apply_delta_to_cell`(s) L467, `apply_transform`(s) L486, `apply_monkey_cleared`(s) L598, `apply_cave_cleared`(s) L616, `apply_dam_opened`(s) L634
+- **privadas:** `_make_cell`(s) L186, `_apply_terrain_visual`(s) L287, `_apply_terrain_def`(s) L309, `_apply_grs`(s) L334, `_apply_des`(s) L341, `_apply_ice`(s) L345, `_apply_bad`(s) L350, `_apply_gnd`(s) L354
+  `_apply_cst`(s) L359, `_apply_sea`(s) L364, `_apply_mnt`(s) L369, `_apply_lav`(s) L374, `_apply_resource_visual`(s) L383, `_parse_coord_key`(s) L475, `_run_builtin`(s) L496, `_apply_rules`(s) L514
+  `_cell_matches`(s) L534, `_apply_set`(s) L559, `_text`(s) L588
 
 ## Config (scripts/config)
 
@@ -289,25 +291,25 @@ Constructor del MAPAMUNDI (datos) que consume la vista 3D (TabWorld3D).
 - **privadas:** `_load_cfg`(s) L30, `_cf`(s) L40, `_ci`(s) L41, `_cb`(s) L42, `_cs`(s) L43, `_cd`(s) L44, `_merge_camp_structures`(s) L490, `_merge_rarities`(s) L927
 
 ### `UiKit`
-`scripts/config/UiKit.gd` · 2047 líneas · extends `RefCounted`
-- **funcs:** `theme_color`(s) L356, `theme_float`(s) L364, `cjk_fallback_font`(s) L395, `ensure_font_cjk_fallback`(s) L426, `ensure_theme_cjk_fallback`(s) L434, `build_theme_font`(s) L443, `theme_font`(s) L461, `premium_frame`(s) L500
-  `get_premium_material`(s) L596, `premium_panel`(s) L625, `premium_dialog_panel`(s) L633, `premium_button`(s) L645, `panel`(s) L689, `neoclassic_panel`(s) L706, `card`(s) L719, `card_tinted`(s) L733
-  `dialog_panel`(s) L745, `header`(s) L757, `bar_bg`(s) L768, `bar_fill`(s) L778, `chip`(s) L788, `refine_badge`(s) L800, `with_corner_badge`(s) L823, `button_primary`(s) L839
-  `button_ghost`(s) L850, `button_outline`(s) L861, `empty`(s) L872, `heading_font`(s) L886, `apply_heading`(s) L900, `section_title`(s) L908, `style_progress`(s) L920, `style_progress_bordered`(s) L927
-  `pop`(s) L937, `bind_press_feedback`(s) L952, `style_segmented_tab`(s) L980, `section_header`(s) L1010, `margins`(s) L1022, `margins_all`(s) L1032, `toast`(s) L1038, `overlay`(s) L1061
-  `confirm`(s) L1077, `show_ephemeral_modal`(s) L1141, `check_option_facet_req`(s) L1231, `create_narrative_info_drawer`(s) L1297, `show_item_modal`(s) L1396, `alert`(s) L1470, `rarity_color`(s) L1532, `pill`(s) L1541
-  `banner`(s) L1554, `hero_card`(s) L1565, `button_tonal`(s) L1578, `avatar`(s) L1637, `resource_pill`(s) L1642, `strip_emojis`(s) L1661, `load_texture_safe`(s) L1672, `show_stat_toast`(s) L1709
-  `animate_in`(s) L1865, `animate_out`(s) L1882, `show_harvest_toast`(s) L1901, `show_profession_unlocked_modal`(s) L1927
-- **privadas:** `_ensure_cjk_fallback`(s) L413, `_get_premium_border_shader`(s) L481, `_premium_fallback_style`(s) L609
+`scripts/config/UiKit.gd` · 2065 líneas · extends `RefCounted`
+- **funcs:** `theme_color`(s) L356, `theme_float`(s) L364, `cjk_fallback_font`(s) L395, `emoji_fallback_font`(s) L416, `ensure_font_cjk_fallback`(s) L441, `ensure_theme_cjk_fallback`(s) L447, `build_theme_font`(s) L457, `theme_font`(s) L479
+  `premium_frame`(s) L518, `get_premium_material`(s) L614, `premium_panel`(s) L643, `premium_dialog_panel`(s) L651, `premium_button`(s) L663, `panel`(s) L707, `neoclassic_panel`(s) L724, `card`(s) L737
+  `card_tinted`(s) L751, `dialog_panel`(s) L763, `header`(s) L775, `bar_bg`(s) L786, `bar_fill`(s) L796, `chip`(s) L806, `refine_badge`(s) L818, `with_corner_badge`(s) L841
+  `button_primary`(s) L857, `button_ghost`(s) L868, `button_outline`(s) L879, `empty`(s) L890, `heading_font`(s) L904, `apply_heading`(s) L918, `section_title`(s) L926, `style_progress`(s) L938
+  `style_progress_bordered`(s) L945, `pop`(s) L955, `bind_press_feedback`(s) L970, `style_segmented_tab`(s) L998, `section_header`(s) L1028, `margins`(s) L1040, `margins_all`(s) L1050, `toast`(s) L1056
+  `overlay`(s) L1079, `confirm`(s) L1095, `show_ephemeral_modal`(s) L1159, `check_option_facet_req`(s) L1249, `create_narrative_info_drawer`(s) L1315, `show_item_modal`(s) L1414, `alert`(s) L1488, `rarity_color`(s) L1550
+  `pill`(s) L1559, `banner`(s) L1572, `hero_card`(s) L1583, `button_tonal`(s) L1596, `avatar`(s) L1655, `resource_pill`(s) L1660, `strip_emojis`(s) L1679, `load_texture_safe`(s) L1690
+  `show_stat_toast`(s) L1727, `animate_in`(s) L1883, `animate_out`(s) L1900, `show_harvest_toast`(s) L1919, `show_profession_unlocked_modal`(s) L1945
+- **privadas:** `_ensure_cjk_fallback`(s) L426, `_get_premium_border_shader`(s) L499, `_premium_fallback_style`(s) L627
 
 ## Recursos (resources)
 
 ### `CellResource`
-`resources/definitions/CellResource.gd` · 309 líneas · extends `Resource`
+`resources/definitions/CellResource.gd` · 349 líneas · extends `Resource`
 
 Recurso personalizado que define cualquier casilla del mapamundi.
-- **funcs:** `has_stone_path` L40, `set_gather_depleted` L135, `is_gather_depleted` L136, `is_growing_crop` L147, `is_crop_mature` L153, `is_walkable_terrain` L176, `is_gather_node` L184, `gather_skill` L189
-  `is_solid` L196, `is_interactive` L211, `is_poi` L223, `opens_view` L249, `derive_legacy` L282
+- **funcs:** `has_stone_path` L42, `set_gather_depleted` L137, `is_gather_depleted` L138, `is_growing_crop` L149, `is_crop_mature` L155, `is_walkable_terrain` L178, `is_gather_node` L186, `gather_skill` L191
+  `is_solid` L198, `is_interactive` L213, `is_poi` L225, `opens_view` L251, `derive_legacy` L284, `get_display_name` L315, `get_display_description` L334
 
 ### `DialogueResource`
 `resources/definitions/DialogueResource.gd` · 19 líneas · extends `Resource`
@@ -323,20 +325,21 @@ Recurso personalizado para definir armas, armaduras y accesorios del héroe.
 ## Game Root / navegación
 
 ### `GameRoot`
-`scenes/game/game_root/GameRoot.gd` · 2615 líneas · extends `Control`
+`scenes/game/game_root/GameRoot.gd` · 2654 líneas · extends `Control`
 
 Escena principal del juego — contiene HUD, ViewStack y TabBar.
-- **funcs:** `is_radial_menu_open` L1703, `open_hub_modal_tab` L1779, `open_character_subtab` L1785, `refresh_hud_location_title` L1950
-- **privadas:** `_ready` L112, `_on_hud_theme_changed` L159, `_set_hud_panel_visible` L177, `_update_radial_button_visibility` L186, `_update_responsive_layout` L196, `_setup_redesigned_hud` L342, `_apply_hud_scale` L573, `_build_floating_radial_button` L621
-  `_style_floating_radial_button` L659, `_build_floating_map_button` L684, `_style_floating_map_button` L724, `_build_hud_profession_modal` L748, `_setup_hud_profession_modal` L815, `_open_hud_profession_modal` L907, `_on_hud_profession_selected` L927, `_instantiate_views` L934
-  `_connect_signals` L975, `_on_achievement_unlocked` L1017, `_on_tutorial_step` L1026, `_on_leveled_up` L1034, `_on_job_leveled_up` L1041, `_on_skill_leveled_up` L1053, `_announce_levelup` L1081, `_flush_pending_levelup_toasts` L1092
-  `_show_levelup_flow` L1102, `_profession_name_str` L1172, `_on_game_saved` L1180, `_show_meta_toast` L1194, `_on_navigate_to` L1268, `_on_tab_switched` L1413, `_enter_orb_room` L1439, `_on_orb_finished` L1452
-  `_on_dam_opened` L1479, `_run_dam_cinematic` L1489, `_recreate_world_view` L1514, `_flash_transition` L1534, `_on_combat_started` L1546, `_on_combat_ended` L1567, `_input` L1595, `_shortcut_input` L1607
-  `_unhandled_key_input` L1611, `_is_radial_hotkey` L1615, `_handle_global_hotkeys` L1637, `_toggle_radial_menu` L1707, `_on_radial_menu_closed` L1719, `_get_or_create_hub_modal` L1735, `_on_hub_modal_closed` L1745, `_on_hub_wants_standalone_options` L1753
-  `_on_radial_action_selected` L1759, `_toggle_floating_view` L1792, `_handle_escape_key` L1813, `_show_view` L1893, `_update_hud_center_and_right_slots` L1954, `_build_location_bar` L2030, `_update_location_bar` L2071, `_location_title` L2080
-  `_build_hazard_bar` L2089, `_process` L2136, `_hazard_fill_mult` L2161, `_refresh_hazard_bar` L2175, `_player_died_from_hazard` L2191, `_refresh_hud` L2213, `_start_hud_hp_danger` L2283, `_stop_hud_hp_danger` L2294
-  `_refresh_materials_row` L2304, `_hero_symbol` L2362, `_profession_label` L2370, `_refresh_tab_texts` L2378, `_on_locale_changed` L2400, `_set_world_modal` L2411, `_open_menu` L2427, `_close_menu` L2441
-  `_on_return_to_main_menu` L2449, `_set_active_tab` L2480, `_on_passive_timer_timeout` L2520, `_on_btn_close_cs_pressed` L2530, `_check_offline_progress` L2537, `_show_offline_popup` L2545, `_format_offline_time` L2601, `_res_display` L2610
+- **funcs:** `is_radial_menu_open` L1742, `open_hub_modal_tab` L1818, `open_character_subtab` L1824, `refresh_hud_location_title` L1989
+- **privadas:** `_ready` L112, `_on_hud_theme_changed` L161, `_set_hud_panel_visible` L179, `_update_radial_button_visibility` L188, `_update_responsive_layout` L198, `_setup_redesigned_hud` L344, `_apply_hud_scale` L575, `_build_floating_radial_button` L623
+  `_style_floating_radial_button` L662, `_draw_radial_hamburger` L683, `_build_floating_map_button` L705, `_style_floating_map_button` L745, `_build_hud_profession_modal` L769, `_setup_hud_profession_modal` L836, `_open_hud_profession_modal` L928, `_on_hud_profession_selected` L948
+  `_instantiate_views` L955, `_connect_signals` L996, `_on_achievement_unlocked` L1038, `_on_tutorial_step` L1047, `_on_leveled_up` L1055, `_on_job_leveled_up` L1062, `_on_skill_leveled_up` L1074, `_announce_levelup` L1102
+  `_flush_pending_levelup_toasts` L1113, `_show_levelup_flow` L1123, `_profession_name_str` L1193, `_on_game_saved` L1201, `_show_meta_toast` L1215, `_on_navigate_to` L1289, `_on_tab_switched` L1452, `_enter_orb_room` L1478
+  `_on_orb_finished` L1491, `_on_dam_opened` L1518, `_run_dam_cinematic` L1528, `_recreate_world_view` L1553, `_flash_transition` L1573, `_on_combat_started` L1585, `_on_combat_ended` L1606, `_input` L1634
+  `_shortcut_input` L1646, `_unhandled_key_input` L1650, `_is_radial_hotkey` L1654, `_handle_global_hotkeys` L1676, `_toggle_radial_menu` L1746, `_on_radial_menu_closed` L1758, `_get_or_create_hub_modal` L1774, `_on_hub_modal_closed` L1784
+  `_on_hub_wants_standalone_options` L1792, `_on_radial_action_selected` L1798, `_toggle_floating_view` L1831, `_handle_escape_key` L1852, `_show_view` L1932, `_update_hud_center_and_right_slots` L1993, `_build_location_bar` L2069, `_update_location_bar` L2110
+  `_location_title` L2119, `_build_hazard_bar` L2128, `_process` L2175, `_hazard_fill_mult` L2200, `_refresh_hazard_bar` L2214, `_player_died_from_hazard` L2230, `_refresh_hud` L2252, `_start_hud_hp_danger` L2322
+  `_stop_hud_hp_danger` L2333, `_refresh_materials_row` L2343, `_hero_symbol` L2401, `_profession_label` L2409, `_refresh_tab_texts` L2417, `_on_locale_changed` L2439, `_set_world_modal` L2450, `_open_menu` L2466
+  `_close_menu` L2480, `_on_return_to_main_menu` L2488, `_set_active_tab` L2519, `_on_passive_timer_timeout` L2559, `_on_btn_close_cs_pressed` L2569, `_check_offline_progress` L2576, `_show_offline_popup` L2584, `_format_offline_time` L2640
+  `_res_display` L2649
 
 ## Tabs (pestañas inferiores)
 
@@ -349,16 +352,16 @@ Controlador de la pestaña de la Bolsa/Inventario.
   `_use_consumable` L696, `_use_important_item` L716, `_inspect_equipment` L739
 
 ### `TabCharacter`
-`scenes/tabs/tab_character/TabCharacter.gd` · 1798 líneas · extends `Control`
+`scenes/tabs/tab_character/TabCharacter.gd` · 1795 líneas · extends `Control`
 
 Controlador de la Ficha de Personaje. Muestra Stats + Facetas en una única
 - **privadas:** `_ready` L72, `_build_shell` L96, `_refresh_v_sidebar` L164, `_on_close_pressed` L195, `_update_responsive_layout` L205, `_subtab_defs` L295, `_switch_subtab` L307, `_on_locale_changed` L313
   `_refresh` L321, `_restore_scroll_vertical` L342, `_build_unified_3col` L350, `_ignore_mouse_recursive` L385, `_enable_drag_scroll` L393, `_new_scroll_host` L411, `_hero_symbol` L436, `_profession_texture` L450
-  `_profession_icon` L457, `_profession_name` L464, `_profession_color` L472, `_hsep` L480, `_labeled_bar` L485, `_pending_points_total` L509, `_remaining_stat_points` L517, `_build_points_banner` L528
-  `_build_stats` L606, `_accordion_section` L644, `_build_core_section` L671, `_build_combat_section` L684, `_build_professions_section` L696, `_build_oficios_section` L701, `_simulated_stat` L705, `_derived_list` L710
-  `_build_professions_summary` L788, `_make_profession_summary_row` L829, `_make_profession_summary_card` L885, `_make_core_stat_card` L940, `_make_reset_button` L1058, `_confirm_pending_stat_alloc` L1101, `_show_reset_confirm` L1118, `_make_derived_card` L1133
-  `_build_dungeon_skills` L1193, `_build_exploration_skill_card` L1201, `_build_facetas` L1256, `_make_facet_card` L1275, `_make_center_bar` L1330, `_build_oficio` L1382, `_oficios` L1438, `_make_skill_card` L1451
-  `_build_profesiones` L1513, `_two_column_grid` L1559, `_make_profession_icon_button` L1575, `_make_profession_activate_button` L1621, `_make_technique_card` L1686
+  `_profession_icon` L457, `_profession_name` L464, `_profession_color` L469, `_hsep` L477, `_labeled_bar` L482, `_pending_points_total` L506, `_remaining_stat_points` L514, `_build_points_banner` L525
+  `_build_stats` L603, `_accordion_section` L641, `_build_core_section` L668, `_build_combat_section` L681, `_build_professions_section` L693, `_build_oficios_section` L698, `_simulated_stat` L702, `_derived_list` L707
+  `_build_professions_summary` L785, `_make_profession_summary_row` L826, `_make_profession_summary_card` L882, `_make_core_stat_card` L937, `_make_reset_button` L1055, `_confirm_pending_stat_alloc` L1098, `_show_reset_confirm` L1115, `_make_derived_card` L1130
+  `_build_dungeon_skills` L1190, `_build_exploration_skill_card` L1198, `_build_facetas` L1253, `_make_facet_card` L1272, `_make_center_bar` L1327, `_build_oficio` L1379, `_oficios` L1435, `_make_skill_card` L1448
+  `_build_profesiones` L1510, `_two_column_grid` L1556, `_make_profession_icon_button` L1572, `_make_profession_activate_button` L1618, `_make_technique_card` L1683
 
 ### `TabEquip`
 `scenes/tabs/tab_equip/TabEquip.gd` · 504 líneas · extends `Control`
@@ -375,20 +378,20 @@ PANTALLA INFORMACIÓN — vista de pestaña (como Personaje y Bolsa), NO un moda
   `_on_locale_changed` L214
 
 ### `TabProfessions`
-`scenes/tabs/tab_professions/TabProfessions.gd` · 955 líneas · extends `Control`
+`scenes/tabs/tab_professions/TabProfessions.gd` · 965 líneas · extends `Control`
 
 Vista dedicada a la gestión de Profesiones y asignación de 4 Habilidades de Combate.
-- **privadas:** `_ready` L44, `_build_ui` L57, `_enable_drag_scroll` L224, `_refresh` L240, `_render_prof_list` L252, `_ignore_mouse_recursive` L455, `_render_active_slots` L462, `_render_catalog` L537
-  `_render_upcoming` L656, `_assign_skill` L729, `_on_activate_pressed` L758, `_render_oficios_list` L764, `_show_skill_info_modal` L876
+- **privadas:** `_ready` L44, `_build_ui` L57, `_enable_drag_scroll` L224, `_refresh` L240, `_render_prof_list` L252, `_ignore_mouse_recursive` L455, `_render_active_slots` L462, `_render_catalog` L546
+  `_render_upcoming` L666, `_assign_skill` L739, `_on_activate_pressed` L768, `_render_oficios_list` L774, `_show_skill_info_modal` L886
 
 ### `TabWorld3D`
-`scenes/tabs/tab_world_3d/TabWorld3D.gd` · 5326 líneas · extends `Control`
+`scenes/tabs/tab_world_3d/TabWorld3D.gd` · 5346 líneas · extends `Control`
 
 PROTOTIPO V2 DEL MAPAMUNDI — Entorno 3D con cámara top-down.
 
-- **regions:** `CICLO DE VIDA` L588, `CONSTRUCCIÓN DE LA ESCENA 3D (SubViewport + cámara + luz + jugador)` L1183, `CONSTRUCCIÓN DE CASILLAS 3D` L1652, `NIEBLA DE GUERRA — aplicada a materiales (oculto / penumbra / visible)` L3286, `PATHFINDING Y GATING` L3291, `INPUT — MOVIMIENTO LIBRE (joystick táctil + teclado) y botón ENTRAR` L3448, `BARCO — navegación por costa/mar (ver GlobalState.boat_pos/is_sailing)` L3580, `CICLO DÍA / NOCHE — ILUMINACIÓN (consume TimeManager.daylight_factor())` L4004, `DAÑO AMBIENTAL POR TERRENO (data-driven: data/world_terrains/<code>.json)` L4014, `RELOJ DEL MUNDO (UI del ciclo día/noche)` L4109, `JOYSTICK VIRTUAL (aparece donde tocas en la zona inferior-izquierda)` L4287, `TELETRANSPORTE Y SPAWN SEGURO (evita siempre aparecer en mar, montaña o casillas bloqueantes)` L4323, `PANEL INFERIOR (ubicación / viaje) — construido por código` L4455, `GATING POR FASE DÍA/NOCHE (data-driven, reutilizable)` L4478, `HERRAMIENTAS + MODIFICACIÓN DEL TERRENO / CAMPAMENTO / ENEMIGOS` L4521, `OBJETOS INTERACTIVOS (cartel/lápida/libro…) — ventana de texto reutilizable` L4527, `RECOLECCIÓN EN EL MUNDO (sin cambiar de vista)` L4871, `SISTEMA DE MISIONES Y DIÁLOGO (con la corrección de aplazamiento)` L5091, `LOCALE` L5241, `CÁMARA DE CINEMÁTICAS (desacoplada del Sistema Narrativo)` L5266, `CINEMÁTICA DE LA PRESA PROGRESIVA` L5285
+- **regions:** `CICLO DE VIDA` L588, `CONSTRUCCIÓN DE LA ESCENA 3D (SubViewport + cámara + luz + jugador)` L1183, `CONSTRUCCIÓN DE CASILLAS 3D` L1652, `NIEBLA DE GUERRA — aplicada a materiales (oculto / penumbra / visible)` L3286, `PATHFINDING Y GATING` L3291, `INPUT — MOVIMIENTO LIBRE (joystick táctil + teclado) y botón ENTRAR` L3448, `BARCO — navegación por costa/mar (ver GlobalState.boat_pos/is_sailing)` L3580, `CICLO DÍA / NOCHE — ILUMINACIÓN (consume TimeManager.daylight_factor())` L4004, `DAÑO AMBIENTAL POR TERRENO (data-driven: data/world_terrains/<code>.json)` L4014, `RELOJ DEL MUNDO (UI del ciclo día/noche)` L4109, `JOYSTICK VIRTUAL (aparece donde tocas en la zona inferior-izquierda)` L4287, `TELETRANSPORTE Y SPAWN SEGURO (evita siempre aparecer en mar, montaña o casillas bloqueantes)` L4323, `PANEL INFERIOR (ubicación / viaje) — construido por código` L4455, `GATING POR FASE DÍA/NOCHE (data-driven, reutilizable)` L4478, `HERRAMIENTAS + MODIFICACIÓN DEL TERRENO / CAMPAMENTO / ENEMIGOS` L4521, `OBJETOS INTERACTIVOS (cartel/lápida/libro…) — ventana de texto reutilizable` L4527, `RECOLECCIÓN EN EL MUNDO (sin cambiar de vista)` L4871, `SISTEMA DE MISIONES Y DIÁLOGO (con la corrección de aplazamiento)` L5099, `LOCALE` L5249, `CÁMARA DE CINEMÁTICAS (desacoplada del Sistema Narrativo)` L5286, `CINEMÁTICA DE LA PRESA PROGRESIVA` L5305
 - **funcs:** `set_modal_mode` L745, `is_cell_passable` L3405, `hide_clock_and_map` L4117, `release_clock_and_map` L4133, `attach_clock_and_map_to_slot` L4148, `ensure_map_button` L4182, `teleport_player_to` L4424, `get_active_location_title` L4466
-  `run_dam_opened_cinematic` L5290
+  `run_dam_opened_cinematic` L5310
 - **privadas:** `_ready` L607, `_update_responsive_layout` L703, `_process` L765, `_cheby` L880, `_animate_walk_cycle` L891, `_animate_nearby` L979, `_animate_wandering_animal` L1045, `_update_terrain_step_particles` L1126
   `_configure_terrain_step_particles` L1145, `_build_viewport_and_scene` L1184, `_build_player_character` L1450, `_import_animation_library` L1506, `_find_animation_player` L1543, `_find_skeleton` L1553, `_enable_model_shadows` L1563, `_get_player_profession_texture` L1574
   `_profession_color` L1607, `_refresh_player_profession_tint` L1617, `_on_global_state_updated` L1627, `_mat` L1642, `_build_tiles` L1657, `_rebuild_tiles` L1671, `_chunk_key_prefix` L1722, `_finalize_chunk_from_classified` L1731
@@ -405,9 +408,9 @@ PROTOTIPO V2 DEL MAPAMUNDI — Entorno 3D con cámara top-down.
   `_position_joystick` L4317, `_find_nearest_walkable_cell` L4325, `_find_safe_spawn_world_pos` L4355, `_is_spawn_pos_valid` L4412, `_build_bottom_panel` L4460, `_gather_action_label` L4463, `_update_location_panel` L4469, `_location_subtitle` L4472
   `_poi_open_phase` L4482, `_is_poi_time_locked` L4491, `_apply_phase_gate_to_enter` L4500, `_phase_lock_hint` L4513, `_open_interactive_popup` L4534, `_nudge_player_off_solid_cell` L4551, `_on_enter_pressed` L4574, `_check_and_trigger_cell_cinematic` L4638
   `_check_and_open_world_chest` L4680, `_show_world_chest_loot_dialogue` L4727, `_confirm_dungeon_entry` L4821, `_resolve_gather_res` L4874, `_gather_fx_color` L4888, `_on_gather_pressed` L4901, `_refresh_gather_button` L4970, `_play_chop` L4978
-  `_spawn_world_float` L4986, `_show_discovery_banner` L5009, `_maybe_announce_discovery` L5059, `_reveal_around` L5077, `_setup_quest_system` L5092, `_on_visibility_changed` L5106, `_enable_subviewport_when_ready` L5172, `_on_map_cell_changed` L5181
-  `_on_combat_triggered` L5204, `_rebuild_marker` L5219, `_on_locale_changed` L5242, `_refresh_world_labels_theme` L5253, `_on_cine_camera_event` L5276, `_on_scene_runner_finished` L5279, `_get_propagation_delay` L5293, `_spawn_temp_tile_popup` L5296
-  `_update_base_aura` L5299, `_check_puerto_crisis_event` L5305
+  `_spawn_world_float` L4986, `_show_discovery_banner` L5009, `_maybe_announce_discovery` L5059, `_reveal_around` L5085, `_setup_quest_system` L5100, `_on_visibility_changed` L5114, `_enable_subviewport_when_ready` L5180, `_on_map_cell_changed` L5189
+  `_on_combat_triggered` L5212, `_rebuild_marker` L5227, `_on_locale_changed` L5250, `_refresh_world_labels_text` L5258, `_refresh_world_labels_theme` L5273, `_on_cine_camera_event` L5296, `_on_scene_runner_finished` L5299, `_get_propagation_delay` L5313
+  `_spawn_temp_tile_popup` L5316, `_update_base_aura` L5319, `_check_puerto_crisis_event` L5325
 
 ### `WeatherOverlay`
 `scenes/tabs/tab_world_3d/WeatherOverlay.gd` · 161 líneas · extends `CanvasLayer`
@@ -514,10 +517,10 @@ HERRAMIENTAS + MODIFICACIÓN DEL TERRENO (data-driven, persistente vía deltas):
 - **privadas:** `_is_far_enough_from_water`(s) L133
 
 ### `TravelSystem`
-`scenes/tabs/tab_world_3d/interactive/TravelSystem.gd` · 121 líneas · extends `RefCounted`
+`scenes/tabs/tab_world_3d/interactive/TravelSystem.gd` · 132 líneas · extends `RefCounted`
 
 VIAJE RÁPIDO: overlay con los destinos descubiertos (incluida la tienda de
-- **funcs:** `open_travel_menu`(s) L18, `travel_to`(s) L103, `close_travel_overlay`(s) L118
+- **funcs:** `open_travel_menu`(s) L18, `travel_to`(s) L114, `close_travel_overlay`(s) L129
 
 ### `WorldChunkStreamer`
 `scenes/tabs/tab_world_3d/interactive/WorldChunkStreamer.gd` · 178 líneas · extends `RefCounted`
@@ -555,7 +558,7 @@ NIEBLA DE GUERRA (oculto / penumbra / visible) + VISIBILIDAD DE MARCADORES Y
   `update_gather_collision`(s) L139, `apply_cell_visual`(s) L165
 
 ### `WorldHudBuilder`
-`scenes/tabs/tab_world_3d/interactive/WorldHudBuilder.gd` · 615 líneas · extends `RefCounted`
+`scenes/tabs/tab_world_3d/interactive/WorldHudBuilder.gd` · 639 líneas · extends `RefCounted`
 
 - **regions:** `JOYSTICK VIRTUAL` L38, `PANEL INFERIOR (ubicación / viaje) — construido por código` L240
 - **funcs:** `setup` L34, `get_active_location_title` L422
@@ -584,32 +587,32 @@ Vista interior de una ciudad: muestra un grid de edificios clickables.
 - **privadas:** `_ready` L31, `_refresh_chrome` L63, `_build_building_buttons` L139, `_make_building_tile` L156, `_update_layout` L310, `_on_btn_exit_pressed` L350, `_on_btn_toggle_ui_pressed` L354
 
 ### `ViewCombat`
-`scenes/views/view_combat/ViewCombat.gd` · 4684 líneas · extends `Control`
+`scenes/views/view_combat/ViewCombat.gd` · 4682 líneas · extends `Control`
 
 SISTEMA DE COMBATE REDISEÑADO: TIEMPO REAL ACTIVO (ATB) + SINERGIAS + DEFENSA ACTIVA
 
-- **regions:** `CICLO DE VIDA E INICIALIZACIÓN DE LA UI` L892, `INICIAR COMBATE` L2287, `BUCLE DE PROCESAMIENTO ATB EN TIEMPO REAL` L2527, `EJECUCIÓN DE ACCIONES` L2562, `BULLET-TIME Y ANILLO DE IMPACTO (QTE DE DEFENSA, task_reforma_defensa.md)` L3601, `BOTONES DE ACCIONES RÁPIDAS` L3733, `ENCOLAR Y CHEQUEAR SINERGIAS (por IDs, data-driven desde synergies.json)` L3881, `GESTIÓN DE TABS E INTERFAZ SELECCIÓN` L4082, `RESOLUCIÓN DE COMBATE Y DAÑO / ESTADOS ALTERADOS` L4088, `PANEL DE RESULTADO, REFRESCO DE BARRAS/COLA Y BOTONES` L4155, `AUXILIARES E IA DEL ENEMIGO` L4277
+- **regions:** `CICLO DE VIDA E INICIALIZACIÓN DE LA UI` L892, `INICIAR COMBATE` L2287, `BUCLE DE PROCESAMIENTO ATB EN TIEMPO REAL` L2525, `EJECUCIÓN DE ACCIONES` L2560, `BULLET-TIME Y ANILLO DE IMPACTO (QTE DE DEFENSA, task_reforma_defensa.md)` L3599, `BOTONES DE ACCIONES RÁPIDAS` L3731, `ENCOLAR Y CHEQUEAR SINERGIAS (por IDs, data-driven desde synergies.json)` L3879, `GESTIÓN DE TABS E INTERFAZ SELECCIÓN` L4080, `RESOLUCIÓN DE COMBATE Y DAÑO / ESTADOS ALTERADOS` L4086, `PANEL DE RESULTADO, REFRESCO DE BARRAS/COLA Y BOTONES` L4153, `AUXILIARES E IA DEL ENEMIGO` L4275
 
 - **signals:** `combat_ended` L11
 - **funcs:** `set_hero_defending` L797, `play_hero_attack_reaction` L804, `play_hero_hurt_reaction` L811, `toggle_pause` L2050, `set_paused` L2056, `add_sintonia` L2239, `reset_hero_position` L2288, `start_combat` L2312
-  `regen_combat_mp` L3152, `play_enemy_hurt_reaction` L3592, `apply_damage_to_enemy` L4095, `apply_damage_to_player` L4098, `update_queue_ui_elements` L4168, `calculate_special_damage` L4281, `log_message` L4308
+  `regen_combat_mp` L3150, `play_enemy_hurt_reaction` L3590, `apply_damage_to_enemy` L4093, `apply_damage_to_player` L4096, `update_queue_ui_elements` L4166, `calculate_special_damage` L4279, `log_message` L4306
 - **privadas:** `_make_console_divider` L284, `_style_glossy_bar` L299, `_panel_style` L321, `_set_command_bar_dimmed` L338, `_show_enemy_attack_banner` L354, `_hide_enemy_attack_banner` L378, `_start_defense_pulse` L394, `_stop_defense_pulse` L410
   `_start_hero_idle_breathing` L423, `_play_hero_attack_lunge` L437, `_play_hero_defend_brace` L466, `_play_hero_hurt_shake` L496, `_play_hero_lunge_action` L524, `_style_jrpg_button` L528, `_set_jrpg_button_labels` L594, `_theme_color` L611
   `_safe_reparent` L616, `_apply_console_layout` L634, `_rescale_jrpg_button` L734, `_apply_top_hud_layout` L758, `_get_hero_full_body_texture_path` L771, `_update_hero_sprite_pose` L776, `_load_portrait_texture` L817, `_apply_orientation_layout` L839
   `_ready` L913, `_on_ui_theme_changed` L937, `_on_view_resized` L946, `_build_ui` L956, `_build_enemy_attack_banner` L1831, `_setup_profession_modal` L1930, `_unhandled_input` L2032, `_open_profession_modal` L2070
   `_on_profession_selected` L2088, `_update_quick_skill_info` L2093, `_toggle_compact_deck` L2117, `_make_stat_bar_direct` L2131, `_stat_bar_value_direct` L2150, `_make_ghost_hp_bar` L2165, `_animate_hp_bar` L2190, `_queue_slot_style` L2214
-  `_show_resonance_max_banner` L2250, `_process` L2531, `_is_awaiting_decision` L2565, `_on_player_turn_ready` L2571, `_base_pa_limit` L2596, `_effective_pa_cost` L2601, `_get_max_queue_slots` L2611, `_execute_queue_sequence` L2617
-  `_add_resonance_for_skill` L2695, `_grant_dummy_training_xp` L2709, `_resolve_player_skill` L2724, `_resolve_class_change_action` L2925, `_effect_hit_count` L2954, `_apply_skill_effect` L2970, `_apply_named_effect` L3000, `_apply_random_big_effect` L3073
-  `_show_resonant_aura` L3104, `_rebuild_powers_if_active` L3146, `_execute_basic_attack_damage` L3164, `_choose_enemy_skill` L3187, `_telegraph_enemy_intent` L3257, `_execute_enemy_action` L3309, `_play_enemy_windup` L3564, `_play_enemy_lunge` L3576
-  `_atb_diff_to_ring_radius` L3606, `_hero_chest_global_pos` L3613, `_enter_camera_focus` L3625, `_exit_camera_focus` L3643, `_enter_bullet_time` L3662, `_exit_bullet_time` L3683, `_resolve_defense_encounter` L3696, `_force_end_defense_effects` L3711
-  `_on_btn_attack_pressed` L3735, `_on_btn_defense_pressed` L3764, `_play_perfect_parry_flash` L3837, `_block_full_block` L3852, `_block_damage_mult` L3865, `_on_skill_pressed` L3882, `_check_and_fuse_synergies` L3935, `_animate_skill_fly` L3942
-  `_flash_skill_card` L4000, `_animate_synergy_fusion` L4012, `_skill_name` L4068, `_recount_queued_pa` L4074, `_play_intro_sequence` L4092, `_end_combat` L4101, `_resolve_attack_on_enemy` L4104, `_reveal_elemental_reaction` L4107
-  `_consume_status` L4110, `_status_tick` L4113, `_decrement_statuses` L4116, `_apply_status` L4119, `_try_apply_status_to_enemy` L4122, `_try_apply_status_to_player` L4125, `_apply_skill_status` L4128, `_update_status_labels` L4131
-  `_rebuild_status_icons` L4134, `_rebuild_status_icons_deferred` L4137, `_status_summary` L4140, `_status_icon` L4143, `_status_color` L4146, `_status_label` L4149, `_animate_result_panel` L4159, `_shake` L4162
-  `_build_queue_box_mapping` L4165, `_animate_synergy_badge` L4171, `_on_queue_slot_clicked` L4174, `_update_player_bars` L4177, `_update_resonance_glow` L4180, `_start_hp_danger_pulse` L4183, `_stop_hp_danger_pulse` L4186, `_sync_player_atb_labels` L4189
-  `_update_action_buttons` L4192, `_refresh_chrome` L4195, `_on_btn_return_pressed` L4198, `_update_flee_button` L4201, `_update_enemy_hp_bar_color` L4233, `_on_btn_flee_pressed` L4248, `_on_btn_one_hit_kill_pressed` L4268, `_enemy_name` L4332
-  `_resolve_combat_background_path` L4339, `_resolve_combat_platform_path` L4456, `_get_legacy_fallback_platform` L4521, `_element_icon` L4530, `_icons_for` L4534, `_enemy_info_text` L4541, `_skill_type_color` L4555, `_format_drops` L4566
-  `_update_defense_ring_geometry` L4579, `_align_enemy_and_platform` L4587
+  `_show_resonance_max_banner` L2250, `_process` L2529, `_is_awaiting_decision` L2563, `_on_player_turn_ready` L2569, `_base_pa_limit` L2594, `_effective_pa_cost` L2599, `_get_max_queue_slots` L2609, `_execute_queue_sequence` L2615
+  `_add_resonance_for_skill` L2693, `_grant_dummy_training_xp` L2707, `_resolve_player_skill` L2722, `_resolve_class_change_action` L2923, `_effect_hit_count` L2952, `_apply_skill_effect` L2968, `_apply_named_effect` L2998, `_apply_random_big_effect` L3071
+  `_show_resonant_aura` L3102, `_rebuild_powers_if_active` L3144, `_execute_basic_attack_damage` L3162, `_choose_enemy_skill` L3185, `_telegraph_enemy_intent` L3255, `_execute_enemy_action` L3307, `_play_enemy_windup` L3562, `_play_enemy_lunge` L3574
+  `_atb_diff_to_ring_radius` L3604, `_hero_chest_global_pos` L3611, `_enter_camera_focus` L3623, `_exit_camera_focus` L3641, `_enter_bullet_time` L3660, `_exit_bullet_time` L3681, `_resolve_defense_encounter` L3694, `_force_end_defense_effects` L3709
+  `_on_btn_attack_pressed` L3733, `_on_btn_defense_pressed` L3762, `_play_perfect_parry_flash` L3835, `_block_full_block` L3850, `_block_damage_mult` L3863, `_on_skill_pressed` L3880, `_check_and_fuse_synergies` L3933, `_animate_skill_fly` L3940
+  `_flash_skill_card` L3998, `_animate_synergy_fusion` L4010, `_skill_name` L4066, `_recount_queued_pa` L4072, `_play_intro_sequence` L4090, `_end_combat` L4099, `_resolve_attack_on_enemy` L4102, `_reveal_elemental_reaction` L4105
+  `_consume_status` L4108, `_status_tick` L4111, `_decrement_statuses` L4114, `_apply_status` L4117, `_try_apply_status_to_enemy` L4120, `_try_apply_status_to_player` L4123, `_apply_skill_status` L4126, `_update_status_labels` L4129
+  `_rebuild_status_icons` L4132, `_rebuild_status_icons_deferred` L4135, `_status_summary` L4138, `_status_icon` L4141, `_status_color` L4144, `_status_label` L4147, `_animate_result_panel` L4157, `_shake` L4160
+  `_build_queue_box_mapping` L4163, `_animate_synergy_badge` L4169, `_on_queue_slot_clicked` L4172, `_update_player_bars` L4175, `_update_resonance_glow` L4178, `_start_hp_danger_pulse` L4181, `_stop_hp_danger_pulse` L4184, `_sync_player_atb_labels` L4187
+  `_update_action_buttons` L4190, `_refresh_chrome` L4193, `_on_btn_return_pressed` L4196, `_update_flee_button` L4199, `_update_enemy_hp_bar_color` L4231, `_on_btn_flee_pressed` L4246, `_on_btn_one_hit_kill_pressed` L4266, `_enemy_name` L4330
+  `_resolve_combat_background_path` L4337, `_resolve_combat_platform_path` L4454, `_get_legacy_fallback_platform` L4519, `_element_icon` L4528, `_icons_for` L4532, `_enemy_info_text` L4539, `_skill_type_color` L4553, `_format_drops` L4564
+  `_update_defense_ring_geometry` L4577, `_align_enemy_and_platform` L4585
 
 ### `CombatDamageResolver`
 `scenes/views/view_combat/components/CombatDamageResolver.gd` · 650 líneas · extends `RefCounted`
@@ -671,19 +674,19 @@ Vista de la Cocina (se abre desde la Hoguera de la Base y campamentos).
   `_show_cook_result_banner` L459, `_update_layout` L489, `_input` L504
 
 ### `ViewDungeon`
-`scenes/views/view_dungeon/ViewDungeon.gd` · 2520 líneas · extends `Control`
+`scenes/views/view_dungeon/ViewDungeon.gd` · 2585 líneas · extends `Control`
 
 CONTROLADOR DE EXPLORACIÓN DE MAZMORRA EN 3D (Primera Persona)
-- **funcs:** `get_dungeon_name` L176, `setup` L707, `stop_exploration` L993, `resume_exploration` L1000, `purge_dungeon_temp_elements`(s) L1195, `set_active_checkpoint` L1843
-- **privadas:** `_ready` L138, `_on_dungeon_visibility_changed` L168, `_update_responsive_layout` L184, `_reposition_minimap` L204, `_build_hazard_overlay` L226, `_build_snow_mist_overlay` L235, `_build_exploration_hud` L254, `_build_minimap` L262
-  `_setup_debug_speed_button` L305, `_update_debug_speed_btn_label` L336, `_toggle_debug_speed` L342, `_setup_minimap_floor` L354, `_build_skill_effects` L372, `_on_time_slow_changed` L388, `_process` L406, `_update_tutorial_barks` L452
-  `_build_joystick` L507, `_input` L561, `_can_start_joystick_at` L622, `_start_left_joystick` L631, `_update_left_joystick` L641, `_reset_left_joystick` L649, `_position_left_joystick` L659, `_start_right_joystick` L665
-  `_update_right_joystick` L675, `_reset_right_joystick` L683, `_position_right_joystick` L693, `_refresh_chrome` L699, `_build_debug_lab` L947, `_setup_tutorial` L970, `_restore_trial_profession` L987, `_setup_dungeon_enemies` L1029
-  `_on_enemy_combat_triggered` L1045, `_get_boss_data` L1093, `_boss_key` L1104, `_remove_defeated_boss_nodes` L1116, `_collect_boss_nodes` L1126, `_update_boss_teleport_visibility` L1138, `_fallback_layout` L1167, `_fallback_cells` L1176
-  `_clean_up_3d` L1203, `_on_btn_leave_pressed` L1224, `_force_unlock_movement_on_exit` L1245, `_on_exit_portal_entered` L1251, `_handle_exit_portal` L1261, `_apply_dungeon_exit_to` L1333, `_apply_named_portal_exit` L1359, `_find_portal_world_coord` L1385
-  `_on_chest_entered` L1412, `_dim_chest_meshes` L1508, `_char_chest_meshes` L1519, `_show_chest_loot_dialogue` L1533, `_on_dungeon_cinematic_entered` L1613, `_trigger_dungeon_cinematic` L1622, `_on_teleport_entered` L1646, `_on_player_died` L1700
-  `_show_prologue_game_over` L1711, `_on_player_took_damage` L1804, `_on_player_water_changed` L1823, `_rest_overlay_color` L1834, `_cache_snow_walls` L1857, `_check_snow_dungeon_lost` L1878, `_trigger_snow_lost` L1907, `_hide_world_map_button` L1985
-  `_unhandled_input` L1998, `_setup_dun_final_6_event` L2005, `_start_memory_procession_sequence` L2038, `_collect_all_npc_memories` L2111, `_spawn_avatar_memory_node` L2198, `_show_sphere_discourse` L2282, `_build_memory_bridge` L2465
+- **funcs:** `get_dungeon_name` L247, `setup` L789, `stop_exploration` L1058, `resume_exploration` L1065, `purge_dungeon_temp_elements`(s) L1260, `set_active_checkpoint` L1908
+- **privadas:** `_ready` L198, `_on_dungeon_visibility_changed` L228, `_enable_subviewport_when_ready` L241, `_update_responsive_layout` L291, `_reposition_minimap` L314, `_build_hazard_overlay` L334, `_build_snow_mist_overlay` L343, `_build_exploration_hud` L362
+  `_build_minimap` L370, `_draw_dungeon_menu_hamburger` L414, `_setup_minimap_floor` L434, `_build_skill_effects` L452, `_on_time_slow_changed` L468, `_process` L486, `_update_tutorial_barks` L532, `_build_joystick` L589
+  `_input` L643, `_can_start_joystick_at` L700, `_start_left_joystick` L709, `_update_left_joystick` L719, `_reset_left_joystick` L727, `_position_left_joystick` L737, `_start_right_joystick` L743, `_update_right_joystick` L753
+  `_reset_right_joystick` L761, `_position_right_joystick` L771, `_refresh_chrome` L777, `_build_debug_lab` L1012, `_setup_tutorial` L1035, `_restore_trial_profession` L1052, `_setup_dungeon_enemies` L1094, `_on_enemy_combat_triggered` L1110
+  `_get_boss_data` L1158, `_boss_key` L1169, `_remove_defeated_boss_nodes` L1181, `_collect_boss_nodes` L1191, `_update_boss_teleport_visibility` L1203, `_fallback_layout` L1232, `_fallback_cells` L1241, `_clean_up_3d` L1268
+  `_on_btn_leave_pressed` L1289, `_force_unlock_movement_on_exit` L1310, `_on_exit_portal_entered` L1316, `_handle_exit_portal` L1326, `_apply_dungeon_exit_to` L1398, `_apply_named_portal_exit` L1424, `_find_portal_world_coord` L1450, `_on_chest_entered` L1477
+  `_dim_chest_meshes` L1573, `_char_chest_meshes` L1584, `_show_chest_loot_dialogue` L1598, `_on_dungeon_cinematic_entered` L1678, `_trigger_dungeon_cinematic` L1687, `_on_teleport_entered` L1711, `_on_player_died` L1765, `_show_prologue_game_over` L1776
+  `_on_player_took_damage` L1869, `_on_player_water_changed` L1888, `_rest_overlay_color` L1899, `_cache_snow_walls` L1922, `_check_snow_dungeon_lost` L1943, `_trigger_snow_lost` L1972, `_hide_world_map_button` L2050, `_unhandled_input` L2063
+  `_setup_dun_final_6_event` L2070, `_start_memory_procession_sequence` L2103, `_collect_all_npc_memories` L2176, `_spawn_avatar_memory_node` L2263, `_show_sphere_discourse` L2347, `_build_memory_bridge` L2530
 
 ### `DungeonClimbZone`
 `scenes/views/view_dungeon/components/DungeonClimbZone.gd` · 16 líneas · extends `Area3D`
@@ -692,14 +695,14 @@ Franja adosada a la cara abierta de un muro escalable (idea.md §1.1). Mismo
 - **privadas:** `_ready` L6, `_on_body_entered` L10, `_on_body_exited` L14
 
 ### `DungeonEnemy`
-`scenes/views/view_dungeon/components/DungeonEnemy.gd` · 476 líneas · extends `StaticBody3D`
+`scenes/views/view_dungeon/components/DungeonEnemy.gd` · 477 líneas · extends `StaticBody3D`
 
 CONTROLADOR DE ENEMIGOS EN LA MAZMORRA 3D
 
 - **signals:** `combat_triggered` L19
-- **funcs:** `refresh_visuals` L170, `trigger_combat_now` L474
+- **funcs:** `refresh_visuals` L170, `trigger_combat_now` L475
 - **privadas:** `_ready` L84, `_setup_detection_range` L149, `_start_idle_animation` L195, `_perform_float` L199, `_start_patrol` L216, `_process` L230, `_is_wall_ahead` L261, `_pick_cronofago_direction` L283
-  `_process_cronofago` L336, `_is_time_distort_active` L395, `_find_player` L409, `_update_detection_color` L427, `_on_interaction_entered` L449, `_on_interaction_exited` L457, `_on_detection_entered` L462, `_on_detection_exited` L467
+  `_process_cronofago` L336, `_is_time_distort_active` L396, `_find_player` L410, `_update_detection_color` L428, `_on_interaction_entered` L450, `_on_interaction_exited` L458, `_on_detection_entered` L463, `_on_detection_exited` L468
 
 ### `DungeonFlameZone`
 `scenes/views/view_dungeon/components/DungeonFlameZone.gd` · 15 líneas · extends `Area3D`
@@ -742,33 +745,35 @@ ZONA DE AGUA ENVENENADA (Ralentización de agua + Daño continuo de veneno)
 - **privadas:** `_ready` L7, `_on_body_entered` L11, `_on_body_exited` L17
 
 ### `DungeonSpikesZone`
-`scenes/views/view_dungeon/components/DungeonSpikesZone.gd` · 11 líneas · extends `Area3D`
-- **privadas:** `_ready` L6, `_on_body_entered` L9
+`scenes/views/view_dungeon/components/DungeonSpikesZone.gd` · 19 líneas · extends `Area3D`
+- **funcs:** `set_active` L10
+- **privadas:** `_ready` L7, `_on_body_entered` L15
 
 ### `DungeonWaterZone`
 `scenes/views/view_dungeon/components/DungeonWaterZone.gd` · 25 líneas · extends `Area3D`
 - **privadas:** `_ready` L11, `_on_body_entered` L15, `_on_body_exited` L21
 
 ### `GridDungeonStage`
-`scenes/views/view_dungeon/components/GridDungeonStage.gd` · 5602 líneas · extends `Node3D`
+`scenes/views/view_dungeon/components/GridDungeonStage.gd` · 5668 líneas · extends `Node3D`
 
 ESCENARIO 3D GENÉRICO Y DATA-DRIVEN DE MAZMORRA DE REJILLA
-- **funcs:** `resolve_theme_key`(s) L318, `build` L426, `get_floor_surface_kind` L600, `add_exit_teleport_at` L2333, `trigger_actuator` L4703, `cell_to_world` L5418, `cell_from_world` L5426
-- **privadas:** `_defer_tween_setup` L417, `_ready` L447, `_process` L461, `_process_distance_culling` L471, `_cache_floor_geometry` L499, `_process_geometry_culling` L521, `_process_interactive_highlights` L542, `_build_materials` L604
-  `_make_water_shader_mat` L679, `_make_poison_shader_mat` L708, `_make_lava_shader_mat` L728, `_create_lava_smoke_particles` L748, `_build_environment` L790, `_build_void_floor` L946, `_build_void_lava` L989, `_build_void_spikes` L1054
-  `_build_void_abyss` L1127, `_build_floor` L1192, `_add_ceiling` L1228, `_add_ambient_dust` L1246, `_build_cell` L1277, `_add_floor_slab` L1615, `_add_lava_slab` L1633, `_add_wall_block` L1688
-  `_add_model` L1723, `_add_liquid` L1759, `_add_spikes` L1877, `_set_hazard_warning` L1978, `_build_generic` L2010, `_register_light_element` L2048, `_hazard_script` L2060, `_add_light_from_spec` L2072
-  `_add_enemy` L2083, `_add_marker` L2104, `_add_item_pickup_visual` L2186, `_add_cinematic_marker_visual` L2231, `_add_npc_marker_visual` L2289, `_get_portal_vortex_material`(s) L2383, `_get_portal_ring_material`(s) L2397, `_add_teleport_visual` L2420
-  `_process_portal_facing` L2574, `_add_chest` L2603, `_build_lowpoly_chest` L2681, `_mesh_node` L2736, `_find_first_mesh_instance` L2745, `_track_interactable_mesh` L2761, `_add_light` L2778, `_process_light_culling` L2802
-  `_process_flicker_lights` L2836, `_add_flicker` L2860, `_add_pulse` L2876, `_apply_transform` L2891, `_add_ramp` L2913, `_add_quad_st` L3018, `_add_door` L3040, `_add_gate` L3180
-  `_add_shutters` L3242, `_add_actuator` L3318, `_add_weight_plate` L3501, `_canonical_wall_face` L3588, `_cell_type_at` L3597, `_has_wall_on_face` L3607, `_add_torch` L3612, `_add_crystal` L3674
-  `_get_font` L3702, `_add_signage_overlay` L3729, `_add_floor_clutter` L4007, `_scatter_roll` L4052, `_strip_collisions` L4062, `_apply_wall_decor` L4074, `_apply_corner_decor` L4138, `_apply_floor_decal` L4187
-  `_add_column` L4242, `_resolve_rotation_degrees` L4275, `_calculate_node_aabb` L4291, `_add_decor_prop` L4308, `_add_barrel` L4410, `_add_crate` L4415, `_add_statue` L4422, `_add_smart_object` L4449
-  `_add_sign` L4480, `_add_rune` L4524, `_add_campfire` L4550, `_campfire_particles` L4597, `_wire_actuators` L4627, `_replay_persisted_actuators` L4639, `_actuator_flag_key` L4665, `_is_actuator_persisted_active` L4670
-  `_on_gate_open_event` L4676, `_exit_tree` L4682, `_on_actuator_entered` L4695, `_element_anchor_node` L4841, `_spawn_energy_link` L4860, `_start_earthquake_loop` L4891, `_run_earthquake_step` L4898, `_convert_floor_to_lava` L4910
-  `_register_element` L5040, `_apply_action` L5057, `_set_element_state` L5090, `_animate_door` L5123, `_animate_gate` L5141, `_animate_shutters` L5165, `_animate_light` L5181, `_animate_lever` L5199
-  `_animate_plate` L5241, `_animate_wall_switch` L5261, `_animate_spikes` L5280, `_spawn_dust_burst` L5308, `_identify_boss_teleports` L5347, `_compute_spawn` L5408, `_cell_height` L5433, `_tinted` L5441
-  `_surface_material` L5455, `_tile_model_override` L5492, `_uv_scale_for` L5503, `_parse_color` L5509, `_surface_tint` L5565, `_add_cell_light` L5579, `_marker_color` L5590
+- **funcs:** `resolve_theme_key`(s) L318, `build` L447, `get_floor_surface_kind` L644, `add_exit_teleport_at` L2380, `trigger_actuator` L4750, `cell_to_world` L5480, `cell_from_world` L5488
+- **privadas:** `_get_shared_box_mesh`(s) L366, `_get_shared_box_shape`(s) L375, `_defer_tween_setup` L438, `_ready` L491, `_process` L505, `_process_distance_culling` L515, `_cache_floor_geometry` L543, `_process_geometry_culling` L565
+  `_process_interactive_highlights` L586, `_build_materials` L648, `_make_water_shader_mat` L723, `_make_poison_shader_mat` L752, `_make_lava_shader_mat` L772, `_create_lava_smoke_particles` L792, `_build_environment` L834, `_build_void_floor` L990
+  `_build_void_lava` L1033, `_build_void_spikes` L1098, `_build_void_abyss` L1171, `_build_floor` L1236, `_add_ceiling` L1275, `_add_ambient_dust` L1293, `_build_cell` L1324, `_add_floor_slab` L1662
+  `_add_lava_slab` L1677, `_add_wall_block` L1729, `_add_model` L1761, `_add_liquid` L1797, `_add_spikes` L1915, `_set_hazard_warning` L2025, `_build_generic` L2057, `_register_light_element` L2095
+  `_hazard_script` L2107, `_add_light_from_spec` L2119, `_add_enemy` L2130, `_add_marker` L2151, `_add_item_pickup_visual` L2233, `_add_cinematic_marker_visual` L2278, `_add_npc_marker_visual` L2336, `_get_portal_vortex_material`(s) L2430
+  `_get_portal_ring_material`(s) L2444, `_add_teleport_visual` L2467, `_process_portal_facing` L2621, `_add_chest` L2650, `_build_lowpoly_chest` L2728, `_mesh_node` L2783, `_find_first_mesh_instance` L2792, `_track_interactable_mesh` L2808
+  `_add_light` L2825, `_process_light_culling` L2849, `_process_flicker_lights` L2883, `_add_flicker` L2907, `_add_pulse` L2923, `_apply_transform` L2938, `_add_ramp` L2960, `_add_quad_st` L3065
+  `_add_door` L3087, `_add_gate` L3227, `_add_shutters` L3289, `_add_actuator` L3365, `_add_weight_plate` L3548, `_canonical_wall_face` L3635, `_cell_type_at` L3644, `_has_wall_on_face` L3654
+  `_add_torch` L3659, `_add_crystal` L3721, `_get_font` L3749, `_add_signage_overlay` L3776, `_add_floor_clutter` L4054, `_scatter_roll` L4099, `_strip_collisions` L4109, `_apply_wall_decor` L4121
+  `_apply_corner_decor` L4185, `_apply_floor_decal` L4234, `_add_column` L4289, `_resolve_rotation_degrees` L4322, `_calculate_node_aabb` L4338, `_add_decor_prop` L4355, `_add_barrel` L4457, `_add_crate` L4462
+  `_add_statue` L4469, `_add_smart_object` L4496, `_add_sign` L4527, `_add_rune` L4571, `_add_campfire` L4597, `_campfire_particles` L4644, `_wire_actuators` L4674, `_replay_persisted_actuators` L4686
+  `_actuator_flag_key` L4712, `_is_actuator_persisted_active` L4717, `_on_gate_open_event` L4723, `_exit_tree` L4729, `_on_actuator_entered` L4742, `_element_anchor_node` L4888, `_spawn_energy_link` L4907, `_start_earthquake_loop` L4938
+  `_run_earthquake_step` L4945, `_convert_floor_to_lava` L4957, `_register_element` L5087, `_apply_action` L5104, `_set_element_state` L5137, `_animate_door` L5170, `_animate_gate` L5188, `_animate_shutters` L5212
+  `_animate_light` L5228, `_animate_lever` L5246, `_animate_plate` L5288, `_animate_wall_switch` L5308, `_animate_spikes` L5327, `_spawn_dust_burst` L5370, `_identify_boss_teleports` L5409, `_compute_spawn` L5470
+  `_cell_height` L5495, `_tinted` L5503, `_surface_material` L5521, `_tile_model_override` L5558, `_uv_scale_for` L5569, `_parse_color` L5575, `_surface_tint` L5631, `_add_cell_light` L5645
+  `_marker_color` L5656
 
 ### `SkillVfx`
 `scenes/views/view_dungeon/components/SkillVfx.gd` · 335 líneas · extends `Node3D`
@@ -831,23 +836,23 @@ ANIMADOR DE OBJETO AFECTADO POR EL TIEMPO
 - **privadas:** `_ready` L36, `_process` L42, `_spin` L73, `_offset` L81
 
 ### `ExplorationHud`
-`scenes/views/view_dungeon/interaction/hud/ExplorationHud.gd` · 488 líneas · extends `Control`
+`scenes/views/view_dungeon/interaction/hud/ExplorationHud.gd` · 506 líneas · extends `Control`
 
 HUD DE HABILIDADES DE EXPLORACIÓN
 
 - **signals:** `menu_pressed` L21
-- **funcs:** `bind` L76, `set_tutorial_highlight` L337, `add_minimap` L464, `blocks_joystick_point` L477
-- **privadas:** `_ready` L65, `_build` L92, `_layout` L186, `_layout_grid_landscape` L217, `_layout_grid_portrait` L255, `_process` L290, `_refresh_static` L320, `_on_target_changed` L328
-  `_draw_reticle` L346, `_skills_for_verbs` L381, `_on_element_changed` L391, `_on_skill_activated` L421, `_on_skill_failed` L427, `_on_skill_used` L448, `_on_menu_button_pressed` L454
+- **funcs:** `bind` L76, `set_tutorial_highlight` L355, `add_minimap` L482, `blocks_joystick_point` L495
+- **privadas:** `_ready` L65, `_build` L92, `_draw_btn_menu_hamburger` L182, `_layout` L204, `_layout_grid_landscape` L235, `_layout_grid_portrait` L273, `_process` L308, `_refresh_static` L338
+  `_on_target_changed` L346, `_draw_reticle` L364, `_skills_for_verbs` L399, `_on_element_changed` L409, `_on_skill_activated` L439, `_on_skill_failed` L445, `_on_skill_used` L466, `_on_menu_button_pressed` L472
 
 ### `ExplorationSkillButton`
-`scenes/views/view_dungeon/interaction/hud/ExplorationSkillButton.gd` · 204 líneas · extends `Button`
+`scenes/views/view_dungeon/interaction/hud/ExplorationSkillButton.gd` · 208 líneas · extends `Button`
 
 BOTÓN CIRCULAR DE HABILIDAD DE EXPLORACIÓN
 
 - **signals:** `activated` L19
 - **funcs:** `setup` L45, `set_diameter` L61, `set_state` L69
-- **privadas:** `_ready` L38, `_process` L84, `_on_pressed` L97, `_draw` L102, `_held` L203
+- **privadas:** `_ready` L38, `_process` L84, `_on_pressed` L97, `_draw` L102, `_held` L207
 
 ### `ReactionActuator`
 `scenes/views/view_dungeon/interaction/reactions/Actuator.gd` · 27 líneas · extends `SkillReaction`
@@ -1007,33 +1012,33 @@ HERRERÍA / FORJA — REFINAMIENTO DE EQUIPO EN CIUDAD Y BASE
   `_on_leave` L566
 
 ### `ViewGather`
-`scenes/views/view_gather/ViewGather.gd` · 443 líneas · extends `Control`
+`scenes/views/view_gather/ViewGather.gd` · 455 líneas · extends `Control`
 
 Vista de recolección / farmeo (bosque, mina, río).
-- **funcs:** `setup` L68
-- **privadas:** `_ready` L44, `_resolve_res` L55, `_build_ui` L109, `_on_tap_input` L272, `_gather` L285, `_on_idle_tick` L309, `_apply_gather` L322, `_refresh_node` L342
-  `_spawn_float` L372, `_refresh_texts` L392, `_refresh_skill_bar` L401, `_refresh_bonus_chip` L417, `_pulse` L439
+- **funcs:** `setup` L69
+- **privadas:** `_ready` L45, `_resolve_res` L56, `_build_ui` L115, `_on_tap_input` L278, `_gather` L291, `_on_idle_tick` L315, `_apply_gather` L328, `_refresh_node` L348
+  `_spawn_float` L378, `_refresh_texts` L398, `_refresh_skill_bar` L413, `_refresh_bonus_chip` L429, `_pulse` L451
 
 ### `ViewOrbRoom`
-`scenes/views/view_orb_room/ViewOrbRoom.gd` · 938 líneas · extends `Control`
+`scenes/views/view_orb_room/ViewOrbRoom.gd` · 946 líneas · extends `Control`
 
 «Sala de la Esfera» — una sala 3D oscura con un pequeño altar y una esfera
 
 - **signals:** `orb_finished` L16
-- **funcs:** `play` L482
-- **privadas:** `_ready` L84, `_on_visibility_changed` L97, `_on_theme_changed` L106, `_update_responsive_layout` L121, `_build_scene` L163, `_mat` L375, `_build_dialogue` L386, `_dialogue_for` L551
-  `_death_text_for_cause` L579, `_finish_intro` L644, `_on_continue_pressed` L678, `_skip_conversation` L704, `_present_pages` L735, `_max_dialogue_text_height` L758, `_resize_panel_for_text` L772, `_split_text_into_pages` L795
-  `_show_page` L829, `_update_more_indicator` L854, `_advance_pages` L878, `_on_panel_input` L893, `_unhandled_input` L901, `_process` L916
+- **funcs:** `play` L490
+- **privadas:** `_ready` L84, `_on_visibility_changed` L97, `_on_theme_changed` L106, `_update_responsive_layout` L121, `_build_scene` L163, `_mat` L375, `_build_dialogue` L386, `_dialogue_for` L559
+  `_death_text_for_cause` L587, `_finish_intro` L652, `_on_continue_pressed` L686, `_skip_conversation` L712, `_present_pages` L743, `_max_dialogue_text_height` L766, `_resize_panel_for_text` L780, `_split_text_into_pages` L803
+  `_show_page` L837, `_update_more_indicator` L862, `_advance_pages` L886, `_on_panel_input` L901, `_unhandled_input` L909, `_process` L924
 
 ### `ViewPlace`
-`scenes/views/view_place/ViewPlace.gd` · 1059 líneas · extends `Control`
+`scenes/views/view_place/ViewPlace.gd` · 1076 líneas · extends `Control`
 
 Vista de un "Lugar" genérico (ni ciudad ni mazmorra): imagen de fondo + cuadro de
-- **funcs:** `get_location_name` L70, `setup` L170
-- **privadas:** `_ready` L46, `_exit_tree` L63, `_update_responsive_layout` L78, `_build_ui` L326, `_render` L504, `_set_visual_state_say` L585, `_set_visual_state_choice` L607, `_on_toggle_info` L639
-  `_close_info_drawer` L651, `_on_runner_say` L658, `_on_runner_choice` L666, `_on_runner_finished` L674, `_on_stat_increased` L680, `_should_exit_directly_to_world` L689, `_close_view` L702, `_present_say_text` L717
-  `_split_text_into_pages` L727, `_show_current_page` L757, `_update_more_indicator` L855, `_advance_dialogue` L872, `_make_vn_button` L898, `_style_vn_button` L912, `_apply_dialogue_theme` L919, `_on_theme_changed` L946
-  `_show_choices_from_runner` L952, `_on_choice_selected` L981, `_show_continue_button` L988, `_animate_buttons_in` L1006, `_on_dialogue_panel_input` L1018, `_unhandled_input` L1023, `_refresh_static_texts` L1035, `_leave` L1045
+- **funcs:** `get_location_name` L70, `setup` L182
+- **privadas:** `_ready` L46, `_exit_tree` L63, `_update_responsive_layout` L90, `_build_ui` L338, `_render` L516, `_set_visual_state_say` L597, `_set_visual_state_choice` L619, `_on_toggle_info` L651
+  `_close_info_drawer` L663, `_on_runner_say` L670, `_on_runner_choice` L678, `_on_runner_finished` L686, `_on_stat_increased` L692, `_should_exit_directly_to_world` L701, `_close_view` L714, `_present_say_text` L729
+  `_split_text_into_pages` L739, `_show_current_page` L769, `_update_more_indicator` L867, `_advance_dialogue` L884, `_make_vn_button` L910, `_style_vn_button` L924, `_apply_dialogue_theme` L931, `_on_theme_changed` L958
+  `_show_choices_from_runner` L964, `_on_choice_selected` L993, `_show_continue_button` L1000, `_animate_buttons_in` L1018, `_on_dialogue_panel_input` L1030, `_unhandled_input` L1035, `_refresh_static_texts` L1047, `_leave` L1062
 
 ### `ViewShop`
 `scenes/views/view_shop/ViewShop.gd` · 784 líneas · extends `Control`
@@ -1052,36 +1057,36 @@ Vista del Muñeco de Entrenamiento (se abre desde la Base cuando el muñeco est�
   `_hit_shake` L210, `_pulse` L218
 
 ### `ViewTransport`
-`scenes/views/view_transport/ViewTransport.gd` · 443 líneas · extends `Control`
+`scenes/views/view_transport/ViewTransport.gd` · 455 líneas · extends `Control`
 
 PUESTO DE TRANSPORTE / CARROMATOS EN CIUDADES
-- **funcs:** `setup` L50, `get_location_name` L84
-- **privadas:** `_ready` L36, `_on_state_updated` L44, `_get_city_name` L63, `_build_ui` L97, `_apply_theme` L230, `_refresh` L244, `_build_destination_card` L317, `_update_welcome_narrative` L393
-  `_on_travel_pressed` L425, `_on_leave_pressed` L441
+- **funcs:** `setup` L50, `get_location_name` L88
+- **privadas:** `_ready` L36, `_on_state_updated` L44, `_get_city_name` L63, `_build_ui` L109, `_apply_theme` L242, `_refresh` L256, `_build_destination_card` L329, `_update_welcome_narrative` L405
+  `_on_travel_pressed` L437, `_on_leave_pressed` L453
 
 ## Componentes (scenes/components)
 
 ### `NarrativeOverlay`  ·  autoload **NarrativeOverlay**
-`scenes/components/narrative/NarrativeOverlay.gd` · 923 líneas · extends `CanvasLayer`
+`scenes/components/narrative/NarrativeOverlay.gd` · 936 líneas · extends `CanvasLayer`
 
 Autoload (CanvasLayer) — VISTA UNIFICADA DEL SISTEMA NARRATIVO.
 
 - **signals:** `attract_interrupted` L79
-- **privadas:** `_ready` L82, `_on_theme_changed` L104, `_update_responsive_layout` L120, `_build_ui` L166, `_process` L296, `_finish_typing` L330, `_on_text_revealed` L342, `_active_text_label` L357
-  `_on_stat_increased` L370, `_on_scene_started` L376, `_on_scene_finished` L395, `_on_say_shown` L408, `_on_choice_shown` L462, `_on_dim_input` L508, `_unhandled_input` L520, `_advance_say` L549
-  `_make_ctrl_button` L568, `_refresh_ctrl_labels` L578, `_set_auto` L592, `_set_skip` L599, `_on_toggle_auto` L606, `_on_toggle_skip` L613, `_record_history` L623, `_on_open_history` L632
-  `_make_history_row` L692, `_close_history` L713, `_on_choice_pressed` L719, `_apply_fx` L727, `_pop_panel` L749, `_shake_panel` L756, `_glow_panel` L766, `_accent_soft_alpha` L779
-  `_make_choice_button` L787, `_on_toggle_info` L799, `_close_info_drawer` L812, `_animate_choices_in` L818, `_clear_choices` L827, `_show_continue_hint` L832, `_animate_continue_hint` L853, `_reset_dim` L864
-  `_apply_bg` L872, `_hide_all` L884, `_update_ctrl_bar_visibility` L917
+- **privadas:** `_ready` L82, `_on_theme_changed` L104, `_update_responsive_layout` L120, `_build_ui` L166, `_process` L298, `_finish_typing` L332, `_on_text_revealed` L344, `_active_text_label` L359
+  `_on_stat_increased` L372, `_on_scene_started` L378, `_on_scene_finished` L397, `_on_say_shown` L410, `_on_choice_shown` L464, `_input` L510, `_on_dim_input` L517, `_unhandled_input` L529
+  `_advance_say` L558, `_make_ctrl_button` L577, `_refresh_ctrl_labels` L588, `_set_auto` L602, `_set_skip` L609, `_on_toggle_auto` L616, `_on_toggle_skip` L623, `_record_history` L636
+  `_on_open_history` L645, `_make_history_row` L705, `_close_history` L726, `_on_choice_pressed` L732, `_apply_fx` L740, `_pop_panel` L762, `_shake_panel` L769, `_glow_panel` L779
+  `_accent_soft_alpha` L792, `_make_choice_button` L800, `_on_toggle_info` L812, `_close_info_drawer` L825, `_animate_choices_in` L831, `_clear_choices` L840, `_show_continue_hint` L845, `_animate_continue_hint` L866
+  `_reset_dim` L877, `_apply_bg` L885, `_hide_all` L897, `_update_ctrl_bar_visibility` L930
 
 ### `OrbCompanionOverlay`  ·  autoload **OrbCompanionOverlay**
-`scenes/components/orb_companion/OrbCompanionOverlay.gd` · 538 líneas · extends `CanvasLayer`
+`scenes/components/orb_companion/OrbCompanionOverlay.gd` · 588 líneas · extends `CanvasLayer`
 
 COMPAÑERO DE LA ESFERA DE LA VERDAD — WIDGET EN PANTALLA & MODO MODAL (REVISIÓN 3)
-- **funcs:** `is_modal_active` L46, `show_important_message` L383, `show_bark` L452
-- **privadas:** `_ready` L51, `_update_responsive_layout` L81, `_build_ui` L116, `_on_theme_changed` L238, `_process` L250, `_on_draw_orb` L266, `_update_visibility` L303, `_set_overlay_visible` L323
-  `_on_orb_pressed` L328, `_on_companion_bark_requested` L350, `_on_bark_requested` L363, `_on_important_message_requested` L372, `_on_modal_dismissed` L423, `_hide_bark` L475, `_hide_modal` L494, `_on_scene_view_changed` L518
-  `_on_scene_navigate_to` L522, `_on_scene_tab_switched` L526, `_on_scene_combat_started` L530, `_on_scene_combat_ended` L534
+- **funcs:** `is_modal_active` L46, `show_important_message` L433, `show_bark` L502
+- **privadas:** `_ready` L51, `_update_responsive_layout` L83, `_build_ui` L118, `_on_locale_changed` L238, `_update_locale_texts` L242, `_on_theme_changed` L267, `_process` L279, `_on_draw_orb` L295
+  `_update_visibility` L333, `_set_overlay_visible` L353, `_on_orb_pressed` L358, `_on_companion_bark_requested` L406, `_on_bark_requested` L417, `_on_important_message_requested` L424, `_on_modal_dismissed` L473, `_hide_bark` L525
+  `_hide_modal` L544, `_on_scene_view_changed` L568, `_on_scene_navigate_to` L572, `_on_scene_tab_switched` L576, `_on_scene_combat_started` L580, `_on_scene_combat_ended` L584
 
 ### `RadialMenuOverlay`
 `scenes/components/radial_menu/RadialMenuOverlay.gd` · 248 líneas · extends `Control`
@@ -1120,13 +1125,14 @@ CÓDICE DE CURIOSIDADES (Task 2) — visor reutilizable construido por código.
   `_empty_note` L333, `_divider` L357, `_on_bg_input` L365
 
 ### `CreditsScreen`
-`scenes/ui/credits/CreditsScreen.gd` · 909 líneas · extends `Control`
+`scenes/ui/credits/CreditsScreen.gd` · 1257 líneas · extends `Control`
 
 Pantalla cinematográfica de créditos estilo película.
 
 - **signals:** `closed` L13
-- **privadas:** `_ready` L46, `_exit_tree` L57, `_build_ui` L66, `_populate_credits_content` L229, `_build_sphere_modal` L582, `_start_sequence` L671, `_play_title_card` L677, `_play_attribution_card` L699
-  `_start_credits_roll` L721, `_process` L755, `_on_roll_finished` L769, `_show_sphere_prompt` L790, `_on_sphere_continue_pressed` L799, `_skip_credits` L805, `_close_credits` L830, `_input` L858
+- **privadas:** `_ready` L50, `_exit_tree` L61, `_build_ui` L70, `_load_qr_texture` L414, `_build_qr_card` L428, `_is_mouse_over_qr_cards` L508, `_populate_credits_content` L519, `_build_sphere_modal` L880
+  `_start_sequence` L970, `_play_title_card` L976, `_play_engine_card` L998, `_play_attribution_card` L1028, `_start_credits_roll` L1058, `_process` L1092, `_on_roll_finished` L1106, `_show_sphere_prompt` L1127
+  `_on_sphere_continue_pressed` L1136, `_skip_credits` L1142, `_close_credits` L1169, `_input` L1197
 
 ### `DungeonsViewer`
 `scenes/ui/dungeons/DungeonsViewer.gd` · 251 líneas · extends `Control`
@@ -1146,13 +1152,13 @@ Hub Macro de Personaje Unificado — Modal Flotante sobre el mundo 3D (30% Izq /
 - **privadas:** `_ready` L33, `_on_theme_changed` L45, `_build_ui` L54, `_load_tab_content` L211, `_notify_world_modal` L266, `_unhandled_input` L283, `_cycle_tab` L298
 
 ### `JournalViewer`
-`scenes/ui/journal/JournalViewer.gd` · 377 líneas · extends `Control`
+`scenes/ui/journal/JournalViewer.gd` · 380 líneas · extends `Control`
 
 DIARIO / REGISTRO NARRATIVO — overlay reutilizable construido por código.
 
 - **signals:** `closed` L19
-- **privadas:** `_ready` L27, `_build_ui` L36, `_build_current_objective` L103, `_build_questline` L144, `_build_secondary_quests` L165, `_secondary_quest_row` L191, `_build_story_progress` L243, `_step_row` L277
-  `_fact_row` L316, `_section_label` L356, `_divider` L365, `_on_bg_input` L373
+- **privadas:** `_ready` L27, `_build_ui` L36, `_build_current_objective` L103, `_build_questline` L144, `_build_secondary_quests` L165, `_secondary_quest_row` L191, `_build_story_progress` L243, `_step_row` L280
+  `_fact_row` L319, `_section_label` L359, `_divider` L368, `_on_bg_input` L376
 
 ### `LoadingScreen`
 `scenes/ui/loading/LoadingScreen.gd` · 224 líneas · extends `Control`
@@ -1162,13 +1168,13 @@ Pantalla de carga asíncrona a pantalla completa con fondo negro sólido,
 - **privadas:** `_ready` L34, `_process` L185, `_show_next_tip` L207
 
 ### `MainMenu`
-`scenes/ui/main_menu/MainMenu.gd` · 456 líneas · extends `Control`
+`scenes/ui/main_menu/MainMenu.gd` · 462 líneas · extends `Control`
 
 Pantalla de inicio del juego.
 - **privadas:** `_ready` L44, `_exit_tree` L64, `_process` L68, `_input` L91, `_start_attract_mode` L132, `_cancel_attract_mode` L145, `_on_attract_finished` L161, `_update_responsive_layout` L173
   `_build_background` L205, `_animate_title` L246, `_init_secret_triggers` L256, `_on_hero_gui_input` L266, `_on_secret_hero_clicked` L272, `_animate_hero_feedback` L283, `_reveal_debug_buttons` L291, `_refresh_texts` L309
-  `_update_continue_state` L323, `_on_btn_new_game_pressed` L333, `_start_new_game` L342, `_on_btn_debug_mode_pressed` L356, `_start_debug_game` L362, `_on_btn_test_room_pressed` L372, `_start_test_room` L378, `_ensure_real_world` L388
-  `_on_btn_continue_pressed` L395, `_on_btn_options_pressed` L404, `_on_btn_credits_pressed` L410, `_on_btn_quit_pressed` L418, `_open_overlay` L426, `_close_overlay` L435, `_show_new_game_confirm` L444
+  `_update_continue_state` L323, `_on_btn_new_game_pressed` L333, `_start_new_game` L342, `_on_btn_debug_mode_pressed` L358, `_start_debug_game` L364, `_on_btn_test_room_pressed` L376, `_start_test_room` L382, `_ensure_real_world` L394
+  `_on_btn_continue_pressed` L401, `_on_btn_options_pressed` L410, `_on_btn_credits_pressed` L416, `_on_btn_quit_pressed` L424, `_open_overlay` L432, `_close_overlay` L441, `_show_new_game_confirm` L450
 
 ### `MinimapViewer`
 `scenes/ui/minimap/MinimapViewer.gd` · 297 líneas · extends `Control`
@@ -1198,11 +1204,11 @@ VISOR DE RELACIONES CON NPCs — sub-vista de la pantalla Información (TabInfo)
 - **privadas:** `_ready` L55, `_build_ui` L60, `_make_relation_card` L139, `_make_npc_avatar` L213, `_affinity_tier` L274, `_get_npc_info` L284, `_resolve_image_path` L364
 
 ### `SplashScreen`
-`scenes/ui/splash/SplashScreen.gd` · 384 líneas · extends `Control`
+`scenes/ui/splash/SplashScreen.gd` · 615 líneas · extends `Control`
 
 Pantalla cinemática de apertura previa al menú principal.
-- **privadas:** `_ready` L59, `_exit_tree` L75, `_unhandled_input` L80, `_load_fonts` L100, `_build_ui` L107, `_on_viewport_size_changed` L297, `_start_animation_sequence` L323, `_skip_to_menu` L366
-  `_goto_main_menu` L383
+- **privadas:** `_ready` L66, `_exit_tree` L82, `_unhandled_input` L87, `_load_fonts` L119, `_build_ui` L130, `_on_viewport_size_changed` L320, `_start_animation_sequence` L349, `_skip_to_menu` L392
+  `_goto_main_menu` L409, `_show_web_notice` L416, `_build_web_notice_ui` L438, `_dismiss_web_notice` L601
 
 ## Otros
 

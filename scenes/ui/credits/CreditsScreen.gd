@@ -109,7 +109,7 @@ func _build_ui() -> void:
 	title_bar.size_flags_horizontal = Control.SIZE_SHRINK_CENTER
 	title_box.add_child(title_bar)
 
-	# ── 2. TARJETA DEL MOTOR ("Creado con Taos Game Maker" + Códigos QR Itch.io y Gumroad) ──
+	# ── 2. TARJETA DEL MOTOR ("Creado con Taos Game Maker" + Código QR GitHub) ──
 	_engine_card = Control.new()
 	_engine_card.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	_engine_card.mouse_filter = Control.MOUSE_FILTER_PASS
@@ -189,40 +189,33 @@ func _build_ui() -> void:
 
 	var lbl_eng_cta := Label.new()
 	lbl_eng_cta.text = Locale.pick({
-		"es": "•  Crea tu propio juego RPG  •  Descarga el framework aquí  •",
-		"en": "•  Create your own RPG  •  Get the framework here  •",
-		"fr": "•  Créez votre propre RPG  •  Téléchargez le framework  •",
-		"it": "•  Crea il tuo GDR  •  Scarica il framework qui  •",
-		"de": "•  Erstelle dein eigenes RPG  •  Hole dir das Framework  •",
-		"zh": "•  打造属于你的RPG游戏  •  在此获取框架  •",
-		"ja": "•  自分だけのRPGを創ろう  •  フレームワークはこちら  •"
+		"es": "•  Crea tu propio juego RPG  •  Descarga el framework gratis  •",
+		"en": "•  Create your own RPG  •  Get the free framework  •",
+		"fr": "•  Créez votre propre RPG  •  Téléchargez le framework gratuit  •",
+		"it": "•  Crea il tuo GDR  •  Scarica il framework gratis  •",
+		"de": "•  Erstelle dein eigenes RPG  •  Kostenloses Framework  •",
+		"zh": "•  打造属于你的RPG游戏  •  免费获取开源框架  •",
+		"ja": "•  自分だけのRPGを創ろう  •  無料フレームワーク  •"
 	})
 	lbl_eng_cta.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	lbl_eng_cta.add_theme_font_size_override("font_size", 18)
 	lbl_eng_cta.add_theme_color_override("font_color", Color("#72d5ff"))
 	_engine_text_box.add_child(lbl_eng_cta)
 
-	# Fila de códigos QR FIJA (sin escalado ni movimiento para lectura óptima de cámara)
+	# Fila de código QR FIJA (sin escalado ni movimiento para lectura óptima de cámara)
 	var qr_row_eng := HBoxContainer.new()
 	qr_row_eng.alignment = BoxContainer.ALIGNMENT_CENTER
 	qr_row_eng.add_theme_constant_override("separation", 36)
 	qr_row_eng.mouse_filter = Control.MOUSE_FILTER_PASS
 	eng_box.add_child(qr_row_eng)
 
-	var card_itch := _build_qr_card(
-		"res://assets/common/ui/qr/qr_engine_itch.png",
+	var card_github := _build_qr_card(
+		"res://assets/common/ui/qr/qr_engine_github.png",
 		"Taos Game Maker",
-		"https://taosworld.itch.io/taosgamemaker",
-		"Itch.io Store"
+		"https://github.com/JoseMHR/taos-game-maker",
+		"GitHub (Open Source)"
 	)
-	var card_gumroad := _build_qr_card(
-		"res://assets/common/ui/qr/qr_engine_gumroad.png",
-		"Taos Game Maker",
-		"https://taosworld.gumroad.com/l/taosgamemaker",
-		"Gumroad Library"
-	)
-	qr_row_eng.add_child(card_itch)
-	qr_row_eng.add_child(card_gumroad)
+	qr_row_eng.add_child(card_github)
 
 	var lbl_eng_skip := Label.new()
 	lbl_eng_skip.text = Locale.pick({
@@ -1001,7 +994,7 @@ func _play_title_card() -> void:
 	)
 
 
-## Fase 2: "Creado con Taos Game Maker" y Códigos QR del motor (Itch.io y Gumroad)
+## Fase 2: "Creado con Taos Game Maker" y Código QR del motor (GitHub)
 func _play_engine_card() -> void:
 	_engine_card.modulate.a = 0.0
 	_engine_card.visible = true

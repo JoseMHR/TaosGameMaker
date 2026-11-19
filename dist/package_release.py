@@ -25,8 +25,8 @@ DIST_DIR = Path(__file__).resolve().parent
 ROOT_DIR = DIST_DIR.parent
 
 # Nombre y archivo de la release
-RELEASE_NAME = "Taos_Game_Maker_v1.0.zip"
-OUTPUT_ZIP = DIST_DIR / RELEASE_NAME
+RELEASE_NAME = "Taos_Game_Maker_v1.1.zip"
+OUTPUT_ZIP = DIST_DIR / "engine" / RELEASE_NAME
 
 # Carpetas a incluir recursivamente
 INCLUDE_DIRS = [
@@ -278,21 +278,9 @@ def minify_js(raw_bytes: bytes) -> bytes:
 
 def process_release_file(arcname: str, raw_bytes: bytes) -> tuple[bytes, bool]:
     """
-    Aplica transformación a los archivos del editor para convertirlos en 'caja negra'.
-    Los archivos del juego (Godot, scenes, scripts, data) se mantienen 100% legibles.
-    Devuelve (bytes_procesados, fue_ofuscado).
+    En la versión Open Source (v1.1+), todo el código fuente se empaqueta 100% limpio y editable.
+    Devuelve (raw_bytes, fue_ofuscado=False).
     """
-    if arcname == "editor/serve.py":
-        return obfuscate_python(raw_bytes), True
-    elif arcname == "editor/styles.css":
-        return minify_css(raw_bytes), True
-    elif arcname == "editor/index.html":
-        return minify_html(raw_bytes), True
-    elif arcname.startswith("editor/js/") and arcname.endswith(".js"):
-        # No tocar librerías vendorizadas (Vue y model-viewer ya vienen minificadas oficialmente)
-        if "/vendor/" in arcname:
-            return raw_bytes, False
-        return minify_js(raw_bytes), True
     return raw_bytes, False
 
 
