@@ -9,11 +9,11 @@ then export to Windows, macOS, Linux and Android with **100% royalty-free commer
 
 ![Engine](https://img.shields.io/badge/Engine-Godot_4.3%2B-478CBF?logo=godot-engine&logoColor=white)
 ![Studio](https://img.shields.io/badge/Web_Studio-45%2B_visual_tools-8A2BE2)
-![Price](https://img.shields.io/badge/Price-%2419.99_one--time-2ea44f)
+![Price](https://img.shields.io/badge/Price-100%25_Free-brightgreen)
 ![Royalties](https://img.shields.io/badge/Games_you_build-100%25_Royalty--Free-F9A825)
 ![Export](https://img.shields.io/badge/Export-Windows_%7C_macOS_%7C_Linux_%7C_Android-00A8E8)
 
-**[📖 Documentation Site](https://josemhr.github.io/taos-game-maker/) · [🛒 Buy on Gumroad](https://taosworld.gumroad.com/l/TaosGameMaker) · [🛒 Buy on itch.io](https://taosworld.itch.io/taosgamemaker) · [🎮 Play the Free Demo](https://taosworld.itch.io/echoesoftruth) · [🎬 Video Tour](https://youtu.be/9ugIta7vTkQ)**
+**[📖 Documentation Site](https://josemhr.github.io/taos-game-maker/) · [⭐ GitHub Repository](https://github.com/JoseMHR/taos-game-maker) · [📦 Download ZIP](https://github.com/JoseMHR/taos-game-maker/archive/refs/heads/main.zip) · [🎮 Play the Free Demo](https://taosworld.itch.io/echoesoftruth) · [🎬 Video Tour](https://youtu.be/9ugIta7vTkQ)**
 
 </div>
 
@@ -61,8 +61,8 @@ The best way to judge a framework is to play a game made with it. **Echoes of Tr
 | Resource | Link |
 |---|---|
 | 📖 Documentation & showcase site | https://josemhr.github.io/taos-game-maker/ |
-| 🛒 Buy the framework — Gumroad | https://taosworld.gumroad.com/l/TaosGameMaker |
-| 🛒 Buy the framework — itch.io | https://taosworld.itch.io/taosgamemaker |
+| ⭐ GitHub Repository | https://github.com/JoseMHR/taos-game-maker |
+| 📦 Download Engine (ZIP) | https://github.com/JoseMHR/taos-game-maker/archive/refs/heads/main.zip |
 | 🎮 Free demo — Echoes of Truth | https://taosworld.itch.io/echoesoftruth |
 | 🎬 Engine video tour (YouTube) | https://youtu.be/9ugIta7vTkQ |
 | 🎬 Game video tour (YouTube) | https://www.youtube.com/watch?v=Omau2eJ1cR8 |
@@ -74,12 +74,12 @@ The best way to judge a framework is to play a game made with it. **Echoes of Tr
 |---|---|
 | Want to build JRPGs in Godot without starting from zero | Expect a standalone engine that works without opening Godot |
 | Can edit a JSON file (or want to avoid code entirely) | Expect AAA assets or a finished game out of the box |
-| Want a working tactical JRPG to dissect and mod | Want to redistribute or re-sell the framework itself |
+| Want a working tactical JRPG to dissect and mod | Want to resell the engine package as your own |
 | Plan to sell your game (you keep 100% of revenue) | Need multiplayer, console ports or non-JRPG genres |
 
 The full licensing FAQ lives here: **[FAQ & Licensing](https://josemhr.github.io/taos-game-maker/faq.html)**
 
-## 📦 What's inside the commercial package
+## 📦 What's inside the package
 
 - Complete **Godot 4.3+ project template** (all core subsystems, ready to press F5)
 - **Local Web Studio** — 45+ visual tools: databases, quest editor, dialogue editor, maps & more
@@ -87,21 +87,21 @@ The full licensing FAQ lives here: **[FAQ & Licensing](https://josemhr.github.io
 - Export presets: **Windows, Linux, macOS, Android**
 - Starter assets: models, textures, music, sound effects
 - Documentation (README in 7 languages), validation tools & music player utility
-- **Lifetime updates** — every future version included, royalty-free license for everything you build
+- **100% Free & Open Source** — royalty-free license for everything you build
 
 ## 🗂️ About this repository
 
-This is the **public documentation & showcase repository** only. It contains the GitHub Pages site you are reading about (`index.html`, guides, architecture, data schemas and FAQ).
+Taos Game Maker is **free and open-source software**. 
+- The **`main` branch** hosts the full Godot 4 project, GDScript codebase, databases, and local web studio.
+- The **`gh-pages` branch** hosts the public documentation site at [https://josemhr.github.io/taos-game-maker/](https://josemhr.github.io/taos-game-maker/).
 
-The Taos Game Maker proprietary source code, Godot scripts (`.gd`), scenes (`.tscn`), resources (`.tres`) and the studio server (`editor/serve.py`) are **NOT** hosted here. The complete commercial package is available exclusively through [Gumroad](https://taosworld.gumroad.com/l/TaosGameMaker) and [itch.io](https://taosworld.itch.io/taosgamemaker).
-
-If the documentation helped you, consider giving the repo a ⭐ — it genuinely helps other developers find it.
+If this framework helps you, consider giving the repo a ⭐ — it genuinely helps other developers find it!
 
 ## © License & Legal
 
 © 2026 Taos World. All rights reserved.
 
-All content in this repository (text, images, documentation) is provided for informational purposes about the product. The Taos Game Maker framework is a commercial product; every game built with a valid license is **100% royalty-free** — no fees, no revenue share, no strings.
+Taos Game Maker is provided as free and open-source software. Games and content you create with it belong 100% to you and are **100% royalty-free** — no fees, no revenue share, no strings.
 
 ---
 
@@ -128,17 +128,19 @@ All content in this repository (text, images, documentation) is provided for inf
 | Recurso | Enlace |
 |---|---|
 | 📖 Web de documentación | https://josemhr.github.io/taos-game-maker/ |
-| 🛒 Comprar el framework — Gumroad | https://taosworld.gumroad.com/l/TaosGameMaker |
-| 🛒 Comprar el framework — itch.io | https://taosworld.itch.io/taosgamemaker |
+| ⭐ Repositorio de GitHub | https://github.com/JoseMHR/taos-game-maker |
+| 📦 Descargar Motor (ZIP) | https://github.com/JoseMHR/taos-game-maker/archive/refs/heads/main.zip |
 | 🎮 Demo gratuita — Echoes of Truth | https://taosworld.itch.io/echoesoftruth |
 | 🎬 Vídeo demo del motor | https://youtu.be/9ugIta7vTkQ |
 | 🎬 Vídeo demo del juego | https://www.youtube.com/watch?v=xNsCNHatSUI |
 | 🌐 Web oficial del universo | https://sites.google.com/view/sagalazaro |
 
-**¿Es para ti?** ✔️ Sí, si quieres crear JRPGs en Godot sin partir de cero, sabes editar un JSON (o quieres evitar el código) y piensas vender tu juego quedándote el 100% de los ingresos. ✖️ No, si esperas un motor independiente que funcione sin abrir Godot, assets AAA o redistribuir el framework. Detalles completos en la [FAQ y licencia](https://josemhr.github.io/taos-game-maker/faq.html).
+**¿Es para ti?** ✔️ Sí, si quieres crear JRPGs en Godot sin partir de cero, sabes editar un JSON (o quieres evitar el código) y piensas vender tu juego quedándote el 100% de los ingresos. ✖️ No, si esperas un motor independiente que funcione sin abrir Godot o assets AAA. Detalles completos en la [FAQ y licencia](https://josemhr.github.io/taos-game-maker/faq.html).
 
-**El paquete comercial incluye:** plantilla completa de proyecto Godot 4.3+ · estudio web local con 45+ herramientas · Echoes of Truth como referencia · presets de exportación (Windows, Linux, macOS, Android) · assets iniciales · documentación en 7 idiomas · actualizaciones de por vida · licencia libre de regalías para todo lo que crees.
+**El paquete incluye:** plantilla completa de proyecto Godot 4.3+ · estudio web local con 45+ herramientas · Echoes of Truth como referencia · presets de exportación (Windows, Linux, macOS, Android) · assets iniciales · documentación en 7 idiomas · 100% Libre y Código Abierto · licencia libre de regalías para todo lo que crees.
 
-**Sobre este repositorio:** es solo la documentación pública y escaparate del producto. El código fuente, scripts de Godot y el servidor del estudio **no** están alojados aquí; el paquete comercial se vende exclusivamente en [Gumroad](https://taosworld.gumroad.com/l/TaosGameMaker) y [itch.io](https://taosworld.itch.io/taosgamemaker).
+**Sobre este repositorio:** Taos Game Maker es software libre y de código abierto.
+- La rama **`main`** contiene el proyecto completo de Godot 4, el código GDScript y el estudio web local.
+- La rama **`gh-pages`** aloja la web de documentación en [https://josemhr.github.io/taos-game-maker/](https://josemhr.github.io/taos-game-maker/).
 
 © 2026 Taos World. All rights reserved.
