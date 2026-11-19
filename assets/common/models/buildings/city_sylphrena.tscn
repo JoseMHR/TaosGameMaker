@@ -1,0 +1,441 @@
+[gd_scene format=3]
+
+[sub_resource type="StandardMaterial3D" id="Mat_Plaster"]
+albedo_color = Color(0.88, 0.85, 0.78, 1)
+roughness = 0.85
+
+[sub_resource type="StandardMaterial3D" id="Mat_Straw"]
+albedo_color = Color(0.76, 0.58, 0.28, 1)
+roughness = 0.82
+
+[sub_resource type="StandardMaterial3D" id="Mat_TerracottaTile"]
+albedo_color = Color(0.75, 0.36, 0.22, 1)
+roughness = 0.72
+
+[sub_resource type="StandardMaterial3D" id="Mat_TealSlate"]
+albedo_color = Color(0.22, 0.48, 0.44, 1)
+roughness = 0.55
+metallic = 0.12
+
+[sub_resource type="StandardMaterial3D" id="Mat_DarkWood"]
+albedo_color = Color(0.26, 0.16, 0.10, 1)
+roughness = 0.92
+
+[sub_resource type="StandardMaterial3D" id="Mat_FieldStone"]
+albedo_color = Color(0.44, 0.42, 0.40, 1)
+roughness = 0.88
+
+[sub_resource type="StandardMaterial3D" id="Mat_PebblePath"]
+albedo_color = Color(0.62, 0.58, 0.50, 1)
+roughness = 0.9
+
+[sub_resource type="StandardMaterial3D" id="Mat_GoldBrass"]
+albedo_color = Color(0.92, 0.76, 0.24, 1)
+metallic = 0.85
+roughness = 0.25
+
+[sub_resource type="StandardMaterial3D" id="Mat_WindowGlow"]
+albedo_color = Color(1.0, 0.84, 0.42, 1)
+emission_enabled = true
+emission = Color(1.0, 0.84, 0.42, 1)
+emission_energy_multiplier = 2.4
+
+[sub_resource type="StandardMaterial3D" id="Mat_ForgeEmber"]
+albedo_color = Color(1.0, 0.35, 0.10, 1)
+emission_enabled = true
+emission = Color(1.0, 0.35, 0.10, 1)
+emission_energy_multiplier = 2.8
+
+[sub_resource type="StandardMaterial3D" id="Mat_StripedAwning"]
+albedo_color = Color(0.18, 0.56, 0.52, 1)
+roughness = 0.65
+
+[sub_resource type="StandardMaterial3D" id="Mat_Water"]
+transparency = 1
+albedo_color = Color(0.22, 0.62, 0.84, 0.85)
+roughness = 0.1
+metallic = 0.25
+
+[sub_resource type="BoxMesh" id="Mesh_Plinth"]
+size = Vector3(1.22, 0.08, 1.15)
+
+[sub_resource type="BoxMesh" id="Mesh_PathBase"]
+size = Vector3(1.14, 0.04, 1.05)
+
+[sub_resource type="BoxMesh" id="Mesh_PlazaCobble"]
+size = Vector3(0.52, 0.02, 0.52)
+
+[sub_resource type="BoxMesh" id="Mesh_ChurchNave"]
+size = Vector3(0.38, 0.48, 0.48)
+
+[sub_resource type="PrismMesh" id="Mesh_ChurchRoof"]
+size = Vector3(0.42, 0.28, 0.52)
+
+[sub_resource type="BoxMesh" id="Mesh_BellTower"]
+size = Vector3(0.22, 0.84, 0.22)
+
+[sub_resource type="BoxMesh" id="Mesh_BelfryOpening"]
+size = Vector3(0.14, 0.16, 0.24)
+
+[sub_resource type="CylinderMesh" id="Mesh_Bell"]
+top_radius = 0.03
+bottom_radius = 0.05
+height = 0.08
+radial_segments = 8
+
+[sub_resource type="CylinderMesh" id="Mesh_SteepleCone"]
+top_radius = 0.01
+bottom_radius = 0.16
+height = 0.44
+radial_segments = 8
+
+[sub_resource type="BoxMesh" id="Mesh_CrossV"]
+size = Vector3(0.02, 0.14, 0.02)
+
+[sub_resource type="BoxMesh" id="Mesh_CrossH"]
+size = Vector3(0.08, 0.02, 0.02)
+
+[sub_resource type="BoxMesh" id="Mesh_Door"]
+size = Vector3(0.10, 0.20, 0.02)
+
+[sub_resource type="CylinderMesh" id="Mesh_RoseWindow"]
+top_radius = 0.06
+bottom_radius = 0.06
+height = 0.02
+radial_segments = 12
+
+[sub_resource type="BoxMesh" id="Mesh_TavernGround"]
+size = Vector3(0.44, 0.32, 0.38)
+
+[sub_resource type="BoxMesh" id="Mesh_TavernUpper"]
+size = Vector3(0.48, 0.28, 0.42)
+
+[sub_resource type="BoxMesh" id="Mesh_TimberBelt"]
+size = Vector3(0.50, 0.04, 0.44)
+
+[sub_resource type="PrismMesh" id="Mesh_TavernRoof"]
+size = Vector3(0.54, 0.28, 0.46)
+
+[sub_resource type="BoxMesh" id="Mesh_DormerBox"]
+size = Vector3(0.12, 0.14, 0.12)
+
+[sub_resource type="PrismMesh" id="Mesh_DormerPrism"]
+size = Vector3(0.14, 0.10, 0.14)
+
+[sub_resource type="BoxMesh" id="Mesh_Chimney"]
+size = Vector3(0.08, 0.32, 0.08)
+
+[sub_resource type="BoxMesh" id="Mesh_WindowSmall"]
+size = Vector3(0.06, 0.08, 0.02)
+
+[sub_resource type="BoxMesh" id="Mesh_ForgeHearth"]
+size = Vector3(0.24, 0.22, 0.24)
+
+[sub_resource type="BoxMesh" id="Mesh_ForgeEmbers"]
+size = Vector3(0.14, 0.04, 0.14)
+
+[sub_resource type="CylinderMesh" id="Mesh_ForgeChimney"]
+top_radius = 0.06
+bottom_radius = 0.08
+height = 0.52
+radial_segments = 8
+
+[sub_resource type="BoxMesh" id="Mesh_ForgeRoof"]
+size = Vector3(0.34, 0.03, 0.32)
+
+[sub_resource type="CylinderMesh" id="Mesh_ForgePost"]
+top_radius = 0.02
+bottom_radius = 0.02
+height = 0.30
+radial_segments = 6
+
+[sub_resource type="BoxMesh" id="Mesh_Anvil"]
+size = Vector3(0.08, 0.08, 0.06)
+
+[sub_resource type="BoxMesh" id="Mesh_CottageThatch"]
+size = Vector3(0.34, 0.28, 0.32)
+
+[sub_resource type="PrismMesh" id="Mesh_RoofThatch"]
+size = Vector3(0.38, 0.26, 0.36)
+
+[sub_resource type="BoxMesh" id="Mesh_TimberBeltSmall"]
+size = Vector3(0.35, 0.04, 0.33)
+
+[sub_resource type="BoxMesh" id="Mesh_ShopHouse"]
+size = Vector3(0.32, 0.28, 0.30)
+
+[sub_resource type="PrismMesh" id="Mesh_ShopRoof"]
+size = Vector3(0.36, 0.24, 0.34)
+
+[sub_resource type="BoxMesh" id="Mesh_Awning"]
+size = Vector3(0.24, 0.03, 0.14)
+
+[sub_resource type="CylinderMesh" id="Mesh_WellBase"]
+top_radius = 0.11
+bottom_radius = 0.12
+height = 0.12
+radial_segments = 8
+
+[sub_resource type="CylinderMesh" id="Mesh_WellWaterInside"]
+top_radius = 0.09
+bottom_radius = 0.09
+height = 0.08
+radial_segments = 8
+
+[sub_resource type="CylinderMesh" id="Mesh_WellPost"]
+top_radius = 0.015
+bottom_radius = 0.015
+height = 0.26
+radial_segments = 6
+
+[sub_resource type="BoxMesh" id="Mesh_WellBeam"]
+size = Vector3(0.20, 0.03, 0.03)
+
+[sub_resource type="PrismMesh" id="Mesh_WellRoof"]
+size = Vector3(0.24, 0.12, 0.20)
+
+[sub_resource type="BoxMesh" id="Mesh_Crate"]
+size = Vector3(0.09, 0.09, 0.09)
+
+[sub_resource type="CylinderMesh" id="Mesh_Barrel"]
+top_radius = 0.045
+bottom_radius = 0.05
+height = 0.12
+radial_segments = 8
+
+[node name="CiudadSylphrena" type="Node3D"]
+
+[node name="Plinth" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.04, 0)
+material_override = SubResource("Mat_FieldStone")
+mesh = SubResource("Mesh_Plinth")
+
+[node name="PathBase" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.08, 0)
+material_override = SubResource("Mat_PebblePath")
+mesh = SubResource("Mesh_PathBase")
+
+[node name="PlazaCobble" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.105, 0.06)
+material_override = SubResource("Mat_FieldStone")
+mesh = SubResource("Mesh_PlazaCobble")
+
+[node name="ChurchNave" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.15, 0.34, -0.28)
+material_override = SubResource("Mat_Plaster")
+mesh = SubResource("Mesh_ChurchNave")
+
+[node name="ChurchRoof" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.15, 0.72, -0.28)
+material_override = SubResource("Mat_TealSlate")
+mesh = SubResource("Mesh_ChurchRoof")
+
+[node name="ChurchDoor" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.15, 0.20, -0.035)
+material_override = SubResource("Mat_DarkWood")
+mesh = SubResource("Mesh_Door")
+
+[node name="ChurchRoseWindow" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0.15, 0.44, -0.035)
+material_override = SubResource("Mat_WindowGlow")
+mesh = SubResource("Mesh_RoseWindow")
+
+[node name="BellTower" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.36, 0.52, -0.22)
+material_override = SubResource("Mat_FieldStone")
+mesh = SubResource("Mesh_BellTower")
+
+[node name="BelfryOpening" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.36, 0.84, -0.22)
+material_override = SubResource("Mat_DarkWood")
+mesh = SubResource("Mesh_BelfryOpening")
+
+[node name="Bell" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.36, 0.84, -0.22)
+material_override = SubResource("Mat_GoldBrass")
+mesh = SubResource("Mesh_Bell")
+
+[node name="SteepleRoof" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.36, 1.15, -0.22)
+material_override = SubResource("Mat_TealSlate")
+mesh = SubResource("Mesh_SteepleCone")
+
+[node name="CrossV" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.36, 1.42, -0.22)
+material_override = SubResource("Mat_GoldBrass")
+mesh = SubResource("Mesh_CrossV")
+
+[node name="CrossH" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.36, 1.39, -0.22)
+material_override = SubResource("Mat_GoldBrass")
+mesh = SubResource("Mesh_CrossH")
+
+[node name="TavernGround" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.985, 0, 0.174, 0, 1, 0, -0.174, 0, 0.985, -0.32, 0.26, -0.24)
+material_override = SubResource("Mat_FieldStone")
+mesh = SubResource("Mesh_TavernGround")
+
+[node name="TimberBelt" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.985, 0, 0.174, 0, 1, 0, -0.174, 0, 0.985, -0.32, 0.41, -0.24)
+material_override = SubResource("Mat_DarkWood")
+mesh = SubResource("Mesh_TimberBelt")
+
+[node name="TavernUpper" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.985, 0, 0.174, 0, 1, 0, -0.174, 0, 0.985, -0.32, 0.54, -0.24)
+material_override = SubResource("Mat_Plaster")
+mesh = SubResource("Mesh_TavernUpper")
+
+[node name="TavernRoof" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.985, 0, 0.174, 0, 1, 0, -0.174, 0, 0.985, -0.32, 0.81, -0.24)
+material_override = SubResource("Mat_TerracottaTile")
+mesh = SubResource("Mesh_TavernRoof")
+
+[node name="DormerBox" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.985, 0, 0.174, 0, 1, 0, -0.174, 0, 0.985, -0.32, 0.74, -0.04)
+material_override = SubResource("Mat_Plaster")
+mesh = SubResource("Mesh_DormerBox")
+
+[node name="DormerPrism" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.985, 0, 0.174, 0, 1, 0, -0.174, 0, 0.985, -0.32, 0.86, -0.04)
+material_override = SubResource("Mat_TerracottaTile")
+mesh = SubResource("Mesh_DormerPrism")
+
+[node name="TavernChimney" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.48, 0.74, -0.22)
+material_override = SubResource("Mat_FieldStone")
+mesh = SubResource("Mesh_Chimney")
+
+[node name="TavernWindowL" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.985, 0, 0.174, 0, 1, 0, -0.174, 0, 0.985, -0.42, 0.54, -0.025)
+material_override = SubResource("Mat_WindowGlow")
+mesh = SubResource("Mesh_WindowSmall")
+
+[node name="TavernWindowR" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.985, 0, 0.174, 0, 1, 0, -0.174, 0, 0.985, -0.22, 0.54, -0.025)
+material_override = SubResource("Mat_WindowGlow")
+mesh = SubResource("Mesh_WindowSmall")
+
+[node name="TavernDoor" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.985, 0, 0.174, 0, 1, 0, -0.174, 0, 0.985, -0.24, 0.20, -0.045)
+material_override = SubResource("Mat_DarkWood")
+mesh = SubResource("Mesh_Door")
+
+[node name="ForgeHearth" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.906, 0, -0.423, 0, 1, 0, 0.423, 0, 0.906, 0.44, 0.21, 0.06)
+material_override = SubResource("Mat_FieldStone")
+mesh = SubResource("Mesh_ForgeHearth")
+
+[node name="ForgeEmbers" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.906, 0, -0.423, 0, 1, 0, 0.423, 0, 0.906, 0.44, 0.33, 0.06)
+material_override = SubResource("Mat_ForgeEmber")
+mesh = SubResource("Mesh_ForgeEmbers")
+
+[node name="ForgeChimney" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.44, 0.52, -0.06)
+material_override = SubResource("Mat_FieldStone")
+mesh = SubResource("Mesh_ForgeChimney")
+
+[node name="ForgeRoof" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.906, 0, -0.423, 0, 1, 0, 0.423, 0, 0.906, 0.44, 0.42, 0.08)
+material_override = SubResource("Mat_DarkWood")
+mesh = SubResource("Mesh_ForgeRoof")
+
+[node name="ForgePost1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.32, 0.26, 0.19)
+material_override = SubResource("Mat_DarkWood")
+mesh = SubResource("Mesh_ForgePost")
+
+[node name="ForgePost2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.56, 0.26, 0.08)
+material_override = SubResource("Mat_DarkWood")
+mesh = SubResource("Mesh_ForgePost")
+
+[node name="Anvil" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.906, 0, -0.423, 0, 1, 0, 0.423, 0, 0.906, 0.38, 0.15, 0.14)
+material_override = SubResource("Mat_FieldStone")
+mesh = SubResource("Mesh_Anvil")
+
+[node name="CottageThatch" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.940, 0, 0.342, 0, 1, 0, -0.342, 0, 0.940, -0.36, 0.24, 0.28)
+material_override = SubResource("Mat_Plaster")
+mesh = SubResource("Mesh_CottageThatch")
+
+[node name="CottageTimberBelt" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.940, 0, 0.342, 0, 1, 0, -0.342, 0, 0.940, -0.36, 0.38, 0.28)
+material_override = SubResource("Mat_DarkWood")
+mesh = SubResource("Mesh_TimberBeltSmall")
+
+[node name="RoofThatch" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.940, 0, 0.342, 0, 1, 0, -0.342, 0, 0.940, -0.36, 0.51, 0.28)
+material_override = SubResource("Mat_Straw")
+mesh = SubResource("Mesh_RoofThatch")
+
+[node name="CottageWindow" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.940, 0, 0.342, 0, 1, 0, -0.342, 0, 0.940, -0.34, 0.24, 0.44)
+material_override = SubResource("Mat_WindowGlow")
+mesh = SubResource("Mesh_WindowSmall")
+
+[node name="CottageChimney" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.46, 0.56, 0.24)
+material_override = SubResource("Mat_FieldStone")
+mesh = SubResource("Mesh_Chimney")
+
+[node name="ShopHouse" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.966, 0, -0.259, 0, 1, 0, 0.259, 0, 0.966, 0.18, 0.24, 0.34)
+material_override = SubResource("Mat_Plaster")
+mesh = SubResource("Mesh_ShopHouse")
+
+[node name="ShopRoof" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.966, 0, -0.259, 0, 1, 0, 0.259, 0, 0.966, 0.18, 0.50, 0.34)
+material_override = SubResource("Mat_TerracottaTile")
+mesh = SubResource("Mesh_ShopRoof")
+
+[node name="ShopAwning" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.966, 0, -0.259, 0, 1, 0, 0.259, 0, 0.966, 0.18, 0.30, 0.50)
+material_override = SubResource("Mat_StripedAwning")
+mesh = SubResource("Mesh_Awning")
+
+[node name="ShopWindow" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.966, 0, -0.259, 0, 1, 0, 0.259, 0, 0.966, 0.18, 0.22, 0.49)
+material_override = SubResource("Mat_WindowGlow")
+mesh = SubResource("Mesh_WindowSmall")
+
+[node name="WellBase" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.02, 0.16, 0.08)
+material_override = SubResource("Mat_FieldStone")
+mesh = SubResource("Mesh_WellBase")
+
+[node name="WellWaterInside" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.02, 0.17, 0.08)
+material_override = SubResource("Mat_Water")
+mesh = SubResource("Mesh_WellWaterInside")
+
+[node name="WellPostL" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.11, 0.26, 0.08)
+material_override = SubResource("Mat_DarkWood")
+mesh = SubResource("Mesh_WellPost")
+
+[node name="WellPostR" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.07, 0.26, 0.08)
+material_override = SubResource("Mat_DarkWood")
+mesh = SubResource("Mesh_WellPost")
+
+[node name="WellBeam" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.02, 0.38, 0.08)
+material_override = SubResource("Mat_DarkWood")
+mesh = SubResource("Mesh_WellBeam")
+
+[node name="WellRoof" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.02, 0.45, 0.08)
+material_override = SubResource("Mat_DarkWood")
+mesh = SubResource("Mesh_WellRoof")
+
+[node name="Crate" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.966, 0, 0.259, 0, 1, 0, -0.259, 0, 0.966, -0.06, 0.14, 0.26)
+material_override = SubResource("Mat_DarkWood")
+mesh = SubResource("Mesh_Crate")
+
+[node name="Barrel" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.04, 0.16, 0.26)
+material_override = SubResource("Mat_DarkWood")
+mesh = SubResource("Mesh_Barrel")

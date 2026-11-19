@@ -1,0 +1,23 @@
+{
+    "name": {
+        "es": "Semilla de Cactus",
+        "en": "Cactus Seed",
+        "fr": "Graine de Cactus",
+        "it": "Seme di Cactus",
+        "de": "Kaktussamen",
+        "zh": "仙人掌种子",
+        "ja": "サボテンの種"
+    },
+    "desc": {
+        "es": "Plántala en una casilla de desierto despejada. Tras 24 horas de juego, reverdecerá la arena convirtiéndola en un prado con un árbol.",
+        "en": "Plant it on a cleared desert tile. After 24 in-game hours, it will turn the sand into a meadow with a tree.",
+        "fr": "Plantez-la sur une case de désert dégagée. Après 24 heures de jeu, elle transformera le sable en prairie avec un arbre.",
+        "it": "Piantalo su una casella di deserto sgombra. Dopo 24 ore di gioco, trasformerà la sabbia in una prateria con un albero.",
+        "de": "Pflanze ihn auf einem freien Wüstenfeld. Nach 24 Spielstunden verwandelt er den Sand in eine Wiese mit einem Baum.",
+        "zh": "种植于空旷的沙漠格。经过 24 个游戏内小时后，会将沙地变为带有树木的草地。",
+        "ja": "整地された砂漠のマスに植える。ゲーム内時間で24時間後、砂地を木のある草原に変える。"
+    },
+    "icon": "🌵",
+    "category": "other",
+    "usable": false
+}

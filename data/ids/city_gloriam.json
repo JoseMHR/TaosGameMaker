@@ -1,0 +1,32 @@
+{
+    "id": "city_gloriam",
+    "type": "city",
+    "name": {
+        "es": "Gloriam",
+        "en": "Gloriam",
+        "fr": "Gloriam",
+        "it": "Gloriam",
+        "de": "Gloriam",
+        "zh": "格洛里亚姆",
+        "ja": "グロリアム"
+    },
+    "icon": "🏜️",
+    "desc": {
+        "es": "La gran capital de las arenas y el comercio de especias",
+        "en": "The grand capital of sands and spice commerce",
+        "fr": "La grande capitale des sables et du commerce des épices",
+        "it": "La grande capitale delle sabbie e del commercio delle spezie",
+        "de": "Die große Hauptstadt der Sande und des Gewürzhandels",
+        "zh": "沙漠与香料贸易的宏伟都城",
+        "ja": "砂と香辛料交易の大都"
+    },
+    "bg": "bg_city_gloriam.png",
+    "content": [
+        "poi_gloriam_taberna",
+        "poi_gloriam_shop",
+        "poi_gloriam_board",
+        "poi_gloriam_transportista",
+        "poi_gloriam_oasis",
+        "poi_gloriam_residencia"
+    ]
+}

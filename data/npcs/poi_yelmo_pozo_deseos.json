@@ -1,0 +1,149 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Pozo de los Deseos Secos",
+            "en": "The Well of Dry Wishes",
+            "fr": "Le Puits des Vœux Secs",
+            "it": "Il Pozzo dei Desideri Secchi",
+            "de": "Der Brunnen der Trockenen Wünsche",
+            "zh": "干涸愿望之井",
+            "ja": "乾いた願いの井戸"
+        },
+        "next": [],
+        "reward": "bg=0.04,0.05,0.06"
+    },
+    "pozo_root": {
+        "type": "message",
+        "text": {
+            "es": "Un pozo de piedra ennegrecida se alza solo en el páramo, con la soga podrida y el cubo hecho astillas en el fondo. No queda ni una gota de agua. Sobre el brocal, alguien ha dejado alineadas tres monedas oxidadas y una horquilla de pelo infantil. Del fondo oscuro sube un aire frío que huele, inexplicablemente, a tarde de verano.",
+            "en": "A well of blackened stone stands alone on the moor, its rope rotted and its bucket splintered at the bottom. Not a drop of water remains. On the rim, someone has lined up three rusted coins and a child's hairpin. From the dark depths rises a cold draft that smells, inexplicably, of a summer afternoon.",
+            "fr": "Un puits de pierre noircie se dresse seul dans la lande, la corde pourrie et le seau réduit en éclats au fond. Il ne reste plus une goutte d'eau. Sur la margelle, quelqu'un a aligné trois pièces rouillées et une barrette de cheveux d'enfant. Du fond obscur monte un air froid qui sent, inexplicablement, un après-midi d'été.",
+            "it": "Un pozzo di pietra annerita si erge solo nella landa, con la corda marcia e il secchio in frantumi sul fondo. Non rimane una goccia d'acqua. Sul bordo, qualcuno ha allineato tre monete arrugginite e una forcina per capelli infantile. Dal fondo oscuro sale un'aria fredda che odora, inspiegabilmente, di pomeriggio d'estate.",
+            "de": "Ein Brunnen aus geschwärztem Stein steht einsam in der Heide, das Seil verrottet und der Eimer am Boden zersplittert. Kein Tropfen Wasser ist übrig geblieben. Auf dem Rand hat jemand drei rostige Münzen und eine Kinder-Haarspange aufgereiht. Aus der dunklen Tiefe steigt kalte Luft auf, die unerklärlicherweise nach einem Sommernachmittag riecht.",
+            "zh": "一口被熏黑的石井孤零零地矗立在荒原上，绳索已腐烂，井底的水桶碎成了木屑。井里没有一滴水了。井沿上，有人整齐地摆放了三枚生锈的硬币和一枚儿童发夹。黑暗的深处升起一股冷风，莫名地散发着夏日午后的气息。",
+            "ja": "黒ずんだ石造りの井戸が荒野に一つだけ立っている。縄は腐り、底には砕けた桶が転がっている。水は一滴も残っていない。縁には、誰かが錆びた硬貨を三枚と子供用のヘアピンを並べて置いている。暗い底から、不可解にも夏の午後の匂いのする冷たい空気が立ち上ってくる。"
+        },
+        "next": [
+            "pozo_opt_moneda",
+            "pozo_opt_escuchar",
+            "pozo_opt_horquilla",
+            "pozo_opt_salir"
+        ],
+        "reward": ""
+    },
+    "pozo_opt_moneda": {
+        "type": "option",
+        "text": {
+            "es": "🪙  Lanzar una moneda y pedir un deseo (−1 oro)",
+            "en": "🪙  Toss a coin and make a wish (−1 gold)",
+            "fr": "🪙  Lancer une pièce et faire un vœu (−1 or)",
+            "it": "🪙  Lanciare una moneta ed esprimere un desiderio (−1 oro)",
+            "de": "🪙  Eine Münze werfen und einen Wunsch äußern (−1 Gold)",
+            "zh": "🪙  投一枚硬币并许愿（-1金币）",
+            "ja": "🪙  硬貨を投げて願いを込める（-1ゴールド）"
+        },
+        "next": [
+            "pozo_msg_moneda"
+        ],
+        "reward": "gold:-1",
+        "condition": "gold >= 1",
+        "once": true
+    },
+    "pozo_msg_moneda": {
+        "type": "message",
+        "text": {
+            "es": "La moneda cae girando en la oscuridad. Cuentas los segundos esperando el tintineo contra el fondo seco... pero en su lugar oyes un chapoteo. Agua. Un pozo seco no puede sonar a agua. Y entonces, subiendo por la piedra como el humo, una risa de niña, breve y feliz, y una vocecita que dice 'otra vez, papá'. El vello se te eriza. No has pedido ningún deseo: te has quedado sin voz.",
+            "en": "The coin tumbles spinning into the dark. You count the seconds waiting for the clink against the dry bottom... but instead you hear a splash. Water. A dry well cannot sound like water. And then, climbing up the stone like smoke, a little girl's laugh, brief and happy, and a small voice saying 'again, daddy.' Your hair stands on end. You made no wish: the words wouldn't come.",
+            "fr": "La pièce tombe en tournoyant dans l'obscurité. Tu comptes les secondes en attendant le tintement contre le fond sec... mais à la place tu entends un clapotis. De l'eau. Un puits sec ne peut pas sonner comme de l'eau. Et alors, montant le long de la pierre comme de la fumée, un rire de fillette, bref et heureux, et une petite voix qui dit « encore, papa ». Tes poils se hérissent. Tu n'as fait aucun vœu : les mots ne sont pas venus.",
+            "it": "La moneta cade roteando nell'oscurità. Conti i secondi aspettando il tintinnio contro il fondo secco... ma invece senti uno sciacquio. Acqua. Un pozzo secco non può suonare come acqua. E poi, salendo lungo la pietra come fumo, una risata di bambina, breve e felice, e una vocina che dice 'ancora, papà'. I peli ti si rizzano. Non hai espresso alcun desiderio: le parole non sono venute.",
+            "de": "Die Münze fällt wirbelnd in die Dunkelheit. Du zählst die Sekunden und wartest auf das Klirren gegen den trockenen Grund... doch stattdessen hörst du ein Platschen. Wasser. Ein trockener Brunnen kann nicht nach Wasser klingen. Und dann, wie Rauch die Steine hinaufsteigend, ein kurzes, glückliches Kinderlachen, und eine kleine Stimme, die sagt „nochmal, Papa“. Deine Haare stellen sich auf. Du hast keinen Wunsch geäußert: die Worte wollten nicht kommen.",
+            "zh": "硬币旋转着坠入黑暗。你数着秒数，等待着它撞击干燥井底的叮当声……但取而代之的是一声水花溅起的声音。是水。一口干涸的井不该发出水的声音。然后，如烟雾般顺着石壁升起的，是一声短暂而快乐的女孩笑声，还有一个稚嫩的声音说着「再来一次，爸爸」。你毛骨悚然。你没有许下任何愿望：话语哽在了喉咙里。",
+            "ja": "硬貨が回転しながら闇の中に落ちていく。乾いた底に当たる音を待ちながら秒を数える……だが代わりに聞こえたのは水音だった。水だ。乾いた井戸が水の音を立てるはずがない。そして、煙のように石を伝って立ち上ってくるのは、短く幸せそうな少女の笑い声と、「もう一回、パパ」という小さな声。全身の毛が逆立つ。願いは一つも言えなかった——言葉が出てこなかったのだ。"
+        },
+        "next": [
+            "pozo_opt_salir"
+        ],
+        "reward": "faceta:cordura=-1"
+    },
+    "pozo_opt_escuchar": {
+        "type": "option",
+        "text": {
+            "es": "👂  Asomarte y escuchar con atención el fondo",
+            "en": "👂  Lean in and listen closely to the bottom",
+            "fr": "👂  Se pencher et écouter attentivement le fond",
+            "it": "👂  Sporgersi e ascoltare attentamente il fondo",
+            "de": "👂  Sich hineinlehnen und aufmerksam auf den Grund lauschen",
+            "zh": "👂  探身仔细聆听井底",
+            "ja": "👂  身を乗り出して底の音に耳を澄ます"
+        },
+        "next": [
+            "pozo_msg_escuchar"
+        ],
+        "reward": ""
+    },
+    "pozo_msg_escuchar": {
+        "type": "message",
+        "text": {
+            "es": "Apoyas las manos en el brocal helado y asomas la cabeza. Al principio, nada: solo tu propia respiración devuelta en eco. Luego, muy lejos, muy abajo, un rumor de agua que no existe y una nana a media voz, una melodía que no reconoces pero que tu garganta empieza a tararear sola, como si la hubieras cantado mil veces. Te apartas de golpe, con el corazón desbocado. ¿Por qué sabes esa canción?",
+            "en": "You rest your hands on the icy rim and lean your head in. At first, nothing: just your own breathing echoed back. Then, very far, very deep, a murmur of water that doesn't exist and a half-sung lullaby, a melody you don't recognize but that your throat starts humming on its own, as if you'd sung it a thousand times. You jerk back, heart pounding. Why do you know that song?",
+            "fr": "Tu poses les mains sur la margelle gelée et penches la tête. Au début, rien : juste ta propre respiration renvoyée en écho. Puis, très loin, très bas, une rumeur d'eau qui n'existe pas et une berceuse à mi-voix, une mélodie que tu ne reconnais pas mais que ta gorge commence à fredonner toute seule, comme si tu l'avais chantée mille fois. Tu te retires d'un coup, le cœur affolé. Pourquoi connais-tu cette chanson ?",
+            "it": "Appoggi le mani sul bordo ghiacciato e sporgi la testa. All'inizio, nulla: solo il tuo stesso respiro rimandato in eco. Poi, molto lontano, molto in basso, un mormorio d'acqua che non esiste e una ninna nanna a mezza voce, una melodia che non riconosci ma che la tua gola inizia a canticchiare da sola, come se l'avessi cantata mille volte. Ti ritiri di scatto, con il cuore in tumulto. Perché conosci quella canzone?",
+            "de": "Du legst die Hände auf den eisigen Rand und beugst deinen Kopf hinein. Zuerst nichts: nur dein eigener Atem, der als Echo zurückkommt. Dann, sehr weit weg, sehr tief, ein Wassermurmeln, das es nicht gibt, und ein halb gesungenes Schlaflied, eine Melodie, die du nicht erkennst, die deine Kehle aber von selbst zu summen beginnt, als hättest du sie tausendmal gesungen. Du reißt dich abrupt zurück, das Herz rasend. Warum kennst du dieses Lied?",
+            "zh": "你把手放在冰冷的井沿上，探头进去。起初什么都没有：只有自己呼吸的回声。然后，在很远很深的地方，传来一阵本不该存在的水声，还有一段轻声哼唱的摇篮曲，一段你不认识的旋律，但你的喉咙却不由自主地跟着哼了起来，仿佛已经唱过千百遍。你猛地缩回身子，心跳狂乱。你为什么会知道这首歌？",
+            "ja": "凍った縁に手を置き、頭を差し入れる。最初は何もない——自分の呼吸が反響しているだけだ。それからずっと遠く、ずっと深いところで、存在しないはずの水のせせらぎと、半分歌うような子守唄が聞こえてくる。聞き覚えのない旋律なのに、なぜか喉が勝手にそれを口ずさみ始める、まるで千回も歌ったことがあるかのように。心臓を高鳴らせながら急いで身を引く。なぜこの歌を知っているのだろう？"
+        },
+        "next": [
+            "pozo_opt_salir"
+        ],
+        "reward": ""
+    },
+    "pozo_opt_horquilla": {
+        "type": "option",
+        "text": {
+            "es": "📍  Coger la horquilla de pelo del brocal",
+            "en": "📍  Take the hairpin from the rim",
+            "fr": "📍  Prendre la barrette de cheveux sur la margelle",
+            "it": "📍  Prendere la forcina per capelli dal bordo",
+            "de": "📍  Die Haarspange vom Rand nehmen",
+            "zh": "📍  拿起井沿上的发夹",
+            "ja": "📍  縁からヘアピンを取る"
+        },
+        "next": [
+            "pozo_msg_horquilla"
+        ],
+        "reward": ""
+    },
+    "pozo_msg_horquilla": {
+        "type": "message",
+        "text": {
+            "es": "Alargas la mano hacia la pequeña horquilla. En cuanto tus dedos la rozan, una punzada te atraviesa la sien —un fogonazo de una habitación blanca, de luces frías, de una manita— y desaparece antes de que puedas atraparlo. Retiras la mano como si quemara. Mejor dejarla donde está. Algunas cosas están puestas ahí a propósito, esperando a alguien que aún no eres.",
+            "en": "You reach for the little hairpin. The instant your fingers brush it, a stab shoots through your temple — a flash of a white room, of cold lights, of a tiny hand — and it's gone before you can catch it. You pull your hand back as if burned. Better to leave it where it is. Some things are set there on purpose, waiting for someone you are not yet.",
+            "fr": "Tu tends la main vers la petite barrette. Dès que tes doigts l'effleurent, une douleur lancinante traverse ta tempe — un éclair d'une pièce blanche, de lumières froides, d'une petite main — et disparaît avant que tu ne puisses le saisir. Tu retires ta main comme si elle brûlait. Mieux vaut la laisser où elle est. Certaines choses sont posées là à dessein, attendant quelqu'un que tu n'es pas encore.",
+            "it": "Allunghi la mano verso la piccola forcina. Nell'istante in cui le tue dita la sfiorano, una fitta ti attraversa la tempia — un lampo di una stanza bianca, di luci fredde, di una manina — e scompare prima che tu possa afferrarlo. Ritiri la mano come se scottasse. Meglio lasciarla dov'è. Alcune cose sono messe lì apposta, in attesa di qualcuno che ancora non sei.",
+            "de": "Du streckst die Hand nach der kleinen Spange aus. In dem Moment, in dem deine Finger sie berühren, durchfährt dich ein stechender Schmerz in der Schläfe — ein Aufblitzen eines weißen Zimmers, kalter Lichter, einer winzigen Hand — und verschwindet, bevor du es festhalten kannst. Du ziehst die Hand zurück, als hätte sie sich verbrannt. Besser, sie dort zu lassen, wo sie ist. Manche Dinge sind absichtlich dort platziert, warten auf jemanden, der du noch nicht bist.",
+            "zh": "你伸手去拿那枚小发夹。指尖刚一触碰到它，一阵剧痛便刺穿了你的太阳穴——一闪而过的白色房间、冷冽的灯光、一只小小的手——在你能抓住之前便消失了。你像被烫到一样缩回手。还是把它留在原处比较好。有些东西是特意放在那里的，等待着一个你还不是的人。",
+            "ja": "小さなヘアピンに手を伸ばす。指がそれに触れた瞬間、こめかみに鋭い痛みが走る——白い部屋、冷たい光、小さな手の閃光——それを掴む前に消え去ってしまう。まるで火傷したかのように手を引っ込める。そのままにしておく方がいい。何かはわざとそこに置かれていて、まだお前ではない誰かを待っているのだ。"
+        },
+        "next": [
+            "pozo_opt_salir"
+        ],
+        "reward": ""
+    },
+    "pozo_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Alejarte del pozo (deprisa)",
+            "en": "🚶  Step away from the well (quickly)",
+            "fr": "🚶  S'éloigner du puits (rapidement)",
+            "it": "🚶  Allontanarsi dal pozzo (in fretta)",
+            "de": "🚶  Sich vom Brunnen entfernen (schnell)",
+            "zh": "🚶  （迅速地）离开这口井",
+            "ja": "🚶  井戸から離れる（急いで）"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

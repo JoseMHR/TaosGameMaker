@@ -1,0 +1,185 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "Farid el Tabernero",
+            "en": "Farid the Barkeep",
+            "fr": "Farid le Tavernier",
+            "it": "Farid il Taverniere",
+            "de": "Farid der Wirt",
+            "zh": "酒馆老板法里德",
+            "ja": "酒場の主人ファリド"
+        },
+        "next": [],
+        "reward": "avatar=🧉;bg=0.14,0.09,0.02"
+    },
+    "far_1": {
+        "type": "message",
+        "text": {
+            "es": "¡Salam y salud, viajero! Sacúdete el polvo abrasador de las dunas y toma asiento bajo estas esteras de cáñamo. En la Taberna del Sol de Gloriam el hielo nunca se derrite y las historias nunca se agotan. ¿Qué aliviará hoy tu sed?",
+            "en": "Salam and hail, wanderer! Shake off the scorching grit of the dunes and take your ease beneath these cool hemp awnings. In the Sun Tavern of Gloriam the ice never thaws and the tales never run dry. What shall ease your throat today?",
+            "fr": "Salam et salutations, voyageur ! Secoue la poussière brûlante des dunes et assieds-toi sous ces nattes de chanvre. À la Taverne du Soleil de Gloriam, la glace ne fond jamais et les histoires ne se tarissent jamais. Qu'apaisera ta soif aujourd'hui ?",
+            "it": "Salam e salute, viaggiatore! Scuoti la polvere bruciante delle dune e siediti sotto queste stuoie di canapa. Nella Taverna del Sole di Gloriam il ghiaccio non si scioglie mai e le storie non finiscono mai. Cosa placherà oggi la tua sete?",
+            "de": "Salam und Gruß, Reisender! Schüttle den glühenden Staub der Dünen ab und setz dich unter diese Hanfmatten. In der Sonnentaverne von Gloriam schmilzt das Eis nie und die Geschichten gehen nie zur Neige. Was wird heute deinen Durst stillen?",
+            "zh": "祝安，旅人！抖落沙丘上灼热的尘土，坐到这些麻编凉席下吧。在格洛里亚姆的太阳酒馆，冰永不融化，故事永不枯竭。今天什么能解你的渴？",
+            "ja": "サラーム、そして歓迎するぞ、旅人よ！砂丘の灼熱の埃を払い落とし、この麻の敷物の下に腰を下ろせ。グロリアムの太陽酒場では、氷は決して溶けず、物語は決して尽きない。今日は何がお前の喉を潤すだろうか？"
+        },
+        "next": [
+            "far_opt_bebida",
+            "far_opt_desafio",
+            "far_opt_rumor",
+            "far_opt_propina",
+            "far_opt_salir"
+        ],
+        "reward": ""
+    },
+    "far_opt_bebida": {
+        "type": "option",
+        "text": {
+            "es": "🥤  Sírveme una infusión helada de hibisco y menta salvaje (10 oro)",
+            "en": "🥤  Pour me an iced hibiscus and wild mint infusion (10 gold)",
+            "fr": "🥤  Sers-moi une infusion glacée d'hibiscus et de menthe sauvage (10 or)",
+            "it": "🥤  Versami un'infusione ghiacciata di ibisco e menta selvatica (10 oro)",
+            "de": "🥤  Gib mir einen eisgekühlten Hibiskus- und Wildminz-Aufguss (10 Gold)",
+            "zh": "🥤  给我来一杯冰镇木槿野薄荷茶（10金币）",
+            "ja": "🥤  氷入りのハイビスカスと野生ミントのインフュージョンをくれ（10ゴールド）"
+        },
+        "next": [
+            "far_bebida"
+        ],
+        "reward": "gold:-10;item:bebida_refrescante=1;heal:25",
+        "condition": "gold >= 10"
+    },
+    "far_bebida": {
+        "type": "message",
+        "text": {
+            "es": "Farid desliza sobre la madera una copa empañada con escarcha. El trago es dulce como los dátiles maduros y gélido como la medianoche del desierto. Una sensación de bienestar absoluto te devuelve las fuerzas al instante.",
+            "en": "Farid slides across the counter a goblet frosted in mist. The draught is sweet as ripe dates and chill as desert midnight. A wave of revitalizing wellness restores your vigor at once.",
+            "fr": "Farid fait glisser sur le bois une coupe embuée de givre. La gorgée est douce comme des dattes mûres et glaciale comme le minuit du désert. Une sensation de bien-être absolu te redonne des forces instantanément.",
+            "it": "Farid fa scivolare sul legno una coppa appannata dal gelo. Il sorso è dolce come datteri maturi e gelido come la mezzanotte del deserto. Una sensazione di benessere assoluto ti restituisce le forze all'istante.",
+            "de": "Farid schiebt einen von Frost beschlagenen Becher über das Holz. Der Trunk ist süß wie reife Datteln und eisig wie die Wüstenmitternacht. Ein Gefühl absoluten Wohlbefindens gibt dir sofort neue Kraft.",
+            "zh": "法里德在木台上滑来一只结满薄霜的杯子。这杯饮料如成熟的椰枣般甘甜，如沙漠的午夜般冰冷。一种绝对舒适的感觉瞬间恢复了你的体力。",
+            "ja": "ファリドは霜で曇ったカップを木のカウンター越しに滑らせる。飲み物は熟したナツメヤシのように甘く、砂漠の真夜中のように冷たい。絶対的な安らぎの感覚が即座に力を取り戻させる。"
+        },
+        "next": [
+            "far_1"
+        ],
+        "reward": ""
+    },
+    "far_opt_desafio": {
+        "type": "option",
+        "text": {
+            "es": "🦂  He oído que guardas un trago para gargantas de hierro... ¡sírveme el Licor del Escorpión Negro!",
+            "en": "🦂  I hear you keep a draught for throats of iron... pour me the Black Scorpion Liquor!",
+            "fr": "🦂  J'ai entendu dire que tu gardes une boisson pour les gorges de fer... sers-moi la Liqueur du Scorpion Noir !",
+            "it": "🦂  Ho sentito che conservi un bicchierino per gole di ferro... versami il Liquore dello Scorpione Nero!",
+            "de": "🦂  Ich habe gehört, du hältst ein Getränk für eiserne Kehlen bereit... schenk mir den Schwarzen-Skorpion-Likör ein!",
+            "zh": "🦂  我听说你藏着一种能烧灼铁喉的烈酒……给我倒杯黑蝎烈酒！",
+            "ja": "🦂  鉄の喉のための酒を持っていると聞いた……ブラックスコーピオン・リキュールを注いでくれ！"
+        },
+        "next": [
+            "far_msg_desafio"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "far_msg_desafio": {
+        "type": "message",
+        "text": {
+            "es": "Los parroquianos del fondo guardan silencio sepulcral. Farid saca un frasco opaco con un escorpión venenoso en conserva. Te sirve un chupito oscuro y espeso. Bebes de un solo trago sin pestañear. Durante dos segundos tu estómago parece albergar un volcán en erupción, pero aprietas los dientes, respiras hondo y sonríes. Farid golpea la barra emocionado: '¡Por las mil lunas! ¡Hacía tres inviernos que nadie aguantaba el veneno sin llorar como una cría!' Los parroquianos brindan en tu honor.",
+            "en": "The patrons in the back fall dead silent. Farid produces an opaque flask preserving a stinger-poised scorpion. He pours a dense, pitch-black shot. You down it in one swallow without flinching. For two seconds your belly feels like a churning volcano, yet you grit your teeth, inhale deep, and smile. Farid pounds the oak in excitement: 'By the thousand moons! Not in three winters has someone taken the venom without weeping like a pup!' The tavern erupts in a toast to your grit.",
+            "fr": "Les habitués du fond gardent un silence de mort. Farid sort un flacon opaque conservant un scorpion venimeux prêt à piquer. Il te sert un verre foncé et épais. Tu le bois d'un seul trait sans ciller. Pendant deux secondes ton estomac semble abriter un volcan en éruption, mais tu serres les dents, inspires profondément et souris. Farid frappe le comptoir, ravi : « Par les mille lunes ! Ça faisait trois hivers que personne n'avait supporté le poison sans pleurer comme un gamin ! » Les habitués trinquent en ton honneur.",
+            "it": "Gli habitué in fondo mantengono un silenzio sepolcrale. Farid tira fuori un flacone opaco che conserva uno scorpione velenoso pronto a pungere. Ti versa un bicchierino scuro e denso. Lo bevi tutto d'un fiato senza battere ciglio. Per due secondi il tuo stomaco sembra ospitare un vulcano in eruzione, ma stringi i denti, respiri profondamente e sorridi. Farid batte il bancone emozionato: 'Per le mille lune! Erano tre inverni che nessuno reggeva il veleno senza piangere come un bambino!' Gli habitué brindano in tuo onore.",
+            "de": "Die Stammgäste hinten verstummen totenstill. Farid holt ein trübes Fläschchen mit einem stichbereiten Giftskorpion hervor. Er schenkt dir einen dunklen, dickflüssigen Schluck ein. Du kippst ihn in einem Zug, ohne zu zucken. Zwei Sekunden lang fühlt sich dein Magen an, als würde ein Vulkan ausbrechen, doch du beißt die Zähne zusammen, atmest tief durch und lächelst. Farid schlägt begeistert auf die Theke: „Bei den tausend Monden! Drei Winter lang hat niemand das Gift ertragen, ohne wie ein Kind zu weinen!“ Die Stammgäste erheben ihr Glas dir zu Ehren.",
+            "zh": "后排的常客们陷入了死一般的沉默。法里德拿出一个不透明的瓶子，里面泡着一只随时准备蜇人的毒蝎子。他给你倒了一杯又浓又深色的酒。你一口气喝下，眼睛都不眨一下。有那么两秒钟，你的胃里似乎住进了一座正在喷发的火山，但你咬紧牙关，深吸一口气，微笑起来。法里德激动地拍着柜台：「以千月起誓！已经三个冬天没人能不哭得像个孩子一样喝下这毒药了！」常客们为你举杯致敬。",
+            "ja": "奥の常連客たちが墓場のような沈黙に包まれる。ファリドは今にも刺しそうな毒サソリを漬け込んだ不透明な瓶を取り出す。濃く黒々とした一杯を注ぐ。お前はたじろぎもせず一気に飲み干す。二秒間、腹の中で火山が噴火しているような感覚に襲われるが、歯を食いしばり、深く息を吸い、微笑む。ファリドは興奮してカウンターを叩く。「千の月にかけて！三年もの間、誰も泣かずにこの毒に耐えた者はいなかったぞ！」常連客たちがお前を称えて乾杯する。"
+        },
+        "next": [
+            "far_1"
+        ],
+        "reward": "faceta:valor=+1;heal:15;gold:+20"
+    },
+    "far_opt_rumor": {
+        "type": "option",
+        "text": {
+            "es": "🧠  ¿Qué novedades traen los caravistas sobre los oasis y las ruinas?",
+            "en": "🧠  What news do caravan scouts bring regarding oases and ancient ruins?",
+            "fr": "🧠  Quelles nouvelles apportent les éclaireurs des caravanes sur les oasis et les ruines ?",
+            "it": "🧠  Quali novità portano gli esploratori delle carovane su oasi e rovine?",
+            "de": "🧠  Welche Neuigkeiten bringen die Karawanenspäher über Oasen und Ruinen?",
+            "zh": "🧠  商队斥候带回了什么关于绿洲和遗迹的消息？",
+            "ja": "🧠  キャラバンの斥候はオアシスや遺跡についてどんな知らせを持ち帰った？"
+        },
+        "next": [
+            "far_info"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "far_info": {
+        "type": "message",
+        "text": {
+            "es": "Farid limpia un vaso y baja la voz: 'Gloriam sobrevive gracias a las venas de agua subterráneas. Pero hacia el sudoeste, más allá del Puesto Avanzado, han avistado un Rey Escorpión de tamaño descomunal merodeando las arenas rojas. Y Tariq, el ermitaño del oasis, dice que las piedras de la Mano Gigante vibran al amanecer. Si sabes interpretar las señales, el desierto te guía; si vas a ciegas, te traga.'",
+            "en": "Farid wipes a tumbler and lowers his tone: 'Gloriam thrives on subterranean water veins. Yet toward the southwest, beyond the Outpost, scouts spotted a colossal Scorpion King prowling red dunes. And Tariq, the oasis hermit, claims the monoliths of the Giant Hand hum at sunrise. If you read the desert's signs, it guides your step; if you walk blind, it swallows you.'",
+            "fr": "Farid essuie un verre et baisse la voix : « Gloriam survit grâce aux veines d'eau souterraines. Mais vers le sud-ouest, au-delà de l'Avant-Poste, on a repéré un Roi Scorpion de taille démesurée rôdant dans les sables rouges. Et Tariq, l'ermite de l'oasis, dit que les pierres de la Main Géante vibrent à l'aube. Si tu sais interpréter les signes, le désert te guide ; si tu marches à l'aveugle, il t'engloutit. »",
+            "it": "Farid pulisce un bicchiere e abbassa la voce: 'Gloriam sopravvive grazie alle vene d'acqua sotterranee. Ma verso sud-ovest, oltre l'Avamposto, hanno avvistato un Re Scorpione di dimensioni smisurate che si aggira nelle sabbie rosse. E Tariq, l'eremita dell'oasi, dice che le pietre della Mano Gigante vibrano all'alba. Se sai interpretare i segnali, il deserto ti guida; se cammini alla cieca, ti inghiotte.'",
+            "de": "Farid wischt ein Glas ab und senkt die Stimme: „Gloriam überlebt dank unterirdischer Wasseradern. Doch im Südwesten, jenseits des Außenpostens, haben Späher einen kolossalen Skorpionkönig gesichtet, der die roten Dünen durchstreift. Und Tariq, der Oaseneremit, sagt, die Steine der Riesenhand vibrieren bei Sonnenaufgang. Wenn du die Zeichen der Wüste liest, führt sie dich; wenn du blind gehst, verschlingt sie dich.“",
+            "zh": "法里德擦着一只杯子压低声音说：「格洛里亚姆靠着地下的水脉存活。但在西南方，前哨站之外，斥候们发现了一只体型异常巨大的蝎王在红沙中游荡。绿洲隐士塔里克还说，巨手石在黎明时会震动。如果你懂得解读这些征兆，沙漠会指引你；如果你盲目前行，它会吞噬你。」",
+            "ja": "ファリドはグラスを拭きながら声を落とす。「グロリアムは地下の水脈のおかげで生き延びている。だが南西の、前哨基地の向こうで、赤い砂の中を巨大なサソリ王がうろついているのが目撃されたそうだ。オアシスの隠者タリクは、巨人の手の石が夜明けに振動すると言っている。砂漠の兆候を読めるなら、それはお前を導く。盲目に歩けば、それはお前を飲み込む」"
+        },
+        "next": [
+            "far_1"
+        ],
+        "reward": "faceta:inteligencia=+1;discover:lore_oasis_gloriam"
+    },
+    "far_opt_propina": {
+        "type": "option",
+        "text": {
+            "es": "🪙  Dejar 15 monedas de propina y elogiar la hospitalidad del local",
+            "en": "🪙  Leave a 15 gold tip and praise the warmth of the establishment",
+            "fr": "🪙  Laisser 15 pièces dor de pourboire et faire léloge de l'hospitalité du lieu",
+            "it": "🪙  Lasciare 15 monete doro di mancia e lodare lospitalità del locale",
+            "de": "🪙  15 Gold Trinkgeld hinterlassen und die Herzlichkeit des Etablissements loben",
+            "zh": "🪙  留下15金币的小费，赞美这家酒馆的好客之道",
+            "ja": "🪙  金貨15枚のチップを残し、この店のもてなしを称賛する"
+        },
+        "next": [
+            "far_msg_propina"
+        ],
+        "reward": "gold:-15;faceta:bondad=+1;faceta:aspecto=+1",
+        "condition": "gold >= 15",
+        "once": true
+    },
+    "far_msg_propina": {
+        "type": "message",
+        "text": {
+            "es": "Farid se lleva la mano derecha al corazón e inclina la cabeza con sincera emoción: 'Que tu sombra nunca mengüe, noble amigo. La generosidad en las arenas es más valiosa que un pozo entero de agua dulce. Siempre serás bienvenido en mi mesa.'",
+            "en": "Farid places his palm over his heart and bows with profound gratitude: 'May your shadow never dwindle, noble friend. Generosity in the sands shines brighter than a well of sweet spring. My hearth is forever open to your name.'",
+            "fr": "Farid pose sa main droite sur son cœur et incline la tête avec une émotion sincère : « Que ton ombre ne s'amenuise jamais, noble ami. La générosité dans les sables vaut plus qu'un puits entier d'eau douce. Tu seras toujours le bienvenu à ma table. »",
+            "it": "Farid si porta la mano destra al cuore e inclina la testa con sincera commozione: 'Che la tua ombra non si affievolisca mai, nobile amico. La generosità nelle sabbie vale più di un intero pozzo di acqua dolce. Sarai sempre benvenuto alla mia tavola.'",
+            "de": "Farid legt seine rechte Hand aufs Herz und neigt den Kopf mit aufrichtiger Rührung: „Möge dein Schatten niemals schwinden, edler Freund. Großzügigkeit im Sand ist wertvoller als ein ganzer Brunnen mit süßem Wasser. An meinem Tisch bist du immer willkommen.“",
+            "zh": "法里德把右手放在胸前，怀着真挚的感动低下头：「愿你的身影永不消减，尊贵的朋友。在这片沙地上，慷慨比一整口甘泉更加珍贵。我的餐桌永远为你敞开。」",
+            "ja": "ファリドは右手を胸に当て、真心からの感動とともに頭を下げる。「お前の影が決して薄れませんように、高貴な友よ。砂の中での寛大さは、真水の井戸一つ丸ごとよりも価値がある。我が食卓はいつでもお前を歓迎する」"
+        },
+        "next": [
+            "far_1"
+        ],
+        "reward": ""
+    },
+    "far_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Ha sido un placer, Farid. Que los vientos te acompañen",
+            "en": "🚶  Pleasure was mine, Farid. May steady breezes guide you",
+            "fr": "🚶  Ce fut un plaisir, Farid. Que les vents t'accompagnent",
+            "it": "🚶  È stato un piacere, Farid. Che i venti ti accompagnino",
+            "de": "🚶  Es war mir eine Freude, Farid. Mögen dich die Winde begleiten",
+            "zh": "🚶  很荣幸认识你，法里德。愿风为你护航",
+            "ja": "🚶  楽しかったよ、ファリド。風がお前とともにあらんことを"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

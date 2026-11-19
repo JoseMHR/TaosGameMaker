@@ -1,0 +1,32 @@
+{
+    "id": "poi_temple_elementalista",
+    "type": "poi",
+    "name": {
+        "es": "Templo del Elementalista",
+        "en": "Temple of the Elementalist",
+        "fr": "Temple de l'Élémentaliste",
+        "it": "Tempio dell'Elementalista",
+        "de": "Tempel des Elementaristen",
+        "zh": "元素使神庙",
+        "ja": "精霊使いの神殿"
+    },
+    "icon": "🔥",
+    "desc": {
+        "es": "Fuego, hielo y rayo en armonía",
+        "en": "Fire, ice and lightning in harmony",
+        "fr": "Feu, glace et foudre en harmonie",
+        "it": "Fuoco, ghiaccio e fulmine in armonia",
+        "de": "Feuer, Eis und Blitz in Harmonie",
+        "zh": "火、冰与雷的和谐共鸣",
+        "ja": "火、氷、雷の調和"
+    },
+    "npc": "temple_elementalist",
+    "presences": [
+        {
+            "condition": "default",
+            "actor": "temple_elementalist",
+            "entry_node": ""
+        }
+    ],
+    "bg": "bg_temple_elementalista.png"
+}

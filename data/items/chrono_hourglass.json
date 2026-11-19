@@ -1,0 +1,40 @@
+{
+    "name": {
+        "es": "Reloj de Arena Cronal",
+        "en": "Chrono Hourglass",
+        "fr": "Sablier Chronal",
+        "it": "Clessidra Cronale",
+        "de": "Chrono-Sanduhr",
+        "zh": "时相沙漏",
+        "ja": "クロノアワーグラス"
+    },
+    "desc": {
+        "es": "Relicario que distorsiona los microsegundos a favor de quien lo empuña.",
+        "en": "Relic that distorts split seconds in favor of the wielder.",
+        "fr": "Relique qui distord les fractions de seconde en faveur de celui qui la porte.",
+        "it": "Reliquia che distorce le frazioni di secondo a favore di chi la impugna.",
+        "de": "Ein Relikt, das Sekundenbruchteile zugunsten des Trägers verzerrt.",
+        "zh": "扭曲微秒以利于持有者的圣物。",
+        "ja": "装着者に有利になるよう一瞬の時間を歪める遺物。"
+    },
+    "icon": "⏳",
+    "category": "equipment",
+    "usable": false,
+    "slot": "accessory",
+    "tier": 4,
+    "bonuses": {
+        "int": 6,
+        "agi": 6
+    },
+    "combat": {
+        "mag_damage": 35
+    },
+    "traits": [
+        {
+            "type": "atb_speed",
+            "value": 0.1,
+            "min_refine": 5,
+            "desc": "+10% Velocidad de acción en combate"
+        }
+    ]
+}

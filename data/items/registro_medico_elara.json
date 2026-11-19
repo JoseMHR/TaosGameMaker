@@ -1,0 +1,23 @@
+{
+    "name": {
+        "es": "Registro Médico de Urgencias",
+        "en": "Emergency Medical Record",
+        "fr": "Dossier Médical d'Urgence",
+        "it": "Cartella Medica d'Emergenza",
+        "de": "Notfall-Krankenakte",
+        "zh": "急诊医疗记录",
+        "ja": "緊急医療記録"
+    },
+    "desc": {
+        "es": "Un informe clínico frío y directo: exposición aguda a radiación de esfera. Paciente: Elara. Edad: 6 años. Las manos te tiemblan al leerlo.",
+        "en": "A cold, clinical report: acute exposure to sphere radiation. Patient: Elara. Age: 6. Your hands shake as you read it.",
+        "fr": "Un rapport clinique froid et direct : exposition aiguë à la radiation de sphère. Patient : Elara. Âge : 6 ans. Vos mains tremblent en le lisant.",
+        "it": "Un referto clinico freddo e diretto: esposizione acuta a radiazione di sfera. Paziente: Elara. Età: 6 anni. Le mani ti tremano leggendolo.",
+        "de": "Ein kühler, sachlicher klinischer Bericht: akute Exposition gegenüber Sphärenstrahlung. Patientin: Elara. Alter: 6 Jahre. Deine Hände zittern beim Lesen.",
+        "zh": "一份冷冰冰、直白的临床报告：急性球体辐射暴露。患者：艾拉拉。年龄：6岁。读到这里，你的手不禁颤抖。",
+        "ja": "冷たく率直な臨床報告書：球体放射線への急性被曝。患者：エララ。年齢：6歳。読んでいると手が震える。"
+    },
+    "icon": "🩺",
+    "category": "important",
+    "usable": false
+}

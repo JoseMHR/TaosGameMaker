@@ -1,0 +1,23 @@
+{
+    "name": {
+        "es": "Pimienta Carmesí",
+        "en": "Crimson Pepper",
+        "fr": "Poivre Cramoisi",
+        "it": "Pepe Cremisi",
+        "de": "Karmesinpfeffer",
+        "zh": "绯红辣椒",
+        "ja": "クリムゾンペッパー"
+    },
+    "desc": {
+        "es": "Una especia rara de más allá de las dunas. Huele a receta familiar.",
+        "en": "A rare spice from beyond the dunes. It smells like a family recipe.",
+        "fr": "Une épice rare venue d'au-delà des dunes. Elle sent la recette de famille.",
+        "it": "Una spezia rara da oltre le dune. Profuma di ricetta di famiglia.",
+        "de": "Ein seltenes Gewürz von jenseits der Dünen. Es riecht nach einem Familienrezept.",
+        "zh": "来自沙丘另一端的稀有香料，闻起来像家传食谱的味道。",
+        "ja": "砂丘の彼方から来た珍しい香辛料。家庭のレシピの匂いがする。"
+    },
+    "icon": "🌶️",
+    "category": "important",
+    "usable": false
+}

@@ -1,0 +1,14 @@
+{
+	"code": "sea",
+	"order": 0,
+	"label": "Mar",
+	"color": "#0a2e52",
+	"icon": "🌊",
+	"biome_color": "#0a1e36",
+	"description": "Agua profunda que se extiende hasta el horizonte.",
+	"walkable": false,
+	"texture": "sea",
+	"tint": "#8cb3e6",
+	"roughness": 0.15,
+	"uv_scroll": [0.015, 0.008]
+}

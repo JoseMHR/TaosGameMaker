@@ -1,0 +1,31 @@
+{
+    "name": {
+        "es": "Arco de Roble",
+        "en": "Oak Bow",
+        "fr": "Arc de Chêne",
+        "it": "Arco di Quercia",
+        "de": "Eichenbogen",
+        "zh": "橡木弓",
+        "ja": "オークの弓"
+    },
+    "desc": {
+        "es": "Un arco resistente tallado en roble.",
+        "en": "A sturdy bow carved from oak.",
+        "fr": "Un arc résistant taillé dans le chêne.",
+        "it": "Un arco resistente intagliato nella quercia.",
+        "de": "Ein robuster Bogen aus Eichenholz geschnitzt.",
+        "zh": "以橡木雕刻而成的坚固之弓。",
+        "ja": "オークの木から削り出された頑丈な弓。"
+    },
+    "icon": "🏹",
+    "category": "equipment",
+    "usable": false,
+    "slot": "weapon",
+    "tier": 4,
+    "bonuses": {
+        "dex": 6
+    },
+    "combat": {
+        "range_damage": 77
+    }
+}

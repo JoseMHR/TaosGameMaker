@@ -1,0 +1,23 @@
+{
+    "name": {
+        "es": "Recuerdos de Aiden",
+        "en": "Aiden's Memories",
+        "fr": "Souvenirs d'Aiden",
+        "it": "Ricordi di Aiden",
+        "de": "Aidens Erinnerungen",
+        "zh": "艾登的记忆",
+        "ja": "エイデンの記憶"
+    },
+    "desc": {
+        "es": "Fragmentos de recuerdos que regresan de golpe tras enfrentar la verdad en el laboratorio de Arcanium. Dolorosos, confusos, pero ya imposibles de ignorar.",
+        "en": "Fragments of memory that come rushing back after facing the truth in the Arcanium laboratory. Painful, confusing, but impossible to ignore now.",
+        "fr": "Des fragments de souvenirs qui reviennent d'un coup après avoir affronté la vérité dans le laboratoire d'Arcanium. Douloureux, confus, mais désormais impossibles à ignorer.",
+        "it": "Frammenti di ricordi che ritornano all'improvviso dopo aver affrontato la verità nel laboratorio di Arcanium. Dolorosi, confusi, ma ormai impossibili da ignorare.",
+        "de": "Erinnerungsfragmente, die schlagartig zurückkehren, nachdem man sich der Wahrheit im Arcanium-Labor gestellt hat. Schmerzhaft, verwirrend, aber nun unmöglich zu ignorieren.",
+        "zh": "在奥秘遗迹实验室直面真相后，记忆碎片瞬间涌回。痛苦、混乱，但已无法再忽视。",
+        "ja": "アルカニウム研究所で真実に直面した後、突然戻ってきた記憶の断片。痛みを伴い混乱するが、もう無視することはできない。"
+    },
+    "icon": "🧠",
+    "category": "important",
+    "usable": false
+}

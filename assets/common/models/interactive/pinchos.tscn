@@ -1,0 +1,159 @@
+[gd_scene format=3]
+
+[sub_resource type="StandardMaterial3D" id="Mat_Grate"]
+albedo_color = Color(0.24, 0.23, 0.25, 1)
+metallic = 0.65
+roughness = 0.55
+
+[sub_resource type="StandardMaterial3D" id="Mat_Collar"]
+albedo_color = Color(0.18, 0.18, 0.20, 1)
+metallic = 0.8
+roughness = 0.4
+
+[sub_resource type="StandardMaterial3D" id="Mat_Rivet"]
+albedo_color = Color(0.48, 0.40, 0.28, 1)
+metallic = 0.85
+roughness = 0.35
+
+[sub_resource type="StandardMaterial3D" id="Mat_Spike"]
+albedo_color = Color(0.55, 0.16, 0.18, 1)
+metallic = 0.88
+roughness = 0.24
+
+[sub_resource type="BoxMesh" id="Mesh_Grate"]
+size = Vector3(0.96, 0.025, 0.96)
+
+[sub_resource type="CylinderMesh" id="Mesh_Collar"]
+top_radius = 0.078
+bottom_radius = 0.082
+height = 0.015
+radial_segments = 12
+
+[sub_resource type="SphereMesh" id="Mesh_Rivet"]
+radius = 0.022
+height = 0.02
+radial_segments = 8
+rings = 4
+
+[sub_resource type="CylinderMesh" id="Mesh_Spike"]
+top_radius = 0.005
+bottom_radius = 0.060
+height = 0.17
+radial_segments = 4
+
+[node name="Pinchos" type="Node3D"]
+
+[node name="Grate" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0125, 0)
+material_override = SubResource("Mat_Grate")
+mesh = SubResource("Mesh_Grate")
+
+[node name="R1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.42, 0.025, -0.42)
+material_override = SubResource("Mat_Rivet")
+mesh = SubResource("Mesh_Rivet")
+
+[node name="R2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.42, 0.025, -0.42)
+material_override = SubResource("Mat_Rivet")
+mesh = SubResource("Mesh_Rivet")
+
+[node name="R3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.42, 0.025, 0.42)
+material_override = SubResource("Mat_Rivet")
+mesh = SubResource("Mesh_Rivet")
+
+[node name="R4" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.42, 0.025, 0.42)
+material_override = SubResource("Mat_Rivet")
+mesh = SubResource("Mesh_Rivet")
+
+[node name="C1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.33, 0.03, -0.33)
+material_override = SubResource("Mat_Collar")
+mesh = SubResource("Mesh_Collar")
+
+[node name="C2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0, 0.03, -0.33)
+material_override = SubResource("Mat_Collar")
+mesh = SubResource("Mesh_Collar")
+
+[node name="C3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.33, 0.03, -0.33)
+material_override = SubResource("Mat_Collar")
+mesh = SubResource("Mesh_Collar")
+
+[node name="C4" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.33, 0.03, 0.0)
+material_override = SubResource("Mat_Collar")
+mesh = SubResource("Mesh_Collar")
+
+[node name="C5" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0, 0.03, 0.0)
+material_override = SubResource("Mat_Collar")
+mesh = SubResource("Mesh_Collar")
+
+[node name="C6" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.33, 0.03, 0.0)
+material_override = SubResource("Mat_Collar")
+mesh = SubResource("Mesh_Collar")
+
+[node name="C7" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.33, 0.03, 0.33)
+material_override = SubResource("Mat_Collar")
+mesh = SubResource("Mesh_Collar")
+
+[node name="C8" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0, 0.03, 0.33)
+material_override = SubResource("Mat_Collar")
+mesh = SubResource("Mesh_Collar")
+
+[node name="C9" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.33, 0.03, 0.33)
+material_override = SubResource("Mat_Collar")
+mesh = SubResource("Mesh_Collar")
+
+[node name="S1" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, 0.707107, -0.33, 0.11, -0.33)
+material_override = SubResource("Mat_Spike")
+mesh = SubResource("Mesh_Spike")
+
+[node name="S2" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, 0.707107, 0.0, 0.11, -0.33)
+material_override = SubResource("Mat_Spike")
+mesh = SubResource("Mesh_Spike")
+
+[node name="S3" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, 0.707107, 0.33, 0.11, -0.33)
+material_override = SubResource("Mat_Spike")
+mesh = SubResource("Mesh_Spike")
+
+[node name="S4" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, 0.707107, -0.33, 0.11, 0.0)
+material_override = SubResource("Mat_Spike")
+mesh = SubResource("Mesh_Spike")
+
+[node name="S5" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, 0.707107, 0.0, 0.11, 0.0)
+material_override = SubResource("Mat_Spike")
+mesh = SubResource("Mesh_Spike")
+
+[node name="S6" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, 0.707107, 0.33, 0.11, 0.0)
+material_override = SubResource("Mat_Spike")
+mesh = SubResource("Mesh_Spike")
+
+[node name="S7" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, 0.707107, -0.33, 0.11, 0.33)
+material_override = SubResource("Mat_Spike")
+mesh = SubResource("Mesh_Spike")
+
+[node name="S8" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, 0.707107, 0.0, 0.11, 0.33)
+material_override = SubResource("Mat_Spike")
+mesh = SubResource("Mesh_Spike")
+
+[node name="S9" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, 0.707107, 0.33, 0.11, 0.33)
+material_override = SubResource("Mat_Spike")
+mesh = SubResource("Mesh_Spike")

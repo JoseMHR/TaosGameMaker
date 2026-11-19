@@ -1,0 +1,26 @@
+{
+    "id": "poi_final_esfera_pequena",
+    "type": "poi",
+    "icon": "🔮",
+    "name": {
+        "es": "La Esfera Pequeña",
+        "en": "The Small Sphere",
+        "fr": "La Petite Sphère",
+        "it": "La Piccola Sfera",
+        "de": "Die Kleine Sphäre",
+        "zh": "小球体",
+        "ja": "小さな球"
+    },
+    "desc": {
+        "es": "Una de las cuatro esferas robadas, latiendo sola sobre un pedestal de hueso, tentándote a tocarla. (POI de inspección).",
+        "en": "One of the four stolen spheres, pulsing alone on a pedestal of bone, tempting you to touch it. (Inspection POI).",
+        "fr": "Une des quatre sphères volées, palpitant seule sur un piédestal d'os, te tentant de la toucher. (POI d'inspection).",
+        "it": "Una delle quattro sfere rubate, pulsante da sola su un piedistallo d'osso, che ti tenta a toccarla. (POI di ispezione).",
+        "de": "Eine der vier gestohlenen Sphären, allein pulsierend auf einem Sockel aus Knochen, die dich verlockt, sie zu berühren. (Inspektions-POI).",
+        "zh": "四颗被盗球体之一，孤零零地在骨制底座上搏动，诱惑着你去触碰它。（探查类兴趣点）。",
+        "ja": "骨の台座の上で一つだけ脈打つ、盗まれた四つの球の一つ。触れたくなる誘惑を放っている。（調査ポイント）。"
+    },
+    "npc": "poi_final_esfera_pequena",
+    "bg": "bg_world_poi_final_esfera_pequena.png",
+    "music": "creepy"
+}

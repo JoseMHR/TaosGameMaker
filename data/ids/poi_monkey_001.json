@@ -1,0 +1,37 @@
+{
+    "id": "poi_monkey_001",
+    "gate": {
+        "dir": "north",
+        "open_when": "gate_flag('monkey_cleared')"
+    },
+    "type": "poi",
+    "name": {
+        "es": "Puente del Mono",
+        "en": "Monkey Bridge",
+        "fr": "Pont du Singe",
+        "it": "Ponte della Scimmia",
+        "de": "Affenbrücke",
+        "zh": "猴子桥",
+        "ja": "猿の橋"
+    },
+    "icon": "🐵",
+    "desc": {
+        "es": "Custodiado por un mono glotón",
+        "en": "Guarded by a greedy monkey",
+        "fr": "Gardé par un singe glouton",
+        "it": "Sorvegliato da una scimmia golosa",
+        "de": "Bewacht von einem gefräßigen Affen",
+        "zh": "由一只贪吃的猴子把守",
+        "ja": "食いしん坊の猿が見張っている"
+    },
+    "npc": "monkey_gate",
+    "presences": [
+        {
+            "condition": "default",
+            "actor": "monkey_gate",
+            "entry_node": ""
+        }
+    ],
+    "bg": "bg_world_poi_pradera_puente_mono.png",
+    "music": "poi_generic"
+}

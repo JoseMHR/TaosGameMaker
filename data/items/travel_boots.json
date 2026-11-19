@@ -1,0 +1,31 @@
+{
+    "name": {
+        "es": "Botas de Viaje",
+        "en": "Travel Boots",
+        "fr": "Bottes de Voyage",
+        "it": "Stivali da Viaggio",
+        "de": "Reisestiefel",
+        "zh": "旅行靴",
+        "ja": "トラベルブーツ"
+    },
+    "desc": {
+        "es": "Botas cómodas para largas caminatas.",
+        "en": "Comfortable boots for long walks.",
+        "fr": "Bottes confortables pour de longues marches.",
+        "it": "Stivali comodi per lunghe camminate.",
+        "de": "Bequeme Stiefel für lange Wanderungen.",
+        "zh": "适合长途跋涉的舒适靴子。",
+        "ja": "長い歩行に適した快適なブーツ。"
+    },
+    "icon": "🥾",
+    "category": "equipment",
+    "usable": false,
+    "slot": "shoes",
+    "tier": 1,
+    "bonuses": {
+        "agi": 2
+    },
+    "combat": {
+        "phys_defense": 5
+    }
+}

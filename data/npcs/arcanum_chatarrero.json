@@ -1,0 +1,234 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "Brik el Chatarrero",
+            "en": "Brik the Scrapper",
+            "fr": "Brik le Ferrailleur",
+            "it": "Brik il Rottamaio",
+            "de": "Brik der Schrotthändler",
+            "zh": "废品匠布里克",
+            "ja": "スクラップ屋ブリック"
+        },
+        "next": [],
+        "reward": "avatar=🔩;bg=0.07,0.06,0.05"
+    },
+    "brik_done": {
+        "type": "message",
+        "text": {
+            "es": "¡Cuatro núcleos en buen estado! Justo lo que necesitaba para terminar esto. Toma, recién ensamblado: un Escudo de Plasma. Estable al noventa por ciento, que ya es mucho decir viniendo de mí.",
+            "en": "Four cores in good shape! Just what I needed to finish this. Here, freshly assembled: a Plasma Shield. Ninety percent stable, which is saying a lot coming from me.",
+            "fr": "Quatre noyaux en bon état ! Exactement ce qu'il me fallait pour finir ça. Tiens, tout juste assemblé : un Bouclier de Plasma. Stable à quatre-vingt-dix pour cent, ce qui est déjà beaucoup venant de moi.",
+            "it": "Quattro nuclei in buono stato! Proprio quello che mi serviva per finire questo. Tieni, appena assemblato: uno Scudo al Plasma. Stabile al novanta per cento, il che è già molto detto da me.",
+            "de": "Vier Kerne in gutem Zustand! Genau das, was ich brauchte, um das hier fertigzustellen. Hier, frisch zusammengebaut: ein Plasmaschild. Zu neunzig Prozent stabil, was schon viel heißt, wenn es von mir kommt.",
+            "zh": "四个完好的核心！正是我完成这个所需要的。给你，刚刚组装好的：等离子护盾。稳定性百分之九十，从我嘴里说出来，这已经很不错了。",
+            "ja": "状態のいいコアが四つ！これを仕上げるのにちょうど必要だったものだ。ほら、出来立てだ——プラズマシールド。安定性九割、俺の作ったものにしちゃかなり上出来だぞ。"
+        },
+        "next": [
+            "brik_done_ok"
+        ],
+        "reward": "-item:nucleo_automata=4;gflag:brik_piezas_done;item:escudo_plasma=1",
+        "condition": "has_flag(\"piezas_repuesto_accepted\") and has_item(\"nucleo_automata\", 4) and no_gflag(\"brik_piezas_done\")",
+        "once": true
+    },
+    "brik_done_ok": {
+        "type": "option",
+        "text": {
+            "es": "🛡️  Gracias, Brik",
+            "en": "🛡️  Thanks, Brik",
+            "fr": "🛡️  Merci, Brik",
+            "it": "🛡️  Grazie, Brik",
+            "de": "🛡️  Danke, Brik",
+            "zh": "🛡️  谢谢，布里克",
+            "ja": "🛡️  ありがとう、ブリック"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "brik_waiting": {
+        "type": "message",
+        "text": {
+            "es": "¿Ya tienes los cuatro núcleos de autómata? Los sueltan al desactivarlos, en el laboratorio y por toda la ciudad. Cuatro, y ese escudo es tuyo.",
+            "en": "Got the four automaton cores yet? They drop them when deactivated, in the lab and around the city. Four, and that shield is yours.",
+            "fr": "Tu as déjà les quatre noyaux d'automate ? Ils tombent quand on les désactive, au labo et un peu partout en ville. Quatre, et ce bouclier est à toi.",
+            "it": "Hai già i quattro nuclei di automa? Li rilasciano quando vengono disattivati, nel laboratorio e in giro per la città. Quattro, e quello scudo è tuo.",
+            "de": "Hast du schon die vier Automatenkerne? Sie fallen beim Deaktivieren ab, im Labor und überall in der Stadt. Vier, und das Schild gehört dir.",
+            "zh": "四个机器人核心你拿到了吗？它们在被停用时会掉落，实验室和城里到处都有。凑齐四个，那面护盾就是你的了。",
+            "ja": "オートマトンのコアは四つ揃ったか？あれは停止させれば落とすんだ、研究所でも街のあちこちでもな。四つ揃えば、あのシールドはお前のものだ。"
+        },
+        "next": [
+            "brik_waiting_ok"
+        ],
+        "reward": "",
+        "condition": "has_flag(\"piezas_repuesto_accepted\") and no_gflag(\"brik_piezas_done\")"
+    },
+    "brik_waiting_ok": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Sigo buscando",
+            "en": "🚶  Still looking",
+            "fr": "🚶  Toujours en train de chercher",
+            "it": "🚶  Sto ancora cercando",
+            "de": "🚶  Ich suche noch",
+            "zh": "🚶  我还在找",
+            "ja": "🚶  まだ探している"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "brik_offer": {
+        "type": "message",
+        "text": {
+            "es": "¿Chatarra, engranajes, servo-motores? Si funciona con chispa, lo tengo o te lo armo en diez minutos. De hecho... si me traes 4 núcleos de autómata en buen estado, te monto un escudo de plasma decente. Trato de chatarrero.",
+            "en": "Scrap, gears, servo motors? If it runs on spark, I have it or can build it in ten minutes. Actually... bring me 4 automaton cores in good shape and I'll rig you up a decent plasma shield. Scrap dealer's deal.",
+            "fr": "De la ferraille, des engrenages, des servomoteurs ? Si ça marche à l'étincelle, je l'ai ou je te le construis en dix minutes. En fait... apporte-moi 4 noyaux d'automate en bon état et je te monte un bouclier de plasma correct. Marché de ferrailleur.",
+            "it": "Rottami, ingranaggi, servomotori? Se funziona a scintilla, ce l'ho o te lo monto in dieci minuti. Anzi... portami 4 nuclei di automa in buono stato e ti costruisco uno scudo al plasma decente. Affare da rottamaio.",
+            "de": "Schrott, Zahnräder, Servomotoren? Wenn es mit Funken läuft, habe ich es oder baue es dir in zehn Minuten zusammen. Eigentlich... bring mir 4 Automatenkerne in gutem Zustand und ich baue dir einen anständigen Plasmaschild. Schrotthändler-Deal.",
+            "zh": "废铁、齿轮、伺服电机？只要是靠火花运转的东西，我要么有货，要么十分钟就能给你造出来。其实……给我带来四个状态良好的机器人核心，我就给你打造一面像样的等离子护盾。废品匠的交易。",
+            "ja": "スクラップ、歯車、サーボモーター？火花で動くものなら、在庫があるか十分で作ってやれる。実は……状態のいいオートマトンコアを四つ持ってきてくれれば、まともなプラズマシールドを組んでやろう。スクラップ屋の取引だ。"
+        },
+        "next": [
+            "brik_offer_ask",
+            "brik_offer_no"
+        ],
+        "reward": "",
+        "condition": "no_flag(\"piezas_repuesto_accepted\")"
+    },
+    "brik_offer_ask": {
+        "type": "option",
+        "text": {
+            "es": "🔋  Te traeré 4 núcleos de autómata",
+            "en": "🔋  I'll bring you 4 automaton cores",
+            "fr": "🔋  Je t'apporterai 4 noyaux d'automate",
+            "it": "🔋  Ti porterò 4 nuclei di automa",
+            "de": "🔋  Ich bringe dir 4 Automatenkerne",
+            "zh": "🔋  我会给你带来四个机器人核心",
+            "ja": "🔋  オートマトンコアを四つ持ってこよう"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "flag:piezas_repuesto_accepted"
+    },
+    "brik_offer_no": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Hasta otra",
+            "en": "🚶  See you around",
+            "fr": "🚶  À une prochaine fois",
+            "it": "🚶  Alla prossima",
+            "de": "🚶  Bis zum nächsten Mal",
+            "zh": "🚶  下次再见",
+            "ja": "🚶  また今度"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "brik_1": {
+        "type": "message",
+        "text": {
+            "es": "Mira esto: blindaje reforzado con aleación de titanio y circuitos restaurados. Todo sacado de autómatas desactivados. Nada se desperdicia en Arcanum.",
+            "en": "Look here: reinforced titanium alloy plating and restored circuits. All salvaged from deactivated automatons. Nothing goes to waste in Arcanum.",
+            "fr": "Regarde ça : un blindage renforcé en alliage de titane et des circuits restaurés. Tout récupéré sur des automates désactivés. Rien ne se gaspille à Arcanum.",
+            "it": "Guarda questo: corazza rinforzata con lega di titanio e circuiti restaurati. Tutto recuperato da automi disattivati. Niente si spreca ad Arcanum.",
+            "de": "Schau dir das an: verstärkte Titanlegierungspanzerung und restaurierte Schaltkreise. Alles aus deaktivierten Automaten geborgen. In Arcanum wird nichts verschwendet.",
+            "zh": "看看这个：钛合金强化装甲，加上修复过的电路。全都是从停用的机器人身上回收来的。在奥秘遗迹，什么都不会被浪费。",
+            "ja": "見てみろ、チタン合金で強化された装甲と修復した回路だ。全部停止したオートマトンから回収したものだ。アルカナムでは何も無駄にはしない。"
+        },
+        "next": [
+            "brik_opt_inventos",
+            "brik_opt_cables",
+            "brik_1a"
+        ],
+        "reward": "",
+        "condition": "gflag(\"brik_piezas_done\")"
+    },
+    "brik_1a": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Hasta otra",
+            "en": "🚶  See you around",
+            "fr": "🚶  À une prochaine fois",
+            "it": "🚶  Alla prossima",
+            "de": "🚶  Bis zum nächsten Mal",
+            "zh": "🚶  下次再见",
+            "ja": "🚶  また今度"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "brik_opt_inventos": {
+        "type": "option",
+        "text": {
+            "es": "💡  ¿Cuál es el cachivache más inútil que has intentado construir?",
+            "en": "💡  What's the most useless gadget you ever tried to build?",
+            "fr": "💡  Quel est le gadget le plus inutile que tu aies jamais essayé de construire ?",
+            "it": "💡  Qual è l'aggeggio più inutile che tu abbia mai provato a costruire?",
+            "de": "💡  Was ist das nutzloseste Gerät, das du je zu bauen versucht hast?",
+            "zh": "💡  你尝试制造过的最无用的装置是什么？",
+            "ja": "💡  今まで作ろうとした中で最も役に立たなかった珍発明は何だ？"
+        },
+        "next": [
+            "brik_msg_inventos"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "brik_msg_inventos": {
+        "type": "message",
+        "text": {
+            "es": "Brik suelta una carcajada con olor a lubricante quemado: '¡La Tostadora Táctica de Asalto! Le acoplé una bobina de plasma sobrante a un electrodoméstico para acelerar el desayuno. ¿El resultado? El pan salió disparado a velocidad hipersónica, atravesó dos planchas de acero corrugado y derribó el dron de vigilancia de un vecino. El pan quedó pulverizado, pero el proyectil era demoledor. Ahora uso la chatarra sobrante como pisapapeles.'",
+            "en": "Brik bursts into laughter smelling faintly of scorched lubricant: 'The Tactical Assault Toaster! I hooked a surplus plasma coil to a breakfast cooker to speed up breakfast. Result? The bread launched at hypersonic speed, punched through two corrugated steel bulkheads, and took down a neighbor's surveillance drone. The bread was pulverized, but the kinetic payload was staggering. I keep the melted husk as a paperweight now.'",
+            "fr": "Brik éclate d'un rire qui sent l'huile de moteur brûlée : « Le Grille-pain Tactique d'Assaut ! J'ai branché une bobine de plasma de surplus sur un appareil à pain pour accélérer le petit-déjeuner. Le résultat ? Le pain est parti à une vitesse hypersonique, a traversé deux cloisons d'acier ondulé et a abattu le drone de surveillance d'un voisin. Le pain a été pulvérisé, mais la force cinétique était dévastatrice. J'utilise la carcasse fondue comme presse-papier désormais. »",
+            "it": "Brik scoppia in una risata che sa di lubrificante bruciato: 'Il Tostapane Tattico d'Assalto! Ho montato una bobina al plasma avanzata su un tostapane per velocizzare la colazione. Il risultato? Il pane è partito a velocità ipersonica, ha trapassato due paratie d'acciaio ondulato e ha tirato giù il drone di sorveglianza di un vicino. Il pane è andato polverizzato, ma l'impatto cinetico è stato devastante. Ora uso quel rottame fuso come fermacarte.'",
+            "de": "Brik bricht in ein Lachen aus, das nach verbranntem Schmiermittel riecht: „Der Taktische Sturm-Toaster! Ich habe eine überschüssige Plasmaspule an einen Toaster geschraubt, um das Frühstück zu beschleunigen. Das Ergebnis? Das Brot schoss mit Hyperschallgeschwindigkeit heraus, durchschlug zwei Wellblechwände und holte die Überwachungsdrohne eines Nachbarn herunter. Das Brot war pulverisiert, aber die Durchschlagskraft war gewaltig. Die geschmolzene Hülle nutze ich jetzt als Briefbeschwerer.“",
+            "zh": "布里克爆发出一阵带着烧焦润滑油气味的大笑：「战术突击烤面包机！我把一个多余的等离子线圈装在面包机上以加快做早餐的速度。结果呢？面包以高超音速飞了出去，穿透了两块波纹钢板，还击落了邻居的一架侦察无人机。面包被彻底汽化了，但动能冲击力惊人。我现在把那块烧化的残骸拿来当镇纸用。」",
+            "ja": "ブリックは焦げた潤滑油の匂いを漂わせながら大笑いする。「戦術突撃トースターだ！朝食を早めるために、余ったプラズマコイルをトースターに取り付けたんだ。結果はどうなったと思う？パンが極超音速で発射され、二枚の波形鋼板の隔壁をぶち抜き、隣人の監視ドローンを撃墜した。パンは粉々になったが、運動エネルギーの破壊力は凄まじかったぞ。今じゃ溶けた残骸を文鎮代わりに使っているよ」"
+        },
+        "next": [
+            "brik_1"
+        ],
+        "reward": "faceta:inteligencia=+1"
+    },
+    "brik_opt_cables": {
+        "type": "option",
+        "text": {
+            "es": "⚡  ¿Cómo consigues que no te electrocute todo este cableado pelado?",
+            "en": "⚡  How do you avoid getting fried by all these exposed conduits?",
+            "fr": "⚡  Comment fais-tu pour ne pas t'électrocuter avec tous ces câbles dénudés ?",
+            "it": "⚡  Come fai a non farti fulminare da tutti questi cavi scoperti?",
+            "de": "⚡  Wie verhinderst du, von all diesen blanken Leitungen gegrillt zu werden?",
+            "zh": "⚡  你是怎么做到不被这些裸露的电线电焦的？",
+            "ja": "⚡  これだけ剥き出しの配線があって、よく感電せずにいられるな？"
+        },
+        "next": [
+            "brik_msg_cables"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "brik_msg_cables": {
+        "type": "message",
+        "text": {
+            "es": "Brik tamborilea sobre su peto de cuero vulcanizado: '¡Botas de suela triple y una fe ciega en la toma de tierra! Aunque no te voy a mentir: los días de tormenta se me eriza el bigote y capto emisoras de radio militar en los empastes de las muelas. Una vez escuché la previsión del tiempo tres días antes de que lloviera. Ventajas del oficio.'",
+            "en": "Brik taps his vulcanized leather chestplate: 'Triple-soled boots and blind faith in the grounding wire! Mind you, I won't lie: during ion storms my mustache bristles and I pick up military radio signals in my tooth fillings. Once heard the weather broadcast three full days before the rain hit. Job perks, kid.'",
+            "fr": "Brik tapote son plastron en cuir vulcanisé : « Bottes à triple semelle et une foi aveugle dans la prise de terre ! Bon, je ne vais pas te mentir : les jours d'orage ionique, ma moustache s'hérisse et je capte des transmissions militaires dans les plombages de mes dents. Une fois, j'ai entendu le bulletin météo trois jours avant la pluie. Les aléas du métier, gamin. »",
+            "it": "Brik picchietta sul suo pettorale di cuoio vulcanizzato: 'Stivali a tripla suola e una fede cieca nella messa a terra! Intendiamoci, non ti mentirò: durante le tempeste ioniche i baffi mi si drizzano e capto stazioni radio militari nelle piombature dei denti. Una volta ho sentito le previsioni del tempo tre giorni prima che piovesse. Vantaggi del mestiere, ragazzo.'",
+            "de": "Brik klopft auf seinen vulkanisierten Lederpanzer: „Dreisohlige Stiefel und blindes Vertrauen in die Erdung! Ich will ehrlich sein: Bei Ionenstürmen sträubt sich mein Schnurrbart und ich empfange Militärfunk über meine Zahnfüllungen. Einmal habe ich den Wetterbericht drei Tage vor dem Regen gehört. Berufsrisiko mit Vorteilen, Kleiner.“",
+            "zh": "布里克拍了拍他那件硫化皮革胸甲：「三层厚底靴，外加对接地线的盲目信任！说实话，我也没骗你：在离子风暴天，我的胡子会立起来，嘴里的补牙金属甚至能收到军用无线电广播。有一次我提前三天就听到了下雨的天气预报。这就是这一行的职业福利，小子。」",
+            "ja": "ブリックは加硫革の胸当てを軽く叩く。「三重底のブーツと、アース線への盲目的な信仰のおかげさ！まあ嘘はつかないがな、イオン嵐の日は口髭が逆立って、奥歯の詰め物で軍用ラジオ放送を受信しちまうんだ。一度なんか、雨が降るまる三日前に天気予報を聞いたぜ。役得ってやつだな、相棒」"
+        },
+        "next": [
+            "brik_1"
+        ],
+        "reward": "faceta:astucia=+1"
+    }
+}

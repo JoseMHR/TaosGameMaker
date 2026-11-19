@@ -1,0 +1,41 @@
+{
+    "name": {
+        "es": "Escudo Torre",
+        "en": "Tower Shield",
+        "fr": "Bouclier Tour",
+        "it": "Scudo Torre",
+        "de": "Turmschild",
+        "zh": "塔盾",
+        "ja": "タワーシールド"
+    },
+    "desc": {
+        "es": "Gran escudo de hierro capaz de resistir embestidas pesadas.",
+        "en": "Large iron shield capable of withstanding heavy charges.",
+        "fr": "Grand bouclier de fer capable de résister à de lourdes charges.",
+        "it": "Grande scudo di ferro capace di resistere a cariche pesanti.",
+        "de": "Großer Eisenschild, der schweren Angriffen standhält.",
+        "zh": "能抵御重型冲锋的巨型铁盾。",
+        "ja": "重い突撃にも耐える大型の鉄の盾。"
+    },
+    "icon": "🛡️",
+    "category": "equipment",
+    "usable": false,
+    "slot": "shield",
+    "tier": 3,
+    "bonuses": {
+        "vit": 5
+    },
+    "combat": {
+        "phys_defense": 28,
+        "mag_defense": 10
+    },
+    "traits": [
+        {
+            "type": "damage_reduction",
+            "damage_type": "physical",
+            "value": 0.08,
+            "min_refine": 5,
+            "desc": "Reduce un 8% el daño físico recibido"
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+	"t": "ice_floor",
+	"order": 42,
+	"label": "Suelo de hielo",
+	"icon": "🧊",
+	"color": "#bfe9ff",
+	"group": "Peligros",
+	"stateful": false
+}

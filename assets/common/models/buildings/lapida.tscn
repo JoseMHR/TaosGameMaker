@@ -1,0 +1,148 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/graphics/ParticleCuller3D.gd" id="1_culler"]
+
+[sub_resource type="StandardMaterial3D" id="Mat_GraveDust"]
+transparency = 1
+shading_mode = 0
+vertex_color_use_as_albedo = true
+albedo_color = Color(0.92, 0.94, 0.88, 0.6)
+billboard_mode = 3
+billboard_keep_scale = true
+particles_anim_h_frames = 1
+particles_anim_v_frames = 1
+particles_anim_loop = false
+
+[sub_resource type="QuadMesh" id="Mesh_DustQuad"]
+material = SubResource("Mat_GraveDust")
+size = Vector2(0.025, 0.025)
+
+[sub_resource type="Gradient" id="Gradient_Dust"]
+offsets = PackedFloat32Array(0, 0.45, 1)
+colors = PackedColorArray(1, 1, 1, 0, 0.95, 0.95, 0.9, 0.65, 0.9, 0.9, 0.85, 0)
+
+[sub_resource type="StandardMaterial3D" id="Mat_GraveDirt"]
+albedo_color = Color(0.25, 0.18, 0.13, 1)
+roughness = 0.95
+
+[sub_resource type="StandardMaterial3D" id="Mat_StoneBase"]
+albedo_color = Color(0.35, 0.36, 0.38, 1)
+roughness = 0.9
+
+[sub_resource type="StandardMaterial3D" id="Mat_Headstone"]
+albedo_color = Color(0.52, 0.54, 0.58, 1)
+roughness = 0.75
+
+[sub_resource type="StandardMaterial3D" id="Mat_CrossRelief"]
+albedo_color = Color(0.28, 0.29, 0.32, 1)
+roughness = 0.85
+
+[sub_resource type="StandardMaterial3D" id="Mat_CandleWax"]
+albedo_color = Color(0.9, 0.88, 0.8, 1)
+
+[sub_resource type="StandardMaterial3D" id="Mat_FlameGlow"]
+albedo_color = Color(1.0, 0.65, 0.15, 1)
+emission_enabled = true
+emission = Color(1.0, 0.5, 0.05, 1)
+emission_energy_multiplier = 3.2
+
+[sub_resource type="StandardMaterial3D" id="Mat_PurpleFlowers"]
+albedo_color = Color(0.55, 0.3, 0.75, 1)
+roughness = 0.8
+
+[sub_resource type="BoxMesh" id="Mesh_GraveDirtPlot"]
+size = Vector3(0.52, 0.05, 0.68)
+
+[sub_resource type="BoxMesh" id="Mesh_Plinth"]
+size = Vector3(0.56, 0.1, 0.28)
+
+[sub_resource type="BoxMesh" id="Mesh_HeadstoneBody"]
+size = Vector3(0.44, 0.52, 0.12)
+
+[sub_resource type="PrismMesh" id="Mesh_HeadstoneArch"]
+size = Vector3(0.44, 0.18, 0.12)
+
+[sub_resource type="BoxMesh" id="Mesh_CrossVert"]
+size = Vector3(0.07, 0.3, 0.03)
+
+[sub_resource type="BoxMesh" id="Mesh_CrossHoriz"]
+size = Vector3(0.22, 0.07, 0.03)
+
+[sub_resource type="CylinderMesh" id="Mesh_Candle"]
+top_radius = 0.016
+bottom_radius = 0.02
+height = 0.09
+radial_segments = 5
+
+[sub_resource type="SphereMesh" id="Mesh_Flame"]
+radius = 0.02
+height = 0.045
+
+[sub_resource type="SphereMesh" id="Mesh_FlowerCluster"]
+radius = 0.055
+height = 0.05
+
+[node name="Lapida" type="Node3D"]
+
+[node name="GraveDirtPlot" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.025, 0.22)
+material_override = SubResource("Mat_GraveDirt")
+mesh = SubResource("Mesh_GraveDirtPlot")
+
+[node name="Plinth" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.09, -0.12)
+material_override = SubResource("Mat_StoneBase")
+mesh = SubResource("Mesh_Plinth")
+
+[node name="HeadstoneBody" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.38, -0.12)
+material_override = SubResource("Mat_Headstone")
+mesh = SubResource("Mesh_HeadstoneBody")
+
+[node name="HeadstoneArch" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.73, -0.12)
+material_override = SubResource("Mat_Headstone")
+mesh = SubResource("Mesh_HeadstoneArch")
+
+[node name="CrossVert" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.42, -0.055)
+material_override = SubResource("Mat_CrossRelief")
+mesh = SubResource("Mesh_CrossVert")
+
+[node name="CrossHoriz" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.49, -0.055)
+material_override = SubResource("Mat_CrossRelief")
+mesh = SubResource("Mesh_CrossHoriz")
+
+[node name="Candle" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.185, -0.04)
+material_override = SubResource("Mat_CandleWax")
+mesh = SubResource("Mesh_Candle")
+
+[node name="Flame" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.245, -0.04)
+material_override = SubResource("Mat_FlameGlow")
+mesh = SubResource("Mesh_Flame")
+
+[node name="Flowers" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.16, 0.075, 0.08)
+material_override = SubResource("Mat_PurpleFlowers")
+mesh = SubResource("Mesh_FlowerCluster")
+
+[node name="GraveDust" type="CPUParticles3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.35, 0.05)
+amount = 10
+lifetime = 2.4
+mesh = SubResource("Mesh_DustQuad")
+emission_shape = 1
+emission_sphere_radius = 0.28
+direction = Vector3(0, 1, 0)
+spread = 180.0
+gravity = Vector3(0, 0.04, 0)
+initial_velocity_min = 0.04
+initial_velocity_max = 0.12
+color_ramp = SubResource("Gradient_Dust")
+
+[node name="ParticleCuller" type="VisibleOnScreenNotifier3D" parent="GraveDust"]
+aabb = AABB(-0.4, -0.3, -0.4, 0.8, 1.2, 0.8)
+script = ExtResource("1_culler")

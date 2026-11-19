@@ -1,0 +1,8040 @@
+{
+    "width": 48,
+    "height": 48,
+    "spawn": {
+        "x": 5,
+        "y": 3
+    },
+    "boat_spawn": {
+        "x": 2,
+        "y": 3
+    },
+    "tiles": [
+        [
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            }
+        ],
+        [
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "sea"
+            }
+        ],
+        [
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth",
+                "interactive": {
+                    "kind": "sign",
+                    "icon": "🏛️",
+                    "title": {
+                        "es": "Sala de Pruebas General",
+                        "en": "General Testing Grounds",
+                        "fr": "Salle d'Essai Générale",
+                        "it": "Sala Prove Generale",
+                        "de": "Allgemeiner Testbereich",
+                        "zh": "通用测试区",
+                        "ja": "全般テストルーム"
+                    },
+                    "text": {
+                        "es": "Â¡Bienvenido al Mundo Debug Oficial!\n\nâ€¢ Hacia el SUR: 7 Pabellones temÃ¡ticos con el 100% de ciudades, POIs y mazmorras del juego.\nâ€¢ PabellÃ³n 8 (al final): Gran Bestiario con los 41 enemigos ordenados por nivel.\nâ€¢ Hacia el ESTE: Nodos de recursos, campamento y cofre de pruebas.",
+                        "en": "Welcome to the Official Debug World!\n\nâ€¢ SOUTH: 7 Thematic wings containing 100% of cities, POIs, and dungeons.\nâ€¢ Wing 8 (at the end): Grand Bestiary with all 41 enemies sorted by level.\nâ€¢ EAST: Gathering nodes, camp and test chest.",
+                        "fr": "Bienvenue dans le Monde de Débogage Officiel !\n\n• Vers le SUD : 7 ailes thématiques contenant 100% des villes, POI et donjons du jeu.\n• Aile 8 (à la fin) : Grand Bestiaire avec les 41 ennemis triés par niveau.\n• Vers l'EST : nœuds de ressources, campement et coffre de test.",
+                        "it": "Benvenuto nel Mondo di Debug Ufficiale!\n\n• Verso SUD: 7 ali tematiche con il 100% di città, POI e dungeon del gioco.\n• Ala 8 (alla fine): Grande Bestiario con tutti i 41 nemici ordinati per livello.\n• Verso EST: nodi di raccolta, accampamento e forziere di prova.",
+                        "de": "Willkommen in der offiziellen Debug-Welt!\n\n• Richtung SÜDEN: 7 thematische Flügel mit 100% aller Städte, POIs und Dungeons des Spiels.\n• Flügel 8 (am Ende): Großes Bestiarium mit allen 41 Gegnern nach Level sortiert.\n• Richtung OSTEN: Sammelknoten, Lager und Testtruhe.",
+                        "zh": "欢迎来到官方调试世界！\n\n• 向南：7 个主题区域，包含游戏中 100% 的城市、POI 与地下城。\n• 区域 8（末端）：收录全部 41 种敌人并按等级排序的巨大怪物图鉴。\n• 向东：资源节点、营地与测试宝箱。",
+                        "ja": "公式デバッグワールドへようこそ！\n\n• 南へ：ゲーム内の都市、POI、ダンジョンの100％を含むテーマ別ウイング7つ。\n• ウイング8（最後）：41体の敵をレベル順に並べた大ベスティアリー。\n• 東へ：採取ノード、キャンプ、テスト用宝箱。"
+                    }
+                }
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs",
+                "object": "forest"
+            },
+            {
+                "terrain": "grs",
+                "object": "rock"
+            },
+            {
+                "terrain": "grs",
+                "object": "gold"
+            },
+            {
+                "terrain": "grs",
+                "object": "milk"
+            },
+            {
+                "terrain": "cst",
+                "object": "fish"
+            },
+            {
+                "terrain": "grs",
+                "object": "bloqueo_piedra"
+            },
+            {
+                "terrain": "grs",
+                "object": "meat"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "sea"
+            }
+        ],
+        [
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "sea"
+            }
+        ],
+        [
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs",
+                "chest": {
+                    "gold": 1000,
+                    "items": [
+                        {
+                            "id": "espada_obsidiana_ancestral",
+                            "qty": 1
+                        },
+                        {
+                            "id": "potion_super",
+                            "qty": 10
+                        },
+                        {
+                            "id": "bomb",
+                            "qty": 20
+                        },
+                        {
+                            "id": "teleport_scroll",
+                            "qty": 5
+                        }
+                    ]
+                }
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "sea"
+            }
+        ],
+        [
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "grs",
+                "object": "dun_pruebasvariadas"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "sea"
+            }
+        ],
+        [
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "sea"
+            }
+        ],
+        [
+            {
+                "terrain": "sea"
+            },
+            {
+                "interactive": {
+                    "icon": "MAZ",
+                    "title": "MAZMORRA FINAL",
+                    "text": "Accesos directos a las 6 fases de la Mazmorra Final (Templo del Origen).",
+                    "kind": "sign"
+                },
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "interactive": {
+                    "icon": "FIN",
+                    "title": "SALA DE LA ESFERA (FINALES)",
+                    "text": "Accesos directos a la Sala de la Esfera y los 6 Finales A-F.",
+                    "kind": "sign"
+                },
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "bad",
+                "object": "dun_inicial"
+            },
+            {
+                "terrain": "bad",
+                "object": "dun_yelmo"
+            },
+            {
+                "terrain": "bad",
+                "object": "dun_yelmo_start"
+            },
+            {
+                "terrain": "bad",
+                "object": "dun_yelmo_finish"
+            },
+            {
+                "terrain": "bad",
+                "object": "poi_presa_001"
+            },
+            {
+                "terrain": "bad",
+                "object": "house_yelmo_anciana"
+            },
+            {
+                "terrain": "bad",
+                "object": "house_yelmo_recluso"
+            },
+            {
+                "terrain": "bad",
+                "object": "poi_tumba_yelmo_01"
+            },
+            {
+                "terrain": "bad",
+                "object": "poi_tumba_yelmo_02"
+            },
+            {
+                "terrain": "bad",
+                "object": "poi_tumba_yelmo_03"
+            },
+            {
+                "terrain": "bad",
+                "object": "poi_yelmo_piedra_memorial"
+            },
+            {
+                "terrain": "bad",
+                "object": "npc_vendedor_aire"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "sea"
+            }
+        ],
+        [
+            {
+                "terrain": "sea"
+            },
+            {
+                "interactive": {
+                    "icon": "F1",
+                    "title": "Fase 1",
+                    "text": "Fase 1: Ascension Estelar (3 plantas, islas y anillas)",
+                    "kind": "sign"
+                },
+                "terrain": "grs"
+            },
+            {
+                "object": "dun_final",
+                "terrain": "grs"
+            },
+            {
+                "interactive": {
+                    "icon": "END",
+                    "title": "Final A",
+                    "text": "Final A: Aceptacion ante la Esfera de la Verdad",
+                    "kind": "sign"
+                },
+                "terrain": "grs"
+            },
+            {
+                "object": "poi_final_a",
+                "terrain": "grs"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth",
+                "interactive": {
+                    "kind": "sign",
+                    "icon": "ðŸª§",
+                    "title": {
+                        "es": "Zona 1: El Yelmo",
+                        "en": "Zone 1: The Helm",
+                        "fr": "Zone 1 : Le Heaume",
+                        "it": "Zona 1: L'Elmo",
+                        "de": "Zone 1: Der Helm",
+                        "zh": "区域1：头盔荒地",
+                        "ja": "ゾーン1：兜の地"
+                    },
+                    "text": {
+                        "es": "Zona 1: El Yelmo\n\n23 POIs, casas, tumbas y mazmorras del PÃ¡ramo del Yelmo.",
+                        "en": "Zone 1: The Helm\n\n23 POIs, houses, tombs and dungeons of the Helm Badlands.",
+                        "fr": "Zone 1 : Le Heaume\n\n23 POI, maisons, tombes et donjons des Terres Arides du Heaume.",
+                        "it": "Zona 1: L'Elmo\n\n23 POI, case, tombe e dungeon delle Terre Desolate dell'Elmo.",
+                        "de": "Zone 1: Der Helm\n\n23 POIs, Häuser, Gräber und Dungeons der Helm-Ödlande.",
+                        "zh": "区域1：头盔荒地\n\n23 个 POI、房屋、坟墓与头盔荒地的地下城。",
+                        "ja": "ゾーン1：兜の地\n\n23件のPOI、家屋、墓、そして兜荒野のダンジョン。"
+                    }
+                }
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "sea"
+            }
+        ],
+        [
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "bad",
+                "object": "npc_mimo_atrapado"
+            },
+            {
+                "terrain": "bad",
+                "object": "npc_hombre_sombreros"
+            },
+            {
+                "terrain": "bad",
+                "object": "poi_yelmo_buhonero"
+            },
+            {
+                "terrain": "bad",
+                "object": "poi_yelmo_coleccionista_dientes"
+            },
+            {
+                "terrain": "bad",
+                "object": "poi_yelmo_concilio_ranas"
+            },
+            {
+                "terrain": "bad",
+                "object": "poi_yelmo_espantapajaros"
+            },
+            {
+                "terrain": "bad",
+                "object": "poi_yelmo_grito_pozo"
+            },
+            {
+                "terrain": "bad",
+                "object": "poi_yelmo_perro_fiel"
+            },
+            {
+                "terrain": "bad",
+                "object": "poi_yelmo_pescador_seco"
+            },
+            {
+                "terrain": "bad",
+                "object": "poi_yelmo_pozo_deseos"
+            },
+            {
+                "terrain": "bad",
+                "object": "poi_yelmo_vendedor_lluvia"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "sea"
+            }
+        ],
+        [
+            {
+                "terrain": "sea"
+            },
+            {
+                "interactive": {
+                    "icon": "F2",
+                    "title": "Fase 2",
+                    "text": "Fase 2: Laberinto Helado (Puzle hielo y Negacion)",
+                    "kind": "sign"
+                },
+                "terrain": "grs"
+            },
+            {
+                "object": "dun_final_2",
+                "terrain": "grs"
+            },
+            {
+                "interactive": {
+                    "icon": "END",
+                    "title": "Final B",
+                    "text": "Final B: Locura ante la Esfera de la Verdad",
+                    "kind": "sign"
+                },
+                "terrain": "grs"
+            },
+            {
+                "object": "poi_final_b",
+                "terrain": "grs"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "sea"
+            }
+        ],
+        [
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "sea"
+            }
+        ],
+        [
+            {
+                "terrain": "sea"
+            },
+            {
+                "interactive": {
+                    "icon": "F3",
+                    "title": "Fase 3",
+                    "text": "Fase 3: Cripta Tentacion (Cofres trampa, cruzar libre)",
+                    "kind": "sign"
+                },
+                "terrain": "grs"
+            },
+            {
+                "object": "dun_final_3",
+                "terrain": "grs"
+            },
+            {
+                "interactive": {
+                    "icon": "END",
+                    "title": "Final C",
+                    "text": "Final C: Negacion / El Bucle ante la Esfera",
+                    "kind": "sign"
+                },
+                "terrain": "grs"
+            },
+            {
+                "object": "poi_final_c",
+                "terrain": "grs"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "ice",
+                "object": "dun_nieves"
+            },
+            {
+                "terrain": "ice",
+                "object": "house_snow_01"
+            },
+            {
+                "terrain": "ice",
+                "object": "house_snow_02"
+            },
+            {
+                "terrain": "ice",
+                "object": "house_snow_03"
+            },
+            {
+                "terrain": "ice",
+                "object": "poi_cabana_crujiente"
+            },
+            {
+                "terrain": "ice",
+                "object": "poi_monolito_runico"
+            },
+            {
+                "terrain": "ice",
+                "object": "poi_nieves_campana_hielo"
+            },
+            {
+                "terrain": "ice",
+                "object": "poi_nieves_cartero_helado"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "sea"
+            }
+        ],
+        [
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth",
+                "interactive": {
+                    "kind": "sign",
+                    "icon": "ðŸª§",
+                    "title": {
+                        "es": "Zona 2: Las Nieves",
+                        "en": "Zone 2: The Snow Peaks",
+                        "fr": "Zone 2 : Les Neiges",
+                        "it": "Zona 2: Le Nevi",
+                        "de": "Zone 2: Die Schneegipfel",
+                        "zh": "区域2：雪峰",
+                        "ja": "ゾーン2：雪の峰"
+                    },
+                    "text": {
+                        "es": "Zona 2: Las Nieves\n\n16 POIs, cabaÃ±as, monolitos y catacumba de las Nieves.",
+                        "en": "Zone 2: The Snow Peaks\n\n16 POIs, cabins, monoliths and catacombs of the Snow Peaks.",
+                        "fr": "Zone 2 : Les Neiges\n\n16 POI, cabanes, monolithes et catacombes des Neiges.",
+                        "it": "Zona 2: Le Nevi\n\n16 POI, capanne, monoliti e catacombe delle Nevi.",
+                        "de": "Zone 2: Die Schneegipfel\n\n16 POIs, Hütten, Monolithen und Katakomben der Schneegipfel.",
+                        "zh": "区域2：雪峰\n\n16 个 POI、小屋、巨石碑与雪峰地下墓穴。",
+                        "ja": "ゾーン2：雪の峰\n\n16件のPOI、小屋、モノリス、そして雪の峰のカタコンベ。"
+                    }
+                }
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "sea"
+            }
+        ],
+        [
+            {
+                "terrain": "sea"
+            },
+            {
+                "interactive": {
+                    "icon": "F4",
+                    "title": "Fase 4",
+                    "text": "Fase 4: Las Dos Mentes (Templo vs Hospital Arcanium)",
+                    "kind": "sign"
+                },
+                "terrain": "grs"
+            },
+            {
+                "object": "dun_final_4",
+                "terrain": "grs"
+            },
+            {
+                "interactive": {
+                    "icon": "END",
+                    "title": "Final D",
+                    "text": "Final D: Autodestruccion ante la Esfera",
+                    "kind": "sign"
+                },
+                "terrain": "grs"
+            },
+            {
+                "object": "poi_final_d",
+                "terrain": "grs"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "ice",
+                "object": "poi_nieves_cazador_congelado"
+            },
+            {
+                "terrain": "ice",
+                "object": "poi_nieves_ejercito_munecos"
+            },
+            {
+                "terrain": "ice",
+                "object": "poi_nieves_hombre_hielo"
+            },
+            {
+                "terrain": "ice",
+                "object": "poi_nieves_lobo_solo"
+            },
+            {
+                "terrain": "ice",
+                "object": "poi_nieves_muneco_nieve"
+            },
+            {
+                "terrain": "ice",
+                "object": "poi_nieves_pinguino"
+            },
+            {
+                "terrain": "ice",
+                "object": "poi_nieves_termas"
+            },
+            {
+                "terrain": "ice",
+                "object": "poi_nieves_yeti_timido"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "sea"
+            }
+        ],
+        [
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "sea"
+            }
+        ],
+        [
+            {
+                "terrain": "sea"
+            },
+            {
+                "interactive": {
+                    "icon": "F5",
+                    "title": "Fase 5",
+                    "text": "Fase 5: Tribunal de Ecos (4 jefes y 4 palancas)",
+                    "kind": "sign"
+                },
+                "terrain": "grs"
+            },
+            {
+                "object": "dun_final_5",
+                "terrain": "grs"
+            },
+            {
+                "interactive": {
+                    "icon": "END",
+                    "title": "Final E",
+                    "text": "Final E: Venganza ante la Esfera de la Verdad",
+                    "kind": "sign"
+                },
+                "terrain": "grs"
+            },
+            {
+                "object": "poi_final_e",
+                "terrain": "grs"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "sea"
+            }
+        ],
+        [
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs",
+                "object": "city_sylphrena"
+            },
+            {
+                "terrain": "grs",
+                "object": "dun_bandidos"
+            },
+            {
+                "terrain": "grs",
+                "object": "house_pradera_01"
+            },
+            {
+                "terrain": "grs",
+                "object": "npc_pollo_mistico"
+            },
+            {
+                "terrain": "grs",
+                "object": "poi_altar_olvidado"
+            },
+            {
+                "terrain": "grs",
+                "object": "poi_buzon_solitario"
+            },
+            {
+                "terrain": "grs",
+                "object": "poi_conspiracion_patos"
+            },
+            {
+                "terrain": "grs",
+                "object": "poi_monkey_001"
+            },
+            {
+                "terrain": "grs",
+                "object": "poi_sylphrena_taberna"
+            },
+            {
+                "terrain": "grs",
+                "object": "poi_sylphrena_shop"
+            },
+            {
+                "terrain": "grs",
+                "object": "poi_sylphrena_board"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "sea"
+            }
+        ],
+        [
+            {
+                "terrain": "sea"
+            },
+            {
+                "interactive": {
+                    "icon": "F6",
+                    "title": "Fase 6",
+                    "text": "Fase 6: Pasillo Memoria y Guardian Supremo Lv 50",
+                    "kind": "sign"
+                },
+                "terrain": "grs"
+            },
+            {
+                "object": "dun_final_6",
+                "terrain": "grs"
+            },
+            {
+                "interactive": {
+                    "icon": "END",
+                    "title": "Final F",
+                    "text": "Final F: Epilogo Secreto ante la Esfera",
+                    "kind": "sign"
+                },
+                "terrain": "grs"
+            },
+            {
+                "object": "poi_final_f",
+                "terrain": "grs"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth",
+                "interactive": {
+                    "kind": "sign",
+                    "icon": "ðŸª§",
+                    "title": {
+                        "es": "Zona 3: Sylphrena",
+                        "en": "Zone 3: Sylphrena Plains",
+                        "fr": "Zone 3 : Sylphrena",
+                        "it": "Zona 3: Sylphrena",
+                        "de": "Zone 3: Sylphrena",
+                        "zh": "区域3：西尔芙雷娜",
+                        "ja": "ゾーン3：シルフレナ"
+                    },
+                    "text": {
+                        "es": "Zona 3: Sylphrena\n\n22 POIs, Ciudad de Sylphrena, sub-POIs y Cueva de Bandidos.",
+                        "en": "Zone 3: Sylphrena Plains\n\n22 POIs, City of Sylphrena, sub-POIs and Bandits Cave.",
+                        "fr": "Zone 3 : Sylphrena\n\n22 POI, Cité de Sylphrena, sous-POI et Grotte des Bandits.",
+                        "it": "Zona 3: Sylphrena\n\n22 POI, Città di Sylphrena, sub-POI e Grotta dei Banditi.",
+                        "de": "Zone 3: Sylphrena\n\n22 POIs, Stadt Sylphrena, Unter-POIs und Banditenhöhle.",
+                        "zh": "区域3：西尔芙雷娜\n\n22 个 POI、西尔芙雷娜城、子 POI 与盗贼洞穴。",
+                        "ja": "ゾーン3：シルフレナ\n\n22件のPOI、シルフレナ市、サブPOI、そして盗賊の洞窟。"
+                    }
+                }
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "sea"
+            }
+        ],
+        [
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs",
+                "object": "poi_sylphrena_transportista"
+            },
+            {
+                "terrain": "grs",
+                "object": "poi_sylphrena_church"
+            },
+            {
+                "terrain": "grs",
+                "object": "poi_sylphrena_herrero"
+            },
+            {
+                "terrain": "grs",
+                "object": "poi_sylphrena_mara"
+            },
+            {
+                "terrain": "grs",
+                "object": "poi_sylphrena_aldeano"
+            },
+            {
+                "terrain": "grs",
+                "object": "poi_sylphrena_abuela_galletas"
+            },
+            {
+                "terrain": "grs",
+                "object": "poi_sylphrena_arbol_lazos"
+            },
+            {
+                "terrain": "grs",
+                "object": "poi_sylphrena_duende_apuestas"
+            },
+            {
+                "terrain": "grs",
+                "object": "poi_sylphrena_feria_abandonada"
+            },
+            {
+                "terrain": "grs",
+                "object": "poi_sylphrena_gato_mercader"
+            },
+            {
+                "terrain": "grs",
+                "object": "poi_sylphrena_lago_reflejo"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "sea"
+            }
+        ],
+        [
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "sea"
+            }
+        ],
+        [
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "sea"
+            }
+        ],
+        [
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "cst",
+                "object": "city_celestia"
+            },
+            {
+                "terrain": "cst",
+                "object": "poi_celestia_puerto"
+            },
+            {
+                "terrain": "cst",
+                "object": "poi_guardian_templo"
+            },
+            {
+                "terrain": "cst",
+                "object": "poi_tumba_elara"
+            },
+            {
+                "terrain": "cst",
+                "object": "poi_portal_demo"
+            },
+            {
+                "terrain": "cst",
+                "object": "poi_celestia_palace"
+            },
+            {
+                "terrain": "cst",
+                "object": "poi_celestia_shop"
+            },
+            {
+                "terrain": "cst",
+                "object": "poi_celestia_taberna"
+            },
+            {
+                "terrain": "cst",
+                "object": "poi_celestia_board"
+            },
+            {
+                "terrain": "cst",
+                "object": "poi_celestia_transportista"
+            },
+            {
+                "terrain": "cst",
+                "object": "poi_celestia_crier"
+            },
+            {
+                "terrain": "cst",
+                "object": "poi_celestia_sage"
+            },
+            {
+                "terrain": "cst",
+                "object": "poi_celestia_archmage"
+            },
+            {
+                "terrain": "cst",
+                "object": "poi_celestia_biblioteca_arbol"
+            },
+            {
+                "terrain": "cst",
+                "object": "poi_celestia_estatua_heroe"
+            },
+            {
+                "terrain": "cst",
+                "object": "poi_celestia_fuente_ecos"
+            },
+            {
+                "terrain": "cst",
+                "object": "poi_celestia_jardin_estatuas"
+            },
+            {
+                "terrain": "cst",
+                "object": "poi_celestia_torre_inclinada"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "sea"
+            }
+        ],
+        [
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth",
+                "interactive": {
+                    "kind": "sign",
+                    "icon": "ðŸª§",
+                    "title": {
+                        "es": "Zona 4: Celestia & Templos",
+                        "en": "Zone 4: Celestia & Temples",
+                        "fr": "Zone 4 : Celestia & Temples",
+                        "it": "Zona 4: Celestia e Templi",
+                        "de": "Zone 4: Celestia & Tempel",
+                        "zh": "区域4：塞莱斯提亚与神庙",
+                        "ja": "ゾーン4：セレスティア＆神殿"
+                    },
+                    "text": {
+                        "es": "Zona 4: Celestia & Templos\n\n36 POIs, Ciudad de Celestia, Puerto, 6 Templos y 6 Senderos de MaestrÃ­a.",
+                        "en": "Zone 4: Celestia & Temples\n\n36 POIs, City of Celestia, Harbor, 6 Temples and 6 Mastery Paths.",
+                        "fr": "Zone 4 : Celestia & Temples\n\n36 POI, Cité de Celestia, Port, 6 Temples et 6 Voies de Maîtrise.",
+                        "it": "Zona 4: Celestia e Templi\n\n36 POI, Città di Celestia, Porto, 6 Templi e 6 Sentieri della Maestria.",
+                        "de": "Zone 4: Celestia & Tempel\n\n36 POIs, Stadt Celestia, Hafen, 6 Tempel und 6 Meisterschaftspfade.",
+                        "zh": "区域4：塞莱斯提亚与神庙\n\n36 个 POI、塞莱斯提亚城、港口、6 座神庙与 6 条精通之路。",
+                        "ja": "ゾーン4：セレスティア＆神殿\n\n36件のPOI、セレスティア市、港、6つの神殿、そして6つの熟練の道。"
+                    }
+                }
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "sea"
+            }
+        ],
+        [
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "cst",
+                "object": "poi_celestia_astronomo_ciego"
+            },
+            {
+                "terrain": "cst",
+                "object": "poi_celestia_coro_mudo"
+            },
+            {
+                "terrain": "cst",
+                "object": "poi_celestia_examen_eterno"
+            },
+            {
+                "terrain": "cst",
+                "object": "poi_celestia_gremio_inutil"
+            },
+            {
+                "terrain": "cst",
+                "object": "poi_celestia_nino_papel"
+            },
+            {
+                "terrain": "cst",
+                "object": "poi_celestia_profeta_fin"
+            },
+            {
+                "terrain": "cst",
+                "object": "poi_temple_arquero"
+            },
+            {
+                "terrain": "cst",
+                "object": "poi_temple_elementalista"
+            },
+            {
+                "terrain": "cst",
+                "object": "poi_temple_guerrero"
+            },
+            {
+                "terrain": "cst",
+                "object": "poi_temple_psiquico"
+            },
+            {
+                "terrain": "cst",
+                "object": "poi_temple_sacerdote"
+            },
+            {
+                "terrain": "cst",
+                "object": "poi_temple_tiempo"
+            },
+            {
+                "terrain": "cst",
+                "object": "sendero_arquero"
+            },
+            {
+                "terrain": "cst",
+                "object": "sendero_elementalista"
+            },
+            {
+                "terrain": "cst",
+                "object": "sendero_guerrero"
+            },
+            {
+                "terrain": "cst",
+                "object": "sendero_psiquico"
+            },
+            {
+                "terrain": "cst",
+                "object": "sendero_sacerdote"
+            },
+            {
+                "terrain": "cst",
+                "object": "sendero_tiempo"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "sea"
+            }
+        ],
+        [
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "sea"
+            }
+        ],
+        [
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "sea"
+            }
+        ],
+        [
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "des",
+                "object": "city_gloriam"
+            },
+            {
+                "terrain": "des",
+                "object": "dun_desierto"
+            },
+            {
+                "terrain": "des",
+                "object": "npc_entrenador_caracoles"
+            },
+            {
+                "terrain": "des",
+                "object": "poi_campamento_desierto"
+            },
+            {
+                "terrain": "des",
+                "object": "poi_puesto_desierto"
+            },
+            {
+                "terrain": "des",
+                "object": "poi_gloriam_shop"
+            },
+            {
+                "terrain": "des",
+                "object": "poi_gloriam_taberna"
+            },
+            {
+                "terrain": "des",
+                "object": "poi_gloriam_board"
+            },
+            {
+                "terrain": "des",
+                "object": "poi_gloriam_transportista"
+            },
+            {
+                "terrain": "des",
+                "object": "poi_gloriam_residencia"
+            },
+            {
+                "terrain": "des",
+                "object": "poi_gloriam_aguador"
+            },
+            {
+                "terrain": "des",
+                "object": "poi_gloriam_bailarina"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "sea"
+            }
+        ],
+        [
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth",
+                "interactive": {
+                    "kind": "sign",
+                    "icon": "ðŸª§",
+                    "title": {
+                        "es": "Zona 5: Gloriam & Desierto",
+                        "en": "Zone 5: Gloriam & Desert",
+                        "fr": "Zone 5 : Gloriam & Désert",
+                        "it": "Zona 5: Gloriam e Deserto",
+                        "de": "Zone 5: Gloriam & Wüste",
+                        "zh": "区域5：格洛里亚姆与沙漠",
+                        "ja": "ゾーン5：グロリアム＆砂漠"
+                    },
+                    "text": {
+                        "es": "Zona 5: Gloriam & Desierto\n\n24 POIs, Ciudad de Gloriam, Oasis y Mazmorra del Desierto.",
+                        "en": "Zone 5: Gloriam & Desert\n\n24 POIs, City of Gloriam, Oasis and Desert Dungeon.",
+                        "fr": "Zone 5 : Gloriam & Désert\n\n24 POI, Cité de Gloriam, Oasis et Donjon du Désert.",
+                        "it": "Zona 5: Gloriam e Deserto\n\n24 POI, Città di Gloriam, Oasi e Dungeon del Deserto.",
+                        "de": "Zone 5: Gloriam & Wüste\n\n24 POIs, Stadt Gloriam, Oase und Wüstendungeon.",
+                        "zh": "区域5：格洛里亚姆与沙漠\n\n24 个 POI、格洛里亚姆城、绿洲与沙漠地下城。",
+                        "ja": "ゾーン5：グロリアム＆砂漠\n\n24件のPOI、グロリアム市、オアシス、そして砂漠のダンジョン。"
+                    }
+                }
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "sea"
+            }
+        ],
+        [
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "des",
+                "object": "poi_gloriam_camello"
+            },
+            {
+                "terrain": "des",
+                "object": "poi_gloriam_caravana_fantasma"
+            },
+            {
+                "terrain": "des",
+                "object": "poi_gloriam_duelo_pistolero"
+            },
+            {
+                "terrain": "des",
+                "object": "poi_gloriam_escorpion_rey"
+            },
+            {
+                "terrain": "des",
+                "object": "poi_gloriam_espejismo"
+            },
+            {
+                "terrain": "des",
+                "object": "poi_gloriam_faro_arena"
+            },
+            {
+                "terrain": "des",
+                "object": "poi_gloriam_genio_tacano"
+            },
+            {
+                "terrain": "des",
+                "object": "poi_gloriam_madre_arena"
+            },
+            {
+                "terrain": "des",
+                "object": "poi_gloriam_mano_piedra"
+            },
+            {
+                "terrain": "des",
+                "object": "poi_gloriam_oasis"
+            },
+            {
+                "terrain": "des",
+                "object": "poi_gloriam_oraculo_arena"
+            },
+            {
+                "terrain": "des",
+                "object": "poi_gloriam_vendedor_arena"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "sea"
+            }
+        ],
+        [
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "sea"
+            }
+        ],
+        [
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "sea"
+            }
+        ],
+        [
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "gnd",
+                "object": "city_arcanum"
+            },
+            {
+                "terrain": "gnd",
+                "object": "dun_laboratorio"
+            },
+            {
+                "terrain": "gnd",
+                "object": "poi_centinela_frontera"
+            },
+            {
+                "terrain": "gnd",
+                "object": "poi_dragon_cima"
+            },
+            {
+                "terrain": "gnd",
+                "object": "poi_estatua_desafio"
+            },
+            {
+                "terrain": "gnd",
+                "object": "poi_filosofo_piedra"
+            },
+            {
+                "terrain": "gnd",
+                "object": "poi_arcanum_shop"
+            },
+            {
+                "terrain": "gnd",
+                "object": "poi_arcanum_taberna"
+            },
+            {
+                "terrain": "gnd",
+                "object": "poi_arcanum_board"
+            },
+            {
+                "terrain": "gnd",
+                "object": "poi_arcanum_transportista"
+            },
+            {
+                "terrain": "gnd",
+                "object": "poi_arcanum_lab"
+            },
+            {
+                "terrain": "gnd",
+                "object": "poi_arcanum_refugio"
+            },
+            {
+                "terrain": "gnd",
+                "object": "poi_arcanum_ascensor_ninguna"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "sea"
+            }
+        ],
+        [
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth",
+                "interactive": {
+                    "kind": "sign",
+                    "icon": "ðŸª§",
+                    "title": {
+                        "es": "Zona 6: Arcanum",
+                        "en": "Zone 6: Arcanum Ruins",
+                        "fr": "Zone 6 : Arcanum",
+                        "it": "Zona 6: Arcanum",
+                        "de": "Zone 6: Arcanum",
+                        "zh": "区域6：奥秘遗迹",
+                        "ja": "ゾーン6：アルカナム"
+                    },
+                    "text": {
+                        "es": "Zona 6: Arcanum\n\n25 POIs, Ciudad de Arcanum, Laboratorio y Cima del DragÃ³n.",
+                        "en": "Zone 6: Arcanum Ruins\n\n25 POIs, City of Arcanum, Laboratory and Dragon Peak.",
+                        "fr": "Zone 6 : Arcanum\n\n25 POI, Cité d'Arcanum, Laboratoire et Pic du Dragon.",
+                        "it": "Zona 6: Arcanum\n\n25 POI, Città di Arcanum, Laboratorio e Picco del Drago.",
+                        "de": "Zone 6: Arcanum\n\n25 POIs, Stadt Arcanum, Labor und Drachengipfel.",
+                        "zh": "区域6：奥秘遗迹\n\n25 个 POI、奥秘遗迹城、实验室与巨龙之巅。",
+                        "ja": "ゾーン6：アルカナム\n\n25件のPOI、アルカナム市、研究所、そしてドラゴンの頂。"
+                    }
+                }
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "sea"
+            }
+        ],
+        [
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "gnd",
+                "object": "poi_arcanum_banco_recuerdos"
+            },
+            {
+                "terrain": "gnd",
+                "object": "poi_arcanum_camara_seguridad"
+            },
+            {
+                "terrain": "gnd",
+                "object": "poi_arcanum_cartel_neon"
+            },
+            {
+                "terrain": "gnd",
+                "object": "poi_arcanum_chatarra"
+            },
+            {
+                "terrain": "gnd",
+                "object": "poi_arcanum_espejo_roto"
+            },
+            {
+                "terrain": "gnd",
+                "object": "poi_arcanum_maquina"
+            },
+            {
+                "terrain": "gnd",
+                "object": "poi_arcanum_nino_glitch"
+            },
+            {
+                "terrain": "gnd",
+                "object": "poi_arcanum_perro_robot"
+            },
+            {
+                "terrain": "gnd",
+                "object": "poi_arcanum_reloj_parado"
+            },
+            {
+                "terrain": "gnd",
+                "object": "poi_arcanum_robot_cortes"
+            },
+            {
+                "terrain": "gnd",
+                "object": "poi_arcanum_terminal_rota"
+            },
+            {
+                "terrain": "gnd",
+                "object": "poi_arcanum_vending_recuerdos"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "sea"
+            }
+        ],
+        [
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "sea"
+            }
+        ],
+        [
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "sea"
+            }
+        ],
+        [
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "void",
+                "object": "dun_final"
+            },
+            {
+                "terrain": "void",
+                "object": "poi_final_abismo_susurra"
+            },
+            {
+                "terrain": "void",
+                "object": "poi_final_barco_hundido"
+            },
+            {
+                "terrain": "void",
+                "object": "poi_final_columpio"
+            },
+            {
+                "terrain": "void",
+                "object": "poi_final_dibujo_elara"
+            },
+            {
+                "terrain": "void",
+                "object": "poi_final_eco_elena"
+            },
+            {
+                "terrain": "void",
+                "object": "poi_final_esfera_pequena"
+            },
+            {
+                "terrain": "void",
+                "object": "poi_final_juez_culpa"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "sea"
+            }
+        ],
+        [
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth",
+                "interactive": {
+                    "kind": "sign",
+                    "icon": "ðŸª§",
+                    "title": {
+                        "es": "Zona 7: El Vacío & Epílogo",
+                        "en": "Zone 7: The Void & Epilogue",
+                        "fr": "Zone 7 : Le Néant & Épilogue",
+                        "it": "Zona 7: Il Vuoto e l'Epilogo",
+                        "de": "Zone 7: Die Leere & Epilog",
+                        "zh": "区域7：虚空与尾声",
+                        "ja": "ゾーン7：虚無＆エピローグ"
+                    },
+                    "text": {
+                        "es": "Zona 7: El Vacío & Epílogo\n\n16 POIs, Templo del Origen y recuerdos del Epílogo.",
+                        "en": "Zone 7: The Void & Epilogue\n\n16 POIs, Temple of Origin and Epilogue memories.",
+                        "fr": "Zone 7 : Le Néant & Épilogue\n\n16 POI, Temple de l'Origine et souvenirs de l'Épilogue.",
+                        "it": "Zona 7: Il Vuoto e l'Epilogo\n\n16 POI, Tempio dell'Origine e ricordi dell'Epilogo.",
+                        "de": "Zone 7: Die Leere & Epilog\n\n16 POIs, Tempel des Ursprungs und Erinnerungen des Epilogs.",
+                        "zh": "区域7：虚空与尾声\n\n16 个 POI、本源神庙与尾声记忆。",
+                        "ja": "ゾーン7：虚無＆エピローグ\n\n16件のPOI、起源の神殿、そしてエピローグの記憶。"
+                    }
+                }
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "sea"
+            }
+        ],
+        [
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "void",
+                "object": "poi_final_montana_agujas"
+            },
+            {
+                "terrain": "void",
+                "object": "poi_final_muro_nombres"
+            },
+            {
+                "terrain": "void",
+                "object": "poi_final_puente_decisiones"
+            },
+            {
+                "terrain": "void",
+                "object": "poi_final_puerta_hospital"
+            },
+            {
+                "terrain": "void",
+                "object": "poi_final_reloj_nombres"
+            },
+            {
+                "terrain": "void",
+                "object": "poi_final_sombra_aiden"
+            },
+            {
+                "terrain": "void",
+                "object": "poi_final_ultima_puerta"
+            },
+            {
+                "terrain": "void",
+                "object": "poi_final_voz_roxas"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "sea"
+            }
+        ],
+        [
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "sea"
+            }
+        ],
+        [
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "sea"
+            }
+        ],
+        [
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "cst",
+                "enemy": {
+                    "enemy": "muneco_entrenamiento",
+                    "enemy_id": "muneco_entrenamiento",
+                    "level": 1,
+                    "color": "#ff4d4d",
+                    "radius": 0,
+                    "speed": 0,
+                    "respawn": true,
+                    "respawn_time": 120,
+                    "aggressive": true,
+                    "sprite": "ðŸ‘¾",
+                    "move_interval": 2.5
+                }
+            },
+            {
+                "terrain": "cst",
+                "enemy": {
+                    "enemy": "goblin",
+                    "enemy_id": "goblin",
+                    "level": 2,
+                    "color": "#ff4d4d",
+                    "radius": 0,
+                    "speed": 0,
+                    "respawn": true,
+                    "respawn_time": 120,
+                    "aggressive": true,
+                    "sprite": "ðŸ‘¾",
+                    "move_interval": 2.5
+                }
+            },
+            {
+                "terrain": "cst",
+                "enemy": {
+                    "enemy": "lobo",
+                    "enemy_id": "lobo",
+                    "level": 3,
+                    "color": "#ff4d4d",
+                    "radius": 0,
+                    "speed": 0,
+                    "respawn": true,
+                    "respawn_time": 120,
+                    "aggressive": true,
+                    "sprite": "ðŸ‘¾",
+                    "move_interval": 2.5
+                }
+            },
+            {
+                "terrain": "cst",
+                "enemy": {
+                    "enemy": "ice_wolf",
+                    "enemy_id": "ice_wolf",
+                    "level": 6,
+                    "color": "#ff4d4d",
+                    "radius": 0,
+                    "speed": 0,
+                    "respawn": true,
+                    "respawn_time": 120,
+                    "aggressive": true,
+                    "sprite": "ðŸ‘¾",
+                    "move_interval": 2.5
+                }
+            },
+            {
+                "terrain": "cst",
+                "enemy": {
+                    "enemy": "yeti",
+                    "enemy_id": "yeti",
+                    "level": 7,
+                    "color": "#ff4d4d",
+                    "radius": 0,
+                    "speed": 0,
+                    "respawn": true,
+                    "respawn_time": 120,
+                    "aggressive": true,
+                    "sprite": "ðŸ‘¾",
+                    "move_interval": 2.5
+                }
+            },
+            {
+                "terrain": "cst",
+                "enemy": {
+                    "enemy": "eco_fragmentado",
+                    "enemy_id": "eco_fragmentado",
+                    "level": 7,
+                    "color": "#ff4d4d",
+                    "radius": 0,
+                    "speed": 0,
+                    "respawn": true,
+                    "respawn_time": 120,
+                    "aggressive": true,
+                    "sprite": "ðŸ‘¾",
+                    "move_interval": 2.5
+                }
+            },
+            {
+                "terrain": "cst",
+                "enemy": {
+                    "enemy": "temple_boss_archer",
+                    "enemy_id": "temple_boss_archer",
+                    "level": 12,
+                    "color": "#ff4d4d",
+                    "radius": 0,
+                    "speed": 0,
+                    "respawn": true,
+                    "respawn_time": 120,
+                    "aggressive": true,
+                    "sprite": "ðŸ‘¾",
+                    "move_interval": 2.5
+                }
+            },
+            {
+                "terrain": "cst",
+                "enemy": {
+                    "enemy": "bandido_arquero",
+                    "enemy_id": "bandido_arquero",
+                    "level": 13,
+                    "color": "#ff4d4d",
+                    "radius": 0,
+                    "speed": 0,
+                    "respawn": true,
+                    "respawn_time": 120,
+                    "aggressive": true,
+                    "sprite": "ðŸ‘¾",
+                    "move_interval": 2.5
+                }
+            },
+            {
+                "terrain": "cst",
+                "enemy": {
+                    "enemy": "temple_boss_warrior",
+                    "enemy_id": "temple_boss_warrior",
+                    "level": 13,
+                    "color": "#ff4d4d",
+                    "radius": 0,
+                    "speed": 0,
+                    "respawn": true,
+                    "respawn_time": 120,
+                    "aggressive": true,
+                    "sprite": "ðŸ‘¾",
+                    "move_interval": 2.5
+                }
+            },
+            {
+                "terrain": "cst",
+                "enemy": {
+                    "enemy": "bandido_arido",
+                    "enemy_id": "bandido_arido",
+                    "level": 14,
+                    "color": "#ff4d4d",
+                    "radius": 0,
+                    "speed": 0,
+                    "respawn": true,
+                    "respawn_time": 120,
+                    "aggressive": true,
+                    "sprite": "ðŸ‘¾",
+                    "move_interval": 2.5
+                }
+            },
+            {
+                "terrain": "cst",
+                "enemy": {
+                    "enemy": "temple_boss_psychic",
+                    "enemy_id": "temple_boss_psychic",
+                    "level": 14,
+                    "color": "#ff4d4d",
+                    "radius": 0,
+                    "speed": 0,
+                    "respawn": true,
+                    "respawn_time": 120,
+                    "aggressive": true,
+                    "sprite": "ðŸ‘¾",
+                    "move_interval": 2.5
+                }
+            },
+            {
+                "terrain": "cst",
+                "enemy": {
+                    "enemy": "bandido_jefe",
+                    "enemy_id": "bandido_jefe",
+                    "level": 15,
+                    "color": "#ff4d4d",
+                    "radius": 0,
+                    "speed": 0,
+                    "respawn": true,
+                    "respawn_time": 120,
+                    "aggressive": true,
+                    "sprite": "ðŸ‘¾",
+                    "move_interval": 2.5
+                }
+            },
+            {
+                "terrain": "cst",
+                "enemy": {
+                    "enemy": "golem",
+                    "enemy_id": "golem",
+                    "level": 16,
+                    "color": "#ff4d4d",
+                    "radius": 0,
+                    "speed": 0,
+                    "respawn": true,
+                    "respawn_time": 120,
+                    "aggressive": true,
+                    "sprite": "ðŸ‘¾",
+                    "move_interval": 2.5
+                }
+            },
+            {
+                "terrain": "cst",
+                "enemy": {
+                    "enemy": "aguila_imperial",
+                    "enemy_id": "aguila_imperial",
+                    "level": 18,
+                    "color": "#ff4d4d",
+                    "radius": 0,
+                    "speed": 0,
+                    "respawn": true,
+                    "respawn_time": 120,
+                    "aggressive": true,
+                    "sprite": "ðŸ‘¾",
+                    "move_interval": 2.5
+                }
+            },
+            {
+                "terrain": "cst",
+                "enemy": {
+                    "enemy": "sombra_eterna",
+                    "enemy_id": "sombra_eterna",
+                    "level": 20,
+                    "color": "#ff4d4d",
+                    "radius": 0,
+                    "speed": 0,
+                    "respawn": true,
+                    "respawn_time": 120,
+                    "aggressive": true,
+                    "sprite": "ðŸ‘¾",
+                    "move_interval": 2.5
+                }
+            },
+            {
+                "terrain": "cst",
+                "enemy": {
+                    "enemy": "temple_boss_time",
+                    "enemy_id": "temple_boss_time",
+                    "level": 22,
+                    "color": "#ff4d4d",
+                    "radius": 0,
+                    "speed": 0,
+                    "respawn": true,
+                    "respawn_time": 120,
+                    "aggressive": true,
+                    "sprite": "ðŸ‘¾",
+                    "move_interval": 2.5
+                }
+            },
+            {
+                "terrain": "cst",
+                "enemy": {
+                    "enemy": "temple_boss_elemental",
+                    "enemy_id": "temple_boss_elemental",
+                    "level": 23,
+                    "color": "#ff4d4d",
+                    "radius": 0,
+                    "speed": 0,
+                    "respawn": true,
+                    "respawn_time": 120,
+                    "aggressive": true,
+                    "sprite": "ðŸ‘¾",
+                    "move_interval": 2.5
+                }
+            },
+            {
+                "terrain": "cst",
+                "enemy": {
+                    "enemy": "temple_boss_healer",
+                    "enemy_id": "temple_boss_healer",
+                    "level": 24,
+                    "color": "#ff4d4d",
+                    "radius": 0,
+                    "speed": 0,
+                    "respawn": true,
+                    "respawn_time": 120,
+                    "aggressive": true,
+                    "sprite": "ðŸ‘¾",
+                    "move_interval": 2.5
+                }
+            },
+            {
+                "terrain": "cst",
+                "enemy": {
+                    "enemy": "jefe_puerto",
+                    "enemy_id": "jefe_puerto",
+                    "level": 25,
+                    "color": "#ff4d4d",
+                    "radius": 0,
+                    "speed": 0,
+                    "respawn": true,
+                    "respawn_time": 120,
+                    "aggressive": true,
+                    "sprite": "ðŸ‘¾",
+                    "move_interval": 2.5
+                }
+            },
+            {
+                "terrain": "cst",
+                "enemy": {
+                    "enemy": "esqueleto_guerrero",
+                    "enemy_id": "esqueleto_guerrero",
+                    "level": 28,
+                    "color": "#ff4d4d",
+                    "radius": 0,
+                    "speed": 0,
+                    "respawn": true,
+                    "respawn_time": 120,
+                    "aggressive": true,
+                    "sprite": "ðŸ‘¾",
+                    "move_interval": 2.5
+                }
+            },
+            {
+                "terrain": "cst",
+                "enemy": {
+                    "enemy": "elemental_fuego",
+                    "enemy_id": "elemental_fuego",
+                    "level": 29,
+                    "color": "#ff4d4d",
+                    "radius": 0,
+                    "speed": 0,
+                    "respawn": true,
+                    "respawn_time": 120,
+                    "aggressive": true,
+                    "sprite": "ðŸ‘¾",
+                    "move_interval": 2.5
+                }
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "sea"
+            }
+        ],
+        [
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth",
+                "interactive": {
+                    "kind": "sign",
+                    "icon": "⚔️",
+                    "title": {
+                        "es": "Gran Bestiario de Combate",
+                        "en": "Grand Combat Bestiary",
+                        "fr": "Grand Bestiaire de Combat",
+                        "it": "Grande Bestiario da Combattimento",
+                        "de": "Großes Kampfbestiarium",
+                        "zh": "巨大战斗图鉴",
+                        "ja": "大戦闘ベスティアリー"
+                    },
+                    "text": {
+                        "es": "Los 41 enemigos del juego ordenados por progresiÃ³n y nivel canÃ³nico (Nv 1 a 50 + Superboss Nv 99).\n\nPisa cualquier casilla de enemigo para probar combate directamente.",
+                        "en": "All 41 enemies in the game sorted by progression and canonical level (Lv 1 to 50 + Superboss Lv 99).\n\nStep onto any enemy tile to test combat immediately.",
+                        "fr": "Les 41 ennemis du jeu triés par progression et niveau canonique (Niv. 1 à 50 + Superboss Niv. 99).\n\nMarchez sur n'importe quelle case ennemie pour tester le combat immédiatement.",
+                        "it": "I 41 nemici del gioco ordinati per progressione e livello canonico (Liv. 1-50 + Superboss Liv. 99).\n\nCammina su una qualsiasi casella nemica per provare subito il combattimento.",
+                        "de": "Alle 41 Gegner des Spiels nach Fortschritt und kanonischem Level sortiert (Lv. 1 bis 50 + Superboss Lv. 99).\n\nBetritt ein beliebiges Gegnerfeld, um sofort einen Kampf zu testen.",
+                        "zh": "游戏中全部 41 种敌人按进度与官方等级排序（1 至 50 级 + 99 级超级 Boss）。\n\n踏上任意敌人格即可立即测试战斗。",
+                        "ja": "ゲーム内41体の敵を進行度と正規レベル順に並べたもの（Lv1～50＋スーパーボスLv99）。\n\n任意の敵マスに乗るとすぐに戦闘をテストできる。"
+                    }
+                }
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "sea"
+            }
+        ],
+        [
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "cst",
+                "enemy": {
+                    "enemy": "dron_arcanium",
+                    "enemy_id": "dron_arcanium",
+                    "level": 30,
+                    "color": "#ff4d4d",
+                    "radius": 0,
+                    "speed": 0,
+                    "respawn": true,
+                    "respawn_time": 120,
+                    "aggressive": true,
+                    "sprite": "ðŸ‘¾",
+                    "move_interval": 2.5
+                }
+            },
+            {
+                "terrain": "cst",
+                "enemy": {
+                    "enemy": "escorpion",
+                    "enemy_id": "escorpion",
+                    "level": 30,
+                    "color": "#ff4d4d",
+                    "radius": 0,
+                    "speed": 0,
+                    "respawn": true,
+                    "respawn_time": 120,
+                    "aggressive": true,
+                    "sprite": "ðŸ‘¾",
+                    "move_interval": 2.5
+                }
+            },
+            {
+                "terrain": "cst",
+                "enemy": {
+                    "enemy": "elemental_tierra",
+                    "enemy_id": "elemental_tierra",
+                    "level": 32,
+                    "color": "#ff4d4d",
+                    "radius": 0,
+                    "speed": 0,
+                    "respawn": true,
+                    "respawn_time": 120,
+                    "aggressive": true,
+                    "sprite": "ðŸ‘¾",
+                    "move_interval": 2.5
+                }
+            },
+            {
+                "terrain": "cst",
+                "enemy": {
+                    "enemy": "devorador_dunas",
+                    "enemy_id": "devorador_dunas",
+                    "level": 35,
+                    "color": "#ff4d4d",
+                    "radius": 0,
+                    "speed": 0,
+                    "respawn": true,
+                    "respawn_time": 120,
+                    "aggressive": true,
+                    "sprite": "ðŸ‘¾",
+                    "move_interval": 2.5
+                }
+            },
+            {
+                "terrain": "cst",
+                "enemy": {
+                    "enemy": "robot_centinela",
+                    "enemy_id": "robot_centinela",
+                    "level": 36,
+                    "color": "#ff4d4d",
+                    "radius": 0,
+                    "speed": 0,
+                    "respawn": true,
+                    "respawn_time": 120,
+                    "aggressive": true,
+                    "sprite": "ðŸ‘¾",
+                    "move_interval": 2.5
+                }
+            },
+            {
+                "terrain": "cst",
+                "enemy": {
+                    "enemy": "criatura_corrupta",
+                    "enemy_id": "criatura_corrupta",
+                    "level": 39,
+                    "color": "#ff4d4d",
+                    "radius": 0,
+                    "speed": 0,
+                    "respawn": true,
+                    "respawn_time": 120,
+                    "aggressive": true,
+                    "sprite": "ðŸ‘¾",
+                    "move_interval": 2.5
+                }
+            },
+            {
+                "terrain": "cst",
+                "enemy": {
+                    "enemy": "corruptor_silvestre",
+                    "enemy_id": "corruptor_silvestre",
+                    "level": 42,
+                    "color": "#ff4d4d",
+                    "radius": 0,
+                    "speed": 0,
+                    "respawn": true,
+                    "respawn_time": 120,
+                    "aggressive": true,
+                    "sprite": "ðŸ‘¾",
+                    "move_interval": 2.5
+                }
+            },
+            {
+                "terrain": "cst",
+                "enemy": {
+                    "enemy": "infectado",
+                    "enemy_id": "infectado",
+                    "level": 44,
+                    "color": "#ff4d4d",
+                    "radius": 0,
+                    "speed": 0,
+                    "respawn": true,
+                    "respawn_time": 120,
+                    "aggressive": true,
+                    "sprite": "ðŸ‘¾",
+                    "move_interval": 2.5
+                }
+            },
+            {
+                "terrain": "cst",
+                "enemy": {
+                    "enemy": "arcanium_experimento",
+                    "enemy_id": "arcanium_experimento",
+                    "level": 45,
+                    "color": "#ff4d4d",
+                    "radius": 0,
+                    "speed": 0,
+                    "respawn": true,
+                    "respawn_time": 120,
+                    "aggressive": true,
+                    "sprite": "ðŸ‘¾",
+                    "move_interval": 2.5
+                }
+            },
+            {
+                "terrain": "cst",
+                "enemy": {
+                    "enemy": "automata_jefe",
+                    "enemy_id": "automata_jefe",
+                    "level": 48,
+                    "color": "#ff4d4d",
+                    "radius": 0,
+                    "speed": 0,
+                    "respawn": true,
+                    "respawn_time": 120,
+                    "aggressive": true,
+                    "sprite": "ðŸ‘¾",
+                    "move_interval": 2.5
+                }
+            },
+            {
+                "terrain": "cst",
+                "enemy": {
+                    "enemy": "manifestacion_negacion",
+                    "enemy_id": "manifestacion_negacion",
+                    "level": 47,
+                    "color": "#ff4d4d",
+                    "radius": 0,
+                    "speed": 0,
+                    "respawn": true,
+                    "respawn_time": 120,
+                    "aggressive": true,
+                    "sprite": "ðŸ‘¾",
+                    "move_interval": 2.5
+                }
+            },
+            {
+                "terrain": "cst",
+                "enemy": {
+                    "enemy": "manifestacion_culpa",
+                    "enemy_id": "manifestacion_culpa",
+                    "level": 48,
+                    "color": "#ff4d4d",
+                    "radius": 0,
+                    "speed": 0,
+                    "respawn": true,
+                    "respawn_time": 120,
+                    "aggressive": true,
+                    "sprite": "ðŸ‘¾",
+                    "move_interval": 2.5
+                }
+            },
+            {
+                "terrain": "cst",
+                "enemy": {
+                    "enemy": "demonio",
+                    "enemy_id": "demonio",
+                    "level": 48,
+                    "color": "#ff4d4d",
+                    "radius": 0,
+                    "speed": 0,
+                    "respawn": true,
+                    "respawn_time": 120,
+                    "aggressive": true,
+                    "sprite": "ðŸ‘¾",
+                    "move_interval": 2.5
+                }
+            },
+            {
+                "terrain": "cst",
+                "enemy": {
+                    "enemy": "manifestacion_negociacion",
+                    "enemy_id": "manifestacion_negociacion",
+                    "level": 49,
+                    "color": "#ff4d4d",
+                    "radius": 0,
+                    "speed": 0,
+                    "respawn": true,
+                    "respawn_time": 120,
+                    "aggressive": true,
+                    "sprite": "ðŸ‘¾",
+                    "move_interval": 2.5
+                }
+            },
+            {
+                "terrain": "cst",
+                "enemy": {
+                    "enemy": "centinela_templo",
+                    "enemy_id": "centinela_templo",
+                    "level": 49,
+                    "color": "#ff4d4d",
+                    "radius": 0,
+                    "speed": 0,
+                    "respawn": true,
+                    "respawn_time": 120,
+                    "aggressive": true,
+                    "sprite": "ðŸ‘¾",
+                    "move_interval": 2.5
+                }
+            },
+            {
+                "terrain": "cst",
+                "enemy": {
+                    "enemy": "guardian_supremo",
+                    "enemy_id": "guardian_supremo",
+                    "level": 50,
+                    "color": "#ff4d4d",
+                    "radius": 0,
+                    "speed": 0,
+                    "respawn": true,
+                    "respawn_time": 120,
+                    "aggressive": true,
+                    "sprite": "ðŸ‘¾",
+                    "move_interval": 2.5
+                }
+            },
+            {
+                "terrain": "cst",
+                "enemy": {
+                    "enemy": "guardian_celeste",
+                    "enemy_id": "guardian_celeste",
+                    "level": 50,
+                    "color": "#ff4d4d",
+                    "radius": 0,
+                    "speed": 0,
+                    "respawn": true,
+                    "respawn_time": 120,
+                    "aggressive": true,
+                    "sprite": "ðŸ‘¾",
+                    "move_interval": 2.5
+                }
+            },
+            {
+                "terrain": "cst",
+                "enemy": {
+                    "enemy": "quimera_suprema",
+                    "enemy_id": "quimera_suprema",
+                    "level": 50,
+                    "color": "#ff4d4d",
+                    "radius": 0,
+                    "speed": 0,
+                    "respawn": true,
+                    "respawn_time": 120,
+                    "aggressive": true,
+                    "sprite": "ðŸ‘¾",
+                    "move_interval": 2.5
+                }
+            },
+            {
+                "terrain": "cst",
+                "enemy": {
+                    "enemy": "titan_antiguo",
+                    "enemy_id": "titan_antiguo",
+                    "level": 50,
+                    "color": "#ff4d4d",
+                    "radius": 0,
+                    "speed": 0,
+                    "respawn": true,
+                    "respawn_time": 120,
+                    "aggressive": true,
+                    "sprite": "ðŸ‘¾",
+                    "move_interval": 2.5
+                }
+            },
+            {
+                "terrain": "cst",
+                "enemy": {
+                    "enemy": "orco_berserker",
+                    "enemy_id": "orco_berserker",
+                    "level": 99,
+                    "color": "#ff4d4d",
+                    "radius": 0,
+                    "speed": 0,
+                    "respawn": true,
+                    "respawn_time": 120,
+                    "aggressive": true,
+                    "sprite": "ðŸ‘¾",
+                    "move_interval": 2.5
+                }
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "sea"
+            }
+        ],
+        [
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "pth"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "sea"
+            }
+        ],
+        [
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "grs"
+            },
+            {
+                "terrain": "sea"
+            }
+        ],
+        [
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            },
+            {
+                "terrain": "sea"
+            }
+        ]
+    ]
+}

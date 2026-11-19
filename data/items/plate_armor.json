@@ -1,0 +1,32 @@
+{
+    "name": {
+        "es": "Armadura de Placas",
+        "en": "Plate Armor",
+        "fr": "Armure à Plaques",
+        "it": "Armatura a Piastre",
+        "de": "Plattenrüstung",
+        "zh": "板甲",
+        "ja": "プレートアーマー"
+    },
+    "desc": {
+        "es": "Armadura pesada de placas de acero.",
+        "en": "Heavy steel plate armor.",
+        "fr": "Armure lourde en plaques d'acier.",
+        "it": "Armatura pesante a piastre d'acciaio.",
+        "de": "Schwere Rüstung aus Stahlplatten.",
+        "zh": "沉重的钢板铠甲。",
+        "ja": "重い鋼板の鎧。"
+    },
+    "icon": "🦺",
+    "category": "equipment",
+    "usable": false,
+    "slot": "armor",
+    "tier": 5,
+    "bonuses": {
+        "vit": 10
+    },
+    "combat": {
+        "phys_defense": 115,
+        "mag_defense": 19
+    }
+}

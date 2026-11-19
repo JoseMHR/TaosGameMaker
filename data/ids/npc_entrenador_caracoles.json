@@ -1,0 +1,26 @@
+{
+    "id": "npc_entrenador_caracoles",
+    "type": "poi",
+    "icon": "🐌",
+    "name": {
+        "es": "Don Velocidad",
+        "en": "Sir Swift",
+        "fr": "Don Vitesse",
+        "it": "Don Velocità",
+        "de": "Don Geschwindigkeit",
+        "zh": "极速先生",
+        "ja": "スピード氏"
+    },
+    "desc": {
+        "es": "Un entusiasta entrenador que organiza carreras de caracoles en una pista de ramitas en el desierto. (PNJ singular).",
+        "en": "An enthusiastic trainer who runs snail races on a twig track in the desert. (Singular NPC).",
+        "fr": "Un entraîneur enthousiaste qui organise des courses d'escargots sur une piste de brindilles dans le désert. (PNJ singulier).",
+        "it": "Un entusiasta allenatore che organizza gare di lumache su una pista di rametti nel deserto. (PNG singolare).",
+        "de": "Ein enthusiastischer Trainer, der Schneckenrennen auf einer Zweigbahn in der Wüste veranstaltet. (Einzigartiger NPC).",
+        "zh": "一位热情的训练师，在沙漠中用树枝铺成的跑道上组织蜗牛比赛。（唯一NPC）。",
+        "ja": "砂漠の小枝で作ったコースでカタツムリレースを開催する熱血トレーナー。（唯一のNPC）。"
+    },
+    "npc": "npc_entrenador_caracoles",
+    "bg": "bg_world_poi_gloriam_entrenador_caracoles.png",
+    "music": "poi_comic"
+}

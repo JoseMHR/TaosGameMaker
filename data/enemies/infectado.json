@@ -1,0 +1,68 @@
+{
+  "name": {
+    "es": "Infectado",
+    "en": "Infected",
+    "fr": "Infecté",
+    "it": "Infetto",
+    "de": "Infizierter",
+    "zh": "感染者",
+    "ja": "感染者"
+  },
+  "family": "aberration",
+  "archetype": "balanced",
+  "icon": "🧟",
+  "image": "res://assets/combat/enemies/en_infected.png",
+  "attack_type": "physical",
+  "base_dodge": 7.0,
+  "dodge_scale": 0.15,
+  "element": "poison",
+  "weak_to": [
+    "fire",
+    "holy"
+  ],
+  "resist": [
+    "poison"
+  ],
+  "status_on_hit": {
+    "type": "poison",
+    "chance": 0.4,
+    "turns": 3,
+    "power": 5
+  },
+  "ai": "aggressive",
+  "xp_reward_base": 250,
+  "xp_reward_scale": 13.0,
+  "gold_reward_base": 125,
+  "gold_reward_scale": 9.0,
+  "skills": [
+    {
+      "level": 1,
+      "skill_id": "frenzy_bite"
+    },
+    {
+      "level": 39,
+      "skill_id": "toxic_burst"
+    }
+  ],
+  "loot": [
+    {
+      "kind": "gold",
+      "min": 12,
+      "max": 28
+    },
+    {
+      "kind": "item",
+      "id": "nucleo_automata",
+      "chance": 0.3,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "kind": "equipment",
+      "chance": 0.2,
+      "level": 10
+    }
+  ],
+  "zone": "zona_6_arcanum",
+  "is_boss": false
+}

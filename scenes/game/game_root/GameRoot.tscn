@@ -1,0 +1,328 @@
+[gd_scene load_steps=9 format=3 uid="uid://e5gr4rt2026gr"]
+
+[ext_resource type="Script" path="res://scenes/game/game_root/GameRoot.gd" id="1_gr"]
+[ext_resource type="Theme" uid="uid://maintheme2026" path="res://assets/common/main_theme.tres" id="2_theme"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hp_fill"]
+bg_color = Color(0.80, 0.22, 0.22, 1.0)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_mp_fill"]
+bg_color = Color(0.22, 0.48, 0.85, 1.0)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_en_fill"]
+bg_color = Color(0.28, 0.82, 0.36, 1.0)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bar_bg"]
+bg_color = Color(0.12, 0.11, 0.15, 0.85)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xp_fill"]
+bg_color = Color(0.35, 0.75, 0.95, 1.0)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_job_xp_fill"]
+bg_color = Color(0.95, 0.80, 0.20, 1.0)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_thin_bg"]
+bg_color = Color(0.08, 0.08, 0.10, 0.80)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+
+; ─────────────────────────────────────────────────────────────────────────────
+; GameRoot — Contenedor principal del juego
+; Estructura: VBoxMain (HUD | ViewStack expandible | TabBar)
+; Las vistas se instancian dinámicamente en GameRoot.gd
+; ─────────────────────────────────────────────────────────────────────────────
+[node name="GameRoot" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("2_theme")
+script = ExtResource("1_gr")
+
+; ─── Fondo ───────────────────────────────────────────────────────────────────
+[node name="BG" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color(0.04, 0.03, 0.06, 1.0)
+
+; ─── Layout principal ────────────────────────────────────────────────────────
+[node name="VBoxMain" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 0
+
+; ════════════════════════════════════════════════════════════════════════════
+; HUD SUPERIOR
+; ════════════════════════════════════════════════════════════════════════════
+[node name="PanelHUD" type="PanelContainer" parent="VBoxMain"]
+layout_mode = 2
+custom_minimum_size = Vector2(0, 190)
+
+[node name="MarginHUD" type="MarginContainer" parent="VBoxMain/PanelHUD"]
+layout_mode = 2
+theme_override_constants/margin_left = 14
+theme_override_constants/margin_right = 14
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="HBoxMainHUD" type="HBoxContainer" parent="VBoxMain/PanelHUD/MarginHUD"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+; ── IZQUIERDA: info del héroe (el avatar se añade por código en index 0) ──
+[node name="VBoxLeft" type="VBoxContainer" parent="VBoxMain/PanelHUD/MarginHUD/HBoxMainHUD"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 4
+alignment = 1
+
+[node name="HBoxBaseLevel" type="HBoxContainer" parent="VBoxMain/PanelHUD/MarginHUD/HBoxMainHUD/VBoxLeft"]
+layout_mode = 2
+theme_override_constants/separation = 6
+
+[node name="LblLevel" type="Label" parent="VBoxMain/PanelHUD/MarginHUD/HBoxMainHUD/VBoxLeft/HBoxBaseLevel"]
+layout_mode = 2
+text = "LVL 1"
+theme_override_colors/font_color = Color(0.97, 0.78, 0.26, 1)
+theme_override_font_sizes/font_size = 34
+vertical_alignment = 1
+
+[node name="LblBaseLevelName" type="Label" parent="VBoxMain/PanelHUD/MarginHUD/HBoxMainHUD/VBoxLeft/HBoxBaseLevel"]
+layout_mode = 2
+text = "Base"
+theme_override_colors/font_color = Color(0.65, 0.65, 0.7, 1)
+theme_override_font_sizes/font_size = 26
+vertical_alignment = 1
+
+[node name="BarXP" type="ProgressBar" parent="VBoxMain/PanelHUD/MarginHUD/HBoxMainHUD/VBoxLeft"]
+custom_minimum_size = Vector2(0, 24)
+layout_mode = 2
+value = 50.0
+show_percentage = false
+
+[node name="HBoxJobLevel" type="HBoxContainer" parent="VBoxMain/PanelHUD/MarginHUD/HBoxMainHUD/VBoxLeft"]
+layout_mode = 2
+theme_override_constants/separation = 6
+
+[node name="LblJobLevel" type="Label" parent="VBoxMain/PanelHUD/MarginHUD/HBoxMainHUD/VBoxLeft/HBoxJobLevel"]
+layout_mode = 2
+text = "JOB 1"
+theme_override_colors/font_color = Color(0.85, 0.65, 0.95, 1)
+theme_override_font_sizes/font_size = 34
+vertical_alignment = 1
+
+[node name="LblClass" type="Label" parent="VBoxMain/PanelHUD/MarginHUD/HBoxMainHUD/VBoxLeft/HBoxJobLevel"]
+layout_mode = 2
+text = "Ninguna"
+theme_override_colors/font_color = Color(0.6, 0.65, 0.85, 1)
+theme_override_font_sizes/font_size = 26
+vertical_alignment = 1
+
+[node name="BarJobXP" type="ProgressBar" parent="VBoxMain/PanelHUD/MarginHUD/HBoxMainHUD/VBoxLeft"]
+custom_minimum_size = Vector2(0, 24)
+layout_mode = 2
+value = 50.0
+show_percentage = false
+
+; ── DERECHA: columna de estadísticas (barras HP/MP/EN), expandida ──
+[node name="VBoxStats" type="VBoxContainer" parent="VBoxMain/PanelHUD/MarginHUD/HBoxMainHUD"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 6
+alignment = 1
+
+[node name="BarHP" type="ProgressBar" parent="VBoxMain/PanelHUD/MarginHUD/HBoxMainHUD/VBoxStats"]
+custom_minimum_size = Vector2(0, 62)
+layout_mode = 2
+theme_override_styles/background = SubResource("StyleBoxFlat_bar_bg")
+theme_override_styles/fill = SubResource("StyleBoxFlat_hp_fill")
+value = 50.0
+show_percentage = false
+
+[node name="LblHP" type="Label" parent="VBoxMain/PanelHUD/MarginHUD/HBoxMainHUD/VBoxStats/BarHP"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "100/100"
+horizontal_alignment = 1
+vertical_alignment = 1
+theme_override_font_sizes/font_size = 34
+
+[node name="BarMP" type="ProgressBar" parent="VBoxMain/PanelHUD/MarginHUD/HBoxMainHUD/VBoxStats"]
+custom_minimum_size = Vector2(0, 62)
+layout_mode = 2
+theme_override_styles/background = SubResource("StyleBoxFlat_bar_bg")
+theme_override_styles/fill = SubResource("StyleBoxFlat_mp_fill")
+value = 50.0
+show_percentage = false
+
+[node name="LblMP" type="Label" parent="VBoxMain/PanelHUD/MarginHUD/HBoxMainHUD/VBoxStats/BarMP"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "30/30"
+horizontal_alignment = 1
+vertical_alignment = 1
+theme_override_font_sizes/font_size = 34
+
+[node name="BarEN" type="ProgressBar" parent="VBoxMain/PanelHUD/MarginHUD/HBoxMainHUD/VBoxStats"]
+custom_minimum_size = Vector2(0, 32)
+layout_mode = 2
+theme_override_styles/background = SubResource("StyleBoxFlat_bar_bg")
+theme_override_styles/fill = SubResource("StyleBoxFlat_en_fill")
+value = 100.0
+show_percentage = false
+
+[node name="LblEN" type="Label" parent="VBoxMain/PanelHUD/MarginHUD/HBoxMainHUD/VBoxStats/BarEN"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "EN: 100/100"
+horizontal_alignment = 1
+vertical_alignment = 1
+theme_override_font_sizes/font_size = 26
+
+; ════════════════════════════════════════════════════════════════════════════
+; VIEW STACK — Las vistas se añaden aquí por código en _ready()
+; ════════════════════════════════════════════════════════════════════════════
+[node name="ViewStack" type="Control" parent="VBoxMain"]
+layout_mode = 2
+size_flags_vertical = 3
+clip_contents = true
+
+; ════════════════════════════════════════════════════════════════════════════
+; TAB BAR INFERIOR
+; ════════════════════════════════════════════════════════════════════════════
+[node name="PanelTabBar" type="PanelContainer" parent="VBoxMain"]
+layout_mode = 2
+custom_minimum_size = Vector2(0, 150)
+
+[node name="HBoxTabs" type="HBoxContainer" parent="VBoxMain/PanelTabBar"]
+layout_mode = 2
+alignment = 1
+theme_override_constants/separation = 6
+
+[node name="BtnWorld" type="Button" parent="VBoxMain/PanelTabBar/HBoxTabs"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "🗺️\nMundo"
+theme_override_font_sizes/font_size = 38
+theme_override_colors/font_color = Color(0.97, 0.78, 0.26, 1.0)
+
+[node name="BtnCharacter" type="Button" parent="VBoxMain/PanelTabBar/HBoxTabs"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "👤\nPersonaje"
+theme_override_font_sizes/font_size = 38
+theme_override_colors/font_color = Color(0.45, 0.45, 0.50, 1.0)
+
+[node name="BtnBag" type="Button" parent="VBoxMain/PanelTabBar/HBoxTabs"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "🎒\nBolsa"
+theme_override_font_sizes/font_size = 38
+theme_override_colors/font_color = Color(0.45, 0.45, 0.50, 1.0)
+
+[node name="BtnInfo" type="Button" parent="VBoxMain/PanelTabBar/HBoxTabs"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "ℹ️\nInfo"
+theme_override_font_sizes/font_size = 38
+theme_override_colors/font_color = Color(0.45, 0.45, 0.50, 1.0)
+
+[node name="BtnOptions" type="Button" parent="VBoxMain/PanelTabBar/HBoxTabs"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "⚙️\nOpts"
+theme_override_font_sizes/font_size = 38
+theme_override_colors/font_color = Color(0.45, 0.45, 0.50, 1.0)
+
+; ═════════════════════════════════════════════════════════════════════════════
+; OVERLAY "PRÓXIMAMENTE" — pantalla placeholder para tabs no implementados
+; ═════════════════════════════════════════════════════════════════════════════
+[node name="ComingSoonOverlay" type="PanelContainer" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxCS" type="VBoxContainer" parent="ComingSoonOverlay"]
+layout_mode = 2
+alignment = 1
+theme_override_constants/separation = 24
+
+[node name="LblCSEmoji" type="Label" parent="ComingSoonOverlay/VBoxCS"]
+layout_mode = 2
+text = "🚧"
+horizontal_alignment = 1
+theme_override_font_sizes/font_size = 90
+
+[node name="LblCSTitle" type="Label" parent="ComingSoonOverlay/VBoxCS"]
+layout_mode = 2
+text = "Próximamente"
+horizontal_alignment = 1
+autowrap_mode = 3
+theme_override_font_sizes/font_size = 28
+theme_override_colors/font_color = Color(0.80, 0.80, 0.85, 1.0)
+
+[node name="BtnCloseCS" type="Button" parent="ComingSoonOverlay/VBoxCS"]
+layout_mode = 2
+size_flags_horizontal = 4
+custom_minimum_size = Vector2(320, 72)
+text = "← Volver al Mapa"
+theme_override_font_sizes/font_size = 27
+
+; ─── Timer de regeneración pasiva (3 segundos) ───────────────────────────────
+[node name="PassiveTimer" type="Timer" parent="."]
+wait_time = 1.0
+one_shot = false
+autostart = true
+
+[connection signal="timeout" from="PassiveTimer"                    to="." method="_on_passive_timer_timeout"]
+[connection signal="pressed" from="ComingSoonOverlay/VBoxCS/BtnCloseCS" to="." method="_on_btn_close_cs_pressed"]

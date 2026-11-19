@@ -1,0 +1,61 @@
+{
+  "name": {
+    "es": "Manifestación de la Negociación",
+    "en": "Manifestation of Bargaining",
+    "fr": "Manifestation du Marchandage",
+    "it": "Manifestazione della Contrattazione",
+    "de": "Manifestation des Verhandelns",
+    "zh": "讨价还价化身",
+    "ja": "取引の顕現"
+  },
+  "family": "manifestacion",
+  "archetype": "balanced",
+  "icon": "🤝",
+  "image": "res://assets/combat/enemies/en_bargaining_manifestation.png",
+  "attack_type": "physical",
+  "base_dodge": 9.0,
+  "dodge_scale": 0.2,
+  "element": "magic",
+  "weak_to": [
+    "holy"
+  ],
+  "resist": [
+    "dark",
+    "time"
+  ],
+  "status_on_hit": {
+    "type": "slow",
+    "chance": 0.35,
+    "turns": 2,
+    "power": 0
+  },
+  "ai": "defensive",
+  "xp_reward_base": 380,
+  "xp_reward_scale": 17.5,
+  "gold_reward_base": 200,
+  "gold_reward_scale": 13.5,
+  "skills": [
+    {
+      "level": 1,
+      "skill_id": "balance_strike"
+    },
+    {
+      "level": 47,
+      "skill_id": "mental_agony"
+    }
+  ],
+  "loot": [
+    {
+      "kind": "gold",
+      "min": 55,
+      "max": 110
+    },
+    {
+      "kind": "equipment",
+      "chance": 0.4,
+      "level": 7
+    }
+  ],
+  "zone": "zona_7_epilogo",
+  "is_boss": false
+}

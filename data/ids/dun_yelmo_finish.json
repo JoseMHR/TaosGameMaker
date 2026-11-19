@@ -1,0 +1,30 @@
+{
+    "id": "dun_yelmo_finish",
+    "gate": {
+        "dir": "west"
+    },
+    "portal": {
+        "event_id": "dun_yelmo",
+        "entry": "east"
+    },
+    "type": "dungeon",
+    "name": {
+        "es": "Túnel de las Colinas (entrada este)",
+        "en": "Hill Tunnel (east entrance)",
+        "fr": "Tunnel des Collines (entrée est)",
+        "it": "Tunnel delle Colline (ingresso est)",
+        "de": "Hügeltunnel (Osteingang)",
+        "zh": "丘陵隧道（东入口）",
+        "ja": "丘陵トンネル（東入口）"
+    },
+    "icon": "⛰️",
+    "desc": {
+        "es": "La boca oriental del mismo túnel excavado en la colina. Al otro lado, tras cruzar la mazmorra, se sale por la puerta oeste — caminando por fuera no se puede pasar de un lado al otro.",
+        "en": "The eastern mouth of the same tunnel carved into the hill. The far side is reached by crossing the dungeon and coming out the west door — you cannot walk around it on the surface.",
+        "fr": "L'embouchure orientale du même tunnel creusé dans la colline. De l'autre côté, après avoir traversé le donjon, on sort par la porte ouest — on ne peut pas passer d'un côté à l'autre en marchant par l'extérieur.",
+        "it": "La bocca orientale dello stesso tunnel scavato nella collina. Dall'altra parte, dopo aver attraversato il dungeon, si esce dalla porta ovest — non si può passare da un lato all'altro camminando dall'esterno.",
+        "de": "Der östliche Eingang desselben in den Hügel gegrabenen Tunnels. Auf der anderen Seite gelangt man nach dem Durchqueren des Verlieses durch die Westtür hinaus — man kann nicht von außen von einer Seite zur anderen gelangen.",
+        "zh": "同一条挖入山丘的隧道的东入口。穿过地牢后从西门出去便能到达另一端——从外部无法直接绕过去。",
+        "ja": "丘に掘られた同じトンネルの東側の入口。反対側へはダンジョンを通り抜けて西の扉から出る必要がある——外を歩いて一方から他方へ行くことはできない。"
+    }
+}

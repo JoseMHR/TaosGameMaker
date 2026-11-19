@@ -1,0 +1,183 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Maestro del Tiempo",
+            "en": "The Master of Time",
+            "fr": "Le Maître du Temps",
+            "it": "Il Maestro del Tempo",
+            "de": "Der Meister der Zeit",
+            "zh": "时间大师",
+            "ja": "時の達人"
+        },
+        "next": [],
+        "reward": "avatar=⏳;bg=0.05,0.08,0.11"
+    },
+    "time_0": {
+        "type": "message",
+        "text": {
+            "es": "El hombre parpadea frente a ti, bloqueándote el paso antes incluso de que llegues. 'Todavía no. Ya lo sabía, por cierto. Solo los aprendices pueden entrar al Sendero. Demuéstrame que mereces perder el tiempo conmigo.'",
+            "en": "The man flickers in front of you, blocking your way before you even arrive. 'Not yet. I already knew that, by the way. Only apprentices may enter the Path. Prove to me you deserve to waste time with me.'",
+            "fr": "L'homme clignote devant toi, te bloquant le passage avant même que tu n'arrives. « Pas encore. Je le savais déjà, d'ailleurs. Seuls les apprentis peuvent entrer dans le Sentier. Prouve-moi que tu mérites de perdre du temps avec moi. »",
+            "it": "L'uomo lampeggia davanti a te, bloccandoti il passo prima ancora che tu arrivi. 'Non ancora. Lo sapevo già, comunque. Solo gli apprendisti possono entrare nel Sentiero. Dimostrami che meriti di perdere tempo con me.'",
+            "de": "Der Mann flackert vor dir und versperrt dir den Weg, noch bevor du ankommst. „Noch nicht. Ich wusste das übrigens schon. Nur Lehrlinge dürfen den Pfad betreten. Beweise mir, dass du es verdienst, mit mir Zeit zu verschwenden.“",
+            "zh": "那个男人在你面前忽隐忽现，甚至在你抵达之前就挡住了你的去路。「还不行。顺便说一句，我早就知道了。只有学徒才能进入这条路。证明给我看，你配得上跟我浪费时间。」",
+            "ja": "男はお前の前でちらつきながら、到着する前から行く手を阻む。「まだだ。ちなみにそれは最初から分かっていた。弟子だけがこの道に入れる。俺と時間を無駄にする価値があると証明してみせろ」"
+        },
+        "next": [
+            "time_0a",
+            "time_0b"
+        ],
+        "reward": "",
+        "condition": "no_gflag(\"apprentice_sendero_tiempo\")"
+    },
+    "time_0a": {
+        "type": "option",
+        "text": {
+            "es": "⏳  Acepto entrenar",
+            "en": "⏳  I accept training",
+            "fr": "⏳  J'accepte l'entraînement",
+            "it": "⏳  Accetto di allenarmi",
+            "de": "⏳  Ich akzeptiere das Training",
+            "zh": "⏳  我接受训练",
+            "ja": "⏳  修行を受け入れる"
+        },
+        "next": [
+            "time_0r"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "time_0r": {
+        "type": "message",
+        "text": {
+            "es": "'...tras varias horas -o quizá minutos, o años, ya ni sé- intentando enseñarte a sentir el tiempo... sigues llegando tarde a todo... pero oficialmente eres aprendiz.' Parpadea de nuevo. 'Ya puedes entrar al Sendero. O ya has entrado. Da igual.' ⏳ Ahora eres un aprendiz de Tiempo. Busca el Sendero del Tiempo para ponerte a prueba.",
+            "en": "'...after several hours -or maybe minutes, or years, I've lost track- trying to teach you to feel time... you're still late for everything... but you are officially an apprentice.' He flickers again. 'You may enter the Path now. Or you already have. Doesn't matter.' ⏳ You are now a Time apprentice. Seek out the Time Path to put yourself to the test.",
+            "fr": "« ...après plusieurs heures -ou peut-être des minutes, ou des années, je ne sais plus- à essayer de t'apprendre à sentir le temps... tu es toujours en retard pour tout... mais officiellement tu es apprentie. » Il clignote de nouveau. « Tu peux entrer dans le Sentier maintenant. Ou tu y es déjà entrée. Peu importe. » ⏳ Tu es maintenant une apprentie du Temps. Cherche le Sentier du Temps pour te mettre à l'épreuve.",
+            "it": "'...dopo diverse ore -o forse minuti, o anni, ormai ho perso il conto- a cercare di insegnarti a sentire il tempo... continui ad arrivare in ritardo a tutto... ma sei ufficialmente apprendista.' Lampeggia di nuovo. 'Ora puoi entrare nel Sentiero. O ci sei già entrata. Non importa.' ⏳ Ora sei un'apprendista del Tempo. Cerca il Sentiero del Tempo per metterti alla prova.",
+            "de": "„...nach mehreren Stunden -oder vielleicht Minuten, oder Jahren, ich habe den Überblick verloren- in denen ich versucht habe, dir das Zeitgefühl beizubringen... du kommst immer noch überall zu spät... aber offiziell bist du Lehrlingin.“ Er flackert erneut. „Du kannst den Pfad jetzt betreten. Oder du bist schon drin. Egal.“ ⏳ Du bist jetzt eine Zeit-Lehrlingin. Suche den Pfad der Zeit, um dich zu prüfen.",
+            "zh": "「……经过好几个小时——或许是几分钟，或许是几年，我已经数不清了——试图教你感知时间……你还是什么事都迟到……但正式来说，你已经是个学徒了。」他又闪烁了一下。「你现在可以进入这条路了。或者你早就进去了。都无所谓。」⏳ 你现在是时间学徒了。去寻找时间之路来考验自己吧。",
+            "ja": "「……何時間も——いや、何分か、何年か、もう分からなくなったが——時を感じ取る術を教えようとしたが……相変わらず何にでも遅刻している……だが正式には、お前は弟子だ」再びちらつく。「もう道に入っていいぞ。あるいはもう入っている。どちらでもいい」⏳ お前は今、時の弟子となった。時の道を探し、自らを試すがいい。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "gflag:apprentice_sendero_tiempo"
+    },
+    "time_0b": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Salir del Templo",
+            "en": "🚶  Leave the Temple",
+            "fr": "🚶  Quitter le Temple",
+            "it": "🚶  Lasciare il Tempio",
+            "de": "🚶  Den Tempel verlassen",
+            "zh": "🚶  离开神庙",
+            "ja": "🚶  神殿を去る"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "time_1": {
+        "condition": "gflag(\"apprentice_sendero_tiempo\")",
+        "type": "message",
+        "text": {
+            "es": "Un hombre parpadea en el aire, como si llegara y se marchara a la vez. 'Ah, ya has venido. O vendrás. Siempre me lío. Sí, la respuesta es sí: aprenderás la Distorsión Temporal. No, no te diré cómo acaba... otra vez. Mi Sendero del Tiempo está justo ahí. Ya lo has completado, en cierto sentido. Ve a hacerlo realidad.'",
+            "en": "A man flickers in the air, as if arriving and leaving at once. 'Ah, you've come. Or you will. I always mix it up. Yes, the answer is yes: you'll learn Time Distortion. No, I won't tell you how it ends... again. My Time Path is right there. You've already completed it, in a sense. Go make it real.'",
+            "fr": "Un homme clignote dans les airs, comme s'il arrivait et partait en même temps. « Ah, tu es déjà venu. Ou tu viendras. Je m'y perds toujours. Oui, la réponse est oui : tu apprendras la Distorsion Temporelle. Non, je ne te dirai pas comment ça se termine... encore une fois. Mon Sentier du Temps est juste là. Tu l'as déjà accompli, en un sens. Va le rendre réel. »",
+            "it": "Un uomo lampeggia nell'aria, come se arrivasse e se ne andasse allo stesso tempo. 'Ah, sei già venuto. O verrai. Mi confondo sempre. Sì, la risposta è sì: imparerai la Distorsione Temporale. No, non ti dirò come finisce... di nuovo. Il mio Sentiero del Tempo è proprio lì. Lo hai già completato, in un certo senso. Vai a renderlo reale.'",
+            "de": "Ein Mann flackert in der Luft, als käme und ginge er zugleich. „Ah, du bist schon gekommen. Oder wirst kommen. Ich verwechsle das immer. Ja, die Antwort ist ja: Du wirst Zeitverzerrung lernen. Nein, ich werde dir nicht sagen, wie es endet... wieder. Mein Pfad der Zeit ist genau dort. Du hast ihn in gewissem Sinne schon abgeschlossen. Geh und mach es Wirklichkeit.“",
+            "zh": "一个男人在空中忽隐忽现，仿佛同时正在到来又正在离开。「啊，你已经来过了。或者你将会来。我总是搞混。是的，答案是肯定的：你将学会时间扭曲。不，我不会告诉你结局是什么……又来了。我的时间之路就在那边。从某种意义上说，你已经完成了它。去把它变成现实吧。」",
+            "ja": "男が宙で明滅している。まるで同時に到着し、去っていくかのようだ。「ああ、お前はもう来た。あるいはこれから来る。いつも混乱するんだ。そうだ、答えはイエスだ——お前はタイムディストーションを学ぶことになる。いや、結末は教えない……また同じことを言っている。俺の時の道はまさにそこにある。ある意味、お前はもうそれを完了している。行って、それを現実にしてこい」"
+        },
+        "next": [
+            "time_1c",
+            "time_1a",
+            "time_1b"
+        ],
+        "reward": ""
+    },
+    "time_1c": {
+        "type": "option",
+        "text": {
+            "es": "🏆  He completado la prueba",
+            "en": "🏆  I have completed the trial",
+            "fr": "🏆  J'ai réussi l'épreuve",
+            "it": "🏆  Ho completato la prova",
+            "de": "🏆  Ich habe die Prüfung bestanden",
+            "zh": "🏆  我已完成试炼",
+            "ja": "🏆  試練を終えた"
+        },
+        "next": [
+            "time_1c_r"
+        ],
+        "reward": "",
+        "condition": "gflag(\"trial_done_sendero_tiempo\") and no_prof(\"Tiempo\")"
+    },
+    "time_1c_r": {
+        "type": "message",
+        "text": {
+            "es": "El hombre deja de parpadear un instante -algo que no hacía desde antes de que tú nacieras-. '¿Ya? Vaya. Eso sí que no lo vi venir, y yo lo veo todo... al revés y al derecho.' Sonríe. 'Es oficial: eres del Tiempo. Que no se te haga tarde... otra vez.'",
+            "en": "The man stops flickering for a moment -something he hasn't done since before you were born-. 'Already? Well. Didn't see that one coming, and I see everything... backwards and forwards.' He smiles. 'It's official: you're a Time Mage. Try not to be late again... ever.'",
+            "fr": "L'homme arrête de clignoter un instant -quelque chose qu'il n'avait pas fait avant même ta naissance-. « Déjà ? Eh bien. Ça, je ne l'avais pas vu venir, et pourtant je vois tout... à l'envers et à l'endroit. » Il sourit. « C'est officiel : tu es du Temps. Ne sois pas en retard... encore une fois. »",
+            "it": "L'uomo smette di lampeggiare per un istante -qualcosa che non faceva da prima ancora che tu nascessi-. 'Già? Beh. Questo non me lo aspettavo, eppure vedo tutto... al contrario e nel verso giusto.' Sorride. 'È ufficiale: sei del Tempo. Cerca di non fare tardi... di nuovo.'",
+            "de": "Der Mann hört für einen Moment auf zu flackern -etwas, das er schon vor deiner Geburt nicht mehr getan hat-. „Schon? Nun. Das habe ich nicht kommen sehen, und dabei sehe ich alles... rückwärts und vorwärts.“ Er lächelt. „Es ist offiziell: Du bist eine Zeitmagierin. Versuch, nicht wieder zu spät zu kommen... nie wieder.“",
+            "zh": "男人停止了闪烁片刻——这是他自你出生之前就未曾做过的事。「已经完成了？哦。这我倒是没预料到，可我明明能看到一切……正着看、反着看都能。」他微笑着。「这就是正式的了：你是时间之主了。别再迟到了……再也别迟到了。」",
+            "ja": "男が一瞬、明滅を止める——それはお前が生まれる前からしていないことだ。「もう終わったのか？ふむ。それは予見できなかったな、俺はすべてを見通せるはずなのに……逆さまも順序通りも」微笑む。「公式だ：お前は時の者だ。もう遅刻しないようにな……二度とだ」"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "prof:Tiempo;event:check_all_professions"
+    },
+    "time_1a": {
+        "type": "option",
+        "text": {
+            "es": "⏳  ¿Dónde está la prueba?",
+            "en": "⏳  Where is the trial?",
+            "fr": "⏳  Où se trouve l'épreuve ?",
+            "it": "⏳  Dove si trova la prova?",
+            "de": "⏳  Wo befindet sich die Prüfung?",
+            "zh": "⏳  试炼在哪里？",
+            "ja": "⏳  試練はどこにある？"
+        },
+        "next": [
+            "time_1ar"
+        ],
+        "reward": ""
+    },
+    "time_1ar": {
+        "type": "message",
+        "text": {
+            "es": "'Estaba, estará, está. Ralentiza lo que no puedas esquivar y regresa cuando ya lo hayas hecho. Serás del Tiempo. Por cierto, en tres segundos dirás gracias. ... Ahí está.'",
+            "en": "'It was, will be, is. Slow what you cannot dodge and return once you already have. You'll be a Time Mage. By the way, in three seconds you'll say thanks. ... There it is.'",
+            "fr": "« C'était, ce sera, c'est. Ralentis ce que tu ne peux éviter et reviens quand tu l'as déjà fait. Tu seras du Temps. Au fait, dans trois secondes tu diras merci. ... Voilà. »",
+            "it": "'Era, sarà, è. Rallenta ciò che non puoi schivare e torna quando l'hai già fatto. Sarai del Tempo. A proposito, tra tre secondi dirai grazie. ... Eccolo.'",
+            "de": "„Es war, wird sein, ist. Verlangsame, was du nicht ausweichen kannst, und kehre zurück, wenn du es bereits getan hast. Du wirst eine Zeitmagierin sein. Übrigens, in drei Sekunden wirst du danke sagen. ... Da ist es.“",
+            "zh": "「曾经如此，将会如此，就是如此。放慢你无法躲避的东西，等你已经完成时再回来。你将成为时间之主。顺便说一句，三秒后你会说谢谢。……看，说了吧。」",
+            "ja": "「そうだった、そうなる、そうである。避けられないものを遅くし、すでにそうした後に戻ってこい。お前は時の者になる。ちなみに、三秒後にお前は礼を言うだろう。……ほら、言った」"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "time_1b": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Salir del Templo",
+            "en": "🚶  Leave the Temple",
+            "fr": "🚶  Quitter le Temple",
+            "it": "🚶  Lasciare il Tempio",
+            "de": "🚶  Den Tempel verlassen",
+            "zh": "🚶  离开神庙",
+            "ja": "🚶  神殿を去る"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

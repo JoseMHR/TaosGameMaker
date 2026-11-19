@@ -1,0 +1,31 @@
+{
+    "name": {
+        "es": "Escudo de Hierro",
+        "en": "Iron Shield",
+        "fr": "Bouclier de Fer",
+        "it": "Scudo di Ferro",
+        "de": "Eisenschild",
+        "zh": "铁盾",
+        "ja": "アイアンシールド"
+    },
+    "desc": {
+        "es": "Un escudo de hierro robusto.",
+        "en": "A robust iron shield.",
+        "fr": "Un bouclier de fer robuste.",
+        "it": "Uno scudo di ferro robusto.",
+        "de": "Ein robuster Eisenschild.",
+        "zh": "一面坚固的铁盾。",
+        "ja": "頑丈な鉄の盾。"
+    },
+    "icon": "🛡️",
+    "category": "equipment",
+    "usable": false,
+    "slot": "shield",
+    "tier": 3,
+    "bonuses": {
+        "vit": 5
+    },
+    "combat": {
+        "phys_defense": 55
+    }
+}

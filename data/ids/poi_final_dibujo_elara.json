@@ -1,0 +1,26 @@
+{
+    "id": "poi_final_dibujo_elara",
+    "type": "poi",
+    "icon": "🖍️",
+    "name": {
+        "es": "El Dibujo en la Pared",
+        "en": "The Drawing on the Wall",
+        "fr": "Le Dessin sur le Mur",
+        "it": "Il Disegno sul Muro",
+        "de": "Die Zeichnung an der Wand",
+        "zh": "墙上的画",
+        "ja": "壁の絵"
+    },
+    "desc": {
+        "es": "Un dibujo infantil hecho con ceras, brillando con colores imposibles sobre la roca negra del abismo. (POI de inspección).",
+        "en": "A child's crayon drawing, glowing with impossible colors on the black rock of the abyss. (Inspection POI).",
+        "fr": "Un dessin d'enfant fait aux crayons de cire, brillant de couleurs impossibles sur la roche noire de l'abîme. (POI d'inspection).",
+        "it": "Un disegno infantile fatto a pastelli a cera, che brilla con colori impossibili sulla roccia nera dell'abisso. (POI di ispezione).",
+        "de": "Eine Kinderzeichnung mit Wachsmalstiften, die in unmöglichen Farben auf dem schwarzen Fels des Abgrunds leuchtet. (Inspektions-POI).",
+        "zh": "一幅用蜡笔画成的儿童画，在深渊的黑色岩石上闪耀着不可思议的色彩。（探查类兴趣点）。",
+        "ja": "クレヨンで描かれた子どもの絵。深淵の黒い岩の上で、あり得ないほど鮮やかな色に輝いている。（調査ポイント）。"
+    },
+    "npc": "poi_final_dibujo_elara",
+    "bg": "bg_world_poi_final_dibujo_elara.png",
+    "music": "creepy"
+}

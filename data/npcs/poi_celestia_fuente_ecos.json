@@ -1,0 +1,149 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "La Fuente de los Ecos",
+            "en": "The Fountain of Echoes",
+            "fr": "La Fontaine des Échos",
+            "it": "La Fontana degli Echi",
+            "de": "Der Brunnen der Echos",
+            "zh": "回声之泉",
+            "ja": "こだまの泉"
+        },
+        "next": [],
+        "reward": "bg=0.05,0.07,0.10"
+    },
+    "fue_root": {
+        "type": "message",
+        "text": {
+            "es": "Una elegante fuente de mármol blanco murmura en un patio desierto de Celestia. El agua cae en una taza tan pulida que refleja un cielo que no coincide del todo con el de arriba. Una inscripción reza: 'Habla, y la fuente te responderá con lo que callas.' El chapoteo, cuando prestas atención, casi parece formar palabras.",
+            "en": "An elegant fountain of white marble murmurs in a deserted courtyard of Celestia. The water falls into a basin so polished it reflects a sky that doesn't quite match the one above. An inscription reads: 'Speak, and the fountain will answer with what you keep silent.' The splashing, when you listen closely, almost seems to form words.",
+            "fr": "Une élégante fontaine de marbre blanc murmure dans une cour déserte de Celestia. L'eau tombe dans une vasque si polie qu'elle reflète un ciel qui ne correspond pas tout à fait à celui d'en haut. Une inscription dit : « Parle, et la fontaine te répondra avec ce que tu tais. » Le clapotis, quand tu y prêtes attention, semble presque former des mots.",
+            "it": "Un'elegante fontana di marmo bianco mormora in un cortile deserto di Celestia. L'acqua cade in una vasca così levigata da riflettere un cielo che non coincide del tutto con quello sopra. Un'iscrizione recita: 'Parla, e la fontana ti risponderà con ciò che taci.' Lo sciabordio, se presti attenzione, sembra quasi formare parole.",
+            "de": "Ein eleganter Brunnen aus weißem Marmor murmelt in einem verlassenen Innenhof von Celestia. Das Wasser fällt in ein so poliertes Becken, dass es einen Himmel widerspiegelt, der nicht ganz mit dem darüber übereinstimmt. Eine Inschrift lautet: „Sprich, und der Brunnen wird dir mit dem antworten, was du verschweigst.“ Das Plätschern scheint, wenn man genau hinhört, fast Worte zu formen.",
+            "zh": "在塞莱斯提亚一座荒废的庭院中，一座优雅的白色大理石喷泉低语着。水流落入一个打磨得极为光滑的水盆中，映照出一片与头顶天空并不完全吻合的天空。一行铭文写道：「开口说话，喷泉会以你隐瞒之事回应你。」当你仔细聆听时，那水花声几乎像是在拼出词语。",
+            "ja": "セレスティアの人気のない中庭で、優雅な白い大理石の噴水がささやいている。水は磨き抜かれた盆に落ち、上空の空とは微妙に一致しない空を映し出している。刻まれた銘文にはこうある：「語れ、さすれば泉はお前が沈黙するものを答えとして返そう」。注意深く聞くと、その水音はほとんど言葉を形作っているように思える。"
+        },
+        "next": [
+            "fue_opt_nombre",
+            "fue_opt_pregunta",
+            "fue_opt_reflejo",
+            "fue_opt_salir"
+        ],
+        "reward": ""
+    },
+    "fue_opt_nombre": {
+        "type": "option",
+        "text": {
+            "es": "🗣️  Decir tu propio nombre a la fuente",
+            "en": "🗣️  Say your own name to the fountain",
+            "fr": "🗣️  Dire ton propre nom à la fontaine",
+            "it": "🗣️  Dire il tuo nome alla fontana",
+            "de": "🗣️  Deinen eigenen Namen dem Brunnen sagen",
+            "zh": "🗣️  向喷泉说出你自己的名字",
+            "ja": "🗣️  泉に自分の名前を告げる"
+        },
+        "next": [
+            "fue_msg_nombre"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "fue_msg_nombre": {
+        "type": "message",
+        "text": {
+            "es": "Pronuncias el nombre con el que te conocen en este mundo. La fuente calla un momento, como si lo pensara. Luego el agua devuelve, clarísima, un nombre completamente distinto —'Aiden'— pronunciado con la voz de una niña, seguido de una risa breve. Se te hiela la sangre. Tú nunca has oído ese nombre... y sin embargo tu propio corazón ha dado un vuelco de reconocimiento, como un perro que oye a su dueño tras años de ausencia.",
+            "en": "You speak the name they know you by in this world. The fountain falls silent a moment, as if considering it. Then the water gives back, crystal-clear, a completely different name — 'Aiden' — spoken in a little girl's voice, followed by a brief laugh. Your blood runs cold. You have never heard that name... and yet your own heart has lurched with recognition, like a dog hearing its owner after years away.",
+            "fr": "Tu prononces le nom sous lequel on te connaît dans ce monde. La fontaine se tait un instant, comme si elle y réfléchissait. Puis l'eau restitue, très clairement, un nom complètement différent — « Aiden » — prononcé avec la voix d'une petite fille, suivi d'un bref rire. Ton sang se glace. Tu n'as jamais entendu ce nom... et pourtant ton propre cœur a eu un sursaut de reconnaissance, comme un chien entendant son maître après des années d'absence.",
+            "it": "Pronunci il nome con cui ti conoscono in questo mondo. La fontana tace per un momento, come se ci pensasse. Poi l'acqua restituisce, chiarissimo, un nome completamente diverso — 'Aiden' — pronunciato con la voce di una bambina, seguito da una breve risata. Ti si gela il sangue. Non hai mai sentito quel nome... eppure il tuo stesso cuore ha avuto un sussulto di riconoscimento, come un cane che sente il padrone dopo anni di assenza.",
+            "de": "Du sprichst den Namen aus, unter dem man dich in dieser Welt kennt. Der Brunnen schweigt einen Moment, als würde er darüber nachdenken. Dann gibt das Wasser, glasklar, einen völlig anderen Namen zurück — „Aiden“ — gesprochen mit der Stimme eines kleinen Mädchens, gefolgt von einem kurzen Lachen. Dein Blut gefriert. Du hast diesen Namen nie gehört... und doch hat dein eigenes Herz vor Wiedererkennen einen Satz gemacht, wie ein Hund, der seinen Besitzer nach Jahren der Abwesenheit hört.",
+            "zh": "你说出这个世界认识你的名字。喷泉沉默了片刻，仿佛在思索。然后，水流清晰地回应了一个完全不同的名字——「艾登」——用一个小女孩的声音说出，随后是一声短促的笑声。你的血液瞬间凝固。你从未听过这个名字……然而你自己的心却猛然一动，涌起一种认同感，就像一只狗在多年离别后听到主人的声音。",
+            "ja": "この世界で呼ばれている名前を口にする。泉は一瞬、考え込むように沈黙する。それから水は、はっきりと、まったく別の名前を返す——「エイデン」——少女の声で発せられ、続いて短い笑い声が響く。血の気が引く。その名前など一度も聞いたことがない……それなのに、自分自身の心臓が、何年も離れていた主の声を聞いた犬のように、認識の高鳴りを見せる。"
+        },
+        "next": [
+            "fue_opt_salir"
+        ],
+        "reward": "faceta:cordura=-1;gflag:fue_nombre_oido"
+    },
+    "fue_opt_pregunta": {
+        "type": "option",
+        "text": {
+            "es": "❓  Preguntarle en voz alta: ¿Quién soy de verdad?",
+            "en": "❓  Ask it aloud: Who am I really?",
+            "fr": "❓  Lui demander à voix haute : Qui suis-je vraiment ?",
+            "it": "❓  Chiederle ad alta voce: Chi sono davvero?",
+            "de": "❓  Sie laut fragen: Wer bin ich wirklich?",
+            "zh": "❓  大声问它：我到底是谁？",
+            "ja": "❓  声に出して尋ねる：私は本当は何者なんだ？"
+        },
+        "next": [
+            "fue_msg_pregunta"
+        ],
+        "reward": ""
+    },
+    "fue_msg_pregunta": {
+        "type": "message",
+        "text": {
+            "es": "Formulas la pregunta y esperas. El agua tarda mucho en responder, demasiado. Cuando por fin lo hace, no repite tu pregunta: susurra 'un padre', y luego, más bajo, 'lo siento'. El agua de la taza se enturbia un instante con lo que parece humo blanco, y vuelve a aclararse. La fuente no está diseñada para mentir; simplemente aún no estás listo para creerla.",
+            "en": "You pose the question and wait. The water takes a long time to answer, too long. When at last it does, it doesn't repeat your question: it whispers 'a father', and then, lower, 'I'm sorry'. The water in the basin clouds for an instant with what looks like white smoke, then clears again. The fountain isn't built to lie; you simply aren't ready to believe it yet.",
+            "fr": "Tu formules la question et attends. L'eau met beaucoup de temps à répondre, trop de temps. Quand elle le fait enfin, elle ne répète pas ta question : elle murmure « un père », puis, plus bas, « je suis désolée ». L'eau de la vasque se trouble un instant avec ce qui ressemble à de la fumée blanche, puis s'éclaircit de nouveau. La fontaine n'est pas conçue pour mentir ; tu n'es simplement pas encore prêt à la croire.",
+            "it": "Formuli la domanda e aspetti. L'acqua impiega molto tempo a rispondere, troppo. Quando finalmente lo fa, non ripete la tua domanda: sussurra 'un padre', e poi, più piano, 'mi dispiace'. L'acqua della vasca si intorbidisce per un istante con quello che sembra fumo bianco, e torna a schiarirsi. La fontana non è fatta per mentire; semplicemente non sei ancora pronto a crederle.",
+            "de": "Du stellst die Frage und wartest. Das Wasser braucht sehr lange, um zu antworten, zu lange. Als es schließlich antwortet, wiederholt es nicht deine Frage: es flüstert „ein Vater“, und dann, leiser, „es tut mir leid“. Das Wasser im Becken trübt sich für einen Moment mit etwas, das wie weißer Rauch aussieht, und klärt sich dann wieder. Der Brunnen ist nicht dafür gemacht zu lügen; du bist einfach noch nicht bereit, ihm zu glauben.",
+            "zh": "你提出这个问题，等待着。水流迟迟没有回应，久得反常。当它终于回应时，它并没有重复你的问题：它低语着「一位父亲」，然后更小声地说「对不起」。水盆中的水瞬间被某种像白烟的东西弄得浑浊，随后又恢复清澈。喷泉不是用来撒谎的；只是你还没有准备好去相信它。",
+            "ja": "問いを投げかけ、待つ。水は答えるまでにひどく長い時間をかける。ようやく答える時、それはお前の問いを繰り返さない。「一人の父親」とささやき、そしてさらに低く「すまない」と言う。盆の水は一瞬、白い煙のようなもので濁り、また澄んでいく。泉は嘘をつくようにはできていない。ただお前がまだそれを信じる準備ができていないだけだ。"
+        },
+        "next": [
+            "fue_root"
+        ],
+        "reward": ""
+    },
+    "fue_opt_reflejo": {
+        "type": "option",
+        "text": {
+            "es": "🪞  Mirar tu reflejo en el agua quieta",
+            "en": "🪞  Look at your reflection in the still water",
+            "fr": "🪞  Regarder ton reflet dans l'eau immobile",
+            "it": "🪞  Guardare il tuo riflesso nell'acqua immobile",
+            "de": "🪞  Dein Spiegelbild im stillen Wasser betrachten",
+            "zh": "🪞  凝视静水中你的倒影",
+            "ja": "🪞  静止した水面に映る自分の姿を見る"
+        },
+        "next": [
+            "fue_msg_reflejo"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "fue_msg_reflejo": {
+        "type": "message",
+        "text": {
+            "es": "Te inclinas sobre la taza. El reflejo que te devuelve no es el del héroe de armadura que crees ser: es un hombre mayor, ojeroso, con una bata blanca manchada, sentado en una habitación sin ventanas frente a una esfera enorme. El hombre del reflejo levanta la cabeza y te mira a ti, no al revés. Retrocedes de un salto y el agua vuelve a mostrar, tranquilamente, tu cara de siempre. Casi.",
+            "en": "You lean over the basin. The reflection it gives back isn't the armored hero you believe yourself to be: it's an older man, hollow-eyed, in a stained white coat, seated in a windowless room before an enormous sphere. The man in the reflection lifts his head and looks at you, not the other way around. You leap back and the water calmly shows your usual face again. Almost.",
+            "fr": "Tu te penches au-dessus de la vasque. Le reflet qu'elle te renvoie n'est pas celui du héros en armure que tu crois être : c'est un homme plus âgé, les traits creusés, une blouse blanche tachée, assis dans une pièce sans fenêtres face à une sphère énorme. L'homme du reflet lève la tête et te regarde, et non l'inverse. Tu recules d'un bond et l'eau montre de nouveau, tranquillement, ton visage habituel. Presque.",
+            "it": "Ti chini sopra la vasca. Il riflesso che ti restituisce non è quello dell'eroe in armatura che credi di essere: è un uomo più anziano, con occhi infossati, con un camice bianco macchiato, seduto in una stanza senza finestre davanti a una sfera enorme. L'uomo nel riflesso alza la testa e guarda te, non il contrario. Fai un balzo indietro e l'acqua torna a mostrare, tranquillamente, il tuo solito volto. Quasi.",
+            "de": "Du beugst dich über das Becken. Das Spiegelbild, das es dir zurückgibt, ist nicht der gepanzerte Held, für den du dich hältst: es ist ein älterer Mann, hohläugig, in einem fleckigen weißen Kittel, sitzend in einem fensterlosen Raum vor einer enormen Sphäre. Der Mann im Spiegelbild hebt den Kopf und schaut dich an, nicht umgekehrt. Du springst zurück, und das Wasser zeigt wieder ruhig dein gewohntes Gesicht. Fast.",
+            "zh": "你俯身望向水盆。倒映出的并非你自认为的那个身披盔甲的英雄：那是一个年长的男人，双眼凹陷，穿着一件沾污的白大褂，坐在一个没有窗户的房间里，面对着一颗巨大的球体。倒影中的男人抬起头，看着你，而不是相反。你猛地向后一跃，水面又恢复平静，映出你熟悉的脸庞。差不多如此。",
+            "ja": "盆の上に身を乗り出す。返ってくる反射は、お前が自分だと信じる鎧をまとった英雄ではない。それはやつれた目をした、汚れた白衣を着た年配の男で、窓のない部屋で巨大な球の前に座っている。反射の中の男が頭を上げ、お前を見つめる——逆ではなく。跳び退くと、水は再び穏やかに、いつもの顔を映し出す。ほとんど、いつも通りに。"
+        },
+        "next": [
+            "fue_opt_salir"
+        ],
+        "reward": "faceta:cordura=-1"
+    },
+    "fue_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Apartarte de la fuente antes de oír más",
+            "en": "🚶  Step away from the fountain before you hear more",
+            "fr": "🚶  Séloigner de la fontaine avant den entendre davantage",
+            "it": "🚶  Allontanarti dalla fontana prima di sentire altro",
+            "de": "🚶  Sich vom Brunnen entfernen, bevor du mehr hörst",
+            "zh": "🚶  在听到更多之前离开喷泉",
+            "ja": "🚶  これ以上聞く前に泉から離れる"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "id": "poi_sylphrena_shop",
+    "type": "poi",
+    "name": {
+        "es": "Tienda del Mercader",
+        "en": "Merchant Shop",
+        "fr": "Boutique du Marchand",
+        "it": "Negozio del Mercante",
+        "de": "Händlerladen",
+        "zh": "商人店铺",
+        "ja": "商人の店"
+    },
+    "icon": "🛒",
+    "desc": {
+        "es": "Surtido completo",
+        "en": "Full stock",
+        "fr": "Assortiment complet",
+        "it": "Assortimento completo",
+        "de": "Vollständiges Sortiment",
+        "zh": "货品齐全",
+        "ja": "品揃え豊富"
+    },
+    "kind": "shop",
+    "npc": "shopkeeper_imperial",
+    "stock": "imperial",
+    "presences": [
+        {
+            "condition": "default",
+            "actor": "shopkeeper_imperial",
+            "entry_node": ""
+        }
+    ],
+    "bg": "bg_city_sylphrena_shop.png"
+}

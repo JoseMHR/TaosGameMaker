@@ -1,0 +1,121 @@
+[gd_scene format=3 uid="uid://templo_guerrero_poi"]
+
+[sub_resource type="StandardMaterial3D" id="Mat_FortressStone"]
+albedo_color = Color(0.32, 0.33, 0.36, 1)
+roughness = 0.9
+
+[sub_resource type="StandardMaterial3D" id="Mat_DarkSteel"]
+albedo_color = Color(0.2, 0.22, 0.25, 1)
+metallic = 0.85
+roughness = 0.3
+
+[sub_resource type="StandardMaterial3D" id="Mat_CrimsonRoof"]
+albedo_color = Color(0.55, 0.12, 0.12, 1)
+roughness = 0.7
+
+[sub_resource type="StandardMaterial3D" id="Mat_WarRedGlow"]
+albedo_color = Color(0.9, 0.15, 0.15, 1)
+emission_enabled = true
+emission = Color(0.9, 0.15, 0.15, 1)
+emission_energy_multiplier = 3.5
+
+[sub_resource type="StandardMaterial3D" id="Mat_DoorVoid"]
+albedo_color = Color(0.02, 0.02, 0.03, 1)
+roughness = 1.0
+
+[sub_resource type="BoxMesh" id="Mesh_StairsBase"]
+size = Vector3(1.1, 0.12, 1.25)
+
+[sub_resource type="BoxMesh" id="Mesh_FortressHall"]
+size = Vector3(0.85, 0.75, 0.85)
+
+[sub_resource type="BoxMesh" id="Mesh_DoorVoid"]
+size = Vector3(0.38, 0.55, 0.15)
+
+[sub_resource type="BoxMesh" id="Mesh_PillarPillar"]
+size = Vector3(0.12, 0.75, 0.12)
+
+[sub_resource type="BoxMesh" id="Mesh_Crenellation"]
+size = Vector3(0.12, 0.14, 0.12)
+
+[sub_resource type="PrismMesh" id="Mesh_SwordBlade"]
+size = Vector3(0.1, 0.65, 0.03)
+
+[sub_resource type="BoxMesh" id="Mesh_SwordGuard"]
+size = Vector3(0.32, 0.05, 0.05)
+
+[sub_resource type="CylinderMesh" id="Mesh_Shield"]
+top_radius = 0.16
+bottom_radius = 0.16
+height = 0.04
+radial_segments = 6
+
+[sub_resource type="PrismMesh" id="Mesh_RubyGem"]
+size = Vector3(0.12, 0.32, 0.12)
+
+[node name="TemploGuerrero" type="Node3D"]
+
+[node name="StairsBase" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.06, 0.05)
+material_override = SubResource("Mat_FortressStone")
+mesh = SubResource("Mesh_StairsBase")
+
+[node name="FortressHall" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, -0.1)
+material_override = SubResource("Mat_FortressStone")
+mesh = SubResource("Mesh_FortressHall")
+
+[node name="DoorVoid" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.4, 0.33)
+material_override = SubResource("Mat_DoorVoid")
+mesh = SubResource("Mesh_DoorVoid")
+
+[node name="PillarL" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.38, 0.5, 0.33)
+material_override = SubResource("Mat_DarkSteel")
+mesh = SubResource("Mesh_PillarPillar")
+
+[node name="PillarR" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.38, 0.5, 0.33)
+material_override = SubResource("Mat_DarkSteel")
+mesh = SubResource("Mesh_PillarPillar")
+
+[node name="Crenel1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.38, 0.94, -0.48)
+material_override = SubResource("Mat_FortressStone")
+mesh = SubResource("Mesh_Crenellation")
+
+[node name="Crenel2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.38, 0.94, -0.48)
+material_override = SubResource("Mat_FortressStone")
+mesh = SubResource("Mesh_Crenellation")
+
+[node name="Crenel3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.38, 0.94, 0.28)
+material_override = SubResource("Mat_FortressStone")
+mesh = SubResource("Mesh_Crenellation")
+
+[node name="Crenel4" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.38, 0.94, 0.28)
+material_override = SubResource("Mat_FortressStone")
+mesh = SubResource("Mesh_Crenellation")
+
+[node name="SwordBlade" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.25, -0.1)
+material_override = SubResource("Mat_DarkSteel")
+mesh = SubResource("Mesh_SwordBlade")
+
+[node name="SwordGuard" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.0, -0.1)
+material_override = SubResource("Mat_DarkSteel")
+mesh = SubResource("Mesh_SwordGuard")
+
+[node name="ShieldEmblem" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0.72, 0.34)
+material_override = SubResource("Mat_CrimsonRoof")
+mesh = SubResource("Mesh_Shield")
+
+[node name="ClassRuby" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.72, 0.37)
+material_override = SubResource("Mat_WarRedGlow")
+mesh = SubResource("Mesh_RubyGem")

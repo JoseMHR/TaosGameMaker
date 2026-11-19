@@ -1,0 +1,26 @@
+{
+    "id": "poi_final_montana_agujas",
+    "type": "poi",
+    "icon": "💉",
+    "name": {
+        "es": "La Montaña de Agujas",
+        "en": "The Mountain of Needles",
+        "fr": "La Montagne d'Aiguilles",
+        "it": "La Montagna di Aghi",
+        "de": "Der Nadelberg",
+        "zh": "针山",
+        "ja": "針の山"
+    },
+    "desc": {
+        "es": "Un montículo interminable de jeringuillas y viales médicos que se alza en el abismo, brillando con un fulgor enfermizo. (POI de inspección).",
+        "en": "An endless mound of syringes and medical vials rising in the abyss, glinting with a sickly glow. (Inspection POI).",
+        "fr": "Un monticule sans fin de seringues et de flacons médicaux qui s'élève dans l'abîme, brillant d'une lueur maladive. (POI d'inspection).",
+        "it": "Un cumulo infinito di siringhe e fiale mediche che si erge nell'abisso, brillando di un bagliore malsano. (POI di ispezione).",
+        "de": "Ein endloser Haufen aus Spritzen und medizinischen Fläschchen, der sich im Abgrund erhebt und krankhaft schimmert. (Inspektions-POI).",
+        "zh": "深渊中矗立着一座由注射器和药瓶堆成的无尽小山，散发着病态的光芒。（探查类兴趣点）。",
+        "ja": "深淵にそびえる注射器と医療用バイアルの終わりなき山。病的な光を放っている。（調査ポイント）。"
+    },
+    "npc": "poi_final_montana_agujas",
+    "bg": "bg_world_poi_final_montana_agujas.png",
+    "music": "creepy"
+}

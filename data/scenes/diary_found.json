@@ -1,0 +1,48 @@
+{
+    "meta": {
+        "title": {
+            "es": "Descubrimiento",
+            "en": "Discovery",
+            "fr": "Découverte",
+            "it": "Scoperta",
+            "de": "Entdeckung",
+            "zh": "发现",
+            "ja": "発見"
+        },
+        "desc": "Escena que sustituye al antiguo dialogues.json 'diary_found': el jugador encuentra el diario tras vencer al jefe de la cueva."
+    },
+    "entry": "n1",
+    "nodes": {
+        "n1": {
+            "kind": "say",
+            "speaker": {
+                "es": "Descubrimiento",
+                "en": "Discovery",
+                "fr": "Découverte",
+                "it": "Scoperta",
+                "de": "Entdeckung",
+                "zh": "发现",
+                "ja": "発見"
+            },
+            "portrait": "📖",
+            "text": {
+                "es": "¡Has derrotado al boss de la cueva! Entre sus pertenencias encuentras el Diario Personal perdido.",
+                "en": "You defeated the cave boss! Among its belongings you find the lost Personal Diary.",
+                "fr": "Vous avez vaincu le boss de la grotte ! Parmi ses possessions, vous trouvez le Journal Intime perdu.",
+                "it": "Hai sconfitto il boss della grotta! Tra i suoi averi trovi il Diario Personale perduto.",
+                "de": "Du hast den Höhlenboss besiegt! Unter seinen Besitztümern findest du das verlorene Tagebuch.",
+                "zh": "你打败了洞穴首领！在它的物品中，你找到了遗失的私人日记。",
+                "ja": "洞窟のボスを倒した！その持ち物の中に、失われた個人的な日記を見つけた。"
+            },
+            "fx": {
+                "zoom": 1.1,
+                "sfx": "click"
+            },
+            "next": "end"
+        },
+        "end": {
+            "kind": "flow",
+            "op": "end"
+        }
+    }
+}

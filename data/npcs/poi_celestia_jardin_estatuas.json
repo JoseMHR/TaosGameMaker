@@ -1,0 +1,152 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Jardín de las Estatuas que Lloran",
+            "en": "The Garden of Weeping Statues",
+            "fr": "Le Jardin des Statues qui Pleurent",
+            "it": "Il Giardino delle Statue Piangenti",
+            "de": "Der Garten der Weinenden Statuen",
+            "zh": "哭泣雕像花园",
+            "ja": "泣く彫像の庭"
+        },
+        "next": [],
+        "reward": "bg=0.06,0.07,0.09"
+    },
+    "jar_root": {
+        "type": "message",
+        "text": {
+            "es": "Tras una verja oxidada se extiende un jardín olvidado, invadido por la hiedra. Lo pueblan una docena de estatuas de mármol —hombres, mujeres, niños— talladas con un realismo estremecedor. De los ojos de todas y cada una brota agua, un hilo constante que les resbala por las mejillas de piedra y encharca el suelo. No hay fuente. No hay lluvia. No hay explicación. Solo estatuas que llevan siglos llorando por alguien.",
+            "en": "Behind a rusted gate stretches a forgotten garden, overrun with ivy. A dozen marble statues people it — men, women, children — carved with a chilling realism. From the eyes of each and every one water flows, a constant thread sliding down their stone cheeks and pooling on the ground. There is no fountain. There is no rain. There is no explanation. Only statues that have been weeping for someone for centuries.",
+            "fr": "Derrière une grille rouillée s'étend un jardin oublié, envahi par le lierre. Une douzaine de statues de marbre le peuplent — hommes, femmes, enfants — sculptées avec un réalisme saisissant. Des yeux de chacune d'elles jaillit de l'eau, un filet constant qui glisse sur leurs joues de pierre et forme des flaques au sol. Il n'y a pas de fontaine. Il n'y a pas de pluie. Il n'y a aucune explication. Seulement des statues qui pleurent quelqu'un depuis des siècles.",
+            "it": "Dietro un cancello arrugginito si estende un giardino dimenticato, invaso dall'edera. Lo popolano una dozzina di statue di marmo — uomini, donne, bambini — scolpite con un realismo agghiacciante. Dagli occhi di ognuna sgorga acqua, un filo costante che scivola sulle guance di pietra e ristagna al suolo. Non c'è fontana. Non c'è pioggia. Non c'è spiegazione. Solo statue che piangono qualcuno da secoli.",
+            "de": "Hinter einem verrosteten Tor erstreckt sich ein vergessener Garten, von Efeu überwuchert. Ein Dutzend Marmorstatuen bevölkern ihn — Männer, Frauen, Kinder — mit erschreckendem Realismus gemeißelt. Aus den Augen einer jeden fließt Wasser, ein stetiger Faden, der über ihre steinernen Wangen gleitet und sich am Boden sammelt. Es gibt keinen Brunnen. Es gibt keinen Regen. Es gibt keine Erklärung. Nur Statuen, die seit Jahrhunderten um jemanden weinen.",
+            "zh": "在一扇生锈的铁门后，延伸出一座被遗忘的花园，爬满了常春藤。花园中有十几尊大理石雕像——男人、女人、孩子——雕刻得栩栩如生，令人不寒而栗。每一尊雕像的眼睛都在流水，一道恒定的水流顺着石制的脸颊滑落，在地面积成水洼。这里没有喷泉。没有降雨。没有任何解释。只有几个世纪以来一直在为某人哭泣的雕像。",
+            "ja": "錆びた門の向こうに、蔦に覆われた忘れられた庭が広がっている。十数体の大理石像——男、女、子供——がぞっとするほどリアルに彫られて立ち並んでいる。そのすべての目から水が流れ出し、石の頬を絶え間なく伝い落ち、地面に水たまりを作っている。噴水はない。雨も降っていない。説明もつかない。ただ、何世紀も誰かのために泣き続けている彫像たちがあるだけだ。"
+        },
+        "next": [
+            "jar_opt_ninha",
+            "jar_opt_tocar",
+            "jar_opt_secar",
+            "jar_opt_salir"
+        ],
+        "reward": ""
+    },
+    "jar_opt_ninha": {
+        "type": "option",
+        "text": {
+            "es": "🔎  Acercarte a la estatua más pequeña, la de una niña",
+            "en": "🔎  Approach the smallest statue, that of a little girl",
+            "fr": "🔎  T'approcher de la plus petite statue, celle d'une fillette",
+            "it": "🔎  Avvicinarti alla statua più piccola, quella di una bambina",
+            "de": "🔎  Sich der kleinsten Statue nähern, der eines kleinen Mädchens",
+            "zh": "🔎  走近最小的那尊雕像，一个小女孩的雕像",
+            "ja": "🔎  一番小さな像、少女の像に近づく"
+        },
+        "next": [
+            "jar_msg_ninha"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "jar_msg_ninha": {
+        "type": "message",
+        "text": {
+            "es": "La estatua de la niña sostiene entre las manos de mármol una esfera pequeña, lisa. No llora como las demás: sonríe, con una alegría tan pura que resulta insoportable de mirar. En la base, alguien escribió hace mucho: 'La única que no llora es la que no sabe que ya no está.' Sientes un vértigo repentino, como si esa frase hablara de ti, o de alguien tuyo, y las piernas te fallan un instante.",
+            "en": "The girl's statue holds in its marble hands a small, smooth sphere. It does not weep like the others: it smiles, with a joy so pure it's unbearable to look at. On the base, someone long ago wrote: 'The only one who doesn't weep is the one who doesn't know she's gone.' A sudden vertigo grips you, as if that sentence spoke of you, or of someone who was yours, and your legs give out for an instant.",
+            "fr": "La statue de la fillette tient entre ses mains de marbre une petite sphère lisse. Elle ne pleure pas comme les autres : elle sourit, d'une joie si pure qu'elle en est insupportable à regarder. À la base, quelqu'un a écrit il y a longtemps : « La seule qui ne pleure pas est celle qui ne sait pas qu'elle n'est plus là. » Un vertige soudain te saisit, comme si cette phrase parlait de toi, ou de quelqu'un qui t'appartenait, et tes jambes flanchent un instant.",
+            "it": "La statua della bambina tiene tra le mani di marmo una piccola sfera liscia. Non piange come le altre: sorride, con una gioia così pura da risultare insopportabile a guardarsi. Alla base, qualcuno scrisse molto tempo fa: 'L'unica che non piange è quella che non sa di non esserci più.' Provi una vertigine improvvisa, come se quella frase parlasse di te, o di qualcuno di tuo, e le gambe ti cedono per un istante.",
+            "de": "Die Statue des Mädchens hält in ihren Marmorhänden eine kleine, glatte Sphäre. Sie weint nicht wie die anderen: sie lächelt, mit einer Freude so rein, dass sie unerträglich anzusehen ist. Am Sockel schrieb jemand vor langer Zeit: „Die Einzige, die nicht weint, ist die, die nicht weiß, dass sie nicht mehr da ist.“ Ein plötzlicher Schwindel erfasst dich, als würde dieser Satz von dir handeln, oder von jemandem, der dir gehörte, und deine Beine geben für einen Moment nach.",
+            "zh": "小女孩雕像的大理石手中握着一颗光滑的小球。它不像其他雕像那样哭泣：它在微笑，那份纯粹的喜悦令人无法直视。在底座上，很久以前有人写道：「唯一不哭泣的，是那个不知道自己已经不在了的人。」一阵突如其来的眩晕攫住了你，仿佛这句话说的正是你，或是你所爱之人，你的双腿瞬间发软。",
+            "ja": "少女の像は大理石の手に小さな滑らかな球を握っている。他の像のようには泣いていない——見るに耐えないほど純粋な喜びを浮かべて微笑んでいる。台座には、遠い昔誰かがこう書いていた：「泣かないのはただ一人、自分がもういないと知らない者だけ」。まるでその一文が自分自身、あるいは自分にとって大切な誰かについて語っているかのように、突然のめまいに襲われ、一瞬足の力が抜ける。"
+        },
+        "next": [
+            "jar_opt_salir"
+        ],
+        "reward": "faceta:cordura=-1;gflag:jar_ninha_vista"
+    },
+    "jar_opt_tocar": {
+        "type": "option",
+        "text": {
+            "es": "✋  Recoger una lágrima de piedra en la palma de la mano",
+            "en": "✋  Catch a stone tear in the palm of your hand",
+            "fr": "✋  Recueillir une larme de pierre dans la paume de ta main",
+            "it": "✋  Raccogliere una lacrima di pietra nel palmo della mano",
+            "de": "✋  Eine Steinträne in der Handfläche auffangen",
+            "zh": "✋  在手掌中接住一滴石泪",
+            "ja": "✋  手のひらで石の涙を受け止める"
+        },
+        "next": [
+            "jar_msg_tocar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "jar_msg_tocar": {
+        "type": "message",
+        "text": {
+            "es": "Extiendes la mano y una lágrima cae en tu palma. No está fría: está tibia, como recién llorada. Y al contacto con tu piel, una imagen te atraviesa el cráneo —una habitación blanca, un pitido constante, una manita que se enfría entre las tuyas— y desaparece antes de que puedas retenerla. Cierras el puño sobre el agua, temblando. No sabes qué acabas de recordar, pero tu cuerpo entero ha decidido llorarlo por ti.",
+            "en": "You reach out and a tear falls into your palm. It isn't cold: it's warm, as if freshly wept. And at the touch of your skin, an image pierces your skull — a white room, a constant beeping, a tiny hand growing cold between yours — and vanishes before you can hold it. You close your fist over the water, trembling. You don't know what you just remembered, but your entire body has decided to weep it for you.",
+            "fr": "Tu tends la main et une larme tombe dans ta paume. Elle n'est pas froide : elle est tiède, comme fraîchement versée. Et au contact de ta peau, une image te traverse le crâne — une pièce blanche, un bip constant, une petite main qui se refroidit entre les tiennes — et disparaît avant que tu ne puisses la retenir. Tu refermes le poing sur l'eau, tremblant. Tu ne sais pas ce que tu viens de te rappeler, mais tout ton corps a décidé de le pleurer pour toi.",
+            "it": "Allunghi la mano e una lacrima cade sul tuo palmo. Non è fredda: è tiepida, come appena pianta. E al contatto con la tua pelle, un'immagine ti trafigge il cranio — una stanza bianca, un bip costante, una manina che si raffredda tra le tue — e scompare prima che tu possa trattenerla. Chiudi il pugno sull'acqua, tremando. Non sai cosa hai appena ricordato, ma tutto il tuo corpo ha deciso di piangerlo per te.",
+            "de": "Du streckst die Hand aus, und eine Träne fällt in deine Handfläche. Sie ist nicht kalt: sie ist warm, als wäre sie gerade erst geweint worden. Und bei der Berührung mit deiner Haut durchdringt ein Bild deinen Schädel — ein weißes Zimmer, ein stetiges Piepen, eine kleine Hand, die zwischen deinen kalt wird — und verschwindet, bevor du es festhalten kannst. Du schließt die Faust über dem Wasser, zitternd. Du weißt nicht, woran du dich gerade erinnert hast, aber dein ganzer Körper hat beschlossen, es für dich zu beweinen.",
+            "zh": "你伸出手，一滴泪落入你的掌心。它并不冰冷：而是温热的，仿佛刚刚流下。当它触及你的皮肤时，一幅画面刺穿了你的头颅——一个白色的房间，持续不断的滴答声，一只在你手中渐渐变冷的小手——然后在你能抓住之前便消失了。你握紧拳头，捂住那滴水，颤抖着。你不知道自己刚刚想起了什么，但你的全身都已决定替你为此哭泣。",
+            "ja": "手を伸ばすと、涙が手のひらに落ちる。冷たくはない。まるでたった今流されたかのように温かい。肌に触れた瞬間、ある光景が頭蓋を貫く——白い部屋、鳴り続ける電子音、お前の手の中で冷たくなっていく小さな手——そしてそれを掴む前に消えてしまう。震えながら水の上で拳を握りしめる。何を思い出したのかは分からないが、体全体がお前の代わりにそれを悼むことを決めたようだ。"
+        },
+        "next": [
+            "jar_opt_salir"
+        ],
+        "reward": "faceta:cordura=-1"
+    },
+    "jar_opt_secar": {
+        "type": "option",
+        "text": {
+            "es": "🤍  Secar con delicadeza las mejillas de la estatua-niña",
+            "en": "🤍  Gently dry the girl-statue's cheeks",
+            "fr": "🤍  Sécher délicatement les joues de la statue-fillette",
+            "it": "🤍  Asciugare delicatamente le guance della statua-bambina",
+            "de": "🤍  Die Wangen der Mädchen-Statue sanft trocknen",
+            "zh": "🤍  轻柔地擦干小女孩雕像的脸颊",
+            "ja": "🤍  少女像の頬をそっと拭く"
+        },
+        "next": [
+            "jar_msg_secar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "jar_msg_secar": {
+        "type": "message",
+        "text": {
+            "es": "Aunque no llora, le secas de todos modos las mejillas de mármol con la manga, como se hace con un niño dormido. 'No pasa nada', murmuras sin saber a quién se lo dices. 'Alguien te recuerda. Alguien siempre te recordará.' El jardín entero parece quedarse en silencio un instante, como si mil estatuas hubieran contenido el llanto a la vez para escucharte. Te vas con una calma triste, la de haber consolado a alguien que quizá eras tú.",
+            "en": "Even though it isn't weeping, you dry the marble cheeks anyway with your sleeve, the way you would a sleeping child. 'It's all right,' you murmur, not knowing who you're saying it to. 'Someone remembers you. Someone always will.' The whole garden seems to fall silent for an instant, as if a thousand statues had held back their tears at once to listen to you. You leave with a sad calm, that of having comforted someone who might have been yourself.",
+            "fr": "Bien qu'elle ne pleure pas, tu lui sèches quand même les joues de marbre avec ta manche, comme on le ferait pour un enfant endormi. « Ce n'est rien », murmures-tu sans savoir à qui tu t'adresses. « Quelqu'un se souvient de toi. Quelqu'un se souviendra toujours. » Tout le jardin semble se figer un instant, comme si mille statues avaient retenu leurs larmes en même temps pour t'écouter. Tu repars avec un calme triste, celui d'avoir consolé quelqu'un qui était peut-être toi-même.",
+            "it": "Anche se non piange, le asciughi comunque le guance di marmo con la manica, come si fa con un bambino addormentato. 'Va tutto bene', mormori senza sapere a chi lo stai dicendo. 'Qualcuno ti ricorda. Qualcuno ti ricorderà sempre.' L'intero giardino sembra fermarsi in silenzio per un istante, come se mille statue avessero trattenuto il pianto insieme per ascoltarti. Te ne vai con una calma triste, quella di aver consolato qualcuno che forse eri tu stesso.",
+            "de": "Obwohl sie nicht weint, trocknest du trotzdem ihre Marmorwangen mit deinem Ärmel, so wie man es bei einem schlafenden Kind tun würde. „Es ist alles gut“, murmelst du, ohne zu wissen, zu wem du sprichst. „Jemand erinnert sich an dich. Jemand wird sich immer erinnern.“ Der ganze Garten scheint für einen Moment zu verstummen, als hätten tausend Statuen ihre Tränen gleichzeitig zurückgehalten, um dir zuzuhören. Du gehst mit einer traurigen Ruhe, der, jemanden getröstet zu haben, der vielleicht du selbst warst.",
+            "zh": "虽然它并没有在哭泣，你还是用袖子轻轻擦干了它大理石般的脸颊，就像哄一个熟睡的孩子那样。「没事了，」你喃喃自语，不知道自己在对谁说话。「有人记得你。永远都会有人记得你。」整座花园似乎瞬间陷入了寂静，仿佛一千尊雕像同时忍住了泪水，只为倾听你的声音。你带着一种悲伤的平静离开了，那是安慰了一个也许曾经是你自己的人所留下的感觉。",
+            "ja": "泣いていないにもかかわらず、眠る子供にするように袖でその大理石の頬をそっと拭う。「大丈夫だよ」誰に向けているのか分からないまま呟く。「誰かがお前を覚えている。誰かがずっと覚えているよ」庭全体が一瞬静まり返ったように感じる。まるで千体の像が一斉に涙を堪えてお前の言葉を聞いていたかのように。もしかしたら自分自身だったかもしれない誰かを慰めたという、悲しくも穏やかな気持ちを抱えて立ち去る。"
+        },
+        "next": [
+            "jar_opt_salir"
+        ],
+        "reward": "faceta:bondad=+1;faceta:cordura=+1;gflag:jar_consolada",
+        "condition": "no_gflag(\"jar_consolada\")",
+        "once": true
+    },
+    "jar_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Salir del jardín antes de recordar demasiado",
+            "en": "🚶  Leave the garden before you remember too much",
+            "fr": "🚶  Quitter le jardin avant de te souvenir de trop",
+            "it": "🚶  Uscire dal giardino prima di ricordare troppo",
+            "de": "🚶  Den Garten verlassen, bevor du dich an zu viel erinnerst",
+            "zh": "🚶  在想起太多之前离开这座花园",
+            "ja": "🚶  思い出しすぎる前に庭を去る"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

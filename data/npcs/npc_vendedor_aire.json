@@ -1,0 +1,151 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "Barón Von Vapores",
+            "en": "Baron Von Vapors",
+            "fr": "Baron Von Vapeurs",
+            "it": "Barone Von Vapori",
+            "de": "Baron Von Dämpfen",
+            "zh": "冯·蒸气男爵",
+            "ja": "フォン・ヴェイパー男爵"
+        },
+        "next": [],
+        "reward": "avatar=💨;bg=0.06,0.07,0.09"
+    },
+    "aire_root": {
+        "type": "message",
+        "text": {
+            "es": "Un hombre con frac impecable, monóculo de cristal ahumado y guantes de seda abre una elegante maleta repleta de frascos de cristal vacíos que brillan al sol. '¡Ah, distinguido viajero de refinado paladar pulmonar! Estás ante el Barón Von Vapores, único catador certificado de éteres atmosféricos. ¿Acaso sigues respirando ese aire vulgar y gratuito del suelo? ¡Qué ordinariez!'",
+            "en": "A gentleman in an immaculate tailcoat, smoked glass monocle, and silk gloves opens an elegant briefcase full of empty glass vials sparkling in the sunlight. 'Ah, distinguished traveler of refined pulmonary palate! You stand before Baron Von Vapors, the sole certified sommelier of atmospheric ethers. Are you still inhaling that vulgar, free ground air? How pedestrian!'",
+            "fr": "Un homme en habit impeccable, monocle de verre fumé et gants de soie ouvre une élégante mallette remplie de flacons de verre vides étincelant au soleil. « Ah, distingué voyageur au palais pulmonaire raffiné ! Vous êtes devant le Baron Von Vapeurs, unique dégustateur certifié d'éthers atmosphériques. Respirez-vous encore cet air vulgaire et gratuit du sol ? Quelle vulgarité ! »",
+            "it": "Un uomo con frac impeccabile, monocolo di vetro affumicato e guanti di seta apre un'elegante valigetta piena di flaconi di cristallo vuoti che brillano al sole. 'Ah, distinto viaggiatore dal raffinato palato polmonare! Sei davanti al Barone Von Vapori, unico degustatore certificato di eteri atmosferici. Stai ancora respirando quell'aria volgare e gratuita del suolo? Che sciatteria!'",
+            "de": "Ein Mann im makellosen Frack, mit rauchglasigem Monokel und Seidenhandschuhen öffnet einen eleganten Koffer voller leerer, in der Sonne glitzernder Glasfläschchen. „Ah, angesehener Reisender mit verfeinertem Lungenpalat! Du stehst vor dem Baron Von Dämpfen, dem einzigen zertifizierten Verkoster atmosphärischer Äther. Atmest du etwa noch diese vulgäre, kostenlose Bodenluft? Wie ordinär!“",
+            "zh": "一位身着无可挑剔的燕尾服、戴着烟色玻璃单片眼镜和丝绸手套的男人，打开了一个装满在阳光下闪闪发光的空玻璃瓶的精致公文箱。「啊，肺部品味高雅的杰出旅人啊！你正站在冯·蒸气男爵面前，唯一获认证的大气以太品鉴师。你还在呼吸那种粗俗又免费的地面空气吗？多么庸俗啊！」",
+            "ja": "完璧な燕尾服にスモークガラスの片眼鏡、絹の手袋をつけた紳士が、太陽の下できらめく空のガラス瓶で満ちた優雅な鞄を開く。「ああ、洗練された肺の味覚をお持ちの高貴な旅人よ！お前の前にいるのは、大気エーテルの唯一の公認鑑定人、フォン・ヴェイパー男爵だ。まだあの下品でタダの地上の空気を吸っているのか？なんと俗っぽいことだ！」"
+        },
+        "next": [
+            "aire_opt_catas",
+            "aire_opt_comprar",
+            "aire_opt_estafa",
+            "aire_opt_salir"
+        ],
+        "reward": ""
+    },
+    "aire_opt_catas": {
+        "type": "option",
+        "text": {
+            "es": "💨  ¿Tienes alguna muestra gratuita para comprobar la calidad?",
+            "en": "💨  Do you have a complimentary sample to verify bouquet quality?",
+            "fr": "💨  Avez-vous un échantillon gratuit pour vérifier la qualité ?",
+            "it": "💨  Hai un campione gratuito per verificare la qualità?",
+            "de": "💨  Habt Ihr eine kostenlose Probe, um die Qualität zu prüfen?",
+            "zh": "💨  你有免费样品可以检验一下品质吗？",
+            "ja": "💨  品質を確認するための無料サンプルはあるか？"
+        },
+        "next": [
+            "aire_msg_catas"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "aire_msg_catas": {
+        "type": "message",
+        "text": {
+            "es": "El Barón destapa fugazmente un frasco a dos metros de tu cara y abanica el aire hacia ti con un pañuelo de seda. '¡Aspira! ¡Aspira rápido antes de que se disperse! ¿Lo notas? Notas amaderadas de bosque de pinos centenarios con un toque a rocío matutino.' Increíblemente, un aroma fresco te despeja los pulmones y te llena de vitalidad. '¡Eso han sido cinco monedas de cortesía, te las perdono porque me caes bien!'",
+            "en": "The Baron briefly unplugs a vial two meters away and fans the air towards you with a silk handkerchief. 'Inhale! Inhale quickly before it disperses! Do you sense it? Woody notes of ancient pine groves with a hint of morning dew.' Incredibly, a crisp fragrance cleanses your airways and fills you with vitality. 'That was five coins worth of courtesy, on the house because I like your style!'",
+            "fr": "Le Baron débouche brièvement un flacon à deux mètres de ton visage et éventille l'air vers toi avec un mouchoir de soie. « Aspirez ! Aspirez vite avant qu'il ne se disperse ! Vous le sentez ? Des notes boisées de forêt de pins centenaires avec une touche de rosée matinale. » Incroyablement, un arôme frais te dégage les poumons et te remplit de vitalité. « Ça, c'était cinq pièces de courtoisie, je vous les offre parce que je vous aime bien ! »",
+            "it": "Il Barone stura brevemente un flacone a due metri dal tuo viso e ti fa vento con un fazzoletto di seta. 'Aspira! Aspira in fretta prima che si disperda! Lo senti? Note legnose di pineta secolare con un tocco di rugiada mattutina.' Incredibilmente, un aroma fresco ti libera i polmoni e ti riempie di vitalità. 'Questo è stato per cinque monete di cortesia, te le perdono perché mi piaci!'",
+            "de": "Der Baron öffnet kurz ein Fläschchen zwei Meter von deinem Gesicht entfernt und fächelt dir mit einem Seidentaschentuch die Luft zu. „Atmen Sie ein! Schnell, bevor es sich verflüchtigt! Spüren Sie es? Holzige Noten von jahrhundertealten Kiefernwäldern mit einem Hauch von Morgentau.“ Unglaublicherweise befreit ein frisches Aroma deine Lungen und erfüllt dich mit Vitalität. „Das waren fünf Münzen Höflichkeit, die ich Ihnen erlasse, weil ich Sie mag!“",
+            "zh": "男爵在离你两米远的地方短暂打开一个瓶子，用丝绸手帕朝你扇风。「吸气！快吸，趁它还没散！你感觉到了吗？百年松林的木质调，还带着一丝晨露的气息。」不可思议的是，一股清新的香气清理了你的肺部，让你充满活力。「这本该收你五枚硬币，看在我喜欢你的份上就免了！」",
+            "ja": "男爵は二メートル離れた瓶を一瞬だけ開け、絹のハンカチで空気をお前に扇ぐ。「吸い込め！散る前に急いで吸い込め！感じるか？百年杉の森の木の香りに、朝露の一滴を添えた香気だ」信じがたいことに、爽やかな香りがお前の肺を清め、活力で満たす。「これは礼儀として五枚分だったが、お前のことが気に入ったから、ただにしてやろう！」"
+        },
+        "next": [
+            "aire_root"
+        ],
+        "reward": "faceta:aspecto=+1;heal:25"
+    },
+    "aire_opt_comprar": {
+        "type": "option",
+        "text": {
+            "es": "🪙  Te compro un frasco de Suspiro de Cumbre Nevada (15 Oro)",
+            "en": "🪙  I will purchase one vial of Snow Peak Whisper (15 Gold)",
+            "fr": "🪙  J'achète un flacon de Soupir de Cime Enneigée (15 Or)",
+            "it": "🪙  Ti compro un flacone di Sospiro di Cima Innevata (15 Oro)",
+            "de": "🪙  Ich kaufe eine Flasche Seufzer des Schneegipfels (15 Gold)",
+            "zh": "🪙  我买一瓶『雪峰叹息』（15金币）",
+            "ja": "🪙  『雪山の吐息』を一瓶買おう（15ゴールド）"
+        },
+        "next": [
+            "aire_msg_comprar"
+        ],
+        "reward": "gold:-15;faceta:valor=+1;discover:lore_vendedor_aire",
+        "condition": "gold >= 15",
+        "once": true
+    },
+    "aire_msg_comprar": {
+        "type": "message",
+        "text": {
+            "es": "Pagas la moneda. El Barón te entrega solemnemente el frasco precintado con lacre. Al descorcharlo sobre tu pecho, una brisa helada y limpia escapa como un torbellino en miniatura, ahuyentando todo el cansancio del camino. El Barón se limpia una lágrima de emoción: '¡Una persona de auténtica cultura! El frasco de cristal tallado te lo quedas de recuerdo.'",
+            "en": "You pay the coins. The Baron solemnly presents the wax-sealed flask. Uncorking it against your chest, an icy pristine gust whirls out like a miniature tempest, scattering trail fatigue to the winds. The Baron wipes a tear: 'A soul of exquisite culture! Keep the cut crystal vial as a souvenir.'",
+            "fr": "Tu paies la pièce. Le Baron te remet solennellement le flacon scellé de cire. En le débouchant contre ta poitrine, une brise glaciale et pure s'échappe comme un tourbillon miniature, chassant toute la fatigue du chemin. Le Baron essuie une larme d'émotion : « Une personne de véritable culture ! Gardez le flacon de cristal taillé en souvenir. »",
+            "it": "Paghi la moneta. Il Barone ti consegna solennemente il flacone sigillato con la ceralacca. Sturandolo contro il tuo petto, una brezza gelida e pulita fuoriesce come un vortice in miniatura, scacciando via tutta la stanchezza del cammino. Il Barone si asciuga una lacrima di emozione: 'Una persona di autentica cultura! Il flacone di cristallo tagliato tientelo come ricordo.'",
+            "de": "Du bezahlst die Münze. Der Baron überreicht dir feierlich das wachsversiegelte Fläschchen. Beim Öffnen an deiner Brust entweicht eine eisige, reine Brise wie ein Miniatursturm und verscheucht alle Wegmüdigkeit. Der Baron wischt sich eine Träne der Rührung ab: „Eine Person von wahrer Kultur! Behalten Sie das geschliffene Kristallfläschchen als Andenken.“",
+            "zh": "你付了钱。男爵郑重地把这只用蜡密封的瓶子交给你。当你在胸前打开它时，一股冰冷纯净的微风如同微型旋风般涌出，驱散了旅途的所有疲惫。男爵激动地拭去一滴眼泪：「真正有品位的人啊！这只雕花水晶瓶就留给你做纪念吧。」",
+            "ja": "お前は代金を払う。男爵は蝋で封をした瓶を厳かに手渡す。胸元で開栓すると、氷のように澄んだ突風がミニチュアの旋風のように吹き出し、旅の疲れをすべて吹き飛ばす。男爵は感激の涙を拭う。「真の教養人だ！この切子細工の瓶は記念に取っておくがいい」"
+        },
+        "next": [
+            "aire_root"
+        ],
+        "reward": ""
+    },
+    "aire_opt_estafa": {
+        "type": "option",
+        "text": {
+            "es": "🧠  Eres el timador más descarado de todo el reino. El aire es de todos.",
+            "en": "🧠  You are the most brazen swindler in the entire realm. Air belongs to all.",
+            "fr": "🧠  Tu es lescroc le plus éhonté de tout le royaume. Lair appartient à tous.",
+            "it": "🧠  Sei il truffatore più sfacciato di tutto il regno. L'aria è di tutti.",
+            "de": "🧠  Du bist der dreisteste Betrüger im ganzen Königreich. Die Luft gehört allen.",
+            "zh": "🧠  你是这个王国最厚颜无耻的骗子。空气是属于所有人的。",
+            "ja": "🧠  お前はこの王国で一番の厚顔無恥な詐欺師だ。空気は誰のものでもない"
+        },
+        "next": [
+            "aire_msg_estafa"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "aire_msg_estafa": {
+        "type": "message",
+        "text": {
+            "es": "'¿Timador? Querido amigo, timador es quien cobra impuestos por pisar la tierra. Yo vendo ligereza, vendo sueños gaseosos, vendo la ilusión de no asfixiarse en este valle miserable. Cuando llegues a las chimeneas humeantes de Arcanum... ¡suplicarás por uno de mis frascos!' Desenmascarar su labia comercial afila tu astucia.",
+            "en": "'Swindler? My dear friend, a swindler is whoever levies taxes for walking on clay. I sell buoyancy, I sell gaseous reverie, I sell the promise of not suffocating in this dismal trench. When you arrive at the smog-belching stacks of Arcanum... you will beg for my bottles!' Unmasking his mercantile eloquence sharpens your cunning.",
+            "fr": "« Escroc ? Cher ami, l'escroc est celui qui taxe pour marcher sur la terre. Moi, je vends de la légèreté, je vends des rêves gazeux, je vends l'illusion de ne pas s'étouffer dans cette vallée misérable. Quand tu arriveras aux cheminées fumantes d'Arcanum... tu supplieras pour un de mes flacons ! » Démasquer son baratin commercial aiguise ton astuce.",
+            "it": "'Truffatore? Caro amico, truffatore è chi fa pagare tasse per calpestare la terra. Io vendo leggerezza, vendo sogni gassosi, vendo l'illusione di non soffocare in questa valle miserabile. Quando arriverai ai camini fumanti di Arcanum... implorerai per uno dei miei flaconi!' Smascherare la sua parlantina commerciale affina la tua astuzia.",
+            "de": "„Betrüger? Mein lieber Freund, ein Betrüger ist derjenige, der Steuern für das Betreten der Erde erhebt. Ich verkaufe Leichtigkeit, ich verkaufe gasförmige Träume, ich verkaufe die Illusion, in diesem elenden Tal nicht zu ersticken. Wenn Sie an den rauchenden Schloten von Arcanum ankommen... werden Sie um eines meiner Fläschchen betteln!“ Sein Verkaufsgeschwätz zu entlarven, schärft deine Gerissenheit.",
+            "zh": "「骗子？亲爱的朋友，骗子是那些为了让你踩在地上而收税的人。我卖的是轻盈，卖的是气态的梦想，卖的是在这片悲惨山谷里不至于窒息的幻觉。等你到了奥秘遗迹那些冒烟的烟囱旁……你会求着买我的瓶子！」揭穿他的商业花言巧语磨砺了你的机智。",
+            "ja": "「詐欺師だと？親愛なる友よ、詐欺師とは大地を歩くことに税を課す者のことだ。私が売っているのは軽やかさ、気体の夢、そしてこの惨めな谷で窒息せずに済むという幻想だ。アルカナムの煙突が煙を吐く場所に着いたら……私の瓶を懇願することになるぞ！」その商売口上を見破ることで、お前の狡猾さが磨かれる。"
+        },
+        "next": [
+            "aire_root"
+        ],
+        "reward": "faceta:inteligencia=+1"
+    },
+    "aire_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Prefiero respirar gratis por ahora. Buenos días, Barón",
+            "en": "🚶  I prefer free breathing for now. Good day, Baron",
+            "fr": "🚶  Je préfère respirer gratuitement pour l'instant. Bonne journée, Baron",
+            "it": "🚶  Per ora preferisco respirare gratis. Buona giornata, Barone",
+            "de": "🚶  Ich bevorzuge vorerst kostenloses Atmen. Guten Tag, Baron",
+            "zh": "🚶  我现在还是喜欢免费呼吸。日安，男爵",
+            "ja": "🚶  今のところはタダの空気で満足しておく。ではな、男爵"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

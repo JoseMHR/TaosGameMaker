@@ -1,0 +1,23 @@
+{
+    "name": {
+        "es": "Fruto de Cactus",
+        "en": "Cactus Fruit",
+        "fr": "Fruit de Cactus",
+        "it": "Frutto di Cactus",
+        "de": "Kaktusfrucht",
+        "zh": "仙人掌果",
+        "ja": "サボテンの実"
+    },
+    "desc": {
+        "es": "Un fruto carnoso y dulce que crece en las dunas.",
+        "en": "A fleshy, sweet fruit that grows in the dunes.",
+        "fr": "Un fruit charnu et sucré qui pousse dans les dunes.",
+        "it": "Un frutto carnoso e dolce che cresce nelle dune.",
+        "de": "Eine fleischige, süße Frucht, die in den Dünen wächst.",
+        "zh": "生长在沙丘中的多汁甜美果实。",
+        "ja": "砂丘に育つ果肉たっぷりの甘い実。"
+    },
+    "icon": "🍈",
+    "category": "other",
+    "usable": false
+}

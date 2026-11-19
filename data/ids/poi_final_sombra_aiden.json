@@ -1,0 +1,26 @@
+{
+    "id": "poi_final_sombra_aiden",
+    "type": "poi",
+    "icon": "👤",
+    "name": {
+        "es": "La Sombra de Aiden",
+        "en": "Aiden's Shadow",
+        "fr": "L'Ombre d'Aiden",
+        "it": "L'Ombra di Aiden",
+        "de": "Aidens Schatten",
+        "zh": "艾登的阴影",
+        "ja": "エイデンの影"
+    },
+    "desc": {
+        "es": "Tu propia sombra, despegada del suelo y actuando por su cuenta, que se planta ante ti para acusarte. (PNJ singular).",
+        "en": "Your own shadow, peeled from the ground and acting on its own, standing before you to accuse you. (Singular NPC).",
+        "fr": "Ta propre ombre, détachée du sol et agissant seule, qui se dresse devant toi pour t'accuser. (PNJ singulier).",
+        "it": "La tua stessa ombra, staccata dal suolo e che agisce per conto suo, che si pianta davanti a te per accusarti. (PNG singolare).",
+        "de": "Dein eigener Schatten, vom Boden gelöst und selbständig handelnd, stellt sich vor dich, um dich anzuklagen. (Einzigartiger NPC).",
+        "zh": "你自己的影子，脱离了地面，自行行动，站在你面前指控你。（唯一NPC）。",
+        "ja": "地面から離れ、自らの意志で動くお前自身の影が、目の前に立ちはだかりお前を告発する。（唯一のNPC）。"
+    },
+    "npc": "poi_final_sombra_aiden",
+    "bg": "bg_world_poi_final_sombra_aiden.png",
+    "music": "creepy"
+}

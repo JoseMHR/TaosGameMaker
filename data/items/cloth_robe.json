@@ -1,0 +1,31 @@
+{
+    "name": {
+        "es": "Túnica de Tela",
+        "en": "Cloth Robe",
+        "fr": "Robe de Tissu",
+        "it": "Veste di Stoffa",
+        "de": "Stoffrobe",
+        "zh": "布袍",
+        "ja": "布のローブ"
+    },
+    "desc": {
+        "es": "Tela ligera que no estorba al canalizar magia.",
+        "en": "Light cloth that doesn't hinder spellcasting.",
+        "fr": "Tissu léger qui ne gêne pas la conjuration des sorts.",
+        "it": "Stoffa leggera che non ostacola la lancio degli incantesimi.",
+        "de": "Leichter Stoff, der das Zaubern nicht behindert.",
+        "zh": "轻薄的布料，不妨碍施法。",
+        "ja": "詠唱の妨げにならない軽い布地。"
+    },
+    "icon": "👘",
+    "category": "equipment",
+    "usable": false,
+    "slot": "armor",
+    "tier": 1,
+    "bonuses": {
+        "int": 2
+    },
+    "combat": {
+        "mag_defense": 10
+    }
+}

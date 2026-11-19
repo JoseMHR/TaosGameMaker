@@ -1,0 +1,23 @@
+{
+    "name": {
+        "es": "Caña de pescar",
+        "en": "Fishing Rod",
+        "fr": "Canne à Pêche",
+        "it": "Canna da Pesca",
+        "de": "Angelrute",
+        "zh": "钓鱼竿",
+        "ja": "釣り竿"
+    },
+    "desc": {
+        "es": "Una caña de pescar rudimentaria pero funcional. Te permite pescar en las zonas de pesca del mapamundi.",
+        "en": "A rudimentary but functional fishing rod. Allows you to fish in fishing spots on the world map.",
+        "fr": "Une canne à pêche rudimentaire mais fonctionnelle. Vous permet de pêcher dans les zones de pêche de la carte du monde.",
+        "it": "Una canna da pesca rudimentale ma funzionale. Ti permette di pescare nelle zone di pesca della mappa del mondo.",
+        "de": "Eine einfache, aber funktionale Angelrute. Ermöglicht das Angeln an Angelplätzen auf der Weltkarte.",
+        "zh": "一根简陋但可用的钓鱼竿。可在世界地图上的钓鱼点垂钓。",
+        "ja": "簡素だが機能する釣り竿。ワールドマップの釣り場で釣りができる。"
+    },
+    "icon": "🎣",
+    "category": "tool",
+    "usable": false
+}

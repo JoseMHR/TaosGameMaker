@@ -1,0 +1,46 @@
+{
+    "name": {
+        "es": "Varita Prismática",
+        "en": "Prismatic Wand",
+        "fr": "Baguette Prismatique",
+        "it": "Bacchetta Prismatica",
+        "de": "Prismenstab",
+        "zh": "棱彩魔杖",
+        "ja": "プリズマティックワンド"
+    },
+    "desc": {
+        "es": "Varita con un foco de cristal que refracta la luz en hechizos sagrados.",
+        "en": "Wand with a crystal focus that refracts light into holy spells.",
+        "fr": "Baguette dotée d'un foyer de cristal qui réfracte la lumière en sorts sacrés.",
+        "it": "Bacchetta con un fuoco di cristallo che rifrange la luce in incantesimi sacri.",
+        "de": "Zauberstab mit Kristallfokus, der Licht in heilige Zauber bricht.",
+        "zh": "带有水晶焦点的魔杖，能将光折射成神圣法术。",
+        "ja": "光を神聖な呪文に屈折させる水晶の焦点を持つ杖。"
+    },
+    "icon": "🪄",
+    "category": "equipment",
+    "usable": false,
+    "slot": "weapon",
+    "tier": 4,
+    "element": "holy",
+    "bonuses": {
+        "int": 10
+    },
+    "combat": {
+        "mag_damage": 94
+    },
+    "traits": [
+        {
+            "type": "element_attack",
+            "element": "holy",
+            "min_refine": 0,
+            "desc": "Hechizos imbuidos en elemento Sagrado"
+        },
+        {
+            "type": "mag_damage_bonus",
+            "value": 0.15,
+            "min_refine": 5,
+            "desc": "+15% Daño de habilidades mágicas"
+        }
+    ]
+}

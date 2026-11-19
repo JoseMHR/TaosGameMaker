@@ -1,0 +1,23 @@
+{
+    "name": {
+        "es": "Carne",
+        "en": "Meat",
+        "fr": "Viande",
+        "it": "Carne",
+        "de": "Fleisch",
+        "zh": "肉",
+        "ja": "肉"
+    },
+    "desc": {
+        "es": "Carne cruda recién cazada. Se puede cocinar.",
+        "en": "Freshly hunted raw meat. Can be cooked.",
+        "fr": "Viande crue fraîchement chassée. Peut être cuite.",
+        "it": "Carne cruda appena cacciata. Può essere cucinata.",
+        "de": "Frisch erlegtes rohes Fleisch. Kann gekocht werden.",
+        "zh": "刚捕获的生肉。可以烹饪。",
+        "ja": "狩ったばかりの生肉。調理できる。"
+    },
+    "icon": "🥩",
+    "category": "other",
+    "usable": false
+}

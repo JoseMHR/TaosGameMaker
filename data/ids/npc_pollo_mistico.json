@@ -1,0 +1,26 @@
+{
+    "id": "npc_pollo_mistico",
+    "type": "poi",
+    "icon": "🐔",
+    "name": {
+        "es": "El Pollo Oracular",
+        "en": "The Oracular Chicken",
+        "fr": "Le Poulet Oraculaire",
+        "it": "Il Pollo Oracolare",
+        "de": "Das Orakelhuhn",
+        "zh": "神谕之鸡",
+        "ja": "託宣の鶏"
+    },
+    "desc": {
+        "es": "Un pollo posado sobre un altar rústico en lo alto de una colina de la Pradera. (PNJ singular).",
+        "en": "A chicken perched on a rustic altar atop a meadow hill. (Singular NPC).",
+        "fr": "Un poulet perché sur un autel rustique au sommet d'une colline de la Prairie. (PNJ singulier).",
+        "it": "Un pollo appollaiato su un altare rustico in cima a una collina della Prateria. (PNG singolare).",
+        "de": "Ein Huhn, das auf einem rustikalen Altar auf einem Hügel der Prärie thront. (Einzigartiger NPC).",
+        "zh": "一只栖息在草原山顶简陋祭坛上的鸡。（唯一NPC）。",
+        "ja": "草原の丘の頂にある素朴な祭壇にとまる鶏。（唯一のNPC）。"
+    },
+    "npc": "npc_pollo_mistico",
+    "bg": "bg_world_poi_pradera_pollo_mistico.png",
+    "music": "poi_comic"
+}

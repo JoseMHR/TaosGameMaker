@@ -1,0 +1,150 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Espejismo Cabezota",
+            "en": "The Stubborn Mirage",
+            "fr": "Le Mirage Têtu",
+            "it": "Il Miraggio Testardo",
+            "de": "Die Störrische Fata Morgana",
+            "zh": "固执的海市蜃楼",
+            "ja": "頑固な蜃気楼"
+        },
+        "next": [],
+        "reward": "bg=0.16,0.13,0.05"
+    },
+    "esp_root": {
+        "type": "message",
+        "text": {
+            "es": "Sobre la arena ardiente tiembla un oasis perfecto: palmeras, una laguna azul, música lejana. Sabes que es un espejismo... salvo que, al acercarte, una voz resonante y ofendida brota del aire caliente: '¡Alto ahí! Sé lo que estás pensando y te equivocas. NO soy un espejismo. Soy un oasis legítimo con toda la documentación en regla. Los espejismos son mis primos, gente sin escrúpulos. Yo soy REAL. Bébete mi agua y verás.'",
+            "en": "Over the burning sand shimmers a perfect oasis: palm trees, a blue lagoon, distant music. You know it's a mirage... except that, as you approach, a booming, offended voice rises from the hot air: 'Halt right there! I know what you're thinking and you're wrong. I am NOT a mirage. I am a legitimate oasis with all my paperwork in order. Mirages are my cousins, unscrupulous folk. I am REAL. Drink my water and see.'",
+            "fr": "Sur le sable brûlant tremble un oasis parfait : palmiers, un lagon bleu, une musique lointaine. Tu sais que c'est un mirage... sauf qu'en t'approchant, une voix résonnante et offensée surgit de l'air chaud : « Halte-là ! Je sais ce que tu penses et tu te trompes. Je ne SUIS PAS un mirage. Je suis un oasis légitime avec toute la documentation en règle. Les mirages sont mes cousins, des gens sans scrupules. Moi, je suis RÉEL. Bois mon eau et tu verras. »",
+            "it": "Sulla sabbia rovente trema un'oasi perfetta: palme, una laguna blu, musica lontana. Sai che è un miraggio... salvo che, avvicinandoti, una voce risonante e offesa erompe dall'aria calda: 'Alt! So cosa stai pensando e ti sbagli. NON sono un miraggio. Sono un'oasi legittima con tutta la documentazione in regola. I miraggi sono miei cugini, gente senza scrupoli. Io sono REALE. Bevi la mia acqua e vedrai.'",
+            "de": "Über dem glühenden Sand flimmert eine perfekte Oase: Palmen, eine blaue Lagune, ferne Musik. Du weißt, dass es eine Fata Morgana ist... außer dass, als du dich näherst, eine dröhnende, beleidigte Stimme aus der heißen Luft aufsteigt: „Halt! Ich weiß, was du denkst, und du liegst falsch. Ich bin KEINE Fata Morgana. Ich bin eine legitime Oase mit allen Papieren in Ordnung. Fata Morganas sind meine Cousins, skrupellose Leute. Ich bin ECHT. Trink mein Wasser und du wirst sehen.“",
+            "zh": "灼热的沙地上颤动着一片完美的绿洲：棕榈树、蓝色的泻湖、遥远的音乐。你知道这是海市蜃楼……但当你走近时，一个洪亮而愤慨的声音从热浪中升起：「站住！我知道你在想什么，但你错了。我不是海市蜃楼。我是一片手续齐全的合法绿洲。海市蜃楼是我那些没有道德底线的表亲。我是真实的。喝喝我的水你就知道了。」",
+            "ja": "灼熱の砂の上に、完璧なオアシスが揺らめいている——ヤシの木、青い潟、遠くの音楽。それが蜃気楼だとお前は知っている……だが近づくと、熱い空気から轟くような、怒りを含んだ声が響く。「そこで止まれ！お前の考えていることは分かるが、間違っている。私は蜃気楼などではない。すべての書類が揃った正当なオアシスだ。蜃気楼は私のいとこで、恥知らずな連中だ。私は本物だ。私の水を飲んでみればわかる」"
+        },
+        "next": [
+            "esp_opt_beber",
+            "esp_opt_logica",
+            "esp_opt_seguir",
+            "esp_opt_salir"
+        ],
+        "reward": ""
+    },
+    "esp_opt_beber": {
+        "type": "option",
+        "text": {
+            "es": "💧  Arrodillarte a beber del agua real",
+            "en": "💧  Kneel to drink the real water",
+            "fr": "💧  Sagenouiller pour boire l'eau « réelle",
+            "it": "💧  Inginocchiarsi a bere l'acqua reale",
+            "de": "💧  Sich hinknien, um das echte Wasser zu trinken",
+            "zh": "💧  跪下来喝这真实的水",
+            "ja": "💧  膝をついて『本物の』水を飲む"
+        },
+        "next": [
+            "esp_msg_beber"
+        ],
+        "reward": ""
+    },
+    "esp_msg_beber": {
+        "type": "message",
+        "text": {
+            "es": "Hundes las manos en la laguna cristalina y te llevas un buen trago... de arena caliente. Escupes y toses mientras el oasis carraspea, abochornado. 'Vale, vale. Técnicamente el AGUA no es real. Pero el ENTUSIASMO sí. Nadie te recibe en este desierto con tantas ganas como yo, ¿a que no?' Tiene razón, y eso lo hace aún más triste y más gracioso a la vez.",
+            "en": "You plunge your hands into the crystal lagoon and take a good gulp... of hot sand. You spit and cough while the oasis clears its throat, embarrassed. 'All right, all right. Technically the WATER isn't real. But the ENTHUSIASM is. No one welcomes you in this desert as eagerly as I do, now do they?' It has a point, which makes it even sadder and funnier at once.",
+            "fr": "Tu plonges les mains dans le lagon cristallin et prends une bonne gorgée... de sable chaud. Tu craches et tousses tandis que l'oasis s'éclaircit la gorge, gêné. « Bon, d'accord. Techniquement l'EAU n'est pas réelle. Mais l'ENTHOUSIASME, oui. Personne ne t'accueille dans ce désert avec autant d'envie que moi, n'est-ce pas ? » Il a raison, ce qui le rend encore plus triste et drôle à la fois.",
+            "it": "Immergi le mani nella laguna cristallina e prendi un buon sorso... di sabbia calda. Sputi e tossisci mentre l'oasi si schiarisce la gola, imbarazzata. 'Va bene, va bene. Tecnicamente l'ACQUA non è reale. Ma l'ENTUSIASMO sì. Nessuno ti accoglie in questo deserto con tanta voglia come me, vero?' Ha ragione, e questo la rende ancora più triste e divertente allo stesso tempo.",
+            "de": "Du tauchst die Hände in die kristallklare Lagune und nimmst einen kräftigen Schluck... heißen Sand. Du spuckst und hustest, während die Oase sich verlegen räuspert. „Na gut, na gut. Technisch gesehen ist das WASSER nicht echt. Aber die BEGEISTERUNG schon. Niemand heißt dich in dieser Wüste so eifrig willkommen wie ich, nicht wahr?“ Sie hat recht, was es umso trauriger und gleichzeitig lustiger macht.",
+            "zh": "你把手伸进这清澈的泻湖，大口喝了一口……却是滚烫的沙子。你一边咳嗽一边吐着沙，绿洲则尴尬地清了清嗓子。「好吧，好吧。严格来说，这『水』不是真的。但这份热情是真的。这片沙漠里没有谁能像我这样如此渴望迎接你的到来，对吧？」它说得没错，这让它显得既悲伤又滑稽。",
+            "ja": "水晶のように澄んだ潟に手を突っ込み、たっぷりと一口飲む……熱い砂を。オアシスが気まずそうに咳払いする間、お前はそれを吐き出し咳き込む。「わかった、わかったよ。厳密には水は本物じゃない。だが熱意は本物だ。この砂漠で私ほど熱心にお前を歓迎する者はいないだろう？」その通りだ、それがなおさら悲しく、同時に滑稽なものにしている。"
+        },
+        "next": [
+            "esp_root"
+        ],
+        "reward": ""
+    },
+    "esp_opt_logica": {
+        "type": "option",
+        "text": {
+            "es": "🧠  Desmontar su farsa con preguntas imposibles de responder",
+            "en": "🧠  Dismantle its charade with unanswerable questions",
+            "fr": "🧠  Démonter son numéro avec des questions impossibles à répondre",
+            "it": "🧠  Smontare la sua farsa con domande impossibili da rispondere",
+            "de": "🧠  Seine Farce mit unbeantwortbaren Fragen zerlegen",
+            "zh": "🧠  用无法回答的问题拆穿它的把戏",
+            "ja": "🧠  答えようのない質問でその見せかけを崩す"
+        },
+        "next": [
+            "esp_msg_logica"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "esp_msg_logica": {
+        "type": "message",
+        "text": {
+            "es": "'Si eres real', preguntas, 'proyecta tu sombra.' Silencio. 'Deja huella cuando te piso.' Silencio. 'Existe cuando cierro los ojos.' El espejismo titubea, se distorsiona y por fin admite, encogido: 'Está bien... solo existo mientras alguien tiene sed y ganas de creer. En cuanto pienso demasiado en ello, me deshago.' Tú también, piensas, sin saber muy bien por qué esa frase te resuena tan hondo. Has ganado el debate, pero no te sientes vencedor.",
+            "en": "'If you're real,' you ask, 'cast your shadow.' Silence. 'Leave a footprint when I step on you.' Silence. 'Exist when I close my eyes.' The mirage falters, distorts, and finally admits, shrinking: 'Fine... I only exist as long as someone is thirsty and willing to believe. The moment I think about it too much, I fall apart.' So do we all, you think, not quite sure why that line resonates so deeply. You've won the debate, but you don't feel like a victor.",
+            "fr": "« Si tu es réel », demandes-tu, « projette ton ombre. » Silence. « Laisse une empreinte quand je te marche dessus. » Silence. « Existe quand je ferme les yeux. » Le mirage vacille, se déforme et finit par admettre, tout ratatiné : « Bon... je n'existe que tant que quelqu'un a soif et veut y croire. Dès que j'y pense trop, je me défais. » Toi aussi, penses-tu, sans trop savoir pourquoi cette phrase résonne si profondément. Tu as gagné le débat, mais tu ne te sens pas vainqueur.",
+            "it": "'Se sei reale', chiedi, 'proietta la tua ombra.' Silenzio. 'Lascia un'impronta quando ti calpesto.' Silenzio. 'Esisti quando chiudo gli occhi.' Il miraggio vacilla, si distorce e infine ammette, rimpicciolito: 'Va bene... esisto solo finché qualcuno ha sete e voglia di credere. Non appena ci penso troppo, mi dissolvo.' Anche tu, pensi, senza sapere bene perché quella frase ti risuoni così profondamente. Hai vinto il dibattito, ma non ti senti vincitore.",
+            "de": "„Wenn du echt bist“, fragst du, „wirf deinen Schatten.“ Stille. „Hinterlasse eine Spur, wenn ich auf dich trete.“ Stille. „Existiere, wenn ich die Augen schließe.“ Die Fata Morgana schwankt, verzerrt sich und gibt schließlich, geschrumpft, zu: „Na gut... ich existiere nur, solange jemand durstig ist und bereit, zu glauben. Sobald ich zu viel darüber nachdenke, löse ich mich auf.“ Ich auch, denkst du, ohne recht zu wissen, warum dieser Satz so tief in dir nachhallt. Du hast die Debatte gewonnen, fühlst dich aber nicht als Sieger.",
+            "zh": "「如果你是真的，」你问道，「投下你的影子。」沉默。「当我踩上去时留下脚印。」沉默。「当我闭上眼睛时依然存在。」海市蜃楼动摇了，扭曲了，最终蜷缩着承认：「好吧……我只在有人口渴并愿意相信的时候才存在。一旦我对此想得太多，我就会消散。」你也是这样，你想着，却不太明白为何这句话如此深深地触动了你。你赢了这场辩论，但并不感到自己是胜利者。",
+            "ja": "「もしお前が本物なら」お前は尋ねる、「影を落としてみろ」。沈黙。「私が踏んだら足跡を残せ」。沈黙。「目を閉じても存在し続けろ」。蜃気楼は揺らぎ、歪み、そしてついに縮こまって認める。「わかった……私は誰かが喉の渇きを感じ、信じたいと願う限りでしか存在しない。それを深く考えすぎた瞬間、私は崩れ去る」。自分もそうだ、とお前は思う。なぜその一言がこれほど深く心に響くのかは分からないまま。議論には勝ったが、勝者だという気はしない。"
+        },
+        "next": [
+            "esp_opt_salir"
+        ],
+        "reward": "faceta:inteligencia=+1;gflag:esp_desmontado",
+        "condition": "no_gflag(\"esp_desmontado\")",
+        "once": true
+    },
+    "esp_opt_seguir": {
+        "type": "option",
+        "text": {
+            "es": "😌  Fingir que le crees para no herir sus sentimientos",
+            "en": "😌  Pretend to believe it so as not to hurt its feelings",
+            "fr": "😌  Faire semblant d'y croire pour ne pas blesser ses sentiments",
+            "it": "😌  Fingere di crederci per non ferire i suoi sentimenti",
+            "de": "😌  So tun, als würdest du es glauben, um seine Gefühle nicht zu verletzen",
+            "zh": "😌  假装相信它，以免伤害它的感情",
+            "ja": "😌  傷つけないよう信じたふりをする"
+        },
+        "next": [
+            "esp_msg_seguir"
+        ],
+        "reward": ""
+    },
+    "esp_msg_seguir": {
+        "type": "message",
+        "text": {
+            "es": "'Qué oasis tan magnífico', exclamas con teatralidad. 'El más real que he visto jamás.' El espejismo se hincha de orgullo y hace brotar más palmeras, más fuentes, más pájaros de colores solo para impresionarte. Por un instante, mientras finges creerlo, el desierto entero se vuelve un poco más soportable. A veces la mentira amable es su propia clase de oasis.",
+            "en": "'What a magnificent oasis,' you exclaim theatrically. 'The most real I've ever seen.' The mirage swells with pride and conjures more palm trees, more fountains, more colorful birds just to impress you. For an instant, while you pretend to believe it, the whole desert becomes a little more bearable. Sometimes a kind lie is its own kind of oasis.",
+            "fr": "« Quel oasis magnifique », t'exclames-tu théâtralement. « Le plus réel que j'aie jamais vu. » Le mirage se gonfle de fierté et fait apparaître plus de palmiers, plus de fontaines, plus d'oiseaux colorés juste pour t'impressionner. Pendant un instant, tandis que tu fais semblant d'y croire, tout le désert devient un peu plus supportable. Parfois, le mensonge bienveillant est sa propre forme d'oasis.",
+            "it": "'Che oasi magnifica', esclami teatralmente. 'La più reale che abbia mai visto.' Il miraggio si gonfia d'orgoglio e fa spuntare più palme, più fontane, più uccelli colorati solo per impressionarti. Per un istante, mentre fingi di crederci, l'intero deserto diventa un po' più sopportabile. A volte la bugia gentile è essa stessa una forma di oasi.",
+            "de": "„Was für eine großartige Oase“, rufst du theatralisch aus. „Die realste, die ich je gesehen habe.“ Die Fata Morgana schwillt vor Stolz an und lässt mehr Palmen, mehr Brunnen, mehr bunte Vögel erscheinen, nur um dich zu beeindrucken. Für einen Moment, während du vorgibst, es zu glauben, wird die ganze Wüste etwas erträglicher. Manchmal ist die freundliche Lüge selbst eine Art Oase.",
+            "zh": "「多么壮丽的绿洲啊，」你戏剧性地惊叹道，「我见过的最真实的一个。」海市蜃楼骄傲地膨胀起来，变出更多的棕榈树、更多的喷泉、更多五彩斑斓的鸟儿，只为让你印象深刻。在你假装相信它的那一刻，整片沙漠似乎变得稍微可以忍受了一些。有时候，善意的谎言本身就是一种绿洲。",
+            "ja": "「なんと壮麗なオアシスだ」芝居がかった様子で叫ぶ。「今まで見た中で一番本物らしいオアシスだ」蜃気楼は誇らしげに膨らみ、お前を感心させるためだけに、さらに多くのヤシの木、噴水、色とりどりの鳥を出現させる。信じたふりをする間、一瞬だけ、砂漠全体が少し耐えやすくなる。時に優しい嘘は、それ自体がオアシスの一種なのだ。"
+        },
+        "next": [
+            "esp_root"
+        ],
+        "reward": ""
+    },
+    "esp_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Seguir tu camino por la arena de verdad",
+            "en": "🚶  Continue on your way across the real sand",
+            "fr": "🚶  Poursuivre ton chemin à travers le vrai sable",
+            "it": "🚶  Proseguire il tuo cammino attraverso la sabbia vera",
+            "de": "🚶  Deinen Weg durch den echten Sand fortsetzen",
+            "zh": "🚶  继续在真实的沙地上前行",
+            "ja": "🚶  本物の砂の上を先へ進む"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

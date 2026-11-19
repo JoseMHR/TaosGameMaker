@@ -1,0 +1,26 @@
+{
+    "id": "poi_gloriam_mano_piedra",
+    "type": "poi",
+    "icon": "🖐️",
+    "name": {
+        "es": "La Mano de Piedra",
+        "en": "The Hand of Stone",
+        "fr": "La Main de Pierre",
+        "it": "La Mano di Pietra",
+        "de": "Die Hand aus Stein",
+        "zh": "石之手",
+        "ja": "石の手"
+    },
+    "desc": {
+        "es": "Una mano colosal de piedra que emerge de la arena, único resto visible de una estatua enterrada de una civilización perdida. (POI de inspección).",
+        "en": "A colossal stone hand rising from the sand, the only visible remnant of a buried statue from a lost civilization. (Inspection POI).",
+        "fr": "Une main colossale de pierre émergeant du sable, seul vestige visible d'une statue enterrée d'une civilisation perdue. (POI d'inspection).",
+        "it": "Una mano colossale di pietra che emerge dalla sabbia, unico resto visibile di una statua sepolta di una civiltà perduta. (POI di ispezione).",
+        "de": "Eine kolossale steinerne Hand, die aus dem Sand ragt, der einzige sichtbare Überrest einer begrabenen Statue einer verlorenen Zivilisation. (Inspektions-POI).",
+        "zh": "一只从沙中伸出的巨大石手，是一座被埋没的失落文明雕像唯一可见的遗迹。（探查类兴趣点）。",
+        "ja": "砂から突き出た巨大な石の手。失われた文明の埋もれた像の、唯一目に見える名残だ。（調査ポイント）。"
+    },
+    "npc": "poi_gloriam_mano_piedra",
+    "bg": "bg_world_poi_gloriam_mano_piedra.png",
+    "music": "poi_generic"
+}

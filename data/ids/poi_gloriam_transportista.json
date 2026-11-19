@@ -1,0 +1,25 @@
+{
+    "id": "poi_gloriam_transportista",
+    "type": "poi",
+    "icon": "🐪",
+    "name": {
+        "es": "Puesto de Transporte",
+        "en": "Transport Post",
+        "fr": "Poste de Transport",
+        "it": "Posto di Trasporto",
+        "de": "Transportposten",
+        "zh": "运输站",
+        "ja": "輸送拠点"
+    },
+    "desc": {
+        "es": "Viaja velozmente a través de las rutas comerciales",
+        "en": "Fast travel across desert trade routes",
+        "fr": "Voyage rapidement à travers les routes commerciales",
+        "it": "Viaggia velocemente attraverso le rotte commerciali",
+        "de": "Reist schnell über die Handelsrouten der Wüste",
+        "zh": "沿商路快速旅行",
+        "ja": "交易路を通って迅速に移動する"
+    },
+    "kind": "transport",
+    "bg": "bg_city_gloriam_transportista.png"
+}

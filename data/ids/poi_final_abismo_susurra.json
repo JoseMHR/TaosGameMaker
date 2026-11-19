@@ -1,0 +1,26 @@
+{
+    "id": "poi_final_abismo_susurra",
+    "type": "poi",
+    "icon": "🕳️",
+    "name": {
+        "es": "El Abismo que Susurra",
+        "en": "The Whispering Abyss",
+        "fr": "L'Abîme qui Murmure",
+        "it": "L'Abisso che Sussurra",
+        "de": "Der Flüsternde Abgrund",
+        "zh": "低语的深渊",
+        "ja": "囁く深淵"
+    },
+    "desc": {
+        "es": "Al borde de la nada, una grieta sin fondo te ofrece, con voz dulce, llevarse toda tu culpa a cambio de que te dejes caer. (PNJ singular).",
+        "en": "At the edge of nothing, a bottomless rift offers, in a sweet voice, to take all your guilt in exchange for letting yourself fall. (Singular NPC).",
+        "fr": "Au bord du néant, une faille sans fond t'offre, d'une voix douce, d'emporter toute ta culpabilité en échange de te laisser tomber. (PNJ singulier).",
+        "it": "Al limitare del nulla, una crepa senza fondo ti offre, con voce dolce, di portarsi via tutta la tua colpa in cambio di lasciarti cadere. (PNG singolare).",
+        "de": "Am Rande des Nichts bietet dir ein bodenloser Riss mit sanfter Stimme an, all deine Schuld zu nehmen, wenn du dich nur fallen lässt. (Einzigartiger NPC).",
+        "zh": "在虚无的边缘，一道深不见底的裂缝用甜美的声音向你提议：只要你纵身跃下，它便带走你所有的愧疚。（唯一NPC）。",
+        "ja": "虚無の淵で、底なしの裂け目が甘い声でこう申し出る——身を投げれば、お前の罪悪感をすべて引き受けようと。（唯一のNPC）。"
+    },
+    "npc": "poi_final_abismo_susurra",
+    "bg": "bg_world_poi_final_abismo_susurra.png",
+    "music": "poi_generic"
+}

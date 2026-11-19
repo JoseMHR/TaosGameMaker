@@ -1,0 +1,66 @@
+{
+  "name": {
+    "es": "Manifestación de la Ira",
+    "en": "Manifestation of Wrath",
+    "fr": "Manifestation de la Colère",
+    "it": "Manifestazione dell'Ira",
+    "de": "Manifestation des Zorns",
+    "zh": "愤怒化身",
+    "ja": "怒りの顕現"
+  },
+  "family": "manifestacion",
+  "archetype": "offensive",
+  "icon": "🔥",
+  "image": "res://assets/combat/enemies/en_unstable_core.png",
+  "attack_type": "physical",
+  "base_dodge": 8.0,
+  "dodge_scale": 0.2,
+  "element": "fire",
+  "weak_to": [
+    "ice",
+    "holy"
+  ],
+  "resist": [
+    "fire",
+    "dark"
+  ],
+  "status_on_hit": {
+    "type": "burn",
+    "chance": 0.35,
+    "turns": 2,
+    "power": 12
+  },
+  "ai": "aggressive",
+  "xp_reward_base": 380,
+  "xp_reward_scale": 17.0,
+  "gold_reward_base": 210,
+  "gold_reward_scale": 13.0,
+  "skills": [
+    {
+      "level": 1,
+      "skill_id": "fireball"
+    },
+    {
+      "level": 46,
+      "skill_id": "crushing_blow"
+    },
+    {
+      "level": 48,
+      "skill_id": "inferno"
+    }
+  ],
+  "loot": [
+    {
+      "kind": "gold",
+      "min": 160,
+      "max": 320
+    },
+    {
+      "kind": "equipment",
+      "chance": 0.9,
+      "level": 9
+    }
+  ],
+  "zone": "zona_7_epilogo",
+  "is_boss": false
+}

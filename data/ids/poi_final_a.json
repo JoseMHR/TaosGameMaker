@@ -1,0 +1,29 @@
+{
+    "id": "poi_final_a",
+    "type": "poi",
+    "name": {
+        "es": "Final A: Aceptación",
+        "en": "Ending A: Acceptance",
+        "fr": "Fin A : Acceptation",
+        "it": "Finale A: Accettazione",
+        "de": "Ende A: Akzeptanz",
+        "zh": "结局A：接受",
+        "ja": "エンディングA：受容"
+    },
+    "icon": "🕊️",
+    "desc": {
+        "es": "Juicio de la Esfera y Desenlace A: El Despertar y la Aceptación.",
+        "en": "Sphere Judgment and Outcome A: Awakening and Acceptance.",
+        "fr": "Jugement de la Sphère et Dénouement A : L'Éveil et l'Acceptation.",
+        "it": "Giudizio della Sfera ed Esito A: Il Risveglio e l'Accettazione.",
+        "de": "Urteil der Sphäre und Ausgang A: Das Erwachen und die Akzeptanz.",
+        "zh": "真理之球的审判与结局A：觉醒与接受。",
+        "ja": "球の審判と結末A：目覚めと受容。"
+    },
+    "portal": {
+        "view": "cinematic",
+        "cinematic_id": "final_a",
+        "label": "🔮  Ver Final A: Aceptación"
+    },
+    "bg": "bg_ending_temple.png"
+}

@@ -1,0 +1,55 @@
+{
+  "name": {
+    "es": "Centinela del Templo",
+    "en": "Temple Sentinel",
+    "fr": "Sentinelle du Temple",
+    "it": "Sentinella del Tempio",
+    "de": "Tempelwächter",
+    "zh": "神庙哨兵",
+    "ja": "神殿のセンチネル"
+  },
+  "family": "construct",
+  "archetype": "tank",
+  "icon": "🗿",
+  "image": "res://assets/combat/enemies/en_temple_sentinel.png",
+  "attack_type": "magic",
+  "base_dodge": 8.0,
+  "dodge_scale": 0.15,
+  "element": "holy",
+  "weak_to": [
+    "dark"
+  ],
+  "resist": [
+    "holy",
+    "physical"
+  ],
+  "ai": "defensive",
+  "xp_reward_base": 400,
+  "xp_reward_scale": 18.0,
+  "gold_reward_base": 210,
+  "gold_reward_scale": 14.0,
+  "skills": [
+    {
+      "level": 1,
+      "skill_id": "cosmic_spear"
+    },
+    {
+      "level": 48,
+      "skill_id": "judgement_beam"
+    }
+  ],
+  "loot": [
+    {
+      "kind": "gold",
+      "min": 45,
+      "max": 95
+    },
+    {
+      "kind": "equipment",
+      "chance": 0.4,
+      "level": 7
+    }
+  ],
+  "zone": "zona_7_epilogo",
+  "is_boss": false
+}

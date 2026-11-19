@@ -1,0 +1,39 @@
+{
+    "name": {
+        "es": "Armadura de Centinela Novato",
+        "en": "Novice Sentinel Armor",
+        "fr": "Armure de Sentinelle Novice",
+        "it": "Armatura da Sentinella Novizia",
+        "de": "Novizen-Wächterrüstung",
+        "zh": "新手哨兵铠甲",
+        "ja": "見習いセンチネルアーマー"
+    },
+    "desc": {
+        "es": "Una armadura muy básica hecha de cuero reforzado. Un encantamiento protector bloquea por completo el primer impacto de cada batalla (salvo que sea un golpe imparable).",
+        "en": "Very basic reinforced leather armor. A protective ward absorbs the first blow received in combat (unless the strike is unstoppable).",
+        "fr": "Une armure très basique en cuir renforcé. Une protection enchantée bloque complètement le premier coup de chaque combat (sauf s'il est imparable).",
+        "it": "Un'armatura molto basilare in cuoio rinforzato. Un incantesimo protettivo blocca completamente il primo colpo di ogni battaglia (a meno che non sia inarrestabile).",
+        "de": "Eine sehr einfache, verstärkte Lederrüstung. Ein Schutzzauber blockiert vollständig den ersten Treffer jedes Kampfes (außer bei unaufhaltsamen Angriffen).",
+        "zh": "一件非常基础的加固皮甲。保护性附魔会完全格挡每场战斗中的第一次打击（除非是无法阻挡的攻击）。",
+        "ja": "非常に基本的な強化革鎧。防御の加護が戦闘ごとの最初の一撃を完全に防ぐ（防げない攻撃を除く）。"
+    },
+    "icon": "🥋",
+    "category": "equipment",
+    "usable": false,
+    "slot": "armor",
+    "tier": 1,
+    "bonuses": {
+        "vit": 2
+    },
+    "combat": {
+        "phys_defense": 8,
+        "mag_defense": 4
+    },
+    "traits": [
+        {
+            "type": "block_first_hit",
+            "value": 1,
+            "desc": "Bloquea el primer golpe recibido en combate (excepto imparables)"
+        }
+    ]
+}

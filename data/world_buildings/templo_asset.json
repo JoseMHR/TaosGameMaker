@@ -1,0 +1,8 @@
+{
+    "label": "Templo Antiguo",
+    "icon": "⛩️",
+    "scale": 1.0,
+    "y_offset": 0.0,
+    "description": "Santuario ceremonial sagrado.",
+    "model_path": "templo"
+}

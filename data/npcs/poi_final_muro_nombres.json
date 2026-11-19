@@ -1,0 +1,117 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Muro de los Nombres",
+            "en": "The Wall of Names",
+            "fr": "Le Mur des Noms",
+            "it": "Il Muro dei Nomi",
+            "de": "Die Mauer der Namen",
+            "zh": "姓名之墙",
+            "ja": "名前の壁"
+        },
+        "next": [],
+        "reward": "bg=0.05,0.05,0.07"
+    },
+    "muro_root": {
+        "type": "message",
+        "text": {
+            "es": "Un muro negro y liso se extiende hasta perderse en la oscuridad del abismo, en ambas direcciones, sin fin. Toda su superficie está cubierta de nombres grabados: miles de ellos, en columnas apretadas. Son los voluntarios, los sujetos, los desesperados a los que Arcanum sometió al Proyecto Esfera prometiéndoles curas que nunca llegaron. Al fondo, aparte de los demás, dos nombres están tallados más hondo que ninguno, con manos temblorosas: uno de mujer, uno de niña.",
+            "en": "A smooth black wall stretches until it vanishes into the darkness of the abyss, in both directions, without end. Its entire surface is covered with carved names: thousands of them, in cramped columns. They are the volunteers, the subjects, the desperate whom Arcanum subjected to the Sphere Project, promising cures that never came. At the far end, apart from the rest, two names are cut deeper than any other, by trembling hands: one of a woman, one of a girl.",
+            "fr": "Un mur noir et lisse s'étend jusqu'à se perdre dans l'obscurité de l'abîme, dans les deux directions, sans fin. Toute sa surface est couverte de noms gravés : des milliers, en colonnes serrées. Ce sont les volontaires, les sujets, les désespérés qu'Arcanum a soumis au Projet Sphère en leur promettant des guérisons qui ne sont jamais venues. Au fond, à l'écart des autres, deux noms sont gravés plus profondément que tout autre, d'une main tremblante : celui d'une femme, celui d'une fillette.",
+            "it": "Un muro nero e liscio si estende fino a perdersi nell'oscurità dell'abisso, in entrambe le direzioni, senza fine. Tutta la sua superficie è coperta di nomi incisi: migliaia, in colonne serrate. Sono i volontari, i soggetti, i disperati che Arcanum sottopose al Progetto Sfera promettendo cure mai arrivate. In fondo, separati dagli altri, due nomi sono scolpiti più in profondità di ogni altro, con mano tremante: uno di donna, uno di bambina.",
+            "de": "Eine glatte schwarze Mauer erstreckt sich, bis sie sich in beiden Richtungen in der Dunkelheit des Abgrunds verliert, ohne Ende. Ihre gesamte Oberfläche ist mit eingravierten Namen bedeckt: Tausende davon, in engen Spalten. Es sind die Freiwilligen, die Versuchspersonen, die Verzweifelten, die Arcanum dem Sphärenprojekt unterzog und ihnen Heilungen versprach, die nie kamen. Am Ende, abseits der anderen, sind zwei Namen tiefer als alle anderen eingemeißelt, von zitternder Hand: der einer Frau, der eines Mädchens.",
+            "zh": "一堵光滑的黑墙向两个方向延伸，消失在深渊的黑暗之中，永无止境。它的整个表面都刻满了名字：成千上万个，密密麻麻地排成一列列。他们是那些志愿者、实验对象、以及被奥秘遗迹以永不兑现的治愈承诺骗入球体计划的绝望之人。在墙的尽头，与其他名字分开，有两个名字刻得比任何一个都深，出自一只颤抖的手：一个是女人的名字，一个是小女孩的名字。",
+            "ja": "なめらかな黒い壁が、両方向へと深淵の闇の中に消えていくまで、終わりなく続いている。その表面全体に名前が刻まれている——何千もの名が、隙間なく列をなして。彼らは志願者であり、被験者であり、決して叶うことのない治療を約束されて球体計画に従わされた絶望した人々だ。壁の奥、他とは離れた場所に、震える手によって誰よりも深く刻まれた二つの名前がある——一人の女性の名と、一人の少女の名だ。"
+        },
+        "next": [
+            "muro_opt_leer",
+            "muro_opt_honrar",
+            "muro_opt_salir"
+        ],
+        "reward": ""
+    },
+    "muro_opt_leer": {
+        "type": "option",
+        "text": {
+            "es": "📖  Recorrer los nombres con la mirada",
+            "en": "📖  Run your eyes over the names",
+            "fr": "📖  Parcourir les noms du regard",
+            "it": "📖  Scorrere i nomi con lo sguardo",
+            "de": "📖  Mit den Augen über die Namen gleiten",
+            "zh": "📖  用目光扫视这些名字",
+            "ja": "📖  名前に目を走らせる"
+        },
+        "next": [
+            "muro_msg_leer"
+        ],
+        "reward": ""
+    },
+    "muro_msg_leer": {
+        "type": "message",
+        "text": {
+            "es": "Caminas junto al muro leyendo nombres al azar. Cada uno fue una persona con miedo y esperanza, que firmó un papel porque no le quedaba otra, y a la que la ciencia de Arcanum trató como una cifra. Reconoces, con horror, tu propia firma repetida al pie de columna tras columna: como investigador principal, avalaste muchos de estos ensayos. No fuiste solo una víctima del sistema. Durante mucho tiempo, fuiste también una de sus manos. La vergüenza te dobla la espalda.",
+            "en": "You walk alongside the wall reading names at random. Each was a person with fear and hope, who signed a paper because they had no other choice, and whom Arcanum's science treated as a figure. You recognize, with horror, your own signature repeated at the foot of column after column: as lead researcher, you endorsed many of these trials. You were not only a victim of the system. For a long time, you were also one of its hands. Shame bows your back.",
+            "fr": "Tu marches le long du mur en lisant des noms au hasard. Chacun fut une personne avec de la peur et de l'espoir, qui a signé un papier parce qu'elle n'avait pas le choix, et que la science d'Arcanum a traitée comme un chiffre. Tu reconnais, avec horreur, ta propre signature répétée au bas de colonne après colonne : en tant que chercheur principal, tu as validé nombre de ces essais. Tu n'as pas été seulement une victime du système. Pendant longtemps, tu as aussi été l'une de ses mains. La honte te courbe le dos.",
+            "it": "Cammini lungo il muro leggendo nomi a caso. Ognuno fu una persona con paura e speranza, che firmò un foglio perché non aveva altra scelta, e che la scienza di Arcanum trattò come una cifra. Riconosci, con orrore, la tua stessa firma ripetuta in fondo a colonna dopo colonna: come ricercatore principale, avallasti molti di questi esperimenti. Non sei stato solo una vittima del sistema. Per molto tempo, sei stato anche una delle sue mani. La vergogna ti curva la schiena.",
+            "de": "Du gehst an der Mauer entlang und liest Namen aufs Geratewohl. Jeder war eine Person mit Angst und Hoffnung, die ein Papier unterschrieb, weil es keine andere Wahl gab, und die die Wissenschaft von Arcanum als bloße Zahl behandelte. Du erkennst mit Entsetzen deine eigene Unterschrift, wiederholt am Fuß von Spalte um Spalte: als leitender Forscher hast du viele dieser Versuche gebilligt. Du warst nicht nur ein Opfer des Systems. Lange Zeit warst du auch eine seiner Hände. Die Scham beugt deinen Rücken.",
+            "zh": "你沿着墙走，随意读着这些名字。每一个都曾是一个心怀恐惧与希望的人，因为别无选择而在文件上签了字，被奥秘遗迹的科学当作一个数字对待。你惊恐地认出了自己的签名，反复出现在一列又一列的末尾：作为首席研究员，你曾批准了许多这样的试验。你不仅仅是这个体制的受害者。长久以来，你也曾是它的一双手。羞愧压弯了你的脊背。",
+            "ja": "壁沿いを歩き、無作為に名前を読んでいく。それぞれが恐怖と希望を抱いた一人の人間であり、他に選択肢がなかったために書類にサインし、アルカナムの科学によって一つの数字として扱われた。恐怖とともに、お前は自分自身の署名が列また列の末尾に繰り返されているのを認識する——主任研究者として、お前はこれらの試験の多くを承認していたのだ。お前はただこの体制の犠牲者だっただけではない。長い間、お前もまたその手先の一つだったのだ。恥辱がお前の背を丸めさせる。"
+        },
+        "next": [
+            "muro_root"
+        ],
+        "reward": ""
+    },
+    "muro_opt_honrar": {
+        "type": "option",
+        "text": {
+            "es": "🕯️  Grabar con la uña una disculpa junto a los dos nombres del fondo",
+            "en": "🕯️  Scratch an apology with your nail beside the two names at the end",
+            "fr": "🕯️  Graver du bout de l'ongle une excuse près des deux noms du fond",
+            "it": "🕯️  Incidere con l'unghia una scusa accanto ai due nomi in fondo",
+            "de": "🕯️  Mit dem Fingernagel eine Entschuldigung neben die beiden Namen am Ende ritzen",
+            "zh": "🕯️  用指甲在最深处那两个名字旁刻下一句道歉",
+            "ja": "🕯️  奥の二つの名前の横に、爪で謝罪の言葉を刻む"
+        },
+        "next": [
+            "muro_msg_honrar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "muro_msg_honrar": {
+        "type": "message",
+        "text": {
+            "es": "Llegas hasta los dos nombres tallados más hondo —los reconoces sin necesidad de leerlos— y, con la uña ensangrentada, arañas debajo una sola frase: 'No os fallaré en el recuerdo, aunque os fallara en vida.' No es un perdón; no tienes derecho a pedirlo. Es una promesa: la de no volver a apartar la mirada de lo que hiciste. El muro entero parece vibrar un instante, como si miles de nombres respiraran a la vez, aliviados de que alguien, por fin, se detuviera a mirarlos.",
+            "en": "You reach the two names cut deepest — you recognize them without needing to read them — and, with a bloodied nail, you scratch beneath them a single line: 'I will not fail you in memory, though I failed you in life.' It is not forgiveness; you have no right to ask for it. It is a promise: never again to look away from what you did. The whole wall seems to vibrate for an instant, as if thousands of names breathed at once, relieved that someone, at last, stopped to look at them.",
+            "fr": "Tu atteins les deux noms gravés le plus profondément — tu les reconnais sans avoir besoin de les lire — et, de ton ongle ensanglanté, tu griffes en dessous une seule phrase : « Je ne vous faillirai pas dans le souvenir, même si je vous ai fait faillite dans la vie. » Ce n'est pas un pardon ; tu n'as pas le droit de le demander. C'est une promesse : celle de ne plus jamais détourner le regard de ce que tu as fait. Tout le mur semble vibrer un instant, comme si des milliers de noms respiraient à la fois, soulagés que quelqu'un, enfin, s'arrête pour les regarder.",
+            "it": "Raggiungi i due nomi incisi più in profondità — li riconosci senza bisogno di leggerli — e, con l'unghia insanguinata, graffi sotto una sola frase: 'Non vi fallirò nel ricordo, anche se vi ho fallito in vita.' Non è un perdono; non hai il diritto di chiederlo. È una promessa: quella di non distogliere mai più lo sguardo da ciò che hai fatto. L'intero muro sembra vibrare per un istante, come se migliaia di nomi respirassero all'unisono, sollevati che qualcuno, finalmente, si fermasse a guardarli.",
+            "de": "Du erreichst die beiden am tiefsten eingravierten Namen — du erkennst sie, ohne sie lesen zu müssen — und ritzt mit blutigem Fingernagel darunter einen einzigen Satz: „Ich werde euch in der Erinnerung nicht versagen, auch wenn ich euch im Leben versagt habe.“ Es ist keine Vergebung; du hast kein Recht, darum zu bitten. Es ist ein Versprechen: nie wieder von dem wegzusehen, was du getan hast. Die ganze Mauer scheint für einen Moment zu vibrieren, als würden Tausende von Namen gleichzeitig atmen, erleichtert, dass endlich jemand innehält, um sie anzusehen.",
+            "zh": "你走到那两个刻得最深的名字前——不需要读它们，你就已认出——用你那沾血的指甲，在下方刻下一句话：「即便我在生前辜负了你们，我不会在记忆中辜负你们。」这不是宽恕；你没有权利去请求宽恕。这是一个承诺：永远不再对自己所做之事移开目光。整堵墙似乎瞬间震颤了一下，仿佛成千上万个名字同时呼吸着，为终于有人停下来凝视他们而如释重负。",
+            "ja": "最も深く刻まれた二つの名前にたどり着く——読む必要もなく、それとわかる——そして血のにじんだ爪で、その下にたった一行を刻む：「生涯ではお前たちを裏切ったが、記憶の中では裏切らない」。それは赦しではない。赦しを求める権利など自分にはない。それは誓いだ——自分のしたことから二度と目を逸らさないという誓い。壁全体が一瞬震えたように感じる。まるで何千もの名前が一斉に息をつき、ようやく誰かが立ち止まって見てくれたことに安堵したかのように。"
+        },
+        "next": [
+            "muro_opt_salir"
+        ],
+        "reward": "faceta:bondad=+1;faceta:valor=+1;gflag:muro_honrado",
+        "condition": "no_gflag(\"muro_honrado\")",
+        "once": true
+    },
+    "muro_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Seguir el muro hacia la oscuridad",
+            "en": "🚶  Follow the wall into the darkness",
+            "fr": "🚶  Suivre le mur vers l'obscurité",
+            "it": "🚶  Seguire il muro verso l'oscurità",
+            "de": "🚶  Der Mauer in die Dunkelheit folgen",
+            "zh": "🚶  沿着墙走向黑暗",
+            "ja": "🚶  壁に沿って闇へと進む"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

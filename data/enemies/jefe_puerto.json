@@ -1,0 +1,68 @@
+{
+  "name": {
+    "es": "Jefe del Puerto",
+    "en": "Harbor Boss",
+    "fr": "Boss du Port",
+    "it": "Boss del Porto",
+    "de": "Hafenboss",
+    "zh": "港口首领",
+    "ja": "港のボス"
+  },
+  "family": "aberration",
+  "archetype": "boss",
+  "icon": "🐙",
+  "image": "res://assets/combat/enemies/en_harbor_boss.png",
+  "attack_type": "physical",
+  "base_dodge": 6.0,
+  "dodge_scale": 0.15,
+  "element": "water",
+  "weak_to": [
+    "lightning"
+  ],
+  "resist": [
+    "water",
+    "physical"
+  ],
+  "ai": "aggressive",
+  "xp_reward_base": 480,
+  "xp_reward_scale": 22.0,
+  "gold_reward_base": 300,
+  "gold_reward_scale": 20.0,
+  "skills": [
+    {
+      "level": 1,
+      "skill_id": "anchor_smash"
+    },
+    {
+      "level": 18,
+      "skill_id": "tackle"
+    },
+    {
+      "level": 22,
+      "skill_id": "provoke_rage"
+    },
+    {
+      "level": 25,
+      "skill_id": "crushing_blow"
+    }
+  ],
+  "loot": [
+    {
+      "kind": "gold",
+      "min": 180,
+      "max": 320
+    },
+    {
+      "kind": "consumable",
+      "id": "potion",
+      "chance": 0.5
+    },
+    {
+      "kind": "equipment",
+      "chance": 0.6,
+      "level": 12
+    }
+  ],
+  "zone": "zona_4_celestia",
+  "is_boss": true
+}

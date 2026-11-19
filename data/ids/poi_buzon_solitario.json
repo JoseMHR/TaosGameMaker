@@ -1,0 +1,26 @@
+{
+    "id": "poi_buzon_solitario",
+    "type": "poi",
+    "icon": "📬",
+    "name": {
+        "es": "Buzón en Mitad de la Nada",
+        "en": "Mailbox in the Middle of Nowhere",
+        "fr": "Boîte aux Lettres au Milieu de Nulle Part",
+        "it": "Cassetta della Posta in Mezzo al Nulla",
+        "de": "Briefkasten Mitten im Nirgendwo",
+        "zh": "荒野中的信箱",
+        "ja": "何もない場所の郵便受け"
+    },
+    "desc": {
+        "es": "Un buzón plantado en un prado sin casa ni camino. (POI de inspección).",
+        "en": "A mailbox planted in a meadow with no house or road. (Inspection POI).",
+        "fr": "Une boîte aux lettres plantée dans une prairie sans maison ni chemin. (POI d'inspection).",
+        "it": "Una cassetta della posta piantata in un prato senza casa né strada. (POI di ispezione).",
+        "de": "Ein Briefkasten, aufgestellt auf einer Wiese ohne Haus oder Weg. (Inspektions-POI).",
+        "zh": "一个立在没有房屋也没有道路的草地上的信箱。（探查类兴趣点）。",
+        "ja": "家も道もない草原に立つ郵便受け。（調査ポイント）。"
+    },
+    "npc": "poi_buzon_solitario",
+    "bg": "bg_world_poi_pradera_buzon.png",
+    "music": "poi_comic"
+}

@@ -1,0 +1,167 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Ascensor a Ninguna Parte",
+            "en": "The Elevator to Nowhere",
+            "fr": "L'Ascenseur Vers Nulle Part",
+            "it": "L'Ascensore verso Nessun Luogo",
+            "de": "Der Aufzug ins Nirgendwo",
+            "zh": "通往虚无的电梯",
+            "ja": "どこへも行かないエレベーター"
+        },
+        "next": [],
+        "reward": "avatar=🛗;bg=0.07,0.09,0.10"
+    },
+    "ascen_root": {
+        "type": "message",
+        "text": {
+            "es": "Entre los escombros se alza, intacto, un ascensor de latón pulido con las puertas abiertas, invitándote a entrar. No hay edificio a su alrededor: solo la cabina, en pie, imposible. Dentro, un único botón iluminado en rojo: 'PLANTA 0 — ABAJO DEL TODO'. Una musiquilla de espera suena en bucle, alegre y desafinada. Cuando te asomas al hueco por el que debería subir y bajar, no ves cables ni fondo: solo una oscuridad que parece respirar.",
+            "en": "Among the rubble stands, intact, a polished brass elevator with its doors open, inviting you in. There's no building around it: only the cabin, upright, impossible. Inside, a single button glowing red: 'FLOOR 0 — ALL THE WAY DOWN'. A hold tune loops, cheerful and off-key. When you peer into the shaft it should ride up and down, you see no cables and no bottom: only a darkness that seems to breathe.",
+            "fr": "Parmi les décombres se dresse, intact, un ascenseur en laiton poli avec les portes ouvertes, t'invitant à entrer. Il n'y a aucun bâtiment autour de lui : seulement la cabine, debout, impossible. À l'intérieur, un unique bouton s'illumine en rouge : « ÉTAGE 0 — TOUT EN BAS ». Une petite musique d'attente tourne en boucle, joyeuse et désaccordée. Quand tu jettes un œil dans la cage où elle devrait monter et descendre, tu ne vois ni câbles ni fond : seulement une obscurité qui semble respirer.",
+            "it": "Tra le rovine si erge, intatto, un ascensore in ottone lucido con le porte aperte, invitandoti a entrare. Non c'è alcun edificio intorno: solo la cabina, in piedi, impossibile. Dentro, un unico bottone illuminato in rosso: 'PIANO 0 — TUTTO IN FONDO'. Una musichetta d'attesa suona in loop, allegra e stonata. Quando ti sporgi nel vano dove dovrebbe salire e scendere, non vedi cavi né fondo: solo un'oscurità che sembra respirare.",
+            "de": "Zwischen den Trümmern steht, unversehrt, ein polierter Messingaufzug mit offenen Türen, der dich zum Eintreten einlädt. Es gibt kein Gebäude um ihn herum: nur die Kabine, aufrecht, unmöglich. Innen leuchtet ein einziger roter Knopf: „STOCKWERK 0 — GANZ NACH UNTEN“. Eine Warteschleifenmelodie läuft, fröhlich und verstimmt. Wenn du in den Schacht blickst, in dem sie eigentlich rauf und runter fahren sollte, siehst du keine Kabel und keinen Boden: nur eine Dunkelheit, die zu atmen scheint.",
+            "zh": "在废墟之中，矗立着一座完好无损的抛光黄铜电梯，门开着，仿佛在邀请你进入。它周围没有任何建筑：只有那座轿厢，孤零零地立在那里，不合常理。里面有一个亮着红光的按钮：「0层——最底层」。一段等待音乐循环播放着，欢快而走调。当你朝那本该上升下降的井道望去时，你既看不到缆绳，也看不到底部：只有一片仿佛在呼吸的黑暗。",
+            "ja": "瓦礫の中に、無傷のまま磨かれた真鍮のエレベーターが立っており、扉は開き、お前を招いている。周囲には建物がない——ただ箱だけが、直立して、あり得ない姿で立っている。内部には赤く光る一つのボタンだけがある——「0階——最下層」保留音楽がループしており、明るく調子外れだ。上下するはずの通路を見ると、ケーブルも底も見えない——ただ、呼吸しているように見える闇だけがある。"
+        },
+        "next": [
+            "ascen_opt_bajar",
+            "ascen_opt_examinar",
+            "ascen_opt_boton",
+            "ascen_opt_salir"
+        ],
+        "reward": ""
+    },
+    "ascen_opt_bajar": {
+        "type": "option",
+        "text": {
+            "es": "⬇️  Entrar, pulsar Planta 0 y bajar hasta donde sea que baje",
+            "en": "⬇️  Step in, press Floor 0 and ride down to wherever it goes",
+            "fr": "⬇️  Entrer, appuyer sur Étage 0 et descendre où que ça mène",
+            "it": "⬇️  Entrare, premere Piano 0 e scendere fino a dove porta",
+            "de": "⬇️  Eintreten, Stockwerk 0 drücken und hinunterfahren, wohin auch immer es führt",
+            "zh": "⬇️  走进去，按下0层，坐下去，随它去往任何地方",
+            "ja": "⬇️  中に入り、『0階』を押して、どこへ行くか分からないまま下る"
+        },
+        "next": [
+            "ascen_msg_bajar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "ascen_msg_bajar": {
+        "type": "message",
+        "text": {
+            "es": "Entras y pulsas el botón. Las puertas se cierran y la cabina desciende MUCHO más de lo que debería, durante minutos, mientras la musiquilla se vuelve cada vez más lenta y grave. Cuando por fin se abre, ante ti hay... exactamente el mismo sitio del que saliste. Las mismas ruinas. Pero todo está en silencio total y una nota pegada en la pared, con tu letra, dice: 'ya has estado aquí antes. siempre acabas aquí.' Vuelves a pulsar y subes, con el corazón desbocado. No entiendes qué has visto, pero bajaste a mirar cuando cualquiera habría huido.",
+            "en": "You step in and press the button. The doors close and the cabin descends FAR longer than it should, for minutes, while the tune grows slower and deeper. When it finally opens, before you is... the exact same place you left. The same ruins. But everything is in total silence, and a note stuck to the wall, in your handwriting, reads: 'you've been here before. you always end up here.' You press again and ride up, heart pounding. You don't understand what you saw, but you went down to look when anyone else would have fled.",
+            "fr": "Tu entres et appuies sur le bouton. Les portes se ferment et la cabine descend BIEN plus longtemps qu'elle ne devrait, pendant des minutes, tandis que la petite musique devient de plus en plus lente et grave. Quand elle s'ouvre enfin, devant toi il y a... exactement le même endroit d'où tu es parti. Les mêmes ruines. Mais tout est dans un silence total, et une note collée sur le mur, de ton écriture, dit : « tu as déjà été ici avant. tu finis toujours ici. » Tu appuies à nouveau et remontes, le cœur battant à tout rompre. Tu ne comprends pas ce que tu as vu, mais tu es descendu regarder alors que n'importe qui d'autre aurait fui.",
+            "it": "Entri e premi il bottone. Le porte si chiudono e la cabina scende MOLTO più a lungo di quanto dovrebbe, per minuti, mentre la musichetta diventa sempre più lenta e grave. Quando finalmente si apre, davanti a te c'è... esattamente lo stesso posto da cui sei uscito. Le stesse rovine. Ma tutto è in silenzio totale e un biglietto attaccato al muro, con la tua grafia, dice: 'sei già stato qui prima. finisci sempre qui.' Premi di nuovo e sali, con il cuore in tumulto. Non capisci cosa hai visto, ma sei sceso a guardare quando chiunque altro sarebbe fuggito.",
+            "de": "Du gehst hinein und drückst den Knopf. Die Türen schließen sich, und die Kabine sinkt VIEL länger, als sie sollte, minutenlang, während die Melodie immer langsamer und tiefer wird. Als sie sich schließlich öffnet, ist vor dir... genau derselbe Ort, den du verlassen hast. Die gleichen Ruinen. Aber alles ist in völliger Stille, und ein an der Wand befestigter Zettel, in deiner Handschrift, sagt: „du warst schon einmal hier. du landest immer hier.“ Du drückst erneut und fährst hoch, das Herz rasend. Du verstehst nicht, was du gesehen hast, aber du bist hinabgestiegen, um zu schauen, während jeder andere geflohen wäre.",
+            "zh": "你走进去，按下按钮。门关上了，轿厢下降的时间比它该有的时间要长得多，持续了好几分钟，同时那段小曲变得越来越慢，越来越低沉。当它终于打开时，你面前是……和你出发的那个地方完全一样。同样的废墟。但一切都陷入了完全的寂静，墙上贴着一张字条，是你自己的笔迹，写着：「你以前来过这里。你总是会走到这里来。」你再次按下按钮，向上升去，心跳狂乱。你不明白自己看到了什么，但你下去查看了——而任何其他人都会选择逃跑。",
+            "ja": "中に入り、ボタンを押す。扉が閉まり、箱は本来より遥かに長く、数分間下降し続け、その間音楽はますます遅く、低くなっていく。ついに開いた時、目の前にあるのは……離れた場所とまったく同じ、同じ廃墟だ。だがすべてが完全な沈黙に包まれ、壁に貼られた自分の筆跡のメモにはこう書かれている——「以前にもここに来たことがある。いつもここに行き着く」再びボタンを押し、心臓を高鳴らせながら上昇する。何を見たのか理解できないが、他の誰もが逃げ出すような時に、下って見に行ったのだ。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:valor=+1;faceta:cordura=-1"
+    },
+    "ascen_opt_examinar": {
+        "type": "option",
+        "text": {
+            "es": "🔍  Examinar el ascensor por fuera sin entrar",
+            "en": "🔍  Examine the elevator from the outside without stepping in",
+            "fr": "🔍  Examiner lascenseur de lextérieur sans entrer",
+            "it": "🔍  Esaminare lascensore dallesterno senza entrare",
+            "de": "🔍  Den Aufzug von außen untersuchen, ohne hineinzugehen",
+            "zh": "🔍  从外面检查电梯，不进去",
+            "ja": "🔍  中に入らずに外からエレベーターを調べる"
+        },
+        "next": [
+            "ascen_msg_examinar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "ascen_msg_examinar": {
+        "type": "message",
+        "text": {
+            "es": "Rodeas la cabina. Por detrás no hay nada: la puerta de latón se abre sobre las mismas ruinas que ves de este lado, como un decorado sin trasera. En una placa de mantenimiento medio borrada lees: 'Unidad de Descenso Terapéutico Arcanum. Lleva al paciente al fondo de sí mismo. NO recomendado sin supervisión.' Un experimento más de los que convirtieron esta ciudad en lo que es. Decides que hay fondos a los que es mejor no descender solo.",
+            "en": "You circle the cabin. Behind it there's nothing: the brass door opens onto the same ruins you see from this side, like a set with no back. On a half-erased maintenance plate you read: 'Arcanum Therapeutic Descent Unit. Takes the patient to the bottom of themselves. NOT recommended without supervision.' One more of the experiments that turned this city into what it is. You decide there are depths best not descended into alone.",
+            "fr": "Tu fais le tour de la cabine. Derrière, il n'y a rien : la porte en laiton s'ouvre sur les mêmes ruines que tu vois de ce côté, comme un décor sans arrière-plan. Sur une plaque de maintenance à moitié effacée, tu lis : « Unité de Descente Thérapeutique Arcanum. Amène le patient au fond de lui-même. NON recommandé sans supervision. » Une expérience de plus parmi celles qui ont transformé cette ville en ce qu'elle est. Tu décides qu'il y a des fonds qu'il vaut mieux ne pas descendre seul.",
+            "it": "Giri intorno alla cabina. Dietro non c'è nulla: la porta d'ottone si apre sulle stesse rovine che vedi da questo lato, come una scenografia senza retro. Su una targa di manutenzione mezza scancellata leggi: 'Unità di Discesa Terapeutica Arcanum. Porta il paziente al fondo di se stesso. NON raccomandato senza supervisione.' Uno degli esperimenti che hanno trasformato questa città in quello che è. Decidi che ci sono fondi in cui è meglio non scendere da soli.",
+            "de": "Du umkreist die Kabine. Hinten gibt es nichts: die Messingtür öffnet sich auf dieselben Ruinen, die du von dieser Seite siehst, wie eine Kulisse ohne Rückseite. Auf einem halb verblassten Wartungsschild liest du: „Arcanum Therapeutische Abstiegseinheit. Bringt den Patienten bis auf den Grund seiner selbst. NICHT ohne Aufsicht empfohlen.“ Eines von vielen Experimenten, die diese Stadt zu dem gemacht haben, was sie ist. Du entscheidest, dass es Abgründe gibt, in die man besser nicht allein hinabsteigt.",
+            "zh": "你绕着轿厢走了一圈。后面什么都没有：黄铜门打开的地方，正是你从这一侧看到的同样的废墟，就像一个没有背面的布景。在一块半褪色的维护铭牌上，你读到：「奥秘遗迹治疗性下降装置。将患者带至自我的最深处。未经监督不建议使用。」这只是又一个把这座城市变成如今这个样子的实验。你决定，有些深处最好不要独自下去探索。",
+            "ja": "箱を回り込む。後ろには何もない——真鍮の扉は、こちら側から見えるのと同じ廃墟に開いている、裏のない舞台装置のように。半分消えたメンテナンス用の銘板を読む——「アルカナム治療下降ユニット。患者を自分自身の底へ導く。監督なしでは推奨されない」この街を今の姿にした実験のもう一つだ。ある種の深みには、一人で下るべきではないと判断する。"
+        },
+        "next": [
+            "ascen_root"
+        ],
+        "reward": "faceta:inteligencia=+1"
+    },
+    "ascen_opt_boton": {
+        "type": "option",
+        "text": {
+            "es": "🔘  Pulsar el botón desde fuera, con el brazo, sin subirte",
+            "en": "🔘  Press the button from outside, with your arm, without getting in",
+            "fr": "🔘  Appuyer sur le bouton depuis l'extérieur, avec le bras, sans entrer",
+            "it": "🔘  Premere il bottone da fuori, con il braccio, senza entrare",
+            "de": "🔘  Den Knopf von außen mit dem Arm drücken, ohne hineinzugehen",
+            "zh": "🔘  从外面用手臂按下按钮，不进去",
+            "ja": "🔘  中に入らず、外から手を伸ばしてボタンを押す"
+        },
+        "next": [
+            "ascen_msg_boton"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "ascen_msg_boton": {
+        "type": "message",
+        "text": {
+            "es": "Estiras el brazo y pulsas el botón desde fuera, con precaución. Las puertas se cierran solas sobre la cabina vacía y esta desciende hacia la oscuridad que respira. Esperas. Al cabo de un rato larguísimo, el ascensor vuelve a subir. Cuando se abre, dentro hay una silla de ruedas de hospital, vacía, meciéndose sola. Las puertas se cierran de nuevo y todo vuelve a empezar. Retrocedes despacio. Algunas máquinas es mejor dejarlas jugar solas.",
+            "en": "You stretch out your arm and press the button from outside, cautiously. The doors close on their own over the empty cabin, which descends toward the breathing darkness. You wait. After a very long while, the elevator rises again. When it opens, inside is a hospital wheelchair, empty, rocking on its own. The doors close again and it all begins anew. You back away slowly. Some machines are best left to play by themselves.",
+            "fr": "Tu tends le bras et appuies sur le bouton depuis l'extérieur, avec précaution. Les portes se referment d'elles-mêmes sur la cabine vide, qui descend vers l'obscurité qui respire. Tu attends. Après un très long moment, l'ascenseur remonte. Quand il s'ouvre, à l'intérieur il y a un fauteuil roulant d'hôpital, vide, se balançant seul. Les portes se referment à nouveau et tout recommence. Tu recules lentement. Certaines machines, il vaut mieux les laisser jouer seules.",
+            "it": "Allunghi il braccio e premi il bottone da fuori, con cautela. Le porte si chiudono da sole sopra la cabina vuota, che scende verso l'oscurità che respira. Aspetti. Dopo un tempo molto lungo, l'ascensore risale. Quando si apre, dentro c'è una sedia a rotelle da ospedale, vuota, che si dondola sola. Le porte si chiudono di nuovo e tutto ricomincia. Indietreggi lentamente. Alcune macchine è meglio lasciarle giocare da sole.",
+            "de": "Du streckst den Arm aus und drückst vorsichtig den Knopf von außen. Die Türen schließen sich von selbst über der leeren Kabine, die zur atmenden Dunkelheit hinabfährt. Du wartest. Nach einer sehr langen Weile fährt der Aufzug wieder hoch. Als er sich öffnet, ist darin ein Krankenhausrollstuhl, leer, der von selbst schaukelt. Die Türen schließen sich wieder, und alles beginnt erneut. Du weichst langsam zurück. Manche Maschinen lässt man besser allein spielen.",
+            "zh": "你伸出手臂，小心地从外面按下按钮。门自动在空轿厢上关闭，轿厢向着那呼吸的黑暗下降。你等待着。过了很长很长一段时间，电梯又升了上来。门打开时，里面是一张空的医院轮椅，独自摇晃着。门再次关闭，一切又重新开始。你慢慢地退后。有些机器，最好还是让它们自己去玩吧。",
+            "ja": "手を伸ばし、慎重に外からボタンを押す。扉は空の箱に自動的に閉じ、呼吸する闇へと下降していく。待つ。とても長い時間の後、エレベーターが再び上がってくる。開くと、中には空の病院用車椅子があり、独りで揺れている。扉が再び閉まり、すべてが再び始まる。ゆっくりと後ずさる。ある種の機械は、自分たちだけで遊ばせておいた方がいい。"
+        },
+        "next": [
+            "ascen_root"
+        ],
+        "reward": "faceta:cordura=-1"
+    },
+    "ascen_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  De ninguna manera pienso meterme ahí. Alejarte del ascensor",
+            "en": "🚶  No way am I getting in there. Step away from the elevator",
+            "fr": "🚶  Pas question que je monte là-dedans. Téloigner de lascenseur",
+            "it": "🚶  Non ho intenzione di entrare lì dentro. Allontanarti dall'ascensore",
+            "de": "🚶  Auf keinen Fall gehe ich da hinein. Sich vom Aufzug entfernen",
+            "zh": "🚶  绝对不进去。远离这台电梯",
+            "ja": "🚶  絶対にあそこに入る気はない。エレベーターから離れる"
+        },
+        "next": [
+            "ascen_msg_salir"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "ascen_msg_salir": {
+        "type": "message",
+        "text": {
+            "es": "Le das la espalda a la cabina y a su musiquilla y te alejas entre los escombros. A tu espalda, las puertas se cierran solas con un 'ding' cortés, como despidiéndose, o como diciendo 'otro día será'. No piensas averiguar qué hay en la planta cero. Puede que sea lo más listo que hagas hoy. Puede que solo te falten agallas para descender adonde ese botón quería llevarte.",
+            "en": "You turn your back on the cabin and its little tune and walk away through the rubble. Behind you, the doors close on their own with a polite 'ding', as if saying goodbye, or 'another day, then'. You have no intention of finding out what's on floor zero. Maybe that's the smartest thing you'll do today. Maybe you just lack the nerve to descend where that button wanted to take you.",
+            "fr": "Tu tournes le dos à la cabine et à sa petite musique et t'éloignes parmi les décombres. Derrière toi, les portes se referment d'elles-mêmes avec un « ding » poli, comme pour dire au revoir, ou « une autre fois peut-être ». Tu n'as aucune intention de découvrir ce qu'il y a à l'étage zéro. C'est peut-être la chose la plus intelligente que tu feras aujourd'hui. Ou peut-être que tu manques simplement du courage nécessaire pour descendre là où ce bouton voulait t'emmener.",
+            "it": "Dai le spalle alla cabina e alla sua musichetta e ti allontani tra le rovine. Dietro di te, le porte si chiudono da sole con un 'ding' cortese, come per salutare, o come dire 'sarà per un altro giorno'. Non hai intenzione di scoprire cosa ci sia al piano zero. Forse è la cosa più intelligente che farai oggi. Forse ti manca solo il coraggio di scendere dove quel bottone voleva portarti.",
+            "de": "Du kehrst der Kabine und ihrer kleinen Melodie den Rücken und gehst zwischen den Trümmern davon. Hinter dir schließen sich die Türen von selbst mit einem höflichen „Ding“, als würden sie sich verabschieden, oder als würden sie sagen „ein anderes Mal vielleicht“. Du hast nicht die Absicht, herauszufinden, was sich auf Stockwerk null befindet. Vielleicht ist das das Klügste, was du heute tun wirst. Vielleicht fehlt dir einfach der Mut, dorthin abzusteigen, wohin dieser Knopf dich bringen wollte.",
+            "zh": "你转身背对轿厢和它那段小曲，穿过废墟离开了。在你身后，门自动关闭，发出一声礼貌的「叮」声，仿佛在道别，或是在说「也许下次吧」。你没有打算去弄清楚零层里有什么。也许这是你今天做过的最聪明的事。也许你只是缺乏勇气，去到那个按钮想带你去的地方。",
+            "ja": "箱とその小曲に背を向け、瓦礫の間を去っていく。背後で扉は自動的に礼儀正しい「チン」という音とともに閉まる、まるで別れを告げるように、あるいは「またいつか」と言うように。0階に何があるのかを知るつもりはない。それは今日お前がする最も賢明なことかもしれない。あるいは、単にそのボタンが導こうとしていた場所へ下る勇気が欠けているだけなのかもしれない。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:valor=-1"
+    }
+}

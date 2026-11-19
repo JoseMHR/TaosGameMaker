@@ -1,0 +1,72 @@
+{
+    "name": {
+        "es": "Hoja Primordial de la Verdad",
+        "en": "Primordial Blade of Truth",
+        "fr": "Lame Primordiale de la Vérité",
+        "it": "Lama Primordiale della Verità",
+        "de": "Urklinge der Wahrheit",
+        "zh": "太初真理之刃",
+        "ja": "太古の真実の刃"
+    },
+    "desc": {
+        "es": "Artefacto legendario forjado en el Templo del Origen. Canaliza la resonancia pura de las cinco esferas en un filo celestial que rasga el tejido del tiempo y el espacio.",
+        "en": "Legendary artifact forged in the Primordial Temple. Channels the pure resonance of the five spheres into a celestial blade that cuts through time and space.",
+        "fr": "Artefact légendaire forgé au Temple de l'Origine. Canalise la résonance pure des cinq sphères en un fil céleste qui déchire le tissu du temps et de l'espace.",
+        "it": "Artefatto leggendario forgiato nel Tempio dell'Origine. Incanala la pura risonanza delle cinque sfere in un filo celeste che squarcia il tessuto di tempo e spazio.",
+        "de": "Legendäres Artefakt, geschmiedet im Tempel des Ursprungs. Kanalisiert die reine Resonanz der fünf Sphären in eine himmlische Klinge, die das Gewebe von Raum und Zeit durchschneidet.",
+        "zh": "在本源神庙锻造的传说神器。汇聚五球的纯粹共鸣，化为撕裂时空的天界之刃。",
+        "ja": "起源の神殿で鍛えられた伝説の遺物。五つの球の純粋な共鳴を、時空の織物を切り裂く天界の刃へと集束させる。"
+    },
+    "icon": "🌟",
+    "category": "equipment",
+    "usable": false,
+    "slot": "weapon",
+    "tier": 7,
+    "rarity": "legendary",
+    "element": "holy",
+    "bonuses": {
+        "str": 22,
+        "dex": 18,
+        "int": 18,
+        "vit": 16,
+        "agi": 12,
+        "luk": 10
+    },
+    "combat": {
+        "phys_damage": 280,
+        "mag_damage": 180,
+        "range_damage": 180
+    },
+    "traits": [
+        {
+            "type": "start_pa_bonus",
+            "value": 1,
+            "min_refine": 0,
+            "desc": "Inicia cada combate con +1 Punto de Acción (PA)"
+        },
+        {
+            "type": "element_attack",
+            "element": "holy",
+            "min_refine": 0,
+            "desc": "Ataques imbuidos en elemento Sagrado"
+        },
+        {
+            "type": "armor_penetration",
+            "value": 0.15,
+            "min_refine": 0,
+            "desc": "Ataques atraviesan un 15% de la Defensa enemiga"
+        },
+        {
+            "type": "crit_chance",
+            "value": 0.12,
+            "min_refine": 0,
+            "desc": "+12% Probabilidad de Crítico"
+        },
+        {
+            "type": "turn_regen_pct",
+            "value": 0.05,
+            "min_refine": 5,
+            "desc": "Regenera 5% HP y 5% MP al final de cada turno"
+        }
+    ]
+}

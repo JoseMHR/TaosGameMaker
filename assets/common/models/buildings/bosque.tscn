@@ -1,0 +1,83 @@
+[gd_scene format=3]
+
+[sub_resource type="StandardMaterial3D" id="Mat_TrunkWood"]
+albedo_color = Color(0.35, 0.22, 0.12, 1)
+roughness = 0.85
+
+[sub_resource type="StandardMaterial3D" id="Mat_PineFoliage"]
+albedo_color = Color(0.18, 0.42, 0.22, 1)
+roughness = 0.8
+
+[sub_resource type="CylinderMesh" id="Mesh_Trunk"]
+top_radius = 0.04
+bottom_radius = 0.05
+height = 0.32
+radial_segments = 8
+
+[sub_resource type="CylinderMesh" id="Mesh_FoliageLow"]
+top_radius = 0.0
+bottom_radius = 0.28
+height = 0.35
+radial_segments = 8
+
+[sub_resource type="CylinderMesh" id="Mesh_FoliageHigh"]
+top_radius = 0.0
+bottom_radius = 0.2
+height = 0.28
+radial_segments = 8
+
+[node name="Bosque" type="Node3D"]
+
+[node name="Tree_01" type="Node3D" parent="."]
+transform = Transform3D(1.8, 0, 0, 0, 1.8, 0, 0, 0, 1.8, -0.35, 0, -0.35)
+
+[node name="Trunk" type="MeshInstance3D" parent="Tree_01"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.16, 0)
+material_override = SubResource("Mat_TrunkWood")
+mesh = SubResource("Mesh_Trunk")
+
+[node name="FoliageLow" type="MeshInstance3D" parent="Tree_01"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.495, 0)
+material_override = SubResource("Mat_PineFoliage")
+mesh = SubResource("Mesh_FoliageLow")
+
+[node name="FoliageHigh" type="MeshInstance3D" parent="Tree_01"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.71, 0)
+material_override = SubResource("Mat_PineFoliage")
+mesh = SubResource("Mesh_FoliageHigh")
+
+[node name="Tree_02" type="Node3D" parent="."]
+transform = Transform3D(1.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5, 0.35, 0, -0.2)
+
+[node name="Trunk" type="MeshInstance3D" parent="Tree_02"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.16, 0)
+material_override = SubResource("Mat_TrunkWood")
+mesh = SubResource("Mesh_Trunk")
+
+[node name="FoliageLow" type="MeshInstance3D" parent="Tree_02"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.495, 0)
+material_override = SubResource("Mat_PineFoliage")
+mesh = SubResource("Mesh_FoliageLow")
+
+[node name="FoliageHigh" type="MeshInstance3D" parent="Tree_02"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.71, 0)
+material_override = SubResource("Mat_PineFoliage")
+mesh = SubResource("Mesh_FoliageHigh")
+
+[node name="Tree_03" type="Node3D" parent="."]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0.35)
+
+[node name="Trunk" type="MeshInstance3D" parent="Tree_03"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.16, 0)
+material_override = SubResource("Mat_TrunkWood")
+mesh = SubResource("Mesh_Trunk")
+
+[node name="FoliageLow" type="MeshInstance3D" parent="Tree_03"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.495, 0)
+material_override = SubResource("Mat_PineFoliage")
+mesh = SubResource("Mesh_FoliageLow")
+
+[node name="FoliageHigh" type="MeshInstance3D" parent="Tree_03"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.71, 0)
+material_override = SubResource("Mat_PineFoliage")
+mesh = SubResource("Mesh_FoliageHigh")

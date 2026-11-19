@@ -1,0 +1,147 @@
+﻿{
+    "id": "intro",
+    "title": {
+        "es": "Prólogo — El Origen del Continente",
+        "en": "Prologue — Origin of the Continent",
+        "fr": "Prologue — L'Origine du Continent",
+        "it": "Prologo — L'Origine del Continente",
+        "de": "Prolog — Der Ursprung des Kontinents",
+        "zh": "序幕——大陆的起源",
+        "ja": "プロローグ——大陸の起源"
+    },
+    "desc": "Cinemática de apertura: el éxodo de los dragones, las guerras humanas, el sacrificio de Samy y el encuentro con la Esfera de la Verdad.",
+    "music": "opening",
+    "on_finish": "end",
+    "slides": [
+        {
+            "bg": "bg_intro_1_exodo.png",
+            "speaker": {
+                "es": "Narrador",
+                "en": "Narrator",
+                "fr": "Narrateur",
+                "it": "Narratore",
+                "de": "Erzähler",
+                "zh": "旁白",
+                "ja": "ナレーター"
+            },
+            "portrait": "",
+            "text": {
+                "es": "Hace eras, antes de que los mapas tuvieran nombre, los dragones señores del cielo fueron cazados sin tregua en el viejo mundo. Para salvar a su linaje, huyeron a través del océano infinito hasta un continente virgen y remoto, donde la humanidad aún no había puesto un pie.",
+                "en": "Ages ago, before maps bore names, the dragon lords of the skies were hunted without mercy across the old world. To preserve their kin, they fled across an endless ocean to an untouched and distant continent, where humanity had never set foot.",
+                "fr": "Il y a des siècles, avant même que les cartes ne portent de noms, les dragons seigneurs des cieux étaient traqués sans répit dans l'ancien monde. Pour sauver leur lignée, ils s'enfuirent par-delà l'océan infini vers un continent vierge et lointain, où l'humanité n'avait encore jamais posé le pied.",
+                "it": "Ere fa, prima che le mappe avessero un nome, i draghi signori del cielo venivano cacciati senza sosta nel vecchio mondo. Per salvare la loro stirpe, fuggirono oltre l'oceano infinito verso un continente vergine e remoto, dove l'umanità non aveva ancora mai messo piede.",
+                "de": "Vor Äonen, noch ehe die Karten Namen trugen, wurden die Drachenherren des Himmels in der alten Welt unerbittlich gejagt. Um ihre Sippe zu retten, flohen sie über den endlosen Ozean zu einem unberührten, fernen Kontinent, den noch kein Mensch je betreten hatte.",
+                "zh": "很久以前，在地图尚未有名字的古老纪元，天空的主宰——巨龙族在旧大陆遭到了无休止的捕杀。为了延续血脉，巨龙们横跨无垠的海洋，逃向一片人类足迹从未踏足过的遥远而原始的大陆。",
+                "ja": "遙かなる昔、地図に名さえ無かった時代、空の支配者たる龍たちは旧世界で容赦なき狩りに晒されていた。血脈を守るため、彼らは果てなき大海原を渡り、いまだ人類の足跡一つない手つかずの孤高の大陸へと逃れた。"
+            },
+            "fx": {
+                "darken": 0.25,
+                "glow": 0.3
+            }
+        },
+        {
+            "bg": "bg_intro_2_llegada.png",
+            "speaker": {
+                "es": "Narrador",
+                "en": "Narrator",
+                "fr": "Narrateur",
+                "it": "Narratore",
+                "de": "Erzähler",
+                "zh": "旁白",
+                "ja": "ナレーター"
+            },
+            "portrait": "",
+            "text": {
+                "es": "Los siglos pasaron, y con ellos llegaron los primeros barcos de exploradores humanos. Eran pocos, frágiles y temerosos. Los dragones, compasivos y sabios, decidieron tolerar su presencia y compartir las tierras, siempre que respetaran la paz de las montañas.",
+                "en": "Centuries drifted by, and with them came the first ships of human explorers. They were few, fragile, and fearful. The dragons, compassionate and wise, chose to tolerate their presence and share the soil, as long as the peace of the peaks remained sacred.",
+                "fr": "Les siècles passèrent, et avec eux arrivèrent les premiers navires d'explorateurs humains. Ils étaient peu nombreux, fragiles et craintifs. Les dragons, compatissants et sages, décidèrent de tolérer leur présence et de partager leurs terres, tant qu'ils respectaient la paix des cimes.",
+                "it": "I secoli scivolarono via, e con essi giunsero le prime navi di esploratori umani. Erano pochi, fragili e timorosi. I draghi, compassionevoli e saggi, scelsero di tollerarne la presenza e condividere la terra, purché la pace delle vette restasse intatta.",
+                "de": "Jahrhunderte zogen ins Land, und mit ihnen erreichten die ersten Schiffe menschlicher Entdecker die Küsten. Sie waren wenige, verletzlich und voller Furcht. Die weisen Drachen duldeten ihre Anwesenheit und teilten das Land, solange der Friede der Berge gewahrt blieb.",
+                "zh": "时光飞逝，人类探险者的第一批木船终于漂洋过海抵达这片海岸。他们弱小、稀少且充满恐惧。仁慈而充满智慧的巨龙们默许了他们的定居，只要他们不打破群山的宁静，便与他们共享这片沃土。",
+                "ja": "やがて幾世紀が過ぎ、人類の探検船が初めてその海岸に辿り着いた。彼らは脆く、数も少なく、怯えていた。慈悲深く賢明な龍たちは、山々の静寂を乱さぬ限りにおいて、彼らの定住を黙認し大地を分かち合うことを選んだ。"
+            },
+            "fx": {
+                "darken": 0.25
+            }
+        },
+        {
+            "bg": "bg_intro_3_barrera.png",
+            "speaker": {
+                "es": "Samy, la Matriarca",
+                "en": "Samy, the Matriarch",
+                "fr": "Samy, la Matriarche",
+                "it": "Samy, la Matriarca",
+                "de": "Samy, die Matriarchin",
+                "zh": "萨米，巨龙族母",
+                "ja": "サーミー、龍の母"
+            },
+            "portrait": "",
+            "text": {
+                "es": "Pero la codicia humana no tardó en brotar. Estallaron cruentas guerras fratricidas que amenazaban con devastar el continente. Para salvarlos de su propia autodestrucción, la dragona Samy agotó su fuerza vital levantando colosales barreras mágicas que dividieron las regiones... dejándola exhausta y atrapada en su santuario.",
+                "en": "Yet human greed was swift to awaken. Cruel, fratricidal wars erupted, threatening to ravage the continent. To save mankind from its own demise, the great dragon Samy expended nearly all her life force to raise colossal magical barriers that split the lands apart... leaving her weakened and confined to her sanctum.",
+                "fr": "Mais la cupidité humaine ne tarda pas à s'éveiller. Des guerres fratricides et sanglantes éclatèrent, menaçant de ravager le continent. Pour les sauver de leur propre autodestruction, la grande dragonne Samy épuisa presque toute sa force vitale en érigeant d'immenses barrières magiques qui scellèrent les régions... la laissant affaiblie et captive de son propre sanctuaire.",
+                "it": "Ma l'ingordigia umana non tardò a divampare. Scoppiarono crudeli guerre intestine che minacciavano di divorare il continente. Per salvarli dalla loro stessa rovina, la grande dragonessa Samy prosciugò la sua linfa vitale innalzando colossali barriere magiche che divisero le terre... restando sfinita e prigioniera del suo stesso santuario.",
+                "de": "Doch die menschliche Gier ließ nicht lange auf sich warten. Grausame Kriege brachen aus und drohten das Land zu vernichten. Um die Menschen vor ihrer eigenen Zerstörung zu bewahren, opferte die Drachenmatriarchin Samy ihre Lebenskraft und schuf gewaltige magische Barrieren, die das Land trennten... und sie entkräftet in ihrem Heiligtum zurückließen.",
+                "zh": "然而，人类的贪婪终究撕裂了和平。残酷的同胞内战席卷各地，整座大陆危在旦夕。为了阻止人类自取灭亡，巨龙族母萨米耗尽了近乎全部的生命能量，拔地升起万丈魔法结界，将各个疆域彻底隔绝……而她自己也因力量枯竭，永远被困于深邃的圣所之中。",
+                "ja": "しかし、人間の果てなき欲望はやがて争いを生んだ。同胞相食む血みどろの戦火が大陸を覆い尽くそうとした時、龍の母サーミーは人類の自滅を食い止めるべく、その生命力のほとんどを注ぎ込んで大地を隔絶する巨大な結界を張り巡らせた……その代償として、彼女は力を失い聖域へと囚われることとなった。"
+            },
+            "fx": {
+                "darken": 0.35,
+                "glow": 0.45,
+                "shake": 0.15
+            }
+        },
+        {
+            "bg": "bg_intro_4_pacto.png",
+            "speaker": {
+                "es": "Samy, la Matriarca",
+                "en": "Samy, the Matriarch",
+                "fr": "Samy, la Matriarche",
+                "it": "Samy, la Matriarca",
+                "de": "Samy, die Matriarchin",
+                "zh": "萨米，巨龙族母",
+                "ja": "サーミー、龍の母"
+            },
+            "portrait": "",
+            "text": {
+                "es": "Sin energía para alzar el vuelo ni abandonar su lecho de piedra, la dragona encomendó su mayor tesoro a dos eruditos humanos que habían naufragado en sus costas: les pidió ayudar a nacer a su sobrino, llevando e incubando el último huevo de dragón en las profundidades del Templo Ancestral.",
+                "en": "Lacking the energy to take flight or leave her stone lair, the dragon entrusted her most precious treasure to two human scholars whose vessel had wrecked upon her shores: she tasked them with helping her nephew hatch, carrying and incubating the last dragon egg deep within the Ancestral Temple.",
+                "fr": "Privée de force pour reprendre son envol ou quitter son lit de pierre, la dragonne confia son plus grand trésor à deux érudits humains dont le navire venait de faire naufrage sur ses côtes : elle leur demanda de faire éclore son neveu, en portant et couvant le dernier œuf de dragon au cœur du Temple Ancestral.",
+                "it": "Senza forze per spiccare il volo né abbandonare il giaciglio di pietra, la dragonessa affidò il suo bene più prezioso a due studiosi umani naufragati sulle sue rive: chiese loro di aiutare suo nipote a venire alla luce, portando e covando l'ultimo uovo di drago nel Tempio Ancestrale.",
+                "de": "Zu schwach, um sich je wieder in die Lüfte zu erheben, vertraute die Drachendame ihren kostbarsten Schatz zwei schiffbrüchigen Forschern an: Sie sollten ihrem Neffen auf die Welt helfen, indem sie das letzte Drachenei in den Tiefen des Ahnenheiligtums ausbrüteten.",
+                "zh": "她已衰弱到无法再展翅翱翔，更无力离开石窟。绝望中，巨龙将族群唯一的希望托付给在海难中幸存的两名人类学者：恳求他们守护最后的龙蛋，将其带往远古圣殿的深处悉心孵化。",
+                "ja": "もはや空へ飛び立つ力も、石の寝床を離れる力も残されていなかった彼女は、難破して岸辺に打ち上げられた二人の人間の学者に、一族最後の宝を託した。その使命とは、いにしえの神殿の奥底へと最後の龍の卵を運び、甥の孵化を見届けることであった。"
+            },
+            "fx": {
+                "darken": 0.3
+            }
+        },
+        {
+            "bg": "bg_intro_5_traicion.png",
+            "speaker": {
+                "es": "La Esfera de la Verdad",
+                "en": "The Sphere of Truth",
+                "fr": "La Sphère de la Vérité",
+                "it": "La Sfera della Verità",
+                "de": "Die Sphäre der Wahrheit",
+                "zh": "真理之球",
+                "ja": "真実の球"
+            },
+            "portrait": "",
+            "text": {
+                "es": "Pero en el templo, deslumbrados por la mítica Esfera de la Verdad y su manantial de conocimientos infinitos, la reverencia se transformó en codicia. Lo que aquellos hombres desataron cobró vidas inocentes y fracturó la realidad... sumiendo a uno de ellos en un laberinto del que solo la verdad podrá despertarlo.",
+                "en": "Yet within the temple, bedazzled by the mythical Sphere of Truth and its spring of boundless knowledge, reverence twisted into greed. What those men unleashed claimed innocent lives and fractured reality itself... plunging one of them into a mental labyrinth from which only truth can awaken him.",
+                "fr": "Mais au cœur du temple, éblouis par la mythique Sphère de la Vérité et sa source de connaissances infinies, la vénération céda la place à la convoitise. Ce que ces hommes déclenchèrent coûta des vies innocentes et fractura la réalité... plongeant l'un d'eux dans un labyrinthe dont seule la vérité pourra le réveiller.",
+                "it": "Ma nel tempio, abbagliati dalla mitica Sfera della Verità e dalla sua fonte di conoscenza infinita, la riverenza mutò in bramosia. Ciò che quegli uomini scatenarono spezzò vite innocenti e incrinò la realtà stessa... facendo precipitare uno di loro in un labirinto dal quale solo la verità potrà destarlo.",
+                "de": "Doch im Heiligtum, geblendet von der mythischen Sphäre der Wahrheit und ihrem Brunnen unendlichen Wissens, verwandelte sich Ehrfurcht in Begierde. Was diese Männer entfesselten, forderte unschuldige Leben und zerriss die Wirklichkeit... und stürzte einen von ihnen in ein Labyrinth, aus dem nur die Wahrheit ihn wecken kann.",
+                "zh": "然而在神殿的核心，面对散发着无尽真理与禁忌智慧的古老真理之球，敬畏终究沦为了贪婪。这两个男人的决定夺走了至亲无辜的生命，撕裂了现实的帷幕……也将其中一人打入了无尽的心理迷宫，唯有面对血淋淋的真相，他方能从中觉醒。",
+                "ja": "だが神殿の奥底で、無限の英知を湛えた伝説の『真実の球』を前にした時、敬虔の念は底なしの渇望へと変わった。彼らの選択は罪なき命を奪い、現実そのものを砕いた……そして男の一人を、真実と向き合うことでしか目覚めることのできない精神の迷宮へと叩き落としたのである。"
+            },
+            "fx": {
+                "darken": 0.35,
+                "glow": 0.6,
+                "sfx": "magic_bell"
+            }
+        }
+    ]
+}

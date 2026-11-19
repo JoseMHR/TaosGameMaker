@@ -1,0 +1,32 @@
+{
+    "id": "poi_sylphrena_transportista",
+    "type": "poi",
+    "name": {
+        "es": "Transportista",
+        "en": "Transporter",
+        "fr": "Transporteur",
+        "it": "Trasportatore",
+        "de": "Transporteur",
+        "zh": "运输者",
+        "ja": "運び屋"
+    },
+    "icon": "🚚",
+    "desc": {
+        "es": "Viaja a otras ciudades ya visitadas, a cambio de oro",
+        "en": "Travels to other visited cities, for gold",
+        "fr": "Voyage vers d'autres villes déjà visitées, contre de l'or",
+        "it": "Viaggia verso altre città già visitate, in cambio di oro",
+        "de": "Reist gegen Gold zu anderen bereits besuchten Städten",
+        "zh": "花费金币，前往已探索过的其他城市",
+        "ja": "金貨と引き換えに、訪れたことのある他の街へ移動する"
+    },
+    "kind": "transport",
+    "presences": [
+        {
+            "condition": "default",
+            "actor": "poi_sylphrena_transportista",
+            "entry_node": ""
+        }
+    ],
+    "bg": "bg_city_sylphrena_transportista.png"
+}

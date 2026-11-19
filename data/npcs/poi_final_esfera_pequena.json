@@ -1,0 +1,120 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "La Esfera Pequeña",
+            "en": "The Small Sphere",
+            "fr": "La Petite Sphère",
+            "it": "La Piccola Sfera",
+            "de": "Die Kleine Sphäre",
+            "zh": "小球体",
+            "ja": "小さな球"
+        },
+        "next": [],
+        "reward": "bg=0.06,0.05,0.09"
+    },
+    "esf_root": {
+        "type": "message",
+        "text": {
+            "es": "Sobre un pedestal de hueso flota una de las cuatro esferas robadas, del tamaño de una manzana, latiendo con una luz suave que se acompasa a los latidos de tu corazón. Es hermosa. Es cálida. Susurra promesas sin palabras: 'Tócame y lo entenderás todo. Tócame y no tendrás que sentir. Tócame, como aquella vez, como ella hizo, como haces siempre.' Sabes que este objeto lo empezó todo, y sabes que una parte de ti todavía lo desea.",
+            "en": "On a pedestal of bone floats one of the four stolen spheres, the size of an apple, pulsing with a soft light that falls into time with your heartbeat. It is beautiful. It is warm. It whispers wordless promises: 'Touch me and you'll understand everything. Touch me and you won't have to feel. Touch me, like that time, like she did, like you always do.' You know this object began it all, and you know a part of you still wants it.",
+            "fr": "Sur un piédestal d'os flotte l'une des quatre sphères volées, de la taille d'une pomme, palpitant d'une lumière douce qui se cale sur les battements de ton cœur. Elle est belle. Elle est chaude. Elle murmure des promesses sans mots : « Touche-moi et tu comprendras tout. Touche-moi et tu n'auras plus à ressentir. Touche-moi, comme cette fois-là, comme elle l'a fait, comme tu le fais toujours. » Tu sais que cet objet a tout commencé, et tu sais qu'une partie de toi le désire encore.",
+            "it": "Su un piedistallo d'osso fluttua una delle quattro sfere rubate, grande come una mela, pulsando con una luce soffusa che si sincronizza con i battiti del tuo cuore. È bella. È calda. Sussurra promesse senza parole: 'Toccami e capirai tutto. Toccami e non dovrai più sentire. Toccami, come quella volta, come fece lei, come fai sempre.' Sai che questo oggetto ha iniziato tutto, e sai che una parte di te lo desidera ancora.",
+            "de": "Auf einem Sockel aus Knochen schwebt eine der vier gestohlenen Sphären, so groß wie ein Apfel, pulsierend mit einem sanften Licht, das sich dem Schlag deines Herzens anpasst. Sie ist schön. Sie ist warm. Sie flüstert wortlose Versprechen: „Berühre mich und du wirst alles verstehen. Berühre mich und du musst nichts mehr fühlen. Berühre mich, wie damals, wie sie es tat, wie du es immer tust.“ Du weißt, dass dieser Gegenstand alles begann, und du weißt, dass ein Teil von dir ihn immer noch begehrt.",
+            "zh": "在一座骨制底座上，漂浮着四颗被盗球体之一，大小如苹果，散发着与你心跳同步的柔光。它很美。它很温暖。它低语着无言的承诺：「触碰我，你就会明白一切。触碰我，你就不必再去感受。触碰我，就像那一次，就像她曾做过的，就像你一直在做的。」你知道，正是这件东西开启了这一切，你也知道，你内心的一部分仍然渴望着它。",
+            "ja": "骨の台座の上に、盗まれた四つの球のひとつが、リンゴほどの大きさで浮かんでいる。お前の心拍に合わせて、柔らかな光が脈打っている。美しい。温かい。言葉のない約束を囁いてくる——「私に触れれば、すべてを理解できる。私に触れれば、もう何も感じずに済む。私に触れろ、あの時のように、彼女がしたように、お前がいつもしているように」。この物がすべての始まりだったとお前は知っている。そして、お前の中の一部が今もそれを望んでいることも知っている。"
+        },
+        "next": [
+            "esf_opt_resistir",
+            "esf_opt_tocar",
+            "esf_opt_salir"
+        ],
+        "reward": ""
+    },
+    "esf_opt_resistir": {
+        "type": "option",
+        "text": {
+            "es": "✊  Apartar la mano y resistir su llamada",
+            "en": "✊  Pull your hand back and resist its call",
+            "fr": "✊  Retirer ta main et résister à son appel",
+            "it": "✊  Ritirare la mano e resistere al suo richiamo",
+            "de": "✊  Die Hand zurückziehen und ihrem Ruf widerstehen",
+            "zh": "✊  收回手，抵抗它的召唤",
+            "ja": "✊  手を引き、その誘いに抗う"
+        },
+        "next": [
+            "esf_msg_resistir"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "esf_msg_resistir": {
+        "type": "message",
+        "text": {
+            "es": "Cierras el puño y lo apartas del brillo. 'No', dices en voz alta, y la palabra retumba por el abismo. 'Ya te toqué una vez, y me lo quitaste todo. No vuelvo a caer.' La esfera palpita más deprisa, ofendida, y luego se apaga hasta quedar en un rescoldo tenue. Por primera vez has mirado a la tentación que arruinó tu vida y le has dicho que no. La mano te tiembla, pero el pecho se te ensancha con algo parecido al orgullo.",
+            "en": "You clench your fist and pull it from the glow. 'No,' you say aloud, and the word echoes across the abyss. 'I touched you once, and you took everything from me. I won't fall again.' The sphere pulses faster, offended, then dims to a faint ember. For the first time you have looked at the temptation that ruined your life and told it no. Your hand shakes, but your chest swells with something like pride.",
+            "fr": "Tu serres le poing et l'éloignes de la lueur. « Non », dis-tu à voix haute, et le mot résonne dans l'abîme. « Je t'ai déjà touchée une fois, et tu m'as tout pris. Je ne retomberai pas. » La sphère palpite plus vite, offensée, puis s'éteint jusqu'à n'être qu'une faible braise. Pour la première fois, tu as regardé la tentation qui a ruiné ta vie et tu lui as dit non. Ta main tremble, mais ta poitrine se gonfle de quelque chose qui ressemble à de la fierté.",
+            "it": "Chiudi il pugno e lo allontani dal bagliore. 'No', dici a voce alta, e la parola rimbomba nell'abisso. 'Ti ho già toccata una volta, e mi hai tolto tutto. Non ricado più.' La sfera pulsa più veloce, offesa, poi si spegne fino a rimanere un debole ardore. Per la prima volta hai guardato in faccia la tentazione che ha rovinato la tua vita e le hai detto di no. La mano ti trema, ma il petto si gonfia di qualcosa simile all'orgoglio.",
+            "de": "Du ballst die Faust und ziehst sie vom Schein weg. „Nein“, sagst du laut, und das Wort hallt durch den Abgrund. „Ich habe dich schon einmal berührt, und du hast mir alles genommen. Ich falle nicht wieder.“ Die Sphäre pulsiert schneller, beleidigt, und erlischt dann zu einer schwachen Glut. Zum ersten Mal hast du der Versuchung, die dein Leben ruiniert hat, ins Gesicht gesehen und Nein gesagt. Deine Hand zittert, aber deine Brust schwillt mit etwas an, das Stolz ähnelt.",
+            "zh": "你握紧拳头，将它从光芒中拉开。「不」，你大声说道，这个字在深渊中回荡。「我已经触碰过你一次，你夺走了我的一切。我不会再堕落了。」球体因被冒犯而加快了搏动，随后暗淡下去，只剩一点微弱的余光。这是你第一次直面那个毁了你人生的诱惑，并对它说不。你的手在颤抖，但胸中涌起一种近似骄傲的感觉。",
+            "ja": "拳を握りしめ、その輝きから引き離す。「いや」お前は声に出して言う。その言葉が深淵に響き渡る。「一度お前に触れて、すべてを奪われた。もう二度と堕ちはしない」。球は気分を害したように速く脈打ち、やがて弱い残り火にまで消えていく。初めて、お前は自分の人生を台無しにした誘惑と向き合い、それに「否」と告げた。手は震えているが、胸には誇りに似た何かが満ちてくる。"
+        },
+        "next": [
+            "esf_opt_salir"
+        ],
+        "reward": "faceta:valor=+1;faceta:cordura=+1;gflag:esf_resistida",
+        "condition": "no_gflag(\"esf_resistida\") and no_gflag(\"esf_tocada\")",
+        "once": true
+    },
+    "esf_opt_tocar": {
+        "type": "option",
+        "text": {
+            "es": "🖐️  Tocar la esfera una vez más",
+            "en": "🖐️  Touch the sphere one more time",
+            "fr": "🖐️  Toucher la sphère une fois de plus",
+            "it": "🖐️  Toccare la sfera un'altra volta",
+            "de": "🖐️  Die Sphäre noch einmal berühren",
+            "zh": "🖐️  再次触碰球体",
+            "ja": "🖐️  もう一度球に触れる"
+        },
+        "next": [
+            "esf_msg_tocar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "esf_msg_tocar": {
+        "type": "message",
+        "text": {
+            "es": "No puedes evitarlo. Extiendes la mano y rozas la superficie tibia. Un torrente de saber prohibido y de recuerdos ajenos te inunda el cráneo, embriagador y venenoso a la vez, y por un instante el dolor desaparece bajo una euforia fría. Pero cuando retiras la mano, el vacío regresa el doble de hondo, y sabes que acabas de repetir, aquí, en tu propia mente, el gesto exacto que te condenó. Algunas lecciones cuesta una vida aprenderlas, y a veces ni así.",
+            "en": "You can't help it. You reach out and brush the warm surface. A torrent of forbidden knowledge and other people's memories floods your skull, intoxicating and poisonous at once, and for an instant the pain vanishes beneath a cold euphoria. But when you pull your hand away, the emptiness returns twice as deep, and you know you've just repeated, here, in your own mind, the exact gesture that damned you. Some lessons take a lifetime to learn, and sometimes not even then.",
+            "fr": "Tu ne peux pas t'en empêcher. Tu tends la main et frôles la surface tiède. Un torrent de savoir interdit et de souvenirs étrangers t'inonde le crâne, à la fois enivrant et vénéneux, et pendant un instant la douleur disparaît sous une euphorie froide. Mais quand tu retires ta main, le vide revient deux fois plus profond, et tu sais que tu viens de répéter, ici, dans ton propre esprit, exactement le geste qui t'a condamné. Certaines leçons prennent une vie entière à apprendre, et parfois même pas.",
+            "it": "Non riesci a evitarlo. Allunghi la mano e sfiori la superficie tiepida. Un torrente di sapere proibito e di ricordi altrui ti inonda il cranio, inebriante e velenoso al tempo stesso, e per un istante il dolore scompare sotto una fredda euforia. Ma quando ritiri la mano, il vuoto ritorna doppiamente profondo, e sai di aver appena ripetuto, qui, nella tua stessa mente, il gesto esatto che ti ha condannato. Alcune lezioni richiedono una vita intera da imparare, e a volte nemmeno quella basta.",
+            "de": "Du kannst nicht anders. Du streckst die Hand aus und streifst die warme Oberfläche. Ein Strom verbotenen Wissens und fremder Erinnerungen überflutet deinen Schädel, berauschend und giftig zugleich, und für einen Moment verschwindet der Schmerz unter einer kalten Euphorie. Doch als du die Hand zurückziehst, kehrt die Leere doppelt so tief zurück, und du weißt, dass du gerade hier, in deinem eigenen Geist, genau die Geste wiederholt hast, die dich verdammte. Manche Lektionen brauchen ein ganzes Leben zu lernen, und manchmal nicht einmal das.",
+            "zh": "你无法克制自己。你伸出手，轻轻拂过温暖的表面。一股禁忌的知识与他人的记忆瞬间涌入你的脑海，既令人陶醉又带着毒性，一瞬间，痛苦在冰冷的狂喜中消失了。但当你缩回手时，空虚感加倍地涌了回来，你知道自己刚刚在这里，在自己的意识中，重演了那个曾经毁了你的动作。有些教训需要用一生去学习，而有时候，用一生也未必够。",
+            "ja": "抑えきれない。手を伸ばし、その温かい表面に触れる。禁じられた知識と他人の記憶の奔流が頭蓋に押し寄せ、陶酔的でありながら毒のようでもある。一瞬、痛みが冷たい多幸感の下に消える。だが手を離した瞬間、空虚さが二倍の深さで戻ってくる。今、自分の心の中で、まさにお前を破滅させたあの仕草を繰り返してしまったのだと悟る。学ぶのに一生を要する教訓もあれば、一生かけても学べない教訓もある。"
+        },
+        "next": [
+            "esf_opt_salir"
+        ],
+        "reward": "faceta:cordura=-1;gflag:esf_tocada",
+        "condition": "no_gflag(\"esf_resistida\") and no_gflag(\"esf_tocada\")",
+        "once": true
+    },
+    "esf_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Alejarte del pedestal",
+            "en": "🚶  Step away from the pedestal",
+            "fr": "🚶  S'éloigner du piédestal",
+            "it": "🚶  Allontanarsi dal piedistallo",
+            "de": "🚶  Sich vom Sockel entfernen",
+            "zh": "🚶  离开底座",
+            "ja": "🚶  台座から離れる"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

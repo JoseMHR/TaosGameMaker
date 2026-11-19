@@ -1,0 +1,31 @@
+{
+    "name": {
+        "es": "Arco de Madera",
+        "en": "Wooden Bow",
+        "fr": "Arc de Bois",
+        "it": "Arco di Legno",
+        "de": "Holzbogen",
+        "zh": "木弓",
+        "ja": "木の弓"
+    },
+    "desc": {
+        "es": "Un arco sencillo tallado a mano. Suficiente para empezar a cazar.",
+        "en": "A simple hand-carved bow. Enough to start hunting.",
+        "fr": "Un arc simple sculpté à la main. Suffisant pour commencer à chasser.",
+        "it": "Un arco semplice intagliato a mano. Sufficiente per iniziare a cacciare.",
+        "de": "Ein einfacher, handgeschnitzter Bogen. Genug, um mit der Jagd zu beginnen.",
+        "zh": "简单的手工雕刻弓，足以开始狩猎。",
+        "ja": "手彫りのシンプルな弓。狩りを始めるには十分。"
+    },
+    "icon": "🏹",
+    "category": "equipment",
+    "usable": false,
+    "slot": "weapon",
+    "tier": 1,
+    "bonuses": {
+        "dex": 2
+    },
+    "combat": {
+        "range_damage": 15
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "synergies": [
+        { "profession": "Guerrero", "required_ids": ["war_slash", "war_heavy_slash"], "result_id": "war_cross_slash" },
+        { "profession": "Guerrero", "required_ids": ["war_guard_stance", "war_counter"], "result_id": "war_perfect_guard" },
+        { "profession": "Guerrero", "required_ids": ["war_shield_bash", "war_armor_break"], "result_id": "war_shield_crusher" },
+
+        { "profession": "Tiempo", "required_ids": ["tm_quick", "tm_haste"], "result_id": "tm_time_surge" },
+        { "profession": "Tiempo", "required_ids": ["tm_slow", "tm_stop"], "result_id": "tm_frozen_time" },
+        { "profession": "Tiempo", "required_ids": ["tm_delay", "tm_rewind"], "result_id": "tm_temporal_loop" },
+
+        { "profession": "Arquero", "required_ids": ["arc_arrow_shot", "arc_aim"], "result_id": "arc_sniper_shot" },
+        { "profession": "Arquero", "required_ids": ["arc_double_shot", "arc_poison_arrow"], "result_id": "arc_venom_barrage" },
+        { "profession": "Arquero", "required_ids": ["arc_hunter_focus", "arc_rain_of_arrows"], "result_id": "arc_death_rain" },
+
+        { "profession": "Psíquico", "required_ids": ["psy_mind_strike", "psy_focus"], "result_id": "psy_mind_burst" },
+        { "profession": "Psíquico", "required_ids": ["psy_telekinesis", "psy_gravity"], "result_id": "psy_psychic_collapse" },
+        { "profession": "Psíquico", "required_ids": ["psy_confusion", "psy_mind_break"], "result_id": "psy_mind_shatter" },
+
+        { "profession": "Elementalista", "required_ids": ["ele_fire_1", "ele_wind_1"], "result_id": "ele_lightning" },
+        { "profession": "Elementalista", "required_ids": ["ele_fire_1", "ele_earth_1"], "result_id": "ele_magma" },
+        { "profession": "Elementalista", "required_ids": ["ele_fire_1", "ele_water_1"], "result_id": "ele_steam" },
+        { "profession": "Elementalista", "required_ids": ["ele_water_1", "ele_wind_1"], "result_id": "ele_ice" },
+        { "profession": "Elementalista", "required_ids": ["ele_water_1", "ele_earth_1"], "result_id": "ele_nature" },
+        { "profession": "Elementalista", "required_ids": ["ele_earth_1", "ele_wind_1"], "result_id": "ele_sandstorm" },
+
+        { "profession": "Elementalista", "required_ids": ["ele_fire_2", "ele_wind_2"], "result_id": "ele_lightning" },
+        { "profession": "Elementalista", "required_ids": ["ele_fire_2", "ele_earth_2"], "result_id": "ele_magma" },
+        { "profession": "Elementalista", "required_ids": ["ele_fire_2", "ele_water_2"], "result_id": "ele_steam" },
+        { "profession": "Elementalista", "required_ids": ["ele_water_2", "ele_wind_2"], "result_id": "ele_ice" },
+        { "profession": "Elementalista", "required_ids": ["ele_water_2", "ele_earth_2"], "result_id": "ele_nature" },
+        { "profession": "Elementalista", "required_ids": ["ele_earth_2", "ele_wind_2"], "result_id": "ele_sandstorm" },
+
+        { "profession": "Sacerdote", "required_ids": ["pri_heal", "pri_blessing"], "result_id": "pri_holy_grace" },
+        { "profession": "Sacerdote", "required_ids": ["pri_holy_light", "pri_holy_spear"], "result_id": "pri_judgement" },
+        { "profession": "Sacerdote", "required_ids": ["pri_protect", "pri_shell"], "result_id": "pri_divine_fortress" }
+    ]
+}

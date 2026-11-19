@@ -1,0 +1,709 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Concilio de las Ranas",
+            "en": "The Council of Frogs",
+            "fr": "Le Conseil des Grenouilles",
+            "it": "Il Concilio delle Rane",
+            "de": "Der Froschrat",
+            "zh": "青蛙议会",
+            "ja": "カエルの評議会"
+        },
+        "next": [],
+        "reward": "avatar=🐸;bg=0.06,0.09,0.06"
+    },
+    "entry": {
+        "type": "flow",
+        "next": [
+            "rana_hub_ally",
+            "rana_hub_first"
+        ]
+    },
+    "rana_hub_first": {
+        "type": "message",
+        "condition": "default",
+        "text": {
+            "es": "Un charco de barro apenas más grande que un escudo alberga toda una monarquía. En el centro, sobre una piedra-trono, se hincha una rana descomunal con una diminuta corona de junco torcida. A su alrededor, una docena de súbditos croan al unísono en lo que parece un himno nacional. La gran rana te contempla con la severidad de un monarca que exige pleitesía.",
+            "en": "A mud puddle barely bigger than a shield houses an entire monarchy. At its center, upon a throne-stone, swells a colossal frog wearing a tiny crooked crown of reed. Around it, a dozen subjects croak in unison in what seems a national anthem. The great frog regards you with the severity of a monarch demanding fealty.",
+            "fr": "Une flaque de boue à peine plus grande qu'un bouclier abrite toute une monarchie. En son centre, sur une pierre-trône, se gonfle une grenouille colossale coiffée d'une minuscule couronne de jonc tordue. Autour d'elle, une douzaine de sujets coassent à l'unisson dans ce qui semble être un hymne national. La grande grenouille te contemple avec la sévérité d'un monarque exigeant l'allégeance.",
+            "it": "Una pozzanghera di fango appena più grande di uno scudo ospita un'intera monarchia. Al centro, su una pietra-trono, si gonfia una rana colossale con una minuscola corona di giunco storta. Intorno a lei, una dozzina di sudditi gracidano all'unisono in quello che sembra un inno nazionale. La grande rana ti osserva con la severità di un monarca che esige omaggio.",
+            "de": "Eine Schlammpfütze, kaum größer als ein Schild, beherbergt eine ganze Monarchie. In der Mitte, auf einem Thronstein, bläht sich eine kolossale Kröte mit einer winzigen, schiefen Schilfkrone auf. Um sie herum quaken ein Dutzend Untertanen unisono in etwas, das wie eine Nationalhymne klingt. Die große Kröte betrachtet dich mit der Strenge eines Monarchen, der Treue verlangt.",
+            "zh": "一个几乎不比盾牌大的泥坑里，坐落着一整个王朝。中央的一块王座石上，鼓着一只戴着歪斜灯芯草小王冠的巨大青蛙。它周围，十几个臣民齐声鸣叫，听起来像是一首国歌。这只大青蛙以要求效忠的君主般的威严注视着你。",
+            "ja": "盾ほどの大きさもない泥だまりが、一つの王国全体を宿している。中央の玉座の石の上で、曲がった小さな葦の冠をかぶった巨大なカエルが体を膨らませている。その周りでは十二匹の臣民が国歌のように一斉に鳴いている。この巨大なカエルは、忠誠を要求する君主のような厳格さでお前を見つめている。"
+        },
+        "next": [
+            "rana_opt_tributo",
+            "rana_opt_lodo",
+            "rana_opt_carrera_first",
+            "rana_opt_himno_first",
+            "rana_opt_reverencia_first",
+            "rana_opt_discurso",
+            "rana_opt_salir"
+        ],
+        "reward": ""
+    },
+    "rana_hub_ally": {
+        "type": "message",
+        "condition": "gflag(\"rana_tributo\")",
+        "text": {
+            "es": "El Rey Rana infla su papada verde brillante al reconocerte. Un croar solemne recorre la corte: eres un ilustre 'Amigo del Charco', el honor anfibio más excelso (mientras no pises una rana). El monarca inclina su corona de junco, esperando tus asuntos en la corte.",
+            "en": "The Frog King puffs his bright green throat as he recognizes you. A solemn croak ripples through the court: you are an illustrious 'Friend of the Puddle', the highest amphibian honor (as long as you never step on a frog). The monarch tilts his reed crown, awaiting your court business.",
+            "fr": "Le Roi Grenouille gonfle son fanon vert éclatant en te reconnaissant. Un coassement solennel parcourt la cour : tu es un illustre « Ami de la Mare », le plus haut honneur amphibien (tant que tu ne marches jamais sur une grenouille). Le monarque incline sa couronne de jonc, attendant tes affaires à la cour.",
+            "it": "Il Re Rana gonfia il suo giogulo verde brillante riconoscendoti. Un gracidio solenne attraversa la corte: sei un illustre 'Amico della Pozzanghera', il più alto onore anfibio (finché non calpesti una rana). Il monarca inclina la sua corona di giunco, aspettando i tuoi affari a corte.",
+            "de": "Der Froschkönig bläht seine leuchtend grüne Kehle auf, als er dich erkennt. Ein feierliches Quaken durchzieht den Hof: du bist ein illustrer „Freund der Pfütze“, die höchste amphibische Ehre (solange du niemals auf einen Frosch trittst). Der Monarch neigt seine Schilfkrone und wartet auf dein Anliegen am Hof.",
+            "zh": "青蛙国王认出你后鼓起它那明亮的绿色喉囊。一阵庄严的鸣叫声传遍宫廷：你是尊贵的「泥坑之友」，最高的两栖类荣誉（只要你从不踩到青蛙）。这位君主倾斜了他的灯芯草王冠，等待着你在宫廷中的事务。",
+            "ja": "カエル王はお前を認識すると鮮やかな緑色の喉を膨らませる。厳粛な鳴き声が宮廷中に響く——お前は輝かしい「水たまりの友」であり、両生類最高の栄誉である（カエルを踏まない限り）。君主は葦の冠を傾け、宮廷での用件を待っている。"
+        },
+        "next": [
+            "rana_opt_lodo_ally",
+            "rana_opt_carrera_ally",
+            "rana_opt_tesoro_fango",
+            "rana_opt_rebuscar",
+            "rana_opt_himno_ally",
+            "rana_opt_reverencia_ally",
+            "rana_opt_salir"
+        ],
+        "reward": ""
+    },
+    "rana_opt_tributo": {
+        "type": "option",
+        "text": {
+            "es": "🪰  Ofrecer un tributo digno (soltar una mosca capturada)",
+            "en": "🪰  Offer a worthy tribute (release a captured fly)",
+            "fr": "🪰  Offrir un tribut digne (relâcher une mouche capturée)",
+            "it": "🪰  Offrire un tributo degno (liberare una mosca catturata)",
+            "de": "🪰  Einen würdigen Tribut anbieten (eine gefangene Fliege freilassen)",
+            "zh": "🪰  献上一份得体的贡品（放走一只捉到的苍蝇）",
+            "ja": "🪰  ふさわしい貢物を捧げる（捕らえたハエを放つ）"
+        },
+        "next": [
+            "rana_msg_tributo"
+        ],
+        "reward": "",
+        "condition": "no_gflag(\"rana_tributo\")",
+        "once": true
+    },
+    "rana_msg_tributo": {
+        "type": "message",
+        "text": {
+            "es": "Abres la mano y sueltas una mosca gorda que zumba sobre el charco. El tiempo se detiene. La lengua del Rey Rana sale disparada con la precisión de una ballesta real y la mosca deja de existir en un pestañeo. La corte estalla en un croar atronador de júbilo. El monarca te proclama solemnemente 'Amigo del Charco'.",
+            "en": "You open your hand and release a fat fly buzzing over the puddle. Time freezes. The Frog King's tongue shoots out with crossbow precision and the fly ceases to exist in the blink of an eye. The court erupts in a thunderous croak of jubilation. The monarch solemnly proclaims you 'Friend of the Puddle'.",
+            "fr": "Tu ouvres la main et relâches une grosse mouche qui bourdonne au-dessus de la mare. Le temps s'arrête. La langue du Roi Grenouille jaillit avec la précision d'une arbalète royale et la mouche cesse d'exister en un clin d'œil. La cour éclate en un coassement tonitruant de joie. Le monarque te proclame solennellement « Ami de la Mare ».",
+            "it": "Apri la mano e liberi una grossa mosca che ronza sopra la pozzanghera. Il tempo si ferma. La lingua del Re Rana scatta con la precisione di una balestra reale e la mosca cessa di esistere in un batter d'occhio. La corte esplode in un gracidio tonante di giubilo. Il monarca ti proclama solennemente 'Amico della Pozzanghera'.",
+            "de": "Du öffnest die Hand und lässt eine dicke Fliege frei, die über der Pfütze summt. Die Zeit steht still. Die Zunge des Froschkönigs schießt mit der Präzision einer königlichen Armbrust vor, und die Fliege hört im Nu auf zu existieren. Der Hof bricht in donnerndes Quaken vor Freude aus. Der Monarch erklärt dich feierlich zum „Freund der Pfütze“.",
+            "zh": "你张开手，放走了一只在泥坑上嗡嗡飞舞的肥苍蝇。时间仿佛静止了。青蛙国王的舌头以皇家弩箭般的精准射出，苍蝇眨眼间便不复存在。宫廷爆发出雷鸣般欢欣的鸣叫声。国王庄严地宣布你为「泥坑之友」。",
+            "ja": "手を開き、水たまりの上を飛び回る太ったハエを放つ。時が止まる。カエル王の舌が王家の弩の精度で飛び出し、瞬く間にハエは存在しなくなる。宮廷は歓喜の轟くような鳴き声に包まれる。君主は厳かにお前を「水たまりの友」と宣言する。"
+        },
+        "next": [
+            "rana_hub_ally"
+        ],
+        "reward": "faceta:aspecto=+1;gflag:rana_tributo;discover:poi_yelmo_concilio_ranas;xp:15"
+    },
+    "rana_opt_lodo": {
+        "type": "option",
+        "text": {
+            "es": "🧖  Sumergirte en el Lodo Sagrado del Charco (Sana 1 mísero punto de vida)",
+            "en": "🧖  Immerse yourself in the Sacred Puddle Mud (Heal 1 measly health point)",
+            "fr": "🧖  T'immerger dans la Boue Sacrée de la Mare (Soigne 1 misérable point de vie)",
+            "it": "🧖  Immergerti nel Fango Sacro della Pozzanghera (Cura 1 misero punto vita)",
+            "de": "🧖  In den Heiligen Schlamm der Pfütze eintauchen (Heilt 1 mickrigen Lebenspunkt)",
+            "zh": "🧖  沉浸在泥坑的圣泥之中（治愈1点可怜的生命值）",
+            "ja": "🧖  水たまりの聖なる泥に浸かる（体力1点のわずかな回復）"
+        },
+        "next": [
+            "rana_msg_lodo"
+        ],
+        "reward": ""
+    },
+    "rana_msg_lodo": {
+        "type": "message",
+        "text": {
+            "es": "Pides permiso con un gesto respetuoso y te embadurnas concienzudamente con el lodo burbujeante del fondo. Huele de forma nauseabunda a cieno milenario, algas podridas y baba de sapo. Tras diez minutos frotándote el fango... sientes un pequeñísimo cosquilleo en un rasguño. ¡Has recuperado exactamente 1 punto de vida! El Rey Rana asiente con solemne orgullo como si hubiera obrado un milagro divino.",
+            "en": "You gesture respectfully for permission and thoroughly slather yourself in the bubbling mud from the bottom. It smells nauseatingly of ancient mire, rotting weeds, and toad slime. After ten minutes of vigorous scrubbing... you feel a tiny tickle in a scratch. You have recovered exactly 1 health point! The Frog King nods with solemn pride as if he had just performed a divine miracle.",
+            "fr": "Tu demandes la permission par un geste respectueux et t'enduis consciencieusement de la boue bouillonnante du fond. Ça sent horriblement le limon millénaire, les algues pourries et la bave de crapaud. Après dix minutes à te frotter de vase... tu sens un tout petit picotement sur une égratignure. Tu as récupéré exactement 1 point de vie ! Le Roi Grenouille hoche la tête avec une fierté solennelle, comme s'il avait accompli un miracle divin.",
+            "it": "Chiedi il permesso con un gesto rispettoso e ti ricopri accuratamente del fango ribollente sul fondo. Ha un odore nauseante di limo millenario, alghe marce e bava di rospo. Dopo dieci minuti a strofinarti il fango... senti un piccolissimo formicolio su un graffio. Hai recuperato esattamente 1 punto vita! Il Re Rana annuisce con solenne orgoglio come se avesse compiuto un miracolo divino.",
+            "de": "Du bittest mit einer respektvollen Geste um Erlaubnis und beschmierst dich gründlich mit dem sprudelnden Schlamm vom Grund. Es riecht widerlich nach uraltem Schlick, verrottendem Algen und Krötenschleim. Nach zehn Minuten Schlammschrubben... spürst du ein winziges Kribbeln bei einer Schramme. Du hast genau 1 Lebenspunkt zurückgewonnen! Der Froschkönig nickt mit feierlichem Stolz, als hätte er ein göttliches Wunder vollbracht.",
+            "zh": "你带着尊敬的手势请求许可，然后认认真真地涂满了池底冒着泡的淤泥。它散发着恶心的味道，是千年淤泥、腐烂水藻和蟾蜍黏液的气味。经过十分钟的搓泥之后……你感觉到一处擦伤有一丝极其微弱的刺痛感。你恰好恢复了1点生命值！青蛙国王庄严自豪地点了点头，仿佛刚刚完成了一个神迹。",
+            "ja": "敬意を込めた仕草で許可を求め、底からわき上がる泥を丹念に体に塗りたくる。太古のぬかるみ、腐った藻、ヒキガエルの粘液の吐き気を催す匂いがする。十分間泥をこすりつけた後……擦り傷にほんのわずかなむずむず感を感じる。ちょうど体力1点を回復したのだ！カエル王は神聖な奇跡を成し遂げたかのように厳粛な誇りとともに頷く。"
+        },
+        "next": [
+            "rana_hub_first"
+        ],
+        "reward": "heal:1"
+    },
+    "rana_opt_lodo_ally": {
+        "type": "option",
+        "text": {
+            "es": "🧖  Sumergirte en el Lodo Sagrado del Charco (Sana 1 mísero punto de vida)",
+            "en": "🧖  Immerse yourself in the Sacred Puddle Mud (Heal 1 measly health point)",
+            "fr": "🧖  T'immerger dans la Boue Sacrée de la Mare (Soigne 1 misérable point de vie)",
+            "it": "🧖  Immergerti nel Fango Sacro della Pozzanghera (Cura 1 misero punto vita)",
+            "de": "🧖  In den Heiligen Schlamm der Pfütze eintauchen (Heilt 1 mickrigen Lebenspunkt)",
+            "zh": "🧖  沉浸在泥坑的圣泥之中（治愈1点可怜的生命值）",
+            "ja": "🧖  水たまりの聖なる泥に浸かる（体力1点のわずかな回復）"
+        },
+        "next": [
+            "rana_msg_lodo_ally"
+        ],
+        "reward": ""
+    },
+    "rana_msg_lodo_ally": {
+        "type": "message",
+        "text": {
+            "es": "Como Amigo del Charco, dos ranas de la guardia apartan los juncos ceremoniales para darte acceso al manantial de barro más espeso. Te sumerges hasta las rodillas entre algas y vapores sospechosos. La corte entera observa con devoción religiosa mientras el lodo hace su magia: tu cuerpo absorbe la bendición anfibia y recuperas... ¡1 glorioso punto de vida! La corte estalla en un croar de júbilo ante semejante proeza médica.",
+            "en": "As Friend of the Puddle, two frog guards part ceremonial reeds to grant you access to the thickest mud spring. You submerge knee-deep amidst weeds and dubious fumes. The entire court watches with religious reverence as the silt works its magic: your body absorbs the amphibian blessing and recovers... 1 glorious health point! The court erupts in joyful croaks at such medical prowess.",
+            "fr": "En tant qu'Ami de la Mare, deux gardes-grenouilles écartent des joncs cérémoniels pour te donner accès à la source de boue la plus épaisse. Tu t'immerges jusqu'aux genoux parmi les algues et des vapeurs suspectes. Toute la cour observe avec une dévotion religieuse tandis que la vase fait sa magie : ton corps absorbe la bénédiction amphibienne et récupère... 1 glorieux point de vie ! La cour éclate en un coassement de joie devant un tel exploit médical.",
+            "it": "Come Amico della Pozzanghera, due guardie-rana scostano giunchi cerimoniali per darti accesso alla sorgente di fango più densa. Ti immergi fino alle ginocchia tra alghe e vapori sospetti. Tutta la corte osserva con devozione religiosa mentre il fango fa la sua magia: il tuo corpo assorbe la benedizione anfibia e recupera... 1 glorioso punto vita! La corte esplode in un gracidio di giubilo davanti a una simile impresa medica.",
+            "de": "Als Freund der Pfütze schieben zwei Froschwachen zeremonielle Schilfhalme zur Seite, um dir Zugang zur dicksten Schlammquelle zu gewähren. Du tauchst bis zu den Knien in Algen und zweifelhafte Dämpfe. Der gesamte Hof beobachtet mit religiöser Andacht, wie der Schlick seine Magie wirkt: dein Körper absorbiert den amphibischen Segen und gewinnt... 1 glorreichen Lebenspunkt zurück! Der Hof bricht angesichts dieser medizinischen Meisterleistung in freudiges Quaken aus.",
+            "zh": "作为泥坑之友，两名蛙卫拨开仪式性的芦苇，让你进入最浓稠的泥泉。你沉入齐膝深的水藻和可疑的蒸汽之中。整个宫廷都以宗教般的虔诚观看着淤泥施展它的魔法：你的身体吸收了两栖类的祝福，恢复了……1点光荣的生命值！面对如此医学壮举，宫廷爆发出欢欣的鸣叫声。",
+            "ja": "水たまりの友として、二人のカエル衛兵が儀式用の葦をかき分け、最も濃い泥の泉へとお前を導く。藻と怪しい蒸気の中、膝まで浸かる。泥がその魔法をかける間、宮廷全体が宗教的な敬虔さで見守る——お前の体が両生類の祝福を吸収し、体力1点という栄光の回復を果たす！このような医学的偉業を前に、宮廷は歓喜の鳴き声で沸き立つ。"
+        },
+        "next": [
+            "rana_hub_ally"
+        ],
+        "reward": "heal:1"
+    },
+    "rana_opt_carrera_first": {
+        "type": "option",
+        "condition": "gold >= 5",
+        "text": {
+            "es": "🏁  Presenciar la Gran Carrera Real de Renacuajos (Apostar 5 de oro)",
+            "en": "🏁  Witness the Grand Royal Tadpole Race (Wager 5 gold)",
+            "fr": "🏁  Assister à la Grande Course Royale de Têtards (Parier 5 or)",
+            "it": "🏁  Assistere alla Grande Corsa Reale dei Girini (Scommettere 5 oro)",
+            "de": "🏁  Dem Großen Königlichen Kaulquappenrennen beiwohnen (5 Gold setzen)",
+            "zh": "🏁  观看蝌蚪皇家大赛（下注5金币）",
+            "ja": "🏁  王家のオタマジャクシ大レースを観戦する（金貨5枚を賭ける）"
+        },
+        "next": [
+            "rana_carrera_menu_first"
+        ],
+        "reward": ""
+    },
+    "rana_opt_carrera_ally": {
+        "type": "option",
+        "condition": "gold >= 5",
+        "text": {
+            "es": "🏁  Apostar 5 monedas en la Gran Carrera Real de Renacuajos",
+            "en": "🏁  Wager 5 coins on the Grand Royal Tadpole Race",
+            "fr": "🏁  Parier 5 pièces sur la Grande Course Royale de Têtards",
+            "it": "🏁  Scommettere 5 monete sulla Grande Corsa Reale dei Girini",
+            "de": "🏁  5 Münzen auf das Große Königliche Kaulquappenrennen setzen",
+            "zh": "🏁  在蝌蚪皇家大赛上押注5枚硬币",
+            "ja": "🏁  王家のオタマジャクシ大レースに硬貨5枚を賭ける"
+        },
+        "next": [
+            "rana_carrera_menu_ally"
+        ],
+        "reward": ""
+    },
+    "rana_carrera_menu_first": {
+        "type": "message",
+        "text": {
+            "es": "Sobre una pista de lodo trazada con juncos flotantes, tres renacuajos aguardan la señal de salida junto a un sapo anciano que sostiene una ramita como bandera. ¿A qué competidor confías tus 5 monedas de oro?",
+            "en": "On a mud circuit marked by floating reeds, three tadpoles await the starting flag held by an elderly toad with a twig. Which contender do you trust with your 5 gold coins?",
+            "fr": "Sur une piste de boue tracée avec des joncs flottants, trois têtards attendent le signal de départ à côté d'un vieux crapaud tenant une brindille en guise de drapeau. À quel concurrent confies-tu tes 5 pièces d'or ?",
+            "it": "Su una pista di fango tracciata con giunchi galleggianti, tre girini attendono il segnale di partenza accanto a un rospo anziano che regge un ramoscello come bandiera. A quale concorrente affidi le tue 5 monete d'oro?",
+            "de": "Auf einer mit schwimmenden Schilfhalmen markierten Schlammbahn warten drei Kaulquappen auf das Startsignal neben einer alten Kröte, die einen Zweig als Flagge hält. Welchem Wettkämpfer vertraust du deine 5 Goldmünzen an?",
+            "zh": "在一条用漂浮芦苇标出的泥浆赛道上，三只蝌蚪正等待着一只手持树枝当旗帜的年迈蟾蜍发出出发信号。你会把你的5枚金币押在哪位选手身上？",
+            "ja": "浮かぶ葦で区切られた泥のコースで、三匹のオタマジャクシが、旗代わりに小枝を持つ年老いたヒキガエルからのスタート合図を待っている。どの競技者に金貨5枚を託す？"
+        },
+        "next": [
+            "rana_carr_opt_centella_first",
+            "rana_carr_opt_marques_first",
+            "rana_carr_opt_rayo_first",
+            "rana_carr_opt_volver_first"
+        ],
+        "reward": ""
+    },
+    "rana_carrera_menu_ally": {
+        "type": "message",
+        "text": {
+            "es": "¡La tribuna real se alborota! Los tres mejores renacuajos de la camada compiten por el honor de la corona. El sapo comisario de pista levanta la ramita de salida. ¿A quién apuestas tus 5 monedas de oro?",
+            "en": "The royal grandstand is buzzing! The finest tadpoles of the brood compete for the honor of the crown. The toad track commissioner raises the starting twig. Who gets your 5 coin wager?",
+            "fr": "La tribune royale s'agite ! Les trois meilleurs têtards de la portée s'affrontent pour l'honneur de la couronne. Le crapaud commissaire de piste lève la brindille de départ. Sur qui paries-tu tes 5 pièces d'or ?",
+            "it": "La tribuna reale è in fermento! I tre migliori girini della cucciolata competono per l'onore della corona. Il rospo commissario di pista alza il ramoscello di partenza. Su chi punti le tue 5 monete d'oro?",
+            "de": "Die königliche Tribüne ist in Aufruhr! Die drei besten Kaulquappen des Wurfs kämpfen um die Ehre der Krone. Die Krötenrennleitung hebt den Startzweig. Auf wen setzt du deine 5 Goldmünzen?",
+            "zh": "皇家看台一片沸腾！这窝蝌蚪中最优秀的三位正在为王冠的荣耀而竞争。蟾蜍赛道委员举起了发令树枝。你会把5枚金币押在谁身上？",
+            "ja": "王家の観覧席が沸き立つ！ひと腹の中でも最も優れた三匹のオタマジャクシが王冠の名誉をかけて競い合う。ヒキガエルのコース委員がスタートの小枝を掲げる。誰に金貨5枚を賭ける？"
+        },
+        "next": [
+            "rana_carr_opt_centella_ally",
+            "rana_carr_opt_marques_ally",
+            "rana_carr_opt_rayo_ally",
+            "rana_carr_opt_volver_ally"
+        ],
+        "reward": ""
+    },
+    "rana_carr_opt_centella_first": {
+        "type": "option",
+        "text": {
+            "es": "🟢  Apostar por Centella Verde (Ágil, pero propensa a distraerse)",
+            "en": "🟢  Bet on Green Spark (Nimble, but easily distracted)",
+            "fr": "🟢  Parier sur Étincelle Verte (Agile, mais facilement distraite)",
+            "it": "🟢  Scommettere su Scintilla Verde (Agile, ma facile da distrarre)",
+            "de": "🟢  Auf Grüner Funke setzen (Flink, aber leicht abzulenken)",
+            "zh": "🟢  押注绿色闪光（敏捷，但容易分心）",
+            "ja": "🟢  『緑の閃光』に賭ける（機敏だが気が散りやすい）"
+        },
+        "next": [
+            "rana_carr_msg_centella_first"
+        ],
+        "reward": ""
+    },
+    "rana_carr_msg_centella_first": {
+        "type": "message",
+        "text": {
+            "es": "¡Cae la ramita y parte como una exhalación! Centella Verde devora el primer tramo a velocidad de vértigo. A medio palmo de la meta se detiene a contemplar una pompa de lodo... ¡pero un aletazo final la empuja sobre la línea en el último milisegundo! ¡VICTORIA! La banca anfibio te paga 15 de oro entre vítores.",
+            "en": "The twig drops and it darts forward like lightning! Green Spark tears through the opening sector at blistering speed. Inches from the line it halts to admire a mud bubble... but a desperate tail flick sends it across just in time! VICTORY! The amphibian bookmaker hands you 15 gold amidst cheers.",
+            "fr": "La brindille tombe et elle démarre comme l'éclair ! Étincelle Verte dévore le premier tronçon à une vitesse vertigineuse. À un empan de la ligne, elle s'arrête contempler une bulle de boue... mais un dernier coup de nageoire la pousse par-dessus la ligne à la dernière milliseconde ! VICTOIRE ! Le bookmaker amphibien te paie 15 or sous les acclamations.",
+            "it": "Cade il ramoscello e parte come un fulmine! Scintilla Verde divora il primo tratto a velocità vertiginosa. A un palmo dal traguardo si ferma a contemplare una bolla di fango... ma un ultimo colpo di coda la spinge oltre la linea all'ultimo millisecondo! VITTORIA! Il bookmaker anfibio ti paga 15 oro tra gli applausi.",
+            "de": "Der Zweig fällt und sie startet wie ein Blitz! Grüner Funke verschlingt den ersten Abschnitt in schwindelerregendem Tempo. Eine Handbreit vor der Ziellinie hält sie inne, um eine Schlammblase zu bewundern... aber ein letzter Flossenschlag drängt sie im letzten Millisekundenbruchteil über die Linie! SIEG! Der amphibische Buchmacher zahlt dir unter Jubel 15 Gold.",
+            "zh": "树枝落下，它像闪电一样冲了出去！绿色闪光以惊人的速度冲过了第一段赛道。在离终点线一掌之遥时，它停下来欣赏一个泥泡……但最后一记尾鳍摆动在最后一毫秒把它推过了终点线！胜利！两栖类庄家在欢呼声中付给你15枚金币。",
+            "ja": "小枝が落ち、稲妻のように飛び出す！緑の閃光は目もくらむ速さで最初の区間を駆け抜ける。ゴールまであと一手のところで泥の泡に見とれて止まる……だが最後の尾ひれの一振りが、ミリ秒ぎりぎりでラインを越えさせる！勝利だ！両生類の胴元は歓声の中、金貨15枚を支払う。"
+        },
+        "next": [
+            "rana_hub_first"
+        ],
+        "reward": "gold:+10;faceta:valor=+1"
+    },
+    "rana_carr_opt_marques_first": {
+        "type": "option",
+        "text": {
+            "es": "🟤  Apostar por El Marqués del Fango (Veterano con inercia aristocrática)",
+            "en": "🟤  Bet on The Mud Marquis (Seasoned veteran with aristocratic inertia)",
+            "fr": "🟤  Parier sur Le Marquis de la Vase (Vétéran à l'inertie aristocratique)",
+            "it": "🟤  Scommettere su Il Marchese del Fango (Veterano con inerzia aristocratica)",
+            "de": "🟤  Auf Der Schlamm-Marquis setzen (Erfahrener Veteran mit aristokratischer Trägheit)",
+            "zh": "🟤  押注泥沼侯爵（拥有贵族惰性的老将）",
+            "ja": "🟤  『泥の侯爵』に賭ける（貴族的な惰性を持つベテラン）"
+        },
+        "next": [
+            "rana_carr_msg_marques_first"
+        ],
+        "reward": ""
+    },
+    "rana_carr_msg_marques_first": {
+        "type": "message",
+        "text": {
+            "es": "El Marqués no se mueve ni un centímetro al darse la salida. El resto de renacuajos nada frenéticamente hasta agotarse. Entonces, el Marqués suelta una formidable burbuja que propulsa su pesado cuerpo en un deslizamiento continuo y majestuoso hasta la meta sin dar un solo coletazo. ¡Genio táctico! Cobras 15 de oro satisfecho.",
+            "en": "The Marquis does not budge an inch at the whistle. The other tadpoles thrash furiously until exhausted. Then, the Marquis discharges a mighty bubble that glides his heavy bulk smoothly and majestically across the line without twitching a fin. Pure tactical brilliance! You pocket 15 gold with delight.",
+            "fr": "Le Marquis ne bouge pas d'un centimètre au signal du départ. Les autres têtards nagent frénétiquement jusqu'à l'épuisement. Alors, le Marquis relâche une formidable bulle qui propulse son corps massif dans un glissement continu et majestueux jusqu'à la ligne sans donner un seul coup de queue. Génie tactique ! Tu empoches 15 or, satisfait.",
+            "it": "Il Marchese non si muove di un centimetro al segnale di partenza. Gli altri girini nuotano freneticamente fino a esaurirsi. Allora, il Marchese rilascia una formidabile bolla che propulsa il suo corpo pesante in uno scivolamento continuo e maestoso fino al traguardo senza dare un solo colpo di coda. Genio tattico! Incassi 15 oro soddisfatto.",
+            "de": "Der Marquis rührt sich beim Startsignal keinen Zentimeter. Die anderen Kaulquappen schwimmen frenetisch, bis sie erschöpft sind. Dann lässt der Marquis eine gewaltige Blase los, die seinen schweren Körper in einem kontinuierlichen, majestätischen Gleiten zur Ziellinie treibt, ohne einen einzigen Flossenschlag. Taktisches Genie! Du steckst zufrieden 15 Gold ein.",
+            "zh": "发令那一刻，侯爵一动不动。其他蝌蚪拼命游动，直至精疲力尽。然后，侯爵放出一个巨大的气泡，推动着它沉重的身躯以一种持续而威严的滑行姿态冲向终点线，一次尾鳍摆动都没有。战术天才！你满意地收下15枚金币。",
+            "ja": "合図があっても侯爵は一センチも動かない。他のオタマジャクシは疲れ果てるまで必死に泳ぐ。すると侯爵は強力な泡を放ち、その重い体を尾ひれ一つ動かすことなく、滑らかで威厳ある動きでゴールラインまで運ぶ。純粋な戦術の妙技だ！満足げに金貨15枚を懐に入れる。"
+        },
+        "next": [
+            "rana_hub_first"
+        ],
+        "reward": "gold:+10;faceta:inteligencia=+1"
+    },
+    "rana_carr_opt_rayo_first": {
+        "type": "option",
+        "text": {
+            "es": "⚡  Apostar por Rayo-Burbuja (Puro nervio y aletas hiperactivas)",
+            "en": "⚡  Bet on Bubble Flash (Pure nerve and frantic tail strokes)",
+            "fr": "⚡  Parier sur Éclair-Bulle (Pur cran et nageoires hyperactives)",
+            "it": "⚡  Scommettere su Fulmine-Bolla (Puro nervo e pinne iperattive)",
+            "de": "⚡  Auf Blitz-Blase setzen (Reine Nervenkraft und hyperaktive Flossen)",
+            "zh": "⚡  押注泡泡闪电（纯粹的胆量和过度活跃的鳍）",
+            "ja": "⚡  『泡の稲妻』に賭ける（純粋な度胸と過活動なヒレ）"
+        },
+        "next": [
+            "rana_carr_msg_rayo_first"
+        ],
+        "reward": ""
+    },
+    "rana_carr_msg_rayo_first": {
+        "type": "message",
+        "text": {
+            "es": "¡Rayo-Burbuja nada a una velocidad sobrecogedora... pero en dirección contraria! Salpica en el ojo al mismísimo Rey Rana y termina enredado en un junco de la salida. Es descalificado de inmediato por desacato a la corona. Pierdes tus 5 monedas, pero el comisario te regala con pesar una poción menor rescatada del lodo como consuelo.",
+            "en": "Bubble Flash swims with mind-bending speed... in the complete opposite direction! It splashes the Frog King right in the eye and tangles in a starter reed. Disqualified immediately for contempt of court. You forfeit 5 coins, but the commissioner apologetically gifts you a minor potion salvaged from the silt as a consolation.",
+            "fr": "Éclair-Bulle nage à une vitesse impressionnante... mais dans la direction opposée ! Il éclabousse l'œil du Roi Grenouille en personne et finit empêtré dans un jonc du départ. Il est immédiatement disqualifié pour outrage à la couronne. Tu perds tes 5 pièces, mais le commissaire t'offre avec regret une potion mineure récupérée dans la vase en guise de consolation.",
+            "it": "Fulmine-Bolla nuota a una velocità sconvolgente... ma in direzione opposta! Schizza nell'occhio proprio il Re Rana e finisce impigliato in un giunco di partenza. Viene squalificato immediatamente per oltraggio alla corona. Perdi le tue 5 monete, ma il commissario ti regala con rammarico una pozione minore recuperata dal fango come consolazione.",
+            "de": "Blitz-Blase schwimmt mit atemberaubender Geschwindigkeit... aber in die entgegengesetzte Richtung! Er bespritzt dem Froschkönig persönlich das Auge und verheddert sich in einem Startschilf. Er wird sofort wegen Missachtung der Krone disqualifiziert. Du verlierst deine 5 Münzen, aber der Kommissar schenkt dir bedauernd einen aus dem Schlick geretteten kleinen Trank als Trost.",
+            "zh": "泡泡闪电以令人震惊的速度游动着……但方向完全相反！它把水花溅到了青蛙国王本人的眼睛里，最后缠在了起点的一根芦苇上。它立刻因藐视王室而被取消资格。你输掉了5枚硬币，但委员懊悔地送给你一瓶从淤泥中打捞出的小型药水以示安慰。",
+            "ja": "泡の稲妻は目が眩むような速さで泳ぐ……だが完全に逆方向へ！カエル王本人の目に水しぶきを浴びせ、スタート地点の葦に絡まってしまう。王室への冒涜として即座に失格となる。金貨5枚を失うが、委員は詫びるように泥から救い出した下級ポーションを慰めとして贈ってくれる。"
+        },
+        "next": [
+            "rana_hub_first"
+        ],
+        "reward": "gold:-5;faceta:cordura=+1;item:potion=1"
+    },
+    "rana_carr_opt_volver_first": {
+        "type": "option",
+        "text": {
+            "es": "↩️  Guardarte las monedas y volver a la corte",
+            "en": "↩️  Pocket your coins and return to the court",
+            "fr": "↩️  Garder tes pièces et retourner à la cour",
+            "it": "↩️  Tenerti le monete e tornare a corte",
+            "de": "↩️  Deine Münzen behalten und zum Hof zurückkehren",
+            "zh": "↩️  收好你的硬币，回到宫廷",
+            "ja": "↩️  硬貨をしまって宮廷に戻る"
+        },
+        "next": [
+            "rana_hub_first"
+        ],
+        "reward": ""
+    },
+    "rana_carr_opt_centella_ally": {
+        "type": "option",
+        "text": {
+            "es": "🟢  Apostar por Centella Verde (Ágil, pero propensa a distraerse)",
+            "en": "🟢  Bet on Green Spark (Nimble, but easily distracted)",
+            "fr": "🟢  Parier sur Étincelle Verte (Agile, mais facilement distraite)",
+            "it": "🟢  Scommettere su Scintilla Verde (Agile, ma facile da distrarre)",
+            "de": "🟢  Auf Grüner Funke setzen (Flink, aber leicht abzulenken)",
+            "zh": "🟢  押注绿色闪光（敏捷，但容易分心）",
+            "ja": "🟢  『緑の閃光』に賭ける（機敏だが気が散りやすい）"
+        },
+        "next": [
+            "rana_carr_msg_centella_ally"
+        ],
+        "reward": ""
+    },
+    "rana_carr_msg_centella_ally": {
+        "type": "message",
+        "text": {
+            "es": "¡Cae la ramita y parte como una exhalación! Centella Verde devora el primer tramo a velocidad de vértigo. A medio palmo de la meta se detiene a contemplar una pompa de lodo... ¡pero un aletazo final la empuja sobre la línea en el último milisegundo! ¡VICTORIA! La banca anfibio te paga 15 de oro entre vítores.",
+            "en": "The twig drops and it darts forward like lightning! Green Spark tears through the opening sector at blistering speed. Inches from the line it halts to admire a mud bubble... but a desperate tail flick sends it across just in time! VICTORY! The amphibian bookmaker hands you 15 gold amidst cheers.",
+            "fr": "La brindille tombe et elle démarre comme l'éclair ! Étincelle Verte dévore le premier tronçon à une vitesse vertigineuse. À un empan de la ligne, elle s'arrête contempler une bulle de boue... mais un dernier coup de nageoire la pousse par-dessus la ligne à la dernière milliseconde ! VICTOIRE ! Le bookmaker amphibien te paie 15 or sous les acclamations.",
+            "it": "Cade il ramoscello e parte come un fulmine! Scintilla Verde divora il primo tratto a velocità vertiginosa. A un palmo dal traguardo si ferma a contemplare una bolla di fango... ma un ultimo colpo di coda la spinge oltre la linea all'ultimo millisecondo! VITTORIA! Il bookmaker anfibio ti paga 15 oro tra gli applausi.",
+            "de": "Der Zweig fällt und sie startet wie ein Blitz! Grüner Funke verschlingt den ersten Abschnitt in schwindelerregendem Tempo. Eine Handbreit vor der Ziellinie hält sie inne, um eine Schlammblase zu bewundern... aber ein letzter Flossenschlag drängt sie im letzten Millisekundenbruchteil über die Linie! SIEG! Der amphibische Buchmacher zahlt dir unter Jubel 15 Gold.",
+            "zh": "树枝落下，它像闪电一样冲了出去！绿色闪光以惊人的速度冲过了第一段赛道。在离终点线一掌之遥时，它停下来欣赏一个泥泡……但最后一记尾鳍摆动在最后一毫秒把它推过了终点线！胜利！两栖类庄家在欢呼声中付给你15枚金币。",
+            "ja": "小枝が落ち、稲妻のように飛び出す！緑の閃光は目もくらむ速さで最初の区間を駆け抜ける。ゴールまであと一手のところで泥の泡に見とれて止まる……だが最後の尾ひれの一振りが、ミリ秒ぎりぎりでラインを越えさせる！勝利だ！両生類の胴元は歓声の中、金貨15枚を支払う。"
+        },
+        "next": [
+            "rana_hub_ally"
+        ],
+        "reward": "gold:+10;faceta:valor=+1"
+    },
+    "rana_carr_opt_marques_ally": {
+        "type": "option",
+        "text": {
+            "es": "🟤  Apostar por El Marqués del Fango (Veterano con inercia aristocrática)",
+            "en": "🟤  Bet on The Mud Marquis (Seasoned veteran with aristocratic inertia)",
+            "fr": "🟤  Parier sur Le Marquis de la Vase (Vétéran à l'inertie aristocratique)",
+            "it": "🟤  Scommettere su Il Marchese del Fango (Veterano con inerzia aristocratica)",
+            "de": "🟤  Auf Der Schlamm-Marquis setzen (Erfahrener Veteran mit aristokratischer Trägheit)",
+            "zh": "🟤  押注泥沼侯爵（拥有贵族惰性的老将）",
+            "ja": "🟤  『泥の侯爵』に賭ける（貴族的な惰性を持つベテラン）"
+        },
+        "next": [
+            "rana_carr_msg_marques_ally"
+        ],
+        "reward": ""
+    },
+    "rana_carr_msg_marques_ally": {
+        "type": "message",
+        "text": {
+            "es": "El Marqués no se mueve ni un centímetro al darse la salida. El resto de renacuajos nada frenéticamente hasta agotarse. Entonces, el Marqués suelta una formidable burbuja que propulsa su pesado cuerpo en un deslizamiento continuo y majestuoso hasta la meta sin dar un solo coletazo. ¡Genio táctico! Cobras 15 de oro satisfecho.",
+            "en": "The Marquis does not budge an inch at the whistle. The other tadpoles thrash furiously until exhausted. Then, the Marquis discharges a mighty bubble that glides his heavy bulk smoothly and majestically across the line without twitching a fin. Pure tactical brilliance! You pocket 15 gold with delight.",
+            "fr": "Le Marquis ne bouge pas d'un centimètre au signal du départ. Les autres têtards nagent frénétiquement jusqu'à l'épuisement. Alors, le Marquis relâche une formidable bulle qui propulse son corps massif dans un glissement continu et majestueux jusqu'à la ligne sans donner un seul coup de queue. Génie tactique ! Tu empoches 15 or, satisfait.",
+            "it": "Il Marchese non si muove di un centimetro al segnale di partenza. Gli altri girini nuotano freneticamente fino a esaurirsi. Allora, il Marchese rilascia una formidabile bolla che propulsa il suo corpo pesante in uno scivolamento continuo e maestoso fino al traguardo senza dare un solo colpo di coda. Genio tattico! Incassi 15 oro soddisfatto.",
+            "de": "Der Marquis rührt sich beim Startsignal keinen Zentimeter. Die anderen Kaulquappen schwimmen frenetisch, bis sie erschöpft sind. Dann lässt der Marquis eine gewaltige Blase los, die seinen schweren Körper in einem kontinuierlichen, majestätischen Gleiten zur Ziellinie treibt, ohne einen einzigen Flossenschlag. Taktisches Genie! Du steckst zufrieden 15 Gold ein.",
+            "zh": "发令那一刻，侯爵一动不动。其他蝌蚪拼命游动，直至精疲力尽。然后，侯爵放出一个巨大的气泡，推动着它沉重的身躯以一种持续而威严的滑行姿态冲向终点线，一次尾鳍摆动都没有。战术天才！你满意地收下15枚金币。",
+            "ja": "合図があっても侯爵は一センチも動かない。他のオタマジャクシは疲れ果てるまで必死に泳ぐ。すると侯爵は強力な泡を放ち、その重い体を尾ひれ一つ動かすことなく、滑らかで威厳ある動きでゴールラインまで運ぶ。純粋な戦術の妙技だ！満足げに金貨15枚を懐に入れる。"
+        },
+        "next": [
+            "rana_hub_ally"
+        ],
+        "reward": "gold:+10;faceta:inteligencia=+1"
+    },
+    "rana_carr_opt_rayo_ally": {
+        "type": "option",
+        "text": {
+            "es": "⚡  Apostar por Rayo-Burbuja (Puro nervio y aletas hiperactivas)",
+            "en": "⚡  Bet on Bubble Flash (Pure nerve and frantic tail strokes)",
+            "fr": "⚡  Parier sur Éclair-Bulle (Pur cran et nageoires hyperactives)",
+            "it": "⚡  Scommettere su Fulmine-Bolla (Puro nervo e pinne iperattive)",
+            "de": "⚡  Auf Blitz-Blase setzen (Reine Nervenkraft und hyperaktive Flossen)",
+            "zh": "⚡  押注泡泡闪电（纯粹的胆量和过度活跃的鳍）",
+            "ja": "⚡  『泡の稲妻』に賭ける（純粋な度胸と過活動なヒレ）"
+        },
+        "next": [
+            "rana_carr_msg_rayo_ally"
+        ],
+        "reward": ""
+    },
+    "rana_carr_msg_rayo_ally": {
+        "type": "message",
+        "text": {
+            "es": "¡Rayo-Burbuja nada a una velocidad sobrecogedora... pero en dirección contraria! Salpica en el ojo al mismísimo Rey Rana y termina enredado en un junco de la salida. Es descalificado de inmediato por desacato a la corona. Pierdes tus 5 monedas, pero el comisario te regala con pesar una poción menor rescatada del lodo como consuelo.",
+            "en": "Bubble Flash swims with mind-bending speed... in the complete opposite direction! It splashes the Frog King right in the eye and tangles in a starter reed. Disqualified immediately for contempt of court. You forfeit 5 coins, but the commissioner apologetically gifts you a minor potion salvaged from the silt as a consolation.",
+            "fr": "Éclair-Bulle nage à une vitesse impressionnante... mais dans la direction opposée ! Il éclabousse l'œil du Roi Grenouille en personne et finit empêtré dans un jonc du départ. Il est immédiatement disqualifié pour outrage à la couronne. Tu perds tes 5 pièces, mais le commissaire t'offre avec regret une potion mineure récupérée dans la vase en guise de consolation.",
+            "it": "Fulmine-Bolla nuota a una velocità sconvolgente... ma in direzione opposta! Schizza nell'occhio proprio il Re Rana e finisce impigliato in un giunco di partenza. Viene squalificato immediatamente per oltraggio alla corona. Perdi le tue 5 monete, ma il commissario ti regala con rammarico una pozione minore recuperata dal fango come consolazione.",
+            "de": "Blitz-Blase schwimmt mit atemberaubender Geschwindigkeit... aber in die entgegengesetzte Richtung! Er bespritzt dem Froschkönig persönlich das Auge und verheddert sich in einem Startschilf. Er wird sofort wegen Missachtung der Krone disqualifiziert. Du verlierst deine 5 Münzen, aber der Kommissar schenkt dir bedauernd einen aus dem Schlick geretteten kleinen Trank als Trost.",
+            "zh": "泡泡闪电以令人震惊的速度游动着……但方向完全相反！它把水花溅到了青蛙国王本人的眼睛里，最后缠在了起点的一根芦苇上。它立刻因藐视王室而被取消资格。你输掉了5枚硬币，但委员懊悔地送给你一瓶从淤泥中打捞出的小型药水以示安慰。",
+            "ja": "泡の稲妻は目が眩むような速さで泳ぐ……だが完全に逆方向へ！カエル王本人の目に水しぶきを浴びせ、スタート地点の葦に絡まってしまう。王室への冒涜として即座に失格となる。金貨5枚を失うが、委員は詫びるように泥から救い出した下級ポーションを慰めとして贈ってくれる。"
+        },
+        "next": [
+            "rana_hub_ally"
+        ],
+        "reward": "gold:-5;faceta:cordura=+1;item:potion=1"
+    },
+    "rana_carr_opt_volver_ally": {
+        "type": "option",
+        "text": {
+            "es": "↩️  Guardarte las monedas y volver a la corte",
+            "en": "↩️  Pocket your coins and return to the court",
+            "fr": "↩️  Garder tes pièces et retourner à la cour",
+            "it": "↩️  Tenerti le monete e tornare a corte",
+            "de": "↩️  Deine Münzen behalten und zum Hof zurückkehren",
+            "zh": "↩️  收好你的硬币，回到宫廷",
+            "ja": "↩️  硬貨をしまって宮廷に戻る"
+        },
+        "next": [
+            "rana_hub_ally"
+        ],
+        "reward": ""
+    },
+    "rana_opt_tesoro_fango": {
+        "type": "option",
+        "condition": "gold >= 10",
+        "text": {
+            "es": "🪙  Ofrendar 10 de oro al Tesoro Real a cambio de una reliquia del fondo",
+            "en": "🪙  Offer 10 gold to the Royal Treasury in exchange for a sunken relic",
+            "fr": "🪙  Offrir 10 or au Trésor Royal contre une relique du fond",
+            "it": "🪙  Offrire 10 oro al Tesoro Reale in cambio di una reliquia del fondo",
+            "de": "🪙  10 Gold der Königlichen Schatzkammer opfern für ein Relikt vom Grund",
+            "zh": "🪙  向皇家宝库献上10金币，换取一件来自水底的遗物",
+            "ja": "🪙  沈んだ遺物と引き換えに10ゴールドを王家の宝物庫に捧げる"
+        },
+        "next": [
+            "rana_msg_tesoro_fango"
+        ],
+        "reward": ""
+    },
+    "rana_msg_tesoro_fango": {
+        "type": "message",
+        "text": {
+            "es": "Lanzas 10 relucientes monedas al cofre ceremonial de lodo. El Rey Rana emite un croar de sincera gratitud e instruye a su buceador real. Un sapo fornido se zambulle y emerge sosteniendo un frasco de vidrio sellado con cera: una poción de vida intermedia perdida hace años por algún aventurero despistado.",
+            "en": "You drop 10 glittering coins into the ceremonial mud chest. The Frog King lets out a croak of genuine gratitude and instructs his royal diver. A burly toad submerges and surfaces with a wax-sealed glass vial: an intermediate health potion lost years ago by some careless explorer.",
+            "fr": "Tu jettes 10 pièces brillantes dans le coffre cérémoniel de boue. Le Roi Grenouille pousse un coassement de gratitude sincère et donne des instructions à son plongeur royal. Un crapaud costaud plonge et remonte tenant un flacon de verre scellé à la cire : une potion de vie intermédiaire perdue il y a des années par un aventurier distrait.",
+            "it": "Getti 10 luccicanti monete nel forziere cerimoniale di fango. Il Re Rana emette un gracidio di sincera gratitudine e istruisce il suo tuffatore reale. Un rospo robusto si tuffa e riemerge reggendo una boccetta di vetro sigillata con la cera: una pozione di vita intermedia persa anni fa da qualche avventuriero distratto.",
+            "de": "Du wirfst 10 glänzende Münzen in die zeremonielle Schlammtruhe. Der Froschkönig quakt mit aufrichtiger Dankbarkeit und weist seinen königlichen Taucher an. Eine kräftige Kröte taucht unter und taucht mit einem wachsversiegelten Glasfläschchen wieder auf: einem mittleren Lebenstrank, der vor Jahren von einem unachtsamen Abenteurer verloren wurde.",
+            "zh": "你把10枚闪亮的硬币投进仪式性的泥浆宝箱里。青蛙国王发出一声真诚感激的鸣叫，指挥着他的皇家潜水员。一只健壮的蟾蜍潜入水中，浮上来时手里拿着一个用蜡封口的玻璃瓶：那是多年前某个粗心的冒险者遗失的一瓶中级生命药水。",
+            "ja": "光る硬貨10枚を儀式用の泥の宝箱に投げ入れる。カエル王は心からの感謝の鳴き声を上げ、王室の潜水士に指示を出す。屈強なヒキガエルが潜り、蝋で封をされたガラス瓶を持って浮上する——何年も前に不注意な冒険者が失った中級体力ポーションだ。"
+        },
+        "next": [
+            "rana_hub_ally"
+        ],
+        "reward": "gold:-10;item:pocion_vida_intermedia=1"
+    },
+    "rana_opt_rebuscar": {
+        "type": "option",
+        "text": {
+            "es": "🔍  Rebuscar en el fango con venia real («El Alijo de los Despistados»)",
+            "en": "🔍  Rummage the mud with royal permission («The Scatterbrain Cache»)",
+            "fr": "🔍  Fouiller dans la boue avec la permission royale (« Le Trésor des Étourdis »)",
+            "it": "🔍  Rovistare nel fango con il permesso reale («Il Bottino degli Sbadati»)",
+            "de": "🔍  Mit königlicher Erlaubnis den Schlamm durchsuchen („Das Versteck der Vergesslichen“)",
+            "zh": "🔍  经王室许可在泥中翻找（粗心者的私藏）",
+            "ja": "🔍  王の許可を得て泥をかき回す（『うっかり者の隠し場所』）"
+        },
+        "next": [
+            "rana_msg_rebuscar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "rana_msg_rebuscar": {
+        "type": "message",
+        "text": {
+            "es": "Con la venia de Su Majestad, sumerges el brazo hasta el codo en el cieno. Tus dedos tropiezan con una bolsa de cuero ennegrecida por la humedad: contiene 30 monedas de oro intactas perdidas por algún antiguo transeúnte. El Rey Rana asiente complacido: 'lo que el barro engulle, los amigos desentierran'.",
+            "en": "With His Majesty's blessing, you dip your arm elbow-deep into the silt. Your fingers strike a moisture-blackened leather pouch: it holds 30 intact gold coins dropped by a long-gone passerby. The Frog King nods approvingly: 'what mud swallows, friends may unearth'.",
+            "fr": "Avec la permission de Sa Majesté, tu plonges le bras jusqu'au coude dans la vase. Tes doigts heurtent une bourse en cuir noircie par l'humidité : elle contient 30 pièces d'or intactes, perdues par un ancien passant. Le Roi Grenouille hoche la tête, satisfait : « ce que la boue avale, les amis le déterrent ».",
+            "it": "Con il permesso di Sua Maestà, immergi il braccio fino al gomito nel fango. Le tue dita si imbattono in una borsa di cuoio annerita dall'umidità: contiene 30 monete d'oro intatte perdute da qualche antico passante. Il Re Rana annuisce compiaciuto: 'ciò che il fango inghiotte, gli amici lo disseppelliscono'.",
+            "de": "Mit der Erlaubnis Seiner Majestät tauchst du deinen Arm bis zum Ellbogen in den Schlamm. Deine Finger stoßen auf einen von Feuchtigkeit geschwärzten Lederbeutel: er enthält 30 unversehrte Goldmünzen, die ein längst vergangener Passant verloren hat. Der Froschkönig nickt zufrieden: „was der Schlamm verschluckt, graben Freunde wieder aus“.",
+            "zh": "在国王陛下的许可下，你把手臂一直伸到肘部深入淤泥中。你的手指碰到了一个被湿气弄黑的皮袋：里面装着30枚完好无损的金币，是某个古代路人遗失的。青蛙国王满意地点点头：「泥浆吞下的东西，朋友们会把它挖出来」。",
+            "ja": "陛下の許しを得て、肘まで泥に腕を沈める。指先が湿気で黒ずんだ革の袋に触れる——長い昔の通行人が落とした無傷の金貨30枚が入っている。カエル王は満足げに頷く。「泥が飲み込んだものは、友が掘り出すものだ」"
+        },
+        "next": [
+            "rana_hub_ally"
+        ],
+        "reward": "gold:+30;faceta:inteligencia=+1"
+    },
+    "rana_opt_himno_first": {
+        "type": "option",
+        "text": {
+            "es": "🎵  Unirte al Coro Real e intentar entonar el Himno Anfibio («¡Croooaac!»)",
+            "en": "🎵  Join the Royal Choir and attempt the Amphibian Anthem («Croooak!»)",
+            "fr": "🎵  Te joindre au Chœur Royal et tenter l'Hymne Amphibien (« Croââââc ! »)",
+            "it": "🎵  Unirti al Coro Reale e tentare l'Inno Anfibio («Croooac!»)",
+            "de": "🎵  Dem Königlichen Chor beitreten und die Amphibienhymne versuchen („Quaaaak!“)",
+            "zh": "🎵  加入皇家合唱团，尝试唱起两栖类国歌（呱呱呱！）",
+            "ja": "🎵  王室合唱団に加わり、両生類の国歌を試みる（ゲロゲロー！）"
+        },
+        "next": [
+            "rana_msg_himno_first"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "rana_msg_himno_first": {
+        "type": "message",
+        "text": {
+            "es": "Inflas las mejillas y lanzas un grave y resonante «¡CROOOAAC!». El estanque enmudece. Doce ranas ladean la cabeza con estupefacción. El Rey Rana parpadea despacio y una solitaria lágrima de emoción resbala por su mejilla verdosa: has alcanzado el semitono del fango primigenio.",
+            "en": "You puff your cheeks and release a deep, resonant «CROOOAK!». The pond falls dead silent. A dozen frogs cock their heads in astonishment. The Frog King blinks slowly and a single tear of joy rolls down his greenish cheek: you have hit the pure pitch of the primordial mud.",
+            "fr": "Tu gonfles les joues et lâches un « CROÂÂÂÂÂC ! » grave et résonnant. L'étang se tait. Douze grenouilles penchent la tête, stupéfaites. Le Roi Grenouille cligne des yeux lentement et une larme solitaire d'émotion roule sur sa joue verdâtre : tu as atteint le demi-ton de la boue primordiale.",
+            "it": "Gonfi le guance e lasci partire un grave e risonante «CROOOOOAC!». Lo stagno ammutolisce. Dodici rane inclinano la testa stupefatte. Il Re Rana sbatte le palpebre lentamente e una lacrima solitaria di commozione scivola sulla sua guancia verdastra: hai raggiunto il semitono del fango primigenio.",
+            "de": "Du blähst die Wangen auf und stößt ein tiefes, hallendes „QUAAAAAK!“ aus. Der Teich verstummt. Ein Dutzend Frösche neigen den Kopf in Verblüffung. Der Froschkönig blinzelt langsam, und eine einsame Träne der Rührung rollt über seine grünliche Wange: du hast den Halbton des ursprünglichen Schlamms erreicht.",
+            "zh": "你鼓起脸颊，发出一声低沉而回响的「呱呱呱呱呱——！」池塘瞬间安静下来。十二只青蛙惊讶地歪着脑袋。青蛙国王缓缓眨着眼，一滴感动的泪水顺着它绿色的脸颊滑落：你达到了原初泥浆的半音音准。",
+            "ja": "頬を膨らませ、深く響き渡る「ゲロオオオー！」を放つ。池が静まり返る。十二匹のカエルが驚いて頭を傾げる。カエル王はゆっくりと瞬きをし、感動の涙が緑がかった頬を伝う——お前は原初の泥の半音に到達したのだ。"
+        },
+        "next": [
+            "rana_hub_first"
+        ],
+        "reward": "faceta:aspecto=+1;faceta:bondad=+1;xp:10"
+    },
+    "rana_opt_himno_ally": {
+        "type": "option",
+        "condition": "no_gflag(\"rana_himno_cantado\")",
+        "text": {
+            "es": "🎵  Entonar el Himno Anfibio a dúo con Su Majestad",
+            "en": "🎵  Sing the Amphibian Anthem in duet with His Majesty",
+            "fr": "🎵  Entonner l'Hymne Amphibien en duo avec Sa Majesté",
+            "it": "🎵  Intonare l'Inno Anfibio in duetto con Sua Maestà",
+            "de": "🎵  Die Amphibienhymne im Duett mit Seiner Majestät anstimmen",
+            "zh": "🎵  与国王陛下合唱两栖类国歌",
+            "ja": "🎵  陛下と二重奏で両生類の国歌を歌う"
+        },
+        "next": [
+            "rana_msg_himno_ally"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "rana_msg_himno_ally": {
+        "type": "message",
+        "text": {
+            "es": "Tú y el Rey Rana sincronizáis vuestras papadas y entonáis un himno solemne a dos voces. El barro vibra y pequeñas pompas armónicas estallan en el agua. La corte entera se une en una sinfonía acuática que eleva los espíritus de todos los presentes.",
+            "en": "You and the Frog King harmonize your throats and belt out a solemn two-part anthem. The mud vibrates and small harmonic bubbles pop on the water. The whole court joins in an aquatic symphony that lifts the spirits of all present.",
+            "fr": "Toi et le Roi Grenouille synchronisez vos fanons et entonnez un hymne solennel à deux voix. La boue vibre et de petites bulles harmoniques éclatent à la surface de l'eau. Toute la cour se joint à une symphonie aquatique qui élève les esprits de tous les présents.",
+            "it": "Tu e il Re Rana sincronizzate i vostri giogoli e intonate un inno solenne a due voci. Il fango vibra e piccole bolle armoniche scoppiano nell'acqua. Tutta la corte si unisce in una sinfonia acquatica che eleva gli spiriti di tutti i presenti.",
+            "de": "Du und der Froschkönig synchronisiert eure Kehlen und stimmt eine feierliche zweistimmige Hymne an. Der Schlamm vibriert und kleine harmonische Blasen platzen auf dem Wasser. Der gesamte Hof stimmt in eine aquatische Symphonie ein, die die Stimmung aller Anwesenden hebt.",
+            "zh": "你和青蛙国王同步鸣叫的喉囊，唱起了一首庄严的二重唱。泥浆震颤着，小小的和谐气泡在水面炸开。整个宫廷都加入了这场水中交响乐，提振了在场所有人的精神。",
+            "ja": "お前とカエル王は喉を同期させ、荘厳な二部合唱を響かせる。泥が振動し、小さな調和した泡が水面で弾ける。宮廷全体がこの水中交響曲に加わり、その場にいる全員の精神を高揚させる。"
+        },
+        "next": [
+            "rana_hub_ally"
+        ],
+        "reward": "faceta:aspecto=+1;faceta:bondad=+1;gflag:rana_himno_cantado;xp:10"
+    },
+    "rana_opt_reverencia_first": {
+        "type": "option",
+        "text": {
+            "es": "🙇  Hacer una reverencia formal ante Su Majestad Anfibia",
+            "en": "🙇  Give a formal bow before His Amphibian Majesty",
+            "fr": "🙇  Faire une révérence formelle devant Sa Majesté Amphibienne",
+            "it": "🙇  Fare un inchino formale davanti a Sua Maestà Anfibia",
+            "de": "🙇  Eine förmliche Verbeugung vor Seiner Amphibischen Majestät machen",
+            "zh": "🙇  在两栖类陛下面前行正式的鞠躬礼",
+            "ja": "🙇  両生類陛下の前で正式なお辞儀をする"
+        },
+        "next": [
+            "rana_msg_reverencia_first"
+        ],
+        "reward": ""
+    },
+    "rana_msg_reverencia_first": {
+        "type": "message",
+        "text": {
+            "es": "Te inclinas con toda la solemnidad que exige el momento. El Rey Rana entrecierra los ojos, evaluando la sinceridad de tu gesto, y responde con un croar largo y grave que la corte imita de inmediato en una ola de reverencias glutinosas. Has superado el protocolo del charco.",
+            "en": "You bow with all the solemnity the moment demands. The Frog King narrows his eyes, weighing the sincerity of your gesture, and answers with a long, low croak that the court mirrors in a wave of gloopy bows. You passed the puddle protocol.",
+            "fr": "Tu t'incline avec toute la solennité qu'exige l'instant. Le Roi Grenouille plisse les yeux, évaluant la sincérité de ton geste, et répond par un coassement long et grave que la cour imite aussitôt dans une vague de révérences gluantes. Tu as réussi le protocole de la mare.",
+            "it": "Ti inchini con tutta la solennità che il momento richiede. Il Re Rana socchiude gli occhi, valutando la sincerità del tuo gesto, e risponde con un gracidio lungo e grave che la corte imita immediatamente in un'onda di inchini viscosi. Hai superato il protocollo della pozzanghera.",
+            "de": "Du verneigst dich mit aller Feierlichkeit, die der Moment verlangt. Der Froschkönig kneift die Augen zusammen, um die Aufrichtigkeit deiner Geste einzuschätzen, und antwortet mit einem langen, tiefen Quaken, das der Hof sofort in einer Welle schleimiger Verbeugungen nachahmt. Du hast das Pfützenprotokoll bestanden.",
+            "zh": "你以这一时刻所需的全部庄重鞠了一躬。青蛙国王眯起眼睛，评估着你这一举动的诚意，随后用一声悠长而低沉的鸣叫回应，宫廷立刻掀起一波黏糊糊的鞠躬浪潮，纷纷效仿。你通过了泥坑礼仪的考验。",
+            "ja": "この瞬間にふさわしい厳粛さでお辞儀をする。カエル王はお前の仕草の誠実さを推し量るように目を細め、長く低い鳴き声で応える。それを合図に宮廷全体がねばついたお辞儀の波を真似る。水たまりの儀礼をお前は突破したのだ。"
+        },
+        "next": [
+            "rana_hub_first"
+        ],
+        "reward": ""
+    },
+    "rana_opt_reverencia_ally": {
+        "type": "option",
+        "text": {
+            "es": "🙇  Hacer una reverencia ceremonial de cortesía al Rey",
+            "en": "🙇  Give a ceremonial bow of courtesy to the King",
+            "fr": "🙇  Faire une révérence cérémonielle de courtoisie au Roi",
+            "it": "🙇  Fare un inchino cerimoniale di cortesia al Re",
+            "de": "🙇  Dem König eine zeremonielle Höflichkeitsverbeugung erweisen",
+            "zh": "🙇  向国王行一个礼貌的仪式性鞠躬",
+            "ja": "🙇  王に礼儀正しい儀式的なお辞儀をする"
+        },
+        "next": [
+            "rana_msg_reverencia_ally"
+        ],
+        "reward": ""
+    },
+    "rana_msg_reverencia_ally": {
+        "type": "message",
+        "text": {
+            "es": "Te inclinas con afecto cortés. El Rey Rana coloca una pata sobre su pecho anfibio y te devuelve el saludo con una inclinación regia de su corona de junco.",
+            "en": "You bow with courteous affection. The Frog King places a webbed foot upon his amphibian chest and returns the salute with a regal tip of his reed crown.",
+            "fr": "Tu t'incline avec une affection courtoise. Le Roi Grenouille pose une patte sur sa poitrine amphibienne et te rend le salut par une inclinaison royale de sa couronne de jonc.",
+            "it": "Ti inchini con affetto cortese. Il Re Rana pone una zampa sul suo petto anfibio e ti restituisce il saluto con un'inclinazione regale della sua corona di giunco.",
+            "de": "Du verneigst dich mit höflicher Zuneigung. Der Froschkönig legt eine Pfote auf seine amphibische Brust und erwidert den Gruß mit einer königlichen Neigung seiner Schilfkrone.",
+            "zh": "你带着礼貌的情谊鞠了一躬。青蛙国王把一只爪子放在它两栖类的胸口上，以一个庄严的灯芯草王冠倾斜姿态回礼。",
+            "ja": "礼儀正しい親愛の情を込めてお辞儀をする。カエル王は水かきのある足を両生類の胸に当て、葦の冠を王者らしく傾けて礼を返す。"
+        },
+        "next": [
+            "rana_hub_ally"
+        ],
+        "reward": ""
+    },
+    "rana_opt_discurso": {
+        "type": "option",
+        "text": {
+            "es": "📢  Exigir a las ranas que reconozcan TU autoridad",
+            "en": "📢  Demand the frogs acknowledge YOUR authority",
+            "fr": "📢  Exiger que les grenouilles reconnaissent TON autorité",
+            "it": "📢  Esigere che le rane riconoscano LA TUA autorità",
+            "de": "📢  Von den Fröschen verlangen, DEINE Autorität anzuerkennen",
+            "zh": "📢  要求青蛙们承认你的权威",
+            "ja": "📢  カエルたちにお前自身の権威を認めさせようとする"
+        },
+        "next": [
+            "rana_msg_discurso"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "rana_msg_discurso": {
+        "type": "message",
+        "text": {
+            "es": "Te yergues cuan alto eres y proclamas tu dominio sobre el charco, sus aguas y todos sus anfibios. La corte guarda un silencio absoluto. El Rey Rana te mira, parpadea una sola vez con infinita lástima, y da media vuelta mostrándote el trasero. Uno a uno, todos los súbditos hacen lo mismo. Te han desairado por unanimidad. Nunca te habías sentido tan por debajo de una rana.",
+            "en": "You draw yourself up to your full height and proclaim your dominion over the puddle, its waters, and all its amphibians. The court falls into absolute silence. The Frog King looks at you, blinks once with infinite pity, and turns around to show you his rear. One by one, every subject does the same. You have been snubbed unanimously. You have never felt so beneath a frog.",
+            "fr": "Tu te redresses de toute ta hauteur et proclames ta domination sur la mare, ses eaux et tous ses amphibiens. La cour garde un silence absolu. Le Roi Grenouille te regarde, cligne des yeux une seule fois avec une pitié infinie, et se retourne pour te montrer son derrière. Un par un, tous les sujets font de même. Tu as été snobé à l'unanimité. Tu ne t'étais jamais senti aussi inférieur à une grenouille.",
+            "it": "Ti erigi in tutta la tua altezza e proclami il tuo dominio sulla pozzanghera, le sue acque e tutti i suoi anfibi. La corte mantiene un silenzio assoluto. Il Re Rana ti guarda, sbatte le palpebre una sola volta con infinita pietà, e si volta mostrandoti il posteriore. Uno per uno, tutti i sudditi fanno lo stesso. Sei stato snobbato all'unanimità. Non ti eri mai sentito così inferiore a una rana.",
+            "de": "Du richtest dich in deiner ganzen Größe auf und proklamierst deine Herrschaft über die Pfütze, ihre Gewässer und all ihre Amphibien. Der Hof verfällt in absolute Stille. Der Froschkönig blickt dich an, blinzelt einmal mit unendlichem Mitleid und dreht sich um, um dir sein Hinterteil zu zeigen. Einer nach dem anderen tun alle Untertanen dasselbe. Du wurdest einstimmig geschnitten. Du hast dich noch nie so einer Kröte unterlegen gefühlt.",
+            "zh": "你挺直身子，站到最高，宣布你对这个泥坑、它的水域以及所有两栖生物的统治权。宫廷陷入了绝对的沉默。青蛙国王看着你，带着无限的怜悯眨了一次眼，然后转过身去，把屁股对着你。臣民们一个接一个地做出了同样的举动。你被一致地冷落了。你从未感到自己如此不如一只青蛙。",
+            "ja": "背筋を伸ばし、この水たまりとその水、そしてすべての両生類に対する自らの支配を宣言する。宮廷は完全な沈黙に包まれる。カエル王はお前を見つめ、無限の憐れみを込めて一度だけ瞬きをし、振り向いてお尻を見せつける。臣民たちも一匹また一匹と同じことをする。満場一致で冷遇されたのだ。カエル一匹にこれほど劣っていると感じたことは今までになかった。"
+        },
+        "next": [
+            "rana_hub_first"
+        ],
+        "reward": "faceta:aspecto=-1;faceta:cordura=-1"
+    },
+    "rana_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Retirarte de la corte con paso respetuoso",
+            "en": "🚶  Withdraw from the court with respectful steps",
+            "fr": "🚶  Te retirer de la cour d'un pas respectueux",
+            "it": "🚶  Ritirarti dalla corte con passo rispettoso",
+            "de": "🚶  Sich mit respektvollen Schritten vom Hof zurückziehen",
+            "zh": "🚶  以恭敬的步伐退出宫廷",
+            "ja": "🚶  敬意を持った足取りで宮廷を退出する"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

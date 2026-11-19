@@ -1,0 +1,27 @@
+{
+    "name": {
+        "es": "Poción de Vida Superior",
+        "en": "Major Health Potion",
+        "fr": "Potion de Vie Supérieure",
+        "it": "Pozione di Vita Superiore",
+        "de": "Großer Heiltrank",
+        "zh": "高级生命药水",
+        "ja": "上級ライフポーション"
+    },
+    "desc": {
+        "es": "Restaura el 85% de la salud máxima (mínimo 200 HP).",
+        "en": "Restores 85% of maximum health (minimum 200 HP).",
+        "fr": "Restaure 85% de la santé maximale (minimum 200 PV).",
+        "it": "Ripristina l'85% della salute massima (minimo 200 HP).",
+        "de": "Stellt 85% der maximalen Gesundheit wieder her (mindestens 200 HP).",
+        "zh": "恢复 85% 的最大生命值（至少 200 点 HP）。",
+        "ja": "最大HPの85%を回復する（最低200HP）。"
+    },
+    "icon": "🧪",
+    "category": "consumable",
+    "usable": true,
+    "effects": {
+        "heal_pct": 0.85,
+        "heal": 200
+    }
+}

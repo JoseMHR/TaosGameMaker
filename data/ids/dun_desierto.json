@@ -1,0 +1,28 @@
+{
+    "id": "dun_desierto",
+    "type": "dungeon",
+    "name": {
+        "es": "Mazmorra del Desierto",
+        "en": "Desert Dungeon",
+        "fr": "Donjon du Désert",
+        "it": "Dungeon del Deserto",
+        "de": "Wüstenverlies",
+        "zh": "沙漠地牢",
+        "ja": "砂漠のダンジョン"
+    },
+    "icon": "🕳️",
+    "desc": {
+        "es": "Mazmorra del Desierto",
+        "en": "Desert Dungeon",
+        "fr": "Donjon du Désert",
+        "it": "Dungeon del Deserto",
+        "de": "Wüstenverlies",
+        "zh": "沙漠地牢",
+        "ja": "砂漠のダンジョン"
+    },
+    "bg": [
+        0.05,
+        0.05,
+        0.08
+    ]
+}

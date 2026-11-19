@@ -1,0 +1,31 @@
+{
+    "name": {
+        "es": "Armadura de Hierro",
+        "en": "Iron Armor",
+        "fr": "Armure de Fer",
+        "it": "Armatura di Ferro",
+        "de": "Eisenrüstung",
+        "zh": "铁甲",
+        "ja": "鉄の鎧"
+    },
+    "desc": {
+        "es": "Placas de hierro remachadas sobre cuero grueso.",
+        "en": "Iron plates riveted over thick leather.",
+        "fr": "Plaques de fer rivetées sur du cuir épais.",
+        "it": "Piastre di ferro rivettate su cuoio spesso.",
+        "de": "Eisenplatten, vernietet auf dickem Leder.",
+        "zh": "铆接在厚皮革上的铁板。",
+        "ja": "厚い革にリベット留めされた鉄板。"
+    },
+    "icon": "🦺",
+    "category": "equipment",
+    "usable": false,
+    "slot": "armor",
+    "tier": 1,
+    "bonuses": {
+        "vit": 3
+    },
+    "combat": {
+        "phys_defense": 22
+    }
+}

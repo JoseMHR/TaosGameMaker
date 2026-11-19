@@ -1,0 +1,25 @@
+{
+    "id": "house_yelmo_anciana",
+    "type": "poi",
+    "name": {
+        "es": "Choza de la Anciana",
+        "en": "Elder's Hut",
+        "fr": "Cabane de la Vieille Femme",
+        "it": "Capanna dell'Anziana",
+        "de": "Hütte der Alten",
+        "zh": "老妇人的小屋",
+        "ja": "老婆の小屋"
+    },
+    "icon": "🛖",
+    "npc": "house_yelmo_anciana",
+    "visual": "casita",
+    "presences": [
+        {
+            "condition": "default",
+            "actor": "house_yelmo_anciana",
+            "entry_node": "entry"
+        }
+    ],
+    "bg": "bg_world_poi_yelmo_anciana.png",
+    "music": "poi_house_cozy"
+}

@@ -1,0 +1,12 @@
+{
+  "t": "barril_manzanas",
+  "order": 234,
+  "label": "Barril de Manzanas",
+  "icon": "🍎",
+  "color": "#b8422e",
+  "group": "Decoración",
+  "solid": true,
+  "orient": true,
+  "decor": true,
+  "entity": true
+}

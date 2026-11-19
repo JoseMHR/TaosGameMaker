@@ -1,0 +1,130 @@
+[gd_scene format=3 uid="uid://xetcuban83wn"]
+
+[sub_resource type="StandardMaterial3D" id="Mat_DamStone"]
+albedo_color = Color(0.38, 0.4, 0.44, 1)
+roughness = 0.85
+
+[sub_resource type="BoxMesh" id="Mesh_DamBody"]
+size = Vector3(1.1, 0.65, 0.45)
+
+[sub_resource type="BoxMesh" id="Mesh_DamTop"]
+size = Vector3(1.15, 0.12, 0.52)
+
+[sub_resource type="StandardMaterial3D" id="Mat_CanyonRock"]
+albedo_color = Color(0.24, 0.22, 0.21, 1)
+roughness = 0.95
+
+[sub_resource type="PrismMesh" id="Mesh_CanyonWall"]
+size = Vector3(0.5, 0.85, 0.9)
+
+[sub_resource type="StandardMaterial3D" id="Mat_ReservoirWater"]
+albedo_color = Color(0.12, 0.42, 0.65, 0.9)
+metallic = 0.2
+roughness = 0.1
+
+[sub_resource type="BoxMesh" id="Mesh_WaterReservoir"]
+size = Vector3(0.9, 0.25, 0.45)
+
+[sub_resource type="StandardMaterial3D" id="Mat_CascadingWater"]
+albedo_color = Color(0.72, 0.92, 0.98, 1)
+emission_enabled = true
+emission = Color(0.55, 0.85, 0.95, 1)
+emission_energy_multiplier = 1.2
+
+[sub_resource type="BoxMesh" id="Mesh_WaterChute"]
+size = Vector3(0.28, 0.55, 0.12)
+
+[sub_resource type="BoxMesh" id="Mesh_WaterBasin"]
+size = Vector3(0.4, 0.08, 0.25)
+
+[sub_resource type="StandardMaterial3D" id="Mat_MetalGate"]
+albedo_color = Color(0.18, 0.18, 0.22, 1)
+metallic = 0.8
+roughness = 0.3
+
+[sub_resource type="BoxMesh" id="Mesh_SluiceGate"]
+size = Vector3(0.22, 0.28, 0.06)
+
+[sub_resource type="BoxMesh" id="Mesh_ControlTower"]
+size = Vector3(0.22, 0.4, 0.25)
+
+[sub_resource type="PrismMesh" id="Mesh_TowerRoof"]
+size = Vector3(0.26, 0.2, 0.28)
+
+[sub_resource type="StandardMaterial3D" id="Mat_YelmoGold"]
+albedo_color = Color(0.85, 0.68, 0.22, 1)
+metallic = 0.7
+roughness = 0.3
+
+[sub_resource type="CylinderMesh" id="Mesh_YelmoArch"]
+top_radius = 0.16
+bottom_radius = 0.16
+height = 0.08
+radial_segments = 8
+
+[node name="PresaYelmo" type="Node3D" unique_id=1803736302]
+
+[node name="DamBody" type="MeshInstance3D" parent="." unique_id=536198808]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.325, 0.05)
+material_override = SubResource("Mat_DamStone")
+mesh = SubResource("Mesh_DamBody")
+
+[node name="DamTopWalkway" type="MeshInstance3D" parent="." unique_id=1198250094]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.71, 0.05)
+material_override = SubResource("Mat_DamStone")
+mesh = SubResource("Mesh_DamTop")
+
+[node name="CanyonLeft" type="MeshInstance3D" parent="." unique_id=1651125480]
+transform = Transform3D(0.866, 0, 0.5, 0, 1, 0, -0.5, 0, 0.866, -0.7227018, 0.425, 0)
+material_override = SubResource("Mat_CanyonRock")
+mesh = SubResource("Mesh_CanyonWall")
+
+[node name="CanyonRight" type="MeshInstance3D" parent="." unique_id=451153259]
+transform = Transform3D(0.866, 0, -0.5, 0, 1, 0, 0.5, 0, 0.866, 0.74285364, 0.425, 0.00447762)
+material_override = SubResource("Mat_CanyonRock")
+mesh = SubResource("Mesh_CanyonWall")
+
+[node name="ReservoirWater" type="MeshInstance3D" parent="." unique_id=957938285]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.52, -0.22)
+material_override = SubResource("Mat_ReservoirWater")
+mesh = SubResource("Mesh_WaterReservoir")
+
+[node name="SpillwayWater" type="MeshInstance3D" parent="." unique_id=242412651]
+transform = Transform3D(1, 0, 0, 0, 0.94, 0.34, 0, -0.34, 0.94, 0, 0.32, 0.28)
+material_override = SubResource("Mat_CascadingWater")
+mesh = SubResource("Mesh_WaterChute")
+
+[node name="WaterBasin" type="MeshInstance3D" parent="." unique_id=2122165506]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.04, 0.38)
+material_override = SubResource("Mat_CascadingWater")
+mesh = SubResource("Mesh_WaterBasin")
+
+[node name="SluiceGate" type="MeshInstance3D" parent="." unique_id=1311066055]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.22, 0.24)
+material_override = SubResource("Mat_MetalGate")
+mesh = SubResource("Mesh_SluiceGate")
+
+[node name="TowerLeft" type="MeshInstance3D" parent="." unique_id=2069920769]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.38, 0.88, 0.05)
+material_override = SubResource("Mat_DamStone")
+mesh = SubResource("Mesh_ControlTower")
+
+[node name="TowerRoofL" type="MeshInstance3D" parent="." unique_id=1995938365]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.38, 1.15, 0.05)
+material_override = SubResource("Mat_MetalGate")
+mesh = SubResource("Mesh_TowerRoof")
+
+[node name="TowerRight" type="MeshInstance3D" parent="." unique_id=2106221544]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.38, 0.88, 0.05)
+material_override = SubResource("Mat_DamStone")
+mesh = SubResource("Mesh_ControlTower")
+
+[node name="TowerRoofR" type="MeshInstance3D" parent="." unique_id=441658239]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.38, 1.15, 0.05)
+material_override = SubResource("Mat_MetalGate")
+mesh = SubResource("Mesh_TowerRoof")
+
+[node name="YelmoEmblem" type="MeshInstance3D" parent="." unique_id=1252572807]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0.72, 0.32)
+material_override = SubResource("Mat_YelmoGold")
+mesh = SubResource("Mesh_YelmoArch")

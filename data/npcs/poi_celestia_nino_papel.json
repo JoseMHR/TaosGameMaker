@@ -1,0 +1,149 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Niño de Papel",
+            "en": "The Paper Child",
+            "fr": "L'Enfant de Papier",
+            "it": "Il Bambino di Carta",
+            "de": "Das Papierkind",
+            "zh": "纸做的孩子",
+            "ja": "紙の子供"
+        },
+        "next": [],
+        "reward": "bg=0.08,0.08,0.10"
+    },
+    "pap_root": {
+        "type": "message",
+        "text": {
+            "es": "En mitad de un prado impecable de Celestia se sostiene, imposible, una figura de papel plegado del tamaño de un niño de seis años. No hay una sola arruga fuera de lugar, y aunque sopla la brisa, no se mueve ni tiembla. Donde debería estar la cara solo hay un pliegue liso. Cuando te acercas, una vocecita fina como el susurro de una hoja al pasar pregunta: '¿Eres tú, papá? Me dijiste que volverías enseguida.'",
+            "en": "In the middle of an immaculate Celestia meadow stands, impossibly, a folded-paper figure the size of a six-year-old child. Not a single crease is out of place, and though the breeze blows, it does not stir or tremble. Where its face should be there is only a smooth fold. As you approach, a voice thin as the whisper of a turning page asks: 'Is it you, daddy? You told me you'd be right back.'",
+            "fr": "Au milieu d'un pré impeccable de Celestia se tient, impossible, une figure de papier plié de la taille d'un enfant de six ans. Pas un seul pli n'est de travers, et bien que la brise souffle, elle ne bouge ni ne tremble. Là où devrait être le visage, il n'y a qu'un pli lisse. Quand tu t'approches, une petite voix fine comme le bruissement d'une page qui tourne demande : « C'est toi, papa ? Tu m'as dit que tu reviendrais tout de suite. »",
+            "it": "In mezzo a un prato impeccabile di Celestia si sostiene, impossibile, una figura di carta piegata delle dimensioni di un bambino di sei anni. Non una sola piega è fuori posto, e sebbene soffi la brezza, non si muove né trema. Dove dovrebbe esserci il viso c'è solo una piega liscia. Quando ti avvicini, una vocina sottile come il fruscio di una pagina che gira chiede: 'Sei tu, papà? Mi hai detto che saresti tornato subito.'",
+            "de": "Mitten auf einer makellosen Wiese von Celestia steht, unmöglich, eine gefaltete Papierfigur von der Größe eines sechsjährigen Kindes. Keine einzige Falte ist fehl am Platz, und obwohl die Brise weht, bewegt oder zittert sie nicht. Wo das Gesicht sein sollte, ist nur eine glatte Falte. Als du dich näherst, fragt eine Stimme, dünn wie das Rascheln einer umblätternden Seite: „Bist du es, Papa? Du hast gesagt, du kämst gleich zurück.“",
+            "zh": "在塞莱斯提亚一片完美无瑕的草地中央，站立着一个不可思议的折纸人形，大小如同一个六岁的孩子。没有一道折痕出错，尽管微风吹拂，它却既不摆动也不颤抖。本该是脸的地方，只有一道光滑的折痕。当你走近时，一个细如翻页声的小声音问道：「是你吗，爸爸？你说过你会马上回来的。」",
+            "ja": "セレスティアの完璧な草原の真ん中に、あり得ないことに、六歳児ほどの大きさの折り紙の人形が立っている。折り目一つ乱れておらず、そよ風が吹いても揺れも震えもしない。顔があるべき場所には、滑らかな折り目があるだけだ。近づくと、ページをめくる音のように細い声が尋ねる。「パパなの？すぐ戻るって言ってたのに」"
+        },
+        "next": [
+            "pap_opt_si",
+            "pap_opt_no",
+            "pap_opt_abrir",
+            "pap_opt_salir"
+        ],
+        "reward": ""
+    },
+    "pap_opt_si": {
+        "type": "option",
+        "text": {
+            "es": "💔  ...Sí. Perdona que haya tardado tanto.",
+            "en": "💔  ...Yes. Sorry it took me so long.",
+            "fr": "💔  ...Oui. Pardon d'avoir mis autant de temps.",
+            "it": "💔  ...Sì. Scusa se ho tardato così tanto.",
+            "de": "💔  ...Ja. Verzeih, dass es so lange gedauert hat.",
+            "zh": "💔  ……是的。抱歉我来得这么晚。",
+            "ja": "💔  ……ああ。こんなに遅くなってすまない"
+        },
+        "next": [
+            "pap_msg_si"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "pap_msg_si": {
+        "type": "message",
+        "text": {
+            "es": "La figura de papel se estremece de pura alegría, y por un instante los pliegues de su cara se acomodan en algo parecido a una sonrisa. '¡Sabía que volverías! No estaba enfadada, ¿sabes? Solo te esperaba.' Se te cierra la garganta. No eres su padre. No conoces a esta niña. Y sin embargo, cada célula de tu cuerpo grita que sí la conoces, que este dolor es tuyo, que en algún lugar dijiste 'vuelvo enseguida' y no cumpliste. La figura suspira, feliz, y se queda quieta, contenta de haber esperado.",
+            "en": "The paper figure shivers with pure joy, and for an instant the folds of its face settle into something like a smile. 'I knew you'd come back! I wasn't angry, you know? I was just waiting for you.' Your throat closes. You are not its father. You don't know this child. And yet every cell in your body screams that you do know her, that this pain is yours, that somewhere you said 'right back' and didn't keep your word. The figure sighs, happy, and goes still, content to have waited.",
+            "fr": "La figure de papier frémit de pure joie, et pendant un instant les plis de son visage s'arrangent en quelque chose ressemblant à un sourire. « Je savais que tu reviendrais ! Je n'étais pas fâchée, tu sais ? Je t'attendais, c'est tout. » Ta gorge se serre. Tu n'es pas son père. Tu ne connais pas cette enfant. Et pourtant, chaque cellule de ton corps crie que si, que tu la connais, que cette douleur est la tienne, que quelque part tu as dit « je reviens tout de suite » et que tu n'as pas tenu parole. La figure soupire, heureuse, et reste immobile, contente d'avoir attendu.",
+            "it": "La figura di carta trema di pura gioia, e per un istante le pieghe del suo viso si compongono in qualcosa di simile a un sorriso. 'Sapevo che saresti tornato! Non ero arrabbiata, sai? Ti stavo solo aspettando.' Ti si chiude la gola. Non sei suo padre. Non conosci questa bambina. Eppure ogni cellula del tuo corpo grida che sì, che la conosci, che questo dolore è tuo, che da qualche parte hai detto 'torno subito' e non hai mantenuto la parola. La figura sospira, felice, e resta immobile, contenta di aver aspettato.",
+            "de": "Die Papierfigur erzittert vor reiner Freude, und für einen Moment ordnen sich die Falten ihres Gesichts zu etwas, das einem Lächeln ähnelt. „Ich wusste, dass du zurückkommst! Ich war nicht böse, weißt du? Ich habe nur auf dich gewartet.“ Deine Kehle schnürt sich zu. Du bist nicht ihr Vater. Du kennst dieses Kind nicht. Und doch schreit jede Zelle deines Körpers, dass du sie doch kennst, dass dieser Schmerz dir gehört, dass du irgendwo gesagt hast „ich komme gleich zurück“ und dein Wort nicht gehalten hast. Die Figur seufzt glücklich und verharrt still, zufrieden, gewartet zu haben.",
+            "zh": "纸人因纯粹的喜悦而颤抖，一瞬间，脸上的折痕排列成一种类似微笑的样子。「我就知道你会回来！你知道吗，我没有生气，我只是在等你。」你的喉咙一紧。你不是她的父亲。你不认识这个孩子。然而你身体里的每一个细胞都在呐喊，说你确实认识她，说这份痛苦是属于你的，说在某个地方你曾说过「我马上回来」，却没有信守承诺。纸人幸福地叹了口气，静静地待着，为自己等到了而感到满足。",
+            "ja": "紙の人形は純粋な喜びに震え、一瞬、顔の折り目が笑顔のようなものを形作る。「戻ってくるって分かってた！怒ってなかったよ、知ってる？ただ待っていただけ」喉が締め付けられる。お前はこの子の父親ではない。この子供を知らない。それなのに、体中の細胞が叫んでいる——本当は知っている、この痛みは自分のものだ、どこかで「すぐ戻る」と言って約束を破ったのだと。人形は幸せそうにため息をつき、待てたことに満足しながら静かになる。"
+        },
+        "next": [
+            "pap_opt_salir"
+        ],
+        "reward": "faceta:cordura=-1;faceta:bondad=+1;gflag:pap_respondido"
+    },
+    "pap_opt_no": {
+        "type": "option",
+        "text": {
+            "es": "🚫  No. No soy tu padre. Lo siento.",
+            "en": "🚫  No. Im not your father. Im sorry.",
+            "fr": "🚫  Non. Je ne suis pas ton père. Je suis désolé.",
+            "it": "🚫  No. Non sono tuo padre. Mi dispiace.",
+            "de": "🚫  Nein. Ich bin nicht dein Vater. Es tut mir leid.",
+            "zh": "🚫  不。我不是你父亲。对不起。",
+            "ja": "🚫  いや。私はお前の父親じゃない。すまない"
+        },
+        "next": [
+            "pap_msg_no"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "pap_msg_no": {
+        "type": "message",
+        "text": {
+            "es": "La figura calla un largo instante. Luego, muy despacio, sus pliegues se aflojan uno a uno, como una carta que se abre sola. 'Ah', dice la vocecita, sin reproche, solo con un cansancio infinito. 'Otro que no. No pasa nada. Seguiré esperando. Siempre vuelve alguien... solo que nunca es él.' El papel recupera su forma y su silencio. Te alejas sintiéndote culpable de una honestidad que dolió más que la mentira.",
+            "en": "The figure is silent for a long moment. Then, very slowly, its folds loosen one by one, like a letter opening on its own. 'Ah,' says the little voice, without reproach, only with an infinite weariness. 'Another one who isn't. It's all right. I'll keep waiting. Someone always comes back... it's just never him.' The paper resumes its shape and its silence. You walk away feeling guilty of an honesty that hurt more than the lie.",
+            "fr": "La figure se tait un long instant. Puis, très lentement, ses plis se relâchent un à un, comme une lettre qui s'ouvre d'elle-même. « Ah », dit la petite voix, sans reproche, seulement avec une lassitude infinie. « Encore un qui n'est pas lui. Ce n'est pas grave. Je continuerai d'attendre. Quelqu'un revient toujours... seulement ce n'est jamais lui. » Le papier retrouve sa forme et son silence. Tu t'éloignes, te sentant coupable d'une honnêteté qui a fait plus mal que le mensonge.",
+            "it": "La figura tace a lungo. Poi, molto lentamente, le sue pieghe si allentano una a una, come una lettera che si apre da sola. 'Ah', dice la vocina, senza rimprovero, solo con una stanchezza infinita. 'Un altro che non è lui. Non fa niente. Continuerò ad aspettare. Qualcuno torna sempre... solo che non è mai lui.' La carta riprende la sua forma e il suo silenzio. Ti allontani sentendoti colpevole di un'onestà che ha fatto più male della bugia.",
+            "de": "Die Figur schweigt lange. Dann lockern sich ihre Falten sehr langsam, eine nach der anderen, wie ein Brief, der sich von selbst öffnet. „Ach“, sagt die kleine Stimme, ohne Vorwurf, nur mit unendlicher Müdigkeit. „Wieder einer, der es nicht ist. Macht nichts. Ich werde weiter warten. Jemand kommt immer zurück... nur ist es nie er.“ Das Papier nimmt seine Form und sein Schweigen wieder an. Du gehst weg und fühlst dich schuldig wegen einer Ehrlichkeit, die mehr wehtat als die Lüge.",
+            "zh": "纸人沉默了许久。然后，非常缓慢地，它的折痕一道一道地松开，如同一封信自行展开。「啊，」小小的声音说道，没有责备，只有无尽的疲惫。「又一个不是他的人。没关系。我会继续等下去。总会有人回来的……只是从来都不是他。」纸重新恢复了它的形状和沉默。你带着一种比谎言更加痛苦的诚实所带来的愧疚离开了。",
+            "ja": "人形は長い間沈黙する。それからとてもゆっくりと、折り目が一つずつ緩んでいく。まるで手紙が自然に開くように。「ああ」小さな声が言う、非難もなく、ただ無限の疲労とともに。「また違う人だ。仕方ない。待ち続けるよ。誰かはいつも戻ってくる……ただ、それが彼であることは決してないだけ」紙は元の形と沈黙を取り戻す。嘘よりも痛みを与えた正直さに罪悪感を覚えながら、その場を去る。"
+        },
+        "next": [
+            "pap_opt_salir"
+        ],
+        "reward": "faceta:cordura=-1"
+    },
+    "pap_opt_abrir": {
+        "type": "option",
+        "text": {
+            "es": "📄  Desplegar con cuidado un pliegue para ver qué hay dentro",
+            "en": "📄  Carefully unfold one crease to see what's inside",
+            "fr": "📄  Déplier avec précaution un pli pour voir ce quil y a à lintérieur",
+            "it": "📄  Dispiegare con attenzione una piega per vedere cosa c'è dentro",
+            "de": "📄  Vorsichtig eine Falte entfalten, um zu sehen, was darin ist",
+            "zh": "📄  小心地展开一道折痕，看看里面藏着什么",
+            "ja": "📄  慎重に折り目を一つ開いて中を見る"
+        },
+        "next": [
+            "pap_msg_abrir"
+        ],
+        "reward": ""
+    },
+    "pap_msg_abrir": {
+        "type": "message",
+        "text": {
+            "es": "Con dos dedos temblorosos abres un solo pliegue del pecho de papel. Dentro, escrito con letra apretada de adulto, hay un mensaje repetido cientos de veces hasta llenar cada milímetro: 'volveré enseguida, volveré enseguida, volveré enseguida'. Vuelves a cerrar el pliegue con muchísimo cuidado, como quien tapa a un niño dormido, y decides que hay promesas que es mejor no leer dos veces.",
+            "en": "With two trembling fingers you open a single fold of the paper chest. Inside, written in an adult's cramped hand, is a message repeated hundreds of times until it fills every millimeter: 'I'll be right back, I'll be right back, I'll be right back'. You close the fold again with the utmost care, the way you'd tuck in a sleeping child, and decide that some promises are best not read twice.",
+            "fr": "Avec deux doigts tremblants, tu ouvres un seul pli de la poitrine de papier. À l'intérieur, écrit d'une écriture serrée d'adulte, se trouve un message répété des centaines de fois jusqu'à remplir chaque millimètre : « je reviens tout de suite, je reviens tout de suite, je reviens tout de suite ». Tu refermes le pli avec beaucoup de précaution, comme on borde un enfant endormi, et tu décides qu'il y a des promesses qu'il vaut mieux ne pas lire deux fois.",
+            "it": "Con due dita tremanti apri una sola piega del petto di carta. Dentro, scritto con una grafia stretta da adulto, c'è un messaggio ripetuto centinaia di volte fino a riempire ogni millimetro: 'torno subito, torno subito, torno subito'. Richiudi la piega con moltissima cura, come chi rimbocca le coperte a un bambino addormentato, e decidi che ci sono promesse che è meglio non leggere due volte.",
+            "de": "Mit zwei zitternden Fingern öffnest du eine einzige Falte der Papierbrust. Darin, in enger Erwachsenenschrift geschrieben, findet sich eine Nachricht, die hunderte Male wiederholt jeden Millimeter füllt: „Ich komme gleich zurück, ich komme gleich zurück, ich komme gleich zurück“. Du schließt die Falte mit äußerster Sorgfalt wieder, wie man ein schlafendes Kind zudeckt, und entscheidest, dass manche Versprechen besser nicht zweimal gelesen werden.",
+            "zh": "你用两根颤抖的手指打开纸胸口的一道折痕。里面，用一手潦草拥挤的成人字迹，写满了重复了数百遍、填满每一毫米的一句话：「我马上回来，我马上回来，我马上回来」。你极其小心地重新合上那道折痕，就像给熟睡的孩子盖好被子一样，并决定有些承诺最好不要读第二遍。",
+            "ja": "震える二本の指で、紙の胸のたった一つの折り目を開く。中には、大人の几帳面な筆跡で、一ミリの隙間もなく何百回も繰り返された言葉が書かれている——「すぐ戻る、すぐ戻る、すぐ戻る」。眠る子供にそっと布団をかけるように、細心の注意を払ってその折り目を閉じ直し、二度と読まない方がいい約束もあるのだと悟る。"
+        },
+        "next": [
+            "pap_root"
+        ],
+        "reward": ""
+    },
+    "pap_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Alejarte en silencio (tienes los ojos húmedos)",
+            "en": "🚶  Walk away in silence (your eyes are wet)",
+            "fr": "🚶  S'éloigner en silence (tes yeux sont humides)",
+            "it": "🚶  Allontanarti in silenzio (hai gli occhi umidi)",
+            "de": "🚶  Schweigend weggehen (deine Augen sind feucht)",
+            "zh": "🚶  默默离开（你的眼眶湿润了）",
+            "ja": "🚶  静かに立ち去る（目が潤んでいる）"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

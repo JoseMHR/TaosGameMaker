@@ -1,0 +1,31 @@
+{
+    "name": {
+        "es": "Botas Veloces",
+        "en": "Swift Boots",
+        "fr": "Bottes Véloces",
+        "it": "Stivali Veloci",
+        "de": "Flinke Stiefel",
+        "zh": "疾风靴",
+        "ja": "スウィフトブーツ"
+    },
+    "desc": {
+        "es": "Botas ligeras que aumentan la agilidad.",
+        "en": "Light boots that boost agility.",
+        "fr": "Bottes légères qui augmentent l'agilité.",
+        "it": "Stivali leggeri che aumentano l'agilità.",
+        "de": "Leichte Stiefel, die die Beweglichkeit erhöhen.",
+        "zh": "轻盈的靴子，可提升敏捷。",
+        "ja": "敏捷性を高める軽い靴。"
+    },
+    "icon": "👢",
+    "category": "equipment",
+    "usable": false,
+    "slot": "shoes",
+    "tier": 1,
+    "bonuses": {
+        "agi": 6
+    },
+    "combat": {
+        "phys_defense": 12
+    }
+}

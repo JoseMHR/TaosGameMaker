@@ -1,0 +1,23 @@
+{
+    "id": "sendero_arquero",
+    "type": "dungeon",
+    "name": {
+        "es": "El Sendero del Arquero",
+        "en": "The Archer's Path",
+        "fr": "Le Sentier de l'Archer",
+        "it": "Il Sentiero dell'Arciere",
+        "de": "Der Pfad des Bogenschützen",
+        "zh": "弓箭手之路",
+        "ja": "射手の道"
+    },
+    "icon": "🏹",
+    "desc": {
+        "es": "Templo tematico: revela el paso oculto con el Instinto del Explorador y vence a la Arpia Tempestad para aprenderlo.",
+        "en": "Themed temple: reveal the hidden path with Explorer's Instinct and defeat the Storm Harpy to learn it.",
+        "fr": "Temple thématique : révèle le passage caché avec l'Instinct de l'Explorateur et vaincs la Harpie Tempête pour l'apprendre.",
+        "it": "Tempio tematico: rivela il passaggio nascosto con l'Istinto dell'Esploratore e sconfiggi l'Arpia della Tempesta per impararlo.",
+        "de": "Themen-Tempel: enthülle den verborgenen Pfad mit dem Instinkt des Entdeckers und besiege die Sturmharpyie, um ihn zu erlernen.",
+        "zh": "主题神庙：用探索者本能揭示隐藏之路，击败风暴鹰身女妖以学会此技能。",
+        "ja": "テーマ神殿：探検者の本能で隠された道を明らかにし、ストームハーピーを倒してそれを習得せよ。"
+    }
+}

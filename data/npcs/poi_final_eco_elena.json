@@ -1,0 +1,151 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Eco de Elena",
+            "en": "The Echo of Elena",
+            "fr": "L'Écho d'Elena",
+            "it": "L'Eco di Elena",
+            "de": "Das Echo von Elena",
+            "zh": "艾琳娜的回声",
+            "ja": "エレナの残響"
+        },
+        "next": [],
+        "reward": "bg=0.05,0.05,0.09"
+    },
+    "ele_root": {
+        "type": "message",
+        "text": {
+            "es": "Al borde mismo del abismo, una silueta translúcida de mujer canta de espaldas a ti una nana suave y triste. Su voz es lo único cálido en todo este vacío. No se gira, pero sabe que estás ahí: 'Siempre te gustó oírme cantarle', dice sin dejar la melodía. 'Decías que era lo único que la dormía. Yo también me dormía, ¿sabes? Contigo, con ella, los tres. Antes de que las esferas se lo llevaran todo.'",
+            "en": "At the very edge of the abyss, a woman's translucent silhouette sings, her back to you, a soft and sorrowful lullaby. Her voice is the only warm thing in all this emptiness. She doesn't turn, but she knows you're there: 'You always loved hearing me sing to her,' she says without breaking the melody. 'You said it was the only thing that put her to sleep. I used to fall asleep too, you know? With you, with her, the three of us. Before the spheres took it all.'",
+            "fr": "Au bord même de l'abîme, une silhouette translucide de femme chante, te tournant le dos, une berceuse douce et triste. Sa voix est la seule chose chaude dans tout ce vide. Elle ne se retourne pas, mais elle sait que tu es là : « Tu as toujours aimé m'entendre lui chanter », dit-elle sans interrompre la mélodie. « Tu disais que c'était la seule chose qui l'endormait. Moi aussi je m'endormais, tu sais ? Avec toi, avec elle, tous les trois. Avant que les sphères n'emportent tout. »",
+            "it": "Sul bordo stesso dell'abisso, una sagoma translucida di donna canta, dandoti le spalle, una ninna nanna dolce e triste. La sua voce è l'unica cosa calda in tutto questo vuoto. Non si gira, ma sa che sei lì: 'Ti è sempre piaciuto sentirmi cantarle', dice senza interrompere la melodia. 'Dicevi che era l'unica cosa che la addormentava. Mi addormentavo anch'io, sai? Con te, con lei, noi tre. Prima che le sfere si portassero via tutto.'",
+            "de": "Direkt am Rand des Abgrunds singt, dir den Rücken zugewandt, die durchscheinende Silhouette einer Frau ein sanftes, trauriges Wiegenlied. Ihre Stimme ist das einzig Warme in dieser ganzen Leere. Sie dreht sich nicht um, aber sie weiß, dass du da bist: „Du hast es immer geliebt, mich ihr vorsingen zu hören“, sagt sie, ohne die Melodie zu unterbrechen. „Du sagtest, es sei das Einzige, was sie einschläferte. Ich schlief auch ein, weißt du? Mit dir, mit ihr, wir drei. Bevor die Sphären alles nahmen.“",
+            "zh": "就在深渊的边缘，一个半透明的女性身影背对着你，唱着一首柔和而悲伤的摇篮曲。她的声音是这片虚空中唯一温暖的东西。她没有转身，但她知道你在那儿：「你一直都喜欢听我给她唱歌，」她说，没有中断旋律。「你说那是唯一能哄她入睡的方法。你知道吗，我也会跟着睡着。和你，和她，我们三个一起。在球体夺走一切之前。」",
+            "ja": "深淵のまさに縁で、お前に背を向けた半透明の女性の姿が、優しく悲しい子守唄を歌っている。その声は、この虚無の中で唯一温かいものだ。振り向かないが、お前がそこにいることは分かっている。「あなたはいつも、私が彼女に歌うのを聞くのが好きだったわね」旋律を切らさずに彼女は言う。「それだけが彼女を眠らせるものだって言ってたわ。私も一緒に眠くなったのよ、知ってた？あなたと、あの子と、三人で。球がすべてを奪う前は」"
+        },
+        "next": [
+            "ele_opt_acercarse",
+            "ele_opt_disculparse",
+            "ele_opt_cantar",
+            "ele_opt_salir"
+        ],
+        "reward": ""
+    },
+    "ele_opt_acercarse": {
+        "type": "option",
+        "text": {
+            "es": "🤍  Acercarte despacio e intentar verle la cara",
+            "en": "🤍  Approach slowly and try to see her face",
+            "fr": "🤍  T'approcher lentement et essayer de voir son visage",
+            "it": "🤍  Avvicinarti lentamente e cercare di vederle il viso",
+            "de": "🤍  Langsam näherkommen und versuchen, ihr Gesicht zu sehen",
+            "zh": "🤍  慢慢靠近，试图看清她的脸",
+            "ja": "🤍  ゆっくりと近づき、その顔を見ようとする"
+        },
+        "next": [
+            "ele_msg_acercarse"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "ele_msg_acercarse": {
+        "type": "message",
+        "text": {
+            "es": "Das un paso, y otro. Cuanto más te acercas, más se difumina ella, como el humo cuando alargas la mano. 'No, mi amor', susurra, todavía sin girarse. 'Si me miras a la cara, tendrás que recordar que ya no estoy, y que no fue la esfera quien me llevó a mí: fui yo, cuando no soporté un mundo sin ella. No cargues también con eso. Bastante peso llevas ya.' Se te cierra la garganta. Te detienes, sin atreverte a dar el último paso.",
+            "en": "You take a step, and another. The closer you get, the more she blurs, like smoke when you reach for it. 'No, my love,' she whispers, still without turning. 'If you look at my face, you'll have to remember that I'm gone, and that it wasn't the sphere that took me: it was me, when I couldn't bear a world without her. Don't carry that too. You carry enough already.' Your throat closes. You stop, not daring to take the last step.",
+            "fr": "Tu fais un pas, puis un autre. Plus tu t'approches, plus elle s'estompe, comme de la fumée quand on tend la main. « Non, mon amour », murmure-t-elle, toujours sans se retourner. « Si tu vois mon visage, tu devras te souvenir que je ne suis plus là, et que ce n'est pas la sphère qui m'a emportée : c'est moi, quand je n'ai pas supporté un monde sans elle. Ne porte pas ça aussi. Tu portes déjà bien assez de poids. » Ta gorge se serre. Tu t'arrêtes, sans oser faire le dernier pas.",
+            "it": "Fai un passo, e un altro. Più ti avvicini, più lei si sfuma, come il fumo quando allunghi la mano. 'No, amore mio', sussurra, ancora senza girarsi. 'Se mi guardi in viso, dovrai ricordare che non ci sono più, e che non fu la sfera a portarmi via: fui io, quando non sopportai un mondo senza di lei. Non portare anche questo. Porti già abbastanza peso.' Ti si chiude la gola. Ti fermi, senza osare fare l'ultimo passo.",
+            "de": "Du machst einen Schritt, und noch einen. Je näher du kommst, desto mehr verschwimmt sie, wie Rauch, wenn du danach greifst. „Nein, meine Liebe“, flüstert sie, immer noch ohne sich umzudrehen. „Wenn du mein Gesicht siehst, wirst du dich erinnern müssen, dass ich fort bin, und dass es nicht die Sphäre war, die mich nahm: ich war es, als ich eine Welt ohne sie nicht ertragen konnte. Trag das nicht auch noch. Du trägst schon genug Gewicht.“ Deine Kehle schnürt sich zu. Du bleibst stehen, ohne den letzten Schritt zu wagen.",
+            "zh": "你走了一步，又一步。你越靠近，她就越模糊，如同伸手去抓的烟雾一般。「不要，我的爱人，」她低语着，依然没有转身。「如果你看到我的脸，你就得记起我已经不在了，而带走我的并非那颗球体：是我自己，当我无法忍受一个没有她的世界时。别再背负这个了。你已经承受得够多了。」你的喉咙一紧。你停下脚步，不敢迈出最后一步。",
+            "ja": "一歩、また一歩と進む。近づけば近づくほど、彼女は手を伸ばした煙のように霞んでいく。「だめよ、愛しい人」振り向かないまま彼女は囁く。「私の顔を見たら、私がもういないこと、そして私を連れ去ったのは球ではなく、私自身だったこと——彼女のいない世界に耐えられなかった私自身だったことを思い出さなきゃいけなくなる。それまで背負わないで。もう十分すぎるほどの重荷を背負っているんだから」喉が締め付けられる。最後の一歩を踏み出す勇気が出ないまま立ち止まる。"
+        },
+        "next": [
+            "ele_opt_salir"
+        ],
+        "reward": "faceta:cordura=-1;gflag:ele_acercado"
+    },
+    "ele_opt_disculparse": {
+        "type": "option",
+        "text": {
+            "es": "🙏  Lo siento. No pude salvaros a ninguna de las dos.",
+            "en": "🙏  Im sorry. I couldnt save either of you.",
+            "fr": "🙏  Pardon. Je n'ai pu sauver aucune de vous deux.",
+            "it": "🙏  Mi dispiace. Non ho potuto salvare nessuna di voi due.",
+            "de": "🙏  Es tut mir leid. Ich konnte keine von euch beiden retten.",
+            "zh": "🙏  对不起。我没能救下你们任何一个人。",
+            "ja": "🙏  すまない。どちらも救えなかった"
+        },
+        "next": [
+            "ele_msg_disculparse"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "ele_msg_disculparse": {
+        "type": "message",
+        "text": {
+            "es": "Las palabras te salen rotas. La silueta deja de cantar un momento. 'Lo sé', dice con una ternura que duele más que cualquier reproche. 'Y tú tienes que dejar de pedir perdón a los muertos, Aiden. Nosotras ya no podemos dártelo. El único que puede perdonarte sigue vivo, respirando en una cama de hospital, esperando a que dejes de castigarte. Perdónate tú. Es lo único que aún está en tus manos.' Retoma la nana, y su voz te abraza como no lo hará ninguna otra cosa en este vacío.",
+            "en": "The words come out of you broken. The silhouette stops singing for a moment. 'I know,' she says with a tenderness that hurts more than any reproach. 'And you have to stop asking the dead for forgiveness, Aiden. We can't give it to you anymore. The only one who can forgive you is still alive, breathing in a hospital bed, waiting for you to stop punishing yourself. Forgive yourself. It's the only thing still in your hands.' She takes up the lullaby again, and her voice embraces you as nothing else in this void will.",
+            "fr": "Les mots sortent de toi brisés. La silhouette cesse de chanter un instant. « Je sais », dit-elle avec une tendresse qui fait plus mal que n'importe quel reproche. « Et toi, tu dois arrêter de demander pardon aux morts, Aiden. Nous ne pouvons plus te le donner. Le seul qui puisse te pardonner est encore en vie, respirant dans un lit d'hôpital, attendant que tu arrêtes de te punir. Pardonne-toi. C'est la seule chose qui reste entre tes mains. » Elle reprend la berceuse, et sa voix t'enveloppe comme rien d'autre ne le fera dans ce vide.",
+            "it": "Le parole ti escono spezzate. La sagoma smette di cantare per un momento. 'Lo so', dice con una tenerezza che fa più male di qualsiasi rimprovero. 'E tu devi smettere di chiedere perdono ai morti, Aiden. Non possiamo più dartelo. L'unico che può perdonarti è ancora vivo, respirando in un letto d'ospedale, aspettando che tu smetta di punirti. Perdonati. È l'unica cosa che è ancora nelle tue mani.' Riprende la ninna nanna, e la sua voce ti abbraccia come nient'altro farà in questo vuoto.",
+            "de": "Die Worte kommen gebrochen aus dir heraus. Die Silhouette hört einen Moment auf zu singen. „Ich weiß“, sagt sie mit einer Zärtlichkeit, die mehr schmerzt als jeder Vorwurf. „Und du musst aufhören, die Toten um Vergebung zu bitten, Aiden. Wir können sie dir nicht mehr geben. Der Einzige, der dir vergeben kann, lebt noch, atmet in einem Krankenhausbett und wartet darauf, dass du aufhörst, dich zu bestrafen. Vergib dir selbst. Es ist das Einzige, was noch in deiner Hand liegt.“ Sie nimmt das Wiegenlied wieder auf, und ihre Stimme umarmt dich wie nichts anderes in dieser Leere.",
+            "zh": "话语从你嘴中破碎地溢出。那身影停止了歌唱片刻。「我知道，」她带着一种比任何责备都更加痛苦的温柔说道。「而你，艾登，你必须停止向死者祈求宽恕了。我们已经无法再给予你这份宽恕了。唯一能原谅你的人依然活着，此刻正在医院的病床上呼吸着，等待着你停止惩罚自己。原谅你自己吧。这是你唯一还能掌控的事。」她重新拾起摇篮曲，她的声音拥抱着你，这是虚空中再无他物能给予的。",
+            "ja": "言葉が壊れながら口から出る。人影が一瞬歌うのをやめる。「分かってるわ」どんな叱責よりも痛みを伴う優しさで彼女は言う。「そしてあなたは、死者に許しを乞うのをやめなければならない、エイデン。私たちはもうそれを与えられない。あなたを許せる唯一の人はまだ生きていて、病院のベッドで呼吸をしながら、あなたが自分を罰するのをやめるのを待っているのよ。自分を許してあげて。それがあなたにできる唯一のことなの」彼女は再び子守唄を歌い始め、その声はこの虚無の中で他の何にも代えがたい形でお前を包み込む。"
+        },
+        "next": [
+            "ele_opt_salir"
+        ],
+        "reward": "faceta:bondad=+1;faceta:cordura=+1;gflag:ele_disculpa",
+        "condition": "no_gflag(\"ele_disculpa\")",
+        "once": true
+    },
+    "ele_opt_cantar": {
+        "type": "option",
+        "text": {
+            "es": "🎵  Acompañarla en la nana, aunque no recuerdes la letra",
+            "en": "🎵  Join her in the lullaby, though you don't recall the words",
+            "fr": "🎵  L'accompagner dans la berceuse, même si tu ne te souviens pas des paroles",
+            "it": "🎵  Accompagnarla nella ninna nanna, anche se non ricordi le parole",
+            "de": "🎵  Sie im Wiegenlied begleiten, obwohl du dich nicht an die Worte erinnerst",
+            "zh": "🎵  即使不记得歌词，也陪她一起唱这首摇篮曲",
+            "ja": "🎵  歌詞を思い出せなくても、子守唄を一緒に歌う"
+        },
+        "next": [
+            "ele_msg_cantar"
+        ],
+        "reward": ""
+    },
+    "ele_msg_cantar": {
+        "type": "message",
+        "text": {
+            "es": "Empiezas a tararear, torpe al principio, y descubres que tu voz conoce cada nota aunque tu mente lo haya olvidado todo. Durante unos compases cantáis juntos, dos voces que un día formaron un hogar, meciendo a una niña que ya no está. Es hermoso y desgarrador a partes iguales. Cuando la canción termina, el silencio es distinto: más limpio, como después de llorar bien. 'Gracias por acordarte de la canción, aunque te hayas olvidado de todo lo demás', susurra ella.",
+            "en": "You begin to hum, clumsy at first, and discover that your voice knows every note even though your mind has forgotten everything. For a few bars you sing together, two voices that once made a home, rocking a child who is no longer there. It is beautiful and heartbreaking in equal measure. When the song ends, the silence is different: cleaner, like after weeping well. 'Thank you for remembering the song, even if you've forgotten all the rest,' she whispers.",
+            "fr": "Tu commences à fredonner, maladroitement d'abord, et tu découvres que ta voix connaît chaque note même si ton esprit a tout oublié. Pendant quelques mesures vous chantez ensemble, deux voix qui formèrent un jour un foyer, berçant une enfant qui n'est plus là. C'est beau et déchirant à parts égales. Quand la chanson se termine, le silence est différent : plus pur, comme après avoir bien pleuré. « Merci de te souvenir de la chanson, même si tu as oublié tout le reste », murmure-t-elle.",
+            "it": "Inizi a canticchiare, goffo all'inizio, e scopri che la tua voce conosce ogni nota anche se la tua mente ha dimenticato tutto. Per alcune battute cantate insieme, due voci che un giorno formarono una casa, cullando una bambina che non c'è più. È bello e straziante in egual misura. Quando la canzone finisce, il silenzio è diverso: più pulito, come dopo aver pianto bene. 'Grazie per esserti ricordato della canzone, anche se hai dimenticato tutto il resto', sussurra lei.",
+            "de": "Du fängst an zu summen, zunächst ungeschickt, und entdeckst, dass deine Stimme jede Note kennt, obwohl dein Geist alles vergessen hat. Für ein paar Takte singt ihr zusammen, zwei Stimmen, die einst ein Zuhause bildeten und ein Kind wiegten, das nicht mehr da ist. Es ist gleichermaßen schön und herzzerreißend. Als das Lied endet, ist die Stille anders: reiner, wie nach richtigem Weinen. „Danke, dass du dich an das Lied erinnerst, auch wenn du alles andere vergessen hast“, flüstert sie.",
+            "zh": "你开始哼唱起来，起初有些笨拙，然后你发现，尽管你的心智已经遗忘了一切，你的声音却记得每一个音符。有几个小节，你们一起歌唱着，那是曾经组成一个家庭的两个声音，哄着一个已经不在的孩子入睡。这既美丽又令人心碎，两者交织。当歌声结束时，寂静变得不同了：更加纯净，就像痛快地哭过一场之后那样。「谢谢你还记得这首歌，哪怕你已经忘记了其余的一切，」她低语道。",
+            "ja": "最初はぎこちなく口ずさみ始めるが、心がすべてを忘れてしまっていても、声は一つ一つの音符を覚えていることに気づく。数小節の間、二人で一緒に歌う——かつて一つの家庭を築き、今はもういない娘を揺すった二つの声。それは美しくもあり、胸が張り裂けるようでもある。歌が終わると、沈黙は違ったものになる——よく泣いた後のように、より澄んだ静けさに。「他のすべてを忘れても、この歌を覚えていてくれてありがとう」彼女は囁く。"
+        },
+        "next": [
+            "ele_root"
+        ],
+        "reward": ""
+    },
+    "ele_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Dejarla cantando al borde del abismo",
+            "en": "🚶  Leave her singing at the edge of the abyss",
+            "fr": "🚶  La laisser chanter au bord de l'abîme",
+            "it": "🚶  Lasciarla cantare sullorlo dellabisso",
+            "de": "🚶  Sie singend am Rand des Abgrunds zurücklassen",
+            "zh": "🚶  留她在深渊边缘继续歌唱",
+            "ja": "🚶  深淵の縁で歌う彼女を残して去る"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

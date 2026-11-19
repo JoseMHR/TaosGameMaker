@@ -1,0 +1,95 @@
+[gd_scene format=3 uid="uid://templo_sacerdote_poi"]
+
+[sub_resource type="StandardMaterial3D" id="Mat_WhiteMarble"]
+albedo_color = Color(0.94, 0.93, 0.9, 1)
+roughness = 0.3
+
+[sub_resource type="StandardMaterial3D" id="Mat_HolyGold"]
+albedo_color = Color(0.92, 0.76, 0.22, 1)
+metallic = 0.8
+roughness = 0.25
+
+[sub_resource type="StandardMaterial3D" id="Mat_PriestGoldGlow"]
+albedo_color = Color(0.95, 0.85, 0.25, 1)
+emission_enabled = true
+emission = Color(0.95, 0.85, 0.25, 1)
+emission_energy_multiplier = 3.8
+
+[sub_resource type="StandardMaterial3D" id="Mat_DoorVoid"]
+albedo_color = Color(0.04, 0.03, 0.02, 1)
+roughness = 1.0
+
+[sub_resource type="BoxMesh" id="Mesh_StairsBase"]
+size = Vector3(1.1, 0.12, 1.25)
+
+[sub_resource type="BoxMesh" id="Mesh_Nave"]
+size = Vector3(0.75, 0.85, 0.85)
+
+[sub_resource type="BoxMesh" id="Mesh_DoorVoid"]
+size = Vector3(0.32, 0.58, 0.15)
+
+[sub_resource type="PrismMesh" id="Mesh_DoorArch"]
+size = Vector3(0.32, 0.22, 0.15)
+
+[sub_resource type="PrismMesh" id="Mesh_CathedralRoof"]
+size = Vector3(0.82, 0.55, 0.92)
+
+[sub_resource type="TorusMesh" id="Mesh_SunHalo"]
+inner_radius = 0.18
+outer_radius = 0.25
+
+[sub_resource type="PrismMesh" id="Mesh_TopCrossVert"]
+size = Vector3(0.06, 0.42, 0.06)
+
+[sub_resource type="BoxMesh" id="Mesh_TopCrossHoriz"]
+size = Vector3(0.24, 0.06, 0.06)
+
+[sub_resource type="PrismMesh" id="Mesh_HolyCrystal"]
+size = Vector3(0.12, 0.32, 0.12)
+
+[node name="TemploSacerdote" type="Node3D"]
+
+[node name="StairsBase" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.06, 0.05)
+material_override = SubResource("Mat_WhiteMarble")
+mesh = SubResource("Mesh_StairsBase")
+
+[node name="Nave" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.55, -0.1)
+material_override = SubResource("Mat_WhiteMarble")
+mesh = SubResource("Mesh_Nave")
+
+[node name="DoorVoid" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.41, 0.33)
+material_override = SubResource("Mat_DoorVoid")
+mesh = SubResource("Mesh_DoorVoid")
+
+[node name="DoorArch" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.81, 0.33)
+material_override = SubResource("Mat_DoorVoid")
+mesh = SubResource("Mesh_DoorArch")
+
+[node name="Roof" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.25, -0.1)
+material_override = SubResource("Mat_HolyGold")
+mesh = SubResource("Mesh_CathedralRoof")
+
+[node name="SunHalo" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.05, 0.34)
+material_override = SubResource("Mat_HolyGold")
+mesh = SubResource("Mesh_SunHalo")
+
+[node name="CrossVert" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.62, 0.32)
+material_override = SubResource("Mat_HolyGold")
+mesh = SubResource("Mesh_TopCrossVert")
+
+[node name="CrossHoriz" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.68, 0.32)
+material_override = SubResource("Mat_HolyGold")
+mesh = SubResource("Mesh_TopCrossHoriz")
+
+[node name="ClassSunGem" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.05, 0.35)
+material_override = SubResource("Mat_PriestGoldGlow")
+mesh = SubResource("Mesh_HolyCrystal")

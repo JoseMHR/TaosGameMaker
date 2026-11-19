@@ -1,0 +1,173 @@
+{
+  "prologue_welcome": {
+    "es": "Esfera: 'Veo que despiertas... El Puerto de Celestia aguarda en el horizonte.'",
+    "en": "Orb: 'I see you awake... The Port of Celestia awaits on the horizon.'",
+    "fr": "Orbe : 'Je vois que tu t'éveilles... Le Port de Celestia attend à l'horizon.'",
+    "it": "Sfera: 'Vedo che ti svegli... Il Porto di Celestia attende all'orizzonte.'",
+    "de": "Kugel: 'Ich sehe, du erwachst... Der Hafen von Celestia wartet am Horizont.'",
+    "zh": "灵球：'我看你醒了……塞莱斯蒂亚港正在地平线上等待。'",
+    "ja": "オーブ：'目覚めたようだな……セレスティア港が地平線で待っている。'"
+  },
+  "mountain_wall": {
+    "es": "Esfera: 'Te admiro. La montaña no parece compartir ese entusiasmo por dejarte pasar.'",
+    "en": "Orb: 'I admire your spirit. The mountain doesn't share that enthusiasm to let you pass.'",
+    "fr": "Orbe : 'Je t'admire. La montagne ne semble pas partager cet enthousiasme à te laisser passer.'",
+    "it": "Sfera: 'Ti ammiro. La montagna non sembra condividere quell'entusiasmo nel lasciarti passare.'",
+    "de": "Kugel: 'Ich bewundere dich. Der Berg teilt diese Begeisterung, dich durchzulassen, offenbar nicht.'",
+    "zh": "灵球：'我佩服你。可这座山似乎并不乐意让你通过。'",
+    "ja": "オーブ：'感心するよ。だが山のほうは、君を通す気はないようだ。'"
+  },
+  "water_fall": {
+    "es": "Esfera: 'El agua está helada... Quizá deberías buscar una embarcación en el Puerto de Celestia.'",
+    "en": "Orb: 'The water is freezing... Maybe look for a ship at Celestia Port.'",
+    "fr": "Orbe : 'L'eau est glaciale... Tu devrais peut-être chercher un navire au Port de Celestia.'",
+    "it": "Sfera: 'L'acqua è gelida... Forse dovresti cercare un'imbarcazione al Porto di Celestia.'",
+    "de": "Kugel: 'Das Wasser ist eiskalt... Vielleicht solltest du im Hafen von Celestia ein Schiff suchen.'",
+    "zh": "灵球：'水冰冷刺骨……或许你该去塞莱斯蒂亚港找一艘船。'",
+    "ja": "オーブ：'水が凍えるほど冷たい……セレスティア港で船を探すといい。'"
+  },
+  "stuck_hint_default": {
+    "es": "Esfera: 'Recuerda explorar el valle y hablar con los habitantes hacia el Puerto de Celestia.'",
+    "en": "Orb: 'Remember to explore the valley and speak with residents heading to Celestia Port.'",
+    "fr": "Orbe : 'N'oublie pas d'explorer la vallée et de parler aux habitants en direction du Port de Celestia.'",
+    "it": "Sfera: 'Ricorda di esplorare la valle e di parlare con gli abitanti verso il Porto di Celestia.'",
+    "de": "Kugel: 'Denk daran, das Tal zu erkunden und mit den Bewohnern Richtung Hafen von Celestia zu sprechen.'",
+    "zh": "灵球：'记得去探索山谷，并与前往塞莱斯蒂亚港路上的居民交谈。'",
+    "ja": "オーブ：'谷を探索し、セレスティア港へ向かう住民たちと話すのを忘れるな。'"
+  },
+  "dam_opened": {
+    "es": "Esfera: '¡El agua vuelve a correr! Las tierras de Yelmo florecen de nuevo.'",
+    "en": "Orb: 'The water flows again! The Badlands are blooming once more.'",
+    "fr": "Orbe : 'L'eau coule de nouveau ! Les terres de Yelmo refleurissent.'",
+    "it": "Sfera: 'L'acqua scorre di nuovo! Le terre di Yelmo tornano a fiorire.'",
+    "de": "Kugel: 'Das Wasser fließt wieder! Die Ödlande von Yelmo erblühen aufs Neue.'",
+    "zh": "灵球：'水又流动起来了！耶尔莫的荒原再次焕发生机。'",
+    "ja": "オーブ：'水がまた流れ出した！イェルモの地が再び花開くぞ。'"
+  },
+  "celestia_hint": {
+    "es": "Esfera: 'El Puerto de Celestia es la clave para cruzar el gran océano...'",
+    "en": "Orb: 'The Port of Celestia holds the key to cross the vast ocean...'",
+    "fr": "Orbe : 'Le Port de Celestia est la clé pour traverser le grand océan...'",
+    "it": "Sfera: 'Il Porto di Celestia è la chiave per attraversare il grande oceano...'",
+    "de": "Kugel: 'Der Hafen von Celestia ist der Schlüssel, um den großen Ozean zu überqueren...'",
+    "zh": "灵球：'塞莱斯蒂亚港是横渡大洋的关键……'",
+    "ja": "オーブ：'セレスティア港こそ、大海を渡る鍵だ……'"
+  },
+  "camp_built": {
+    "es": "Esfera: 'Un buen lugar para descansar. Aunque yo no duermo, observo...'",
+    "en": "Orb: 'A fine place to rest. Though I do not sleep, I observe...'",
+    "fr": "Orbe : 'Un bon endroit pour se reposer. Même si je ne dors pas, j'observe...'",
+    "it": "Sfera: 'Un buon posto per riposare. Anche se non dormo, osservo...'",
+    "de": "Kugel: 'Ein guter Ort zum Rasten. Ich schlafe zwar nicht, aber ich beobachte...'",
+    "zh": "灵球：'一个歇脚的好地方。虽然我不睡觉，但我一直在观察……'",
+    "ja": "オーブ：'休むにはいい場所だ。俺は眠らないが、見ているぞ……'"
+  },
+  "mystery_lore_1": {
+    "es": "Esfera: 'No deberías recordar ese lugar... aunque quizá todavía no haya ocurrido.'",
+    "en": "Orb: 'You shouldn't remember that place... though perhaps it hasn't happened yet.'",
+    "fr": "Orbe : 'Tu ne devrais pas te souvenir de cet endroit... même si peut-être cela n'a pas encore eu lieu.'",
+    "it": "Sfera: 'Non dovresti ricordare quel luogo... anche se forse non è ancora accaduto.'",
+    "de": "Kugel: 'Du solltest dich an diesen Ort nicht erinnern... obwohl es vielleicht noch nicht geschehen ist.'",
+    "zh": "灵球：'你不该记得那个地方……不过也许它还没有发生。'",
+    "ja": "オーブ：'あの場所を覚えているはずがない……もっとも、まだ起きていないのかもしれないが。'"
+  },
+  "lava_step": {
+    "es": "Esfera: '¡Illo, que te quemas! Aterrizar en lava: 0 estrellas en TripAdvisor.'",
+    "en": "Orb: 'Watch it, you're burning! Stepping on lava: 0 stars on TripAdvisor.'",
+    "fr": "Orbe : 'Attention, tu brûles ! Marcher sur la lave : 0 étoile sur TripAdvisor.'",
+    "it": "Sfera: 'Attento, ti stai bruciando! Camminare sulla lava: 0 stelle su TripAdvisor.'",
+    "de": "Kugel: 'Vorsicht, du verbrennst! Auf Lava treten: 0 Sterne auf TripAdvisor.'",
+    "zh": "灵球：'当心，你要烧起来了！踩熔岩：TripAdvisor 零星评价。'",
+    "ja": "オーブ：'おい、燃えてるぞ！溶岩を踏む：TripAdvisorで星ゼロ。'"
+  },
+  "snow_step": {
+    "es": "Esfera: 'Abrígate, que a los personajes con hipotermia les bajan los FPS.'",
+    "en": "Orb: 'Bundle up, characters with hypothermia drop FPS.'",
+    "fr": "Orbe : 'Couvre-toi, les personnages en hypothermie perdent des FPS.'",
+    "it": "Sfera: 'Copriti, i personaggi in ipotermia perdono FPS.'",
+    "de": "Kugel: 'Zieh dich warm an, Charaktere mit Unterkühlung verlieren FPS.'",
+    "zh": "灵球：'穿暖点，失温的角色会掉帧。'",
+    "ja": "オーブ：'厚着しろ、低体温症のキャラはFPSが落ちる。'"
+  },
+  "ice_slip": {
+    "es": "Esfera: '¡Upa! Ese resbalón ha sido digno de unos dibujos animados de sábado.'",
+    "en": "Orb: 'Whoops! That slip was worthy of Saturday morning cartoons.'",
+    "fr": "Orbe : 'Oups ! Cette glissade était digne d'un dessin animé du samedi matin.'",
+    "it": "Sfera: 'Ops! Quella scivolata era degna di un cartone del sabato mattina.'",
+    "de": "Kugel: 'Hoppla! Dieser Ausrutscher war eines Samstagmorgen-Cartoons würdig.'",
+    "zh": "灵球：'哎哟！这一滑够格上周六早间动画片了。'",
+    "ja": "オーブ：'おっと！今の転び方は土曜朝のアニメ級だな。'"
+  },
+  "straight_line": {
+    "es": "Esfera: '¡Wiii! ¡A la aventura a encontrar el One Piece!'",
+    "en": "Orb: 'Wheee! Off on an adventure to find the One Piece!'",
+    "fr": "Orbe : 'Wiii ! En avant l'aventure pour trouver le One Piece !'",
+    "it": "Sfera: 'Wiii! All'avventura per trovare il One Piece!'",
+    "de": "Kugel: 'Juhuu! Auf ins Abenteuer, das One Piece zu finden!'",
+    "zh": "灵球：'呜哇！出发去寻找 One Piece 大冒险吧！'",
+    "ja": "オーブ：'うぇーい！ワンピースを探す冒険に出発だ！'"
+  },
+  "lost_circles": {
+    "es": "Esfera: 'Me encanta este baile, pero la misión principal está para el otro lado.'",
+    "en": "Orb: 'I love this dance, but the main quest is the other way.'",
+    "fr": "Orbe : 'J'adore cette danse, mais la quête principale est de l'autre côté.'",
+    "it": "Sfera: 'Adoro questo ballo, ma la missione principale è dall'altra parte.'",
+    "de": "Kugel: 'Ich liebe diesen Tanz, aber die Hauptquest ist in die andere Richtung.'",
+    "zh": "灵球：'我很喜欢这支舞，可主线任务在另一边。'",
+    "ja": "オーブ：'このダンスは好きだが、メインクエストは反対方向だぞ。'"
+  },
+  "low_health": {
+    "es": "Esfera: 'Yo que tú me comería un bocata antes de palmarla.'",
+    "en": "Orb: 'If I were you I would eat a sandwich before kicking the bucket.'",
+    "fr": "Orbe : 'À ta place, je mangerais un sandwich avant de casser ta pipe.'",
+    "it": "Sfera: 'Se fossi in te mangerei un panino prima di tirare le cuoia.'",
+    "de": "Kugel: 'An deiner Stelle würde ich ein Sandwich essen, bevor du ins Gras beißt.'",
+    "zh": "灵球：'我要是你，蹬腿之前先吃个三明治。'",
+    "ja": "オーブ：'俺が君なら、くたばる前にサンドイッチでも食うね。'"
+  },
+  "idle_afk": {
+    "es": "Esfera: '¿Nos hemos dormido o estás consultando la guía secreta en Reddit?'",
+    "en": "Orb: 'Did we fall asleep or are you checking Reddit for walkthroughs?'",
+    "fr": "Orbe : 'On s'est endormis ou tu consultes un guide sur Reddit ?'",
+    "it": "Sfera: 'Ci siamo addormentati o stai controllando le guide su Reddit?'",
+    "de": "Kugel: 'Sind wir eingeschlafen oder checkst du Reddit nach Komplettlösungen?'",
+    "zh": "灵球：'我们是睡着了，还是你在 Reddit 上查攻略？'",
+    "ja": "オーブ：'眠っちゃったのか、それともRedditで攻略でも見てるのか？'"
+  },
+  "combat_win_1hp": {
+    "es": "Esfera: 'Calculado al milímetro... por favor, dime que fue calculado.'",
+    "en": "Orb: 'Calculated down to the millimeter... please tell me it was calculated.'",
+    "fr": "Orbe : 'Calculé au millimètre près... dis-moi que c'était calculé, s'il te plaît.'",
+    "it": "Sfera: 'Calcolato al millimetro... ti prego, dimmi che era calcolato.'",
+    "de": "Kugel: 'Auf den Millimeter berechnet... bitte sag mir, dass es berechnet war.'",
+    "zh": "灵球：'精确到毫米……拜托告诉我这是算好的。'",
+    "ja": "オーブ：'ミリ単位で計算済み……頼むから計算通りだったと言ってくれ。'"
+  },
+  "combat_flawless": {
+    "es": "Esfera: '¿Ni un rasguño? El jefe del juego va a pedir un parche de balanceo urgente.'",
+    "en": "Orb: 'Not a single scratch? The game boss is going to ask for a balance patch.'",
+    "fr": "Orbe : 'Pas une égratignure ? Le boss du jeu va réclamer un patch d'équilibrage urgent.'",
+    "it": "Sfera: 'Nemmeno un graffio? Il boss del gioco chiederà una patch di bilanciamento urgente.'",
+    "de": "Kugel: 'Kein einziger Kratzer? Der Spiel-Boss wird einen dringenden Balance-Patch fordern.'",
+    "zh": "灵球：'毫发无伤？游戏 Boss 要紧急申请一个平衡补丁了。'",
+    "ja": "オーブ：'かすり傷ひとつない？ゲームのボスが緊急バランスパッチを要求するぞ。'"
+  },
+  "stone_block_hint": {
+    "es": "Esfera: 'Esa grieta en la piedra... parece que con una bomba la volarías en pedazos.'",
+    "en": "Orb: 'That crack in the rock... looks like a bomb would blow it to pieces.'",
+    "fr": "Orbe : 'Cette fissure dans la roche... on dirait qu'une bombe la ferait voler en éclats.'",
+    "it": "Sfera: 'Quella crepa nella roccia... sembra che una bomba la farebbe a pezzi.'",
+    "de": "Kugel: 'Dieser Riss im Fels... sieht aus, als würde eine Bombe ihn in Stücke sprengen.'",
+    "zh": "灵球：'石头上那道裂缝……看样子一颗炸弹就能把它炸个粉碎。'",
+    "ja": "オーブ：'あの岩のひび割れ……爆弾があれば粉々にできそうだ。'"
+  },
+  "chest_found": {
+    "es": "Esfera: '¡Cofre! A ver qué chatarra histórica acumulamos para no usar nunca.'",
+    "en": "Orb: 'Chest! Let us see what historic junk we hoard and never use.'",
+    "fr": "Orbe : 'Un coffre ! Voyons quelle ferraille historique on accumule sans jamais l'utiliser.'",
+    "it": "Sfera: 'Un baule! Vediamo che ferraglia storica accumuliamo per non usarla mai.'",
+    "de": "Kugel: 'Eine Truhe! Mal sehen, welchen historischen Schrott wir horten und nie benutzen.'",
+    "zh": "灵球：'宝箱！来看看我们又囤了什么永远用不上的历史垃圾。'",
+    "ja": "オーブ：'宝箱だ！一度も使わない歴史的ガラクタを、また何を溜め込むのか見てみよう。'"
+  }
+}

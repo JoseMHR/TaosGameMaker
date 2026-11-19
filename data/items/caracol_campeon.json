@@ -1,0 +1,23 @@
+{
+    "name": {
+        "es": "Caracol Campeón",
+        "en": "Champion Snail",
+        "fr": "Escargot Champion",
+        "it": "Lumaca Campionessa",
+        "de": "Meisterschnecke",
+        "zh": "冠军蜗牛",
+        "ja": "チャンピオンカタツムリ"
+    },
+    "desc": {
+        "es": "Un caracol condecorado con una diminuta raya roja pintada en la concha. Invicto en la pista (por incomparecencia de rivales impacientes). Se desplaza a una velocidad que redefine la palabra 'emoción'.",
+        "en": "A snail decorated with a tiny red stripe painted on its shell. Undefeated on the track (by forfeit of impatient rivals). It moves at a speed that redefines the word 'excitement'.",
+        "fr": "Un escargot décoré d'une minuscule rayure rouge peinte sur sa coquille. Invaincu sur la piste (par forfait de rivaux impatients). Il se déplace à une vitesse qui redéfinit le mot « excitation ».",
+        "it": "Una lumaca decorata con una minuscola striscia rossa dipinta sul guscio. Imbattuta in pista (per ritiro di rivali impazienti). Si muove a una velocità che ridefinisce la parola 'emozione'.",
+        "de": "Eine Schnecke, verziert mit einem winzigen roten Streifen auf ihrer Schale. Unbesiegt auf der Strecke (durch Aufgabe ungeduldiger Rivalen). Sie bewegt sich mit einer Geschwindigkeit, die das Wort „Aufregung“ neu definiert.",
+        "zh": "一只蜗牛，壳上画着一道小小的红色条纹。赛道上从未败北（因为不耐烦的对手弃权）。它移动的速度重新定义了「刺激」一词。",
+        "ja": "殻に小さな赤いラインが描かれたカタツムリ。トラックでは無敗（せっかちなライバルたちの棄権による）。「興奮」という言葉の意味を再定義する速さで動く。"
+    },
+    "icon": "🐌",
+    "category": "important",
+    "usable": false
+}

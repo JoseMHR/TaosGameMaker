@@ -1,0 +1,310 @@
+[gd_scene format=3]
+
+[sub_resource type="StandardMaterial3D" id="Mat_StoneFoundation"]
+albedo_color = Color(0.42, 0.40, 0.38, 1)
+roughness = 0.88
+
+[sub_resource type="StandardMaterial3D" id="Mat_CozyPlaster"]
+albedo_color = Color(0.92, 0.88, 0.80, 1)
+roughness = 0.82
+
+[sub_resource type="StandardMaterial3D" id="Mat_WoodTimber"]
+albedo_color = Color(0.28, 0.18, 0.11, 1)
+roughness = 0.88
+
+[sub_resource type="StandardMaterial3D" id="Mat_TerracottaRoof"]
+albedo_color = Color(0.72, 0.32, 0.20, 1)
+roughness = 0.65
+
+[sub_resource type="StandardMaterial3D" id="Mat_ChimneyStone"]
+albedo_color = Color(0.38, 0.36, 0.35, 1)
+roughness = 0.9
+
+[sub_resource type="StandardMaterial3D" id="Mat_ChimneySoot"]
+albedo_color = Color(0.18, 0.17, 0.16, 1)
+roughness = 0.95
+
+[sub_resource type="StandardMaterial3D" id="Mat_WindowWarm"]
+albedo_color = Color(1.0, 0.84, 0.42, 1)
+emission_enabled = true
+emission = Color(1.0, 0.84, 0.42, 1)
+emission_energy_multiplier = 2.4
+
+[sub_resource type="StandardMaterial3D" id="Mat_LanternGlow"]
+albedo_color = Color(1.0, 0.78, 0.30, 1)
+emission_enabled = true
+emission = Color(1.0, 0.78, 0.30, 1)
+emission_energy_multiplier = 2.8
+
+[sub_resource type="StandardMaterial3D" id="Mat_FlowerRed"]
+albedo_color = Color(0.92, 0.32, 0.42, 1)
+roughness = 0.8
+
+[sub_resource type="StandardMaterial3D" id="Mat_FoliageGreen"]
+albedo_color = Color(0.25, 0.55, 0.22, 1)
+roughness = 0.85
+
+[sub_resource type="StandardMaterial3D" id="Mat_GardenEarth"]
+albedo_color = Color(0.52, 0.46, 0.38, 1)
+roughness = 0.95
+
+[sub_resource type="BoxMesh" id="Mesh_Plinth"]
+size = Vector3(1.08, 0.06, 0.96)
+
+[sub_resource type="BoxMesh" id="Mesh_GardenPatch"]
+size = Vector3(1.02, 0.03, 0.90)
+
+[sub_resource type="BoxMesh" id="Mesh_StonePath"]
+size = Vector3(0.18, 0.02, 0.42)
+
+[sub_resource type="BoxMesh" id="Mesh_CottageStoneBase"]
+size = Vector3(0.50, 0.12, 0.50)
+
+[sub_resource type="BoxMesh" id="Mesh_CottageBody"]
+size = Vector3(0.48, 0.32, 0.48)
+
+[sub_resource type="BoxMesh" id="Mesh_TimberBelt"]
+size = Vector3(0.50, 0.03, 0.50)
+
+[sub_resource type="PrismMesh" id="Mesh_CottageRoof"]
+size = Vector3(0.58, 0.34, 0.58)
+
+[sub_resource type="BoxMesh" id="Mesh_DormerBody"]
+size = Vector3(0.14, 0.14, 0.12)
+
+[sub_resource type="PrismMesh" id="Mesh_DormerRoof"]
+size = Vector3(0.16, 0.10, 0.14)
+
+[sub_resource type="BoxMesh" id="Mesh_DormerWindow"]
+size = Vector3(0.06, 0.06, 0.02)
+
+[sub_resource type="BoxMesh" id="Mesh_Door"]
+size = Vector3(0.13, 0.22, 0.02)
+
+[sub_resource type="BoxMesh" id="Mesh_PorchRoof"]
+size = Vector3(0.20, 0.03, 0.12)
+
+[sub_resource type="CylinderMesh" id="Mesh_PorchPost"]
+top_radius = 0.015
+bottom_radius = 0.015
+height = 0.24
+radial_segments = 6
+
+[sub_resource type="SphereMesh" id="Mesh_Lantern"]
+radius = 0.022
+height = 0.044
+
+[sub_resource type="BoxMesh" id="Mesh_Window"]
+size = Vector3(0.09, 0.10, 0.02)
+
+[sub_resource type="BoxMesh" id="Mesh_FlowerBox"]
+size = Vector3(0.12, 0.04, 0.05)
+
+[sub_resource type="BoxMesh" id="Mesh_Flowers"]
+size = Vector3(0.11, 0.03, 0.04)
+
+[sub_resource type="BoxMesh" id="Mesh_ChimneyBase"]
+size = Vector3(0.14, 0.30, 0.14)
+
+[sub_resource type="BoxMesh" id="Mesh_ChimneyShaft"]
+size = Vector3(0.11, 0.38, 0.11)
+
+[sub_resource type="CylinderMesh" id="Mesh_ChimneyPot"]
+top_radius = 0.035
+bottom_radius = 0.045
+height = 0.08
+radial_segments = 8
+
+[sub_resource type="CylinderMesh" id="Mesh_FencePost"]
+top_radius = 0.018
+bottom_radius = 0.018
+height = 0.16
+radial_segments = 6
+
+[sub_resource type="BoxMesh" id="Mesh_FenceRailLong"]
+size = Vector3(0.02, 0.02, 0.48)
+
+[sub_resource type="BoxMesh" id="Mesh_FenceRailShort"]
+size = Vector3(0.22, 0.02, 0.02)
+
+[sub_resource type="CylinderMesh" id="Mesh_Barrel"]
+top_radius = 0.045
+bottom_radius = 0.05
+height = 0.12
+radial_segments = 8
+
+[sub_resource type="BoxMesh" id="Mesh_Firewood"]
+size = Vector3(0.14, 0.08, 0.07)
+
+[sub_resource type="SphereMesh" id="Mesh_Bush"]
+radius = 0.07
+height = 0.12
+radial_segments = 8
+rings = 4
+
+[node name="PoiHouse" type="Node3D"]
+
+[node name="Plinth" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.03, 0)
+material_override = SubResource("Mat_StoneFoundation")
+mesh = SubResource("Mesh_Plinth")
+
+[node name="GardenPatch" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.065, 0)
+material_override = SubResource("Mat_GardenEarth")
+mesh = SubResource("Mesh_GardenPatch")
+
+[node name="StonePath" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.12, 0.085, 0.26)
+material_override = SubResource("Mat_StoneFoundation")
+mesh = SubResource("Mesh_StonePath")
+
+[node name="CottageStoneBase" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.12, 0.14, -0.06)
+material_override = SubResource("Mat_StoneFoundation")
+mesh = SubResource("Mesh_CottageStoneBase")
+
+[node name="CottageBody" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.12, 0.32, -0.06)
+material_override = SubResource("Mat_CozyPlaster")
+mesh = SubResource("Mesh_CottageBody")
+
+[node name="TimberBelt" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.12, 0.21, -0.06)
+material_override = SubResource("Mat_WoodTimber")
+mesh = SubResource("Mesh_TimberBelt")
+
+[node name="CottageRoof" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.12, 0.62, -0.06)
+material_override = SubResource("Mat_TerracottaRoof")
+mesh = SubResource("Mesh_CottageRoof")
+
+[node name="DormerBody" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.12, 0.58, 0.12)
+material_override = SubResource("Mat_CozyPlaster")
+mesh = SubResource("Mesh_DormerBody")
+
+[node name="DormerRoof" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.12, 0.69, 0.12)
+material_override = SubResource("Mat_TerracottaRoof")
+mesh = SubResource("Mesh_DormerRoof")
+
+[node name="DormerWindow" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.12, 0.59, 0.185)
+material_override = SubResource("Mat_WindowWarm")
+mesh = SubResource("Mesh_DormerWindow")
+
+[node name="Door" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.12, 0.20, 0.185)
+material_override = SubResource("Mat_WoodTimber")
+mesh = SubResource("Mesh_Door")
+
+[node name="PorchRoof" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.985, 0.174, 0, -0.174, 0.985, -0.12, 0.34, 0.24)
+material_override = SubResource("Mat_WoodTimber")
+mesh = SubResource("Mesh_PorchRoof")
+
+[node name="PorchPostL" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.21, 0.20, 0.29)
+material_override = SubResource("Mat_WoodTimber")
+mesh = SubResource("Mesh_PorchPost")
+
+[node name="PorchPostR" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.03, 0.20, 0.29)
+material_override = SubResource("Mat_WoodTimber")
+mesh = SubResource("Mesh_PorchPost")
+
+[node name="PorchLantern" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.03, 0.31, 0.27)
+material_override = SubResource("Mat_LanternGlow")
+mesh = SubResource("Mesh_Lantern")
+
+[node name="WindowFront" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.05, 0.27, 0.185)
+material_override = SubResource("Mat_WindowWarm")
+mesh = SubResource("Mesh_Window")
+
+[node name="FlowerBoxFront" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.05, 0.20, 0.20)
+material_override = SubResource("Mat_WoodTimber")
+mesh = SubResource("Mesh_FlowerBox")
+
+[node name="FlowersFront" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.05, 0.23, 0.20)
+material_override = SubResource("Mat_FlowerRed")
+mesh = SubResource("Mesh_Flowers")
+
+[node name="WindowSide" type="MeshInstance3D" parent="."]
+transform = Transform3D(0, 0, 1, 0, 1, 0, -1, 0, 0, -0.365, 0.27, -0.06)
+material_override = SubResource("Mat_WindowWarm")
+mesh = SubResource("Mesh_Window")
+
+[node name="ChimneyBase" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.06, 0.22, -0.16)
+material_override = SubResource("Mat_StoneFoundation")
+mesh = SubResource("Mesh_ChimneyBase")
+
+[node name="ChimneyShaft" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.06, 0.54, -0.16)
+material_override = SubResource("Mat_ChimneyStone")
+mesh = SubResource("Mesh_ChimneyShaft")
+
+[node name="ChimneyPot" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.06, 0.77, -0.16)
+material_override = SubResource("Mat_ChimneySoot")
+mesh = SubResource("Mesh_ChimneyPot")
+
+[node name="Barrel" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.28, 0.14, 0.26)
+material_override = SubResource("Mat_WoodTimber")
+mesh = SubResource("Mesh_Barrel")
+
+[node name="Firewood" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.30, 0.12, -0.22)
+material_override = SubResource("Mat_WoodTimber")
+mesh = SubResource("Mesh_Firewood")
+
+[node name="FencePost1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.26, 0.15, 0.30)
+material_override = SubResource("Mat_WoodTimber")
+mesh = SubResource("Mesh_FencePost")
+
+[node name="FencePost2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.44, 0.15, 0.30)
+material_override = SubResource("Mat_WoodTimber")
+mesh = SubResource("Mesh_FencePost")
+
+[node name="FencePost3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.44, 0.15, 0.06)
+material_override = SubResource("Mat_WoodTimber")
+mesh = SubResource("Mesh_FencePost")
+
+[node name="FencePost4" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.44, 0.15, -0.18)
+material_override = SubResource("Mat_WoodTimber")
+mesh = SubResource("Mesh_FencePost")
+
+[node name="FenceRailLong1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.44, 0.19, 0.06)
+material_override = SubResource("Mat_WoodTimber")
+mesh = SubResource("Mesh_FenceRailLong")
+
+[node name="FenceRailLong2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.44, 0.11, 0.06)
+material_override = SubResource("Mat_WoodTimber")
+mesh = SubResource("Mesh_FenceRailLong")
+
+[node name="FenceRailShort1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.35, 0.19, 0.30)
+material_override = SubResource("Mat_WoodTimber")
+mesh = SubResource("Mesh_FenceRailShort")
+
+[node name="FenceRailShort2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.35, 0.11, 0.30)
+material_override = SubResource("Mat_WoodTimber")
+mesh = SubResource("Mesh_FenceRailShort")
+
+[node name="GardenBush" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.28, 0.11, 0.12)
+material_override = SubResource("Mat_FoliageGreen")
+mesh = SubResource("Mesh_Bush")

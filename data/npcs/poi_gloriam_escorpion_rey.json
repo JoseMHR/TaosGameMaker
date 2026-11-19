@@ -1,0 +1,167 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Rey Escorpión Diminuto",
+            "en": "The Tiny Scorpion King",
+            "fr": "Le Minuscule Roi Scorpion",
+            "it": "Il Minuscolo Re Scorpione",
+            "de": "Der Winzige Skorpionkönig",
+            "zh": "渺小的蝎王",
+            "ja": "小さなサソリ王"
+        },
+        "next": [],
+        "reward": "avatar=🦂;bg=0.15,0.11,0.04"
+    },
+    "esco_done": {
+        "type": "message",
+        "text": {
+            "es": "El escorpión diminuto alza sus pincitas al reconocerte y ejecuta lo que solo puede interpretarse como un saludo real. Has sido nombrado 'Campeón del Imperio de Arena'. El imperio mide medio metro cuadrado, pero un título es un título.",
+            "en": "The tiny scorpion raises its little pincers on recognizing you and performs what can only be interpreted as a royal salute. You have been named 'Champion of the Sand Empire'. The empire measures half a square meter, but a title is a title.",
+            "fr": "Le minuscule scorpion lève ses petites pinces en te reconnaissant et exécute ce qui ne peut être interprété que comme un salut royal. Tu as été nommé « Champion de l'Empire de Sable ». L'empire mesure un demi-mètre carré, mais un titre est un titre.",
+            "it": "Il minuscolo scorpione alza le sue piccole pinze riconoscendoti ed esegue quello che può essere interpretato solo come un saluto regale. Sei stato nominato 'Campione dell'Impero di Sabbia'. L'impero misura mezzo metro quadrato, ma un titolo è un titolo.",
+            "de": "Der winzige Skorpion hebt seine kleinen Scheren, als er dich erkennt, und vollführt etwas, das man nur als königlichen Gruß deuten kann. Du wurdest zum „Champion des Sandreichs“ ernannt. Das Reich misst einen halben Quadratmeter, aber ein Titel ist ein Titel.",
+            "zh": "小蝎子认出你后举起了它的小钳子，做出一个只能被解读为皇家礼节的动作。你被封为「沙之帝国的冠军」。这个帝国面积只有半平方米，但头衔就是头衔。",
+            "ja": "小さなサソリはお前を認識すると小さなハサミを掲げ、王族の敬礼としか解釈できない仕草をする。お前は「砂の帝国の勇者」に任命された。帝国の広さは半平方メートルだが、称号は称号だ。"
+        },
+        "next": [
+            "esco_opt_salir"
+        ],
+        "reward": "",
+        "condition": "gflag(\"esco_campeon\")"
+    },
+    "esco_root": {
+        "type": "message",
+        "text": {
+            "es": "Sobre un cráneo blanqueado por el sol, un escorpión no más grande que tu pulgar se yergue sobre sus patas traseras con las pinzas en jarras. En cuanto tu sombra lo cubre, agita el aguijón en el aire con furia napoleónica, como exigiendo que te arrodilles. Todo en su lenguaje corporal grita 'INCLÍNATE ANTE MÍ, GIGANTE', ajeno por completo al hecho de que podrías aplastarlo con un dedo sin despeinarte.",
+            "en": "Atop a sun-bleached skull, a scorpion no bigger than your thumb rears up on its hind legs with its pincers on its hips. The moment your shadow falls over it, it waves its stinger in the air with Napoleonic fury, as if demanding you kneel. Everything in its body language screams 'BOW BEFORE ME, GIANT', utterly oblivious to the fact that you could crush it with a finger without breaking a sweat.",
+            "fr": "Sur un crâne blanchi par le soleil, un scorpion pas plus grand que ton pouce se dresse sur ses pattes arrière, les pinces sur les hanches. Dès que ton ombre le couvre, il agite son dard dans l'air avec une fureur napoléonienne, comme s'il exigeait que tu t'agenouilles. Tout dans son langage corporel crie « INCLINE-TOI DEVANT MOI, GÉANT », totalement inconscient du fait que tu pourrais l'écraser d'un doigt sans même transpirer.",
+            "it": "Su un teschio sbiancato dal sole, uno scorpione non più grande del tuo pollice si erge sulle zampe posteriori con le pinze sui fianchi. Non appena la tua ombra lo copre, agita il pungiglione nell'aria con furia napoleonica, come se esigesse che ti inginocchi. Tutto nel suo linguaggio corporeo grida 'INCHINATI DAVANTI A ME, GIGANTE', del tutto ignaro del fatto che potresti schiacciarlo con un dito senza scomporti.",
+            "de": "Auf einem sonnengebleichten Schädel richtet sich ein Skorpion, nicht größer als dein Daumen, auf seinen Hinterbeinen auf, die Scheren in die Hüften gestemmt. Sobald dein Schatten ihn bedeckt, schwenkt er seinen Stachel mit napoleonischer Wut in der Luft, als würde er verlangen, dass du niederkniest. Alles an seiner Körpersprache schreit „VERNEIGE DICH VOR MIR, RIESE“, völlig ahnungslos, dass du ihn mit einem Finger zerquetschen könntest, ohne ins Schwitzen zu geraten.",
+            "zh": "在一颗被太阳晒得发白的头骨上，一只不比你拇指大的蝎子直立在后腿上，钳子叉在腰间。你的影子一笼罩到它，它就以拿破仑式的怒气在空中挥舞着毒刺，仿佛要求你跪下。它的一举一动都在呐喊「向我下跪，巨人」，完全没意识到你可以毫不费力地用一根手指捏碎它。",
+            "ja": "太陽に晒された頭蓋骨の上で、親指ほどの大きさしかないサソリが後ろ脚で立ち上がり、ハサミを腰に当てている。お前の影が覆った瞬間、まるでひざまずけと要求するかのように、ナポレオンばりの怒りで尾を空中で振り回す。その体の動きすべてが「巨人よ、我にひざまずけ」と叫んでいる。指一本で汗もかかずに潰せることなど、まったく気づいていない。"
+        },
+        "next": [
+            "esco_opt_arrodillarse",
+            "esco_opt_duelo",
+            "esco_opt_ignorar",
+            "esco_opt_salir"
+        ],
+        "reward": ""
+    },
+    "esco_opt_arrodillarse": {
+        "type": "option",
+        "text": {
+            "es": "👑  Arrodillarte solemnemente ante Su Diminuta Majestad",
+            "en": "👑  Kneel solemnly before His Tiny Majesty",
+            "fr": "👑  T'agenouiller solennellement devant Sa Minuscule Majesté",
+            "it": "👑  Inginocchiarti solennemente davanti a Sua Minuscola Maestà",
+            "de": "👑  Sich feierlich vor Seiner Winzigen Majestät niederknien",
+            "zh": "👑  庄严地跪在这位微小陛下面前",
+            "ja": "👑  小さな陛下の前で厳粛に跪く"
+        },
+        "next": [
+            "esco_msg_arrodillarse"
+        ],
+        "reward": ""
+    },
+    "esco_msg_arrodillarse": {
+        "type": "message",
+        "text": {
+            "es": "Hincas la rodilla en la arena ardiente y agachas la cabeza ante el escorpión, que casi se cae del cráneo de la satisfacción. Ejecuta una danza triunfal de pinzas y aguijón, evidentemente convencido de haber sometido a un titán. Le sigues el juego con total seriedad y, la verdad, ver a semejante enano gobernar con tanta dignidad su imperio de arena tiene su encanto. Nadie tan pequeño se ha creído nunca tan grande, y es admirable.",
+            "en": "You sink a knee into the burning sand and bow your head before the scorpion, which nearly falls off the skull with satisfaction. It performs a triumphant dance of pincers and stinger, evidently convinced it has subdued a titan. You play along with total seriousness and, honestly, watching such a runt rule its sand empire with such dignity has its charm. No one so small has ever believed themselves so great, and it's admirable.",
+            "fr": "Tu enfonces le genou dans le sable brûlant et baisses la tête devant le scorpion, qui manque de tomber du crâne de satisfaction. Il exécute une danse triomphale de pinces et de dard, visiblement convaincu d'avoir soumis un titan. Tu joues le jeu avec un total sérieux et, franchement, voir un si petit être gouverner son empire de sable avec tant de dignité a son charme. Personne d'aussi petit ne s'est jamais cru aussi grand, et c'est admirable.",
+            "it": "Piegi il ginocchio nella sabbia bollente e chini la testa davanti allo scorpione, che quasi cade dal teschio dalla soddisfazione. Esegue una danza trionfale di pinze e pungiglione, evidentemente convinto di aver sottomesso un titano. Stai al gioco con totale serietà e, in verità, vedere un simile nanerottolo governare con tale dignità il suo impero di sabbia ha il suo fascino. Nessuno così piccolo si è mai creduto così grande, ed è ammirevole.",
+            "de": "Du senkst ein Knie in den glühenden Sand und beugst den Kopf vor dem Skorpion, der vor lauter Zufriedenheit fast vom Schädel fällt. Er vollführt einen triumphalen Tanz mit Scheren und Stachel, offensichtlich überzeugt, einen Titanen unterworfen zu haben. Du spielst mit vollem Ernst mit, und ehrlich gesagt, hat es seinen Reiz, einen solchen Zwerg zu sehen, der sein Sandreich mit solcher Würde regiert. Niemand so Kleines hat sich je für so groß gehalten, und das ist bewundernswert.",
+            "zh": "你在灼热的沙地上单膝跪下，在蝎子面前低下头，它高兴得几乎从头骨上摔下来。它跳起一支胜利的钳子与毒刺之舞，显然确信自己征服了一位巨人。你完全一本正经地配合着，而说实话，看着这么一个矮小的东西如此有尊严地统治着它的沙之帝国，也别有一番魅力。从没有哪个如此渺小的存在，能相信自己如此伟大，这值得钦佩。",
+            "ja": "灼熱の砂に膝を沈め、サソリの前で頭を垂れると、それは満足のあまり頭蓋骨から落ちそうになる。ハサミと尾で勝利の舞を披露し、明らかに巨人を屈服させたと確信している。お前は完全に真剣にその演技に付き合う。正直なところ、これほど小さな者がこれほどの威厳を持って砂の帝国を統治する姿には、それなりの魅力がある。これほど小さな存在が、これほど偉大だと信じ込んだことは他になく、それは称賛に値する。"
+        },
+        "next": [
+            "esco_root"
+        ],
+        "reward": ""
+    },
+    "esco_opt_duelo": {
+        "type": "option",
+        "text": {
+            "es": "⚔️  Aceptar su desafío y batirte en un duelo a su altura",
+            "en": "⚔️  Accept its challenge and duel it on its own terms",
+            "fr": "⚔️  Accepter son défi et te battre en un duel à sa taille",
+            "it": "⚔️  Accettare la sua sfida e batterti in un duello alla sua altezza",
+            "de": "⚔️  Seine Herausforderung annehmen und ein Duell auf seiner Ebene austragen",
+            "zh": "⚔️  接受它的挑战，与它进行一场势均力敌的决斗",
+            "ja": "⚔️  挑戦を受け入れ、そのレベルで『決闘』に応じる"
+        },
+        "next": [
+            "esco_msg_duelo"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "esco_msg_duelo": {
+        "type": "message",
+        "text": {
+            "es": "Coges una ramita a modo de espada, te tumbas boca abajo en la arena para ponerte a su altura y aceptas el duelo con honor. El escorpión se lanza con un valor descomunal para su tamaño, esquiva tu ramita tres veces y te asesta un piquetito en el nudillo que apenas notas. Levantas las manos, rindiéndote con gran teatralidad ante el guerrero más pequeño y bravo del desierto. Que un bicho así no tenga miedo de un gigante te recuerda que el valor no se mide en tamaño.",
+            "en": "You grab a twig for a sword, lie flat on your stomach in the sand to meet it at its level, and accept the duel with honor. The scorpion charges with a courage enormous for its size, dodges your twig three times, and lands a tiny prick on your knuckle you barely feel. You raise your hands, surrendering with great theatricality to the smallest and bravest warrior in the desert. That a bug like this fears no giant reminds you that courage isn't measured in size.",
+            "fr": "Tu prends une brindille en guise d'épée, t'allonges à plat ventre dans le sable pour te mettre à sa hauteur et acceptes le duel avec honneur. Le scorpion charge avec un courage démesuré pour sa taille, esquive ta brindille trois fois et te plante une petite piqûre sur la jointure que tu remarques à peine. Tu lèves les mains, te rendant avec une grande théâtralité devant le plus petit et le plus brave guerrier du désert. Qu'une créature pareille n'ait pas peur d'un géant te rappelle que le courage ne se mesure pas à la taille.",
+            "it": "Prendi un ramoscello come spada, ti sdrai a pancia in giù nella sabbia per metterti alla sua altezza e accetti il duello con onore. Lo scorpione carica con un coraggio smisurato per la sua taglia, schiva il tuo ramoscello tre volte e ti assesta una puntura sul nocca che senti a malapena. Alzi le mani, arrenderti con grande teatralità al più piccolo e coraggioso guerriero del deserto. Che una bestiola simile non abbia paura di un gigante ti ricorda che il coraggio non si misura in taglia.",
+            "de": "Du nimmst einen Zweig als Schwert, legst dich flach auf den Bauch in den Sand, um dich auf seine Höhe zu begeben, und nimmst das Duell mit Ehre an. Der Skorpion greift mit einem für seine Größe enormen Mut an, weicht deinem Zweig dreimal aus und versetzt dir einen winzigen Stich auf den Knöchel, den du kaum spürst. Du hebst die Hände und ergibst dich mit großer Theatralik vor dem kleinsten und tapfersten Krieger der Wüste. Dass ein solches Wesen keine Angst vor einem Riesen hat, erinnert dich daran, dass Mut nicht an der Größe gemessen wird.",
+            "zh": "你拿起一根树枝当剑，趴在沙地上与它齐平，光荣地接受了这场决斗。蝎子以一种与它体型极不相称的巨大勇气冲了上来，三次躲开了你的树枝，最后在你的指节上蜇了一下，你几乎感觉不到。你举起双手，极其夸张地向这位沙漠中最小、最勇敢的战士投降。这样一个小生物竟不惧巨人，这提醒了你，勇气无关体型大小。",
+            "ja": "小枝を剣代わりに取り、その高さに合わせて砂の上に腹ばいになり、名誉をかけて決闘を受け入れる。サソリはその体格には不釣り合いなほどの勇気で突進し、お前の小枝を三度かわし、ほとんど感じないほどの小さな一刺しを関節に加える。お前は両手を上げ、大げさな芝居がかった様子で砂漠一小さく勇敢な戦士に降参する。こんな虫けらが巨人を恐れないことは、勇気は大きさで測れないのだと思い出させてくれる。"
+        },
+        "next": [
+            "esco_opt_salir"
+        ],
+        "reward": "faceta:valor=+1;gflag:esco_campeon",
+        "condition": "no_gflag(\"esco_campeon\")",
+        "once": true
+    },
+    "esco_opt_ignorar": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Pasar de largo por encima, como del insecto que es",
+            "en": "🚶  Step right over it, like the insect it is",
+            "fr": "🚶  Passer au-dessus sans tarrêter, comme de linsecte qu'il est",
+            "it": "🚶  Passare oltre senza degnarlo di uno sguardo, come dell'insetto che è",
+            "de": "🚶  Einfach darüber hinweggehen, wie über das Insekt, das er ist",
+            "zh": "🚶  径直跨过去，把它当作一只不值一提的昆虫",
+            "ja": "🚶  ただの虫として、見向きもせず通り過ぎる"
+        },
+        "next": [
+            "esco_msg_ignorar"
+        ],
+        "reward": ""
+    },
+    "esco_msg_ignorar": {
+        "type": "message",
+        "text": {
+            "es": "Pasas por encima sin dignarte a mirarlo. A tu espalda, el escorpión agita el aguijón con una indignación tan cómica que casi lo oyes maldecir en idioma escorpión. Durante el resto del día no te quitas de encima la sensación absurda de haberte ganado un enemigo mortal de dos centímetros que jurará venganza eterna. Que duermas bien.",
+            "en": "You step over it without deigning to look. Behind you, the scorpion shakes its stinger with an indignation so comical you can almost hear it curse in scorpion tongue. For the rest of the day you can't shake the absurd feeling of having made a mortal, two-centimeter enemy who will swear eternal vengeance. Sleep well.",
+            "fr": "Tu passes au-dessus sans te donner la peine de le regarder. Dans ton dos, le scorpion agite son dard avec une indignation si comique que tu l'entends presque jurer en langue scorpion. Pour le reste de la journée, tu ne peux te débarrasser de l'absurde sensation d'être devenu l'ennemi juré d'une créature de deux centimètres qui vouera une vengeance éternelle. Dors bien.",
+            "it": "Passi oltre senza degnarlo di uno sguardo. Alle tue spalle, lo scorpione agita il pungiglione con un'indignazione così comica che quasi lo senti maledire in lingua scorpione. Per il resto della giornata non riesci a scrollarti di dosso l'assurda sensazione di esserti fatto un nemico mortale di due centimetri che giura vendetta eterna. Dormi bene.",
+            "de": "Du gehst darüber, ohne dich herabzulassen, hinzuschauen. Hinter dir schwenkt der Skorpion seinen Stachel mit einer so komischen Empörung, dass du ihn fast in Skorpionsprache fluchen hörst. Für den Rest des Tages wirst du das absurde Gefühl nicht los, dir einen zwei Zentimeter großen Todfeind gemacht zu haben, der ewige Rache schwören wird. Schlaf gut.",
+            "zh": "你径直跨了过去，连看都不屑看它一眼。在你身后，蝎子挥舞着毒刺，愤慨得如此滑稽，你几乎能听到它用蝎语咒骂。接下来的整整一天，你都摆脱不了这种荒谬的感觉：你结下了一个两厘米长、发誓永世复仇的死敌。祝你睡个好觉。",
+            "ja": "見向きもせずに跨いで通り過ぎる。背後でサソリは尾を振り回し、あまりにも滑稽な憤慨ぶりで、サソリ語で罵っているのがほとんど聞こえてきそうだ。その日の残り時間、二センチの不倶戴天の敵を作ってしまい、それが永遠の復讐を誓っているという馬鹿げた感覚が拭えない。よく眠れよ。"
+        },
+        "next": [
+            "esco_opt_salir"
+        ],
+        "reward": ""
+    },
+    "esco_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Retirarte del imperio de arena",
+            "en": "🚶  Withdraw from the sand empire",
+            "fr": "🚶  Te retirer de l'empire de sable",
+            "it": "🚶  Ritirarti dall'impero di sabbia",
+            "de": "🚶  Sich aus dem Sandreich zurückziehen",
+            "zh": "🚶  离开这个沙之帝国",
+            "ja": "🚶  砂の帝国から立ち去る"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

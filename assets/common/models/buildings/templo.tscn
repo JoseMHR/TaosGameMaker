@@ -1,0 +1,238 @@
+[gd_scene format=3 uid="uid://dj3sonuj7i5ma"]
+
+[ext_resource type="Script" path="res://scripts/graphics/ParticleCuller3D.gd" id="1_culler"]
+[ext_resource type="Script" path="res://scripts/graphics/OrbRotator3D.gd" id="2_rotator"]
+[ext_resource type="Script" path="res://scripts/graphics/PoiAudio3D.gd" id="3_audio"]
+[ext_resource type="AudioStream" path="res://assets/common/sfx/sfx_ambient_arcane_hum_loop.ogg" id="4_hum"]
+
+[sub_resource type="StandardMaterial3D" id="Mat_EnergyHalo"]
+transparency = 1
+shading_mode = 0
+vertex_color_use_as_albedo = true
+albedo_color = Color(0.35, 0.9, 1.0, 0.8)
+billboard_mode = 3
+billboard_keep_scale = true
+particles_anim_h_frames = 1
+particles_anim_v_frames = 1
+particles_anim_loop = false
+
+[sub_resource type="QuadMesh" id="Mesh_HaloQuad"]
+material = SubResource("Mat_EnergyHalo")
+size = Vector2(0.04, 0.04)
+
+[sub_resource type="Gradient" id="Gradient_EnergyHalo"]
+offsets = PackedFloat32Array(0, 0.4, 1)
+colors = PackedColorArray(0.2, 0.8, 1, 0, 0.7, 0.95, 1, 0.9, 0.1, 0.5, 1, 0)
+
+[sub_resource type="StandardMaterial3D" id="Mat_WhiteMarble"]
+albedo_color = Color(0.92, 0.90, 0.86, 1)
+roughness = 0.35
+
+[sub_resource type="StandardMaterial3D" id="Mat_DarkStone"]
+albedo_color = Color(0.38, 0.40, 0.42, 1)
+roughness = 0.85
+
+[sub_resource type="StandardMaterial3D" id="Mat_GoldDetails"]
+albedo_color = Color(0.92, 0.76, 0.22, 1)
+metallic = 0.75
+roughness = 0.25
+
+[sub_resource type="StandardMaterial3D" id="Mat_DoorVoid"]
+albedo_color = Color(0.03, 0.03, 0.04, 1)
+roughness = 1.0
+
+[sub_resource type="StandardMaterial3D" id="Mat_CoreWhiteGlow"]
+albedo_color = Color(1.0, 1.0, 1.0, 1)
+emission_enabled = true
+emission = Color(0.9, 0.95, 1.0, 1)
+emission_energy_multiplier = 3.5
+
+[sub_resource type="StandardMaterial3D" id="Mat_WarRed"]
+albedo_color = Color(0.9, 0.15, 0.15, 1)
+emission_enabled = true
+emission = Color(0.9, 0.15, 0.15, 1)
+emission_energy_multiplier = 2.0
+
+[sub_resource type="StandardMaterial3D" id="Mat_ArcherGreen"]
+albedo_color = Color(0.15, 0.85, 0.25, 1)
+emission_enabled = true
+emission = Color(0.15, 0.85, 0.25, 1)
+emission_energy_multiplier = 2.0
+
+[sub_resource type="StandardMaterial3D" id="Mat_PriestGold"]
+albedo_color = Color(0.95, 0.85, 0.25, 1)
+emission_enabled = true
+emission = Color(0.95, 0.85, 0.25, 1)
+emission_energy_multiplier = 2.0
+
+[sub_resource type="StandardMaterial3D" id="Mat_EleOrange"]
+albedo_color = Color(1.0, 0.45, 0.05, 1)
+emission_enabled = true
+emission = Color(1.0, 0.45, 0.05, 1)
+emission_energy_multiplier = 2.0
+
+[sub_resource type="StandardMaterial3D" id="Mat_PsyPurple"]
+albedo_color = Color(0.7, 0.15, 0.9, 1)
+emission_enabled = true
+emission = Color(0.7, 0.15, 0.9, 1)
+emission_energy_multiplier = 2.0
+
+[sub_resource type="StandardMaterial3D" id="Mat_TimeCyan"]
+albedo_color = Color(0.0, 0.8, 0.95, 1)
+emission_enabled = true
+emission = Color(0.0, 0.8, 0.95, 1)
+emission_energy_multiplier = 2.0
+
+[sub_resource type="BoxMesh" id="Mesh_StairsBase"]
+size = Vector3(1.1, 0.12, 1.25)
+
+[sub_resource type="BoxMesh" id="Mesh_StairsUpper"]
+size = Vector3(0.98, 0.1, 1.1)
+
+[sub_resource type="BoxMesh" id="Mesh_TempleHall"]
+size = Vector3(0.82, 0.7, 0.82)
+
+[sub_resource type="BoxMesh" id="Mesh_DoorVoid"]
+size = Vector3(0.34, 0.52, 0.15)
+
+[sub_resource type="BoxMesh" id="Mesh_DoorFrame"]
+size = Vector3(0.44, 0.58, 0.08)
+
+[sub_resource type="CylinderMesh" id="Mesh_Column"]
+top_radius = 0.04
+bottom_radius = 0.048
+height = 0.68
+radial_segments = 6
+
+[sub_resource type="PrismMesh" id="Mesh_FrontPediment"]
+size = Vector3(0.88, 0.32, 0.38)
+
+[sub_resource type="PrismMesh" id="Mesh_RoofDome"]
+size = Vector3(0.82, 0.45, 0.82)
+
+[sub_resource type="SphereMesh" id="Mesh_ClassMedallion"]
+radius = 0.035
+height = 0.07
+
+[sub_resource type="PrismMesh" id="Mesh_SpireCrystal"]
+size = Vector3(0.12, 0.32, 0.12)
+
+[node name="TemploProfesiones" type="Node3D" unique_id=1940991435]
+
+[node name="StairsBase" type="MeshInstance3D" parent="." unique_id=225885062]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.06, 0.05)
+material_override = SubResource("Mat_DarkStone")
+mesh = SubResource("Mesh_StairsBase")
+
+[node name="StairsUpper" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.15, 0.05)
+material_override = SubResource("Mat_WhiteMarble")
+mesh = SubResource("Mesh_StairsUpper")
+
+[node name="TempleHall" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.55, -0.1)
+material_override = SubResource("Mat_WhiteMarble")
+mesh = SubResource("Mesh_TempleHall")
+
+[node name="DoorFrame" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.49, 0.32)
+material_override = SubResource("Mat_WhiteMarble")
+mesh = SubResource("Mesh_DoorFrame")
+
+[node name="DoorVoid" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.46, 0.34)
+material_override = SubResource("Mat_DoorVoid")
+mesh = SubResource("Mesh_DoorVoid")
+
+[node name="ColumnFL1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.38, 0.54, 0.42)
+material_override = SubResource("Mat_WhiteMarble")
+mesh = SubResource("Mesh_Column")
+
+[node name="ColumnFL2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.54, 0.42)
+material_override = SubResource("Mat_WhiteMarble")
+mesh = SubResource("Mesh_Column")
+
+[node name="ColumnFR1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.54, 0.42)
+material_override = SubResource("Mat_WhiteMarble")
+mesh = SubResource("Mesh_Column")
+
+[node name="ColumnFR2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.38, 0.54, 0.42)
+material_override = SubResource("Mat_WhiteMarble")
+mesh = SubResource("Mesh_Column")
+
+[node name="FrontPediment" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.04, 0.32)
+material_override = SubResource("Mat_GoldDetails")
+mesh = SubResource("Mesh_FrontPediment")
+
+[node name="RoofDome" type="MeshInstance3D" parent="." unique_id=91693506]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.12, -0.1)
+material_override = SubResource("Mat_GoldDetails")
+mesh = SubResource("Mesh_RoofDome")
+
+[node name="SpireCrystal" type="MeshInstance3D" parent="." unique_id=587748197]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.48, -0.1)
+material_override = SubResource("Mat_CoreWhiteGlow")
+mesh = SubResource("Mesh_SpireCrystal")
+script = ExtResource("2_rotator")
+
+[node name="GemGuerrero" type="MeshInstance3D" parent="." unique_id=92323973]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.32, 0.84, 0.38)
+material_override = SubResource("Mat_WarRed")
+mesh = SubResource("Mesh_ClassMedallion")
+
+[node name="GemArquero" type="MeshInstance3D" parent="." unique_id=524235702]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.19, 0.84, 0.38)
+material_override = SubResource("Mat_ArcherGreen")
+mesh = SubResource("Mesh_ClassMedallion")
+
+[node name="GemSacerdote" type="MeshInstance3D" parent="." unique_id=1093175250]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.06, 0.84, 0.38)
+material_override = SubResource("Mat_PriestGold")
+mesh = SubResource("Mesh_ClassMedallion")
+
+[node name="GemElementalista" type="MeshInstance3D" parent="." unique_id=1983490025]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.06, 0.84, 0.38)
+material_override = SubResource("Mat_EleOrange")
+mesh = SubResource("Mesh_ClassMedallion")
+
+[node name="GemPsiquico" type="MeshInstance3D" parent="." unique_id=1723650444]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.19, 0.84, 0.38)
+material_override = SubResource("Mat_PsyPurple")
+mesh = SubResource("Mesh_ClassMedallion")
+
+[node name="GemTiempo" type="MeshInstance3D" parent="." unique_id=1290062028]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.32, 0.84, 0.38)
+material_override = SubResource("Mat_TimeCyan")
+mesh = SubResource("Mesh_ClassMedallion")
+
+[node name="CrystalEnergyHalo" type="CPUParticles3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.52, -0.1)
+amount = 12
+lifetime = 1.6
+mesh = SubResource("Mesh_HaloQuad")
+emission_shape = 1
+emission_sphere_radius = 0.16
+direction = Vector3(0, 1, 0)
+spread = 35.0
+gravity = Vector3(0, 0.25, 0)
+initial_velocity_min = 0.1
+initial_velocity_max = 0.28
+color_ramp = SubResource("Gradient_EnergyHalo")
+
+[node name="ParticleCuller" type="VisibleOnScreenNotifier3D" parent="CrystalEnergyHalo"]
+aabb = AABB(-0.35, -0.3, -0.35, 0.7, 0.8, 0.7)
+script = ExtResource("1_culler")
+
+[node name="TempleAudio" type="AudioStreamPlayer3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2, 0)
+stream = ExtResource("4_hum")
+attenuation_model = 2
+unit_size = 2.0
+max_distance = 12.0
+bus = &"Master"
+script = ExtResource("3_audio")

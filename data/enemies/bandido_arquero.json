@@ -1,0 +1,54 @@
+{
+  "name": {
+    "es": "Bandido Tirador",
+    "en": "Bandit Marksman",
+    "fr": "Bandit Tireur",
+    "it": "Bandito Tiratore",
+    "de": "Banditenschütze",
+    "zh": "神射强盗",
+    "ja": "盗賊の射手"
+  },
+  "family": "humanoid",
+  "archetype": "glass_cannon",
+  "icon": "🏹",
+  "image": "res://assets/combat/enemies/en_bandit_archer.png",
+  "attack_type": "ranged",
+  "base_dodge": 9.0,
+  "dodge_scale": 0.25,
+  "element": "physical",
+  "weak_to": [
+    "physical"
+  ],
+  "resist": [
+    "wind"
+  ],
+  "ai": "aggressive",
+  "xp_reward_base": 55,
+  "xp_reward_scale": 6.5,
+  "gold_reward_base": 25,
+  "gold_reward_scale": 4.0,
+  "skills": [
+    {
+      "level": 1,
+      "skill_id": "quick_shot"
+    },
+    {
+      "level": 9,
+      "skill_id": "poison_arrow"
+    }
+  ],
+  "loot": [
+    {
+      "kind": "gold",
+      "min": 25,
+      "max": 60
+    },
+    {
+      "kind": "equipment",
+      "chance": 0.3,
+      "level": 5
+    }
+  ],
+  "zone": "zona_3_sylphrena",
+  "is_boss": false
+}

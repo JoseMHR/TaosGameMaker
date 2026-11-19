@@ -1,0 +1,183 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "Vector el Chatarrero Tech",
+            "en": "Vector the Tech Scavenger",
+            "fr": "Vector le Ferrailleur Tech",
+            "it": "Vector il Rottamaio Tech",
+            "de": "Vector der Tech-Schrottsammler",
+            "zh": "科技废品商维克托",
+            "ja": "テックスカベンジャーのベクター"
+        },
+        "next": [],
+        "reward": "avatar=npc_city_arcanum_shop.png;bg=0.05,0.06,0.08"
+    },
+    "entry": {
+        "type": "message",
+        "text": {
+            "es": "¡Chispas, cables y aceite sintético! Bienvenido a mi rincón de maravillas recuperadas en Arcanum. Tengo condensadores de pulso que casi no se sobrecalientan, exo-blindajes remendados con aleaciones pesadas y artefactos experimentales que la ley de la superficie consideraría... 'creativos'. ¿Vienes a comprar o a curiosear el metal?",
+            "en": "Sparks, wires, and synthetic lube! Welcome to my salvage corner in Arcanum. I carry pulse condensers that barely overheat, exo-plating patched with heavy alloys, and experimental gizmos that surface law might consider... 'imaginative'. Come to purchase or just gawk at the scrap?",
+            "fr": "Étincelles, câbles et huile synthétique ! Bienvenue dans mon coin de merveilles récupérées à Arcanum. J'ai des condensateurs à impulsion qui surchauffent à peine, des exo-blindages rapiécés avec des alliages lourds et des artefacts expérimentaux que la loi de la surface considérerait comme... « créatifs ». Tu viens acheter ou juste reluquer le métal ?",
+            "it": "Scintille, cavi e olio sintetico! Benvenuto nel mio angolo di meraviglie recuperate ad Arcanum. Ho condensatori a impulsi che quasi non si surriscaldano, esoscheletri rattoppati con leghe pesanti e manufatti sperimentali che la legge della superficie considererebbe... 'creativi'. Vieni a comprare o solo a curiosare tra la ferraglia?",
+            "de": "Funken, Kabel und synthetisches Öl! Willkommen in meiner Ecke geborgener Wunder aus Arcanum. Ich habe Pulskondensatoren, die kaum überhitzen, Exo-Panzerungen, geflickt mit schweren Legierungen, und experimentelle Artefakte, die das Recht der Oberfläche als... „kreativ“ ansehen würde. Kommst du zum Kaufen oder nur zum Gaffen auf den Schrott?",
+            "zh": "火花、电缆和合成油！欢迎来到我在奥秘遗迹的回收宝物角。我有几乎不会过热的脉冲电容器、用重合金修补过的外骨骼护甲，还有一些地表法律可能会称之为「有创意」的实验性器物。你是来买东西的，还是只想瞧瞧这些废铁？",
+            "ja": "火花、配線、合成油！アルカナムでのがらくた回収コーナーへようこそ。ほとんど過熱しないパルスコンデンサー、重合金でつぎはぎされた外骨格装甲、そして地上の法律なら『独創的』とでも呼びそうな実験的なガジェットもある。買いに来たのか、それともスクラップを見物しに来ただけか？"
+        },
+        "next": [
+            "arc_opt_tienda",
+            "arc_opt_chispa",
+            "arc_opt_chatarra",
+            "arc_opt_automata",
+            "arc_opt_salir"
+        ],
+        "reward": ""
+    },
+    "arc_opt_tienda": {
+        "type": "option",
+        "text": {
+            "es": "🛍️  Enséñame tus armas y componentes reciclados",
+            "en": "🛍️  Show me your recycled weaponry and components",
+            "fr": "🛍️  Montre-moi tes armes et composants recyclés",
+            "it": "🛍️  Mostrami le tue armi e componenti riciclati",
+            "de": "🛍️  Zeig mir deine recycelten Waffen und Bauteile",
+            "zh": "🛍️  给我看看你的回收武器和零件",
+            "ja": "🛍️  リサイクルした武器と部品を見せてくれ"
+        },
+        "next": [
+            "arc_msg_tienda"
+        ],
+        "reward": ""
+    },
+    "arc_msg_tienda": {
+        "type": "message",
+        "text": {
+            "es": "Vector pulsa un pedal neumático y una estantería mecánica desciende con un zumbido hidráulico, mostrando armas electromagnéticas, blindajes con cableado expuesto y elixires en viales de policarbonato. '¡Si funciona y hace daño, aquí lo tienes!'",
+            "en": "Vector steps on a pneumatic pedal and a motorized rack whirs down with hydraulic hiss, presenting electromagnetic blades, wire-exposed plating, and polycarb vials. 'If it functions and wrecks stuff, you will find it here!'",
+            "fr": "Vector appuie sur une pédale pneumatique et une étagère mécanique descend avec un sifflement hydraulique, révélant des armes électromagnétiques, des blindages aux câblages exposés et des élixirs dans des fioles en polycarbonate. « Si ça fonctionne et fait des dégâts, tu le trouveras ici ! »",
+            "it": "Vector preme un pedale pneumatico e uno scaffale meccanico scende con un sibilo idraulico, mostrando armi elettromagnetiche, corazze con cablaggio esposto ed elisir in fiale di policarbonato. 'Se funziona e fa danno, lo trovi qui!'",
+            "de": "Vector tritt auf ein Pneumatikpedal, und ein motorisiertes Regal senkt sich mit hydraulischem Zischen ab, das elektromagnetische Waffen, Panzerungen mit freiliegender Verkabelung und Elixiere in Polycarbonat-Fläschchen zeigt. „Wenn es funktioniert und Schaden anrichtet, findest du es hier!“",
+            "zh": "维克托踩下一个气动踏板，一个机械货架伴着液压声嘶嘶地降下，展示出电磁武器、露着电线的护甲以及聚碳酸酯瓶装的灵药。「只要能用还能造成伤害的，都在这儿了！」",
+            "ja": "ベクターが空気圧ペダルを踏むと、機械式の棚が油圧の音とともに降りてきて、電磁武器、配線が露出した装甲、ポリカーボネートの小瓶に入ったエリクサーを見せる。「機能して、なおかつダメージを与えるものなら、ここにあるぞ！」"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "open_shop:arcanum"
+    },
+    "arc_opt_chispa": {
+        "type": "option",
+        "text": {
+            "es": "⚡  ¿Esa bobina de plasma no está emitiendo un arco voltaico peligroso?",
+            "en": "⚡  Isn't that plasma coil arcing dangerously close to the floor?",
+            "fr": "⚡  Cette bobine à plasma ne produit pas un arc voltaïque dangereux ?",
+            "it": "⚡  Quella bobina al plasma non sta emettendo un arco voltaico pericoloso?",
+            "de": "⚡  Erzeugt diese Plasmaspule nicht einen gefährlichen Lichtbogen?",
+            "zh": "⚡  那个等离子线圈没有产生危险的电弧吗？",
+            "ja": "⚡  あのプラズマコイル、危険なアークを発しているんじゃないか？"
+        },
+        "next": [
+            "arc_msg_chispa"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "arc_msg_chispa": {
+        "type": "message",
+        "text": {
+            "es": "Vector suelta la llave inglesa, observa el arco azulado y asiente con admiración: '¡Bien visto, ojo de lince! Un milisegundo más y nos funde las suelas de las botas.' Con dos golpecitos bien dados calibra el aislante. 'Me gusta la gente que comprende los peligros de la termodinámica aplicada.' Tu agudeza técnica te otorga su respeto.",
+            "en": "Vector drops his wrench, eyes the crackling azure arc, and nods admiringly: 'Sharp eye! Another millisecond and it would have welded our boot soles to the deck.' With two brisk taps he re-seats the insulator. 'I fancy folk who grasp the peril of applied thermodynamics.' Your technical acumen earns his respect.",
+            "fr": "Vector lâche sa clé anglaise, observe l'arc bleuté et hoche la tête, admiratif : « Bien vu, œil de lynx ! Une milliseconde de plus et on fondait les semelles de nos bottes. » D'un coup sec bien placé, il recalibre l'isolant. « J'aime les gens qui comprennent les dangers de la thermodynamique appliquée. » Ta perspicacité technique t'attire son respect.",
+            "it": "Vector lascia cadere la chiave inglese, osserva l'arco bluastro e annuisce con ammirazione: 'Ben visto, occhio di lince! Un millisecondo di più e ci saremmo fusi le suole degli stivali.' Con due colpetti ben assestati calibra l'isolante. 'Mi piace la gente che capisce i pericoli della termodinamica applicata.' La tua acutezza tecnica ti guadagna il suo rispetto.",
+            "de": "Vector lässt seinen Schraubenschlüssel fallen, betrachtet den bläulichen Lichtbogen und nickt bewundernd: „Gut erkannt, Adlerauge! Eine Millisekunde mehr und wir hätten die Sohlen unserer Stiefel geschmolzen.“ Mit zwei gezielten Schlägen kalibriert er den Isolator neu. „Ich mag Leute, die die Gefahren der angewandten Thermodynamik verstehen.“ Deine technische Schärfe verschafft dir seinen Respekt.",
+            "zh": "维克托放下扳手，凝视着那道蓝色的电弧，赞许地点点头：「好眼力，猎鹰之眼！再多一毫秒我们的鞋底就要熔化了。」他用两下精准的敲击重新校准了绝缘层。「我喜欢明白应用热力学危险的人。」你的技术敏锐赢得了他的尊重。",
+            "ja": "ベクターはレンチを落とし、青白いアーク光を見つめて感心したように頷く。「よく見つけたな、鷹の目め！あと一ミリ秒遅れてたらブーツの底を溶かしていたところだ」二回の的確な打撃で絶縁体を再調整する。「応用熱力学の危険性を理解している奴は好きだぜ」お前の技術的洞察力が彼の尊敬を勝ち取る。"
+        },
+        "next": [
+            "entry"
+        ],
+        "reward": "faceta:inteligencia=+1;heal:25"
+    },
+    "arc_opt_chatarra": {
+        "type": "option",
+        "text": {
+            "es": "🦾  Busco protección capaz de resistir impactos demoledores en las profundidades",
+            "en": "🦾  I seek heavy protection able to withstand crushing blows in the depths",
+            "fr": "🦾  Je cherche une protection capable de résister à des impacts dévastateurs dans les profondeurs",
+            "it": "🦾  Cerco una protezione capace di resistere a impatti devastanti nelle profondità",
+            "de": "🦾  Ich suche Schutz, der verheerenden Schlägen in den Tiefen standhält",
+            "zh": "🦾  我需要能在地下深处抵御毁灭性打击的防护",
+            "ja": "🦾  深部での破壊的な衝撃に耐えられる防具を探している"
+        },
+        "next": [
+            "arc_msg_chatarra"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "arc_msg_chatarra": {
+        "type": "message",
+        "text": {
+            "es": "El mercader golpea una plancha de titanio remachado: 'Entonces estás en el lugar idóneo. Lo orgánico sangra y se cansa; el metal reforzado aguanta hasta que el mundo se hunda. Quien tiene el valor de meterse en los fosos necesita acero que no tiemble.' Tu temple intrépido le entusiasma.",
+            "en": "The scavenger clangs a riveted titanium plate: 'Then you came to the right stall. Flesh bleeds and tires; reinforced composite stands until the world crumbles. Whoever has the guts to plunge into deep pits needs armor that does not flinch.' Your courageous spirit inspires him.",
+            "fr": "Le ferrailleur frappe une plaque de titane rivetée : « Alors tu es au bon endroit. La chair organique saigne et se fatigue ; le métal renforcé tient jusqu'à ce que le monde s'effondre. Celui qui a le courage de s'aventurer dans les fosses a besoin d'un acier qui ne tremble pas. » Ta bravoure intrépide l'enthousiasme.",
+            "it": "Il rottamaio colpisce una piastra di titanio rivettata: 'Allora sei nel posto giusto. L'organico sanguina e si stanca; il metallo rinforzato regge finché il mondo non crolla. Chi ha il coraggio di addentrarsi nelle fosse ha bisogno di acciaio che non trema.' Il tuo coraggio intrepido lo entusiasma.",
+            "de": "Der Schrottsammler klopft auf eine genietete Titanplatte: „Dann bist du am richtigen Ort. Organisches blutet und ermüdet; verstärktes Metall hält, bis die Welt einstürzt. Wer den Mut hat, sich in die Gruben zu wagen, braucht Stahl, der nicht zittert.“ Dein unerschrockener Mut begeistert ihn.",
+            "zh": "这位废品商敲了敲一块铆接的钛板：「那你来对地方了。有机体会流血、会疲惫；强化金属能撑到世界崩塌为止。有胆量深入那些坑洞的人，需要不会颤抖的钢铁。」你无畏的胆气让他兴奋不已。",
+            "ja": "スカベンジャーはリベット留めされたチタン板を叩く。「それならいい場所に来たな。有機物は血を流し、疲れる。強化された金属は世界が崩れるまで持ちこたえる。深淵に飛び込む度胸のある奴には、震えない鋼が必要だ」お前の勇猛さに彼は熱狂する。"
+        },
+        "next": [
+            "entry"
+        ],
+        "reward": "faceta:valor=+1;gold:+30"
+    },
+    "arc_opt_automata": {
+        "type": "option",
+        "text": {
+            "es": "🤖  ¿Qué dicen los androides y autómatas de que recicles sus piezas viejas?",
+            "en": "🤖  What do androids and automatons say about you recycling their discarded chassis?",
+            "fr": "🤖  Que disent les androïdes et automates du fait que tu recycles leurs vieilles pièces ?",
+            "it": "🤖  Cosa dicono androidi e automi del fatto che ricicli i loro vecchi pezzi?",
+            "de": "🤖  Was sagen Androiden und Automaten dazu, dass du ihre alten Teile recycelst?",
+            "zh": "🤖  关于你回收他们的旧零件，那些机器人和自动机怎么看？",
+            "ja": "🤖  アンドロイドやオートマトンは、お前が古い部品を再利用することについて何て言ってるんだ？"
+        },
+        "next": [
+            "arc_msg_automata"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "arc_msg_automata": {
+        "type": "message",
+        "text": {
+            "es": "Vector se encoge de hombros con una media sonrisa: 'Muchos me lo agradecen. Para ellos, una placa madre obsoleta es como un diente de leche. Yo les doy una segunda vida en manos de alguien que los valore en lugar de oxidarse en el vertedero subterráneo.'",
+            "en": "Vector shrugs with an amused half-smirk: 'Many actually thank me. To them, an obsolete motherboard is like a baby tooth. I grant their core parts a second life in capable hands rather than rotting away in subterranean scrapyards.'",
+            "fr": "Vector hausse les épaules avec un demi-sourire amusé : « Beaucoup m'en remercient. Pour eux, une carte mère obsolète, c'est comme une dent de lait. Je leur offre une seconde vie entre les mains de quelqu'un qui les apprécie, plutôt que de rouiller dans la décharge souterraine. »",
+            "it": "Vector si stringe nelle spalle con un mezzo sorriso divertito: 'Molti me ne ringraziano. Per loro, una scheda madre obsoleta è come un dente da latte. Io do loro una seconda vita nelle mani di qualcuno che li valorizza invece che arrugginire nella discarica sotterranea.'",
+            "de": "Vector zuckt mit einem amüsierten halben Lächeln mit den Schultern: „Viele danken es mir sogar. Für sie ist eine veraltete Hauptplatine wie ein Milchzahn. Ich gebe ihnen ein zweites Leben in den Händen von jemandem, der sie schätzt, statt auf der unterirdischen Müllhalde zu verrosten.“",
+            "zh": "维克托耸耸肩，带着一丝戏谑的微笑：「其实很多都对我心怀感激。对它们来说，一块过时的主板就像一颗乳牙。我给它们的核心部件在懂得珍惜的人手中重获新生，而不是在地下垃圾场里生锈报废。」",
+            "ja": "ベクターは面白がるような半笑いで肩をすくめる。「実は多くの奴らが感謝してくるんだ。奴らにとって、時代遅れのマザーボードは乳歯みたいなもんさ。地下のスクラップ置き場で朽ち果てるより、価値を分かってくれる誰かの手で第二の人生を与えているんだ」"
+        },
+        "next": [
+            "entry"
+        ],
+        "reward": "faceta:bondad=+1;discover:lore_arcanum_tecnologia"
+    },
+    "arc_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Todo en orden por ahora. No dejes que se te crucen los cables",
+            "en": "🚶  All clear for now. Keep your circuits grounded",
+            "fr": "🚶  Tout va bien pour l'instant. Ne laisse pas tes circuits se court-circuiter",
+            "it": "🚶  Tutto a posto per ora. Non farti incrociare i cavi",
+            "de": "🚶  Alles klar für jetzt. Lass deine Schaltkreise nicht kreuzen",
+            "zh": "🚶  现在都挺好的。别让你的电路短路了",
+            "ja": "🚶  今のところは大丈夫だ。回路をショートさせるなよ"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

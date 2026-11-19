@@ -1,0 +1,151 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "La Sombra de Aiden",
+            "en": "Aiden's Shadow",
+            "fr": "L'Ombre d'Aiden",
+            "it": "L'Ombra di Aiden",
+            "de": "Aidens Schatten",
+            "zh": "艾登的阴影",
+            "ja": "エイデンの影"
+        },
+        "next": [],
+        "reward": "bg=0.04,0.04,0.05"
+    },
+    "som_root": {
+        "type": "message",
+        "text": {
+            "es": "Tu sombra se despega del suelo con un sonido viscoso y se yergue frente a ti, de tu misma altura pero hecha de oscuridad pura, con dos puntos rojos por ojos. Copia tus movimientos con medio segundo de retraso, como burlándose. 'Hola, yo', dice con tu voz, pero envenenada. 'Soy la parte de ti que sabe la verdad y la disfruta. La que te susurra por las noches que no mereces despertar. ¿Vas a seguir fingiendo que eres el héroe, o vas a reconocer de una vez que eres el monstruo?'",
+            "en": "Your shadow peels off the ground with a viscous sound and rises before you, your same height but made of pure darkness, with two red points for eyes. It copies your movements half a second late, as if mocking. 'Hello, me,' it says in your voice, but poisoned. 'I'm the part of you that knows the truth and enjoys it. The one who whispers at night that you don't deserve to wake. Are you going to keep pretending you're the hero, or will you finally admit you're the monster?'",
+            "fr": "Ton ombre se décolle du sol avec un bruit visqueux et se dresse devant toi, de ta même taille mais faite de pure obscurité, avec deux points rouges en guise d'yeux. Elle copie tes mouvements avec un demi-seconde de retard, comme pour se moquer. « Bonjour, moi », dit-elle de ta voix, mais empoisonnée. « Je suis la partie de toi qui connaît la vérité et en jouit. Celle qui te murmure la nuit que tu ne mérites pas de te réveiller. Vas-tu continuer à faire semblant d'être le héros, ou vas-tu enfin admettre que tu es le monstre ? »",
+            "it": "La tua ombra si stacca dal suolo con un suono viscido e si erge davanti a te, della tua stessa altezza ma fatta di pura oscurità, con due punti rossi al posto degli occhi. Copia i tuoi movimenti con mezzo secondo di ritardo, come per burlarsi. 'Ciao, io', dice con la tua voce, ma avvelenata. 'Sono la parte di te che conosce la verità e la gode. Quella che ti sussurra di notte che non meriti di svegliarti. Continuerai a fingere di essere l'eroe, o ammetterai finalmente di essere il mostro?'",
+            "de": "Dein Schatten löst sich mit einem zähen Geräusch vom Boden und richtet sich vor dir auf, in deiner Größe, aber aus reiner Dunkelheit gemacht, mit zwei roten Punkten als Augen. Er kopiert deine Bewegungen mit einer halben Sekunde Verzögerung, wie um sich lustig zu machen. „Hallo, ich“, sagt er mit deiner Stimme, aber vergiftet. „Ich bin der Teil von dir, der die Wahrheit kennt und sie genießt. Der dir nachts zuflüstert, dass du es nicht verdienst aufzuwachen. Wirst du weiter so tun, als wärst du der Held, oder wirst du endlich zugeben, dass du das Monster bist?“",
+            "zh": "你的影子发出一声黏稠的声响，从地面剥离而起，站立在你面前，与你身高相同，却由纯粹的黑暗构成，两只红点做眼睛。它以慢半拍的方式模仿着你的动作，仿佛在嘲弄你。「你好啊，我，」它用你的声音说道，但那声音带着毒素。「我是你内心那个知道真相、并从中获得快感的部分。是那个在夜里低语你不配醒来的部分。你打算继续假装自己是英雄，还是终于承认你就是那个怪物？」",
+            "ja": "お前の影が粘つく音とともに地面から剥がれ、目の前に立ち上がる。お前と同じ背丈だが純粋な闇でできており、二つの赤い点が目になっている。半秒遅れでお前の動きを真似る、あざけるかのように。「やあ、僕だ」お前の声で、しかし毒を含んで言う。「僕はお前の中にある、真実を知りそれを楽しんでいる部分だ。夜にお前が目覚める価値などないと囁くほうさ。まだ英雄のふりを続けるのか、それともついに自分が怪物だと認めるのか？」"
+        },
+        "next": [
+            "som_opt_enfrentar",
+            "som_opt_aceptar",
+            "som_opt_ignorar",
+            "som_opt_salir"
+        ],
+        "reward": ""
+    },
+    "som_opt_enfrentar": {
+        "type": "option",
+        "text": {
+            "es": "💪  No soy un héroe ni un monstruo. Soy un hombre que se equivocó.",
+            "en": "💪  Im neither a hero nor a monster. Im a man who got it wrong.",
+            "fr": "💪  Je ne suis ni un héros ni un monstre. Je suis un homme qui s'est trompé.",
+            "it": "💪  Non sono un eroe né un mostro. Sono un uomo che ha sbagliato.",
+            "de": "💪  Ich bin weder ein Held noch ein Monster. Ich bin ein Mann, der sich geirrt hat.",
+            "zh": "💪  我既不是英雄也不是怪物。我只是一个犯了错的人。",
+            "ja": "💪  俺は英雄でも怪物でもない。過ちを犯した一人の男だ"
+        },
+        "next": [
+            "som_msg_enfrentar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "som_msg_enfrentar": {
+        "type": "message",
+        "text": {
+            "es": "Le sostienes la mirada a tus propios ojos rojos y no retrocedes. 'Cometí un error terrible por amor y por soberbia. Eso no me hace un monstruo, ni pretender ser un héroe me libra de ello. Solo soy un hombre roto que tiene que aprender a cargar con lo que hizo.' La sombra sisea, se retuerce, pierde su forma amenazante... y vuelve a pegarse mansamente a tus pies, convertida otra vez en una sombra normal. Se integra, en vez de dominarte. Le has quitado el poder al negarte a ser un extremo o el otro.",
+            "en": "You hold the gaze of your own red eyes and don't step back. 'I made a terrible mistake out of love and arrogance. That doesn't make me a monster, nor does pretending to be a hero absolve me of it. I'm just a broken man who has to learn to carry what he did.' The shadow hisses, writhes, loses its threatening form... and settles meekly back at your feet, a normal shadow once more. It integrates, instead of ruling you. You stripped it of power by refusing to be one extreme or the other.",
+            "fr": "Tu soutiens le regard de tes propres yeux rouges et ne recules pas. « J'ai commis une erreur terrible par amour et par orgueil. Cela ne fait pas de moi un monstre, et prétendre être un héros ne m'en libère pas non plus. Je ne suis qu'un homme brisé qui doit apprendre à porter ce qu'il a fait. » L'ombre siffle, se tord, perd sa forme menaçante... et se recolle docilement à tes pieds, redevenue une ombre normale. Elle s'intègre, au lieu de te dominer. Tu lui as ôté son pouvoir en refusant d'être l'un ou l'autre extrême.",
+            "it": "Sostieni lo sguardo dei tuoi stessi occhi rossi e non indietreggi. 'Ho commesso un errore terribile per amore e per superbia. Questo non mi rende un mostro, né fingere di essere un eroe me ne libera. Sono solo un uomo spezzato che deve imparare a portare ciò che ha fatto.' L'ombra sibila, si contorce, perde la sua forma minacciosa... e si riattacca mansueta ai tuoi piedi, tornata un'ombra normale. Si integra, invece di dominarti. Le hai tolto il potere rifiutandoti di essere un estremo o l'altro.",
+            "de": "Du hältst dem Blick deiner eigenen roten Augen stand und weichst nicht zurück. „Ich habe aus Liebe und Hochmut einen schrecklichen Fehler begangen. Das macht mich nicht zu einem Monster, und so zu tun, als wäre ich ein Held, befreit mich nicht davon. Ich bin nur ein gebrochener Mann, der lernen muss, mit dem zu leben, was er getan hat.“ Der Schatten zischt, windet sich, verliert seine bedrohliche Form... und heftet sich wieder sanft an deine Füße, wieder ein normaler Schatten. Er integriert sich, statt dich zu beherrschen. Du hast ihm die Macht genommen, indem du dich weigertest, das eine oder das andere Extrem zu sein.",
+            "zh": "你直视自己那双红色的眼睛，没有退缩。「我因为爱与傲慢犯下了一个可怕的错误。这不会让我成为怪物，假装自己是英雄也不能让我摆脱这一点。我只是一个破碎的人，必须学会承担自己所做的事。」阴影嘶嘶作响，扭曲着，失去了那副威胁的形态……然后温顺地重新贴回你的脚下，变回一个普通的影子。它融入了你，而不是支配你。你拒绝成为任何一个极端，从而剥夺了它的力量。",
+            "ja": "自分自身の赤い目を見つめ返し、たじろがない。「俺は愛と傲慢さから恐ろしい過ちを犯した。それは俺を怪物にはしないし、英雄のふりをしてもそこから逃れられるわけではない。俺はただ、自分がしたことを背負う術を学ばねばならない壊れた男だ」影はシューッと音を立て、身をよじり、脅威的な形を失う……そして大人しく足元に張り付き、普通の影に戻る。それはお前を支配するのではなく、統合される。どちらか一方の極端であることを拒んだことで、それから力を奪ったのだ。"
+        },
+        "next": [
+            "som_opt_salir"
+        ],
+        "reward": "faceta:valor=+1;faceta:cordura=+1;gflag:som_integrada",
+        "condition": "no_gflag(\"som_integrada\")",
+        "once": true
+    },
+    "som_opt_aceptar": {
+        "type": "option",
+        "text": {
+            "es": "🖤  Tienes razón. Soy un monstruo. Merezco quedarme aquí.",
+            "en": "🖤  Youre right. Im a monster. I deserve to stay here.",
+            "fr": "🖤  Tu as raison. Je suis un monstre. Je mérite de rester ici.",
+            "it": "🖤  Hai ragione. Sono un mostro. Merito di restare qui.",
+            "de": "🖤  Du hast recht. Ich bin ein Monster. Ich verdiene es, hier zu bleiben.",
+            "zh": "🖤  你说得对。我就是个怪物。我活该留在这里。",
+            "ja": "🖤  お前の言う通りだ。俺は怪物だ。ここに残るのがふさわしい"
+        },
+        "next": [
+            "som_msg_aceptar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "som_msg_aceptar": {
+        "type": "message",
+        "text": {
+            "es": "Bajas la cabeza y le das la razón. La sombra sonríe con todos tus dientes y crece, alimentada por tu rendición, hasta envolverte por completo en un frío que reconoces: el de las noches en las que deseabas no despertar. 'Buen chico', ronronea. 'Quédate conmigo en la oscuridad. Aquí no hace falta perdonarse, porque aquí no se sale nunca.' Te cuesta un esfuerzo enorme dar media vuelta y alejarte de su abrazo. La culpa que se regodea también es una forma de esconderse.",
+            "en": "You lower your head and agree. The shadow smiles with all your teeth and grows, fed by your surrender, until it wraps around you completely in a cold you recognize: that of the nights you wished you'd never wake. 'Good boy,' it purrs. 'Stay with me in the dark. Here there's no need to forgive yourself, because here no one ever leaves.' It costs you an enormous effort to turn around and walk out of its embrace. Guilt that wallows is also a way of hiding.",
+            "fr": "Tu baisses la tête et lui donnes raison. L'ombre sourit de toutes tes dents et grandit, nourrie par ta reddition, jusqu'à t'envelopper complètement dans un froid que tu reconnais : celui des nuits où tu souhaitais ne pas te réveiller. « Bon garçon », ronronne-t-elle. « Reste avec moi dans l'obscurité. Ici, pas besoin de se pardonner, parce qu'ici on ne sort jamais. » Il te faut un effort énorme pour te retourner et t'éloigner de son étreinte. La culpabilité qui se complaît est aussi une forme de fuite.",
+            "it": "Abbassi la testa e le dai ragione. L'ombra sorride con tutti i tuoi denti e cresce, nutrita dalla tua resa, fino ad avvolgerti completamente in un freddo che riconosci: quello delle notti in cui desideravi non svegliarti. 'Bravo ragazzo', fa le fusa. 'Resta con me nell'oscurità. Qui non c'è bisogno di perdonarsi, perché da qui non si esce mai.' Ti costa uno sforzo enorme voltarti e allontanarti dal suo abbraccio. La colpa che si compiace è anche una forma di nascondersi.",
+            "de": "Du senkst den Kopf und gibst ihm recht. Der Schatten lächelt mit all deinen Zähnen und wächst, genährt von deiner Kapitulation, bis er dich vollständig in eine Kälte hüllt, die du erkennst: die der Nächte, in denen du dir wünschtest, nicht aufzuwachen. „Braver Junge“, schnurrt er. „Bleib bei mir in der Dunkelheit. Hier muss man sich nicht vergeben, weil man hier nie hinausgeht.“ Es kostet dich enorme Anstrengung, dich umzudrehen und dich aus seiner Umarmung zu lösen. Schuld, die sich selbst suhlt, ist auch eine Form des Versteckens.",
+            "zh": "你低下头，认同了它的说法。阴影露出你所有的牙齿，笑了起来，随着你的屈服而不断膨胀，直到用一种你熟悉的寒冷将你彻底包裹——那是你曾希望自己再也不要醒来的那些夜晚的寒冷。「好孩子，」它低吟道。「留在黑暗中陪我吧。这里不需要原谅自己，因为这里从来没有人能离开。」你付出了巨大的努力，才转身离开它的拥抱。沉溺其中的愧疚，也是一种躲藏的方式。",
+            "ja": "頭を下げ、その言葉に同意する。影はお前のすべての歯で笑い、お前の降伏に養われて成長し、ついにお前を完全に包み込む——それは覚えのある冷たさだ、目覚めたくないと願った夜々のそれだ。「いい子だ」影は喉を鳴らす。「暗闇で僕と一緒にいろ。ここでは自分を許す必要はない、なぜならここからは決して出られないから」向きを変えてその抱擁から離れるのに、途方もない努力を要する。自己憐憫にふける罪悪感もまた、隠れる一つの方法なのだ。"
+        },
+        "next": [
+            "som_opt_salir"
+        ],
+        "reward": "faceta:cordura=-1"
+    },
+    "som_opt_ignorar": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Darle la espalda sin decir nada",
+            "en": "🚶  Turn your back on it without a word",
+            "fr": "🚶  Lui tourner le dos sans un mot",
+            "it": "🚶  Voltarle le spalle senza dire nulla",
+            "de": "🚶  Ihm ohne ein Wort den Rücken kehren",
+            "zh": "🚶  一言不发地转身离去",
+            "ja": "🚶  何も言わずに背を向ける"
+        },
+        "next": [
+            "som_msg_ignorar"
+        ],
+        "reward": ""
+    },
+    "som_msg_ignorar": {
+        "type": "message",
+        "text": {
+            "es": "Te giras y echas a andar sin dignarte a responder. La sombra ríe a tu espalda: 'Puedes darme la espalda todo lo que quieras, pero voy pegada a tus talones. Siempre lo he estado. Y volveré a hablarte esta noche, y la siguiente, y la siguiente.' Sabes que tiene razón: de este diálogo no se huye caminando. Pero por hoy, al menos, decides no darle el gusto de discutir.",
+            "en": "You turn and start walking without deigning to answer. The shadow laughs behind you: 'You can turn your back on me all you like, but I'm stuck to your heels. I always have been. And I'll speak to you again tonight, and the next, and the next.' You know it's right: this dialogue can't be fled on foot. But for today, at least, you decide not to give it the satisfaction of an argument.",
+            "fr": "Tu te retournes et te mets en marche sans daigner répondre. L'ombre rit derrière toi : « Tu peux me tourner le dos autant que tu veux, mais je te colle aux talons. Je l'ai toujours fait. Et je te reparlerai ce soir, et le suivant, et le suivant. » Tu sais qu'elle a raison : on ne fuit pas ce dialogue en marchant. Mais pour aujourd'hui, au moins, tu décides de ne pas lui donner le plaisir de discuter.",
+            "it": "Ti giri e cammini senza degnarti di rispondere. L'ombra ride alle tue spalle: 'Puoi voltarmi le spalle quanto vuoi, ma sono attaccata ai tuoi talloni. Lo sono sempre stata. E ti parlerò di nuovo stasera, e la prossima, e la prossima.' Sai che ha ragione: da questo dialogo non si fugge camminando. Ma per oggi, almeno, decidi di non darle la soddisfazione di discutere.",
+            "de": "Du drehst dich um und gehst los, ohne dich zu einer Antwort herabzulassen. Der Schatten lacht hinter dir: „Du kannst mir den Rücken kehren, so viel du willst, aber ich klebe an deinen Fersen. Das war ich immer schon. Und ich werde heute Nacht wieder mit dir sprechen, und morgen, und übermorgen.“ Du weißt, dass er recht hat: diesem Dialog kann man nicht davonlaufen. Aber für heute, zumindest, beschließt du, ihm nicht die Genugtuung eines Streits zu geben.",
+            "zh": "你转身离去，不屑于回答。阴影在你身后大笑：「你可以尽情地转身背对我，但我紧贴在你的脚跟上。我一直都是这样。今晚我会再次跟你说话，明天、后天也是。」你知道它说得对：这场对话是无法靠行走逃离的。但至少今天，你决定不给它争论的满足感。",
+            "ja": "振り返り、答える価値もないとばかりに歩き出す。影が背後で笑う。「いくら背を向けたって、僕はお前のかかとに張り付いているんだ。ずっとそうだった。今夜もまた話しかけるさ、その次の夜も、その次も」お前はそれが正しいと分かっている——この対話から歩いて逃げることはできない。だが今日だけは、少なくとも、口論する満足感を与えないことにする。"
+        },
+        "next": [
+            "som_opt_salir"
+        ],
+        "reward": ""
+    },
+    "som_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Continuar por el abismo",
+            "en": "🚶  Continue through the abyss",
+            "fr": "🚶  Continuer à travers l'abîme",
+            "it": "🚶  Proseguire attraverso l'abisso",
+            "de": "🚶  Durch den Abgrund weitergehen",
+            "zh": "🚶  继续穿越深渊",
+            "ja": "🚶  深淵を通り抜けて先へ進む"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

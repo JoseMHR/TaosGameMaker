@@ -1,0 +1,71 @@
+{
+  "name": {
+    "es": "Sombra Eterna",
+    "en": "Eternal Shadow",
+    "fr": "Ombre Éternelle",
+    "it": "Ombra Eterna",
+    "de": "Ewiger Schatten",
+    "zh": "永恒之影",
+    "ja": "永遠の影"
+  },
+  "family": "spirit",
+  "archetype": "boss",
+  "icon": "🌑",
+  "image": "res://assets/combat/enemies/en_eternal_shadow.png",
+  "attack_type": "magic",
+  "base_dodge": 10.0,
+  "dodge_scale": 0.2,
+  "element": "dark",
+  "weak_to": [
+    "holy",
+    "fire"
+  ],
+  "resist": [
+    "dark",
+    "physical"
+  ],
+  "status_on_hit": {
+    "type": "confusion",
+    "chance": 0.3,
+    "turns": 2,
+    "power": 0
+  },
+  "ai": "caster",
+  "xp_reward_base": 380,
+  "xp_reward_scale": 20.0,
+  "gold_reward_base": 220,
+  "gold_reward_scale": 16.0,
+  "skills": [
+    {
+      "level": 1,
+      "skill_id": "shadow_bolt"
+    },
+    {
+      "level": 18,
+      "skill_id": "unholy_drain"
+    },
+    {
+      "level": 22,
+      "skill_id": "dark_nova"
+    }
+  ],
+  "loot": [
+    {
+      "kind": "gold",
+      "min": 85,
+      "max": 165
+    },
+    {
+      "kind": "consumable",
+      "id": "potion",
+      "chance": 0.4
+    },
+    {
+      "kind": "equipment",
+      "chance": 0.45,
+      "level": 23
+    }
+  ],
+  "zone": "zona_4_celestia",
+  "is_boss": true
+}

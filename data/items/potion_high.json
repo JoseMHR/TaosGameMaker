@@ -1,0 +1,26 @@
+{
+    "name": {
+        "es": "Poción Mayor",
+        "en": "Major Potion",
+        "fr": "Potion Majeure",
+        "it": "Pozione Maggiore",
+        "de": "Großer Trank",
+        "zh": "大型药水",
+        "ja": "上級ポーション"
+    },
+    "desc": {
+        "es": "Restaura el 85% de la vida máxima.",
+        "en": "Restores 85% of max health.",
+        "fr": "Restaure 85% de la vie maximale.",
+        "it": "Ripristina l'85% della vita massima.",
+        "de": "Stellt 85% der maximalen Gesundheit wieder her.",
+        "zh": "恢复 85% 的最大生命值。",
+        "ja": "最大HPの85%を回復する。"
+    },
+    "icon": "🧪",
+    "category": "consumable",
+    "usable": true,
+    "effects": {
+        "heal_pct": 0.85
+    }
+}

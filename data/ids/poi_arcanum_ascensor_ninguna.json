@@ -1,0 +1,26 @@
+{
+    "id": "poi_arcanum_ascensor_ninguna",
+    "type": "poi",
+    "icon": "🛗",
+    "name": {
+        "es": "El Ascensor a Ninguna Parte",
+        "en": "The Elevator to Nowhere",
+        "fr": "L'Ascenseur vers Nulle Part",
+        "it": "L'Ascensore per il Nulla",
+        "de": "Der Aufzug ins Nirgendwo",
+        "zh": "通往虚无的电梯",
+        "ja": "どこにも行けないエレベーター"
+    },
+    "desc": {
+        "es": "Un ascensor solitario en pie entre las ruinas, sin edificio alrededor. Su único botón dice: 'Planta 0 — abajo del todo'. (PNJ singular).",
+        "en": "A lone elevator standing among the ruins, with no building around it. Its only button reads: 'Floor 0 — all the way down'. (Singular NPC).",
+        "fr": "Un ascenseur solitaire dressé parmi les ruines, sans bâtiment autour. Son unique bouton indique : « Étage 0 — tout en bas ». (PNJ singulier).",
+        "it": "Un ascensore solitario che si erge tra le rovine, senza alcun edificio intorno. Il suo unico pulsante recita: 'Piano 0 — tutto in fondo'. (PNG singolare).",
+        "de": "Ein einsamer Aufzug, der zwischen den Ruinen steht, ohne umgebendes Gebäude. Sein einziger Knopf besagt: „Etage 0 — ganz unten“. (Einzigartiger NPC).",
+        "zh": "一台孤零零矗立在废墟中的电梯，周围没有任何建筑。它唯一的按钮上写着：「0层——最底层」。（唯一NPC）。",
+        "ja": "廃墟の中にぽつんと立つエレベーター。周りに建物はない。唯一のボタンにはこう書かれている——「0階、一番下まで」。（唯一のNPC）。"
+    },
+    "npc": "poi_arcanum_ascensor_ninguna",
+    "bg": "bg_world_poi_arcanum_ascensor_ninguna.png",
+    "music": "poi_generic"
+}

@@ -1,0 +1,26 @@
+{
+    "id": "poi_tumba_elara",
+    "type": "poi",
+    "icon": "⚓",
+    "name": {
+        "es": "La Tumba de la Navegante",
+        "en": "The Navigator's Tomb",
+        "fr": "La Tombe de la Navigatrice",
+        "it": "La Tomba della Navigatrice",
+        "de": "Das Grab der Seefahrerin",
+        "zh": "航海者之墓",
+        "ja": "航海者の墓"
+    },
+    "desc": {
+        "es": "Una lápida azotada por el viento en la costa del Yelmo. (POI de inspección — el texto visible al jugador está en su NPC sin retrato).",
+        "en": "A wind-battered gravestone on the Helm coast. (Inspection POI — player-facing text lives in its portrait-less NPC).",
+        "fr": "Une pierre tombale battue par le vent sur la côte du Heaume. (POI d'inspection — le texte visible au joueur se trouve dans son PNJ sans portrait).",
+        "it": "Una lapide sferzata dal vento sulla costa dell'Elmo. (POI di ispezione — il testo visibile al giocatore risiede nel suo PNG senza ritratto).",
+        "de": "Ein windgepeitschter Grabstein an der Helm-Küste. (Inspektions-POI — der spielersichtbare Text befindet sich in seinem porträtlosen NPC).",
+        "zh": "头盔海岸边一块被风侵蚀的墓碑。（探查类兴趣点——玩家可见的文本存在于其无肖像的NPC中）。",
+        "ja": "兜海岸にある風雨にさらされた墓石。（調査ポイント——プレイヤーに見えるテキストは肖像のないNPCに存在する）。"
+    },
+    "npc": "poi_tumba_elara",
+    "bg": "bg_world_poi_celestia_tumba_elara.png",
+    "music": "poi_generic"
+}

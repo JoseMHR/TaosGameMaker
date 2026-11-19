@@ -1,0 +1,149 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Coro que Canta sin Voz",
+            "en": "The Choir That Sings Without Voice",
+            "fr": "Le Chœur qui Chante sans Voix",
+            "it": "Il Coro che Canta senza Voce",
+            "de": "Der Chor, der ohne Stimme Singt",
+            "zh": "无声歌唱的合唱团",
+            "ja": "声なき歌を歌う聖歌隊"
+        },
+        "next": [],
+        "reward": "avatar=🎼;bg=0.09,0.10,0.13"
+    },
+    "coro_root": {
+        "type": "message",
+        "text": {
+            "es": "En un templo sin techo, doce figuras con túnica forman un coro perfecto. Mueven los labios al unísono, marcan la respiración, se hinchan sus pechos... pero de sus bocas no sale ni un solo sonido. Y sin embargo, el aire vibra: sientes la música en el esternón, en los dientes, en el agua de tu odre, que se riza sola. Es la canción más hermosa que nunca oirás, precisamente porque no la oyes. El director te hace un gesto sin dejar de dirigir: te invita a unirte.",
+            "en": "In a roofless temple, twelve robed figures form a perfect choir. They move their lips in unison, mark their breathing, their chests swell... but not a single sound leaves their mouths. And yet the air trembles: you feel the music in your sternum, your teeth, the water in your flask, which ripples on its own. It's the most beautiful song you'll never hear, precisely because you don't hear it. The conductor gestures to you without breaking his beat: he invites you to join.",
+            "fr": "Dans un temple sans toit, douze silhouettes en toge forment un chœur parfait. Elles remuent les lèvres à l'unisson, marquent leur respiration, leurs poitrines se gonflent... mais de leurs bouches ne sort pas un seul son. Et pourtant, l'air vibre : tu sens la musique dans ton sternum, dans tes dents, dans l'eau de ta gourde, qui ondule d'elle-même. C'est la plus belle chanson que tu n'entendras jamais, précisément parce que tu ne l'entends pas. Le chef d'orchestre te fait un geste sans cesser de diriger : il t'invite à te joindre à eux.",
+            "it": "In un tempio senza tetto, dodici figure in tunica formano un coro perfetto. Muovono le labbra all'unisono, scandiscono il respiro, i loro petti si gonfiano... ma dalle loro bocche non esce nemmeno un suono. Eppure l'aria vibra: senti la musica nello sterno, nei denti, nell'acqua della tua borraccia, che ondeggia da sola. È la canzone più bella che non sentirai mai, proprio perché non la senti. Il direttore ti fa un gesto senza smettere di dirigere: ti invita a unirti.",
+            "de": "In einem dachlosen Tempel bilden zwölf in Roben gehüllte Gestalten einen perfekten Chor. Sie bewegen die Lippen im Einklang, markieren ihren Atem, ihre Brust schwillt... doch aus ihren Mündern kommt kein einziger Laut. Und doch vibriert die Luft: du spürst die Musik im Brustbein, in den Zähnen, im Wasser deines Schlauches, das sich von selbst kräuselt. Es ist das schönste Lied, das du je hören wirst, gerade weil du es nicht hörst. Der Dirigent macht dir ein Zeichen, ohne mit dem Dirigieren aufzuhören: er lädt dich ein, dich anzuschließen.",
+            "zh": "在一座没有屋顶的神庙里，十二个身着长袍的身影组成了一个完美的合唱团。他们齐声动着嘴唇，标记着呼吸的节奏，胸口起伏……但他们的嘴中却没有发出一丝声音。然而空气却在震颤：你能感觉到音乐在你的胸骨里，在你的牙齿间，在你水袋中自行泛起涟漪的水里。这是你永远也听不到的最美妙的歌曲，正因为你听不到它。指挥没有停下手中的动作，向你做了个手势：邀请你加入。",
+            "ja": "屋根のない神殿で、十二体のローブ姿の人影が完璧な聖歌隊を形作っている。唇を一斉に動かし、呼吸を刻み、胸が膨らむ……だがその口から音は一切出てこない。それでも空気は震えている——胸骨に、歯に、そして勝手に波打つ水筒の水の中に、その音楽を感じる。それはお前が決して聞くことのない最も美しい歌だ、まさに聞こえないからこそ。指揮者は指揮を止めずにお前に合図を送る——加わるよう誘っているのだ。"
+        },
+        "next": [
+            "coro_opt_unirte",
+            "coro_opt_preguntar",
+            "coro_opt_escuchar",
+            "coro_opt_salir"
+        ],
+        "reward": ""
+    },
+    "coro_opt_escuchar": {
+        "type": "option",
+        "text": {
+            "es": "🎧  Cerrar los ojos y dejar que la canción muda te atraviese",
+            "en": "🎧  Close your eyes and let the silent song pass through you",
+            "fr": "🎧  Fermer les yeux et laisser le chant silencieux te traverser",
+            "it": "🎧  Chiudere gli occhi e lasciare che il canto muto ti attraversi",
+            "de": "🎧  Die Augen schließen und den stummen Gesang durch dich hindurchgehen lassen",
+            "zh": "🎧  闭上眼睛，让这无声之歌穿过你",
+            "ja": "🎧  目を閉じ、無音の歌を身体に通す"
+        },
+        "next": [
+            "coro_msg_escuchar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "coro_msg_escuchar": {
+        "type": "message",
+        "text": {
+            "es": "Cierras los ojos. La música que no suena te llena por dentro con imágenes en lugar de notas: una madre acunando, una despedida en un andén, una mano soltándose de otra. La canción es un réquiem por todo lo que la gente pierde y no puede nombrar. Cuando abres los ojos, tienes las mejillas mojadas sin saber cuándo empezaste a llorar. Algo se te ha reordenado dentro, dolorosamente, como un hueso que vuelve a su sitio.",
+            "en": "You close your eyes. The music that makes no sound fills you from within with images instead of notes: a mother rocking a child, a farewell on a platform, a hand letting go of another. The song is a requiem for everything people lose and cannot name. When you open your eyes, your cheeks are wet without your knowing when you began to cry. Something inside you has rearranged itself, painfully, like a bone slipping back into place.",
+            "fr": "Tu fermes les yeux. La musique qui ne résonne pas te remplit de l'intérieur avec des images au lieu de notes : une mère berçant son enfant, un adieu sur un quai, une main qui lâche une autre. La chanson est un requiem pour tout ce que les gens perdent et ne peuvent nommer. Quand tu ouvres les yeux, tes joues sont mouillées sans que tu saches quand tu as commencé à pleurer. Quelque chose s'est réordonné en toi, douloureusement, comme un os qui reprend sa place.",
+            "it": "Chiudi gli occhi. La musica che non suona ti riempie dentro con immagini invece di note: una madre che culla, un addio su un molo, una mano che lascia un'altra. La canzone è un requiem per tutto ciò che la gente perde e non può nominare. Quando apri gli occhi, hai le guance bagnate senza sapere quando hai iniziato a piangere. Qualcosa si è riordinato dentro di te, dolorosamente, come un osso che torna al suo posto.",
+            "de": "Du schließt die Augen. Die Musik, die keinen Ton macht, füllt dich von innen mit Bildern anstelle von Noten: eine wiegende Mutter, ein Abschied auf einem Bahnsteig, eine Hand, die eine andere loslässt. Das Lied ist ein Requiem für alles, was Menschen verlieren und nicht benennen können. Als du die Augen öffnest, sind deine Wangen nass, ohne dass du weißt, wann du zu weinen begonnen hast. Etwas in dir hat sich schmerzhaft neu geordnet, wie ein Knochen, der wieder an seinen Platz rutscht.",
+            "zh": "你闭上眼睛。那无声的音乐从内部用意象而非音符填满了你：一位摇篮中的母亲，站台上的告别，一只手松开了另一只手。这首歌是为所有人们失去却无法命名之物所作的安魂曲。当你睁开眼睛时，你的脸颊已经湿润，你却不知道自己是从何时开始哭泣的。你的内心某处痛苦地重新排列了，就像一根骨头重新归位一样。",
+            "ja": "目を閉じる。音を立てない音楽が、音符の代わりにイメージでお前の内側を満たしていく——子を揺する母親、プラットフォームでの別れ、手を離す別の手。その歌は、人々が失い、名付けることのできないすべてのものへの鎮魂歌だ。目を開けると、いつから泣き始めたのか分からないまま頬が濡れている。骨が元の場所に戻るように、何かが痛みを伴って心の中で並び直されている。"
+        },
+        "next": [
+            "coro_root"
+        ],
+        "reward": "faceta:cordura=-1"
+    },
+    "coro_opt_unirte": {
+        "type": "option",
+        "text": {
+            "es": "🎤  Unirte al coro y cantar sin voz junto a ellos",
+            "en": "🎤  Join the choir and sing without voice alongside them",
+            "fr": "🎤  Rejoindre le chœur et chanter sans voix avec eux",
+            "it": "🎤  Unirti al coro e cantare senza voce insieme a loro",
+            "de": "🎤  Sich dem Chor anschließen und stimmlos mit ihnen singen",
+            "zh": "🎤  加入合唱团，与他们一同无声歌唱",
+            "ja": "🎤  聖歌隊に加わり、彼らとともに声なき歌を歌う"
+        },
+        "next": [
+            "coro_msg_unirte"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "coro_msg_unirte": {
+        "type": "message",
+        "text": {
+            "es": "Ocupas un hueco en la fila, abres la boca y cantas con toda tu alma... sin que salga sonido. Al principio te sientes ridículo. Luego, algo cede: dejas ir en ese silencio todo lo que nunca supiste decir en voz alta, todas las disculpas y despedidas atascadas en la garganta. Nadie te oye, y por eso lo dices todo. Al terminar, el director te pone una mano en el hombro y asiente, como quien reconoce a alguien que también carga con canciones sin cantar. Sales aligerado de un peso que ni sabías que llevabas.",
+            "en": "You take an empty spot in the row, open your mouth and sing with all your soul... with no sound coming out. At first you feel ridiculous. Then something gives: into that silence you release everything you never knew how to say aloud, all the apologies and farewells stuck in your throat. No one hears you, and so you say it all. When it's over, the conductor rests a hand on your shoulder and nods, like one who recognizes another who also carries unsung songs. You leave lighter of a weight you didn't even know you bore.",
+            "fr": "Tu occupes une place vide dans la rangée, ouvres la bouche et chantes de toute ton âme... sans qu'aucun son n'en sorte. Au début tu te sens ridicule. Puis quelque chose cède : tu laisses partir dans ce silence tout ce que tu n'as jamais su dire à voix haute, toutes les excuses et adieux coincés dans ta gorge. Personne ne t'entend, et c'est pour cela que tu dis tout. À la fin, le chef d'orchestre pose une main sur ton épaule et hoche la tête, comme quelqu'un qui reconnaît un autre porteur de chansons inchantées. Tu repars allégé d'un poids dont tu ne savais même pas que tu le portais.",
+            "it": "Occupi uno spazio vuoto nella fila, apri la bocca e canti con tutta la tua anima... senza che ne esca alcun suono. All'inizio ti senti ridicolo. Poi qualcosa cede: lasci andare in quel silenzio tutto ciò che non hai mai saputo dire ad alta voce, tutte le scuse e gli addii bloccati in gola. Nessuno ti sente, e per questo dici tutto. Alla fine, il direttore ti mette una mano sulla spalla e annuisce, come chi riconosce qualcun altro che porta anche lui canzoni mai cantate. Esci alleggerito di un peso che non sapevi nemmeno di portare.",
+            "de": "Du nimmst einen freien Platz in der Reihe ein, öffnest den Mund und singst mit ganzer Seele... ohne dass ein Ton herauskommt. Zunächst fühlst du dich lächerlich. Dann gibt etwas nach: du lässt in dieser Stille alles los, was du nie laut zu sagen wusstest, alle Entschuldigungen und Abschiede, die in deiner Kehle steckten. Niemand hört dich, und deshalb sagst du alles. Am Ende legt der Dirigent eine Hand auf deine Schulter und nickt, wie jemand, der jemand anderen erkennt, der auch ungesungene Lieder trägt. Du gehst befreit von einer Last, von der du nicht einmal wusstest, dass du sie trugst.",
+            "zh": "你在队列中占据了一个空位，张开嘴，用尽全部灵魂歌唱……却没有一丝声音发出。起初你觉得自己很荒唐。然后有什么东西松动了：你在这份寂静中释放出了所有你从未能大声说出口的话，所有卡在喉咙里的道歉和告别。没有人能听到你，正因如此，你才把一切都说了出来。结束时，指挥把一只手放在你的肩上，点了点头，就像认出了另一个也背负着未唱之歌的人。你带着一种连自己都不知道曾经背负的重担被卸下的轻松离开了。",
+            "ja": "列の空いた場所に立ち、口を開け、魂を込めて歌う……音は何も出ない。最初はばかげていると感じる。だが何かが緩む——その沈黙の中に、声に出すことを知らなかったすべて、喉に詰まった謝罪と別れをすべて解き放つ。誰も聞いていない、だからこそすべてを語る。終わると、指揮者はお前の肩に手を置き頷く。未だ歌われぬ歌を運ぶ別の誰かを認めるかのように。背負っていることさえ知らなかった重荷が軽くなって立ち去る。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:cordura=+1;faceta:valor=+1"
+    },
+    "coro_opt_preguntar": {
+        "type": "option",
+        "text": {
+            "es": "❓  Preguntarle al director por qué cantan sin voz",
+            "en": "❓  Ask the conductor why they sing without voice",
+            "fr": "❓  Demander au chef d'orchestre pourquoi ils chantent sans voix",
+            "it": "❓  Chiedere al direttore perché cantano senza voce",
+            "de": "❓  Den Dirigenten fragen, warum sie stimmlos singen",
+            "zh": "❓  询问指挥为何他们要无声歌唱",
+            "ja": "❓  なぜ声なく歌うのか指揮者に尋ねる"
+        },
+        "next": [
+            "coro_msg_preguntar"
+        ],
+        "reward": ""
+    },
+    "coro_msg_preguntar": {
+        "type": "message",
+        "text": {
+            "es": "El director te contesta también en silencio, moviendo los labios: 'Perdimos la voz el día que enterramos a nuestro maestro. Ninguno pudo volver a cantar en alto sin quebrarse. Así que cantamos por dentro, donde el dolor no puede rompernos la nota.' Señala su propia garganta y niega con tristeza. 'Algún día volveremos a sonar. Cuando duela menos.' Comprendes que hay penas tan grandes que solo caben en el silencio. Te retiras sin hacer ruido, respetando el suyo.",
+            "en": "The conductor answers you in silence too, mouthing the words: 'We lost our voices the day we buried our master. None of us could sing aloud again without breaking. So we sing within, where grief can't crack the note.' He points to his own throat and shakes his head sadly. 'Someday we'll sound again. When it hurts less.' You understand that some sorrows are so vast they fit only in silence. You withdraw without a sound, respecting theirs.",
+            "fr": "Le chef d'orchestre te répond aussi en silence, remuant les lèvres : « Nous avons perdu la voix le jour où nous avons enterré notre maître. Aucun de nous n'a pu chanter à voix haute sans se briser. Alors nous chantons à l'intérieur, là où la douleur ne peut pas casser la note. » Il désigne sa propre gorge et secoue tristement la tête. « Un jour, nous résonnerons à nouveau. Quand ça fera moins mal. » Tu comprends qu'il y a des peines si grandes qu'elles ne tiennent que dans le silence. Tu te retires sans bruit, respectant le leur.",
+            "it": "Il direttore ti risponde anch'egli in silenzio, muovendo le labbra: 'Abbiamo perso la voce il giorno in cui abbiamo seppellito il nostro maestro. Nessuno di noi ha più potuto cantare ad alta voce senza spezzarsi. Così cantiamo dentro, dove il dolore non può rompere la nota.' Indica la propria gola e scuote tristemente la testa. 'Un giorno torneremo a suonare. Quando farà meno male.' Comprendi che ci sono pene così grandi che stanno solo nel silenzio. Ti ritiri senza far rumore, rispettando il loro.",
+            "de": "Der Dirigent antwortet dir ebenfalls stumm, indem er die Lippen bewegt: „Wir verloren unsere Stimme an dem Tag, an dem wir unseren Meister begruben. Keiner von uns konnte je wieder laut singen, ohne zu zerbrechen. Also singen wir innerlich, wo der Schmerz die Note nicht brechen kann.“ Er zeigt auf seine eigene Kehle und schüttelt traurig den Kopf. „Eines Tages werden wir wieder erklingen. Wenn es weniger wehtut.“ Du verstehst, dass manche Kümmernisse so groß sind, dass sie nur in Stille Platz finden. Du ziehst dich lautlos zurück, ihre Stille respektierend.",
+            "zh": "指挥也无声地回答了你，只是动着嘴唇：「我们失去声音的那天，是我们埋葬我们的大师之日。我们中没有一个人能够再次大声歌唱而不崩溃。所以我们在内心歌唱，那里的痛苦无法打破音符。」他指了指自己的喉咙，悲伤地摇了摇头。「有朝一日，我们会再次发声。当痛楚减轻一些的时候。」你明白了，有些悲伤如此巨大，只能容纳于沉默之中。你悄然无声地退去，尊重着他们的沉默。",
+            "ja": "指揮者もまた無言で、唇を動かして答える。「私たちは師を埋葬した日に声を失った。誰一人として、崩れずに声高く歌うことができなくなったのだ。だから私たちは内側で歌う、痛みが音符を砕けない場所で」自分の喉を指し、悲しげに首を振る。「いつかまた響くようになるだろう。痛みが和らいだ時に」あまりに大きな悲しみは、沈黙の中にしか収まらないのだと理解する。彼らの静けさを尊重し、音を立てずに立ち去る。"
+        },
+        "next": [
+            "coro_root"
+        ],
+        "reward": ""
+    },
+    "coro_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Salir del templo en silencio, para no romper el suyo",
+            "en": "🚶  Leave the temple in silence, so as not to break theirs",
+            "fr": "🚶  Quitter le temple en silence, pour ne pas briser le leur",
+            "it": "🚶  Uscire dal tempio in silenzio, per non rompere il loro",
+            "de": "🚶  Den Tempel schweigend verlassen, um ihres nicht zu brechen",
+            "zh": "🚶  静静地离开神庙，以免打破他们的沉默",
+            "ja": "🚶  彼らの静寂を壊さぬよう、静かに神殿を後にする"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

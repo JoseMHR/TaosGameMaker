@@ -1,0 +1,57 @@
+[gd_scene format=3 uid="uid://templo_psiquico_poi"]
+
+[sub_resource type="StandardMaterial3D" id="Mat_Obsidian"]
+albedo_color = Color(0.12, 0.1, 0.16, 1)
+roughness = 0.2
+
+[sub_resource type="StandardMaterial3D" id="Mat_PsyPurpleGlow"]
+albedo_color = Color(0.75, 0.15, 0.95, 1)
+emission_enabled = true
+emission = Color(0.75, 0.15, 0.95, 1)
+emission_energy_multiplier = 3.8
+
+[sub_resource type="StandardMaterial3D" id="Mat_DoorVoid"]
+albedo_color = Color(0.04, 0.01, 0.05, 1)
+roughness = 1.0
+
+[sub_resource type="BoxMesh" id="Mesh_StairsBase"]
+size = Vector3(1.1, 0.12, 1.25)
+
+[sub_resource type="PrismMesh" id="Mesh_InvertedBody"]
+size = Vector3(0.85, 0.75, 0.85)
+
+[sub_resource type="BoxMesh" id="Mesh_DoorVoid"]
+size = Vector3(0.34, 0.52, 0.15)
+
+[sub_resource type="PrismMesh" id="Mesh_FloatingPyramid"]
+size = Vector3(0.48, 0.48, 0.48)
+
+[sub_resource type="PrismMesh" id="Mesh_AstralCrystal"]
+size = Vector3(0.14, 0.38, 0.14)
+
+[node name="TemploPsiquico" type="Node3D"]
+
+[node name="StairsBase" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.06, 0.05)
+material_override = SubResource("Mat_Obsidian")
+mesh = SubResource("Mesh_StairsBase")
+
+[node name="InvertedHall" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -1, 8.74228e-08, 0, -8.74228e-08, -1, 0, 0.52, -0.1)
+material_override = SubResource("Mat_Obsidian")
+mesh = SubResource("Mesh_InvertedBody")
+
+[node name="DoorVoid" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.38, 0.28)
+material_override = SubResource("Mat_DoorVoid")
+mesh = SubResource("Mesh_DoorVoid")
+
+[node name="FloatingRoof" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.18, -0.1)
+material_override = SubResource("Mat_Obsidian")
+mesh = SubResource("Mesh_FloatingPyramid")
+
+[node name="ClassAstralCrystal" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.58, -0.1)
+material_override = SubResource("Mat_PsyPurpleGlow")
+mesh = SubResource("Mesh_AstralCrystal")

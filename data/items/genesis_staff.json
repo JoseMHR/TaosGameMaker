@@ -1,0 +1,31 @@
+{
+    "name": {
+        "es": "Bastón del Génesis",
+        "en": "Genesis Staff",
+        "fr": "Bâton de la Genèse",
+        "it": "Bastone della Genesi",
+        "de": "Genesisstab",
+        "zh": "创世法杖",
+        "ja": "ジェネシスの杖"
+    },
+    "desc": {
+        "es": "Se dice que fue tallado con un fragmento de la primera Esfera.",
+        "en": "Said to have been carved from a fragment of the first Sphere.",
+        "fr": "On raconte qu'il fut sculpté à partir d'un fragment de la première Sphère.",
+        "it": "Si dice sia stato intagliato da un frammento della prima Sfera.",
+        "de": "Es heißt, er sei aus einem Fragment der ersten Sphäre geschnitzt worden.",
+        "zh": "据说是用初代圣球的碎片雕刻而成。",
+        "ja": "最初の球の欠片から彫られたと言われている。"
+    },
+    "icon": "🪄",
+    "category": "equipment",
+    "usable": false,
+    "slot": "weapon",
+    "tier": 6,
+    "bonuses": {
+        "int": 16
+    },
+    "combat": {
+        "mag_damage": 198
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "name": {
+        "es": "Yelmo de Caballero",
+        "en": "Knight Helmet",
+        "fr": "Casque de Chevalier",
+        "it": "Elmo del Cavaliere",
+        "de": "Ritterhelm",
+        "zh": "骑士头盔",
+        "ja": "ナイトヘルム"
+    },
+    "desc": {
+        "es": "Casco de hierro pulido con visor protector.",
+        "en": "Polished iron helmet with a protective visor.",
+        "fr": "Casque en fer poli avec visière protectrice.",
+        "it": "Elmo di ferro lucido con visiera protettiva.",
+        "de": "Polierter Eisenhelm mit Schutzvisier.",
+        "zh": "带有防护面罩的抛光铁盔。",
+        "ja": "保護バイザー付きの磨かれた鉄の兜。"
+    },
+    "icon": "🪖",
+    "category": "equipment",
+    "usable": false,
+    "slot": "helmet",
+    "tier": 3,
+    "bonuses": {
+        "vit": 4,
+        "str": 2
+    },
+    "combat": {
+        "phys_defense": 16,
+        "mag_defense": 8
+    },
+    "traits": [
+        {
+            "type": "resist_status",
+            "status": "stun",
+            "value": 0.1,
+            "min_refine": 5,
+            "desc": "10% Resistencia a Aturdimiento"
+        }
+    ]
+}

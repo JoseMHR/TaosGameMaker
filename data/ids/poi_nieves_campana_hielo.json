@@ -1,0 +1,26 @@
+{
+    "id": "poi_nieves_campana_hielo",
+    "type": "poi",
+    "icon": "🔔",
+    "name": {
+        "es": "La Campana de Hielo",
+        "en": "The Bell of Ice",
+        "fr": "La Cloche de Glace",
+        "it": "La Campana di Ghiaccio",
+        "de": "Die Eisglocke",
+        "zh": "冰之钟",
+        "ja": "氷の鐘"
+    },
+    "desc": {
+        "es": "Una campana de bronce colgada de un arco helado, envuelta en carámbanos, que guarda un sonido que no debería existir. (POI de inspección).",
+        "en": "A bronze bell hung from a frozen arch, sheathed in icicles, holding a sound that shouldn't exist. (Inspection POI).",
+        "fr": "Une cloche de bronze suspendue à un arc gelé, enveloppée de glaçons, qui garde un son qui ne devrait pas exister. (POI d'inspection).",
+        "it": "Una campana di bronzo appesa a un arco ghiacciato, avvolta in ghiaccioli, che custodisce un suono che non dovrebbe esistere. (POI di ispezione).",
+        "de": "Eine Bronzeglocke, aufgehängt an einem gefrorenen Bogen, umhüllt von Eiszapfen, die einen Klang bewahrt, den es nicht geben dürfte. (Inspektions-POI).",
+        "zh": "一口挂在冰拱上的青铜钟，被冰柱包裹，藏着一种不该存在的声音。（探查类兴趣点）。",
+        "ja": "凍った弧に吊るされたブロンズの鐘。つららに覆われ、存在するはずのない音を秘めている。（調査ポイント）。"
+    },
+    "npc": "poi_nieves_campana_hielo",
+    "bg": "bg_world_poi_nieve_campana_hielo.png",
+    "music": "creepy"
+}

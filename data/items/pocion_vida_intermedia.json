@@ -1,0 +1,27 @@
+{
+    "name": {
+        "es": "Poción de Vida Intermedia",
+        "en": "Medium Health Potion",
+        "fr": "Potion de Vie Intermédiaire",
+        "it": "Pozione di Vita Intermedia",
+        "de": "Mittlerer Heiltrank",
+        "zh": "中级生命药水",
+        "ja": "中級ライフポーション"
+    },
+    "desc": {
+        "es": "Restaura el 50% de la salud máxima (mínimo 90 HP).",
+        "en": "Restores 50% of maximum health (minimum 90 HP).",
+        "fr": "Restaure 50% de la santé maximale (minimum 90 PV).",
+        "it": "Ripristina il 50% della salute massima (minimo 90 HP).",
+        "de": "Stellt 50% der maximalen Gesundheit wieder her (mindestens 90 HP).",
+        "zh": "恢复 50% 的最大生命值（至少 90 点 HP）。",
+        "ja": "最大HPの50%を回復する（最低90HP）。"
+    },
+    "icon": "🧪",
+    "category": "consumable",
+    "usable": true,
+    "effects": {
+        "heal_pct": 0.5,
+        "heal": 90
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "id": "poi_yelmo_vendedor_lluvia",
+    "type": "poi",
+    "icon": "☔",
+    "name": {
+        "es": "El Vendedor de Lluvia Embotellada",
+        "en": "The Bottled-Rain Salesman",
+        "fr": "Le Vendeur de Pluie en Bouteille",
+        "it": "Il Venditore di Pioggia in Bottiglia",
+        "de": "Der Verkäufer von Abgefülltem Regen",
+        "zh": "瓶装雨水贩子",
+        "ja": "瓶詰めの雨の売人"
+    },
+    "desc": {
+        "es": "Un charlatán entusiasta que vende frascos de 'lluvia auténtica garantizada' en mitad de un páramo sin una sola nube. (PNJ singular).",
+        "en": "An enthusiastic charlatan selling jars of 'guaranteed authentic rain' in the middle of a moor without a single cloud. (Singular NPC).",
+        "fr": "Un charlatan enthousiaste qui vend des bocaux de « pluie authentique garantie » au milieu d'une lande sans un seul nuage. (PNJ singulier).",
+        "it": "Un ciarlatano entusiasta che vende barattoli di 'pioggia autentica garantita' in mezzo a una landa senza una sola nuvola. (PNG singolare).",
+        "de": "Ein enthusiastischer Scharlatan, der Gläser mit „garantiert echtem Regen“ mitten in einem Moor ohne eine einzige Wolke verkauft. (Einzigartiger NPC).",
+        "zh": "一个热情洋溢的江湖骗子，在一片没有一朵云彩的荒原上兜售「保证正宗」的瓶装雨水。（唯一NPC）。",
+        "ja": "雲一つない荒野の真ん中で「本物保証」の雨を瓶詰めにして売る、熱心なペテン師。（唯一のNPC）。"
+    },
+    "npc": "poi_yelmo_vendedor_lluvia",
+    "bg": "bg_world_poi_yelmo_vendedor_lluvia.png",
+    "music": "poi_generic"
+}

@@ -1,0 +1,166 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Hombre de Hielo que Sonríe",
+            "en": "The Smiling Ice-Man",
+            "fr": "L'Homme de Glace qui Sourit",
+            "it": "L'Uomo di Ghiaccio che Sorride",
+            "de": "Der Lächelnde Eismann",
+            "zh": "微笑的冰人",
+            "ja": "微笑む氷の男"
+        },
+        "next": [],
+        "reward": "avatar=🧊;bg=0.08,0.11,0.14"
+    },
+    "hielo_root": {
+        "type": "message",
+        "text": {
+            "es": "En mitad de la llanura nevada, de pie y solo, hay un hombre atrapado dentro de un bloque de hielo transparente como el cristal. No está deformado por el frío ni por el pánico: sonríe. Una sonrisa serena, ancha, con los ojos abiertos fijos en el horizonte. Está tan bien conservado que parece que fuera a saludarte. Y entonces, por el rabillo del ojo, te parece verlo parpadear. Cuando vuelves a mirarlo de frente, sigue igual. Sonriendo.",
+            "en": "In the middle of the snowy plain, standing alone, is a man trapped inside a block of ice clear as glass. He isn't twisted by cold or panic: he's smiling. A serene, wide smile, eyes open and fixed on the horizon. He's so well preserved he looks about to greet you. And then, out of the corner of your eye, you think you see him blink. When you look straight at him again, he's the same. Smiling.",
+            "fr": "Au milieu de la plaine enneigée, debout et seul, il y a un homme piégé à l'intérieur d'un bloc de glace transparent comme du cristal. Il n'est déformé ni par le froid ni par la panique : il sourit. Un sourire serein, large, les yeux ouverts fixés sur l'horizon. Il est si bien conservé qu'il semble prêt à te saluer. Et alors, du coin de l'œil, tu crois le voir cligner des paupières. Quand tu le regardes de face à nouveau, il est identique. Souriant.",
+            "it": "In mezzo alla pianura innevata, in piedi e solo, c'è un uomo intrappolato dentro un blocco di ghiaccio trasparente come il cristallo. Non è deformato dal freddo né dal panico: sorride. Un sorriso serenoo, ampio, con gli occhi aperti fissi all'orizzonte. È così ben conservato che sembra sul punto di salutarti. E poi, con la coda dell'occhio, ti sembra di vederlo battere le palpebre. Quando torni a guardarlo di fronte, resta identico. Sorridente.",
+            "de": "Mitten in der verschneiten Ebene, allein stehend, ist ein Mann in einem Block aus kristallklarem Eis eingeschlossen. Er ist nicht von Kälte oder Panik verzerrt: er lächelt. Ein gelassenes, breites Lächeln, die Augen geöffnet und auf den Horizont gerichtet. Er ist so gut erhalten, dass er dich gleich zu grüßen scheint. Und dann, aus dem Augenwinkel, glaubst du ihn blinzeln zu sehen. Wenn du ihn wieder direkt ansiehst, ist er unverändert. Lächelnd.",
+            "zh": "在这片被雪覆盖的平原中央，孤零零地站着一个被困在一块如水晶般透明的冰块中的男人。他没有因寒冷或恐慌而扭曲变形：他在微笑。一种平静、宽广的笑容，双眼睁开，凝视着地平线。他保存得如此完好，仿佛下一秒就会向你打招呼。然后，从你的眼角，你似乎看到他眨了一下眼。当你再次正视他时，他依然如故。微笑着。",
+            "ja": "雪原の真ん中に、一人立ち尽くす男が、ガラスのように透明な氷の塊の中に閉じ込められている。寒さやパニックで歪んでいるわけではない——彼は微笑んでいる。穏やかで、広い笑み、開いた目は地平線に固定されている。あまりに保存状態が良く、今にもお前に挨拶しそうに見える。そして、視界の端で、彼が瞬きしたように見える。もう一度正面から見ると、変わらない。微笑んでいる。"
+        },
+        "next": [
+            "hielo_opt_mirar",
+            "hielo_opt_liberar",
+            "hielo_opt_hablar",
+            "hielo_opt_huir"
+        ],
+        "reward": ""
+    },
+    "hielo_opt_mirar": {
+        "type": "option",
+        "text": {
+            "es": "👁️  Plantarte delante y sostenerle la mirada sin apartarla, pase lo que pase",
+            "en": "👁️  Plant yourself before it and hold its gaze no matter what",
+            "fr": "👁️  Te planter devant et soutenir son regard sans le détourner, quoi qu'il arrive",
+            "it": "👁️  Piantarti davanti e sostenere il suo sguardo senza distoglierlo, qualunque cosa accada",
+            "de": "👁️  Dich davor aufstellen und seinen Blick erwidern, ohne wegzuschauen, was auch geschieht",
+            "zh": "👁️  站到它面前，无论如何都不移开视线，与它对视",
+            "ja": "👁️  何が起こっても目を逸らさずに、その前に立ち、視線を受け止める"
+        },
+        "next": [
+            "hielo_msg_mirar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "hielo_msg_mirar": {
+        "type": "message",
+        "text": {
+            "es": "Clavas los ojos en los suyos y no los apartas. Un minuto. Dos. El viento aúlla. Y entonces, muy despacio, sin que el hielo se agriete lo más mínimo, el hombre GIRA los ojos y te mira a TI. Su sonrisa no cambia, pero sus labios se mueven bajo el hielo formando palabras sin sonido: 'gracias por no huir'. Luego los ojos vuelven al horizonte y todo queda quieto otra vez. No sabes qué acabas de ver, pero no bajaste la mirada. A veces el valor consiste, simplemente, en no parpadear primero.",
+            "en": "You fix your eyes on his and don't look away. One minute. Two. The wind howls. And then, very slowly, without the ice cracking in the slightest, the man TURNS his eyes and looks at YOU. His smile doesn't change, but his lips move beneath the ice, shaping soundless words: 'thank you for not running'. Then the eyes return to the horizon and everything goes still again. You don't know what you just saw, but you didn't look down. Sometimes courage is simply not blinking first.",
+            "fr": "Tu fixes ses yeux et ne les détournes pas. Une minute. Deux. Le vent hurle. Et alors, très lentement, sans que la glace ne se fissure le moins du monde, l'homme TOURNE les yeux et te regarde, TOI. Son sourire ne change pas, mais ses lèvres bougent sous la glace, formant des mots sans son : « merci de ne pas avoir fui ». Puis les yeux retournent à l'horizon et tout redevient immobile. Tu ne sais pas ce que tu viens de voir, mais tu n'as pas baissé le regard. Parfois le courage consiste simplement à ne pas cligner des yeux le premier.",
+            "it": "Fissi i suoi occhi e non li distogli. Un minuto. Due. Il vento ulula. E poi, molto lentamente, senza che il ghiaccio si incrini minimamente, l'uomo GIRA gli occhi e guarda TE. Il suo sorriso non cambia, ma le sue labbra si muovono sotto il ghiaccio formando parole senza suono: 'grazie per non essere scappato'. Poi gli occhi tornano all'orizzonte e tutto resta immobile di nuovo. Non sai cosa hai appena visto, ma non hai abbassato lo sguardo. A volte il coraggio consiste semplicemente nel non sbattere le palpebre per primo.",
+            "de": "Du fixierst seine Augen und wendest den Blick nicht ab. Eine Minute. Zwei. Der Wind heult. Und dann, sehr langsam, ohne dass das Eis auch nur im Geringsten reißt, DREHT der Mann seine Augen und schaut DICH an. Sein Lächeln verändert sich nicht, aber seine Lippen bewegen sich unter dem Eis und formen lautlose Worte: „danke, dass du nicht geflohen bist“. Dann kehren die Augen zum Horizont zurück, und alles wird wieder still. Du weißt nicht, was du gerade gesehen hast, aber du hast den Blick nicht gesenkt. Manchmal besteht Mut einfach darin, nicht als Erster zu blinzeln.",
+            "zh": "你死死盯着他的眼睛，没有移开视线。一分钟过去了。两分钟。风在呼啸。然后，非常缓慢地，冰块丝毫没有裂开，那男人转动眼睛，看向了「你」。他的笑容没有变化，但他的嘴唇在冰下动了起来，形成了无声的话语：「谢谢你没有逃跑」。然后，他的目光又回到了地平线上，一切重新归于静止。你不知道自己刚刚看到了什么，但你没有低下目光。有时，勇气就仅仅是不先眨眼。",
+            "ja": "彼の目を見据え、逸らさない。一分。二分。風が吠える。そして、非常にゆっくりと、氷が少しも割れることなく、その男は目を「動かし」、お前を見る。笑みは変わらないが、氷の下で唇が動き、音のない言葉を形作る——「逃げなかったことに感謝する」それから目は再び地平線へと戻り、すべてが再び静止する。今何を見たのかは分からないが、目を伏せなかった。勇気とは時に、単に先に瞬きしないことなのだ。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:valor=+1;faceta:cordura=-1"
+    },
+    "hielo_opt_hablar": {
+        "type": "option",
+        "text": {
+            "es": "🗣️  Preguntarle en voz alta quién fue y cómo acabó así",
+            "en": "🗣️  Ask aloud who he was and how he ended up this way",
+            "fr": "🗣️  Lui demander à voix haute qui il était et comment il a fini ainsi",
+            "it": "🗣️  Chiedergli ad alta voce chi era e come è finito così",
+            "de": "🗣️  Ihn laut fragen, wer er war und wie er so endete",
+            "zh": "🗣️  大声问他，他曾是谁，为何最终落到这个地步",
+            "ja": "🗣️  彼が誰だったのか、なぜこうなったのかを声に出して尋ねる"
+        },
+        "next": [
+            "hielo_msg_hablar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "hielo_msg_hablar": {
+        "type": "message",
+        "text": {
+            "es": "Hablas al hielo sintiéndote un poco ridículo. Nadie contesta, claro. Pero al rodearlo ves, grabado en la base del bloque con una uña, un mensaje que él mismo debió escribir mientras se congelaba: 'Me senté a descansar solo un momento. El frío no duele si sonríes. Si me lees, no te sientes. Sigue caminando.' Un escalofrío que no es del clima te recorre la espalda. Retomas la marcha de inmediato, más despierto y con las piernas menos pesadas.",
+            "en": "You speak to the ice, feeling a little ridiculous. No one answers, of course. But circling it you see, scratched into the base of the block with a fingernail, a message he must have written as he froze: 'I sat down to rest just a moment. The cold doesn't hurt if you smile. If you're reading this, don't sit down. Keep walking.' A shiver that isn't from the weather runs down your spine. You resume your march at once, more awake and with lighter legs.",
+            "fr": "Tu parles à la glace en te sentant un peu ridicule. Personne ne répond, bien sûr. Mais en le contournant, tu vois, gravé à la base du bloc avec un ongle, un message qu'il a dû écrire lui-même en gelant : « Je m'suis assis pour me reposer juste un moment. Le froid ne fait pas mal si tu souris. Si tu me lis, ne t'assieds pas. Continue à marcher. » Un frisson qui n'est pas dû au climat te parcourt le dos. Tu reprends immédiatement la marche, plus alerte et les jambes moins lourdes.",
+            "it": "Parli al ghiaccio sentendoti un po' ridicolo. Nessuno risponde, ovviamente. Ma girandoci intorno vedi, incisa alla base del blocco con un'unghia, un messaggio che lui stesso dovette scrivere mentre congelava: 'Mi sono seduto a riposare solo un momento. Il freddo non fa male se sorridi. Se mi leggi, non sederti. Continua a camminare.' Un brivido che non è del clima ti percorre la schiena. Riprendi immediatamente la marcia, più sveglio e con le gambe meno pesanti.",
+            "de": "Du sprichst zum Eis und fühlst dich etwas lächerlich. Niemand antwortet, natürlich. Aber beim Umkreisen siehst du, an der Basis des Blocks mit einem Fingernagel eingeritzt, eine Botschaft, die er selbst geschrieben haben muss, während er erfror: „Ich setzte mich hin, um nur einen Moment auszuruhen. Die Kälte tut nicht weh, wenn du lächelst. Wenn du das liest, setz dich nicht hin. Geh weiter.“ Ein Schauder, der nicht vom Wetter kommt, läuft dir über den Rücken. Du nimmst sofort deinen Marsch wieder auf, wacher und mit weniger schweren Beinen.",
+            "zh": "你对着冰块说话，感觉有点荒唐。当然，没有人回答。但绕到它旁边时，你看到冰块底部用指甲刻着一段留言，那一定是他在冻结时自己写下的：「我只是坐下来休息一会儿。只要你微笑，寒冷就不会伤人。如果你在读这些字，不要坐下。继续走下去。」一阵与天气无关的寒意窜过你的脊背。你立刻重新踏上旅程，更加警醒，双腿也不再那么沉重。",
+            "ja": "少し滑稽に感じながらも氷に話しかける。もちろん誰も答えない。だが周りを回ると、氷の塊の底に爪で刻まれた、彼が凍りながら自分で書いたに違いないメッセージが見える——「少しだけ休もうと座った。笑っていれば寒さは痛くない。これを読んでいるなら、座るな。歩き続けろ」天候とは関係のない震えが背筋を走る。すぐに行進を再開する、より覚醒した状態で、足も軽くなって。"
+        },
+        "next": [
+            "hielo_root"
+        ],
+        "reward": "faceta:inteligencia=+1"
+    },
+    "hielo_opt_liberar": {
+        "type": "option",
+        "text": {
+            "es": "🔨  Intentar romper el hielo para darle sepultura",
+            "en": "🔨  Try to break the ice to give him a burial",
+            "fr": "🔨  Essayer de briser la glace pour lui donner une sépulture",
+            "it": "🔨  Provare a rompere il ghiaccio per dargli sepoltura",
+            "de": "🔨  Versuchen, das Eis zu zerbrechen, um ihm eine Bestattung zu geben",
+            "zh": "🔨  尝试打破冰块，为他安葬",
+            "ja": "🔨  彼を埋葬するために氷を割ろうとする"
+        },
+        "next": [
+            "hielo_msg_liberar"
+        ],
+        "reward": ""
+    },
+    "hielo_msg_liberar": {
+        "type": "message",
+        "text": {
+            "es": "Golpeas el bloque una y otra vez. El hielo no cede: es más duro que la piedra, casi caliente al tacto pese al frío reinante. Tras un rato agotador, desistes. Puede que ese hielo no lo formara el invierno, sino algo que quiere mantenerlo exactamente donde está, sonriendo, para siempre. Le dedicas una inclinación de cabeza y sigues tu camino, decidiendo que hay descansos que es mejor no interrumpir.",
+            "en": "You strike the block again and again. The ice won't give: it's harder than stone, almost warm to the touch despite the surrounding cold. After an exhausting while, you give up. Maybe this ice wasn't made by winter, but by something that wants to keep him exactly where he is, smiling, forever. You give him a nod and go on your way, deciding that some rests are best left uninterrupted.",
+            "fr": "Tu frappes le bloc encore et encore. La glace ne céde pas : elle est plus dure que la pierre, presque chaude au toucher malgré le froid ambiant. Après un moment épuisant, tu abandonnes. Peut-être que cette glace n'a pas été formée par l'hiver, mais par quelque chose qui veut le maintenir exactement là où il est, souriant, pour toujours. Tu lui adresses un signe de tête et poursuis ton chemin, décidant qu'il y a des repos qu'il est préférable de ne pas interrompre.",
+            "it": "Colpisci il blocco ancora e ancora. Il ghiaccio non cede: è più duro della pietra, quasi caldo al tatto nonostante il freddo dominante. Dopo un tempo estenuante, rinunci. Forse quel ghiaccio non lo formò l'inverno, ma qualcosa che vuole mantenerlo esattamente dove è, sorridente, per sempre. Gli dedichi un cenno del capo e prosegui il tuo cammino, decidendo che ci sono riposi che è meglio non interrompere.",
+            "de": "Du schlägst immer wieder auf den Block. Das Eis gibt nicht nach: es ist härter als Stein, fast warm bei Berührung trotz der herrschenden Kälte. Nach einer erschöpfenden Weile gibst du auf. Vielleicht wurde dieses Eis nicht vom Winter geformt, sondern von etwas, das ihn genau dort halten will, wo er ist, lächelnd, für immer. Du nickst ihm zu und setzt deinen Weg fort, entscheidend, dass es Ruhepausen gibt, die man besser nicht unterbricht.",
+            "zh": "你一次又一次地敲打这块冰。冰块毫不让步：它比石头还硬，尽管周围寒冷刺骨，触感却几乎是温热的。经过一番耗尽体力的努力后，你放弃了。也许这块冰并非由冬天形成，而是由某种想要把他永远保持在原地、保持微笑的力量所塑造。你向他点了点头，继续赶路，认定有些安息，最好不要去打断。",
+            "ja": "何度も何度も塊を打つ。氷は屈しない——石よりも硬く、周囲の寒さにもかかわらず触るとほとんど温かい。疲れ果てた後、諦める。おそらくこの氷は冬が作ったのではなく、彼を永遠に、微笑んだまま、まさにそこに留めておきたい何かが作ったのだろう。彼に一礼し、旅を続ける。ある種の休息は、邪魔しない方がいいのだと判断しながら。"
+        },
+        "next": [
+            "hielo_root"
+        ],
+        "reward": ""
+    },
+    "hielo_opt_huir": {
+        "type": "option",
+        "text": {
+            "es": "🏃  No pienso quedarme a ver si parpadea otra vez. Alejarte ya",
+            "en": "🏃  I'm not staying to see if it blinks again. Leave now",
+            "fr": "🏃  Je ne vais pas rester pour voir s'il cligne des yeux à nouveau. Partir tout de suite",
+            "it": "🏃  Non ho intenzione di restare a vedere se sbatte di nuovo le palpebre. Allontanarti subito",
+            "de": "🏃  Ich bleibe nicht, um zu sehen, ob er nochmal blinzelt. Sofort gehen",
+            "zh": "🏃  我可不打算留在这里看它再次眨眼。立刻离开",
+            "ja": "🏃  もう一度瞬きするか見届けるつもりはない。今すぐ立ち去る"
+        },
+        "next": [
+            "hielo_msg_huir"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "hielo_msg_huir": {
+        "type": "message",
+        "text": {
+            "es": "Le das la espalda y aceleras el paso, muy consciente de tener a esa sonrisa detrás. Cada crujido de la nieve bajo tus botas te suena a pasos que te siguen. No miras atrás ni una sola vez, y solo cuando el hombre de hielo es un punto lejano recuperas el aliento. No sabrás nunca qué era. A veces la prudencia y la cobardía se parecen tanto que ni tú distingues cuál de las dos te movió los pies.",
+            "en": "You turn your back and quicken your pace, acutely aware of that smile behind you. Every crunch of snow under your boots sounds like footsteps following. You don't look back even once, and only when the ice-man is a distant speck do you catch your breath. You'll never know what it was. Sometimes prudence and cowardice look so alike that not even you can tell which of the two moved your feet.",
+            "fr": "Tu lui tournes le dos et accélères le pas, très conscient d'avoir ce sourire derrière toi. Chaque craquement de neige sous tes bottes te semble être des pas qui te suivent. Tu ne regardes pas en arrière une seule fois, et ce n'est que lorsque l'homme de glace devient un point lointain que tu retrouves ton souffle. Tu ne sauras jamais ce que c'était. Parfois la prudence et la lâcheté se ressemblent tant que même toi ne peux distinguer laquelle des deux a fait bouger tes pieds.",
+            "it": "Gli dai le spalle e accelli il passo, molto consapevole di avere quel sorriso dietro di te. Ogni scricchiolio della neve sotto i tuoi stivali ti suona come passi che ti seguono. Non guardi indietro nemmeno una volta, e solo quando l'uomo di ghiaccio è un punto lontano riprendi fiato. Non saprai mai cosa fosse. A volte la prudenza e la codardia si assomigliano tanto che nemmeno tu distingui quale delle due ti abbia mosso i piedi.",
+            "de": "Du kehrst ihm den Rücken und beschleunigst deinen Schritt, sehr bewusst, dieses Lächeln hinter dir zu haben. Jedes Knirschen des Schnees unter deinen Stiefeln klingt für dich wie Schritte, die dir folgen. Du schaust nicht ein einziges Mal zurück, und erst als der Eismann ein ferner Punkt ist, holst du wieder Luft. Du wirst nie erfahren, was es war. Manchmal ähneln sich Vorsicht und Feigheit so sehr, dass nicht einmal du unterscheiden kannst, welche von beiden deine Füße bewegt hat.",
+            "zh": "你转身背对它，加快脚步，深深意识到那笑容就在你身后。你每一次靴子踩在雪上发出的咯吱声，都像是有脚步声在跟着你。你一次也没有回头看，直到那个冰人变成远方的一个小点，你才重新喘过气来。你永远也不会知道那是什么。有时，谨慎和怯懦如此相似，连你自己都无法分辨到底是哪一种驱动了你的双脚。",
+            "ja": "彼に背を向け、足を速める。その笑みが背後にあることを強く意識しながら。ブーツの下で雪がきしむ音一つ一つが、後をつけてくる足音のように聞こえる。一度も後ろを振り返らず、氷の男が遠い点になった時にようやく息をつく。それが何だったのかは決して分からないだろう。慎重さと臆病さは時にあまりにも似ていて、お前自身にも、どちらが足を動かしたのか分からないほどなのだ。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:valor=-1"
+    }
+}

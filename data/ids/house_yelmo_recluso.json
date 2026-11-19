@@ -1,0 +1,25 @@
+{
+    "id": "house_yelmo_recluso",
+    "type": "poi",
+    "name": {
+        "es": "Choza del Recluso",
+        "en": "Recluse's Hut",
+        "fr": "Cabane du Reclus",
+        "it": "Capanna del Recluso",
+        "de": "Hütte des Einsiedlers",
+        "zh": "隐士小屋",
+        "ja": "隠者の小屋"
+    },
+    "icon": "🛖",
+    "npc": "house_yelmo_recluso",
+    "visual": "casita",
+    "presences": [
+        {
+            "condition": "default",
+            "actor": "house_yelmo_recluso",
+            "entry_node": ""
+        }
+    ],
+    "bg": "bg_world_poi_yelmo_recluso.png",
+    "music": "poi_house_cozy"
+}

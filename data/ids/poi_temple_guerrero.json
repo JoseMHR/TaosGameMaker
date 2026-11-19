@@ -1,0 +1,32 @@
+{
+    "id": "poi_temple_guerrero",
+    "type": "poi",
+    "name": {
+        "es": "Templo del Sable",
+        "en": "Temple of the Sabre",
+        "fr": "Temple du Sabre",
+        "it": "Tempio della Sciabola",
+        "de": "Tempel des Säbels",
+        "zh": "军刀神庙",
+        "ja": "サーベルの神殿"
+    },
+    "icon": "⚔️",
+    "desc": {
+        "es": "Consagrado al arte de la espada",
+        "en": "Dedicated to the art of the blade",
+        "fr": "Consacré à l'art de l'épée",
+        "it": "Consacrato all'arte della spada",
+        "de": "Der Kunst des Schwertes geweiht",
+        "zh": "献给剑术之艺",
+        "ja": "剣の技に捧げられた"
+    },
+    "npc": "temple_swordsman",
+    "presences": [
+        {
+            "condition": "default",
+            "actor": "temple_swordsman",
+            "entry_node": ""
+        }
+    ],
+    "bg": "bg_temple_guerrero.png"
+}

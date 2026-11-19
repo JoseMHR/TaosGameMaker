@@ -1,0 +1,114 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "Tumba de Elara",
+            "en": "Tomb of Elara",
+            "fr": "Tombe d'Elara",
+            "it": "Tomba di Elara",
+            "de": "Grab von Elara",
+            "zh": "艾拉拉之墓",
+            "ja": "エララの墓"
+        },
+        "next": [],
+        "reward": "avatar=🪦;bg=0.04,0.06,0.09"
+    },
+    "elara_root": {
+        "type": "message",
+        "text": {
+            "es": "Sobre un acantilado azotado por las olas descansa un monumento de mármol blanco cubierto de lirios marinos. La brisa marina silba una melodía melancólica. El epitafio grabado reza: 'Aquí descansa Elara, primera capitana de las Flotas de la Corona. Zarpó hacia el Fin del Mundo y regresó con las manos vacías pero con el alma en paz. Que las mareas guíen a quien busque la redención.'",
+            "en": "Perched upon a cliff battered by white breakers rests a pristine marble memorial adorned with sea lilies. The ocean wind hums a poignant lullaby. The carved epitaph reads: 'Here rests Elara, First Admiral of the Crown Armada. She sailed to the Rim of the World and returned with empty hands but an unburdened soul. May the tides guide whoever seeks redemption.'",
+            "fr": "Sur une falaise battue par les vagues repose un monument de marbre blanc couvert de lys marins. La brise marine siffle une mélodie mélancolique. L'épitaphe gravée dit : « Ici repose Elara, première capitaine des Flottes de la Couronne. Elle a navigué vers le Bout du Monde et est revenue les mains vides mais l'âme en paix. Que les marées guident quiconque cherche la rédemption. »",
+            "it": "Su una scogliera sferzata dalle onde riposa un monumento di marmo bianco coperto di gigli marini. La brezza marina fischia una melodia malinconica. L'epitaffio inciso recita: 'Qui riposa Elara, prima capitana delle Flotte della Corona. Salpò verso la Fine del Mondo e tornò a mani vuote ma con l'anima in pace. Che le maree guidino chiunque cerchi la redenzione.'",
+            "de": "Auf einer von Wellen umtosten Klippe ruht ein weißes Marmormonument, bedeckt mit Meerlilien. Die Meeresbrise pfeift eine melancholische Melodie. Das eingemeißelte Epitaph lautet: „Hier ruht Elara, erste Kapitänin der Flotten der Krone. Sie segelte bis ans Ende der Welt und kehrte mit leeren Händen, aber einer friedvollen Seele zurück. Mögen die Gezeiten jeden leiten, der Erlösung sucht.“",
+            "zh": "在被海浪拍打的悬崖上，矗立着一座覆满海百合的白色大理石纪念碑。海风吹奏着一段忧伤的旋律。碑文刻着：「此处安息着艾拉拉，皇家舰队的第一位女船长。她曾航向世界尽头，两手空空而归，灵魂却归于平静。愿潮汐指引每一个寻求救赎的人。」",
+            "ja": "波に打たれる崖の上に、海百合に覆われた白い大理石の記念碑が佇んでいる。海風が物悲しい旋律を奏でる。刻まれた碑文にはこうある：「ここに眠るはエララ、王家艦隊初代船長。世界の果てまで航海し、手ぶらで、しかし安らかな魂で帰還した。潮が、贖いを求めるすべての者を導かんことを。」"
+        },
+        "next": [
+            "elara_opt_ofrenda",
+            "elara_opt_lore",
+            "elara_opt_salir"
+        ],
+        "reward": ""
+    },
+    "elara_opt_ofrenda": {
+        "type": "option",
+        "text": {
+            "es": "🌸  Dejar una flor sobre la lápida",
+            "en": "🌸  Lay a flower upon the tombstone",
+            "fr": "🌸  Déposer une fleur sur la tombe",
+            "it": "🌸  Deporre un fiore sulla lapide",
+            "de": "🌸  Eine Blume auf den Grabstein legen",
+            "zh": "🌸  在墓碑上放一朵花",
+            "ja": "🌸  墓石に花を手向ける"
+        },
+        "next": [
+            "elara_msg_ofrenda"
+        ],
+        "reward": ""
+    },
+    "elara_msg_ofrenda": {
+        "type": "message",
+        "text": {
+            "es": "Depositas la ofrenda. Por un breve instante, la brisa marina parece susurrar una palabra de gratitud en tu oído. Una profunda sensación de serenidad disipa la fatiga de tus hombros. Sientes que no estás solo en tu travesía.",
+            "en": "You lay your offering. For a fleeting second, the coastal breeze seems to murmur a word of gratitude in your ear. A profound mantle of tranquility soothes the burden on your shoulders. You sense you do not walk this journey alone.",
+            "fr": "Tu déposes ton offrande. Pendant un bref instant, la brise marine semble murmurer un mot de gratitude à ton oreille. Une profonde sensation de sérénité dissipe la fatigue de tes épaules. Tu sens que tu n'es pas seul dans ta traversée.",
+            "it": "Deponi l'offerta. Per un breve istante, la brezza marina sembra sussurrarti una parola di gratitudine all'orecchio. Una profonda sensazione di serenità dissolve la stanchezza dalle tue spalle. Senti di non essere solo nel tuo cammino.",
+            "de": "Du legst deine Gabe nieder. Für einen flüchtigen Moment scheint die Meeresbrise dir ein Wort des Dankes ins Ohr zu murmeln. Ein tiefes Gefühl der Gelassenheit vertreibt die Erschöpfung von deinen Schultern. Du spürst, dass du auf deiner Reise nicht allein bist.",
+            "zh": "你放下了祭品。短暂一瞬，海风似乎在你耳边低语一句感激之词。一股深沉的宁静感驱散了你肩上的疲惫。你感觉到自己在这段旅程中并不孤单。",
+            "ja": "供物を捧げる。ほんの一瞬、海風が感謝の言葉を耳元でささやいたように感じる。深い安らぎが肩の疲れを溶かしていく。この旅路で独りではないと感じる。"
+        },
+        "next": [
+            "elara_root"
+        ],
+        "reward": ""
+    },
+    "elara_opt_lore": {
+        "type": "option",
+        "text": {
+            "es": "🌊  Inspeccionar los grabados marineros",
+            "en": "🌊  Examine the maritime carvings",
+            "fr": "🌊  Examiner les gravures marines",
+            "it": "🌊  Esaminare le incisioni marinare",
+            "de": "🌊  Die maritimen Gravuren untersuchen",
+            "zh": "🌊  查看海洋雕刻",
+            "ja": "🌊  海洋の彫刻を調べる"
+        },
+        "next": [
+            "elara_msg_lore"
+        ],
+        "reward": ""
+    },
+    "elara_msg_lore": {
+        "type": "message",
+        "text": {
+            "es": "Los relieves muestran un mapa estelar con una advertencia: 'Al otro lado del gran océano, más allá del puerto de Celestia, duerme el Orbe Primordial. Si un corazón corrupto reclama su poder, los continentes se desmoronarán'. La profecía del cataclismo ya estaba escrita antes de que todo empezara.",
+            "en": "The engravings depict a star chart bearing a solemn warning: 'Across the fathomless ocean, beyond the spires of Celestia, slumbers the Primeval Orb. If a tainted heart claims its authority, the continents shall shatter.' The prophecy of the cataclysm was etched long before the world fractured.",
+            "fr": "Les reliefs montrent une carte stellaire accompagnée d'un avertissement : « De l'autre côté du grand océan, au-delà du port de Celestia, sommeille l'Orbe Primordial. Si un cœur corrompu revendique son pouvoir, les continents s'effondreront. » La prophétie du cataclysme était déjà écrite avant même que tout ne commence.",
+            "it": "I rilievi mostrano una carta stellare con un avvertimento: 'Dall'altra parte del grande oceano, oltre il porto di Celestia, dorme l'Orbe Primordiale. Se un cuore corrotto ne reclama il potere, i continenti crolleranno'. La profezia del cataclisma era già scritta prima ancora che tutto cominciasse.",
+            "de": "Die Reliefs zeigen eine Sternenkarte mit einer Warnung: „Jenseits des großen Ozeans, hinter dem Hafen von Celestia, schlummert die Urzeitliche Sphäre. Wenn ein verdorbenes Herz nach ihrer Macht greift, werden die Kontinente zerbrechen.“ Die Prophezeiung der Katastrophe war schon geschrieben, bevor alles begann.",
+            "zh": "浮雕上刻着一幅星图，配有一句警告：「在大洋彼岸，塞莱斯提亚港口之外，沉睡着原初之球。若心怀邪念之人夺取其力量，大陆将分崩离析。」这场浩劫的预言，早在一切开始之前便已被写下。",
+            "ja": "浮き彫りには星図と、こんな警告が刻まれている：「大海の彼方、セレスティアの港のさらに先に、原初の球が眠る。汚れた心がその力を求めれば、大陸は砕け散るだろう」。この大災厄の予言は、すべてが始まる前から既に記されていたのだ。"
+        },
+        "next": [
+            "elara_root"
+        ],
+        "reward": ""
+    },
+    "elara_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  (Inclinar la cabeza con respeto y retirarse)",
+            "en": "🚶  (Bow your head respectfully and depart)",
+            "fr": "🚶  (Incliner la tête avec respect et se retirer)",
+            "it": "🚶  (Chinare il capo con rispetto e andarsene)",
+            "de": "🚶  (Respektvoll den Kopf senken und sich entfernen)",
+            "zh": "🚶  （恭敬地低头，然后离开）",
+            "ja": "🚶  （敬意を込めて頭を下げ、立ち去る）"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

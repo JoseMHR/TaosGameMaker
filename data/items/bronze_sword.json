@@ -1,0 +1,31 @@
+{
+    "name": {
+        "es": "Espada de Bronce",
+        "en": "Bronze Sword",
+        "fr": "Épée de Bronze",
+        "it": "Spada di Bronzo",
+        "de": "Bronzeschwert",
+        "zh": "青铜剑",
+        "ja": "ブロンズソード"
+    },
+    "desc": {
+        "es": "Una espada ligera de bronce.",
+        "en": "A light bronze sword.",
+        "fr": "Une épée légère en bronze.",
+        "it": "Una leggera spada di bronzo.",
+        "de": "Ein leichtes Bronzeschwert.",
+        "zh": "一把轻便的青铜剑。",
+        "ja": "軽量な青銅の剣。"
+    },
+    "icon": "🗡️",
+    "category": "equipment",
+    "usable": false,
+    "slot": "weapon",
+    "tier": 2,
+    "bonuses": {
+        "str": 4
+    },
+    "combat": {
+        "phys_damage": 35
+    }
+}

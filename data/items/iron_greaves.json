@@ -1,0 +1,32 @@
+{
+    "name": {
+        "es": "Grebas de Hierro",
+        "en": "Iron Greaves",
+        "fr": "Jambières de Fer",
+        "it": "Schinieri di Ferro",
+        "de": "Eisenbeinschienen",
+        "zh": "铁护胫",
+        "ja": "アイアングリーヴ"
+    },
+    "desc": {
+        "es": "Protecciones de hierro para las piernas.",
+        "en": "Iron leg protection.",
+        "fr": "Protections en fer pour les jambes.",
+        "it": "Protezioni in ferro per le gambe.",
+        "de": "Eiserner Beinschutz.",
+        "zh": "铁制护腿装备。",
+        "ja": "鉄製の脚部防具。"
+    },
+    "icon": "🥾",
+    "category": "equipment",
+    "usable": false,
+    "slot": "shoes",
+    "tier": 2,
+    "bonuses": {
+        "agi": 3,
+        "vit": 2
+    },
+    "combat": {
+        "phys_defense": 16
+    }
+}

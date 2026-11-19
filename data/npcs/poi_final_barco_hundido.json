@@ -1,0 +1,117 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Barco Hundido",
+            "en": "The Sunken Ship",
+            "fr": "Le Navire Englouti",
+            "it": "La Nave Affondata",
+            "de": "Das Gesunkene Schiff",
+            "zh": "沉没的船只",
+            "ja": "沈んだ船"
+        },
+        "next": [],
+        "reward": "bg=0.05,0.06,0.09"
+    },
+    "bar_root": {
+        "type": "message",
+        "text": {
+            "es": "Del vacío emerge, inclinado, el casco astillado de un viejo barco de expedición, con el mástil partido y las velas hechas jirones de sal. Tres profundos surcos de garras colosales cruzan el maderamen de proa a popa. En el flanco aún puede leerse, medio borrado, el nombre que le pusieron dos amigos ilusionados: 'LA SEGUNDA OPORTUNIDAD'. Fue el principio de todo, y también el principio del fin.",
+            "en": "From the void rises, tilted, the splintered hull of an old expedition ship, its mast snapped and its sails torn to rags of salt. Three deep gouges from colossal claws cross the timber from bow to stern. On its flank you can still read, half worn away, the name two hopeful friends gave it: 'THE SECOND CHANCE'. It was the beginning of everything, and also the beginning of the end.",
+            "fr": "Du néant émerge, incliné, la coque astillée d'un vieux navire d'expédition, le mât brisé et les voiles réduites en lambeaux de sel. Trois profonds sillons de griffes colossales traversent la charpente de la proue à la poupe. Sur le flanc, on peut encore lire, à demi effacé, le nom que deux amis pleins d'espoir lui avaient donné : « LA SECONDE CHANCE ». Ce fut le début de tout, et aussi le début de la fin.",
+            "it": "Dal vuoto emerge, inclinato, lo scafo scheggiato di una vecchia nave da spedizione, con l'albero spezzato e le vele ridotte a brandelli di sale. Tre profondi solchi di artigli colossali attraversano il legname da prua a poppa. Sul fianco si può ancora leggere, mezzo cancellato, il nome che le diedero due amici pieni di speranza: 'LA SECONDA OPPORTUNITÀ'. Fu l'inizio di tutto, e anche l'inizio della fine.",
+            "de": "Aus der Leere ragt, geneigt, der zersplitterte Rumpf eines alten Expeditionsschiffs, mit gebrochenem Mast und zu Salzfetzen zerrissenen Segeln. Drei tiefe Furchen kolossaler Krallen durchziehen das Holz von Bug bis Heck. An der Flanke lässt sich noch, halb verblasst, der Name lesen, den ihm zwei hoffnungsvolle Freunde gaben: „DIE ZWEITE CHANCE“. Es war der Anfang von allem, und auch der Anfang vom Ende.",
+            "zh": "从虚空中浮现出一艘倾斜的老旧探险船残骸，船体已支离破碎，桅杆折断，船帆化为盐渍的碎片。三道巨爪留下的深深抓痕从船首一直划到船尾。船身侧面依稀可辨认出两个满怀希望的朋友为它取的名字：「第二次机会」。这是一切的开端，也是终结的开端。",
+            "ja": "虚空から、傾いた古い探検船の砕けた船体が浮かび上がる。マストは折れ、帆は塩にまみれてぼろぼろだ。船首から船尾にかけて、巨大な爪による三本の深い傷跡が刻まれている。船体の側面には、かつて希望に満ちた二人の友人がつけた名前が、半ば消えかけながらも読み取れる——「セカンドチャンス」。すべての始まりであり、終わりの始まりでもあった。"
+        },
+        "next": [
+            "bar_opt_cubierta",
+            "bar_opt_bodega",
+            "bar_opt_salir"
+        ],
+        "reward": ""
+    },
+    "bar_opt_cubierta": {
+        "type": "option",
+        "text": {
+            "es": "🔎  Subir a cubierta y buscar el diario de a bordo",
+            "en": "🔎  Board the deck and search for the ship's log",
+            "fr": "🔎  Monter sur le pont et chercher le journal de bord",
+            "it": "🔎  Salire in coperta e cercare il diario di bordo",
+            "de": "🔎  An Deck gehen und das Logbuch suchen",
+            "zh": "🔎  登上甲板寻找航海日志",
+            "ja": "🔎  甲板に上がり航海日誌を探す"
+        },
+        "next": [
+            "bar_msg_cubierta"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "bar_msg_cubierta": {
+        "type": "message",
+        "text": {
+            "es": "Subes a la cubierta inclinada y encuentras un diario reseco por la sal. Las últimas páginas lo cuentan todo: cómo tú y Roxas zarpasteis buscando fortuna; cómo la dragona Samy os hundió en alta mar; cómo, a cambio de vuestras vidas, os obligó a robar su huevo y llevarlo a un templo perdido; y cómo, en ese templo, Roxas te convenció de tocar las esferas. 'Solo un vistazo', escribiste. 'Solo un poco de ese saber prohibido.' Cierras el diario. Cada desgracia posterior nació de aquel 'solo un poco'.",
+            "en": "You climb the tilted deck and find a log dried stiff with salt. The last pages tell it all: how you and Roxas set sail seeking fortune; how the dragon Samy sank you out at sea; how, in exchange for your lives, she forced you to steal her egg and carry it to a lost temple; and how, in that temple, Roxas convinced you to touch the spheres. 'Just one look,' you wrote. 'Just a little of that forbidden knowledge.' You close the log. Every disaster that followed was born of that 'just a little'.",
+            "fr": "Tu montes sur le pont incliné et trouves un journal desséché par le sel. Les dernières pages racontent tout : comment toi et Roxas avez pris la mer en quête de fortune ; comment la dragonne Samy vous a coulés en pleine mer ; comment, en échange de vos vies, elle vous a forcés à voler son œuf et à le porter dans un temple perdu ; et comment, dans ce temple, Roxas t'a convaincu de toucher les sphères. « Juste un coup d'œil », as-tu écrit. « Juste un peu de ce savoir interdit. » Tu refermes le journal. Chaque malheur qui a suivi est né de ce « juste un peu ».",
+            "it": "Sali sul ponte inclinato e trovi un diario indurito dal sale. Le ultime pagine raccontano tutto: come tu e Roxas salpaste in cerca di fortuna; come la draghessa Samy vi affondò in alto mare; come, in cambio delle vostre vite, vi costrinse a rubare il suo uovo e a portarlo in un tempio perduto; e come, in quel tempio, Roxas ti convinse a toccare le sfere. 'Solo un'occhiata', scrivesti. 'Solo un po' di quel sapere proibito.' Chiudi il diario. Ogni disgrazia successiva nacque da quel 'solo un po''.",
+            "de": "Du steigst auf das geneigte Deck und findest ein von Salz versteiftes Logbuch. Die letzten Seiten erzählen alles: wie du und Roxas auf der Suche nach Reichtum in See stachet; wie euch die Drachin Samy auf hoher See versenkte; wie sie euch im Austausch für euer Leben zwang, ihr Ei zu stehlen und es zu einem verlorenen Tempel zu bringen; und wie Roxas dich in diesem Tempel überredete, die Sphären zu berühren. „Nur ein Blick“, schriebst du. „Nur ein bisschen von diesem verbotenen Wissen.“ Du schließt das Logbuch. Jedes darauffolgende Unglück entsprang jenem „nur ein bisschen“.",
+            "zh": "你爬上倾斜的甲板，找到一本被盐渍风干的日志。最后几页记录了一切：你和罗克萨斯如何为寻求财富而出海；飞龙萨米如何在公海上将你们的船击沉；她如何以你们的性命为条件，逼迫你们偷走她的蛋并送往失落的神殿；以及在那座神殿里，罗克萨斯如何说服你去触碰那些球体。「只看一眼」，你曾写道。「只沾一点那被禁止的知识。」你合上日志。此后发生的每一场灾难，都源自那「只沾一点」。",
+            "ja": "傾いた甲板に上がり、塩でこわばった日誌を見つける。最後のページにすべてが記されている——お前とロクサスが富を求めて船出したこと、竜サミーが大海原で船を沈めたこと、彼女が命と引き換えに卵を盗んで失われた神殿へ運ぶことを強要したこと、そしてその神殿で、ロクサスがお前に球に触れるよう説得したことが。「ちょっと覗くだけだ」とお前は書いた。「あの禁じられた知識を、ほんの少しだけ」。日誌を閉じる。その後起きたすべての災いは、あの「ほんの少し」から生まれたのだ。"
+        },
+        "next": [
+            "bar_opt_salir"
+        ],
+        "reward": "faceta:inteligencia=+1;gflag:bar_diario",
+        "condition": "no_gflag(\"bar_diario\")",
+        "once": true
+    },
+    "bar_opt_bodega": {
+        "type": "option",
+        "text": {
+            "es": "🪵  Bajar a la bodega inundada de oscuridad",
+            "en": "🪵  Descend into the darkness-flooded hold",
+            "fr": "🪵  Descendre dans la cale inondée d'obscurité",
+            "it": "🪵  Scendere nella stiva inondata di oscurità",
+            "de": "🪵  In den von Dunkelheit gefluteten Laderaum hinabsteigen",
+            "zh": "🪵  下到被黑暗淹没的货舱",
+            "ja": "🪵  闇に沈んだ船倉へ降りる"
+        },
+        "next": [
+            "bar_msg_bodega"
+        ],
+        "reward": ""
+    },
+    "bar_msg_bodega": {
+        "type": "message",
+        "text": {
+            "es": "Desciendes a la bodega, donde el vacío hace de agua negra. Allí, entre cajas rotas, flota el recuerdo de aquella noche: Roxas y tú, empapados, aterrados, sujetando un enorme huevo caliente mientras una sombra alada del tamaño de una montaña os observaba desde las olas. 'Llevadlo al templo', retumba aún el eco de Samy en las cuadernas. 'Y vuestra deuda quedará saldada.' Cumplisteis. Pero hay deudas que, al pagarlas, solo abren otras mucho peores.",
+            "en": "You descend into the hold, where the void serves as black water. There, among broken crates, floats the memory of that night: Roxas and you, soaked, terrified, clutching an enormous warm egg while a winged shadow the size of a mountain watched you from the waves. 'Take it to the temple,' Samy's echo still rumbles in the ribs of the ship. 'And your debt will be settled.' You obeyed. But there are debts that, once paid, only open others far worse.",
+            "fr": "Tu descends dans la cale, où le vide fait office d'eau noire. Là, parmi des caisses brisées, flotte le souvenir de cette nuit-là : Roxas et toi, trempés, terrifiés, tenant un énorme œuf chaud tandis qu'une ombre ailée de la taille d'une montagne vous observait depuis les vagues. « Portez-le au temple », résonne encore l'écho de Samy dans les membrures. « Et votre dette sera réglée. » Vous avez obéi. Mais il y a des dettes qui, une fois payées, n'en ouvrent que de bien pires.",
+            "it": "Scendi nella stiva, dove il vuoto fa da acqua nera. Lì, tra casse rotte, fluttua il ricordo di quella notte: Roxas e te, fradici, terrorizzati, che stringete un enorme uovo caldo mentre un'ombra alata grande come una montagna vi osservava dalle onde. 'Portatelo al tempio', rimbomba ancora l'eco di Samy tra le ordinate. 'E il vostro debito sarà saldato.' Avete obbedito. Ma ci sono debiti che, una volta pagati, ne aprono solo di molto peggiori.",
+            "de": "Du steigst in den Laderaum hinab, wo die Leere als schwarzes Wasser dient. Dort, zwischen zerbrochenen Kisten, schwebt die Erinnerung an jene Nacht: Roxas und du, durchnässt, verängstigt, ein riesiges warmes Ei umklammernd, während ein geflügelter Schatten von der Größe eines Berges euch von den Wellen aus beobachtete. „Bringt es zum Tempel“, hallt Samys Echo noch immer in den Spanten wider. „Und eure Schuld wird beglichen sein.“ Ihr habt gehorcht. Aber es gibt Schulden, die, einmal bezahlt, nur weitaus schlimmere eröffnen.",
+            "zh": "你下到货舱，那里的虚空充当着黑水。在破碎的箱子之间，漂浮着那一夜的记忆：你和罗克萨斯浑身湿透、惊恐万分，紧抱着一颗巨大而温暖的蛋，一道山一般大小的有翼阴影从波浪中注视着你们。「把它带到神殿去」，萨米的回声至今仍在船肋间回荡。「你们的债就此清偿。」你们照做了。可有些债务，一旦还清，只会开启更糟糕的新债。",
+            "ja": "船倉に降りる。そこでは虚空が黒い水の役割を果たしている。壊れた木箱の間に、あの夜の記憶が漂っている——ずぶ濡れで恐怖に震えながら、巨大な温かい卵を抱きしめるお前とロクサス。そして波間から山ほどの大きさの翼を持つ影がお前たちを見つめていた。「それを神殿へ運べ」——サミーの残響が今も船体の肋材に響く。「そうすればお前たちの借りは帳消しだ」。お前たちは従った。だが、返済したことで、さらにひどい借りを生む負債もあるのだ。"
+        },
+        "next": [
+            "bar_root"
+        ],
+        "reward": ""
+    },
+    "bar_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Bajar del barco y seguir",
+            "en": "🚶  Climb down from the ship and move on",
+            "fr": "🚶  Descendre du navire et continuer",
+            "it": "🚶  Scendere dalla nave e proseguire",
+            "de": "🚶  Vom Schiff herabsteigen und weitergehen",
+            "zh": "🚶  下船，继续前行",
+            "ja": "🚶  船を降りて先へ進む"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

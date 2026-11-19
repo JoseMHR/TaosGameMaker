@@ -1,0 +1,26 @@
+{
+    "id": "poi_puesto_desierto",
+    "type": "poi",
+    "icon": "🫙",
+    "name": {
+        "es": "Puesto de Frascos Vacíos",
+        "en": "The Empty Jar Stand",
+        "fr": "L'Étal des Bocaux Vides",
+        "it": "Il Banco dei Barattoli Vuoti",
+        "de": "Der Stand der Leeren Gläser",
+        "zh": "空瓶摊位",
+        "ja": "空き瓶の露店"
+    },
+    "desc": {
+        "es": "Un puesto de mercado que vende frascos que no contienen nada. (POI de inspección).",
+        "en": "A market stall selling jars that contain nothing. (Inspection POI).",
+        "fr": "Un étal de marché qui vend des bocaux qui ne contiennent rien. (POI d'inspection).",
+        "it": "Una bancarella di mercato che vende barattoli che non contengono nulla. (POI di ispezione).",
+        "de": "Ein Marktstand, der Gläser verkauft, die nichts enthalten. (Inspektions-POI).",
+        "zh": "一个卖着空无一物的罐子的市场摊位。（探查类兴趣点）。",
+        "ja": "何も入っていない瓶を売る市場の露店。（調査ポイント）。"
+    },
+    "npc": "poi_puesto_desierto",
+    "bg": "bg_world_poi_gloriam_puesto_desierto.png",
+    "music": "poi_house_cozy"
+}

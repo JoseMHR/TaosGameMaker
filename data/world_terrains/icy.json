@@ -1,0 +1,15 @@
+{
+	"code": "icy",
+	"order": 4.5,
+	"label": "Hielo",
+	"color": "#aee3f5",
+	"icon": "🧊",
+	"biome_color": "#3a4a52",
+	"description": "Hielo liso como un espejo: pierdes el control y deslizas hasta salir por el lado opuesto.",
+	"walkable": true,
+	"speed_mult": 1.3,
+	"texture": "ice",
+	"slippery": true,
+	"blendable": false,
+	"hazard": "cold"
+}

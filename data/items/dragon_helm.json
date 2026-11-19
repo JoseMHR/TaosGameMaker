@@ -1,0 +1,32 @@
+{
+    "name": {
+        "es": "Yelmo de Dragón",
+        "en": "Dragon Helm",
+        "fr": "Heaume de Dragon",
+        "it": "Elmo di Drago",
+        "de": "Drachenhelm",
+        "zh": "巨龙盔",
+        "ja": "ドラゴンヘルム"
+    },
+    "desc": {
+        "es": "Un yelmo forjado con escamas de dragón.",
+        "en": "A helm forged from dragon scales.",
+        "fr": "Un heaume forgé avec des écailles de dragon.",
+        "it": "Un elmo forgiato con squame di drago.",
+        "de": "Ein Helm, geschmiedet aus Drachenschuppen.",
+        "zh": "以龙鳞锻造的头盔。",
+        "ja": "ドラゴンの鱗で鍛えられた兜。"
+    },
+    "icon": "⛑️",
+    "category": "equipment",
+    "usable": false,
+    "slot": "helmet",
+    "tier": 5,
+    "bonuses": {
+        "vit": 8
+    },
+    "combat": {
+        "phys_defense": 72,
+        "mag_defense": 45
+    }
+}

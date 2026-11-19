@@ -1,0 +1,65 @@
+{
+    "name": {
+        "es": "La Esfera de la Verdad",
+        "en": "The Sphere of Truth",
+        "fr": "La Sphère de la Vérité",
+        "it": "La Sfera della Verità",
+        "de": "Die Sphäre der Wahrheit",
+        "zh": "真理之球",
+        "ja": "真実の球"
+    },
+    "intro": {
+        "type": "message",
+        "text": {
+            "es": "El peso de lo que hiciste ha extinguido hasta el último rescoldo de tu voluntad. No hay ira en ti, ni deseo de perdón; solo un cansancio insoportable. Las cuatro esferas que arrebataste caen de tus dedos inertes. Si es el silencio lo que deseas, si tu propio juicio es borrarte... que así sea. Que las luces se apaguen, una a una, en la oscuridad de tu templo interior.",
+            "en": "The weight of what you have done has snuffed out the last ember of your will. There is no anger in you, no plea for forgiveness; only an unbearable exhaustion. The four spheres you took slip from your limp fingers. If silence is what you desire, if your own judgment is erasure... so be it. Let the lights go out, one by one, in the darkness of your inner temple.",
+            "fr": "Le poids de ce que tu as fait a éteint jusqu'à la dernière braise de ta volonté. Il n'y a en toi ni colère ni désir de pardon ; seulement une fatigue insupportable. Les quatre sphères que tu as dérobées glissent de tes doigts inertes. Si c'est le silence que tu désires, si ton propre jugement est de t'effacer... qu'il en soit ainsi. Que les lumières s'éteignent, une à une, dans l'obscurité de ton temple intérieur.",
+            "it": "Il peso di ciò che hai fatto ha spento anche l'ultima brace della tua volontà. Non c'è ira in te, né desiderio di perdono; solo una stanchezza insopportabile. Le quattro sfere che hai sottratto scivolano dalle tue dita inerti. Se è il silenzio ciò che desideri, se il tuo stesso giudizio è cancellarti... che sia così. Che le luci si spengano, una a una, nell'oscurità del tuo tempio interiore.",
+            "de": "Die Last dessen, was du getan hast, hat selbst die letzte Glut deines Willens erlöschen lassen. Es ist kein Zorn in dir, kein Wunsch nach Vergebung; nur eine unerträgliche Erschöpfung. Die vier Sphären, die du an dich gerissen hast, gleiten aus deinen kraftlosen Fingern. Wenn Stille es ist, was du begehrst, wenn dein eigenes Urteil Auslöschung ist... dann sei es so. Mögen die Lichter erlöschen, eines nach dem anderen, in der Dunkelheit deines inneren Tempels.",
+            "zh": "你所做之事的重量，已熄灭了你意志中最后一点余烬。你心中没有愤怒，也没有对宽恕的渴望，只剩下难以承受的疲惫。你夺来的四颗球体从你无力的指间滑落。如果你渴望的是寂静，如果你自己的审判就是抹去自己……那就如你所愿吧。愿灯光一盏一盏熄灭，沉入你内心神庙的黑暗之中。",
+            "ja": "自らの行いの重みが、意志の最後の残り火さえ消し去った。お前の中に怒りはなく、赦しを乞う思いもない。あるのはただ、耐え難い疲労だけだ。奪った四つの球が、力なき指先からこぼれ落ちる。もしお前が望むものが沈黙であるなら、もし自らへの裁きが消失であるなら……それでよい。灯りが一つ、また一つと、お前の内なる神殿の闇に消えていくがいい。"
+        },
+        "options": [
+            {
+                "text": {
+                    "es": "Contemplar el desenlace (Final D: Autodestrucción)",
+                    "en": "Behold the outcome (Ending D: Self-destruction)",
+                    "fr": "Contempler le dénouement (Fin D : Autodestruction)",
+                    "it": "Contemplare l'epilogo (Finale D: Autodistruzione)",
+                    "de": "Den Ausgang betrachten (Ende D: Selbstzerstörung)",
+                    "zh": "凝视结局（结局D：自我毁灭）",
+                    "ja": "結末を見つめる（エンディングD：自己破壊）"
+                },
+                "next": "trigger_scene"
+            },
+            {
+                "text": {
+                    "es": "Volver al mapa",
+                    "en": "Return to map",
+                    "fr": "Retourner à la carte",
+                    "it": "Tornare alla mappa",
+                    "de": "Zur Karte zurückkehren",
+                    "zh": "返回地图",
+                    "ja": "地図に戻る"
+                },
+                "next": "close"
+            }
+        ]
+    },
+    "trigger_scene": {
+        "type": "message",
+        "text": {
+            "es": "La luz de la Esfera te envuelve por completo...",
+            "en": "The Sphere's light envelops you completely...",
+            "fr": "La lumière de la Sphère t'enveloppe complètement...",
+            "it": "La luce della Sfera ti avvolge completamente...",
+            "de": "Das Licht der Sphäre umhüllt dich vollständig...",
+            "zh": "球体的光芒将你彻底笼罩……",
+            "ja": "球の光がお前を完全に包み込む……"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "cine:final_d"
+    }
+}

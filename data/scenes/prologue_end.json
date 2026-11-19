@@ -1,0 +1,102 @@
+{
+    "meta": {
+        "title": {
+            "es": "Rumbo al horizonte",
+            "en": "Bound for the horizon",
+            "fr": "Cap sur l'horizon",
+            "it": "Rotta verso l'orizzonte",
+            "de": "Kurs auf den Horizont",
+            "zh": "驶向天际线",
+            "ja": "水平線へ向けて"
+        },
+        "desc": "El jugador zarpa por fin con el Sello Real, rumbo a la cara oculta del Templo (Epílogo)."
+    },
+    "entry": "n1",
+    "nodes": {
+        "n1": {
+            "kind": "say",
+            "speaker": {
+                "es": "Narrador",
+                "en": "Narrator",
+                "fr": "Narrateur",
+                "it": "Narratore",
+                "de": "Erzähler",
+                "zh": "旁白",
+                "ja": "ナレーター"
+            },
+            "portrait": "⛵",
+            "text": {
+                "es": "El barco se separa del muelle. Celestia se encoge a tu espalda, dorada y diminuta. El mar que un Rey mantuvo cerrado durante años se abre por fin ante ti.",
+                "en": "The ship pulls away from the dock. Celestia shrinks behind you, golden and tiny. The sea a King kept shut for years opens at last before you.",
+                "fr": "Le navire s'éloigne du quai. Celestia rapetisse derrière toi, dorée et minuscule. La mer qu'un Roi a gardée fermée pendant des années s'ouvre enfin devant toi.",
+                "it": "La nave si allontana dal molo. Celestia si rimpicciolisce alle tue spalle, dorata e minuscola. Il mare che un Re ha tenuto chiuso per anni si apre finalmente davanti a te.",
+                "de": "Das Schiff legt vom Kai ab. Celestia schrumpft hinter dir, golden und winzig. Das Meer, das ein König jahrelang verschlossen hielt, öffnet sich endlich vor dir.",
+                "zh": "船只离开了码头。塞莱斯提亚在你身后渐渐缩小，金光闪闪却显得渺小。那片被国王封闭多年的海洋，终于在你面前展开。",
+                "ja": "船が波止場を離れる。セレスティアは背後で黄金色に輝きながら小さくなっていく。王が長年閉ざしてきた海が、ついに目の前に開ける。"
+            },
+            "fx": {
+                "zoom": 1.1,
+                "glow": 0.4,
+                "sfx": "click"
+            },
+            "next": "n2"
+        },
+        "n2": {
+            "kind": "say",
+            "speaker": {
+                "es": "Narrador",
+                "en": "Narrator",
+                "fr": "Narrateur",
+                "it": "Narratore",
+                "de": "Erzähler",
+                "zh": "旁白",
+                "ja": "ナレーター"
+            },
+            "portrait": "🌅",
+            "text": {
+                "es": "Has aprendido a moverte, a luchar, a explorar, a sobrevivir al frío y al calor, a montar tu campamento y a dominar seis profesiones. Has cruzado un continente entero. Respiras hondo y piensas: 'Lo he conseguido. He terminado la aventura.'",
+                "en": "You've learned to move, to fight, to explore, to survive cold and heat, to raise your camp and to master six professions. You've crossed an entire continent. You breathe deep and think: 'I did it. I've finished the adventure.'",
+                "fr": "Tu as appris à bouger, à combattre, à explorer, à survivre au froid et à la chaleur, à monter ton campement et à maîtriser six professions. Tu as traversé tout un continent. Tu respires profondément et penses : « J'y suis arrivé. J'ai terminé l'aventure. »",
+                "it": "Hai imparato a muoverti, a combattere, a esplorare, a sopravvivere al freddo e al caldo, a montare il tuo accampamento e a padroneggiare sei professioni. Hai attraversato un intero continente. Respiri profondamente e pensi: 'Ce l'ho fatta. Ho finito l'avventura.'",
+                "de": "Du hast gelernt, dich zu bewegen, zu kämpfen, zu erkunden, Kälte und Hitze zu überstehen, dein Lager aufzuschlagen und sechs Berufe zu meistern. Du hast einen ganzen Kontinent durchquert. Du atmest tief durch und denkst: „Ich habe es geschafft. Das Abenteuer ist zu Ende.“",
+                "zh": "你已学会了移动、战斗、探索、在严寒酷暑中求生、扎营，并精通了六种职业。你已经穿越了整片大陆。你深吸一口气，心想：「我做到了，冒险终于结束了。」",
+                "ja": "移動し、戦い、探索し、寒さや暑さを生き延び、キャンプを設営し、六つの職業を極める術を学んだ。大陸をまるごと横断した。深く息を吸い、こう思う。「やり遂げた。冒険を終えたのだ」"
+            },
+            "fx": {
+                "glow": 0.6
+            },
+            "next": "n3"
+        },
+        "n3": {
+            "kind": "say",
+            "speaker": {
+                "es": "Narrador",
+                "en": "Narrator",
+                "fr": "Narrateur",
+                "it": "Narratore",
+                "de": "Erzähler",
+                "zh": "旁白",
+                "ja": "ナレーター"
+            },
+            "portrait": "🏛️",
+            "text": {
+                "es": "Pero el mapa del Capitán marca un último punto, uno que no aparecía en ninguna carta hasta ahora: la cara oculta del Templo, al otro lado del agua. Algo, muy lejos, todavía espera.",
+                "en": "But the Captain's chart marks one last point, one that appeared on no map until now: the hidden face of the Temple, across the water. Something, far away, is still waiting.",
+                "fr": "Mais la carte du Capitaine marque un dernier point, un point qui n'apparaissait sur aucune carte jusqu'à présent : la face cachée du Temple, de l'autre côté de l'eau. Quelque chose, très loin, attend encore.",
+                "it": "Ma la mappa del Capitano segna un ultimo punto, uno che non compariva su nessuna carta fino ad ora: il lato nascosto del Tempio, dall'altra parte dell'acqua. Qualcosa, molto lontano, attende ancora.",
+                "de": "Doch die Karte des Kapitäns markiert einen letzten Punkt, einen, der bisher auf keiner Karte erschien: die verborgene Seite des Tempels, jenseits des Wassers. Etwas, weit entfernt, wartet noch immer.",
+                "zh": "但船长的地图上标出了最后一个地点，一个至今从未出现在任何地图上的地点：神庙的隐秘一面，就在海的另一端。某种东西，在遥远之处，仍在等待。",
+                "ja": "しかし船長の海図には最後の一点が記されていた。これまでどの地図にも載っていなかった場所——水の向こうにある神殿の隠された面だ。遥か遠くで、何かがまだ待っている。"
+            },
+            "fx": {
+                "darken": 0.4,
+                "zoom": 1.15
+            },
+            "next": "end"
+        },
+        "end": {
+            "kind": "flow",
+            "op": "end"
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "name": {
+        "es": "Escudo Elemental",
+        "en": "Elemental Shield",
+        "fr": "Bouclier Élémentaire",
+        "it": "Scudo Elementale",
+        "de": "Elementarschild",
+        "zh": "元素护盾",
+        "ja": "エレメンタルシールド"
+    },
+    "desc": {
+        "es": "Un escudo grabado con runas de protección mágica. Protege pasivamente contra un 20% del daño de cualquier elemento.",
+        "en": "A shield etched with magical protection runes. Passively mitigates 20% of all incoming elemental damage.",
+        "fr": "Un bouclier gravé de runes de protection magique. Atténue passivement 20% des dégâts de tout élément.",
+        "it": "Uno scudo inciso con rune di protezione magica. Mitiga passivamente il 20% del danno di qualsiasi elemento.",
+        "de": "Ein mit magischen Schutzrunen versehener Schild. Mindert passiv 20% des elementaren Schadens jeder Art.",
+        "zh": "刻有魔法防护符文的盾牌，可被动减免 20% 任意元素伤害。",
+        "ja": "魔法防御のルーンが刻まれた盾。あらゆる属性ダメージを20%パッシブで軽減する。"
+    },
+    "icon": "🛡️",
+    "category": "equipment",
+    "usable": false,
+    "slot": "shield",
+    "tier": 2,
+    "bonuses": {
+        "vit": 3,
+        "mnd": 3
+    },
+    "combat": {
+        "phys_defense": 12,
+        "mag_defense": 22
+    },
+    "traits": [
+        {
+            "type": "elemental_damage_reduction",
+            "value": 0.2,
+            "desc": "Reduce un 20% el daño elemental recibido"
+        }
+    ]
+}

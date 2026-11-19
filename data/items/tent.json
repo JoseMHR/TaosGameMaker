@@ -1,0 +1,23 @@
+{
+    "name": {
+        "es": "Tienda de Campaña",
+        "en": "Tent",
+        "fr": "Tente de Campagne",
+        "it": "Tenda da Campo",
+        "de": "Zelt",
+        "zh": "帐篷",
+        "ja": "テント"
+    },
+    "desc": {
+        "es": "Permite establecer una base de operaciones en el mapa.",
+        "en": "Lets you set up a base of operations on the map.",
+        "fr": "Permet d'établir une base d'opérations sur la carte.",
+        "it": "Permette di stabilire una base operativa sulla mappa.",
+        "de": "Ermöglicht die Einrichtung eines Stützpunkts auf der Karte.",
+        "zh": "可在地图上建立行动基地。",
+        "ja": "マップ上に活動拠点を設置できる。"
+    },
+    "icon": "⛺",
+    "category": "important",
+    "usable": false
+}

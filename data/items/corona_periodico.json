@@ -1,0 +1,23 @@
+{
+    "name": {
+        "es": "Corona de Periódico Arrugado",
+        "en": "Crown of Crumpled Newspaper",
+        "fr": "Couronne de Journal Froissé",
+        "it": "Corona di Giornale Sgualcito",
+        "de": "Krone aus zerknülltem Zeitungspapier",
+        "zh": "皱报纸王冠",
+        "ja": "しわくちゃ新聞紙の王冠"
+    },
+    "desc": {
+        "es": "Una corona doblada a toda prisa con papel de periódico. Confiere una majestuosidad sorprendentemente convincente y el respeto incondicional de al menos un caballero muy particular.",
+        "en": "A crown hastily folded from newspaper. It confers a surprisingly convincing majesty and the unconditional respect of at least one very particular gentleman.",
+        "fr": "Une couronne pliée à la hâte dans du papier journal. Elle confère une majesté étonnamment convaincante et le respect inconditionnel d'au moins un gentilhomme très particulier.",
+        "it": "Una corona piegata in fretta con carta di giornale. Conferisce una maestosità sorprendentemente convincente e il rispetto incondizionato di almeno un gentiluomo molto particolare.",
+        "de": "Eine hastig aus Zeitungspapier gefaltete Krone. Sie verleiht eine überraschend überzeugende Majestät und den bedingungslosen Respekt mindestens eines ganz besonderen Gentlemans.",
+        "zh": "一顶用报纸匆忙折成的王冠。赋予出人意料的可信威严，并赢得至少一位十分特别的绅士毫无保留的敬意。",
+        "ja": "新聞紙で急いで折った王冠。驚くほど説得力のある威厳を与え、少なくとも一人の非常に個性的な紳士から絶対的な敬意を得る。"
+    },
+    "icon": "👑",
+    "category": "important",
+    "usable": false
+}

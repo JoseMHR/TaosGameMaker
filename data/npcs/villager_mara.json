@@ -1,0 +1,298 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "Aldeana Mara",
+            "en": "Villager Mara",
+            "fr": "Villageoise Mara",
+            "it": "Villica Mara",
+            "de": "Dorfbewohnerin Mara",
+            "zh": "村民玛拉",
+            "ja": "村人マーラ"
+        },
+        "next": [],
+        "reward": "avatar=👩‍🌾;bg=0.08,0.06,0.04"
+    },
+    "mara_seeds_done": {
+        "type": "message",
+        "text": {
+            "es": "¡Cinco semillas de trigo, justo lo que necesitaba! Con esto podré sembrar el huerto trasero antes de que llegue el frío. Toma, aprende esta receta: el estofado que hago para mis pequeños cuando el trigo escasea.",
+            "en": "Five wheat seeds, just what I needed! Now I can plant the back garden before the cold arrives. Here, learn this recipe: the stew I make for my little ones when wheat runs short.",
+            "fr": "Cinq graines de blé, exactement ce qu'il me fallait ! Avec ça, je pourrai semer le potager avant l'arrivée du froid. Tiens, apprends cette recette : le ragoût que je prépare pour mes petits quand le blé vient à manquer.",
+            "it": "Cinque semi di grano, proprio quello che mi serviva! Con questi potrò seminare l'orto sul retro prima che arrivi il freddo. Tieni, impara questa ricetta: lo stufato che faccio per i miei piccoli quando il grano scarseggia.",
+            "de": "Fünf Weizenkörner, genau was ich brauchte! Damit kann ich den Hintergarten bepflanzen, bevor die Kälte kommt. Hier, lerne dieses Rezept: den Eintopf, den ich für meine Kleinen mache, wenn Weizen knapp ist.",
+            "zh": "五粒小麦种子，正是我需要的！有了这些，我就能在寒冬来临前种上后院的菜地了。给你，学学这个食谱吧：这是我在小麦短缺时给孩子们做的炖菜。",
+            "ja": "小麦の種を五粒、まさに必要としていたものだよ！これで寒さが来る前に裏庭を植えられる。ほら、このレシピを覚えてくれ——小麦が足りない時に子供たちのために作るシチューだよ。"
+        },
+        "next": [
+            "mara_seeds_done_ok"
+        ],
+        "reward": "-item:semilla_trigo=5;gflag:mara_seeds_done;item:estofado_marinero=2;gold:30",
+        "condition": "has_flag(\"mara_seeds_accepted\") and has_item(\"semilla_trigo\", 5) and no_gflag(\"mara_seeds_done\")",
+        "once": true
+    },
+    "mara_seeds_done_ok": {
+        "type": "option",
+        "text": {
+            "es": "🌾  De nada, Mara",
+            "en": "🌾  You're welcome, Mara",
+            "fr": "🌾  De rien, Mara",
+            "it": "🌾  Di niente, Mara",
+            "de": "🌾  Gern geschehen, Mara",
+            "zh": "🌾  不客气，玛拉",
+            "ja": "🌾  どういたしまして、マーラ"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "mara_seeds_waiting": {
+        "type": "message",
+        "text": {
+            "es": "¿Ya tienes las cinco semillas de trigo? El mercader de la ciudad las vende, o puedes encontrarlas explorando los campos.",
+            "en": "Do you have the five wheat seeds yet? The city merchant sells them, or you can find them out in the fields.",
+            "fr": "As-tu déjà les cinq graines de blé ? Le marchand de la ville les vend, ou tu peux les trouver en explorant les champs.",
+            "it": "Hai già i cinque semi di grano? Il mercante della città li vende, oppure puoi trovarli esplorando i campi.",
+            "de": "Hast du schon die fünf Weizenkörner? Der Stadthändler verkauft sie, oder du kannst sie auf den Feldern finden.",
+            "zh": "你已经拿到那五粒小麦种子了吗？城里的商人有卖，或者你也可以在田野里探索时找到它们。",
+            "ja": "もう小麦の種は五粒揃えたのか？街の商人が売っているし、畑を探検すれば見つかることもある。"
+        },
+        "next": [
+            "mara_seeds_waiting_ok"
+        ],
+        "reward": "",
+        "condition": "has_flag(\"mara_seeds_accepted\") and no_gflag(\"mara_seeds_done\")"
+    },
+    "mara_seeds_waiting_ok": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Las buscaré",
+            "en": "🚶  I'll find them",
+            "fr": "🚶  Je vais les chercher",
+            "it": "🚶  Le cercherò",
+            "de": "🚶  Ich werde sie finden",
+            "zh": "🚶  我会去找的",
+            "ja": "🚶  探してみる"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "mara_seeds_offer": {
+        "type": "message",
+        "text": {
+            "es": "Con tantas bocas que alimentar, siempre ando corta de semillas de trigo para el huerto. Si me trajeras cinco, te enseñaría una receta que llevo generaciones guardando.",
+            "en": "With so many mouths to feed, I'm always short on wheat seeds for the garden. If you brought me five, I'd teach you a recipe I've kept for generations.",
+            "fr": "Avec tant de bouches à nourrir, je manque toujours de graines de blé pour le potager. Si tu m'en apportais cinq, je t'enseignerais une recette que je garde depuis des générations.",
+            "it": "Con tante bocche da sfamare, sono sempre a corto di semi di grano per l'orto. Se me ne portassi cinque, ti insegnerei una ricetta che conservo da generazioni.",
+            "de": "Mit so vielen hungrigen Mündern habe ich immer zu wenig Weizenkörner für den Garten. Wenn du mir fünf brächtest, würde ich dir ein Rezept beibringen, das ich seit Generationen bewahre.",
+            "zh": "要养活这么多张嘴，我总是缺小麦种子来种菜园。如果你能给我带来五粒，我就教你一个我们家族世代相传的食谱。",
+            "ja": "養う口が多くて、いつも菜園用の小麦の種が足りないんだ。五粒持ってきてくれたら、何世代も守ってきたレシピを教えてあげよう。"
+        },
+        "next": [
+            "mara_seeds_ask",
+            "mara_seeds_no"
+        ],
+        "reward": "",
+        "condition": "no_flag(\"mara_seeds_accepted\")"
+    },
+    "mara_seeds_ask": {
+        "type": "option",
+        "text": {
+            "es": "🌱  Te traeré 5 semillas de trigo",
+            "en": "🌱  I'll bring you 5 wheat seeds",
+            "fr": "🌱  Je t'apporterai 5 graines de blé",
+            "it": "🌱  Ti porterò 5 semi di grano",
+            "de": "🌱  Ich bringe dir 5 Weizenkörner",
+            "zh": "🌱  我会给你带来5粒小麦种子",
+            "ja": "🌱  小麦の種を五粒持ってこよう"
+        },
+        "next": [
+            "mara_seeds_accepted_r"
+        ],
+        "reward": "flag:mara_seeds_accepted"
+    },
+    "mara_seeds_accepted_r": {
+        "type": "message",
+        "text": {
+            "es": "¡Gracias, de corazón! Estaré esperando con la olla lista para cuando las traigas.",
+            "en": "Thank you, truly! I'll be waiting with the pot ready for when you bring them.",
+            "fr": "Merci, du fond du cœur ! J'attendrai avec la marmite prête pour quand tu les apporteras.",
+            "it": "Grazie, di cuore! Aspetterò con la pentola pronta per quando le porterai.",
+            "de": "Danke, von ganzem Herzen! Ich werde mit bereitem Topf auf dich warten, wenn du sie bringst.",
+            "zh": "衷心感谢你！我会准备好锅子，等你把种子带来。",
+            "ja": "本当にありがとう！種を持ってきてくれる時のために、鍋を用意して待っているよ。"
+        },
+        "next": [
+            "mara_seeds_accepted_ok"
+        ],
+        "reward": ""
+    },
+    "mara_seeds_accepted_ok": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Volveré pronto",
+            "en": "🚶  I'll be back soon",
+            "fr": "🚶  Je reviens bientôt",
+            "it": "🚶  Tornerò presto",
+            "de": "🚶  Ich komme bald wieder",
+            "zh": "🚶  我很快就回来",
+            "ja": "🚶  すぐに戻ってくる"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "mara_seeds_no": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Ahora no puedo",
+            "en": "🚶  I can't right now",
+            "fr": "🚶  Je ne peux pas maintenant",
+            "it": "🚶  Ora non posso",
+            "de": "🚶  Jetzt kann ich nicht",
+            "zh": "🚶  我现在没空",
+            "ja": "🚶  今は無理だ"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "mara_fish": {
+        "type": "message",
+        "text": {
+            "es": "¡Por la Esfera, ese pescado huele a gloria! Mis criaturas llevan días soñando con algo caliente...",
+            "en": "By the Sphere, that fish smells divine! My little ones have been dreaming of a warm meal for days...",
+            "fr": "Par la Sphère, ce poisson sent divinement bon ! Mes petits rêvent d'un repas chaud depuis des jours...",
+            "it": "Per la Sfera, quel pesce ha un profumo divino! I miei piccoli sognano un pasto caldo da giorni...",
+            "de": "Bei der Sphäre, dieser Fisch riecht himmlisch! Meine Kleinen träumen seit Tagen von einer warmen Mahlzeit...",
+            "zh": "以真理之球起誓，这鱼闻起来简直香极了！我的孩子们已经好几天梦想着一顿热饭了……",
+            "ja": "球にかけて、その魚は素晴らしい匂いだね！うちの小さい子たちは何日も温かい食事を夢見ているんだよ……"
+        },
+        "next": [
+            "mara_fish_share",
+            "mara_fish_no"
+        ],
+        "reward": "",
+        "condition": "has_item(\"cooked_fish\")"
+    },
+    "mara_fish_share": {
+        "type": "option",
+        "text": {
+            "es": "🍢  Compartir el Pescado (+3 Amabilidad)",
+            "en": "🍢  Share the Fish (+3 Kindness)",
+            "fr": "🍢  Partager le Poisson (+3 Bonté)",
+            "it": "🍢  Condividere il Pesce (+3 Bontà)",
+            "de": "🍢  Den Fisch teilen (+3 Güte)",
+            "zh": "🍢  分享这条鱼（+3善良）",
+            "ja": "🍢  魚を分け合う（+3優しさ）"
+        },
+        "next": [
+            "mara_fish_r"
+        ],
+        "reward": "-item:cooked_fish=1;faceta:amabilidad=+3;gold:+10",
+        "condition": "has_item(\"cooked_fish\")"
+    },
+    "mara_fish_r": {
+        "type": "message",
+        "text": {
+            "es": "¡Que los cielos te cubran de bendiciones! Toma, unas monedas y el cariño de una madre.",
+            "en": "May the heavens shower you with blessings! Here, some coins and a mother's love.",
+            "fr": "Que les cieux te couvrent de bénédictions ! Tiens, quelques pièces et l'affection d'une mère.",
+            "it": "Che i cieli ti coprano di benedizioni! Tieni, alcune monete e l'affetto di una madre.",
+            "de": "Mögen die Himmel dich mit Segen überschütten! Hier, ein paar Münzen und die Liebe einer Mutter.",
+            "zh": "愿上天赐福于你！拿着，这是一些硬币，还有一位母亲的关爱。",
+            "ja": "天があなたに祝福を降らせますように！ほら、いくらかの硬貨と母の愛を。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "mara_fish_no": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Despedirse",
+            "en": "🚶  Say goodbye",
+            "fr": "🚶  Prendre congé",
+            "it": "🚶  Congedarsi",
+            "de": "🚶  Sich verabschieden",
+            "zh": "🚶  告别",
+            "ja": "🚶  別れを告げる"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "mara_1": {
+        "type": "message",
+        "text": {
+            "es": "Bienvenido, viajero. En esta casa siempre hay sopa caliente y una silla para quienes cargan con el peso del mundo.",
+            "en": "Welcome, traveler. In this house there's always warm soup and a chair for those who carry the world's weight.",
+            "fr": "Bienvenue, voyageur. Dans cette maison, il y a toujours une soupe chaude et une chaise pour ceux qui portent le poids du monde.",
+            "it": "Benvenuto, viaggiatore. In questa casa c'è sempre una zuppa calda e una sedia per chi porta il peso del mondo.",
+            "de": "Willkommen, Reisender. In diesem Haus gibt es immer warme Suppe und einen Stuhl für jene, die das Gewicht der Welt tragen.",
+            "zh": "欢迎你，旅人。这个家里，永远有热汤和一把椅子留给那些背负着世界重担的人。",
+            "ja": "ようこそ、旅人よ。この家には、世界の重みを背負う者のために、いつでも温かいスープと椅子があるわ。"
+        },
+        "next": [
+            "mara_1a",
+            "mara_1b"
+        ],
+        "reward": ""
+    },
+    "mara_1a": {
+        "type": "option",
+        "text": {
+            "es": "🙏  Agradecer la hospitalidad (+1 Amabilidad)",
+            "en": "🙏  Thank her (+1 Kindness)",
+            "fr": "🙏  Remercier son hospitalité (+1 Bonté)",
+            "it": "🙏  Ringraziare la sua ospitalità (+1 Bontà)",
+            "de": "🙏  Ihre Gastfreundschaft würdigen (+1 Güte)",
+            "zh": "🙏  感谢她的款待（+1善良）",
+            "ja": "🙏  もてなしに感謝する（+1優しさ）"
+        },
+        "next": [
+            "mara_1ar"
+        ],
+        "reward": "faceta:amabilidad=+1;flag:mara_thanked",
+        "condition": "no_flag(\"mara_thanked\")"
+    },
+    "mara_1ar": {
+        "type": "message",
+        "text": {
+            "es": "Que tu camino esté lleno de luz... y de posadas baratas.",
+            "en": "May your road be full of light... and cheap inns.",
+            "fr": "Que ton chemin soit rempli de lumière... et d'auberges bon marché.",
+            "it": "Che il tuo cammino sia pieno di luce... e di locande economiche.",
+            "de": "Möge dein Weg voller Licht sein... und billiger Herbergen.",
+            "zh": "愿你的道路充满光明……以及便宜的旅店。",
+            "ja": "あなたの道が光に満ちますように……そして安宿にもね。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "mara_1b": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Marcharse",
+            "en": "🚶  Leave",
+            "fr": "🚶  Partir",
+            "it": "🚶  Andarsene",
+            "de": "🚶  Gehen",
+            "zh": "🚶  离开",
+            "ja": "🚶  立ち去る"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

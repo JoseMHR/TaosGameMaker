@@ -1,0 +1,48 @@
+{
+    "name": {
+        "es": "Hoja Imperial",
+        "en": "Imperial Blade",
+        "fr": "Lame Impériale",
+        "it": "Lama Imperiale",
+        "de": "Kaiserklinge",
+        "zh": "帝国之刃",
+        "ja": "インペリアルブレード"
+    },
+    "desc": {
+        "es": "Espada de ceremonia y combate bendecida por la guardia real de Celestia.",
+        "en": "Ceremonial blade blessed by Celestia's royal guard.",
+        "fr": "Épée de cérémonie et de combat bénie par la garde royale de Celestia.",
+        "it": "Spada cerimoniale e da combattimento benedetta dalla guardia reale di Celestia.",
+        "de": "Zeremonial- und Kampfschwert, gesegnet von Celestias königlicher Garde.",
+        "zh": "受塞莱斯提亚皇家卫队祝福的礼仪与战斗用剑。",
+        "ja": "セレスティア王室近衛隊に祝福された儀礼用兼戦闘用の剣。"
+    },
+    "icon": "🗡️",
+    "category": "equipment",
+    "usable": false,
+    "slot": "weapon",
+    "tier": 4,
+    "element": "holy",
+    "bonuses": {
+        "str": 8,
+        "luk": 4
+    },
+    "combat": {
+        "phys_damage": 88
+    },
+    "traits": [
+        {
+            "type": "element_attack",
+            "element": "holy",
+            "min_refine": 0,
+            "desc": "Ataques imbuidos en elemento Sagrado"
+        },
+        {
+            "type": "resist_element",
+            "element": "holy",
+            "value": 0.15,
+            "min_refine": 5,
+            "desc": "+15% Resistencia a elemento Sagrado"
+        }
+    ]
+}

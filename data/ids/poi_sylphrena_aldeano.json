@@ -1,0 +1,33 @@
+{
+    "id": "poi_sylphrena_aldeano",
+    "type": "poi",
+    "name": {
+        "es": "Casa del Aldeano",
+        "en": "Villager's House",
+        "fr": "Maison du Villageois",
+        "it": "Casa del Villico",
+        "de": "Haus des Dorfbewohners",
+        "zh": "村民之家",
+        "ja": "村人の家"
+    },
+    "icon": "🏡",
+    "desc": {
+        "es": "Un diario perdido",
+        "en": "A lost diary",
+        "fr": "Un journal perdu",
+        "it": "Un diario perduto",
+        "de": "Ein verlorenes Tagebuch",
+        "zh": "一本遗失的日记",
+        "ja": "失われた日記"
+    },
+    "kind": "npc",
+    "npc": "lost_diary_npc",
+    "presences": [
+        {
+            "condition": "default",
+            "actor": "lost_diary_npc",
+            "entry_node": ""
+        }
+    ],
+    "bg": "bg_city_sylphrena_aldeano.png"
+}

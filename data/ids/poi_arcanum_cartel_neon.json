@@ -1,0 +1,26 @@
+{
+    "id": "poi_arcanum_cartel_neon",
+    "type": "poi",
+    "icon": "📢",
+    "name": {
+        "es": "El Cartel de Neón Mentiroso",
+        "en": "The Lying Neon Sign",
+        "fr": "L'Enseigne Néon Menteuse",
+        "it": "L'Insegna al Neon Bugiarda",
+        "de": "Das Lügende Neonschild",
+        "zh": "撒谎的霓虹招牌",
+        "ja": "嘘つきのネオン看板"
+    },
+    "desc": {
+        "es": "Un enorme anuncio corporativo de neón cuyos parpadeos, leídos con atención, forman un mensaje muy distinto al oficial. (POI de inspección).",
+        "en": "A huge corporate neon ad whose flickers, read carefully, spell out a message very different from the official one. (Inspection POI).",
+        "fr": "Une énorme publicité néon d'entreprise dont les clignotements, lus attentivement, forment un message très différent du message officiel. (POI d'inspection).",
+        "it": "Un'enorme pubblicità al neon aziendale i cui lampeggiamenti, letti con attenzione, formano un messaggio molto diverso da quello ufficiale. (POI di ispezione).",
+        "de": "Eine riesige Firmen-Neonreklame, deren Blinken, aufmerksam gelesen, eine ganz andere Botschaft als die offizielle ergibt. (Inspektions-POI).",
+        "zh": "一块巨大的企业霓虹广告牌，若仔细解读其闪烁规律，会拼出与官方信息截然不同的讯息。（探查类兴趣点）。",
+        "ja": "巨大な企業のネオン広告。その点滅を注意深く読むと、公式のものとは全く違うメッセージが浮かび上がる。（調査ポイント）。"
+    },
+    "npc": "poi_arcanum_cartel_neon",
+    "bg": "bg_world_poi_arcanum_cartel_neon.png",
+    "music": "poi_generic"
+}

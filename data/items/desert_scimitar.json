@@ -1,0 +1,46 @@
+{
+    "name": {
+        "es": "Cimitarra del Sol",
+        "en": "Sun Scimitar",
+        "fr": "Cimeterre du Soleil",
+        "it": "Scimitarra del Sole",
+        "de": "Sonnensäbel",
+        "zh": "烈日弯刀",
+        "ja": "サンシミター"
+    },
+    "desc": {
+        "es": "Hoja curva forjada en las arenas abrasadoras de Gloriam.",
+        "en": "Curved blade forged in Gloriam's scorching sands.",
+        "fr": "Lame courbe forgée dans les sables brûlants de Gloriam.",
+        "it": "Lama curva forgiata nelle sabbie roventi di Gloriam.",
+        "de": "Gebogene Klinge, geschmiedet in Gloriams sengenden Sanden.",
+        "zh": "在格洛里亚姆炽热沙地锻造的弯刀。",
+        "ja": "グロリアムの灼熱の砂で鍛えられた曲刀。"
+    },
+    "icon": "🗡️",
+    "category": "equipment",
+    "usable": false,
+    "slot": "weapon",
+    "tier": 5,
+    "bonuses": {
+        "dex": 14,
+        "str": 8
+    },
+    "combat": {
+        "phys_damage": 155
+    },
+    "traits": [
+        {
+            "type": "crit_chance",
+            "value": 0.1,
+            "min_refine": 0,
+            "desc": "+10% Probabilidad de Crítico"
+        },
+        {
+            "type": "element_attack",
+            "element": "fire",
+            "min_refine": 5,
+            "desc": "Ataques físicos imbuidos en Fuego"
+        }
+    ]
+}

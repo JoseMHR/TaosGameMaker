@@ -1,0 +1,10 @@
+{
+    "code": "bloqueo_piedra",
+    "order": 21,
+    "label": "Bloqueo de Piedra",
+    "icon": "🧱",
+    "model_path": "bloqueo_piedra",
+    "biome_color": "#475569",
+    "description": "Muro de piedra que bloquea el paso. Solo rompible con bombas.",
+    "placeable": true
+}

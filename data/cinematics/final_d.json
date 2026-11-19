@@ -1,0 +1,93 @@
+﻿{
+    "id": "final_d",
+    "title": {
+        "es": "Final D — Autodestrucción",
+        "en": "Ending D — Self-destruction",
+        "fr": "Fin D — Autodestruction",
+        "it": "Finale D — Autodistruzione",
+        "de": "Ende D — Selbstzerstörung",
+        "zh": "结局D——自我毁灭",
+        "ja": "エンディングD——自己破壊"
+    },
+    "desc": "El peso de la culpa y la renuncia. Aiden suelta las cuatro esferas robadas y deja que el mundo se apague en silencio.",
+    "music": "world_zone1_flooded",
+    "on_finish": "end",
+    "ops": "gflag:ending_destruction;questf:game_completed",
+    "slides": [
+        {
+            "bg": "bg_ending_d_1.png",
+            "speaker": {
+                "es": "Final D — Autodestrucción",
+                "en": "Ending D — Self-destruction",
+                "fr": "Fin D — Autodestruction",
+                "it": "Finale D — Autodistruzione",
+                "de": "Ende D — Selbstzerstörung",
+                "zh": "结局D——自我毁灭",
+                "ja": "エンディングD——自己破壊"
+            },
+            "portrait": "",
+            "text": {
+                "es": "El remordimiento pesa más que todos los reinos que cruzó. Aiden ya no quiere venganza ni perdón: solo que pare. Mira la Esfera y comprende que este mundo entero se sostiene únicamente sobre sus ganas de seguir.",
+                "en": "Remorse weighs more than all the realms he crossed. Aiden wants neither vengeance nor forgiveness anymore: only for it to stop. He looks at the Sphere and understands this whole world stands on nothing but his will to go on.",
+                "fr": "Le remords pèse plus lourd que tous les royaumes qu'il a traversés. Aiden ne veut plus ni vengeance ni pardon : seulement que cela s'arrête. Il regarde la Sphère et comprend que ce monde entier ne tient que par sa propre volonté de continuer.",
+                "it": "Il rimorso pesa più di tutti i regni che ha attraversato. Aiden non vuole più vendetta né perdono: vuole solo che finisca. Guarda la Sfera e comprende che questo intero mondo si regge unicamente sulla sua voglia di continuare.",
+                "de": "Reue wiegt schwerer als all die Reiche, die er durchquert hat. Aiden will weder Rache noch Vergebung: nur, dass es aufhört. Er blickt auf die Sphäre und begreift, dass diese ganze Welt einzig auf seinem Willen weiterzumachen ruht.",
+                "zh": "悔恨的分量，比他穿越过的所有王国都要沉重。艾登不再想要复仇，也不再想要宽恕：他只想让这一切停止。他望着球体，明白这整个世界的存在，仅仅依靠他继续下去的意志。",
+                "ja": "後悔は、彼が越えてきたどの王国よりも重い。エイデンはもはや復讐も赦しも望まない。ただ、終わってほしいだけだ。彼は球を見つめ、この世界全体が彼自身の「続けたい」という意志だけで成り立っていることを理解する。"
+            },
+            "fx": {
+                "darken": 0.55
+            }
+        },
+        {
+            "bg": "bg_ending_d_2.png",
+            "speaker": {
+                "es": "Narrador",
+                "en": "Narrator",
+                "fr": "Narrateur",
+                "it": "Narratore",
+                "de": "Erzähler",
+                "zh": "旁白",
+                "ja": "ナレーター"
+            },
+            "portrait": "",
+            "text": {
+                "es": "Abre la mano. En la palma, las cuatro pequeñas esferas que él y Roxas robaron del templo aquella noche. Las deposita en el suelo de piedra, una a una, despacio, como quien cierra los ojos de un niño dormido. 'Perdonadme. A todos. Ya no puedo cargaros más.'",
+                "en": "He opens his hand. In his palm, the four small spheres he and Roxas stole from the temple that night. He lays them on the stone floor, one by one, slowly, like closing a sleeping child's eyes. 'Forgive me. All of you. I can't carry you any longer.'",
+                "fr": "Il ouvre la main. Dans sa paume, les quatre petites sphères que lui et Roxas ont dérobées au temple cette nuit-là. Il les dépose sur le sol de pierre, une à une, lentement, comme on ferme les yeux d'un enfant endormi. « Pardonnez-moi. Tous. Je ne peux plus vous porter davantage. »",
+                "it": "Apre la mano. Sul palmo, le quattro piccole sfere che lui e Roxas rubarono al tempio quella notte. Le depone sul pavimento di pietra, una a una, lentamente, come chi chiude gli occhi di un bambino addormentato. 'Perdonatemi. Tutti voi. Non posso più portarvi.'",
+                "de": "Er öffnet die Hand. In seiner Handfläche liegen die vier kleinen Sphären, die er und Roxas in jener Nacht aus dem Tempel stahlen. Er legt sie eine nach der anderen langsam auf den Steinboden, wie jemand, der einem schlafenden Kind die Augen schließt. „Vergebt mir. Euch allen. Ich kann euch nicht länger tragen.“",
+                "zh": "他张开了手。掌心里是他与罗克萨斯那晚从神庙偷来的四颗小球体。他一颗接一颗，缓缓地把它们放在石地上，动作就像替熟睡的孩子合上眼睛。「原谅我。你们所有人。我再也无法背负你们了。」",
+                "ja": "彼は手を開く。手のひらには、あの夜彼とロクサスが神殿から盗んだ四つの小さな球がある。眠る子どもの瞼を閉じるように、一つずつ、ゆっくりと石の床に置いていく。「許してくれ。お前たち全員に。もうこれ以上、背負うことはできない」"
+            },
+            "fx": {
+                "darken": 0.65
+            }
+        },
+        {
+            "bg": "bg_ending_d_3.png",
+            "speaker": {
+                "es": "Narrador",
+                "en": "Narrator",
+                "fr": "Narrateur",
+                "it": "Narratore",
+                "de": "Erzähler",
+                "zh": "旁白",
+                "ja": "ナレーター"
+            },
+            "portrait": "",
+            "text": {
+                "es": "Y deja de sostener el mundo. Zona a zona se apaga — el desierto, el mar, la nieve, el páramo donde todo empezó — como una vela sin aire. No hay grito ni furia. Solo un silencio que él mismo eligió, y que por fin, por fin, no duele.",
+                "en": "And he stops holding up the world. Zone by zone it goes dark — the desert, the sea, the snow, the moor where it all began — like a candle starved of air. No scream, no fury. Only a silence he chose himself, and which at last, at last, does not hurt.",
+                "fr": "Et il cesse de soutenir le monde. Zone par zone il s'éteint — le désert, la mer, la neige, la lande où tout a commencé — comme une bougie privée d'air. Ni cri ni fureur. Seulement un silence qu'il a choisi lui-même, et qui, enfin, enfin, ne fait plus mal.",
+                "it": "E smette di sostenere il mondo. Zona dopo zona si spegne — il deserto, il mare, la neve, la landa dove tutto è iniziato — come una candela privata d'aria. Nessun grido né furia. Solo un silenzio che ha scelto lui stesso, e che finalmente, finalmente, non fa più male.",
+                "de": "Und er hört auf, die Welt zu tragen. Zone für Zone erlischt sie — die Wüste, das Meer, der Schnee, das Moor, wo alles begann — wie eine Kerze ohne Luft. Kein Schrei, keine Wut. Nur eine Stille, die er selbst gewählt hat, und die endlich, endlich nicht mehr wehtut.",
+                "zh": "然后他停止了对这个世界的支撑。一个区域接一个区域地熄灭——沙漠、大海、雪原，还有一切开始的那片荒原——像一支被抽走空气的蜡烛。没有尖叫，没有愤怒。只有一种他自己选择的寂静，而这寂静，终于，终于不再疼痛。",
+                "ja": "そして彼は世界を支えることをやめる。区域ごとに、それは消えていく——砂漠、海、雪原、すべてが始まった荒野——空気を断たれた蝋燭のように。叫びも怒りもない。あるのはただ、彼自身が選んだ沈黙。そしてその沈黙は、ついに、ついに、もう痛くはないのだ。"
+            },
+            "fx": {
+                "darken": 0.85
+            }
+        }
+    ]
+}

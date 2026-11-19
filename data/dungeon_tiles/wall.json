@@ -1,0 +1,12 @@
+{
+	"t": "wall",
+	"order": 101,
+	"label": "Pared",
+	"icon": "🧱",
+	"color": "#6b5040",
+	"group": "Estructura",
+	"solid": true,
+	"render": {
+		"shape": "wall"
+	}
+}

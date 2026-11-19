@@ -1,0 +1,23 @@
+{
+    "name": {
+        "es": "Semilla de Arroz",
+        "en": "Rice Seed",
+        "fr": "Graine de Riz",
+        "it": "Seme di Riso",
+        "de": "Reissamen",
+        "zh": "稻种",
+        "ja": "米の種"
+    },
+    "desc": {
+        "es": "Plántala en tierra o pradera despejada. Tarda 24 horas de juego en madurar.",
+        "en": "Plant it on cleared soil or grassland. Takes 24 in-game hours to mature.",
+        "fr": "Plantez-la sur une terre ou une prairie dégagée. Met 24 heures de jeu à mûrir.",
+        "it": "Piantala su terreno o prateria sgombra. Impiega 24 ore di gioco per maturare.",
+        "de": "Pflanze ihn auf freiem Boden oder Grasland. Reift in 24 Spielstunden.",
+        "zh": "种植于空地或草地。需要 24 个游戏内小时才能成熟。",
+        "ja": "整地された土地や草原に植える。ゲーム内時間で24時間で成熟する。"
+    },
+    "icon": "🌱",
+    "category": "other",
+    "usable": false
+}

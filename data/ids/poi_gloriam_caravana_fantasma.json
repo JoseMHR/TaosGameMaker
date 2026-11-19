@@ -1,0 +1,26 @@
+{
+    "id": "poi_gloriam_caravana_fantasma",
+    "type": "poi",
+    "icon": "💀",
+    "name": {
+        "es": "La Caravana Fantasma",
+        "en": "The Ghost Caravan",
+        "fr": "La Caravane Fantôme",
+        "it": "La Carovana Fantasma",
+        "de": "Die Geisterkarawane",
+        "zh": "幽灵商队",
+        "ja": "幽霊キャラバン"
+    },
+    "desc": {
+        "es": "Los restos de una caravana entera, camellos y mercaderes, congelados en pleno paso por la arena hace siglos. (POI de inspección).",
+        "en": "The remains of an entire caravan, camels and merchants, frozen mid-step in the sand centuries ago. (Inspection POI).",
+        "fr": "Les restes d'une caravane entière, chameaux et marchands, figés en pleine marche dans le sable il y a des siècles. (POI d'inspection).",
+        "it": "I resti di un'intera carovana, cammelli e mercanti, congelati a metà del passo nella sabbia secoli fa. (POI di ispezione).",
+        "de": "Die Überreste einer gesamten Karawane, Kamele und Händler, vor Jahrhunderten mitten im Schritt im Sand erstarrt. (Inspektions-POI).",
+        "zh": "整支商队的遗骸——骆驼与商人——几个世纪前在沙中行进途中被定格。（探查类兴趣点）。",
+        "ja": "数世紀前、砂の中を歩いている最中に凍りついた、ラクダと商人からなるキャラバン一行の残骸。（調査ポイント）。"
+    },
+    "npc": "poi_gloriam_caravana_fantasma",
+    "bg": "bg_world_poi_gloriam_caravana_fantasma.png",
+    "music": "creepy"
+}

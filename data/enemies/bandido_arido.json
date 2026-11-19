@@ -1,0 +1,54 @@
+{
+  "name": {
+    "es": "Bandido de las Dunas",
+    "en": "Dune Bandit",
+    "fr": "Bandit des Dunes",
+    "it": "Bandito delle Dune",
+    "de": "Dünenbandit",
+    "zh": "沙丘强盗",
+    "ja": "デューンバンディット"
+  },
+  "family": "humanoid",
+  "archetype": "balanced",
+  "icon": "🗡️",
+  "image": "res://assets/combat/enemies/en_desert_bandit.png",
+  "attack_type": "physical",
+  "base_dodge": 6.0,
+  "dodge_scale": 0.2,
+  "element": "physical",
+  "weak_to": [
+    "magic"
+  ],
+  "resist": [
+    "poison"
+  ],
+  "ai": "aggressive",
+  "xp_reward_base": 58,
+  "xp_reward_scale": 6.8,
+  "gold_reward_base": 28,
+  "gold_reward_scale": 4.2,
+  "skills": [
+    {
+      "level": 1,
+      "skill_id": "rend"
+    },
+    {
+      "level": 9,
+      "skill_id": "heavy_strike"
+    }
+  ],
+  "loot": [
+    {
+      "kind": "gold",
+      "min": 30,
+      "max": 70
+    },
+    {
+      "kind": "equipment",
+      "chance": 0.35,
+      "level": 5
+    }
+  ],
+  "zone": "zona_3_sylphrena",
+  "is_boss": false
+}

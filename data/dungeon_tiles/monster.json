@@ -1,0 +1,9 @@
+{
+	"t": "monster",
+	"order": 203,
+	"label": "Monstruo",
+	"icon": "👾",
+	"color": "#a2371f",
+	"group": "Sistema",
+	"entity": true
+}

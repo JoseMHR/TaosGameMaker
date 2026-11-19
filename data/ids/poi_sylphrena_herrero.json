@@ -1,0 +1,32 @@
+{
+    "id": "poi_sylphrena_herrero",
+    "type": "poi",
+    "name": {
+        "es": "Herrería de Borin",
+        "en": "Borin's Smithy",
+        "fr": "Forge de Borin",
+        "it": "Fucina di Borin",
+        "de": "Borins Schmiede",
+        "zh": "波林的锻造铺",
+        "ja": "ボリンの鍛冶場"
+    },
+    "icon": "🛠️",
+    "desc": {
+        "es": "El yunque resuena",
+        "en": "The anvil rings",
+        "fr": "L'enclume résonne",
+        "it": "L'incudine risuona",
+        "de": "Der Amboss erklingt",
+        "zh": "铁砧铿锵作响",
+        "ja": "鉄床が響く"
+    },
+    "kind": "forge",
+    "presences": [
+        {
+            "condition": "default",
+            "actor": "poi_sylphrena_herrero",
+            "entry_node": ""
+        }
+    ],
+    "bg": "bg_city_sylphrena_herrero.png"
+}

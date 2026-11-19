@@ -1,0 +1,266 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "Leyla",
+            "en": "Leyla",
+            "fr": "Leyla",
+            "it": "Leyla",
+            "de": "Leyla",
+            "zh": "蕾拉",
+            "ja": "レイラ"
+        },
+        "next": [],
+        "reward": "avatar=🏡;bg=0.16,0.11,0.03"
+    },
+    "ley_done": {
+        "type": "message",
+        "text": {
+            "es": "¡Especia Carmesí, y con el sello de Yasmín! Gracias a la Esfera, están a salvo. Voy a correr la voz por todo el bazar de lo que has hecho por nosotros: Zaid te hará un buen precio de por vida.",
+            "en": "Crimson Pepper, with Yasmin's seal! Thank the Sphere, they are safe. I'll spread the word through the whole bazaar about what you did for us: Zaid will always give you a good price.",
+            "fr": "Piment Cramoisi, avec le sceau de Yasmin ! Grâce à la Sphère, ils sont sains et saufs. Je vais faire courir le bruit dans tout le bazar de ce que tu as fait pour nous : Zaid te fera toujours un bon prix.",
+            "it": "Spezia Cremisi, con il sigillo di Yasmin! Grazie alla Sfera, sono al sicuro. Farò girare la voce in tutto il bazar di ciò che hai fatto per noi: Zaid ti farà sempre un buon prezzo.",
+            "de": "Karmesinpfeffer, mit Yasmins Siegel! Dank der Sphäre sind sie in Sicherheit. Ich werde im ganzen Basar erzählen, was du für uns getan hast: Zaid wird dir immer einen guten Preis machen.",
+            "zh": "深红辣椒，还带着雅斯敏的印记！感谢真理之球，他们平安无事了。我会把你为我们做的事传遍整个集市：扎伊德会一直给你优惠的价格。",
+            "ja": "深紅の香辛料、ヤスミンの印章付きだ！球のおかげで、彼女たちは無事だった。あなたが私たちのためにしてくれたことを、バザール中に広めるわ。ザイードはいつでもあなたに良い値段をつけてくれるでしょう。"
+        },
+        "next": [
+            "ley_done_ok"
+        ],
+        "reward": "-item:especia_carmesi=1;gflag:gloriam_caravan_rescued;faceta:amabilidad=+2;gold:120",
+        "condition": "has_flag(\"caravan_quest_accepted\") and has_item(\"especia_carmesi\") and no_gflag(\"gloriam_caravan_rescued\")",
+        "once": true
+    },
+    "ley_done_ok": {
+        "type": "option",
+        "text": {
+            "es": "😊  Me alegro por Yasmín",
+            "en": "😊  Glad Yasmin is safe",
+            "fr": "😊  Content que Yasmin soit en sécurité",
+            "it": "😊  Sono contento che Yasmin sia al sicuro",
+            "de": "😊  Froh, dass Yasmin sicher ist",
+            "zh": "😊  很高兴雅斯敏平安无事",
+            "ja": "😊  ヤスミンが無事で良かった"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "ley_waiting": {
+        "type": "message",
+        "text": {
+            "es": "¿Alguna noticia de la caravana de mi prima? Drones autómatas, esqueletos y elementales de tierra vagan por las dunas al sur de la ciudad, cerca de la Mazmorra del Desierto. Cualquier resto de Pimienta Carmesí que encuentres entre las ruinas de la caravana, tráemelo.",
+            "en": "Any word on my cousin's caravan? Rogue drones, skeletons and earth elementals roam the dunes south of the city, near the Desert Dungeon. Any Crimson Pepper you find among the caravan's wreckage, bring it to me.",
+            "fr": "Des nouvelles de la caravane de ma cousine ? Des drones automates, des squelettes et des élémentaires de terre errent dans les dunes au sud de la ville, près de la Mazmorra du Désert. Tout reste de Piment Cramoisi que tu trouves parmi les ruines de la caravane, apporte-le-moi.",
+            "it": "Notizie della carovana di mia cugina? Droni automi, scheletri ed elementali di terra vagano per le dune a sud della città, vicino alla Prigione del Deserto. Qualsiasi resto di Spezia Cremisi che trovi tra le rovine della carovana, portamelo.",
+            "de": "Irgendwelche Neuigkeiten über die Karawane meiner Cousine? Automatendrohnen, Skelette und Erdelementare streifen durch die Dünen südlich der Stadt, in der Nähe des Wüstenkerkers. Jeden Rest von Karmesinpfeffer, den du unter den Trümmern der Karawane findest, bring ihn mir.",
+            "zh": "有我表妹商队的消息吗？自动无人机、骷髅和土元素在城南的沙丘间游荡，靠近沙漠地牢。你若在商队残骸中找到任何深红辣椒，都请带给我。",
+            "ja": "従妹のキャラバンについて何か知らせは？自律ドローン、骸骨、土のエレメンタルが街の南、砂漠のダンジョンの近くの砂丘を彷徨っている。キャラバンの残骸の中で深紅の香辛料を見つけたら、私のところに持ってきて。"
+        },
+        "next": [
+            "ley_waiting_ok"
+        ],
+        "reward": "",
+        "condition": "has_flag(\"caravan_quest_accepted\") and no_gflag(\"gloriam_caravan_rescued\")"
+    },
+    "ley_waiting_ok": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Seguiré buscando",
+            "en": "🚶  I'll keep looking",
+            "fr": "🚶  Je continuerai à chercher",
+            "it": "🚶  Continuerò a cercare",
+            "de": "🚶  Ich suche weiter",
+            "zh": "🚶  我会继续寻找",
+            "ja": "🚶  引き続き探してみる"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "ley_offer": {
+        "type": "message",
+        "text": {
+            "es": "Ah, viajero... ¿tienes un momento? La caravana de mi prima Yasmín no ha llegado. Salió hace días cargada de especias para el bazar de Zaid, y las rutas del sur están infestadas de drones autómatas, esqueletos y elementales de tierra. Temo lo peor.",
+            "en": "Ah, traveler... do you have a moment? My cousin Yasmin's caravan hasn't arrived. It left days ago loaded with spices for Zaid's bazaar, and the southern routes are crawling with rogue drones, skeletons and earth elementals. I fear the worst.",
+            "fr": "Ah, voyageur... as-tu un moment ? La caravane de ma cousine Yasmin n'est pas arrivée. Elle est partie il y a des jours, chargée d'épices pour le bazar de Zaid, et les routes du sud grouillent de drones automates, de squelettes et d'élémentaires de terre. Je crains le pire.",
+            "it": "Ah, viaggiatore... hai un momento? La carovana di mia cugina Yasmin non è arrivata. È partita giorni fa carica di spezie per il bazar di Zaid, e le rotte del sud brulicano di droni automi, scheletri ed elementali di terra. Temo il peggio.",
+            "de": "Ah, Reisender... hast du einen Moment? Die Karawane meiner Cousine Yasmin ist nicht angekommen. Sie ist vor Tagen aufgebrochen, beladen mit Gewürzen für Zaids Basar, und die südlichen Routen wimmeln von Automatendrohnen, Skeletten und Erdelementaren. Ich befürchte das Schlimmste.",
+            "zh": "啊，旅人……你有空吗？我表妹雅斯敏的商队还没到。几天前她带着香料出发前往扎伊德的集市，而南方的道路上到处是自动无人机、骷髅和土元素。我担心发生了最坏的事。",
+            "ja": "ああ、旅人よ……少し時間はある？従妹ヤスミンのキャラバンが到着していないの。数日前にザイードのバザール向けの香辛料を積んで出発したのだけど、南のルートは自律ドローンや骸骨、土のエレメンタルだらけ。最悪の事態を恐れているわ。"
+        },
+        "next": [
+            "ley_offer_ask",
+            "ley_offer_no"
+        ],
+        "reward": "",
+        "condition": "no_flag(\"caravan_quest_accepted\")"
+    },
+    "ley_offer_ask": {
+        "type": "option",
+        "text": {
+            "es": "⚔️  Buscaré la carga perdida entre las dunas",
+            "en": "⚔️  I'll search the dunes for the lost cargo",
+            "fr": "⚔️  Je chercherai la cargaison perdue parmi les dunes",
+            "it": "⚔️  Cercherò il carico perduto tra le dune",
+            "de": "⚔️  Ich werde in den Dünen nach der verlorenen Fracht suchen",
+            "zh": "⚔️  我会去沙丘中寻找那批丢失的货物",
+            "ja": "⚔️  砂丘で失われた積荷を探そう"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "flag:caravan_quest_accepted"
+    },
+    "ley_offer_no": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Ahora no puedo",
+            "en": "🚶  I can't right now",
+            "fr": "🚶  Je ne peux pas maintenant",
+            "it": "🚶  Ora non posso",
+            "de": "🚶  Jetzt kann ich nicht",
+            "zh": "🚶  我现在没空",
+            "ja": "🚶  今は無理だ"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "ley_1": {
+        "type": "message",
+        "text": {
+            "es": "¡Hola, forastero! Las noches en Gloriam son frescas y llenas de música. Si buscas refugio, siempre eres bienvenido.",
+            "en": "Hello, stranger! Nights in Gloriam are cool and filled with music. If you seek shelter, you are welcome.",
+            "fr": "Bonjour, étranger ! Les nuits à Gloriam sont fraîches et pleines de musique. Si tu cherches un abri, tu es toujours le bienvenu.",
+            "it": "Ciao, straniero! Le notti a Gloriam sono fresche e piene di musica. Se cerchi rifugio, sei sempre il benvenuto.",
+            "de": "Hallo, Fremder! Die Nächte in Gloriam sind kühl und voller Musik. Wenn du Unterschlupf suchst, bist du immer willkommen.",
+            "zh": "你好，陌生人！格洛里亚姆的夜晚清凉又充满音乐。如果你需要住处，永远欢迎你。",
+            "ja": "こんにちは、旅人さん！グロリアムの夜は涼しくて音楽にあふれているわ。宿を探しているなら、いつでも歓迎するわよ。"
+        },
+        "next": [
+            "ley_opt_consejos",
+            "ley_opt_especias",
+            "ley_1a",
+            "ley_1b"
+        ],
+        "reward": ""
+    },
+    "ley_1a": {
+        "type": "option",
+        "text": {
+            "es": "🙏  Gracias por tu hospitalidad",
+            "en": "🙏  Thanks for your hospitality",
+            "fr": "🙏  Merci pour ton hospitalité",
+            "it": "🙏  Grazie per la tua ospitalità",
+            "de": "🙏  Danke für deine Gastfreundschaft",
+            "zh": "🙏  谢谢你的款待",
+            "ja": "🙏  もてなしに感謝する"
+        },
+        "next": [
+            "ley_hospitalidad"
+        ],
+        "reward": ""
+    },
+    "ley_hospitalidad": {
+        "type": "message",
+        "text": {
+            "es": "En el desierto compartir el techo es un deber sagrado. ¡Descansa cuanto necesites!",
+            "en": "In the desert sharing shelter is a sacred duty. Rest as long as you need!",
+            "fr": "Dans le désert, partager son toit est un devoir sacré. Repose-toi autant que nécessaire !",
+            "it": "Nel deserto condividere il tetto è un dovere sacro. Riposa quanto ti serve!",
+            "de": "In der Wüste ist es eine heilige Pflicht, sein Dach zu teilen. Ruh dich aus, so lange du brauchst!",
+            "zh": "在沙漠中，分享屋檐是一种神圣的义务。想休息多久就休息多久！",
+            "ja": "砂漠では、屋根を分かち合うことは神聖な義務よ。必要なだけ休んでいって！"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "ley_1b": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Hasta pronto",
+            "en": "🚶  See you soon",
+            "fr": "🚶  À bientôt",
+            "it": "🚶  A presto",
+            "de": "🚶  Bis bald",
+            "zh": "🚶  再见",
+            "ja": "🚶  また近いうちに"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "ley_opt_consejos": {
+        "type": "option",
+        "text": {
+            "es": "🦂  ¿Algún consejo vital para alguien que no está acostumbrado a las dunas?",
+            "en": "🦂  Any essential advice for someone unused to the dunes?",
+            "fr": "🦂  Un conseil indispensable pour quelqu'un qui n'est pas habitué aux dunes ?",
+            "it": "🦂  Un consiglio indispensabile per chi non è abituato alle dune?",
+            "de": "🦂  Ein lebenswichtiger Rat für jemanden, der die Dünen nicht gewohnt ist?",
+            "zh": "🦂  对一个不习惯沙丘的人，有什么至关重要的建议吗？",
+            "ja": "🦂  砂丘に不慣れな者に、何か欠かせない助言はあるか？"
+        },
+        "next": [
+            "ley_msg_consejos"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "ley_msg_consejos": {
+        "type": "message",
+        "text": {
+            "es": "Leyla sonríe con complicidad: 'Regla número uno: sacude siempre las botas boca abajo antes de ponértelas por la mañana. A los escorpiones amarillos les fascina usarlas de saco de dormir de lujo. Regla número dos: si un buhonero en el zoco te jura por sus ancestros que una alfombra vuela... asegúrate de que no haya escondido un ventilador debajo. Y regla tres: nunca rechaces una taza de té, aunque esté hirviendo; ofenderías hasta a las paredes.'",
+            "en": "Leyla smiles knowingly: 'Rule number one: always shake your boots upside down before slipping them on in the morning. Golden scorpions love treating leather footwear like luxury sleeping bags. Rule number two: if a bazaar peddler swears on his ancestors that a carpet flies... check underneath for concealed bellows. And rule three: never refuse a cup of mint tea, even if it's scalding hot; you'd insult the very stone walls.'",
+            "fr": "Leyla sourit d'un air complice : « Règle numéro un : secoue toujours tes bottes à l'envers avant de les enfiler le matin. Les scorpions dorés adorent s'en servir comme de sacs de couchage de luxe. Règle numéro deux : si un colporteur au bazar te jure sur ses ancêtres qu'un tapis vole... vérifie qu'il n'y a pas un soufflet caché dessous. Et règle trois : ne refuse jamais une tasse de thé à la menthe, même bouillante ; tu offenserais jusqu'aux murs. »",
+            "it": "Leyla sorride con complicità: 'Regola numero uno: scuoti sempre gli stivali a testa in giù prima di infilarteli la mattina. Gli scorpioni dorati adorano usarli come sacchi a pelo di lusso. Regola numero due: se un mercante al bazar giura sui suoi antenati che un tappeto vola... controlla sotto che non ci sia un mantice nascosto. E regola tre: non rifiutare mai una tazza di tè alla menta, anche se scotta; offenderesti persino le mura.'",
+            "de": "Leyla lächelt verschmitzt: „Regel Nummer eins: Schüttle morgens immer deine Stiefel verkehrt herum aus, bevor du hineinschlüpfst. Goldskorpione lieben es, Lederstiefel als Luxusschlafsäcke zu nutzen. Regel Nummer zwei: Wenn ein Basarhändler bei seinen Ahnen schwört, dass ein Teppich fliegt... prüfe, ob darunter kein Blasebalg versteckt ist. Und Regel drei: Lehne niemals eine Tasse Minztee ab, selbst wenn sie kochend heiß ist; du würdest selbst die Lehmwände beleidigen.“",
+            "zh": "蕾拉会心地笑了笑：「第一条规则：早上穿鞋前，务必把靴子倒过来抖一抖。金蝎最喜欢把皮革靴当成豪华睡袋了。第二条规则：如果集市上的小贩指着祖先发誓说地毯会飞……去底下检查检查有没有藏着风箱。第三条规则：永远不要拒绝一杯薄荷茶，哪怕它烫得滚烫；否则连土墙都会觉得被冒犯了。」",
+            "ja": "レイラは心得たように微笑む。「第一の掟：朝履く前に、必ずブーツを逆さにして振ること。金色のサソリは革靴を高級寝袋にするのが大好きなの。第二の掟：バザールの行商人が先祖に誓って絨毯が飛ぶと言ったら……下に隠しふいごがないか確かめること。そして第三の掟：どんなに熱くてもミントティーを断らないこと。断ったら壁の土でさえ侮辱されたと感じるわ」"
+        },
+        "next": [
+            "ley_1"
+        ],
+        "reward": "faceta:astucia=+1"
+    },
+    "ley_opt_especias": {
+        "type": "option",
+        "text": {
+            "es": "🌶️  Ese aroma que sale de tu cocina... ¿qué especia es?",
+            "en": "🌶️  That fragrance drifting from your hearth... which spice is that?",
+            "fr": "🌶️  Ce parfum qui s'échappe de ta cuisine... quelle est cette épice ?",
+            "it": "🌶️  Quel profumo che esce dalla tua cucina... che spezia è?",
+            "de": "🌶️  Dieser Duft aus deiner Küche... welches Gewürz ist das?",
+            "zh": "🌶️  从你炉灶飘出来的这股香气……是什么香料？",
+            "ja": "🌶️  かまどから漂ってくるその香り……何の香辛料なんだ？"
+        },
+        "next": [
+            "ley_msg_especias"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "ley_msg_especias": {
+        "type": "message",
+        "text": {
+            "es": "Leyla destapa una tinaja de arcilla con reverencia: 'Es cardamomo del cañón tostado con pétalos de rosa del desierto. Una cucharadita en el guiso te cura la melancolía del viaje y ahuyenta los resfriados nocturnos. Los ancianos dicen que si lo hueles tres veces seguidas bajo la luna llena, recuerdas cosas que olvidaste antes de nacer.' Te regala una pizca envuelta en papel de palma.",
+            "en": "Leyla unseals a clay jar with reverent care: 'Canyon cardamom toasted alongside desert rose petals. A pinch in the stew dispels traveler's sorrow and keeps the bitter night chill at bay. The elders say inhaling it thrice beneath a full moon lets you remember truths you forgot before you were even born.' She gifts you a fragrant pinch folded in palm paper.",
+            "fr": "Leyla débouche une jarre d'argile avec révérence : « C'est de la cardamome des canyons torréfiée avec des pétales de rose du désert. Une pincée dans le ragoût dissipe la mélancolie du voyage et chasse les frissons nocturnes. Les anciens disent que respirer son parfum trois fois sous la pleine lune te rappelle des vérités oubliées avant même ta naissance. » Elle t'offre une pincée pliée dans une feuille de palmier.",
+            "it": "Leyla stappa una giara d'argilla con devozione: 'È cardamomo del canyon tostato con petali di rosa del deserto. Un pizzico nello stufato allontana la malinconia del viaggio e scaccia il gelo della notte. Gli anziani dicono che annusarlo tre volte sotto la luna piena ti fa ricordare verità dimenticate prima ancora di nascere.' Ti regala un pizzico avvolto in foglia di palma.",
+            "de": "Leyla öffnet ehrfürchtig ein Tongefäß: „Schlucht-Kardamom, geröstet mit Wüstenrosenblättern. Eine Prise im Eintopf vertreibt die Schwermut des Reisenden und schützt vor der eisigen Nachtkälte. Die Ältesten sagen, wer dreimal bei Vollmond daran schnuppert, erinnert sich an Wahrheiten, die er vor seiner Geburt vergessen hat.“ Sie schenkt dir eine duftende Prise in Palmblattpapier.",
+            "zh": "蕾拉恭敬地揭开一个陶罐：「这是峡谷豆蔻和沙漠玫瑰花瓣一起烘烤出来的。在炖菜里放上一小撮，就能驱散旅途的忧伤，抵御刺骨的夜寒。长者们说，若在满月下连续闻它三次，就能记起出生前遗忘的真理。」她递给你一小撮包在棕榈叶纸里的香料。",
+            "ja": "レイラは恭しく陶器の壺を開ける。「砂漠のバラの花びらと共に焙煎した渓谷のカルダモンよ。煮込み料理にひとつまみ入れれば旅の憂鬱を払い、夜の底冷えを防いでくれる。長老たちは、満月の下でこれを三度吸い込むと、生まれる前に忘れてしまった真実を思い出すと言っているわ」彼女は椰子の葉紙に包んだ香辛料をひとつまみ分けてくれる。"
+        },
+        "next": [
+            "ley_1"
+        ],
+        "reward": "faceta:amabilidad=+1"
+    }
+}

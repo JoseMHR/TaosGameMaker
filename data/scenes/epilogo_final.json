@@ -1,0 +1,647 @@
+{
+    "meta": {
+        "title": {
+            "es": "El Tribunal de la Esfera de la Verdad",
+            "en": "The Tribunal of the Sphere of Truth",
+            "fr": "Le Tribunal de la Sphère de la Vérité",
+            "it": "Il Tribunale della Sfera della Verità",
+            "de": "Das Tribunal der Sphäre der Wahrheit",
+            "zh": "真理之球的审判",
+            "ja": "真実の球の審判"
+        },
+        "desc": "Escena de cierre del Acto 5. Disparada por el reward 'dialogue:epilogo_final' desde data/npcs/guardian_templo.json (nodo gt_victory), tras derrotar a guardian_supremo en dun_final. 6 finales (A-F, ver docs/design/STORY.md §Finales) según las 5 Facetas de GlobalState.facetas (valor/bondad/aspecto/inteligencia/cordura). Cada final es una SECUENCIA DE 3 DIAPOSITIVAS (nodos say con campo `bg` = imagen a pantalla completa en res://assets/vn/bg/ + texto al pie), encadenadas por `next`; NarrativeOverlay pinta el `bg` y hace fallback seguro a solo-texto si el arte aún no existe. Cada final revela un FRAGMENTO ÚNICO del canon que los demás no cuentan. Textos de ejemplo (el usuario los refinará) y fondos pendientes en docs/task_imagenes_pendientes.md. Final F (secreto) exige además las 6 profesiones (has_prof); un chequeo más estricto de 100% queda para un pase futuro.",
+        "music": "world_zone1_flooded"
+    },
+    "entry": "n1",
+    "nodes": {
+        "n1": {
+            "kind": "say",
+            "speaker": {
+                "es": "Narrador",
+                "en": "Narrator",
+                "fr": "Narrateur",
+                "it": "Narratore",
+                "de": "Erzähler",
+                "zh": "旁白",
+                "ja": "ナレーター"
+            },
+            "portrait": "🔮",
+            "text": {
+                "es": "El Templo del Origen calla. Ante ti flota la Esfera de la Verdad, y en su superficie ves, por un instante, todo el camino recorrido: El Yelmo, la Nieve, Sylphrena, Celestia, el mar, Gloriam, y la metrópolis de Arcanum donde todo se resquebrajó. 'Ya sabes lo que ocurrió de verdad' —dice el Guardián del Templo—. 'Ahora solo queda decidir qué haces con ello.'",
+                "en": "The Temple of Origin falls silent. Before you floats the Sphere of Truth, and on its surface you see, for a moment, the whole road behind you: the Moor, the Snow, Sylphrena, Celestia, the sea, Gloriam, and the metropolis of Arcanum where it all cracked open. 'You already know what truly happened' — the Keeper of the Temple says —. 'Now only one thing remains: what you do with it.'",
+                "fr": "Le Temple de l'Origine se tait. Devant toi flotte la Sphère de la Vérité, et à sa surface tu vois, l'espace d'un instant, tout le chemin parcouru : la Lande, la Neige, Sylphrena, Celestia, la mer, Gloriam, et la métropole d'Arcanum où tout s'est brisé. « Tu sais déjà ce qui s'est vraiment passé » — dit le Gardien du Temple —. « Il ne reste plus qu'à décider ce que tu en fais. »",
+                "it": "Il Tempio dell'Origine tace. Davanti a te fluttua la Sfera della Verità, e sulla sua superficie vedi, per un istante, tutto il cammino percorso: la Landa, la Neve, Sylphrena, Celestia, il mare, Gloriam, e la metropoli di Arcanum dove tutto si è spezzato. 'Sai già cosa è realmente accaduto' — dice il Custode del Tempio —. 'Ora resta solo da decidere cosa farne.'",
+                "de": "Der Tempel des Ursprungs schweigt. Vor dir schwebt die Sphäre der Wahrheit, und auf ihrer Oberfläche siehst du für einen Moment den ganzen zurückgelegten Weg: das Moor, den Schnee, Sylphrena, Celestia, das Meer, Gloriam, und die Metropole Arcanum, wo alles zerbrach. „Du weißt bereits, was wirklich geschah“ — sagt der Wächter des Tempels —. „Jetzt bleibt nur noch zu entscheiden, was du damit machst.“",
+                "zh": "起源神庙陷入沉默。真理之球在你面前悬浮，在它的表面，你在刹那间看到了走过的全部旅程：荒原、雪原、希尔芙蕾娜、塞莱斯提亚、大海、格洛里亚姆，以及一切崩塌之地——奥秘遗迹的都市。「你已经知道真正发生了什么，」神庙守护者说，「现在只剩下一件事要决定：你要如何处理它。」",
+                "ja": "起源の神殿は静まり返っている。目の前には真実の球が浮かび、その表面には一瞬、これまで歩んできた道のりすべてが映し出される——荒野、雪原、シルフレナ、セレスティア、海、グロリアム、そしてすべてが砕け散ったアルカナムの都市。「お前はもう、本当に何が起きたのか知っている」と神殿の守護者は言う。「あとは、それをどうするかを決めるだけだ」"
+            },
+            "fx": {
+                "darken": 0.3,
+                "glow": 0.4,
+                "sfx": "click"
+            },
+            "bg": "bg_ending_temple.png",
+            "next": "branch_final"
+        },
+        "branch_final": {
+            "kind": "flow",
+            "op": "branch",
+            "branches": [
+                {
+                    "condition": "cordura >= 5 and bondad >= 5 and has_prof(\"Guerrero\") and has_prof(\"Arquero\") and has_prof(\"Sacerdote\") and has_prof(\"Elementalista\") and has_prof(\"Psíquico\") and has_prof(\"Tiempo\")",
+                    "to": "call_final_f"
+                },
+                {
+                    "condition": "cordura >= 3 and bondad >= 3",
+                    "to": "call_final_a"
+                },
+                {
+                    "condition": "cordura <= -3",
+                    "to": "call_final_b"
+                },
+                {
+                    "condition": "bondad <= -3 and valor >= 3",
+                    "to": "call_final_e"
+                },
+                {
+                    "condition": "bondad <= -3 and valor <= -3",
+                    "to": "call_final_d"
+                }
+            ],
+            "else": "call_final_c"
+        },
+        "call_final_a": {
+            "kind": "flow",
+            "op": "call",
+            "scene": "final_a",
+            "next": "mark_ending_a"
+        },
+        "call_final_b": {
+            "kind": "flow",
+            "op": "call",
+            "scene": "final_b",
+            "next": "mark_ending_b"
+        },
+        "call_final_c": {
+            "kind": "flow",
+            "op": "call",
+            "scene": "final_c",
+            "next": "mark_ending_c"
+        },
+        "call_final_d": {
+            "kind": "flow",
+            "op": "call",
+            "scene": "final_d",
+            "next": "mark_ending_d"
+        },
+        "call_final_e": {
+            "kind": "flow",
+            "op": "call",
+            "scene": "final_e",
+            "next": "mark_ending_e"
+        },
+        "call_final_f": {
+            "kind": "flow",
+            "op": "call",
+            "scene": "final_f",
+            "next": "mark_ending_f"
+        },
+        "a_a1": {
+            "kind": "say",
+            "speaker": {
+                "es": "Final A — Aceptación",
+                "en": "Ending A — Acceptance",
+                "fr": "Fin A — Acceptation",
+                "it": "Finale A — Accettazione",
+                "de": "Ende A — Akzeptanz",
+                "zh": "结局A——接受",
+                "ja": "エンディングA——受容"
+            },
+            "portrait": "🕊️",
+            "text": {
+                "es": "La Esfera no se rompe: se deshace, despacio, como escarcha bajo el primer sol. Y por primera vez Aiden no intenta volver a atrás. 'Ya basta', se oye decir. 'No puedo cambiarlo. Solo puedo dejar de morir con ella cada noche.'",
+                "en": "The Sphere doesn't shatter: it melts, slowly, like frost under the first sun. And for the first time, Aiden doesn't try to go back. 'Enough,' he hears himself say. 'I can't change it. I can only stop dying with her every night.'",
+                "fr": "La Sphère ne se brise pas : elle fond, lentement, comme le givre sous le premier soleil. Et pour la première fois, Aiden n'essaie pas de revenir en arrière. « Ça suffit », s'entend-il dire. « Je ne peux pas le changer. Je peux seulement arrêter de mourir avec elle chaque nuit. »",
+                "it": "La Sfera non si spezza: si dissolve, lentamente, come brina sotto il primo sole. E per la prima volta Aiden non cerca di tornare indietro. 'Basta', si sente dire. 'Non posso cambiarlo. Posso solo smettere di morire con lei ogni notte.'",
+                "de": "Die Sphäre zerbricht nicht: sie schmilzt, langsam, wie Raureif unter der ersten Sonne. Und zum ersten Mal versucht Aiden nicht, zurückzukehren. „Es reicht“, hört er sich selbst sagen. „Ich kann es nicht ändern. Ich kann nur aufhören, jede Nacht mit ihr zu sterben.“",
+                "zh": "球体没有碎裂：它缓缓消融，如同初阳下的白霜。这是艾登第一次没有试图回到过去。「够了，」他听见自己说，「我无法改变这一切。我只能不再每晚都随她一同死去。」",
+                "ja": "球は砕けない。ゆっくりと、初めての陽光に晒された霜のように溶けていく。そして初めて、エイデンは過去に戻ろうとしなかった。「もう十分だ」と自分の声が聞こえる。「変えることはできない。ただ、毎晩彼女と共に死ぬのをやめることならできる」"
+            },
+            "fx": {
+                "darken": 0.35,
+                "glow": 0.4,
+                "sfx": "click"
+            },
+            "bg": "bg_ending_a_1.png",
+            "next": "a_a2"
+        },
+        "a_a2": {
+            "kind": "say",
+            "speaker": {
+                "es": "Roxas",
+                "en": "Roxas",
+                "fr": "Roxas",
+                "it": "Roxas",
+                "de": "Roxas",
+                "zh": "罗克萨斯",
+                "ja": "ロクサス"
+            },
+            "portrait": "🪑",
+            "text": {
+                "es": "Abre los ojos en una cama de hospital. No han pasado años: han pasado once días. Y a su lado, agotado y más viejo de lo que recordaba, está Roxas — el amigo que lo arrastró al templo, vivo, sin soltarle la mano. 'Volviste', susurra. 'Creí que te había perdido a ti también.'",
+                "en": "He opens his eyes in a hospital bed. It hasn't been years: it's been eleven days. And beside him, exhausted and older than he remembered, sits Roxas — the friend who dragged him to the temple, alive, never letting go of his hand. 'You came back,' he whispers. 'I thought I'd lost you too.'",
+                "fr": "Il ouvre les yeux dans un lit d'hôpital. Il ne s'est pas écoulé des années : seulement onze jours. Et à ses côtés, épuisé et plus vieux qu'il ne s'en souvenait, se trouve Roxas — l'ami qui l'a traîné jusqu'au temple, vivant, sans lâcher sa main. « Tu es revenu », murmure-t-il. « Je croyais t'avoir perdu toi aussi. »",
+                "it": "Apre gli occhi in un letto d'ospedale. Non sono passati anni: sono passati undici giorni. E al suo fianco, esausto e più vecchio di come lo ricordava, c'è Roxas — l'amico che lo trascinò al tempio, vivo, senza mollargli la mano. 'Sei tornato', sussurra. 'Credevo di aver perso anche te.'",
+                "de": "Er öffnet die Augen in einem Krankenhausbett. Es sind keine Jahre vergangen: nur elf Tage. Und an seiner Seite, erschöpft und älter, als er ihn in Erinnerung hatte, sitzt Roxas — der Freund, der ihn zum Tempel schleppte, lebendig, ohne seine Hand loszulassen. „Du bist zurückgekommen“, flüstert er. „Ich dachte, ich hätte auch dich verloren.“",
+                "zh": "他在医院的病床上睁开双眼。过去的并非数年，只有十一天。而在他身旁，疲惫不堪、比记忆中苍老许多的罗克萨斯——那个把他拖到神庙的朋友，还活着，紧紧握着他的手，不曾松开。「你回来了，」他低声说，「我以为我也失去你了。」",
+                "ja": "病院のベッドで目を開ける。何年も経ったわけではない。たった十一日だ。そして傍らには、記憶よりも疲れ果て老けたロクサスがいた——彼を神殿まで引きずっていった友は、生きて、その手を離さずにいた。「戻ってきたのか」と彼はささやく。「お前まで失ったと思っていた」"
+            },
+            "fx": {
+                "darken": 0.3,
+                "glow": 0.35
+            },
+            "bg": "bg_ending_a_2.png",
+            "next": "a_a3"
+        },
+        "a_a3": {
+            "kind": "say",
+            "speaker": {
+                "es": "Narrador",
+                "en": "Narrator",
+                "fr": "Narrateur",
+                "it": "Narratore",
+                "de": "Erzähler",
+                "zh": "旁白",
+                "ja": "ナレーター"
+            },
+            "portrait": "🌅",
+            "text": {
+                "es": "Duele, y seguirá doliendo. Pero deja que Elara descanse en la memoria y no en la culpa. Esa mañana come solo, mira por la ventana, y decide que mañana comerá otra vez. Es el primer plan de futuro que hace desde el accidente.",
+                "en": "It hurts, and it will keep hurting. But he lets Elara rest in memory instead of guilt. That morning he eats alone, looks out the window, and decides that tomorrow he will eat again. It's the first plan for the future he's made since the accident.",
+                "fr": "Ça fait mal, et ça continuera de faire mal. Mais il laisse Elara reposer dans la mémoire et non dans la culpabilité. Ce matin-là, il mange seul, regarde par la fenêtre, et décide que demain il mangera à nouveau. C'est le premier projet d'avenir qu'il fait depuis l'accident.",
+                "it": "Fa male, e continuerà a fare male. Ma lascia che Elara riposi nel ricordo e non nella colpa. Quella mattina mangia da solo, guarda dalla finestra, e decide che domani mangerà di nuovo. È il primo progetto per il futuro che fa dall'incidente.",
+                "de": "Es tut weh, und es wird weiter wehtun. Aber er lässt Elara in der Erinnerung ruhen und nicht in der Schuld. An diesem Morgen isst er allein, schaut aus dem Fenster und beschließt, dass er morgen wieder essen wird. Es ist der erste Zukunftsplan, den er seit dem Unfall macht.",
+                "zh": "这很痛，而且这份痛还会继续。但他让艾拉拉安息于记忆之中，而不是愧疚之中。那天早晨，他独自用餐，望向窗外，决定明天还要再吃一顿饭。这是事故发生以来，他第一次为未来做打算。",
+                "ja": "痛みは消えない。これからも痛み続けるだろう。だが彼は、エララを罪悪感の中にではなく、記憶の中で安らかに眠らせることにした。その朝、彼は一人で食事をし、窓の外を眺め、明日もまた食事をしようと決める。事故以来、初めて立てた未来への計画だった。"
+            },
+            "fx": {
+                "glow": 0.7
+            },
+            "bg": "bg_ending_a_3.png",
+            "next": "mark_ending_a"
+        },
+        "a_b1": {
+            "kind": "say",
+            "speaker": {
+                "es": "Final B — Locura",
+                "en": "Ending B — Madness",
+                "fr": "Fin B — Folie",
+                "it": "Finale B — Follia",
+                "de": "Ende B — Wahnsinn",
+                "zh": "结局B——疯狂",
+                "ja": "エンディングB——狂気"
+            },
+            "portrait": "🌀",
+            "text": {
+                "es": "La Esfera se resquebraja, y con ella las costuras del sueño. El Yelmo, Sylphrena, Celestia: todo empieza a parpadear como un decorado mal encajado. Aiden ríe, porque de pronto entiende que nada de esto era real — y luego deja de reír, porque no recuerda qué sí lo era.",
+                "en": "The Sphere cracks, and with it the seams of the dream. The Moor, Sylphrena, Celestia: all of it starts to flicker like badly fitted scenery. Aiden laughs, because he suddenly understands none of this was real — and then he stops laughing, because he can't remember what was.",
+                "fr": "La Sphère se fissure, et avec elle les coutures du rêve. La Lande, Sylphrena, Celestia : tout commence à vaciller comme un décor mal fixé. Aiden rit, car il comprend soudain que rien de tout cela n'était réel — puis il cesse de rire, car il ne se souvient plus de ce qui l'était.",
+                "it": "La Sfera si incrina, e con essa le cuciture del sogno. La Landa, Sylphrena, Celestia: tutto comincia a tremolare come uno scenario mal fissato. Aiden ride, perché all'improvviso capisce che niente di tutto ciò era reale — e poi smette di ridere, perché non ricorda cosa lo fosse.",
+                "de": "Die Sphäre bekommt Risse, und mit ihr die Nähte des Traums. Das Moor, Sylphrena, Celestia: alles beginnt zu flackern wie eine schlecht befestigte Kulisse. Aiden lacht, weil er plötzlich begreift, dass nichts davon real war — und dann hört er auf zu lachen, weil er sich nicht erinnert, was es war.",
+                "zh": "球体开始龟裂，梦境的缝合处也随之崩解。荒原、希尔芙蕾娜、塞莱斯提亚：一切都开始像固定不牢的布景一样闪烁摇曳。艾登笑了起来，因为他突然明白这一切都不是真实的——随后他又停止了笑，因为他已经记不起什么才是真实的了。",
+                "ja": "球にひびが入り、夢の縫い目もともに裂けていく。荒野、シルフレナ、セレスティア——すべてが固定の甘い書き割りのように明滅し始める。エイデンは笑う。これらすべてが現実ではなかったと突然理解したからだ——だがすぐに笑うのをやめる。何が現実だったのか、思い出せないからだ。"
+            },
+            "fx": {
+                "darken": 0.5,
+                "shake": 0.6
+            },
+            "bg": "bg_ending_b_1.png",
+            "next": "a_b2"
+        },
+        "a_b2": {
+            "kind": "say",
+            "speaker": {
+                "es": "Elena",
+                "en": "Elena",
+                "fr": "Elena",
+                "it": "Elena",
+                "de": "Elena",
+                "zh": "埃琳娜",
+                "ja": "エレナ"
+            },
+            "portrait": "🎵",
+            "text": {
+                "es": "Entre el ruido, una voz limpia: Elena, su esposa, cantando la nana de antes — antes de la esfera, antes de la niña, antes de la cuerda. Aiden extiende la mano hacia ella. El mundo entero se reinicia para llevarlo a su lado. Y vuelve a empezar. Y vuelve a empezar.",
+                "en": "Amid the noise, one clean voice: Elena, his wife, singing the old lullaby — from before the sphere, before the girl, before the rope. Aiden reaches out toward her. The whole world resets to carry him to her side. And it begins again. And it begins again.",
+                "fr": "Parmi le vacarme, une voix claire : Elena, son épouse, chantant la berceuse d'autrefois — d'avant la sphère, d'avant la fillette, d'avant la corde. Aiden tend la main vers elle. Le monde entier se réinitialise pour le mener à ses côtés. Et tout recommence. Et tout recommence.",
+                "it": "Tra il rumore, una voce limpida: Elena, sua moglie, che canta la ninna nanna di un tempo — prima della sfera, prima della bambina, prima della corda. Aiden tende la mano verso di lei. Il mondo intero si riavvia per portarlo al suo fianco. E ricomincia. E ricomincia.",
+                "de": "Zwischen dem Lärm eine klare Stimme: Elena, seine Frau, singt das alte Schlaflied — von vor der Sphäre, vor dem Mädchen, vor dem Seil. Aiden streckt die Hand nach ihr aus. Die ganze Welt setzt sich zurück, um ihn an ihre Seite zu bringen. Und es beginnt von vorn. Und es beginnt von vorn.",
+                "zh": "在喧嚣之中，一个清晰的声音传来：是他的妻子艾琳娜，唱着从前的摇篮曲——那是在球体之前、在女儿降生之前、在绳索出现之前的岁月。艾登向她伸出手。整个世界重启，只为将他带到她身边。然后一切又重新开始。一切又重新开始。",
+                "ja": "騒音の中に、澄んだ一つの声——妻エレナが、昔の子守唄を歌っている。球体の前、あの子が生まれる前、あの縄の前の歌を。エイデンは彼女に向かって手を伸ばす。世界全体が彼を彼女のそばへ運ぶためにリセットされる。そしてまた始まる。そしてまた始まる。"
+            },
+            "fx": {
+                "darken": 0.55,
+                "glow": 0.2
+            },
+            "bg": "bg_ending_b_2.png",
+            "next": "a_b3"
+        },
+        "a_b3": {
+            "kind": "say",
+            "speaker": {
+                "es": "Narrador",
+                "en": "Narrator",
+                "fr": "Narrateur",
+                "it": "Narratore",
+                "de": "Erzähler",
+                "zh": "旁白",
+                "ja": "ナレーター"
+            },
+            "portrait": "🕳️",
+            "text": {
+                "es": "En algún lugar, en el templo real, un hombre yace ante una esfera enorme, sonriendo a la nada, tocando el cristal una y otra vez. Cada roce le devuelve el reino. Nunca saldrá, porque dentro ella todavía canta.",
+                "en": "Somewhere, in the real temple, a man lies before an enormous sphere, smiling at nothing, touching the glass again and again. Each touch gives him back the kingdom. He will never leave, because inside, she is still singing.",
+                "fr": "Quelque part, dans le vrai temple, un homme est allongé devant une sphère immense, souriant au néant, touchant le cristal encore et encore. Chaque contact lui rend le royaume. Il ne sortira jamais, car à l'intérieur, elle chante encore.",
+                "it": "Da qualche parte, nel tempio reale, un uomo giace davanti a una sfera enorme, sorridendo al nulla, toccando il cristallo ancora e ancora. Ogni tocco gli restituisce il regno. Non uscirà mai, perché dentro lei canta ancora.",
+                "de": "Irgendwo, im wirklichen Tempel, liegt ein Mann vor einer riesigen Sphäre, lächelt ins Nichts, berührt den Kristall immer wieder. Jede Berührung gibt ihm das Reich zurück. Er wird nie hinausgehen, denn darin singt sie noch immer.",
+                "zh": "在某个地方，在真正的神庙里，一个男人躺在一颗巨大的球体前，对着虚无微笑，一遍又一遍地触碰那水晶。每一次触碰都将那个王国还给他。他永远不会离开，因为在里面，她依然在歌唱。",
+                "ja": "どこか、本物の神殿の中で、一人の男が巨大な球の前に横たわり、虚空に微笑みながら、水晶に何度も触れ続けている。触れるたびに、あの王国が彼のもとに返ってくる。彼は決して出てこないだろう。その中で、彼女はまだ歌っているのだから。"
+            },
+            "fx": {
+                "darken": 0.75
+            },
+            "bg": "bg_ending_b_3.png",
+            "next": "mark_ending_b"
+        },
+        "a_c1": {
+            "kind": "say",
+            "speaker": {
+                "es": "Final C — Negación",
+                "en": "Ending C — Denial",
+                "fr": "Fin C — Déni",
+                "it": "Finale C — Negazione",
+                "de": "Ende C — Verleugnung",
+                "zh": "结局C——否认",
+                "ja": "エンディングC——否認"
+            },
+            "portrait": "⚖️",
+            "text": {
+                "es": "La Esfera le ofrece toda la verdad, entera, si solo mira dentro. Aiden aparta la vista. Con una calma que asusta, le da la espalda al Templo del Origen. 'No quiero saberlo', dice. 'Prefiero el cuento.'",
+                "en": "The Sphere offers him the whole truth, entire, if only he looks inside. Aiden turns his eyes away. With a calm that frightens, he turns his back on the Temple of Origin. 'I don't want to know,' he says. 'I prefer the story.'",
+                "fr": "La Sphère lui offre toute la vérité, entière, s'il regarde seulement à l'intérieur. Aiden détourne les yeux. Avec un calme effrayant, il tourne le dos au Temple de l'Origine. « Je ne veux pas le savoir », dit-il. « Je préfère le conte. »",
+                "it": "La Sfera gli offre tutta la verità, intera, se solo guarda dentro. Aiden distoglie lo sguardo. Con una calma che spaventa, volta le spalle al Tempio dell'Origine. 'Non voglio saperlo', dice. 'Preferisco la favola.'",
+                "de": "Die Sphäre bietet ihm die ganze Wahrheit, vollständig, wenn er nur hineinschaut. Aiden wendet den Blick ab. Mit erschreckender Ruhe kehrt er dem Tempel des Ursprungs den Rücken. „Ich will es nicht wissen“, sagt er. „Ich bevorzuge das Märchen.“",
+                "zh": "只要他愿意向内看，真理之球便会向他展示全部真相。可艾登移开了目光。他以一种令人心惊的平静，转身背对了起源神庙。「我不想知道，」他说，「我更喜欢那个童话。」",
+                "ja": "内側さえ覗けば、球は彼にすべての真実を与えるだろう。だがエイデンは目をそらす。恐ろしいほどの落ち着きで、起源の神殿に背を向ける。「知りたくない」と彼は言う。「おとぎ話の方がいい」"
+            },
+            "fx": {
+                "darken": 0.2,
+                "glow": 0.2
+            },
+            "bg": "bg_ending_c_1.png",
+            "next": "a_c2"
+        },
+        "a_c2": {
+            "kind": "say",
+            "speaker": {
+                "es": "Narrador",
+                "en": "Narrator",
+                "fr": "Narrateur",
+                "it": "Narratore",
+                "de": "Erzähler",
+                "zh": "旁白",
+                "ja": "ナレーター"
+            },
+            "portrait": "🌼",
+            "text": {
+                "es": "Regresa a Sylphrena, la ciudad luminosa. En la plaza del mercado corre una niña con la risa de Elara — una cara que su mente construyó con cariño para no tener que decirle adiós jamás. Aiden la saluda cada mañana. Ella nunca envejece. Él tampoco pregunta por qué.",
+                "en": "He returns to Sylphrena, the city of light. In the market square runs a girl with Elara's laugh — a face his mind lovingly built so he'd never have to say goodbye. Aiden greets her every morning. She never grows older. He never asks why.",
+                "fr": "Il retourne à Sylphrena, la cité lumineuse. Sur la place du marché court une fillette au rire d'Elara — un visage que son esprit a tendrement construit pour ne jamais avoir à lui dire adieu. Aiden la salue chaque matin. Elle ne vieillit jamais. Lui non plus ne demande jamais pourquoi.",
+                "it": "Torna a Sylphrena, la città luminosa. Nella piazza del mercato corre una bambina con la risata di Elara — un volto che la sua mente ha costruito con affetto per non doverle mai dire addio. Aiden la saluta ogni mattina. Lei non invecchia mai. Lui non chiede mai perché.",
+                "de": "Er kehrt nach Sylphrena zurück, die leuchtende Stadt. Auf dem Marktplatz rennt ein Mädchen mit Elaras Lachen — ein Gesicht, das sein Geist liebevoll erschuf, damit er ihr niemals Lebewohl sagen muss. Aiden begrüßt sie jeden Morgen. Sie wird nie älter. Er fragt auch nie, warum.",
+                "zh": "他回到了光辉之城希尔芙蕾娜。市集广场上，一个笑声和艾拉拉一模一样的小女孩在奔跑——那是他的心智出于爱意塑造出的面容，好让他永远不必对她说再见。艾登每天早晨都向她问好。她从不长大。他也从不追问原因。",
+                "ja": "彼は光の都シルフレナへと戻る。市場の広場を、エララと同じ笑い声を持つ少女が駆けていく——二度と別れを告げずに済むよう、彼の心が愛情を込めて作り上げた顔だ。エイデンは毎朝彼女に挨拶する。彼女は決して歳を取らない。彼もまた、その理由を問うことはない。"
+            },
+            "fx": {
+                "darken": 0.15,
+                "glow": 0.3
+            },
+            "bg": "bg_ending_c_2.png",
+            "next": "a_c3"
+        },
+        "a_c3": {
+            "kind": "say",
+            "speaker": {
+                "es": "Narrador",
+                "en": "Narrator",
+                "fr": "Narrateur",
+                "it": "Narratore",
+                "de": "Erzähler",
+                "zh": "旁白",
+                "ja": "ナレーター"
+            },
+            "portrait": "🎭",
+            "text": {
+                "es": "Una vida perfecta, en bucle, para siempre. Heroica, luminosa, sin culpa. Y falsa. En el silencio de cada noche, bajo la sonrisa, algo muy hondo en él sigue sabiendo la verdad — y elige, otra vez, no escucharla.",
+                "en": "A perfect life, on loop, forever. Heroic, luminous, guiltless. And false. In the silence of each night, beneath the smile, something very deep in him still knows the truth — and chooses, once again, not to listen.",
+                "fr": "Une vie parfaite, en boucle, pour toujours. Héroïque, lumineuse, sans culpabilité. Et fausse. Dans le silence de chaque nuit, sous le sourire, quelque chose de très profond en lui connaît encore la vérité — et choisit, une fois de plus, de ne pas l'écouter.",
+                "it": "Una vita perfetta, in loop, per sempre. Eroica, luminosa, senza colpa. E falsa. Nel silenzio di ogni notte, sotto il sorriso, qualcosa di molto profondo in lui conosce ancora la verità — e sceglie, ancora una volta, di non ascoltarla.",
+                "de": "Ein perfektes Leben, in Schleife, für immer. Heldenhaft, leuchtend, schuldlos. Und falsch. In der Stille jeder Nacht, unter dem Lächeln, weiß etwas sehr Tiefes in ihm noch immer die Wahrheit — und entscheidet sich, wieder einmal, sie nicht zu hören.",
+                "zh": "一段完美的人生，循环往复，永无止境。英勇、光辉、毫无愧疚。却也是虚假的。在每一个夜晚的寂静中，在那微笑之下，他内心深处仍有某种东西知道真相——却一次又一次地选择不去聆听。",
+                "ja": "完璧な人生が、永遠にループし続ける。英雄的で、輝かしく、罪もない。そして、偽りの人生だ。夜ごとの静寂の中、微笑みの下で、彼の内なる深いところにある何かは、今もなお真実を知っている——そして再び、それに耳を貸さないことを選ぶ。"
+            },
+            "fx": {
+                "darken": 0.25
+            },
+            "bg": "bg_ending_c_3.png",
+            "next": "mark_ending_c"
+        },
+        "a_d1": {
+            "kind": "say",
+            "speaker": {
+                "es": "Final D — Autodestrucción",
+                "en": "Ending D — Self-destruction",
+                "fr": "Fin D — Autodestruction",
+                "it": "Finale D — Autodistruzione",
+                "de": "Ende D — Selbstzerstörung",
+                "zh": "结局D——自我毁灭",
+                "ja": "エンディングD——自己破壊"
+            },
+            "portrait": "🕯️",
+            "text": {
+                "es": "El remordimiento pesa más que todos los reinos que cruzó. Aiden ya no quiere venganza ni perdón: solo que pare. Mira la Esfera y comprende que este mundo entero se sostiene únicamente sobre sus ganas de seguir.",
+                "en": "Remorse weighs more than all the realms he crossed. Aiden wants neither vengeance nor forgiveness anymore: only for it to stop. He looks at the Sphere and understands this whole world stands on nothing but his will to go on.",
+                "fr": "Le remords pèse plus lourd que tous les royaumes qu'il a traversés. Aiden ne veut plus ni vengeance ni pardon : seulement que cela s'arrête. Il regarde la Sphère et comprend que ce monde entier ne tient que par sa propre volonté de continuer.",
+                "it": "Il rimorso pesa più di tutti i regni che ha attraversato. Aiden non vuole più vendetta né perdono: vuole solo che finisca. Guarda la Sfera e comprende che questo intero mondo si regge unicamente sulla sua voglia di continuare.",
+                "de": "Reue wiegt schwerer als all die Reiche, die er durchquert hat. Aiden will weder Rache noch Vergebung: nur, dass es aufhört. Er blickt auf die Sphäre und begreift, dass diese ganze Welt einzig auf seinem Willen weiterzumachen ruht.",
+                "zh": "悔恨的分量，比他穿越过的所有王国都要沉重。艾登不再想要复仇，也不再想要宽恕：他只想让这一切停止。他望着球体，明白这整个世界的存在，仅仅依靠他继续下去的意志。",
+                "ja": "後悔は、彼が越えてきたどの王国よりも重い。エイデンはもはや復讐も赦しも望まない。ただ、終わってほしいだけだ。彼は球を見つめ、この世界全体が彼自身の「続けたい」という意志だけで成り立っていることを理解する。"
+            },
+            "fx": {
+                "darken": 0.55
+            },
+            "bg": "bg_ending_d_1.png",
+            "next": "a_d2"
+        },
+        "a_d2": {
+            "kind": "say",
+            "speaker": {
+                "es": "Narrador",
+                "en": "Narrator",
+                "fr": "Narrateur",
+                "it": "Narratore",
+                "de": "Erzähler",
+                "zh": "旁白",
+                "ja": "ナレーター"
+            },
+            "portrait": "🔵",
+            "text": {
+                "es": "Abre la mano. En la palma, las cuatro pequeñas esferas que él y Roxas robaron del templo aquella noche. Las deposita en el suelo de piedra, una a una, despacio, como quien cierra los ojos de un niño dormido. 'Perdonadme. A todos. Ya no puedo cargaros más.'",
+                "en": "He opens his hand. In his palm, the four small spheres he and Roxas stole from the temple that night. He lays them on the stone floor, one by one, slowly, like closing a sleeping child's eyes. 'Forgive me. All of you. I can't carry you any longer.'",
+                "fr": "Il ouvre la main. Dans sa paume, les quatre petites sphères que lui et Roxas ont dérobées au temple cette nuit-là. Il les dépose sur le sol de pierre, une à une, lentement, comme on ferme les yeux d'un enfant endormi. « Pardonnez-moi. Tous. Je ne peux plus vous porter davantage. »",
+                "it": "Apre la mano. Sul palmo, le quattro piccole sfere che lui e Roxas rubarono al tempio quella notte. Le depone sul pavimento di pietra, una a una, lentamente, come chi chiude gli occhi di un bambino addormentato. 'Perdonatemi. Tutti voi. Non posso più portarvi.'",
+                "de": "Er öffnet die Hand. In seiner Handfläche liegen die vier kleinen Sphären, die er und Roxas in jener Nacht aus dem Tempel stahlen. Er legt sie eine nach der anderen langsam auf den Steinboden, wie jemand, der einem schlafenden Kind die Augen schließt. „Vergebt mir. Euch allen. Ich kann euch nicht länger tragen.“",
+                "zh": "他张开了手。掌心里是他与罗克萨斯那晚从神庙偷来的四颗小球体。他一颗接一颗，缓缓地把它们放在石地上，动作就像替熟睡的孩子合上眼睛。「原谅我。你们所有人。我再也无法背负你们了。」",
+                "ja": "彼は手を開く。手のひらには、あの夜彼とロクサスが神殿から盗んだ四つの小さな球がある。眠る子どもの瞼を閉じるように、一つずつ、ゆっくりと石の床に置いていく。「許してくれ。お前たち全員に。もうこれ以上、背負うことはできない」"
+            },
+            "fx": {
+                "darken": 0.65
+            },
+            "bg": "bg_ending_d_2.png",
+            "next": "a_d3"
+        },
+        "a_d3": {
+            "kind": "say",
+            "speaker": {
+                "es": "Narrador",
+                "en": "Narrator",
+                "fr": "Narrateur",
+                "it": "Narratore",
+                "de": "Erzähler",
+                "zh": "旁白",
+                "ja": "ナレーター"
+            },
+            "portrait": "🕯️",
+            "text": {
+                "es": "Y deja de sostener el mundo. Zona a zona se apaga — el desierto, el mar, la nieve, el páramo donde todo empezó — como una vela sin aire. No hay grito ni furia. Solo un silencio que él mismo eligió, y que por fin, por fin, no duele.",
+                "en": "And he stops holding up the world. Zone by zone it goes dark — the desert, the sea, the snow, the moor where it all began — like a candle starved of air. No scream, no fury. Only a silence he chose himself, and which at last, at last, does not hurt.",
+                "fr": "Et il cesse de soutenir le monde. Zone par zone il s'éteint — le désert, la mer, la neige, la lande où tout a commencé — comme une bougie privée d'air. Ni cri ni fureur. Seulement un silence qu'il a choisi lui-même, et qui, enfin, enfin, ne fait plus mal.",
+                "it": "E smette di sostenere il mondo. Zona dopo zona si spegne — il deserto, il mare, la neve, la landa dove tutto è iniziato — come una candela privata d'aria. Nessun grido né furia. Solo un silenzio che ha scelto lui stesso, e che finalmente, finalmente, non fa più male.",
+                "de": "Und er hört auf, die Welt zu tragen. Zone für Zone erlischt sie — die Wüste, das Meer, der Schnee, das Moor, wo alles begann — wie eine Kerze ohne Luft. Kein Schrei, keine Wut. Nur eine Stille, die er selbst gewählt hat, und die endlich, endlich nicht mehr wehtut.",
+                "zh": "然后他停止了对这个世界的支撑。一个区域接一个区域地熄灭——沙漠、大海、雪原，还有一切开始的那片荒原——像一支被抽走空气的蜡烛。没有尖叫，没有愤怒。只有一种他自己选择的寂静，而这寂静，终于，终于不再疼痛。",
+                "ja": "そして彼は世界を支えることをやめる。区域ごとに、それは消えていく——砂漠、海、雪原、すべてが始まった荒野——空気を断たれた蝋燭のように。叫びも怒りもない。あるのはただ、彼自身が選んだ沈黙。そしてその沈黙は、ついに、ついに、もう痛くはないのだ。"
+            },
+            "fx": {
+                "darken": 0.85
+            },
+            "bg": "bg_ending_d_3.png",
+            "next": "mark_ending_d"
+        },
+        "a_e1": {
+            "kind": "say",
+            "speaker": {
+                "es": "Final E — Venganza",
+                "en": "Ending E — Vengeance",
+                "fr": "Fin E — Vengeance",
+                "it": "Finale E — Vendetta",
+                "de": "Ende E — Rache",
+                "zh": "结局E——复仇",
+                "ja": "エンディングE——復讐"
+            },
+            "portrait": "🔥",
+            "text": {
+                "es": "No fue un accidente. Fue una orden. Aiden lo ve por fin con claredad de hielo: él sostuvo la aguja, sí — pero alguien le puso la mano en la espalda y empujó. Y ese alguien tiene nombre, torres y bandera.",
+                "en": "It wasn't an accident. It was an order. Aiden sees it at last with ice-clear eyes: he held the needle, yes — but someone put a hand on his back and pushed. And that someone has a name, towers, and a flag.",
+                "fr": "Ce n'était pas un accident. C'était un ordre. Aiden le voit enfin avec une clarté glaciale : il a tenu l'aiguille, oui — mais quelqu'un lui a posé la main dans le dos et a poussé. Et ce quelqu'un a un nom, des tours et un drapeau.",
+                "it": "Non è stato un incidente. È stato un ordine. Aiden lo vede finalmente con chiarezza glaciale: ha tenuto lui l'ago, sì — ma qualcuno gli ha messo la mano sulla schiena e ha spinto. E quel qualcuno ha un nome, delle torri e una bandiera.",
+                "de": "Es war kein Unfall. Es war ein Befehl. Aiden sieht es endlich mit eisiger Klarheit: Er hielt die Nadel, ja — aber jemand legte ihm die Hand auf den Rücken und stieß. Und dieser Jemand hat einen Namen, Türme und eine Flagge.",
+                "zh": "这不是一场意外。这是一道命令。艾登终于以冰冷的清晰看透了一切：没错，是他握着那根针——但有人把手按在他的背上，推了一把。而那个人，有名字，有高塔，也有旗帜。",
+                "ja": "あれは事故ではなかった。命令だった。エイデンはついに氷のような明晰さでそれを悟る。針を握ったのは確かに自分だ——だが誰かがその背に手を置き、押したのだ。そしてその誰かには、名前があり、塔があり、旗がある。"
+            },
+            "fx": {
+                "darken": 0.45,
+                "glow": 0.25
+            },
+            "bg": "bg_ending_e_1.png",
+            "next": "a_e2"
+        },
+        "a_e2": {
+            "kind": "say",
+            "speaker": {
+                "es": "Informe Arcanum 04",
+                "en": "Arcanum Report 04",
+                "fr": "Rapport Arcanum 04",
+                "it": "Rapporto Arcanum 04",
+                "de": "Arcanum-Bericht 04",
+                "zh": "奥秘遗迹报告04",
+                "ja": "アルカナム報告書04"
+            },
+            "portrait": "📜",
+            "text": {
+                "es": "Recuerda el memorándum: 'Resultados, o se cancela el proyecto de las esferas.' El sello de Arcanum. Y junto a su propia firma, la de Roxas. Entre los tres convirtieron a un padre en el verdugo de su hija, y luego lo llamaron ciencia.",
+                "en": "He remembers the memo: 'Results, or the sphere project is cancelled.' Arcanum's seal. And beside his own signature, Roxas's. Between the three of them they turned a father into his daughter's executioner — and then called it science.",
+                "fr": "Il se souvient du mémo : « Des résultats, ou le projet des sphères est annulé. » Le sceau d'Arcanum. Et à côté de sa propre signature, celle de Roxas. À eux trois, ils ont fait d'un père le bourreau de sa fille — et ont appelé cela de la science.",
+                "it": "Ricorda il memorandum: 'Risultati, o il progetto delle sfere viene cancellato.' Il sigillo di Arcanum. E accanto alla propria firma, quella di Roxas. In tre hanno trasformato un padre nel boia di sua figlia, e poi lo hanno chiamato scienza.",
+                "de": "Er erinnert sich an das Memo: „Ergebnisse, sonst wird das Sphärenprojekt eingestellt.“ Das Siegel von Arcanum. Und neben seiner eigenen Unterschrift die von Roxas. Zu dritt machten sie aus einem Vater den Henker seiner Tochter — und nannten es Wissenschaft.",
+                "zh": "他记起了那份备忘录：「拿出成果，否则球体项目将被取消。」奥秘遗迹的印章。在他自己的签名旁边，还有罗克萨斯的签名。三个人联手，把一位父亲变成了自己女儿的刽子手——然后把这称之为科学。",
+                "ja": "彼はあのメモを思い出す。「成果を出せ、さもなくば球体プロジェクトは中止だ」。アルカナムの印章。そして自分の署名の隣には、ロクサスの署名があった。三人がかりで一人の父親をその娘の処刑人に変え、それを科学と呼んだのだ。"
+            },
+            "fx": {
+                "darken": 0.5,
+                "glow": 0.3
+            },
+            "bg": "bg_ending_e_2.png",
+            "next": "a_e3"
+        },
+        "a_e3": {
+            "kind": "say",
+            "speaker": {
+                "es": "Aiden",
+                "en": "Aiden",
+                "fr": "Aiden",
+                "it": "Aiden",
+                "de": "Aiden",
+                "zh": "艾登",
+                "ja": "エイデン"
+            },
+            "portrait": "🔥",
+            "text": {
+                "es": "La Esfera arde en sus manos y Arcanum se desmorona en su mente, torre a torre. Por un latido sabe a justicia. Luego, ceniza. Pero Aiden sonríe, porque esta vez la Esfera no se apaga: la lleva consigo de vuelta a la vigilia. 'Ahora sé a quién visitar cuando despierte.'",
+                "en": "The Sphere burns in his hands and Arcanum crumbles in his mind, tower by tower. For one heartbeat it tastes like justice. Then, ash. But Aiden smiles, because this time the Sphere does not fade: he carries it back with him into waking. 'Now I know who to visit when I open my eyes.'",
+                "fr": "La Sphère brûle entre ses mains et Arcanum s'effondre dans son esprit, tour après tour. Le temps d'un battement de cœur, cela ressemble à la justice. Puis, à des cendres. Mais Aiden sourit, car cette fois la Sphère ne s'estompe pas : il l'emporte avec lui dans la veille. « Maintenant je sais qui visiter à mon réveil. »",
+                "it": "La Sfera brucia tra le sue mani e Arcanum crolla nella sua mente, torre dopo torre. Per un battito sa di giustizia. Poi, cenere. Ma Aiden sorride, perché questa volta la Sfera non svanisce: la porta con sé di ritorno nella veglia. 'Ora so chi visitare quando mi sveglio.'",
+                "de": "Die Sphäre brennt in seinen Händen, und Arcanum stürzt in seinem Geist ein, Turm für Turm. Für einen Herzschlag schmeckt es nach Gerechtigkeit. Dann, nach Asche. Aber Aiden lächelt, denn diesmal verblasst die Sphäre nicht: Er trägt sie mit sich zurück ins Wachsein. „Jetzt weiß ich, wen ich besuchen muss, wenn ich erwache.“",
+                "zh": "球体在他手中燃烧，奥秘遗迹在他脑海中一座塔一座塔地崩塌。有那么一瞬间，这尝起来像正义。随后，化为灰烬。但艾登露出了微笑，因为这一次球体没有消散：他将它带回了清醒的世界。「现在我知道醒来后该去拜访谁了。」",
+                "ja": "球は彼の手の中で燃え上がり、アルカナムは彼の心の中で塔一つ、また一つと崩れ落ちていく。ひと鼓動の間、それは正義の味がする。そして、灰になる。だがエイデンは微笑む。今回、球は消え去らないからだ。彼はそれを覚醒の世界へと持ち帰る。「目覚めたら誰を訪ねればいいか、これでわかった」"
+            },
+            "fx": {
+                "darken": 0.55,
+                "glow": 0.35,
+                "shake": 0.4
+            },
+            "bg": "bg_ending_e_3.png",
+            "next": "mark_ending_e"
+        },
+        "a_f1": {
+            "kind": "say",
+            "speaker": {
+                "es": "Final F — Epílogo Secreto",
+                "en": "Ending F — Secret Epilogue",
+                "fr": "Fin F — Épilogue secret",
+                "it": "Finale F — Epilogo segreto",
+                "de": "Ende F — Geheimer Epilog",
+                "zh": "结局F——秘密尾声",
+                "ja": "エンディングF——秘密のエピローグ"
+            },
+            "portrait": "🌸",
+            "text": {
+                "es": "Has aceptado la verdad y has vivido, de veras, las seis vidas que un hombre roto se inventó para no mirarse. Esa plenitud abre una última puerta que la Esfera guardaba solo para quien ya no la necesita.",
+                "en": "You have accepted the truth, and truly lived all six lives a broken man invented so he wouldn't have to look at himself. That wholeness opens one last door the Sphere kept only for the one who no longer needs it.",
+                "fr": "Tu as accepté la vérité et tu as vraiment vécu les six vies qu'un homme brisé s'est inventées pour ne pas se regarder lui-même. Cette plénitude ouvre une dernière porte que la Sphère gardait uniquement pour celui qui n'en a plus besoin.",
+                "it": "Hai accettato la verità e hai davvero vissuto le sei vite che un uomo spezzato si è inventato per non guardarsi allo specchio. Quella pienezza apre un'ultima porta che la Sfera custodiva solo per chi non ne ha più bisogno.",
+                "de": "Du hast die Wahrheit akzeptiert und wirklich die sechs Leben gelebt, die sich ein gebrochener Mann erfand, um sich nicht selbst betrachten zu müssen. Diese Vollständigkeit öffnet eine letzte Tür, die die Sphäre nur für den bewahrte, der sie nicht mehr braucht.",
+                "zh": "你已接受了真相，也真正活过了那六段人生——那是一个破碎的男人为了不去正视自己而编织出来的六段人生。这份圆满打开了最后一道门，而这道门，真理之球只为不再需要它的人保留。",
+                "ja": "お前は真実を受け入れ、壊れた男が自分自身と向き合わずに済むよう作り上げた六つの人生を、本当に生き抜いた。その充足が、球がもはやそれを必要としない者のためだけに取っておいた最後の扉を開く。"
+            },
+            "fx": {
+                "glow": 0.6,
+                "darken": 0.2
+            },
+            "bg": "bg_ending_f_1.png",
+            "next": "a_f2"
+        },
+        "a_f2": {
+            "kind": "say",
+            "speaker": {
+                "es": "Elara",
+                "en": "Elara",
+                "fr": "Elara",
+                "it": "Elara",
+                "de": "Elara",
+                "zh": "艾拉拉",
+                "ja": "エララ"
+            },
+            "portrait": "🌟",
+            "text": {
+                "es": "Antes de todo — antes de Arcanum, antes del mar, antes de la dragona Samy — Elara ríe en el jardín con una esfera de juguete que brilla muchísimo menos que ella. Corre hacia él con un dibujo arrugado en la mano. 'Para papá', dice. Y en el dibujo están los dos, cogidos de la mano, bajo un sol torcido.",
+                "en": "Before everything — before Arcanum, before the sea, before Samy the dragon — Elara laughs in the garden holding a toy sphere that shines far, far less than she does. She runs to him with a crumpled drawing in her hand. 'For daddy,' she says. And in the drawing it's the two of them, hand in hand, under a crooked sun.",
+                "fr": "Avant tout — avant Arcanum, avant la mer, avant Samy la dragonne — Elara rit dans le jardin en tenant une sphère jouet qui brille bien, bien moins qu'elle. Elle court vers lui, un dessin froissé à la main. « Pour papa », dit-elle. Et sur le dessin, ils sont tous les deux, main dans la main, sous un soleil de travers.",
+                "it": "Prima di tutto — prima di Arcanum, prima del mare, prima di Samy la draghessa — Elara ride nel giardino tenendo una sfera giocattolo che brilla molto, molto meno di lei. Corre verso di lui con un disegno sgualcito in mano. 'Per papà', dice. E nel disegno ci sono loro due, mano nella mano, sotto un sole storto.",
+                "de": "Vor allem — vor Arcanum, vor dem Meer, vor Samy der Drachin — lacht Elara im Garten und hält eine Spielzeugsphäre, die weit, weit weniger leuchtet als sie selbst. Sie rennt mit einer zerknitterten Zeichnung in der Hand zu ihm. „Für Papa“, sagt sie. Und auf der Zeichnung sind sie beide, Hand in Hand, unter einer schiefen Sonne.",
+                "zh": "在这一切之前——在奥秘遗迹之前，在大海之前，在飞龙萨米之前——艾拉拉在花园里笑着，手里拿着一颗玩具球，它的光芒远远不及她本人。她拿着一张皱巴巴的画跑向他。「给爸爸，」她说。画上是他们两个人，手牵着手，站在一轮歪斜的太阳下。",
+                "ja": "すべての前——アルカナムの前、海の前、竜サミーの前——エララは庭で笑っている。彼女自身よりもずっと光の弱いおもちゃの球を手に持って。しわくちゃの絵を手に、彼女は父の元へ駆け寄る。「パパへ」と彼女は言う。絵の中には二人がいる、手を繋ぎ、傾いた太陽の下で。"
+            },
+            "fx": {
+                "glow": 0.85
+            },
+            "bg": "bg_ending_f_2.png",
+            "next": "a_f3"
+        },
+        "a_f3": {
+            "kind": "say",
+            "speaker": {
+                "es": "Narrador",
+                "en": "Narrator",
+                "fr": "Narrateur",
+                "it": "Narratore",
+                "de": "Erzähler",
+                "zh": "旁白",
+                "ja": "ナレーター"
+            },
+            "portrait": "🌿",
+            "text": {
+                "es": "Aiden se guarda esa luz y despierta. Meses después, abre una pequeña clínica infantil con el nombre de ella grabado sobre la puerta. De las esferas no vuelve a hablar nunca. No hace falta: por fin cura en vez de destruir, y cada niño que sale sano de allí es, de algún modo, ella.",
+                "en": "Aiden keeps that light and wakes. Months later, he opens a small children's clinic with her name carved over the door. He never speaks of the spheres again. He doesn't need to: at last he heals instead of destroys, and every child who walks out well is, somehow, her.",
+                "fr": "Aiden garde cette lumière avec lui et se réveille. Des mois plus tard, il ouvre une petite clinique pour enfants avec son nom gravé au-dessus de la porte. Il ne parle plus jamais des sphères. Il n'en a pas besoin : il guérit enfin au lieu de détruire, et chaque enfant qui en sort en bonne santé est, d'une certaine façon, elle.",
+                "it": "Aiden custodisce quella luce e si sveglia. Mesi dopo, apre una piccola clinica pediatrica con il suo nome inciso sopra la porta. Delle sfere non parla mai più. Non ne ha bisogno: finalmente cura invece di distruggere, e ogni bambino che ne esce sano è, in un certo senso, lei.",
+                "de": "Aiden bewahrt dieses Licht und erwacht. Monate später eröffnet er eine kleine Kinderklinik mit ihrem Namen über der Tür eingraviert. Von den Sphären spricht er nie wieder. Er muss nicht: endlich heilt er, statt zu zerstören, und jedes Kind, das gesund von dort weggeht, ist auf gewisse Weise sie.",
+                "zh": "艾登带着那份光醒来。数月之后，他开了一家小小的儿童诊所，门楣上刻着她的名字。他再也没有提起过那些球体。他不需要了：他终于开始治愈而非毁灭，而每一个健康走出诊所的孩子，在某种意义上，都是她。",
+                "ja": "エイデンはその光を胸に秘めたまま目覚める。数か月後、彼はドアの上に彼女の名を刻んだ小さな児童診療所を開く。球体について語ることは二度とない。その必要はない——ついに彼は破壊ではなく癒しをもたらす者となり、そこから元気に去っていく子ども一人ひとりが、どこかで彼女なのだから。"
+            },
+            "fx": {
+                "glow": 0.95
+            },
+            "bg": "bg_ending_f_3.png",
+            "next": "mark_ending_f"
+        },
+        "mark_ending_f": {
+            "kind": "state",
+            "ops": "gflag:ending_secret_epilogue",
+            "next": "mark_completed"
+        },
+        "mark_ending_a": {
+            "kind": "state",
+            "ops": "gflag:ending_acceptance",
+            "next": "mark_completed"
+        },
+        "mark_ending_b": {
+            "kind": "state",
+            "ops": "gflag:ending_madness",
+            "next": "mark_completed"
+        },
+        "mark_ending_c": {
+            "kind": "state",
+            "ops": "gflag:ending_denial",
+            "next": "mark_completed"
+        },
+        "mark_ending_d": {
+            "kind": "state",
+            "ops": "gflag:ending_destruction",
+            "next": "mark_completed"
+        },
+        "mark_ending_e": {
+            "kind": "state",
+            "ops": "gflag:ending_vengeance",
+            "next": "mark_completed"
+        },
+        "mark_completed": {
+            "kind": "state",
+            "ops": "questf:game_completed",
+            "next": "roll_credits"
+        },
+        "roll_credits": {
+            "kind": "flow",
+            "op": "credits"
+        }
+    }
+}

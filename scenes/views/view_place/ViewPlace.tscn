@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://b6dkrbn2k2nbd"]
+
+[ext_resource type="Script" uid="uid://cbja8my5jbg40" path="res://scenes/views/view_place/ViewPlace.gd" id="1_plc"]
+[ext_resource type="Theme" uid="uid://oa12bmuphesv" path="res://assets/common/main_theme.tres" id="2_theme"]
+
+[node name="ViewPlace" type="Control" unique_id=1361073049]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("2_theme")
+script = ExtResource("1_plc")

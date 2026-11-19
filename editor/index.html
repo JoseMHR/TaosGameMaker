@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Taos Game Maker</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="./styles.css?v=20260927_2" />
+	<!-- B6: Vue vendorizado para arranque OFFLINE. El
+	     import map remapea la antigua URL de unpkg (que siguen usando todos los
+	     módulos) al fichero local, sin tener que tocar los ~35 imports. Debe ir
+	     ANTES del primer <script type="module">. Para actualizar Vue, re-descarga
+	     editor/js/vendor/vue.esm-browser.prod.js (mismo nombre). -->
+	<script type="importmap">
+	{
+		"imports": {
+			"https://unpkg.com/vue@3/dist/vue.esm-browser.prod.js": "./js/vendor/vue.esm-browser.prod.js"
+		}
+	}
+	</script>
+	<!-- Visor 3D de modelos GLB: <model-viewer> de Google
+	     vendorizado (arranque OFFLINE, mismo criterio que Vue). Registra el
+	     custom element globalmente; DungeonEditor.js lo usa para previsualizar
+	     props .glb importados sin depender de una CDN en producción. Para
+	     actualizar, re-descarga editor/js/vendor/model-viewer.min.js (mismo
+	     nombre) desde https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js -->
+	<script type="module" src="./js/vendor/model-viewer.min.js"></script>
+</head>
+<body>
+	<div id="app"></div>
+	<script type="module" src="./js/app.js"></script>
+</body>
+</html>

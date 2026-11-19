@@ -1,0 +1,32 @@
+{
+    "name": {
+        "es": "Manto del Desierto",
+        "en": "Desert Cloak",
+        "fr": "Manteau du Désert",
+        "it": "Mantello del Deserto",
+        "de": "Wüstenumhang",
+        "zh": "沙漠斗篷",
+        "ja": "デザートクローク"
+    },
+    "desc": {
+        "es": "Tejido fresco y ligero, ideal para las dunas de Gloriam.",
+        "en": "Cool, lightweight fabric, ideal for Gloriam's dunes.",
+        "fr": "Tissu frais et léger, idéal pour les dunes de Gloriam.",
+        "it": "Tessuto fresco e leggero, ideale per le dune di Gloriam.",
+        "de": "Kühler, leichter Stoff, ideal für die Dünen von Gloriam.",
+        "zh": "凉爽轻便的织物，非常适合格洛里亚姆的沙丘。",
+        "ja": "涼しく軽い生地で、グロリアムの砂丘に最適。"
+    },
+    "icon": "👘",
+    "category": "equipment",
+    "usable": false,
+    "slot": "armor",
+    "tier": 3,
+    "bonuses": {
+        "int": 6,
+        "agi": 2
+    },
+    "combat": {
+        "mag_defense": 34
+    }
+}

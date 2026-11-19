@@ -1,0 +1,184 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "Cabaña de las Sombras",
+            "en": "Shadow Cabin",
+            "fr": "Cabane des Ombres",
+            "it": "Capanna delle Ombre",
+            "de": "Schattenhütte",
+            "zh": "阴影小屋",
+            "ja": "影の小屋"
+        },
+        "next": [],
+        "reward": "bg=0.04,0.05,0.07"
+    },
+    "cabana_root": {
+        "type": "message",
+        "text": {
+            "es": "Una cabaña de troncos carcomidos por la escarcha cruje con el viento helado. La puerta entreabierta oscila lentamente, rechinando sobre sus goznes oxidados. En el interior la chimenea lleva siglos apagada, pero en el centro de la mesa hay una taza de té humeante... recién servida.",
+            "en": "A frost-rotted log cabin creaks under the biting blizzard. The half-ajar timber door sways slowly, groaning on rusted hinges. Inside, the hearth has been cold for centuries, yet on the center table rests a steaming cup of tea... freshly poured.",
+            "fr": "Une cabane de rondins rongés par le givre craque sous le vent glacé. La porte entrebâillée oscille lentement, grinçant sur ses gonds rouillés. À l'intérieur, l'âtre est éteint depuis des siècles, mais au centre de la table repose une tasse de thé fumante... fraîchement servie.",
+            "it": "Una capanna di tronchi corrosi dal gelo scricchiola sotto il vento gelido. La porta socchiusa oscilla lentamente, cigolando sui cardini arrugginiti. All'interno il focolare è spento da secoli, ma al centro del tavolo c'è una tazza di tè fumante... appena versata.",
+            "de": "Eine vom Frost zerfressene Blockhütte knarrt im eisigen Wind. Die halb offene Tür schwingt langsam, quietschend in ihren rostigen Angeln. Innen ist der Kamin seit Jahrhunderten erloschen, doch in der Mitte des Tisches steht eine dampfende Tasse Tee... frisch eingeschenkt.",
+            "zh": "一座被霜冻侵蚀的圆木小屋在寒风中吱嘎作响。半掩的门缓缓摇晃，在生锈的铰链上发出刺耳的声音。屋内的壁炉已经熄灭了几个世纪，但桌子中央却放着一杯冒着热气的茶……刚刚倒好的。",
+            "ja": "霜に朽ちた丸太小屋が凍える風の中で軋んでいる。半開きの扉がゆっくりと揺れ、錆びついた蝶番できしむ。中では暖炉が何世紀も前から消えたままだが、テーブルの中央には湯気の立つ紅茶が一杯置かれている……淹れたてのように。"
+        },
+        "next": [
+            "cabana_opt_te",
+            "cabana_opt_lenha",
+            "cabana_opt_altillo",
+            "cabana_opt_diario",
+            "cabana_opt_salir"
+        ],
+        "reward": ""
+    },
+    "cabana_opt_te": {
+        "type": "option",
+        "text": {
+            "es": "☕  (Coger la taza humeante y bebértela de un trago sin miedo a lo oculto)",
+            "en": "☕  (Pick up the steaming tea and drink it down, fearless of the uncanny)",
+            "fr": "☕  (Prendre la tasse fumante et la boire d'un trait sans crainte de l'occulte)",
+            "it": "☕  (Prendere la tazza fumante e berla d'un fiato senza paura dell'occulto)",
+            "de": "☕  (Die dampfende Tasse nehmen und sie ohne Angst vor dem Unheimlichen austrinken)",
+            "zh": "☕  （拿起冒着热气的茶杯，毫不畏惧诡异之事，一饮而尽）",
+            "ja": "☕  （湯気の立つ茶を手に取り、超常現象を恐れずに一気に飲み干す）"
+        },
+        "next": [
+            "cabana_msg_te"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "cabana_msg_te": {
+        "type": "message",
+        "text": {
+            "es": "El té es denso, dulce y cargado de canela silvestre y bayas invernales. Un calor desafiante y ardiente recorre tus miembros disipando todo el frío acumulado. En el fondo de la taza de barro encuentras un broche de plata con 25 monedas de oro que alguien dejó como ofrenda. Los susurros del altillo retroceden impresionados por tu audacia.",
+            "en": "The brew is rich, sweet, and laden with wild cinnamon and winter berries. A defiant, burning warmth surges through your sinews, driving off the mountain chill. At the bottom of the earthenware cup rests a silver clasp holding 25 gold coins left as tribute. Whispers in the rafters recoil, humbled by your bravery.",
+            "fr": "Le thé est dense, sucré, chargé de cannelle sauvage et de baies d'hiver. Une chaleur audacieuse et brûlante parcourt tes membres, dissipant tout le froid accumulé. Au fond de la tasse en terre cuite, tu trouves une broche en argent avec 25 pièces d'or, laissée comme offrande. Les murmures du grenier reculent, impressionnés par ton audace.",
+            "it": "Il tè è denso, dolce e carico di cannella selvatica e bacche invernali. Un calore audace e ardente ti percorre le membra, dissipando tutto il freddo accumulato. Sul fondo della tazza di terracotta trovi una spilla d'argento con 25 monete d'oro lasciate come offerta. I sussurri della soffitta arretrano impressionati dalla tua audacia.",
+            "de": "Der Tee ist dickflüssig, süß und voller wilder Zimt und Winterbeeren. Eine trotzige, brennende Wärme durchströmt deine Glieder und vertreibt alle angesammelte Kälte. Am Boden der Tontasse findest du eine silberne Spange mit 25 Goldmünzen, als Opfergabe hinterlassen. Die Flüstergestalten des Dachbodens weichen zurück, beeindruckt von deiner Kühnheit.",
+            "zh": "这杯茶浓郁香甜，混合着野生肉桂和冬季浆果的味道。一股无畏而灼热的暖意流遍你的四肢，驱散了所有积聚的寒冷。在陶土杯底，你发现了一枚银质别针，别针上挂着25枚金币，作为祭品留下。阁楼里的低语声因你的胆量而退却了。",
+            "ja": "その茶は濃厚で甘く、野生のシナモンと冬の木の実がたっぷり入っている。挑むような燃える暖かさが四肢を駆け巡り、溜まった冷えをすべて消し去る。陶器のカップの底には、供物として残された25枚の金貨とともに銀のブローチが見つかる。屋根裏の囁きは、お前の大胆さに感銘を受けて退いていく。"
+        },
+        "next": [
+            "cabana_root"
+        ],
+        "reward": "faceta:valor=+1;heal:40;gold:+25"
+    },
+    "cabana_opt_lenha": {
+        "type": "option",
+        "text": {
+            "es": "🪵  (Colocar leña seca en el hogar y encender una fogata para dar calidez al refugio)",
+            "en": "🪵  (Place dry kindling into the hearth and light a fire to warm the shelter)",
+            "fr": "🪵  (Placer du bois sec dans l'âtre et allumer un feu pour réchauffer le refuge)",
+            "it": "🪵  (Mettere legna secca nel focolare e accendere un fuoco per riscaldare il rifugio)",
+            "de": "🪵  (Trockenes Holz in den Kamin legen und ein Feuer entzünden, um die Zuflucht zu wärmen)",
+            "zh": "🪵  （在壁炉中放入干柴，点燃篝火为这个避难所带来温暖）",
+            "ja": "🪵  （暖炉に乾いた薪を入れ、避難所を暖めるために火をつける）"
+        },
+        "next": [
+            "cabana_msg_lenha"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "cabana_msg_lenha": {
+        "type": "message",
+        "text": {
+            "es": "El fuego chisporrotea en la chimenea, desprendiendo un resplandor dorado y crujiente que baña las paredes de madera. La atmósfera opresiva y fantasmal se transforma en un refugio acogedor. Sientes un suspiro de descanso flotar en el aire, como si una presencia solitaria agradeciera el fuego. La bondad hacia los lugares heridos reconforta el espíritu.",
+            "en": "Flames crackle within the hearth, casting a crisp golden hearthlight against old pine logs. The oppressive spectral gloom softens into a welcoming haven. A gentle sigh of release lingers in the air, as if a solitary presence thanked you for the fire. Kindness toward forsaken places warms the spirit.",
+            "fr": "Le feu crépite dans l'âtre, dégageant une lueur dorée et craquante qui baigne les murs de bois. L'atmosphère oppressante et fantomatique se transforme en un refuge accueillant. Tu sens un soupir de repos flotter dans l'air, comme si une présence solitaire remerciait pour le feu. La bonté envers les lieux blessés réconforte l'esprit.",
+            "it": "Il fuoco scoppietta nel focolare, sprigionando un bagliore dorato e crepitante che bagna le pareti di legno. L'atmosfera opprimente e fantasmagorica si trasforma in un rifugio accogliente. Senti un sospiro di sollievo fluttuare nell'aria, come se una presenza solitaria ringraziasse per il fuoco. La bontà verso i luoghi feriti conforta lo spirito.",
+            "de": "Das Feuer knistert im Kamin und wirft einen goldenen, knisternden Schein auf die Holzwände. Die bedrückende, gespenstische Atmosphäre verwandelt sich in eine einladende Zuflucht. Du spürst einen Seufzer der Erleichterung in der Luft schweben, als würde eine einsame Präsenz für das Feuer danken. Güte gegenüber verwundeten Orten tröstet den Geist.",
+            "zh": "炉火在壁炉中噼啪作响，散发出金色而清脆的光芒，映照着木质墙壁。压抑而阴森的氛围转变成了一个温馨的避难所。你感觉到空气中飘荡着一声如释重负的叹息，仿佛某个孤独的存在在感谢这团炉火。对受伤之地的善意抚慰着灵魂。",
+            "ja": "暖炉に火が爆ぜ、木の壁を金色にパチパチと照らす。重苦しく幽霊めいた雰囲気が、居心地の良い避難所へと変わっていく。まるで孤独な存在が火に感謝しているかのように、空気中に安堵のため息が漂うのを感じる。傷ついた場所への優しさが心を癒す。"
+        },
+        "next": [
+            "cabana_root"
+        ],
+        "reward": "faceta:bondad=+1;heal:20"
+    },
+    "cabana_opt_altillo": {
+        "type": "option",
+        "text": {
+            "es": "🪜  Mirar fijamente hacia la trampilla del altillo",
+            "en": "🪜  Peer resolutely up at the attic trapdoor",
+            "fr": "🪜  Fixer résolument la trappe du grenier",
+            "it": "🪜  Fissare risolutamente la botola della soffitta",
+            "de": "🪜  Entschlossen zur Dachbodenklappe hinaufstarren",
+            "zh": "🪜  坚定地凝视着阁楼的活板门",
+            "ja": "🪜  屋根裏の跳ね戸をきっぱりと見据える"
+        },
+        "next": [
+            "cabana_msg_altillo"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "cabana_msg_altillo": {
+        "type": "message",
+        "text": {
+            "es": "Escuchas pasos suaves sobre las tablas. Dos ojos dorados te observan fijamente a través de una rendija de la madera... pero sostienes su mirada sin titubear. La presencia parpadea, reconoce tu temple inquebrantable y se desvanece en la oscuridad como niebla nocturna. No hay sombra capaz de intimidar a quien no teme a la noche.",
+            "en": "Soft footsteps shuffle above. Two golden eyes stare unblinking through a fissure in the timber... yet you hold the gaze without a single tremor. The entity blinks, acknowledges your resolute fortitude, and dissolves into the dark like nocturnal fog. Shadows cannot cow those who do not fear the night.",
+            "fr": "Tu entends des pas légers sur les planches. Deux yeux dorés t'observent fixement à travers une fissure du bois... mais tu soutiens leur regard sans hésiter. La présence cligne des yeux, reconnaît ta détermination inébranlable et se dissipe dans l'obscurité comme un brouillard nocturne. Aucune ombre ne peut intimider celui qui ne craint pas la nuit.",
+            "it": "Senti passi leggeri sulle assi. Due occhi dorati ti osservano fissamente attraverso una fessura nel legno... ma sostieni il loro sguardo senza esitare. La presenza sbatte le palpebre, riconosce il tuo temperamento incrollabile e svanisce nell'oscurità come nebbia notturna. Nessuna ombra può intimidire chi non teme la notte.",
+            "de": "Du hörst leise Schritte auf den Brettern. Zwei goldene Augen beobachten dich starr durch einen Spalt im Holz... aber du hältst ihrem Blick ohne zu zögern stand. Die Präsenz blinzelt, erkennt deine unerschütterliche Entschlossenheit und löst sich wie nächtlicher Nebel in der Dunkelheit auf. Kein Schatten kann jemanden einschüchtern, der die Nacht nicht fürchtet.",
+            "zh": "你听到木板上传来轻柔的脚步声。两只金色的眼睛透过木板的缝隙一动不动地盯着你……但你毫不犹豫地与它对视。那存在眨了眨眼，认可了你不可动摇的胆识，如同夜雾一般消散在黑暗中。没有阴影能吓倒不惧夜晚之人。",
+            "ja": "板の上で軽い足音が聞こえる。木の裂け目から二つの金色の目がじっとお前を見つめている……だがお前は臆することなくその視線を受け止める。その存在は瞬きをし、お前の揺るぎない胆力を認め、夜霧のように闇へと溶けていく。夜を恐れぬ者を、いかなる影も脅かすことはできない。"
+        },
+        "next": [
+            "cabana_root"
+        ],
+        "reward": "faceta:valor=+1"
+    },
+    "cabana_opt_diario": {
+        "type": "option",
+        "text": {
+            "es": "📖  Leer el diario desgastado sobre la mesa",
+            "en": "📖  Read the weathered journal on the table",
+            "fr": "📖  Lire le journal usé sur la table",
+            "it": "📖  Leggere il diario consumato sul tavolo",
+            "de": "📖  Das abgenutzte Tagebuch auf dem Tisch lesen",
+            "zh": "📖  阅读桌上那本破旧的日记",
+            "ja": "📖  テーブルの上の擦り切れた日記を読む"
+        },
+        "next": [
+            "cabana_msg_diario"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "cabana_msg_diario": {
+        "type": "message",
+        "text": {
+            "es": "'Día 104 del invierno: No estoy solo. Las sombras aprendieron a imitar mi voz. Anoche me llamaron desde la ventana con el tono de mi madre... Si lees esto, no respondas cuando te susurren por tu nombre.' Desentrañar los misterios de los supervivientes del páramo expande tu astucia y prudencia.",
+            "en": "'Day 104 of the frost: I am not alone. The shadows learned to mimic my voice. Last night they called to me from the frost pane in my mother tone... If thou readest this, never answer when they whisper thy true name.' Unraveling the chronicles of wasteland survivors hones your prudence and cunning.",
+            "fr": "« Jour 104 de l'hiver : Je ne suis pas seul. Les ombres ont appris à imiter ma voix. Cette nuit, elles m'ont appelé depuis la fenêtre avec le ton de ma mère... Si tu lis ceci, ne réponds pas quand on murmure ton nom. » Percer les mystères des survivants de la lande élargit ta prudence et ton astuce.",
+            "it": "'Giorno 104 dell'inverno: Non sono solo. Le ombre hanno imparato a imitare la mia voce. La notte scorsa mi hanno chiamato dalla finestra col tono di mia madre... Se leggi questo, non rispondere quando sussurrano il tuo nome.' Svelare i misteri dei sopravvissuti della landa amplia la tua astuzia e prudenza.",
+            "de": "„Tag 104 des Winters: Ich bin nicht allein. Die Schatten haben gelernt, meine Stimme nachzuahmen. Letzte Nacht riefen sie mich vom Fenster aus mit der Stimme meiner Mutter... Wenn du das liest, antworte nicht, wenn sie deinen Namen flüstern.“ Die Geheimnisse der Ödland-Überlebenden zu entschlüsseln erweitert deine Umsicht und List.",
+            "zh": "「冬季第104天：我并不孤单。阴影学会了模仿我的声音。昨晚它们用我母亲的语气从窗边呼唤我……如果你读到这些，当有人低声呼唤你的名字时，千万不要回应。」揭开荒原幸存者的秘密拓宽了你的机智与谨慎。",
+            "ja": "「冬の104日目：俺は一人じゃない。影が俺の声を真似ることを覚えた。昨夜、母の声色で窓から呼びかけてきた……これを読んだなら、名前を囁かれても決して答えるな」荒野の生存者の謎を解き明かすことで、お前の慎重さと狡猾さが磨かれる。"
+        },
+        "next": [
+            "cabana_root"
+        ],
+        "reward": "faceta:inteligencia=+1;discover:lore_cabana_sombras"
+    },
+    "cabana_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  (Cerrar la puerta con cuidado y continuar la ruta)",
+            "en": "🚶  (Carefully latch the door and resume your journey)",
+            "fr": "🚶  (Refermer la porte avec précaution et poursuivre ta route)",
+            "it": "🚶  (Chiudere con cura la porta e proseguire il cammino)",
+            "de": "🚶  (Die Tür vorsichtig verriegeln und die Reise fortsetzen)",
+            "zh": "🚶  （小心地关上门，继续赶路）",
+            "ja": "🚶  （慎重に扉を閉め、旅を再開する）"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

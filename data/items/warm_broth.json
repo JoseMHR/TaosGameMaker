@@ -1,0 +1,26 @@
+{
+    "name": {
+        "es": "Caldo Caliente",
+        "en": "Warm Broth",
+        "fr": "Bouillon Chaud",
+        "it": "Brodo Caldo",
+        "de": "Warme Brühe",
+        "zh": "热汤",
+        "ja": "温かいスープ"
+    },
+    "desc": {
+        "es": "Un caldo espeso que entra en calor al instante. Alivia el frío de las nieves.",
+        "en": "A thick broth that warms you up instantly. Eases the cold of the snowy peaks.",
+        "fr": "Un bouillon épais qui réchauffe instantanément. Soulage le froid des neiges.",
+        "it": "Un brodo denso che scalda all'istante. Allevia il freddo delle nevi.",
+        "de": "Eine dickflüssige Brühe, die sofort wärmt. Lindert die Kälte der Schneegipfel.",
+        "zh": "浓稠的热汤，能瞬间驱寒，缓解雪地的严寒。",
+        "ja": "すぐに体を温める濃厚なスープ。雪の峰の寒さを和らげる。"
+    },
+    "icon": "🍲",
+    "category": "consumable",
+    "usable": true,
+    "effects": {
+        "heal_pct": 0.12
+    }
+}

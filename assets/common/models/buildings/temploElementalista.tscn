@@ -1,0 +1,101 @@
+[gd_scene format=3 uid="uid://templo_elementalista_poi"]
+
+[sub_resource type="StandardMaterial3D" id="Mat_BasaltStone"]
+albedo_color = Color(0.22, 0.22, 0.25, 1)
+roughness = 0.9
+
+[sub_resource type="StandardMaterial3D" id="Mat_BronzeTrim"]
+albedo_color = Color(0.75, 0.52, 0.22, 1)
+metallic = 0.75
+roughness = 0.35
+
+[sub_resource type="StandardMaterial3D" id="Mat_EleOrangeGlow"]
+albedo_color = Color(1.0, 0.45, 0.05, 1)
+emission_enabled = true
+emission = Color(1.0, 0.45, 0.05, 1)
+emission_energy_multiplier = 3.5
+
+[sub_resource type="StandardMaterial3D" id="Mat_WaterBlue"]
+albedo_color = Color(0.1, 0.6, 0.9, 1)
+emission_enabled = true
+emission = Color(0.1, 0.6, 0.9, 1)
+emission_energy_multiplier = 2.5
+
+[sub_resource type="StandardMaterial3D" id="Mat_EarthGreen"]
+albedo_color = Color(0.2, 0.8, 0.3, 1)
+emission_enabled = true
+emission = Color(0.2, 0.8, 0.3, 1)
+emission_energy_multiplier = 2.5
+
+[sub_resource type="StandardMaterial3D" id="Mat_DoorVoid"]
+albedo_color = Color(0.02, 0.02, 0.03, 1)
+roughness = 1.0
+
+[sub_resource type="BoxMesh" id="Mesh_StairsBase"]
+size = Vector3(1.1, 0.12, 1.25)
+
+[sub_resource type="CylinderMesh" id="Mesh_Rotunda"]
+top_radius = 0.42
+bottom_radius = 0.46
+height = 0.75
+radial_segments = 8
+
+[sub_resource type="BoxMesh" id="Mesh_DoorVoid"]
+size = Vector3(0.34, 0.52, 0.15)
+
+[sub_resource type="PrismMesh" id="Mesh_PyramidRoof"]
+size = Vector3(0.85, 0.45, 0.85)
+
+[sub_resource type="SphereMesh" id="Mesh_Orb"]
+radius = 0.065
+height = 0.13
+
+[sub_resource type="PrismMesh" id="Mesh_CoreCrystal"]
+size = Vector3(0.12, 0.32, 0.12)
+
+[node name="TemploElementalista" type="Node3D"]
+
+[node name="StairsBase" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.06, 0.05)
+material_override = SubResource("Mat_BasaltStone")
+mesh = SubResource("Mesh_StairsBase")
+
+[node name="Rotunda" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, -0.1)
+material_override = SubResource("Mat_BasaltStone")
+mesh = SubResource("Mesh_Rotunda")
+
+[node name="DoorVoid" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.42, 0.3)
+material_override = SubResource("Mat_DoorVoid")
+mesh = SubResource("Mesh_DoorVoid")
+
+[node name="PyramidRoof" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.1, -0.1)
+material_override = SubResource("Mat_BronzeTrim")
+mesh = SubResource("Mesh_PyramidRoof")
+
+[node name="OrbFire" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.38, 0.45, 0.36)
+material_override = SubResource("Mat_EleOrangeGlow")
+mesh = SubResource("Mesh_Orb")
+
+[node name="OrbWater" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.38, 0.45, 0.36)
+material_override = SubResource("Mat_WaterBlue")
+mesh = SubResource("Mesh_Orb")
+
+[node name="OrbEarth" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.38, 0.45, -0.52)
+material_override = SubResource("Mat_EarthGreen")
+mesh = SubResource("Mesh_Orb")
+
+[node name="OrbAir" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.38, 0.45, -0.52)
+material_override = SubResource("Mat_EleOrangeGlow")
+mesh = SubResource("Mesh_Orb")
+
+[node name="ClassCore" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.42, -0.1)
+material_override = SubResource("Mat_EleOrangeGlow")
+mesh = SubResource("Mesh_CoreCrystal")

@@ -1,0 +1,96 @@
+﻿{
+    "id": "final_a",
+    "title": {
+        "es": "Final A — Aceptación",
+        "en": "Ending A — Acceptance",
+        "fr": "Fin A — Acceptation",
+        "it": "Finale A — Accettazione",
+        "de": "Ende A — Akzeptanz",
+        "zh": "结局A——接受",
+        "ja": "エンディングA——受容"
+    },
+    "desc": "El despertar y la aceptación. Aiden asume la muerte de Elara y despierta en el hospital junto a Roxas.",
+    "music": "world_zone1_flooded",
+    "on_finish": "end",
+    "ops": "gflag:ending_acceptance;questf:game_completed",
+    "slides": [
+        {
+            "bg": "bg_ending_a_1.png",
+            "speaker": {
+                "es": "Final A — Aceptación",
+                "en": "Ending A — Acceptance",
+                "fr": "Fin A — Acceptation",
+                "it": "Finale A — Accettazione",
+                "de": "Ende A — Akzeptanz",
+                "zh": "结局A——接受",
+                "ja": "エンディングA——受容"
+            },
+            "portrait": "",
+            "text": {
+                "es": "La Esfera no se rompe: se deshace, despacio, como escarcha bajo el primer sol. Y por primera vez Aiden no intenta volver a atrás. 'Ya basta', se oye decir. 'No puedo cambiarlo. Solo puedo dejar de morir con ella cada noche.'",
+                "en": "The Sphere doesn't shatter: it melts, slowly, like frost under the first sun. And for the first time, Aiden doesn't try to go back. 'Enough,' he hears himself say. 'I can't change it. I can only stop dying with her every night.'",
+                "fr": "La Sphère ne se brise pas : elle fond, lentement, comme le givre sous le premier soleil. Et pour la première fois, Aiden n'essaie pas de revenir en arrière. « Ça suffit », s'entend-il dire. « Je ne peux pas le changer. Je peux seulement arrêter de mourir avec elle chaque nuit. »",
+                "it": "La Sfera non si spezza: si dissolve, lentamente, come brina sotto il primo sole. E per la prima volta Aiden non cerca di tornare indietro. 'Basta', si sente dire. 'Non posso cambiarlo. Posso solo smettere di morire con lei ogni notte.'",
+                "de": "Die Sphäre zerbricht nicht: sie schmilzt, langsam, wie Raureif unter der ersten Sonne. Und zum ersten Mal versucht Aiden nicht, zurückzukehren. „Es reicht“, hört er sich selbst sagen. „Ich kann es nicht ändern. Ich kann nur aufhören, jede Nacht mit ihr zu sterben.“",
+                "zh": "球体没有碎裂：它缓缓消融，如同初阳下的白霜。这是艾登第一次没有试图回到过去。「够了，」他听见自己说，「我无法改变这一切。我只能不再每晚都随她一同死去。」",
+                "ja": "球は砕けない。ゆっくりと、初めての陽光に晒された霜のように溶けていく。そして初めて、エイデンは過去に戻ろうとしなかった。「もう十分だ」と自分の声が聞こえる。「変えることはできない。ただ、毎晩彼女と共に死ぬのをやめることならできる」"
+            },
+            "fx": {
+                "darken": 0.35,
+                "glow": 0.4,
+                "sfx": "click"
+            }
+        },
+        {
+            "bg": "bg_ending_a_2.png",
+            "speaker": {
+                "es": "Roxas",
+                "en": "Roxas",
+                "fr": "Roxas",
+                "it": "Roxas",
+                "de": "Roxas",
+                "zh": "罗克萨斯",
+                "ja": "ロクサス"
+            },
+            "portrait": "",
+            "text": {
+                "es": "Abre los ojos en una cama de hospital. No han pasado años: han pasado once días. Y a su lado, agotado y más viejo de lo que recordaba, está Roxas — el amigo que lo arrastró al templo, vivo, sin soltarle la mano. 'Volviste', susurra. 'Creí que te había perdido a ti también.'",
+                "en": "He opens his eyes in a hospital bed. It hasn't been years: it's been eleven days. And beside him, exhausted and older than he remembered, sits Roxas — the friend who dragged him to the temple, alive, never letting go of his hand. 'You came back,' he whispers. 'I thought I'd lost you too.'",
+                "fr": "Il ouvre les yeux dans un lit d'hôpital. Il ne s'est pas écoulé des années : seulement onze jours. Et à ses côtés, épuisé et plus vieux qu'il ne s'en souvenait, se trouve Roxas — l'ami qui l'a traîné jusqu'au temple, vivant, sans lâcher sa main. « Tu es revenu », murmure-t-il. « Je croyais t'avoir perdu toi aussi. »",
+                "it": "Apre gli occhi in un letto d'ospedale. Non sono passati anni: sono passati undici giorni. E al suo fianco, esausto e più vecchio di come lo ricordava, c'è Roxas — l'amico che lo trascinò al tempio, vivo, senza mollargli la mano. 'Sei tornato', sussurra. 'Credevo di aver perso anche te.'",
+                "de": "Er öffnet die Augen in einem Krankenhausbett. Es sind keine Jahre vergangen: nur elf Tage. Und an seiner Seite, erschöpft und älter, als er ihn in Erinnerung hatte, sitzt Roxas — der Freund, der ihn zum Tempel schleppte, lebendig, ohne seine Hand loszulassen. „Du bist zurückgekommen“, flüstert er. „Ich dachte, ich hätte auch dich verloren.“",
+                "zh": "他在医院的病床上睁开双眼。过去的并非数年，只有十一天。而在他身旁，疲惫不堪、比记忆中苍老许多的罗克萨斯——那个把他拖到神庙的朋友，还活着，紧紧握着他的手，不曾松开。「你回来了，」他低声说，「我以为我也失去你了。」",
+                "ja": "病院のベッドで目を開ける。何年も経ったわけではない。たった十一日だ。そして傍らには、記憶よりも疲れ果て老けたロクサスがいた——彼を神殿まで引きずっていった友は、生きて、その手を離さずにいた。「戻ってきたのか」と彼はささやく。「お前まで失ったと思っていた」"
+            },
+            "fx": {
+                "darken": 0.3,
+                "glow": 0.35
+            }
+        },
+        {
+            "bg": "bg_ending_a_3.png",
+            "speaker": {
+                "es": "Narrador",
+                "en": "Narrator",
+                "fr": "Narrateur",
+                "it": "Narratore",
+                "de": "Erzähler",
+                "zh": "旁白",
+                "ja": "ナレーター"
+            },
+            "portrait": "",
+            "text": {
+                "es": "Duele, y seguirá doliendo. Pero deja que Elara descanse en la memoria y no en la culpa. Esa mañana come solo, mira por la ventana, y decide que mañana comerá otra vez. Es el primer plan de futuro que hace desde el accidente.",
+                "en": "It hurts, and it will keep hurting. But he lets Elara rest in memory instead of guilt. That morning he eats alone, looks out the window, and decides that tomorrow he will eat again. It's the first plan for the future he's made since the accident.",
+                "fr": "Ça fait mal, et ça continuera de faire mal. Mais il laisse Elara reposer dans la mémoire et non dans la culpabilité. Ce matin-là, il mange seul, regarde par la fenêtre, et décide que demain il mangera à nouveau. C'est le premier projet d'avenir qu'il fait depuis l'accident.",
+                "it": "Fa male, e continuerà a fare male. Ma lascia che Elara riposi nel ricordo e non nella colpa. Quella mattina mangia da solo, guarda dalla finestra, e decide che domani mangerà di nuovo. È il primo proyecto per il futuro che fa dall'incidente.",
+                "de": "Es tut weh, und es wird weiter wehtun. Aber er lässt Elara in der Erinnerung ruhen und nicht in der Schuld. An diesem Morgen isst er allein, schaut aus dem Fenster und beschließt, dass er morgen wieder essen wird. Es ist der erste Zukunftsplan, den er seit dem Unfall macht.",
+                "zh": "这很痛，而且这份痛还会继续。但他让艾拉拉安息于记忆之中，而不是愧疚之中。那天早晨，他独自用餐，望向窗外，决定明天还要再吃一顿饭。这是事故发生以来，他第一次为未来做打算。",
+                "ja": "痛みは消えない。これからも痛み続けるだろう。だが彼は、エララを罪悪感の中にではなく、記憶の中で安らかに眠らせることにした。その朝、彼は一人で食事をし、窓の外を眺め、明日もまた食事をしようと決める。事故以来、初めて立てた未来への計画だった。"
+            },
+            "fx": {
+                "glow": 0.7
+            }
+        }
+    ]
+}

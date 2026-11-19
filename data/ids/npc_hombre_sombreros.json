@@ -1,0 +1,26 @@
+{
+    "id": "npc_hombre_sombreros",
+    "type": "poi",
+    "icon": "🎩",
+    "name": {
+        "es": "Lord Sombrerius",
+        "en": "Lord Hatticus",
+        "fr": "Lord Chapelier",
+        "it": "Lord Cappelliere",
+        "de": "Lord Hutmacherius",
+        "zh": "帽爵爷",
+        "ja": "帽子卿"
+    },
+    "desc": {
+        "es": "Un caballero de porte imposible que equilibra una torre de sombreros en un cruce de caminos. (PNJ singular).",
+        "en": "A gentleman of impossible bearing balancing a tower of hats at a crossroads. (Singular NPC).",
+        "fr": "Un gentleman à l'allure impossible équilibrant une tour de chapeaux à un carrefour. (PNJ singulier).",
+        "it": "Un gentiluomo dal portamento impossibile che tiene in equilibrio una torre di cappelli a un crocevia. (PNG singolare).",
+        "de": "Ein Gentleman von unmöglicher Haltung, der an einer Kreuzung einen Turm aus Hüten balanciert. (Einzigartiger NPC).",
+        "zh": "一位仪态不可思议的绅士，在十字路口平衡着一座帽子塔。（唯一NPC）。",
+        "ja": "交差点で帽子の塔をバランスさせている、あり得ないほど堂々とした紳士。（唯一のNPC）。"
+    },
+    "npc": "npc_hombre_sombreros",
+    "bg": "bg_world_poi_pradera_hombre_sombreros.png",
+    "music": "poi_comic"
+}

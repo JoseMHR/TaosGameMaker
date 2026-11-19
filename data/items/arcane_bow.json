@@ -1,0 +1,40 @@
+{
+    "name": {
+        "es": "Arco de Fotones",
+        "en": "Photon Bow",
+        "fr": "Arc de Photons",
+        "it": "Arco di Fotoni",
+        "de": "Photonenbogen",
+        "zh": "光子弓",
+        "ja": "フォトンボウ"
+    },
+    "desc": {
+        "es": "Proyecta flechas de energía condensada a velocidad relativista.",
+        "en": "Projects condensed energy arrows at relativistic speed.",
+        "fr": "Projette des flèches d'énergie condensée à vitesse relativiste.",
+        "it": "Proietta frecce di energia condensata a velocità relativistica.",
+        "de": "Schießt Pfeile aus verdichteter Energie mit relativistischer Geschwindigkeit.",
+        "zh": "以接近光速发射凝聚能量之箭。",
+        "ja": "相対論的速度で凝縮エネルギーの矢を放つ。"
+    },
+    "icon": "🏹",
+    "category": "equipment",
+    "usable": false,
+    "slot": "weapon",
+    "tier": 6,
+    "bonuses": {
+        "dex": 26,
+        "agi": 14
+    },
+    "combat": {
+        "range_damage": 235
+    },
+    "traits": [
+        {
+            "type": "armor_penetration",
+            "value": 0.25,
+            "min_refine": 5,
+            "desc": "Ataques atraviesan un 25% de la Defensa enemiga"
+        }
+    ]
+}

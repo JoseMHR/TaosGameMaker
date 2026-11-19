@@ -1,0 +1,11 @@
+{
+	"code": "bad",
+	"order": 5,
+	"label": "Yelmo",
+	"color": "#7c7f84",
+	"icon": "🌫️",
+	"biome_color": "#6b6e73",
+	"walkable": true,
+	"texture": "yelmo",
+	"tint": "#858c94"
+}

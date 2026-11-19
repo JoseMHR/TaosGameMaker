@@ -1,0 +1,25 @@
+{
+    "id": "poi_gloriam_oasis",
+    "type": "poi",
+    "icon": "🌴",
+    "name": {
+        "es": "Oasis del Manantial",
+        "en": "Oasis Spring",
+        "fr": "Oasis de la Source",
+        "it": "Oasi della Sorgente",
+        "de": "Quelloase",
+        "zh": "泉水绿洲",
+        "ja": "泉のオアシス"
+    },
+    "desc": {
+        "es": "Oasis cristalino donde los nómadas comparten historias de las dunas",
+        "en": "Crystal oasis where nomads share dune tales",
+        "fr": "Oasis cristalline où les nomades partagent des histoires des dunes",
+        "it": "Oasi cristallina dove i nomadi condividono storie delle dune",
+        "de": "Kristallklare Oase, wo Nomaden Geschichten von den Dünen teilen",
+        "zh": "水晶般的绿洲，游牧民在此分享沙丘的故事",
+        "ja": "遊牧民が砂丘の物語を語り合う、水晶のように透き通ったオアシス"
+    },
+    "npc": "gloriam_nomada",
+    "bg": "bg_city_gloriam_oasis.png"
+}

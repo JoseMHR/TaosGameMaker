@@ -1,0 +1,150 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "La Voz que Llega de Fuera",
+            "en": "The Voice From Outside",
+            "fr": "La Voix qui Vient de l'Extérieur",
+            "it": "La Voce che Arriva da Fuori",
+            "de": "Die Stimme von Außen",
+            "zh": "来自外界的声音",
+            "ja": "外からの声"
+        },
+        "next": [],
+        "reward": "avatar=📻;bg=0.05,0.06,0.09"
+    },
+    "roxas_root": {
+        "type": "message",
+        "text": {
+            "es": "Una radio antigua flota sola en el vacío, con el dial encendido en un rojo tenue. De su altavoz sale una voz de hombre, entrecortada por la estática, viniendo desde un lugar que se siente infinitamente lejano: '...Aiden... ¿me oyes...? Soy Roxas... llevas once días sin despertar... los médicos dicen que... —crujido— ...pero yo sé que sigues ahí dentro. Por favor. No te quedes en el sueño. Vuelve. Aún no es tarde.' La voz se repite en bucle, cada vez un poco más ronca de tanto suplicar.",
+            "en": "An old radio floats alone in the void, its dial glowing a faint red. From its speaker comes a man's voice, broken by static, arriving from a place that feels infinitely far away: '...Aiden... can you hear me...? It's Roxas... you've been out eleven days... the doctors say... —crackle— ...but I know you're still in there. Please. Don't stay in the dream. Come back. It's not too late yet.' The voice loops, each time a little hoarser from so much pleading.",
+            "fr": "Une vieille radio flotte seule dans le vide, le cadran allumé d'un rouge tamisé. De son haut-parleur sort une voix d'homme, entrecoupée de statique, venant d'un endroit qui semble infiniment lointain : « ...Aiden... tu m'entends...? C'est Roxas... ça fait onze jours que tu ne te réveilles pas... les médecins disent que... —crachotement— ...mais moi je sais que tu es encore là-dedans. S'il te plaît. Ne reste pas dans le rêve. Reviens. Il n'est pas encore trop tard. » La voix se répète en boucle, chaque fois un peu plus rauque à force de supplier.",
+            "it": "Una vecchia radio fluttua sola nel vuoto, con la manopola accesa di un rosso tenue. Dal suo altoparlante esce una voce d'uomo, interrotta dalla statica, proveniente da un luogo che sembra infinitamente lontano: '...Aiden... mi senti...? Sono Roxas... sono undici giorni che non ti svegli... i medici dicono che... —crepitio— ...ma io so che sei ancora lì dentro. Per favore. Non restare nel sogno. Torna. Non è ancora troppo tardi.' La voce si ripete in loop, ogni volta un po' più rauca dal tanto supplicare.",
+            "de": "Ein altes Radio schwebt allein in der Leere, das Zifferblatt in mattem Rot leuchtend. Aus seinem Lautsprecher kommt eine Männerstimme, unterbrochen von Rauschen, aus einem Ort, der unendlich fern scheint: „...Aiden... hörst du mich...? Ich bin Roxas... du bist seit elf Tagen nicht aufgewacht... die Ärzte sagen, dass... —Knistern— ...aber ich weiß, dass du noch da drinnen bist. Bitte. Bleib nicht im Traum. Komm zurück. Es ist noch nicht zu spät.“ Die Stimme wiederholt sich in einer Schleife, jedes Mal etwas heiserer vom vielen Bitten.",
+            "zh": "一台老式收音机独自漂浮在虚空之中，刻度盘发出微弱的红光。它的扬声器里传出一个男人的声音，被静电噪声打断着，仿佛来自一个无比遥远的地方：「……艾登……你能听到我吗？……是我，罗克萨斯……你已经十一天没有醒来了……医生们说……——噼啪声——……但我知道你还在里面。求你了。别留在梦里。回来吧。现在还不算太晚。」这声音循环播放着，每一次都因不断的哀求而变得更加嘶哑。",
+            "ja": "古いラジオが虚空に一人浮かんでおり、ダイヤルはかすかな赤色に光っている。そのスピーカーからは、静電気に途切れる男の声が、限りなく遠い場所から届いているように感じられる——「……エイデン……聞こえるか……？ロクサスだ……もう十一日も目覚めていない……医者たちは……——ザザッ——……だが俺は分かっている、お前がまだそこにいることを。頼む。夢の中に留まるな。戻ってこい。まだ遅くはない」その声はループし、懇願を繰り返すたびに少しずつ声がかすれていく。"
+        },
+        "next": [
+            "roxas_opt_responder",
+            "roxas_opt_escuchar",
+            "roxas_opt_apagar",
+            "roxas_opt_salir"
+        ],
+        "reward": ""
+    },
+    "roxas_opt_responder": {
+        "type": "option",
+        "text": {
+            "es": "🗣️  Acercarte a la radio y responderle: Te oigo, Roxas. Estoy volviendo.",
+            "en": "🗣️  Lean close to the radio and answer: I hear you, Roxas. I'm coming back.",
+            "fr": "🗣️  Tapprocher de la radio et lui répondre : Je tentends, Roxas. Je reviens.",
+            "it": "🗣️  Avvicinarti alla radio e rispondergli: Ti sento, Roxas. Sto tornando.",
+            "de": "🗣️  Dich dem Radio nähern und antworten: Ich höre dich, Roxas. Ich komme zurück.",
+            "zh": "🗣️  靠近收音机，回应他：我能听到你，罗克萨斯。我正在回来。",
+            "ja": "🗣️  ラジオに近づき、答える：聞こえるよ、ロクサス。戻っているところだ"
+        },
+        "next": [
+            "roxas_msg_responder"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "roxas_msg_responder": {
+        "type": "message",
+        "text": {
+            "es": "Pegas la boca al altavoz y hablas, sintiéndote absurdo y a la vez desesperado por que te oiga. 'Te oigo, Roxas. Estoy aquí. Estoy volviendo.' Por un instante, la estática se corta. Y la voz, temblando, susurra: '...¿Aiden? ¿Eres...? —solloza— No sé si me llega, pero si me oyes: te espero. Todos los días, en la misma silla. No hay prisa. Solo... vuelve cuando puedas.' La radio vuelve a su bucle. Te apartas con los ojos húmedos y una brasa cálida en el pecho: en algún lugar, fuera de este sueño de dolor, alguien sigue sujetándote la mano. No estás tan solo como creías.",
+            "en": "You press your mouth to the speaker and speak, feeling absurd and at once desperate to be heard. 'I hear you, Roxas. I'm here. I'm coming back.' For an instant, the static cuts out. And the voice, trembling, whispers: '...Aiden? Is that...? —he sobs— I don't know if this reaches you, but if you can hear me: I'll wait. Every day, in the same chair. There's no rush. Just... come back when you can.' The radio returns to its loop. You step away with wet eyes and a warm ember in your chest: somewhere, outside this dream of pain, someone is still holding your hand. You're not as alone as you thought.",
+            "fr": "Tu colles la bouche au haut-parleur et parles, te sentant absurde et désespérément voulu être entendu. « Je t'entends, Roxas. Je suis là. Je reviens. » Pendant un instant, la statique s'interrompt. Et la voix, tremblante, murmure : « ...Aiden ? C'est... —il sanglote— Je ne sais pas si ça t'arrive, mais si tu m'entends : je t'attends. Tous les jours, sur la même chaise. Pas de précipitation. Juste... reviens quand tu peux. » La radio reprend sa boucle. Tu t'écartes les yeux humides et une braise chaude dans la poitrine : quelque part, hors de ce rêve de douleur, quelqu'un continue à te tenir la main. Tu n'es pas aussi seul que tu le croyais.",
+            "it": "Ti attacchi la bocca all'altoparlante e parli, sentendoti assurdo e al tempo stesso desperato di essere sentito. 'Ti sento, Roxas. Sono qui. Sto tornando.' Per un istante, la statica si interrompe. E la voce, tremante, sussurra: '...Aiden? Sei...? —singhiozza— Non so se mi arriva, ma se mi senti: ti aspetto. Ogni giorno, sulla stessa sedia. Nessuna fretta. Solo... torna quando puoi.' La radio riprende il suo loop. Ti allontani con gli occhi umidi e una brace calda nel petto: in qualche luogo, fuori da questo sogno di dolore, qualcuno continua a tenerti la mano. Non sei così solo come credevi.",
+            "de": "Du presst den Mund an den Lautsprecher und sprichst, dich absurd fühlend und zugleich verzweifelt danach, gehört zu werden. „Ich höre dich, Roxas. Ich bin hier. Ich komme zurück.“ Für einen Moment bricht das Rauschen ab. Und die Stimme, zitternd, flüstert: „...Aiden? Bist du...? —er schluchzt— Ich weiß nicht, ob das bei dir ankommt, aber wenn du mich hörst: ich warte auf dich. Jeden Tag, auf demselben Stuhl. Keine Eile. Nur... komm zurück, wenn du kannst.“ Das Radio kehrt zu seiner Schleife zurück. Du trittst zurück mit feuchten Augen und einer warmen Glut in der Brust: irgendwo, außerhalb dieses Schmerztraums, hält dich immer noch jemand an der Hand. Du bist nicht so allein, wie du dachtest.",
+            "zh": "你把嘴贴在扬声器上说话，感觉既荒唐又拼命想要被听到。「我能听到你，罗克萨斯。我在这里。我正在回来。」瞬间，静电噪声停止了。那声音颤抖着低语：「……艾登？是你……——他抽泣起来——我不知道这话能不能传到你那里，但如果你能听见：我会等你。每一天，都坐在同一张椅子上。不急。只要……你能回来的时候就回来吧。」收音机又重新开始了循环。你退开，眼含泪水，胸中燃着一股温暖的余烬：在这场痛苦的梦境之外，某个地方，有人仍然握着你的手。你并没有自己想象的那么孤单。",
+            "ja": "スピーカーに口を押し付けて話す。馬鹿げていると感じながらも、同時に聞いてほしいという必死さもある。「聞こえるよ、ロクサス。ここにいる。戻っているところだ」一瞬、雑音が途切れる。そして震える声が囁く。「……エイデン？お前……——彼はすすり泣く——これが届いているか分からないが、聞こえているなら——待っているよ。毎日、同じ椅子でな。急がなくていい。ただ……できる時に戻ってきてくれ」ラジオは再びループに戻る。目を潤ませ、胸に温かい残り火を抱いて離れる——この痛みの夢の外側で、どこかで誰かがまだお前の手を握り続けているのだ。思っていたほど、お前は孤独ではない。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:cordura=+1;faceta:bondad=+1"
+    },
+    "roxas_opt_escuchar": {
+        "type": "option",
+        "text": {
+            "es": "👂  Escuchar el bucle entero, a ver qué más dice entre la estática",
+            "en": "👂  Listen to the whole loop, to hear what else it says through the static",
+            "fr": "👂  Écouter toute la boucle, pour voir ce quelle dit dautre entre les crachotements",
+            "it": "👂  Ascoltare lintero loop, per vedere cosa dice daltro tra i crepitii",
+            "de": "👂  Die gesamte Schleife anhören, um zu erfahren, was sie sonst noch durch das Rauschen sagt",
+            "zh": "👂  听完整个循环，看看在静电噪声之间还说了些什么",
+            "ja": "👂  雑音の間に他に何を言っているか、ループ全体を聞く"
+        },
+        "next": [
+            "roxas_msg_escuchar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "roxas_msg_escuchar": {
+        "type": "message",
+        "text": {
+            "es": "Aguzas el oído entre los crujidos. Poco a poco, el bucle deja escapar más frases: '...fui yo quien te llevó al templo aquella noche... si no te hubiera insistido, nunca habrías... —estática— ...no me perdono haberte dejado tocar esa esfera... despierta y déjame pedirte perdón a la cara...' Roxas también carga con su culpa. También cree que lo que te pasó es cosa suya. Dos hombres, cada uno a un lado del sueño, ahogándose en la misma pregunta de 'y si yo no hubiera...'. Te apartas con el corazón encogido por él tanto como por ti.",
+            "en": "You strain to listen through the crackles. Little by little, the loop lets slip more phrases: '...it was me who took you to the temple that night... if I hadn't pushed you, you'd never have... —static— ...I can't forgive myself for letting you touch that sphere... wake up and let me say sorry to your face...' Roxas carries his guilt too. He too believes what happened to you is his doing. Two men, each on one side of the dream, drowning in the same question of 'what if I hadn't...'. You step away with your heart clenched for him as much as for yourself.",
+            "fr": "Tu tends l'oreille entre les crachotements. Peu à peu, la boucle laisse échapper d'autres phrases : « ...c'est moi qui t'ai emmené au temple cette nuit-là... si je n'avais pas insisté, tu n'aurais jamais... —statique— ...je ne me pardonne pas de t'avoir laissé toucher cette sphère... réveille-toi et laisse-moi te demander pardon en face... » Roxas porte lui aussi sa culpabilité. Lui aussi croit que ce qui t'est arrivé est de sa faute. Deux hommes, chacun d'un côté du rêve, se noyant dans la même question « et si je n'avais pas... ». Tu t'écartes le cœur serré pour lui autant que pour toi-même.",
+            "it": "Aguzzi l'orecchio tra i crepitii. Poco a poco, il loop lascia scappare altre frasi: '...fui io a portarti al tempio quella notte... se non ti avessi insistito, non avresti mai... —statica— ...non mi perdono di averti lasciato toccare quella sfera... svegliati e lasciami chiederti perdono in faccia...' Roxas porta anche lui la sua colpa. Anche lui crede che quello che ti è successo sia colpa sua. Due uomini, ciascuno su un lato del sogno, che affogano nella stessa domanda 'e se io non avessi...'. Ti allontani con il cuore stretto per lui tanto quanto per te.",
+            "de": "Du lauschst angespannt durch das Knistern. Nach und nach lässt die Schleife weitere Sätze entschlüpfen: „...ich war es, der dich in jener Nacht zum Tempel brachte... wenn ich dich nicht gedrängt hätte, hättest du nie... —Rauschen— ...ich kann mir nicht verzeihen, dass ich dich diese Sphäre berühren ließ... wach auf und lass mich dir ins Gesicht Vergebung erbitten...“ Roxas trägt auch seine Schuld. Auch er glaubt, dass das, was dir geschah, sein Werk ist. Zwei Männer, jeder auf einer Seite des Traums, versinken in derselben Frage: „und wenn ich nicht...“. Du entfernst dich mit einem für ihn ebenso wie für dich zusammengeschnürten Herzen.",
+            "zh": "你在噪声中努力聆听。这循环渐渐泄露出更多的话语：「……那晚是我带你去神庙的……如果我没有坚持，你就永远不会……——静电噪声——……我无法原谅自己让你触碰了那颗球体……醒过来吧，让我当面向你道歉……」罗克萨斯也背负着他的罪恶感。他也相信发生在你身上的事是他的错。两个男人，各自在这个梦境的一端，被同样的问题「如果我没有……」所淹没。你带着同样为他也为自己而揪紧的心离开了。",
+            "ja": "雑音の中で耳を澄ませる。少しずつ、ループから他の言葉が漏れてくる——「……あの夜、あの神殿に連れて行ったのは俺だった……無理強いしなければ、お前は決して……——雑音——……あの球にお前を触れさせてしまったことを、自分でも許せない……目を覚まして、直接謝らせてくれ……」ロクサスも自分の罪悪感を抱えている。彼もまた、お前に起きたことが自分のせいだと信じている。二人の男が、夢のそれぞれの側で、同じ「もし俺が……しなければ」という問いに溺れている。彼のためにも、自分自身のためにも、締め付けられる心を抱えて離れる。"
+        },
+        "next": [
+            "roxas_root"
+        ],
+        "reward": "faceta:cordura=-1"
+    },
+    "roxas_opt_apagar": {
+        "type": "option",
+        "text": {
+            "es": "🔇  No estás listo para oír eso. Apagar la radio",
+            "en": "🔇  You're not ready to hear that. Switch the radio off",
+            "fr": "🔇  Tu n'es pas prêt à entendre ça. Éteindre la radio",
+            "it": "🔇  Non sei pronto a sentire quello. Spegnere la radio",
+            "de": "🔇  Du bist nicht bereit, das zu hören. Das Radio ausschalten",
+            "zh": "🔇  你还没准备好听那些。关掉收音机",
+            "ja": "🔇  それを聞く準備はできていない。ラジオを消す"
+        },
+        "next": [
+            "roxas_msg_apagar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "roxas_msg_apagar": {
+        "type": "message",
+        "text": {
+            "es": "Giras el dial hasta que la voz se apaga con un chasquido. El silencio del vacío vuelve, enorme. Te dices que no podías con eso ahora, que ya volverás a escucharla cuando estés preparado. Pero mientras te alejas, sabes que has apagado la única voz que intentaba sacarte de aquí, la única cuerda tendida desde el mundo real. Silenciar a quien te llama a casa es más fácil que responderle. También es más solo.",
+            "en": "You turn the dial until the voice dies with a click. The silence of the void returns, enormous. You tell yourself you couldn't handle that right now, that you'll listen again when you're ready. But as you walk away, you know you've switched off the only voice trying to pull you out of here, the only rope thrown from the real world. Silencing the one calling you home is easier than answering. It's also lonelier.",
+            "fr": "Tu tournes le cadran jusqu'à ce que la voix s'éteigne avec un clic. Le silence du vide revient, immense. Tu te dis que tu ne pouvais pas gérer ça maintenant, que tu écouteras à nouveau quand tu seras prêt. Mais en t'éloignant, tu sais que tu as éteint la seule voix qui essayait de te sortir d'ici, la seule corde tendue depuis le monde réel. Faire taire celui qui t'appelle à revenir est plus facile que de lui répondre. C'est aussi plus solitaire.",
+            "it": "Giri la manopola finché la voce si spegne con uno scatto. Il silenzio del vuoto ritorna, enorme. Ti dici che non potevi affrontarlo ora, che ci tornerai ad ascoltare quando sarai pronto. Ma mentre ti allontani, sai di aver spento l'unica voce che cercava di tirarti fuori da qui, l'unica corda tesa dal mondo reale. Far tacere chi ti chiama a casa è più facile che risponderle. È anche più solitario.",
+            "de": "Du drehst am Zifferblatt, bis die Stimme mit einem Klick erlischt. Die Stille der Leere kehrt zurück, riesig. Du sagst dir, dass du das jetzt nicht bewältigen konntest, dass du wieder zuhören wirst, wenn du bereit bist. Aber während du dich entfernst, weißt du, dass du die einzige Stimme abgeschaltet hast, die versuchte, dich hier herauszuholen, das einzige Seil, das aus der realen Welt gespannt wurde. Denjenigen zum Schweigen zu bringen, der dich nach Hause ruft, ist einfacher, als ihm zu antworten. Es ist auch einsamer.",
+            "zh": "你转动着旋钮，直到那声音随着一声「咔嗒」而消失。虚空中的寂静再次归来，无比巨大。你告诉自己现在无法承受这一切，等你准备好了再重新听吧。但在你离开时，你知道自己刚刚关掉了唯一想把你带出这里的声音，那唯一一根从真实世界抛来的绳索。让呼唤你回家的人沉默，比回应他要容易得多。但那也更加孤独。",
+            "ja": "カチッという音とともに声が消えるまでダイヤルを回す。虚無の静寂が戻ってくる、巨大なものが。今はそれに耐えられないのだと、準備ができたらまた聞くのだと自分に言い聞かせる。だが離れながら、お前はここから引き出そうとしていた唯一の声、現実世界から投げられた唯一の綱を切ったことを分かっている。家に呼び戻す者を黙らせることは、答えるよりも簡単だ。だがそれは、より孤独でもある。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:valor=-1"
+    },
+    "roxas_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Dejar la radio flotando con su bucle y seguir adelante",
+            "en": "🚶  Leave the radio floating with its loop and press on",
+            "fr": "🚶  Laisser la radio flotter avec sa boucle et continuer",
+            "it": "🚶  Lasciare la radio a fluttuare con il suo loop e proseguire",
+            "de": "🚶  Das Radio mit seiner Schleife schweben lassen und weitergehen",
+            "zh": "🚶  留下这台仍在循环播放的收音机，继续前行",
+            "ja": "🚶  ループを繰り返すラジオを浮かせたまま、先へ進む"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

@@ -1,0 +1,11 @@
+{
+	"t": "smart",
+	"order": 211,
+	"label": "Objeto Inteligente",
+	"icon": "🧩",
+	"color": "#5aa0e6",
+	"group": "Sistema",
+	"entity": true,
+	"orient": true,
+	"smart": true
+}

@@ -1,0 +1,25 @@
+{
+    "id": "house_snow_02",
+    "type": "poi",
+    "name": {
+        "es": "La Caravana Sepultada",
+        "en": "The Buried Caravan",
+        "fr": "La Caravane Ensevelie",
+        "it": "La Carovana Sepolta",
+        "de": "Die Vergrabene Karawane",
+        "zh": "被掩埋的商队",
+        "ja": "埋もれたキャラバン"
+    },
+    "icon": "🛷",
+    "npc": "house_snow_02",
+    "visual": "casita",
+    "presences": [
+        {
+            "condition": "default",
+            "actor": "house_snow_02",
+            "entry_node": ""
+        }
+    ],
+    "bg": "bg_world_poi_hielo_caravana_02.png",
+    "music": "poi_house_cozy"
+}

@@ -1,0 +1,33 @@
+{
+    "id": "poi_sylphrena_church",
+    "type": "poi",
+    "name": {
+        "es": "Templo de la Luz",
+        "en": "Temple of Light",
+        "fr": "Temple de la Lumière",
+        "it": "Tempio della Luce",
+        "de": "Tempel des Lichts",
+        "zh": "光明神殿",
+        "ja": "光の神殿"
+    },
+    "icon": "⛪",
+    "desc": {
+        "es": "Sanación y piedad",
+        "en": "Healing and piety",
+        "fr": "Guérison et piété",
+        "it": "Guarigione e devozione",
+        "de": "Heilung und Frömmigkeit",
+        "zh": "治愈与虔诚",
+        "ja": "癒しと敬虔"
+    },
+    "kind": "church",
+    "npc": "church",
+    "presences": [
+        {
+            "condition": "default",
+            "actor": "church",
+            "entry_node": ""
+        }
+    ],
+    "bg": "bg_city_sylphrena_church.png"
+}

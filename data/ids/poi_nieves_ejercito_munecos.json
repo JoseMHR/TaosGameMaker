@@ -1,0 +1,26 @@
+{
+    "id": "poi_nieves_ejercito_munecos",
+    "type": "poi",
+    "icon": "⛄",
+    "name": {
+        "es": "El Ejército de Muñecos de Nieve",
+        "en": "The Snowman Army",
+        "fr": "L'Armée de Bonhommes de Neige",
+        "it": "L'Esercito di Pupazzi di Neve",
+        "de": "Die Schneemann-Armee",
+        "zh": "雪人军团",
+        "ja": "雪だるまの軍隊"
+    },
+    "desc": {
+        "es": "Cien muñecos de nieve formados en filas perfectas, con rangos militares, ascendidos por un general de nueve años muy serio. (PNJ singular).",
+        "en": "A hundred snowmen in perfect ranks, with military titles, all promoted by a very solemn nine-year-old general. (Singular NPC).",
+        "fr": "Cent bonhommes de neige alignés en rangs parfaits, avec des grades militaires, promus par un général de neuf ans très sérieux. (PNJ singulier).",
+        "it": "Cento pupazzi di neve schierati in file perfette, con gradi militari, promossi da un generale di nove anni molto serio. (PNG singolare).",
+        "de": "Hundert Schneemänner in perfekten Reihen, mit militärischen Rängen, befördert von einem sehr ernsten neunjährigen General. (Einzigartiger NPC).",
+        "zh": "一百个排成整齐队列的雪人，佩戴着军衔，由一位极其严肃的九岁将军亲自晋升。（唯一NPC）。",
+        "ja": "完璧な隊列を組んだ百体の雪だるま。とても真剣な九歳の将軍によって階級を授けられている。（唯一のNPC）。"
+    },
+    "npc": "poi_nieves_ejercito_munecos",
+    "bg": "bg_world_poi_nieves_ejercito_munecos.png",
+    "music": "poi_generic"
+}

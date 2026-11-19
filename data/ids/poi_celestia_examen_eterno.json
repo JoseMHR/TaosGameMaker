@@ -1,0 +1,26 @@
+{
+    "id": "poi_celestia_examen_eterno",
+    "type": "poi",
+    "icon": "📝",
+    "name": {
+        "es": "El Examen que Nunca Termina",
+        "en": "The Exam That Never Ends",
+        "fr": "L'Examen qui ne Finit Jamais",
+        "it": "L'Esame che Non Finisce Mai",
+        "de": "Die Prüfung, die Niemals Endet",
+        "zh": "永无止境的考试",
+        "ja": "終わらない試験"
+    },
+    "desc": {
+        "es": "Un aula donde varios estudiantes llevan décadas haciendo el mismo examen, sin atreverse a entregar por miedo a suspender. (PNJ singular).",
+        "en": "A classroom where several students have spent decades taking the same exam, not daring to hand it in for fear of failing. (Singular NPC).",
+        "fr": "Une salle de classe où plusieurs élèves passent le même examen depuis des décennies, n'osant pas le rendre de peur d'échouer. (PNJ singulier).",
+        "it": "Un'aula dove diversi studenti sostengono lo stesso esame da decenni, senza osare consegnarlo per paura di bocciare. (PNG singolare).",
+        "de": "Ein Klassenzimmer, in dem mehrere Schüler seit Jahrzehnten dieselbe Prüfung ablegen, ohne sie abzugeben, aus Angst durchzufallen. (Einzigartiger NPC).",
+        "zh": "一间教室里，几名学生已经做了几十年同一份试卷，却因害怕不及格而始终不敢交卷。（唯一NPC）。",
+        "ja": "何十年も同じ試験を受け続ける生徒たちの教室。不合格を恐れて提出することができずにいる。（唯一のNPC）。"
+    },
+    "npc": "poi_celestia_examen_eterno",
+    "bg": "bg_world_poi_celestia_examen_eterno.png",
+    "music": "poi_generic"
+}

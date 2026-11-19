@@ -1,0 +1,183 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "Templo del Arquero",
+            "en": "Temple of the Archer",
+            "fr": "Temple de l'Archer",
+            "it": "Tempio dell'Arciere",
+            "de": "Tempel des Bogenschützen",
+            "zh": "弓箭手神庙",
+            "ja": "弓兵の神殿"
+        },
+        "next": [],
+        "reward": "avatar=🏹"
+    },
+    "ta_0": {
+        "type": "message",
+        "text": {
+            "es": "La figura encapuchada no se gira, pero una flecha se clava en el suelo, justo entre tus pies. 'Ni un paso más. Solo los aprendices pueden entrar al Sendero del Arquero. Demuéstrame que mereces serlo.'",
+            "en": "The hooded figure doesn't turn, but an arrow lands right between your feet. 'Not one step further. Only apprentices may enter the Archer's Path. Prove to me you deserve to be one.'",
+            "fr": "La silhouette encapuchonnée ne se retourne pas, mais une flèche se plante dans le sol, juste entre tes pieds. « Pas un pas de plus. Seuls les apprentis peuvent entrer dans le Sentier de l'Archer. Prouve-moi que tu mérites de l'être. »",
+            "it": "La figura incappucciata non si gira, ma una freccia si conficca nel terreno, proprio tra i tuoi piedi. 'Neanche un passo di più. Solo gli apprendisti possono entrare nel Sentiero dell'Arciere. Dimostrami che meriti di esserlo.'",
+            "de": "Die vermummte Gestalt dreht sich nicht um, doch ein Pfeil landet direkt zwischen deinen Füßen im Boden. „Keinen Schritt weiter. Nur Lehrlinge dürfen den Pfad des Bogenschützen betreten. Beweise mir, dass du es verdienst, einer zu sein.“",
+            "zh": "那个戴兜帽的身影没有转身，但一支箭却正正插在你双脚之间的地上。「别再前进一步。只有学徒才能进入弓箭手之路。证明给我看，你配得上这个身份。」",
+            "ja": "フードをかぶった人影は振り向かないが、矢が一本、お前の足の間に突き刺さる。「そこで止まれ。射手の道に入れるのは弟子だけだ。お前がそれにふさわしいことを証明してみせろ」"
+        },
+        "next": [
+            "ta_0a",
+            "ta_0b"
+        ],
+        "reward": "",
+        "condition": "no_gflag(\"apprentice_sendero_arquero\")"
+    },
+    "ta_0a": {
+        "type": "option",
+        "text": {
+            "es": "🏹  Acepto entrenar",
+            "en": "🏹  I accept training",
+            "fr": "🏹  J'accepte l'entraînement",
+            "it": "🏹  Accetto di allenarmi",
+            "de": "🏹  Ich akzeptiere das Training",
+            "zh": "🏹  我接受训练",
+            "ja": "🏹  修行を受け入れる"
+        },
+        "next": [
+            "ta_0r"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "ta_0r": {
+        "type": "message",
+        "text": {
+            "es": "'...tras varias horas intentando enseñarte a apuntar... sigues sin dar a nada... pero oficialmente eres una aprendiz.' Por fin se gira, apenas un segundo. 'Ya puedes entrar al Sendero. No falles el primer tiro; el segundo ya da igual.' 🏹 Ahora eres un aprendiz de Arquero. Busca el Sendero del Arquero para ponerte a prueba.",
+            "en": "'...after several hours trying to teach you to aim... you still hit nothing... but you are officially an apprentice.' She finally turns, just for a second. 'You may enter the Path now. Don't miss the first shot; the second won't matter anyway.' 🏹 You are now an Archer apprentice. Seek out the Archer's Path to put yourself to the test.",
+            "fr": "« ...après plusieurs heures à essayer de t'apprendre à viser... tu continues à ne rien toucher... mais officiellement tu es une apprentie. » Elle se retourne enfin, à peine une seconde. « Tu peux entrer dans le Sentier maintenant. Ne rate pas le premier tir ; le second n'aura plus d'importance de toute façon. » 🏹 Tu es maintenant une apprentie Archère. Cherche le Sentier de l'Archer pour te mettre à l'épreuve.",
+            "it": "'...dopo diverse ore a cercare di insegnarti a mirare... continui a non colpire nulla... ma sei ufficialmente un'apprendista.' Finalmente si gira, solo per un secondo. 'Ora puoi entrare nel Sentiero. Non mancare il primo tiro; il secondo ormai non conta più.' 🏹 Ora sei un'apprendista Arciere. Cerca il Sentiero dell'Arciere per metterti alla prova.",
+            "de": "„...nach mehreren Stunden, in denen ich versucht habe, dir das Zielen beizubringen... triffst du immer noch nichts... aber offiziell bist du eine Lehrlingin.“ Sie dreht sich endlich um, nur für eine Sekunde. „Du kannst den Pfad jetzt betreten. Verfehle den ersten Schuss nicht; der zweite ist ohnehin egal.“ 🏹 Du bist jetzt eine Bogenschützen-Lehrlingin. Suche den Pfad des Bogenschützen, um dich zu prüfen.",
+            "zh": "「……经过好几个小时试图教你瞄准……你还是什么都射不中……但正式来说，你已经是个学徒了。」她终于转过身来，仅仅一秒钟。「你现在可以进入这条路了。别错过第一箭；第二箭反正也无所谓了。」🏹 你现在是弓箭手学徒了。去寻找弓箭手之路来考验自己吧。",
+            "ja": "「……何時間もかけて狙いの付け方を教えようとしたが……お前は相変わらず何も当てられない……だが正式には、お前は弟子だ」彼女はついに、ほんの一瞬だけ振り向く。「もう道に入っていいぞ。最初の一矢を外すな。二本目はどうせ関係ない」🏹 お前は今、弓兵の弟子となった。射手の道を探し、自らを試すがいい。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "gflag:apprentice_sendero_arquero"
+    },
+    "ta_0b": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Salir del Templo",
+            "en": "🚶  Leave the Temple",
+            "fr": "🚶  Quitter le Temple",
+            "it": "🚶  Lasciare il Tempio",
+            "de": "🚶  Den Tempel verlassen",
+            "zh": "🚶  离开神庙",
+            "ja": "🚶  神殿を去る"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "ta_1": {
+        "condition": "gflag(\"apprentice_sendero_arquero\")",
+        "type": "message",
+        "text": {
+            "es": "En el Templo del Arquero solo se oye el susurro de una cuerda tensa. Una figura encapuchada habla sin girarse: 'Sé que estás ahí. Siempre lo sé. Si buscas el ojo del Arquero, el camino no está en mis palabras, sino en mi Sendero del Arquero, justo al lado. Encuentra lo que otros no ven.'",
+            "en": "In the Temple of the Archer only the whisper of a taut string is heard. A hooded figure speaks without turning: 'I know you're there. I always know. If you seek the Archer's eye, the way is not in my words but in my Archer's Path, right beside us. Find what others cannot see.'",
+            "fr": "Dans le Temple de l'Archer, on n'entend que le murmure d'une corde tendue. Une silhouette encapuchonnée parle sans se retourner : « Je sais que tu es là. Je le sais toujours. Si tu cherches l'œil de l'Archer, le chemin n'est pas dans mes paroles, mais dans mon Sentier de l'Archer, juste à côté. Trouve ce que les autres ne voient pas. »",
+            "it": "Nel Tempio dell'Arciere si sente solo il sussurro di una corda tesa. Una figura incappucciata parla senza girarsi: 'So che sei lì. Lo so sempre. Se cerchi l'occhio dell'Arciere, la via non è nelle mie parole, ma nel mio Sentiero dell'Arciere, proprio accanto. Trova ciò che gli altri non vedono.'",
+            "de": "Im Tempel des Bogenschützen hört man nur das Flüstern einer gespannten Sehne. Eine vermummte Gestalt spricht, ohne sich umzudrehen: „Ich weiß, dass du da bist. Ich weiß es immer. Wenn du das Auge des Bogenschützen suchst, liegt der Weg nicht in meinen Worten, sondern in meinem Pfad des Bogenschützen, gleich nebenan. Finde, was andere nicht sehen.“",
+            "zh": "在弓箭手神庙里，只能听见绷紧的弓弦的低语声。一个戴兜帽的身影不转身说道：「我知道你在那儿。我总是知道。如果你在寻找弓箭手之眼，答案不在我的言语中，而在紧邻的弓箭手之路上。去找到别人看不见的东西。」",
+            "ja": "弓兵の神殿では、張り詰めた弦の囁きしか聞こえない。フードの人影は振り向かずに語る。「お前がそこにいることは分かっている。いつも分かっているのだ。射手の目を求めるなら、道は私の言葉の中にはない。すぐ隣にある射手の道の中にある。他の者が見えないものを見つけ出せ」"
+        },
+        "next": [
+            "ta_1c",
+            "ta_1a",
+            "ta_1b"
+        ],
+        "reward": ""
+    },
+    "ta_1c": {
+        "type": "option",
+        "text": {
+            "es": "🏆  He completado la prueba",
+            "en": "🏆  I have completed the trial",
+            "fr": "🏆  J'ai réussi l'épreuve",
+            "it": "🏆  Ho completato la prova",
+            "de": "🏆  Ich habe die Prüfung bestanden",
+            "zh": "🏆  我已完成试炼",
+            "ja": "🏆  試練を終えた"
+        },
+        "next": [
+            "ta_1c_r"
+        ],
+        "reward": "",
+        "condition": "gflag(\"trial_done_sendero_arquero\") and no_prof(\"Arquero\")"
+    },
+    "ta_1c_r": {
+        "type": "message",
+        "text": {
+            "es": "La figura encapuchada se gira de golpe, sorprendida de verdad por primera vez. '...¿ya? Vaya. No me lo esperaba tan pronto.' Asiente despacio. 'Entonces es oficial: eres Arquero. El ojo del cazador es tuyo.'",
+            "en": "The hooded figure turns sharply, genuinely surprised for the first time. '...already? Well. Wasn't expecting that so soon.' She nods slowly. 'Then it's official: you are an Archer. The hunter's eye is yours.'",
+            "fr": "La silhouette encapuchonnée se retourne brusquement, réellement surprise pour la première fois. « ...déjà ? Eh bien. Je ne m'y attendais pas si tôt. » Elle hoche lentement la tête. « Alors c'est officiel : tu es Archère. L'œil du chasseur est à toi. »",
+            "it": "La figura incappucciata si gira di scatto, davvero sorpresa per la prima volta. '...già? Beh. Non me lo aspettavo così presto.' Annuisce lentamente. 'Allora è ufficiale: sei un'Arciere. L'occhio del cacciatore è tuo.'",
+            "de": "Die vermummte Gestalt dreht sich abrupt um, zum ersten Mal wirklich überrascht. „...schon? Nun. Damit habe ich so früh nicht gerechnet.“ Sie nickt langsam. „Dann ist es offiziell: Du bist eine Bogenschützin. Das Auge des Jägers gehört dir.“",
+            "zh": "那个戴兜帽的身影猛地转过身来，第一次露出真正的惊讶。「……已经完成了？哦。没想到这么快。」她缓缓点头。「那这就是正式的了：你是弓箭手了。猎人之眼归你了。」",
+            "ja": "フードの人影が勢いよく振り向く。初めて本当に驚いた様子だ。「……もう終わったのか？ふむ。こんなに早いとは思わなかった」ゆっくりと頷く。「それなら公式だ：お前は弓兵だ。狩人の目はお前のものだ」"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "prof:Arquero;event:check_all_professions"
+    },
+    "ta_1a": {
+        "type": "option",
+        "text": {
+            "es": "🏹  ¿Dónde está la prueba?",
+            "en": "🏹  Where is the trial?",
+            "fr": "🏹  Où se trouve l'épreuve ?",
+            "it": "🏹  Dove si trova la prova?",
+            "de": "🏹  Wo befindet sich die Prüfung?",
+            "zh": "🏹  试炼在哪里？",
+            "ja": "🏹  試練はどこにある？"
+        },
+        "next": [
+            "ta_1ar"
+        ],
+        "reward": ""
+    },
+    "ta_1ar": {
+        "type": "message",
+        "text": {
+            "es": "'A un paso de aquí: el Sendero del Arquero. Aprende a revelar lo oculto y regresa con la mirada del cazador. Entonces, y solo entonces, serás Arquero.'",
+            "en": "'A step away: the Archer's Path. Learn to reveal the hidden and return with a hunter's gaze. Then, and only then, will you be an Archer.'",
+            "fr": "« À un pas d'ici : le Sentier de l'Archer. Apprends à révéler ce qui est caché et reviens avec le regard du chasseur. Alors, et alors seulement, tu seras Archère. »",
+            "it": "'A un passo da qui: il Sentiero dell'Arciere. Impara a rivelare ciò che è nascosto e torna con lo sguardo del cacciatore. Allora, e solo allora, sarai un'Arciere.'",
+            "de": "„Einen Schritt von hier entfernt: der Pfad des Bogenschützen. Lerne, das Verborgene zu enthüllen, und kehre mit dem Blick eines Jägers zurück. Dann, und nur dann, wirst du eine Bogenschützin sein.“",
+            "zh": "「就在不远处：弓箭手之路。学会揭示隐藏之物，带着猎人的目光归来。到那时，唯有到那时，你才是弓箭手。」",
+            "ja": "「ここからほんの少し先だ——射手の道。隠されたものを見抜く術を学び、狩人の眼差しを持って戻ってこい。その時初めて、お前は射手となる」"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "ta_1b": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Salir del Templo",
+            "en": "🚶  Leave the Temple",
+            "fr": "🚶  Quitter le Temple",
+            "it": "🚶  Lasciare il Tempio",
+            "de": "🚶  Den Tempel verlassen",
+            "zh": "🚶  离开神庙",
+            "ja": "🚶  神殿を去る"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

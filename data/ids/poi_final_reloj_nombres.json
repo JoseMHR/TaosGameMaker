@@ -1,0 +1,26 @@
+{
+    "id": "poi_final_reloj_nombres",
+    "type": "poi",
+    "icon": "⏳",
+    "name": {
+        "es": "El Reloj de Arena de los Nombres",
+        "en": "The Hourglass of Names",
+        "fr": "Le Sablier des Noms",
+        "it": "La Clessidra dei Nomi",
+        "de": "Die Sanduhr der Namen",
+        "zh": "姓名沙漏",
+        "ja": "名前の砂時計"
+    },
+    "desc": {
+        "es": "Un reloj de arena colosal cuya arena no son granos, sino nombres diminutos que caen sin parar de una vida a la otra. (PNJ singular).",
+        "en": "A colossal hourglass whose sand is not grains but tiny names, falling endlessly from one life to the next. (Singular NPC).",
+        "fr": "Un sablier colossal dont le sable n'est pas fait de grains, mais de minuscules noms qui tombent sans cesse d'une vie à l'autre. (PNJ singulier).",
+        "it": "Una clessidra colossale la cui sabbia non è fatta di granelli, ma di minuscoli nomi che cadono senza sosta da una vita all'altra. (PNG singolare).",
+        "de": "Eine kolossale Sanduhr, deren Sand nicht aus Körnern, sondern aus winzigen Namen besteht, die unaufhörlich von einem Leben ins andere fallen. (Einzigartiger NPC).",
+        "zh": "一座巨大的沙漏，漏下的不是沙粒，而是从一个生命坠向另一个生命、永不停歇的微小姓名。（唯一NPC）。",
+        "ja": "巨大な砂時計。その砂は粒ではなく、一つの命から次の命へと絶え間なく落ち続ける小さな名前だ。（唯一のNPC）。"
+    },
+    "npc": "poi_final_reloj_nombres",
+    "bg": "bg_world_poi_final_reloj_nombres.png",
+    "music": "poi_generic"
+}

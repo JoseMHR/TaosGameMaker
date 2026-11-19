@@ -1,0 +1,190 @@
+[gd_scene format=3]
+
+[sub_resource type="StandardMaterial3D" id="Mat_CozyPlaster"]
+albedo_color = Color(0.92, 0.86, 0.74, 1)
+roughness = 0.8
+
+[sub_resource type="StandardMaterial3D" id="Mat_CozyRoof"]
+albedo_color = Color(0.68, 0.28, 0.18, 1)
+roughness = 0.6
+
+[sub_resource type="StandardMaterial3D" id="Mat_WoodTimber"]
+albedo_color = Color(0.35, 0.22, 0.14, 1)
+roughness = 0.85
+
+[sub_resource type="StandardMaterial3D" id="Mat_ChimneyStone"]
+albedo_color = Color(0.45, 0.45, 0.48, 1)
+roughness = 0.9
+
+[sub_resource type="StandardMaterial3D" id="Mat_WindowWarm"]
+albedo_color = Color(1, 0.85, 0.4, 1)
+emission_enabled = true
+emission = Color(1, 0.8, 0.3, 1)
+emission_energy_multiplier = 2.5
+
+[sub_resource type="StandardMaterial3D" id="Mat_Pot"]
+albedo_color = Color(0.55, 0.32, 0.2, 1)
+roughness = 0.9
+
+[sub_resource type="StandardMaterial3D" id="Mat_Flower"]
+albedo_color = Color(0.92, 0.35, 0.45, 1)
+emission_enabled = true
+emission = Color(0.92, 0.35, 0.45, 1)
+emission_energy_multiplier = 0.4
+
+[sub_resource type="StandardMaterial3D" id="Mat_Lantern"]
+albedo_color = Color(1, 0.75, 0.35, 1)
+emission_enabled = true
+emission = Color(1, 0.75, 0.35, 1)
+emission_energy_multiplier = 1.6
+
+[sub_resource type="StandardMaterial3D" id="Mat_FlagGold"]
+albedo_color = Color(0.98, 0.8, 0.32, 1)
+roughness = 0.7
+
+[sub_resource type="BoxMesh" id="Mesh_CottageBody"]
+size = Vector3(0.48, 0.38, 0.48)
+
+[sub_resource type="PrismMesh" id="Mesh_CottageRoof"]
+size = Vector3(0.56, 0.32, 0.56)
+
+[sub_resource type="BoxMesh" id="Mesh_Chimney"]
+size = Vector3(0.12, 0.48, 0.12)
+
+[sub_resource type="BoxMesh" id="Mesh_Window"]
+size = Vector3(0.1, 0.1, 0.02)
+
+[sub_resource type="BoxMesh" id="Mesh_Door"]
+size = Vector3(0.14, 0.22, 0.02)
+
+[sub_resource type="CylinderMesh" id="Mesh_Fence"]
+top_radius = 0.02
+bottom_radius = 0.02
+height = 0.18
+radial_segments = 6
+
+[sub_resource type="CylinderMesh" id="Mesh_Pot"]
+top_radius = 0.035
+bottom_radius = 0.028
+height = 0.06
+radial_segments = 8
+
+[sub_resource type="SphereMesh" id="Mesh_Flower"]
+radius = 0.03
+height = 0.05
+
+[sub_resource type="SphereMesh" id="Mesh_Lantern"]
+radius = 0.025
+height = 0.045
+
+[sub_resource type="CylinderMesh" id="Mesh_FlagPole"]
+top_radius = 0.008
+bottom_radius = 0.008
+height = 0.16
+
+[sub_resource type="BoxMesh" id="Mesh_Flag"]
+size = Vector3(0.09, 0.06, 0.004)
+
+[node name="PoiHouseDeco" type="Node3D"]
+
+[node name="Cottage_Body" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.1, 0.19, -0.05)
+material_override = SubResource("Mat_CozyPlaster")
+mesh = SubResource("Mesh_CottageBody")
+
+[node name="Cottage_Roof" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.1, 0.54, -0.05)
+material_override = SubResource("Mat_CozyRoof")
+mesh = SubResource("Mesh_CottageRoof")
+
+[node name="Chimney" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.06, 0.55, -0.16)
+material_override = SubResource("Mat_ChimneyStone")
+mesh = SubResource("Mesh_Chimney")
+
+[node name="Door" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.1, 0.11, 0.195)
+material_override = SubResource("Mat_WoodTimber")
+mesh = SubResource("Mesh_Door")
+
+[node name="WindowFront" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.06, 0.22, 0.195)
+material_override = SubResource("Mat_WindowWarm")
+mesh = SubResource("Mesh_Window")
+
+[node name="FencePost1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.28, 0.09, 0.28)
+material_override = SubResource("Mat_WoodTimber")
+mesh = SubResource("Mesh_Fence")
+
+[node name="FencePost2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.48, 0.09, 0.28)
+material_override = SubResource("Mat_WoodTimber")
+mesh = SubResource("Mesh_Fence")
+
+[node name="FencePost3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.48, 0.09, 0.02)
+material_override = SubResource("Mat_WoodTimber")
+mesh = SubResource("Mesh_Fence")
+
+[node name="FencePost4" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.48, 0.09, -0.22)
+material_override = SubResource("Mat_WoodTimber")
+mesh = SubResource("Mesh_Fence")
+
+[node name="FencePost5" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.28, 0.09, -0.22)
+material_override = SubResource("Mat_WoodTimber")
+mesh = SubResource("Mesh_Fence")
+
+[node name="PotLeft" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.21, 0.22, 0.175)
+material_override = SubResource("Mat_Pot")
+mesh = SubResource("Mesh_Pot")
+
+[node name="FlowerLeft" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.21, 0.275, 0.175)
+material_override = SubResource("Mat_Flower")
+mesh = SubResource("Mesh_Flower")
+
+[node name="PotRight" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.01, 0.22, 0.175)
+material_override = SubResource("Mat_Pot")
+mesh = SubResource("Mesh_Pot")
+
+[node name="FlowerRight" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.01, 0.275, 0.175)
+material_override = SubResource("Mat_Flower")
+mesh = SubResource("Mesh_Flower")
+
+[node name="LanternLeft" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.25, 0.41, 0.17)
+material_override = SubResource("Mat_Lantern")
+mesh = SubResource("Mesh_Lantern")
+
+[node name="LanternLeftLight" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.25, 0.41, 0.17)
+light_color = Color(1, 0.75, 0.35, 1)
+light_energy = 0.5
+omni_range = 1.2
+
+[node name="LanternRight" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.05, 0.41, 0.17)
+material_override = SubResource("Mat_Lantern")
+mesh = SubResource("Mesh_Lantern")
+
+[node name="LanternRightLight" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.05, 0.41, 0.17)
+light_color = Color(1, 0.75, 0.35, 1)
+light_energy = 0.5
+omni_range = 1.2
+
+[node name="FlagPole" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.1, 0.78, -0.05)
+material_override = SubResource("Mat_WoodTimber")
+mesh = SubResource("Mesh_FlagPole")
+
+[node name="Flag" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.05, 0.84, -0.05)
+material_override = SubResource("Mat_FlagGold")
+mesh = SubResource("Mesh_Flag")

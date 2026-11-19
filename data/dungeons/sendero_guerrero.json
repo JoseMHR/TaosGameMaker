@@ -1,0 +1,5783 @@
+{
+    "name": {
+        "es": "El Sendero del Guerrero",
+        "en": "The Warrior's Path",
+        "fr": "Le Sentier du Guerrier",
+        "it": "Il Sentiero del Guerriero",
+        "de": "Der Pfad des Kriegers",
+        "zh": "战士之路",
+        "ja": "戦士の道"
+    },
+    "theme": "fortress",
+    "boss": "temple_boss_warrior",
+    "boss_level": 13,
+    "music": "sendero_ancient",
+    "cell_size": 4,
+    "wall_height": 4,
+    "ceiling": true,
+    "fog": true,
+    "ambient_energy": 0.4,
+    "ambient_color": "#202025",
+    "fill_light": 0.25,
+    "spawn": {
+        "f": 0,
+        "x": 17,
+        "y": 28
+    },
+    "portals": {
+        "west": {
+            "spawn": {
+                "f": 0,
+                "x": 17,
+                "y": 28
+            }
+        },
+        "east": {
+            "spawn": {
+                "f": 0,
+                "x": 17,
+                "y": 12
+            }
+        }
+    },
+    "floors": [
+        {
+            "name": "Bastión de Pruebas",
+            "w": 35,
+            "h": 41,
+            "cells": [
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "lever",
+                        "eid": "lever_sg_spikes",
+                        "state": "off",
+                        "single_use": true,
+                        "targets": [
+                            {
+                                "eid": "sg_spike_1",
+                                "action": "open"
+                            },
+                            {
+                                "eid": "sg_spike_2",
+                                "action": "open"
+                            },
+                            {
+                                "eid": "sg_spike_3",
+                                "action": "open"
+                            },
+                            {
+                                "eid": "sg_spike_4",
+                                "action": "open"
+                            },
+                            {
+                                "eid": "sg_spike_5",
+                                "action": "open"
+                            },
+                            {
+                                "eid": "sg_spike_6",
+                                "action": "open"
+                            },
+                            {
+                                "eid": "sg_spike_7",
+                                "action": "open"
+                            },
+                            {
+                                "eid": "sg_spike_8",
+                                "action": "open"
+                            },
+                            {
+                                "eid": "sg_spike_9",
+                                "action": "open"
+                            },
+                            {
+                                "eid": "sg_spike_10",
+                                "action": "open"
+                            },
+                            {
+                                "eid": "sg_spike_11",
+                                "action": "open"
+                            },
+                            {
+                                "eid": "sg_spike_12",
+                                "action": "open"
+                            },
+                            {
+                                "eid": "sg_spike_13",
+                                "action": "open"
+                            },
+                            {
+                                "eid": "sg_spike_14",
+                                "action": "open"
+                            },
+                            {
+                                "eid": "sg_spike_15",
+                                "action": "open"
+                            },
+                            {
+                                "eid": "sg_spike_16",
+                                "action": "open"
+                            },
+                            {
+                                "eid": "sg_spike_17",
+                                "action": "open"
+                            },
+                            {
+                                "eid": "sg_spike_18",
+                                "action": "open"
+                            },
+                            {
+                                "eid": "sg_spike_19",
+                                "action": "open"
+                            },
+                            {
+                                "eid": "sg_spike_20",
+                                "action": "open"
+                            },
+                            {
+                                "eid": "sg_spike_21",
+                                "action": "open"
+                            },
+                            {
+                                "eid": "sg_spike_22",
+                                "action": "open"
+                            },
+                            {
+                                "eid": "sg_spike_23",
+                                "action": "open"
+                            },
+                            {
+                                "eid": "sg_spike_24",
+                                "action": "open"
+                            },
+                            {
+                                "eid": "sg_spike_25",
+                                "action": "open"
+                            },
+                            {
+                                "eid": "sg_spike_26",
+                                "action": "open"
+                            }
+                        ],
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "lever",
+                        "eid": "lever_sg_dummy_1",
+                        "state": "off",
+                        "single_use": true
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_1",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_9",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_11",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_13",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_15",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_17",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_19",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_2",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_20",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_3",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_21",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "teleport",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_22",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_5",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "monster",
+                        "boss": true,
+                        "ref": "temple_boss_warrior",
+                        "level": 10,
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_23",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_6",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_24",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_7",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_25",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_8",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_10",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_12",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_14",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_16",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_18",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_26",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "teleport",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "sg_spike_4",
+                        "state": "closed",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "lever",
+                        "eid": "lever_sg_dummy_2",
+                        "state": "off",
+                        "single_use": true
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "ice_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "light_crate"
+                    },
+                    {
+                        "t": "lever",
+                        "eid": "lever_sg_dummy_3",
+                        "state": "off",
+                        "single_use": true
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_fortress_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_fortress_wall"
+                    }
+                ]
+            ]
+        }
+    ],
+    "tutorial_skill": "kinetic_wave",
+    "complete_event": "tut_warrior_done",
+    "tex_wall": "tex_fortress_wall",
+    "tex_floor": "tex_fortress_floor",
+    "void_type": "lava"
+}

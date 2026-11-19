@@ -1,0 +1,58 @@
+{
+  "name": {
+    "es": "Goblin Explorador",
+    "en": "Goblin Scout",
+    "fr": "Gobelin Éclaireur",
+    "it": "Goblin Esploratore",
+    "de": "Goblinspäher",
+    "zh": "哥布林侦察兵",
+    "ja": "ゴブリンスカウト"
+  },
+  "family": "monster",
+  "archetype": "balanced",
+  "icon": "👺",
+  "image": "res://assets/combat/enemies/en_goblin_scout.png",
+  "attack_type": "physical",
+  "base_dodge": 8.0,
+  "dodge_scale": 0.2,
+  "element": "physical",
+  "weak_to": [
+    "fire"
+  ],
+  "resist": [],
+  "ai": "aggressive",
+  "xp_reward_base": 20,
+  "xp_reward_scale": 4.5,
+  "gold_reward_base": 10,
+  "gold_reward_scale": 2.5,
+  "skills": [
+    {
+      "level": 1,
+      "skill_id": "strike"
+    },
+    {
+      "level": 2,
+      "skill_id": "dodge_stance"
+    },
+    {
+      "level": 4,
+      "skill_id": "goblin_rage"
+    }
+  ],
+  "loot": [
+    {
+      "kind": "gold",
+      "min": 2,
+      "max": 8
+    },
+    {
+      "kind": "item",
+      "id": "orejas_goblin",
+      "chance": 0.6,
+      "min": 1,
+      "max": 1
+    }
+  ],
+  "zone": "zona_1_yelmo",
+  "is_boss": false
+}

@@ -1,0 +1,150 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Ejército de Muñecos de Nieve",
+            "en": "The Snowman Army",
+            "fr": "L'Armée de Bonhommes de Neige",
+            "it": "L'Esercito di Pupazzi di Neve",
+            "de": "Die Schneemann-Armee",
+            "zh": "雪人军团",
+            "ja": "雪だるまの軍隊"
+        },
+        "next": [],
+        "reward": "avatar=⛄;bg=0.12,0.14,0.17"
+    },
+    "ejer_root": {
+        "type": "message",
+        "text": {
+            "es": "Un valle entero cubierto de muñecos de nieve. No dos ni tres: CIEN, alineados en filas rectísimas, cada uno con su nombre en un cartelito de palo. Un niño de unos nueve años, con un cazo por casco y un cucharón por espada, patrulla la formación con severidad de mariscal. Al verte se cuadra: '¡ALTO! Estás ante el Primer Regimiento de Infantería Congelada. Yo soy el General Copito. ¿Vienes a alistarte o eres un espía del deshielo?'",
+            "en": "A whole valley covered in snowmen. Not two or three: A HUNDRED, aligned in dead-straight rows, each with its name on a little stick-sign. A boy of about nine, a cooking pot for a helmet and a ladle for a sword, patrols the formation with the severity of a field marshal. Seeing you, he snaps to attention: 'HALT! You stand before the First Regiment of Frozen Infantry. I am General Snowflake. Have you come to enlist, or are you a spy for the Thaw?'",
+            "fr": "Toute une vallée couverte de bonhommes de neige. Pas deux ni trois : CENT, alignés en rangées parfaitement droites, chacun avec son nom sur une petite pancarte de bâton. Un garçon d'environ neuf ans, une marmite en guise de casque et une louche en guise d'épée, patrouille la formation avec la sévérité d'un maréchal. En te voyant, il se met au garde-à-vous : « HALTE ! Tu te trouves devant le Premier Régiment d'Infanterie Gelée. Je suis le Général Flocon. Viens-tu t'enrôler ou es-tu un espion du Dégel ? »",
+            "it": "Un'intera valle coperta di pupazzi di neve. Non due o tre: CENTO, allineati in file perfettamente dritte, ognuno con il proprio nome su un cartellino di legno. Un ragazzo di circa nove anni, con una pentola come elmo e un mestolo come spada, pattuglia la formazione con la severità di un maresciallo. Vedendoti, scatta sull'attenti: 'ALT! Ti trovi davanti al Primo Reggimento di Fanteria Congelata. Io sono il Generale Fiocco. Vieni ad arruolarti o sei una spia del Disgelo?'",
+            "de": "Ein ganzes Tal voller Schneemänner. Nicht zwei oder drei: HUNDERT, in makellos geraden Reihen aufgestellt, jeder mit seinem Namen auf einem kleinen Stockschild. Ein etwa neunjähriger Junge, einen Kochtopf als Helm und eine Kelle als Schwert, patrouilliert die Formation mit der Strenge eines Feldmarschalls. Als er dich sieht, nimmt er Haltung an: „HALT! Du stehst vor dem Ersten Regiment der Gefrorenen Infanterie. Ich bin General Schneeflocke. Kommst du, um dich anzuwerben, oder bist du ein Spion des Tauwetters?“",
+            "zh": "整片山谷都覆盖着雪人。不是两三个：是一百个，排成笔直的队列，每个都在小木牌上写着自己的名字。一个大约九岁的男孩，头戴锅当头盔，手持长柄勺当剑，以元帅般的严厉巡视着这支队伍。看到你时，他立正敬礼：「站住！你正站在冰冻步兵第一团面前。我是雪花将军。你是来入伍的，还是解冻方的间谍？」",
+            "ja": "谷全体が雪だるまで覆われている。二体や三体ではない——百体が完璧に整列した列に並び、それぞれに木の棒に書かれた名前がついている。九歳くらいの少年が、鍋を兜に、おたまを剣にして、元帥のような厳格さで隊列を巡回している。お前を見ると気をつけの姿勢を取る。「止まれ！お前は凍結歩兵第一連隊の前にいる。俺は雪片将軍だ。入隊しに来たのか、それとも雪解けのスパイか？」"
+        },
+        "next": [
+            "ejer_opt_alistar",
+            "ejer_opt_inspeccionar",
+            "ejer_opt_espia",
+            "ejer_opt_salir"
+        ],
+        "reward": ""
+    },
+    "ejer_opt_alistar": {
+        "type": "option",
+        "text": {
+            "es": "🫡  Cuadrarte y alistarte con toda la solemnidad del mundo",
+            "en": "🫡  Snap to attention and enlist with all the solemnity in the world",
+            "fr": "🫡  Te mettre au garde-à-vous et t'enrôler avec toute la solennité du monde",
+            "it": "🫡  Metterti sull'attenti e arruolarti con tutta la solennità del mondo",
+            "de": "🫡  Haltung annehmen und dich mit aller erdenklichen Feierlichkeit anwerben lassen",
+            "zh": "🫡  立正敬礼，无比郑重地入伍",
+            "ja": "🫡  気をつけをして、この上ない厳粛さで入隊する"
+        },
+        "next": [
+            "ejer_msg_alistar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "ejer_msg_alistar": {
+        "type": "message",
+        "text": {
+            "es": "Te pones firme, saludas y juras 'defender el valle contra el sol, el fuego y las bufandas robadas'. El General Copito te asciende sobre el terreno a Capitán y te asigna el mando del Tercer Pelotón (siete muñecos, uno de ellos ligeramente derretido, 'baja en combate'). Te pasas un rato dando órdenes absurdas a bolas de nieve mientras un niño feliz te sigue el juego con una seriedad conmovedora. Te vas con las mejillas doloridas de reír y la sensación de haber hecho, hoy, algo de verdad importante.",
+            "en": "You stand at attention, salute, and swear to 'defend the valley against the sun, fire, and stolen scarves'. General Snowflake promotes you on the spot to Captain and assigns you command of Third Platoon (seven snowmen, one slightly melted, 'wounded in action'). You spend a while barking absurd orders at snowballs while a happy child plays along with moving seriousness. You leave with your cheeks aching from laughing and the feeling of having done, today, something genuinely important.",
+            "fr": "Tu te mets au garde-à-vous, salues et jures de « défendre la vallée contre le soleil, le feu et les écharpes volées ». Le Général Flocon te promeut sur-le-champ Capitaine et t'assigne le commandement du Troisième Peloton (sept bonhommes de neige, l'un d'eux légèrement fondu, « blessé au combat »). Tu passes un moment à donner des ordres absurdes à des boules de neige tandis qu'un enfant heureux joue le jeu avec un sérieux touchant. Tu repars les joues douloureuses d'avoir tant ri et le sentiment d'avoir fait, aujourd'hui, quelque chose de vraiment important.",
+            "it": "Ti metti sull'attenti, saluti e giuri di 'difendere la valle contro il sole, il fuoco e le sciarpe rubate'. Il Generale Fiocco ti promuove sul campo a Capitano e ti assegna il comando del Terzo Plotone (sette pupazzi di neve, uno leggermente sciolto, 'ferito in combattimento'). Passi un po' di tempo a impartire ordini assurdi a palle di neve mentre un bambino felice sta al gioco con una serietà commovente. Te ne vai con le guance doloranti dal ridere e la sensazione di aver fatto, oggi, qualcosa di davvero importante.",
+            "de": "Du nimmst Haltung an, salutierst und schwörst, „das Tal gegen die Sonne, das Feuer und gestohlene Schals zu verteidigen“. General Schneeflocke befördert dich auf der Stelle zum Hauptmann und weist dir das Kommando über den Dritten Zug zu (sieben Schneemänner, einer leicht geschmolzen, „im Kampf verwundet“). Du verbringst eine Weile damit, absurde Befehle an Schneebälle zu bellen, während ein glückliches Kind mit rührendem Ernst mitspielt. Du gehst mit vom Lachen schmerzenden Wangen und dem Gefühl, heute etwas wirklich Wichtiges getan zu haben.",
+            "zh": "你立正，敬礼，发誓要「抵御太阳、火焰和被偷走的围巾，保卫这片山谷」。雪花将军当场把你晋升为上尉，并任命你指挥第三排（七个雪人，其中一个略有融化，被标记为「战斗负伤」）。你花了一段时间对着雪球下达荒唐的命令，而一个快乐的孩子则以感人的认真态度配合着你。你离开时，脸颊因为大笑而酸痛，心中却有一种今天真正做了件重要的事的感觉。",
+            "ja": "気をつけをし、敬礼し、「太陽と火と盗まれたマフラーから谷を守る」と誓う。雪片将軍はその場でお前を大尉に昇進させ、第三小隊（七体の雪だるま、一体は少し溶けていて「戦闘負傷」扱い）の指揮を任せる。幸せそうな子供が感動的な真剣さで付き合ってくれる中、しばらく雪玉に馬鹿げた命令を出し続ける。笑いすぎて頬が痛くなりながら、今日は本当に大切なことをしたという気持ちを抱いて立ち去る。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:aspecto=+1;faceta:cordura=+1"
+    },
+    "ejer_opt_inspeccionar": {
+        "type": "option",
+        "text": {
+            "es": "🔍  Inspeccionar las tropas con cara de general veterano",
+            "en": "🔍  Inspect the troops with the face of a veteran general",
+            "fr": "🔍  Inspecter les troupes » avec lair d'un général chevronné",
+            "it": "🔍  Ispezionare le truppe con la faccia da generale veterano",
+            "de": "🔍  Die Truppen mit der Miene eines erfahrenen Generals inspizieren",
+            "zh": "🔍  摆出一副老将军的表情，检阅军队",
+            "ja": "🔍  ベテラン将軍の顔つきで『軍隊』を視察する"
+        },
+        "next": [
+            "ejer_msg_inspeccionar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "ejer_msg_inspeccionar": {
+        "type": "message",
+        "text": {
+            "es": "Recorres las filas con las manos a la espalda. Cada muñeco tiene un nombre: 'Sargento Zanahorio', 'Soldado Ramitas', 'Coronel Botones'... y uno, apartado, más pequeño y con una bufanda de verdad: 'Papá'. El General Copito baja la voz: 'Ese es el mejor de todos. No habla mucho desde el invierno pasado, pero no se derrite nunca. Lo reconstruyo cada mañana.' De pronto entiendes para qué es este ejército, y el juego deja de ser gracioso para volverse algo mucho más grande. Le dedicas al muñeco de la bufanda un saludo impecable.",
+            "en": "You walk the ranks with your hands behind your back. Each snowman has a name: 'Sergeant Carroty', 'Private Twigs', 'Colonel Buttons'... and one, set apart, smaller, with a real scarf: 'Dad'. General Snowflake lowers his voice: 'That one's the best of all. He hasn't said much since last winter, but he never melts. I rebuild him every morning.' Suddenly you understand what this army is for, and the game stops being funny and becomes something far larger. You give the snowman with the scarf an impeccable salute.",
+            "fr": "Tu parcours les rangs, les mains dans le dos. Chaque bonhomme de neige a un nom : « Sergent Carotte », « Soldat Brindilles », « Colonel Boutons »... et un, à l'écart, plus petit, avec une véritable écharpe : « Papa ». Le Général Flocon baisse la voix : « Celui-là est le meilleur de tous. Il ne parle pas beaucoup depuis l'hiver dernier, mais il ne fond jamais. Je le reconstruis chaque matin. » Tu comprends soudain à quoi sert cette armée, et le jeu cesse d'être drôle pour devenir quelque chose de bien plus grand. Tu adresses au bonhomme de neige à l'écharpe un salut impeccable.",
+            "it": "Percorri le file con le mani dietro la schiena. Ogni pupazzo di neve ha un nome: 'Sergente Carotina', 'Soldato Ramoscelli', 'Colonnello Bottoni'... e uno, appartato, più piccolo, con una sciarpa vera: 'Papà'. Il Generale Fiocco abbassa la voce: 'Quello è il migliore di tutti. Non parla molto dallo scorso inverno, ma non si scioglie mai. Lo ricostruisco ogni mattina.' Improvvisamente capisci a cosa serve questo esercito, e il gioco smette di essere divertente per diventare qualcosa di molto più grande. Dedichi al pupazzo di neve con la sciarpa un saluto impeccabile.",
+            "de": "Du gehst mit auf dem Rücken verschränkten Händen die Reihen ab. Jeder Schneemann hat einen Namen: „Sergeant Karottchen“, „Soldat Zweiglein“, „Oberst Knöpfe“... und einer, abseits, kleiner, mit einem echten Schal: „Papa“. General Schneeflocke senkt die Stimme: „Der ist der beste von allen. Er redet nicht viel seit letztem Winter, aber er schmilzt nie. Ich baue ihn jeden Morgen wieder auf.“ Plötzlich verstehst du, wofür diese Armee gut ist, und das Spiel hört auf, lustig zu sein, und wird zu etwas viel Größerem. Du gibst dem Schneemann mit dem Schal einen tadellosen Gruß.",
+            "zh": "你双手背在身后走过队列。每个雪人都有一个名字：「胡萝卜军士」、「树枝二等兵」、「纽扣上校」……还有一个，独立于队伍之外，个头更小，围着一条真正的围巾：「爸爸」。雪花将军压低声音：「那个是所有人中最优秀的。自从去年冬天以来，他话不多，但他从不融化。我每天早上都重新把他堆起来。」你突然明白了这支军队的意义，这个游戏不再有趣，而是变成了一件重要得多的事。你向那个围围巾的雪人行了一个无可挑剔的敬礼。",
+            "ja": "手を後ろで組んで隊列を歩く。それぞれの雪だるまには名前がある——「ニンジン軍曹」「小枝二等兵」「ボタン大佐」……そして一体だけ離れた場所に、より小さく、本物のマフラーを巻いたものがいる——「パパ」。雪片将軍は声を落とす。「あれは全員の中で一番優秀なんだ。去年の冬からあまり話さなくなったけど、決して溶けない。毎朝作り直しているんだ」突然、この軍隊が何のためにあるのかを理解し、遊びはもはや面白いものではなく、はるかに大きな何かへと変わる。マフラーを巻いた雪だるまに、完璧な敬礼を捧げる。"
+        },
+        "next": [
+            "ejer_root"
+        ],
+        "reward": "faceta:bondad=+1"
+    },
+    "ejer_opt_espia": {
+        "type": "option",
+        "text": {
+            "es": "😏  Confesar en broma que eres un agente del deshielo",
+            "en": "😏  Jokingly confess youre 'an agent of the Thaw",
+            "fr": "😏  Avouer en plaisantant que tu es un agent du Dégel",
+            "it": "😏  Confessare per gioco di essere un agente del Disgelo",
+            "de": "😏  Scherzhaft gestehen, du seist ein Agent des Tauwetters",
+            "zh": "😏  开玩笑地承认你是解冻方的特工",
+            "ja": "😏  冗談で『雪解けのスパイ』だと白状する"
+        },
+        "next": [
+            "ejer_msg_espia"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "ejer_msg_espia": {
+        "type": "message",
+        "text": {
+            "es": "'¡LO SABÍA!', ruge el General Copito, y toca a rebato con una tapa de olla. Te ves obligado a 'rendirte' entre risas mientras el niño te 'encarcela' en un círculo dibujado en la nieve del que juras no escapar 'bajo pena de bola de nieve'. Cumples tu condena con dignidad militar. Cuando por fin te 'indulta', estáis los dos sin aliento de reír. Nunca una guerra se ganó con tan buen humor.",
+            "en": "'I KNEW IT!', roars General Snowflake, sounding the alarm with a pot lid. You're forced to 'surrender' amid laughter while the boy 'imprisons' you in a circle drawn in the snow, from which you swear not to escape 'on pain of snowball'. You serve your sentence with military dignity. When he finally 'pardons' you, you're both breathless from laughing. Never was a war won in such good humor.",
+            "fr": "« JE LE SAVAIS ! », rugit le Général Flocon, et il sonne l'alarme avec un couvercle de casserole. Tu es forcé de te « rendre » au milieu des rires tandis que l'enfant t'« emprisonne » dans un cercle dessiné dans la neige dont tu jures ne pas t'échapper « sous peine de boule de neige ». Tu purges ta peine avec dignité militaire. Quand il te « gracie » enfin, vous êtes tous les deux essoufflés de rire. Jamais guerre ne fut gagnée d'aussi bonne humeur.",
+            "it": "'LO SAPEVO!', ruggisce il Generale Fiocco, e suona l'allarme con un coperchio di pentola. Sei costretto ad 'arrenderti' tra le risate mentre il bambino ti 'imprigiona' in un cerchio disegnato nella neve da cui giuri di non fuggire 'pena palla di neve'. Sconti la tua condanna con dignità militare. Quando finalmente ti 'grazia', siete entrambi senza fiato dal ridere. Mai una guerra fu vinta con così buon umore.",
+            "de": "„ICH WUSSTE ES!“, brüllt General Schneeflocke und schlägt mit einem Topfdeckel Alarm. Du bist gezwungen, dich unter Gelächter zu „ergeben“, während der Junge dich in einen in den Schnee gezeichneten Kreis „einsperrt“, aus dem du schwörst, nicht zu entkommen, „bei Strafe eines Schneeballs“. Du verbüßt deine Strafe mit militärischer Würde. Als er dich schließlich „begnadigt“, seid ihr beide außer Atem vor Lachen. Nie wurde ein Krieg mit so guter Laune gewonnen.",
+            "zh": "「我就知道！」雪花将军怒吼道，用锅盖发出了警报。你被迫在笑声中「投降」，男孩把你「囚禁」在雪地上画的一个圆圈里，你发誓不敢逃脱，「否则就要挨雪球」。你以军人的尊严服完了刑期。当他终于「赦免」你时，你们俩都笑得上气不接下气。从来没有一场战争是在如此好心情下打赢的。",
+            "ja": "「やっぱりな！」雪片将軍は吠え、鍋の蓋で警報を鳴らす。笑いの中で「降伏」を強いられ、少年はお前を雪に描いた円の中に「投獄」する。そこから「雪玉刑の罰を受ける」まで逃げないと誓わされる。軍人の威厳をもって刑期を務める。ついに「赦免」されると、二人とも笑いすぎて息が上がっている。これほど機嫌よく勝利した戦争はかつてなかった。"
+        },
+        "next": [
+            "ejer_root"
+        ],
+        "reward": "faceta:aspecto=+1"
+    },
+    "ejer_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Saludar al General y dejar que siga su guardia",
+            "en": "🚶  Salute the General and let him resume his watch",
+            "fr": "🚶  Saluer le Général et le laisser reprendre sa garde",
+            "it": "🚶  Salutare il Generale e lasciarlo riprendere la sua guardia",
+            "de": "🚶  Den General grüßen und ihn seine Wache fortsetzen lassen",
+            "zh": "🚶  向将军敬礼，让他继续站岗",
+            "ja": "🚶  将軍に敬礼し、見張りを続けさせる"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

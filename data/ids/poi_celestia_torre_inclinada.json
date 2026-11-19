@@ -1,0 +1,26 @@
+{
+    "id": "poi_celestia_torre_inclinada",
+    "type": "poi",
+    "icon": "🗼",
+    "name": {
+        "es": "La Torre que se Rinde Despacio",
+        "en": "The Tower That Surrenders Slowly",
+        "fr": "La Tour qui Cède Lentement",
+        "it": "La Torre che Cede Lentamente",
+        "de": "Der Turm, der Langsam Nachgibt",
+        "zh": "缓慢倾颓之塔",
+        "ja": "ゆっくりと崩れゆく塔"
+    },
+    "desc": {
+        "es": "Una torre altísima e inclinada, a punto de caer desde hace un siglo. Dicen que quien llega arriba ve toda su vida de un vistazo. (PNJ singular).",
+        "en": "A towering, leaning spire, on the verge of falling for a century. They say whoever reaches the top sees their whole life at a glance. (Singular NPC).",
+        "fr": "Une tour immense et penchée, sur le point de tomber depuis un siècle. On dit que qui atteint le sommet voit toute sa vie d'un coup d'œil. (PNJ singulier).",
+        "it": "Una torre altissima e inclinata, sul punto di cadere da un secolo. Si dice che chi arriva in cima veda tutta la sua vita in un'occhiata. (PNG singolare).",
+        "de": "Ein hoch aufragender, geneigter Turm, seit einem Jahrhundert dem Einsturz nahe. Man sagt, wer die Spitze erreicht, sieht sein ganzes Leben auf einen Blick. (Einzigartiger NPC).",
+        "zh": "一座高耸倾斜的塔楼，一个世纪以来始终摇摇欲坠。据说登顶者能一眼看尽自己的一生。（唯一NPC）。",
+        "ja": "一世紀もの間、今にも倒れそうな高くそびえる傾いた塔。頂上にたどり着いた者は、自分の人生を一瞬で見渡せるという。（唯一のNPC）。"
+    },
+    "npc": "poi_celestia_torre_inclinada",
+    "bg": "bg_world_poi_celestia_torre_inclinada.png",
+    "music": "poi_generic"
+}

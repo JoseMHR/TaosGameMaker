@@ -1,0 +1,23 @@
+{
+    "name": {
+        "es": "Esfera de la Verdad",
+        "en": "Sphere of Truth",
+        "fr": "Sphère de la Vérité",
+        "it": "Sfera della Verità",
+        "de": "Sphäre der Wahrheit",
+        "zh": "真理之球",
+        "ja": "真実の球"
+    },
+    "desc": {
+        "es": "La reliquia primordial que custodiaba el Guardián Supremo. Mirar en su interior es mirar dentro de uno mismo.",
+        "en": "The primordial relic guarded by the Supreme Guardian. Looking into it means looking into yourself.",
+        "fr": "La relique primordiale que gardait le Gardien Suprême. Regarder en son sein, c'est se regarder soi-même.",
+        "it": "La reliquia primordiale custodita dal Guardiano Supremo. Guardarci dentro significa guardare dentro sé stessi.",
+        "de": "Das urzeitliche Relikt, das vom Obersten Wächter bewacht wurde. Hineinzuschauen bedeutet, in sich selbst zu schauen.",
+        "zh": "由至高守护者看守的太古圣物。凝视其内便是凝视自己的内心。",
+        "ja": "至高の守護者が守っていた太古の遺物。その中を覗くことは、自分自身の内面を覗くことに等しい。"
+    },
+    "icon": "🔮",
+    "category": "important",
+    "usable": false
+}

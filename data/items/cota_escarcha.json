@@ -1,0 +1,43 @@
+{
+    "name": {
+        "es": "Cota de Escarcha",
+        "en": "Frost Chainmail",
+        "fr": "Cotte de Givre",
+        "it": "Cotta di Brina",
+        "de": "Frost-Kettenhemd",
+        "zh": "霜寒锁甲",
+        "ja": "フロストチェインメイル"
+    },
+    "desc": {
+        "es": "Cota de malla forjada con eslabones de acero y escamas de hielo eterno. Ofrece una protección excepcional contra ataques físicos y gélidos.",
+        "en": "Chainmail forged from steel links and eternal ice scales. Offers exceptional protection against physical and cold attacks.",
+        "fr": "Cotte de mailles forgée avec des maillons d'acier et des écailles de glace éternelle. Offre une protection exceptionnelle contre les attaques physiques et glaciales.",
+        "it": "Cotta di maglia forgiata con anelli d'acciaio e squame di ghiaccio eterno. Offre una protezione eccezionale contro attacchi fisici e gelidi.",
+        "de": "Kettenhemd aus Stahlringen und Schuppen ewigen Eises geschmiedet. Bietet außergewöhnlichen Schutz vor physischen und eisigen Angriffen.",
+        "zh": "以钢环与永冻冰鳞锻成的锁甲，对物理与冰系攻击有卓越防护。",
+        "ja": "鋼の輪と永遠の氷の鱗で鍛えられた鎖帷子。物理攻撃と冷気攻撃に対して卓越した防御力を持つ。"
+    },
+    "icon": "🥋",
+    "category": "equipment",
+    "usable": false,
+    "slot": "armor",
+    "tier": 4,
+    "bonuses": {
+        "vit": 7,
+        "str": 4,
+        "agi": 3
+    },
+    "combat": {
+        "phys_defense": 52,
+        "mag_defense": 30
+    },
+    "traits": [
+        {
+            "type": "resist_element",
+            "element": "ice",
+            "value": 0.2,
+            "min_refine": 0,
+            "desc": "+20% Resistencia a Hielo y Frío Polar"
+        }
+    ]
+}

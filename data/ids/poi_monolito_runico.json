@@ -1,0 +1,26 @@
+{
+    "id": "poi_monolito_runico",
+    "type": "poi",
+    "icon": "🗿",
+    "name": {
+        "es": "Monolito Susurrante",
+        "en": "Whispering Monolith",
+        "fr": "Monolithe Murmurant",
+        "it": "Monolite Sussurrante",
+        "de": "Flüsternder Monolith",
+        "zh": "低语的巨石",
+        "ja": "囁く石碑"
+    },
+    "desc": {
+        "es": "Una piedra cubierta de glifos entre el hielo. (POI de inspección).",
+        "en": "A glyph-covered stone amid the ice. (Inspection POI).",
+        "fr": "Une pierre couverte de glyphes au milieu de la glace. (POI d'inspection).",
+        "it": "Una pietra coperta di glifi tra il ghiaccio. (POI di ispezione).",
+        "de": "Ein mit Glyphen bedeckter Stein inmitten des Eises. (Inspektions-POI).",
+        "zh": "冰层间一块刻满符文的石头。（探查类兴趣点）。",
+        "ja": "氷の中に刻まれた文字で覆われた石。（調査ポイント）。"
+    },
+    "npc": "poi_monolito_runico",
+    "bg": "bg_world_poi_hielo_monolito_runico.png",
+    "music": "poi_generic"
+}

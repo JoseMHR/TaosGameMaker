@@ -1,0 +1,150 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Manifiesto de las Plumas",
+            "en": "The Feathered Manifesto",
+            "fr": "Le Manifeste à Plumes",
+            "it": "Il Manifesto delle Piume",
+            "de": "Das Federmanifest",
+            "zh": "羽毛宣言",
+            "ja": "羽毛の宣言書"
+        },
+        "next": [],
+        "reward": "bg=0.05,0.07,0.06"
+    },
+    "patos_root": {
+        "type": "message",
+        "text": {
+            "es": "Junto al idílico estanque de agua cristalina descansa un pergamino clavado a un árbol con una pluma negra afilada como un puñal. Mientras lees, una bandada de patos en el agua te observa con una sincronía inquietante. Nadie parpadea.",
+            "en": "Beside the idyllic pond of crystal water rests a parchment pinned to an oak trunk with a raven feather sharpened like a dagger. As you read, a flock of ducks in the water observes you in eerie, synchronized stillness. None of them blink.",
+            "fr": "Près de l'étang idyllique aux eaux cristallines repose un parchemin cloué à un chêne avec une plume de corbeau aiguisée comme un poignard. Pendant que tu lis, un groupe de canards dans l'eau t'observe avec une synchronisation inquiétante. Aucun d'eux ne cligne des yeux.",
+            "it": "Accanto all'idilliaco stagno dalle acque cristalline riposa una pergamena inchiodata a una quercia con una piuma di corvo affilata come un pugnale. Mentre leggi, uno stormo di anatre nell'acqua ti osserva con una sincronia inquietante. Nessuna di loro sbatte le palpebre.",
+            "de": "Neben dem idyllischen Teich mit kristallklarem Wasser liegt ein Pergament, an eine Eiche geheftet mit einer Rabenfeder, scharf wie ein Dolch. Während du liest, beobachtet dich ein Schwarm Enten im Wasser mit beunruhigender Synchronität. Keine von ihnen blinzelt.",
+            "zh": "在这如诗如画、水质清澈的池塘边，有一张羊皮纸被一根锋利如匕首的乌鸦羽毛钉在橡树上。当你阅读时，水中的一群鸭子以一种令人不安的同步性注视着你。没有一只眨眼。",
+            "ja": "水晶のように澄んだ牧歌的な池のほとりに、短剣のように鋭く尖ったカラスの羽根で樫の木に留められた羊皮紙がある。読んでいる間、水の中の一群のアヒルが不気味なほど揃った動きでお前を見つめている。誰も瞬きをしない。"
+        },
+        "next": [
+            "patos_opt_leer",
+            "patos_opt_cuan",
+            "patos_opt_pan",
+            "patos_opt_salir"
+        ],
+        "reward": ""
+    },
+    "patos_opt_leer": {
+        "type": "option",
+        "text": {
+            "es": "📜  Leer el texto del manifiesto",
+            "en": "📜  Read the manifesto contents",
+            "fr": "📜  Lire le contenu du manifeste",
+            "it": "📜  Leggere il contenuto del manifesto",
+            "de": "📜  Den Inhalt des Manifests lesen",
+            "zh": "📜  阅读宣言的内容",
+            "ja": "📜  宣言書の内容を読む"
+        },
+        "next": [
+            "patos_msg_leer"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "patos_msg_leer": {
+        "type": "message",
+        "text": {
+            "es": "'A quien ose transitar estas tierras: ¿Creéis que los humanos gobiernan este reino? Pobres necios. ¿Quién tiene acceso a todos los ríos? ¿Quién puede cruzar fronteras volando sin pagar peaje? ¿Quién espía los banquetes de Celestia fingiendo buscar migas de pan? NOSOTROS. EL SINDICATO DEL GRAZNIDO. El cataclismo no fue un accidente... fue una limpieza de estanques. CUAC.' Desentrañar la geopolítica anatídica agudiza tu intelecto.",
+            "en": "'To whomever treads these soils: Do you truly believe mortals govern this realm? Blind fools. Who holds dominion over all waterways? Who crosses international airspace without paying tariffs? Who infiltrates Celestian banquets posing as bread scavengers? WE DO. THE QUACKING SYNDICATE. The cataclysm was no mere mishap... it was pond renovation. QUACK.' Unraveling anatid geopolitics sharpens your intellect.",
+            "fr": "« À quiconque ose fouler ces terres : croyez-vous vraiment que les mortels gouvernent ce royaume ? Pauvres aveugles. Qui a la maîtrise de tous les cours d'eau ? Qui traverse l'espace aérien international sans payer de taxes ? Qui infiltre les banquets de Celestia en se faisant passer pour des ramasseurs de miettes ? NOUS. LE SYNDICAT DU COIN-COIN. Le cataclysme n'était pas un simple accident... c'était une rénovation d'étangs. COIN. » Percer les secrets de la géopolitique anatidée aiguise ton intellect.",
+            "it": "'A chiunque osi calpestare queste terre: credete davvero che i mortali governino questo regno? Poveri ciechi. Chi ha dominio su tutti i corsi d'acqua? Chi attraversa lo spazio aereo internazionale senza pagare dazi? Chi si infiltra nei banchetti di Celestia fingendosi raccoglitore di briciole? NOI. IL SINDACATO DEL QUA QUA. Il cataclisma non fu un semplice incidente... fu una ristrutturazione degli stagni. QUA.' Svelare la geopolitica anatide affina il tuo intelletto.",
+            "de": "„An wen auch immer diese Länder betritt: Glaubt ihr wirklich, Sterbliche regieren dieses Reich? Arme Blinde. Wer hat Herrschaft über alle Wasserwege? Wer durchquert internationalen Luftraum ohne Zölle zu zahlen? Wer infiltriert Celestias Bankette, indem er sich als Brotsammler ausgibt? WIR. DAS QUAK-SYNDIKAT. Der Kataklysmus war kein bloßes Missgeschick... es war eine Teichrenovierung. QUAK.“ Die Entata-Geopolitik zu entschlüsseln schärft deinen Verstand.",
+            "zh": "「致所有胆敢踏足此地之人：你们真以为凡人统治着这个国度吗？可怜的瞎子。谁掌控着所有水道？谁能免税穿越国际领空？谁伪装成拾面包屑者，潜入塞莱斯提亚的宴会？是我们。呱呱辛迪加。这场浩劫绝非意外……那是池塘翻新工程。呱。」揭开鸭科地缘政治的奥秘，磨砺了你的智慧。",
+            "ja": "「この地を踏みしめる者すべてへ：本当にお前たちは人間がこの領域を統治していると思っているのか？哀れな盲人どもよ。すべての水路を支配しているのは誰だ？関税を払わずに国際領空を横断するのは誰だ？パン屑漁りを装ってセレスティアの宴に潜入するのは誰だ？我々だ。ガーガー・シンジケートだ。大災厄はただの事故などではなかった……あれは池の改修工事だったのだ。ガー」。カモ目の地政学を解き明かすことで、お前の知性が磨かれる。"
+        },
+        "next": [
+            "patos_root"
+        ],
+        "reward": "faceta:inteligencia=+1"
+    },
+    "patos_opt_cuan": {
+        "type": "option",
+        "text": {
+            "es": "🦆  Mirar fijamente al pato líder del estanque sin parpadear",
+            "en": "🦆  Stare down the alpha mallard without blinking",
+            "fr": "🦆  Fixer sans ciller le canard chef de l'étang",
+            "it": "🦆  Fissare senza sbattere le palpebre l'anatra capo dello stagno",
+            "de": "🦆  Die Leitente unverwandt anstarren",
+            "zh": "🦆  死盯着池塘的头鸭不眨眼",
+            "ja": "🦆  瞬きせずに池のボスガモを見つめる"
+        },
+        "next": [
+            "patos_msg_cuan"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "patos_msg_cuan": {
+        "type": "message",
+        "text": {
+            "es": "Sostienes la mirada del pato más grande del grupo durante diez segundos agónicos. El pato asiente lentamente con la cabeza, gira sobre el agua con elegancia marcial y se sumerge sin salpicar ni una sola gota. Has resistido el duelo psicológico con el cerebro de la operación sin ceder un milímetro. Saben que sabes demasiado.",
+            "en": "You hold the gaze of the alpha drake for ten agonizing seconds. The mallard gives a slow, calculating nod, turns across the water with military discipline, and dives without a single ripple. You withstood the psychological standoff without yielding ground. They know you know.",
+            "fr": "Tu soutiens le regard du plus gros canard du groupe pendant dix secondes agonisantes. Le canard hoche lentement la tête, tourne sur l'eau avec une élégance martiale, et plonge sans éclabousser une seule goutte. Tu as résisté au duel psychologique avec le cerveau de l'opération sans céder un millimètre. Ils savent que tu en sais trop.",
+            "it": "Sostieni lo sguardo dell'anatra più grande del gruppo per dieci agonizzanti secondi. L'anatra annuisce lentamente, gira sull'acqua con eleganza marziale e si immerge senza schizzare nemmeno una goccia. Hai resistito al duello psicologico con la mente dell'operazione senza cedere un millimetro. Sanno che sai troppo.",
+            "de": "Du hältst dem Blick der größten Ente der Gruppe zehn quälende Sekunden lang stand. Die Ente nickt langsam, dreht sich mit militärischer Eleganz auf dem Wasser und taucht ohne einen einzigen Spritzer unter. Du hast dem psychologischen Duell mit dem Kopf der Operation standgehalten, ohne einen Millimeter nachzugeben. Sie wissen, dass du zu viel weißt.",
+            "zh": "你与这群鸭子中体型最大的那只对视了十秒钟，仿佛煎熬般漫长。那只鸭子缓缓点头，以军人般优雅的姿态在水面上转身，一滴水花不溅地潜入水中。你在与这场行动的幕后主脑的心理对决中毫不退让。它们知道你知道得太多了。",
+            "ja": "群れの中で一番大きなカモの視線を、十秒間の苦しい時間、逸らさずに受け止める。カモはゆっくりと頷き、軍隊のような優雅さで水面を旋回し、水しぶき一つ立てずに潜っていく。お前はこの作戦の頭脳との心理戦に、一ミリも譲ることなく耐え抜いた。奴らは、お前が知りすぎていることを知っている。"
+        },
+        "next": [
+            "patos_root"
+        ],
+        "reward": "faceta:valor=+1;discover:lore_sindicato_patos"
+    },
+    "patos_opt_pan": {
+        "type": "option",
+        "text": {
+            "es": "🍞  Lanzar un trozo de pan fresco al agua como ofrenda diplomática",
+            "en": "🍞  Toss fresh breadcrumbs into the water as a diplomatic tribute",
+            "fr": "🍞  Jeter un morceau de pain frais à l'eau en offrande diplomatique",
+            "it": "🍞  Lanciare un pezzo di pane fresco in acqua come offerta diplomatica",
+            "de": "🍞  Frisches Brot als diplomatisches Geschenk ins Wasser werfen",
+            "zh": "🍞  把一块新鲜面包扔进水里作为外交贡品",
+            "ja": "🍞  外交的な貢物として新鮮なパンを水に投げ入れる"
+        },
+        "next": [
+            "patos_msg_pan"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "patos_msg_pan": {
+        "type": "message",
+        "text": {
+            "es": "Los patos devoran el pan en una fracción de segundo con precisión militar quirúrgica. A cambio, uno de ellos se sumerge y empuja con el pico hasta la orilla un viejo anillo de plata brillante que había rescatado del fondo del lodo. Has negociado con éxito la paz con el Sindicato.",
+            "en": "The ducks annihilate the breadcrumb in a fraction of a millisecond with surgical discipline. In return, a duck dives deep and nudges an ancient gleaming silver ring onto the mossy bank. You successfully negotiated a diplomatic treaty with the Syndicate.",
+            "fr": "Les canards dévorent le pain en une fraction de seconde avec une précision militaire chirurgicale. En retour, l'un d'eux plonge et pousse jusqu'au rivage, avec son bec, une vieille bague d'argent brillante qu'il avait sauvée du fond de la vase. Tu as négocié la paix avec succès avec le Syndicat.",
+            "it": "Le anatre divorano il pane in una frazione di secondo con precisione militare chirurgica. In cambio, una di loro si immerge e spinge fino alla riva, con il becco, un vecchio anello d'argento lucente che aveva recuperato dal fondo del fango. Hai negoziato con successo la pace con il Sindacato.",
+            "de": "Die Enten verschlingen das Brot in Bruchteilen einer Sekunde mit chirurgischer militärischer Präzision. Im Gegenzug taucht eine von ihnen und schiebt mit dem Schnabel einen alten, glänzenden Silberring, den sie vom Schlammgrund geborgen hatte, ans Ufer. Du hast erfolgreich Frieden mit dem Syndikat verhandelt.",
+            "zh": "鸭子们以外科手术般精准的军事效率，在瞬间就吞下了面包。作为回报，其中一只潜入水中，用嘴把一枚从淤泥深处捞出的古老闪亮银戒指推上了岸。你成功与辛迪加谈成了和平协议。",
+            "ja": "カモたちは外科手術のような軍事的精密さで、一瞬にしてパンを平らげる。その見返りとして、一羽が潜って、泥の底から拾い上げた古く輝く銀の指輪をくちばしで岸まで押してくる。お前はシンジケートとの和平交渉に成功した。"
+        },
+        "next": [
+            "patos_root"
+        ],
+        "reward": "faceta:bondad=+1;gold:+25;heal:15"
+    },
+    "patos_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  (Retirarse antes de que organicen una emboscada)",
+            "en": "🚶  (Back away before they coordinate an ambush)",
+            "fr": "🚶  (Se retirer avant qu'ils n'organisent une embuscade)",
+            "it": "🚶  (Ritirarsi prima che organizzino un'imboscata)",
+            "de": "🚶  (Sich zurückziehen, bevor sie einen Hinterhalt koordinieren)",
+            "zh": "🚶  （在它们策划伏击之前撤退）",
+            "ja": "🚶  （奴らが待ち伏せを企む前に退散する）"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

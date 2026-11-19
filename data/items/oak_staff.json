@@ -1,0 +1,39 @@
+{
+    "name": {
+        "es": "Báculo de Roble",
+        "en": "Oak Staff",
+        "fr": "Bâton de Chêne",
+        "it": "Bastone di Quercia",
+        "de": "Eichenstab",
+        "zh": "橡木法杖",
+        "ja": "オークの杖"
+    },
+    "desc": {
+        "es": "Báculo de madera de roble ancestral que canaliza el flujo mágico.",
+        "en": "Staff of ancient oak that channels magical flow.",
+        "fr": "Bâton en bois de chêne ancestral qui canalise le flux magique.",
+        "it": "Bastone di legno di quercia ancestrale che incanala il flusso magico.",
+        "de": "Stab aus uraltem Eichenholz, der den magischen Fluss kanalisiert.",
+        "zh": "以古老橡木制成的法杖，能引导魔力流动。",
+        "ja": "魔法の流れを導く古代のオーク材の杖。"
+    },
+    "icon": "🪄",
+    "category": "equipment",
+    "usable": false,
+    "slot": "weapon",
+    "tier": 3,
+    "bonuses": {
+        "int": 5
+    },
+    "combat": {
+        "mag_damage": 48
+    },
+    "traits": [
+        {
+            "type": "mp_cost_reduction",
+            "value": 0.05,
+            "min_refine": 5,
+            "desc": "Reduce 5% el coste de MP"
+        }
+    ]
+}

@@ -1,0 +1,151 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "Puesto de Frascos Vacíos",
+            "en": "Empty Flask Outpost",
+            "fr": "Poste aux Flacons Vides",
+            "it": "Postazione dei Flaconi Vuoti",
+            "de": "Außenposten der Leeren Flaschen",
+            "zh": "空瓶前哨站",
+            "ja": "空き瓶の前哨基地"
+        },
+        "next": [],
+        "reward": "avatar=🧪;bg=0.08,0.06,0.04"
+    },
+    "puesto_root": {
+        "type": "message",
+        "text": {
+            "es": "Bajo una lona desgarrada por el siroco, un mercader con turbante de seda desgastada contempla con veneración estantes repletos de frascos de cristal completamente desprovistos de contenido. 'Bienvenido, caminante sediento. ¿Buscas agua? Qué aburrido. El agua llena la panza, pero mis frascos vacíos... ¡llenan el espíritu con el vacío del cosmos!'",
+            "en": "Beneath a sun-scorched canopy torn by desert gusts, a merchant wrapped in frayed silk gazes with adoration upon shelves lined with utterly empty glass vials. 'Welcome, parched voyager. Seekest thou water? How pedestrian. Water merely satisfies the belly, but my empty flasks... they fill the soul with the pure vacuum of the cosmos!'",
+            "fr": "Sous une bâche déchirée par le sirocco, un marchand au turban de soie usée contemple avec vénération des étagères remplies de flacons de cristal totalement dépourvus de contenu. « Bienvenue, voyageur assoiffé. Tu cherches de l'eau ? Comme c'est ennuyeux. L'eau remplit le ventre, mais mes flacons vides... remplissent l'esprit avec le vide du cosmos ! »",
+            "it": "Sotto un telo strappato dallo scirocco, un mercante con turbante di seta consumata contempla con venerazione scaffali pieni di flaconi di cristallo completamente privi di contenuto. 'Benvenuto, viandante assetato. Cerchi acqua? Che noia. L'acqua riempie la pancia, ma i miei flaconi vuoti... riempiono lo spirito con il vuoto del cosmo!'",
+            "de": "Unter einer vom Sirocco zerrissenen Plane betrachtet ein Händler mit abgetragenem Seidenturban mit Verehrung Regale voller Kristallflaschen, die völlig ohne Inhalt sind. „Willkommen, durstiger Wanderer. Suchst du Wasser? Wie langweilig. Wasser füllt nur den Bauch, aber meine leeren Flaschen... füllen den Geist mit der Leere des Kosmos!“",
+            "zh": "在一块被焚风撕裂的帆布下，一个包着破旧丝绸头巾的商人正满怀敬意地凝视着摆满完全空无一物的水晶瓶的架子。「欢迎，口渴的旅人。你在找水吗？多么无趣。水只能填满肚子，但我这些空瓶子……却能用宇宙的虚空填满灵魂！」",
+            "ja": "シロッコに引き裂かれた天幕の下、擦り切れた絹のターバンを巻いた商人が、完全に空っぽのガラス瓶が並ぶ棚を崇めるように見つめている。「ようこそ、喉の渇いた旅人よ。水をお探しか？なんと退屈な。水は腹を満たすだけだが、我が空き瓶は……魂を宇宙の真空で満たすのだ！」"
+        },
+        "next": [
+            "puesto_opt_vacio",
+            "puesto_opt_historia",
+            "puesto_opt_comprar",
+            "puesto_opt_salir"
+        ],
+        "reward": ""
+    },
+    "puesto_opt_vacio": {
+        "type": "option",
+        "text": {
+            "es": "🏺  ¿Por qué alguien querría pagar por un frasco vacío?",
+            "en": "🏺  Why would anyone pay good gold for an empty flask?",
+            "fr": "🏺  Pourquoi quelqu'un voudrait-il payer pour un flacon vide ?",
+            "it": "🏺  Perché qualcuno dovrebbe pagare per un flacone vuoto?",
+            "de": "🏺  Warum sollte jemand für eine leere Flasche bezahlen?",
+            "zh": "🏺  为什么会有人愿意花钱买一个空瓶子？",
+            "ja": "🏺  なぜ誰かが空き瓶にお金を払いたがるんだ？"
+        },
+        "next": [
+            "puesto_msg_vacio"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "puesto_msg_vacio": {
+        "type": "message",
+        "text": {
+            "es": "'¡Porque la nada es el estado supremo de la posibilidad! En un frasco lleno no cabe nada más. Pero en este... puedes atrapar el rocío de un espejismo, veneno de mantícora o la luz de una estrella fugaz. ¡La versatilidad es poder!' Comprender el valor del potencial infinito amplía tu perspectiva intelectual.",
+            "en": "'Because nothingness is the supreme state of infinite potential! In a full vial nothing more fits. But in this... you may harvest mirage dew, manticore venom, or fallen starlight. Versatility is dominion!' Grasping the philosophy of pure potential expands your intellectual perspective.",
+            "fr": "« Parce que le néant est l'état suprême de la possibilité ! Dans un flacon plein, rien de plus ne peut entrer. Mais dans celui-ci... tu peux capturer la rosée d'un mirage, du venin de manticore ou la lumière d'une étoile filante. La polyvalence, c'est le pouvoir ! » Comprendre la valeur du potentiel infini élargit ta perspective intellectuelle.",
+            "it": "'Perché il nulla è lo stato supremo della possibilità! In un flacone pieno non entra nient'altro. Ma in questo... puoi catturare la rugiada di un miraggio, veleno di manticora o la luce di una stella cadente. La versatilità è potere!' Comprendere il valore del potenziale infinito amplia la tua prospettiva intellettuale.",
+            "de": "„Weil das Nichts der höchste Zustand der Möglichkeit ist! In eine volle Flasche passt nichts mehr hinein. Aber in diese... kannst du den Tau einer Fata Morgana einfangen, Mantikorengift oder das Licht einer Sternschnuppe. Vielseitigkeit ist Macht!“ Den Wert des unendlichen Potenzials zu begreifen erweitert deine intellektuelle Perspektive.",
+            "zh": "「因为虚无是可能性的至高状态！一个满瓶里再也装不下别的东西了。但在这个瓶子里……你可以捕捉海市蜃楼的露水、蝎尾狮的毒液，或是流星的光芒。多用途才是力量！」理解无限潜能的价值拓宽了你的思维视野。",
+            "ja": "「無こそが可能性の最高状態だからだ！満杯の瓶には他に何も入らない。だがこの瓶なら……蜃気楼の露、マンティコアの毒、流れ星の光さえも捕らえられる。汎用性こそが力なのだ！」無限の可能性という哲学を理解することで、お前の知的視野が広がる。"
+        },
+        "next": [
+            "puesto_root"
+        ],
+        "reward": "faceta:inteligencia=+1"
+    },
+    "puesto_opt_historia": {
+        "type": "option",
+        "text": {
+            "es": "📜  Contarle la historia de cómo despertaste en el mundo sin recuerdos previos",
+            "en": "📜  Recount the tale of how you awakened in this realm without prior memories",
+            "fr": "📜  Lui raconter l'histoire de ton réveil dans ce monde sans souvenirs préalables",
+            "it": "📜  Raccontargli la storia di come ti sei svegliato nel mondo senza ricordi precedenti",
+            "de": "📜  Ihm die Geschichte erzählen, wie du in dieser Welt ohne vorherige Erinnerungen erwacht bist",
+            "zh": "📜  向他讲述你在这个世界醒来时毫无记忆的故事",
+            "ja": "📜  この世界で以前の記憶もなく目覚めた話を語る"
+        },
+        "next": [
+            "puesto_msg_historia"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "puesto_msg_historia": {
+        "type": "message",
+        "text": {
+            "es": "El mercader te escucha sin pestañear, maravillado hasta el paroxismo. '¡Sublime! ¡Un vacío de memoria tan inmenso que desafía a los dioses! ¡Un lienzo en blanco ambulante!' Te abraza emocionado y te entrega un frasco de cristal tallado con incrustaciones doradas y 35 monedas de oro. '¡Toma esto por regalarme la historia más hermosa del desierto!'",
+            "en": "The merchant listens unblinking, spellbound into rapt silence. 'Sublime! A chasm of forgotten identity so profound it defies gods! A living, breathing tabula rasa!' He weeps in joy, pressing a gold-inlaid cut crystal flagon and 35 golden coins into your grip. 'Take this for bestowing the finest tale in the dunes!'",
+            "fr": "Le marchand t'écoute sans ciller, émerveillé jusqu'au paroxysme. « Sublime ! Un vide de mémoire si immense qu'il défie les dieux ! Une toile vierge ambulante ! » Il t'étreint avec émotion et te remet un flacon de cristal taillé incrusté d'or et 35 pièces d'or. « Prends ceci pour m'avoir offert la plus belle histoire du désert ! »",
+            "it": "Il mercante ti ascolta senza sbattere ciglio, meravigliato fino al parossismo. 'Sublime! Un vuoto di memoria così immenso da sfidare gli dei! Una tela bianca ambulante!' Ti abbraccia emozionato e ti consegna un flacone di cristallo tagliato con incastonature dorate e 35 monete d'oro. 'Prendi questo per avermi regalato la storia più bella del deserto!'",
+            "de": "Der Händler hört dir gebannt zu, bis zum Äußersten fasziniert. „Sublim! Eine Erinnerungsleere so gewaltig, dass sie den Göttern trotzt! Eine wandelnde, leere Leinwand!“ Er umarmt dich gerührt und übergibt dir eine geschliffene Kristallflasche mit Goldeinlagen und 35 Goldmünzen. „Nimm dies dafür, dass du mir die schönste Geschichte der Wüste geschenkt hast!“",
+            "zh": "商人目不转睛地听着，惊叹到了极点。「妙极了！一片如此浩瀚的记忆虚空，简直挑战了众神！一块行走的白纸！」他激动地拥抱你，递给你一个镶金水晶瓶和35枚金币。「拿着这个，感谢你赠予我这沙漠中最美的故事！」",
+            "ja": "商人は瞬きもせずに聞き入り、感嘆の極みに達している。「崇高だ！神々にすら挑む、これほど広大な記憶の空白とは！生きたタブラ・ラサ（白紙の心）ではないか！」感激して抱きしめ、金の象嵌が施された切子細工の水晶瓶と金貨35枚を握らせてくる。「砂漠で最も美しい物語を授けてくれた礼だ、これを受け取ってくれ！」"
+        },
+        "next": [
+            "puesto_root"
+        ],
+        "reward": "faceta:bondad=+1;faceta:valor=+1;gold:+35;heal:30;discover:lore_frascos_vacios"
+    },
+    "puesto_opt_comprar": {
+        "type": "option",
+        "text": {
+            "es": "🪙  (Pagar 15 de oro por uno de sus frascos tallados)",
+            "en": "🪙  (Pay 15 gold for one of his fine artisan flasks)",
+            "fr": "🪙  (Payer 15 pièces d'or pour l'un de ses flacons ouvragés)",
+            "it": "🪙  (Pagare 15 monete d'oro per uno dei suoi flaconi lavorati)",
+            "de": "🪙  (15 Goldmünzen für eine seiner kunstvollen Flaschen bezahlen)",
+            "zh": "🪙  （花15金币买他的一件精雕瓶子）",
+            "ja": "🪙  （金貨15枚で精巧な瓶を一つ買う）"
+        },
+        "next": [
+            "puesto_msg_comprar"
+        ],
+        "reward": "gold:-15;faceta:aspecto=+1",
+        "condition": "gold >= 15",
+        "once": true
+    },
+    "puesto_msg_comprar": {
+        "type": "message",
+        "text": {
+            "es": "El mercader envuelve el frasco en seda púrpura con reverencia litúrgica. El cristal está tan pulido que refleja la luz del sol en destellos multicolores que hipnotizan la vista. Sostenerlo con garbo añade un aire enigmático y distinguido a tu aspecto.",
+            "en": "The merchant enfolds the flagon in purple silk with liturgical reverence. The glass is polished so keen that sunlight refracts into mesmerizing prismatic haloes. Handling it with poise imparts an enigmatic, distinguished aura to your presence.",
+            "fr": "Le marchand enveloppe le flacon dans de la soie pourpre avec une révérence liturgique. Le cristal est si poli qu'il reflète la lumière du soleil en éclats multicolores hypnotisants. Le tenir avec grâce ajoute un air énigmatique et distingué à ton allure.",
+            "it": "Il mercante avvolge il flacone in seta viola con reverenza liturgica. Il cristallo è così levigato da riflettere la luce del sole in bagliori multicolori ipnotici. Tenerlo con grazia aggiunge un'aria enigmatica e distinta al tuo aspetto.",
+            "de": "Der Händler umhüllt die Flasche mit liturgischer Ehrfurcht in purpurne Seide. Das Kristall ist so poliert, dass es das Sonnenlicht in hypnotisierenden mehrfarbigen Reflexen bricht. Es mit Anmut zu halten, verleiht deiner Erscheinung eine rätselhafte, vornehme Aura.",
+            "zh": "商人怀着近乎虔诚的态度，用紫色丝绸包裹起这只瓶子。水晶打磨得如此光滑，将阳光折射成令人着迷的多彩光芒。优雅地拿着它，为你的气质增添了一丝神秘而高贵的韵味。",
+            "ja": "商人は典礼のような敬意を込めて、瓶を紫の絹で包む。ガラスは磨き上げられ、日光を虹色の魅惑的な光に反射させている。優雅にそれを持つことで、お前の佇まいに謎めいた気品が加わる。"
+        },
+        "next": [
+            "puesto_root"
+        ],
+        "reward": ""
+    },
+    "puesto_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Seguiré mi camino con los bolsillos llenos de aire.",
+            "en": "🚶  I shall continue with my pockets full of air.",
+            "fr": "🚶  Je poursuivrai mon chemin avec les poches pleines d'air.",
+            "it": "🚶  Proseguirò il mio cammino con le tasche piene d'aria.",
+            "de": "🚶  Ich werde meinen Weg mit Taschen voller Luft fortsetzen.",
+            "zh": "🚶  我会带着满口袋的空气继续赶路。",
+            "ja": "🚶  空気で満たされたポケットのまま、旅を続けよう。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

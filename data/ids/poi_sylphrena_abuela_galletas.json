@@ -1,0 +1,26 @@
+{
+    "id": "poi_sylphrena_abuela_galletas",
+    "type": "poi",
+    "icon": "🍪",
+    "name": {
+        "es": "La Abuela de las Galletas",
+        "en": "The Cookie Grandmother",
+        "fr": "La Grand-Mère aux Biscuits",
+        "it": "La Nonna dei Biscotti",
+        "de": "Die Keks-Großmutter",
+        "zh": "饼干奶奶",
+        "ja": "クッキーおばあさん"
+    },
+    "desc": {
+        "es": "Una anciana adorable ofrece galletas recién hechas a todo el que pasa por su jardín perfecto. Demasiado perfecto. (PNJ singular).",
+        "en": "An adorable old woman offers fresh-baked cookies to everyone who passes through her perfect garden. Too perfect. (Singular NPC).",
+        "fr": "Une adorable vieille dame offre des biscuits fraîchement cuits à quiconque passe dans son jardin parfait. Trop parfait. (PNJ singulier).",
+        "it": "Un'adorabile vecchietta offre biscotti appena sfornati a chiunque passi per il suo giardino perfetto. Troppo perfetto. (PNG singolare).",
+        "de": "Eine bezaubernde alte Dame bietet jedem, der durch ihren perfekten Garten geht, frisch gebackene Kekse an. Zu perfekt. (Einzigartiger NPC).",
+        "zh": "一位可爱的老太太，向每个路过她那完美花园的人递上刚烤好的饼干。太完美了。（唯一NPC）。",
+        "ja": "完璧すぎる庭を通りかかる誰にでも焼き立てのクッキーを差し出す、愛らしい老婦人。（唯一のNPC）。"
+    },
+    "npc": "poi_sylphrena_abuela_galletas",
+    "bg": "bg_world_poi_sylphrena_abuela_galletas.png",
+    "music": "poi_generic"
+}

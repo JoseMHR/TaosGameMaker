@@ -1,0 +1,26 @@
+{
+    "id": "poi_gloriam_escorpion_rey",
+    "type": "poi",
+    "icon": "🦂",
+    "name": {
+        "es": "El Rey Escorpión Diminuto",
+        "en": "The Tiny Scorpion King",
+        "fr": "Le Minuscule Roi Scorpion",
+        "it": "Il Minuscolo Re Scorpione",
+        "de": "Der Winzige Skorpionkönig",
+        "zh": "渺小的蝎王",
+        "ja": "小さなサソリ王"
+    },
+    "desc": {
+        "es": "Un escorpión minúsculo encaramado a un cráneo, convencido de ser el emperador absoluto de todo el desierto. (PNJ singular).",
+        "en": "A minuscule scorpion perched atop a skull, convinced it is the absolute emperor of the entire desert. (Singular NPC).",
+        "fr": "Un scorpion minuscule perché sur un crâne, convaincu d'être l'empereur absolu de tout le désert. (PNJ singulier).",
+        "it": "Uno scorpione minuscolo appollaiato su un teschio, convinto di essere l'imperatore assoluto di tutto il deserto. (PNG singolare).",
+        "de": "Ein winziger Skorpion, der auf einem Schädel thront, überzeugt, der absolute Kaiser der gesamten Wüste zu sein. (Einzigartiger NPC).",
+        "zh": "一只栖息在头骨上的微小蝎子，坚信自己是整片沙漠的绝对帝王。（唯一NPC）。",
+        "ja": "頭蓋骨の上にとまる小さなサソリ。自分が砂漠全体の絶対君主だと信じ込んでいる。（唯一のNPC）。"
+    },
+    "npc": "poi_gloriam_escorpion_rey",
+    "bg": "bg_world_poi_gloriam_escorpion_rey.png",
+    "music": "poi_comic"
+}

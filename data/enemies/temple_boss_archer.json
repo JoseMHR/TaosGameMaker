@@ -1,0 +1,60 @@
+{
+  "name": {
+    "es": "Arpía Tempestad",
+    "en": "Storm Harpy",
+    "fr": "Harpie de la Tempête",
+    "it": "Arpia della Tempesta",
+    "de": "Sturmharpyie",
+    "zh": "风暴鹰身女妖",
+    "ja": "ストームハーピー"
+  },
+  "icon": "🦅",
+  "image": "res://assets/combat/enemies/en_tempest_harpy.png",
+  "attack_type": "ranged",
+  "base_dodge": 0.0,
+  "dodge_scale": 0.0,
+  "element": "wind",
+  "weak_to": [
+    "physical",
+    "ranged",
+    "lightning"
+  ],
+  "resist": [
+    "wind"
+  ],
+  "ai": "aggressive",
+  "xp_reward_base": 240,
+  "xp_reward_scale": 16.0,
+  "gold_reward_base": 140,
+  "gold_reward_scale": 12.0,
+  "skills": [
+    {
+      "level": 1,
+      "skill_id": "harpy_peck"
+    },
+    {
+      "level": 5,
+      "skill_id": "gale_slash"
+    },
+    {
+      "level": 10,
+      "skill_id": "harpy_gust"
+    }
+  ],
+  "loot": [
+    {
+      "kind": "gold",
+      "min": 120,
+      "max": 220
+    },
+    {
+      "kind": "equipment",
+      "chance": 1.0,
+      "level": 4
+    }
+  ],
+  "family": "beast",
+  "archetype": "boss",
+  "zone": "zona_3_sylphrena",
+  "is_boss": true
+}

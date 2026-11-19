@@ -1,0 +1,42 @@
+{
+    "name": {
+        "es": "Piel de Draco",
+        "en": "Drake Leather",
+        "fr": "Cuir de Drake",
+        "it": "Pelle di Draco",
+        "de": "Drakenleder",
+        "zh": "龙鳄之皮",
+        "ja": "ドレイクレザー"
+    },
+    "desc": {
+        "es": "Peto curtido con escamas de draco del cañón ardiente.",
+        "en": "Tough cuirass crafted from burning canyon drake scales.",
+        "fr": "Cuirasse tannée avec des écailles de drake du canyon brûlant.",
+        "it": "Corazza conciata con squame di draco del canyon ardente.",
+        "de": "Gegerbter Harnisch aus Schuppen des Drakens der brennenden Schlucht.",
+        "zh": "以炽热峡谷龙鳄鳞片鞣制的胸甲。",
+        "ja": "灼熱の渓谷のドレイクの鱗でなめされた胸当て。"
+    },
+    "icon": "🥋",
+    "category": "equipment",
+    "usable": false,
+    "slot": "armor",
+    "tier": 5,
+    "bonuses": {
+        "vit": 14,
+        "str": 8
+    },
+    "combat": {
+        "phys_defense": 98,
+        "mag_defense": 75
+    },
+    "traits": [
+        {
+            "type": "resist_element",
+            "element": "fire",
+            "value": 0.2,
+            "min_refine": 5,
+            "desc": "+20% Resistencia a elemento Fuego"
+        }
+    ]
+}

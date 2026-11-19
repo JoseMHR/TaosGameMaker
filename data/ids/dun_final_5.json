@@ -1,0 +1,32 @@
+{
+    "id": "dun_final_5",
+    "type": "dungeon",
+    "name": {
+        "es": "Fase 5: Tribunal de Ecos",
+        "en": "Phase 5: Court of Echoes",
+        "fr": "Phase 5 : Tribunal des Échos",
+        "it": "Fase 5: Tribunale degli Echi",
+        "de": "Phase 5: Gericht der Echos",
+        "zh": "第五阶段：回响审判庭",
+        "ja": "第五段階：残響の法廷"
+    },
+    "icon": "🕳️",
+    "portal": {
+        "view": "dungeon",
+        "event_id": "dun_final_5"
+    },
+    "desc": {
+        "es": "Templo del Origen - Fase 5: 4 cámaras cardinales con 4 jefes guardianes y 4 palancas.",
+        "en": "Temple of Origin - Phase 5: 4 cardinal chambers with 4 guardian bosses and 4 levers.",
+        "fr": "Temple de l'Origine - Phase 5 : 4 chambres cardinales avec 4 boss gardiens et 4 leviers.",
+        "it": "Tempio dell'Origine - Fase 5: 4 camere cardinali con 4 boss guardiani e 4 leve.",
+        "de": "Tempel des Ursprungs - Phase 5: 4 Himmelsrichtungskammern mit 4 Wächterbossen und 4 Hebeln.",
+        "zh": "起源神庙——第五阶段：四座方位密室，四名守护首领，四根拉杆。",
+        "ja": "起源の神殿——第五段階：四つの方位の間、四体の守護者ボス、四本のレバー。"
+    },
+    "bg": [
+        0.05,
+        0.05,
+        0.08
+    ]
+}

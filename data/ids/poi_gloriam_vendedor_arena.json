@@ -1,0 +1,26 @@
+{
+    "id": "poi_gloriam_vendedor_arena",
+    "type": "poi",
+    "icon": "⏳",
+    "name": {
+        "es": "El Vendedor de Arena",
+        "en": "The Sand Salesman",
+        "fr": "Le Vendeur de Sable",
+        "it": "Il Venditore di Sabbia",
+        "de": "Der Sandverkäufer",
+        "zh": "卖沙人",
+        "ja": "砂売り"
+    },
+    "desc": {
+        "es": "Un mercader empeñado en venderte arena de la mejor calidad... en mitad de un desierto hecho enteramente de arena. (PNJ singular).",
+        "en": "A merchant determined to sell you top-quality sand... in the middle of a desert made entirely of sand. (Singular NPC).",
+        "fr": "Un marchand déterminé à te vendre du sable de la meilleure qualité... au milieu d'un désert fait entièrement de sable. (PNJ singulier).",
+        "it": "Un mercante determinato a venderti sabbia della migliore qualità... in mezzo a un deserto fatto interamente di sabbia. (PNG singolare).",
+        "de": "Ein Händler, entschlossen, dir Sand bester Qualität zu verkaufen... mitten in einer Wüste, die vollständig aus Sand besteht. (Einzigartiger NPC).",
+        "zh": "一个执意要向你推销最优质沙子的商人……而周围就是一整片由沙子构成的沙漠。（唯一NPC）。",
+        "ja": "最高品質の砂を売りつけようとする商人……もっとも、ここは砂だけでできた砂漠のど真ん中だ。（唯一のNPC）。"
+    },
+    "npc": "poi_gloriam_vendedor_arena",
+    "bg": "bg_world_poi_gloriam_vendedor_arena.png",
+    "music": "poi_comic"
+}

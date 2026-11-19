@@ -1,0 +1,8 @@
+{
+    "label": "Ciudadela 3D",
+    "icon": "🏙️",
+    "scale": 1.0,
+    "y_offset": 0.0,
+    "description": "Centro urbano con plazas y edificios de piedra.",
+    "model_path": "ciudad"
+}

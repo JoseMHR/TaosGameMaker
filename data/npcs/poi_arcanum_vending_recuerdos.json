@@ -1,0 +1,151 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "La Expendedora de Recuerdos",
+            "en": "The Memory Vending Machine",
+            "fr": "Le Distributeur de Souvenirs",
+            "it": "La Distributrice di Ricordi",
+            "de": "Der Erinnerungsautomat",
+            "zh": "记忆自动贩卖机",
+            "ja": "記憶の自動販売機"
+        },
+        "next": [],
+        "reward": "avatar=🥤;bg=0.08,0.10,0.12"
+    },
+    "vending_root": {
+        "type": "message",
+        "text": {
+            "es": "Una máquina expendedora zumba en un rincón, con la luz interior parpadeando. Tras el cristal no hay refrescos: hay frasquitos luminosos etiquetados a mano. 'El primer beso de alguien — 5 monedas.' 'Una tarde de verano de la infancia — 8 monedas.' 'El día que fue feliz de verdad — AGOTADO.' Y abajo, en el estante de ofertas: 'Recuerdos tristes — GRATIS, llévese los que quiera, nadie los compra.' Una pantallita te saluda: 'BEBA RECUERDOS ARCANUM. Porque los suyos nunca son suficientes.'",
+            "en": "A vending machine hums in a corner, its inner light flickering. Behind the glass there are no sodas: there are little glowing vials, hand-labeled. 'Someone's first kiss — 5 coins.' 'A childhood summer afternoon — 8 coins.' 'The day they were truly happy — SOLD OUT.' And at the bottom, on the clearance shelf: 'Sad memories — FREE, take as many as you like, nobody buys them.' A little screen greets you: 'DRINK ARCANUM MEMORIES. Because yours are never enough.'",
+            "fr": "Un distributeur automatique bourdonne dans un coin, sa lumière intérieure clignotante. Derrière la vitre, il n'y a pas de sodas : il y a de petits flacons luisants étiquetés à la main. « Le premier baiser de quelqu'un — 5 pièces. » « Un après-midi d'été d'enfance — 8 pièces. » « Le jour où il fut vraiment heureux — ÉPUISÉ. » Et en bas, sur l'étagère des soldes : « Souvenirs tristes — GRATUIT, prenez-en autant que vous voulez, personne ne les achète. » Un petit écran te salue : « BUVEZ LES SOUVENIRS ARCANUM. Parce que les vôtres ne suffisent jamais. »",
+            "it": "Un distributore automatico ronza in un angolo, con la luce interna che lampeggia. Dietro il vetro non ci sono bibite: ci sono piccole fiale luminose etichettate a mano. 'Il primo bacio di qualcuno — 5 monete.' 'Un pomeriggio d'estate d'infanzia — 8 monete.' 'Il giorno in cui fu davvero felice — ESAURITO.' E in basso, sullo scaffale delle offerte: 'Ricordi tristi — GRATIS, prendine quanti vuoi, nessuno li compra.' Un piccolo schermo ti saluta: 'BEVI I RICORDI ARCANUM. Perché i tuoi non bastano mai.'",
+            "de": "Ein Automat summt in einer Ecke, sein Innenlicht flackert. Hinter dem Glas gibt es keine Getränke: es gibt kleine leuchtende Fläschchen, handbeschriftet. „Jemandes erster Kuss — 5 Münzen.“ „Ein Kindheits-Sommernachmittag — 8 Münzen.“ „Der Tag, an dem er wirklich glücklich war — AUSVERKAUFT.“ Und unten, im Angebotsregal: „Traurige Erinnerungen — KOSTENLOS, nehmen Sie so viele Sie wollen, niemand kauft sie.“ Ein kleiner Bildschirm grüßt dich: „TRINKE ARCANUM-ERINNERUNGEN. Denn deine eigenen sind nie genug.“",
+            "zh": "一台自动贩卖机在角落里嗡嗡作响，内部的灯光闪烁不定。玻璃后面没有汽水：只有一些手写标签的发光小瓶。「某人的初吻——5枚硬币。」「童年一个夏日的午后——8枚硬币。」「他真正幸福的那一天——已售罄。」而在下方的清仓货架上：「悲伤的记忆——免费，随便拿，没人买。」一个小屏幕向你打招呼：「畅饮奥秘遗迹的记忆。因为你自己的永远不够。」",
+            "ja": "隅で自動販売機が唸り、内部の光が点滅している。ガラスの向こうには炭酸飲料ではなく、手書きの小さな光る小瓶が並んでいる。「誰かの初めてのキス——5コイン」「幼少期の夏の午後——8コイン」「本当に幸せだった日——売り切れ」そして下段の見切り品棚には：「悲しい記憶——無料、好きなだけどうぞ、誰も買わない」小さな画面がお前を出迎える：「アルカナムの記憶を飲め。お前自身の記憶では決して足りないから」"
+        },
+        "next": [
+            "vending_opt_feliz",
+            "vending_opt_triste",
+            "vending_opt_analizar",
+            "vending_opt_salir"
+        ],
+        "reward": ""
+    },
+    "vending_opt_feliz": {
+        "type": "option",
+        "text": {
+            "es": "😊  Comprar una tarde de verano de la infancia (−8 oro)",
+            "en": "😊  Buy a childhood summer afternoon (−8 gold)",
+            "fr": "😊  Acheter un après-midi dété denfance (−8 or)",
+            "it": "😊  Comprare un pomeriggio destate dinfanzia (−8 oro)",
+            "de": "😊  Ein Kindheits-Sommernachmittag kaufen (−8 Gold)",
+            "zh": "😊  购买童年一个夏日的午后（-8金币）",
+            "ja": "😊  『幼少期の夏の午後』を買う（-8ゴールド）"
+        },
+        "next": [
+            "vending_msg_feliz"
+        ],
+        "reward": "gold:-8",
+        "condition": "gold >= 8",
+        "once": true
+    },
+    "vending_msg_feliz": {
+        "type": "message",
+        "text": {
+            "es": "Insertas las monedas y cae un frasquito cálido. Al destaparlo, te inunda el recuerdo de un desconocido: el olor a hierba cortada, el chapoteo de un río, la risa de una madre llamándote a merendar. No es tuyo, pero por un instante lo vives entero, y es HERMOSO. Cuando el efecto pasa, sientes una nostalgia agridulce de una infancia que nunca tuviste. Bonito y vacío a partes iguales, como casi todo lo que vende Arcanum. Guardas el frasco vacío como recuerdo... de un recuerdo.",
+            "en": "You insert the coins and a warm little vial drops down. Uncorking it, a stranger's memory floods you: the smell of cut grass, the splash of a river, a mother's laugh calling you in for a snack. It isn't yours, but for an instant you live it whole, and it's BEAUTIFUL. When the effect fades, you feel a bittersweet nostalgia for a childhood you never had. Lovely and hollow in equal measure, like almost everything Arcanum sells. You keep the empty vial as a memento... of a memory.",
+            "fr": "Tu insères les pièces et un petit flacon chaud tombe. En le débouchant, le souvenir d'un inconnu t'envahit : l'odeur d'herbe coupée, le clapotis d'une rivière, le rire d'une mère t'appelant pour le goûter. Ce n'est pas le tien, mais pendant un instant tu le vis entièrement, et c'est BEAU. Quand l'effet passe, tu ressens une nostalgie douce-amère pour une enfance que tu n'as jamais eue. Beau et vide à parts égales, comme presque tout ce que vend Arcanum. Tu gardes le flacon vide en souvenir... d'un souvenir.",
+            "it": "Inserisci le monete e cade una piccola fiala calda. Nel stapparla, il ricordo di uno sconosciuto ti inonda: l'odore d'erba tagliata, lo sciabordio di un fiume, la risata di una madre che ti chiama per la merenda. Non è tuo, ma per un istante lo vivi interamente, ed è BELLISSIMO. Quando l'effetto passa, senti una nostalgia agrodolce per un'infanzia che non hai mai avuto. Bello e vuoto in parti uguali, come quasi tutto ciò che vende Arcanum. Conservi la fiala vuota come ricordo... di un ricordo.",
+            "de": "Du wirfst die Münzen ein und ein warmes Fläschchen fällt herab. Beim Öffnen überflutet dich die Erinnerung eines Fremden: der Geruch von gemähtem Gras, das Plätschern eines Flusses, das Lachen einer Mutter, die dich zum Vesper ruft. Es ist nicht deine eigene, aber für einen Moment durchlebst du sie vollständig, und sie ist SCHÖN. Wenn die Wirkung nachlässt, spürst du eine bittersüße Sehnsucht nach einer Kindheit, die du nie hattest. Schön und leer zu gleichen Teilen, wie fast alles, was Arcanum verkauft. Du bewahrst das leere Fläschchen als Andenken... an eine Erinnerung.",
+            "zh": "你投入硬币，一个温暖的小瓶子掉了下来。打开瓶盖时，一个陌生人的记忆瞬间涌入你的脑海：刚割过的草的气味，河水的溅泼声，一位母亲叫你回去吃点心的笑声。这不是你的记忆，但那一刻，你完整地经历了它，而且美得令人心醉。当效果消退，你感受到一种苦乐交织的怀旧感，怀念着一个你从未拥有过的童年。它美丽而空洞，各占一半，正如奥秘遗迹售卖的几乎所有东西一样。你保留了这个空瓶子作为纪念……一段记忆的纪念。",
+            "ja": "硬貨を入れると、温かい小瓶が落ちてくる。開けると、見知らぬ誰かの記憶がお前を満たす——刈られた草の匂い、川のはねる音、おやつに呼ぶ母の笑い声。それはお前のものではないが、一瞬、お前はそれを完全に生きる。それは美しい。効果が消える頃、決して経験したことのない幼少期への苦く甘い懐かしさを感じる。美しさと空虚さが半々——アルカナムが売るほとんどすべてのものと同じように。空になった小瓶を、記憶の……記念品として保管する。"
+        },
+        "next": [
+            "vending_root"
+        ],
+        "reward": "faceta:cordura=-1"
+    },
+    "vending_opt_triste": {
+        "type": "option",
+        "text": {
+            "es": "🖤  Llevarte un recuerdo triste gratis del estante de ofertas",
+            "en": "🖤  Take a free sad memory from the clearance shelf",
+            "fr": "🖤  Prendre gratuitement un souvenir triste » de létagère des soldes",
+            "it": "🖤  Prendere gratis un ricordo triste dallo scaffale delle offerte",
+            "de": "🖤  Eine kostenlose traurige Erinnerung vom Angebotsregal nehmen",
+            "zh": "🖤  从清仓货架上免费拿一个悲伤的记忆",
+            "ja": "🖤  見切り品棚から無料の『悲しい記憶』を取る"
+        },
+        "next": [
+            "vending_msg_triste"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "vending_msg_triste": {
+        "type": "message",
+        "text": {
+            "es": "Coges uno de los frascos apagados que nadie quiere. Dentro hay el recuerdo de una despedida en un andén: dos manos que se sueltan, un tren que arranca, la certeza de que no habrá vuelta. Lo vives entero y duele. Pero al terminar, comprendes algo: alguien vendió su tristeza para no cargar con ella, y por eso nunca podrá superarla, porque ya no la tiene. Decides que tus recuerdos tristes, por mucho que pesen, son tuyos y te los quedas. Cargar con el propio dolor, en vez de subastarlo, también es una forma de dignidad.",
+            "en": "You take one of the dimmed vials nobody wants. Inside is the memory of a farewell on a platform: two hands letting go, a train pulling away, the certainty there'll be no return. You live it whole and it hurts. But when it ends, you understand something: someone sold their sadness so they wouldn't have to carry it, and that's why they'll never overcome it, because they no longer have it. You decide your sad memories, however heavy, are yours and you'll keep them. Carrying your own pain, instead of auctioning it off, is its own kind of dignity.",
+            "fr": "Tu prends l'un des flacons éteints que personne ne veut. À l'intérieur, il y a le souvenir d'un adieu sur un quai : deux mains qui se lâchent, un train qui démarre, la certitude qu'il n'y aura pas de retour. Tu le vis entièrement et ça fait mal. Mais quand ça se termine, tu comprends quelque chose : quelqu'un a vendu sa tristesse pour ne pas avoir à la porter, et c'est pour cela qu'il ne pourra jamais la surmonter, parce qu'il ne l'a plus. Tu décides que tes souvenirs tristes, aussi lourds soient-ils, sont les tiens et tu les gardes. Porter sa propre douleur, plutôt que de la vendre aux enchères, est aussi une forme de dignité.",
+            "it": "Prendi una delle fiale spente che nessuno vuole. Dentro c'è il ricordo di un addio su un molo: due mani che si lasciano, un treno che parte, la certezza che non ci sarà ritorno. Lo vivi interamente e fa male. Ma quando finisce, comprendi qualcosa: qualcuno ha venduto la sua tristezza per non doverla portare, e per questo non potrà mai superarla, perché non la ha più. Decidi che i tuoi ricordi tristi, per quanto pesino, sono tuoi e li conservi. Portare il proprio dolore, invece di venderlo all'asta, è anche una forma di dignità.",
+            "de": "Du nimmst eines der erloschenen Fläschchen, die niemand will. Darin ist die Erinnerung an einen Abschied auf einem Bahnsteig: zwei sich loslassende Hände, ein anfahrender Zug, die Gewissheit, dass es keine Rückkehr geben wird. Du erlebst sie vollständig und es schmerzt. Aber als sie endet, verstehst du etwas: jemand hat seine Traurigkeit verkauft, um sie nicht tragen zu müssen, und deshalb wird er sie nie überwinden können, weil er sie nicht mehr hat. Du entscheidest, dass deine traurigen Erinnerungen, wie schwer sie auch sein mögen, dir gehören, und du behältst sie. Den eigenen Schmerz zu tragen, statt ihn zu versteigern, ist auch eine Form der Würde.",
+            "zh": "你拿起一个没人想要的、已经黯淡的瓶子。里面是一段在月台上告别的记忆：两只松开的手，一辆开动的列车，以及不会再回来的确定感。你完整地经历了它，很痛。但当它结束时，你明白了一件事：有人卖掉了自己的悲伤，只为不再背负它，而正因如此，他永远无法克服它，因为他已经不再拥有它了。你决定，不管你的悲伤记忆有多沉重，它们都是属于你的，你要留下它们。承担自己的痛苦，而不是把它拿去拍卖，也是一种尊严。",
+            "ja": "誰も欲しがらない、色を失った小瓶の一つを取る。中にはプラットフォームでの別れの記憶がある——離れていく二つの手、走り出す列車、二度と戻らないという確信。それを完全に体験し、痛みを感じる。だが終わる頃、お前は何かを理解する——誰かが自分の悲しみを、それを抱えずに済むように売ったのだ。だからこそ、彼は決してそれを乗り越えられない、もう持っていないのだから。お前は、自分の悲しい記憶がどれほど重くても、それは自分のものであり、持ち続けようと決める。自分の痛みを競売にかけるのではなく背負うことも、一種の尊厳なのだ。"
+        },
+        "next": [
+            "vending_root"
+        ],
+        "reward": "faceta:cordura=+1;faceta:bondad=+1"
+    },
+    "vending_opt_analizar": {
+        "type": "option",
+        "text": {
+            "es": "🔍  Examinar la máquina para entender de dónde salen los recuerdos",
+            "en": "🔍  Examine the machine to understand where the memories come from",
+            "fr": "🔍  Examiner la machine pour comprendre d'où viennent les souvenirs",
+            "it": "🔍  Esaminare la macchina per capire da dove vengono i ricordi",
+            "de": "🔍  Die Maschine untersuchen, um zu verstehen, woher die Erinnerungen kommen",
+            "zh": "🔍  检查这台机器，弄清记忆从何而来",
+            "ja": "🔍  記憶がどこから来るのかを理解するため機械を調べる"
+        },
+        "next": [
+            "vending_msg_analizar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "vending_msg_analizar": {
+        "type": "message",
+        "text": {
+            "es": "Rodeas la máquina y encuentras el conducto de 'reposición' conectado por un tubo a una hilera de sillones reclinables cubiertos de polvo. La gente venía aquí a VENDER sus mejores recuerdos por unas monedas, se los extraían, y luego los compraban embotellados los que no tenían ninguno bueno. Un mercado de recuerdos, donde los felices acababan pobres y sin memoria, y los ricos coleccionaban infancias ajenas. La decadencia perfecta de Arcanum, resumida en una máquina de refrescos. Retrocedes con un escalofrío lúcido.",
+            "en": "You circle the machine and find the 'restock' chute connected by a tube to a row of dust-covered reclining chairs. People came here to SELL their best memories for a few coins, had them extracted, and then those with none good bought them bottled. A memory market, where the happy ended up poor and memoryless, and the rich collected other people's childhoods. Arcanum's perfect decadence, summed up in a soda machine. You step back with a lucid shiver.",
+            "fr": "Tu fais le tour de la machine et trouves le conduit de « réapprovisionnement » relié par un tube à une rangée de fauteuils inclinables couverts de poussière. Les gens venaient ici pour VENDRE leurs meilleurs souvenirs contre quelques pièces, se les faisaient extraire, puis ceux qui n'en avaient pas de bons les achetaient en flacon. Un marché des souvenirs, où les heureux finissaient pauvres et sans mémoire, et où les riches collectionnaient les enfances d'autrui. La décadence parfaite d'Arcanum, résumée en une machine à sodas. Tu recules avec un frisson lucide.",
+            "it": "Fai il giro della macchina e trovi il condotto di 'rifornimento' collegato tramite un tubo a una fila di poltrone reclinabili coperte di polvere. La gente veniva qui a VENDERE i propri migliori ricordi per qualche moneta, glieli estraevano, e poi chi non ne aveva di buoni li comprava imbottigliati. Un mercato di ricordi, dove i felici finivano poveri e senza memoria, e i ricchi collezionavano infanzie altrui. La decadenza perfetta di Arcanum, riassunta in una distributrice di bibite. Ti ritiri con un brivido lucido.",
+            "de": "Du umkreist die Maschine und findest den 'Nachfüll'-Schacht, der durch ein Rohr mit einer Reihe staubbedeckter Liegestühle verbunden ist. Die Leute kamen her, um ihre besten Erinnerungen für ein paar Münzen zu VERKAUFEN, ließen sie sich extrahieren, und dann kauften diejenigen, die keine guten hatten, sie in Flaschen. Ein Erinnerungsmarkt, auf dem die Glücklichen arm und ohne Erinnerung endeten, und die Reichen die Kindheiten anderer sammelten. Arcanums vollkommene Dekadenz, zusammengefasst in einem Getränkeautomaten. Du weichst mit einem klaren Schauder zurück.",
+            "zh": "你绕着机器走了一圈，发现「补货」管道通过一根管子连接到一排布满灰尘的躺椅上。人们来这里是为了以几枚硬币的价格出售自己最美好的记忆，让人从他们身上提取出来，然后那些没有好记忆的人再买瓶装的。这是一个记忆市场，快乐的人最终变得贫穷且失忆，而富人则收藏着他人的童年。奥秘遗迹的完美堕落，被浓缩进了一台汽水机之中。你带着一种清醒的寒意退了回去。",
+            "ja": "機械の周りを回り、埃をかぶったリクライニングチェアの列にチューブでつながった「補充」用の投入口を見つける。人々はここに、自分の最良の記憶を数枚のコインのために売りに来て、抜き取られ、良い記憶を持たない者たちがそれをボトル入りで買っていたのだ。幸せな者は貧しく記憶なきまま終わり、富裕な者は他人の幼少期を収集する、記憶の市場。アルカナムの完璧な堕落が、一台の自動販売機に集約されている。冷ややかな悟りとともに後ずさる。"
+        },
+        "next": [
+            "vending_root"
+        ],
+        "reward": "faceta:inteligencia=+1"
+    },
+    "vending_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Mis recuerdos no están en venta. Dejar la máquina zumbando",
+            "en": "🚶  My memories arent for sale.' Leave the machine humming",
+            "fr": "🚶  Mes souvenirs ne sont pas à vendre. Laisser la machine bourdonner",
+            "it": "🚶  I miei ricordi non sono in vendita. Lasciare la macchina a ronzare",
+            "de": "🚶  Meine Erinnerungen sind nicht zu verkaufen. Die Maschine weiter summen lassen",
+            "zh": "🚶  我的记忆不卖。留下这台还在嗡嗡作响的机器",
+            "ja": "🚶  俺の記憶は売り物じゃない機械を唸らせたままにする"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

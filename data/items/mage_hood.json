@@ -1,0 +1,31 @@
+{
+    "name": {
+        "es": "Capucha de Mago",
+        "en": "Mage Hood",
+        "fr": "Capuche de Mage",
+        "it": "Cappuccio del Mago",
+        "de": "Magierkapuze",
+        "zh": "法师兜帽",
+        "ja": "メイジフード"
+    },
+    "desc": {
+        "es": "Tejida con hilos que canalizan la concentración del lanzador.",
+        "en": "Woven with threads that channel the caster's focus.",
+        "fr": "Tissée avec des fils qui canalisent la concentration du lanceur.",
+        "it": "Tessuto con fili che incanalano la concentrazione dell'incantatore.",
+        "de": "Gewoben aus Fäden, die die Konzentration des Zauberers kanalisieren.",
+        "zh": "以能引导施法者专注力的丝线织成。",
+        "ja": "術者の集中力を導く糸で織られている。"
+    },
+    "icon": "🎩",
+    "category": "equipment",
+    "usable": false,
+    "slot": "helmet",
+    "tier": 3,
+    "bonuses": {
+        "int": 6
+    },
+    "combat": {
+        "mag_defense": 35
+    }
+}

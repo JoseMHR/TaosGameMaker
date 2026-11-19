@@ -1,0 +1,40 @@
+{
+    "name": {
+        "es": "Arco Compuesto",
+        "en": "Composite Bow",
+        "fr": "Arc Composite",
+        "it": "Arco Composito",
+        "de": "Kompositbogen",
+        "zh": "复合弓",
+        "ja": "コンポジットボウ"
+    },
+    "desc": {
+        "es": "Arco elaborado con capas de madera y asta de bestia para máxima tensión.",
+        "en": "Bow crafted from layered wood and beast horn for maximum draw.",
+        "fr": "Arc fabriqué avec des couches de bois et de corne de bête pour une tension maximale.",
+        "it": "Arco realizzato con strati di legno e corno di bestia per la massima tensione.",
+        "de": "Bogen aus geschichtetem Holz und Tierhorn für maximale Spannkraft.",
+        "zh": "以多层木材与兽角制成，可达到最大张力。",
+        "ja": "木材と獣の角を重ねて作られ、最大限の張力を持つ弓。"
+    },
+    "icon": "🏹",
+    "category": "equipment",
+    "usable": false,
+    "slot": "weapon",
+    "tier": 4,
+    "bonuses": {
+        "dex": 9,
+        "agi": 5
+    },
+    "combat": {
+        "range_damage": 85
+    },
+    "traits": [
+        {
+            "type": "armor_penetration",
+            "value": 0.15,
+            "min_refine": 5,
+            "desc": "Ataques ignoran un 15% de la Defensa enemiga"
+        }
+    ]
+}

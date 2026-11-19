@@ -1,0 +1,31 @@
+{
+    "name": {
+        "es": "Armadura de Cuero",
+        "en": "Leather Armor",
+        "fr": "Armure de Cuir",
+        "it": "Armatura di Cuoio",
+        "de": "Lederrüstung",
+        "zh": "皮甲",
+        "ja": "レザーアーマー"
+    },
+    "desc": {
+        "es": "Cuero curtido que ofrece protección sin restar movilidad.",
+        "en": "Tanned leather offering protection without hindering movement.",
+        "fr": "Cuir tanné offrant une protection sans nuire à la mobilité.",
+        "it": "Cuoio conciato che offre protezione senza limitare la mobilità.",
+        "de": "Gegerbtes Leder, das Schutz bietet, ohne die Beweglichkeit einzuschränken.",
+        "zh": "鞣制皮革，提供防护而不影响机动性。",
+        "ja": "機動性を損なわずに防御を提供するなめし革。"
+    },
+    "icon": "🥾",
+    "category": "equipment",
+    "usable": false,
+    "slot": "armor",
+    "tier": 1,
+    "bonuses": {
+        "agi": 2
+    },
+    "combat": {
+        "phys_defense": 12
+    }
+}

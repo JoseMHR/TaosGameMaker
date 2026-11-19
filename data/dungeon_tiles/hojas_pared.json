@@ -1,0 +1,12 @@
+{
+  "t": "hojas_pared",
+  "order": 248,
+  "label": "Hojas / Enredadera de Pared",
+  "icon": "🌿",
+  "color": "#2e7d32",
+  "group": "Decoración",
+  "solid": false,
+  "orient": true,
+  "decor": true,
+  "entity": true
+}

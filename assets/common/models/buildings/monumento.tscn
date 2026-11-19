@@ -1,0 +1,198 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/graphics/ParticleCuller3D.gd" id="1_culler"]
+[ext_resource type="Script" path="res://scripts/graphics/OrbRotator3D.gd" id="2_rotator"]
+[ext_resource type="Script" path="res://scripts/graphics/PoiAudio3D.gd" id="3_audio"]
+[ext_resource type="AudioStream" path="res://assets/common/sfx/sfx_ambient_arcane_hum_loop.ogg" id="4_hum"]
+
+[sub_resource type="StandardMaterial3D" id="Mat_MonumentDust"]
+transparency = 1
+shading_mode = 0
+vertex_color_use_as_albedo = true
+albedo_color = Color(0.65, 0.9, 1.0, 0.7)
+billboard_mode = 3
+billboard_keep_scale = true
+particles_anim_h_frames = 1
+particles_anim_v_frames = 1
+particles_anim_loop = false
+
+[sub_resource type="QuadMesh" id="Mesh_MonumentQuad"]
+material = SubResource("Mat_MonumentDust")
+size = Vector2(0.03, 0.03)
+
+[sub_resource type="Gradient" id="Gradient_MonumentDust"]
+offsets = PackedFloat32Array(0, 0.5, 1)
+colors = PackedColorArray(0.4, 0.85, 1, 0, 0.7, 0.95, 1, 0.8, 0.2, 0.6, 1, 0)
+
+[sub_resource type="StandardMaterial3D" id="Mat_GraniteBase"]
+albedo_color = Color(0.28, 0.29, 0.32, 1)
+roughness = 0.9
+
+[sub_resource type="StandardMaterial3D" id="Mat_WhiteMarble"]
+albedo_color = Color(0.92, 0.90, 0.86, 1)
+roughness = 0.35
+
+[sub_resource type="StandardMaterial3D" id="Mat_GoldAccent"]
+albedo_color = Color(0.88, 0.72, 0.22, 1)
+metallic = 0.75
+roughness = 0.3
+
+[sub_resource type="StandardMaterial3D" id="Mat_GlowOrb"]
+albedo_color = Color(0.2, 0.85, 1.0, 1)
+emission_enabled = true
+emission = Color(0.1, 0.8, 1.0, 1)
+emission_energy_multiplier = 3.5
+
+[sub_resource type="StandardMaterial3D" id="Mat_FlameGlow"]
+albedo_color = Color(1.0, 0.6, 0.15, 1)
+emission_enabled = true
+emission = Color(1.0, 0.5, 0.1, 1)
+emission_energy_multiplier = 3.0
+
+[sub_resource type="BoxMesh" id="Mesh_Step1"]
+size = Vector3(0.8, 0.08, 0.8)
+
+[sub_resource type="BoxMesh" id="Mesh_Step2"]
+size = Vector3(0.6, 0.1, 0.6)
+
+[sub_resource type="BoxMesh" id="Mesh_Pedestal"]
+size = Vector3(0.44, 0.36, 0.44)
+
+[sub_resource type="BoxMesh" id="Mesh_GoldTrim"]
+size = Vector3(0.48, 0.04, 0.48)
+
+[sub_resource type="CylinderMesh" id="Mesh_ObeliskBody"]
+top_radius = 0.08
+bottom_radius = 0.16
+height = 0.88
+radial_segments = 4
+
+[sub_resource type="PrismMesh" id="Mesh_ObeliskTip"]
+size = Vector3(0.16, 0.24, 0.16)
+
+[sub_resource type="BoxMesh" id="Mesh_Plaque"]
+size = Vector3(0.22, 0.22, 0.02)
+
+[sub_resource type="SphereMesh" id="Mesh_Orb"]
+radius = 0.07
+height = 0.14
+
+[sub_resource type="CylinderMesh" id="Mesh_CornerPillar"]
+top_radius = 0.04
+bottom_radius = 0.05
+height = 0.22
+radial_segments = 6
+
+[sub_resource type="SphereMesh" id="Mesh_Flame"]
+radius = 0.03
+height = 0.06
+
+[node name="Monumento" type="Node3D"]
+
+[node name="Step1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.04, 0)
+material_override = SubResource("Mat_GraniteBase")
+mesh = SubResource("Mesh_Step1")
+
+[node name="Step2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.13, 0)
+material_override = SubResource("Mat_GraniteBase")
+mesh = SubResource("Mesh_Step2")
+
+[node name="Pedestal" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.36, 0)
+material_override = SubResource("Mat_WhiteMarble")
+mesh = SubResource("Mesh_Pedestal")
+
+[node name="PedestalTrim" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.56, 0)
+material_override = SubResource("Mat_GoldAccent")
+mesh = SubResource("Mesh_GoldTrim")
+
+[node name="ObeliskBody" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, 0.707107, 0, 1.02, 0)
+material_override = SubResource("Mat_WhiteMarble")
+mesh = SubResource("Mesh_ObeliskBody")
+
+[node name="ObeliskTip" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, 0.707107, 0, 1.58, 0)
+material_override = SubResource("Mat_GoldAccent")
+mesh = SubResource("Mesh_ObeliskTip")
+
+[node name="ArcaneOrb" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.78, 0)
+material_override = SubResource("Mat_GlowOrb")
+mesh = SubResource("Mesh_Orb")
+script = ExtResource("2_rotator")
+
+[node name="FrontPlaque" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.36, 0.23)
+material_override = SubResource("Mat_GoldAccent")
+mesh = SubResource("Mesh_Plaque")
+
+[node name="PillarFL" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.32, 0.19, 0.32)
+material_override = SubResource("Mat_WhiteMarble")
+mesh = SubResource("Mesh_CornerPillar")
+
+[node name="FlameFL" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.32, 0.33, 0.32)
+material_override = SubResource("Mat_FlameGlow")
+mesh = SubResource("Mesh_Flame")
+
+[node name="PillarFR" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.32, 0.19, 0.32)
+material_override = SubResource("Mat_WhiteMarble")
+mesh = SubResource("Mesh_CornerPillar")
+
+[node name="FlameFR" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.32, 0.33, 0.32)
+material_override = SubResource("Mat_FlameGlow")
+mesh = SubResource("Mesh_Flame")
+
+[node name="PillarBL" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.32, 0.19, -0.32)
+material_override = SubResource("Mat_WhiteMarble")
+mesh = SubResource("Mesh_CornerPillar")
+
+[node name="FlameBL" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.32, 0.33, -0.32)
+material_override = SubResource("Mat_FlameGlow")
+mesh = SubResource("Mesh_Flame")
+
+[node name="PillarBR" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.32, 0.19, -0.32)
+material_override = SubResource("Mat_WhiteMarble")
+mesh = SubResource("Mesh_CornerPillar")
+
+[node name="FlameBR" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.32, 0.33, -0.32)
+material_override = SubResource("Mat_FlameGlow")
+mesh = SubResource("Mesh_Flame")
+
+[node name="MonumentDust" type="CPUParticles3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.6, 0)
+amount = 10
+lifetime = 2.2
+mesh = SubResource("Mesh_MonumentQuad")
+emission_shape = 1
+emission_sphere_radius = 0.35
+direction = Vector3(0, 1, 0)
+spread = 180.0
+gravity = Vector3(0, 0.05, 0)
+initial_velocity_min = 0.05
+initial_velocity_max = 0.15
+color_ramp = SubResource("Gradient_MonumentDust")
+
+[node name="ParticleCuller" type="VisibleOnScreenNotifier3D" parent="MonumentDust"]
+aabb = AABB(-0.5, -0.4, -0.5, 1, 1.2, 1)
+script = ExtResource("1_culler")
+
+[node name="AltarAudio" type="AudioStreamPlayer3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2, 0)
+stream = ExtResource("4_hum")
+attenuation_model = 2
+unit_size = 2.0
+max_distance = 12.0
+bus = &"Master"
+script = ExtResource("3_audio")

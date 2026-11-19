@@ -1,0 +1,206 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/graphics/FireLightFlicker3D.gd" id="1_flicker"]
+[ext_resource type="Script" path="res://scripts/graphics/ParticleCuller3D.gd" id="2_culler"]
+[ext_resource type="Script" path="res://scripts/graphics/PoiAudio3D.gd" id="3_audio"]
+
+[sub_resource type="StandardMaterial3D" id="Mat_ForgeSparks"]
+transparency = 1
+shading_mode = 0
+vertex_color_use_as_albedo = true
+albedo_color = Color(1, 0.72, 0.2, 1)
+billboard_mode = 3
+billboard_keep_scale = true
+particles_anim_h_frames = 1
+particles_anim_v_frames = 1
+particles_anim_loop = false
+
+[sub_resource type="QuadMesh" id="Mesh_ForgeSparkQuad"]
+material = SubResource("Mat_ForgeSparks")
+size = Vector2(0.035, 0.035)
+
+[sub_resource type="Gradient" id="Gradient_ForgeSparks"]
+offsets = PackedFloat32Array(0, 0.65, 1)
+colors = PackedColorArray(1, 0.9, 0.35, 1, 1, 0.45, 0.1, 0.85, 0.8, 0.15, 0.02, 0)
+
+[sub_resource type="StandardMaterial3D" id="Mat_StoneHearth"]
+albedo_color = Color(0.32, 0.33, 0.35, 1)
+roughness = 0.9
+
+[sub_resource type="StandardMaterial3D" id="Mat_LogBase"]
+albedo_color = Color(0.3, 0.19, 0.11, 1)
+roughness = 0.9
+
+[sub_resource type="StandardMaterial3D" id="Mat_IronAnvil"]
+albedo_color = Color(0.2, 0.22, 0.25, 1)
+metallic = 0.88
+roughness = 0.3
+
+[sub_resource type="StandardMaterial3D" id="Mat_FireGlow"]
+albedo_color = Color(1.0, 0.55, 0.05, 1)
+emission_enabled = true
+emission = Color(1.0, 0.45, 0.05, 1)
+emission_energy_multiplier = 3.5
+
+[sub_resource type="StandardMaterial3D" id="Mat_HotIngot"]
+albedo_color = Color(1.0, 0.3, 0.05, 1)
+emission_enabled = true
+emission = Color(1.0, 0.25, 0.0, 1)
+emission_energy_multiplier = 4.0
+
+[sub_resource type="StandardMaterial3D" id="Mat_Water"]
+albedo_color = Color(0.15, 0.45, 0.65, 1)
+roughness = 0.25
+
+[sub_resource type="StandardMaterial3D" id="Mat_WoodBucket"]
+albedo_color = Color(0.36, 0.22, 0.14, 1)
+roughness = 0.85
+
+[sub_resource type="CylinderMesh" id="Mesh_Stump"]
+top_radius = 0.16
+bottom_radius = 0.18
+height = 0.28
+radial_segments = 8
+
+[sub_resource type="BoxMesh" id="Mesh_AnvilBody"]
+size = Vector3(0.18, 0.16, 0.34)
+
+[sub_resource type="PrismMesh" id="Mesh_AnvilHorn"]
+size = Vector3(0.14, 0.14, 0.22)
+
+[sub_resource type="BoxMesh" id="Mesh_ForgeBase"]
+size = Vector3(0.46, 0.34, 0.42)
+
+[sub_resource type="BoxMesh" id="Mesh_ForgeHood"]
+size = Vector3(0.48, 0.42, 0.44)
+
+[sub_resource type="CylinderMesh" id="Mesh_Embers"]
+top_radius = 0.16
+bottom_radius = 0.16
+height = 0.04
+radial_segments = 8
+
+[sub_resource type="CylinderMesh" id="Mesh_Flame"]
+top_radius = 0.01
+bottom_radius = 0.12
+height = 0.24
+radial_segments = 5
+
+[sub_resource type="BoxMesh" id="Mesh_Ingot"]
+size = Vector3(0.06, 0.04, 0.14)
+
+[sub_resource type="CylinderMesh" id="Mesh_Tub"]
+top_radius = 0.11
+bottom_radius = 0.1
+height = 0.22
+radial_segments = 8
+
+[sub_resource type="CylinderMesh" id="Mesh_Water"]
+top_radius = 0.1
+bottom_radius = 0.1
+height = 0.02
+radial_segments = 8
+
+[sub_resource type="CylinderMesh" id="Mesh_HammerHandle"]
+top_radius = 0.01
+bottom_radius = 0.01
+height = 0.22
+
+[sub_resource type="BoxMesh" id="Mesh_HammerHead"]
+size = Vector3(0.04, 0.04, 0.09)
+
+[node name="CampForge" type="Node3D"]
+
+[node name="TreeStump" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.16, 0.14, 0.05)
+material_override = SubResource("Mat_LogBase")
+mesh = SubResource("Mesh_Stump")
+
+[node name="AnvilBody" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.16, 0.36, 0.05)
+material_override = SubResource("Mat_IronAnvil")
+mesh = SubResource("Mesh_AnvilBody")
+
+[node name="AnvilHorn" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, -0.16, 0.4, -0.21)
+material_override = SubResource("Mat_IronAnvil")
+mesh = SubResource("Mesh_AnvilHorn")
+
+[node name="HotIngot" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.966, 0, 0.259, 0, 1, 0, -0.259, 0, 0.966, -0.18, 0.46, 0.02)
+material_override = SubResource("Mat_HotIngot")
+mesh = SubResource("Mesh_Ingot")
+
+[node name="HammerHandle" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.866, 0, -0.5, 0.5, 0, 0.866, 0, -1, 0, -0.11, 0.45, 0.12)
+material_override = SubResource("Mat_LogBase")
+mesh = SubResource("Mesh_HammerHandle")
+
+[node name="HammerHead" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.866, 0, -0.5, 0, 1, 0, 0.5, 0, 0.866, -0.05, 0.45, 0.15)
+material_override = SubResource("Mat_IronAnvil")
+mesh = SubResource("Mesh_HammerHead")
+
+[node name="ForgeBase" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.22, 0.17, -0.18)
+material_override = SubResource("Mat_StoneHearth")
+mesh = SubResource("Mesh_ForgeBase")
+
+[node name="Embers" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.22, 0.35, -0.18)
+material_override = SubResource("Mat_FireGlow")
+mesh = SubResource("Mesh_Embers")
+
+[node name="Flame" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.22, 0.48, -0.18)
+material_override = SubResource("Mat_FireGlow")
+mesh = SubResource("Mesh_Flame")
+
+[node name="ForgeHood" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.22, 0.85, -0.18)
+material_override = SubResource("Mat_StoneHearth")
+mesh = SubResource("Mesh_ForgeHood")
+
+[node name="QuenchTub" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.24, 0.11, 0.24)
+material_override = SubResource("Mat_WoodBucket")
+mesh = SubResource("Mesh_Tub")
+
+[node name="WaterSurface" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.24, 0.2, 0.24)
+material_override = SubResource("Mat_Water")
+mesh = SubResource("Mesh_Water")
+
+[node name="ForgeLight" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.15, 0.45, -0.05)
+light_color = Color(1, 0.55, 0.12, 1)
+light_energy = 2.0
+omni_range = 3.5
+shadow_enabled = false
+script = ExtResource("1_flicker")
+
+[node name="ForgeSparks" type="CPUParticles3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.22, 0.48, -0.18)
+amount = 16
+lifetime = 1.0
+mesh = SubResource("Mesh_ForgeSparkQuad")
+emission_shape = 1
+emission_sphere_radius = 0.1
+direction = Vector3(0, 1, 0)
+spread = 28.0
+gravity = Vector3(0, 1.4, 0)
+initial_velocity_min = 0.7
+initial_velocity_max = 1.4
+color_ramp = SubResource("Gradient_ForgeSparks")
+
+[node name="ParticleCuller" type="VisibleOnScreenNotifier3D" parent="ForgeSparks"]
+aabb = AABB(-0.5, -0.2, -0.5, 1, 1.5, 1)
+script = ExtResource("2_culler")
+
+[node name="ForgeAudio" type="AudioStreamPlayer3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.22, 0.45, -0.18)
+attenuation_model = 2
+unit_size = 2.0
+max_distance = 12.0
+bus = &"Master"
+script = ExtResource("3_audio")

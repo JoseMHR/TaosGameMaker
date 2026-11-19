@@ -1,0 +1,31 @@
+{
+    "name": {
+        "es": "Peto de Cuero",
+        "en": "Leather Chest",
+        "fr": "Plastron de Cuir",
+        "it": "Corazza di Cuoio",
+        "de": "Lederbrustpanzer",
+        "zh": "皮胸甲",
+        "ja": "レザーチェスト"
+    },
+    "desc": {
+        "es": "Armadura de cuero curtido.",
+        "en": "Tanned leather armor.",
+        "fr": "Armure en cuir tanné.",
+        "it": "Armatura in cuoio conciato.",
+        "de": "Rüstung aus gegerbtem Leder.",
+        "zh": "鞣制皮革制成的护甲。",
+        "ja": "なめし革の鎧。"
+    },
+    "icon": "👕",
+    "category": "equipment",
+    "usable": false,
+    "slot": "armor",
+    "tier": 3,
+    "bonuses": {
+        "vit": 5
+    },
+    "combat": {
+        "phys_defense": 36
+    }
+}

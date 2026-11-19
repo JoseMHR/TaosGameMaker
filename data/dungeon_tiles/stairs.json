@@ -1,0 +1,8 @@
+{
+	"t": "stairs",
+	"order": 102,
+	"label": "Escalera",
+	"icon": "🪜",
+	"color": "#8a8f9c",
+	"group": "Estructura"
+}

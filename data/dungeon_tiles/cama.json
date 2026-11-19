@@ -1,0 +1,12 @@
+{
+  "t": "cama",
+  "order": 239,
+  "label": "Cama",
+  "icon": "🛏️",
+  "color": "#8b4513",
+  "group": "Decoración",
+  "solid": true,
+  "orient": true,
+  "decor": true,
+  "entity": true
+}

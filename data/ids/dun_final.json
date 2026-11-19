@@ -1,0 +1,32 @@
+{
+    "id": "dun_final",
+    "type": "dungeon",
+    "name": {
+        "es": "Fase 1: Ascensión Estelar",
+        "en": "Phase 1: Stellar Ascension",
+        "fr": "Phase 1 : Ascension Stellaire",
+        "it": "Fase 1: Ascensione Stellare",
+        "de": "Phase 1: Sternenaufstieg",
+        "zh": "第一阶段：星辰飞升",
+        "ja": "第一段階：星の昇天"
+    },
+    "icon": "🕳️",
+    "portal": {
+        "view": "dungeon",
+        "event_id": "dun_final"
+    },
+    "desc": {
+        "es": "Templo del Origen - Fase 1: Islas flotantes, estrellas y puentes de luz.",
+        "en": "Temple of Origin - Phase 1: Floating isles, stars, and light bridges.",
+        "fr": "Temple de l'Origine - Phase 1 : Îles flottantes, étoiles et ponts de lumière.",
+        "it": "Tempio dell'Origine - Fase 1: Isole fluttuanti, stelle e ponti di luce.",
+        "de": "Tempel des Ursprungs - Phase 1: Schwebende Inseln, Sterne und Lichtbrücken.",
+        "zh": "起源神庙——第一阶段：漂浮的岛屿、星辰与光之桥。",
+        "ja": "起源の神殿——第一段階：浮遊する島々、星々、光の橋。"
+    },
+    "bg": [
+        0.05,
+        0.05,
+        0.08
+    ]
+}

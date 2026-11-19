@@ -1,0 +1,26 @@
+{
+    "id": "poi_filosofo_piedra",
+    "type": "poi",
+    "icon": "🪨",
+    "name": {
+        "es": "La Roca Sonriente",
+        "en": "The Smiling Rock",
+        "fr": "Le Rocher Souriant",
+        "it": "La Roccia Sorridente",
+        "de": "Der Lächelnde Fels",
+        "zh": "微笑的岩石",
+        "ja": "微笑む岩"
+    },
+    "desc": {
+        "es": "Una roca del páramo con una grieta que parece una sonrisa. (POI de inspección).",
+        "en": "A wasteland rock with a crack shaped like a smile. (Inspection POI).",
+        "fr": "Un rocher des terres désolées avec une fissure qui ressemble à un sourire. (POI d'inspection).",
+        "it": "Una roccia delle terre desolate con una crepa che sembra un sorriso. (POI di ispezione).",
+        "de": "Ein Fels im Ödland mit einem Riss, der wie ein Lächeln aussieht. (Inspektions-POI).",
+        "zh": "荒地上的一块岩石，裂缝形似一抹微笑。（探查类兴趣点）。",
+        "ja": "笑顔のようなひび割れがある荒野の岩。（調査ポイント）。"
+    },
+    "npc": "poi_filosofo_piedra",
+    "bg": "bg_world_poi_arcanum_filosofo_piedra.png",
+    "music": "poi_comic"
+}

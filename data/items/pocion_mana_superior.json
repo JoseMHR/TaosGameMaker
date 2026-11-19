@@ -1,0 +1,27 @@
+{
+    "name": {
+        "es": "Poción de Maná Superior",
+        "en": "Major Mana Potion",
+        "fr": "Potion de Mana Supérieure",
+        "it": "Pozione di Mana Superiore",
+        "de": "Großer Manatrank",
+        "zh": "高级魔法药水",
+        "ja": "上級マナポーション"
+    },
+    "desc": {
+        "es": "Restaura el 85% del maná máximo (mínimo 120 MP).",
+        "en": "Restores 85% of maximum mana (minimum 120 MP).",
+        "fr": "Restaure 85% du mana maximum (minimum 120 PM).",
+        "it": "Ripristina l'85% del mana massimo (minimo 120 MP).",
+        "de": "Stellt 85% des maximalen Manas wieder her (mindestens 120 MP).",
+        "zh": "恢复 85% 的最大魔法值（至少 120 点 MP）。",
+        "ja": "最大MPの85%を回復する（最低120MP）。"
+    },
+    "icon": "🧴",
+    "category": "consumable",
+    "usable": true,
+    "effects": {
+        "mana_pct": 0.85,
+        "mana": 120
+    }
+}

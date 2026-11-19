@@ -1,0 +1,26 @@
+{
+    "id": "poi_arcanum_taberna",
+    "type": "poi",
+    "icon": "🍸",
+    "name": {
+        "es": "Bar de Arcanum",
+        "en": "Arcanum Bar",
+        "fr": "Bar d'Arcanum",
+        "it": "Bar di Arcanum",
+        "de": "Arcanum-Bar",
+        "zh": "奥秘遗迹酒馆",
+        "ja": "アルカナムバー"
+    },
+    "desc": {
+        "es": "Bar clandestino bañado en luces de neón y vapor aceitoso",
+        "en": "Underground bar bathed in neon glow and oily steam",
+        "fr": "Bar clandestin baigné de lumières néon et de vapeur huileuse",
+        "it": "Bar clandestino immerso in luci al neon e vapore oleoso",
+        "de": "Untergrundbar, getaucht in Neonlicht und öligen Dampf",
+        "zh": "沉浸在霓虹灯光与油腻蒸汽中的地下酒吧",
+        "ja": "ネオンの光と油っぽい蒸気に包まれた地下バー"
+    },
+    "npc": "arcanum_camarero",
+    "bg": "bg_city_arcanum_taberna.png",
+    "kind": "tavern"
+}

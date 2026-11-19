@@ -1,0 +1,33 @@
+{
+    "id": "poi_guardian_templo",
+    "type": "poi",
+    "name": {
+        "es": "El Guardián del Templo",
+        "en": "The Keeper of the Temple",
+        "fr": "Le Gardien du Temple",
+        "it": "Il Custode del Tempio",
+        "de": "Der Wächter des Tempels",
+        "zh": "神庙守护者",
+        "ja": "神殿の守護者"
+    },
+    "icon": "🏛️",
+    "desc": {
+        "es": "Donde se encontraron las cinco piedras",
+        "en": "Where the five stones were found",
+        "fr": "Où furent trouvées les cinq pierres",
+        "it": "Dove furono trovate le cinque pietre",
+        "de": "Wo die fünf Steine gefunden wurden",
+        "zh": "五块石头被发现的地方",
+        "ja": "五つの石が見つかった場所"
+    },
+    "npc": "guardian_templo",
+    "presences": [
+        {
+            "condition": "default",
+            "actor": "guardian_templo",
+            "entry_node": ""
+        }
+    ],
+    "bg": "bg_temple_guardian.png",
+    "music": "poi_generic"
+}

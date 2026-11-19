@@ -1,0 +1,29 @@
+{
+    "id": "poi_final_e",
+    "type": "poi",
+    "name": {
+        "es": "Final E: Venganza",
+        "en": "Ending E: Vengeance",
+        "fr": "Fin E : Vengeance",
+        "it": "Finale E: Vendetta",
+        "de": "Ende E: Rache",
+        "zh": "结局E：复仇",
+        "ja": "エンディングE：復讐"
+    },
+    "icon": "🔥",
+    "desc": {
+        "es": "Juicio de la Esfera y Desenlace E: La Llama de Arcanum y la Retribución.",
+        "en": "Sphere Judgment and Outcome E: The Flame of Arcanum and Retribution.",
+        "fr": "Jugement de la Sphère et Dénouement E : La Flamme d'Arcanum et la Rétribution.",
+        "it": "Giudizio della Sfera ed Esito E: La Fiamma di Arcanum e la Ritorsione.",
+        "de": "Urteil der Sphäre und Ausgang E: Die Flamme von Arcanum und die Vergeltung.",
+        "zh": "真理之球的审判与结局E：奥秘遗迹之焰与报应。",
+        "ja": "球の審判と結末E：アルカナムの炎と報い。"
+    },
+    "portal": {
+        "view": "cinematic",
+        "cinematic_id": "final_e",
+        "label": "🔮  Ver Final E: Venganza"
+    },
+    "bg": "bg_ending_temple.png"
+}

@@ -1,0 +1,151 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Muñeco de Nieve Testigo",
+            "en": "The Witness Snowman",
+            "fr": "Le Bonhomme de Neige Témoin",
+            "it": "Il Pupazzo di Neve Testimone",
+            "de": "Der Zeugen-Schneemann",
+            "zh": "见证者雪人",
+            "ja": "目撃者の雪だるま"
+        },
+        "next": [],
+        "reward": "bg=0.07,0.09,0.12"
+    },
+    "mun_root": {
+        "type": "message",
+        "text": {
+            "es": "Un muñeco de nieve solitario vigila el sendero helado con dos carbones por ojos y una zanahoria ladeada. Nadie vive en kilómetros a la redonda, así que alguien tuvo que hacerlo... hace poco: la nieve fresca aún no lo ha cubierto. Juras que su sonrisa de piedrecitas apuntaba a la izquierda cuando llegaste, y ahora apunta directamente a ti.",
+            "en": "A lone snowman guards the frozen path with two coals for eyes and a lopsided carrot. No one lives for miles around, so someone had to have built it... recently: fresh snow hasn't covered it yet. You'd swear its pebble smile pointed to the left when you arrived, and now it points straight at you.",
+            "fr": "Un bonhomme de neige solitaire garde le sentier gelé, deux morceaux de charbon en guise d'yeux et une carotte de travers. Personne ne vit à des kilomètres à la ronde, donc quelqu'un a dû le construire... récemment : la neige fraîche ne l'a pas encore recouvert. Tu jurerais que son sourire de petits cailloux pointait vers la gauche à ton arrivée, et maintenant il pointe droit vers toi.",
+            "it": "Un pupazzo di neve solitario sorveglia il sentiero ghiacciato con due carboni per occhi e una carota storta. Nessuno vive a chilometri di distanza, quindi qualcuno deve averlo fatto... di recente: la neve fresca non lo ha ancora ricoperto. Giureresti che il suo sorriso di sassolini puntava a sinistra quando sei arrivato, e ora punta dritto verso di te.",
+            "de": "Ein einsamer Schneemann bewacht den vereisten Pfad, mit zwei Kohlestücken als Augen und einer schiefen Karotte. Niemand wohnt kilometerweit in der Umgebung, also muss ihn jemand gebaut haben... vor kurzem: frischer Schnee hat ihn noch nicht bedeckt. Du würdest schwören, sein Kieselstein-Lächeln zeigte nach links, als du ankamst, und jetzt zeigt es direkt auf dich.",
+            "zh": "一个孤零零的雪人守卫着冰冻的小径，两颗煤块做眼睛，一根歪斜的胡萝卜做鼻子。方圆数公里内没有人居住，所以一定是有人堆的……而且是最近才堆的：新雪还没来得及覆盖它。你敢发誓，你到达时它那小石子拼成的笑脸还朝着左边，而现在却正对着你。",
+            "ja": "孤独な雪だるまが凍った小道を見張っている。石炭で作られた二つの目と、傾いたニンジンの鼻。何マイルも周囲に人は住んでいないから、誰かが最近作ったに違いない——新しい雪がまだそれを覆っていないのだ。お前が到着した時、小石で作られた笑顔は左を向いていたはずなのに、今では真っ直ぐお前を向いていると誓ってもいい。"
+        },
+        "next": [
+            "mun_opt_examinar",
+            "mun_opt_hablar",
+            "mun_opt_deshacer",
+            "mun_opt_salir"
+        ],
+        "reward": ""
+    },
+    "mun_opt_examinar": {
+        "type": "option",
+        "text": {
+            "es": "🔎  Examinar de cerca sin quitarle el ojo de encima",
+            "en": "🔎  Examine it closely without taking your eyes off it",
+            "fr": "🔎  Examiner de près sans le quitter des yeux",
+            "it": "🔎  Esaminare da vicino senza distogliere lo sguardo",
+            "de": "🔎  Genau untersuchen, ohne ihn aus den Augen zu lassen",
+            "zh": "🔎  凑近仔细检查，目光不离开它",
+            "ja": "🔎  目を離さずに近づいて調べる"
+        },
+        "next": [
+            "mun_msg_examinar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "mun_msg_examinar": {
+        "type": "message",
+        "text": {
+            "es": "Le das una vuelta completa, muy despacio. Clavadas en la nieve a sus pies encuentras huellas: no de botas, sino de algo grande y descalzo que se acercó, se quedó un buen rato... y no volvió a marcharse. En la espalda del muñeco, grabado con un dedo, hay un mensaje temblón: 'NO LE DES LA ESPALDA'. Decides, con toda lógica, que este muñeco lo hizo un profesional del terror.",
+            "en": "You circle it slowly, all the way around. Pressed into the snow at its feet you find tracks: not boots, but something large and barefoot that approached, lingered a good while... and never walked away. On the snowman's back, drawn with a finger, is a shaky message: 'DON'T TURN YOUR BACK ON IT'. You conclude, with perfect logic, that this snowman was built by a professional of terror.",
+            "fr": "Tu en fais le tour complet, très lentement. Enfoncées dans la neige à ses pieds, tu trouves des traces : pas de bottes, mais de quelque chose de grand et pieds nus qui s'est approché, est resté un bon moment... et n'est jamais reparti. Sur le dos du bonhomme, tracé du bout du doigt, il y a un message tremblant : « NE LUI TOURNE PAS LE DOS ». Tu conclus, en toute logique, que ce bonhomme a été fait par un professionnel de la terreur.",
+            "it": "Gli fai un giro completo, molto lentamente. Conficcate nella neve ai suoi piedi trovi delle orme: non di stivali, ma di qualcosa di grande e scalzo che si è avvicinato, è rimasto un bel po'... e non se n'è più andato. Sulla schiena del pupazzo, tracciato con un dito, c'è un messaggio tremolante: 'NON VOLTARGLI LE SPALLE'. Concludi, con perfetta logica, che questo pupazzo lo ha fatto un professionista del terrore.",
+            "de": "Du umkreist ihn langsam, ganz herum. In den Schnee zu seinen Füßen gedrückt findest du Spuren: keine Stiefel, sondern etwas Großes und Barfüßiges, das sich näherte, eine ganze Weile verweilte... und nie wieder wegging. Auf dem Rücken des Schneemanns, mit dem Finger gezeichnet, steht eine zitternde Botschaft: „DREH IHM NICHT DEN RÜCKEN ZU“. Du schließt, mit vollkommener Logik, dass dieser Schneemann von einem Profi des Schreckens gebaut wurde.",
+            "zh": "你缓缓地绕它转了一整圈。在它脚下的雪地里，你发现了脚印：不是靴子的痕迹，而是某种赤脚且体型庞大的东西留下的，它靠近过来，停留了好一阵子……然后再也没有离开。在雪人的背后，用手指划出一条颤抖的信息：「别转身背对它」。你极其合乎逻辑地得出结论：这个雪人是恐怖专业人士堆的。",
+            "ja": "ゆっくりと完全に一周してみる。足元の雪に押し付けられた足跡を見つける——ブーツではなく、何か大きく裸足のものが近づき、しばらく留まり……そして二度と立ち去らなかった跡だ。雪だるまの背中には、指で書かれた震える文字がある：「背を向けるな」。完璧に論理的な結論として、この雪だるまは恐怖のプロによって作られたのだと判断する。"
+        },
+        "next": [
+            "mun_opt_salir"
+        ],
+        "reward": "faceta:inteligencia=+1;gflag:mun_examinado",
+        "condition": "no_gflag(\"mun_examinado\")",
+        "once": true
+    },
+    "mun_opt_hablar": {
+        "type": "option",
+        "text": {
+            "es": "💬  Hablarle como si pudiera responder",
+            "en": "💬  Talk to it as if it could answer",
+            "fr": "💬  Lui parler comme s'il pouvait répondre",
+            "it": "💬  Parlargli come se potesse rispondere",
+            "de": "💬  Mit ihm reden, als könnte er antworten",
+            "zh": "💬  像它能回答一样跟它说话",
+            "ja": "💬  答えられるかのように話しかける"
+        },
+        "next": [
+            "mun_msg_hablar"
+        ],
+        "reward": ""
+    },
+    "mun_msg_hablar": {
+        "type": "message",
+        "text": {
+            "es": "'Y bien, amigo de nieve, ¿qué has visto por aquí?' El muñeco, como es de esperar, no responde. Pero justo cuando te giras para irte, una bola de nieve se desprende de una rama a tu espalda y cae con un 'flop' húmedo. Te vuelves de golpe. El muñeco sigue quieto. Demasiado quieto. Su sonrisa, quizá, un pelín más ancha.",
+            "en": "'So then, snow friend, what have you seen around here?' The snowman, predictably, says nothing. But just as you turn to leave, a clump of snow drops from a branch behind you and lands with a wet 'flop'. You spin around. The snowman is still. Too still. Its smile, perhaps, a touch wider.",
+            "fr": "« Alors, ami de neige, qu'as-tu vu par ici ? » Le bonhomme, sans surprise, ne répond pas. Mais juste au moment où tu te tournes pour partir, une motte de neige tombe d'une branche derrière toi avec un « flop » humide. Tu te retournes brusquement. Le bonhomme est immobile. Trop immobile. Son sourire, peut-être, un peu plus large.",
+            "it": "'Allora, amico di neve, cosa hai visto qui intorno?' Il pupazzo, come prevedibile, non risponde. Ma proprio mentre ti giri per andartene, un ammasso di neve cade da un ramo dietro di te con un 'flop' umido. Ti volti di scatto. Il pupazzo è immobile. Troppo immobile. Il suo sorriso, forse, un po' più largo.",
+            "de": "„Nun, Schneefreund, was hast du hier gesehen?“ Der Schneemann antwortet, wie zu erwarten, nicht. Doch gerade als du dich zum Gehen wendest, fällt ein Klumpen Schnee mit einem feuchten „Platsch“ von einem Ast hinter dir. Du wirbelst herum. Der Schneemann ist still. Zu still. Sein Lächeln, vielleicht, ein wenig breiter.",
+            "zh": "「那么，雪之友，你在这附近看到了什么？」雪人，不出所料，没有回答。但就在你转身要离开的那一刻，一团积雪从你身后的树枝上落下，发出湿漉漉的「啪嗒」声。你猛地转过身。雪人静止不动。静止得太不自然了。它的笑容，或许，比之前更宽了一点。",
+            "ja": "「さて、雪の友よ、この辺りで何を見た？」雪だるまは、予想通り何も答えない。だが振り返って立ち去ろうとした瞬間、背後の枝から雪の塊が湿った「ボトッ」という音とともに落ちる。急いで振り向く。雪だるまは動かない。あまりにも動かない。その笑顔は、心なしか、少し大きくなっている気がする。"
+        },
+        "next": [
+            "mun_root"
+        ],
+        "reward": ""
+    },
+    "mun_opt_deshacer": {
+        "type": "option",
+        "text": {
+            "es": "👊  Deshacerlo de un puñetazo para acabar con la tontería",
+            "en": "👊  Punch it apart to end this nonsense",
+            "fr": "👊  Le détruire d'un coup de poing pour en finir avec cette absurdité",
+            "it": "👊  Distruggerlo con un pugno per farla finita con questa sciocchezza",
+            "de": "👊  Ihn mit einem Faustschlag zerstören, um diesem Unsinn ein Ende zu setzen",
+            "zh": "👊  一拳打散它，结束这场荒唐",
+            "ja": "👊  この馬鹿げたものを殴って壊し、終わらせる"
+        },
+        "next": [
+            "mun_msg_deshacer"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "mun_msg_deshacer": {
+        "type": "message",
+        "text": {
+            "es": "Descargas un puñetazo y el muñeco se desmorona en un montón de nieve blanda. En el centro, donde estaría el corazón, encuentras un guante de niña, diminuto y de lana roja, cuidadosamente colocado. No hay ninguna niña en cien kilómetros de nieve. Vuelves a mirar las huellas descalzas. De pronto no tienes ninguna gana de averiguar quién construyó esto ni por qué.",
+            "en": "You throw a punch and the snowman crumbles into a heap of soft snow. At its center, where the heart would be, you find a child's glove, tiny and of red wool, carefully placed. There is no child within a hundred miles of snow. You look again at the barefoot tracks. Suddenly you have no desire whatsoever to learn who built this, or why.",
+            "fr": "Tu assènes un coup de poing et le bonhomme s'effondre en un tas de neige molle. En son centre, là où serait le cœur, tu trouves un gant d'enfant, minuscule et en laine rouge, soigneusement placé. Il n'y a aucun enfant à cent kilomètres de neige à la ronde. Tu regardes de nouveau les traces de pieds nus. Soudain tu n'as plus aucune envie de savoir qui a construit ceci, ni pourquoi.",
+            "it": "Sferri un pugno e il pupazzo crolla in un mucchio di neve morbida. Al centro, dove dovrebbe esserci il cuore, trovi un guanto da bambina, minuscolo e di lana rossa, accuratamente posizionato. Non c'è nessuna bambina in cento chilometri di neve. Guardi di nuovo le impronte scalze. Improvvisamente non hai più alcuna voglia di scoprire chi ha costruito questo, né perché.",
+            "de": "Du schlägst zu, und der Schneemann bricht in einen Haufen weichen Schnees zusammen. In seiner Mitte, wo das Herz wäre, findest du einen Kinderhandschuh, winzig und aus roter Wolle, sorgfältig platziert. Es gibt kein Kind in hundert Kilometern Schnee. Du blickst erneut auf die barfüßigen Spuren. Plötzlich hast du überhaupt keine Lust mehr herauszufinden, wer das gebaut hat oder warum.",
+            "zh": "你一拳挥出，雪人瞬间垮成一堆松软的雪。在它的中心，本该是心脏的位置，你发现了一只小女孩的手套，红色毛线织成，小巧而被精心摆放着。方圆百里的雪地里没有任何小女孩。你再次看向那些赤脚的脚印。你突然完全不想知道是谁堆了这个雪人，也不想知道为什么了。",
+            "ja": "パンチを繰り出すと、雪だるまは柔らかい雪の山へと崩れ落ちる。心臓があるはずの中心には、丁寧に置かれた赤い毛糸の小さな子供用手袋がある。百キロ四方の雪の中に子供などいるはずがない。裸足の足跡を再び見つめる。突然、これを誰が、なぜ作ったのかを知りたいという気持ちが完全に消え失せる。"
+        },
+        "next": [
+            "mun_opt_salir"
+        ],
+        "reward": "faceta:cordura=-1"
+    },
+    "mun_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Marcharte (de cara, siempre de cara)",
+            "en": "🚶  Leave (facing it, always facing it)",
+            "fr": "🚶  Partir (face à lui, toujours face à lui)",
+            "it": "🚶  Andartene (rivolto verso di esso, sempre rivolto verso di esso)",
+            "de": "🚶  Weggehen (ihm zugewandt, immer ihm zugewandt)",
+            "zh": "🚶  离开（正对着它，始终正对着它）",
+            "ja": "🚶  立ち去る（顔を向けたまま、常に顔を向けたまま）"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

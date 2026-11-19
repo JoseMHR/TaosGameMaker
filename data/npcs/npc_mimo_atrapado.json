@@ -1,0 +1,150 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "Marcel el Silencioso",
+            "en": "Marcel the Silent",
+            "fr": "Marcel le Silencieux",
+            "it": "Marcel il Silenzioso",
+            "de": "Marcel der Schweiger",
+            "zh": "沉默的马塞尔",
+            "ja": "沈黙のマルセル"
+        },
+        "next": [],
+        "reward": "avatar=🎭;bg=0.06,0.06,0.07"
+    },
+    "mimo_root": {
+        "type": "message",
+        "text": {
+            "es": "Un hombre con camisa a rayas blanquinegras, cara pintada de blanco y tirantes rojos se encuentra de pie en mitad de la hierba. Sus manos palpan frenéticamente el aire... y para tu absoluto asombro, ¡CHOCAN contra una superficie sólida y transparente! Golpea con los nudillos y se escucha un nítido *TOC-TOC* en el cristal invisible. Sus ojos desorbitados te suplican auxilio en silencio.",
+            "en": "A man in a black-and-white striped shirt, white face paint, and red suspenders stands motionless on the grass. His hands frantically feel the empty air... and to your absolute astonishment, they CLASH against a solid, transparent barrier! He raps his knuckles, producing a crisp *TAP-TAP* on invisible glass. His wide eyes silently scream for help.",
+            "fr": "Un homme en chemise rayée noir et blanc, le visage peint en blanc et des bretelles rouges, se tient immobile au milieu de l'herbe. Ses mains tâtent frénétiquement l'air vide... et à ton absolu étonnement, elles HEURTENT une barrière solide et transparente ! Il frappe des jointures et l'on entend un net *TOC-TOC* sur le verre invisible. Ses yeux exorbités supplient silencieusement à l'aide.",
+            "it": "Un uomo con una camicia a righe bianche e nere, il viso dipinto di bianco e bretelle rosse, è immobile in mezzo all'erba. Le sue mani tastano freneticamente l'aria vuota... e con tuo assoluto stupore, si SCONTRANO contro una barriera solida e trasparente! Batte le nocche e si sente un netto *TOC-TOC* sul vetro invisibile. I suoi occhi sbarrati implorano aiuto in silenzio.",
+            "de": "Ein Mann in schwarz-weiß gestreiftem Hemd, weiß geschminktem Gesicht und roten Hosenträgern steht bewegungslos im Gras. Seine Hände tasten hektisch in der leeren Luft... und zu deinem absoluten Erstaunen STOSSEN sie gegen eine solide, durchsichtige Barriere! Er klopft mit den Knöcheln, und man hört ein deutliches *KLOPF-KLOPF* auf unsichtbarem Glas. Seine aufgerissenen Augen flehen stumm um Hilfe.",
+            "zh": "一个身穿黑白条纹衬衫、脸涂成白色、系着红色背带的男人一动不动地站在草地上。他的双手疯狂地摸索着空气……令你无比震惊的是，它们竟然撞上了一堵坚固而透明的屏障！他用指关节敲击，发出清晰的「咚咚」声，撞在那看不见的玻璃上。他瞪大的双眼无声地向你求救。",
+            "ja": "白黒の縞模様のシャツを着て、顔を白く塗り、赤いサスペンダーをつけた男が、草の中で動かずに立っている。その手は狂ったように何もない空気を探っている……そしてお前が完全に驚いたことに、その手は堅固で透明な障壁にぶつかる！ナックルで叩くと、見えないガラスにはっきりとした「コンコン」という音が響く。見開かれた目が、声もなく助けを求めている。"
+        },
+        "next": [
+            "mimo_opt_tocar",
+            "mimo_opt_pomo",
+            "mimo_opt_aplaudir",
+            "mimo_opt_salir"
+        ],
+        "reward": ""
+    },
+    "mimo_opt_tocar": {
+        "type": "option",
+        "text": {
+            "es": "✋  (Extender la mano para analizar la barrera mágica)",
+            "en": "✋  (Reach out to examine the magical barrier)",
+            "fr": "✋  (Tendre la main pour analyser la barrière magique)",
+            "it": "✋  (Allungare la mano per analizzare la barriera magica)",
+            "de": "✋  (Die Hand ausstrecken, um die magische Barriere zu untersuchen)",
+            "zh": "✋  （伸手检查这道魔法屏障）",
+            "ja": "✋  （手を伸ばして魔法の障壁を調べる）"
+        },
+        "next": [
+            "mimo_msg_tocar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "mimo_msg_tocar": {
+        "type": "message",
+        "text": {
+            "es": "Tus dedos chocan contra una pared fría, pulida e indestructible como el diamante. El mimo apoya la palma contra la tuya a través de la barrera invisible y derrama una lágrima silenciosa. Saca una pizarrita de tiza de su bolsillo y escribe a toda prisa: '¡UN MAGO DE CELESTIA SE CANSÓ DE MIS CHISTES Y ME CASTIGÓ HACIENDO MI ACTO REAL! ¡LLEVO 3 DÍAS COMIENDO MANZANAS INVISIBLES! ¡¡AYUDA!!' Analizar la barrera de abjuración enriquece tu conocimiento arcano.",
+            "en": "Your fingers press against a freezing, polished, indestructible barrier as hard as diamond. The mime places his palm against yours through the invisible glass, shedding a single silent tear. He pulls a chalkboard from his pocket and hastily scrawls: 'A CELESTIA MAGE GOT TIRED OF MY GAGS AND CURSED MY ACT TO BECOME REAL! I HAVE BEEN EATING INVISIBLE APPLES FOR 3 DAYS! HELP!!' Analyzing the abjuration field expands your arcane insight.",
+            "fr": "Tes doigts heurtent une paroi froide, polie et indestructible comme le diamant. Le mime pose sa paume contre la tienne à travers la barrière invisible et laisse échapper une larme silencieuse. Il sort une petite ardoise de craie de sa poche et écrit à toute vitesse : « UN MAGE DE CELESTIA S'EST LASSÉ DE MES BLAGUES ET M'A PUNI EN RENDANT MON NUMÉRO RÉEL ! ÇA FAIT 3 JOURS QUE JE MANGE DES POMMES INVISIBLES ! À L'AIDE !! » Analyser la barrière d'abjuration enrichit ta connaissance arcanique.",
+            "it": "Le tue dita urtano contro una parete fredda, levigata e indistruttibile come il diamante. Il mimo appoggia il palmo contro il tuo attraverso la barriera invisibile e versa una lacrima silenziosa. Tira fuori una lavagnetta di gesso dalla tasca e scrive in fretta: 'UN MAGO DI CELESTIA SI È STANCATO DELLE MIE BATTUTE E MI HA PUNITO RENDENDO REALE IL MIO NUMERO! SONO 3 GIORNI CHE MANGIO MELE INVISIBILI! AIUTO!!' Analizzare la barriera di abiura arricchisce la tua conoscenza arcana.",
+            "de": "Deine Finger stoßen gegen eine kalte, polierte, diamantharte, unzerstörbare Wand. Der Mime legt seine Handfläche durch die unsichtbare Barriere gegen deine und vergießt eine stumme Träne. Er zieht eine kleine Kreidetafel aus seiner Tasche und schreibt hastig: „EIN MAGIER AUS CELESTIA WURDE MEINER WITZE ÜBERDRÜSSIG UND BESTRAFTE MICH, INDEM ER MEINEN AKT REAL MACHTE! ICH ESSE SEIT 3 TAGEN UNSICHTBARE ÄPFEL! HILFE!!“ Die Bannbarriere zu analysieren erweitert dein arkanes Wissen.",
+            "zh": "你的手指撞上了一堵冰冷、光滑、坚不可摧如钻石般的墙壁。哑剧演员隔着这道无形的屏障将手掌贴在你的手掌上，无声地流下一滴泪。他从口袋里掏出一块小石板，飞快地写道：「一位塞莱斯提亚的法师厌倦了我的笑话，惩罚我把我的表演变成了真的！我已经吃了三天的隐形苹果了！救命啊！！」分析这道防护屏障丰富了你的奥秘知识。",
+            "ja": "指がダイヤモンドのように硬く冷たい、磨かれた破壊不能な壁にぶつかる。無言劇師は見えない障壁越しに手のひらをお前の手に重ね、声もなく涙を流す。ポケットから小さな石板を取り出し、急いで書きなぐる：「セレスティアの魔法使いが俺のギャグに飽きて、演技を本物にする罰を与えたんだ！三日間、見えないリンゴを食べ続けている！助けてくれ！！」防御結界を分析することで、お前の秘術の知識が深まる。"
+        },
+        "next": [
+            "mimo_root"
+        ],
+        "reward": "faceta:inteligencia=+1"
+    },
+    "mimo_opt_pomo": {
+        "type": "option",
+        "text": {
+            "es": "🗝️  (Mímica teatral: dibujar una puerta imaginaria con el dedo, agarrar un pomo invisible, girarlo y empujar)",
+            "en": "🗝️  (Theatrical mime: outline an imaginary doorframe, grasp an invisible brass knob, turn it and push)",
+            "fr": "🗝️  (Mime théâtral : dessiner une porte imaginaire du doigt, saisir une poignée invisible, la tourner et pousser)",
+            "it": "🗝️  (Mimo teatrale: disegnare una porta immaginaria con il dito, afferrare un pomello invisibile, girarlo e spingere)",
+            "de": "🗝️  (Theatralische Pantomime: einen imaginären Türrahmen umreißen, einen unsichtbaren Messingknauf greifen, drehen und drücken)",
+            "zh": "🗝️  （夸张的哑剧表演：用手指画出一扇想象的门，抓住一个看不见的门把手，转动并推开）",
+            "ja": "🗝️  （演劇的な無言劇：指で想像の扉の枠をなぞり、見えない真鍮のノブを掴んで回し、押す）"
+        },
+        "next": [
+            "mimo_msg_pomo"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "mimo_msg_pomo": {
+        "type": "message",
+        "text": {
+            "es": "Sorprendentemente, la magia teatral resuena con la maldición. Se escucha un crujido de bisagras etéreas: ¡un marco invisible se entreabre! Marcel abre los ojos como platos, tantea el hueco... ¡y logra sacar la cabeza y los brazos fuera de su prisión! Solloza de gratitud silenciosa, te abraza las piernas y te entrega su bolsa con 40 monedas de oro y una flor de tela roja. ¡La creatividad y la empatía han roto un hechizo centenario!",
+            "en": "Astonishingly, theatrical make-believe resonates with the curse. An ethereal creak of brass hinges rings out: an invisible portal swings ajar! Marcel's eyes pop wide, he tests the aperture... and thrusts head and arms free of his cage! He weeps with silent joy, hugging your boots, and presses a pouch of 40 gold coins and a red cloth blossom into your hands. Creativity and empathy shattered an ancient hex!",
+            "fr": "Étonnamment, la magie théâtrale résonne avec la malédiction. On entend un grincement de charnières éthérées : un cadre invisible s'entrouvre ! Marcel écarquille les yeux, tâte l'ouverture... et parvient à sortir la tête et les bras de sa prison ! Il sanglote de gratitude silencieuse, t'enlace les jambes et te remet sa bourse contenant 40 pièces d'or et une fleur de tissu rouge. La créativité et l'empathie ont brisé un sortilège centenaire !",
+            "it": "Sorprendentemente, la magia teatrale risuona con la maledizione. Si sente uno scricchiolio di cardini eterei: un telaio invisibile si socchiude! Marcel spalanca gli occhi, tasta l'apertura... e riesce a tirare fuori la testa e le braccia dalla sua prigione! Singhiozza di gratitudine silenziosa, ti abbraccia le gambe e ti consegna la sua borsa con 40 monete d'oro e un fiore di stoffa rosso. La creatività e l'empatia hanno spezzato un incantesimo secolare!",
+            "de": "Erstaunlicherweise schwingt die theatralische Magie mit dem Fluch mit. Man hört ein Knarren ätherischer Scharniere: ein unsichtbarer Rahmen öffnet sich einen Spalt! Marcels Augen weiten sich, er tastet die Öffnung ab... und schafft es, Kopf und Arme aus seinem Gefängnis zu befreien! Er schluchzt vor stiller Dankbarkeit, umarmt deine Beine und drückt dir seinen Beutel mit 40 Goldmünzen und einer roten Stoffblume in die Hand. Kreativität und Empathie haben einen jahrhundertealten Fluch gebrochen!",
+            "zh": "令人惊讶的是，这戏剧性的魔法竟与诅咒产生了共鸣。传来了以太铰链的吱嘎声：一扇无形的门框微微开启了！马塞尔瞪大了眼睛，摸索着那个开口……终于成功把头和双臂伸出了牢笼！他因无声的感激而抽泣，紧紧抱住你的双腿，把装有40枚金币和一朵红色布花的钱袋塞进你手中。创造力与共情打破了一个百年诅咒！",
+            "ja": "驚くべきことに、演劇的な魔法が呪いに共鳴する。幽玄な蝶番の軋みが聞こえ——見えない枠が少しだけ開く！マルセルは目を丸くし、その隙間を探る……そして、頭と両腕を牢獄から自由にすることに成功する！彼は声のない感謝の涙を流し、お前の脚を抱きしめ、金貨40枚と赤い布の花が入った袋を握らせる。創造性と共感が百年の呪いを打ち破ったのだ！"
+        },
+        "next": [
+            "mimo_root"
+        ],
+        "reward": "faceta:bondad=+1;faceta:valor=+1;gold:+40;discover:lore_mimo_atrapado"
+    },
+    "mimo_opt_aplaudir": {
+        "type": "option",
+        "text": {
+            "es": "👏  ¡Bravo! ¡Magnífica interpretación, qué realismo!",
+            "en": "👏  Bravo! Magnificent performance, such realism!",
+            "fr": "👏  Bravo ! Magnifique interprétation, quel réalisme !",
+            "it": "👏  Bravo! Magnifica interpretazione, che realismo!",
+            "de": "👏  Bravo! Großartige Darbietung, wie realistisch!",
+            "zh": "👏  太棒了！精彩的表演，多么逼真啊！",
+            "ja": "👏  ブラボー！素晴らしい演技だ、なんという臨場感だ！"
+        },
+        "next": [
+            "mimo_msg_aplaudir"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "mimo_msg_aplaudir": {
+        "type": "message",
+        "text": {
+            "es": "Marcel te mira con un desprecio infinito que trasciende todo lenguaje mortal. Saca su tiza y escribe con furia temblorosa en mayúsculas: 'TE DESPRECIO CON TODO MI SER'. Luego se cruza de brazos y finge que eres aire transparente. Tu insolente sentido del espectáculo resalta en tu porte.",
+            "en": "Marcel glares at you with infinite scorn transcending mortal speech. He whips out his chalk and furiously scrawls in all caps: 'I DESPISE YOU WITH ALL MY BEING.' Then he folds his arms and pretends you are empty air. Your brazen showmanship burnishes your charisma.",
+            "fr": "Marcel te regarde avec un mépris infini qui transcende tout langage mortel. Il sort sa craie et écrit avec une fureur tremblante en majuscules : « JE TE MÉPRISE DE TOUT MON ÊTRE ». Puis il croise les bras et fait comme si tu étais de l'air transparent. Ton sens du spectacle insolent rehausse ton allure.",
+            "it": "Marcel ti guarda con un disprezzo infinito che trascende ogni linguaggio mortale. Tira fuori il gesso e scrive con furia tremante in maiuscolo: 'TI DISPREZZO CON TUTTO IL MIO ESSERE'. Poi incrocia le braccia e finge che tu sia aria trasparente. Il tuo insolente senso dello spettacolo risalta nel tuo portamento.",
+            "de": "Marcel blickt dich mit unendlicher Verachtung an, die jede sterbliche Sprache übersteigt. Er zieht seine Kreide heraus und schreibt mit zitternder Wut in Großbuchstaben: „ICH VERACHTE DICH MIT MEINEM GANZEN WESEN“. Dann verschränkt er die Arme und tut so, als wärst du durchsichtige Luft. Dein unverschämter Sinn für Show hebt dein Auftreten hervor.",
+            "zh": "马塞尔用一种超越凡人语言的无尽轻蔑注视着你。他掏出粉笔，用颤抖的怒气写下大写字母：「我全身心地鄙视你」。然后他抱起双臂，假装你是透明的空气。你那厚颜无耻的表演欲让你的气质更加突出。",
+            "ja": "マルセルは、人間の言語を超えた無限の軽蔑でお前を見つめる。チョークを取り出し、震える怒りとともに大文字で書く：「俺は全身全霊でお前を軽蔑する」。それから腕を組み、お前を透明な空気であるかのように扱う。お前の厚かましい見世物根性が、その立ち居振る舞いに際立って現れる。"
+        },
+        "next": [
+            "mimo_root"
+        ],
+        "reward": "faceta:aspecto=+1"
+    },
+    "mimo_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  (Hacer una reverencia dramática y despedirse)",
+            "en": "🚶  (Perform a dramatic bow and take your leave)",
+            "fr": "🚶  (Faire une révérence théâtrale et prendre congé)",
+            "it": "🚶  (Fare un inchino teatrale e congedarsi)",
+            "de": "🚶  (Eine theatralische Verbeugung machen und sich verabschieden)",
+            "zh": "🚶  （夸张地鞠躬告别）",
+            "ja": "🚶  （劇的なお辞儀をして別れを告げる）"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

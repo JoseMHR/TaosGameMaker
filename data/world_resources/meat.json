@@ -1,0 +1,16 @@
+{
+	"code": "meat",
+	"order": 6,
+	"label": "Granja de Cerdos",
+	"icon": "🐖",
+	"biome_color": "#3a2f1f",
+	"description": "Cerditos alimentándose en su comedero en la granja. Producen carne fresca.",
+	"placeable": true,
+	"skill": "",
+	"item": "carne",
+	"item_loc": "res_carne",
+	"category": "other",
+	"name_loc": "node_caza",
+	"found_loc": "gather_found_cazador",
+	"capacity": 8
+}

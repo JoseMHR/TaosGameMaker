@@ -1,0 +1,167 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "La Biblioteca al Aire Libre",
+            "en": "The Open-Air Library",
+            "fr": "La Bibliothèque en Plein Air",
+            "it": "La Biblioteca all'Aperto",
+            "de": "Die Freiluftbibliothek",
+            "zh": "露天图书馆",
+            "ja": "野外図書館"
+        },
+        "next": [],
+        "reward": "avatar=📚;bg=0.06,0.07,0.10"
+    },
+    "bib_done": {
+        "type": "message",
+        "text": {
+            "es": "El bibliotecario te saluda desde lo alto de su escalera con un libro en cada mano. '¡El colega del método aéreo!', exclama encantado. 'He reservado la rama nordeste para tus futuras aportaciones. Es la de mejor ventilación conceptual.'",
+            "en": "The librarian greets you from atop his ladder with a book in each hand. 'The colleague of the aerial method!' he cries, delighted. 'I've reserved the northeast branch for your future contributions. It has the best conceptual ventilation.'",
+            "fr": "Le bibliothécaire te salue du haut de son échelle, un livre dans chaque main. « Le collègue de la méthode aérienne ! » s'exclame-t-il, ravi. « J'ai réservé la branche nord-est pour tes futures contributions. C'est celle qui a la meilleure ventilation conceptuelle. »",
+            "it": "Il bibliotecario ti saluta dall'alto della sua scala con un libro in ogni mano. 'Il collega del metodo aereo!' esclama incantato. 'Ho riservato il ramo nord-est per i tuoi futuri contributi. È quello con la migliore ventilazione concettuale.'",
+            "de": "Der Bibliothekar grüßt dich von der Spitze seiner Leiter, ein Buch in jeder Hand. „Der Kollege der Luftmethode!“, ruft er entzückt. „Ich habe den Nordostast für deine zukünftigen Beiträge reserviert. Er hat die beste konzeptuelle Belüftung.“",
+            "zh": "图书管理员从梯子顶端向你打招呼，两手各拿着一本书。「空中方法的同行啊！」他兴奋地喊道。「我已经为你未来的贡献预留了东北方向的那根树枝。那是概念通风效果最好的一根。」",
+            "ja": "図書館員ははしごの上からお前に挨拶する、両手に本を持って。「空中方式の同志だ！」彼は喜んで叫ぶ。「お前の今後の貢献のために北東の枝を確保しておいたぞ。あそこが一番概念的な通気が良いんだ」"
+        },
+        "next": [
+            "bib_opt_salir"
+        ],
+        "reward": "",
+        "condition": "gflag(\"bib_colega\")"
+    },
+    "bib_root": {
+        "type": "message",
+        "text": {
+            "es": "Un árbol solitario en las afueras de Celestia gotea sabiduría: de cada rama cuelgan, atados con cordel, cientos de libros que se mecen con el viento como frutas de papel. Al pie, un anciano de barba llena de plumas de escribir sube y baja por una escalera. 'No es desorden, es un sistema', te aclara sin que preguntes. 'Astronomía arriba, cerca del cielo. Tragedias abajo, cerca de la tierra. Filosofía en las ramas que crujen. ¡Cada saber en su altura natural!'",
+            "en": "A lone tree on the outskirts of Celestia drips wisdom: from every branch hang, tied with twine, hundreds of books swaying in the wind like paper fruit. At its foot, an old man with a beard full of writing quills climbs up and down a ladder. 'It isn't disorder, it's a system,' he clarifies before you ask. 'Astronomy up top, near the sky. Tragedies below, near the earth. Philosophy on the branches that creak. Each field at its natural height!'",
+            "fr": "Un arbre solitaire à la périphérie de Celestia distille la sagesse : de chaque branche pendent, attachés avec de la ficelle, des centaines de livres qui se balancent au vent comme des fruits de papier. À son pied, un vieil homme à la barbe pleine de plumes d'écriture monte et descend une échelle. « Ce n'est pas du désordre, c'est un système », précise-t-il sans même que tu ne poses la question. « L'astronomie en haut, près du ciel. Les tragédies en bas, près de la terre. La philosophie sur les branches qui craquent. Chaque savoir à sa hauteur naturelle ! »",
+            "it": "Un albero solitario alla periferia di Celestia gocciola saggezza: da ogni ramo pendono, legati con lo spago, centinaia di libri che oscillano al vento come frutti di carta. Ai suoi piedi, un anziano dalla barba piena di penne d'oca sale e scende una scala. 'Non è disordine, è un sistema', chiarisce senza che tu chieda nulla. 'Astronomia in alto, vicino al cielo. Tragedie in basso, vicino alla terra. Filosofia sui rami che scricchiolano. Ogni sapere alla sua altezza naturale!'",
+            "de": "Ein einsamer Baum am Rande von Celestia tropft vor Weisheit: von jedem Ast hängen, mit Bindfaden befestigt, hunderte Bücher, die sich im Wind wiegen wie Papierfrüchte. An seinem Fuß steigt ein alter Mann mit einem Bart voller Schreibfedern eine Leiter auf und ab. „Das ist keine Unordnung, das ist ein System“, klärt er auf, noch bevor du fragst. „Astronomie oben, nahe am Himmel. Tragödien unten, nahe der Erde. Philosophie auf den knarrenden Ästen. Jedes Wissen auf seiner natürlichen Höhe!“",
+            "zh": "在塞莱斯提亚郊外，一棵孤零零的树滴淌着智慧：每根树枝上都用麻绳挂着数百本书，像纸质水果一样在风中摇摆。树脚下，一位胡须里插满书写羽毛笔的老人正上上下下地爬着一架梯子。「这不是杂乱，这是一套系统，」他不等你发问便主动解释道。「天文学在上面，靠近天空。悲剧在下面，靠近大地。哲学放在吱吱作响的树枝上。每一门学问都在它天然的高度上！」",
+            "ja": "セレスティア郊外の孤独な木が知恵を滴らせている——すべての枝から紐で吊るされた何百冊もの本が、紙の果実のように風に揺れている。その根元では、書き物用の羽根ペンだらけの髭を生やした老人がはしごを上り下りしている。「これは無秩序じゃない、システムなんだ」お前が尋ねる前に彼はそう説明する。「天文学は上、空に近い場所に。悲劇は下、大地に近い場所に。哲学はきしむ枝に。すべての学問がそれぞれ自然な高さにあるんだ！」"
+        },
+        "next": [
+            "bib_opt_sistema",
+            "bib_opt_libro",
+            "bib_opt_criticar",
+            "bib_opt_salir"
+        ],
+        "reward": ""
+    },
+    "bib_opt_sistema": {
+        "type": "option",
+        "text": {
+            "es": "🧠  Discutir la lógica de su sistema y proponer mejoras",
+            "en": "🧠  Debate the logic of his system and propose improvements",
+            "fr": "🧠  Discuter la logique de son système et proposer des améliorations",
+            "it": "🧠  Discutere la logica del suo sistema e proporre miglioramenti",
+            "de": "🧠  Die Logik seines Systems diskutieren und Verbesserungen vorschlagen",
+            "zh": "🧠  探讨他这套系统的逻辑并提出改进意见",
+            "ja": "🧠  彼のシステムの論理を議論し、改善案を提案する"
+        },
+        "next": [
+            "bib_msg_sistema"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "bib_msg_sistema": {
+        "type": "message",
+        "text": {
+            "es": "Le señalas la falla: ¿qué ocurre cuando llueve? El anciano abre mucho los ojos, luego sonríe con astucia. 'Ah, pero es que la lluvia es el proceso de revisión por pares. Los libros que resisten el aguacero son verdad; los que se deshacen, eran mentira mojada.' No puedes rebatirlo. Pasas una hora fascinante debatiendo taxonomías imposibles con él, y sales con la cabeza llena de ideas absurdas y curiosamente útiles.",
+            "en": "You point out the flaw: what happens when it rains? The old man's eyes go wide, then he grins slyly. 'Ah, but rain is the peer-review process. The books that survive the downpour are truth; the ones that dissolve were soggy lies.' You cannot refute it. You spend a fascinating hour debating impossible taxonomies with him, and leave with a head full of absurd, curiously useful ideas.",
+            "fr": "Tu lui montres la faille : que se passe-t-il quand il pleut ? Le vieil homme écarquille les yeux, puis sourit avec ruse. « Ah, mais c'est que la pluie est le processus d'évaluation par les pairs. Les livres qui résistent à l'averse sont vérité ; ceux qui se défont étaient mensonge détrempé. » Tu ne peux le réfuter. Tu passes une heure fascinante à débattre de taxonomies impossibles avec lui, et repars la tête remplie d'idées absurdes et curieusement utiles.",
+            "it": "Gli indichi la falla: cosa succede quando piove? L'anziano spalanca gli occhi, poi sorride astutamente. 'Ah, ma è che la pioggia è il processo di revisione tra pari. I libri che resistono all'acquazzone sono verità; quelli che si disfano erano menzogna bagnata.' Non riesci a confutarlo. Passi un'ora affascinante a dibattere tassonomie impossibili con lui, e te ne vai con la testa piena di idee assurde e curiosamente utili.",
+            "de": "Du weist ihn auf den Fehler hin: was passiert, wenn es regnet? Der alte Mann reißt die Augen auf, dann grinst er verschmitzt. „Ah, aber der Regen ist das Peer-Review-Verfahren. Die Bücher, die den Regenguss überstehen, sind Wahrheit; die, die sich auflösen, waren durchnässte Lügen.“ Du kannst es nicht widerlegen. Du verbringst eine faszinierende Stunde damit, mit ihm über unmögliche Taxonomien zu debattieren, und gehst mit einem Kopf voller absurder, seltsam nützlicher Ideen.",
+            "zh": "你向他指出了漏洞：下雨的时候会怎样？老人瞪大了眼睛，随即狡黠地笑了。「啊，可是下雨正是同行评审的过程啊。能挺过暴雨的书就是真理；散架的那些原本就是被淋湿的谎言。」你无法反驳他。你和他兴致勃勃地讨论了一个小时各种不可能的分类法，最后带着满脑子荒唐却又奇怪地有用的想法离开了。",
+            "ja": "その欠陥を指摘する——雨が降ったらどうなるのか？老人は目を見開き、それからずる賢く微笑む。「ああ、だが雨は査読制度なんだよ。土砂降りに耐えた本は真実であり、崩れ去った本はずぶ濡れの嘘だったのさ」反論できない。彼と一緒にあり得ない分類法について議論する魅惑的な一時間を過ごし、頭を馬鹿げた、しかし妙に役立つ考えでいっぱいにして立ち去る。"
+        },
+        "next": [
+            "bib_opt_salir"
+        ],
+        "reward": "faceta:inteligencia=+1;gflag:bib_colega",
+        "condition": "no_gflag(\"bib_colega\")",
+        "once": true
+    },
+    "bib_opt_libro": {
+        "type": "option",
+        "text": {
+            "es": "📖  Pedir prestado un libro de la rama de las tragedias",
+            "en": "📖  Borrow a book from the branch of tragedies",
+            "fr": "📖  Emprunter un livre de la branche des tragédies",
+            "it": "📖  Prendere in prestito un libro dal ramo delle tragedie",
+            "de": "📖  Ein Buch vom Ast der Tragödien ausleihen",
+            "zh": "📖  从悲剧那根树枝上借一本书",
+            "ja": "📖  悲劇の枝から一冊借りる"
+        },
+        "next": [
+            "bib_msg_libro"
+        ],
+        "reward": ""
+    },
+    "bib_msg_libro": {
+        "type": "message",
+        "text": {
+            "es": "Descuelgas un tomo bajo, casi a ras de suelo, titulado 'Padres que no pudieron'. Al abrirlo, todas las páginas están en blanco menos la primera, que dice: 'Algunas historias pesan tanto que se caen del árbol solas. Esta se cayó tantas veces que dejamos de subirla.' El bibliotecario te observa de reojo, de pronto muy serio. 'Ese lo dejó aquí un hombre que no quería llevárselo a casa. Vuelve a colgarlo, ¿quieres? Aún no es tuyo.'",
+            "en": "You take down a low volume, almost at ground level, titled 'Fathers Who Couldn't'. When you open it, every page is blank except the first, which reads: 'Some stories weigh so much they fall from the tree on their own. This one fell so many times we stopped hanging it back up.' The librarian watches you sidelong, suddenly very grave. 'That one was left here by a man who didn't want to take it home. Hang it back up, will you? It isn't yours yet.'",
+            "fr": "Tu décroches un volume bas, presque au ras du sol, intitulé « Pères qui n'ont pas pu ». En l'ouvrant, toutes les pages sont blanches sauf la première, qui dit : « Certaines histoires pèsent si lourd qu'elles tombent de l'arbre toutes seules. Celle-ci est tombée tant de fois que nous avons cessé de la raccrocher. » Le bibliothécaire t'observe de côté, soudain très grave. « Celui-là a été laissé ici par un homme qui ne voulait pas le ramener chez lui. Raccroche-le, tu veux bien ? Il n'est pas encore à toi. »",
+            "it": "Stacchi un volume basso, quasi a livello del suolo, intitolato 'Padri che non ce l'hanno fatta'. Nell'aprirlo, tutte le pagine sono bianche tranne la prima, che dice: 'Alcune storie pesano così tanto che cadono dall'albero da sole. Questa è caduta così tante volte che abbiamo smesso di riappenderla.' Il bibliotecario ti osserva di sottecchi, improvvisamente molto serio. 'Quello lo lasciò qui un uomo che non voleva portarselo a casa. Riappendilo, vuoi? Non è ancora tuo.'",
+            "de": "Du nimmst einen niedrigen Band herunter, fast auf Bodenhöhe, mit dem Titel „Väter, die es nicht konnten“. Beim Aufschlagen sind alle Seiten leer außer der ersten, auf der steht: „Manche Geschichten wiegen so schwer, dass sie von selbst vom Baum fallen. Diese fiel so oft, dass wir aufhörten, sie wieder aufzuhängen.“ Der Bibliothekar beobachtet dich mit einem Seitenblick, plötzlich sehr ernst. „Das hat ein Mann hier gelassen, der es nicht mit nach Hause nehmen wollte. Häng es wieder auf, ja? Es gehört dir noch nicht.“",
+            "zh": "你取下一本挂得很低、几乎贴近地面的书，书名是《未能做到的父亲们》。翻开时，所有的页面都是空白的，只有第一页写着：「有些故事的分量太重，会自己从树上掉下来。这本掉了太多次，我们已经不再重新挂上去了。」图书管理员从眼角瞥了你一眼，突然变得非常严肃。「那本是一个不想把它带回家的男人留在这里的。把它挂回去，好吗？它还不属于你。」",
+            "ja": "地面すれすれの低い巻を取り出す。タイトルは『できなかった父たち』。開いてみると、最初のページ以外はすべて白紙で、こう書かれている——「あまりに重すぎて自然に木から落ちてしまう物語もある。これは何度も落ちすぎたので、もう吊り直すのをやめたんだ」図書館員が横目でお前を見つめる。突然、とても真剣な表情になっている。「それはある男がここに置いていったものだ、家に持ち帰りたくなかったのさ。また吊り直してくれるかい？まだお前のものじゃない」"
+        },
+        "next": [
+            "bib_root"
+        ],
+        "reward": ""
+    },
+    "bib_opt_criticar": {
+        "type": "option",
+        "text": {
+            "es": "😤  Esto es una locura, los libros van en estanterías",
+            "en": "😤  This is madness, books belong on shelves",
+            "fr": "😤  C'est de la folie, les livres vont sur des étagères",
+            "it": "😤  Questa è follia, i libri vanno sugli scaffali",
+            "de": "😤  Das ist Wahnsinn, Bücher gehören ins Regal",
+            "zh": "😤  这简直是疯了，书应该放在书架上",
+            "ja": "😤  これは狂気の沙汰だ、本は本棚に置くものだろう"
+        },
+        "next": [
+            "bib_msg_criticar"
+        ],
+        "reward": ""
+    },
+    "bib_msg_criticar": {
+        "type": "message",
+        "text": {
+            "es": "El anciano se detiene en la escalera y te mira con una lástima serena. 'Las estanterías, amigo, guardan los libros para que nadie los lea. Yo los cuelgo para que el viento los abra al azar y alguien, de paso, tropiece con la página que necesitaba sin saberlo.' Vuelve a su tarea, dejándote con la incómoda sensación de haber defendido lo aburrido frente a lo hermoso.",
+            "en": "The old man pauses on his ladder and looks at you with a serene pity. 'Shelves, friend, keep books so that no one reads them. I hang them so the wind opens them at random and someone, passing by, stumbles upon the page they needed without knowing it.' He returns to his task, leaving you with the uncomfortable sense of having defended the dull against the beautiful.",
+            "fr": "Le vieil homme s'arrête sur son échelle et te regarde avec une pitié sereine. « Les étagères, mon ami, gardent les livres pour que personne ne les lise. Moi, je les accroche pour que le vent les ouvre au hasard et que quelqu'un, en passant, tombe sur la page dont il avait besoin sans le savoir. » Il reprend sa tâche, te laissant avec la sensation gênante d'avoir défendu l'ennui face à la beauté.",
+            "it": "L'anziano si ferma sulla scala e ti guarda con una pietà serena. 'Gli scaffali, amico, custodiscono i libri affinché nessuno li legga. Io li appendo perché il vento li apra a caso e qualcuno, di passaggio, si imbatta nella pagina di cui aveva bisogno senza saperlo.' Torna al suo compito, lasciandoti con la scomoda sensazione di aver difeso la noia contro la bellezza.",
+            "de": "Der alte Mann hält auf seiner Leiter inne und blickt dich mit gelassenem Mitleid an. „Regale, Freund, bewahren Bücher auf, damit sie niemand liest. Ich hänge sie auf, damit der Wind sie zufällig öffnet und jemand, der vorbeikommt, auf die Seite stößt, die er brauchte, ohne es zu wissen.“ Er kehrt zu seiner Aufgabe zurück und lässt dich mit dem unbehaglichen Gefühl zurück, das Langweilige gegen das Schöne verteidigt zu haben.",
+            "zh": "老人在梯子上停下，用一种平静的怜悯注视着你。「书架啊，朋友，是把书保存起来，好让没有人读它们。而我把书挂起来，是为了让风随意打开它们，让路过的某个人偶然翻到他不知不觉需要的那一页。」他重新回去做他的事，留给你一种不安的感觉：你刚刚为无趣辩护，反对了美好。",
+            "ja": "老人ははしごの上で立ち止まり、穏やかな憐れみでお前を見つめる。「本棚はな、友よ、誰にも読ませないために本を保管するものだ。私は本を吊るす、風が偶然開いて、通りすがりの誰かが知らずのうちに必要としていたページに出会えるようにな」彼は仕事に戻り、退屈さを美しさに対して擁護してしまったという居心地の悪い感覚をお前に残す。"
+        },
+        "next": [
+            "bib_root"
+        ],
+        "reward": ""
+    },
+    "bib_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Dejar la biblioteca meciéndose al viento",
+            "en": "🚶  Leave the library swaying in the wind",
+            "fr": "🚶  Laisser la bibliothèque se balancer au vent",
+            "it": "🚶  Lasciare la biblioteca oscillare al vento",
+            "de": "🚶  Die Bibliothek im Wind schaukeln lassen",
+            "zh": "🚶  让图书馆继续在风中摇曳",
+            "ja": "🚶  風に揺れる図書館を後にする"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

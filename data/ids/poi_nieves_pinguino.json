@@ -1,0 +1,26 @@
+{
+    "id": "poi_nieves_pinguino",
+    "type": "poi",
+    "icon": "🐧",
+    "name": {
+        "es": "El Pingüino Extraviado",
+        "en": "The Misplaced Penguin",
+        "fr": "Le Pingouin Égaré",
+        "it": "Il Pinguino Smarrito",
+        "de": "Der Verirrte Pinguin",
+        "zh": "迷路的企鹅",
+        "ja": "迷子のペンギン"
+    },
+    "desc": {
+        "es": "Un pingüino solitario, a mil kilómetros de cualquier mar, que contempla el horizonte con inquietante gravedad filosófica. (PNJ singular).",
+        "en": "A lone penguin, a thousand miles from any sea, contemplating the horizon with unsettling philosophical gravity. (Singular NPC).",
+        "fr": "Un pingouin solitaire, à mille kilomètres de toute mer, contemplant l'horizon avec une gravité philosophique troublante. (PNJ singulier).",
+        "it": "Un pinguino solitario, a mille chilometri da qualsiasi mare, che contempla l'orizzonte con un'inquietante gravità filosofica. (PNG singolare).",
+        "de": "Ein einsamer Pinguin, tausend Kilometer von jedem Meer entfernt, betrachtet den Horizont mit beunruhigendem philosophischem Ernst. (Einzigartiger NPC).",
+        "zh": "一只远离任何海洋千里之遥的孤独企鹅，正以一种令人不安的哲学般的凝重神情凝望地平线。（唯一NPC）。",
+        "ja": "どの海からも千キロメートル離れた場所で、不穏なほど哲学的な真剣さで地平線を見つめる孤独なペンギン。（唯一のNPC）。"
+    },
+    "npc": "poi_nieves_pinguino",
+    "bg": "bg_world_poi_nieve_pinguino.png",
+    "music": "poi_comic"
+}

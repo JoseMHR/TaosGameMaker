@@ -1,0 +1,26 @@
+{
+    "id": "poi_conspiracion_patos",
+    "type": "poi",
+    "icon": "🦆",
+    "name": {
+        "es": "El Manifiesto de las Plumas",
+        "en": "The Feather Manifesto",
+        "fr": "Le Manifeste des Plumes",
+        "it": "Il Manifesto delle Piume",
+        "de": "Das Federmanifest",
+        "zh": "羽毛宣言",
+        "ja": "羽の宣言書"
+    },
+    "desc": {
+        "es": "Un cartel clavado a un árbol de Sylphrena que advierte sobre una amenaza alada. (POI de inspección).",
+        "en": "A notice nailed to a Sylphrena tree warning of a winged threat. (Inspection POI).",
+        "fr": "Une affiche clouée à un arbre de Sylphrena avertissant d'une menace ailée. (POI d'inspection).",
+        "it": "Un cartello inchiodato a un albero di Sylphrena che avverte di una minaccia alata. (POI di ispezione).",
+        "de": "Ein an einen Baum von Sylphrena genagelter Zettel, der vor einer geflügelten Bedrohung warnt. (Inspektions-POI).",
+        "zh": "一张钉在希尔芙蕾娜树上的告示，警告着一种带翼的威胁。（探查类兴趣点）。",
+        "ja": "シルフレナの木に打ち付けられた張り紙。翼を持つ脅威について警告している。（調査ポイント）。"
+    },
+    "npc": "poi_conspiracion_patos",
+    "bg": "bg_world_poi_pradera_patos.png",
+    "music": "poi_comic"
+}

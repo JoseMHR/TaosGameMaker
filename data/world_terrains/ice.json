@@ -1,0 +1,15 @@
+{
+	"code": "ice",
+	"order": 4,
+	"label": "Nieve",
+	"color": "#dbe8f0",
+	"icon": "❄️",
+	"biome_color": "#d7e6ef",
+	"description": "Hielo cortante; el frío cala hasta los huesos.",
+	"walkable": true,
+	"speed_mult": 0.4,
+	"slippery": false,
+	"texture": "snow",
+	"tint": "#f2f7ff",
+	"hazard": "cold"
+}

@@ -1,0 +1,10 @@
+{
+	"code": "forestBad",
+	"order": 1,
+	"label": "Árboles Marchitos",
+	"icon": "🪵",
+	"biome_color": "#2a3540",
+	"description": "Árboles resecos; dan poca madera (2 piezas), pero algo es algo.",
+	"capacity": 2,
+	"placeable": false
+}

@@ -1,0 +1,150 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Pingüino Extraviado",
+            "en": "The Misplaced Penguin",
+            "fr": "Le Pingouin Égaré",
+            "it": "Il Pinguino Smarrito",
+            "de": "Der Verirrte Pinguin",
+            "zh": "迷路的企鹅",
+            "ja": "迷子のペンギン"
+        },
+        "next": [],
+        "reward": "avatar=🐧;bg=0.08,0.10,0.13"
+    },
+    "ping_root": {
+        "type": "message",
+        "text": {
+            "es": "Sobre un promontorio de hielo, de espaldas a ti, un único pingüino contempla el horizonte de montañas con la postura solemne de un almirante que ha perdido su flota. No hay mar en cientos de kilómetros. No hay más pingüinos. No hay explicación posible. Cuando te acercas, gira la cabeza noventa grados con una lentitud teatral y te dedica una mirada que parece contener toda la sabiduría y toda la decepción del universo.",
+            "en": "On an outcrop of ice, its back to you, a single penguin surveys the mountain horizon with the solemn bearing of an admiral who has lost his fleet. There is no sea for hundreds of miles. There are no other penguins. There is no possible explanation. As you approach, it rotates its head ninety degrees with theatrical slowness and gives you a look that seems to contain all the wisdom and all the disappointment of the universe.",
+            "fr": "Sur un promontoire de glace, te tournant le dos, un unique pingouin contemple l'horizon montagneux avec l'attitude solennelle d'un amiral qui a perdu sa flotte. Il n'y a pas de mer sur des centaines de kilomètres. Il n'y a pas d'autres pingouins. Il n'y a aucune explication possible. Quand tu t'approches, il tourne la tête de quatre-vingt-dix degrés avec une lenteur théâtrale et te lance un regard qui semble contenir toute la sagesse et toute la déception de l'univers.",
+            "it": "Su un promontorio di ghiaccio, dandoti le spalle, un unico pinguino contempla l'orizzonte montuoso con la posa solenne di un ammiraglio che ha perso la sua flotta. Non c'è mare per centinaia di chilometri. Non ci sono altri pinguini. Non c'è alcuna spiegazione possibile. Quando ti avvicini, gira la testa di novanta gradi con lentezza teatrale e ti rivolge uno sguardo che sembra contenere tutta la saggezza e tutta la delusione dell'universo.",
+            "de": "Auf einem Eisvorsprung, dir den Rücken zugewandt, betrachtet ein einzelner Pinguin den Bergehorizont mit der feierlichen Haltung eines Admirals, der seine Flotte verloren hat. Es gibt kein Meer in hunderten Kilometern Umkreis. Es gibt keine anderen Pinguine. Es gibt keine mögliche Erklärung. Als du dich näherst, dreht er den Kopf mit theatralischer Langsamkeit um neunzig Grad und richtet einen Blick auf dich, der die ganze Weisheit und die ganze Enttäuschung des Universums zu enthalten scheint.",
+            "zh": "在一块冰崖上，一只孤零零的企鹅背对着你，用一位失去了舰队的海军上将般庄严的姿态凝望着群山的地平线。方圆数百公里内没有海洋。没有其他企鹅。没有任何可能的解释。当你走近时，它以一种戏剧性的缓慢转过九十度，向你投来一瞥，仿佛蕴含着宇宙间所有的智慧与所有的失望。",
+            "ja": "氷の岬の上で、お前に背を向け、一羽だけのペンギンが艦隊を失った提督のような厳かな佇まいで山の地平線を見つめている。何百キロメートルにもわたって海はない。他のペンギンもいない。あり得るはずの説明もない。近づくと、演劇的なほどゆっくりと九十度首を回し、宇宙のすべての知恵とすべての失望を宿しているかのような視線をお前に向ける。"
+        },
+        "next": [
+            "ping_opt_preguntar",
+            "ping_opt_seguir",
+            "ping_opt_pez",
+            "ping_opt_salir"
+        ],
+        "reward": ""
+    },
+    "ping_opt_preguntar": {
+        "type": "option",
+        "text": {
+            "es": "❓  ¿Qué hace un pingüino tan lejos del mar?",
+            "en": "❓  What's a penguin doing this far from the sea?",
+            "fr": "❓  Que fait un pingouin si loin de la mer ?",
+            "it": "❓  Cosa ci fa un pinguino così lontano dal mare?",
+            "de": "❓  Was macht ein Pinguin so weit weg vom Meer?",
+            "zh": "❓  一只企鹅在离海这么远的地方做什么？",
+            "ja": "❓  ペンギンが海からこんなに離れた場所で何をしているんだ？"
+        },
+        "next": [
+            "ping_msg_preguntar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "ping_msg_preguntar": {
+        "type": "message",
+        "text": {
+            "es": "El pingüino no responde, obviamente. Pero vuelve la vista al horizonte con tal peso existencial que, sin querer, empiezas a filosofar por él: quizá todos estamos lejos del mar que nos corresponde; quizá lo raro no es el pingüino en la montaña, sino tú preguntándole cosas a un pingüino. La criatura asiente una sola vez, muy despacio, como aprobando tu conclusión. Te vas ligeramente más sabio y considerablemente más confundido.",
+            "en": "The penguin doesn't answer, obviously. But it returns its gaze to the horizon with such existential weight that, despite yourself, you begin to philosophize on its behalf: perhaps we're all far from the sea we belong to; perhaps the strange thing isn't the penguin on the mountain, but you asking a penguin questions. The creature nods once, very slowly, as if approving your conclusion. You leave slightly wiser and considerably more confused.",
+            "fr": "Le pingouin ne répond pas, évidemment. Mais il reporte son regard vers l'horizon avec un tel poids existentiel que, malgré toi, tu commences à philosopher à sa place : peut-être que nous sommes tous loin de la mer qui nous revient ; peut-être que ce qui est étrange, ce n'est pas le pingouin sur la montagne, mais toi posant des questions à un pingouin. La créature hoche la tête une seule fois, très lentement, comme approuvant ta conclusion. Tu repars légèrement plus sage et considérablement plus confus.",
+            "it": "Il pinguino non risponde, ovviamente. Ma volge di nuovo lo sguardo all'orizzonte con un tale peso esistenziale che, tuo malgrado, inizi a filosofeggiare per lui: forse siamo tutti lontani dal mare che ci compete; forse la cosa strana non è il pinguino sulla montagna, ma tu che fai domande a un pinguino. La creatura annuisce una sola volta, molto lentamente, come approvando la tua conclusione. Te ne vai leggermente più saggio e considerevolmente più confuso.",
+            "de": "Der Pinguin antwortet natürlich nicht. Doch er richtet seinen Blick mit solch existenzieller Schwere wieder auf den Horizont, dass du, wider Willen, beginnst, für ihn zu philosophieren: Vielleicht sind wir alle weit von dem Meer entfernt, das uns zusteht; vielleicht ist nicht der Pinguin auf dem Berg das Seltsame, sondern du, der einem Pinguin Fragen stellt. Die Kreatur nickt einmal, sehr langsam, als würde sie deine Schlussfolgerung billigen. Du gehst etwas weiser und erheblich verwirrter davon.",
+            "zh": "企鹅当然没有回答。但它重新望向地平线，带着如此沉重的存在主义意味，以至于你不由自主地开始为它进行哲思：也许我们都远离了本该属于我们的海洋；也许真正奇怪的不是山上的企鹅，而是你在向一只企鹅提问。这只生物缓缓地点了一次头，仿佛在赞同你的结论。你离开时，觉得自己略微更有智慧，同时也更加困惑。",
+            "ja": "ペンギンは当然答えない。だが実存的な重みを込めて再び地平線に視線を戻すので、お前は思わずそれに代わって哲学しはじめる——もしかすると我々は皆、自分が属するべき海から遠く離れているのかもしれない。もしかすると奇妙なのは山にいるペンギンではなく、ペンギンに質問しているお前自身なのかもしれない。この生き物は非常にゆっくりと一度だけ頷く、まるでお前の結論に同意するかのように。少しだけ賢くなり、かなり混乱した状態でその場を去る。"
+        },
+        "next": [
+            "ping_opt_salir"
+        ],
+        "reward": "faceta:inteligencia=+1;gflag:ping_filosofia",
+        "condition": "no_gflag(\"ping_filosofia\")",
+        "once": true
+    },
+    "ping_opt_seguir": {
+        "type": "option",
+        "text": {
+            "es": "👀  Imitar su postura y contemplar el horizonte con él",
+            "en": "👀  Mimic its posture and contemplate the horizon with it",
+            "fr": "👀  Imiter sa posture et contempler l'horizon avec lui",
+            "it": "👀  Imitare la sua postura e contemplare l'orizzonte con lui",
+            "de": "👀  Seine Haltung nachahmen und den Horizont mit ihm betrachten",
+            "zh": "👀  模仿它的姿势，与它一同凝望地平线",
+            "ja": "👀  その姿勢を真似て、共に地平線を見つめる"
+        },
+        "next": [
+            "ping_msg_seguir"
+        ],
+        "reward": ""
+    },
+    "ping_msg_seguir": {
+        "type": "message",
+        "text": {
+            "es": "Te colocas a su lado, sacas pecho, juntas los brazos como aletas y miras el mismo punto vacío del horizonte. Pasan los minutos. No ocurre absolutamente nada, y sin embargo es extrañamente reconfortante. El pingüino te dirige una mirada de reojo que, jurarías, expresa aprobación entre colegas. Habéis compartido un momento. Ni él ni tú sabéis de qué.",
+            "en": "You take your place beside it, puff out your chest, tuck your arms in like flippers and stare at the same empty point on the horizon. Minutes pass. Absolutely nothing happens, and yet it is strangely comforting. The penguin gives you a sidelong glance that, you'd swear, expresses collegial approval. You have shared a moment. Neither of you knows of what.",
+            "fr": "Tu te places à côté de lui, bombes le torse, joins les bras comme des nageoires et regardes le même point vide de l'horizon. Les minutes passent. Il ne se passe absolument rien, et pourtant c'est étrangement réconfortant. Le pingouin te lance un regard en coin qui, tu le jurerais, exprime une approbation entre collègues. Vous avez partagé un moment. Ni lui ni toi ne savez de quoi.",
+            "it": "Ti metti al suo fianco, gonfi il petto, unisci le braccia come pinne e guardi lo stesso punto vuoto dell'orizzonte. Passano i minuti. Non succede assolutamente nulla, eppure è stranamente rassicurante. Il pinguino ti lancia uno sguardo di sottecchi che, giureresti, esprime approvazione tra colleghi. Avete condiviso un momento. Né lui né tu sapete di cosa.",
+            "de": "Du stellst dich neben ihn, wölbst die Brust, legst die Arme wie Flossen zusammen und blickst auf denselben leeren Punkt am Horizont. Minuten vergehen. Es geschieht absolut nichts, und doch ist es seltsam beruhigend. Der Pinguin wirft dir einen Seitenblick zu, der, das würdest du beschwören, kollegiale Anerkennung ausdrückt. Ihr habt einen Moment geteilt. Weder er noch du wisst, worum es ging.",
+            "zh": "你站到它身旁，挺起胸膛，把双臂像鳍一样并拢，凝视着地平线上同一个空无的点。几分钟过去了。什么都没有发生，但这种感觉却出奇地令人安心。企鹅斜眼瞥了你一眼，你敢发誓，那眼神中透着同僚间的认可。你们分享了一个时刻。无论是它还是你，都不知道那到底是什么。",
+            "ja": "隣に並び、胸を張り、腕をひれのように合わせ、地平線の同じ空虚な一点を見つめる。数分が過ぎる。何一つ起こらないが、それでも不思議と心地よい。ペンギンが横目でお前を見る。それは同僚同士の承認を表しているように誓ってもいい。お前たちは何かを分かち合った。それが何なのかは、お前もペンギンも知らない。"
+        },
+        "next": [
+            "ping_root"
+        ],
+        "reward": ""
+    },
+    "ping_opt_pez": {
+        "type": "option",
+        "text": {
+            "es": "🐟  Ofrecerle un pescado de tu morral",
+            "en": "🐟  Offer it a fish from your pack",
+            "fr": "🐟  Lui offrir un poisson de ton sac",
+            "it": "🐟  Offrirgli un pesce dalla tua bisaccia",
+            "de": "🐟  Ihm einen Fisch aus deinem Rucksack anbieten",
+            "zh": "🐟  从你的背包里拿出一条鱼给它",
+            "ja": "🐟  袋から魚を取り出して差し出す"
+        },
+        "next": [
+            "ping_msg_pez"
+        ],
+        "reward": ""
+    },
+    "ping_msg_pez": {
+        "type": "message",
+        "text": {
+            "es": "Le tiendes un pescado. El pingüino lo mira, te mira, mira el pescado otra vez. Y con una dignidad aplastante, lo rechaza girando la cabeza hacia otro lado. Al parecer, este pingüino no ha ascendido a esta montaña a por comida, sino a por respuestas. Guardas el pescado, sintiéndote curiosamente juzgado por un ave que pesa cuatro kilos.",
+            "en": "You hold out a fish. The penguin looks at it, looks at you, looks at the fish again. And with crushing dignity, it declines by turning its head away. Apparently this penguin did not climb this mountain for food, but for answers. You put the fish away, feeling curiously judged by a bird that weighs nine pounds.",
+            "fr": "Tu lui tends un poisson. Le pingouin le regarde, te regarde, regarde le poisson encore une fois. Et avec une dignité écrasante, il le refuse en tournant la tête de côté. Apparemment, ce pingouin n'a pas gravi cette montagne pour de la nourriture, mais pour des réponses. Tu ranges le poisson, te sentant étrangement jugé par un oiseau de quatre kilos.",
+            "it": "Gli porgi un pesce. Il pinguino lo guarda, ti guarda, guarda di nuovo il pesce. E con dignità schiacciante, lo rifiuta girando la testa dall'altra parte. A quanto pare, questo pinguino non è salito su questa montagna per il cibo, ma per delle risposte. Riponi il pesce, sentendoti curiosamente giudicato da un uccello che pesa quattro chili.",
+            "de": "Du hältst ihm einen Fisch hin. Der Pinguin schaut ihn an, schaut dich an, schaut wieder den Fisch an. Und mit erdrückender Würde lehnt er ab, indem er den Kopf zur Seite dreht. Anscheinend ist dieser Pinguin nicht auf diesen Berg gestiegen, um Nahrung zu bekommen, sondern um Antworten zu finden. Du steckst den Fisch weg und fühlst dich seltsam von einem vier Kilo schweren Vogel beurteilt.",
+            "zh": "你递给它一条鱼。企鹅看看鱼，看看你，又看看鱼。然后以一种压倒性的尊严，转过头拒绝了它。看来，这只企鹅爬上这座山不是为了食物，而是为了寻求答案。你收起鱼，莫名地感觉自己被一只体重只有四公斤的鸟评判了。",
+            "ja": "魚を差し出す。ペンギンはそれを見て、お前を見て、また魚を見る。そして圧倒的な威厳を持って、頭をそむけて拒否する。どうやらこのペンギンは食料のためではなく、答えを求めてこの山に登ったらしい。体重四キロの鳥に不思議と裁かれているような気分になりながら、魚をしまう。"
+        },
+        "next": [
+            "ping_root"
+        ],
+        "reward": ""
+    },
+    "ping_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Dejarle con sus preguntas sin mar",
+            "en": "🚶  Leave it to its questions without a sea",
+            "fr": "🚶  Le laisser à ses questions sans mer",
+            "it": "🚶  Lasciarlo con le sue domande senza mare",
+            "de": "🚶  Ihn mit seinen Fragen ohne Meer zurücklassen",
+            "zh": "🚶  留下它，独自面对那些没有海洋的问题",
+            "ja": "🚶  海のない問いを抱えたまま彼を残して去る"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "name": {
+        "es": "Corona de la Singularidad",
+        "en": "Singularity Crown",
+        "fr": "Couronne de la Singularité",
+        "it": "Corona della Singolarità",
+        "de": "Singularitätskrone",
+        "zh": "奇点王冠",
+        "ja": "シンギュラリティクラウン"
+    },
+    "desc": {
+        "es": "Diadema arcana alimentada por una singularidad cuántica en miniatura.",
+        "en": "Arcane crown powered by a miniature quantum singularity.",
+        "fr": "Diadème arcanique alimenté par une singularité quantique miniature.",
+        "it": "Diadema arcano alimentato da una singolarità quantistica in miniatura.",
+        "de": "Arkanes Diadem, angetrieben von einer winzigen Quantensingularität.",
+        "zh": "由微型量子奇点驱动的秘法头冠。",
+        "ja": "小型の量子特異点で駆動する秘術の宝冠。"
+    },
+    "icon": "👑",
+    "category": "equipment",
+    "usable": false,
+    "slot": "accessory",
+    "tier": 6,
+    "bonuses": {
+        "str": 10,
+        "agi": 10,
+        "vit": 10,
+        "int": 10,
+        "dex": 10,
+        "luk": 10
+    },
+    "combat": {
+        "phys_damage": 40,
+        "mag_damage": 40,
+        "phys_defense": 40,
+        "mag_defense": 40
+    },
+    "traits": [
+        {
+            "type": "turn_regen_pct",
+            "value": 0.05,
+            "min_refine": 7,
+            "desc": "Regenera 5% HP y 5% MP al final de cada turno"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "name": {
+        "es": "Verdugo de la Égida",
+        "en": "Aegis Slayer",
+        "fr": "Pourfendeur d'Égide",
+        "it": "Ammazza-Egida",
+        "de": "Ägis-Schlächter",
+        "zh": "神盾杀手",
+        "ja": "イージススレイヤー"
+    },
+    "desc": {
+        "es": "Una espada legendaria capaz de partir en dos el escudo de cualquier guardián.",
+        "en": "A legendary sword said to cleave through any guardian's shield.",
+        "fr": "Épée légendaire capable de fendre en deux le bouclier de n'importe quel gardien.",
+        "it": "Una spada leggendaria capace di spezzare in due lo scudo di qualsiasi guardiano.",
+        "de": "Ein legendäres Schwert, das den Schild jedes Wächters zu spalten vermag.",
+        "zh": "一把传说之剑，据说能将任何守护者的盾牌一分为二。",
+        "ja": "あらゆる守護者の盾を両断すると言われる伝説の剣。"
+    },
+    "icon": "⚔️",
+    "category": "equipment",
+    "usable": false,
+    "slot": "weapon",
+    "tier": 6,
+    "bonuses": {
+        "str": 15
+    },
+    "combat": {
+        "phys_damage": 195
+    }
+}

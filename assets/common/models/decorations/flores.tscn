@@ -1,0 +1,82 @@
+[gd_scene format=3]
+
+[sub_resource type="StandardMaterial3D" id="Mat_Stem"]
+albedo_color = Color(0.28, 0.68, 0.25, 1)
+roughness = 0.85
+
+[sub_resource type="StandardMaterial3D" id="Mat_PetalRed"]
+albedo_color = Color(0.95, 0.22, 0.28, 1)
+roughness = 0.6
+
+[sub_resource type="StandardMaterial3D" id="Mat_PetalYellow"]
+albedo_color = Color(1.0, 0.85, 0.2, 1)
+roughness = 0.6
+
+[sub_resource type="StandardMaterial3D" id="Mat_PetalBlue"]
+albedo_color = Color(0.3, 0.55, 0.95, 1)
+roughness = 0.6
+
+[sub_resource type="StandardMaterial3D" id="Mat_Center"]
+albedo_color = Color(0.98, 0.95, 0.4, 1)
+roughness = 0.5
+
+[sub_resource type="CylinderMesh" id="Mesh_Stem"]
+top_radius = 0.015
+bottom_radius = 0.015
+height = 0.25
+radial_segments = 5
+
+[sub_resource type="SphereMesh" id="Mesh_Petal"]
+radius = 0.045
+height = 0.045
+
+[sub_resource type="SphereMesh" id="Mesh_Center"]
+radius = 0.025
+height = 0.025
+
+[node name="Flores" type="Node3D"]
+
+[node name="Stem1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.08, 0.12, -0.04)
+material_override = SubResource("Mat_Stem")
+mesh = SubResource("Mesh_Stem")
+
+[node name="Bloom1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.08, 0.24, -0.04)
+material_override = SubResource("Mat_PetalRed")
+mesh = SubResource("Mesh_Petal")
+
+[node name="Center1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.08, 0.25, -0.04)
+material_override = SubResource("Mat_Center")
+mesh = SubResource("Mesh_Center")
+
+[node name="Stem2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.07, 0.14, 0.05)
+material_override = SubResource("Mat_Stem")
+mesh = SubResource("Mesh_Stem")
+
+[node name="Bloom2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.07, 0.28, 0.05)
+material_override = SubResource("Mat_PetalYellow")
+mesh = SubResource("Mesh_Petal")
+
+[node name="Center2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.07, 0.29, 0.05)
+material_override = SubResource("Mat_Center")
+mesh = SubResource("Mesh_Center")
+
+[node name="Stem3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0, 0.10, -0.08)
+material_override = SubResource("Mat_Stem")
+mesh = SubResource("Mesh_Stem")
+
+[node name="Bloom3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0, 0.20, -0.08)
+material_override = SubResource("Mat_PetalBlue")
+mesh = SubResource("Mesh_Petal")
+
+[node name="Center3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0, 0.21, -0.08)
+material_override = SubResource("Mat_Center")
+mesh = SubResource("Mesh_Center")

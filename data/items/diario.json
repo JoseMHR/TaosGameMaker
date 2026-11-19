@@ -1,0 +1,23 @@
+{
+    "name": {
+        "es": "Diario Personal",
+        "en": "Personal Diary",
+        "fr": "Journal Intime",
+        "it": "Diario Personale",
+        "de": "Persönliches Tagebuch",
+        "zh": "私人日记",
+        "ja": "個人的な日記"
+    },
+    "desc": {
+        "es": "El diario perdido del Noble de la ciudad.",
+        "en": "The Noble's lost personal diary.",
+        "fr": "Le journal intime perdu du Noble de la ville.",
+        "it": "Il diario personale perduto del Nobile della città.",
+        "de": "Das verlorene persönliche Tagebuch des Adligen der Stadt.",
+        "zh": "城中贵族遗失的私人日记。",
+        "ja": "町の貴族が失くした個人的な日記。"
+    },
+    "icon": "📖",
+    "category": "important",
+    "usable": false
+}

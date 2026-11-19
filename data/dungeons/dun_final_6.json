@@ -1,0 +1,2026 @@
+{
+    "wall_height": 4,
+    "music": "dungeon_sacred",
+    "id": "dun_final_6",
+    "boss_key": "dun_final:guardian_supremo",
+    "fog": true,
+    "boss": "guardian_supremo",
+    "floors": [
+        {
+            "w": 21,
+            "name": "El Santuario Supremo",
+            "cells": [
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "torch"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "npc",
+                        "name": {
+                            "es": "La Esfera de la Verdad",
+                            "en": "The Sphere of Truth",
+                            "fr": "La Sphère de la Vérité",
+                            "it": "La Sfera della Verità",
+                            "de": "Die Sphäre der Wahrheit",
+                            "zh": "真理之球",
+                            "ja": "真実の球"
+                        },
+                        "ref": "esfera_verdad"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "torch"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "no_patrol": true,
+                        "t": "monster",
+                        "level": 50,
+                        "ref": "guardian_supremo",
+                        "boss": true
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "torch"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "torch"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "torch"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "torch"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "torch"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "torch"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "torch"
+                    },
+                    {
+                        "tex": "tex_temple_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "torch"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ]
+            ]
+        }
+    ],
+    "void_type": "abyss",
+    "spawn": {
+        "y": 27,
+        "f": 0,
+        "x": 10
+    },
+    "name": {
+        "es": "Templo del Origen 6"
+    }
+}

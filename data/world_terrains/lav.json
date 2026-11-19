@@ -1,0 +1,22 @@
+{
+	"code": "lav",
+	"order": 8,
+	"label": "Lava",
+	"color": "#8a2410",
+	"icon": "🌋",
+	"biome_color": "#8a2410",
+	"description": "Roca fundida abrasadora; quema al pisarla.",
+	"walkable": true,
+	"damage": 6,
+	"damage_interval": 0.6,
+	"speed_mult": 0.55,
+	"texture": "lava",
+	"tint": "#ffffff",
+	"roughness": 0.25,
+	"emission": "#ff5500",
+	"emission_energy": 1.8,
+	"emission_pulse": 0.5,
+	"uv_scroll": [0.025, -0.018],
+	"wave": 0.02,
+	"blendable": false
+}

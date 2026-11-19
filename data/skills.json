@@ -1,0 +1,3543 @@
+{
+	"war_slash": {
+		"id": "war_slash",
+		"name": {
+			"es": "Tajo",
+			"en": "Slash",
+			"fr": "Taille",
+			"it": "Fendente",
+			"de": "Hieb",
+			"zh": "斩击",
+			"ja": "斬撃"
+		},
+		"desc": {
+			"es": "Ataque físico básico con espada.",
+			"en": "Basic physical sword attack.",
+			"fr": "Attaque physique de base à l'épée.",
+			"it": "Attacco fisico base con la spada.",
+			"de": "Grundlegender physischer Schwertangriff.",
+			"zh": "基本剑术物理攻击。",
+			"ja": "基本の剣による物理攻撃。"
+		},
+		"icon": "⚔️",
+		"type": "physical",
+		"element": "physical",
+		"power": 45,
+		"cost": 0,
+		"pa_cost": 1,
+		"tag": "warrior_slice",
+		"resonance_gain": 8
+	},
+	"war_heavy_slash": {
+		"id": "war_heavy_slash",
+		"name": {
+			"es": "Tajo Pesado",
+			"en": "Heavy Slash",
+			"fr": "Taille Lourde",
+			"it": "Fendente Pesante",
+			"de": "Schwerer Hieb",
+			"zh": "重斩",
+			"ja": "重い斬撃"
+		},
+		"desc": {
+			"es": "Golpe lento pero potente.",
+			"en": "Slow but powerful strike.",
+			"fr": "Coup lent mais puissant.",
+			"it": "Colpo lento ma potente.",
+			"de": "Langsamer, aber kraftvoller Schlag.",
+			"zh": "缓慢但强大的一击。",
+			"ja": "遅いが強力な一撃。"
+		},
+		"icon": "🗡️",
+		"type": "physical",
+		"element": "physical",
+		"power": 65,
+		"cost": 4,
+		"pa_cost": 1,
+		"tag": "warrior_heavy",
+		"resonance_gain": 8
+	},
+	"war_guard_stance": {
+		"id": "war_guard_stance",
+		"name": {
+			"es": "Postura de Guardia",
+			"en": "Guard Stance",
+			"fr": "Posture de Garde",
+			"it": "Posizione di Guardia",
+			"de": "Wachhaltung",
+			"zh": "护卫姿态",
+			"ja": "ガードの構え"
+		},
+		"desc": {
+			"es": "Mitiga un 35% el daño físico recibido (3 turnos).",
+			"en": "Mitigates 35% of physical damage taken (3 turns).",
+			"fr": "Réduit de 35% les dégâts physiques subis (3 tours).",
+			"it": "Riduce del 35% i danni fisici subiti (3 turni).",
+			"de": "Reduziert erhaltenen physischen Schaden um 35% (3 Runden).",
+			"zh": "减少所受的物理伤害 35%（3 回合）。",
+			"ja": "受ける物理ダメージを 35% 軽減（3ターン）。"
+		},
+		"icon": "🛡️",
+		"type": "buff",
+		"element": "none",
+		"power": 0,
+		"cost": 6,
+		"pa_cost": 1,
+		"tag": "warrior_guard",
+		"resonance_gain": 8,
+		"status": {
+			"type": "barrera",
+			"turns": 3,
+			"target": "self"
+		}
+	},
+	"war_shield_bash": {
+		"id": "war_shield_bash",
+		"name": {
+			"es": "Golpe de Escudo",
+			"en": "Shield Bash",
+			"fr": "Coup de Bouclier",
+			"it": "Colpo di Scudo",
+			"de": "Schildschlag",
+			"zh": "盾击",
+			"ja": "シールドバッシュ"
+		},
+		"desc": {
+			"es": "Daño con 30% de aturdir 1 turno.",
+			"en": "Damage with 30% chance to stun for 1 turn.",
+			"fr": "Dégâts avec 30% de chance d'étourdir 1 tour.",
+			"it": "Danno con 30% di possibilità di stordire per 1 turno.",
+			"de": "Schaden mit 30% Chance, 1 Runde zu betäuben.",
+			"zh": "造成伤害并有 30% 几率眩晕敌人 1 回合。",
+			"ja": "ダメージを与え、30%の確率で1ターンスタンさせる。"
+		},
+		"icon": "🔨",
+		"type": "physical",
+		"element": "physical",
+		"power": 50,
+		"cost": 5,
+		"pa_cost": 1,
+		"tag": "warrior_bash",
+		"resonance_gain": 8,
+		"status": {
+			"type": "stun",
+			"chance": 0.3,
+			"turns": 1,
+			"target": "enemy"
+		}
+	},
+	"war_counter": {
+		"id": "war_counter",
+		"name": {
+			"es": "Contraataque",
+			"en": "Counter",
+			"fr": "Contre-attaque",
+			"it": "Contrattacco",
+			"de": "Konter",
+			"zh": "反击",
+			"ja": "カウンター"
+		},
+		"desc": {
+			"es": "Postura que devuelve ataques físicos (3 turnos).",
+			"en": "Stance that returns physical attacks (3 turns).",
+			"fr": "Posture qui renvoie les attaques physiques (3 tours).",
+			"it": "Postura che rimanda gli attacchi fisici (3 turni).",
+			"de": "Haltung, die physische Angriffe zurückwirft (3 Runden).",
+			"zh": "反弹物理攻击的姿态（3 回合）。",
+			"ja": "物理攻撃を跳ね返す構え（3ターン）。"
+		},
+		"icon": "↩️",
+		"type": "buff",
+		"element": "none",
+		"power": 0,
+		"cost": 6,
+		"pa_cost": 1,
+		"tag": "warrior_counter",
+		"resonance_gain": 8,
+		"status": {
+			"type": "counter_stance",
+			"turns": 3,
+			"target": "self"
+		}
+	},
+	"war_armor_break": {
+		"id": "war_armor_break",
+		"name": {
+			"es": "Rompe Armadura",
+			"en": "Armor Break",
+			"fr": "Brise-Armure",
+			"it": "Rompi Armatura",
+			"de": "Rüstungsbrecher",
+			"zh": "破甲",
+			"ja": "アーマーブレイク"
+		},
+		"desc": {
+			"es": "Daño y reduce la DEF física enemiga un 25% (3 turnos).",
+			"en": "Damage and reduces enemy physical DEF by 25% (3 turns).",
+			"fr": "Dégâts et réduit la DÉF physique ennemie de 25% (3 tours).",
+			"it": "Danno e riduce la DIF fisica nemica del 25% (3 turni).",
+			"de": "Schaden und senkt die physische VERT des Feindes um 25% (3 Runden).",
+			"zh": "造成伤害并降低敌人 25% 物理防御（3 回合）。",
+			"ja": "ダメージを与え、敵の物理防御を25%低下させる（3ターン）。"
+		},
+		"icon": "🪓",
+		"type": "physical",
+		"element": "physical",
+		"power": 55,
+		"cost": 10,
+		"pa_cost": 2,
+		"tag": "warrior_break",
+		"resonance_gain": 15,
+		"status": {
+			"type": "pdef_down",
+			"chance": 1,
+			"turns": 3,
+			"target": "enemy"
+		}
+	},
+	"war_barrier": {
+		"id": "war_barrier",
+		"name": {
+			"es": "Barrera",
+			"en": "Barrier",
+			"fr": "Barrière",
+			"it": "Barriera",
+			"de": "Barriere",
+			"zh": "屏障",
+			"ja": "バリア"
+		},
+		"desc": {
+			"es": "Reduce un 50% el daño físico recibido (3 turnos).",
+			"en": "Reduces physical damage taken by 50% (3 turns).",
+			"fr": "Réduit les dégâts physiques subis de 50% (3 tours).",
+			"it": "Riduce il danno fisico subito del 50% (3 turni).",
+			"de": "Reduziert erlittenen physischen Schaden um 50% (3 Runden).",
+			"zh": "减少 50% 受到的物理伤害（3 回合）。",
+			"ja": "受ける物理ダメージを50%軽減する（3ターン）。"
+		},
+		"icon": "🛡️",
+		"type": "buff",
+		"element": "none",
+		"power": 0,
+		"cost": 12,
+		"pa_cost": 2,
+		"tag": "warrior_barrier",
+		"resonance_gain": 15,
+		"status": {
+			"type": "barrera_ii",
+			"turns": 3,
+			"target": "self"
+		}
+	},
+	"war_shield": {
+		"id": "war_shield",
+		"name": {
+			"es": "Escudo",
+			"en": "Shield",
+			"fr": "Bouclier",
+			"it": "Scudo",
+			"de": "Schild",
+			"zh": "护盾",
+			"ja": "シールド"
+		},
+		"desc": {
+			"es": "Reduce un 35% el daño mágico recibido (3 turnos).",
+			"en": "Reduces magic damage taken by 35% (3 turns).",
+			"fr": "Réduit les dégâts magiques subis de 35% (3 tours).",
+			"it": "Riduce il danno magico subito del 35% (3 turni).",
+			"de": "Reduziert erlittenen Magieschaden um 35% (3 Runden).",
+			"zh": "减少 35% 受到的魔法伤害（3 回合）。",
+			"ja": "受ける魔法ダメージを35%軽減する（3ターン）。"
+		},
+		"icon": "🛡️",
+		"type": "buff",
+		"element": "none",
+		"power": 0,
+		"cost": 12,
+		"pa_cost": 2,
+		"tag": "warrior_shield",
+		"resonance_gain": 15,
+		"status": {
+			"type": "escudo",
+			"turns": 3,
+			"target": "self"
+		}
+	},
+	"war_wall": {
+		"id": "war_wall",
+		"name": {
+			"es": "Muro",
+			"en": "Wall",
+			"fr": "Mur",
+			"it": "Muro",
+			"de": "Mauer",
+			"zh": "高墙",
+			"ja": "ウォール"
+		},
+		"desc": {
+			"es": "Reduce todo el daño recibido un 25% (4 turnos).",
+			"en": "Reduces all damage taken by 25% (4 turns).",
+			"fr": "Réduit tous les dégâts subis de 25% (4 tours).",
+			"it": "Riduce tutto il danno subito del 25% (4 turni).",
+			"de": "Reduziert allen erlittenen Schaden um 25% (4 Runden).",
+			"zh": "减少 25% 所受的所有伤害（4 回合）。",
+			"ja": "受けるすべてのダメージを25%軽減する（4ターン）。"
+		},
+		"icon": "🧱",
+		"type": "buff",
+		"element": "none",
+		"power": 0,
+		"cost": 18,
+		"pa_cost": 3,
+		"tag": "warrior_wall",
+		"resonance_gain": 25,
+		"status": {
+			"type": "muro_ii",
+			"turns": 4,
+			"target": "self"
+		}
+	},
+	"war_berserk": {
+		"id": "war_berserk",
+		"name": {
+			"es": "Berserk",
+			"en": "Berserk",
+			"fr": "Berserk",
+			"it": "Berserk",
+			"de": "Berserker",
+			"zh": "狂暴",
+			"ja": "バーサーク"
+		},
+		"desc": {
+			"es": "+50% daño físico y -25% DEF física (4 turnos).",
+			"en": "+50% physical damage and -25% physical DEF (4 turns).",
+			"fr": "+50% de dégâts physiques et -25% de DÉF physique (4 tours).",
+			"it": "+50% danno fisico e -25% DIF fisica (4 turni).",
+			"de": "+50% physischer Schaden und -25% physische VERT (4 Runden).",
+			"zh": "物理伤害 +50%，物理防御 -25%（4 回合）。",
+			"ja": "物理ダメージ+50%、物理防御-25%（4ターン）。"
+		},
+		"icon": "😤",
+		"type": "buff",
+		"element": "none",
+		"power": 0,
+		"cost": 18,
+		"pa_cost": 2,
+		"tag": "warrior_berserk",
+		"resonance_gain": 15,
+		"status": {
+			"type": "berserk",
+			"turns": 4,
+			"target": "self"
+		}
+	},
+	"war_brave_heart": {
+		"id": "war_brave_heart",
+		"name": {
+			"es": "Corazón Valiente",
+			"en": "Brave Heart",
+			"fr": "Cœur Vaillant",
+			"it": "Cuore Coraggioso",
+			"de": "Mutiges Herz",
+			"zh": "勇敢之心",
+			"ja": "ブレイブハート"
+		},
+		"desc": {
+			"es": "Duplica la probabilidad de crítico (4 turnos).",
+			"en": "Doubles critical chance (4 turns).",
+			"fr": "Double la chance de coup critique (4 tours).",
+			"it": "Raddoppia la probabilità di critico (4 turni).",
+			"de": "Verdoppelt die kritische Trefferchance (4 Runden).",
+			"zh": "暴击率翻倍（4 回合）。",
+			"ja": "クリティカル率を2倍にする（4ターン）。"
+		},
+		"icon": "❤️‍🔥",
+		"type": "buff",
+		"element": "none",
+		"power": 0,
+		"cost": 20,
+		"pa_cost": 3,
+		"tag": "warrior_brave",
+		"resonance_gain": 25,
+		"status": {
+			"type": "crit_up",
+			"turns": 4,
+			"target": "self"
+		}
+	},
+	"war_heroic_charge": {
+		"id": "war_heroic_charge",
+		"name": {
+			"es": "Carga Heroica",
+			"en": "Heroic Charge",
+			"fr": "Charge Héroïque",
+			"it": "Carica Eroica",
+			"de": "Heldenhafter Angriff",
+			"zh": "英勇冲锋",
+			"ja": "ヒロイックチャージ"
+		},
+		"desc": {
+			"es": "Ignora el 50% de la DEF física enemiga.",
+			"en": "Ignores 50% of enemy physical DEF.",
+			"fr": "Ignore 50% de la DÉF physique ennemie.",
+			"it": "Ignora il 50% della DIF fisica nemica.",
+			"de": "Ignoriert 50% der physischen VERT des Feindes.",
+			"zh": "无视敌人 50% 的物理防御。",
+			"ja": "敵の物理防御を50%無視する。"
+		},
+		"icon": "🐎",
+		"type": "physical",
+		"element": "physical",
+		"power": 120,
+		"cost": 25,
+		"pa_cost": 3,
+		"tag": "warrior_charge",
+		"resonance_gain": 25,
+		"effect": "ignore_def_half"
+	},
+	"war_divine_execution": {
+		"id": "war_divine_execution",
+		"name": {
+			"es": "Ejecución Divina",
+			"en": "Divine Execution",
+			"fr": "Exécution Divine",
+			"it": "Esecuzione Divina",
+			"de": "Göttliche Hinrichtung",
+			"zh": "神圣处决",
+			"ja": "ディヴァインエクスキューション"
+		},
+		"desc": {
+			"es": "Ignora el 100% de la DEF física enemiga.",
+			"en": "Ignores 100% of enemy physical DEF.",
+			"fr": "Ignore 100% de la DÉF physique ennemie.",
+			"it": "Ignora il 100% della DIF fisica nemica.",
+			"de": "Ignoriert 100% der physischen VERT des Feindes.",
+			"zh": "无视敌人 100% 的物理防御。",
+			"ja": "敵の物理防御を100%無視する。"
+		},
+		"icon": "⚡",
+		"type": "physical",
+		"element": "physical",
+		"power": 150,
+		"cost": 40,
+		"pa_cost": 3,
+		"tag": "warrior_ultimate",
+		"resonance_gain": 25,
+		"effect": "ignore_def_full"
+	},
+	"war_cross_slash": {
+		"id": "war_cross_slash",
+		"name": {
+			"es": "Tajo Cruzado",
+			"en": "Cross Slash",
+			"fr": "Taillade en Croix",
+			"it": "Taglio Incrociato",
+			"de": "Kreuzhieb",
+			"zh": "十字斩",
+			"ja": "クロススラッシュ"
+		},
+		"desc": {
+			"es": "Sinergia: gran corte cruzado.",
+			"en": "Synergy: huge cross-shaped slash.",
+			"fr": "Synergie : immense taillade en croix.",
+			"it": "Sinergia: enorme taglio a croce.",
+			"de": "Synergie: gewaltiger kreuzförmiger Hieb.",
+			"zh": "协同技：巨大的十字形斩击。",
+			"ja": "シナジー：巨大な十字斬撃。"
+		},
+		"icon": "❌",
+		"type": "physical",
+		"element": "physical",
+		"power": 110,
+		"cost": 0,
+		"pa_cost": 2,
+		"tag": "warrior_synergy",
+		"resonance_gain": 35,
+		"is_synergy": true
+	},
+	"war_perfect_guard": {
+		"id": "war_perfect_guard",
+		"name": {
+			"es": "Guardia Perfecta",
+			"en": "Perfect Guard",
+			"fr": "Garde Parfaite",
+			"it": "Guardia Perfetta",
+			"de": "Perfekte Deckung",
+			"zh": "完美防御",
+			"ja": "パーフェクトガード"
+		},
+		"desc": {
+			"es": "Sinergia: gran mitigación y contraataque físico.",
+			"en": "Synergy: great mitigation and physical counter.",
+			"fr": "Synergie : grande mitigation et contre-attaque physique.",
+			"it": "Sinergia: grande mitigazione e contrattacco fisico.",
+			"de": "Synergie: starke Schadensminderung und physischer Konter.",
+			"zh": "协同技：大幅减伤并进行物理反击。",
+			"ja": "シナジー：大幅な軽減と物理反撃。"
+		},
+		"icon": "🛡️",
+		"type": "buff",
+		"element": "none",
+		"power": 0,
+		"cost": 0,
+		"pa_cost": 2,
+		"tag": "warrior_synergy",
+		"resonance_gain": 35,
+		"is_synergy": true,
+		"status": {
+			"type": "muro_ii",
+			"turns": 3,
+			"target": "self"
+		}
+	},
+	"war_shield_crusher": {
+		"id": "war_shield_crusher",
+		"name": {
+			"es": "Triturador de Escudos",
+			"en": "Shield Crusher",
+			"fr": "Broyeur de Bouclier",
+			"it": "Frantumascudi",
+			"de": "Schildbrecher",
+			"zh": "碎盾者",
+			"ja": "シールドクラッシャー"
+		},
+		"desc": {
+			"es": "Sinergia: daño + debuff y aturdimiento.",
+			"en": "Synergy: damage + debuff and stun.",
+			"fr": "Synergie : dégâts + affaiblissement et étourdissement.",
+			"it": "Sinergia: danno + debuff e stordimento.",
+			"de": "Synergie: Schaden + Schwächung und Betäubung.",
+			"zh": "协同技：伤害 + 虚弱效果并眩晕敌人。",
+			"ja": "シナジー：ダメージ+デバフとスタン。"
+		},
+		"icon": "🔨",
+		"type": "physical",
+		"element": "physical",
+		"power": 95,
+		"cost": 0,
+		"pa_cost": 2,
+		"tag": "warrior_synergy",
+		"resonance_gain": 35,
+		"is_synergy": true,
+		"status": {
+			"type": "stun",
+			"chance": 1,
+			"turns": 1,
+			"target": "enemy"
+		}
+	},
+	"tm_quick": {
+		"id": "tm_quick",
+		"name": {
+			"es": "Rapidez",
+			"en": "Quick",
+			"fr": "Vélocité",
+			"it": "Rapidità",
+			"de": "Schnelligkeit",
+			"zh": "迅捷",
+			"ja": "クイック"
+		},
+		"desc": {
+			"es": "+25% velocidad de ATB (3 turnos).",
+			"en": "+25% ATB speed (3 turns).",
+			"fr": "+25% de vitesse ATB (3 tours).",
+			"it": "+25% velocità ATB (3 turni).",
+			"de": "+25% ATB-Geschwindigkeit (3 Runden).",
+			"zh": "ATB 速度 +25%（3 回合）。",
+			"ja": "ATB速度+25%（3ターン）。"
+		},
+		"icon": "🏃",
+		"type": "buff",
+		"element": "none",
+		"power": 0,
+		"cost": 3,
+		"pa_cost": 1,
+		"tag": "time_haste",
+		"resonance_gain": 8,
+		"status": {
+			"type": "prisa",
+			"turns": 3,
+			"target": "self"
+		}
+	},
+	"tm_slow": {
+		"id": "tm_slow",
+		"name": {
+			"es": "Lentitud",
+			"en": "Slow",
+			"fr": "Lenteur",
+			"it": "Lentezza",
+			"de": "Verlangsamung",
+			"zh": "缓慢",
+			"ja": "スロウ"
+		},
+		"desc": {
+			"es": "-25% velocidad de ATB enemiga (3 turnos).",
+			"en": "-25% enemy ATB speed (3 turns).",
+			"fr": "-25% de vitesse ATB ennemie (3 tours).",
+			"it": "-25% velocità ATB nemica (3 turni).",
+			"de": "-25% ATB-Geschwindigkeit des Feindes (3 Runden).",
+			"zh": "敌人 ATB 速度 -25%（3 回合）。",
+			"ja": "敵のATB速度-25%（3ターン）。"
+		},
+		"icon": "🐌",
+		"type": "magic",
+		"element": "none",
+		"power": 0,
+		"cost": 5,
+		"pa_cost": 1,
+		"tag": "time_slow",
+		"resonance_gain": 8,
+		"status": {
+			"type": "slow",
+			"chance": 1,
+			"turns": 3,
+			"target": "enemy"
+		}
+	},
+	"tm_delay": {
+		"id": "tm_delay",
+		"name": {
+			"es": "Retardo",
+			"en": "Delay",
+			"fr": "Retard",
+			"it": "Ritardo",
+			"de": "Verzögerung",
+			"zh": "延迟",
+			"ja": "ディレイ"
+		},
+		"desc": {
+			"es": "Empuja hacia atrás la barra ATB del enemigo.",
+			"en": "Pushes back the enemy ATB bar.",
+			"fr": "Repousse la barre ATB de l'ennemi.",
+			"it": "Respinge la barra ATB del nemico.",
+			"de": "Drängt die ATB-Leiste des Feindes zurück.",
+			"zh": "推后敌人的 ATB 进度条。",
+			"ja": "敵のATBゲージを後退させる。"
+		},
+		"icon": "⏪",
+		"type": "magic",
+		"element": "none",
+		"power": 0,
+		"cost": 8,
+		"pa_cost": 2,
+		"tag": "time_delay",
+		"resonance_gain": 15,
+		"effect": "atb_push_enemy:40"
+	},
+	"tm_haste": {
+		"id": "tm_haste",
+		"name": {
+			"es": "Prisa",
+			"en": "Haste",
+			"fr": "Hâte",
+			"it": "Fretta",
+			"de": "Eile",
+			"zh": "加速",
+			"ja": "ヘイスト"
+		},
+		"desc": {
+			"es": "+45% velocidad de ATB (3 turnos).",
+			"en": "+45% ATB speed (3 turns).",
+			"fr": "+45% de vitesse ATB (3 tours).",
+			"it": "+45% velocità ATB (3 turni).",
+			"de": "+45% ATB-Geschwindigkeit (3 Runden).",
+			"zh": "ATB 速度 +45%（3 回合）。",
+			"ja": "ATB速度+45%（3ターン）。"
+		},
+		"icon": "💨",
+		"type": "buff",
+		"element": "none",
+		"power": 0,
+		"cost": 6,
+		"pa_cost": 1,
+		"tag": "time_haste",
+		"resonance_gain": 8,
+		"status": {
+			"type": "prisa_ii",
+			"turns": 3,
+			"target": "self"
+		}
+	},
+	"tm_stop": {
+		"id": "tm_stop",
+		"name": {
+			"es": "Alto",
+			"en": "Stop",
+			"fr": "Arrêt",
+			"it": "Fermo",
+			"de": "Halt",
+			"zh": "静止",
+			"ja": "ストップ"
+		},
+		"desc": {
+			"es": "Paraliza al enemigo 1 turno.",
+			"en": "Stops the enemy for 1 turn.",
+			"fr": "Paralyse l'ennemi pendant 1 tour.",
+			"it": "Paralizza il nemico per 1 turno.",
+			"de": "Lähmt den Feind für 1 Runde.",
+			"zh": "使敌人静止 1 回合。",
+			"ja": "敵を1ターン停止させる。"
+		},
+		"icon": "🛑",
+		"type": "magic",
+		"element": "none",
+		"power": 0,
+		"cost": 18,
+		"pa_cost": 3,
+		"tag": "time_stop",
+		"resonance_gain": 25,
+		"status": {
+			"type": "stun",
+			"chance": 1,
+			"turns": 1,
+			"target": "enemy"
+		}
+	},
+	"tm_acceleration": {
+		"id": "tm_acceleration",
+		"name": {
+			"es": "Reflejo Temporal",
+			"en": "Temporal Reflex",
+			"fr": "Reflet Temporel",
+			"it": "Riflesso Temporale",
+			"de": "Zeitreflex",
+			"zh": "时间反射",
+			"ja": "時の反射"
+		},
+		"desc": {
+			"es": "Reinicia el cooldown de defensa y permite defender sin recarga durante 5s.",
+			"en": "Resets defense cooldown and allows guarding without cooldown for 5s.",
+			"fr": "Réinitialise le temps de recharge de défense et permet de parer sans recharge pendant 5s.",
+			"it": "Azzera il tempo di ricarica della difesa e permette di parare senza ricarica per 5s.",
+			"de": "Setzt die Abklingzeit der Verteidigung zurück und erlaubt 5s lang verteidigen ohne Abklingzeit.",
+			"zh": "重置防御冷却时间，并在 5 秒内允许无冷却连续防御。",
+			"ja": "防御クールダウンをリセットし、5秒間ノータイムで防御可能にする。"
+		},
+		"icon": "🛡️",
+		"type": "buff",
+		"element": "none",
+		"power": 0,
+		"cost": 5,
+		"pa_cost": 1,
+		"tag": "time_defense",
+		"resonance_gain": 10,
+		"effect": "reset_defense_cd:5"
+	},
+	"tm_time_shield": {
+		"id": "tm_time_shield",
+		"name": {
+			"es": "Escudo Temporal",
+			"en": "Time Shield",
+			"fr": "Bouclier Temporel",
+			"it": "Scudo Temporale",
+			"de": "Zeitschild",
+			"zh": "时间护盾",
+			"ja": "タイムシールド"
+		},
+		"desc": {
+			"es": "Burbuja temporal: reduce un 20% el daño y regenera MP y Resonancia (3 turnos).",
+			"en": "Time bubble: reduces damage by 20% and regenerates MP and Resonance (3 turns).",
+			"fr": "Bulle temporelle : réduit les dégâts de 20% et régénère PM et Résonance (3 tours).",
+			"it": "Bolla temporale: riduce il danno del 20% e rigenera MP e Risonanza (3 turni).",
+			"de": "Zeitblase: reduziert Schaden um 20% und regeneriert MP und Resonanz (3 Runden).",
+			"zh": "时间泡泡：减少 20% 伤害并恢复 MP 和共鸣（3 回合）。",
+			"ja": "時間の泡：ダメージを20%軽減し、MPと共鳴を回復する（3ターン）。"
+		},
+		"icon": "⏳",
+		"type": "buff",
+		"element": "none",
+		"power": 0,
+		"cost": 16,
+		"pa_cost": 2,
+		"tag": "time_shield",
+		"resonance_gain": 15,
+		"status": {
+			"type": "burbuja_temporal",
+			"turns": 3,
+			"target": "self"
+		}
+	},
+	"tm_rewind": {
+		"id": "tm_rewind",
+		"name": {
+			"es": "Rebobinar",
+			"en": "Rewind",
+			"fr": "Rembobiner",
+			"it": "Riavvolgi",
+			"de": "Zurückspulen",
+			"zh": "时光倒带",
+			"ja": "リワインド"
+		},
+		"desc": {
+			"es": "Cura parte del HP perdido recientemente.",
+			"en": "Heals part of recently lost HP.",
+			"fr": "Soigne une partie des PV récemment perdus.",
+			"it": "Cura parte degli HP persi di recente.",
+			"de": "Heilt einen Teil des kürzlich verlorenen HP.",
+			"zh": "恢复一部分最近丢失的生命值。",
+			"ja": "最近失ったHPの一部を回復する。"
+		},
+		"icon": "🔄",
+		"type": "heal",
+		"element": "none",
+		"power": 0,
+		"cost": 18,
+		"pa_cost": 2,
+		"tag": "time_rewind",
+		"resonance_gain": 15,
+		"effect": "heal_pct_lost"
+	},
+	"tm_chrono_lock": {
+		"id": "tm_chrono_lock",
+		"name": {
+			"es": "Cerrojo Temporal",
+			"en": "Chrono Lock",
+			"fr": "Verrou Temporel",
+			"it": "Blocco Temporale",
+			"de": "Zeitverriegelung",
+			"zh": "时间锁链",
+			"ja": "クロノロック"
+		},
+		"desc": {
+			"es": "Impide al enemigo acumular ATB (2 turnos).",
+			"en": "Prevents the enemy from charging ATB (2 turns).",
+			"fr": "Empêche l'ennemi de charger son ATB (2 tours).",
+			"it": "Impedisce al nemico di caricare l'ATB (2 turni).",
+			"de": "Hindert den Feind daran, ATB aufzuladen (2 Runden).",
+			"zh": "阻止敌人累积 ATB（2 回合）。",
+			"ja": "敵のATB蓄積を2ターン防ぐ。"
+		},
+		"icon": "🔒",
+		"type": "magic",
+		"element": "none",
+		"power": 0,
+		"cost": 24,
+		"pa_cost": 3,
+		"tag": "time_lock",
+		"resonance_gain": 25,
+		"status": {
+			"type": "chrono_lock",
+			"chance": 1,
+			"turns": 2,
+			"target": "enemy"
+		}
+	},
+	"tm_future_sight": {
+		"id": "tm_future_sight",
+		"name": {
+			"es": "Visión del Futuro",
+			"en": "Future Sight",
+			"fr": "Vision Future",
+			"it": "Visione Futura",
+			"de": "Zukunftssicht",
+			"zh": "未来之眼",
+			"ja": "フューチャーサイト"
+		},
+		"desc": {
+			"es": "+30% probabilidad de crítico (3 turnos).",
+			"en": "+30% critical chance (3 turns).",
+			"fr": "+30% de chance de coup critique (3 tours).",
+			"it": "+30% probabilità di critico (3 turni).",
+			"de": "+30% kritische Trefferchance (3 Runden).",
+			"zh": "暴击率 +30%（3 回合）。",
+			"ja": "クリティカル率+30%（3ターン）。"
+		},
+		"icon": "🔮",
+		"type": "buff",
+		"element": "none",
+		"power": 0,
+		"cost": 18,
+		"pa_cost": 2,
+		"tag": "time_sight",
+		"resonance_gain": 15,
+		"status": {
+			"type": "crit_up",
+			"turns": 3,
+			"target": "self"
+		}
+	},
+	"tm_second_chance": {
+		"id": "tm_second_chance",
+		"name": {
+			"es": "Segunda Oportunidad",
+			"en": "Second Chance",
+			"fr": "Seconde Chance",
+			"it": "Seconda Possibilità",
+			"de": "Zweite Chance",
+			"zh": "第二次机会",
+			"ja": "セカンドチャンス"
+		},
+		"desc": {
+			"es": "Auto-revives al 30% de HP si caes pronto.",
+			"en": "Auto-revive at 30% HP if defeated soon.",
+			"fr": "Réanimation automatique à 30% des PV si vous tombez bientôt.",
+			"it": "Auto-rianimazione al 30% di HP se sconfitto a breve.",
+			"de": "Automatische Wiederbelebung mit 30% HP, falls du bald besiegt wirst.",
+			"zh": "若不久后倒下，自动以 30% 生命值复活。",
+			"ja": "すぐに倒れた場合、HP30%で自動復活する。"
+		},
+		"icon": "👼",
+		"type": "buff",
+		"element": "none",
+		"power": 0,
+		"cost": 25,
+		"pa_cost": 3,
+		"tag": "time_revive",
+		"resonance_gain": 25,
+		"effect": "revive:30"
+	},
+	"tm_chrono_break": {
+		"id": "tm_chrono_break",
+		"name": {
+			"es": "Ruptura Temporal",
+			"en": "Chrono Break",
+			"fr": "Rupture Temporelle",
+			"it": "Rottura Temporale",
+			"de": "Zeitbruch",
+			"zh": "时间碎裂",
+			"ja": "クロノブレイク"
+		},
+		"desc": {
+			"es": "Daño temporal que reduce el ATB del rival.",
+			"en": "Temporal damage that reduces the enemy ATB.",
+			"fr": "Dégâts temporels qui réduisent l'ATB de l'ennemi.",
+			"it": "Danno temporale che riduce l'ATB del nemico.",
+			"de": "Zeitschaden, der das ATB des Feindes senkt.",
+			"zh": "造成时间伤害并降低敌人的 ATB。",
+			"ja": "時間ダメージを与え、敵のATBを下げる。"
+		},
+		"icon": "💥",
+		"type": "magic",
+		"element": "none",
+		"power": 120,
+		"cost": 30,
+		"pa_cost": 3,
+		"tag": "time_break",
+		"resonance_gain": 25,
+		"effect": "atb_push_enemy:30"
+	},
+	"tm_eternal_time": {
+		"id": "tm_eternal_time",
+		"name": {
+			"es": "Tiempo Eterno",
+			"en": "Eternal Time",
+			"fr": "Temps Éternel",
+			"it": "Tempo Eterno",
+			"de": "Ewige Zeit",
+			"zh": "永恒时间",
+			"ja": "エターナルタイム"
+		},
+		"desc": {
+			"es": "Congela la velocidad ATB enemiga (2 turnos).",
+			"en": "Freezes enemy ATB speed (2 turns).",
+			"fr": "Gel de la vitesse ATB ennemie (2 tours).",
+			"it": "Congela la velocità ATB nemica (2 turni).",
+			"de": "Friert die ATB-Geschwindigkeit des Feindes ein (2 Runden).",
+			"zh": "冻结敌人的 ATB 速度（2 回合）。",
+			"ja": "敵のATB速度を凍結させる（2ターン）。"
+		},
+		"icon": "🧊",
+		"type": "magic",
+		"element": "none",
+		"power": 0,
+		"cost": 40,
+		"pa_cost": 3,
+		"tag": "time_ultimate",
+		"resonance_gain": 25,
+		"status": {
+			"type": "stun",
+			"chance": 1,
+			"turns": 2,
+			"target": "enemy"
+		}
+	},
+	"tm_frozen_time": {
+		"id": "tm_frozen_time",
+		"name": {
+			"es": "Tiempo Congelado",
+			"en": "Frozen Time",
+			"fr": "Temps Gelé",
+			"it": "Tempo Congelato",
+			"de": "Gefrorene Zeit",
+			"zh": "冻结时间",
+			"ja": "フローズンタイム"
+		},
+		"desc": {
+			"es": "Sinergia: congela el ATB del enemigo 2 turnos.",
+			"en": "Synergy: freezes the enemy ATB for 2 turns.",
+			"fr": "Synergie : gèle l'ATB de l'ennemi pendant 2 tours.",
+			"it": "Sinergia: congela l'ATB del nemico per 2 turni.",
+			"de": "Synergie: friert das ATB des Feindes 2 Runden lang ein.",
+			"zh": "协同技：冻结敌人的 ATB 2 回合。",
+			"ja": "シナジー：敵のATBを2ターン凍結させる。"
+		},
+		"icon": "🧊",
+		"type": "magic",
+		"element": "none",
+		"power": 0,
+		"cost": 0,
+		"pa_cost": 2,
+		"tag": "time_synergy",
+		"resonance_gain": 35,
+		"is_synergy": true,
+		"status": {
+			"type": "stun",
+			"chance": 1,
+			"turns": 2,
+			"target": "enemy"
+		}
+	},
+	"tm_temporal_loop": {
+		"id": "tm_temporal_loop",
+		"name": {
+			"es": "Bucle Temporal",
+			"en": "Temporal Loop",
+			"fr": "Boucle Temporelle",
+			"it": "Ciclo Temporale",
+			"de": "Zeitschleife",
+			"zh": "时间循环",
+			"ja": "タイムループ"
+		},
+		"desc": {
+			"es": "Sinergia: retrasa el ATB enemigo y te cura.",
+			"en": "Synergy: delays enemy ATB and heals you.",
+			"fr": "Synergie : retarde l'ATB ennemi et vous soigne.",
+			"it": "Sinergia: ritarda l'ATB nemico e ti cura.",
+			"de": "Synergie: verzögert das ATB des Feindes und heilt dich.",
+			"zh": "协同技：延迟敌人的 ATB 并治愈你。",
+			"ja": "シナジー：敵のATBを遅らせ、自分を回復させる。"
+		},
+		"icon": "🔁",
+		"type": "heal",
+		"element": "none",
+		"power": 0,
+		"cost": 0,
+		"pa_cost": 2,
+		"tag": "time_synergy",
+		"resonance_gain": 35,
+		"is_synergy": true,
+		"effect": "atb_push_enemy:30;heal_pct_lost"
+	},
+	"tm_time_surge": {
+		"id": "tm_time_surge",
+		"name": {
+			"es": "Oleada Temporal",
+			"en": "Time Surge",
+			"fr": "Vague Temporelle",
+			"it": "Ondata Temporale",
+			"de": "Zeitwelle",
+			"zh": "时间浪潮",
+			"ja": "タイムサージ"
+		},
+		"desc": {
+			"es": "Sinergia: gran salto de ATB y prisa sostenida.",
+			"en": "Synergy: huge ATB jump and lasting haste.",
+			"fr": "Synergie : énorme saut d'ATB et hâte durable.",
+			"it": "Sinergia: enorme balzo di ATB e fretta duratura.",
+			"de": "Synergie: gewaltiger ATB-Sprung und anhaltende Eile.",
+			"zh": "协同技：大幅提升 ATB 并持续加速。",
+			"ja": "シナジー：大幅なATB上昇と持続的なヘイスト。"
+		},
+		"icon": "⏩",
+		"type": "buff",
+		"element": "none",
+		"power": 0,
+		"cost": 0,
+		"pa_cost": 2,
+		"tag": "time_synergy",
+		"resonance_gain": 35,
+		"is_synergy": true,
+		"effect": "self_atb_add:60",
+		"status": {
+			"type": "prisa",
+			"turns": 3,
+			"target": "self"
+		}
+	},
+	"arc_arrow_shot": {
+		"id": "arc_arrow_shot",
+		"name": {
+			"es": "Disparo",
+			"en": "Arrow Shot",
+			"fr": "Tir",
+			"it": "Tiro",
+			"de": "Pfeilschuss",
+			"zh": "射箭",
+			"ja": "アローショット"
+		},
+		"desc": {
+			"es": "Disparo perforante básico.",
+			"en": "Basic piercing shot.",
+			"fr": "Tir perforant de base.",
+			"it": "Tiro perforante di base.",
+			"de": "Einfacher durchdringender Schuss.",
+			"zh": "基础穿透射击。",
+			"ja": "基本的な貫通射撃。"
+		},
+		"icon": "🏹",
+		"type": "ranged",
+		"element": "physical",
+		"power": 45,
+		"cost": 0,
+		"pa_cost": 1,
+		"tag": "archer_shot",
+		"resonance_gain": 8,
+		"piercing": true
+	},
+	"arc_double_shot": {
+		"id": "arc_double_shot",
+		"name": {
+			"es": "Disparo Doble",
+			"en": "Double Shot",
+			"fr": "Tir Double",
+			"it": "Tiro Doppio",
+			"de": "Doppelschuss",
+			"zh": "双重射击",
+			"ja": "ダブルショット"
+		},
+		"desc": {
+			"es": "Dos flechas perforantes.",
+			"en": "Two piercing arrows.",
+			"fr": "Deux flèches perforantes.",
+			"it": "Due frecce perforanti.",
+			"de": "Zwei durchdringende Pfeile.",
+			"zh": "两支穿透箭。",
+			"ja": "2本の貫通矢。"
+		},
+		"icon": "🏹",
+		"type": "ranged",
+		"element": "physical",
+		"power": 80,
+		"cost": 3,
+		"pa_cost": 2,
+		"tag": "archer_multi",
+		"resonance_gain": 15,
+		"piercing": true,
+		"effect": "multi_hit:2"
+	},
+	"arc_aim": {
+		"id": "arc_aim",
+		"name": {
+			"es": "Apuntar",
+			"en": "Aim",
+			"fr": "Viser",
+			"it": "Mira",
+			"de": "Zielen",
+			"zh": "瞄准",
+			"ja": "エイム"
+		},
+		"desc": {
+			"es": "El siguiente disparo es crítico garantizado.",
+			"en": "Next shot is a guaranteed critical.",
+			"fr": "Le prochain tir est un coup critique garanti.",
+			"it": "Il prossimo tiro è un critico garantito.",
+			"de": "Der nächste Schuss ist garantiert kritisch.",
+			"zh": "下一次射击必定暴击。",
+			"ja": "次の一発は必ずクリティカルになる。"
+		},
+		"icon": "🎯",
+		"type": "buff",
+		"element": "none",
+		"power": 0,
+		"cost": 4,
+		"pa_cost": 1,
+		"tag": "archer_aim",
+		"resonance_gain": 8,
+		"status": {
+			"type": "guaranteed_crit",
+			"turns": 2,
+			"target": "self"
+		}
+	},
+	"arc_poison_arrow": {
+		"id": "arc_poison_arrow",
+		"name": {
+			"es": "Flecha Venenosa",
+			"en": "Poison Arrow",
+			"fr": "Flèche Empoisonnée",
+			"it": "Freccia Velenosa",
+			"de": "Giftpfeil",
+			"zh": "毒箭",
+			"ja": "ポイズンアロー"
+		},
+		"desc": {
+			"es": "Daño + veneno.",
+			"en": "Damage + poison.",
+			"fr": "Dégâts + poison.",
+			"it": "Danno + veleno.",
+			"de": "Schaden + Gift.",
+			"zh": "伤害 + 中毒。",
+			"ja": "ダメージ+毒。"
+		},
+		"icon": "☣️",
+		"type": "ranged",
+		"element": "poison",
+		"power": 50,
+		"cost": 5,
+		"pa_cost": 1,
+		"tag": "archer_poison",
+		"resonance_gain": 8,
+		"piercing": true,
+		"status": {
+			"type": "poison",
+			"chance": 1,
+			"turns": 3,
+			"target": "enemy"
+		}
+	},
+	"arc_steal": {
+		"id": "arc_steal",
+		"name": {
+			"es": "Robar",
+			"en": "Steal",
+			"fr": "Voler",
+			"it": "Ruba",
+			"de": "Stehlen",
+			"zh": "偷盗",
+			"ja": "ステイル"
+		},
+		"desc": {
+			"es": "Intenta robar oro del enemigo.",
+			"en": "Attempts to steal gold from the enemy.",
+			"fr": "Tente de voler de l'or à l'ennemi.",
+			"it": "Tenta di rubare oro al nemico.",
+			"de": "Versucht, Gold vom Feind zu stehlen.",
+			"zh": "尝试从敌人那里偷取金币。",
+			"ja": "敵からゴールドを盗もうとする。"
+		},
+		"icon": "💰",
+		"type": "none",
+		"element": "none",
+		"power": 0,
+		"cost": 8,
+		"pa_cost": 2,
+		"tag": "archer_steal",
+		"resonance_gain": 15,
+		"effect": "steal"
+	},
+	"arc_hunter_focus": {
+		"id": "arc_hunter_focus",
+		"name": {
+			"es": "Foco de Cazador",
+			"en": "Hunter Focus",
+			"fr": "Focus du Chasseur",
+			"it": "Focus del Cacciatore",
+			"de": "Jägerfokus",
+			"zh": "猎人专注",
+			"ja": "ハンターフォーカス"
+		},
+		"desc": {
+			"es": "+25% daño a distancia y +20 precisión (3 turnos).",
+			"en": "+25% ranged damage and +20 accuracy (3 turns).",
+			"fr": "+25% de dégâts à distance et +20 précision (3 tours).",
+			"it": "+25% danno a distanza e +20 precisione (3 turni).",
+			"de": "+25% Fernkampfschaden und +20 Genauigkeit (3 Runden).",
+			"zh": "远程伤害 +25%，命中率 +20（3 回合）。",
+			"ja": "遠距離ダメージ+25%、命中率+20（3ターン）。"
+		},
+		"icon": "👁️",
+		"type": "buff",
+		"element": "none",
+		"power": 0,
+		"cost": 10,
+		"pa_cost": 2,
+		"tag": "archer_focus",
+		"resonance_gain": 15,
+		"status": {
+			"type": "focus",
+			"turns": 3,
+			"target": "self"
+		}
+	},
+	"arc_piercing_arrow": {
+		"id": "arc_piercing_arrow",
+		"name": {
+			"es": "Flecha Perforante",
+			"en": "Piercing Arrow",
+			"fr": "Flèche Perforante",
+			"it": "Freccia Perforante",
+			"de": "Durchdringender Pfeil",
+			"zh": "穿透之箭",
+			"ja": "ピアシングアロー"
+		},
+		"desc": {
+			"es": "Ignora el 50% de la defensa enemiga.",
+			"en": "Ignores 50% of enemy defense.",
+			"fr": "Ignore 50% de la défense ennemie.",
+			"it": "Ignora il 50% della difesa nemica.",
+			"de": "Ignoriert 50% der feindlichen Verteidigung.",
+			"zh": "无视敌人 50% 的防御。",
+			"ja": "敵の防御を50%無視する。"
+		},
+		"icon": "🏹",
+		"type": "ranged",
+		"element": "physical",
+		"power": 60,
+		"cost": 10,
+		"pa_cost": 2,
+		"tag": "archer_pierce",
+		"resonance_gain": 15,
+		"piercing": true,
+		"effect": "ignore_def_half"
+	},
+	"arc_silence_arrow": {
+		"id": "arc_silence_arrow",
+		"name": {
+			"es": "Flecha Silenciadora",
+			"en": "Silence Arrow",
+			"fr": "Flèche de Silence",
+			"it": "Freccia del Silenzio",
+			"de": "Stillepfeil",
+			"zh": "静默之箭",
+			"ja": "サイレンスアロー"
+		},
+		"desc": {
+			"es": "Daño e impide la magia enemiga (3 turnos).",
+			"en": "Damage and prevents enemy magic (3 turns).",
+			"fr": "Dégâts et empêche la magie ennemie (3 tours).",
+			"it": "Danno e impedisce la magia nemica (3 turni).",
+			"de": "Schaden und verhindert feindliche Magie (3 Runden).",
+			"zh": "造成伤害并阻止敌人施法（3 回合）。",
+			"ja": "ダメージを与え、敵の魔法を防ぐ（3ターン）。"
+		},
+		"icon": "🤐",
+		"type": "ranged",
+		"element": "physical",
+		"power": 65,
+		"cost": 12,
+		"pa_cost": 2,
+		"tag": "archer_silence",
+		"resonance_gain": 15,
+		"status": {
+			"type": "silence",
+			"chance": 1,
+			"turns": 3,
+			"target": "enemy"
+		}
+	},
+	"arc_triple_shot": {
+		"id": "arc_triple_shot",
+		"name": {
+			"es": "Disparo Triple",
+			"en": "Triple Shot",
+			"fr": "Tir Triple",
+			"it": "Tiro Triplo",
+			"de": "Dreifachschuss",
+			"zh": "三重射击",
+			"ja": "トリプルショット"
+		},
+		"desc": {
+			"es": "Tres flechas perforantes.",
+			"en": "Three piercing arrows.",
+			"fr": "Trois flèches perforantes.",
+			"it": "Tre frecce perforanti.",
+			"de": "Drei durchdringende Pfeile.",
+			"zh": "三支穿透箭。",
+			"ja": "3本の貫通矢。"
+		},
+		"icon": "🏹",
+		"type": "ranged",
+		"element": "physical",
+		"power": 100,
+		"cost": 15,
+		"pa_cost": 3,
+		"tag": "archer_multi",
+		"resonance_gain": 25,
+		"piercing": true,
+		"effect": "multi_hit:3"
+	},
+	"arc_eagle_eye": {
+		"id": "arc_eagle_eye",
+		"name": {
+			"es": "Ojo de Águila",
+			"en": "Eagle Eye",
+			"fr": "Œil d'Aigle",
+			"it": "Occhio d'Aquila",
+			"de": "Adlerauge",
+			"zh": "鹰眼",
+			"ja": "イーグルアイ"
+		},
+		"desc": {
+			"es": "+40% precisión y crítico (3 turnos).",
+			"en": "+40% accuracy and critical (3 turns).",
+			"fr": "+40% de précision et de critique (3 tours).",
+			"it": "+40% precisione e critico (3 turni).",
+			"de": "+40% Genauigkeit und kritische Treffer (3 Runden).",
+			"zh": "命中率与暴击率 +40%（3 回合）。",
+			"ja": "命中率とクリティカル率+40%（3ターン）。"
+		},
+		"icon": "🦅",
+		"type": "buff",
+		"element": "none",
+		"power": 0,
+		"cost": 16,
+		"pa_cost": 2,
+		"tag": "archer_eagle",
+		"resonance_gain": 15,
+		"status": {
+			"type": "crit_up",
+			"turns": 3,
+			"target": "self"
+		}
+	},
+	"arc_rain_of_arrows": {
+		"id": "arc_rain_of_arrows",
+		"name": {
+			"es": "Lluvia de Flechas",
+			"en": "Rain of Arrows",
+			"fr": "Pluie de Flèches",
+			"it": "Pioggia di Frecce",
+			"de": "Pfeilregen",
+			"zh": "箭雨",
+			"ja": "アローレイン"
+		},
+		"desc": {
+			"es": "Múltiples impactos perforantes.",
+			"en": "Multiple piercing hits.",
+			"fr": "Plusieurs impacts perforants.",
+			"it": "Molteplici colpi perforanti.",
+			"de": "Mehrere durchdringende Treffer.",
+			"zh": "多次穿透命中。",
+			"ja": "複数回の貫通ヒット。"
+		},
+		"icon": "🌧️",
+		"type": "ranged",
+		"element": "physical",
+		"power": 110,
+		"cost": 22,
+		"pa_cost": 3,
+		"tag": "archer_rain",
+		"resonance_gain": 25,
+		"piercing": true,
+		"effect": "multi_hit:4"
+	},
+	"arc_phantom_arrow": {
+		"id": "arc_phantom_arrow",
+		"name": {
+			"es": "Flecha Fantasma",
+			"en": "Phantom Arrow",
+			"fr": "Flèche Fantôme",
+			"it": "Freccia Fantasma",
+			"de": "Phantompfeil",
+			"zh": "幽魂之箭",
+			"ja": "ファントムアロー"
+		},
+		"desc": {
+			"es": "No puede bloquearse ni esquivarse; alta crítica.",
+			"en": "Cannot be blocked or dodged; high crit.",
+			"fr": "Ne peut être bloquée ni esquivée ; critique élevé.",
+			"it": "Non può essere bloccata né schivata; critico alto.",
+			"de": "Kann nicht geblockt oder ausgewichen werden; hohe kritische Chance.",
+			"zh": "无法格挡或闪避，高暴击率。",
+			"ja": "ブロックも回避も不可。高クリティカル率。"
+		},
+		"icon": "👻",
+		"type": "ranged",
+		"element": "none",
+		"power": 125,
+		"cost": 25,
+		"pa_cost": 3,
+		"tag": "archer_phantom",
+		"resonance_gain": 25,
+		"effect": "unblockable"
+	},
+	"arc_heavenly_shot": {
+		"id": "arc_heavenly_shot",
+		"name": {
+			"es": "Disparo Celestial",
+			"en": "Heavenly Shot",
+			"fr": "Tir Céleste",
+			"it": "Tiro Celeste",
+			"de": "Himmlischer Schuss",
+			"zh": "天境之射",
+			"ja": "ヘブンリーショット"
+		},
+		"desc": {
+			"es": "Ignora la defensa enemiga.",
+			"en": "Ignores enemy defense.",
+			"fr": "Ignore la défense ennemie.",
+			"it": "Ignora la difesa nemica.",
+			"de": "Ignoriert die feindliche Verteidigung.",
+			"zh": "无视敌人防御。",
+			"ja": "敵の防御を無視する。"
+		},
+		"icon": "💫",
+		"type": "ranged",
+		"element": "physical",
+		"power": 150,
+		"cost": 40,
+		"pa_cost": 3,
+		"tag": "archer_ultimate",
+		"resonance_gain": 25,
+		"piercing": true,
+		"effect": "ignore_def_full"
+	},
+	"arc_sniper_shot": {
+		"id": "arc_sniper_shot",
+		"name": {
+			"es": "Disparo de Francotirador",
+			"en": "Sniper Shot",
+			"fr": "Tir de Sniper",
+			"it": "Tiro da Cecchino",
+			"de": "Schützenschuss",
+			"zh": "狙击射击",
+			"ja": "スナイパーショット"
+		},
+		"desc": {
+			"es": "Sinergia: alto daño y crítico garantizado.",
+			"en": "Synergy: high damage and guaranteed crit.",
+			"fr": "Synergie : dégâts élevés et critique garanti.",
+			"it": "Sinergia: alto danno e critico garantito.",
+			"de": "Synergie: hoher Schaden und garantierter kritischer Treffer.",
+			"zh": "协同技：高伤害并必定暴击。",
+			"ja": "シナジー：高ダメージと必中クリティカル。"
+		},
+		"icon": "🎯",
+		"type": "ranged",
+		"element": "physical",
+		"power": 110,
+		"cost": 0,
+		"pa_cost": 2,
+		"tag": "archer_synergy",
+		"resonance_gain": 35,
+		"is_synergy": true,
+		"piercing": true,
+		"effect": "guaranteed_crit"
+	},
+	"arc_venom_barrage": {
+		"id": "arc_venom_barrage",
+		"name": {
+			"es": "Andanada Venenosa",
+			"en": "Venom Barrage",
+			"fr": "Barrage de Venin",
+			"it": "Raffica Velenosa",
+			"de": "Gifthagel",
+			"zh": "毒箭齐发",
+			"ja": "ヴェノムバレージ"
+		},
+		"desc": {
+			"es": "Sinergia: disparo doble con veneno.",
+			"en": "Synergy: double shot with poison.",
+			"fr": "Synergie : tir double empoisonné.",
+			"it": "Sinergia: tiro doppio avvelenato.",
+			"de": "Synergie: Doppelschuss mit Gift.",
+			"zh": "协同技：带毒的双重射击。",
+			"ja": "シナジー：毒付きのダブルショット。"
+		},
+		"icon": "☣️",
+		"type": "ranged",
+		"element": "poison",
+		"power": 90,
+		"cost": 0,
+		"pa_cost": 2,
+		"tag": "archer_synergy",
+		"resonance_gain": 35,
+		"is_synergy": true,
+		"piercing": true,
+		"effect": "multi_hit:2",
+		"status": {
+			"type": "poison",
+			"chance": 1,
+			"turns": 3,
+			"target": "enemy"
+		}
+	},
+	"arc_death_rain": {
+		"id": "arc_death_rain",
+		"name": {
+			"es": "Lluvia Mortal",
+			"en": "Death Rain",
+			"fr": "Pluie Mortelle",
+			"it": "Pioggia Mortale",
+			"de": "Todesregen",
+			"zh": "死亡之雨",
+			"ja": "デスレイン"
+		},
+		"desc": {
+			"es": "Sinergia: lluvia masiva de flechas.",
+			"en": "Synergy: massive rain of arrows.",
+			"fr": "Synergie : pluie massive de flèches.",
+			"it": "Sinergia: pioggia massiccia di frecce.",
+			"de": "Synergie: massiver Pfeilregen.",
+			"zh": "协同技：大量箭雨齐发。",
+			"ja": "シナジー：大量の矢の雨。"
+		},
+		"icon": "🌧️",
+		"type": "ranged",
+		"element": "physical",
+		"power": 140,
+		"cost": 0,
+		"pa_cost": 3,
+		"tag": "archer_synergy",
+		"resonance_gain": 35,
+		"is_synergy": true,
+		"piercing": true,
+		"effect": "multi_hit:5"
+	},
+	"psy_mind_strike": {
+		"id": "psy_mind_strike",
+		"name": {
+			"es": "Golpe Mental",
+			"en": "Mind Strike",
+			"fr": "Frappe Mentale",
+			"it": "Colpo Mentale",
+			"de": "Geistesschlag",
+			"zh": "意念冲击",
+			"ja": "マインドストライク"
+		},
+		"desc": {
+			"es": "Ataque psíquico básico.",
+			"en": "Basic psychic attack.",
+			"fr": "Attaque psychique de base.",
+			"it": "Attacco psichico di base.",
+			"de": "Einfacher psychischer Angriff.",
+			"zh": "基础灵能攻击。",
+			"ja": "基本的なサイキック攻撃。"
+		},
+		"icon": "☄️",
+		"type": "magic",
+		"element": "none",
+		"power": 45,
+		"cost": 2,
+		"pa_cost": 1,
+		"tag": "psychic_strike",
+		"resonance_gain": 8
+	},
+	"psy_focus": {
+		"id": "psy_focus",
+		"name": {
+			"es": "Concentración",
+			"en": "Focus",
+			"fr": "Concentration",
+			"it": "Concentrazione",
+			"de": "Konzentration",
+			"zh": "凝神",
+			"ja": "フォーカス"
+		},
+		"desc": {
+			"es": "+30% daño mágico/mental (3 turnos).",
+			"en": "+30% magic/mental damage (3 turns).",
+			"fr": "+30% de dégâts magiques/mentaux (3 tours).",
+			"it": "+30% danno magico/mentale (3 turni).",
+			"de": "+30% Magie-/Geistesschaden (3 Runden).",
+			"zh": "魔法/精神伤害 +30%（3 回合）。",
+			"ja": "魔法/精神ダメージ+30%（3ターン）。"
+		},
+		"icon": "🧠",
+		"type": "buff",
+		"element": "none",
+		"power": 0,
+		"cost": 4,
+		"pa_cost": 1,
+		"tag": "psychic_focus",
+		"resonance_gain": 8,
+		"status": {
+			"type": "focus",
+			"turns": 3,
+			"target": "self"
+		}
+	},
+	"psy_confusion": {
+		"id": "psy_confusion",
+		"name": {
+			"es": "Confusión",
+			"en": "Confusion",
+			"fr": "Confusion",
+			"it": "Confusione",
+			"de": "Verwirrung",
+			"zh": "混乱",
+			"ja": "コンフュージョン"
+		},
+		"desc": {
+			"es": "El enemigo falla ataques (3 turnos).",
+			"en": "Enemy attacks miss (3 turns).",
+			"fr": "Les attaques ennemies échouent (3 tours).",
+			"it": "Gli attacchi nemici falliscono (3 turni).",
+			"de": "Feindliche Angriffe schlagen fehl (3 Runden).",
+			"zh": "敌人攻击失败（3 回合）。",
+			"ja": "敵の攻撃が外れる（3ターン）。"
+		},
+		"icon": "🌀",
+		"type": "magic",
+		"element": "none",
+		"power": 0,
+		"cost": 8,
+		"pa_cost": 2,
+		"tag": "psychic_confusion",
+		"resonance_gain": 15,
+		"status": {
+			"type": "confusion",
+			"chance": 1,
+			"turns": 3,
+			"target": "enemy"
+		}
+	},
+	"psy_telekinesis": {
+		"id": "psy_telekinesis",
+		"name": {
+			"es": "Telequinesis",
+			"en": "Telekinesis",
+			"fr": "Télékinésie",
+			"it": "Telecinesi",
+			"de": "Telekinese",
+			"zh": "意念力",
+			"ja": "テレキネシス"
+		},
+		"desc": {
+			"es": "Ignora la defensa mágica enemiga.",
+			"en": "Ignores enemy magic defense.",
+			"fr": "Ignore la défense magique ennemie.",
+			"it": "Ignora la difesa magica nemica.",
+			"de": "Ignoriert die magische Verteidigung des Feindes.",
+			"zh": "无视敌人的魔法防御。",
+			"ja": "敵の魔法防御を無視する。"
+		},
+		"icon": "🌀",
+		"type": "magic",
+		"element": "none",
+		"power": 70,
+		"cost": 10,
+		"pa_cost": 2,
+		"tag": "psychic_tele",
+		"resonance_gain": 15,
+		"effect": "ignore_def_full"
+	},
+	"psy_gravity": {
+		"id": "psy_gravity",
+		"name": {
+			"es": "Gravedad",
+			"en": "Gravity",
+			"fr": "Gravité",
+			"it": "Gravità",
+			"de": "Schwerkraft",
+			"zh": "重力",
+			"ja": "グラビティ"
+		},
+		"desc": {
+			"es": "Daño proporcional al HP actual del enemigo.",
+			"en": "Damage proportional to enemy current HP.",
+			"fr": "Dégâts proportionnels aux PV actuels de l'ennemi.",
+			"it": "Danno proporzionale agli HP attuali del nemico.",
+			"de": "Schaden proportional zum aktuellen HP des Feindes.",
+			"zh": "伤害与敌人当前生命值成比例。",
+			"ja": "敵の現在HPに比例したダメージ。"
+		},
+		"icon": "🪐",
+		"type": "magic",
+		"element": "none",
+		"power": 0,
+		"cost": 12,
+		"pa_cost": 2,
+		"tag": "psychic_gravity",
+		"resonance_gain": 15,
+		"effect": "gravity_pct:60"
+	},
+	"psy_mind_break": {
+		"id": "psy_mind_break",
+		"name": {
+			"es": "Ruptura Mental",
+			"en": "Mind Break",
+			"fr": "Rupture Mentale",
+			"it": "Rottura Mentale",
+			"de": "Geistesbruch",
+			"zh": "精神崩溃",
+			"ja": "マインドブレイク"
+		},
+		"desc": {
+			"es": "Reduce el ataque y DEF mágica enemiga un 20%.",
+			"en": "Reduces enemy magic attack and DEF by 20%.",
+			"fr": "Réduit l'attaque et la DÉF magique ennemies de 20%.",
+			"it": "Riduce l'attacco e la DIF magica nemica del 20%.",
+			"de": "Senkt den magischen Angriff und die VERT des Feindes um 20%.",
+			"zh": "降低敌人 20% 的魔法攻击与防御。",
+			"ja": "敵の魔法攻撃と防御を20%低下させる。"
+		},
+		"icon": "💢",
+		"type": "magic",
+		"element": "none",
+		"power": 0,
+		"cost": 12,
+		"pa_cost": 2,
+		"tag": "psychic_break",
+		"resonance_gain": 15,
+		"status": {
+			"type": "mdef_down",
+			"chance": 1,
+			"turns": 3,
+			"target": "enemy"
+		}
+	},
+	"psy_meditation": {
+		"id": "psy_meditation",
+		"name": {
+			"es": "Meditación",
+			"en": "Meditation",
+			"fr": "Méditation",
+			"it": "Meditazione",
+			"de": "Meditation",
+			"zh": "冥想",
+			"ja": "メディテーション"
+		},
+		"desc": {
+			"es": "Regenera 20 MP y 15 de Resonancia.",
+			"en": "Regenerates 20 MP and 15 Resonance.",
+			"fr": "Régénère 20 PM et 15 Résonance.",
+			"it": "Rigenera 20 MP e 15 Risonanza.",
+			"de": "Regeneriert 20 MP und 15 Resonanz.",
+			"zh": "恢复 20 点 MP 和 15 点共鸣。",
+			"ja": "MPを20、共鳴を15回復する。"
+		},
+		"icon": "🧘",
+		"type": "none",
+		"element": "none",
+		"power": 0,
+		"cost": 0,
+		"pa_cost": 2,
+		"tag": "psychic_meditation",
+		"resonance_gain": 0,
+		"effect": "restore:mp=20,res=15"
+	},
+	"psy_psychic_barrier": {
+		"id": "psy_psychic_barrier",
+		"name": {
+			"es": "Barrera Psíquica",
+			"en": "Psychic Barrier",
+			"fr": "Barrière Psychique",
+			"it": "Barriera Psichica",
+			"de": "Psychische Barriere",
+			"zh": "精神屏障",
+			"ja": "サイキックバリア"
+		},
+		"desc": {
+			"es": "Escudo que reduce el daño recibido (3 turnos).",
+			"en": "Shield that reduces damage taken (3 turns).",
+			"fr": "Bouclier qui réduit les dégâts subis (3 tours).",
+			"it": "Scudo che riduce il danno subito (3 turni).",
+			"de": "Schild, das erlittenen Schaden reduziert (3 Runden).",
+			"zh": "减少受到伤害的护盾（3 回合）。",
+			"ja": "受けるダメージを軽減するシールド（3ターン）。"
+		},
+		"icon": "🛡️",
+		"type": "buff",
+		"element": "none",
+		"power": 0,
+		"cost": 15,
+		"pa_cost": 2,
+		"tag": "psychic_barrier",
+		"resonance_gain": 15,
+		"status": {
+			"type": "muro_ii",
+			"turns": 3,
+			"target": "self"
+		}
+	},
+	"psy_nightmare": {
+		"id": "psy_nightmare",
+		"name": {
+			"es": "Pesadilla",
+			"en": "Nightmare",
+			"fr": "Cauchemar",
+			"it": "Incubo",
+			"de": "Albtraum",
+			"zh": "噩梦",
+			"ja": "ナイトメア"
+		},
+		"desc": {
+			"es": "Daño oscuro con opción de aturdir.",
+			"en": "Dark damage with a chance to stun.",
+			"fr": "Dégâts ténébreux avec une chance d'étourdir.",
+			"it": "Danno oscuro con possibilità di stordire.",
+			"de": "Dunkler Schaden mit Chance auf Betäubung.",
+			"zh": "造成暗影伤害并有机会眩晕敌人。",
+			"ja": "闇ダメージを与え、一定確率でスタンさせる。"
+		},
+		"icon": "🌑",
+		"type": "magic",
+		"element": "none",
+		"power": 90,
+		"cost": 18,
+		"pa_cost": 3,
+		"tag": "psychic_nightmare",
+		"resonance_gain": 25,
+		"status": {
+			"type": "stun",
+			"chance": 0.3,
+			"turns": 1,
+			"target": "enemy"
+		}
+	},
+	"psy_mental_prison": {
+		"id": "psy_mental_prison",
+		"name": {
+			"es": "Prisión Mental",
+			"en": "Mental Prison",
+			"fr": "Prison Mentale",
+			"it": "Prigione Mentale",
+			"de": "Geistesgefängnis",
+			"zh": "精神监牢",
+			"ja": "メンタルプリズン"
+		},
+		"desc": {
+			"es": "Bloquea el ATB y la magia enemiga (2 turnos).",
+			"en": "Blocks enemy ATB and magic (2 turns).",
+			"fr": "Bloque l'ATB et la magie de l'ennemi (2 tours).",
+			"it": "Blocca l'ATB e la magia del nemico (2 turni).",
+			"de": "Blockiert ATB und Magie des Feindes (2 Runden).",
+			"zh": "阻止敌人的 ATB 与魔法（2 回合）。",
+			"ja": "敵のATBと魔法をブロックする（2ターン）。"
+		},
+		"icon": "⛓️",
+		"type": "magic",
+		"element": "none",
+		"power": 0,
+		"cost": 22,
+		"pa_cost": 3,
+		"tag": "psychic_synergy",
+		"resonance_gain": 25,
+		"status": {
+			"type": "chrono_lock",
+			"chance": 1,
+			"turns": 2,
+			"target": "enemy"
+		}
+	},
+	"psy_sixth_sense": {
+		"id": "psy_sixth_sense",
+		"name": {
+			"es": "Sexto Sentido",
+			"en": "Sixth Sense",
+			"fr": "Sixième Sens",
+			"it": "Sesto Senso",
+			"de": "Sechster Sinn",
+			"zh": "第六感",
+			"ja": "シックスセンス"
+		},
+		"desc": {
+			"es": "+40% de esquiva (3 turnos).",
+			"en": "+40% dodge (3 turns).",
+			"fr": "+40% d'esquive (3 tours).",
+			"it": "+40% schivata (3 turni).",
+			"de": "+40% Ausweichen (3 Runden).",
+			"zh": "闪避率 +40%（3 回合）。",
+			"ja": "回避率+40%（3ターン）。"
+		},
+		"icon": "👁️",
+		"type": "buff",
+		"element": "none",
+		"power": 0,
+		"cost": 20,
+		"pa_cost": 2,
+		"tag": "psychic_sense",
+		"resonance_gain": 15,
+		"status": {
+			"type": "esconderse",
+			"turns": 3,
+			"target": "self"
+		}
+	},
+	"psy_astral_burst": {
+		"id": "psy_astral_burst",
+		"name": {
+			"es": "Estallido Astral",
+			"en": "Astral Burst",
+			"fr": "Explosion Astrale",
+			"it": "Esplosione Astrale",
+			"de": "Astralausbruch",
+			"zh": "星辉爆发",
+			"ja": "アストラルバースト"
+		},
+		"desc": {
+			"es": "Poderoso daño psíquico.",
+			"en": "Powerful psychic damage.",
+			"fr": "Puissants dégâts psychiques.",
+			"it": "Potente danno psichico.",
+			"de": "Starker psychischer Schaden.",
+			"zh": "强大的灵能伤害。",
+			"ja": "強力なサイキックダメージ。"
+		},
+		"icon": "💫",
+		"type": "magic",
+		"element": "none",
+		"power": 120,
+		"cost": 30,
+		"pa_cost": 3,
+		"tag": "psychic_astral",
+		"resonance_gain": 25
+	},
+	"psy_astral_nova": {
+		"id": "psy_astral_nova",
+		"name": {
+			"es": "Nova Astral",
+			"en": "Astral Nova",
+			"fr": "Nova Astrale",
+			"it": "Nova Astrale",
+			"de": "Astralnova",
+			"zh": "星辉新星",
+			"ja": "アストラルノヴァ"
+		},
+		"desc": {
+			"es": "Daño psíquico que ignora defensas.",
+			"en": "Psychic damage that ignores defenses.",
+			"fr": "Dégâts psychiques qui ignorent les défenses.",
+			"it": "Danno psichico che ignora le difese.",
+			"de": "Psychischer Schaden, der Verteidigungen ignoriert.",
+			"zh": "无视防御的灵能伤害。",
+			"ja": "防御を無視するサイキックダメージ。"
+		},
+		"icon": "🌌",
+		"type": "magic",
+		"element": "none",
+		"power": 150,
+		"cost": 45,
+		"pa_cost": 3,
+		"tag": "psychic_ultimate",
+		"resonance_gain": 25,
+		"effect": "ignore_def_full"
+	},
+	"psy_mind_burst": {
+		"id": "psy_mind_burst",
+		"name": {
+			"es": "Explosión Mental",
+			"en": "Mind Burst",
+			"fr": "Explosion Mentale",
+			"it": "Esplosione Mentale",
+			"de": "Geistesexplosion",
+			"zh": "精神爆炸",
+			"ja": "マインドバースト"
+		},
+		"desc": {
+			"es": "Sinergia: gran explosión mental.",
+			"en": "Synergy: great mental burst.",
+			"fr": "Synergie : grande explosion mentale.",
+			"it": "Sinergia: grande esplosione mentale.",
+			"de": "Synergie: große Geistesexplosion.",
+			"zh": "协同技：巨大的精神爆炸。",
+			"ja": "シナジー：巨大なマインドバースト。"
+		},
+		"icon": "💥",
+		"type": "magic",
+		"element": "none",
+		"power": 105,
+		"cost": 0,
+		"pa_cost": 2,
+		"tag": "psychic_synergy",
+		"resonance_gain": 35,
+		"is_synergy": true
+	},
+	"psy_psychic_collapse": {
+		"id": "psy_psychic_collapse",
+		"name": {
+			"es": "Colapso Psíquico",
+			"en": "Psychic Collapse",
+			"fr": "Effondrement Psychique",
+			"it": "Collasso Psichico",
+			"de": "Psychischer Kollaps",
+			"zh": "精神崩塌",
+			"ja": "サイキックコラプス"
+		},
+		"desc": {
+			"es": "Sinergia: colapso que ignora DEF mágica.",
+			"en": "Synergy: collapse ignoring magic DEF.",
+			"fr": "Synergie : effondrement ignorant la DÉF magique.",
+			"it": "Sinergia: collasso che ignora la DIF magica.",
+			"de": "Synergie: Kollaps, der die magische VERT ignoriert.",
+			"zh": "协同技：无视魔法防御的崩塌。",
+			"ja": "シナジー：魔法防御を無視するコラプス。"
+		},
+		"icon": "🌀",
+		"type": "magic",
+		"element": "none",
+		"power": 115,
+		"cost": 0,
+		"pa_cost": 2,
+		"tag": "psychic_synergy",
+		"resonance_gain": 35,
+		"is_synergy": true,
+		"effect": "ignore_def_full"
+	},
+	"psy_mind_shatter": {
+		"id": "psy_mind_shatter",
+		"name": {
+			"es": "Fractura Mental",
+			"en": "Mind Shatter",
+			"fr": "Fracture Mentale",
+			"it": "Frattura Mentale",
+			"de": "Geistesbruch II",
+			"zh": "精神碎裂",
+			"ja": "マインドシャター"
+		},
+		"desc": {
+			"es": "Sinergia: daño psíquico que confunde al enemigo.",
+			"en": "Synergy: psychic damage that confuses the enemy.",
+			"fr": "Synergie : dégâts psychiques qui confondent l'ennemi.",
+			"it": "Sinergia: danno psichico che confonde il nemico.",
+			"de": "Synergie: psychischer Schaden, der den Feind verwirrt.",
+			"zh": "协同技：造成灵能伤害并使敌人混乱。",
+			"ja": "シナジー：サイキックダメージで敵を混乱させる。"
+		},
+		"icon": "🧩",
+		"type": "magic",
+		"element": "none",
+		"power": 100,
+		"cost": 0,
+		"pa_cost": 2,
+		"tag": "psychic_synergy",
+		"resonance_gain": 35,
+		"is_synergy": true,
+		"status": {
+			"type": "confusion",
+			"chance": 1,
+			"turns": 2,
+			"target": "enemy"
+		}
+	},
+	"ele_fire_1": {
+		"id": "ele_fire_1",
+		"name": {
+			"es": "Fuego I",
+			"en": "Fire I",
+			"fr": "Feu I",
+			"it": "Fuoco I",
+			"de": "Feuer I",
+			"zh": "火焰 I",
+			"ja": "ファイアI"
+		},
+		"desc": {
+			"es": "Hechizo de fuego.",
+			"en": "Fire spell.",
+			"fr": "Sort de feu.",
+			"it": "Incantesimo di fuoco.",
+			"de": "Feuerzauber.",
+			"zh": "火系法术。",
+			"ja": "火の魔法。"
+		},
+		"icon": "🔥",
+		"type": "magic",
+		"element": "fire",
+		"power": 45,
+		"cost": 3,
+		"pa_cost": 1,
+		"tag": "elem_fire",
+		"resonance_gain": 8
+	},
+	"ele_water_1": {
+		"id": "ele_water_1",
+		"name": {
+			"es": "Agua I",
+			"en": "Water I",
+			"fr": "Eau I",
+			"it": "Acqua I",
+			"de": "Wasser I",
+			"zh": "水波 I",
+			"ja": "ウォータI"
+		},
+		"desc": {
+			"es": "Hechizo de agua.",
+			"en": "Water spell.",
+			"fr": "Sort d'eau.",
+			"it": "Incantesimo d'acqua.",
+			"de": "Wasserzauber.",
+			"zh": "水系法术。",
+			"ja": "水の魔法。"
+		},
+		"icon": "💧",
+		"type": "magic",
+		"element": "water",
+		"power": 45,
+		"cost": 3,
+		"pa_cost": 1,
+		"tag": "elem_water",
+		"resonance_gain": 8
+	},
+	"ele_wind_1": {
+		"id": "ele_wind_1",
+		"name": {
+			"es": "Viento I",
+			"en": "Wind I",
+			"fr": "Vent I",
+			"it": "Vento I",
+			"de": "Wind I",
+			"zh": "风刃 I",
+			"ja": "ウインドI"
+		},
+		"desc": {
+			"es": "Hechizo de viento.",
+			"en": "Wind spell.",
+			"fr": "Sort de vent.",
+			"it": "Incantesimo di vento.",
+			"de": "Windzauber.",
+			"zh": "风系法术。",
+			"ja": "風の魔法。"
+		},
+		"icon": "🌬️",
+		"type": "magic",
+		"element": "wind",
+		"power": 45,
+		"cost": 3,
+		"pa_cost": 1,
+		"tag": "elem_wind",
+		"resonance_gain": 8
+	},
+	"ele_earth_1": {
+		"id": "ele_earth_1",
+		"name": {
+			"es": "Tierra I",
+			"en": "Earth I",
+			"fr": "Terre I",
+			"it": "Terra I",
+			"de": "Erde I",
+			"zh": "土坑 I",
+			"ja": "アースI"
+		},
+		"desc": {
+			"es": "Hechizo de tierra.",
+			"en": "Earth spell.",
+			"fr": "Sort de terre.",
+			"it": "Incantesimo di terra.",
+			"de": "Erdzauber.",
+			"zh": "土系法术。",
+			"ja": "土の魔法。"
+		},
+		"icon": "🪨",
+		"type": "magic",
+		"element": "earth",
+		"power": 45,
+		"cost": 3,
+		"pa_cost": 1,
+		"tag": "elem_earth",
+		"resonance_gain": 8
+	},
+	"ele_fire_2": {
+		"id": "ele_fire_2",
+		"name": {
+			"es": "Fuego II",
+			"en": "Fire II",
+			"fr": "Feu II",
+			"it": "Fuoco II",
+			"de": "Feuer II",
+			"zh": "火焰 II",
+			"ja": "ファイアII"
+		},
+		"desc": {
+			"es": "Hechizo de fuego mejorado.",
+			"en": "Improved fire spell.",
+			"fr": "Sort de feu amélioré.",
+			"it": "Incantesimo di fuoco migliorato.",
+			"de": "Verbesserter Feuerzauber.",
+			"zh": "强化的火系法术。",
+			"ja": "強化された火の魔法。"
+		},
+		"icon": "🔥",
+		"type": "magic",
+		"element": "fire",
+		"power": 80,
+		"cost": 6,
+		"pa_cost": 2,
+		"tag": "elem_fire",
+		"resonance_gain": 15
+	},
+	"ele_water_2": {
+		"id": "ele_water_2",
+		"name": {
+			"es": "Agua II",
+			"en": "Water II",
+			"fr": "Eau II",
+			"it": "Acqua II",
+			"de": "Wasser II",
+			"zh": "水波 II",
+			"ja": "ウォータII"
+		},
+		"desc": {
+			"es": "Hechizo de agua mejorado.",
+			"en": "Improved water spell.",
+			"fr": "Sort d'eau amélioré.",
+			"it": "Incantesimo d'acqua migliorato.",
+			"de": "Verbesserter Wasserzauber.",
+			"zh": "强化的水系法术。",
+			"ja": "強化された水の魔法。"
+		},
+		"icon": "💧",
+		"type": "magic",
+		"element": "water",
+		"power": 80,
+		"cost": 6,
+		"pa_cost": 2,
+		"tag": "elem_water",
+		"resonance_gain": 15
+	},
+	"ele_wind_2": {
+		"id": "ele_wind_2",
+		"name": {
+			"es": "Viento II",
+			"en": "Wind II",
+			"fr": "Vent II",
+			"it": "Vento II",
+			"de": "Wind II",
+			"zh": "风刃 II",
+			"ja": "ウインドII"
+		},
+		"desc": {
+			"es": "Hechizo de viento mejorado.",
+			"en": "Improved wind spell.",
+			"fr": "Sort de vent amélioré.",
+			"it": "Incantesimo di vento migliorato.",
+			"de": "Verbesserter Windzauber.",
+			"zh": "强化的风系法术。",
+			"ja": "強化された風の魔法。"
+		},
+		"icon": "🌬️",
+		"type": "magic",
+		"element": "wind",
+		"power": 80,
+		"cost": 6,
+		"pa_cost": 2,
+		"tag": "elem_wind",
+		"resonance_gain": 15
+	},
+	"ele_earth_2": {
+		"id": "ele_earth_2",
+		"name": {
+			"es": "Tierra II",
+			"en": "Earth II",
+			"fr": "Terre II",
+			"it": "Terra II",
+			"de": "Erde II",
+			"zh": "土坑 II",
+			"ja": "アースII"
+		},
+		"desc": {
+			"es": "Hechizo de tierra mejorado.",
+			"en": "Improved earth spell.",
+			"fr": "Sort de terre amélioré.",
+			"it": "Incantesimo di terra migliorato.",
+			"de": "Verbesserter Erdzauber.",
+			"zh": "强化的土系法术。",
+			"ja": "強化された土の魔法。"
+		},
+		"icon": "🪨",
+		"type": "magic",
+		"element": "earth",
+		"power": 80,
+		"cost": 6,
+		"pa_cost": 2,
+		"tag": "elem_earth",
+		"resonance_gain": 15
+	},
+	"ele_fire_3": {
+		"id": "ele_fire_3",
+		"name": {
+			"es": "Fuego III",
+			"en": "Fire III",
+			"fr": "Feu III",
+			"it": "Fuoco III",
+			"de": "Feuer III",
+			"zh": "火焰 III",
+			"ja": "ファイアIII"
+		},
+		"desc": {
+			"es": "Hechizo de fuego supremo.",
+			"en": "Supreme fire spell.",
+			"fr": "Sort de feu suprême.",
+			"it": "Incantesimo di fuoco supremo.",
+			"de": "Ultimativer Feuerzauber.",
+			"zh": "极致火系法术。",
+			"ja": "極致の火の魔法。"
+		},
+		"icon": "🔥",
+		"type": "magic",
+		"element": "fire",
+		"power": 120,
+		"cost": 15,
+		"pa_cost": 3,
+		"tag": "elem_fire",
+		"resonance_gain": 25
+	},
+	"ele_water_3": {
+		"id": "ele_water_3",
+		"name": {
+			"es": "Agua III",
+			"en": "Water III",
+			"fr": "Eau III",
+			"it": "Acqua III",
+			"de": "Wasser III",
+			"zh": "水波 III",
+			"ja": "ウォータIII"
+		},
+		"desc": {
+			"es": "Hechizo de agua supremo.",
+			"en": "Supreme water spell.",
+			"fr": "Sort d'eau suprême.",
+			"it": "Incantesimo d'acqua supremo.",
+			"de": "Ultimativer Wasserzauber.",
+			"zh": "极致水系法术。",
+			"ja": "極致の水の魔法。"
+		},
+		"icon": "💧",
+		"type": "magic",
+		"element": "water",
+		"power": 120,
+		"cost": 15,
+		"pa_cost": 3,
+		"tag": "elem_water",
+		"resonance_gain": 25
+	},
+	"ele_wind_3": {
+		"id": "ele_wind_3",
+		"name": {
+			"es": "Viento III",
+			"en": "Wind III",
+			"fr": "Vent III",
+			"it": "Vento III",
+			"de": "Wind III",
+			"zh": "风刃 III",
+			"ja": "ウインドIII"
+		},
+		"desc": {
+			"es": "Hechizo de viento supremo.",
+			"en": "Supreme wind spell.",
+			"fr": "Sort de vent suprême.",
+			"it": "Incantesimo di vento supremo.",
+			"de": "Ultimativer Windzauber.",
+			"zh": "极致风系法术。",
+			"ja": "極致の風の魔法。"
+		},
+		"icon": "🌬️",
+		"type": "magic",
+		"element": "wind",
+		"power": 120,
+		"cost": 15,
+		"pa_cost": 3,
+		"tag": "elem_wind",
+		"resonance_gain": 25
+	},
+	"ele_earth_3": {
+		"id": "ele_earth_3",
+		"name": {
+			"es": "Tierra III",
+			"en": "Earth III",
+			"fr": "Terre III",
+			"it": "Terra III",
+			"de": "Erde III",
+			"zh": "土坑 III",
+			"ja": "アースIII"
+		},
+		"desc": {
+			"es": "Hechizo de tierra supremo.",
+			"en": "Supreme earth spell.",
+			"fr": "Sort de terre suprême.",
+			"it": "Incantesimo di terra supremo.",
+			"de": "Ultimativer Erdzauber.",
+			"zh": "极致土系法术。",
+			"ja": "極致の土の魔法。"
+		},
+		"icon": "🪨",
+		"type": "magic",
+		"element": "earth",
+		"power": 120,
+		"cost": 15,
+		"pa_cost": 3,
+		"tag": "elem_earth",
+		"resonance_gain": 25
+	},
+	"ele_ultima": {
+		"id": "ele_ultima",
+		"name": {
+			"es": "Última",
+			"en": "Ultima",
+			"fr": "Ultima",
+			"it": "Ultima",
+			"de": "Ultima",
+			"zh": "极限魔法",
+			"ja": "アルテマ"
+		},
+		"desc": {
+			"es": "Daño absoluto que ignora la DEF mágica.",
+			"en": "Absolute damage ignoring magic DEF.",
+			"fr": "Dégâts absolus ignorant la DÉF magique.",
+			"it": "Danno assoluto che ignora la DIF magica.",
+			"de": "Absoluter Schaden, der die magische VERT ignoriert.",
+			"zh": "无视魔法防御的绝对伤害。",
+			"ja": "魔法防御を無視する絶対ダメージ。"
+		},
+		"icon": "☄️",
+		"type": "magic",
+		"element": "none",
+		"power": 150,
+		"cost": 35,
+		"pa_cost": 3,
+		"tag": "elem_ultimate",
+		"resonance_gain": 25,
+		"effect": "ignore_def_full"
+	},
+	"ele_lightning": {
+		"id": "ele_lightning",
+		"name": {
+			"es": "Rayo",
+			"en": "Lightning",
+			"fr": "Foudre",
+			"it": "Fulmine",
+			"de": "Blitz",
+			"zh": "雷电",
+			"ja": "ライトニング"
+		},
+		"desc": {
+			"es": "Sinergia: Fuego + Viento.",
+			"en": "Synergy: Fire + Wind.",
+			"fr": "Synergie : Feu + Vent.",
+			"it": "Sinergia: Fuoco + Vento.",
+			"de": "Synergie: Feuer + Wind.",
+			"zh": "协同技：火 + 风。",
+			"ja": "シナジー：火+風。"
+		},
+		"icon": "⚡",
+		"type": "magic",
+		"element": "lightning",
+		"power": 95,
+		"cost": 0,
+		"pa_cost": 2,
+		"tag": "elem_synergy",
+		"resonance_gain": 35,
+		"is_synergy": true
+	},
+	"ele_magma": {
+		"id": "ele_magma",
+		"name": {
+			"es": "Magma",
+			"en": "Magma",
+			"fr": "Magma",
+			"it": "Magma",
+			"de": "Magma",
+			"zh": "岩浆",
+			"ja": "マグマ"
+		},
+		"desc": {
+			"es": "Sinergia: Fuego + Tierra.",
+			"en": "Synergy: Fire + Earth.",
+			"fr": "Synergie : Feu + Terre.",
+			"it": "Sinergia: Fuoco + Terra.",
+			"de": "Synergie: Feuer + Erde.",
+			"zh": "协同技：火 + 土。",
+			"ja": "シナジー：火+土。"
+		},
+		"icon": "🌋",
+		"type": "magic",
+		"element": "fire",
+		"power": 95,
+		"cost": 0,
+		"pa_cost": 2,
+		"tag": "elem_synergy",
+		"resonance_gain": 35,
+		"is_synergy": true
+	},
+	"ele_steam": {
+		"id": "ele_steam",
+		"name": {
+			"es": "Vapor",
+			"en": "Steam",
+			"fr": "Vapeur",
+			"it": "Vapore",
+			"de": "Dampf",
+			"zh": "蒸汽",
+			"ja": "スチーム"
+		},
+		"desc": {
+			"es": "Sinergia: Fuego + Agua.",
+			"en": "Synergy: Fire + Water.",
+			"fr": "Synergie : Feu + Eau.",
+			"it": "Sinergia: Fuoco + Acqua.",
+			"de": "Synergie: Feuer + Wasser.",
+			"zh": "协同技：火 + 水。",
+			"ja": "シナジー：火+水。"
+		},
+		"icon": "♨️",
+		"type": "magic",
+		"element": "water",
+		"power": 90,
+		"cost": 0,
+		"pa_cost": 2,
+		"tag": "elem_synergy",
+		"resonance_gain": 35,
+		"is_synergy": true
+	},
+	"ele_ice": {
+		"id": "ele_ice",
+		"name": {
+			"es": "Hielo",
+			"en": "Ice",
+			"fr": "Glace",
+			"it": "Ghiaccio",
+			"de": "Eis",
+			"zh": "寒冰",
+			"ja": "アイス"
+		},
+		"desc": {
+			"es": "Sinergia: Agua + Viento.",
+			"en": "Synergy: Water + Wind.",
+			"fr": "Synergie : Eau + Vent.",
+			"it": "Sinergia: Acqua + Vento.",
+			"de": "Synergie: Wasser + Wind.",
+			"zh": "协同技：水 + 风。",
+			"ja": "シナジー：水+風。"
+		},
+		"icon": "❄️",
+		"type": "magic",
+		"element": "ice",
+		"power": 95,
+		"cost": 0,
+		"pa_cost": 2,
+		"tag": "elem_synergy",
+		"resonance_gain": 35,
+		"is_synergy": true,
+		"status": {
+			"type": "slow",
+			"chance": 0.5,
+			"turns": 2,
+			"target": "enemy"
+		}
+	},
+	"ele_nature": {
+		"id": "ele_nature",
+		"name": {
+			"es": "Naturaleza",
+			"en": "Nature",
+			"fr": "Nature",
+			"it": "Natura",
+			"de": "Natur",
+			"zh": "自然之力",
+			"ja": "ネイチャー"
+		},
+		"desc": {
+			"es": "Sinergia: Agua + Tierra.",
+			"en": "Synergy: Water + Earth.",
+			"fr": "Synergie : Eau + Terre.",
+			"it": "Sinergia: Acqua + Terra.",
+			"de": "Synergie: Wasser + Erde.",
+			"zh": "协同技：水 + 土。",
+			"ja": "シナジー：水+土。"
+		},
+		"icon": "🌿",
+		"type": "magic",
+		"element": "earth",
+		"power": 90,
+		"cost": 0,
+		"pa_cost": 2,
+		"tag": "elem_synergy",
+		"resonance_gain": 35,
+		"is_synergy": true
+	},
+	"ele_sandstorm": {
+		"id": "ele_sandstorm",
+		"name": {
+			"es": "Tormenta de Arena",
+			"en": "Sandstorm",
+			"fr": "Tempête de Sable",
+			"it": "Tempesta di Sabbia",
+			"de": "Sandsturm",
+			"zh": "沙暴",
+			"ja": "サンドストーム"
+		},
+		"desc": {
+			"es": "Sinergia: Tierra + Viento.",
+			"en": "Synergy: Earth + Wind.",
+			"fr": "Synergie : Terre + Vent.",
+			"it": "Sinergia: Terra + Vento.",
+			"de": "Synergie: Erde + Wind.",
+			"zh": "协同技：土 + 风。",
+			"ja": "シナジー：土+風。"
+		},
+		"icon": "🌪️",
+		"type": "magic",
+		"element": "wind",
+		"power": 90,
+		"cost": 0,
+		"pa_cost": 2,
+		"tag": "elem_synergy",
+		"resonance_gain": 35,
+		"is_synergy": true
+	},
+	"pri_heal": {
+		"id": "pri_heal",
+		"name": {
+			"es": "Curar",
+			"en": "Heal",
+			"fr": "Soin",
+			"it": "Cura",
+			"de": "Heilung",
+			"zh": "治愈",
+			"ja": "ヒール"
+		},
+		"desc": {
+			"es": "Restaura HP.",
+			"en": "Restores HP.",
+			"fr": "Restaure les PV.",
+			"it": "Ripristina gli HP.",
+			"de": "Stellt HP wieder her.",
+			"zh": "恢复生命值。",
+			"ja": "HPを回復する。"
+		},
+		"icon": "💚",
+		"type": "heal",
+		"element": "none",
+		"power": 40,
+		"cost": 4,
+		"pa_cost": 1,
+		"tag": "priest_heal",
+		"resonance_gain": 8,
+		"target": "self"
+	},
+	"pri_cure_poison": {
+		"id": "pri_cure_poison",
+		"name": {
+			"es": "Curar Veneno",
+			"en": "Cure Poison",
+			"fr": "Guérir Poison",
+			"it": "Cura Veleno",
+			"de": "Gift heilen",
+			"zh": "解毒",
+			"ja": "キュアポイズン"
+		},
+		"desc": {
+			"es": "Cura veneno y estados básicos.",
+			"en": "Cures poison and basic ailments.",
+			"fr": "Guérit le poison et les afflictions de base.",
+			"it": "Cura il veleno e i disturbi di base.",
+			"de": "Heilt Gift und grundlegende Leiden.",
+			"zh": "治愈中毒与基础异常状态。",
+			"ja": "毒と基本的な状態異常を治す。"
+		},
+		"icon": "🧼",
+		"type": "heal",
+		"element": "none",
+		"power": 0,
+		"cost": 3,
+		"pa_cost": 1,
+		"tag": "priest_cure",
+		"resonance_gain": 8,
+		"effect": "cleanse"
+	},
+	"pri_blessing": {
+		"id": "pri_blessing",
+		"name": {
+			"es": "Bendición",
+			"en": "Blessing",
+			"fr": "Bénédiction",
+			"it": "Benedizione",
+			"de": "Segen",
+			"zh": "祝福",
+			"ja": "ブレッシング"
+		},
+		"desc": {
+			"es": "+15% a todas las estadísticas (3 turnos).",
+			"en": "+15% to all stats (3 turns).",
+			"fr": "+15% à toutes les statistiques (3 tours).",
+			"it": "+15% a tutte le statistiche (3 turni).",
+			"de": "+15% auf alle Statuswerte (3 Runden).",
+			"zh": "所有属性 +15%（3 回合）。",
+			"ja": "全能力値+15%（3ターン）。"
+		},
+		"icon": "🌟",
+		"type": "buff",
+		"element": "none",
+		"power": 0,
+		"cost": 5,
+		"pa_cost": 1,
+		"tag": "priest_blessing",
+		"resonance_gain": 8,
+		"status": {
+			"type": "blessing",
+			"turns": 3,
+			"target": "self"
+		}
+	},
+	"pri_holy_light": {
+		"id": "pri_holy_light",
+		"name": {
+			"es": "Luz Sagrada",
+			"en": "Holy Light",
+			"fr": "Lumière Sacrée",
+			"it": "Luce Sacra",
+			"de": "Heiliges Licht",
+			"zh": "神圣之光",
+			"ja": "ホーリーライト"
+		},
+		"desc": {
+			"es": "Daño sagrado.",
+			"en": "Holy damage.",
+			"fr": "Dégâts sacrés.",
+			"it": "Danno sacro.",
+			"de": "Heiliger Schaden.",
+			"zh": "神圣伤害。",
+			"ja": "神聖ダメージ。"
+		},
+		"icon": "✨",
+		"type": "magic",
+		"element": "holy",
+		"power": 60,
+		"cost": 6,
+		"pa_cost": 2,
+		"tag": "priest_holy",
+		"resonance_gain": 15
+	},
+	"pri_protect": {
+		"id": "pri_protect",
+		"name": {
+			"es": "Proteger",
+			"en": "Protect",
+			"fr": "Protéger",
+			"it": "Proteggere",
+			"de": "Schutz",
+			"zh": "防护",
+			"ja": "プロテキング"
+		},
+		"desc": {
+			"es": "+25% DEF física (3 turnos).",
+			"en": "+25% physical DEF (3 turns).",
+			"fr": "+25% DÉF physique (3 tours).",
+			"it": "+25% DIF fisica (3 turni).",
+			"de": "+25% physische VERT (3 Runden).",
+			"zh": "物理防御 +25%（3 回合）。",
+			"ja": "物理防御+25%（3ターン）。"
+		},
+		"icon": "🛡️",
+		"type": "buff",
+		"element": "none",
+		"power": 0,
+		"cost": 8,
+		"pa_cost": 2,
+		"tag": "priest_protect",
+		"resonance_gain": 15,
+		"status": {
+			"type": "barrera",
+			"turns": 3,
+			"target": "self"
+		}
+	},
+	"pri_shell": {
+		"id": "pri_shell",
+		"name": {
+			"es": "Coraza",
+			"en": "Shell",
+			"fr": "Carapace",
+			"it": "Corazza",
+			"de": "Panzer",
+			"zh": "魔盾",
+			"ja": "シェル"
+		},
+		"desc": {
+			"es": "+25% DEF mágica (3 turnos).",
+			"en": "+25% magic DEF (3 turns).",
+			"fr": "+25% DÉF magique (3 tours).",
+			"it": "+25% DIF magica (3 turni).",
+			"de": "+25% magische VERT (3 Runden).",
+			"zh": "魔法防御 +25%（3 回合）。",
+			"ja": "魔法防御+25%（3ターン）。"
+		},
+		"icon": "🛡️",
+		"type": "buff",
+		"element": "none",
+		"power": 0,
+		"cost": 8,
+		"pa_cost": 2,
+		"tag": "priest_shell",
+		"resonance_gain": 15,
+		"status": {
+			"type": "escudo",
+			"turns": 3,
+			"target": "self"
+		}
+	},
+	"pri_greater_heal": {
+		"id": "pri_greater_heal",
+		"name": {
+			"es": "Gran Cura",
+			"en": "Greater Heal",
+			"fr": "Grand Soin",
+			"it": "Grande Cura",
+			"de": "Große Heilung",
+			"zh": "大治愈",
+			"ja": "グレートヒール"
+		},
+		"desc": {
+			"es": "Gran restauración de HP.",
+			"en": "Great HP restoration.",
+			"fr": "Grande restauration de PV.",
+			"it": "Grande ripristino di HP.",
+			"de": "Große HP-Wiederherstellung.",
+			"zh": "大幅恢复生命值。",
+			"ja": "HPを大幅に回復する。"
+		},
+		"icon": "💚",
+		"type": "heal",
+		"element": "none",
+		"power": 90,
+		"cost": 12,
+		"pa_cost": 2,
+		"tag": "priest_heal",
+		"resonance_gain": 15,
+		"target": "self"
+	},
+	"pri_sanctuary": {
+		"id": "pri_sanctuary",
+		"name": {
+			"es": "Santuario",
+			"en": "Sanctuary",
+			"fr": "Sanctuaire",
+			"it": "Santuario",
+			"de": "Heiligtum",
+			"zh": "圣域",
+			"ja": "サンクチュアリ"
+		},
+		"desc": {
+			"es": "Regeneración masiva periódica (5 turnos).",
+			"en": "Massive periodic regeneration (5 turns).",
+			"fr": "Régénération massive périodique (5 tours).",
+			"it": "Rigenerazione massiccia periodica (5 turni).",
+			"de": "Massive periodische Regeneration (5 Runden).",
+			"zh": "周期性大幅恢复（5 回合）。",
+			"ja": "大量の定期回復（5ターン）。"
+		},
+		"icon": "⛪",
+		"type": "buff",
+		"element": "none",
+		"power": 0,
+		"cost": 16,
+		"pa_cost": 2,
+		"tag": "priest_sanctuary",
+		"resonance_gain": 15,
+		"status": {
+			"type": "regen",
+			"turns": 5,
+			"target": "self"
+		}
+	},
+	"pri_holy_spear": {
+		"id": "pri_holy_spear",
+		"name": {
+			"es": "Lanza Sagrada",
+			"en": "Holy Spear",
+			"fr": "Lance Sacrée",
+			"it": "Lancia Sacra",
+			"de": "Heiliger Speer",
+			"zh": "神圣枪",
+			"ja": "ホーリースピアー"
+		},
+		"desc": {
+			"es": "Gran daño sagrado.",
+			"en": "Great holy damage.",
+			"fr": "Grands dégâts sacrés.",
+			"it": "Grande danno sacro.",
+			"de": "Großer heiliger Schaden.",
+			"zh": "强大的神圣伤害。",
+			"ja": "強大な神聖ダメージ。"
+		},
+		"icon": "🔱",
+		"type": "magic",
+		"element": "holy",
+		"power": 100,
+		"cost": 18,
+		"pa_cost": 3,
+		"tag": "priest_holy_spear",
+		"resonance_gain": 25
+	},
+	"pri_resurrection": {
+		"id": "pri_resurrection",
+		"name": {
+			"es": "Resurrección",
+			"en": "Resurrection",
+			"fr": "Résurrection",
+			"it": "Resurrezione",
+			"de": "Wiederauferstehung",
+			"zh": "复苏",
+			"ja": "リレイズ"
+		},
+		"desc": {
+			"es": "Te salva de la muerte con 50% HP.",
+			"en": "Saves you from death at 50% HP.",
+			"fr": "Vous sauve de la mort avec 50% de PV.",
+			"it": "Ti salva dalla morte con il 50% degli HP.",
+			"de": "Rettet dich mit 50% HP vor dem Tod.",
+			"zh": "在你陷入死亡时以 50% 生命值拯救你。",
+			"ja": "死亡する際にHP50%で救う。"
+		},
+		"icon": "😇",
+		"type": "buff",
+		"element": "none",
+		"power": 0,
+		"cost": 25,
+		"pa_cost": 3,
+		"tag": "priest_revive",
+		"resonance_gain": 25,
+		"effect": "revive:50"
+	},
+	"pri_divine_prayer": {
+		"id": "pri_divine_prayer",
+		"name": {
+			"es": "Plegaria Divina",
+			"en": "Divine Prayer",
+			"fr": "Prière Divine",
+			"it": "Preghiera Divina",
+			"de": "Göttliches Gebet",
+			"zh": "神圣祷告",
+			"ja": "ディヴァインプレイヤー"
+		},
+		"desc": {
+			"es": "Restaura MP y Resonancia.",
+			"en": "Restores MP and Resonance.",
+			"fr": "Restaure les PM et la Résonance.",
+			"it": "Ripristina MP e Risonanza.",
+			"de": "Stellt MP und Resonanz wieder her.",
+			"zh": "恢复 MP 与共鸣。",
+			"ja": "MPと共鳴を回復する。"
+		},
+		"icon": "🙏",
+		"type": "none",
+		"element": "none",
+		"power": 0,
+		"cost": 15,
+		"pa_cost": 2,
+		"tag": "priest_prayer",
+		"resonance_gain": 0,
+		"effect": "restore:mp=25,res=20"
+	},
+	"pri_judgement": {
+		"id": "pri_judgement",
+		"name": {
+			"es": "Juicio",
+			"en": "Judgement",
+			"fr": "Jugement",
+			"it": "Giudizio",
+			"de": "Urteil",
+			"zh": "制裁",
+			"ja": "ジャジメント"
+		},
+		"desc": {
+			"es": "Gran daño sagrado (sinergia de Luz).",
+			"en": "Great holy damage (Light synergy).",
+			"fr": "Grands dégâts sacrés (synergie de Lumière).",
+			"it": "Grande danno sacro (sinergia di Luce).",
+			"de": "Großer heiliger Schaden (Licht-Synergie).",
+			"zh": "强大的神圣伤害（光系协同技）。",
+			"ja": "強大な神聖ダメージ（光のシナジー）。"
+		},
+		"icon": "⚖️",
+		"type": "magic",
+		"element": "holy",
+		"power": 120,
+		"cost": 28,
+		"pa_cost": 3,
+		"tag": "priest_synergy",
+		"resonance_gain": 25
+	},
+	"pri_miracle": {
+		"id": "pri_miracle",
+		"name": {
+			"es": "Milagro",
+			"en": "Miracle",
+			"fr": "Miracle",
+			"it": "Miracolo",
+			"de": "Wunder",
+			"zh": "奇迹",
+			"ja": "ミラクル"
+		},
+		"desc": {
+			"es": "Recuperación total de HP y limpia estados.",
+			"en": "Full HP recovery and cleanses statuses.",
+			"fr": "Récupération totale des PV et purification des états.",
+			"it": "Recupero totale di HP e rimozione degli stati.",
+			"de": "Vollständige HP-Wiederherstellung und Statusbereinigung.",
+			"zh": "完全恢复生命值并消除异常状态。",
+			"ja": "HPを完全回復し、状態異常を消去する。"
+		},
+		"icon": "🙌",
+		"type": "heal",
+		"element": "none",
+		"power": 200,
+		"cost": 50,
+		"pa_cost": 3,
+		"tag": "priest_ultimate",
+		"resonance_gain": 25,
+		"target": "self",
+		"effect": "cleanse"
+	},
+	"pri_holy_grace": {
+		"id": "pri_holy_grace",
+		"name": {
+			"es": "Gracia Sagrada",
+			"en": "Holy Grace",
+			"fr": "Grâce Sacrée",
+			"it": "Grazia Sacra",
+			"de": "Heilige Gnade",
+			"zh": "神圣恩典",
+			"ja": "ホーリーグレイス"
+		},
+		"desc": {
+			"es": "Sinergia: cura masiva y limpia estados.",
+			"en": "Synergy: massive heal and cleanse.",
+			"fr": "Synergie : soin massif et purification.",
+			"it": "Sinergia: cura massiccia e rimozione degli stati.",
+			"de": "Synergie: massive Heilung und Statusbereinigung.",
+			"zh": "协同技：大量治愈并消除异常状态。",
+			"ja": "シナジー：大量回復と状態異常の消去。"
+		},
+		"icon": "💖",
+		"type": "heal",
+		"element": "none",
+		"power": 120,
+		"cost": 0,
+		"pa_cost": 2,
+		"tag": "priest_synergy",
+		"resonance_gain": 35,
+		"is_synergy": true,
+		"target": "self",
+		"effect": "cleanse"
+	},
+	"pri_divine_fortress": {
+		"id": "pri_divine_fortress",
+		"name": {
+			"es": "Fortaleza Divina",
+			"en": "Divine Fortress",
+			"fr": "Forteresse Divine",
+			"it": "Fortezza Divina",
+			"de": "Göttliche Festung",
+			"zh": "神圣要塞",
+			"ja": "ディヴァインフォートレス"
+		},
+		"desc": {
+			"es": "Sinergia: gran reducción física y mágica.",
+			"en": "Synergy: great physical and magic reduction.",
+			"fr": "Synergie : grande réduction physique et magique.",
+			"it": "Sinergia: grande riduzione fisica e magica.",
+			"de": "Synergie: große physische und magische Reduktion.",
+			"zh": "协同技：大幅减少物理与魔法伤害。",
+			"ja": "シナジー：大幅な物理・魔法軽減。"
+		},
+		"icon": "🏰",
+		"type": "buff",
+		"element": "none",
+		"power": 0,
+		"cost": 0,
+		"pa_cost": 2,
+		"tag": "priest_synergy",
+		"resonance_gain": 35,
+		"is_synergy": true,
+		"status": {
+			"type": "muro_ii",
+			"turns": 3,
+			"target": "self"
+		}
+	},
+	"nob_punch": {
+		"id": "nob_punch",
+		"name": {
+			"es": "Guantazo",
+			"en": "Punch",
+			"fr": "Coup de Poing",
+			"it": "Pugno",
+			"de": "Faustschlag",
+			"zh": "拳击",
+			"ja": "パンチ"
+		},
+		"desc": {
+			"es": "Ataque cómico de Don Nadie. Quita exactamente tanto daño como nivel tiene el héroe.",
+			"en": "A comical Nobody attack. Deals damage exactly equal to the hero's level.",
+			"fr": "Attaque comique de Monsieur Personne. Inflige des dégâts exactement égaux au niveau du héros.",
+			"it": "Attacco comico di Nessuno. Infligge danno esattamente pari al livello dell'eroe.",
+			"de": "Ein komischer Niemand-Angriff. Fügt Schaden genau in Höhe des Heldenlevels zu.",
+			"zh": "无名氏的滑稽攻击。造成与英雄等级完全相等的伤害。",
+			"ja": "ノーバディのコミカルな攻撃。主人公のレベルと完全に同じダメージを与える。"
+		},
+		"icon": "👊",
+		"type": "physical",
+		"element": "physical",
+		"power": 0,
+		"cost": 0,
+		"pa_cost": 1,
+		"tag": "nobody_punch",
+		"resonance_gain": 8,
+		"never_miss": true
+	},
+	"nob_talk": {
+		"id": "nob_talk",
+		"name": {
+			"es": "Hablar",
+			"en": "Talk",
+			"fr": "Parler",
+			"it": "Parlare",
+			"de": "Reden",
+			"zh": "交谈",
+			"ja": "話す"
+		},
+		"desc": {
+			"es": "Intenta dialogar; puede confundir.",
+			"en": "Tries to talk; may confuse.",
+			"fr": "Tente de discuter ; peut confondre.",
+			"it": "Tenta di parlare; può confondere.",
+			"de": "Versucht zu reden; kann verwirren.",
+			"zh": "尝试交谈，可能使敌人混乱。",
+			"ja": "話しかけようとする。混乱させることがある。"
+		},
+		"icon": "💬",
+		"type": "none",
+		"element": "none",
+		"power": 0,
+		"cost": 0,
+		"pa_cost": 1,
+		"tag": "nobody_talk",
+		"resonance_gain": 8,
+		"effect": "talk"
+	},
+	"nob_shout": {
+		"id": "nob_shout",
+		"name": {
+			"es": "Gritar",
+			"en": "Shout",
+			"fr": "Crier",
+			"it": "Gridare",
+			"de": "Schreien",
+			"zh": "吶喊",
+			"ja": "叫ぶ"
+		},
+		"desc": {
+			"es": "Reduce el ataque enemigo un 10% (2 turnos).",
+			"en": "Reduces enemy attack by 10% (2 turns).",
+			"fr": "Réduit l'attaque ennemie de 10% (2 tours).",
+			"it": "Riduce l'attacco nemico del 10% (2 turni).",
+			"de": "Senkt den feindlichen Angriff um 10% (2 Runden).",
+			"zh": "降低敌人 10% 的攻击力（2 回合）。",
+			"ja": "敵の攻撃力を10%低下させる（2ターン）。"
+		},
+		"icon": "🗣️",
+		"type": "none",
+		"element": "none",
+		"power": 0,
+		"cost": 2,
+		"pa_cost": 1,
+		"tag": "nobody_shout",
+		"resonance_gain": 8,
+		"status": {
+			"type": "atk_down",
+			"chance": 1,
+			"turns": 2,
+			"target": "enemy"
+		}
+	},
+	"nob_beg": {
+		"id": "nob_beg",
+		"name": {
+			"es": "Suplicar",
+			"en": "Beg",
+			"fr": "Supplier",
+			"it": "Supplicare",
+			"de": "Betteln",
+			"zh": "哀求",
+			"ja": "願う"
+		},
+		"desc": {
+			"es": "Intenta pacificar al enemigo.",
+			"en": "Tries to pacify the enemy.",
+			"fr": "Tente d'apaiser l'ennemi.",
+			"it": "Tenta di pacificare il nemico.",
+			"de": "Versucht, den Feind zu besänftigen.",
+			"zh": "尝试安抚敌人。",
+			"ja": "敵をなだめようとする。"
+		},
+		"icon": "🥺",
+		"type": "none",
+		"element": "none",
+		"power": 0,
+		"cost": 0,
+		"pa_cost": 1,
+		"tag": "nobody_beg",
+		"resonance_gain": 8,
+		"effect": "pacify"
+	},
+	"nob_flatter": {
+		"id": "nob_flatter",
+		"name": {
+			"es": "Adular",
+			"en": "Flatter",
+			"fr": "Flatter",
+			"it": "Adulare",
+			"de": "Schmeicheln",
+			"zh": "谄媚",
+			"ja": "ごまをする"
+		},
+		"desc": {
+			"es": "Sube el ataque enemigo pero baja su precisión.",
+			"en": "Raises enemy attack but lowers accuracy.",
+			"fr": "Augmente l'attaque ennemie mais réduit sa précision.",
+			"it": "Aumenta l'attacco nemico ma ne riduce la precisione.",
+			"de": "Erhöht den feindlichen Angriff, senkt aber dessen Genauigkeit.",
+			"zh": "提升敌人攻击力但降低其命中率。",
+			"ja": "敵の攻撃力を上げるが命中率を下げる。"
+		},
+		"icon": "😏",
+		"type": "none",
+		"element": "none",
+		"power": 0,
+		"cost": 3,
+		"pa_cost": 1,
+		"tag": "nobody_flatter",
+		"resonance_gain": 15,
+		"status": {
+			"type": "confusion",
+			"chance": 1,
+			"turns": 2,
+			"target": "enemy"
+		}
+	},
+	"nob_taunt": {
+		"id": "nob_taunt",
+		"name": {
+			"es": "Provocar",
+			"en": "Taunt",
+			"fr": "Provoquer",
+			"it": "Provocare",
+			"de": "Verhöhnen",
+			"zh": "挑衅",
+			"ja": "挑発する"
+		},
+		"desc": {
+			"es": "Provoca al enemigo y baja su DEF física.",
+			"en": "Taunts the enemy and lowers its physical DEF.",
+			"fr": "Provoque l'ennemi et réduit sa DÉF physique.",
+			"it": "Provoca il nemico e ne riduce la DIF fisica.",
+			"de": "Verhöhnt den Feind und senkt dessen physische VERT.",
+			"zh": "挑衅敌人并降低其物理防御。",
+			"ja": "敵を挑発し、物理防御を下げる。"
+		},
+		"icon": "🤪",
+		"type": "none",
+		"element": "none",
+		"power": 0,
+		"cost": 4,
+		"pa_cost": 2,
+		"tag": "nobody_taunt",
+		"resonance_gain": 15,
+		"status": {
+			"type": "pdef_down",
+			"chance": 1,
+			"turns": 2,
+			"target": "enemy"
+		}
+	},
+	"nob_pray": {
+		"id": "nob_pray",
+		"name": {
+			"es": "Rezar",
+			"en": "Pray",
+			"fr": "Prier",
+			"it": "Pregare",
+			"de": "Beten",
+			"zh": "祈祷",
+			"ja": "祈る"
+		},
+		"desc": {
+			"es": "Cura una cantidad aleatoria de HP.",
+			"en": "Heals a random amount of HP.",
+			"fr": "Soigne une quantité aléatoire de PV.",
+			"it": "Cura una quantità casuale di HP.",
+			"de": "Heilt eine zufällige Menge HP.",
+			"zh": "恢复随机量的生命值。",
+			"ja": "ランダムな量のHPを回復する。"
+		},
+		"icon": "🙏",
+		"type": "heal",
+		"element": "none",
+		"power": 0,
+		"cost": 5,
+		"pa_cost": 2,
+		"tag": "nobody_pray",
+		"resonance_gain": 15,
+		"target": "self",
+		"effect": "random_heal:100"
+	},
+	"nob_play_dead": {
+		"id": "nob_play_dead",
+		"name": {
+			"es": "Hacerse el Muerto",
+			"en": "Play Dead",
+			"fr": "Faire le Mort",
+			"it": "Fingersi Morto",
+			"de": "Totstellen",
+			"zh": "装死",
+			"ja": "死んだふり"
+		},
+		"desc": {
+			"es": "Inmunidad física por 1 turno.",
+			"en": "Physical immunity for 1 turn.",
+			"fr": "Immunité physique pendant 1 tour.",
+			"it": "Immunità fisica per 1 turno.",
+			"de": "Physische Immunität für 1 Runde.",
+			"zh": "1 回合内免疫物理伤害。",
+			"ja": "1ターン物理免疫。"
+		},
+		"icon": "💀",
+		"type": "buff",
+		"element": "none",
+		"power": 0,
+		"cost": 6,
+		"pa_cost": 2,
+		"tag": "nobody_playdead",
+		"resonance_gain": 15,
+		"status": {
+			"type": "esquiva_temporal",
+			"turns": 1,
+			"target": "self"
+		}
+	},
+	"nob_dance": {
+		"id": "nob_dance",
+		"name": {
+			"es": "Bailar",
+			"en": "Dance",
+			"fr": "Danser",
+			"it": "Ballare",
+			"de": "Tanzen",
+			"zh": "跳舞",
+			"ja": "踊る"
+		},
+		"desc": {
+			"es": "Aplica un estado aleatorio.",
+			"en": "Applies a random status.",
+			"fr": "Applique un état aléatoire.",
+			"it": "Applica uno stato casuale.",
+			"de": "Verursacht einen zufälligen Status.",
+			"zh": "造成随机异常状态。",
+			"ja": "ランダムな状態異常を与える。"
+		},
+		"icon": "💃",
+		"type": "none",
+		"element": "none",
+		"power": 0,
+		"cost": 10,
+		"pa_cost": 3,
+		"tag": "nobody_dance",
+		"resonance_gain": 25,
+		"effect": "random_status"
+	},
+	"nob_throw_rock": {
+		"id": "nob_throw_rock",
+		"name": {
+			"es": "Lanzar Piedra",
+			"en": "Throw Rock",
+			"fr": "Lancer une Pierre",
+			"it": "Lanciare Pietra",
+			"de": "Stein werfen",
+			"zh": "投石",
+			"ja": "石を投げる"
+		},
+		"desc": {
+			"es": "Ataque de piedra.",
+			"en": "A rock attack.",
+			"fr": "Une attaque de pierre.",
+			"it": "Un attacco di pietra.",
+			"de": "Ein Steinangriff.",
+			"zh": "投石攻击。",
+			"ja": "石の攻撃。"
+		},
+		"icon": "🪨",
+		"type": "physical",
+		"element": "physical",
+		"power": 25,
+		"cost": 0,
+		"pa_cost": 1,
+		"tag": "nobody_rock",
+		"resonance_gain": 8
+	},
+	"nob_luck": {
+		"id": "nob_luck",
+		"name": {
+			"es": "Suerte",
+			"en": "Luck",
+			"fr": "Chance",
+			"it": "Fortuna",
+			"de": "Glück",
+			"zh": "幸运",
+			"ja": "ラッキー"
+		},
+		"desc": {
+			"es": "La próxima acción hace crítico garantizado.",
+			"en": "Next action deals a guaranteed critical.",
+			"fr": "La prochaine action est un coup critique garanti.",
+			"it": "La prossima azione è un critico garantito.",
+			"de": "Die nächste Aktion ist garantiert kritisch.",
+			"zh": "下一次行动必定暴击。",
+			"ja": "次の行動は必ずクリティカルになる。"
+		},
+		"icon": "🍀",
+		"type": "buff",
+		"element": "none",
+		"power": 0,
+		"cost": 15,
+		"pa_cost": 3,
+		"tag": "nobody_luck",
+		"resonance_gain": 25,
+		"status": {
+			"type": "guaranteed_crit",
+			"turns": 2,
+			"target": "self"
+		}
+	},
+	"nob_desperation": {
+		"id": "nob_desperation",
+		"name": {
+			"es": "Desesperación",
+			"en": "Desperation",
+			"fr": "Désespoir",
+			"it": "Disperazione",
+			"de": "Verzweiflung",
+			"zh": "绝望",
+			"ja": "絶望"
+		},
+		"desc": {
+			"es": "Gran daño; solo con menos del 20% HP.",
+			"en": "Great damage; only under 20% HP.",
+			"fr": "Grands dégâts ; uniquement en dessous de 20% de PV.",
+			"it": "Grande danno; solo sotto il 20% di HP.",
+			"de": "Großer Schaden; nur unter 20% HP.",
+			"zh": "强大伤害；仅在生命值低于 20% 时可用。",
+			"ja": "強大なダメージ。HP20%未満の時のみ使用可能。"
+		},
+		"icon": "😩",
+		"type": "physical",
+		"element": "physical",
+		"power": 130,
+		"cost": 20,
+		"pa_cost": 3,
+		"tag": "nobody_desperation",
+		"resonance_gain": 25,
+		"effect": "requires_low_hp:20"
+	},
+	"nob_legend": {
+		"id": "nob_legend",
+		"name": {
+			"es": "Leyenda de Don Nadie",
+			"en": "Legend of Nobody",
+			"fr": "Légende de Monsieur Personne",
+			"it": "Leggenda di Nessuno",
+			"de": "Legende von Niemand",
+			"zh": "无名氏传说",
+			"ja": "ノーバディの伝説"
+		},
+		"desc": {
+			"es": "Efecto impredecible y gracioso.",
+			"en": "An unpredictable, funny effect.",
+			"fr": "Un effet imprévisible et drôle.",
+			"it": "Un effetto imprevedibile e divertente.",
+			"de": "Ein unvorhersehbarer, lustiger Effekt.",
+			"zh": "难以预料且滑稽的效果。",
+			"ja": "予測不能で面白い効果。"
+		},
+		"icon": "🌟",
+		"type": "none",
+		"element": "none",
+		"power": 0,
+		"cost": 30,
+		"pa_cost": 3,
+		"tag": "nobody_legend",
+		"resonance_gain": 25,
+		"effect": "random_big"
+	}
+}

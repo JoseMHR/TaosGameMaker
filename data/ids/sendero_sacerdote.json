@@ -1,0 +1,23 @@
+{
+    "id": "sendero_sacerdote",
+    "type": "dungeon",
+    "name": {
+        "es": "El Sendero del Sacerdote",
+        "en": "The Priest's Path",
+        "fr": "Le Sentier du Prêtre",
+        "it": "Il Sentiero del Sacerdote",
+        "de": "Der Pfad des Priesters",
+        "zh": "祭司之路",
+        "ja": "司祭の道"
+    },
+    "icon": "💚",
+    "desc": {
+        "es": "Templo tematico: repara el mecanismo con la Restauracion y vence al Liche Eterno para aprenderla.",
+        "en": "Themed temple: repair the mechanism with Restoration and defeat the Eternal Lich to learn it.",
+        "fr": "Temple thématique : répare le mécanisme avec la Restauration et vaincs le Liche Éternel pour l'apprendre.",
+        "it": "Tempio tematico: ripara il meccanismo con il Restauro e sconfiggi il Lich Eterno per impararlo.",
+        "de": "Themen-Tempel: repariere den Mechanismus mit Wiederherstellung und besiege den Ewigen Lich, um sie zu erlernen.",
+        "zh": "主题神庙：用复原术修复机关，击败永恒巫妖以学会此技能。",
+        "ja": "テーマ神殿：リストレーションで機構を修復し、エターナルリッチを倒してそれを習得せよ。"
+    }
+}

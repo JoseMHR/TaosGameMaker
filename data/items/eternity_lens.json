@@ -1,0 +1,31 @@
+{
+    "name": {
+        "es": "Lente de la Eternidad",
+        "en": "Eternity Lens",
+        "fr": "Lentille de l'Éternité",
+        "it": "Lente dell'Eternità",
+        "de": "Ewigkeitslinse",
+        "zh": "永恒之镜",
+        "ja": "エターニティレンズ"
+    },
+    "desc": {
+        "es": "Mirar a través de ella muestra todos los momentos a la vez.",
+        "en": "Looking through it shows every moment at once.",
+        "fr": "La regarder à travers révèle tous les instants à la fois.",
+        "it": "Guardarci attraverso mostra ogni istante contemporaneamente.",
+        "de": "Wer hindurchblickt, sieht jeden Moment zugleich.",
+        "zh": "透过它看去，能同时看见所有的瞬间。",
+        "ja": "これを通して見ると、あらゆる瞬間が同時に見える。"
+    },
+    "icon": "🔮",
+    "category": "equipment",
+    "usable": false,
+    "slot": "weapon",
+    "tier": 6,
+    "bonuses": {
+        "int": 16
+    },
+    "combat": {
+        "mag_damage": 198
+    }
+}

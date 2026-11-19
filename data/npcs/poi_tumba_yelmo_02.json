@@ -1,0 +1,114 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "Lápida del Optimista",
+            "en": "The Optimist's Tomb",
+            "fr": "La Tombe de l'Optimiste",
+            "it": "La Tomba dell'Ottimista",
+            "de": "Das Grab des Optimisten",
+            "zh": "乐观主义者之墓",
+            "ja": "楽天家の墓"
+        },
+        "next": [],
+        "reward": "bg=0.06,0.06,0.06"
+    },
+    "tumba2_root": {
+        "type": "message",
+        "text": {
+            "es": "Frente a ti se alza una tumba de piedra caliza con un yelmo abollado. El epitafio reza:\n\n«Aquí yace Sir Roderick 'Piel de Hierro'.\nÚltimas palabras registradas: 'Tranquilos chavales, esos cofres dorados con dientes afilados y lengua morada son solo un cuento para asustar a los novatos'.»",
+            "en": "Before you stands a limestone sepulcher bearing a dented iron helmet. The epitaph reads:\n\n«Here lies Sir Roderick 'Ironclad'.\nRecorded last words: 'Fret not lads, golden chests with fangs and purple tongues are merely tall tales told to frighten greenhorns'.»",
+            "fr": "Devant toi s'élève une tombe en calcaire portant un heaume cabossé. L'épitaphe dit :\n\n«Ci-gît Sir Roderick 'Peau de Fer'.\nDernières paroles enregistrées : 'Rassurez-vous les gars, ces coffres dorés aux dents acérées et à la langue violette ne sont que des contes pour effrayer les débutants'.»",
+            "it": "Davanti a te si erge una tomba di calcare con un elmo ammaccato. L'epitaffio recita:\n\n«Qui giace Sir Roderick 'Pelle di Ferro'.\nUltime parole registrate: 'State tranquilli ragazzi, quei forzieri dorati con denti aguzzi e lingua viola sono solo racconti per spaventare i novellini'.»",
+            "de": "Vor dir erhebt sich ein Kalksteingrab mit einem verbeulten Helm darauf. Das Epitaph lautet:\n\n«Hier ruht Sir Roderick 'Eisenhaut'.\nLetzte überlieferte Worte: 'Keine Sorge, Jungs, diese goldenen Truhen mit scharfen Zähnen und violetter Zunge sind nur Geschichten, um Neulinge zu erschrecken'.»",
+            "zh": "你面前矗立着一座石灰岩墓，上面放着一顶凹陷的头盔。墓志铭写道：\n\n「此处安息着「铁皮」罗德里克爵士。\n临终遗言记录如下：『别怕，小伙子们，那些长着尖牙紫舌的金色宝箱，不过是吓唬新手的传说罢了』。」",
+            "ja": "目の前にへこんだ兜を載せた石灰岩の墓が立っている。碑文にはこうある：\n\n「ここに『鉄の肌』サー・ロデリック眠る。\n記録に残る最期の言葉：『心配するな諸君、鋭い牙と紫の舌を持つ黄金の宝箱など、新米を怖がらせるための作り話に過ぎない』」"
+        },
+        "next": [
+            "tumba2_opt_marcas",
+            "tumba2_opt_flores",
+            "tumba2_opt_salir"
+        ],
+        "reward": ""
+    },
+    "tumba2_opt_marcas": {
+        "type": "option",
+        "text": {
+            "es": "🦷  Inspeccionar la abolladura del yelmo",
+            "en": "🦷  Examine the dent in the helmet",
+            "fr": "🦷  Examiner la bosse du heaume",
+            "it": "🦷  Esaminare l'ammaccatura dell'elmo",
+            "de": "🦷  Die Delle des Helms untersuchen",
+            "zh": "🦷  检查头盔上的凹痕",
+            "ja": "🦷  兜のへこみを調べる"
+        },
+        "next": [
+            "tumba2_msg_marcas"
+        ],
+        "reward": ""
+    },
+    "tumba2_msg_marcas": {
+        "type": "message",
+        "text": {
+            "es": "Miras de cerca el yelmo: la hendidura no fue hecha por una espada ni por una maza, sino por dos hileras perfectas de colmillos de madera y bisagras oxidadas. Un escalofrío de prudencia te recorre la espina dorsal: la próxima vez que veas un cofre en una mazmorra, le darás un golpe antes de abrirlo.",
+            "en": "You closely inspect the helmet: the fracture was inflicted neither by blade nor mace, but by two immaculate rows of splintered wooden fangs and rusted hinges. A shiver of caution runs down your spine: next time you find a dungeon chest, you will poke it first.",
+            "fr": "Tu examines de près le heaume : la fissure n'a été causée ni par une épée ni par une masse, mais par deux rangées parfaites de crocs en bois et de charnières rouillées. Un frisson de prudence te parcourt l'échine : la prochaine fois que tu verras un coffre dans un donjon, tu le frapperas avant de l'ouvrir.",
+            "it": "Osservi da vicino l'elmo: la frattura non è stata causata da una spada né da una mazza, ma da due file perfette di zanne di legno scheggiate e cardini arrugginiti. Un brivido di prudenza ti percorre la schiena: la prossima volta che vedrai un forziere in un dungeon, lo colpirai prima di aprirlo.",
+            "de": "Du untersuchst den Helm genau: Der Riss wurde weder von einem Schwert noch von einer Keule verursacht, sondern von zwei makellosen Reihen hölzerner Reißzähne und rostiger Scharniere. Ein Schauer der Vorsicht läuft dir über den Rücken: Das nächste Mal, wenn du eine Truhe in einem Verlies siehst, wirst du erst danach stochern.",
+            "zh": "你仔细检查头盔：这道裂痕既非剑伤也非锤击所致，而是由两排整齐的木质尖牙和生锈的合页造成的。一阵谨慎的寒意窜上你的脊背：下次在地牢里看到宝箱，你会先戳一下再打开。",
+            "ja": "兜をよく調べる。この割れ目は剣でもメイスでもなく、木製の牙と錆びた蝶番による完璧に並んだ二列の痕だ。用心の震えが背筋を走る——次にダンジョンで宝箱を見つけたら、開ける前につついてみようと心に誓う。"
+        },
+        "next": [
+            "tumba2_root"
+        ],
+        "reward": ""
+    },
+    "tumba2_opt_flores": {
+        "type": "option",
+        "text": {
+            "es": "✍️  Dejar una nota de advertencia para futuros aventureros",
+            "en": "✍️  Leave a cautionary footnote for future explorers",
+            "fr": "✍️  Laisser une note d'avertissement pour les futurs aventuriers",
+            "it": "✍️  Lasciare una nota di avvertimento per i futuri avventurieri",
+            "de": "✍️  Eine Warnnotiz für zukünftige Abenteurer hinterlassen",
+            "zh": "✍️  为未来的冒险者留下一则警示",
+            "ja": "✍️  未来の冒険者への警告文を残す"
+        },
+        "next": [
+            "tumba2_msg_flores"
+        ],
+        "reward": ""
+    },
+    "tumba2_msg_flores": {
+        "type": "message",
+        "text": {
+            "es": "Sacas un trozo de tiza y escribes debajo del epitafio: 'Spoiler: No era un cuento.' Sientes que acabas de salvar la vida de al menos diez aspirantes a héroe.",
+            "en": "You take out a piece of chalk and scribble beneath the stone: 'Spoiler: It was not a tale.' You feel you have just preserved the lives of a dozen fledgling heroes.",
+            "fr": "Tu sors un morceau de craie et écris sous l'épitaphe : « Spoiler : Ce n'était pas un conte. » Tu sens que tu viens de sauver la vie d'au moins dix apprentis héros.",
+            "it": "Tiri fuori un pezzo di gesso e scrivi sotto l'epitaffio: 'Spoiler: Non era un racconto.' Senti di aver appena salvato la vita di almeno dieci aspiranti eroi.",
+            "de": "Du holst ein Stück Kreide heraus und schreibst unter das Epitaph: „Spoiler: Es war keine Geschichte.“ Du hast das Gefühl, gerade das Leben von mindestens zehn angehenden Helden gerettet zu haben.",
+            "zh": "你拿出一截粉笔，在墓志铭下方写道：「剧透：那不是传说。」你觉得自己刚刚拯救了至少十位未来英雄的性命。",
+            "ja": "チョークを取り出し、碑文の下にこう書き足す：「ネタバレ：あれは作り話ではなかった」。少なくとも十人の未来の英雄の命を救った気がする。"
+        },
+        "next": [
+            "tumba2_root"
+        ],
+        "reward": ""
+    },
+    "tumba2_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Continuar el camino con paso precavido",
+            "en": "🚶  Proceed on your way with extra vigilance",
+            "fr": "🚶  Poursuivre son chemin avec une prudence accrue",
+            "it": "🚶  Proseguire il cammino con passo prudente",
+            "de": "🚶  Mit erhöhter Vorsicht weitergehen",
+            "zh": "🚶  加倍小心地继续赶路",
+            "ja": "🚶  用心深く先へ進む"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

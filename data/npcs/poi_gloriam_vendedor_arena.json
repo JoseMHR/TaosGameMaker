@@ -1,0 +1,152 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Vendedor de Arena",
+            "en": "The Sand Salesman",
+            "fr": "Le Vendeur de Sable",
+            "it": "Il Venditore di Sabbia",
+            "de": "Der Sandverkäufer",
+            "zh": "卖沙人",
+            "ja": "砂売り"
+        },
+        "next": [],
+        "reward": "avatar=⏳;bg=0.17,0.13,0.05"
+    },
+    "ven_root": {
+        "type": "message",
+        "text": {
+            "es": "Un hombre de sonrisa reluciente monta guardia junto a un tenderete cubierto de saquitos, frascos y ampollas, todos llenos de... arena. A su espalda, hasta el horizonte, se extiende un océano infinito y GRATUITO de exactamente lo mismo. 'Amigo viajero', te aborda con los ojos brillantes, 'no toda la arena es igual. Esta de aquí es arena PREMIUM: tostada al sol del mediodía, tamizada a mano, con un 20% más de granos por saco. ¿Cuántos te pongo?'",
+            "en": "A man with a gleaming smile stands guard by a stall covered in little sacks, jars, and vials, all full of... sand. Behind him, all the way to the horizon, stretches an infinite and FREE ocean of exactly the same thing. 'Fellow traveler,' he accosts you with shining eyes, 'not all sand is equal. This here is PREMIUM sand: sun-roasted at noon, hand-sifted, with 20% more grains per sack. How many shall I get you?'",
+            "fr": "Un homme au sourire éclatant monte la garde près d'un étal couvert de petits sacs, bocaux et fioles, tous remplis de... sable. Derrière lui, jusqu'à l'horizon, s'étend un océan infini et GRATUIT de la même chose exactement. « Camarade voyageur », t'aborde-t-il les yeux brillants, « tout le sable ne se vaut pas. Celui-ci est du sable PREMIUM : rôti au soleil de midi, tamisé à la main, avec 20 % de grains en plus par sac. Combien t'en faut-il ? »",
+            "it": "Un uomo dal sorriso raggiante monta la guardia accanto a un banco coperto di sacchetti, vasetti e fiale, tutti pieni di... sabbia. Alle sue spalle, fino all'orizzonte, si estende un oceano infinito e GRATUITO esattamente della stessa cosa. 'Amico viaggiatore', ti aborda con gli occhi brillanti, 'non tutta la sabbia è uguale. Questa qui è sabbia PREMIUM: tostata al sole di mezzogiorno, setacciata a mano, con il 20% di granelli in più per sacchetto. Quanti gliene metto?'",
+            "de": "Ein Mann mit strahlendem Lächeln bewacht einen Stand voller kleiner Säcke, Gläser und Fläschchen, alle gefüllt mit... Sand. Hinter ihm erstreckt sich bis zum Horizont ein unendlicher und KOSTENLOSER Ozean genau desselben Zeugs. „Mitreisender“, spricht er dich mit leuchtenden Augen an, „nicht aller Sand ist gleich. Dieser hier ist PREMIUM-Sand: mittagssonnegeröstet, handgesiebt, mit 20 % mehr Körnern pro Sack. Wie viele soll ich dir geben?“",
+            "zh": "一个笑容灿烂的男人守在一个摆满小袋子、罐子和瓶子的摊位旁，里面全都装着……沙子。在他身后，一直延伸到地平线，是一片同样东西的无限而免费的海洋。「旅行的朋友，」他用闪亮的眼睛拦住你，「不是所有的沙子都一样。这儿的是优质沙：正午阳光烘烤，手工筛选，每袋多含20%的沙粒。要给你装几袋？」",
+            "ja": "輝く笑顔の男が、小袋、瓶、小瓶に囲まれた露店を守っている——すべて……砂で満たされている。彼の背後には地平線まで、まったく同じものが無限に、しかも無料で広がっている。「旅の仲間よ」目を輝かせながら声をかけてくる。「砂はどれも同じというわけじゃない。ここにあるのは高級砂だ——正午の太陽で焼かれ、手作業で篩にかけられ、一袋あたり20％多く粒が入っている。いくつ用意しようか？」"
+        },
+        "next": [
+            "ven_opt_comprar",
+            "ven_opt_desmontar",
+            "ven_opt_gratis",
+            "ven_opt_salir"
+        ],
+        "reward": ""
+    },
+    "ven_opt_comprar": {
+        "type": "option",
+        "text": {
+            "es": "🪙  Comprarle un saco de arena premium por pura curiosidad (−5 oro)",
+            "en": "🪙  Buy a sack of premium sand out of sheer curiosity (−5 gold)",
+            "fr": "🪙  Lui acheter un sac de sable premium par pure curiosité (−5 or)",
+            "it": "🪙  Comprargli un sacchetto di sabbia premium per pura curiosità (−5 oro)",
+            "de": "🪙  Ihm einen Sack Premium-Sand aus reiner Neugier abkaufen (−5 Gold)",
+            "zh": "🪙  出于纯粹的好奇，向他买一袋优质沙（-5金币）",
+            "ja": "🪙  純粋な好奇心から『高級』砂を一袋買う（-5ゴールド）"
+        },
+        "next": [
+            "ven_msg_comprar"
+        ],
+        "reward": "gold:-5",
+        "condition": "gold >= 5",
+        "once": true
+    },
+    "ven_msg_comprar": {
+        "type": "message",
+        "text": {
+            "es": "Le compras un saquito, más por admiración a su desfachatez que por necesidad. El vendedor se emociona de verdad: '¡Un cliente! ¡El primero en tres años!' Te enjuga una lágrima y te regala, de propina, un 'certificado de autenticidad' garabateado. 'Guárdalo. El día que alguien más te crea capaz de comprar arena en el desierto, se lo enseñas y os hacéis amigos al instante.' Absurdo, pero extrañamente entrañable.",
+            "en": "You buy a little sack, more out of admiration for his nerve than out of need. The salesman is genuinely moved: 'A customer! The first in three years!' He wipes away a tear and throws in, as a bonus, a scribbled 'certificate of authenticity'. 'Keep it. The day someone else believes you capable of buying sand in the desert, show it to them and you'll be friends instantly.' Absurd, but strangely endearing.",
+            "fr": "Tu lui achètes un petit sac, plus par admiration pour son culot que par besoin. Le vendeur est réellement ému : « Un client ! Le premier en trois ans ! » Il essuie une larme et t'offre en prime un « certificat d'authenticité » griffonné. « Garde-le. Le jour où quelqu'un te croira capable d'acheter du sable dans le désert, montre-le-lui et vous serez amis instantanément. » Absurde, mais étrangement touchant.",
+            "it": "Gli compri un sacchetto, più per ammirazione della sua sfacciataggine che per necessità. Il venditore si commuove davvero: 'Un cliente! Il primo in tre anni!' Si asciuga una lacrima e ti regala, come mancia, un 'certificato di autenticità' scarabocchiato. 'Tienilo. Il giorno in cui qualcuno crederà che tu sia capace di comprare sabbia nel deserto, glielo mostri e diventerete amici all'istante.' Assurdo, ma stranamente affettuoso.",
+            "de": "Du kaufst ihm ein kleines Säckchen ab, mehr aus Bewunderung für seine Frechheit als aus Notwendigkeit. Der Verkäufer ist wirklich gerührt: „Ein Kunde! Der erste seit drei Jahren!“ Er wischt sich eine Träne ab und schenkt dir zusätzlich ein gekritzeltes „Echtheitszertifikat“. „Behalte es. Der Tag, an dem jemand anders dir glaubt, dass du fähig bist, Sand in der Wüste zu kaufen, zeig es ihm und ihr werdet sofort Freunde.“ Absurd, aber seltsam liebenswert.",
+            "zh": "你买了一小袋，与其说是出于需要，不如说是出于对他厚脸皮的钦佩。这位商人真心地感动了：「一位顾客！三年来的第一位！」他擦去一滴泪，还额外送了你一张潦草涂写的「真品证书」。「留着它。哪天有人相信你竟然能在沙漠里买到沙子，你就把它给他们看，你们立刻就会成为朋友。」荒唐，但莫名地讨人喜欢。",
+            "ja": "必要というより彼の厚かましさへの感嘆から、小袋を一つ買う。商人は本気で感動する。「客だ！三年ぶりの客だ！」涙を拭い、おまけに走り書きの『真正証明書』をつけてくれる。「取っておけ。いつか誰かがお前が砂漠で砂を買えると信じてくれる日が来たら、これを見せろ、即座に友達になれるぞ」馬鹿げているが、不思議と愛おしい。"
+        },
+        "next": [
+            "ven_root"
+        ],
+        "reward": ""
+    },
+    "ven_opt_desmontar": {
+        "type": "option",
+        "text": {
+            "es": "🧠  Estás rodeado de arena gratis. Esto no tiene sentido.",
+            "en": "🧠  You're surrounded by free sand. This makes no sense.",
+            "fr": "🧠  Tu es entouré de sable gratuit. Ça n'a aucun sens.",
+            "it": "🧠  Sei circondato da sabbia gratis. Questo non ha senso.",
+            "de": "🧠  Du bist von kostenlosem Sand umgeben. Das ergibt keinen Sinn.",
+            "zh": "🧠  你周围全是免费的沙子。这没有任何道理。",
+            "ja": "🧠  無料の砂に囲まれてるのに、これは意味不明だ"
+        },
+        "next": [
+            "ven_msg_desmontar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "ven_msg_desmontar": {
+        "type": "message",
+        "text": {
+            "es": "El vendedor suspira, y por un momento la máscara de charlatán se le cae. 'Claro que no tiene sentido. Pero cuando lo perdí todo en una tormenta de arena, esa misma arena me dejó sin nada. Así que decidí venderla. Si no puedo vencerla, al menos le pongo precio.' Te mira. 'Todos le ponemos precio a lo que nos hizo daño, para fingir que lo controlamos. Tú también lo harás algún día.' La broma se ha vuelto, de golpe, incómodamente sabia.",
+            "en": "The salesman sighs, and for a moment the huckster's mask slips. 'Of course it makes no sense. But when I lost everything in a sandstorm, that very sand left me with nothing. So I decided to sell it. If I can't beat it, at least I put a price on it.' He looks at you. 'We all put a price on what hurt us, to pretend we control it. You will too, one day.' The joke has turned, all at once, uncomfortably wise.",
+            "fr": "Le vendeur soupire, et pendant un instant le masque du charlatan tombe. « Bien sûr que ça n'a aucun sens. Mais quand j'ai tout perdu dans une tempête de sable, ce même sable m'a laissé sans rien. Alors j'ai décidé de le vendre. Si je ne peux pas le vaincre, au moins je lui mets un prix. » Il te regarde. « On met tous un prix sur ce qui nous a fait mal, pour prétendre le contrôler. Toi aussi tu le feras un jour. » La blague est devenue, d'un coup, d'une sagesse gênante.",
+            "it": "Il venditore sospira, e per un momento la maschera del ciarlatano cade. 'Certo che non ha senso. Ma quando persi tutto in una tempesta di sabbia, proprio quella sabbia mi lasciò senza niente. Così decisi di venderla. Se non posso batterla, almeno le do un prezzo.' Ti guarda. 'Tutti diamo un prezzo a ciò che ci ha fatto male, per fingere di controllarlo. Anche tu lo farai un giorno.' La battuta è diventata, di colpo, scomodamente saggia.",
+            "de": "Der Verkäufer seufzt, und für einen Moment fällt die Maske des Scharlatans. „Natürlich ergibt es keinen Sinn. Aber als ich in einem Sandsturm alles verlor, ließ mich genau dieser Sand mit nichts zurück. Also beschloss ich, ihn zu verkaufen. Wenn ich ihn nicht besiegen kann, gebe ich ihm wenigstens einen Preis.“ Er sieht dich an. „Wir alle setzen einen Preis auf das, was uns wehgetan hat, um vorzugeben, es zu kontrollieren. Auch du wirst das eines Tages tun.“ Der Witz ist plötzlich unangenehm weise geworden.",
+            "zh": "商人叹了口气，一时间江湖骗子的面具滑落了。「当然没有道理。但当我在一场沙暴中失去了一切，正是那些沙子让我一无所有。所以我决定卖掉它。如果我打不过它，至少我能给它标个价。」他看着你。「我们都会给伤害过我们的东西标上价格，假装自己掌控着它。有一天你也会这样做的。」这个笑话突然变得令人不安地睿智起来。",
+            "ja": "商人はため息をつき、一瞬詐欺師の仮面が剥がれ落ちる。「もちろん意味なんかない。だが砂嵐ですべてを失った時、まさにその砂が俺に何も残さなかった。だから売ることにしたんだ。倒せないなら、せめて値段をつけてやろうとな」お前を見つめる。「誰もが自分を傷つけたものに値段をつけて、支配しているふりをするものさ。お前もいつかそうするだろう」冗談が突然、不快なほど賢明なものに変わる。"
+        },
+        "next": [
+            "ven_opt_salir"
+        ],
+        "reward": "faceta:inteligencia=+1;gflag:ven_desmontado",
+        "condition": "no_gflag(\"ven_desmontado\")",
+        "once": true
+    },
+    "ven_opt_gratis": {
+        "type": "option",
+        "text": {
+            "es": "😏  Agacharte y coger un puñado de arena gratis del suelo",
+            "en": "😏  Bend down and grab a free handful of sand from the ground",
+            "fr": "😏  Te baisser et ramasser une poignée de sable gratuite au sol",
+            "it": "😏  Chinarti e prendere una manciata di sabbia gratis dal suolo",
+            "de": "😏  Sich bücken und eine kostenlose Handvoll Sand vom Boden nehmen",
+            "zh": "😏  弯腰从地上抓一把免费的沙子",
+            "ja": "😏  かがんで地面から無料の砂を一握り取る"
+        },
+        "next": [
+            "ven_msg_gratis"
+        ],
+        "reward": ""
+    },
+    "ven_msg_gratis": {
+        "type": "message",
+        "text": {
+            "es": "Coges un puñado de arena del suelo con una sonrisa socarrona. El vendedor finge un ataque al corazón, tambaleándose contra su tenderete. '¡PIRATERÍA! ¡Eso es arena de imitación, sin certificar, llena de granos de dudosa procedencia! ¡No vengas luego llorando cuando te salga rana!' Su indignación es tan teatral que sueltas una carcajada y la arena se te escurre entre los dedos. Empate técnico.",
+            "en": "You grab a handful of sand off the ground with a smug grin. The salesman feigns a heart attack, staggering against his stall. 'PIRACY! That's counterfeit sand, uncertified, full of grains of dubious origin! Don't come crying to me later when it turns out rotten!' His indignation is so theatrical that you burst out laughing and the sand slips through your fingers. A technical draw.",
+            "fr": "Tu prends une poignée de sable au sol avec un sourire narquois. Le vendeur simule une crise cardiaque, chancelant contre son étal. « PIRATERIE ! C'est du sable de contrefaçon, non certifié, plein de grains d'origine douteuse ! Ne viens pas pleurer après quand ça tournera mal ! » Son indignation est si théâtrale que tu éclates de rire et le sable te glisse entre les doigts. Match nul technique.",
+            "it": "Prendi una manciata di sabbia dal suolo con un sorriso sornione. Il venditore finge un infarto, barcollando contro il suo banco. 'PIRATERIA! Quella è sabbia contraffatta, non certificata, piena di granelli di dubbia provenienza! Non venire poi a piangere quando ti va male!' La sua indignazione è così teatrale che scoppi a ridere e la sabbia ti scivola tra le dita. Pareggio tecnico.",
+            "de": "Du nimmst eine Handvoll Sand vom Boden mit einem selbstgefälligen Grinsen. Der Verkäufer täuscht einen Herzanfall vor und taumelt gegen seinen Stand. „PIRATERIE! Das ist gefälschter, unzertifizierter Sand voller Körner zweifelhafter Herkunft! Komm später nicht weinend zu mir, wenn es schiefgeht!“ Seine Empörung ist so theatralisch, dass du in Gelächter ausbrichst und der Sand dir durch die Finger rinnt. Technisches Unentschieden.",
+            "zh": "你带着得意的笑容从地上抓起一把沙子。商人假装心脏病发作，摇摇晃晃地靠在摊位上。「盗窃！那是未经认证的仿冒沙子，里面全是来源可疑的沙粒！以后出了问题别来找我哭诉！」他的愤慨如此戏剧化，以至于你放声大笑，沙子从指缝间滑落。技术性平局。",
+            "ja": "得意げな笑みを浮かべながら地面から一握りの砂を取る。商人は心臓発作のふりをして露店にもたれかかる。「海賊行為だ！それは非公認の偽造砂だ、出所不明の粒だらけだぞ！後で悪くなっても泣きつくなよ！」あまりにも芝居がかった憤慨ぶりに、思わず大笑いしてしまい、砂は指の間からこぼれ落ちる。技術的な引き分けだ。"
+        },
+        "next": [
+            "ven_root"
+        ],
+        "reward": ""
+    },
+    "ven_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Marcharte (con la arena que quieras, es gratis)",
+            "en": "🚶  Leave (with all the sand you want, it's free)",
+            "fr": "🚶  Partir (avec tout le sable que tu veux, c'est gratuit)",
+            "it": "🚶  Andartene (con tutta la sabbia che vuoi, è gratis)",
+            "de": "🚶  Weggehen (mit so viel Sand, wie du willst, es ist kostenlos)",
+            "zh": "🚶  离开（想要多少沙子都行，反正是免费的）",
+            "ja": "🚶  立ち去る（好きなだけ砂を持って、タダなんだから）"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

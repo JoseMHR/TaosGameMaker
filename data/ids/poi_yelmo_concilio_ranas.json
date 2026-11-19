@@ -1,0 +1,26 @@
+{
+    "id": "poi_yelmo_concilio_ranas",
+    "type": "poi",
+    "icon": "🐸",
+    "name": {
+        "es": "El Concilio de las Ranas",
+        "en": "The Council of Frogs",
+        "fr": "Le Concile des Grenouilles",
+        "it": "Il Concilio delle Rane",
+        "de": "Der Rat der Frösche",
+        "zh": "青蛙议会",
+        "ja": "カエルの評議会"
+    },
+    "desc": {
+        "es": "Un charco de barro donde una rana descomunal reina con corona de junco sobre una corte de súbditos croantes. (POI de inspección).",
+        "en": "A mud puddle where a colossal frog reigns with a reed crown over a court of croaking subjects. (Inspection POI).",
+        "fr": "Une mare de boue où une grenouille colossale règne avec une couronne de roseaux sur une cour de sujets coassants. (POI d'inspection).",
+        "it": "Una pozzanghera di fango dove una rana colossale regna con una corona di giunchi su una corte di sudditi gracidanti. (POI di ispezione).",
+        "de": "Eine Schlammpfütze, in der ein kolossaler Frosch mit einer Schilfkrone über einen Hof quakender Untertanen herrscht. (Inspektions-POI).",
+        "zh": "一处泥潭，一只戴着芦苇王冠的巨蛙统治着一群呱呱作响的臣民。（探查类兴趣点）。",
+        "ja": "巨大なカエルが葦の冠をかぶり、鳴き声を上げる臣下たちの宮廷を治める泥だまり。（調査ポイント）。"
+    },
+    "npc": "poi_yelmo_concilio_ranas",
+    "bg": "bg_world_poi_yelmo_concilio_ranas.png",
+    "music": "poi_comic"
+}

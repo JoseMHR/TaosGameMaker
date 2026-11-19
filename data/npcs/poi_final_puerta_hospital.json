@@ -1,0 +1,115 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "La Puerta del Hospital",
+            "en": "The Hospital Door",
+            "fr": "La Porte de l'Hôpital",
+            "it": "La Porta dell'Ospedale",
+            "de": "Die Krankenhaustür",
+            "zh": "医院之门",
+            "ja": "病院の扉"
+        },
+        "next": [],
+        "reward": "bg=0.06,0.07,0.09"
+    },
+    "pue_root": {
+        "type": "message",
+        "text": {
+            "es": "En mitad de la nada del abismo se alza una puerta blanca de hospital, sola, sin pared, sin marco que la justifique. Una franja de luz fría se cuela por debajo. En la placa hay un número de habitación y, escrito a rotulador por una mano de enfermera, un nombre: el tuyo real, uno que aún no recuerdas del todo. Del otro lado se oye, amortiguado, el pitido constante de una máquina que mide un corazón.",
+            "en": "In the middle of the abyss's nothingness stands a white hospital door, alone, with no wall, no frame to justify it. A strip of cold light slips beneath it. On the plate is a room number and, written in marker by a nurse's hand, a name: your real one, one you don't yet fully remember. From the other side comes, muffled, the constant beep of a machine measuring a heart.",
+            "fr": "Au milieu du néant de l'abîme se dresse une porte blanche d'hôpital, seule, sans mur, sans cadre pour la justifier. Un rai de lumière froide filtre en dessous. Sur la plaque figure un numéro de chambre et, écrit au marqueur d'une main d'infirmière, un nom : le tien, le vrai, celui dont tu ne te souviens pas encore tout à fait. De l'autre côté résonne, étouffé, le bip constant d'une machine qui mesure un cœur.",
+            "it": "In mezzo al nulla dell'abisso si erge una porta bianca d'ospedale, sola, senza muro, senza cornice che la giustifichi. Una striscia di luce fredda filtra da sotto. Sulla targa c'è un numero di stanza e, scritto a pennarello da una mano di infermiera, un nome: il tuo vero nome, uno che ancora non ricordi del tutto. Dall'altra parte si sente, ovattato, il bip costante di una macchina che misura un cuore.",
+            "de": "Mitten im Nichts des Abgrunds steht eine weiße Krankenhaustür, allein, ohne Wand, ohne Rahmen, der sie rechtfertigt. Ein Streifen kalten Lichts dringt darunter hervor. Auf dem Schild steht eine Zimmernummer und, mit Marker von der Hand einer Krankenschwester geschrieben, ein Name: dein wahrer, einer, an den du dich noch nicht ganz erinnerst. Von der anderen Seite dringt, gedämpft, das ständige Piepen einer Maschine, die ein Herz misst.",
+            "zh": "在深渊虚无的中央矗立着一扇白色的医院大门，孤零零的，没有墙壁，没有能解释它存在的门框。一道冷光从门缝下透出。门牌上写着房间号，还有一个用护士的笔迹写上的名字：那是你真正的名字，一个你尚未完全想起的名字。从另一侧传来沉闷的、持续不断的心脏监护仪的滴答声。",
+            "ja": "深淵の虚無の真ん中に、白い病院の扉が一枚だけ立っている。壁もなく、それを支える枠さえない。その下から冷たい光の筋が漏れている。プレートには病室番号と、看護師の手でマーカーで書かれた名前がある——それはお前の本当の名前、まだ完全には思い出せない名前だ。反対側からは、心臓を測る機械のくぐもった一定の電子音が聞こえてくる。"
+        },
+        "next": [
+            "pue_opt_abrir",
+            "pue_opt_escuchar",
+            "pue_opt_salir"
+        ],
+        "reward": ""
+    },
+    "pue_opt_abrir": {
+        "type": "option",
+        "text": {
+            "es": "🚪  Abrir la puerta y mirar dentro",
+            "en": "🚪  Open the door and look inside",
+            "fr": "🚪  Ouvrir la porte et regarder à l'intérieur",
+            "it": "🚪  Aprire la porta e guardare dentro",
+            "de": "🚪  Die Tür öffnen und hineinschauen",
+            "zh": "🚪  打开门向内窥视",
+            "ja": "🚪  扉を開けて中を覗く"
+        },
+        "next": [
+            "pue_msg_abrir"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "pue_msg_abrir": {
+        "type": "message",
+        "text": {
+            "es": "Giras el pomo helado y empujas. Al otro lado no hay ninguna habitación: hay una escena, congelada como una fotografía. Un hombre demacrado de bata blanca duerme derrumbado sobre una cama de hospital, conectado a máquinas, con una esfera enorme y apagada montando guardia en un rincón. Es tu cara. Es tu cuerpo. Estás mirando, desde dentro de un sueño, el cascarón que dejaste atrás en la vigilia. Cierras la puerta de golpe, temblando. Aún no. Todavía no estás listo para volver.",
+            "en": "You turn the icy knob and push. On the other side there is no room: there is a scene, frozen like a photograph. A haggard man in a white coat sleeps slumped on a hospital bed, wired to machines, an enormous darkened sphere keeping watch in a corner. It is your face. It is your body. You are looking, from inside a dream, at the shell you left behind in waking. You slam the door shut, trembling. Not yet. You aren't ready to go back yet.",
+            "fr": "Tu tournes la poignée glacée et pousses. De l'autre côté, il n'y a pas de chambre : il y a une scène, figée comme une photographie. Un homme émacié en blouse blanche dort effondré sur un lit d'hôpital, relié à des machines, une sphère énorme et éteinte montant la garde dans un coin. C'est ton visage. C'est ton corps. Tu regardes, depuis l'intérieur d'un rêve, la coquille que tu as laissée derrière toi dans la veille. Tu refermes la porte d'un coup, tremblant. Pas encore. Tu n'es pas encore prêt à revenir.",
+            "it": "Giri la maniglia ghiacciata e spingi. Dall'altra parte non c'è nessuna stanza: c'è una scena, congelata come una fotografia. Un uomo smunto in camice bianco dorme accasciato su un letto d'ospedale, collegato a macchine, con una sfera enorme e spenta a fare la guardia in un angolo. È il tuo viso. È il tuo corpo. Stai guardando, dall'interno di un sogno, il guscio che hai lasciato dietro nella veglia. Chiudi la porta di scatto, tremando. Non ancora. Non sei ancora pronto a tornare.",
+            "de": "Du drehst den eisigen Türknauf und stößt. Auf der anderen Seite gibt es kein Zimmer: es gibt eine Szene, erstarrt wie eine Fotografie. Ein abgezehrter Mann in weißem Kittel schläft zusammengesunken auf einem Krankenhausbett, an Maschinen angeschlossen, eine riesige, erloschene Sphäre wacht in einer Ecke. Es ist dein Gesicht. Es ist dein Körper. Du betrachtest, von innerhalb eines Traumes, die Hülle, die du im Wachzustand zurückgelassen hast. Du schlägst die Tür zitternd zu. Noch nicht. Du bist noch nicht bereit zurückzukehren.",
+            "zh": "你转动冰冷的门把手，推开门。门的另一侧并没有病房：那是一幅定格如照片般的场景。一个憔悴的白袍男子瘫倒在病床上沉睡，身上连接着各种仪器，一个巨大而黯淡的球体在角落里守望着。那是你的脸。那是你的身体。你正从梦境之中，凝视着自己在清醒世界留下的躯壳。你颤抖着猛地关上门。还不行。你还没准备好回去。",
+            "ja": "凍りついたドアノブを回し、押す。反対側に病室はない——写真のように静止した光景があるだけだ。やつれた白衣の男が病院のベッドに崩れるように眠り、機械につながれ、隅では巨大な光を失った球が見張りを続けている。それはお前の顔だ。お前の身体だ。夢の内側から、目覚めの世界に置いてきた抜け殻を見つめている。震えながら扉を叩きつけて閉める。まだだ。まだ戻る準備はできていない。"
+        },
+        "next": [
+            "pue_opt_salir"
+        ],
+        "reward": "faceta:cordura=-1;gflag:pue_abierta"
+    },
+    "pue_opt_escuchar": {
+        "type": "option",
+        "text": {
+            "es": "👂  Pegar la oreja a la puerta antes de decidir",
+            "en": "👂  Press your ear to the door before deciding",
+            "fr": "👂  Coller l'oreille à la porte avant de décider",
+            "it": "👂  Appoggiare l'orecchio alla porta prima di decidere",
+            "de": "👂  Das Ohr an die Tür legen, bevor du dich entscheidest",
+            "zh": "👂  在决定之前把耳朵贴在门上",
+            "ja": "👂  決める前に扉に耳を当てる"
+        },
+        "next": [
+            "pue_msg_escuchar"
+        ],
+        "reward": ""
+    },
+    "pue_msg_escuchar": {
+        "type": "message",
+        "text": {
+            "es": "Apoyas la oreja en la madera fría. Bajo el pitido de las máquinas oyes la voz cansada de un amigo que vela a tu lado: 'Vuelve, Aiden. Sé que estás ahí dentro, luchando. No te quedes en el sueño solo porque despertar duele. Aquí todavía queda alguien que te espera.' Reconoces esa voz aunque no puedas ponerle cara. Roxas. Sigue vivo. Sigue a tu lado. Te apartas de la puerta con el corazón en un puño.",
+            "en": "You rest your ear against the cold wood. Beneath the machines' beeping you hear the tired voice of a friend keeping vigil beside you: 'Come back, Aiden. I know you're in there, fighting. Don't stay in the dream just because waking hurts. There's still someone out here waiting for you.' You recognize that voice even if you can't put a face to it. Roxas. Still alive. Still at your side. You pull away from the door with your heart in your throat.",
+            "fr": "Tu appuies ton oreille contre le bois froid. Sous le bip des machines, tu entends la voix fatiguée d'un ami qui veille à tes côtés : « Reviens, Aiden. Je sais que tu es là-dedans, en train de te battre. Ne reste pas dans le rêve juste parce que se réveiller fait mal. Il reste encore quelqu'un ici qui t'attend. » Tu reconnais cette voix même si tu ne peux pas y mettre un visage. Roxas. Toujours vivant. Toujours à tes côtés. Tu t'éloignes de la porte, le cœur serré.",
+            "it": "Appoggi l'orecchio al legno freddo. Sotto il bip delle macchine senti la voce stanca di un amico che veglia al tuo fianco: 'Torna, Aiden. So che sei là dentro, a lottare. Non restare nel sogno solo perché svegliarsi fa male. Qui c'è ancora qualcuno che ti aspetta.' Riconosci quella voce anche se non riesci a darle un volto. Roxas. Ancora vivo. Ancora al tuo fianco. Ti allontani dalla porta con il cuore in gola.",
+            "de": "Du legst dein Ohr an das kalte Holz. Unter dem Piepen der Maschinen hörst du die müde Stimme eines Freundes, der an deiner Seite wacht: „Komm zurück, Aiden. Ich weiß, du bist da drin und kämpfst. Bleib nicht im Traum, nur weil Aufwachen wehtut. Hier draußen wartet noch jemand auf dich.“ Du erkennst diese Stimme, auch wenn du ihr kein Gesicht geben kannst. Roxas. Immer noch am Leben. Immer noch an deiner Seite. Du entfernst dich von der Tür, das Herz zugeschnürt.",
+            "zh": "你把耳朵贴在冰冷的木门上。在机器的滴答声下，你听见一位守候在你身边的朋友疲惫的声音：「回来吧，艾登。我知道你在里面挣扎。不要只因为醒来会痛，就一直留在梦里。这里还有人在等你。」你认出了这个声音，尽管你想不起那张脸。罗克萨斯。还活着。还在你身边。你心头一紧，从门边退开。",
+            "ja": "冷たい木の扉に耳を当てる。機械の電子音の下に、そばで見守り続ける友の疲れた声が聞こえる。「戻ってきてくれ、エイデン。お前がそこで戦っているのはわかっている。目覚めるのが痛いからといって、夢の中に留まるな。ここにはまだ、お前を待っている人間がいる」。顔は思い出せなくても、その声には聞き覚えがある。ロクサスだ。まだ生きている。まだそばにいる。胸を締め付けられながら、扉から離れる。"
+        },
+        "next": [
+            "pue_root"
+        ],
+        "reward": ""
+    },
+    "pue_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Dejar la puerta cerrada y seguir",
+            "en": "🚶  Leave the door closed and move on",
+            "fr": "🚶  Laisser la porte fermée et continuer",
+            "it": "🚶  Lasciare la porta chiusa e proseguire",
+            "de": "🚶  Die Tür geschlossen lassen und weitergehen",
+            "zh": "🚶  让门保持关闭，继续前行",
+            "ja": "🚶  扉を閉じたままにして先へ進む"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

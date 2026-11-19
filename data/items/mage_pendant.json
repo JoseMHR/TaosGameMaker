@@ -1,0 +1,31 @@
+{
+    "name": {
+        "es": "Colgante de Mago",
+        "en": "Mage Pendant",
+        "fr": "Pendentif de Mage",
+        "it": "Ciondolo del Mago",
+        "de": "Magieranhänger",
+        "zh": "法师吊坠",
+        "ja": "メイジペンダント"
+    },
+    "desc": {
+        "es": "Un colgante que amplifica el poder mágico.",
+        "en": "A pendant that amplifies magic power.",
+        "fr": "Un pendentif qui amplifie le pouvoir magique.",
+        "it": "Un ciondolo che amplifica il potere magico.",
+        "de": "Ein Anhänger, der magische Kraft verstärkt.",
+        "zh": "能放大魔法力量的吊坠。",
+        "ja": "魔力を増幅させるペンダント。"
+    },
+    "icon": "📿",
+    "category": "equipment",
+    "usable": false,
+    "slot": "accessory",
+    "tier": 3,
+    "bonuses": {
+        "int": 5
+    },
+    "combat": {
+        "mag_damage": 65
+    }
+}

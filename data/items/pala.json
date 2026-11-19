@@ -1,0 +1,23 @@
+{
+    "name": {
+        "es": "Pala",
+        "en": "Shovel",
+        "fr": "Pelle",
+        "it": "Pala",
+        "de": "Schaufel",
+        "zh": "铲子",
+        "ja": "シャベル"
+    },
+    "desc": {
+        "es": "Herramienta versátil: excava arena, busca tesoros, modifica el terreno y canaliza agua en zonas preparadas.",
+        "en": "Versatile tool: digs sand, searches for treasure, reshapes terrain and channels water in prepared areas.",
+        "fr": "Outil polyvalent : creuse le sable, cherche des trésors, modifie le terrain et canalise l'eau dans les zones préparées.",
+        "it": "Strumento versatile: scava sabbia, cerca tesori, modifica il terreno e incanala l'acqua nelle zone preparate.",
+        "de": "Vielseitiges Werkzeug: gräbt Sand, sucht nach Schätzen, verändert das Gelände und leitet Wasser in vorbereiteten Bereichen.",
+        "zh": "多功能工具：挖掘沙地、寻找宝藏、改造地形并在预设区域引导水流。",
+        "ja": "多用途な道具：砂を掘り、宝を探し、地形を変え、準備されたエリアで水を導く。"
+    },
+    "icon": "🥄",
+    "category": "tool",
+    "usable": false
+}

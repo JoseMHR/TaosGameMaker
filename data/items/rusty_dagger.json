@@ -1,0 +1,31 @@
+{
+    "name": {
+        "es": "Daga Oxidada",
+        "en": "Rusty Dagger",
+        "fr": "Dague Rouillée",
+        "it": "Pugnale Arrugginito",
+        "de": "Rostiger Dolch",
+        "zh": "生锈的匕首",
+        "ja": "錆びたダガー"
+    },
+    "desc": {
+        "es": "Una daga vieja y oxidada, pero rápida.",
+        "en": "An old, rusty but quick dagger.",
+        "fr": "Une vieille dague rouillée, mais rapide.",
+        "it": "Un pugnale vecchio e arrugginito, ma veloce.",
+        "de": "Ein alter, rostiger, aber schneller Dolch.",
+        "zh": "一把老旧生锈但灵敏的匕首。",
+        "ja": "古くて錆びているが素早い短剣。"
+    },
+    "icon": "🔪",
+    "category": "equipment",
+    "usable": false,
+    "slot": "weapon",
+    "tier": 2,
+    "bonuses": {
+        "dex": 3
+    },
+    "combat": {
+        "phys_damage": 30
+    }
+}

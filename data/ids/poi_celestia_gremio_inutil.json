@@ -1,0 +1,26 @@
+{
+    "id": "poi_celestia_gremio_inutil",
+    "type": "poi",
+    "icon": "🎭",
+    "name": {
+        "es": "El Gremio de las Artes Inútiles",
+        "en": "The Guild of Useless Arts",
+        "fr": "La Guilde des Arts Inutiles",
+        "it": "La Gilda delle Arti Inutili",
+        "de": "Die Gilde der Nutzlosen Künste",
+        "zh": "无用技艺公会",
+        "ja": "無用の芸術ギルド"
+    },
+    "desc": {
+        "es": "Una carpa donde un puñado de maestros enseña, con orgullo desmedido, habilidades absolutamente inservibles. (PNJ singular).",
+        "en": "A tent where a handful of masters proudly teach absolutely worthless skills. (Singular NPC).",
+        "fr": "Une tente où une poignée de maîtres enseigne, avec une fierté démesurée, des compétences absolument inutiles. (PNJ singulier).",
+        "it": "Una tenda dove un pugno di maestri insegna, con orgoglio smisurato, abilità assolutamente inutili. (PNG singolare).",
+        "de": "Ein Zelt, in dem eine Handvoll Meister mit unermesslichem Stolz absolut nutzlose Fähigkeiten lehrt. (Einzigartiger NPC).",
+        "zh": "一顶帐篷里，几位大师带着过分的骄傲，传授着完全无用的技艺。（唯一NPC）。",
+        "ja": "一握りの達人たちが、途方もない誇りを持って全く役に立たない技術を教えるテント。（唯一のNPC）。"
+    },
+    "npc": "poi_celestia_gremio_inutil",
+    "bg": "bg_world_poi_celestia_gremio_inutil.png",
+    "music": "poi_comic"
+}

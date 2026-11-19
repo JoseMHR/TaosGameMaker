@@ -1,0 +1,13 @@
+{
+	"code": "are",
+	"order": 3.5,
+	"label": "Playa",
+	"color": "#e0c98a",
+	"icon": "🏖️",
+	"biome_color": "#3a3222",
+	"description": "Arena dorada de playa costera; se puede cruzar sin peligro de insolación.",
+	"walkable": true,
+	"speed_mult": 0.7,
+	"texture": "beach",
+	"tint": "#ffffff"
+}

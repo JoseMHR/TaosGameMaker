@@ -1,0 +1,151 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Columpio Vacío",
+            "en": "The Empty Swing",
+            "fr": "La Balançoire Vide",
+            "it": "L'Altalena Vuota",
+            "de": "Die Leere Schaukel",
+            "zh": "空荡的秋千",
+            "ja": "誰もいないブランコ"
+        },
+        "next": [],
+        "reward": "bg=0.05,0.06,0.08"
+    },
+    "col_root": {
+        "type": "message",
+        "text": {
+            "es": "Colgado de una estructura de hierro que no se apoya en nada, un pequeño columpio de madera se balancea solo, adelante y atrás, con la cadencia exacta de un empujón cariñoso que se repite eternamente. No hay viento en el abismo. No hay nadie sentado. El asiento está gastado por el uso, pulido por unas piernecitas que ya no vienen. Cada vez que sube, jurarías oír el fantasma de una risa; cada vez que baja, un silencio que pesa toneladas.",
+            "en": "Hung from an iron frame that rests on nothing, a small wooden swing sways on its own, back and forth, with the exact cadence of a loving push repeated eternally. There is no wind in the abyss. No one sits on it. The seat is worn from use, polished by little legs that no longer come. Each time it rises, you'd swear you hear the ghost of a laugh; each time it falls, a silence that weighs tons.",
+            "fr": "Suspendue à une structure de fer qui ne repose sur rien, une petite balançoire en bois se balance seule, d'avant en arrière, avec la cadence exacte d'une poussée affectueuse répétée éternellement. Il n'y a pas de vent dans l'abîme. Personne n'est assis dessus. Le siège est usé par l'usage, poli par de petites jambes qui ne viennent plus. Chaque fois qu'elle monte, tu jurerais entendre le fantôme d'un rire ; chaque fois qu'elle descend, un silence qui pèse des tonnes.",
+            "it": "Appesa a una struttura di ferro che non poggia su nulla, una piccola altalena di legno oscilla da sola, avanti e indietro, con la cadenza esatta di una spinta affettuosa ripetuta eternamente. Non c'è vento nell'abisso. Nessuno è seduto. Il sedile è consumato dall'uso, levigato da gambette che non vengono più. Ogni volta che sale, giureresti di sentire il fantasma di una risata; ogni volta che scende, un silenzio che pesa tonnellate.",
+            "de": "An einer Eisenstruktur hängend, die auf nichts ruht, schaukelt eine kleine Holzschaukel von selbst hin und her, mit der genauen Kadenz eines liebevollen Schwungs, der sich ewig wiederholt. Es gibt keinen Wind im Abgrund. Niemand sitzt darauf. Der Sitz ist durch Gebrauch abgenutzt, poliert von kleinen Beinen, die nicht mehr kommen. Jedes Mal, wenn sie aufsteigt, würdest du schwören, das Gespenst eines Lachens zu hören; jedes Mal, wenn sie fällt, eine Stille, die Tonnen wiegt.",
+            "zh": "一架小小的木秋千悬挂在一个不倚靠任何东西的铁架上，独自前后摆动，节奏精准得就像一次永恒重复的、充满爱意的轻推。深渊中没有风。没有人坐在上面。座位因使用而磨损，被那些再也不会来的小小双腿磨得光滑。每当它荡起，你敢发誓能听到一声笑声的幽魂；每当它落下，一片重达千斤的寂静便随之而来。",
+            "ja": "何も支えるもののない鉄の骨組みから吊るされた小さな木のブランコが、独りでに前後に揺れている。永遠に繰り返される愛情のこもった一押しの、正確なリズムで。深淵に風はない。誰も座っていない。座面は使い込まれてすり減り、もう来ることのない小さな脚によって磨かれている。上がるたびに、笑い声の幻を聞いたと誓ってもいい。下がるたびに、何トンもの重さを持つ沈黙が訪れる。"
+        },
+        "next": [
+            "col_opt_empujar",
+            "col_opt_sentarse",
+            "col_opt_parar",
+            "col_opt_salir"
+        ],
+        "reward": ""
+    },
+    "col_opt_empujar": {
+        "type": "option",
+        "text": {
+            "es": "🤚  Empujar el columpio vacío, con suavidad",
+            "en": "🤚  Push the empty swing, gently",
+            "fr": "🤚  Pousser doucement la balançoire vide",
+            "it": "🤚  Spingere delicatamente l'altalena vuota",
+            "de": "🤚  Die leere Schaukel sanft anschieben",
+            "zh": "🤚  轻轻推一推这架空秋千",
+            "ja": "🤚  空のブランコをそっと押す"
+        },
+        "next": [
+            "col_msg_empujar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "col_msg_empujar": {
+        "type": "message",
+        "text": {
+            "es": "Extiendes la mano y le das un empujoncito al asiento vacío, como harías a un niño que pide 'más alto'. El columpio sube un poco más, y por un instante brevísimo notas un peso donde no lo hay, y una vocecita que grita de alegría: '¡MÁS, papá, MÁS!'. Sigues empujando el vacío una y otra vez, con lágrimas resbalándote, aferrado a un gesto de amor hacia alguien que ya no está. No arreglas nada. Pero por un momento, vuelves a ser padre.",
+            "en": "You reach out and give the empty seat a little push, as you would a child asking to go 'higher'. The swing rises a little more, and for the briefest instant you feel a weight where there is none, and a little voice crying with joy: 'MORE, daddy, MORE!'. You keep pushing the emptiness over and over, tears sliding down, clinging to a gesture of love toward someone who is gone. You fix nothing. But for a moment, you are a father again.",
+            "fr": "Tu tends la main et donnes une petite poussée au siège vide, comme tu le ferais pour un enfant demandant « plus haut ». La balançoire monte un peu plus, et pendant un instant très bref tu sens un poids là où il n'y en a pas, et une petite voix qui crie de joie : « ENCORE, papa, ENCORE ! ». Tu continues à pousser le vide encore et encore, les larmes coulant, accroché à un geste d'amour envers quelqu'un qui n'est plus là. Tu ne répares rien. Mais pendant un instant, tu redeviens père.",
+            "it": "Allunghi la mano e dai una piccola spinta al sedile vuoto, come faresti a un bambino che chiede 'più in alto'. L'altalena sale un po' di più, e per un istante brevissimo senti un peso dove non c'è, e una vocina che grida di gioia: 'ANCORA, papà, ANCORA!'. Continui a spingere il vuoto ancora e ancora, con le lacrime che scorrono, aggrappato a un gesto d'amore verso qualcuno che non c'è più. Non aggiusti nulla. Ma per un momento, torni ad essere padre.",
+            "de": "Du streckst die Hand aus und gibst dem leeren Sitz einen kleinen Schubs, wie du es bei einem Kind tun würdest, das um „höher“ bittet. Die Schaukel steigt ein wenig mehr, und für einen ganz kurzen Moment spürst du ein Gewicht, wo keines ist, und eine kleine Stimme, die vor Freude ruft: „NOCH MEHR, Papa, NOCH MEHR!“. Du schiebst die Leere immer wieder, Tränen fließen, du klammerst dich an eine Geste der Liebe zu jemandem, der nicht mehr da ist. Du reparierst nichts. Aber für einen Moment bist du wieder Vater.",
+            "zh": "你伸出手，轻轻推了推那个空座位，就像对一个要求「再高一点」的孩子那样。秋千又荡高了一些，那极短的一瞬间，你感觉到了本不存在的重量，还有一个欢欣呼喊的小小声音：「再来一次，爸爸，再来一次！」你一次又一次地推着虚空，泪水滑落，紧紧抓住这个对已经不在的人所做的爱的举动。你什么也没能修复。但那一刻，你又重新成为了父亲。",
+            "ja": "手を伸ばし、「もっと高く」とせがむ子供にするように、空の座席をそっと押す。ブランコは少し高く上がり、ほんの一瞬、そこにないはずの重みを感じ、喜びに満ちた小さな声が叫ぶ——「もっと、パパ、もっと！」何度も何度も虚空を押し続け、涙を流しながら、もういない誰かへの愛の仕草にしがみつく。何も直りはしない。だが一瞬、お前は再び父親になる。"
+        },
+        "next": [
+            "col_opt_salir"
+        ],
+        "reward": "faceta:bondad=+1;faceta:cordura=-1;gflag:col_empujado"
+    },
+    "col_opt_sentarse": {
+        "type": "option",
+        "text": {
+            "es": "🪑  Sentarte tú mismo en el columpio",
+            "en": "🪑  Sit on the swing yourself",
+            "fr": "🪑  T'asseoir toi-même sur la balançoire",
+            "it": "🪑  Sederti tu stesso sull'altalena",
+            "de": "🪑  Dich selbst auf die Schaukel setzen",
+            "zh": "🪑  你自己坐上秋千",
+            "ja": "🪑  自分自身がブランコに座る"
+        },
+        "next": [
+            "col_msg_sentarse"
+        ],
+        "reward": ""
+    },
+    "col_msg_sentarse": {
+        "type": "message",
+        "text": {
+            "es": "Te sientas en el asiento demasiado pequeño para ti y te impulsas despacio. Mientras subes y bajas, el abismo a tu alrededor parpadea con recuerdos que no sabías tener: un parque soleado, una tarde interminable, tu propia voz prometiendo 'un ratito más y nos vamos'. Comprendes, con una claridad dolorosa, que darías cualquier cosa por que ese 'ratito más' no se hubiera acabado nunca. Te bajas del columpio sabiendo un poco mejor lo que perdiste.",
+            "en": "You sit on the seat too small for you and push off slowly. As you rise and fall, the abyss around you flickers with memories you didn't know you had: a sunny park, an endless afternoon, your own voice promising 'a little longer and then we'll go'. You understand, with a painful clarity, that you'd give anything for that 'little longer' to have never ended. You climb off the swing knowing a little better what you lost.",
+            "fr": "Tu t'assois sur le siège trop petit pour toi et te lances doucement. Tandis que tu montes et descends, l'abîme autour de toi vacille de souvenirs que tu ne savais pas avoir : un parc ensoleillé, un après-midi sans fin, ta propre voix promettant « encore un petit moment et on y va ». Tu comprends, avec une clarté douloureuse, que tu donnerais n'importe quoi pour que ce « petit moment de plus » ne se soit jamais terminé. Tu descends de la balançoire en sachant un peu mieux ce que tu as perdu.",
+            "it": "Ti siedi sul sedile troppo piccolo per te e ti spingi lentamente. Mentre sali e scendi, l'abisso intorno a te sfarfalla con ricordi che non sapevi di avere: un parco assolato, un pomeriggio infinito, la tua stessa voce che promette 'un altro po' e andiamo'. Comprendi, con dolorosa chiarezza, che daresti qualsiasi cosa perché quel 'un altro po'' non fosse mai finito. Scendi dall'altalena sapendo un po' meglio cosa hai perso.",
+            "de": "Du setzt dich auf den für dich zu kleinen Sitz und schaukelst langsam los. Während du auf und ab gehst, flackert der Abgrund um dich herum mit Erinnerungen, von denen du nicht wusstest, dass du sie hattest: ein sonniger Park, ein endloser Nachmittag, deine eigene Stimme, die verspricht „noch ein bisschen und dann gehen wir“. Du verstehst mit schmerzhafter Klarheit, dass du alles geben würdest, damit dieses „noch ein bisschen“ nie geendet hätte. Du steigst von der Schaukel und weißt etwas besser, was du verloren hast.",
+            "zh": "你坐在这个对你来说太小的座位上，缓缓地荡了起来。随着你上下摆动，周围的深渊闪烁着你不曾知道自己拥有的记忆：一座阳光明媚的公园，一个漫无边际的下午，你自己的声音承诺着「再玩一会儿我们就走」。你带着一种痛苦的清晰意识明白，你愿意付出一切，只求那「再玩一会儿」永远不要结束。你从秋千上下来，更加明白了自己失去了什么。",
+            "ja": "自分には小さすぎる座席に腰かけ、ゆっくりと漕ぎ始める。上がったり下がったりする間、周りの深淵は、自分でも知らなかった記憶で明滅する——晴れた公園、終わりのない午後、「もう少しだけ、それから帰ろう」と約束する自分自身の声。「もう少しだけ」が決して終わらなければよかったのにと、痛いほどの明晰さで理解する。何を失ったのかを、少しだけ深く知りながらブランコを降りる。"
+        },
+        "next": [
+            "col_root"
+        ],
+        "reward": ""
+    },
+    "col_opt_parar": {
+        "type": "option",
+        "text": {
+            "es": "✋  Detener el columpio y sujetarlo quieto",
+            "en": "✋  Stop the swing and hold it still",
+            "fr": "✋  Arrêter la balançoire et la maintenir immobile",
+            "it": "✋  Fermare l'altalena e tenerla ferma",
+            "de": "✋  Die Schaukel anhalten und still halten",
+            "zh": "✋  停止秋千的摆动，将它固定住",
+            "ja": "✋  ブランコを止め、じっと押さえる"
+        },
+        "next": [
+            "col_msg_parar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "col_msg_parar": {
+        "type": "message",
+        "text": {
+            "es": "Agarras las cadenas y frenas el balanceo hasta detenerlo del todo. El silencio que sigue es absoluto, definitivo, como cerrar un libro que no quieres terminar. El columpio cuelga inmóvil, y el rincón del abismo se apaga un poco, como si acabaras de aceptar que el juego, esta vez, sí se ha terminado. Duele, pero era necesario. Algunas cosas dejan de doler solo cuando dejas de mecerlas.",
+            "en": "You grab the chains and slow the swaying until it stops entirely. The silence that follows is absolute, final, like closing a book you don't want to finish. The swing hangs motionless, and the corner of the abyss dims a little, as if you'd just accepted that the game, this time, really is over. It hurts, but it was necessary. Some things stop hurting only when you stop rocking them.",
+            "fr": "Tu attrapes les chaînes et ralentis le balancement jusqu'à l'arrêter complètement. Le silence qui suit est absolu, définitif, comme fermer un livre que tu ne veux pas terminer. La balançoire pend immobile, et le coin de l'abîme s'assombrit un peu, comme si tu venais d'accepter que le jeu, cette fois, est bel et bien terminé. Ça fait mal, mais c'était nécessaire. Certaines choses cessent de faire mal seulement quand tu cesses de les bercer.",
+            "it": "Afferri le catene e rallenti il dondolio fino a fermarlo del tutto. Il silenzio che segue è assoluto, definitivo, come chiudere un libro che non vuoi finire. L'altalena pende immobile, e l'angolo dell'abisso si affievolisce un po', come se avessi appena accettato che il gioco, questa volta, sia davvero finito. Fa male, ma era necessario. Alcune cose smettono di far male solo quando smetti di cullarle.",
+            "de": "Du greifst nach den Ketten und verlangsamst das Schaukeln, bis es ganz aufhört. Die darauffolgende Stille ist absolut, endgültig, wie das Schließen eines Buches, das du nicht beenden willst. Die Schaukel hängt bewegungslos, und die Ecke des Abgrunds verdunkelt sich ein wenig, als hättest du gerade akzeptiert, dass das Spiel diesmal wirklich vorbei ist. Es tut weh, aber es war nötig. Manche Dinge hören erst auf wehzutun, wenn du aufhörst, sie zu wiegen.",
+            "zh": "你抓住铁链，让摆动逐渐放慢，直到完全停止。随之而来的寂静是绝对的、终极的，就像合上一本你不愿读完的书。秋千静止地悬挂着，深渊的这个角落也随之暗淡了一些，仿佛你刚刚接受了这一次，这场游戏真的结束了。这很痛，但这是必要的。有些事情，只有当你不再摇晃它们时，才会停止疼痛。",
+            "ja": "鎖を掴み、揺れを完全に止まるまでゆっくりと鎮める。続く沈黙は絶対的で、最終的なもの——終わらせたくない本を閉じるかのようだ。ブランコは動かずに垂れ下がり、深淵の片隅が少し暗くなる。まるで今回は本当にその遊びが終わったのだと受け入れたかのように。痛むが、必要なことだった。あるものは、揺らすのをやめて初めて痛みが止まるのだ。"
+        },
+        "next": [
+            "col_opt_salir"
+        ],
+        "reward": "faceta:cordura=+1;gflag:col_detenido",
+        "condition": "no_gflag(\"col_detenido\")",
+        "once": true
+    },
+    "col_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Alejarte del columpio",
+            "en": "🚶  Walk away from the swing",
+            "fr": "🚶  S'éloigner de la balançoire",
+            "it": "🚶  Allontanarti dall'altalena",
+            "de": "🚶  Sich von der Schaukel entfernen",
+            "zh": "🚶  离开秋千",
+            "ja": "🚶  ブランコから離れる"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

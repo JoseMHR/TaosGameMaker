@@ -1,0 +1,216 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "Archimago Vael",
+            "en": "Archmage Vael",
+            "fr": "Archimage Vael",
+            "it": "Arcimago Vael",
+            "de": "Erzmagier Vael",
+            "zh": "大魔导师瓦埃尔",
+            "ja": "大魔導師ヴァエル"
+        },
+        "next": [],
+        "reward": "avatar=🧙;bg=0.05,0.05,0.12"
+    },
+    "am_riddle_done": {
+        "type": "message",
+        "text": {
+            "es": "'El fuego. Correcto.' El Archimago chasquea los dedos y un colgante tejido con hilos de maná aparece flotando ante ti. 'El fuego consume, se propaga y no espera turno... como el maná de quien sabe canalizarlo rápido. Llévalo con honor, o al menos con menos torpeza que la habitual.'",
+            "en": "'Fire. Correct.' The Archmage snaps his fingers and a pendant woven from mana threads appears floating before you. 'Fire consumes, spreads, and waits for no one... much like the mana of someone who channels it fast. Wear it with honor, or at least with less clumsiness than usual.'",
+            "fr": "« Le feu. Correct. » L'Archimage claque des doigts et un pendentif tissé de fils de mana apparaît flottant devant toi. « Le feu consume, se propage et n'attend son tour... comme le mana de celui qui sait le canaliser vite. Porte-le avec honneur, ou du moins avec moins de maladresse que d'habitude. »",
+            "it": "'Il fuoco. Corretto.' L'Arcimago schiocca le dita e un ciondolo intessuto di fili di mana appare fluttuando davanti a te. 'Il fuoco consuma, si propaga e non aspetta il turno... come il mana di chi sa incanalarlo velocemente. Portalo con onore, o almeno con meno goffaggine del solito.'",
+            "de": "„Feuer. Richtig.“ Der Erzmagier schnippt mit den Fingern, und ein aus Manafäden gewobener Anhänger erscheint schwebend vor dir. „Feuer verzehrt, breitet sich aus und wartet auf niemanden... genau wie das Mana desjenigen, der es schnell zu kanalisieren weiß. Trag es mit Ehre, oder wenigstens mit weniger Ungeschick als sonst.“",
+            "zh": "「火。正确。」大魔导师打了个响指，一枚由法力丝线织成的吊坠悬浮着出现在你面前。「火焰吞噬、蔓延，不等人……就像那些能快速引导法力之人一样。带着荣耀佩戴它吧，或者至少别像平时那么笨拙。」",
+            "ja": "「火だ。正解」大魔導師が指を鳴らすと、マナの糸で織られたペンダントがお前の前に浮かび上がる。「火は焼き尽くし、広がり、誰の順番も待たない……速やかにマナを操る者と同じようにな。誇りを持って身につけるがいい、せめていつもより不器用でなければな」"
+        },
+        "next": [
+            "am_riddle_done_ok"
+        ],
+        "reward": "gflag:archmage_riddle_done;item:colgante_casteo=1;faceta:inteligencia=+1",
+        "condition": "has_flag(\"riddle_started\") and no_gflag(\"archmage_riddle_done\")",
+        "once": true
+    },
+    "am_riddle_done_ok": {
+        "type": "option",
+        "text": {
+            "es": "📿  Gracias, Archimago",
+            "en": "📿  Thank you, Archmage",
+            "fr": "📿  Merci, Archimage",
+            "it": "📿  Grazie, Arcimago",
+            "de": "📿  Danke, Erzmagier",
+            "zh": "📿  谢谢，大魔导师",
+            "ja": "📿  ありがとう、大魔導師"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "am_riddle_wrong": {
+        "type": "message",
+        "text": {
+            "es": "'No, no y no.' El Archimago suspira, decepcionado pero no sorprendido. 'Vuelve a pensarlo cuando tengas la cabeza despejada de niebla desértica.'",
+            "en": "'No, no, and no.' The Archmage sighs, disappointed but unsurprised. 'Think it over again once your head is clear of desert fog.'",
+            "fr": "« Non, non et non. » L'Archimage soupire, déçu mais pas surpris. « Réfléchis-y de nouveau quand tu auras la tête débarrassée du brouillard du désert. »",
+            "it": "'No, no e no.' L'Arcimago sospira, deluso ma non sorpreso. 'Ripensaci quando avrai la testa libera dalla nebbia del deserto.'",
+            "de": "„Nein, nein und nein.“ Der Erzmagier seufzt, enttäuscht, aber nicht überrascht. „Denk noch einmal darüber nach, wenn dein Kopf frei von Wüstennebel ist.“",
+            "zh": "「不对，不对，还是不对。」大魔导师叹了口气，失望却并不惊讶。「等你的脑子从沙漠迷雾中清醒过来，再重新想想吧。」",
+            "ja": "「違う、違う、違う」大魔導師はため息をつく。失望はしているが驚いてはいない。「砂漠の霧で曇った頭がすっきりしたら、もう一度考え直すことだな」"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "am_riddle": {
+        "type": "message",
+        "text": {
+            "es": "'Un acertijo, joven, ya que insistes en interrumpir mi lectura. Nace pequeño y crece si lo alimentan, pero un exceso de agua lo mata al instante. ¿Qué elemento es?'",
+            "en": "'A riddle, young one, since you insist on interrupting my reading. It's born small and grows if fed, but too much water kills it instantly. What element is it?'",
+            "fr": "« Une énigme, jeune homme, puisque tu insistes pour interrompre ma lecture. Il naît petit et grandit si on le nourrit, mais un excès d'eau le tue instantanément. Quel élément est-ce ? »",
+            "it": "'Un indovinello, giovane, dato che insisti a interrompere la mia lettura. Nasce piccolo e cresce se lo nutri, ma un eccesso d'acqua lo uccide all'istante. Che elemento è?'",
+            "de": "„Ein Rätsel, junger Mann, da du darauf bestehst, meine Lektüre zu unterbrechen. Es wird klein geboren und wächst, wenn man es nährt, aber zu viel Wasser tötet es sofort. Welches Element ist es?“",
+            "zh": "「一个谜语，年轻人，既然你坚持要打断我的阅读。它出生时很小，被喂养便会成长，但过量的水会立刻杀死它。这是什么元素？」",
+            "ja": "「なぞなぞだ、若者よ、私の読書を邪魔すると言い張るのだからな。小さく生まれ、養えば育つが、水を過剰に与えれば即座に死ぬ。何の元素か？」"
+        },
+        "next": [
+            "am_riddle_fuego",
+            "am_riddle_rayo",
+            "am_riddle_tierra"
+        ],
+        "reward": "flag:riddle_started",
+        "condition": "no_gflag(\"archmage_riddle_done\")"
+    },
+    "am_riddle_fuego": {
+        "type": "option",
+        "text": {
+            "es": "🔥  El fuego",
+            "en": "🔥  Fire",
+            "fr": "🔥  Le feu",
+            "it": "🔥  Il fuoco",
+            "de": "🔥  Das Feuer",
+            "zh": "🔥  火",
+            "ja": "🔥  火"
+        },
+        "next": [
+            "am_riddle_done"
+        ],
+        "reward": ""
+    },
+    "am_riddle_rayo": {
+        "type": "option",
+        "text": {
+            "es": "⚡  El rayo",
+            "en": "⚡  Lightning",
+            "fr": "⚡  La foudre",
+            "it": "⚡  Il fulmine",
+            "de": "⚡  Der Blitz",
+            "zh": "⚡  雷",
+            "ja": "⚡  雷"
+        },
+        "next": [
+            "am_riddle_wrong"
+        ],
+        "reward": ""
+    },
+    "am_riddle_tierra": {
+        "type": "option",
+        "text": {
+            "es": "🪨  La tierra",
+            "en": "🪨  Earth",
+            "fr": "🪨  La terre",
+            "it": "🪨  La terra",
+            "de": "🪨  Die Erde",
+            "zh": "🪨  土",
+            "ja": "🪨  土"
+        },
+        "next": [
+            "am_riddle_wrong"
+        ],
+        "reward": ""
+    },
+    "am_1": {
+        "type": "message",
+        "text": {
+            "es": "Un anciano flota un palmo sobre el suelo, rodeado de libros que pasan sus propias páginas. 'Celestia... la ciudad más brillante del continente, y la que más secretos entierra. Aprende las tres artes que aún te faltan, joven. Elementos, vida y tiempo. Luego... tal vez hablemos de por qué el mar lleva años cerrado.' Sonríe sin alegría.",
+            "en": "An old man floats a hand's width above the floor, surrounded by books that turn their own pages. 'Celestia... the brightest city on the continent, and the one that buries the most secrets. Learn the three arts you still lack, young one. Elements, life and time. Then... perhaps we'll talk about why the sea has been closed for years.' He smiles without joy.",
+            "fr": "Un vieil homme flotte à quelques centimètres du sol, entouré de livres qui tournent leurs propres pages. « Celestia... la ville la plus brillante du continent, et celle qui enterre le plus de secrets. Apprends les trois arts qu'il te manque encore, jeune homme. Éléments, vie et temps. Ensuite... peut-être parlerons-nous de pourquoi la mer est fermée depuis des années. » Il sourit sans joie.",
+            "it": "Un anziano fluttua a un palmo dal suolo, circondato da libri che sfogliano le proprie pagine. 'Celestia... la città più brillante del continente, e quella che seppellisce più segreti. Impara le tre arti che ancora ti mancano, giovane. Elementi, vita e tempo. Poi... forse parleremo del perché il mare è chiuso da anni.' Sorride senza gioia.",
+            "de": "Ein alter Mann schwebt eine Handbreit über dem Boden, umgeben von Büchern, die ihre eigenen Seiten umblättern. „Celestia... die glänzendste Stadt des Kontinents, und diejenige, die die meisten Geheimnisse begräbt. Erlerne die drei Künste, die dir noch fehlen, junger Mann. Elemente, Leben und Zeit. Dann... reden wir vielleicht darüber, warum das Meer seit Jahren geschlossen ist.“ Er lächelt freudlos.",
+            "zh": "一位老人悬浮在离地一掌高的地方，周围环绕着自动翻页的书籍。「塞莱斯提亚……这片大陆上最耀眼的城市，也是埋藏秘密最多的城市。学会你还欠缺的三门技艺吧，年轻人。元素、生命与时间。然后……或许我们再谈谈为何大海已经封闭了这么多年。」他毫无喜悦地微笑着。",
+            "ja": "老人が床から手のひら一枚分浮かび、自らページをめくる本に囲まれている。「セレスティア……この大陸で最も輝かしい都市であり、最も多くの秘密を埋めた都市だ。まだ習得していない三つの技を学べ、若者よ。元素、生命、そして時。それから……なぜ海が何年も閉ざされているのか、話すこともあろう」彼は喜びのない笑みを浮かべる。"
+        },
+        "next": [
+            "am_1a",
+            "am_1b",
+            "am_1c"
+        ],
+        "reward": "gflag:celestia_arrived;questf:celestia_arrived"
+    },
+    "am_1c": {
+        "type": "option",
+        "text": {
+            "es": "🧩  Ponme a prueba con un acertijo",
+            "en": "🧩  Test me with a riddle",
+            "fr": "🧩  Mets-moi à l'épreuve avec une énigme",
+            "it": "🧩  Mettimi alla prova con un indovinello",
+            "de": "🧩  Stelle mich mit einem Rätsel auf die Probe",
+            "zh": "🧩  用一个谜语考考我吧",
+            "ja": "🧩  なぞなぞで私を試してくれ"
+        },
+        "next": [
+            "am_riddle"
+        ],
+        "reward": "",
+        "condition": "no_gflag(\"archmage_riddle_done\")"
+    },
+    "am_1a": {
+        "type": "option",
+        "text": {
+            "es": "🧙  ¿El mar cerrado?",
+            "en": "🧙  The sea, closed?",
+            "fr": "🧙  La mer, fermée ?",
+            "it": "🧙  Il mare, chiuso?",
+            "de": "🧙  Das Meer, geschlossen?",
+            "zh": "🧙  大海封闭了？",
+            "ja": "🧙  海が閉ざされている？"
+        },
+        "next": [
+            "am_1ar"
+        ],
+        "reward": ""
+    },
+    "am_1ar": {
+        "type": "message",
+        "text": {
+            "es": "'El Rey selló los puertos. Nadie zarpa. Dicen que teme algo que viene del otro lado del agua. O que ya está aquí. Yo no digo nada.' Vuelve a sus libros como si no existieras.",
+            "en": "'The King sealed the ports. No one sails. They say he fears something coming from across the water. Or that it's already here. I say nothing.' He returns to his books as if you never existed.",
+            "fr": "« Le Roi a scellé les ports. Personne ne prend la mer. On dit qu'il craint quelque chose venant de l'autre côté de l'eau. Ou que c'est déjà ici. Moi, je ne dis rien. » Il retourne à ses livres comme si tu n'existais pas.",
+            "it": "'Il Re ha sigillato i porti. Nessuno salpa. Dicono che tema qualcosa che viene dall'altra parte dell'acqua. O che sia già qui. Io non dico nulla.' Torna ai suoi libri come se tu non esistessi.",
+            "de": "„Der König hat die Häfen versiegelt. Niemand segelt. Man sagt, er fürchte etwas, das von jenseits des Wassers kommt. Oder dass es bereits hier ist. Ich sage nichts.“ Er kehrt zu seinen Büchern zurück, als würdest du nicht existieren.",
+            "zh": "「国王封锁了港口。没有人能出海。据说他害怕来自水的彼岸的某种东西。或者，那东西早已在此。我什么都不说。」他重新回到书本中，仿佛你根本不存在。",
+            "ja": "「王が港を封じた。誰も船出できない。水の向こうから来る何かを恐れているとも、既にここにいるとも言われている。私は何も言わない」まるでお前が存在しないかのように、彼はまた本に戻っていく。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "am_1b": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Despedirse",
+            "en": "🚶  Take your leave",
+            "fr": "🚶  Prendre congé",
+            "it": "🚶  Congedarsi",
+            "de": "🚶  Sich verabschieden",
+            "zh": "🚶  告别",
+            "ja": "🚶  別れを告げる"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

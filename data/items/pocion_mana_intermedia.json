@@ -1,0 +1,27 @@
+{
+    "name": {
+        "es": "Poción de Maná Intermedia",
+        "en": "Medium Mana Potion",
+        "fr": "Potion de Mana Intermédiaire",
+        "it": "Pozione di Mana Intermedia",
+        "de": "Mittlerer Manatrank",
+        "zh": "中级魔法药水",
+        "ja": "中級マナポーション"
+    },
+    "desc": {
+        "es": "Restaura el 50% del maná máximo (mínimo 50 MP).",
+        "en": "Restores 50% of maximum mana (minimum 50 MP).",
+        "fr": "Restaure 50% du mana maximum (minimum 50 PM).",
+        "it": "Ripristina il 50% del mana massimo (minimo 50 MP).",
+        "de": "Stellt 50% des maximalen Manas wieder her (mindestens 50 MP).",
+        "zh": "恢复 50% 的最大魔法值（至少 50 点 MP）。",
+        "ja": "最大MPの50%を回復する（最低50MP）。"
+    },
+    "icon": "🧴",
+    "category": "consumable",
+    "usable": true,
+    "effects": {
+        "mana_pct": 0.5,
+        "mana": 50
+    }
+}

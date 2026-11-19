@@ -1,0 +1,40 @@
+{
+    "name": {
+        "es": "Cristal de Enfoque",
+        "en": "Focus Crystal",
+        "fr": "Cristal de Concentration",
+        "it": "Cristallo di Concentrazione",
+        "de": "Fokuskristall",
+        "zh": "专注水晶",
+        "ja": "フォーカスクリスタル"
+    },
+    "desc": {
+        "es": "Gema pulida que serena la mente y potencia las artes psíquicas.",
+        "en": "A polished gem that calms the mind and enhances psychic arts.",
+        "fr": "Une gemme polie qui apaise l'esprit et renforce les arts psychiques.",
+        "it": "Una gemma levigata che rasserena la mente e potenzia le arti psichiche.",
+        "de": "Ein polierter Edelstein, der den Geist beruhigt und psychische Künste verstärkt.",
+        "zh": "一颗打磨过的宝石，能安抚心神并强化灵能技艺。",
+        "ja": "心を落ち着かせ、サイキックの力を強化する磨かれた宝石。"
+    },
+    "icon": "🔮",
+    "category": "equipment",
+    "usable": false,
+    "slot": "accessory",
+    "tier": 3,
+    "bonuses": {
+        "int": 3,
+        "luk": 3
+    },
+    "combat": {
+        "mag_damage": 20
+    },
+    "traits": [
+        {
+            "type": "mp_regen",
+            "value": 4,
+            "min_refine": 3,
+            "desc": "Regenera 4 MP al final de cada turno"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "name": {
+        "es": "Poción de Vida Inferior",
+        "en": "Minor Health Potion",
+        "fr": "Potion de Vie Mineure",
+        "it": "Pozione di Vita Minore",
+        "de": "Kleiner Heiltrank",
+        "zh": "初级生命药水",
+        "ja": "下級ライフポーション"
+    },
+    "desc": {
+        "es": "Restaura el 25% de la salud máxima (mínimo 35 HP).",
+        "en": "Restores 25% of maximum health (minimum 35 HP).",
+        "fr": "Restaure 25% de la santé maximale (minimum 35 PV).",
+        "it": "Ripristina il 25% della salute massima (minimo 35 HP).",
+        "de": "Stellt 25% der maximalen Gesundheit wieder her (mindestens 35 HP).",
+        "zh": "恢复 25% 的最大生命值（至少 35 点 HP）。",
+        "ja": "最大HPの25%を回復する（最低35HP）。"
+    },
+    "icon": "🧪",
+    "category": "consumable",
+    "usable": true,
+    "effects": {
+        "heal_pct": 0.25,
+        "heal": 35
+    }
+}

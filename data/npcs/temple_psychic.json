@@ -1,0 +1,183 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "La Maestra de la Mente",
+            "en": "The Mind Mistress",
+            "fr": "La Maîtresse de l'Esprit",
+            "it": "La Maestra della Mente",
+            "de": "Die Meisterin des Geistes",
+            "zh": "心灵大师",
+            "ja": "心の師"
+        },
+        "next": [],
+        "reward": "avatar=🧠"
+    },
+    "tp_0": {
+        "type": "message",
+        "text": {
+            "es": "Sin abrir los ojos, la mujer flotante te detiene con un gesto invisible. 'No. Todavía no. Solo los aprendices pueden entrar al Sendero del Psíquico. Convénceme de que tu mente aguanta lo que hay ahí dentro.'",
+            "en": "Without opening her eyes, the floating woman stops you with an invisible gesture. 'No. Not yet. Only apprentices may enter the Psychic's Path. Convince me your mind can handle what's in there.'",
+            "fr": "Sans ouvrir les yeux, la femme flottante t'arrête d'un geste invisible. « Non. Pas encore. Seuls les apprentis peuvent entrer dans le Sentier du Psychique. Convaincs-moi que ton esprit supporte ce qu'il y a là-dedans. »",
+            "it": "Senza aprire gli occhi, la donna fluttuante ti ferma con un gesto invisibile. 'No. Non ancora. Solo gli apprendisti possono entrare nel Sentiero dello Psichico. Convincimi che la tua mente regge ciò che c'è là dentro.'",
+            "de": "Ohne die Augen zu öffnen, hält die schwebende Frau dich mit einer unsichtbaren Geste auf. „Nein. Noch nicht. Nur Lehrlinge dürfen den Pfad des Hellsehers betreten. Überzeuge mich, dass dein Geist erträgt, was dort drinnen ist.“",
+            "zh": "那位漂浮的女子没有睁开眼睛，用一个无形的手势拦住了你。「不。还不行。只有学徒才能进入灵能者之路。让我相信，你的心智能承受那里面的东西。」",
+            "ja": "目を開けぬまま、浮遊する女は見えない仕草でお前を止める。「いいえ。まだだ。超能力者の道に入れるのは弟子だけだ。あの中にあるものに、お前の心が耐えられると証明してみせろ」"
+        },
+        "next": [
+            "tp_0a",
+            "tp_0b"
+        ],
+        "reward": "",
+        "condition": "no_gflag(\"apprentice_sendero_psiquico\")"
+    },
+    "tp_0a": {
+        "type": "option",
+        "text": {
+            "es": "🧠  Acepto entrenar",
+            "en": "🧠  I accept training",
+            "fr": "🧠  J'accepte l'entraînement",
+            "it": "🧠  Accetto di allenarmi",
+            "de": "🧠  Ich akzeptiere das Training",
+            "zh": "🧠  我接受训练",
+            "ja": "🧠  修行を受け入れる"
+        },
+        "next": [
+            "tp_0r"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "tp_0r": {
+        "type": "message",
+        "text": {
+            "es": "'...tras varias horas intentando enseñarte a vaciar la mente... la tuya sigue llena de ruido... pero oficialmente eres un aprendiz.' Abre un ojo. 'Ya puedes entrar al Sendero. Intenta no pensar demasiado; se te nota.' 🧠 Ahora eres un aprendiz de Psíquico. Busca el Sendero del Psíquico para ponerte a prueba.",
+            "en": "'...after several hours trying to teach you to empty your mind... yours is still full of noise... but you are officially an apprentice.' She opens one eye. 'You may enter the Path now. Try not to think too hard; it shows.' 🧠 You are now a Psychic apprentice. Seek out the Psychic's Path to put yourself to the test.",
+            "fr": "« ...après plusieurs heures à essayer de t'apprendre à vider ton esprit... le tien est toujours plein de bruit... mais officiellement tu es une apprentie. » Elle ouvre un œil. « Tu peux entrer dans le Sentier maintenant. Essaie de ne pas trop penser ; ça se voit. » 🧠 Tu es maintenant une apprentie Psychique. Cherche le Sentier du Psychique pour te mettre à l'épreuve.",
+            "it": "'...dopo diverse ore a cercare di insegnarti a svuotare la mente... la tua è ancora piena di rumore... ma sei ufficialmente un'apprendista.' Apre un occhio. 'Ora puoi entrare nel Sentiero. Cerca di non pensare troppo; si nota.' 🧠 Ora sei un'apprendista Psichica. Cerca il Sentiero dello Psichico per metterti alla prova.",
+            "de": "„...nach mehreren Stunden, in denen ich versucht habe, dir beizubringen, den Geist zu leeren... deiner ist immer noch voller Lärm... aber offiziell bist du eine Lehrlingin.“ Sie öffnet ein Auge. „Du kannst den Pfad jetzt betreten. Versuche, nicht zu viel zu denken; man sieht es dir an.“ 🧠 Du bist jetzt eine Hellseher-Lehrlingin. Suche den Pfad des Hellsehers, um dich zu prüfen.",
+            "zh": "「……经过好几个小时试图教你清空思绪……你的脑子还是充满了杂念……但正式来说，你已经是个学徒了。」她睁开一只眼睛。「你现在可以进入这条路了。尽量别想太多；这看得出来。」🧠 你现在是灵能者学徒了。去寻找灵能者之路来考验自己吧。",
+            "ja": "「……何時間もかけて心を空にする方法を教えようとしたが……お前の中はまだ雑念でいっぱいだ……だが正式には、お前は弟子だ」片目を開ける。「もう道に入っていいぞ。考えすぎないようにしろ、丸わかりだからな」🧠 お前は今、超能力者の弟子となった。超能力者の道を探し、自らを試すがいい。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "gflag:apprentice_sendero_psiquico"
+    },
+    "tp_0b": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Salir del Templo",
+            "en": "🚶  Leave the Temple",
+            "fr": "🚶  Quitter le Temple",
+            "it": "🚶  Lasciare il Tempio",
+            "de": "🚶  Den Tempel verlassen",
+            "zh": "🚶  离开神庙",
+            "ja": "🚶  神殿を去る"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "tp_1": {
+        "condition": "gflag(\"apprentice_sendero_psiquico\")",
+        "type": "message",
+        "text": {
+            "es": "Una mujer flota un palmo por encima del suelo, en postura de loto y con los ojos cerrados. 'Sabía que vendrías. También sabía que ibas a tropezar con ese escalón. Si quieres mover el mundo con la mente, no me lo pidas a mí: pídeselo al Sendero del Psíquico, aquí al lado. Yo solo abro la puerta; tú tienes que cruzarla.'",
+            "en": "A woman floats a hand's width above the floor in a lotus pose, eyes closed. 'I knew you'd come. I also knew you'd trip on that step. If you wish to move the world with your mind, don't ask me: ask the Psychic's Path, right beside us. I only open the door; you must walk through it.'",
+            "fr": "Une femme flotte à quelques centimètres au-dessus du sol, en posture de lotus, les yeux fermés. « Je savais que tu viendrais. Je savais aussi que tu allais trébucher sur cette marche. Si tu veux déplacer le monde par l'esprit, ne me le demande pas à moi : demande-le au Sentier du Psychique, juste à côté. Je n'ouvre que la porte ; c'est à toi de la franchir. »",
+            "it": "Una donna fluttua a un palmo dal pavimento, in posizione del loto e con gli occhi chiusi. 'Sapevo che saresti venuto. Sapevo anche che avresti inciampato su quel gradino. Se vuoi muovere il mondo con la mente, non chiederlo a me: chiedilo al Sentiero dello Psichico, qui accanto. Io apro solo la porta; sei tu che devi attraversarla.'",
+            "de": "Eine Frau schwebt eine Handbreit über dem Boden, im Lotussitz, die Augen geschlossen. „Ich wusste, dass du kommen würdest. Ich wusste auch, dass du über diese Stufe stolpern würdest. Wenn du die Welt mit deinem Geist bewegen willst, frag nicht mich: frag den Pfad des Hellsehers, gleich nebenan. Ich öffne nur die Tür; du musst sie durchschreiten.“",
+            "zh": "一位女子以莲花坐姿悬浮在地面上方一掌宽处，双眼紧闭。「我知道你会来。我也知道你会在那级台阶上绊倒。如果你想用心智撼动世界，别问我：去问紧邻的灵能者之路。我只负责打开门；跨过它得靠你自己。」",
+            "ja": "女が床から手のひら一枚分浮かび、蓮華座を組み、目を閉じている。「お前が来ることは分かっていた。あの段差でつまずくことも分かっていた。心で世界を動かしたいなら、私に聞くな。すぐ隣にある超能力者の道に聞け。私はただ扉を開くだけ。渡るのはお前自身だ」"
+        },
+        "next": [
+            "tp_1c",
+            "tp_1a",
+            "tp_1b"
+        ],
+        "reward": ""
+    },
+    "tp_1c": {
+        "type": "option",
+        "text": {
+            "es": "🏆  He completado la prueba",
+            "en": "🏆  I have completed the trial",
+            "fr": "🏆  J'ai réussi l'épreuve",
+            "it": "🏆  Ho completato la prova",
+            "de": "🏆  Ich habe die Prüfung bestanden",
+            "zh": "🏆  我已完成试炼",
+            "ja": "🏆  試練を終えた"
+        },
+        "next": [
+            "tp_1c_r"
+        ],
+        "reward": "",
+        "condition": "gflag(\"trial_done_sendero_psiquico\") and no_prof(\"Psíquico\")"
+    },
+    "tp_1c_r": {
+        "type": "message",
+        "text": {
+            "es": "La mujer abre ambos ojos de golpe, algo que nunca hace. '...¿ya está? No lo vi venir, y eso que yo lo veo todo.' Sonríe, genuinamente impresionada. 'Es oficial: eres Psíquica. Úsalo con responsabilidad. O no, tú decides.'",
+            "en": "The woman snaps both eyes open at once, something she never does. '...already done? Didn't see that coming, and I see everything.' She smiles, genuinely impressed. 'It's official: you're a Psychic. Use it responsibly. Or don't, your call.'",
+            "fr": "La femme ouvre soudainement les deux yeux, chose qu'elle ne fait jamais. « ...déjà terminé ? Je ne l'avais pas vu venir, et pourtant je vois tout. » Elle sourit, réellement impressionnée. « C'est officiel : tu es Psychique. Utilise-le avec responsabilité. Ou pas, c'est ton choix. »",
+            "it": "La donna spalanca improvvisamente entrambi gli occhi, cosa che non fa mai. '...già fatto? Non l'avevo visto arrivare, eppure vedo tutto.' Sorride, davvero colpita. 'È ufficiale: sei una Psichica. Usalo con responsabilità. O no, decidi tu.'",
+            "de": "Die Frau reißt plötzlich beide Augen auf, etwas, das sie nie tut. „...schon erledigt? Das habe ich nicht kommen sehen, und dabei sehe ich alles.“ Sie lächelt, wirklich beeindruckt. „Es ist offiziell: Du bist eine Hellseherin. Nutze es verantwortungsvoll. Oder auch nicht, deine Entscheidung.“",
+            "zh": "那位女子突然睁开双眼，这是她从未做过的事。「……已经完成了？我竟没预见到，可我能看见一切。」她微笑着，真心感到佩服。「这是正式的了：你是灵能者了。请负责任地使用它。或者不负责任也行，随你决定。」",
+            "ja": "女は突然両目を見開く。彼女が決してしないことだ。「……もう終わったのか？予見できなかったな、すべてを見通せるはずなのに」本当に感心したように微笑む。「公式だ：お前は超能力者だ。責任を持って使え。あるいは使わなくてもいい、お前次第だ」"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "prof:Psíquico;event:check_all_professions"
+    },
+    "tp_1a": {
+        "type": "option",
+        "text": {
+            "es": "🧠  ¿Dónde está la prueba?",
+            "en": "🧠  Where is the trial?",
+            "fr": "🧠  Où se trouve l'épreuve ?",
+            "it": "🧠  Dove si trova la prova?",
+            "de": "🧠  Wo befindet sich die Prüfung?",
+            "zh": "🧠  试炼在哪里？",
+            "ja": "🧠  試練はどこにある？"
+        },
+        "next": [
+            "tp_1ar"
+        ],
+        "reward": ""
+    },
+    "tp_1ar": {
+        "type": "message",
+        "text": {
+            "es": "'Ahí mismo. El Sendero del Psíquico. Aprende a tirar del mundo sin tocarlo y vuelve siendo Psíquico. Y sí: ya sabía que ibas a preguntar eso.'",
+            "en": "'Right there. The Psychic's Path. Learn to pull the world without touching it and return a Psychic. And yes: I already knew you'd ask that.'",
+            "fr": "« Juste là. Le Sentier du Psychique. Apprends à tirer le monde sans le toucher et reviens en tant que Psychique. Et oui : je savais déjà que tu allais demander ça. »",
+            "it": "'Proprio lì. Il Sentiero dello Psichico. Impara a tirare il mondo senza toccarlo e torna Psichica. E sì: sapevo già che l'avresti chiesto.'",
+            "de": "„Genau dort. Der Pfad des Hellsehers. Lerne, die Welt zu ziehen, ohne sie zu berühren, und kehre als Hellseherin zurück. Und ja: ich wusste bereits, dass du das fragen würdest.“",
+            "zh": "「就在那里。灵能者之路。学会不触碰就牵引世界，然后以灵能者的身份归来。是的：我早就知道你会问这个。」",
+            "ja": "「まさにそこだ。超能力者の道。触れずに世界を引く術を学び、超能力者として戻ってこい。そう、お前がそう聞くことは分かっていた」"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "tp_1b": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Salir del Templo",
+            "en": "🚶  Leave the Temple",
+            "fr": "🚶  Quitter le Temple",
+            "it": "🚶  Lasciare il Tempio",
+            "de": "🚶  Den Tempel verlassen",
+            "zh": "🚶  离开神庙",
+            "ja": "🚶  神殿を去る"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

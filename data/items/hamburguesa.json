@@ -1,0 +1,30 @@
+{
+    "name": {
+        "es": "Hamburguesa",
+        "en": "Burger",
+        "fr": "Hamburger",
+        "it": "Hamburger",
+        "de": "Burger",
+        "zh": "汉堡",
+        "ja": "ハンバーガー"
+    },
+    "desc": {
+        "es": "Pan y carne asada juntos. Concede un buff temporal [🗡️ Fuerza] (+10% Ataque).",
+        "en": "Bread and roast meat together. Grants a temporary [🗡️ Strength] buff (+10% Attack).",
+        "fr": "Pain et viande grillée ensemble. Accorde un bonus temporaire [🗡️ Force] (+10% Attaque).",
+        "it": "Pane e carne arrostita insieme. Conferisce un buff temporaneo [🗡️ Forza] (+10% Attacco).",
+        "de": "Brot und gebratenes Fleisch zusammen. Gewährt einen temporären [🗡️ Stärke]-Buff (+10% Angriff).",
+        "zh": "面包与烤肉的组合，给予临时的【🗡️ 力量】增益（攻击力 +10%）。",
+        "ja": "パンと焼き肉を合わせたもの。一時的な【🗡️ 力】バフ（攻撃力+10%）を付与する。"
+    },
+    "icon": "🍔",
+    "category": "edible",
+    "usable": true,
+    "effects": {
+        "heal_pct": 0.45,
+        "buff": {
+            "key": "strength",
+            "duration": 600
+        }
+    }
+}

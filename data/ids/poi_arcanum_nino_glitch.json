@@ -1,0 +1,26 @@
+{
+    "id": "poi_arcanum_nino_glitch",
+    "type": "poi",
+    "icon": "📺",
+    "name": {
+        "es": "El Niño con Interferencias",
+        "en": "The Glitching Child",
+        "fr": "L'Enfant aux Interférences",
+        "it": "Il Bambino con le Interferenze",
+        "de": "Das Fehlerhafte Kind",
+        "zh": "故障的孩子",
+        "ja": "ノイズだらけの子ども"
+    },
+    "desc": {
+        "es": "La figura de un niño que parpadea y se distorsiona como una señal defectuosa, repitiendo siempre la misma frase entrecortada. (PNJ singular).",
+        "en": "The figure of a child that flickers and distorts like a faulty signal, forever repeating the same broken phrase. (Singular NPC).",
+        "fr": "La silhouette d'un enfant qui clignote et se déforme comme un signal défectueux, répétant toujours la même phrase hachée. (PNJ singulier).",
+        "it": "La figura di un bambino che sfarfalla e si distorce come un segnale difettoso, ripetendo sempre la stessa frase spezzata. (PNG singolare).",
+        "de": "Die Gestalt eines Kindes, das wie ein fehlerhaftes Signal flackert und sich verzerrt und immer denselben abgehackten Satz wiederholt. (Einzigartiger NPC).",
+        "zh": "一个孩子的身影像故障信号一样闪烁扭曲，反复说着同一句断断续续的话。（唯一NPC）。",
+        "ja": "不良信号のように点滅し歪む子どもの姿。いつも同じ途切れ途切れの言葉を繰り返している。（唯一のNPC）。"
+    },
+    "npc": "poi_arcanum_nino_glitch",
+    "bg": "bg_world_poi_arcanum_nino_glitch.png",
+    "music": "creepy"
+}

@@ -1,0 +1,33 @@
+{
+    "id": "poi_celestia_palace",
+    "type": "poi",
+    "name": {
+        "es": "Palacio Real",
+        "en": "Royal Palace",
+        "fr": "Palais Royal",
+        "it": "Palazzo Reale",
+        "de": "Königspalast",
+        "zh": "皇家宫殿",
+        "ja": "王宮"
+    },
+    "icon": "👑",
+    "desc": {
+        "es": "El trono del Rey de Celestia",
+        "en": "The throne of the King of Celestia",
+        "fr": "Le trône du Roi de Celestia",
+        "it": "Il trono del Re di Celestia",
+        "de": "Der Thron des Königs von Celestia",
+        "zh": "塞莱斯提亚国王的王座",
+        "ja": "セレスティア王の玉座"
+    },
+    "kind": "npc",
+    "npc": "king_celestia",
+    "presences": [
+        {
+            "condition": "default",
+            "actor": "king_celestia",
+            "entry_node": ""
+        }
+    ],
+    "bg": "bg_city_celestia_palace.png"
+}

@@ -1,0 +1,33 @@
+{
+    "id": "poi_celestia_sage",
+    "type": "poi",
+    "name": {
+        "es": "Biblioteca de la Sabia",
+        "en": "Sage's Library",
+        "fr": "Bibliothèque de la Sage",
+        "it": "Biblioteca della Saggia",
+        "de": "Bibliothek der Weisen",
+        "zh": "贤者图书馆",
+        "ja": "賢者の図書館"
+    },
+    "icon": "📜",
+    "desc": {
+        "es": "Mapas, libros y rumores",
+        "en": "Maps, books and rumors",
+        "fr": "Cartes, livres et rumeurs",
+        "it": "Mappe, libri e voci",
+        "de": "Karten, Bücher und Gerüchte",
+        "zh": "地图、书籍与传闻",
+        "ja": "地図、本、噂話"
+    },
+    "kind": "npc",
+    "npc": "sage_celestia",
+    "presences": [
+        {
+            "condition": "default",
+            "actor": "sage_celestia",
+            "entry_node": ""
+        }
+    ],
+    "bg": "bg_city_celestia_sage.png"
+}

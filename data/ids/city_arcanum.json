@@ -1,0 +1,33 @@
+{
+    "id": "city_arcanum",
+    "type": "city",
+    "name": {
+        "es": "Arcanum",
+        "en": "Arcanum",
+        "fr": "Arcanum",
+        "it": "Arcanum",
+        "de": "Arcanum",
+        "zh": "奥秘遗迹",
+        "ja": "アルカナム"
+    },
+    "icon": "⚙️",
+    "desc": {
+        "es": "Metrópolis futurista dominada por el smog industrial, la tecnología arcana y los marginados",
+        "en": "Futuristic metropolis dominated by industrial smog, arcane tech, and outcasts",
+        "fr": "Métropole futuriste dominée par le smog industriel, la technologie arcanique et les marginaux",
+        "it": "Metropoli futuristica dominata dallo smog industriale, dalla tecnologia arcana e dagli emarginati",
+        "de": "Futuristische Metropole, beherrscht von Industriesmog, arkaner Technologie und Ausgestoßenen",
+        "zh": "被工业烟雾、奥秘科技与边缘人群支配的未来都市",
+        "ja": "産業スモッグとアルカナ技術、そして落伍者たちに支配された未来都市"
+    },
+    "bg": "bg_city_arcanum.png",
+    "content": [
+        "poi_arcanum_taberna",
+        "poi_arcanum_shop",
+        "poi_arcanum_board",
+        "poi_arcanum_transportista",
+        "poi_arcanum_lab",
+        "poi_arcanum_chatarra",
+        "poi_arcanum_refugio"
+    ]
+}

@@ -1,0 +1,1336 @@
+{
+    "first_blood": {
+        "name": {
+            "es": "Primera sangre",
+            "en": "First Blood",
+            "fr": "Premier sang",
+            "it": "Primo sangue",
+            "de": "Erstes Blut",
+            "zh": "初次流血",
+            "ja": "ファーストブラッド"
+        },
+        "desc": {
+            "es": "Gana tu primer combate.",
+            "en": "Win your first battle.",
+            "fr": "Gagne ton premier combat.",
+            "it": "Vinci la tua prima battaglia.",
+            "de": "Gewinne deinen ersten Kampf.",
+            "zh": "赢得你的第一场战斗。",
+            "ja": "最初の戦いに勝つ。"
+        },
+        "icon": "⚔️",
+        "condition": "stat(\"kills\") >= 1",
+        "reward": "gold:50; xp:20"
+    },
+    "veteran": {
+        "name": {
+            "es": "Veterano del Acero",
+            "en": "Steel Veteran",
+            "fr": "Vétéran de l'acier",
+            "it": "Veterano dell'acciaio",
+            "de": "Stahl-Veteran",
+            "zh": "钢铁老兵",
+            "ja": "鋼の古参兵"
+        },
+        "desc": {
+            "es": "Vence a 25 enemigos en batalla.",
+            "en": "Defeat 25 enemies in battle.",
+            "fr": "Vaincs 25 ennemis au combat.",
+            "it": "Sconfiggi 25 nemici in battaglia.",
+            "de": "Besiege 25 Feinde im Kampf.",
+            "zh": "在战斗中击败 25 个敌人。",
+            "ja": "戦闘で敵を25体倒す。"
+        },
+        "icon": "🛡️",
+        "condition": "stat(\"kills\") >= 25",
+        "reward": "gold:250; xp:120"
+    },
+    "combat_master": {
+        "name": {
+            "es": "Maestro del Combate",
+            "en": "Combat Master",
+            "fr": "Maître du combat",
+            "it": "Maestro di combattimento",
+            "de": "Kampfmeister",
+            "zh": "战斗大师",
+            "ja": "戦闘の達人"
+        },
+        "desc": {
+            "es": "Vence a 100 enemigos en batalla.",
+            "en": "Defeat 100 enemies in battle.",
+            "fr": "Vaincs 100 ennemis au combat.",
+            "it": "Sconfiggi 100 nemici in battaglia.",
+            "de": "Besiege 100 Feinde im Kampf.",
+            "zh": "在战斗中击败 100 个敌人。",
+            "ja": "戦闘で敵を100体倒す。"
+        },
+        "icon": "👑",
+        "condition": "stat(\"kills\") >= 100",
+        "reward": "gold:1000; xp:500"
+    },
+    "slayer_legend": {
+        "name": {
+            "es": "Azote Legendario",
+            "en": "Legendary Slayer",
+            "fr": "Fléau légendaire",
+            "it": "Flagello leggendario",
+            "de": "Legendäre Geißel",
+            "zh": "传奇灾星",
+            "ja": "伝説の討伐者"
+        },
+        "desc": {
+            "es": "Vence a 250 enemigos en batalla.",
+            "en": "Defeat 250 enemies in battle.",
+            "fr": "Vaincs 250 ennemis au combat.",
+            "it": "Sconfiggi 250 nemici in battaglia.",
+            "de": "Besiege 250 Feinde im Kampf.",
+            "zh": "在战斗中击败 250 个敌人。",
+            "ja": "戦闘で敵を250体倒す。"
+        },
+        "icon": "💀",
+        "condition": "stat(\"kills\") >= 250",
+        "reward": "gold:2500; xp:1200"
+    },
+    "wealthy": {
+        "name": {
+            "es": "Bolsa Llena",
+            "en": "Deep Pockets",
+            "fr": "Bourse bien remplie",
+            "it": "Tasca piena",
+            "de": "Volle Taschen",
+            "zh": "腰缠万贯",
+            "ja": "潤沢な懐"
+        },
+        "desc": {
+            "es": "Acumula 1.000 monedas de oro.",
+            "en": "Amass 1,000 gold coins.",
+            "fr": "Accumule 1 000 pièces d'or.",
+            "it": "Accumula 1.000 monete d'oro.",
+            "de": "Sammle 1.000 Goldmünzen.",
+            "zh": "积攒 1,000 枚金币。",
+            "ja": "ゴールドを 1,000 枚集める。"
+        },
+        "icon": "💰",
+        "condition": "gold >= 1000",
+        "reward": "xp:100"
+    },
+    "tycoon": {
+        "name": {
+            "es": "Gran Magnate",
+            "en": "Grand Tycoon",
+            "fr": "Grand magnat",
+            "it": "Grande magnate",
+            "de": "Großmagnat",
+            "zh": "商界巨擘",
+            "ja": "大豪商"
+        },
+        "desc": {
+            "es": "Acumula 5.000 monedas de oro.",
+            "en": "Amass 5,000 gold coins.",
+            "fr": "Accumule 5 000 pièces d'or.",
+            "it": "Accumula 5.000 monete d'oro.",
+            "de": "Sammle 5.000 Goldmünzen.",
+            "zh": "积攒 5,000 枚金币。",
+            "ja": "ゴールドを 5,000 枚集める。"
+        },
+        "icon": "💎",
+        "condition": "gold >= 5000",
+        "reward": "xp:350"
+    },
+    "treasure_hoarder": {
+        "name": {
+            "es": "Fortuna Imperial",
+            "en": "Imperial Fortune",
+            "fr": "Fortune impériale",
+            "it": "Fortuna imperiale",
+            "de": "Kaiserliches Vermögen",
+            "zh": "帝国财富",
+            "ja": "帝国の財宝"
+        },
+        "desc": {
+            "es": "Acumula 15.000 monedas de oro.",
+            "en": "Amass 15,000 gold coins.",
+            "fr": "Accumule 15 000 pièces d'or.",
+            "it": "Accumula 15.000 monete d'oro.",
+            "de": "Sammle 15.000 Goldmünzen.",
+            "zh": "积攒 15,000 枚金币。",
+            "ja": "ゴールドを 15,000 枚集める。"
+        },
+        "icon": "🪙",
+        "condition": "gold >= 15000",
+        "reward": "xp:1000"
+    },
+    "level_initiate": {
+        "name": {
+            "es": "Paso Firme",
+            "en": "Steady Footing",
+            "fr": "Pas assuré",
+            "it": "Passo sicuro",
+            "de": "Fester Schritt",
+            "zh": "初涉江湖",
+            "ja": "確かな一歩"
+        },
+        "desc": {
+            "es": "Alcanza el nivel 10 de personaje.",
+            "en": "Reach character level 10.",
+            "fr": "Atteins le niveau de personnage 10.",
+            "it": "Raggiungi il livello personaggio 10.",
+            "de": "Erreiche Charakterstufe 10.",
+            "zh": "角色等级达到 10 级。",
+            "ja": "キャラクターレベルが10に到達する。"
+        },
+        "icon": "🌱",
+        "condition": "stat(\"level\") >= 10",
+        "reward": "gold:200; xp:100"
+    },
+    "level_champion": {
+        "name": {
+            "es": "Campeón Consagrado",
+            "en": "Consecrated Champion",
+            "fr": "Champion consacré",
+            "it": "Campione consacrato",
+            "de": "Geweihter Champion",
+            "zh": "受冕冠军",
+            "ja": "戴冠の勇士"
+        },
+        "desc": {
+            "es": "Alcanza el nivel 25 de personaje.",
+            "en": "Reach character level 25.",
+            "fr": "Atteins le niveau de personnage 25.",
+            "it": "Raggiungi il livello personaggio 25.",
+            "de": "Erreiche Charakterstufe 25.",
+            "zh": "角色等级达到 25 级。",
+            "ja": "キャラクターレベルが25に到達する。"
+        },
+        "icon": "⭐",
+        "condition": "stat(\"level\") >= 25",
+        "reward": "gold:750; xp:350"
+    },
+    "level_legend": {
+        "name": {
+            "es": "Poder Trascendental",
+            "en": "Transcendent Might",
+            "fr": "Puissance transcendante",
+            "it": "Potere trascendente",
+            "de": "Transzendente Macht",
+            "zh": "超凡之力",
+            "ja": "超越の力"
+        },
+        "desc": {
+            "es": "Alcanza el nivel 40 de personaje.",
+            "en": "Reach character level 40.",
+            "fr": "Atteins le niveau de personnage 40.",
+            "it": "Raggiungi il livello personaggio 40.",
+            "de": "Erreiche Charakterstufe 40.",
+            "zh": "角色等级达到 40 级。",
+            "ja": "キャラクターレベルが40に到達する。"
+        },
+        "icon": "🌟",
+        "condition": "stat(\"level\") >= 40",
+        "reward": "gold:2000; xp:1000"
+    },
+    "job_master": {
+        "name": {
+            "es": "Maestría de Clase",
+            "en": "Class Mastery",
+            "fr": "Maîtrise de classe",
+            "it": "Maestria di classe",
+            "de": "Klassenmeisterschaft",
+            "zh": "职业精通",
+            "ja": "極めし職能"
+        },
+        "desc": {
+            "es": "Alcanza el nivel 10 en tu profesión actual.",
+            "en": "Reach level 10 in your current profession.",
+            "fr": "Atteins le niveau 10 dans ta profession actuelle.",
+            "it": "Raggiungi il livello 10 nella tua professione attuale.",
+            "de": "Erreiche Stufe 10 in deinem aktuellen Beruf.",
+            "zh": "当前职业达到 10 级。",
+            "ja": "現在の職業でレベル10に到達する。"
+        },
+        "icon": "🎓",
+        "condition": "stat(\"job_level\") >= 10",
+        "reward": "gold:800; xp:400"
+    },
+    "path_warrior": {
+        "name": {
+            "es": "Senda del Acero",
+            "en": "Way of Steel",
+            "fr": "Voie de l'acier",
+            "it": "Via dell'acciaio",
+            "de": "Pfad des Stahls",
+            "zh": "百炼之钢",
+            "ja": "鋼の道"
+        },
+        "desc": {
+            "es": "Desbloquea la profesión de Guerrero.",
+            "en": "Unlock the Warrior profession.",
+            "fr": "Débloque la profession de Guerrier.",
+            "it": "Sblocca la professione del Guerriero.",
+            "de": "Schalte den Beruf des Kriegers frei.",
+            "zh": "解锁战士职业。",
+            "ja": "戦士の職業を解放する。"
+        },
+        "icon": "🗡️",
+        "condition": "has_prof(\"Guerrero\")",
+        "reward": "gold:300; xp:200"
+    },
+    "path_archer": {
+        "name": {
+            "es": "Ojo de Halcón",
+            "en": "Hawk's Eye",
+            "fr": "Œil de faucon",
+            "it": "Occhio di falco",
+            "de": "Falkenauge",
+            "zh": "鹰眼之风",
+            "ja": "鷹の眼"
+        },
+        "desc": {
+            "es": "Desbloquea la profesión de Arquero.",
+            "en": "Unlock the Archer profession.",
+            "fr": "Débloque la profession d'Archer.",
+            "it": "Sblocca la professione dell'Arciere.",
+            "de": "Schalte den Beruf des Bogenschützen frei.",
+            "zh": "解锁弓箭手职业。",
+            "ja": "弓使いの職業を解放する。"
+        },
+        "icon": "🏹",
+        "condition": "has_prof(\"Arquero\")",
+        "reward": "gold:300; xp:200"
+    },
+    "path_priest": {
+        "name": {
+            "es": "Luz Redentora",
+            "en": "Redeeming Light",
+            "fr": "Lumière rédemptrice",
+            "it": "Luce redentrice",
+            "de": "Erlösendes Licht",
+            "zh": "救赎之光",
+            "ja": "贖いの光"
+        },
+        "desc": {
+            "es": "Desbloquea la profesión de Sacerdote.",
+            "en": "Unlock the Priest profession.",
+            "fr": "Débloque la profession de Prêtre.",
+            "it": "Sblocca la professione del Sacerdote.",
+            "de": "Schalte den Beruf des Priesters frei.",
+            "zh": "解锁牧师职业。",
+            "ja": "聖職者の職業を解放する。"
+        },
+        "icon": "🕊️",
+        "condition": "has_prof(\"Sacerdote\")",
+        "reward": "gold:300; xp:200"
+    },
+    "path_elementalist": {
+        "name": {
+            "es": "Furia Elemental",
+            "en": "Elemental Fury",
+            "fr": "Fureur élémentaire",
+            "it": "Furia elementale",
+            "de": "Elementare Wut",
+            "zh": "元素怒潮",
+            "ja": "元素の怒り"
+        },
+        "desc": {
+            "es": "Desbloquea la profesión de Elementalista.",
+            "en": "Unlock the Elementalist profession.",
+            "fr": "Débloque la profession d'Élémentaliste.",
+            "it": "Sblocca la professione dell'Elementalista.",
+            "de": "Schalte den Beruf des Elementarmagiers frei.",
+            "zh": "解锁元素使职业。",
+            "ja": "エレメンタリストの職業を解放する。"
+        },
+        "icon": "🔮",
+        "condition": "has_prof(\"Elementalista\")",
+        "reward": "gold:300; xp:200"
+    },
+    "path_psychic": {
+        "name": {
+            "es": "Mente Despierta",
+            "en": "Awakened Mind",
+            "fr": "Esprit éveillé",
+            "it": "Mente risvegliata",
+            "de": "Erwachter Geist",
+            "zh": "觉醒心智",
+            "ja": "覚醒の精神"
+        },
+        "desc": {
+            "es": "Desbloquea la profesión de Psíquico.",
+            "en": "Unlock the Psychic profession.",
+            "fr": "Débloque la profession de Psychique.",
+            "it": "Sblocca la professione dello Psichico.",
+            "de": "Schalte den Beruf des Hellsehers frei.",
+            "zh": "解锁灵能者职业。",
+            "ja": "サイキックの職業を解放する。"
+        },
+        "icon": "🧠",
+        "condition": "has_prof(\"Psíquico\")",
+        "reward": "gold:300; xp:200"
+    },
+    "path_time": {
+        "name": {
+            "es": "Tejedor de Horas",
+            "en": "Weaver of Hours",
+            "fr": "Tisseur d'heures",
+            "it": "Tessitore del tempo",
+            "de": "Weber der Stunden",
+            "zh": "时间编织者",
+            "ja": "時の紡ぎ手"
+        },
+        "desc": {
+            "es": "Desbloquea la profesión de Cronoterapeuta / Tiempo.",
+            "en": "Unlock the Time Weaver profession.",
+            "fr": "Débloque la profession de Tisseur de Temps.",
+            "it": "Sblocca la professione del Cronoterapeuta.",
+            "de": "Schalte den Beruf des Zeitwebers frei.",
+            "zh": "解锁时间使者职业。",
+            "ja": "時間使いの職業を解放する。"
+        },
+        "icon": "⏳",
+        "condition": "has_prof(\"Tiempo\")",
+        "reward": "gold:300; xp:200"
+    },
+    "master_six_paths": {
+        "name": {
+            "es": "Seis Senderos, Una Mente",
+            "en": "Six Paths, One Mind",
+            "fr": "Six voies, un esprit",
+            "it": "Sei sentieri, una mente",
+            "de": "Sechs Pfade, ein Geist",
+            "zh": "六道合一",
+            "ja": "六つの道、一つの心"
+        },
+        "desc": {
+            "es": "Desbloquea las 6 profesiones y asiste a la reunión de los mentores.",
+            "en": "Unlock all 6 professions and attend the mentors reunion.",
+            "fr": "Débloque les 6 professions et assiste à la réunion des mentors.",
+            "it": "Sblocca tutte le 6 professioni e partecipa alla riunione dei mentori.",
+            "de": "Schalte alle 6 Berufe frei und nimm am Treffen der Mentoren teil.",
+            "zh": "解锁全部 6 个职业并参加导师之会。",
+            "ja": "6 つの職業をすべて解放し、指導者たちの集いに出席する。"
+        },
+        "icon": "✨",
+        "condition": "gflag(\"act1_reunion_seen\")",
+        "reward": "gold:1200; xp:600"
+    },
+    "prologue_awoken": {
+        "name": {
+            "es": "El Despertar",
+            "en": "The Awakening",
+            "fr": "L'éveil",
+            "it": "Il risveglio",
+            "de": "Das Erwachen",
+            "zh": "梦境苏醒",
+            "ja": "目覚め"
+        },
+        "desc": {
+            "es": "Supera la cripta inicial y contempla el mundo exterior.",
+            "en": "Clear the starting crypt and step out into the world.",
+            "fr": "Franchis la crypte initiale et découvre le monde extérieur.",
+            "it": "Supera la cripta iniziale ed esci nel mondo esterno.",
+            "de": "Überwinde die Anfangskrypta und betritt die Außenwelt.",
+            "zh": "通过初始地穴，踏入外部世界。",
+            "ja": "最初の地下墓地を抜け、外の世界へ足を踏み入れる。"
+        },
+        "icon": "🌅",
+        "condition": "gflag(\"prologue_dungeon_cleared\")",
+        "reward": ""
+    },
+    "diary_keeper": {
+        "name": {
+            "es": "El diario perdido",
+            "en": "The Lost Diary",
+            "fr": "Le journal perdu",
+            "it": "Il diario perduto",
+            "de": "Das verlorene Tagebuch",
+            "zh": "遗失的日记",
+            "ja": "失われた日記"
+        },
+        "desc": {
+            "es": "Recupera el Diario Personal.",
+            "en": "Recover the Personal Diary.",
+            "fr": "Récupère le Journal Personnel.",
+            "it": "Recupera il Diario Personale.",
+            "de": "Erhalte das persönliche Tagebuch zurück.",
+            "zh": "找回个人日记。",
+            "ja": "個人の日記を取り戻す。"
+        },
+        "icon": "📖",
+        "condition": "has_item(\"diario\")",
+        "reward": "xp:100"
+    },
+    "dam_breaker": {
+        "name": {
+            "es": "Aguas Libres",
+            "en": "Free Waters",
+            "fr": "Eaux libres",
+            "it": "Acque libere",
+            "de": "Freie Gewässer",
+            "zh": "自由之水",
+            "ja": "自由の水"
+        },
+        "desc": {
+            "es": "Abre la presa y transforma el valle fluvial.",
+            "en": "Open the dam and transform the river valley.",
+            "fr": "Ouvre le barrage et transforme la vallée fluviale.",
+            "it": "Apri la diga e trasforma la valle fluviale.",
+            "de": "Öffne den Damm und verwandle das Flusstal.",
+            "zh": "打开大坝并改造河谷。",
+            "ja": "ダムを開き、河川の谷を変える。"
+        },
+        "icon": "🌊",
+        "condition": "gflag(\"dam_opened\")",
+        "reward": "gold:300; xp:150"
+    },
+    "yelmo_guardian": {
+        "name": {
+            "es": "El Paso del Yelmo",
+            "en": "Helm's Pass",
+            "fr": "Le col du Heaume",
+            "it": "Il valico dell'Elmo",
+            "de": "Der Helmpass",
+            "zh": "头盔关隘",
+            "ja": "兜の峠"
+        },
+        "desc": {
+            "es": "Derrota al Orco Berserker y abre la salida oriental del Yelmo.",
+            "en": "Defeat the Orc Berserker and open the eastern way out of the Yelmo.",
+            "fr": "Vaincs l'Orc Berserker et ouvre la sortie orientale du Heaume.",
+            "it": "Sconfiggi l'Orco Berserker e apri l'uscita orientale dell'Elmo.",
+            "de": "Besiege den Ork-Berserker und öffne den östlichen Ausgang des Helms.",
+            "zh": "击败狂暴兽人并打开头盔之地东方的出口。",
+            "ja": "オークバーサーカーを倒し、兜の地の東側の出口を開く。"
+        },
+        "icon": "🪓",
+        "condition": "gflag(\"cave_cleared\")",
+        "reward": "gold:350; xp:200"
+    },
+    "sylphrena_welcome": {
+        "name": {
+            "es": "Llegada a Sylphrena",
+            "en": "Arrival at Sylphrena",
+            "fr": "Arrivée à Sylphrena",
+            "it": "Arrivo a Sylphrena",
+            "de": "Ankunft in Sylphrena",
+            "zh": "抵达西尔菲雷娜",
+            "ja": "シルフレナ到達"
+        },
+        "desc": {
+            "es": "Alcanza Sylphrena, la capital comercial de la Pradera.",
+            "en": "Reach Sylphrena, the trade capital of the Meadow.",
+            "fr": "Atteins Sylphrena, la capitale marchande de la Prairie.",
+            "it": "Raggiungi Sylphrena, la capitale commerciale della Prateria.",
+            "de": "Erreiche Sylphrena, die Handelshauptstadt der Wiese.",
+            "zh": "到达西尔菲雷娜，草原的商业首都。",
+            "ja": "草原の商業の首都、シルフレナに到達する。"
+        },
+        "icon": "🏘️",
+        "condition": "gflag(\"sylphrena_arrived\")",
+        "reward": "gold:200; xp:120"
+    },
+    "monkey_bridge": {
+        "name": {
+            "es": "El Mono del Puente",
+            "en": "The Bridge Monkey",
+            "fr": "Le singe du pont",
+            "it": "La scimmia del ponte",
+            "de": "Der Brückenaffe",
+            "zh": "桥上的猴子",
+            "ja": "橋のサル"
+        },
+        "desc": {
+            "es": "Consigue el plátano y convence al mono para que despeje el puente.",
+            "en": "Get the banana and convince the monkey to clear the bridge.",
+            "fr": "Obtiens la banane et convaincs le singe de dégager le pont.",
+            "it": "Ottieni la banana e convinci la scimmia a liberare il ponte.",
+            "de": "Besorge die Banane und überzeuge den Affen, die Brücke freizugeben.",
+            "zh": "获得香蕉并说服猴子让开桥。",
+            "ja": "バナナを入手し、サルを説得して橋を空けさせる。"
+        },
+        "icon": "🐒",
+        "condition": "gflag(\"monkey_cleared\")",
+        "reward": "gold:150; xp:100"
+    },
+    "frozen_crossing": {
+        "name": {
+            "es": "La Travesía Helada",
+            "en": "The Frozen Crossing",
+            "fr": "La traversée gelée",
+            "it": "L'attraversamento gelato",
+            "de": "Die eisige Überquerung",
+            "zh": "冰冻之路",
+            "ja": "氷の道"
+        },
+        "desc": {
+            "es": "Supera la Catacumba de las Nieves y vence al Eco Fragmentado.",
+            "en": "Clear the Snow Catacombs and defeat the Fragmented Echo.",
+            "fr": "Franchis les Catacombes des Neiges et vaincs l'Écho Fragmenté.",
+            "it": "Supera le Catacombe delle Nevi e sconfiggi l'Eco Frammentato.",
+            "de": "Überwinde die Schneekatakomben und besiege das zersplitterte Echo.",
+            "zh": "通过雪地地穴并击败破碎回声。",
+            "ja": "雪の地下墓を越え、破砕したエコーを倒す。"
+        },
+        "icon": "❄️",
+        "condition": "gflag(\"ice_cave_cleared\")",
+        "reward": "gold:400; xp:250"
+    },
+    "nature_restorer": {
+        "name": {
+            "es": "Purificación Silvestre",
+            "en": "Sylvan Purification",
+            "fr": "Purification sylvestre",
+            "it": "Purificazione silvestre",
+            "de": "Waldreinigung",
+            "zh": "森林净化",
+            "ja": "森の浄化"
+        },
+        "desc": {
+            "es": "Erradica al Corruptor Silvestre de la arboleda.",
+            "en": "Eradicate the Sylvan Corruptor from the grove.",
+            "fr": "Éradique le Corrupteur Sylvestre de la clairière.",
+            "it": "Estirpa il Corruttore Silvestre dal boschetto.",
+            "de": "Vertilge den Waldverderber aus dem Hain.",
+            "zh": "从树林中根除森林腐化者。",
+            "ja": "樹林から森を汚染する者を駆除する。"
+        },
+        "icon": "🌿",
+        "condition": "gflag(\"grove_boss_defeated\")",
+        "reward": "gold:450; xp:350"
+    },
+    "bandit_bane": {
+        "name": {
+            "es": "Justicia del Páramo",
+            "en": "Wasteland Justice",
+            "fr": "Justice des terres arides",
+            "it": "Giustizia delle terre desolate",
+            "de": "Gerechtigkeit des Ödlands",
+            "zh": "荒原之法",
+            "ja": "荒地の正義"
+        },
+        "desc": {
+            "es": "Derrota a Garrik el Tuerto en su guarida.",
+            "en": "Defeat One-Eyed Garrik in his hideout.",
+            "fr": "Vaincs Garrik le Borgne dans son repaire.",
+            "it": "Sconfiggi Garrik il Monocolo nel suo covo.",
+            "de": "Besiege den einaugigen Garrik in seinem Versteck.",
+            "zh": "在巢穴中击败独眼加里克。",
+            "ja": "隠れ家で片目のガリカを倒す。"
+        },
+        "icon": "🏴‍☠️",
+        "condition": "gflag(\"bandit_boss_defeated\")",
+        "reward": "gold:500; xp:400"
+    },
+    "celestia_welcome": {
+        "name": {
+            "es": "Llegada a Celestia",
+            "en": "Arrival at Celestia",
+            "fr": "Arrivée à Celestia",
+            "it": "Arrivo a Celestia",
+            "de": "Ankunft in Celestia",
+            "zh": "抵达塞勒斯提亚",
+            "ja": "セレスティア到達"
+        },
+        "desc": {
+            "es": "Alcanza Celestia, la ciudadela de los sabios.",
+            "en": "Reach Celestia, the citadel of the sages.",
+            "fr": "Atteins Celestia, la citadelle des sages.",
+            "it": "Raggiungi Celestia, la cittadella dei saggi.",
+            "de": "Erreiche Celestia, die Zitadelle der Weisen.",
+            "zh": "到达塞勒斯提亚，贤者之城。",
+            "ja": "賢者の城、セレスティアに到達する。"
+        },
+        "icon": "🏛️",
+        "condition": "gflag(\"celestia_arrived\")",
+        "reward": "gold:300; xp:200"
+    },
+    "harbor_master": {
+        "name": {
+            "es": "El Terror de la Bahía",
+            "en": "Bane of the Bay",
+            "fr": "Terreur de la baie",
+            "it": "Terrore della baia",
+            "de": "Schrecken der Bucht",
+            "zh": "海湾梦魇",
+            "ja": "湾の脅威"
+        },
+        "desc": {
+            "es": "Derrota a la bestia marina que asola el Puerto de Celestia.",
+            "en": "Defeat the sea beast terrorizing the Port of Celestia.",
+            "fr": "Vaincs la bête marine qui ravage le Port de Celestia.",
+            "it": "Sconfiggi la bestia marina che tormenta il Porto di Celestia.",
+            "de": "Besiege die Seebestie, die den Hafen von Celestia heimsucht.",
+            "zh": "击败肆虐塞勒斯提亚港口的海中凶兽。",
+            "ja": "セレスティア港を襲う海の怪物を打ち倒す。"
+        },
+        "icon": "⚓",
+        "condition": "gflag(\"boss_puerto_derrotado\")",
+        "reward": "gold:600; xp:450"
+    },
+    "ship_unlocked": {
+        "name": {
+            "es": "A Toda Vela",
+            "en": "Full Sails",
+            "fr": "Toutes voiles dehors",
+            "it": "A vele spiegate",
+            "de": "Mit vollen Segeln",
+            "zh": "扬帆起航",
+            "ja": "順風満帆"
+        },
+        "desc": {
+            "es": "Consigue el Sello Real y zarpa hacia mar abierto.",
+            "en": "Claim the Royal Seal and set sail into open water.",
+            "fr": "Obtiens le Sceau Royal et prends la mer.",
+            "it": "Ottieni il Sigillo Reale e salpa verso il mare aperto.",
+            "de": "Erlange das Königliche Siegel und segle aufs offene Meer.",
+            "zh": "获得王室印玺并驶向大海。",
+            "ja": "王家の印を入手し、外海へ出航する。"
+        },
+        "icon": "🚢",
+        "condition": "gflag(\"boat_obtained\")",
+        "reward": "gold:700; xp:500"
+    },
+    "new_world": {
+        "name": {
+            "es": "Nuevo Continente",
+            "en": "New Continent",
+            "fr": "Nouveau continent",
+            "it": "Nuovo continente",
+            "de": "Neuer Kontinent",
+            "zh": "新大陆",
+            "ja": "新大陸"
+        },
+        "desc": {
+            "es": "Zarpa en barco y desembarca en las costas de Arcanium.",
+            "en": "Set sail by boat and land on the shores of Arcanium.",
+            "fr": "Prends la mer et débarque sur les côtes d'Arcanium.",
+            "it": "Salpa in barca e sbarca sulle coste di Arcanium.",
+            "de": "Segle mit dem Schiff und lande an der Küste von Arcanium.",
+            "zh": "乘船渡海并在奥术大陆海岸登陆。",
+            "ja": "船で海を渡り、アーカノム大陸の海岸に上陸する。"
+        },
+        "icon": "⛵",
+        "condition": "gflag(\"visited_city_003\")",
+        "reward": "gold:400; xp:300"
+    },
+    "solar_relic": {
+        "name": {
+            "es": "La Reliquia Solar",
+            "en": "The Solar Relic",
+            "fr": "La relique solaire",
+            "it": "La reliquia solare",
+            "de": "Das Sonnenrelikt",
+            "zh": "太阳遗物",
+            "ja": "太陽の遺物"
+        },
+        "desc": {
+            "es": "Vence al Devorador de Dunas y recupera la Reliquia del Núcleo Solar.",
+            "en": "Defeat the Dune Devourer and recover the Solar Core Relic.",
+            "fr": "Vaincs le Dévorateur des Dunes et récupère la Relique du Noyau Solaire.",
+            "it": "Sconfiggi il Divoratore delle Dune e recupera la Reliquia del Nucleo Solare.",
+            "de": "Besiege den Dünenfresser und erhalte das Sonnenkern-Relikt zurück.",
+            "zh": "击败沙丘吞噬兽并找回太阳核心遗物。",
+            "ja": "砂丘の貨食者を倒し、太陽の核の遺物を取り戻す。"
+        },
+        "icon": "☀️",
+        "condition": "gflag(\"solar_relic_found\")",
+        "reward": "gold:600; xp:500"
+    },
+    "sentinel_calmed": {
+        "name": {
+            "es": "El Centinela Calmado",
+            "en": "The Calmed Sentinel",
+            "fr": "La sentinelle apaisée",
+            "it": "La sentinella calmata",
+            "de": "Der beruhigte Wachposten",
+            "zh": "安抚的哨兵",
+            "ja": "静まった衛兵"
+        },
+        "desc": {
+            "es": "Usa la Reliquia Solar para calmar al Centinela de Frontera y abrir el paso a Arcanum.",
+            "en": "Use the Solar Relic to calm the Border Sentinel and open the way to Arcanum.",
+            "fr": "Utilise la Relique Solaire pour apaiser la Sentinelle Frontière et ouvrir la voie vers Arcanum.",
+            "it": "Usa la Reliquia Solare per calmare la Sentinella di Frontiera e apri la via per Arcanum.",
+            "de": "Nutze das Sonnenrelikt, um den Grenzwachposten zu beruhigen und den Weg nach Arcanum zu öffnen.",
+            "zh": "使用太阳遗物安抚边境哨兵并打开通往奥术的道路。",
+            "ja": "太陽の遺物で国境の衛兵を静め、アーカノムへの道を開く。"
+        },
+        "icon": "🤖",
+        "condition": "gflag(\"sentinel_passed\")",
+        "reward": "gold:400; xp:300"
+    },
+    "arcanum_welcome": {
+        "name": {
+            "es": "Metrópolis de Neón",
+            "en": "Neon Metropolis",
+            "fr": "Métropole de néon",
+            "it": "Metropoli di neon",
+            "de": "Neon-Metropole",
+            "zh": "霓虹都市",
+            "ja": "ネオンの大都市"
+        },
+        "desc": {
+            "es": "Alcanza la metrópolis de Arcanum, donde algo no encaja del todo.",
+            "en": "Reach the metropolis of Arcanum, where something doesn't quite add up.",
+            "fr": "Atteins la métropole d'Arcanum, où quelque chose ne tourne pas rond.",
+            "it": "Raggiungi la metropoli di Arcanum, dove qualcosa non quadra.",
+            "de": "Erreiche die Metropole Arcanum, in der etwas nicht zusammenpasst.",
+            "zh": "到达奥术大都会，这里的现实隐隐透着违和。",
+            "ja": "アーカノムの大都会に到達する。何かが決定的に狂っている。"
+        },
+        "icon": "🏙️",
+        "condition": "gflag(\"arcanum_arrived\")",
+        "reward": "gold:400; xp:300"
+    },
+    "arcanium_investigator": {
+        "name": {
+            "es": "Incidente Contenido",
+            "en": "Contained Incident",
+            "fr": "Incident contenu",
+            "it": "Incidente contenuto",
+            "de": "Eingedämmter Zwischenfall",
+            "zh": "事态已控制",
+            "ja": "制御された事故"
+        },
+        "desc": {
+            "es": "Neutraliza al experimento biológico del laboratorio subterráneo de Arcanium.",
+            "en": "Neutralize the biological experiment in Arcanium's subterranean laboratory.",
+            "fr": "Neutralise l'expérience biologique du laboratoire souterrain d'Arcanium.",
+            "it": "Neutralizza l'esperimento biologico del laboratorio sotterraneo di Arcanium.",
+            "de": "Neutralisiere das biologische Experiment im unterirdischen Arcanium-Labor.",
+            "zh": "消灭奥术地下实验室的失控生物实验体。",
+            "ja": "アーカノム地下実験室の生体実験体を無力化する。"
+        },
+        "icon": "⚡",
+        "condition": "gflag(\"act2_lab_cleared\")",
+        "reward": "gold:750; xp:600"
+    },
+    "guardian_supremo": {
+        "name": {
+            "es": "El Guardián Supremo",
+            "en": "The Supreme Guardian",
+            "fr": "Le gardien suprême",
+            "it": "Il guardiano supremo",
+            "de": "Der oberste Wächter",
+            "zh": "至高守卫者",
+            "ja": "最高の守護者"
+        },
+        "desc": {
+            "es": "Derrota al Guardián Supremo en el corazón del Templo del Origen.",
+            "en": "Defeat the Supreme Guardian at the heart of the Temple of Origin.",
+            "fr": "Vaincs le Gardien Suprême au cœur du Temple des Origines.",
+            "it": "Sconfiggi il Guardiano Supremo nel cuore del Tempio dell'Origine.",
+            "de": "Besiege den obersten Wächter im Herzen des Tempels des Ursprungs.",
+            "zh": "在本源神庙的核心击败至高守卫者。",
+            "ja": "起源の神殿の心臓で最高の守護者を倒す。"
+        },
+        "icon": "🗿",
+        "condition": "gflag(\"guardian_defeated\")",
+        "reward": "gold:1500; xp:1000"
+    },
+    "dragon_lord": {
+        "name": {
+            "es": "El Señor de la Cima",
+            "en": "Lord of the Summit",
+            "fr": "Seigneur du sommet",
+            "it": "Signore della vetta",
+            "de": "Herr des Gipfels",
+            "zh": "绝顶之主",
+            "ja": "頂の主"
+        },
+        "desc": {
+            "es": "Alcanza la cumbre helada y forja un pacto con el dragón Samy.",
+            "en": "Reach the frozen peak and forge a bond with Samy the dragon.",
+            "fr": "Atteins le pic gelé et noue un pacte avec le dragon Samy.",
+            "it": "Raggiungi la vetta gelata e stringi un legame con il drago Samy.",
+            "de": "Erreiche den eisigen Gipfel und schließe ein Bündnis mit Drache Samy.",
+            "zh": "登上极寒绝顶，与巨龙萨米结下不解之缘。",
+            "ja": "凍てつく頂に到達し、ドラゴン・サミーと絆を結ぶ。"
+        },
+        "icon": "🐉",
+        "condition": "gflag(\"dragon_cima_unlocked\") or gflag(\"dragon_egg_remembered\")",
+        "reward": "gold:1000; xp:600"
+    },
+    "mystic_rooster": {
+        "name": {
+            "es": "La Cresta Dorada",
+            "en": "The Golden Comb",
+            "fr": "La crête dorée",
+            "it": "La cresta dorata",
+            "de": "Der goldene Kamm",
+            "zh": "金冠之秘",
+            "ja": "黄金の鶏冠"
+        },
+        "desc": {
+            "es": "Desvela el ancestral secreto del Gran Pollo Místico.",
+            "en": "Unravel the ancient secret of the Great Mystic Rooster.",
+            "fr": "Élucide le secret ancestral du Grand Coq Mystique.",
+            "it": "Svela l'antico segreto del Grande Gallo Mistico.",
+            "de": "Lüfte das uralte Geheimnis des Großen Mystischen Hahns.",
+            "zh": "揭开神秘大公鸡古老而惊人的秘密。",
+            "ja": "大いなる神秘のニワトリのいにしえの秘密を解き明かす。"
+        },
+        "icon": "🐔",
+        "condition": "gflag(\"pollo_rey_secreto_revelado\")",
+        "reward": "gold:777; xp:333"
+    },
+    "yeti_whisperer": {
+        "name": {
+            "es": "Amigo de las Nieves",
+            "en": "Friend of the Snows",
+            "fr": "Ami des neiges",
+            "it": "Amico delle nevi",
+            "de": "Freund des Schnees",
+            "zh": "踏雪觅友",
+            "ja": "雪山の友"
+        },
+        "desc": {
+            "es": "Ofrécele un pescado y haz amistad con el tímido Yeti de la montaña.",
+            "en": "Offer a fish and befriend the timid mountain Yeti.",
+            "fr": "Offre un poisson et deviens ami avec le timide Yéti montagnard.",
+            "it": "Offri un pesce e fai amicizia con il timido Yeti montano.",
+            "de": "Biete einen Fisch an und freunde dich mit dem scheuen Berg-Yeti an.",
+            "zh": "奉上鲜鱼，与害羞的雪山雪人成为挚友。",
+            "ja": "魚を差し出し、恥ずかしがり屋の雪男と心を通わせる。"
+        },
+        "icon": "🐾",
+        "condition": "gflag(\"yeti_amigo\")",
+        "reward": "gold:300; xp:200"
+    },
+    "felino_capitalist": {
+        "name": {
+            "es": "Socio con Bigotes",
+            "en": "Whiskered Partner",
+            "fr": "Associé à moustaches",
+            "it": "Socio baffuto",
+            "de": "Partner mit Schnurrhaaren",
+            "zh": "胡子合伙人",
+            "ja": "髭の出資者"
+        },
+        "desc": {
+            "es": "Conviértete en socio comercial de Don Gato y cobra tus dividendos.",
+            "en": "Become Don Gato's business partner and collect your dividends.",
+            "fr": "Deviens le partenaire commercial de Don Gato et touche tes dividendes.",
+            "it": "Diventa socio d'affari di Don Gato e riscuoti i tuoi dividendi.",
+            "de": "Werde Geschäftspartner von Don Gato und kassiere Dividenden.",
+            "zh": "成为猫头目唐·加托的商业合伙人并领取分红。",
+            "ja": "ドン・ガトーの事業仲間となり、配当金を受け取る。"
+        },
+        "icon": "🐱",
+        "condition": "gflag(\"gato_socio\")",
+        "reward": "gold:500; xp:150"
+    },
+    "desert_rescue": {
+        "name": {
+            "es": "Auxilio en las Arenas",
+            "en": "Sand Relief",
+            "fr": "Secours des sables",
+            "it": "Soccorso nelle sabbie",
+            "de": "Rettung im Sand",
+            "zh": "荒漠救援",
+            "ja": "砂海の救援"
+        },
+        "desc": {
+            "es": "Rescata a la caravana comercial atrapada en el desierto de Gloriam.",
+            "en": "Rescue the merchant caravan stranded in the Gloriam desert.",
+            "fr": "Sauve la caravane marchande coincée dans le désert de Gloriam.",
+            "it": "Soccorri la carovana di mercanti bloccata nel deserto di Gloriam.",
+            "de": "Rette die Händlerkarawane, die in der Gloriam-Wüste festsitzt.",
+            "zh": "营救困在格罗里亚姆沙漠中的商队。",
+            "ja": "グロリアム砂漠で行き場を失った隊商を救助する。"
+        },
+        "icon": "🐪",
+        "condition": "gflag(\"gloriam_caravan_rescued\")",
+        "reward": "gold:800; xp:400"
+    },
+    "fortress_purged": {
+        "name": {
+            "es": "Bastión Recuperado",
+            "en": "Reclaimed Bastion",
+            "fr": "Bastion reconquis",
+            "it": "Bastione riconquistato",
+            "de": "Rückeroberte Bastion",
+            "zh": "收复要塞",
+            "ja": "奪還の砦"
+        },
+        "desc": {
+            "es": "Limpia la fortaleza abandonada del desierto de bandidos y alimañas.",
+            "en": "Purge bandits and beasts from the abandoned desert fortress.",
+            "fr": "Purge la forteresse abandonnée du désert de ses bandits et vermines.",
+            "it": "Ripulisci la fortezza abbandonata del deserto da banditi e bestie.",
+            "de": "Befreie die verlassene Wüstenfestung von Banditen und Ungeziefer.",
+            "zh": "扫荡废弃荒漠要塞中的盗匪与凶兽。",
+            "ja": "見捨てられた砂漠の要塞から山賊や魔物を駆逐する。"
+        },
+        "icon": "🏰",
+        "condition": "gflag(\"fort_cleanup_done\")",
+        "reward": "gold:600; xp:350"
+    },
+    "archmage_scholar": {
+        "name": {
+            "es": "El Vuelo del Intelecto",
+            "en": "Flight of Intellect",
+            "fr": "L'envol de l'esprit",
+            "it": "Il volo dell'intelletto",
+            "de": "Flug des Intellekts",
+            "zh": "智慧飞扬",
+            "ja": "知性の飛翔"
+        },
+        "desc": {
+            "es": "Descifra con éxito el enigma mágico del Archimago de Celestia.",
+            "en": "Successfully solve the magical riddle of Celestia's Archmage.",
+            "fr": "Résous avec succès l'énigme magique de l'Archimage de Celestia.",
+            "it": "Risolvi con successo l'enigma magico dell'Arcimago di Celestia.",
+            "de": "Löse erfolgreich das magische Rätsel des Erzmagiers von Celestia.",
+            "zh": "成功破解塞勒斯提亚大魔法师的魔法谜题。",
+            "ja": "セレスティアの大魔道士が課す魔法の謎を解き明かす。"
+        },
+        "icon": "📜",
+        "condition": "gflag(\"archmage_riddle_done\")",
+        "reward": "gold:500; xp:300"
+    },
+    "camp_master": {
+        "name": {
+            "es": "Hogar Bajo las Estrellas",
+            "en": "Home Beneath Stars",
+            "fr": "Un toit sous les étoiles",
+            "it": "Un tetto sotto le stelle",
+            "de": "Heim unter den Sternen",
+            "zh": "星空营帐",
+            "ja": "星空の我が家"
+        },
+        "desc": {
+            "es": "Consigue tu propia tienda de campaña para acampar en el camino.",
+            "en": "Obtain your very own camping tent to rest upon the road.",
+            "fr": "Obtiens ta propre tente de camping pour te reposer sur la route.",
+            "it": "Ottieni la tua tenda da campeggio per riposare lungo la strada.",
+            "de": "Erhalte dein eigenes Zelt, um unterwegs zu rasten.",
+            "zh": "获得属于你自己的旅行帐篷，随时在旅途中休整。",
+            "ja": "旅の途中で休息できる自分だけのキャンプテントを手に入れる。"
+        },
+        "icon": "⛺",
+        "condition": "gflag(\"tent_ever_obtained\")",
+        "reward": "gold:250; xp:100"
+    },
+    "elara_tomb": {
+        "name": {
+            "es": "El Lamento de Elara",
+            "en": "Elara's Lament",
+            "fr": "La complainte d'Elara",
+            "it": "Il lamento di Elara",
+            "de": "Elaras Klage",
+            "zh": "埃拉拉的挽歌",
+            "ja": "エララの哀歌"
+        },
+        "desc": {
+            "es": "Descubre la olvidada tumba de Elara y lee su epitafio.",
+            "en": "Discover Elara's forgotten tomb and read her epitaph.",
+            "fr": "Découvre la tombe oubliée d'Elara et lis son épitaphe.",
+            "it": "Scopri la tomba dimenticata di Elara e leggi il suo epitaffio.",
+            "de": "Entdecke das vergessene Grab von Elara und lies ihre Grabinschrift.",
+            "zh": "探寻被遗忘的埃拉拉之墓并研读墓志铭。",
+            "ja": "忘れ去られたエララの墓を発見し、その墓碑銘を読み解く。"
+        },
+        "icon": "🪦",
+        "condition": "discovered(\"poi_tumba_elara\") or gflag(\"tomb_elara_read\")",
+        "reward": "gold:300; xp:200"
+    },
+    "truth_unveiled": {
+        "name": {
+            "es": "El Velo Rasgado",
+            "en": "The Torn Veil",
+            "fr": "Le voile déchiré",
+            "it": "Il velo strappato",
+            "de": "Der zerrissene Schleier",
+            "zh": "揭开面纱",
+            "ja": "破られた帳"
+        },
+        "desc": {
+            "es": "Descubre los registros ocultos sobre la verdadera naturaleza de la Esfera.",
+            "en": "Uncover the hidden records revealing the true nature of the Sphere.",
+            "fr": "Découvre les archives secrètes révélant la vraie nature de la Sphère.",
+            "it": "Scopri i registri segreti che svelano la vera natura della Sfera.",
+            "de": "Entdecke die verborgenen Aufzeichnungen über die wahre Natur der Sphäre.",
+            "zh": "找出隐秘档案，揭示球体模拟世界的残酷真相。",
+            "ja": "球体の真の姿を記した隠された記録を発見する。"
+        },
+        "icon": "👁️",
+        "condition": "gflag(\"truth_revealed\")",
+        "reward": "gold:1000; xp:800"
+    },
+    "codex_scholar": {
+        "name": {
+            "es": "Erudito Supremo",
+            "en": "Supreme Scholar",
+            "fr": "Érudit suprême",
+            "it": "Erudito supremo",
+            "de": "Oberster Gelehrter",
+            "zh": "绝世博学者",
+            "ja": "至高の碩学"
+        },
+        "desc": {
+            "es": "Completa todos los registros y misterios del Códice del mundo.",
+            "en": "Complete all lore entries and curiosities in the world Codex.",
+            "fr": "Complète toutes les entrées et curiosités du Codex du monde.",
+            "it": "Vervollständige alle Einträge und Kuriositäten des Welten-Kodex.",
+            "de": "Vervollständige alle Einträge und Kuriositäten des Welten-Kodex.",
+            "zh": "完整收集世界法典中的所有秘密与风土见闻。",
+            "ja": "世界の写本に記されたすべての伝承と珍奇を解明する。"
+        },
+        "icon": "📚",
+        "condition": "gflag(\"codex_complete\")",
+        "reward": "gold:1500; xp:1000"
+    },
+    "saintly": {
+        "name": {
+            "es": "Alma Piadosa",
+            "en": "Merciful Soul",
+            "fr": "Âme pieuse",
+            "it": "Anima pia",
+            "de": "Barmherzige Seele",
+            "zh": "仁者之心",
+            "ja": "慈悲の魂"
+        },
+        "desc": {
+            "es": "Alcanza 5 puntos en la faceta de Bondad.",
+            "en": "Reach 5 points in the Kindness facet.",
+            "fr": "Atteins 5 points dans la facette de Bonté.",
+            "it": "Raggiungi 5 punti nella faccetta della Bontà.",
+            "de": "Erreiche 5 Punkte in der Facette Güte.",
+            "zh": "在“善良”属性上达到 5 点。",
+            "ja": "「優しさ」の資質で5ポイントに到達する。"
+        },
+        "icon": "💖",
+        "condition": "bondad >= 5",
+        "reward": "gold:500; xp:300"
+    },
+    "fearless": {
+        "name": {
+            "es": "Corazón Intrépido",
+            "en": "Fearless Heart",
+            "fr": "Cœur intrépide",
+            "it": "Cuore intrepido",
+            "de": "Furchtloses Herz",
+            "zh": "无畏之心",
+            "ja": "不屈の心臓"
+        },
+        "desc": {
+            "es": "Alcanza 5 puntos en la faceta de Valor.",
+            "en": "Reach 5 points in the Courage facet.",
+            "fr": "Atteins 5 points dans la facette de Courage.",
+            "it": "Raggiungi 5 punti nella faccetta del Valore.",
+            "de": "Erreiche 5 Punkte in der Facette Mut.",
+            "zh": "在“勇气”属性上达到 5 点。",
+            "ja": "「勇気」の資質で5ポイントに到達する。"
+        },
+        "icon": "🦁",
+        "condition": "valor >= 5",
+        "reward": "gold:500; xp:300"
+    },
+    "unyielding_mind": {
+        "name": {
+            "es": "Mente Inquebrantable",
+            "en": "Unyielding Mind",
+            "fr": "Esprit inébranlable",
+            "it": "Mente incrollabile",
+            "de": "Unerschütterlicher Geist",
+            "zh": "坚壁心智",
+            "ja": "揺るぎなき精神"
+        },
+        "desc": {
+            "es": "Mantén tu lucidez y alcanza 5 puntos en la faceta de Cordura.",
+            "en": "Keep your lucidity and reach 5 points in the Sanity facet.",
+            "fr": "Garde ta lucidité et atteins 5 points dans la facette de Santé mentale.",
+            "it": "Conserva la tua lucidità e raggiungi 5 punti nella faccetta della Sanità mentale.",
+            "de": "Bewahre deine Klarheit und erreiche 5 Punkte in der Facette Geistige Klarheit.",
+            "zh": "保持绝对清醒，在“理智”属性上达到 5 点。",
+            "ja": "正気を保ち、「正気度」の資質で5ポイントに到達する。"
+        },
+        "icon": "🧠",
+        "condition": "cordura >= 5",
+        "reward": "gold:500; xp:300"
+    },
+    "abyss_watcher": {
+        "name": {
+            "es": "Al Borde del Abismo",
+            "en": "Edge of the Abyss",
+            "fr": "Au bord du gouffre",
+            "it": "Sull'orlo del baratro",
+            "de": "Am Rande des Abgrunds",
+            "zh": "深渊凝视",
+            "ja": "深淵の淵"
+        },
+        "desc": {
+            "es": "Permite que la oscuridad cale hondo y desciende a -3 o menos de Cordura.",
+            "en": "Let the darkness seep in and drop to -3 or lower Sanity.",
+            "fr": "Laisse l'obscurité s'infiltrer et descends à -3 ou moins en Santé mentale.",
+            "it": "Lascia che l'oscurità penetri e scendi a -3 o meno nella Sanità mentale.",
+            "de": "Lass die Finsternis eindringen und falle auf -3 oder weniger geistige Klarheit.",
+            "zh": "让阴霾深入灵魂，在“理智”属性上下降至 -3 点或更低。",
+            "ja": "闇を受け入れ、「正気度」が-3以下まで落ち込む。"
+        },
+        "icon": "👁️‍🗨️",
+        "condition": "cordura <= -3",
+        "reward": "gold:500; xp:300"
+    },
+    "polymath": {
+        "name": {
+            "es": "Sabiduría Trascendente",
+            "en": "Transcendent Wisdom",
+            "fr": "Sagesse transcendante",
+            "it": "Saggezza trascendente",
+            "de": "Transzendente Weisheit",
+            "zh": "超凡博识",
+            "ja": "超越の叡智"
+        },
+        "desc": {
+            "es": "Alcanza 5 puntos en la faceta de Inteligencia.",
+            "en": "Reach 5 points in the Intelligence facet.",
+            "fr": "Atteins 5 points dans la facette d'Intelligence.",
+            "it": "Raggiungi 5 punti nella faccetta dell'Intelligenza.",
+            "de": "Erreiche 5 Punkte in der Facette Intelligenz.",
+            "zh": "在“智力”属性上达到 5 点。",
+            "ja": "「知性」の資質で5ポイントに到達する。"
+        },
+        "icon": "💡",
+        "condition": "inteligencia >= 5",
+        "reward": "gold:500; xp:300"
+    },
+    "ending_acceptance": {
+        "name": {
+            "es": "Final: Aceptación",
+            "en": "Ending: Acceptance",
+            "fr": "Fin : Acceptation",
+            "it": "Finale: Accettazione",
+            "de": "Ende: Akzeptanz",
+            "zh": "结局：接受",
+            "ja": "エンディング：受容"
+        },
+        "desc": {
+            "es": "Despierta del sueño y acepta la realidad con entereza.",
+            "en": "Awaken from the dream and embrace reality with dignity.",
+            "fr": "Réveille-toi du rêve et accepte la réalité avec dignité.",
+            "it": "Svégliati dal sogno e accetta la realtà con dignità.",
+            "de": "Erwache aus dem Traum und nimm die Realität mit Würde an.",
+            "zh": "从梦中醒来，以尊严接受现实。",
+            "ja": "夢から覚め、尊厳を保って現実を受け入れる。"
+        },
+        "icon": "🕊️",
+        "condition": "gflag(\"ending_acceptance\")",
+        "reward": "xp:1500"
+    },
+    "ending_madness": {
+        "name": {
+            "es": "Final: Locura",
+            "en": "Ending: Madness",
+            "fr": "Fin : Folie",
+            "it": "Finale: Follia",
+            "de": "Ende: Wahnsinn",
+            "zh": "结局：狂乱",
+            "ja": "エンディング：狂気"
+        },
+        "desc": {
+            "es": "Sucumbe al laberinto infinito de tu propia mente.",
+            "en": "Succumb to the infinite labyrinth of your own mind.",
+            "fr": "Succombe au labyrinthe infini de ton propre esprit.",
+            "it": "Cedi al labirinto infinito della tua stessa mente.",
+            "de": "Erliege dem endlosen Labyrinth deines eigenen Geistes.",
+            "zh": "屈服于你自己心智的无尽迷宫。",
+            "ja": "自らの心の無限の迷宮に飲み込まれる。"
+        },
+        "icon": "🌀",
+        "condition": "gflag(\"ending_madness\")",
+        "reward": "xp:1500"
+    },
+    "ending_denial": {
+        "name": {
+            "es": "Final: Negación",
+            "en": "Ending: Denial",
+            "fr": "Fin : Déni",
+            "it": "Finale: Negazione",
+            "de": "Ende: Verleugnung",
+            "zh": "结局：否认",
+            "ja": "エンディング：否認"
+        },
+        "desc": {
+            "es": "Elige reiniciar el ciclo como si nada hubiese ocurrido.",
+            "en": "Choose to restart the cycle as if nothing ever happened.",
+            "fr": "Choisis de recommencer le cycle comme si rien ne s'était passé.",
+            "it": "Scegli di riavviare il ciclo come se nulla fosse accaduto.",
+            "de": "Entscheide dich, den Zyklus neu zu beginnen, als wäre nichts geschehen.",
+            "zh": "选择重新开始轮回，仿佛什么事都没发生过。",
+            "ja": "何もなかったかのように、循環をやり直すことを選ぶ。"
+        },
+        "icon": "🔄",
+        "condition": "gflag(\"ending_denial\")",
+        "reward": "xp:1500"
+    },
+    "ending_destruction": {
+        "name": {
+            "es": "Final: Colapso",
+            "en": "Ending: Collapse",
+            "fr": "Fin : Effondrement",
+            "it": "Finale: Collasso",
+            "de": "Ende: Zusammenbruch",
+            "zh": "结局：崩塌",
+            "ja": "エンディング：崩壊"
+        },
+        "desc": {
+            "es": "Deja que la verdad devore el mundo construido.",
+            "en": "Let the truth consume the constructed world.",
+            "fr": "Laisse la vérité consumer le monde construit.",
+            "it": "Lascia che la verità consumi il mondo costruito.",
+            "de": "Lass die Wahrheit die erbaute Welt verzehren.",
+            "zh": "任由真相吞噬这个被构建的世界。",
+            "ja": "真実が構築された世界を飲み込むのに任せる。"
+        },
+        "icon": "💥",
+        "condition": "gflag(\"ending_destruction\")",
+        "reward": "xp:1500"
+    },
+    "ending_vengeance": {
+        "name": {
+            "es": "Final: Venganza",
+            "en": "Ending: Vengeance",
+            "fr": "Fin : Vengeance",
+            "it": "Finale: Vendetta",
+            "de": "Ende: Rache",
+            "zh": "结局：复仇",
+            "ja": "エンディング：復讐"
+        },
+        "desc": {
+            "es": "Dirige tu ira contra quienes financiaron el experimento.",
+            "en": "Direct your wrath at those who funded the experiment.",
+            "fr": "Dirige ta colère contre ceux qui ont financé l'expérience.",
+            "it": "Dirigi la tua ira contro chi ha finanziato l'esperimento.",
+            "de": "Richte deinen Zorn gegen jene, die das Experiment finanzierten.",
+            "zh": "将你的愤怒导向那些资助实验的人。",
+            "ja": "実験を資金援助した者たちに怒りをぶつける。"
+        },
+        "icon": "🔥",
+        "condition": "gflag(\"ending_vengeance\")",
+        "reward": "xp:1500"
+    },
+    "ending_secret": {
+        "name": {
+            "es": "Final Secreto: Trascendencia",
+            "en": "Secret Ending: Transcendence",
+            "fr": "Fin secrète : Transcendance",
+            "it": "Finale segreto: Trascendenza",
+            "de": "Geheimes Ende: Transzendenz",
+            "zh": "隐藏结局：超脱",
+            "ja": "裏エンディング：超越"
+        },
+        "desc": {
+            "es": "Rompe el velo definitivo y descubre lo que aguarda más allá de la simulación.",
+            "en": "Pierce the ultimate veil and discover what awaits beyond the simulation.",
+            "fr": "Perce le voile ultime et découvre ce qui attend au-delà de la simulation.",
+            "it": "Squarcia il velo definitivo e scopri cosa attende oltre la simulazione.",
+            "de": "Durchdringe den ultimativen Schleier und entdecke, was jenseits der Simulation wartet.",
+            "zh": "穿透终极帷幕，探寻模拟彼岸等待着的事物。",
+            "ja": "究極の帳を破り、シミュレーションの彼方に待つものを見出す。"
+        },
+        "icon": "🌌",
+        "condition": "gflag(\"ending_secret_epilogue\")",
+        "reward": "gold:2000; xp:2500"
+    }
+}

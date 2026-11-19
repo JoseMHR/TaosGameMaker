@@ -1,0 +1,329 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "Monolito Rúnico",
+            "en": "Runic Monolith",
+            "fr": "Monolithe Runique",
+            "it": "Monolite Runico",
+            "de": "Runenmonolith",
+            "zh": "符文巨石",
+            "ja": "ルーンの一枚岩"
+        },
+        "next": [],
+        "reward": "bg=0.06,0.06,0.08"
+    },
+    "intro": {
+        "type": "message",
+        "text": {
+            "es": "Un monolito negro se alza entre la nieve, cubierto de glifos que parecen retorcerse cuando no los miras directamente. Si acercas el oído, un murmullo grave recita en un idioma muerto. Sobre todo, y con notable insistencia, parece quejarse amargamente del frío.",
+            "en": "A black monolith rises from the snow, covered in glyphs that seem to writhe when you don't look at them directly. Lean in and a low murmur recites in a dead tongue. Mostly, and with remarkable insistence, it seems to be complaining bitterly about the cold.",
+            "fr": "Un monolithe noir se dresse dans la neige, couvert de glyphes qui semblent se tordre quand tu ne les regardes pas directement. Si tu tends l'oreille, un murmure grave récite dans une langue morte. Surtout, et avec une insistance remarquable, il semble se plaindre amèrement du froid.",
+            "it": "Un monolite nero si erge tra la neve, coperto di glifi che sembrano contorcersi quando non li guardi direttamente. Se avvicini l'orecchio, un mormorio grave recita in una lingua morta. Soprattutto, e con notevole insistenza, sembra lamentarsi amaramente del freddo.",
+            "de": "Ein schwarzer Monolith erhebt sich aus dem Schnee, bedeckt mit Glyphen, die sich zu winden scheinen, wenn man sie nicht direkt ansieht. Lehnst du dich näher, rezitiert ein tiefes Murmeln in einer toten Sprache. Vor allem, und mit bemerkenswerter Beharrlichkeit, scheint es sich bitterlich über die Kälte zu beklagen.",
+            "zh": "一座黑色的巨石矗立在雪地中，上面覆盖着符文，当你不直接盯着它们看时，它们似乎会扭动。如果你把耳朵凑近，会听到一阵低沉的呢喃，用一种死去的语言吟诵着。但最主要、而且异常执着的是，它似乎在痛苦地抱怨着寒冷。",
+            "ja": "黒い一枚岩が雪の中からそびえ立ち、直接見ていないとくねるように見える紋章で覆われている。耳を寄せると、低い呟きが死語で何かを唱えている。しかし何よりも、驚くほどしつこく、寒さについて苦々しく不平を言っているようだ。"
+        },
+        "next": [
+            "act_decipher",
+            "act_touch",
+            "act_shout",
+            "act_fail",
+            "back"
+        ],
+        "condition": "not_discovered(\"poi_monolito_runico\")"
+    },
+    "act_decipher": {
+        "type": "option",
+        "text": {
+            "es": "🧠  Descifrar los glifos antiguos con agudeza mental",
+            "en": "🧠  Decipher the ancient glyphs with sharp wits",
+            "fr": "🧠  Déchiffrer les anciens glyphes avec sagacité",
+            "it": "🧠  Decifrare gli antichi glifi con acume mentale",
+            "de": "🧠  Die alten Glyphen mit scharfem Verstand entschlüsseln",
+            "zh": "🧠  用敏锐的智慧破译这些古老的符文",
+            "ja": "🧠  鋭い知恵で古代の紋章を解読する"
+        },
+        "next": [
+            "res_ok"
+        ],
+        "reward": "xp:30;faceta:inteligencia=+1;gold:+35;discover:poi_monolito_runico",
+        "once": true
+    },
+    "act_touch": {
+        "type": "option",
+        "text": {
+            "es": "🧤  (Apoyar las manos enguantadas y canalizar calor para reconfortar la roca helada)",
+            "en": "🧤  (Rest gloved palms and channel body heat to comfort the shivering rock)",
+            "fr": "🧤  (Poser tes mains gantées et canaliser de la chaleur pour réconforter la roche gelée)",
+            "it": "🧤  (Appoggiare le mani guantate e incanalare calore per confortare la roccia gelata)",
+            "de": "🧤  (Behandschuhte Hände auflegen und Wärme kanalisieren, um den frostigen Stein zu trösten)",
+            "zh": "🧤  （把戴着手套的双手放上去，传导体温安抚这块冰冷颤抖的岩石）",
+            "ja": "🧤  （手袋をした手を当て、体温を送り込んで凍える岩を慰める）"
+        },
+        "next": [
+            "res_touch"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "res_touch": {
+        "type": "message",
+        "text": {
+            "es": "La piedra basáltica absorbe el calor humano ávidamente. El zumbido quejumbroso se apacigua en un susurro de alivio armónico, casi como un ronroneo subterráneo. Un suave resplandor esmeralda brota de los glifos y envuelve tus manos, sanando tus sabañones y rozaduras. La ternura hacia lo que sufre en silencio eleva tu espíritu.",
+            "en": "The basalt monolith greedily drinks in the warmth. Its complaining drone softens into a sigh of harmonic relief, almost like a deep subterranean purr. An emerald luminescence wells from the carvings to enfold your palms, mending frostbite and trail wear. Compassion toward that which suffers in silence uplifts your soul.",
+            "fr": "La pierre basaltique absorbe avidement la chaleur humaine. Le bourdonnement plaintif s'apaise en un murmure de soulagement harmonique, presque comme un ronronnement souterrain. Une douce lueur émeraude jaillit des glyphes et enveloppe tes mains, guérissant tes engelures et éraflures. La tendresse envers ce qui souffre en silence élève ton esprit.",
+            "it": "La pietra basaltica assorbe avidamente il calore umano. Il ronzio lamentoso si placa in un sussurro di sollievo armonico, quasi come un ronron sotterraneo. Un tenue bagliore smeraldo sgorga dai glifi e avvolge le tue mani, guarendo i geloni e le abrasioni. La tenerezza verso ciò che soffre in silenzio eleva il tuo spirito.",
+            "de": "Der Basaltstein saugt gierig die menschliche Wärme auf. Das klagende Summen besänftigt sich zu einem harmonischen Erleichterungsseufzer, fast wie ein unterirdisches Schnurren. Ein sanftes smaragdgrünes Leuchten entströmt den Glyphen und umhüllt deine Hände, heilt Frostbeulen und Schürfwunden. Zärtlichkeit gegenüber dem still Leidenden erhebt deinen Geist.",
+            "zh": "玄武岩石贪婪地吸收着人类的体温。那哀怨的嗡鸣声平息成一种和谐的宽慰低语，几乎像是一种地下的呼噜声。一道柔和的翠绿光芒从符文中涌出，包裹住你的双手，治愈了你的冻疮和擦伤。对默默承受痛苦之物的温柔提升了你的精神。",
+            "ja": "玄武岩は貪欲に人間の温もりを吸収する。嘆くような唸りが和らぎ、まるで地底の喉鳴りのような調和的な安堵のため息になる。紋章から柔らかなエメラルドの輝きが湧き出て手を包み込み、しもやけと擦り傷を癒す。静かに苦しむものへの優しさが精神を高める。"
+        },
+        "next": [
+            "intro_r"
+        ],
+        "reward": "faceta:bondad=+1;heal:35"
+    },
+    "act_shout": {
+        "type": "option",
+        "text": {
+            "es": "🗣️  ¡Pues ponte una bufanda si tanto frío tienes, pedrusco quejica!",
+            "en": "🗣️  Then wrap a scarf around yourself if you're so chilly, whining boulder!",
+            "fr": "🗣️  Eh bien, mets une écharpe si tu as si froid, gros caillou geignard !",
+            "it": "🗣️  E allora mettiti una sciarpa se hai così freddo, pietrone lamentoso!",
+            "de": "🗣️  Dann zieh dir doch einen Schal an, wenn dir so kalt ist, du jämmerlicher Felsbrocken!",
+            "zh": "🗣️  那你冷的话就自己围条围巾啊，爱抱怨的大石头！",
+            "ja": "🗣️  そんなに寒いならマフラーでも巻けよ、泣き言ばかりの石ころめ！"
+        },
+        "next": [
+            "res_shout"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "res_shout": {
+        "type": "message",
+        "text": {
+            "es": "Tu potente grito resuena en el ventisquero. La vibración rompe un carámbano superior que cae con estrépito... ¡y arrastra consigo una bolsa de cuero atascada en la cornisa! Dentro encuentras 25 monedas de oro y una gema de hielo intacta. Tu descarada audacia supera a los elementos.",
+            "en": "Your booming shout echoes through the snowdrifts. The acoustic vibration snaps an overhead icicle that crashes down... dragging with it an ancient leather purse wedged in the ledge! Inside you find 25 gold coins and an undamaged frost gem. Brazen audacity conquers the elements.",
+            "fr": "Ton cri puissant résonne dans la congère. La vibration brise un stalactite supérieur qui s'effondre dans un fracas... et entraîne avec lui une sacoche en cuir coincée dans la corniche ! À l'intérieur, tu trouves 25 pièces d'or et une gemme de glace intacte. Ton audace éhontée triomphe des éléments.",
+            "it": "Il tuo grido potente risuona nel banco di neve. La vibrazione rompe un ghiacciolo superiore che cade con fragore... e trascina con sé una bisaccia di cuoio incastrata nella cornice! Dentro trovi 25 monete d'oro e una gemma di ghiaccio intatta. La tua sfacciata audacia supera gli elementi.",
+            "de": "Dein gewaltiger Schrei hallt durch die Schneewehe. Die Vibration bricht einen darüberhängenden Eiszapfen, der krachend herabstürzt... und einen ledernen Beutel mit sich reißt, der im Vorsprung feststeckte! Darin findest du 25 Goldmünzen und einen unversehrten Frostedelstein. Unverschämte Kühnheit besiegt die Elemente.",
+            "zh": "你响亮的呐喊在雪堆中回荡。震动打断了上方的一根冰柱，它轰然坠落……还带下来一个卡在岩架上的皮革口袋！里面你发现了25枚金币和一颗完好无损的冰晶。你厚颜无耻的胆量征服了自然元素。",
+            "ja": "お前の轟く叫び声が雪だまりに響き渡る。振動が頭上の氷柱を折り、それが轟音とともに落下する……そして張り出しに挟まっていた革の財布も一緒に落ちてくる！中には金貨25枚と無傷の氷の宝石を見つける。恥知らずな大胆さが自然を征服する。"
+        },
+        "next": [
+            "intro_r"
+        ],
+        "reward": "faceta:valor=+1;gold:+25"
+    },
+    "act_fail": {
+        "type": "option",
+        "text": {
+            "es": "😵  Intentar leer los glifos sin comprender la lengua muerta",
+            "en": "😵  Try reading glyphs without comprehending dead tongues",
+            "fr": "😵  Essayer de lire les glyphes sans comprendre la langue morte",
+            "it": "😵  Provare a leggere i glifi senza comprendere la lingua morta",
+            "de": "😵  Versuchen, die Glyphen zu lesen, ohne die tote Sprache zu verstehen",
+            "zh": "😵  在不懂这门死语的情况下，试图阅读这些符文",
+            "ja": "😵  死語を理解できないまま紋章を読もうとする"
+        },
+        "next": [
+            "res_fail"
+        ],
+        "condition": "astucia < 2"
+    },
+    "res_ok": {
+        "type": "message",
+        "text": {
+            "es": "Los símbolos encajan de golpe en tu cabeza como una cerradura bien engrasada. No es una profecía de destrucción: ¡es la SOLUCIÓN matemática de un antiguo puzle de cristales arcanos! Al margen, una nota añadida en letra apretada reza: «Si estás leyendo esto, has invertido demasiado tiempo aquí. Como yo». Las monedas ocultas en la base caen en tus manos.",
+            "en": "The glyphs snap together in your mind like a well-oiled lock. It is no doom prophecy: it is the mathematical SOLUTION to an arcane crystal puzzle! In the margin, a cramped scribble reads: «If you are reading this, you spent far too much time here. Like me». Forgotten coins tucked in the plinth slide into your hand.",
+            "fr": "Les symboles s'emboîtent d'un coup dans ta tête comme une serrure bien huilée. Ce n'est pas une prophétie de destruction : c'est la SOLUTION mathématique d'un ancien puzzle de cristaux arcaniques ! Dans la marge, une note ajoutée d'une écriture serrée dit : « Si tu lis ceci, tu as passé bien trop de temps ici. Comme moi. » Les pièces cachées dans la base tombent entre tes mains.",
+            "it": "I simboli si incastrano di colpo nella tua testa come una serratura ben oliata. Non è una profezia di distruzione: è la SOLUZIONE matematica di un antico rompicapo di cristalli arcani! A margine, una nota aggiunta con grafia stretta recita: 'Se stai leggendo questo, hai investito troppo tempo qui. Come me.' Le monete nascoste nella base cadono tra le tue mani.",
+            "de": "Die Symbole fügen sich plötzlich in deinem Kopf zusammen wie ein gut geöltes Schloss. Es ist keine Untergangsprophezeiung: es ist die mathematische LÖSUNG eines uralten arkanen Kristallrätsels! Am Rand steht in enger Schrift ein Vermerk: „Wenn du das liest, hast du viel zu viel Zeit hier verbracht. Wie ich.“ Vergessene Münzen im Sockel gleiten dir in die Hand.",
+            "zh": "那些符号突然在你脑海中拼合起来，如同一把上过油的锁。这不是毁灭的预言：而是一道古老秘术水晶谜题的数学解答！页边，一个字迹拥挤的批注写着：「如果你在读这个，说明你在这里花的时间太多了。就像我一样。」藏在底座里的硬币滑落到你手中。",
+            "ja": "記号が突然、油をさした錠前のように頭の中でカチリとはまる。これは破滅の予言ではない——古代の秘術水晶パズルの数学的な解答なのだ！余白には、狭苦しい筆跡でこう書かれている——「これを読んでいるなら、ここにあまりにも長い時間を費やしたな。私と同じように」台座に隠されていた忘れられた硬貨が手の中に滑り込む。"
+        },
+        "next": [
+            "intro_r"
+        ]
+    },
+    "res_fail": {
+        "type": "message",
+        "text": {
+            "es": "Frunces el ceño, ladeas la cabeza, entrecierras los ojos con determinación intelectual... y sigues sin entender absolutamente nada. Uno de los glifos, jurarías, cambia de forma para deletrear algo sospechosamente parecido a «NO».",
+            "en": "You furrow your brow, tilt your head, squint with intellectual determination... and still understand absolutely nothing. One of the glyphs rearranges itself to spell something suspiciously like «NO».",
+            "fr": "Tu fronces les sourcils, penches la tête, plisses les yeux avec une détermination intellectuelle... et tu ne comprends toujours absolument rien. Un des glyphes, tu jurerais, change de forme pour épeler quelque chose qui ressemble suspicieusement à « NON ».",
+            "it": "Aggrotti la fronte, inclini la testa, socchiudi gli occhi con determinazione intellettuale... e continui a non capire assolutamente nulla. Uno dei glifi, giureresti, cambia forma per scrivere qualcosa di sospettosamente simile a 'NO'.",
+            "de": "Du runzelst die Stirn, neigst den Kopf, kneifst die Augen mit intellektueller Entschlossenheit zusammen... und verstehst immer noch absolut nichts. Eine der Glyphen, würdest du schwören, verändert ihre Form, um etwas verdächtig Ähnliches wie „NEIN“ zu buchstabieren.",
+            "zh": "你皱起眉头，歪着头，带着智识上的决心眯起眼睛……却依然什么都看不懂。你敢发誓，其中一个符文正在改变形状，拼出一个可疑地像「不」的东西。",
+            "ja": "眉をひそめ、頭を傾け、知的な決意を込めて目を細める……それでも依然として何一つ理解できない。紋章の一つが、疑わしくも「ダメ」に似た何かを綴るために形を変えたと誓ってもいい。"
+        },
+        "next": [
+            "intro"
+        ]
+    },
+    "intro_r": {
+        "type": "message",
+        "text": {
+            "es": "El monolito negro sigue susurrando su letanía contra las inclemencias. La roca vibra rítmicamente bajo la nieve helada, guardando siglos de quejas e inscripciones arcanas listas para quien sepa interactuar con ella.",
+            "en": "The black monolith keeps whispering its litany against the elements. The stone vibrates rhythmically under the frost, preserving centuries of complaints and arcane scripts ready for whoever engages with it.",
+            "fr": "Le monolithe noir continue de murmurer sa litanie contre les intempéries. La roche vibre rythmiquement sous la neige gelée, gardant des siècles de plaintes et d'inscriptions arcaniques prêtes pour qui sait interagir avec elle.",
+            "it": "Il monolite nero continua a sussurrare la sua litania contro le intemperie. La roccia vibra ritmicamente sotto la neve gelata, custodendo secoli di lamentele e iscrizioni arcane pronte per chi sappia interagire con essa.",
+            "de": "Der schwarze Monolith flüstert weiterhin seine Litanei gegen die Unbilden der Witterung. Der Stein vibriert rhythmisch unter dem gefrorenen Schnee und bewahrt Jahrhunderte an Klagen und arkanen Inschriften, bereit für jeden, der mit ihm zu interagieren weiß.",
+            "zh": "黑色的巨石继续低声念诵着它对抗恶劣天气的连祷。岩石在冻雪之下有节奏地震动着，守护着几个世纪的抱怨与秘术铭文，等待着懂得与它交流的人。",
+            "ja": "黒い一枚岩は、悪天候に対する連祷を囁き続けている。石は凍った雪の下でリズミカルに振動し、何世紀もの不平と秘術の碑文を、それと関わる術を知る者のために保っている。"
+        },
+        "next": [
+            "act_r_listen",
+            "act_r_warm",
+            "act_r_shout",
+            "act_r_meditate",
+            "back"
+        ],
+        "condition": "discovered(\"poi_monolito_runico\")"
+    },
+    "act_r_listen": {
+        "type": "option",
+        "text": {
+            "es": "👂  Acercar el oído e interpretar sus murmullos sobre las corrientes de la montaña",
+            "en": "👂  Lean close and interpret its murmurs about mountain air currents",
+            "fr": "👂  Tendre l'oreille et interpréter ses murmures sur les courants de la montagne",
+            "it": "👂  Avvicinare l'orecchio e interpretare i suoi mormorii sulle correnti della montagna",
+            "de": "👂  Das Ohr anlehnen und seine Murmeln über die Bergluftströme deuten",
+            "zh": "👂  凑近倾听，解读它关于山间气流的低语",
+            "ja": "👂  耳を近づけ、山の気流についての呟きを解釈する"
+        },
+        "next": [
+            "res_r_listen"
+        ],
+        "reward": ""
+    },
+    "res_r_listen": {
+        "type": "message",
+        "text": {
+            "es": "Prestas oído con suma atención. Entre gruñidos sobre la ventisca, la voz pétrea recita viejas coordenadas mineras y los ciclos térmicos de las cumbres. Desentrañar sus crípticos datos expande tu saber geológico y te permite hallar 15 monedas atrapadas bajo el zócalo.",
+            "en": "You listen with close attention. Amid grumbles about the gale, the stony voice recites forgotten mining coordinates and thermal cycles of the peaks. Parsing its cryptic lore enriches your geological knowledge and unearths 15 coins wedged beneath the base.",
+            "fr": "Tu écoutes avec la plus grande attention. Entre des grognements sur la tempête, la voix pétrée récite d'anciennes coordonnées minières et les cycles thermiques des sommets. Percer ses données cryptiques élargit ton savoir géologique et te permet de trouver 15 pièces coincées sous le socle.",
+            "it": "Ascolti con estrema attenzione. Tra brontolii sulla bufera, la voce pietrosa recita vecchie coordinate minerarie e i cicli termici delle vette. Svelare i suoi dati criptici amplia il tuo sapere geologico e ti permette di trovare 15 monete intrappolate sotto lo zoccolo.",
+            "de": "Du hörst mit größter Aufmerksamkeit zu. Zwischen Klagen über den Sturm rezitiert die steinerne Stimme alte Bergbaukoordinaten und die thermischen Zyklen der Gipfel. Ihre kryptischen Daten zu entschlüsseln erweitert dein geologisches Wissen und lässt dich 15 unter dem Sockel eingeklemmte Münzen finden.",
+            "zh": "你极为专注地聆听着。在对暴风雪的抱怨声之间，那石头般的声音吟诵着古老的矿产坐标和山峰的热力循环。破解它那晦涩的数据拓宽了你的地质学知识，也让你找到了卡在底座下的15枚硬币。",
+            "ja": "細心の注意を払って耳を傾ける。嵐についての愚痴の合間に、石の声は忘れられた鉱山の座標と山頂の熱サイクルを唱えている。その難解な知識を解き明かすことで地質学の知識が広がり、台座の下に詰まっていた硬貨15枚を見つけ出す。"
+        },
+        "next": [
+            "intro_r"
+        ],
+        "reward": "faceta:inteligencia=+1;xp:20;gold:+15"
+    },
+    "act_r_warm": {
+        "type": "option",
+        "text": {
+            "es": "🧤  Aislar sus grietas con musgo seco y nieve compacta para aplacar su queja",
+            "en": "🧤  Insulate its cracks with dry moss and packed snow to soothe its complaints",
+            "fr": "🧤  Isoler ses fissures avec de la mousse sèche et de la neige compacte pour apaiser sa plainte",
+            "it": "🧤  Isolare le sue fessure con muschio secco e neve compatta per placare la sua lamentela",
+            "de": "🧤  Seine Risse mit trockenem Moos und festem Schnee isolieren, um seine Klage zu besänftigen",
+            "zh": "🧤  用干苔藓和压实的雪堵住它的裂缝，平息它的抱怨",
+            "ja": "🧤  乾いた苔と固めた雪でひび割れを塞ぎ、不満を鎮める"
+        },
+        "next": [
+            "res_r_warm"
+        ],
+        "reward": ""
+    },
+    "res_r_warm": {
+        "type": "message",
+        "text": {
+            "es": "Tapas con esmero las fisuras por donde silba el viento polar. El tono lastimero del monolito se suaviza hasta convertirse en un ronroneo apacible. La piedra emite un tenue pulso térmico esmeralda que alivia la fatiga de tus músculos.",
+            "en": "You carefully seal the fissures where polar gusts whistle. The monolith's mournful drone softens into a peaceful hum. The stone emits a subtle emerald heat pulse that relieves the weariness in your muscles.",
+            "fr": "Tu colmates soigneusement les fissures par où siffle le vent polaire. Le ton plaintif du monolithe s'adoucit jusqu'à devenir un ronronnement paisible. La pierre émet un léger pouls thermique émeraude qui soulage la fatigue de tes muscles.",
+            "it": "Tapi con cura le fessure da cui sibila il vento polare. Il tono lamentoso del monolite si ammorbidisce fino a diventare un ronron pacifico. La pietra emette un tenue impulso termico smeraldo che allevia la fatica dei tuoi muscoli.",
+            "de": "Du versiegelst sorgfältig die Risse, aus denen der polare Wind pfeift. Der klagende Ton des Monolithen mildert sich zu einem friedlichen Summen. Der Stein sendet einen subtilen smaragdgrünen Wärmepuls aus, der die Erschöpfung deiner Muskeln lindert.",
+            "zh": "你仔细地堵住了极地寒风呼啸而入的裂缝。巨石那哀怨的语调渐渐柔和，变成了一种平静的呼噜声。石头发出微弱的翠绿色热脉冲，缓解了你肌肉的疲劳。",
+            "ja": "極地の風が笛のように吹き込む裂け目を丁寧に塞ぐ。一枚岩の嘆くような音が和らぎ、穏やかな唸りへと変わる。石は微かなエメラルド色の熱の脈動を発し、筋肉の疲労を和らげる。"
+        },
+        "next": [
+            "intro_r"
+        ],
+        "reward": "faceta:bondad=+1;heal:30"
+    },
+    "act_r_shout": {
+        "type": "option",
+        "text": {
+            "es": "🗣️  Lanzar un grito de guerra frente al monolito para desafiar a la ventisca",
+            "en": "🗣️  Let out a battle roar before the monolith to challenge the blizzard",
+            "fr": "🗣️  Pousser un cri de guerre devant le monolithe pour défier la tempête",
+            "it": "🗣️  Lanciare un urlo di guerra davanti al monolite per sfidare la bufera",
+            "de": "🗣️  Vor dem Monolithen einen Kriegsschrei ausstoßen, um dem Sturm zu trotzen",
+            "zh": "🗣️  在巨石面前发出战吼，向暴风雪发起挑战",
+            "ja": "🗣️  一枚岩の前で雄叫びを上げ、吹雪に挑む"
+        },
+        "next": [
+            "res_r_shout"
+        ],
+        "reward": ""
+    },
+    "res_r_shout": {
+        "type": "message",
+        "text": {
+            "es": "Tu bramido sacude los ventisqueros. La onda de choque hace vibrar el monolito, desprendiendo una costra de hielo de su capitel que revela un pequeño amuleto rúnico caído de antiguos viajeros. El valor indómito renueva tus fuerzas.",
+            "en": "Your bellow shakes the snowbanks. The shockwave rattles the monolith, cracking loose an icy crust from its crown that drops a small runic charm left by past wayfarers. Untamed courage renews your strength.",
+            "fr": "Ton rugissement ébranle les congères. L'onde de choc fait vibrer le monolithe, décollant une croûte de glace de son chapiteau qui révèle une petite amulette runique tombée d'anciens voyageurs. Le courage indomptable renouvelle tes forces.",
+            "it": "Il tuo ruggito scuote i banchi di neve. L'onda d'urto fa vibrare il monolite, staccando una crosta di ghiaccio dal suo capitello che rivela un piccolo amuleto runico caduto ad antichi viaggiatori. Il coraggio indomito rinnova le tue forze.",
+            "de": "Dein Gebrüll erschüttert die Schneewehen. Die Schockwelle lässt den Monolithen vibrieren und löst eine Eiskruste von seinem Kapitell, die einen kleinen Runenanhänger enthüllt, der von früheren Reisenden zurückgelassen wurde. Unbezähmter Mut erneuert deine Kraft.",
+            "zh": "你的怒吼震动了雪堆。冲击波让巨石为之震颤，震落了它顶部的一层冰壳，露出了一个古代旅人遗落的小符文护身符。不屈的勇气重新焕发了你的力量。",
+            "ja": "お前の咆哮が雪の吹き溜まりを揺るがす。衝撃波が一枚岩を振動させ、頂部から氷の殻が剥がれ落ち、過去の旅人が落とした小さなルーンのお守りが現れる。不屈の勇気が力を新たにする。"
+        },
+        "next": [
+            "intro_r"
+        ],
+        "reward": "faceta:valor=+1;xp:15;gold:+10"
+    },
+    "act_r_meditate": {
+        "type": "option",
+        "text": {
+            "es": "🧘  Apoyar la frente y meditar en sintonía con la frecuencia arcana",
+            "en": "🧘  Rest your forehead and meditate in tune with the arcane frequency",
+            "fr": "🧘  Poser le front et méditer en harmonie avec la fréquence arcanique",
+            "it": "🧘  Appoggiare la fronte e meditare in sintonia con la frequenza arcana",
+            "de": "🧘  Die Stirn anlehnen und im Einklang mit der arkanen Frequenz meditieren",
+            "zh": "🧘  贴上额头，与秘术频率协调冥想",
+            "ja": "🧘  額を当て、秘術の周波数に合わせて瞑想する"
+        },
+        "next": [
+            "res_r_meditate"
+        ],
+        "reward": ""
+    },
+    "res_r_meditate": {
+        "type": "message",
+        "text": {
+            "es": "Cierras los ojos y permites que el zumbido monocorde del basalto arrastre el estrés del combate y el viaje. Tu mente se aquieta como un lago helado, despejando toda duda y serenando tu espíritu.",
+            "en": "You close your eyes and let the droning hum of the basalt sweep away the strain of combat and travel. Your mind steadies like a frozen mere, banishing doubt and calming your spirit.",
+            "fr": "Tu fermes les yeux et laisses le bourdonnement monocorde du basalte emporter le stress du combat et du voyage. Ton esprit s'apaise comme un lac gelé, dissipant tous les doutes et sereinant ton âme.",
+            "it": "Chiudi gli occhi e lasci che il ronzio monocorde del basalto trascini via lo stress del combattimento e del viaggio. La tua mente si placa come un lago ghiacciato, dissipando ogni dubbio e serenando il tuo spirito.",
+            "de": "Du schließt die Augen und lässt das monotone Summen des Basalts die Anspannung von Kampf und Reise wegtragen. Dein Geist beruhigt sich wie ein zugefrorener See, verscheucht allen Zweifel und besänftigt deine Seele.",
+            "zh": "你闭上眼睛，任由玄武岩单调的嗡鸣带走战斗与旅途的压力。你的心思如结冰的湖面般平静下来，驱散了一切疑虑，抚平了你的心灵。",
+            "ja": "目を閉じ、玄武岩の単調な唸りが戦闘と旅の緊張を洗い流すのに任せる。心は凍った湖のように静まり返り、あらゆる疑念を払拭し、魂を穏やかにする。"
+        },
+        "next": [
+            "intro_r"
+        ],
+        "reward": "heal:40;faceta:cordura=+1;xp:15"
+    },
+    "back": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Marcharse",
+            "en": "🚶  Leave",
+            "fr": "🚶  Partir",
+            "it": "🚶  Andarsene",
+            "de": "🚶  Gehen",
+            "zh": "🚶  离开",
+            "ja": "🚶  立ち去る"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

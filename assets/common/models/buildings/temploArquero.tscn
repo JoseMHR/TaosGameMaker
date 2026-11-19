@@ -1,0 +1,148 @@
+[gd_scene format=3 uid="uid://templo_arquero_poi"]
+
+[sub_resource type="StandardMaterial3D" id="Mat_MossStone"]
+albedo_color = Color(0.3, 0.34, 0.3, 1)
+roughness = 0.9
+
+[sub_resource type="StandardMaterial3D" id="Mat_RusticWood"]
+albedo_color = Color(0.35, 0.22, 0.12, 1)
+roughness = 0.85
+
+[sub_resource type="StandardMaterial3D" id="Mat_ForestGreenRoof"]
+albedo_color = Color(0.16, 0.4, 0.2, 1)
+roughness = 0.65
+
+[sub_resource type="StandardMaterial3D" id="Mat_ArcherGreenGlow"]
+albedo_color = Color(0.15, 0.85, 0.25, 1)
+emission_enabled = true
+emission = Color(0.15, 0.85, 0.25, 1)
+emission_energy_multiplier = 3.5
+
+[sub_resource type="StandardMaterial3D" id="Mat_Bronze"]
+albedo_color = Color(0.72, 0.52, 0.22, 1)
+metallic = 0.8
+roughness = 0.3
+
+[sub_resource type="StandardMaterial3D" id="Mat_DoorVoid"]
+albedo_color = Color(0.02, 0.04, 0.02, 1)
+roughness = 1.0
+
+[sub_resource type="StandardMaterial3D" id="Mat_TargetRed"]
+albedo_color = Color(0.85, 0.18, 0.15, 1)
+
+[sub_resource type="StandardMaterial3D" id="Mat_TargetWhite"]
+albedo_color = Color(0.92, 0.9, 0.85, 1)
+
+[sub_resource type="BoxMesh" id="Mesh_StairsBase"]
+size = Vector3(1.1, 0.12, 1.25)
+
+[sub_resource type="BoxMesh" id="Mesh_StairsUpper"]
+size = Vector3(0.98, 0.1, 1.1)
+
+[sub_resource type="BoxMesh" id="Mesh_TempleHall"]
+size = Vector3(0.82, 0.68, 0.82)
+
+[sub_resource type="BoxMesh" id="Mesh_DoorVoid"]
+size = Vector3(0.34, 0.52, 0.15)
+
+[sub_resource type="CylinderMesh" id="Mesh_TreeColumn"]
+top_radius = 0.042
+bottom_radius = 0.055
+height = 0.68
+radial_segments = 6
+
+[sub_resource type="PrismMesh" id="Mesh_PeakedRoof"]
+size = Vector3(0.92, 0.52, 0.92)
+
+[sub_resource type="CylinderMesh" id="Mesh_ArrowShaft"]
+top_radius = 0.015
+bottom_radius = 0.015
+height = 0.55
+
+[sub_resource type="PrismMesh" id="Mesh_ArrowTip"]
+size = Vector3(0.1, 0.18, 0.03)
+
+[sub_resource type="CylinderMesh" id="Mesh_TargetOuter"]
+top_radius = 0.15
+bottom_radius = 0.15
+height = 0.03
+
+[sub_resource type="CylinderMesh" id="Mesh_TargetInner"]
+top_radius = 0.08
+bottom_radius = 0.08
+height = 0.035
+
+[sub_resource type="PrismMesh" id="Mesh_EmeraldGem"]
+size = Vector3(0.12, 0.32, 0.12)
+
+[node name="TemploArquero" type="Node3D"]
+
+[node name="StairsBase" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.06, 0.05)
+material_override = SubResource("Mat_MossStone")
+mesh = SubResource("Mesh_StairsBase")
+
+[node name="StairsUpper" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.15, 0.05)
+material_override = SubResource("Mat_MossStone")
+mesh = SubResource("Mesh_StairsUpper")
+
+[node name="TempleHall" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.55, -0.1)
+material_override = SubResource("Mat_RusticWood")
+mesh = SubResource("Mesh_TempleHall")
+
+[node name="DoorVoid" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.46, 0.32)
+material_override = SubResource("Mat_DoorVoid")
+mesh = SubResource("Mesh_DoorVoid")
+
+[node name="ColumnLeft" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.36, 0.54, 0.42)
+material_override = SubResource("Mat_RusticWood")
+mesh = SubResource("Mesh_TreeColumn")
+
+[node name="ColumnRight" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.36, 0.54, 0.42)
+material_override = SubResource("Mat_RusticWood")
+mesh = SubResource("Mesh_TreeColumn")
+
+[node name="RoofGreen" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.15, -0.1)
+material_override = SubResource("Mat_ForestGreenRoof")
+mesh = SubResource("Mesh_PeakedRoof")
+
+[node name="ArrowShaftSpire" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.52, -0.1)
+material_override = SubResource("Mat_Bronze")
+mesh = SubResource("Mesh_ArrowShaft")
+
+[node name="ArrowTipSpire" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.84, -0.1)
+material_override = SubResource("Mat_Bronze")
+mesh = SubResource("Mesh_ArrowTip")
+
+[node name="ClassEmerald" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.88, 0.34)
+material_override = SubResource("Mat_ArcherGreenGlow")
+mesh = SubResource("Mesh_EmeraldGem")
+
+[node name="TargetLeftOuter" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.259, -0.966, 0, 0.966, 0.259, -0.38, 0.32, 0.22)
+material_override = SubResource("Mat_TargetWhite")
+mesh = SubResource("Mesh_TargetOuter")
+
+[node name="TargetLeftInner" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.259, -0.966, 0, 0.966, 0.259, -0.38, 0.32, 0.225)
+material_override = SubResource("Mat_TargetRed")
+mesh = SubResource("Mesh_TargetInner")
+
+[node name="TargetRightOuter" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.259, -0.966, 0, 0.966, 0.259, 0.38, 0.32, 0.22)
+material_override = SubResource("Mat_TargetWhite")
+mesh = SubResource("Mesh_TargetOuter")
+
+[node name="TargetRightInner" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.259, -0.966, 0, 0.966, 0.259, 0.38, 0.32, 0.225)
+material_override = SubResource("Mat_TargetRed")
+mesh = SubResource("Mesh_TargetInner")

@@ -1,0 +1,32 @@
+{
+    "id": "dun_final_2",
+    "type": "dungeon",
+    "name": {
+        "es": "Fase 2: Laberinto Helado",
+        "en": "Phase 2: Frozen Labyrinth",
+        "fr": "Phase 2 : Labyrinthe Gelé",
+        "it": "Fase 2: Labirinto Ghiacciato",
+        "de": "Phase 2: Gefrorenes Labyrinth",
+        "zh": "第二阶段：冰封迷宫",
+        "ja": "第二段階：凍てつく迷宮"
+    },
+    "icon": "🕳️",
+    "portal": {
+        "view": "dungeon",
+        "event_id": "dun_final_2"
+    },
+    "desc": {
+        "es": "Templo del Origen - Fase 2: Puzle de hielo, estatuas y espejos de la Negación.",
+        "en": "Temple of Origin - Phase 2: Ice puzzle, statues, and mirrors of Denial.",
+        "fr": "Temple de l'Origine - Phase 2 : Puzzle de glace, statues et miroirs du Déni.",
+        "it": "Tempio dell'Origine - Fase 2: Puzzle di ghiaccio, statue e specchi della Negazione.",
+        "de": "Tempel des Ursprungs - Phase 2: Eisrätsel, Statuen und Spiegel der Verleugnung.",
+        "zh": "起源神庙——第二阶段：冰之谜题、雕像与否认之镜。",
+        "ja": "起源の神殿——第二段階：氷のパズル、彫像、否認の鏡。"
+    },
+    "bg": [
+        0.05,
+        0.05,
+        0.08
+    ]
+}

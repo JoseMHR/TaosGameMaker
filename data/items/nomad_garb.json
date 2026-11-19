@@ -1,0 +1,41 @@
+{
+    "name": {
+        "es": "Ropaje Nómada",
+        "en": "Nomad Garb",
+        "fr": "Habit Nomade",
+        "it": "Abito da Nomade",
+        "de": "Nomadenkleidung",
+        "zh": "游牧服",
+        "ja": "ノマドの装束"
+    },
+    "desc": {
+        "es": "Túnica multicapa del desierto que aísla de las temperaturas extremas.",
+        "en": "Multi-layered desert tunic isolating extreme temperatures.",
+        "fr": "Tunique multicouche du désert isolant des températures extrêmes.",
+        "it": "Tunica multistrato del deserto che isola dalle temperature estreme.",
+        "de": "Mehrschichtige Wüstentunika, die vor extremen Temperaturen isoliert.",
+        "zh": "多层沙漠长袍，能隔绝极端温度。",
+        "ja": "極端な気温を遮断する多層構造の砂漠用チュニック。"
+    },
+    "icon": "👘",
+    "category": "equipment",
+    "usable": false,
+    "slot": "armor",
+    "tier": 5,
+    "bonuses": {
+        "agi": 12,
+        "vit": 8
+    },
+    "combat": {
+        "phys_defense": 78,
+        "mag_defense": 72
+    },
+    "traits": [
+        {
+            "type": "heat_hazard_reduction",
+            "value": 0.3,
+            "min_refine": 0,
+            "desc": "-30% velocidad de la insolación al pisar desierto"
+        }
+    ]
+}

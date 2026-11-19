@@ -1,0 +1,100 @@
+{
+    "cave_cleared": {
+        "desc": "Marca la cueva (dun_001) como despejada tras derrotar al jefe. La barrera (gate) se abre por la bandera cave_cleared; la cueva SIGUE visible como item para poder reentrar (los monstruos normales reaparecen, el boss no).",
+        "rules": [
+            {
+                "match": { "event_id": "dun_yelmo" },
+                "set": {
+                    "name": { "es": "Cueva Despejada", "en": "Cleared Cave", "fr": "Grotte nettoyée", "it": "Grotta liberata", "de": "Geräumte Höhle", "zh": "已清洁的洞穴", "ja": "掃討された洞窟" },
+                    "description": { "es": "El monstruo ha caído. El paso hacia el este está libre, pero aún puedes reentrar a explorar.", "en": "The monster has fallen. The path east is clear, but you can still re-enter to explore.", "fr": "Le monstre est tombé. Le passage vers l'est est libre, mais tu peux toujours y retourner explorer.", "it": "Il mostro è caduto. Il passaggio verso est è libero, ma puoi ancora rientrare per esplorare.", "de": "Das Monster ist gefallen. Der Weg nach Osten ist frei, aber du kannst weiterhin zum Erkunden zurückkehren.", "zh": "怪物已经倒下。通往东方的路已经打开，但你仍可以重新进入探索。", "ja": "怪物は倒れた。東への道は開かれたが、探索のために再び入ることもできる。" }
+                }
+            }
+        ]
+    },
+    "monkey_cleared": {
+        "desc": "Despeja el Puente del Mono (poi_monkey_001): deja de ser sólido y se vuelve transitable.",
+        "rules": [
+            {
+                "match": { "event_id": "poi_monkey_001" },
+                "set": {
+                    "name": { "es": "Puente Libre", "en": "Free Bridge", "fr": "Pont dégagé", "it": "Ponte libero", "de": "Freie Brücke", "zh": "已疏通的桥", "ja": "通れる橋" },
+                    "icon": "🌉",
+                    "terrain": "cst",
+                    "item": "",
+                    "resource": "",
+                    "biome_color": "4a3728",
+                    "required_quest_state": ""
+                }
+            }
+        ]
+    },
+    "dam_opened": {
+        "desc": "Reabrir la presa transforma el valle (río + proximidad + bosques deterministas). Es procedural: se delega en la rutina cableada de WorldMapBuilder.",
+        "builtin": "dam_opened"
+    },
+    "tomb_elara_read": {
+        "desc": "Acto 3, Isla del Eco: la tumba (poi_tumba_elara) desaparece del mapa para siempre en cuanto se lee su inscripción una vez (pista ambiental opcional de Elara, ver STORY.md §0.5). Disparada por el reward 'worldt:tomb_elara_read;gflag:tomb_elara_read' de data/npcs/eco_celestia.json.",
+        "rules": [
+            {
+                "match": { "event_id": "poi_tumba_elara" },
+                "set": {
+                    "item": "",
+                    "resource": "",
+                    "name": "",
+                    "description": ""
+                }
+            }
+        ]
+    },
+    "tumba_propia_desvanecida": {
+        "desc": "Prólogo / Zona 1: La tumba propia (poi_tumba_yelmo_03) desaparece del mapa para siempre tras contemplarla y desvanecerse la perturbación psíquica.",
+        "rules": [
+            {
+                "match": { "event_id": "poi_tumba_yelmo_03" },
+                "set": {
+                    "event_id": "",
+                    "item": "",
+                    "resource": "",
+                    "name": "",
+                    "description": "",
+                    "icon": ""
+                }
+            }
+        ]
+    },
+    "act2_lab_cleared": {
+        "desc": "Acto 2, tras vencer al Experimento de Arcanium (dun_laboratorio) y desbloquear los recuerdos de Aiden (item recuerdos_aiden): disipa la niebla que ocultaba las 16 casillas de la cima (5..10, 25) y (5..10, 26), revelando su terreno real (void/icy/lav) camino a poi_dragon_cima. Disparada de forma inmediata por el action 'worldt:act2_lab_cleared' de data/events.json (clear_laboratorio); también se reaplica al recargar la partida (bucle genérico de WorldMapBuilder._build).",
+        "rules": [
+            { "match": { "coord": [5, 25] }, "set": { "terrain": "void" } },
+            { "match": { "coord": [6, 25] }, "set": { "terrain": "void" } },
+            { "match": { "coord": [7, 25] }, "set": { "terrain": "icy" } },
+            { "match": { "coord": [8, 25] }, "set": { "terrain": "icy" } },
+            { "match": { "coord": [9, 25] }, "set": { "terrain": "void" } },
+            { "match": { "coord": [10, 25] }, "set": { "terrain": "lav" } },
+            { "match": { "coord": [5, 26] }, "set": { "terrain": "void" } },
+            { "match": { "coord": [7, 26] }, "set": { "terrain": "icy" } },
+            { "match": { "coord": [8, 26] }, "set": { "terrain": "icy" } },
+            { "match": { "coord": [10, 26] }, "set": { "terrain": "lav" } }
+        ]
+    },
+    "temple_awakening": {
+        "desc": "Acto 3, tras derrotar a la Manifestación de la Autodestrucción en dun_templo_origen: dun_inicial (La cueva de la Esfera) cambia de nombre/descripción en el mapa como eco de lo vivido en El Templo, sin tocar el interior de la mazmorra. Disparada por 'worldt:temple_awakening;gflag:temple_awakening' desde data/npcs/guardian_templo.json.",
+        "rules": [
+            {
+                "match": { "event_id": "dun_inicial" },
+                "set": {
+                    "name": { "es": "La Cueva de la Esfera (despierta)", "en": "The Sphere Cave (awake)", "fr": "La Grotte de la Sphère (éveillée)", "it": "La Grotta della Sfera (sveglia)", "de": "Die Kugelhöhle (erwacht)", "zh": "球体之洞（觉醒）", "ja": "球体の洞窟（覚醒）" },
+                    "description": {
+                        "es": "Ya no es solo el principio. Ahora sabes lo que te espera dentro, y aun así puedes volver a entrar.",
+                        "en": "It's no longer just the beginning. Now you know what waits inside, and you can still go back in.",
+                        "fr": "Ce n'est plus seulement le commencement. Tu sais maintenant ce qui t'attend à l'intérieur, et pourtant tu peux encore y retourner.",
+                        "it": "Non è più solo l'inizio. Ora sai cosa ti aspetta dentro, e nonostante ciò puoi ancora rientrare.",
+                        "de": "Es ist nicht mehr nur der Anfang. Jetzt weißt du, was drinnen wartet, und trotzdem kannst du wieder hineingehen.",
+                        "zh": "这已不再仅仅是开始。你现在知道里面等着你的是什么，但你依然可以再次进入。",
+                        "ja": "もはや単なる始まりではない。今、内側で待つものを知っている。それでもまた入ることができる。"
+                    }
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,14 @@
+{
+	"t": "spikes",
+	"order": 113,
+	"label": "Pinchos",
+	"icon": "🗡️",
+	"color": "#888899",
+	"group": "Peligros",
+	"entity": true,
+	"stateful": true,
+	"render": {
+		"shape": "spikes",
+		"hazard": "spikes"
+	}
+}

@@ -1,0 +1,26 @@
+{
+    "id": "poi_final_puerta_hospital",
+    "type": "poi",
+    "icon": "🚪",
+    "name": {
+        "es": "La Puerta del Hospital",
+        "en": "The Hospital Door",
+        "fr": "La Porte de l'Hôpital",
+        "it": "La Porta dell'Ospedale",
+        "de": "Die Krankenhaustür",
+        "zh": "医院之门",
+        "ja": "病院の扉"
+    },
+    "desc": {
+        "es": "Una puerta de hospital, blanca y solitaria, en pie en mitad del abismo, sin pared que la sostenga. (POI de inspección).",
+        "en": "A white hospital door, alone, standing in the middle of the abyss with no wall to hold it. (Inspection POI).",
+        "fr": "Une porte d'hôpital, blanche et solitaire, dressée au milieu de l'abîme, sans mur pour la soutenir. (POI d'inspection).",
+        "it": "Una porta d'ospedale, bianca e solitaria, eretta in mezzo all'abisso, senza un muro a sostenerla. (POI di ispezione).",
+        "de": "Eine weiße, einsame Krankenhaustür, mitten im Abgrund stehend, ohne stützende Wand. (Inspektions-POI).",
+        "zh": "一扇孤零零的白色医院大门，矗立在深渊中央，没有墙壁支撑。（探查类兴趣点）。",
+        "ja": "支える壁もなく、深淵の真ん中に立つ白く孤独な病院の扉。（調査ポイント）。"
+    },
+    "npc": "poi_final_puerta_hospital",
+    "bg": "bg_world_poi_final_puerta_hospital.png",
+    "music": "creepy"
+}

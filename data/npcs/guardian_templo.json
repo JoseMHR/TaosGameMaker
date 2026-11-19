@@ -1,0 +1,67 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Guardián del Templo",
+            "en": "The Keeper of the Temple",
+            "fr": "Le Gardien du Temple",
+            "it": "Il Custode del Tempio",
+            "de": "Der Wächter des Tempels",
+            "zh": "神庙守护者",
+            "ja": "神殿の守護者"
+        },
+        "next": [],
+        "reward": "avatar=🏛️;bg=0.07,0.06,0.04"
+    },
+    "gt_done": {
+        "type": "message",
+        "text": {
+            "es": "'El mar vuelve a estar en calma' —dice el Guardián—. 'Lo que tenías que enfrentar aquí ya quedó atrás.'",
+            "en": "'The sea is calm again' — the Keeper says —. 'What you had to face here is behind you now.'",
+            "fr": "« La mer est de nouveau calme » — dit le Gardien —. « Ce que tu devais affronter ici est maintenant derrière toi. »",
+            "it": "'Il mare è di nuovo calmo' — dice il Custode —. 'Ciò che dovevi affrontare qui è ormai alle tue spalle.'",
+            "de": "„Das Meer ist wieder ruhig“ — sagt der Wächter —. „Was du hier bewältigen musstest, liegt nun hinter dir.“",
+            "zh": "「大海又恢复了平静」——守护者说——「你在此必须面对的一切，现已成为过去。」",
+            "ja": "「海はまた穏やかになった」——守護者は言う——「ここで向き合わねばならなかったものは、もう過去のことだ」"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "",
+        "condition": "gflag(\"epilogo_resuelto\")"
+    },
+    "gt_victory": {
+        "type": "message",
+        "text": {
+            "es": "El Guardián Supremo se deshace en luz y ceniza. Por primera vez desde que la fantasía se resquebrajó en Arcanum, el silencio no pesa: es, simplemente, silencio. 'Has llegado hasta el final del camino' —dice el Guardián del Templo, apareciendo entre la niebla del Templo del Origen—. 'Ahora solo queda una pregunta por responder.'",
+            "en": "The Supreme Guardian dissolves into light and ash. For the first time since the fantasy cracked open in Arcanum, the silence doesn't weigh on you: it's simply silence. 'You've reached the end of the road' — the Keeper of the Temple says, appearing through the Temple of Origin's mist —. 'Now only one question remains.'",
+            "fr": "Le Gardien Suprême se dissout en lumière et en cendre. Pour la première fois depuis que le rêve s'est brisé à Arcanum, le silence ne pèse plus : c'est, tout simplement, du silence. « Tu as atteint le bout du chemin » — dit le Gardien du Temple, apparaissant dans la brume du Temple de l'Origine —. « Il ne reste plus qu'une question à répondre. »",
+            "it": "Il Guardiano Supremo si dissolve in luce e cenere. Per la prima volta da quando la fantasia si è incrinata ad Arcanum, il silenzio non pesa: è, semplicemente, silenzio. 'Sei giunto alla fine del cammino' — dice il Custode del Tempio, apparendo tra la nebbia del Tempio dell'Origine —. 'Ora resta solo una domanda a cui rispondere.'",
+            "de": "Der Oberste Wächter zerfällt in Licht und Asche. Zum ersten Mal, seit die Fantasie in Arcanum zerbrach, lastet die Stille nicht: sie ist einfach Stille. „Du hast das Ende des Weges erreicht“ — sagt der Wächter des Tempels und erscheint aus dem Nebel des Tempels des Ursprungs —. „Nun bleibt nur noch eine Frage zu beantworten.“",
+            "zh": "至高守护者化作光与灰烬消散。自幻想在奥秘遗迹破裂以来，第一次，寂静不再沉重：它只是单纯的寂静。「你已走到了道路的尽头」——神庙守护者从本源神庙的迷雾中现身，说道——「现在只剩下一个问题需要回答。」",
+            "ja": "至高の守護者が光と灰に消えていく。アルカナムで幻想が砕けて以来、初めて、沈黙が重荷ではなくなった——それはただの静寂だ。「お前は道の果てに辿り着いた」——起源の神殿の霧の中から現れた神殿の守護者が言う——「今、残る問いはただ一つだ」"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "gflag:epilogo_resuelto;gold:800;xp:1500;dialogue:epilogo_final",
+        "condition": "defeated(\"dun_final:guardian_supremo\") and no_gflag(\"epilogo_resuelto\")"
+    },
+    "gt_intro": {
+        "type": "message",
+        "text": {
+            "es": "Tras descender al Templo del Origen, en el corazón de la Zona Final, un Guardián de piedra te observa desde las sombras. 'Pocos llegan tan lejos' —dice—. 'Lo que sea que custodia este lugar, no piensa dejarte pasar sin pelear.'",
+            "en": "After descending into the Temple of Origin, at the heart of the Final Zone, a stone Guardian watches you from the shadows. 'Few make it this far' — it says —. 'Whatever guards this place has no intention of letting you through without a fight.'",
+            "fr": "Après être descendu dans le Temple de l'Origine, au cœur de la Zone Finale, un Gardien de pierre t'observe depuis les ombres. « Peu vont aussi loin » — dit-il —. « Quoi que garde ce lieu, il n'a pas l'intention de te laisser passer sans combattre. »",
+            "it": "Dopo essere disceso nel Tempio dell'Origine, nel cuore della Zona Finale, un Guardiano di pietra ti osserva dalle ombre. 'Pochi arrivano così lontano' — dice —. 'Qualunque cosa custodisca questo luogo, non ha intenzione di lasciarti passare senza combattere.'",
+            "de": "Nachdem du in den Tempel des Ursprungs im Herzen der Endzone hinabgestiegen bist, beobachtet dich ein steinerner Wächter aus den Schatten. „Nur wenige kommen so weit“ — sagt er —. „Was auch immer diesen Ort bewacht, hat nicht die Absicht, dich ohne Kampf durchzulassen.“",
+            "zh": "在你降入最终区域核心的本源神庙后，一位石制守护者从阴影中注视着你。「很少有人能走到这一步」——它说——「不论此地守护着什么，它都不打算让你不战而过。」",
+            "ja": "最終領域の中心にある起源の神殿に降り立つと、石の守護者が影の中からお前を見つめている。「ここまで辿り着く者は少ない」——彼は言う——「この場所が何を守っているにせよ、戦わずに通す気はないようだ」"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "",
+        "condition": "quest == \"final_sanctuary_reached\" and no_gflag(\"epilogo_resuelto\")"
+    }
+}

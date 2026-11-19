@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jukebox BGM · ODS Godot</title>
+  <style>
+    :root {
+      --bg: #0b0f19;
+      --card: #151d30;
+      --card-hover: #1e2942;
+      --primary: #38bdf8;
+      --accent: #818cf8;
+      --text: #f1f5f9;
+      --text-muted: #94a3b8;
+      --border: #334155;
+      --active-track: #0284c7;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: radial-gradient(circle at top, #1e293b 0%, var(--bg) 100%);
+      color: var(--text);
+      min-height: 100vh;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .container {
+      width: 100%;
+      max-width: 960px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 8px;
+    }
+    h1 {
+      font-size: 1.8rem;
+      color: var(--primary);
+      margin-bottom: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+    p.subtitle {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+    .master-player {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px 20px;
+      position: sticky;
+      top: 16px;
+      z-index: 100;
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
+      backdrop-filter: blur(10px);
+    }
+    .player-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+    .current-track-title {
+      font-weight: 600;
+      color: var(--primary);
+      font-size: 1.1rem;
+    }
+    .current-track-location {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+    audio {
+      width: 100%;
+      border-radius: 8px;
+      outline: none;
+    }
+    .section-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+      margin-bottom: 16px;
+    }
+    .section-title {
+      background: rgba(0,0,0,0.30);
+      padding: 12px 18px;
+      font-size: 1.1rem;
+      font-weight: 600;
+      border-bottom: 1px solid var(--border);
+      color: var(--accent);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .track-list {
+      display: flex;
+      flex-direction: column;
+    }
+    .track-item {
+      display: grid;
+      grid-template-columns: 2.2fr 1.3fr auto;
+      align-items: center;
+      padding: 12px 18px;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      transition: background 0.15s ease;
+      gap: 12px;
+    }
+    .track-item:last-child {
+      border-bottom: none;
+    }
+    .track-item:hover {
+      background: var(--card-hover);
+    }
+    .track-item.playing {
+      background: rgba(56, 189, 248, 0.12);
+      border-left: 4px solid var(--primary);
+    }
+    .track-name {
+      font-weight: 600;
+      font-size: 0.98rem;
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .track-desc {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      margin-top: 3px;
+    }
+    .track-file {
+      font-family: ui-monospace, monospace;
+      font-size: 0.82rem;
+      color: var(--primary);
+      background: rgba(0,0,0,0.25);
+      padding: 3px 8px;
+      border-radius: 6px;
+      border: 1px solid rgba(255,255,255,0.05);
+      display: inline-block;
+    }
+    .btn-play {
+      background: #0284c7;
+      color: white;
+      border: none;
+      padding: 7px 14px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 0.85rem;
+      font-weight: 500;
+      transition: all 0.15s ease;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      white-space: nowrap;
+    }
+    .btn-play:hover {
+      background: #0369a1;
+      transform: translateY(-1px);
+    }
+    .btn-play.is-playing {
+      background: #ef4444;
+    }
+    .badge {
+      font-size: 0.72rem;
+      padding: 2px 7px;
+      border-radius: 4px;
+      font-weight: 600;
+      background: rgba(255,255,255,0.1);
+      color: #e2e8f0;
+    }
+    .badge-zone { background: rgba(56, 189, 248, 0.2); color: #38bdf8; }
+    .badge-city { background: rgba(168, 85, 247, 0.2); color: #c084fc; }
+    .badge-combat { background: rgba(239, 68, 68, 0.2); color: #f87171; }
+    .badge-dun { background: rgba(234, 179, 8, 0.2); color: #facc15; }
+    .badge-poi { background: rgba(34, 197, 94, 0.2); color: #4ade80; }
+    .badge-crisis { background: rgba(244, 63, 94, 0.25); color: #fb7185; }
+    .badge-creepy { background: rgba(168, 85, 247, 0.3); color: #e879f9; }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <h1>🎼 Reproductor Jukebox BGM</h1>
+    <p class="subtitle">Banda Sonora Original & Guía de Asignación por Zonas, Ciudades, POIs y Mazmorras</p>
+  </header>
+
+  <!-- Master Player -->
+  <div class="master-player">
+    <div class="player-header">
+      <div>
+        <div class="current-track-title" id="master-title">Selecciona una pista para escuchar</div>
+        <div class="current-track-location" id="master-loc">Ubicación / Contexto</div>
+      </div>
+    </div>
+    <audio id="global-audio" controls></audio>
+  </div>
+
+  <!-- SECCIÓN 1: MAPAMUNDI POR ZONAS -->
+  <div class="section-card">
+    <div class="section-title">🗺️ 1. Mapamundi y Grandes Zonas Geográficas</div>
+    <div class="track-list">
+      <div class="track-item" data-src="../assets/common/music/bgm_world_zone1_flooded.ogg" data-title="Zona 1: El Yelmo (Inundado / Pre-Presa)" data-loc="Zona 1 · Inundada antes de abrir la presa">
+        <div>
+          <div class="track-name"><span class="badge badge-zone">Zona 1</span> El Yelmo (Inundado)</div>
+          <div class="track-desc">Tierra sumergida, atmósfera melancólica inicial</div>
+        </div>
+        <div><span class="track-file">bgm_world_zone1_flooded.ogg</span></div>
+        <button class="btn-play" onclick="playTrack(this)">▶ Escuchar</button>
+      </div>
+
+      <div class="track-item" data-src="../assets/common/music/bgm_world_zone1_drained.ogg" data-title="Zona 1: El Yelmo (Drenado / Post-Presa)" data-loc="Zona 1 · Tras abrir la presa">
+        <div>
+          <div class="track-name"><span class="badge badge-zone">Zona 1</span> El Yelmo (Drenado)</div>
+          <div class="track-desc">Campos recuperados y renacer de la comarca</div>
+        </div>
+        <div><span class="track-file">bgm_world_zone1_drained.ogg</span></div>
+        <button class="btn-play" onclick="playTrack(this)">▶ Escuchar</button>
+      </div>
+
+      <div class="track-item" data-src="../assets/common/music/bgm_world_zone2_snow.ogg" data-title="Zona 2: Cumbres Heladas & Glaciar" data-loc="Zona 2 · Páramos de nieve y cumbres">
+        <div>
+          <div class="track-name"><span class="badge badge-zone">Zona 2</span> Cumbres Heladas</div>
+          <div class="track-desc">Vientos gélidos, ventiscas y páramos glaciares</div>
+        </div>
+        <div><span class="track-file">bgm_world_zone2_snow.ogg</span></div>
+        <button class="btn-play" onclick="playTrack(this)">▶ Escuchar</button>
+      </div>
+
+      <div class="track-item" data-src="../assets/common/music/bgm_world_zone3_sylphrena.ogg" data-title="Zona 3: Primera Pradera (Sylphrena)" data-loc="Zona 3 · Alrededores de Sylphrena">
+        <div>
+          <div class="track-name"><span class="badge badge-zone">Zona 3</span> Primera Pradera (Sylphrena)</div>
+          <div class="track-desc">Caminos verdes, prados ondulantes y vida campestre</div>
+        </div>
+        <div><span class="track-file">bgm_world_zone3_sylphrena.ogg</span></div>
+        <button class="btn-play" onclick="playTrack(this)">▶ Escuchar</button>
+      </div>
+
+      <div class="track-item" data-src="../assets/common/music/bgm_world_zone4_celestia.ogg" data-title="Zona 4: Segunda Pradera (Celestia)" data-loc="Zona 4 · Alrededores de Celestia">
+        <div>
+          <div class="track-name"><span class="badge badge-zone">Zona 4</span> Segunda Pradera (Celestia)</div>
+          <div class="track-desc">Colinas majestuosas y valles de la capital</div>
+        </div>
+        <div><span class="track-file">bgm_world_zone4_celestia.ogg</span></div>
+        <button class="btn-play" onclick="playTrack(this)">▶ Escuchar</button>
+      </div>
+
+      <div class="track-item" data-src="../assets/common/music/bgm_event_crisis_puerto.ogg" data-title="Zona 4: Crisis · ¡Ataque al Puerto!" data-loc="Zona 4 · Monstruo atacando el Puerto de Celestia">
+        <div>
+          <div class="track-name"><span class="badge badge-crisis">Crisis</span> Ataque al Puerto de Celestia</div>
+          <div class="track-desc">Alarma y tensión: ¡un monstruo colosal asedia los muelles!</div>
+        </div>
+        <div><span class="track-file">bgm_event_crisis_puerto.ogg</span></div>
+        <button class="btn-play" onclick="playTrack(this)">▶ Escuchar</button>
+      </div>
+
+      <div class="track-item" data-src="../assets/common/music/bgm_world_zone5_gloriam.ogg" data-title="Zona 5: Desierto de Gloriam" data-loc="Zona 5 · Dunas del sur">
+        <div>
+          <div class="track-name"><span class="badge badge-zone">Zona 5</span> Desierto de Gloriam</div>
+          <div class="track-desc">Calor ardiente, tormentas de arena y dunas infinitas</div>
+        </div>
+        <div><span class="track-file">bgm_world_zone5_gloriam.ogg</span></div>
+        <button class="btn-play" onclick="playTrack(this)">▶ Escuchar</button>
+      </div>
+
+      <div class="track-item" data-src="../assets/common/music/bgm_world_zona6_arcanum.ogg" data-title="Zona 6: Páramo de Arcanum" data-loc="Zona 6 · Tierras mecánicas">
+        <div>
+          <div class="track-name"><span class="badge badge-zone">Zona 6</span> Páramo de Arcanum</div>
+          <div class="track-desc">Tierras baldías, chatarra arcana y tecnomagia</div>
+        </div>
+        <div><span class="track-file">bgm_world_zona6_arcanum.ogg</span></div>
+        <button class="btn-play" onclick="playTrack(this)">▶ Escuchar</button>
+      </div>
+
+      <div class="track-item" data-src="../assets/common/music/bgm_world_final.ogg" data-title="Zona 7: Reino Final" data-loc="Zona 7 · Cataclismo final">
+        <div>
+          <div class="track-name"><span class="badge badge-zone">Zona 7</span> Zona Final</div>
+          <div class="track-desc">Antesala del templo supremo y clímax de la aventura</div>
+        </div>
+        <div><span class="track-file">bgm_world_final.ogg</span></div>
+        <button class="btn-play" onclick="playTrack(this)">▶ Escuchar</button>
+      </div>
+
+      <div class="track-item" data-src="../assets/common/music/bgm_world_boat.ogg" data-title="Navegación: Alta Mar (Barco)" data-loc="Mapamundi · Al navegar en barco">
+        <div>
+          <div class="track-name"><span class="badge badge-zone">Mar</span> Barco en Alta Mar</div>
+          <div class="track-desc">Aventura marítima y navegación por los océanos</div>
+        </div>
+        <div><span class="track-file">bgm_world_boat.ogg</span></div>
+        <button class="btn-play" onclick="playTrack(this)">▶ Escuchar</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECCIÓN 2: CIUDADES -->
+  <div class="section-card">
+    <div class="section-title">🏙️ 2. Ciudades y Poblados (4 Ciudades)</div>
+    <div class="track-list">
+      <div class="track-item" data-src="../assets/common/music/bgm_city_sylphrena.ogg" data-title="Ciudad 1: Sylphrena" data-loc="Sylphrena y sus POIs (plaza, tienda, taberna, forja, encargos, transporte)">
+        <div>
+          <div class="track-name"><span class="badge badge-city">Ciudad 1</span> Sylphrena (Pueblo Inicial)</div>
+          <div class="track-desc">Ambiente cálido y acogedor de comarca rural</div>
+        </div>
+        <div><span class="track-file">bgm_city_sylphrena.ogg</span></div>
+        <button class="btn-play" onclick="playTrack(this)">▶ Escuchar</button>
+      </div>
+
+      <div class="track-item" data-src="../assets/common/music/bgm_city_celestia.ogg" data-title="Ciudad 2: Celestia" data-loc="Celestia y sus POIs (puerto, palacio, taberna, tienda, transporte)">
+        <div>
+          <div class="track-name"><span class="badge badge-city">Ciudad 2</span> Celestia (Gran Capital)</div>
+          <div class="track-desc">Puerto imperial, palacio y ajetreo comercial</div>
+        </div>
+        <div><span class="track-file">bgm_city_celestia.ogg</span></div>
+        <button class="btn-play" onclick="playTrack(this)">▶ Escuchar</button>
+      </div>
+
+      <div class="track-item" data-src="../assets/common/music/bgm_city_gloriam.ogg" data-title="Ciudad 3: Gloriam" data-loc="Gloriam y sus POIs (oasis, bazar, taberna, forja, transporte)">
+        <div>
+          <div class="track-name"><span class="badge badge-city">Ciudad 3</span> Gloriam (Ciudad del Oasis)</div>
+          <div class="track-desc">Mística oriental, bazares y frescura del oasis</div>
+        </div>
+        <div><span class="track-file">bgm_city_gloriam.ogg</span></div>
+        <button class="btn-play" onclick="playTrack(this)">▶ Escuchar</button>
+      </div>
+
+      <div class="track-item" data-src="../assets/common/music/bgm_city_arcanum.ogg" data-title="Ciudad 4: Arcanum" data-loc="Arcanum y sus POIs (laboratorios, puestos tecnomágicos)">
+        <div>
+          <div class="track-name"><span class="badge badge-city">Ciudad 4</span> Arcanum (Metrópolis Tecno)</div>
+          <div class="track-desc">Engranajes, autómatas y pulsos de energía arcana</div>
+        </div>
+        <div><span class="track-file">bgm_city_arcanum.ogg</span></div>
+        <button class="btn-play" onclick="playTrack(this)">▶ Escuchar</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECCIÓN 3: POIS DEL MAPAMUNDI -->
+  <div class="section-card">
+    <div class="section-title">🛖 3. Puntos de Interés (POIs) del Mapamundi</div>
+    <div class="track-list">
+      <div class="track-item" data-src="../assets/common/music/bgm_poi_house_cozy.ogg" data-title="POIs: Casas & Cabañas Acogedoras" data-loc="Chozas, refugios y cabañas del mapamundi">
+        <div>
+          <div class="track-name"><span class="badge badge-poi">Casas</span> Casas e Interiores Tranquilos</div>
+          <div class="track-desc">Chozas de la anciana y el recluso, refugios de nieve, cantero y puesto desierto</div>
+        </div>
+        <div><span class="track-file">bgm_poi_house_cozy.ogg</span></div>
+        <button class="btn-play" onclick="playTrack(this)">▶ Escuchar</button>
+      </div>
+
+      <div class="track-item" data-src="../assets/common/music/bgm_poi_comic.ogg" data-title="POIs: Lugares Cómicos & Disparatados" data-loc="POIs extravagantes y personajes cómicos">
+        <div>
+          <div class="track-name"><span class="badge badge-poi">Cómico</span> Lugares Cómicos & Disparatados</div>
+          <div class="track-desc">Conspiración de patos, carrera de caracoles, vendedor de aire, mimo, pollo místico...</div>
+        </div>
+        <div><span class="track-file">bgm_poi_comic.ogg</span></div>
+        <button class="btn-play" onclick="playTrack(this)">▶ Escuchar</button>
+      </div>
+
+      <div class="track-item" data-src="../assets/common/music/bgm_poi_generic.ogg" data-title="POIs: Lugares de Interés & Altares" data-loc="Altares, monolitos, campamentos y tumbas">
+        <div>
+          <div class="track-name"><span class="badge badge-poi">Altares</span> Lugares de Interés & Altares</div>
+          <div class="track-desc">Altar del viento, monolitos rúnicos, puente del mono, presa, tumba de Elara</div>
+        </div>
+        <div><span class="track-file">bgm_poi_generic.ogg</span></div>
+        <button class="btn-play" onclick="playTrack(this)">▶ Escuchar</button>
+      </div>
+
+      <div class="track-item" data-src="../assets/common/music/bgm_creepy.ogg" data-title="Atmósfera Siniestra / Creepy Moments" data-loc="Eventos y momentos de terror/misterio">
+        <div>
+          <div class="track-name"><span class="badge badge-creepy">Creepy</span> Momentos Siniestros / Misterio</div>
+          <div class="track-desc">Pista especial reservada para apariciones tétricas y momentos de máxima inquietud</div>
+        </div>
+        <div><span class="track-file">bgm_creepy.ogg</span></div>
+        <button class="btn-play" onclick="playTrack(this)">▶ Escuchar</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECCIÓN 4: COMBATE -->
+  <div class="section-card">
+    <div class="section-title">⚔️ 4. Combates (Normales y Bosses)</div>
+    <div class="track-list">
+      <div class="track-item" data-src="../assets/common/music/bgm_combat_1.ogg" data-title="Combate Normal · Variación 1" data-loc="Combates regulares (Pool aleatorio)">
+        <div>
+          <div class="track-name"><span class="badge badge-combat">Normal 1</span> Batalla Regular (Pista 1)</div>
+          <div class="track-desc">Enfrentamientos dinámicos por turnos / ATB</div>
+        </div>
+        <div><span class="track-file">bgm_combat_1.ogg</span></div>
+        <button class="btn-play" onclick="playTrack(this)">▶ Escuchar</button>
+      </div>
+
+      <div class="track-item" data-src="../assets/common/music/bgm_combat_2.ogg" data-title="Combate Normal · Variación 2" data-loc="Combates regulares (Pool aleatorio)">
+        <div>
+          <div class="track-name"><span class="badge badge-combat">Normal 2</span> Batalla Regular (Pista 2)</div>
+          <div class="track-desc">Variación rítmica y enérgica para encuentros estándar</div>
+        </div>
+        <div><span class="track-file">bgm_combat_2.ogg</span></div>
+        <button class="btn-play" onclick="playTrack(this)">▶ Escuchar</button>
+      </div>
+
+      <div class="track-item" data-src="../assets/common/music/bgm_combat_3.ogg" data-title="Combate Normal · Variación 3" data-loc="Combates regulares (Pool aleatorio)">
+        <div>
+          <div class="track-name"><span class="badge badge-combat">Normal 3</span> Batalla Regular (Pista 3)</div>
+          <div class="track-desc">Tercera pista del pool aleatorio de combate</div>
+        </div>
+        <div><span class="track-file">bgm_combat_3.ogg</span></div>
+        <button class="btn-play" onclick="playTrack(this)">▶ Escuchar</button>
+      </div>
+
+      <div class="track-item" data-src="../assets/common/music/bgm_combat_boss.ogg" data-title="Combate contra Jefes (Boss)" data-loc="Duelos mayores contra jefes de mazmorra">
+        <div>
+          <div class="track-name"><span class="badge badge-combat" style="background:rgba(239,68,68,0.4)">BOSS</span> Batalla contra Jefes</div>
+          <div class="track-desc">Tema épico para los líderes y colosos del juego</div>
+        </div>
+        <div><span class="track-file">bgm_combat_boss.ogg</span></div>
+        <button class="btn-play" onclick="playTrack(this)">▶ Escuchar</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECCIÓN 5: MENÚS Y SALAS CLAVE -->
+  <div class="section-card">
+    <div class="section-title">🏛️ 5. Menús y Salas Clave</div>
+    <div class="track-list">
+      <div class="track-item" data-src="../assets/common/music/bgm_menu.ogg" data-title="Menú Principal & Pantalla de Título" data-loc="Pantalla de inicio / Menú principal">
+        <div>
+          <div class="track-name">Menú Principal</div>
+          <div class="track-desc">Inicio del juego y opciones iniciales</div>
+        </div>
+        <div><span class="track-file">bgm_menu.ogg</span></div>
+        <button class="btn-play" onclick="playTrack(this)">▶ Escuchar</button>
+      </div>
+
+      <div class="track-item" data-src="../assets/common/music/bgm_orb_room.ogg" data-title="Sala de la Esfera / Prólogo" data-loc="Prólogo, creación de héroe y templo origen">
+        <div>
+          <div class="track-name">Sala de la Esfera</div>
+          <div class="track-desc">Despertar del héroe y selección de profesión</div>
+        </div>
+        <div><span class="track-file">bgm_orb_room.ogg</span></div>
+        <button class="btn-play" onclick="playTrack(this)">▶ Escuchar</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECCIÓN 6: MAZMORRAS Y SENDEROS -->
+  <div class="section-card">
+    <div class="section-title">🗝️ 6. Mazmorras y Senderos</div>
+    <div class="track-list">
+      <div class="track-item" data-src="../assets/common/music/bgm_dungeon_cave.ogg" data-title="Túnel de las Colinas (dun_yelmo)" data-loc="dun_yelmo">
+        <div>
+          <div class="track-name"><span class="badge badge-dun">Cueva</span> Túnel de las Colinas (dun_yelmo)</div>
+          <div class="track-desc">Galerías subterráneas húmedas y pasadizos</div>
+        </div>
+        <div><span class="track-file">bgm_dungeon_cave.ogg</span></div>
+        <button class="btn-play" onclick="playTrack(this)">▶ Escuchar</button>
+      </div>
+
+      <div class="track-item" data-src="../assets/common/music/bgm_dungeon_bandidos.ogg" data-title="Cueva de los Perdidos (dun_bandidos)" data-loc="dun_bandidos · Cueva de los Perdidos">
+        <div>
+          <div class="track-name"><span class="badge badge-dun">Bandidos</span> Cueva de los Perdidos (dun_bandidos)</div>
+          <div class="track-desc">Guarida de forajidos y escondrijos</div>
+        </div>
+        <div><span class="track-file">bgm_dungeon_bandidos.ogg</span></div>
+        <button class="btn-play" onclick="playTrack(this)">▶ Escuchar</button>
+      </div>
+
+      <div class="track-item" data-src="../assets/common/music/bgm_dungeon_desierto.ogg" data-title="Mazmorra del Desierto (dun_desierto)" data-loc="dun_desierto · Ruinas de las dunas">
+        <div>
+          <div class="track-name"><span class="badge badge-dun">Desierto</span> Mazmorra del Desierto (dun_desierto)</div>
+          <div class="track-desc">Ruinas y templos de piedra antigua en las arenas</div>
+        </div>
+        <div><span class="track-file">bgm_dungeon_desierto.ogg</span></div>
+        <button class="btn-play" onclick="playTrack(this)">▶ Escuchar</button>
+      </div>
+
+      <div class="track-item" data-src="../assets/common/music/bgm_dungeon_snow.ogg" data-title="Catacumba de las Nieves (dun_nieves)" data-loc="dun_nieves">
+        <div>
+          <div class="track-name"><span class="badge badge-dun">Hielo</span> Catacumba de las Nieves (dun_nieves)</div>
+          <div class="track-desc">Cripta sepultada bajo los hielos eternos</div>
+        </div>
+        <div><span class="track-file">bgm_dungeon_snow.ogg</span></div>
+        <button class="btn-play" onclick="playTrack(this)">▶ Escuchar</button>
+      </div>
+
+      <div class="track-item" data-src="../assets/common/music/bgm_dungeon_lab.ogg" data-title="Laboratorio de Arcanum (dun_laboratorio)" data-loc="dun_laboratorio">
+        <div>
+          <div class="track-name"><span class="badge badge-dun">Tecno</span> Laboratorio de Arcanum (dun_laboratorio)</div>
+          <div class="track-desc">Instalaciones de autómatas y energía arcana</div>
+        </div>
+        <div><span class="track-file">bgm_dungeon_lab.ogg</span></div>
+        <button class="btn-play" onclick="playTrack(this)">▶ Escuchar</button>
+      </div>
+
+      <div class="track-item" data-src="../assets/common/music/bgm_sendero_ancient.ogg" data-title="Sendero del Guerrero & Tiempo" data-loc="sendero_guerrero, sendero_tiempo">
+        <div>
+          <div class="track-name"><span class="badge badge-dun">Senderos</span> Sendero del Guerrero & Tiempo</div>
+          <div class="track-desc">Pruebas marciales y cronológicas del templo ancestral</div>
+        </div>
+        <div><span class="track-file">bgm_sendero_ancient.ogg</span></div>
+        <button class="btn-play" onclick="playTrack(this)">▶ Escuchar</button>
+      </div>
+
+      <div class="track-item" data-src="../assets/common/music/bgm_sendero_sanctuary.ogg" data-title="Sendero del Psíquico & Sacerdote" data-loc="sendero_psiquico, sendero_sacerdote">
+        <div>
+          <div class="track-name"><span class="badge badge-dun">Senderos</span> Sendero del Psíquico & Sacerdote</div>
+          <div class="track-desc">Sagrarios de cristal y santuarios de meditación</div>
+        </div>
+        <div><span class="track-file">bgm_sendero_sanctuary.ogg</span></div>
+        <button class="btn-play" onclick="playTrack(this)">▶ Escuchar</button>
+      </div>
+
+      <div class="track-item" data-src="../assets/common/music/bgm_sendero_dark.ogg" data-title="Sendero del Arquero & Elementalista" data-loc="sendero_arquero, sendero_elementalista">
+        <div>
+          <div class="track-name"><span class="badge badge-dun">Senderos</span> Sendero del Arquero & Elementalista</div>
+          <div class="track-desc">Bosques densos sombríos y pruebas de fuego</div>
+        </div>
+        <div><span class="track-file">bgm_sendero_dark.ogg</span></div>
+        <button class="btn-play" onclick="playTrack(this)">▶ Escuchar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  const audio = document.getElementById('global-audio');
+  const titleEl = document.getElementById('master-title');
+  const locEl = document.getElementById('master-loc');
+  let currentBtn = null;
+
+  function playTrack(btn) {
+    const item = btn.closest('.track-item');
+    const src = item.dataset.src;
+    const title = item.dataset.title;
+    const loc = item.dataset.loc;
+
+    if (currentBtn === btn && !audio.paused) {
+      audio.pause();
+      btn.innerText = '▶ Escuchar';
+      btn.classList.remove('is-playing');
+      item.classList.remove('playing');
+      return;
+    }
+
+    if (currentBtn && currentBtn !== btn) {
+      currentBtn.innerText = '▶ Escuchar';
+      currentBtn.classList.remove('is-playing');
+      currentBtn.closest('.track-item').classList.remove('playing');
+    }
+
+    audio.src = src;
+    audio.play();
+    titleEl.innerText = title;
+    locEl.innerText = loc;
+
+    btn.innerText = '⏸ Pausar';
+    btn.classList.add('is-playing');
+    item.classList.add('playing');
+    currentBtn = btn;
+  }
+
+  audio.onended = function() {
+    if (currentBtn) {
+      currentBtn.innerText = '▶ Escuchar';
+      currentBtn.classList.remove('is-playing');
+      currentBtn.closest('.track-item').classList.remove('playing');
+    }
+  };
+</script>
+
+</body>
+</html>

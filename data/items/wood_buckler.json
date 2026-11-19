@@ -1,0 +1,31 @@
+{
+    "name": {
+        "es": "Broquel de Madera",
+        "en": "Wooden Buckler",
+        "fr": "Bouclier de Bois",
+        "it": "Rotella di Legno",
+        "de": "Holzbuckler",
+        "zh": "木制小圆盾",
+        "ja": "ウッドバックラー"
+    },
+    "desc": {
+        "es": "Un pequeño escudo de madera.",
+        "en": "A small wooden shield.",
+        "fr": "Un petit bouclier en bois.",
+        "it": "Un piccolo scudo di legno.",
+        "de": "Ein kleiner Holzschild.",
+        "zh": "一面小型木盾。",
+        "ja": "小さな木の盾。"
+    },
+    "icon": "🛡️",
+    "category": "equipment",
+    "usable": false,
+    "slot": "shield",
+    "tier": 1,
+    "bonuses": {
+        "vit": 2
+    },
+    "combat": {
+        "phys_defense": 15
+    }
+}

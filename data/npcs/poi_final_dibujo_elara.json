@@ -1,0 +1,117 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Dibujo en la Pared",
+            "en": "The Drawing on the Wall",
+            "fr": "Le Dessin sur le Mur",
+            "it": "Il Disegno sul Muro",
+            "de": "Die Zeichnung an der Wand",
+            "zh": "墙上的画",
+            "ja": "壁の絵"
+        },
+        "next": [],
+        "reward": "bg=0.06,0.06,0.08"
+    },
+    "dib_root": {
+        "type": "message",
+        "text": {
+            "es": "En mitad de la roca negra del abismo brilla, con colores tan vivos que parecen desafiar a la oscuridad, un dibujo hecho a ceras por una mano muy pequeña. Se ve una casa torcida, un sol amarillo con demasiados rayos, y tres figuras cogidas de la mano: una alta con bata blanca, una mediana con un vestido, y una pequeñita en medio. Debajo, con letras temblorosas de niña que aprende a escribir, pone: 'MI FAMILIA'. Y en una esquina, un corazón y la palabra 'PAPÁ'.",
+            "en": "In the middle of the abyss's black rock glows, in colors so vivid they seem to defy the darkness, a drawing done in crayon by a very small hand. There's a crooked house, a yellow sun with too many rays, and three figures holding hands: a tall one in a white coat, a medium one in a dress, and a tiny one in the middle. Beneath it, in the shaky letters of a girl learning to write, it says: 'MY FAMILY'. And in one corner, a heart and the word 'DADDY'.",
+            "fr": "Au milieu de la roche noire de l'abîme brille, avec des couleurs si vives qu'elles semblent défier l'obscurité, un dessin fait aux crayons de cire par une toute petite main. On y voit une maison de travers, un soleil jaune avec trop de rayons, et trois silhouettes se tenant par la main : une grande en blouse blanche, une moyenne en robe, et une toute petite au milieu. Dessous, en lettres tremblantes d'une fillette qui apprend à écrire, il est inscrit : « MA FAMILLE ». Et dans un coin, un cœur et le mot « PAPA ».",
+            "it": "In mezzo alla roccia nera dell'abisso brilla, con colori così vivi da sembrare sfidare l'oscurità, un disegno fatto a pastelli a cera da una manina piccolissima. Si vede una casa storta, un sole giallo con troppi raggi, e tre figure che si tengono per mano: una alta con camice bianco, una media con un vestito, e una piccolissima in mezzo. Sotto, con lettere tremolanti di una bambina che impara a scrivere, c'è scritto: 'LA MIA FAMIGLIA'. E in un angolo, un cuore e la parola 'PAPÀ'.",
+            "de": "Inmitten des schwarzen Felsens des Abgrunds leuchtet, in Farben so lebendig, dass sie der Dunkelheit zu trotzen scheinen, eine Zeichnung mit Wachsmalstiften von einer sehr kleinen Hand. Man sieht ein schiefes Haus, eine gelbe Sonne mit zu vielen Strahlen, und drei Gestalten, die sich an den Händen halten: eine große im weißen Kittel, eine mittlere im Kleid, und eine winzige in der Mitte. Darunter steht, in den zittrigen Buchstaben eines Mädchens, das gerade schreiben lernt: „MEINE FAMILIE“. Und in einer Ecke ein Herz und das Wort „PAPA“.",
+            "zh": "在深渊的黑色岩石中央，一幅用蜡笔画成的画闪烁着如此鲜艳的色彩，仿佛在挑战黑暗，那是出自一只极小的手。画中有一座歪斜的房子，一个光线过多的黄色太阳，还有三个手牵手的身影：一个高的穿着白大褂，一个中等身高的穿着裙子，中间是一个非常小的身影。下方，用一个正在学写字的小女孩颤抖的笔迹写着：「我的家人」。而在角落，画着一颗心和「爸爸」两个字。",
+            "ja": "深淵の黒い岩の真ん中に、まるで闇に挑むかのような鮮やかな色彩で、とても小さな手が描いたクレヨンの絵が輝いている。傾いた家、光線が多すぎる黄色い太陽、そして手をつなぐ三つの人影——白衣を着た背の高い人、ワンピースを着た中くらいの人、そして真ん中に小さな人影。その下には、文字を習い始めた少女の震える文字で「わたしのかぞく」と書かれている。そして隅には、ハートと「パパ」という言葉が。"
+        },
+        "next": [
+            "dib_opt_tocar",
+            "dib_opt_mirar",
+            "dib_opt_salir"
+        ],
+        "reward": ""
+    },
+    "dib_opt_tocar": {
+        "type": "option",
+        "text": {
+            "es": "✋  Posar la mano sobre la figura del papá",
+            "en": "✋  Rest your hand on the daddy figure",
+            "fr": "✋  Poser la main sur la silhouette du papa",
+            "it": "✋  Posare la mano sulla figura del papà",
+            "de": "✋  Die Hand auf die Papa-Figur legen",
+            "zh": "✋  把手放在爸爸的身影上",
+            "ja": "✋  パパの姿に手を置く"
+        },
+        "next": [
+            "dib_msg_tocar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "dib_msg_tocar": {
+        "type": "message",
+        "text": {
+            "es": "Apoyas la palma sobre la figura de bata blanca, y el dibujo entero irradia una calidez que te sube por el brazo hasta el pecho. Por un instante vuelves a estar allí: en el suelo del salón, con las ceras desparramadas, mientras una niña te explica muy seria que te ha dibujado más alto 'porque eres el que llega a las cosas de arriba'. La reías. La besabas en el pelo. Eras feliz y no lo sabías. Retiras la mano con el rostro empapado, pero por una vez las lágrimas no son de culpa, sino de gratitud por haberlo vivido.",
+            "en": "You rest your palm on the white-coated figure, and the whole drawing radiates a warmth that climbs up your arm to your chest. For an instant you're back there: on the living-room floor, crayons scattered, while a little girl very seriously explains that she drew you taller 'because you're the one who reaches the things up high'. You laughed. You kissed her hair. You were happy and didn't know it. You pull your hand away, your face soaked, but for once the tears aren't of guilt, but of gratitude for having lived it.",
+            "fr": "Tu poses la paume sur la silhouette en blouse blanche, et le dessin entier irradie une chaleur qui remonte le long de ton bras jusqu'à ta poitrine. Pendant un instant, tu es de nouveau là-bas : sur le sol du salon, les crayons de cire éparpillés, tandis qu'une petite fille t'explique très sérieusement qu'elle t'a dessiné plus grand « parce que tu es celui qui atteint les choses en haut ». Tu riais. Tu l'embrassais sur les cheveux. Tu étais heureux et tu ne le savais pas. Tu retires ta main, le visage trempé, mais pour une fois les larmes ne sont pas de culpabilité, mais de gratitude d'avoir vécu cela.",
+            "it": "Appoggi il palmo sulla figura in camice bianco, e l'intero disegno irradia un calore che ti sale lungo il braccio fino al petto. Per un istante torni lì: sul pavimento del salotto, con i pastelli sparsi, mentre una bambina ti spiega molto seriamente di averti disegnato più alto 'perché sei quello che arriva alle cose in alto'. La facevi ridere. Le baciavi i capelli. Eri felice e non lo sapevi. Ritiri la mano con il viso bagnato, ma per una volta le lacrime non sono di colpa, ma di gratitudine per averlo vissuto.",
+            "de": "Du legst die Handfläche auf die Gestalt im weißen Kittel, und die ganze Zeichnung strahlt eine Wärme aus, die deinen Arm hinauf bis in die Brust steigt. Für einen Moment bist du wieder dort: auf dem Wohnzimmerboden, die Wachsmalstifte verstreut, während ein kleines Mädchen dir sehr ernsthaft erklärt, dass sie dich größer gezeichnet hat, „weil du derjenige bist, der die Dinge oben erreicht“. Du hast sie zum Lachen gebracht. Du hast ihr Haar geküsst. Du warst glücklich und wusstest es nicht. Du ziehst deine Hand zurück, das Gesicht nass, doch dieses eine Mal sind die Tränen nicht aus Schuld, sondern aus Dankbarkeit, es erlebt zu haben.",
+            "zh": "你把手掌放在那个穿白大褂的身影上，整幅画顿时散发出一股暖意，顺着你的手臂直抵胸口。刹那间，你又回到了那里：坐在客厅地板上，蜡笔散落一地，一个小女孩非常认真地向你解释，她把你画得更高，「因为你是那个能够到高处东西的人」。你逗她笑。你亲吻她的头发。你曾经幸福，却浑然不知。你缩回手，脸上湿润，但这一次，泪水不是出于愧疚，而是出于曾经拥有过这一切的感激。",
+            "ja": "白衣の人物に手のひらを重ねると、絵全体から温もりが放たれ、腕を伝って胸へと昇っていく。一瞬、お前はあの場所に戻っている——居間の床の上、散らばったクレヨン、そして小さな女の子が、とても真剣な顔で「パパは高いところのものに手が届くから」大きく描いたのだと説明している。お前は彼女を笑わせた。髪にキスをした。幸せだったのに、それに気づいていなかった。手を離す。顔は濡れているが、今回だけは、その涙は罪悪感からではなく、それを生きられたことへの感謝からだ。"
+        },
+        "next": [
+            "dib_opt_salir"
+        ],
+        "reward": "faceta:bondad=+1;faceta:cordura=+1;gflag:dib_tocado",
+        "condition": "no_gflag(\"dib_tocado\")",
+        "once": true
+    },
+    "dib_opt_mirar": {
+        "type": "option",
+        "text": {
+            "es": "👁️  Fijarte en los detalles pequeños del dibujo",
+            "en": "👁️  Study the small details of the drawing",
+            "fr": "👁️  T'attarder sur les petits détails du dessin",
+            "it": "👁️  Soffermarti sui piccoli dettagli del disegno",
+            "de": "👁️  Auf die kleinen Details der Zeichnung achten",
+            "zh": "👁️  仔细端详画中的细节",
+            "ja": "👁️  絵の細部に目を凝らす"
+        },
+        "next": [
+            "dib_msg_mirar"
+        ],
+        "reward": ""
+    },
+    "dib_msg_mirar": {
+        "type": "message",
+        "text": {
+            "es": "Te acercas y observas los detalles. Junto a la casa, la niña se dibujó a sí misma sosteniendo una bolita que brilla más que el sol, y una flecha señalándola con la palabra 'BONITA'. Se te hiela la sangre: para ella, la esfera que la mató no fue una amenaza, sino un juguete precioso que su papá guardaba. Nunca supo el peligro. Solo vio algo que brillaba, y confió. Ese detalle inocente, en una esquina de un dibujo, contiene toda la tragedia de tu vida.",
+            "en": "You lean in and study the details. Beside the house, the little girl drew herself holding a small ball that shines brighter than the sun, with an arrow pointing at it and the word 'PRETTY'. Your blood runs cold: to her, the sphere that killed her was no threat, but a precious toy her daddy kept. She never knew the danger. She only saw something shiny, and trusted. That innocent detail, in the corner of a drawing, holds the whole tragedy of your life.",
+            "fr": "Tu te rapproches et observes les détails. À côté de la maison, la fillette s'est dessinée elle-même tenant une petite boule qui brille plus que le soleil, avec une flèche pointant vers elle et le mot « JOLIE ». Ton sang se glace : pour elle, la sphère qui l'a tuée n'était pas une menace, mais un précieux jouet que son papa gardait. Elle n'a jamais connu le danger. Elle n'a vu qu'une chose brillante, et elle a fait confiance. Ce détail innocent, dans le coin d'un dessin, contient toute la tragédie de ta vie.",
+            "it": "Ti avvicini e osservi i dettagli. Accanto alla casa, la bambina si è disegnata mentre tiene in mano una pallina che brilla più del sole, con una freccia che la indica e la parola 'BELLA'. Ti si gela il sangue: per lei, la sfera che l'ha uccisa non era una minaccia, ma un giocattolo prezioso che suo papà custodiva. Non ha mai conosciuto il pericolo. Ha visto solo qualcosa che brillava, e si è fidata. Quel dettaglio innocente, nell'angolo di un disegno, racchiude tutta la tragedia della tua vita.",
+            "de": "Du beugst dich näher und betrachtest die Details. Neben dem Haus hat sich das Mädchen selbst gezeichnet, wie sie eine kleine Kugel hält, die heller leuchtet als die Sonne, mit einem Pfeil, der darauf zeigt, und dem Wort „SCHÖN“. Dein Blut gefriert: Für sie war die Sphäre, die sie tötete, keine Bedrohung, sondern ein kostbares Spielzeug, das ihr Papa aufbewahrte. Sie kannte die Gefahr nie. Sie sah nur etwas Glänzendes, und sie vertraute. Dieses unschuldige Detail, in der Ecke einer Zeichnung, enthält die gesamte Tragödie deines Lebens.",
+            "zh": "你靠近仔细观察这些细节。在房子旁边，小女孩画了她自己，手里拿着一个比太阳还要闪亮的小球，旁边一支箭头指着它，写着「漂亮」。你的血液瞬间凝固：对她而言，那颗杀死她的球体不是威胁，而是爸爸珍藏的一件宝贵玩具。她从未知晓其中的危险。她只看到了一件闪闪发光的东西，便信任了它。这个无邪的细节，藏在一幅画的角落里，却承载着你人生的全部悲剧。",
+            "ja": "身を乗り出して細部を見つめる。家の隣に、少女は自分自身を描いていた——太陽よりも明るく輝く小さな球を手にし、それを指す矢印と「きれい」という文字とともに。血の気が引く——彼女にとって、自分を殺したその球は脅威などではなく、パパが大切にしていた宝物のおもちゃだったのだ。彼女は危険を一度も知らなかった。ただ輝く何かを見て、信じただけだった。その無邪気な細部が、絵の片隅に、お前の人生のすべての悲劇を宿している。"
+        },
+        "next": [
+            "dib_root"
+        ],
+        "reward": ""
+    },
+    "dib_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Dejar el dibujo brillando en la roca",
+            "en": "🚶  Leave the drawing glowing on the rock",
+            "fr": "🚶  Laisser le dessin briller sur la roche",
+            "it": "🚶  Lasciare il disegno a brillare sulla roccia",
+            "de": "🚶  Die Zeichnung auf dem Felsen leuchten lassen",
+            "zh": "🚶  留下这幅在岩石上闪耀的画",
+            "ja": "🚶  岩の上で輝く絵を残して立ち去る"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

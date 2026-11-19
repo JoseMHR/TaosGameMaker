@@ -1,0 +1,29 @@
+{
+    "id": "poi_final_c",
+    "type": "poi",
+    "name": {
+        "es": "Final C: Negación",
+        "en": "Ending C: Denial",
+        "fr": "Fin C : Déni",
+        "it": "Finale C: Negazione",
+        "de": "Ende C: Verleugnung",
+        "zh": "结局C：否认",
+        "ja": "エンディングC：否認"
+    },
+    "icon": "🌼",
+    "desc": {
+        "es": "Juicio de la Esfera y Desenlace C: El Cuento Dorado y la Mentira。",
+        "en": "Sphere Judgment and Outcome C: The Golden Tale and the Lie.",
+        "fr": "Jugement de la Sphère et Dénouement C : Le Conte Doré et le Mensonge.",
+        "it": "Giudizio della Sfera ed Esito C: Il Racconto Dorato e la Menzogna.",
+        "de": "Urteil der Sphäre und Ausgang C: Das Goldene Märchen und die Lüge.",
+        "zh": "真理之球的审判与结局C：金色童话与谎言。",
+        "ja": "球の審判と結末C：黄金の物語と嘘。"
+    },
+    "portal": {
+        "view": "cinematic",
+        "cinematic_id": "final_c",
+        "label": "🔮  Ver Final C: Negación"
+    },
+    "bg": "bg_ending_temple.png"
+}

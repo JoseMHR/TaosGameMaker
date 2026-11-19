@@ -1,0 +1,66 @@
+{
+  "name": {
+    "es": "Eco Fragmentado",
+    "en": "Fragmented Echo",
+    "fr": "Écho Fragmenté",
+    "it": "Eco Frammentato",
+    "de": "Fragmentiertes Echo",
+    "zh": "碎裂回响",
+    "ja": "断片化されたエコー"
+  },
+  "family": "manifestacion",
+  "archetype": "boss",
+  "icon": "👻",
+  "image": "res://assets/combat/enemies/en_fragmented_echo.png",
+  "attack_type": "magic",
+  "base_dodge": 10.0,
+  "dodge_scale": 0.2,
+  "element": "ice",
+  "weak_to": [
+    "fire",
+    "holy"
+  ],
+  "resist": [
+    "ice",
+    "physical"
+  ],
+  "ai": "defensive",
+  "xp_reward_base": 530,
+  "xp_reward_scale": 0.0,
+  "gold_reward_base": 120,
+  "gold_reward_scale": 10.0,
+  "skills": [
+    {
+      "level": 1,
+      "skill_id": "shadow_bolt"
+    },
+    {
+      "level": 5,
+      "skill_id": "freeze_nova"
+    },
+    {
+      "level": 7,
+      "skill_id": "dodge_stance"
+    }
+  ],
+  "loot": [
+    {
+      "kind": "gold",
+      "min": 120,
+      "max": 180
+    },
+    {
+      "kind": "item",
+      "id": "amuleto_escarcha",
+      "chance": 1.0,
+      "qty": 1
+    },
+    {
+      "kind": "equipment",
+      "chance": 0.35,
+      "level": 7
+    }
+  ],
+  "zone": "zona_2_nieve",
+  "is_boss": true
+}

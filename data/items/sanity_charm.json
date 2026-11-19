@@ -1,0 +1,29 @@
+{
+    "name": {
+        "es": "Amuleto de Cordura",
+        "en": "Sanity Charm",
+        "fr": "Charme de Lucidité",
+        "it": "Amuleto di Sanità",
+        "de": "Vernunftamulett",
+        "zh": "理智护符",
+        "ja": "正気のお守り"
+    },
+    "desc": {
+        "es": "Un talismán tallado por los sacerdotes de Celestia para anclar la mente a la realidad.",
+        "en": "A talisman carved by Celestia's priests to anchor the mind to reality.",
+        "fr": "Un talisman sculpté par les prêtres de Celestia pour ancrer l'esprit à la réalité.",
+        "it": "Un talismano intagliato dai sacerdoti di Celestia per ancorare la mente alla realtà.",
+        "de": "Ein von Celestias Priestern geschnitztes Talisman, um den Geist in der Realität zu verankern.",
+        "zh": "由塞莱斯提亚祭司雕刻而成的护符，能将心智锚定于现实。",
+        "ja": "セレスティアの司祭が心を現実に繋ぎ止めるために彫った護符。"
+    },
+    "icon": "🧿",
+    "category": "equipment",
+    "usable": false,
+    "slot": "accessory",
+    "tier": 4,
+    "bonuses": {
+        "int": 6,
+        "luk": 4
+    }
+}

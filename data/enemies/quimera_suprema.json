@@ -1,0 +1,70 @@
+{
+  "name": {
+    "es": "Quimera Suprema",
+    "en": "Supreme Chimera",
+    "fr": "Chimère Suprême",
+    "it": "Chimera Suprema",
+    "de": "Oberste Chimäre",
+    "zh": "至尊奇美拉",
+    "ja": "至高のキメラ"
+  },
+  "family": "monster",
+  "archetype": "boss",
+  "icon": "🦁",
+  "image": "res://assets/combat/enemies/en_supreme_chimera.png",
+  "attack_type": "magic",
+  "base_dodge": 14.0,
+  "dodge_scale": 0.25,
+  "element": "fire",
+  "weak_to": [
+    "holy"
+  ],
+  "resist": [
+    "fire",
+    "ice",
+    "lightning",
+    "poison"
+  ],
+  "ai": "aggressive",
+  "xp_reward_base": 2800,
+  "xp_reward_scale": 50.0,
+  "gold_reward_base": 1600,
+  "gold_reward_scale": 50.0,
+  "skills": [
+    {
+      "level": 1,
+      "skill_id": "predator_pounce"
+    },
+    {
+      "level": 25,
+      "skill_id": "ultimate_roar"
+    },
+    {
+      "level": 40,
+      "skill_id": "inferno"
+    },
+    {
+      "level": 50,
+      "skill_id": "tri_elemental_breath"
+    }
+  ],
+  "loot": [
+    {
+      "kind": "gold",
+      "min": 700,
+      "max": 1400
+    },
+    {
+      "kind": "consumable",
+      "id": "potion",
+      "chance": 0.6
+    },
+    {
+      "kind": "equipment",
+      "chance": 1.0,
+      "level": 35
+    }
+  ],
+  "zone": "zona_secreta",
+  "is_boss": true
+}

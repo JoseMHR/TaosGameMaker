@@ -1,0 +1,26 @@
+{
+    "id": "poi_arcanum_terminal_rota",
+    "type": "poi",
+    "icon": "🖥️",
+    "name": {
+        "es": "La Terminal Parpadeante",
+        "en": "The Flickering Terminal",
+        "fr": "Le Terminal Clignotant",
+        "it": "Il Terminale Lampeggiante",
+        "de": "Das Flackernde Terminal",
+        "zh": "闪烁的终端",
+        "ja": "点滅する端末"
+    },
+    "desc": {
+        "es": "Una vieja terminal de laboratorio incrustada en la roca del páramo, que reproduce sola fragmentos de registros de investigación. (POI de inspección).",
+        "en": "An old lab terminal embedded in the badland rock, replaying fragments of research logs on its own. (Inspection POI).",
+        "fr": "Un vieux terminal de laboratoire incrusté dans la roche des terres désolées, qui rejoue seul des fragments de journaux de recherche. (POI d'inspection).",
+        "it": "Un vecchio terminale di laboratorio incastonato nella roccia delle terre desolate, che riproduce da solo frammenti di registri di ricerca. (POI di ispezione).",
+        "de": "Ein altes Laborterminal, eingebettet im Fels des Ödlands, das von selbst Fragmente von Forschungsprotokollen abspielt. (Inspektions-POI).",
+        "zh": "一台嵌入荒地岩石中的旧实验室终端，会自行播放研究日志的片段。（探查类兴趣点）。",
+        "ja": "荒野の岩に埋め込まれた古い研究所端末が、独りでに研究記録の断片を再生している。（調査ポイント）。"
+    },
+    "npc": "poi_arcanum_terminal_rota",
+    "bg": "bg_world_poi_arcanum_terminal_rota.png",
+    "music": "creepy"
+}

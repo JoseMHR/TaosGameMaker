@@ -1,0 +1,27 @@
+{
+    "id": "dun_inicial",
+    "type": "dungeon",
+    "name": {
+        "es": "La cueva de la Esfera",
+        "en": "The Sphere Cave",
+        "fr": "La grotte de la Sphère",
+        "it": "La grotta della Sfera",
+        "de": "Die Höhle der Sphäre",
+        "zh": "球体洞穴",
+        "ja": "球の洞窟"
+    },
+    "icon": "🕳️",
+    "portal": {
+        "view": "dungeon",
+        "event_id": "dun_inicial"
+    },
+    "desc": {
+        "es": "Una cueva misteriosa de 3 plantas rectangulares.",
+        "en": "A mysterious 3-floor rectangular cave.",
+        "fr": "Une grotte mystérieuse de 3 étages rectangulaires.",
+        "it": "Una grotta misteriosa di 3 piani rettangolari.",
+        "de": "Eine geheimnisvolle Höhle mit 3 rechteckigen Stockwerken.",
+        "zh": "一个神秘的三层矩形洞穴。",
+        "ja": "3階建ての長方形をした謎めいた洞窟。"
+    }
+}

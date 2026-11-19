@@ -1,0 +1,86 @@
+{
+    "kits": {
+        "kinetic_wave": { "label": { "es": "Onda Cinética", "en": "Kinetic Wave", "fr": "Onde cinétique", "it": "Onda cinetica", "de": "Kinetische Welle", "zh": "动能冲击波", "ja": "キネティックウェーブ" }, "verb": "impact", "icon": "🪨", "color": "#f28c33" },
+        "psychic_grab": { "label": { "es": "Agarre Psíquico", "en": "Psychic Grab", "fr": "Emprise psychique", "it": "Presa psichica", "de": "Psychischer Griff", "zh": "精神抓握", "ja": "サイキックグラブ" }, "verb": "grab", "icon": "🔮", "color": "#a659f2" },
+        "time_distort": { "label": { "es": "Distorsión Temporal", "en": "Time Distortion", "fr": "Distorsion temporelle", "it": "Distorsione temporale", "de": "Zeitverzerrung", "zh": "时间扭曲", "ja": "タイムディストーション" }, "verb": "timeshift", "icon": "⏳", "color": "#40ccd9" },
+        "explorer_instinct": { "label": { "es": "Instinto del Explorador", "en": "Explorer's Instinct", "fr": "Instinct de l'explorateur", "it": "Istinto dell'esploratore", "de": "Instinkt des Entdeckers", "zh": "探险家的直觉", "ja": "探検家の直感" }, "verb": "reveal", "icon": "👁", "color": "#59d973" },
+        "elemental_affinity": { "label": { "es": "Afinidad Elemental", "en": "Elemental Affinity", "fr": "Affinité élémentaire", "it": "Affinità elementale", "de": "Elementare Affinität", "zh": "元素亲和", "ja": "エレメンタルアフィニティ" }, "verb": "element", "icon": "🌀", "color": "#7bb5ea" },
+        "restoration": { "label": { "es": "Restauración / Purificar", "en": "Restoration / Purify", "fr": "Restauration / Purification", "it": "Restaurazione / Purificazione", "de": "Wiederherstellung / Reinigung", "zh": "回复 / 净化", "ja": "リストレーション / 浄化" }, "verb": "restore", "icon": "✨", "color": "#f2d966" }
+    },
+    "pieces": {
+        "break_barrier": {
+            "kit": "kinetic_wave", "name": { "es": "Barrera rompible", "en": "Breakable Barrier", "fr": "Barrière destructible", "it": "Barriera distruttibile", "de": "Zerbrechliche Barriere", "zh": "可毁坏障碍物", "ja": "壊してもよい障壁" }, "icon": "🚧",
+            "archetype": "breakable", "shape": "barrier", "color": "#b8863a",
+            "reaction": { "type": "breakable", "min_strength": 0.0, "break_event": "" }
+        },
+        "light_crate": {
+            "kit": "kinetic_wave", "name": { "es": "Caja Ligera (Madera)", "en": "Light Crate (Wood)", "fr": "Caisse légère (bois)", "it": "Cassa leggera (legno)", "de": "Leichte Kiste (Holz)", "zh": "轻型木箱", "ja": "軽い木箱" }, "icon": "📦",
+            "archetype": "movable", "shape": "caja_madera", "color": "#8a6030", "mass": 1.5,
+            "reaction": { "type": "movable", "impact_force": 24.0, "pull_force": 20.0 }
+        },
+        "heavy_crate": {
+            "kit": "kinetic_wave", "name": { "es": "Caja Pesada (Metal)", "en": "Heavy Crate (Metal)", "fr": "Caisse lourde (métal)", "it": "Cassa pesante (metallo)", "de": "Schwere Kiste (Metall)", "zh": "重型铁箱", "ja": "重い金属箱" }, "icon": "🗄️",
+            "archetype": "movable", "shape": "caja_pesada", "color": "#5a6068", "mass": 5.0,
+            "reaction": { "type": "movable", "impact_force": 10.0, "pull_force": 6.0 }
+        },
+
+        "grab_column": {
+            "kit": "psychic_grab", "name": { "es": "Columna de agarre", "en": "Grab Column", "fr": "Colonne de prise", "it": "Colonna di presa", "de": "Griffsäule", "zh": "抓握石柱", "ja": "つかみの柱" }, "icon": "🏛️",
+            "archetype": "anchor", "shape": "column", "color": "#6e6d6b",
+            "reaction": { "type": "anchor", "anchor_offset_y": 1.4 }
+        },
+        "grab_ring": {
+            "kit": "psychic_grab", "name": { "es": "Anilla metálica", "en": "Metal Ring", "fr": "Anneau métallique", "it": "Anello metallico", "de": "Metallring", "zh": "金属环", "ja": "金属の輪" }, "icon": "⭕",
+            "archetype": "anchor", "shape": "ring", "color": "#c048f8",
+            "reaction": { "type": "anchor", "anchor_offset_y": 0.0 }
+        },
+
+        "elem_campfire": {
+            "kit": "elemental_affinity", "name": { "es": "Hoguera", "en": "Campfire", "fr": "Feu de camp", "it": "Falò", "de": "Lagerfeuer", "zh": "篝火", "ja": "かがり火" }, "icon": "🔥",
+            "archetype": "campfire", "shape": "brazier", "color": "#ff6a1f",
+            "reaction": { "type": "campfire", "element": "fuego", "lit": true, "proximity": true }
+        },
+        "elem_roots": {
+            "kit": "elemental_affinity", "name": { "es": "Raíces", "en": "Roots", "fr": "Racines", "it": "Radici", "de": "Wurzeln", "zh": "根系", "ja": "根" }, "icon": "🌿",
+            "archetype": "element_receiver", "shape": "roots", "color": "#3f7a2e",
+            "reaction": { "type": "element", "accepted_element": "fuego", "activate_event": "", "consume": true }
+        },
+        "elem_ice_block": {
+            "kit": "elemental_affinity", "name": { "es": "Bloque de hielo", "en": "Ice Block", "fr": "Bloc de glace", "it": "Blocco di ghiaccio", "de": "Eisblock", "zh": "冰块", "ja": "氷のブロック" }, "icon": "🧊",
+            "archetype": "ice_block", "shape": "ice", "color": "#7fdcff",
+            "reaction": { "type": "element_source", "source_element": "hielo", "proximity": true, "melt_element": "fuego" }
+        },
+        "elem_flame": {
+            "kit": "elemental_affinity", "name": { "es": "Llama", "en": "Flame", "fr": "Flamme", "it": "Fiamma", "de": "Flamme", "zh": "火焰", "ja": "炎" }, "icon": "🔥",
+            "archetype": "flame", "shape": "flame", "color": "#ff8a3d",
+            "reaction": { "type": "element_source", "source_element": "fuego", "one_shot": false, "proximity": true, "quench_element": "agua" }
+        },
+        "elem_water_tile": {
+            "kit": "elemental_affinity", "name": { "es": "Casilla de agua", "en": "Water Tile", "fr": "Case d'eau", "it": "Casella d'acqua", "de": "Wasserfeld", "zh": "水格", "ja": "水のタイル" }, "icon": "💧",
+            "archetype": "water_tile", "shape": "water", "color": "#2f7fe6", "deep": false,
+            "reaction": { "type": "water_tile", "source_element": "agua", "deep": false, "proximity": true }
+        },
+        "elem_deep_water_tile": {
+            "kit": "elemental_affinity", "name": { "es": "Casilla de agua profunda", "en": "Deep Water Tile", "fr": "Case d'eau profonde", "it": "Casella d'acqua profonda", "de": "Tiefwasserfeld", "zh": "深水格", "ja": "深水のタイル" }, "icon": "🌊",
+            "archetype": "water_tile", "shape": "deep_water", "color": "#071638", "deep": true,
+            "reaction": { "type": "water_tile", "source_element": "agua", "deep": true, "proximity": true }
+        },
+
+        "reveal_wall": {
+            "kit": "explorer_instinct", "name": { "es": "Pared falsa", "en": "False Wall", "fr": "Faux mur", "it": "Muro falso", "de": "Falsche Wand", "zh": "伪装墙", "ja": "偽りの壁" }, "icon": "🧱",
+            "archetype": "false_solid", "shape": "wall", "color": "#8a8a8a",
+            "reaction": { "type": "false_wall", "reveal_seconds": 0.0 }
+        },
+        "reveal_floor": {
+            "kit": "explorer_instinct", "name": { "es": "Suelo falso", "en": "False Floor", "fr": "Faux sol", "it": "Pavimento falso", "de": "Falscher Boden", "zh": "伪装地板", "ja": "偽りの床" }, "icon": "⬛",
+            "archetype": "false_solid", "shape": "platform", "color": "#8a8a8a",
+            "reaction": { "type": "false_wall", "reveal_seconds": 0.0 }
+        },
+
+        "purify_poison_water": {
+            "kit": "restoration", "name": { "es": "Agua envenenada", "en": "Poisoned Water", "fr": "Eau empoisonnée", "it": "Acqua avvelenata", "de": "Vergiftetes Wasser", "zh": "毒水", "ja": "汚染された水" }, "icon": "🟢",
+            "archetype": "purify", "shape": "water", "color": "#4a7a3a",
+            "reaction": { "type": "purify", "clean": "water", "proximity": true }
+        }
+    }
+}

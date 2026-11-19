@@ -1,0 +1,9 @@
+{
+	"t": "cinematic",
+	"order": 15,
+	"label": "Cinemática",
+	"icon": "🎬",
+	"color": "#a855f7",
+	"group": "Sistema",
+	"entity": true
+}

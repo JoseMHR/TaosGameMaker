@@ -1,0 +1,184 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "Valerio el Posadero",
+            "en": "Valerio the Innkeeper",
+            "fr": "Valerio l'Aubergiste",
+            "it": "Valerio l'Osteria",
+            "de": "Valerio der Gastwirt",
+            "zh": "客栈老板瓦莱里奥",
+            "ja": "宿屋の主人ヴァレリオ"
+        },
+        "next": [],
+        "reward": "avatar=🍺;bg=0.08,0.06,0.04"
+    },
+    "cel_tab_1": {
+        "type": "message",
+        "text": {
+            "es": "¡Bienvenidos a la Posada de la Corona en Celestia! El fuego chisporrotea en el hogar de mármol y las jarras de hidromiel brillan como oro fundido. En las alturas celestiales el descanso es sagrado y las copas nunca tocan fondo. ¿En qué puedo serviros, noble viajero?",
+            "en": "Welcome to the Crown Inn in Celestia! The hearth fire crackles within polished marble, and flagons of mead glisten like liquid gold. In these celestial heights, rest is sacred and flagons never dry out. How may I serve you, noble traveler?",
+            "fr": "Bienvenue à l'Auberge de la Couronne à Celestia ! Le feu crépite dans l'âtre de marbre et les chopes d'hydromel brillent comme de l'or fondu. Dans ces hauteurs célestes, le repos est sacré et les coupes ne touchent jamais le fond. En quoi puis-je te servir, noble voyageur ?",
+            "it": "Benvenuto alla Locanda della Corona a Celestia! Il fuoco scoppietta nel focolare di marmo e i boccali di idromele brillano come oro fuso. In queste altezze celestiali il riposo è sacro e i calici non toccano mai il fondo. In cosa posso servirti, nobile viaggiatore?",
+            "de": "Willkommen im Kronen-Gasthaus in Celestia! Das Feuer knistert im Marmorkamin, und die Met-Krüge glänzen wie geschmolzenes Gold. In diesen himmlischen Höhen ist Ruhe heilig, und die Becher werden nie leer. Wie kann ich dir dienen, edler Reisender?",
+            "zh": "欢迎来到塞莱斯提亚的王冠客栈！大理石壁炉里的火焰噼啪作响，蜂蜜酒的杯子闪耀着如熔金般的光芒。在这天上的高处，休息是神圣的，酒杯永远不会见底。尊贵的旅人，我能为你效劳什么吗？",
+            "ja": "セレスティアの王冠亭へようこそ！大理石の炉で火が爆ぜ、蜂蜜酒の杯が溶けた金のように輝いている。この天上の高みでは休息は神聖であり、杯が底をつくことはない。何かご用でしょうか、高貴な旅人よ？"
+        },
+        "next": [
+            "cel_tab_opt_rest",
+            "cel_tab_opt_hidromiel",
+            "cel_tab_opt_rumor",
+            "cel_tab_opt_ayuda",
+            "cel_tab_opt_leave"
+        ],
+        "reward": ""
+    },
+    "cel_tab_opt_rest": {
+        "type": "option",
+        "text": {
+            "es": "🛌  Quiero alquilar una alcoba de plumas y reponer fuerzas por completo (15 Oro)",
+            "en": "🛌  I wish to rent a featherbed chamber and recover my strength in full (15 Gold)",
+            "fr": "🛌  Je veux louer une chambre à couette de plumes et récupérer toutes mes forces (15 Or)",
+            "it": "🛌  Voglio affittare una camera con piumino e recuperare completamente le forze (15 Oro)",
+            "de": "🛌  Ich möchte ein Federbettzimmer mieten und meine Kräfte vollständig wiederherstellen (15 Gold)",
+            "zh": "🛌  我想租一间羽绒被的房间，彻底恢复体力（15金币）",
+            "ja": "🛌  羽根布団の部屋を借りて、体力を完全に回復させたい（15ゴールド）"
+        },
+        "next": [
+            "cel_tab_rest_done"
+        ],
+        "reward": "gold:-15;heal:100",
+        "condition": "gold >= 15"
+    },
+    "cel_tab_rest_done": {
+        "type": "message",
+        "text": {
+            "es": "Te sumerges en sábanas de lino celestial con aroma a flores de sauco. Duermes profundamente sin pesadillas y despiertas con un vigor extraordinario. ¡Salud y maná totalmente restaurados!",
+            "en": "You sink into celestial linen sheets perfumed with elderflower essence. You sleep soundly without nightmares, awakening with extraordinary vigor. Full health and vitality restored!",
+            "fr": "Tu t'enfonces dans des draps de lin céleste parfumés à la fleur de sureau. Tu dors profondément sans cauchemars et te réveilles avec une vigueur extraordinaire. Santé et mana entièrement restaurés !",
+            "it": "Ti immergi in lenzuola di lino celestiale profumate ai fiori di sambuco. Dormi profondamente senza incubi e ti svegli con un vigore straordinario. Salute e mana completamente ripristinati!",
+            "de": "Du versinkst in himmlischen Leinentüchern, die nach Holunderblüten duften. Du schläfst tief und ohne Albträume und erwachst mit außergewöhnlicher Kraft. Gesundheit und Mana vollständig wiederhergestellt!",
+            "zh": "你沉入散发着接骨木花香的天堂麻布床单中。你睡得很沉，没有噩梦，醒来时精力异常充沛。生命值和法力完全恢复！",
+            "ja": "エルダーフラワーの香りが漂う天上の麻布のシーツに身を沈める。悪夢もなく深く眠り、驚くほどの活力を持って目覚める。体力とマナが完全に回復した！"
+        },
+        "next": [
+            "cel_tab_1"
+        ],
+        "reward": ""
+    },
+    "cel_tab_opt_hidromiel": {
+        "type": "option",
+        "text": {
+            "es": "🍯  Sírveme una copa de ese famoso Hidromiel de Polen Celestial",
+            "en": "🍯  Pour me a flagon of that famous Celestial Pollen Mead",
+            "fr": "🍯  Sers-moi une coupe de ce fameux Hydromel de Pollen Céleste",
+            "it": "🍯  Versami una coppa di quel famoso Idromele di Polline Celeste",
+            "de": "🍯  Schenk mir einen Becher dieses berühmten Himmelspollen-Mets ein",
+            "zh": "🍯  给我倒一杯那著名的天穹花粉蜂蜜酒",
+            "ja": "🍯  あの有名な天の花粉蜂蜜酒を注いでくれ"
+        },
+        "next": [
+            "cel_tab_msg_hidromiel"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "cel_tab_msg_hidromiel": {
+        "type": "message",
+        "text": {
+            "es": "Valerio te sirve una copa dorada y efervescente. Al primer sorbo, una sensación de ligereza absoluta se apodera de ti: tus pies empiezan a despegarse literalmente una pulgada del parqué. Valerio te sujeta por el codo con una carcajada: '¡Tranquilo, forastero! Solo son las abejas de la luna. Quien bebe hidromiel de Celestia adquiere un porte etéreo e irresistible durante días.' Tu elegancia y apostura deslumbran a la concurrencia.",
+            "en": "Valerio pours an effervescent golden flagon. Upon the first draught, an absolute lightness takes hold: your boot soles literally hover an inch above the hardwood floor. Valerio steadies your elbow with hearty laughter: 'Steady, friend! Merely moon bee pollen. Whoever sips Celestia mead carries an ethereal, irresistible grace for days.' Your charismatic poise dazzles the room.",
+            "fr": "Valerio te sert une coupe dorée et pétillante. À la première gorgée, une sensation de légèreté absolue s'empare de toi : tes pieds commencent littéralement à décoller d'un pouce du parquet. Valerio te retient par le coude en riant : « Tranquille, étranger ! Ce ne sont que les abeilles de la lune. Qui boit l'hydromel de Celestia acquiert une allure éthérée et irrésistible pendant plusieurs jours. » Ton élégance et ta bonne allure éblouissent l'assistance.",
+            "it": "Valerio ti versa una coppa dorata ed effervescente. Al primo sorso, una sensazione di leggerezza assoluta ti coglie: i tuoi piedi cominciano letteralmente a staccarsi di un pollice dal parquet. Valerio ti trattiene per il gomito ridendo: 'Tranquillo, straniero! Sono solo le api della luna. Chi beve idromele di Celestia acquisisce un portamento etereo e irresistibile per giorni.' La tua eleganza e prestanza abbagliano gli avventori.",
+            "de": "Valerio schenkt dir einen goldenen, sprudelnden Becher ein. Beim ersten Schluck erfasst dich ein absolutes Leichtigkeitsgefühl: deine Füße beginnen buchstäblich, sich einen Zoll über den Parkettboden zu erheben. Valerio hält dich lachend am Ellbogen fest: „Ruhig, Fremder! Das sind nur die Mondbienen. Wer Celestia-Met trinkt, erlangt für Tage eine ätherische, unwiderstehliche Ausstrahlung.“ Deine Eleganz und Anmut blenden die Anwesenden.",
+            "zh": "瓦莱里奥给你倒了一杯金光闪闪、还冒着气泡的酒。第一口下肚，一种绝对的轻盈感便席卷了你：你的双脚真的开始离开地板一英寸。瓦莱里奥笑着扶住你的肘部：「淡定，外乡人！这只是月亮蜂的花粉而已。喝了塞莱斯提亚蜂蜜酒的人，会连续几天散发出一种超凡而迷人的气质。」你的优雅与风采令在场众人惊艳不已。",
+            "ja": "ヴァレリオは金色に泡立つ杯を注ぐ。最初の一口で、絶対的な軽やかさがお前を包む——足が文字通り床から一インチ浮き上がり始める。ヴァレリオは笑いながら肘を支える。「落ち着け、旅人よ！ただの月の蜂の花粉だ。セレスティアの蜂蜜酒を飲む者は、数日間、天上的で抗いがたい魅力を身にまとう」お前の優雅さと風格が周囲を魅了する。"
+        },
+        "next": [
+            "cel_tab_1"
+        ],
+        "reward": "faceta:aspecto=+1;heal:20"
+    },
+    "cel_tab_opt_rumor": {
+        "type": "option",
+        "text": {
+            "es": "👑  ¿Qué se comenta en las tabernas sobre el Rey de Celestia y el Palacio?",
+            "en": "👑  What do tavern keepers hear about the King of Celestia and the High Palace?",
+            "fr": "👑  Qu'entend-on dans les tavernes sur le Roi de Celestia et le Palais ?",
+            "it": "👑  Cosa si dice nelle taverne sul Re di Celestia e il Palazzo?",
+            "de": "👑  Was hört man in den Tavernen über den König von Celestia und den Palast?",
+            "zh": "👑  酒馆里都在传关于塞莱斯提亚国王和宫殿的什么消息？",
+            "ja": "👑  酒場ではセレスティア王と宮殿についてどんな噂を耳にする？"
+        },
+        "next": [
+            "cel_tab_rumor_info"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "cel_tab_rumor_info": {
+        "type": "message",
+        "text": {
+            "es": "Valerio limpia con esmero una copa de cristal: 'El Rey es justo pero vive abrumado por las visiones de los astrónomos. Dicen que en lo alto de la Torre Inclinada las campanas tocan solas cada medianoche. Y en el Gremio de Tareas Inútiles hay un grupo de eruditos investigando por qué las sombras en Celestia a veces apuntan hacia el sol en vez de huir de él. La corte guarda silencio, pero quien tiene ojos abiertos lo nota.'",
+            "en": "Valerio carefully polishes a crystal flagon: 'The King rules with justice yet carries heavy burdens from astronomers visions. They say atop the Leaning Spire bells chime unaccompanied at midnight. And in the Guild of Useless Tasks scholars investigate why shadows in Celestia sometimes point towards noon rather than fleeing light. The high court feigns silence, yet observant minds notice.'",
+            "fr": "Valerio polit soigneusement une coupe de cristal : « Le Roi est juste mais accablé par les visions des astronomes. On dit qu'en haut de la Tour Inclinée, les cloches sonnent seules chaque minuit. Et dans le Gremio des Tâches Inutiles, un groupe d'érudits enquête sur les raisons pour lesquelles les ombres à Celestia pointent parfois vers le soleil plutôt que de le fuir. La cour garde le silence, mais qui a les yeux ouverts le remarque. »",
+            "it": "Valerio pulisce con cura una coppa di cristallo: 'Il Re è giusto ma vive sopraffatto dalle visioni degli astronomi. Dicono che in cima alla Torre Inclinata le campane suonano da sole ogni mezzanotte. E nella Gilda dei Compiti Inutili un gruppo di eruditi indaga sul perché le ombre a Celestia a volte puntino verso il sole invece di fuggirne. La corte tace, ma chi ha gli occhi aperti lo nota.'",
+            "de": "Valerio poliert sorgfältig einen Kristallbecher: „Der König ist gerecht, aber überwältigt von den Visionen der Astronomen. Man sagt, oben auf dem Schiefen Turm läuten die Glocken jede Mitternacht von selbst. Und in der Gilde der Nutzlosen Aufgaben untersucht eine Gruppe Gelehrter, warum die Schatten in Celestia manchmal zur Sonne hin zeigen, statt vor ihr zu fliehen. Der Hof schweigt, aber wer die Augen offen hat, merkt es.“",
+            "zh": "瓦莱里奥小心地擦着一只水晶杯：「国王是公正的，但被天文学家们的预言压得不堪重负。据说在倾斜塔顶部，每到午夜钟声都会自己响起。而在无用差事公会里，一群学者正在调查为什么塞莱斯提亚的影子有时会朝向太阳，而不是躲避它。宫廷对此保持沉默，但眼睛雪亮的人早已察觉。」",
+            "ja": "ヴァレリオは丁寧に水晶の杯を磨きながら言う。「王は公正だが、天文学者たちの予言に圧倒されている。傾いた塔の上では毎晩真夜中に鐘が自然に鳴ると言われている。そして無用な仕事のギルドでは、学者たちがセレスティアの影がなぜ時々太陽から逃げるのではなく太陽の方を向くのかを調査している。宮廷は沈黙を守っているが、目の開いた者はそれに気づいている」"
+        },
+        "next": [
+            "cel_tab_1"
+        ],
+        "reward": "faceta:inteligencia=+1;discover:lore_celestia_palacio"
+    },
+    "cel_tab_opt_ayuda": {
+        "type": "option",
+        "text": {
+            "es": "💪  Esos barriles de roble de la entrada parecen pesados. Deja que te eche una mano a colocarlos",
+            "en": "💪  Those oak casks near the door look hefty. Let me lend a hand hauling them into the cellar",
+            "fr": "💪  Ces tonneaux de chêne près de l'entrée semblent lourds. Laisse-moi te donner un coup de main pour les descendre à la cave",
+            "it": "💪  Quei barili di quercia vicino all'entrata sembrano pesanti. Lasciami darti una mano a portarli in cantina",
+            "de": "💪  Diese Eichenfässer beim Eingang sehen schwer aus. Lass mich dir helfen, sie in den Keller zu tragen",
+            "zh": "💪  门口那些橡木桶看起来很重。让我帮你把它们搬到地窖去",
+            "ja": "💪  入口の橡の樽は重そうだ。地下室まで運ぶのを手伝おう"
+        },
+        "next": [
+            "cel_tab_msg_ayuda"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "cel_tab_msg_ayuda": {
+        "type": "message",
+        "text": {
+            "es": "Levantas los pesados barriles de hidromiel con firmeza y los estibas con orden militar en la bodega. Valerio te observa pasmado: '¡Por los dioses! La mayoría de los clientes de Celestia son magos presumidos que no levantarían una pluma sin conjurar un hechizo levitatorio. Tu fuerza y buena disposición son un tesoro.' Te entrega una bolsa de oro y una hogaza de pan de miel recién horneado.",
+            "en": "You lift the dense oak casks with steady muscle, stacking them in disciplined order down in the cellar. Valerio watches astounded: 'By the gods! Most highborn patrons here are vain mages who would not lift a goose feather without invoking levitation glyphs. Your humble strength and generous will are a blessing.' He presses a bag of coin and a warm loaf of honeybread into your grasp.",
+            "fr": "Tu soulèves les lourds tonneaux d'hydromel avec fermeté et les empiles avec un ordre militaire dans la cave. Valerio t'observe, stupéfait : « Par les dieux ! La plupart des clients de Celestia sont des mages prétentieux qui ne lèveraient pas une plume sans invoquer un sort de lévitation. Ta force et ta bonne volonté sont un trésor. » Il te remet une bourse d'or et une miche de pain au miel fraîchement sorti du four.",
+            "it": "Solleva i pesanti barili di idromele con fermezza e li stivi con ordine militare in cantina. Valerio ti osserva stupefatto: 'Per gli dèi! La maggior parte dei clienti di Celestia sono maghi presuntuosi che non alzerebbero una piuma senza lanciare un incantesimo di levitazione. La tua forza e buona disposizione sono un tesoro.' Ti consegna una borsa d'oro e una pagnotta di pane al miele appena sfornata.",
+            "de": "Du hebst die schweren Met-Fässer mit fester Hand an und stapelst sie in militärischer Ordnung im Keller. Valerio beobachtet dich verblüfft: „Bei den Göttern! Die meisten Gäste in Celestia sind eitle Magier, die keine Feder heben würden, ohne einen Levitationszauber zu wirken. Deine Kraft und dein guter Wille sind ein Schatz.“ Er drückt dir einen Beutel Gold und einen frisch gebackenen Honigbrotlaib in die Hand.",
+            "zh": "你稳稳地举起沉重的蜂蜜酒桶，以军人般的秩序把它们码放进地窖。瓦莱里奥惊讶地看着你：「以众神之名！塞莱斯提亚的大多数顾客都是些爱慕虚荣的法师，连一根羽毛都不肯抬起来，非得念个漂浮咒才行。你的力气和好意简直是一笔财富。」他递给你一袋金币和一块刚出炉的蜂蜜面包。",
+            "ja": "重い蜂蜜酒の樽をしっかりと持ち上げ、軍隊のような整然さで地下室に積み上げる。ヴァレリオは驚いた様子でお前を見つめる。「神々にかけて！セレスティアの客のほとんどは、浮遊の魔法を使わなければ羽根一枚持ち上げない虚栄心の強い魔法使いばかりだ。お前の力と善意は貴重な宝だ」金貨の袋と焼き上がったばかりの蜂蜜パンを手渡してくれる。"
+        },
+        "next": [
+            "cel_tab_1"
+        ],
+        "reward": "faceta:bondad=+1;faceta:valor=+1;gold:+30"
+    },
+    "cel_tab_opt_leave": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Muchas gracias por la charla, Valerio. Volveré pronto",
+            "en": "🚶  Many thanks for the hospitality, Valerio. I shall return soon",
+            "fr": "🚶  Merci beaucoup pour l'accueil, Valerio. Je reviendrai bientôt",
+            "it": "🚶  Molte grazie per l'ospitalità, Valerio. Ritornerò presto",
+            "de": "🚶  Vielen Dank für die Gastfreundschaft, Valerio. Ich komme bald wieder",
+            "zh": "🚶  非常感谢你的款待，瓦莱里奥。我很快就会回来",
+            "ja": "🚶  もてなしに感謝する、ヴァレリオ。すぐに戻ってくるよ"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

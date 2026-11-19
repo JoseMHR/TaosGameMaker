@@ -1,0 +1,23 @@
+{
+    "name": {
+        "es": "Reliquia del Núcleo Solar",
+        "en": "Solar Core Relic",
+        "fr": "Relique du Noyau Solaire",
+        "it": "Reliquia del Nucleo Solare",
+        "de": "Sonnenkern-Relikt",
+        "zh": "太阳核心遗物",
+        "ja": "太陽核の遺物"
+    },
+    "desc": {
+        "es": "Un anillo de bronce antiguo que encierra un núcleo solar aún tibio. El Centinela de Frontera reacciona a su calor.",
+        "en": "An ancient bronze ring encasing a still-warm solar core. The Border Sentinel reacts to its heat.",
+        "fr": "Un anneau de bronze ancien renfermant un noyau solaire encore tiède. Le Sentinelle de Frontière réagit à sa chaleur.",
+        "it": "Un anello di bronzo antico che racchiude un nucleo solare ancora tiepido. La Sentinella di Confine reagisce al suo calore.",
+        "de": "Ein alter Bronzering, der einen noch warmen Sonnenkern umschließt. Der Grenzwächter reagiert auf seine Wärme.",
+        "zh": "一枚古老的青铜环，内含仍温热的太阳核心。边境哨兵会对其热量产生反应。",
+        "ja": "まだ温かい太陽の核を包む古い青銅の輪。境界の番人はその熱に反応する。"
+    },
+    "icon": "🔆",
+    "category": "important",
+    "usable": false
+}

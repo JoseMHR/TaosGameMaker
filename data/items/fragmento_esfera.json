@@ -1,0 +1,36 @@
+{
+    "name": {
+        "es": "Fragmento de la Esfera",
+        "en": "Fragment of the Sphere",
+        "fr": "Fragment de la Sphère",
+        "it": "Frammento della Sfera",
+        "de": "Fragment der Sphäre",
+        "zh": "球体碎片",
+        "ja": "球体の欠片"
+    },
+    "desc": {
+        "es": "Un pedazo diminuto de la Esfera de la Verdad, cálido al tacto. Sostenerlo trae una calma extraña, como si ya no quedara nada que temer.",
+        "en": "A tiny shard of the Sphere of Truth, warm to the touch. Holding it brings a strange calm, as if there were nothing left to fear.",
+        "fr": "Un minuscule éclat de la Sphère de la Vérité, chaud au toucher. Le tenir apporte un calme étrange, comme s'il n'y avait plus rien à craindre.",
+        "it": "Un minuscolo frammento della Sfera della Verità, caldo al tatto. Tenerlo porta una strana calma, come se non ci fosse più nulla da temere.",
+        "de": "Ein winziges Bruchstück der Sphäre der Wahrheit, warm bei Berührung. Es zu halten bringt eine seltsame Ruhe, als gäbe es nichts mehr zu fürchten.",
+        "zh": "真理之球的一小块碎片，触感温暖。握着它会带来一种奇异的平静，仿佛再无所惧。",
+        "ja": "真実の球の小さな欠片。触ると温かい。持つと不思議な落ち着きを感じ、まるで恐れるものが何もないかのようだ。"
+    },
+    "icon": "🔮",
+    "category": "equipment",
+    "usable": false,
+    "slot": "accessory",
+    "tier": 5,
+    "bonuses": {
+        "str": 4,
+        "int": 4,
+        "vit": 4,
+        "agi": 4,
+        "luk": 4
+    },
+    "combat": {
+        "phys_defense": 10,
+        "mag_defense": 10
+    }
+}

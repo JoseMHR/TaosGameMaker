@@ -1,0 +1,25 @@
+{
+    "id": "house_snow_03",
+    "type": "poi",
+    "name": {
+        "es": "La Campana de Hielo",
+        "en": "The Ice Bell",
+        "fr": "La Cloche de Glace",
+        "it": "La Campana di Ghiaccio",
+        "de": "Die Eisglocke",
+        "zh": "冰之钟",
+        "ja": "氷の鐘"
+    },
+    "icon": "🔔",
+    "npc": "house_snow_03",
+    "visual": "casita",
+    "presences": [
+        {
+            "condition": "default",
+            "actor": "house_snow_03",
+            "entry_node": ""
+        }
+    ],
+    "bg": "bg_world_poi_hielo_campana_03.png",
+    "music": "poi_house_cozy"
+}

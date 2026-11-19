@@ -1,0 +1,9 @@
+{
+	"t": "teleport",
+	"order": 202,
+	"label": "Teletransporte",
+	"icon": "🌀",
+	"color": "#7a3ec8",
+	"group": "Sistema",
+	"entity": true
+}

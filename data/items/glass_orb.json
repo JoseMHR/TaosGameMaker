@@ -1,0 +1,31 @@
+{
+    "name": {
+        "es": "Orbe de Cristal",
+        "en": "Glass Orb",
+        "fr": "Orbe de Verre",
+        "it": "Sfera di Vetro",
+        "de": "Glasorb",
+        "zh": "玻璃法球",
+        "ja": "ガラスの宝珠"
+    },
+    "desc": {
+        "es": "Una esfera de vidrio pulido que ayuda a enfocar la mente.",
+        "en": "A polished glass sphere that helps focus the mind.",
+        "fr": "Une sphère de verre poli qui aide à concentrer l'esprit.",
+        "it": "Una sfera di vetro levigato che aiuta a concentrare la mente.",
+        "de": "Eine polierte Glaskugel, die hilft, den Geist zu fokussieren.",
+        "zh": "一颗抛光的玻璃球，有助于集中心神。",
+        "ja": "心を集中させる助けとなる磨かれたガラス球。"
+    },
+    "icon": "🔮",
+    "category": "equipment",
+    "usable": false,
+    "slot": "weapon",
+    "tier": 1,
+    "bonuses": {
+        "int": 2
+    },
+    "combat": {
+        "mag_damage": 16
+    }
+}

@@ -1,0 +1,118 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Reloj Detenido",
+            "en": "The Stopped Clock",
+            "fr": "L'Horloge Arrêtée",
+            "it": "L'Orologio Fermo",
+            "de": "Die Stehengebliebene Uhr",
+            "zh": "停摆的时钟",
+            "ja": "止まった時計"
+        },
+        "next": [],
+        "reward": "bg=0.05,0.05,0.06"
+    },
+    "rel_root": {
+        "type": "message",
+        "text": {
+            "es": "Un colosal reloj de torre yace derribado en el páramo, medio hundido en la tierra tóxica. Su esfera agrietada sigue siendo legible, y sus dos agujas de hierro apuntan, inmóviles, a una hora precisa: las 3:47. El segundero tiembla contra ese instante una y otra vez, intentando avanzar y sin conseguirlo jamás, como si el tiempo entero se hubiera roto exactamente en ese minuto y se negara a seguir.",
+            "en": "A colossal tower clock lies toppled in the badlands, half-sunk in the toxic earth. Its cracked face is still legible, and its two iron hands point, motionless, at one precise hour: 3:47. The second hand quivers against that instant over and over, trying to advance and never managing to, as if all of time had broken at exactly that minute and refused to go on.",
+            "fr": "Une horloge de tour colossale gît renversée dans le désert, à moitié enfoncée dans la terre toxique. Son cadran fissuré reste lisible, et ses deux aiguilles de fer pointent, immobiles, vers une heure précise : 3h47. La trotteuse tremble contre cet instant encore et encore, essayant d'avancer sans jamais y parvenir, comme si le temps tout entier s'était brisé exactement à cette minute et refusait de continuer.",
+            "it": "Un colossale orologio da torre giace rovesciato nella landa, mezzo affondato nella terra tossica. Il suo quadrante incrinato resta leggibile, e le sue due lancette di ferro puntano, immobili, verso un'ora precisa: le 3:47. La lancetta dei secondi trema contro quell'istante più e più volte, cercando di avanzare senza mai riuscirci, come se tutto il tempo si fosse spezzato esattamente in quel minuto e si rifiutasse di continuare.",
+            "de": "Eine kolossale Turmuhr liegt umgestürzt im Ödland, halb versunken in der giftigen Erde. Ihr rissiges Zifferblatt bleibt lesbar, und ihre beiden eisernen Zeiger weisen bewegungslos auf eine genaue Stunde: 3:47. Der Sekundenzeiger zittert immer wieder gegen diesen Moment an, versucht voranzukommen und schafft es nie, als wäre die ganze Zeit genau in dieser Minute zerbrochen und weigerte sich weiterzugehen.",
+            "zh": "一座巨大的塔钟倒卧在荒原中，一半陷入有毒的泥土。它裂开的表盘依然可辨认，两根铁制指针静止地指向一个精确的时刻：3点47分。秒针一次又一次地在那一瞬间颤动，试图前进却始终无法成功，仿佛整个时间恰好在那一分钟破碎，拒绝继续前行。",
+            "ja": "巨大な塔時計が荒野に倒れ、有毒な土に半ば沈んでいる。ひび割れた文字盤はまだ読み取れ、二本の鉄の針は動くことなく、正確な時刻を指している——3時47分。秒針はその瞬間に向かって何度も震え、進もうとしては決して進めない。まるで時間全体がちょうどその一分に砕け、先へ進むことを拒んでいるかのようだ。"
+        },
+        "next": [
+            "rel_opt_examinar",
+            "rel_opt_mover",
+            "rel_opt_salir"
+        ],
+        "reward": ""
+    },
+    "rel_opt_examinar": {
+        "type": "option",
+        "text": {
+            "es": "🔎  Examinar la esfera en busca de por qué se paró",
+            "en": "🔎  Examine the face for why it stopped",
+            "fr": "🔎  Examiner le cadran pour comprendre pourquoi il s'est arrêté",
+            "it": "🔎  Esaminare il quadrante per capire perché si è fermato",
+            "de": "🔎  Das Zifferblatt untersuchen, um herauszufinden, warum es stehen blieb",
+            "zh": "🔎  检查表盘，寻找它停摆的原因",
+            "ja": "🔎  文字盤を調べ、なぜ止まったのかを探る"
+        },
+        "next": [
+            "rel_msg_examinar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "rel_msg_examinar": {
+        "type": "message",
+        "text": {
+            "es": "Rascas la mugre de la esfera y aparece, grabada bajo el cristal por una mano desesperada, una nota: 'Se paró a las 3:47. La hora en que dejó de respirar. Desde entonces ningún reloj de la ciudad se atreve a pasar de ese minuto, porque hacerlo sería admitir que el mundo siguió girando sin ella.' Miras el segundero temblar contra ese instante imposible. Tú también, en algún lugar de tu pecho, sabes exactamente qué se siente al querer detener el tiempo en el segundo anterior a una pérdida.",
+            "en": "You scrape the grime from the face and there appears, carved beneath the glass by a desperate hand, a note: 'It stopped at 3:47. The hour she stopped breathing. Since then no clock in the city dares pass that minute, because to do so would be to admit the world kept turning without her.' You watch the second hand quiver against that impossible instant. You too, somewhere in your chest, know exactly what it feels like to want to stop time at the second before a loss.",
+            "fr": "Tu grattes la crasse du cadran et apparaît, gravée sous le verre par une main désespérée, une note : « Elle s'est arrêtée à 3h47. L'heure où elle a cessé de respirer. Depuis, aucune horloge de la ville n'ose dépasser cette minute, car le faire reviendrait à admettre que le monde a continué de tourner sans elle. » Tu regardes la trotteuse trembler contre cet instant impossible. Toi aussi, quelque part dans ta poitrine, tu sais exactement ce que ça fait de vouloir arrêter le temps à la seconde précédant une perte.",
+            "it": "Raschi via lo sporco dal quadrante e appare, incisa sotto il vetro da una mano disperata, una nota: 'Si è fermato alle 3:47. L'ora in cui lei smise di respirare. Da allora nessun orologio della città osa superare quel minuto, perché farlo significherebbe ammettere che il mondo ha continuato a girare senza di lei.' Guardi la lancetta dei secondi tremare contro quell'istante impossibile. Anche tu, in qualche punto del tuo petto, sai esattamente cosa si prova a voler fermare il tempo nel secondo prima di una perdita.",
+            "de": "Du kratzt den Schmutz vom Zifferblatt und darunter erscheint, unter dem Glas von einer verzweifelten Hand eingraviert, eine Notiz: „Sie blieb um 3:47 stehen. Die Stunde, in der sie aufhörte zu atmen. Seitdem wagt keine Uhr der Stadt, diese Minute zu überschreiten, denn das würde bedeuten zuzugeben, dass die Welt ohne sie weiterdrehte.“ Du beobachtest, wie der Sekundenzeiger gegen diesen unmöglichen Moment zittert. Auch du weißt, irgendwo tief in deiner Brust, genau, wie es sich anfühlt, die Zeit in der Sekunde vor einem Verlust anhalten zu wollen.",
+            "zh": "你刮去表盘上的污垢，玻璃下露出一行由绝望之手刻下的字：「它停在了3点47分。那是她停止呼吸的时刻。从那以后，城中再没有一座钟敢走过那一分钟，因为那样做就等于承认，世界在没有她的情况下依然在转动。」你看着秒针一次次在那不可能的瞬间颤抖。你自己内心深处，也清楚地知道那种想要在失去的前一秒让时间停止的感觉。",
+            "ja": "文字盤の汚れをこすり落とすと、絶望に駆られた手によってガラスの下に刻まれたメモが現れる：「3時47分に止まった。彼女が息を引き取った時刻だ。それ以来、この街のどの時計もその分を過ぎようとしない。そうすることは、世界が彼女なしで回り続けたことを認めることになるからだ」。お前は秒針がその不可能な瞬間に向かって震えるのを見つめる。お前自身も、胸のどこかで、喪失の一秒前で時を止めたいと願う気持ちを正確に知っている。"
+        },
+        "next": [
+            "rel_opt_salir"
+        ],
+        "reward": "faceta:cordura=-1;gflag:rel_examinado"
+    },
+    "rel_opt_mover": {
+        "type": "option",
+        "text": {
+            "es": "🕰️  Empujar el minutero para que el reloj vuelva a andar",
+            "en": "🕰️  Push the minute hand so the clock starts again",
+            "fr": "🕰️  Pousser la grande aiguille pour que l'horloge reparte",
+            "it": "🕰️  Spingere la lancetta dei minuti perché l'orologio riparta",
+            "de": "🕰️  Den Minutenzeiger schieben, damit die Uhr wieder läuft",
+            "zh": "🕰️  推动分针，让时钟重新走动",
+            "ja": "🕰️  分針を押して時計を再び動かす"
+        },
+        "next": [
+            "rel_msg_mover"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "rel_msg_mover": {
+        "type": "message",
+        "text": {
+            "es": "Apoyas ambas manos en el minutero de hierro y, con esfuerzo, lo empujas más allá de las 3:47. Por un instante nada ocurre. Luego, con un chirrido profundo que retumba por todo el páramo, el segundero por fin avanza, y el reloj vuelve a latir: tic, tac, tic. No has arreglado nada del pasado. Pero has hecho lo único que se puede hacer con el tiempo detenido: dejarlo, por fin, seguir. Es un gesto pequeño y enorme a la vez, y sientes que va dirigido a ti mismo.",
+            "en": "You brace both hands on the iron minute hand and, with effort, push it past 3:47. For an instant nothing happens. Then, with a deep grinding that echoes across the whole badlands, the second hand finally advances, and the clock beats again: tick, tock, tick. You've fixed nothing of the past. But you've done the one thing you can do with stopped time: let it, at last, go on. It's a gesture small and enormous at once, and you feel it's aimed at yourself.",
+            "fr": "Tu appuies des deux mains sur l'aiguille de fer et, avec effort, la pousses au-delà de 3h47. Pendant un instant, rien ne se passe. Puis, avec un grincement profond qui résonne à travers tout le désert, la trotteuse avance enfin, et l'horloge se remet à battre : tic, tac, tic. Tu n'as rien réparé du passé. Mais tu as fait la seule chose possible avec un temps arrêté : le laisser, enfin, continuer. C'est un geste à la fois petit et immense, et tu sens qu'il s'adresse à toi-même.",
+            "it": "Appoggi entrambe le mani sulla lancetta di ferro e, con sforzo, la spingi oltre le 3:47. Per un istante non succede nulla. Poi, con uno stridio profondo che rimbomba per tutta la landa, la lancetta dei secondi finalmente avanza, e l'orologio torna a battere: tic, tac, tic. Non hai sistemato nulla del passato. Ma hai fatto l'unica cosa possibile con il tempo fermo: lasciarlo, finalmente, andare avanti. È un gesto piccolo ed enorme allo stesso tempo, e senti che è rivolto a te stesso.",
+            "de": "Du stemmst beide Hände gegen den eisernen Zeiger und schiebst ihn mit Anstrengung über 3:47 hinaus. Für einen Moment geschieht nichts. Dann, mit einem tiefen Knirschen, das über das ganze Ödland hallt, rückt der Sekundenzeiger endlich vor, und die Uhr schlägt wieder: tick, tack, tick. Du hast nichts von der Vergangenheit repariert. Aber du hast das Einzige getan, was man mit angehaltener Zeit tun kann: sie endlich weitergehen lassen. Es ist eine Geste, zugleich klein und riesig, und du spürst, dass sie dir selbst gilt.",
+            "zh": "你双手用力推着那根铁制指针，费力地将它推过3点47分。刹那间什么都没发生。随后，一阵深沉的嘎吱声响彻整片荒原，秒针终于开始前进，时钟重新跳动起来：滴答、滴答、滴答。你并没有修复过去的任何东西。但你做了对于停滞的时间唯一能做的事：终于让它继续前行。这是一个既微小又巨大的举动，你感觉到它其实是对你自己的宽恕。",
+            "ja": "両手で鉄の分針を押さえ、力を込めて3時47分を越えて押し進める。一瞬、何も起こらない。だがやがて、荒野全体に響く深い軋みとともに、秒針がついに進み始め、時計は再び時を刻む——チクタク、チクタク。過去の何かを直したわけではない。だが、止まった時間に対してできる唯一のこと、それをようやく先へ進ませることをした。小さくもあり、途方もなくもある仕草。それは自分自身に向けられたものだと感じる。"
+        },
+        "next": [
+            "rel_opt_salir"
+        ],
+        "reward": "faceta:cordura=+1;gflag:rel_reactivado",
+        "condition": "no_gflag(\"rel_reactivado\")",
+        "once": true
+    },
+    "rel_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Dejar el reloj con su minuto roto",
+            "en": "🚶  Leave the clock to its broken minute",
+            "fr": "🚶  Laisser l'horloge à sa minute brisée",
+            "it": "🚶  Lasciare l'orologio al suo minuto spezzato",
+            "de": "🚶  Die Uhr mit ihrer zerbrochenen Minute zurücklassen",
+            "zh": "🚶  留下这座时钟，任它停留在那破碎的一分钟",
+            "ja": "🚶  時計をその砕けた一分のままにしておく"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

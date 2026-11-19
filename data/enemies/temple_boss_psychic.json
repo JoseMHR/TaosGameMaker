@@ -1,0 +1,60 @@
+{
+  "name": {
+    "es": "Vacío Etéreo",
+    "en": "Ethereal Void",
+    "fr": "Vide Éthéré",
+    "it": "Vuoto Etereo",
+    "de": "Ätherische Leere",
+    "zh": "以太虚空",
+    "ja": "エーテルヴォイド"
+  },
+  "icon": "👁️",
+  "image": "res://assets/combat/enemies/en_ethereal_void.png",
+  "attack_type": "magic",
+  "base_dodge": 0.0,
+  "dodge_scale": 0.0,
+  "element": "magic",
+  "weak_to": [
+    "magic",
+    "none",
+    "psychic"
+  ],
+  "resist": [
+    "physical"
+  ],
+  "ai": "caster",
+  "xp_reward_base": 260,
+  "xp_reward_scale": 17.0,
+  "gold_reward_base": 160,
+  "gold_reward_scale": 13.0,
+  "skills": [
+    {
+      "level": 1,
+      "skill_id": "void_pulse"
+    },
+    {
+      "level": 5,
+      "skill_id": "mind_blast"
+    },
+    {
+      "level": 10,
+      "skill_id": "psychic_crush"
+    }
+  ],
+  "loot": [
+    {
+      "kind": "gold",
+      "min": 120,
+      "max": 220
+    },
+    {
+      "kind": "equipment",
+      "chance": 1.0,
+      "level": 4
+    }
+  ],
+  "family": "magical",
+  "archetype": "boss",
+  "zone": "zona_3_sylphrena",
+  "is_boss": true
+}

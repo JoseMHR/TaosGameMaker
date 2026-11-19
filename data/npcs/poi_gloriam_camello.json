@@ -1,0 +1,167 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Camello Quejica",
+            "en": "The Grumpy Camel",
+            "fr": "Le Chameau Grincheux",
+            "it": "Il Cammello Lamentoso",
+            "de": "Das Griesgrämige Kamel",
+            "zh": "爱抱怨的骆驼",
+            "ja": "文句たらたらのラクダ"
+        },
+        "next": [],
+        "reward": "avatar=🐫;bg=0.15,0.12,0.05"
+    },
+    "cam_done": {
+        "type": "message",
+        "text": {
+            "es": "El camello te ve llegar y, por primera vez, no escupe. En su lugar, resopla con algo parecido al afecto y te da un cabezazo suave en el hombro. De un animal tan rencoroso, es prácticamente una declaración de amor eterno.",
+            "en": "The camel sees you coming and, for the first time, doesn't spit. Instead, it snorts with something like affection and gives you a gentle headbutt on the shoulder. From an animal this spiteful, it's practically a declaration of eternal love.",
+            "fr": "Le chameau te voit arriver et, pour la première fois, ne crache pas. Au lieu de cela, il souffle avec quelque chose ressemblant à de l'affection et te donne un doux coup de tête sur l'épaule. Venant d'un animal aussi rancunier, c'est pratiquement une déclaration d'amour éternel.",
+            "it": "Il cammello ti vede arrivare e, per la prima volta, non sputa. Invece, sbuffa con qualcosa di simile all'affetto e ti dà una delicata testata sulla spalla. Da un animale così rancoroso, è praticamente una dichiarazione d'amore eterno.",
+            "de": "Das Kamel sieht dich kommen und spuckt, zum ersten Mal, nicht. Stattdessen schnaubt es mit etwas, das Zuneigung ähnelt, und stupst dich sanft mit dem Kopf gegen die Schulter. Von einem so nachtragenden Tier ist das praktisch eine Erklärung ewiger Liebe.",
+            "zh": "骆驼看着你走来，第一次没有吐口水。相反，它发出一种近似亲昵的鼻息声，用头轻轻地在你肩膀上蹭了一下。对于一只如此记仇的动物来说，这几乎等同于永恒爱意的宣言。",
+            "ja": "ラクダはお前が来るのを見て、初めて唾を吐かない。代わりに、愛情のようなものを込めて鼻を鳴らし、肩に優しく頭突きをする。これほど恨みがましい動物にしては、事実上永遠の愛の告白のようなものだ。"
+        },
+        "next": [
+            "cam_opt_salir"
+        ],
+        "reward": "",
+        "condition": "gflag(\"cam_amigo\")"
+    },
+    "cam_root": {
+        "type": "message",
+        "text": {
+            "es": "Un camello solitario está tumbado junto a una roca, con las patas cruzadas y una expresión de desprecio absoluto hacia el universo entero. Una silla de montar rota cuelga de su joroba: su jinete lo abandonó hace tiempo. En cuanto te mira, entorna los ojos, mastica con desdén y prepara la garganta con un gorgoteo inequívocamente amenazante. Este animal ha decidido, de antemano, que no le caes bien.",
+            "en": "A lone camel lies beside a rock, legs crossed, wearing an expression of absolute contempt for the entire universe. A broken saddle hangs from its hump: its rider abandoned it long ago. The moment it looks at you, it narrows its eyes, chews with disdain, and readies its throat with an unmistakably threatening gurgle. This animal has decided, in advance, that it doesn't like you.",
+            "fr": "Un chameau solitaire est allongé près d'un rocher, les pattes croisées, l'expression d'un mépris absolu envers l'univers entier. Une selle brisée pend de sa bosse : son cavalier l'a abandonné il y a longtemps. Dès qu'il te regarde, il plisse les yeux, mâche avec dédain et prépare sa gorge avec un gargouillement indubitablement menaçant. Cet animal a décidé, à l'avance, qu'il ne t'aime pas.",
+            "it": "Un cammello solitario è disteso accanto a una roccia, con le zampe incrociate e un'espressione di assoluto disprezzo verso l'intero universo. Una sella rotta pende dalla sua gobba: il suo cavaliere lo abbandonò tempo fa. Appena ti guarda, socchiude gli occhi, mastica con disdegno e prepara la gola con un gorgoglio inequivocabilmente minaccioso. Questo animale ha deciso, in anticipo, che non gli piaci.",
+            "de": "Ein einsames Kamel liegt neben einem Felsen, die Beine gekreuzt, mit einem Ausdruck absoluter Verachtung für das gesamte Universum. Ein zerbrochener Sattel hängt von seinem Höcker: sein Reiter hat es vor langer Zeit verlassen. Sobald es dich anblickt, verengt es die Augen, kaut verächtlich und bereitet seine Kehle mit einem unmissverständlich bedrohlichen Gurgeln vor. Dieses Tier hat im Voraus beschlossen, dass es dich nicht mag.",
+            "zh": "一只孤独的骆驼躺在一块岩石旁，双腿交叉，脸上带着一副对整个宇宙的绝对轻蔑之情。一副破损的马鞍挂在它的驼峰上：它的骑手很久以前就抛弃了它。它一看到你，就眯起眼睛，轻蔑地咀嚼着，喉咙里发出一种毫不含糊的威胁性咕噜声。这只动物早已预先决定：它不喜欢你。",
+            "ja": "孤独なラクダが岩のそばに横たわり、脚を組んで、全宇宙への絶対的な軽蔑の表情を浮かべている。壊れた鞍がこぶからぶら下がっている——乗り手はずっと前に見捨てたのだ。お前を見た瞬間、目を細め、軽蔑するように咀嚼し、疑いようもなく威嚇的な喉音を準備する。この動物は前もって、お前のことを気に入らないと決めているのだ。"
+        },
+        "next": [
+            "cam_opt_paciencia",
+            "cam_opt_comida",
+            "cam_opt_montar",
+            "cam_opt_salir"
+        ],
+        "reward": ""
+    },
+    "cam_opt_paciencia": {
+        "type": "option",
+        "text": {
+            "es": "🧘  Sentarte a su lado y ganarte su confianza con paciencia",
+            "en": "🧘  Sit beside it and earn its trust with patience",
+            "fr": "🧘  T'asseoir à ses côtés et gagner sa confiance avec patience",
+            "it": "🧘  Sederti al suo fianco e guadagnarti la sua fiducia con pazienza",
+            "de": "🧘  Sich neben es setzen und geduldig sein Vertrauen gewinnen",
+            "zh": "🧘  坐在它身边，耐心地赢得它的信任",
+            "ja": "🧘  隣に座り、辛抱強く信頼を勝ち取る"
+        },
+        "next": [
+            "cam_msg_paciencia"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "cam_msg_paciencia": {
+        "type": "message",
+        "text": {
+            "es": "Te sientas a una distancia prudente y, sin más, esperas. Le hablas de vez en cuando, sin exigirle nada. El camello escupe una vez (fallando a propósito, para dejar claro quién manda), luego dos veces más flojito, y al rato, cansado de odiar a alguien que no se va, se acerca y apoya su enorme cabezota en tu regazo. Bajo toda esa mala leche solo había un animal al que dejaron atrás. Le rascas detrás de la oreja y suspira como si llevara años esperándolo.",
+            "en": "You sit at a prudent distance and simply wait. You speak to it now and then, demanding nothing. The camel spits once (missing on purpose, to make clear who's boss), then twice more halfheartedly, and after a while, tired of hating someone who won't leave, it edges over and rests its enormous head in your lap. Beneath all that bad temper was just an animal left behind. You scratch behind its ear and it sighs as if it had waited years for it.",
+            "fr": "Tu t'assois à une distance prudente et, sans plus, attends. Tu lui parles de temps en temps, sans rien exiger. Le chameau crache une fois (en manquant exprès, pour bien montrer qui commande), puis deux fois plus mollement, et après un moment, fatigué de détester quelqu'un qui ne s'en va pas, il s'approche et pose son énorme tête sur tes genoux. Sous toute cette mauvaise humeur, il n'y avait qu'un animal abandonné. Tu le grattes derrière l'oreille et il soupire comme s'il l'attendait depuis des années.",
+            "it": "Ti siedi a distanza prudente e, senza altro, aspetti. Gli parli di tanto in tanto, senza chiedergli nulla. Il cammello sputa una volta (mancando apposta, per chiarire chi comanda), poi altre due volte più fiaccamente, e dopo un po', stanco di odiare qualcuno che non se ne va, si avvicina e appoggia la sua enorme testa sul tuo grembo. Sotto tutto quel malumore c'era solo un animale abbandonato. Lo gratti dietro l'orecchio e sospira come se lo aspettasse da anni.",
+            "de": "Du setzt dich in vorsichtigem Abstand und wartest einfach. Du sprichst hin und wieder mit ihm, ohne etwas zu verlangen. Das Kamel spuckt einmal (absichtlich daneben, um klarzumachen, wer das Sagen hat), dann noch zweimal halbherziger, und nach einer Weile, müde davon, jemanden zu hassen, der nicht geht, nähert es sich und legt seinen riesigen Kopf in deinen Schoß. Unter all dieser schlechten Laune war nur ein zurückgelassenes Tier. Du kraulst es hinter dem Ohr und es seufzt, als hätte es jahrelang darauf gewartet.",
+            "zh": "你坐在一个适当的距离外，什么都不做，只是等待。你时不时地和它说话，不要求任何回应。骆驼吐了一次口水（故意没吐中，好表明谁才是主导者），然后又软弱无力地吐了两次，过了一会儿，厌倦了憎恨一个不肯离开的人，它靠了过来，把巨大的脑袋搁在你的膝盖上。在所有那些坏脾气之下，不过是一只被遗弃的动物。你挠了挠它耳朵后面，它叹了口气，仿佛已经等待这一刻等了好多年。",
+            "ja": "慎重な距離を置いて座り、ただ待つ。時折話しかけるが、何も要求しない。ラクダは一度唾を吐く（誰が主導権を握っているかを示すため、わざと外して）。それからさらに二度、より弱々しく。しばらくして、去らない相手を憎み続けることに疲れ、近づいてきて巨大な頭を膝に乗せる。あのすべての不機嫌の下には、ただ置き去りにされた動物がいただけだった。耳の後ろを掻いてやると、まるで何年も待っていたかのようにため息をつく。"
+        },
+        "next": [
+            "cam_opt_salir"
+        ],
+        "reward": "faceta:bondad=+1;gflag:cam_amigo",
+        "condition": "no_gflag(\"cam_amigo\")",
+        "once": true
+    },
+    "cam_opt_comida": {
+        "type": "option",
+        "text": {
+            "es": "🥕  Ofrecerle algo de comida para calmarlo",
+            "en": "🥕  Offer it some food to calm it down",
+            "fr": "🥕  Lui offrir de la nourriture pour le calmer",
+            "it": "🥕  Offrirgli del cibo per calmarlo",
+            "de": "🥕  Ihm etwas Futter anbieten, um es zu beruhigen",
+            "zh": "🥕  给它一些食物让它平静下来",
+            "ja": "🥕  落ち着かせるために食べ物を差し出す"
+        },
+        "next": [
+            "cam_msg_comida"
+        ],
+        "reward": ""
+    },
+    "cam_msg_comida": {
+        "type": "message",
+        "text": {
+            "es": "Le tiendes un poco de comida. El camello la mira, la olfatea, te mira a ti con profundo escepticismo... y se la come de un lengüetazo que casi te lleva la mano por delante. Acto seguido, y sin el menor rastro de gratitud, vuelve a poner cara de desprecio absoluto, como diciendo 'esto no cambia nada entre nosotros'. Al menos ya no parece que vaya a escupirte. De momento.",
+            "en": "You hold out a little food. The camel looks at it, sniffs it, looks at you with deep skepticism... and eats it in one lick that nearly takes your hand with it. Then, without the slightest trace of gratitude, it resumes its expression of absolute contempt, as if to say 'this changes nothing between us'. At least it no longer looks like it's about to spit at you. For now.",
+            "fr": "Tu lui tends un peu de nourriture. Le chameau la regarde, la renifle, te regarde avec un profond scepticisme... et l'avale d'un coup de langue qui manque de t'emporter la main. Puis, sans la moindre trace de gratitude, il reprend son expression de mépris absolu, comme pour dire « ça ne change rien entre nous ». Au moins, il n'a plus l'air prêt à te cracher dessus. Pour le moment.",
+            "it": "Gli porgi un po' di cibo. Il cammello lo guarda, lo annusa, ti guarda con profondo scetticismo... e lo mangia con una leccata che quasi ti porta via la mano. Subito dopo, senza il minimo segno di gratitudine, riprende la sua espressione di assoluto disprezzo, come a dire 'questo non cambia niente tra noi'. Almeno non sembra più sul punto di sputarti addosso. Per ora.",
+            "de": "Du hältst ihm etwas Futter hin. Das Kamel schaut es an, beschnuppert es, schaut dich mit tiefer Skepsis an... und frisst es mit einem Lecken, das fast deine Hand mitreißt. Danach, ohne die geringste Spur von Dankbarkeit, nimmt es wieder seinen Ausdruck absoluter Verachtung an, als wollte es sagen 'das ändert nichts zwischen uns'. Immerhin sieht es nicht mehr so aus, als würde es dich anspucken. Vorerst.",
+            "zh": "你递给它一些食物。骆驼看了看，闻了闻，用深深的怀疑目光看着你……然后一舌头舔了下去，差点把你的手也带走。紧接着，没有丝毫感激的痕迹，它又恢复了那副绝对轻蔑的表情，仿佛在说「这并不能改变我们之间的关系」。至少它现在看起来不会朝你吐口水了。暂时如此。",
+            "ja": "食べ物を差し出す。ラクダはそれを見て、匂いを嗅ぎ、深い懐疑心を込めてお前を見る……そして手ごと持っていきそうな勢いで一舐めで食べてしまう。その直後、感謝のかけらもなく、再び絶対的な軽蔑の表情に戻る。まるで「これで俺たちの間の何かが変わるわけじゃない」と言うかのように。少なくとも、もう唾を吐きかけそうには見えない。今のところは。"
+        },
+        "next": [
+            "cam_root"
+        ],
+        "reward": ""
+    },
+    "cam_opt_montar": {
+        "type": "option",
+        "text": {
+            "es": "🏇  Intentar montarlo sin permiso, a lo bruto",
+            "en": "🏇  Try to mount it without permission, by force",
+            "fr": "🏇  Essayer de le monter sans permission, brutalement",
+            "it": "🏇  Provare a montarlo senza permesso, con la forza",
+            "de": "🏇  Versuchen, ohne Erlaubnis grob aufzusteigen",
+            "zh": "🏇  未经允许，粗暴地试图骑上去",
+            "ja": "🏇  許可なく力ずくで乗ろうとする"
+        },
+        "next": [
+            "cam_msg_montar"
+        ],
+        "reward": ""
+    },
+    "cam_msg_montar": {
+        "type": "message",
+        "text": {
+            "es": "Te lanzas a subirte de un salto. El camello, que llevaba toda su vida esperando exactamente esta ofensa, se levanta con una velocidad imposible, te da una vuelta de campana en el aire y te deja aterrizando de espaldas en la arena caliente. Como colofón, te dedica un escupitajo perfecto, directo a la cara, y vuelve a tumbarse con la misma cara de desprecio. Has aprendido, por las malas, que el respeto no se monta: se gana.",
+            "en": "You lunge to climb on in one leap. The camel, which had spent its whole life waiting for precisely this offense, rises with impossible speed, flips you through the air, and leaves you landing flat on your back in the hot sand. As a finishing touch, it delivers a perfect spitball, straight to your face, and lies back down with the same contemptuous look. You have learned, the hard way, that respect isn't mounted: it's earned.",
+            "fr": "Tu bondis pour grimper dessus. Le chameau, qui attendait exactement cette offense depuis toute sa vie, se lève avec une vitesse impossible, te fait faire un tour complet dans les airs et te laisse atterrir sur le dos dans le sable brûlant. En guise de bouquet final, il t'assène un crachat parfait, en pleine face, et se recouche avec la même expression de mépris. Tu as appris, à tes dépens, que le respect ne se monte pas de force : il se gagne.",
+            "it": "Ti lanci per salirci sopra con un balzo. Il cammello, che aveva atteso esattamente questa offesa per tutta la vita, si alza con velocità impossibile, ti fa fare una capriola in aria e ti lascia atterrare di schiena sulla sabbia calda. Come tocco finale, ti dedica uno sputo perfetto, dritto in faccia, e si ridistende con la stessa espressione di disprezzo. Hai imparato, a tue spese, che il rispetto non si monta: si guadagna.",
+            "de": "Du springst mit einem Satz hinauf. Das Kamel, das genau auf diese Beleidigung sein ganzes Leben gewartet hatte, erhebt sich mit unmöglicher Geschwindigkeit, wirbelt dich durch die Luft und lässt dich rücklings im heißen Sand landen. Als Abschluss verpasst es dir einen perfekten Spuckstoß direkt ins Gesicht und legt sich mit demselben verächtlichen Blick wieder hin. Du hast auf die harte Tour gelernt, dass Respekt nicht bestiegen wird: er wird verdient.",
+            "zh": "你一跃而起想跳上去。骆驼，一生都在等待着正是这种冒犯，以不可能的速度站起来，把你在空中翻了个跟头，让你重重地摔在滚烫的沙地上，仰面朝天。作为收尾，它精准地朝你脸上吐了一口口水，然后带着同样轻蔑的表情重新躺下。你以惨痛的方式学到了：尊重不是靠强行骑上去获得的，而是要靠赢得的。",
+            "ja": "跳び上がって乗ろうとする。まさにこの侮辱を人生ずっと待っていたラクダは、あり得ない速さで立ち上がり、お前を空中で一回転させ、熱い砂の上に仰向けに叩きつける。仕上げとばかりに、完璧な唾を顔面に浴びせ、同じ軽蔑の表情のまま再び横たわる。お前は痛い目に遭って学んだ——敬意は乗って得るものではなく、勝ち取るものなのだと。"
+        },
+        "next": [
+            "cam_opt_salir"
+        ],
+        "reward": ""
+    },
+    "cam_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Dejar al camello con su rencor eterno",
+            "en": "🚶  Leave the camel to its eternal grudge",
+            "fr": "🚶  Laisser le chameau à sa rancune éternelle",
+            "it": "🚶  Lasciare il cammello al suo rancore eterno",
+            "de": "🚶  Das Kamel mit seinem ewigen Groll zurücklassen",
+            "zh": "🚶  留下骆驼继续它永恒的怨恨",
+            "ja": "🚶  永遠の恨みを抱えたラクダを残して去る"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

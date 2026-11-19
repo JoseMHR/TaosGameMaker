@@ -1,0 +1,9 @@
+{
+	"code": "forest",
+	"order": 0,
+	"label": "Bosque de Robles",
+	"icon": "🌲",
+	"biome_color": "#0d3b20",
+	"description": "Robles frondosos ideales para talar madera.",
+	"placeable": true
+}

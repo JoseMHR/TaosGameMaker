@@ -1,0 +1,23 @@
+{
+    "name": {
+        "es": "Sedante",
+        "en": "Sedative",
+        "fr": "Sédatif",
+        "it": "Sedativo",
+        "de": "Beruhigungsmittel",
+        "zh": "镇静剂",
+        "ja": "鎮静剤"
+    },
+    "desc": {
+        "es": "Un frasco de sedante sintético, de los que sirven en los bares clandestinos de Arcanum. Nox lo agradecería.",
+        "en": "A vial of synthetic sedative, the kind served in Arcanum's back-alley bars. Nox would appreciate it.",
+        "fr": "Un flacon de sédatif synthétique, du genre servi dans les bars clandestins d'Arcanum. Nox l'apprécierait.",
+        "it": "Un flacone di sedativo sintetico, del tipo servito nei bar clandestini di Arcanum. Nox lo apprezzerebbe.",
+        "de": "Eine Phiole synthetisches Beruhigungsmittel, wie sie in Arcanums Hinterhofbars serviert wird. Nox würde es zu schätzen wissen.",
+        "zh": "一瓶合成镇静剂，正是奥秘遗迹地下酒吧提供的那种。诺克斯一定会感激的。",
+        "ja": "アルカナムの裏路地バーで提供されるような合成鎮静剤の小瓶。ノックスなら喜ぶだろう。"
+    },
+    "icon": "💉",
+    "category": "important",
+    "usable": false
+}

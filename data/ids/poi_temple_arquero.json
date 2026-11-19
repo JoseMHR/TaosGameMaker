@@ -1,0 +1,32 @@
+{
+    "id": "poi_temple_arquero",
+    "type": "poi",
+    "name": {
+        "es": "Templo del Arquero",
+        "en": "Temple of the Archer",
+        "fr": "Temple de l'Archer",
+        "it": "Tempio dell'Arciere",
+        "de": "Tempel des Bogenschützen",
+        "zh": "弓箭手神庙",
+        "ja": "弓兵の神殿"
+    },
+    "icon": "🏹",
+    "desc": {
+        "es": "El susurro de la cuerda",
+        "en": "The whisper of the string",
+        "fr": "Le murmure de la corde",
+        "it": "Il sussurro della corda",
+        "de": "Das Flüstern der Sehne",
+        "zh": "弓弦的低语",
+        "ja": "弦の囁き"
+    },
+    "npc": "temple_archer",
+    "presences": [
+        {
+            "condition": "default",
+            "actor": "temple_archer",
+            "entry_node": ""
+        }
+    ],
+    "bg": "bg_temple_arquero.png"
+}

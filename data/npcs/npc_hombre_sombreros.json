@@ -1,0 +1,184 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "Lord Sombrerius",
+            "en": "Lord Sombrerius",
+            "fr": "Lord Sombrerius",
+            "it": "Lord Sombrerius",
+            "de": "Lord Sombrerius",
+            "zh": "帽爵大人",
+            "ja": "帽子卿"
+        },
+        "next": [],
+        "reward": "avatar=🎩;bg=0.06,0.05,0.08"
+    },
+    "sombreros_root": {
+        "type": "message",
+        "text": {
+            "es": "Un distinguido caballero mantiene un precario equilibrio sobre sus pies, sosteniendo una imponente torre de OCHO sombreros de copa, boinas y turbantes apilados sobre su coronilla. Te mira por debajo de un ala de terciopelo. '¡Detente, criatura sin corona! No me hables directamente sin antes presentar los honores a mi sombrero superior, Sir Chapeau Octavo.'",
+            "en": "A distinguished gentleman precariously balances an imposing tower of EIGHT stacked top hats, berets, and turbans upon his head. He gazes down at you from beneath a velvet brim. 'Halt, crownless creature! Do not address me directly without first paying homage to my uppermost hat, Sir Chapeau the Eighth.'",
+            "fr": "Un gentleman distingué maintient un équilibre précaire sur ses pieds, portant une imposante tour de HUIT hauts-de-forme, bérets et turbans empilés sur son crâne. Il te regarde de sous une aile de velours. « Halte-là, créature sans couronne ! Ne m'adresse pas directement la parole sans avoir d'abord rendu hommage à mon chapeau supérieur, Sir Chapeau le Huitième. »",
+            "it": "Un distinto gentiluomo mantiene un precario equilibrio sui piedi, sostenendo un'imponente torre di OTTO cilindri, berretti e turbanti impilati sulla sua testa. Ti guarda da sotto un'ala di velluto. 'Fermati, creatura senza corona! Non rivolgermi la parola direttamente senza prima rendere omaggio al mio cappello superiore, Sir Chapeau Ottavo.'",
+            "de": "Ein distinguierter Gentleman balanciert prekär auf seinen Füßen und trägt einen imposanten Turm aus ACHT gestapelten Zylinderhüten, Baretten und Turbanen auf dem Kopf. Er blickt dich unter einer samtenen Krempe hervor an. „Halt, kronenloses Geschöpf! Sprich mich nicht direkt an, ohne zuvor meinem obersten Hut, Sir Chapeau dem Achten, Ehre zu erweisen.“",
+            "zh": "一位气度不凡的绅士在双脚上艰难地保持着平衡，头顶叠着由整整八顶高帽、贝雷帽和头巾组成的巍峨高塔。他从天鹅绒帽檐下俯视着你。「站住，无冕的凡人！不得在没有先向我最上层的帽子——第八代帽爵先生致敬之前，直接与我交谈。」",
+            "ja": "気品ある紳士が頭上に八つの山高帽、ベレー帽、ターバンを積み重ねた威圧的な塔を載せて、危うく足元でバランスを取っている。ベルベットのつばの下からお前を見下ろす。「止まれ、王冠なき者よ！私の最上位の帽子、シャポー八世卿に敬意を払わずして、直接話しかけるでない」"
+        },
+        "next": [
+            "sombreros_opt_porque",
+            "sombreros_opt_torre",
+            "sombreros_opt_alabar",
+            "sombreros_opt_filosofia",
+            "sombreros_opt_salir"
+        ],
+        "reward": ""
+    },
+    "sombreros_opt_porque": {
+        "type": "option",
+        "text": {
+            "es": "🎩  ¿Por qué llevas exactamente ocho sombreros a la vez?",
+            "en": "🎩  Why are you wearing exactly eight hats at once?",
+            "fr": "🎩  Pourquoi portes-tu exactement huit chapeaux à la fois ?",
+            "it": "🎩  Perché indossi esattamente otto cappelli contemporaneamente?",
+            "de": "🎩  Warum trägst du genau acht Hüte gleichzeitig?",
+            "zh": "🎩  你为什么要同时戴上整整八顶帽子？",
+            "ja": "🎩  なぜちょうど八つの帽子を同時にかぶっているんだ？"
+        },
+        "next": [
+            "sombreros_msg_porque"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "sombreros_msg_porque": {
+        "type": "message",
+        "text": {
+            "es": "'¿Por qué? ¡¿POR QUÉ?! ¡Porque el cráneo humano es una aberración biológica vulnerable a los rayos astrales, a las cagadas de gaviota y a las malas vibraciones! Cada sombrero es una capa de protección ontológica. El bombín filtra la envidia, la boina fomenta el intelecto, y el tricornio... bueno, el tricornio me hace ver sumamente intimidante.' Analizar su lógica absurda expande tu pensamiento lateral.",
+            "en": "'Why? WHY?! Because the human skull is a biological monstrosity vulnerable to astral beams, seagull droppings, and bad vibes! Each hat is a layer of ontological armor. The bowler filters envy, the beret boosts intellect, and the tricorn... well, the tricorn makes me look intensely formidable.' Pondering his absurd reasoning broadens your lateral thinking.",
+            "fr": "« Pourquoi ? POURQUOI ?! Parce que le crâne humain est une aberration biologique vulnérable aux rayons astraux, aux fientes de mouette et aux mauvaises vibrations ! Chaque chapeau est une couche de protection ontologique. Le melon filtre l'envie, le béret stimule l'intellect, et le tricorne... eh bien, le tricorne me rend extrêmement intimidant. » Analyser sa logique absurde élargit ta pensée latérale.",
+            "it": "'Perché? PERCHÉ?! Perché il cranio umano è un'aberrazione biologica vulnerabile ai raggi astrali, alle cacate di gabbiano e alle cattive vibrazioni! Ogni cappello è uno strato di protezione ontologica. La bombetta filtra l'invidia, il berretto favorisce l'intelletto, e il tricorno... beh, il tricorno mi fa sembrare estremamente intimidatorio.' Analizzare la sua logica assurda amplia il tuo pensiero laterale.",
+            "de": "„Warum? WARUM?! Weil der menschliche Schädel eine biologische Aberration ist, verwundbar durch astrale Strahlen, Möwenkot und schlechte Schwingungen! Jeder Hut ist eine Schicht ontologischen Schutzes. Der Melone filtert Neid, das Barett fördert den Intellekt, und der Dreispitz... nun, der Dreispitz lässt mich äußerst furchteinflößend aussehen.“ Seine absurde Logik zu analysieren erweitert dein laterales Denken.",
+            "zh": "「为什么？为什——么？！因为人类的头骨是一种极其脆弱的生物畸变，容易受到星辰射线、海鸥粪便以及负面能量的侵扰！每一顶帽子都是一层本体论保护。圆顶礼帽能过滤嫉妒，贝雷帽能促进智力，而那顶三角帽……嗯，三角帽能让我看起来极具威慑力。」分析他这套荒诞的逻辑拓宽了你的横向思维。",
+            "ja": "「なぜだと？なぜだと！？人間の頭蓋骨は星の光線、カモメの糞、悪い波動に弱い生物学的な欠陥だからだ！それぞれの帽子は存在論的な防御層なのだ。山高帽は嫉妬を濾過し、ベレー帽は知性を高め、そして三角帽は……まあ、三角帽は私を非常に威圧的に見せてくれる」彼の馬鹿げた論理を分析することで、お前の水平思考が広がる。"
+        },
+        "next": [
+            "sombreros_root"
+        ],
+        "reward": "faceta:inteligencia=+1"
+    },
+    "sombreros_opt_torre": {
+        "type": "option",
+        "text": {
+            "es": "💨  (Soplar suavemente hacia su cabeza)",
+            "en": "💨  (Blow gently towards his head)",
+            "fr": "💨  (Souffler doucement vers sa tête)",
+            "it": "💨  (Soffiare delicatamente verso la sua testa)",
+            "de": "💨  (Sanft gegen seinen Kopf pusten)",
+            "zh": "💨  （轻轻朝他的头吹一口气）",
+            "ja": "💨  （彼の頭に向かってそっと息を吹きかける）"
+        },
+        "next": [
+            "sombreros_msg_torre"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "sombreros_msg_torre": {
+        "type": "message",
+        "text": {
+            "es": "'¡¡NOOOOO!! ¡LA AERODINÁMICA!' La torre se balancea con un chirrido de fieltro y Lord Sombrerius ejecuta una serie de piruetas agónicas para salvar el equilibrio de la estructura. '¡Bárbaro! ¡Terrorista del estilo! ¡Casi descalabras tres siglos de alta costura!' Mantener la compostura ante semejante drama requiere agallas de acero.",
+            "en": "'NOOOOO!! THE AERODYNAMICS!' The tower sways with a screech of felt, and Lord Sombrerius performs an agonizing series of pirouettes to salvage the balance of the structure. 'Barbarian! Terrorist of fashion! You nearly toppled three centuries of haute couture!' Keeping composure facing such theatrics takes nerves of steel.",
+            "fr": "« NOOOON !! L'AÉRODYNAMIQUE ! » La tour vacille dans un grincement de feutre et Lord Sombrerius exécute une série de pirouettes agonisantes pour sauver l'équilibre de la structure. « Barbare ! Terroriste du style ! Tu as failli renverser trois siècles de haute couture ! » Garder son calme face à un tel drame demande des nerfs d'acier.",
+            "it": "'NOOOOO!! L'AERODINAMICA!' La torre oscilla con uno stridio di feltro e Lord Sombrerius esegue una serie di piroette agonizzanti per salvare l'equilibrio della struttura. 'Barbaro! Terrorista dello stile! Hai quasi fatto crollare tre secoli di alta moda!' Mantenere la calma di fronte a un simile dramma richiede nervi d'acciaio.",
+            "de": "„NEIIIN!! DIE AERODYNAMIK!“ Der Turm schwankt mit einem Filzknarren, und Lord Sombrerius vollführt eine Reihe qualvoller Pirouetten, um das Gleichgewicht der Struktur zu retten. „Barbar! Terrorist des Stils! Du hast fast drei Jahrhunderte Haute Couture zum Einsturz gebracht!“ Die Fassung angesichts eines solchen Dramas zu bewahren, erfordert Nerven aus Stahl.",
+            "zh": "「不——！气动力学啊！」高塔在毡呢摩擦的吱嘎声中摇晃起来，帽爵大人上演了一连串痛苦挣扎的旋转动作，试图挽救整座结构的平衡。「野蛮人！风格恐怖分子！你差点毁掉三个世纪的高级定制！」在如此夸张的闹剧面前保持镇定需要钢铁般的意志。",
+            "ja": "「うわあああ！！空力が！」フェルトのきしみとともに塔が揺れ、帽子卿は構造のバランスを救うため、苦悶に満ちた一連の回転を披露する。「野蛮人め！様式のテロリストめ！三世紀にわたる高級仕立てを危うく崩壊させるところだったぞ！」これほどの大芝居を前に平静を保つには鋼の神経が必要だ。"
+        },
+        "next": [
+            "sombreros_root"
+        ],
+        "reward": "faceta:valor=+1"
+    },
+    "sombreros_opt_alabar": {
+        "type": "option",
+        "text": {
+            "es": "✨  Inclinarte en reverencia: Mis respetos a Sir Chapeau Octavo y a su sublime equilibrio",
+            "en": "✨  Bow with solemn grace: My deepest respects to Sir Chapeau the Eighth and his sublime posture",
+            "fr": "✨  Tincliner avec révérence : « Mes respects à Sir Chapeau le Huitième et à son sublime équilibre",
+            "it": "✨  Inchinarti in riverenza: I miei rispetti a Sir Chapeau Ottavo e al suo sublime equilibrio",
+            "de": "✨  Sich ehrerbietig verneigen: Meine Hochachtung Sir Chapeau dem Achten und seinem erhabenen Gleichgewicht",
+            "zh": "✨  恭敬地鞠躬：向第八代帽爵先生及其崇高的平衡致以敬意",
+            "ja": "✨  厳粛にお辞儀をする：シャポー八世卿とその崇高な均衡に敬意を表します"
+        },
+        "next": [
+            "sombreros_msg_alabar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "sombreros_msg_alabar": {
+        "type": "message",
+        "text": {
+            "es": "Lord Sombrerius se lleva un pañuelo de seda a los ojos, conmovido hasta el tuétano: '¡Por fin! ¡Un ser civilizado en este yermo de cabezas desnudas! Sir Chapeau Octavo tiembla de orgullo. Por tu inmaculado sentido del protocolo, te nombro Gran Chambelán de la Fieltrería.' Te entrega una bolsa de oro y un elegante broche artesanal. Tu presencia irradia distinción.",
+            "en": "Lord Sombrerius dabs his eyes with a silk kerchief, deeply touched to his core: 'At last! A civilized soul in this wasteland of bare skulls! Sir Chapeau the Eighth trembles with pride. For your immaculate sense of decorum, I dub you Grand Chamberlain of Felt.' He presses a bag of gold and an artisan clasp into your palm. Your presence radiates distinction.",
+            "fr": "Lord Sombrerius porte un mouchoir de soie à ses yeux, ému jusqu'aux tréfonds : « Enfin ! Un être civilisé dans cette friche de crânes nus ! Sir Chapeau le Huitième tremble de fierté. Pour ton sens impeccable du protocole, je te nomme Grand Chambellan de la Feutrerie. » Il te remet une bourse d'or et une élégante broche artisanale. Ta présence rayonne de distinction.",
+            "it": "Lord Sombrerius si porta un fazzoletto di seta agli occhi, commosso fin nel midollo: 'Finalmente! Un essere civilizzato in questo deserto di teste nude! Sir Chapeau Ottavo trema d'orgoglio. Per il tuo immacolato senso del protocollo, ti nomino Gran Ciambellano della Feltreria.' Ti consegna una borsa d'oro e un elegante fermaglio artigianale. La tua presenza irradia distinzione.",
+            "de": "Lord Sombrerius tupft sich mit einem Seidentaschentuch die Augen, bis ins Mark gerührt: „Endlich! Ein zivilisiertes Wesen in dieser Wüste nackter Schädel! Sir Chapeau der Achte zittert vor Stolz. Für dein makelloses Gespür für Protokoll ernenne ich dich zum Großkämmerer der Filzerei.“ Er drückt dir einen Beutel Gold und eine elegante handgefertigte Brosche in die Hand. Deine Erscheinung strahlt Vornehmheit aus.",
+            "zh": "帽爵大人用丝绸手帕轻拭双眼，内心深处被深深触动：「终于！在这片光秃秃的头颅荒原中，出现了一位文明人！第八代帽爵先生激动得直发抖。看在你完美无瑕的礼仪意识份上，我封你为『毡呢总管』。」他递给你一袋金币和一枚精美的手工别针。你的气度散发出高贵的光彩。",
+            "ja": "帽子卿は絹のハンカチで目元を押さえ、心の底から感動している。「ついに！この裸の頭蓋骨の荒野に文明人が現れた！シャポー八世卿は誇りに震えているぞ。お前の完璧な礼儀作法に免じて、フェルト大侍従長に任命しよう」金貨の袋と職人が作った優雅なブローチを手渡してくれる。お前の存在は気品を放っている。"
+        },
+        "next": [
+            "sombreros_root"
+        ],
+        "reward": "faceta:aspecto=+1;gold:+30"
+    },
+    "sombreros_opt_filosofia": {
+        "type": "option",
+        "text": {
+            "es": "👑  ¿Has visitado el palacio del Rey en Celestia?",
+            "en": "👑  Have you visited the King palace in Celestia?",
+            "fr": "👑  As-tu visité le palais du Roi à Celestia ?",
+            "it": "👑  Hai visitato il palazzo del Re a Celestia?",
+            "de": "👑  Hast du den Palast des Königs in Celestia besucht?",
+            "zh": "👑  你去过塞莱斯提亚的国王宫殿吗？",
+            "ja": "👑  セレスティアの王の宮殿に行ったことは？"
+        },
+        "next": [
+            "sombreros_msg_filosofia"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "sombreros_msg_filosofia": {
+        "type": "message",
+        "text": {
+            "es": "'¿El Rey? ¡Un aficionado! Lleva una corona de oro... ¡una sola pieza! ¡Qué falta de visión, qué austeridad deprimente! Yo le propuse una corona sobre un fez sobre un casco de caballero. Me echó de la corte por \"falta de decoro\". Los mediocres nunca entenderán la vanguardia.' Comprender las rarezas ajenas fomenta tu empatía.",
+            "en": "'The King? An amateur! He wears a gold crown... a single piece! What a lack of vision, what depressing austerity! I proposed a crown upon a fez upon a knight helmet. He threw me out of court for \"indecorum\". Mediocres will never understand the avant-garde.' Understanding odd souls nurtures your empathy.",
+            "fr": "« Le Roi ? Un amateur ! Il porte une couronne d'or... une seule pièce ! Quel manque de vision, quelle austérité déprimante ! Je lui ai proposé une couronne sur un fez sur un casque de chevalier. Il m'a chassé de la cour pour « manque de décorum ». Les médiocres ne comprendront jamais l'avant-garde. » Comprendre les excentricités d'autrui nourrit ton empathie.",
+            "it": "'Il Re? Un dilettante! Porta una corona d'oro... un solo pezzo! Che mancanza di visione, che deprimente austerità! Gli proposi una corona su un fez su un elmo da cavaliere. Mi cacciò dalla corte per \"mancanza di decoro\". I mediocri non capiranno mai l'avanguardia.' Comprendere le stranezze altrui favorisce la tua empatia.",
+            "de": "„Der König? Ein Amateur! Er trägt eine goldene Krone... ein einziges Stück! Was für ein Mangel an Vision, was für eine deprimierende Schlichtheit! Ich schlug ihm eine Krone auf einem Fez auf einem Ritterhelm vor. Er warf mich wegen ‚Mangel an Anstand' aus dem Hof. Mittelmäßige werden die Avantgarde niemals verstehen.“ Die Eigenheiten anderer zu verstehen nährt deine Empathie.",
+            "zh": "「国王？一个业余爱好者！他只戴一顶金冠……单单一件！多么缺乏远见，多么令人沮丧的简朴！我曾提议给他一顶戴在毡帽上、再戴在骑士头盔上的王冠。他以『有失体统』为由把我赶出了宫廷。庸人永远无法理解先锋艺术。」理解他人的怪癖增进了你的共情能力。",
+            "ja": "「王だと？素人だな！金の冠を一つだけ着けているんだぞ！なんという視野の狭さ、なんという鬱陶しいほどの質素さだ！私はフェズの上に、さらに騎士の兜の上に冠を重ねることを提案したのだ。彼は『礼儀を欠く』として私を宮廷から追い出した。凡人には決して前衛芸術など理解できまい」他人の奇妙さを理解することは、お前の共感力を育む。"
+        },
+        "next": [
+            "sombreros_root"
+        ],
+        "reward": "faceta:bondad=+1;discover:lore_sombrerius"
+    },
+    "sombreros_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Me quito el sombrero... y me voy.",
+            "en": "🚶  Hats off to you... and farewell.",
+            "fr": "🚶  Je te tire mon chapeau... et je m'en vais.",
+            "it": "🚶  Mi tolgo il cappello... e me ne vado.",
+            "de": "🚶  Hut ab vor dir... und ich gehe.",
+            "zh": "🚶  向你脱帽致意……然后离开。",
+            "ja": "🚶  帽子を脱いで敬意を表し……立ち去る。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

@@ -1,0 +1,290 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "Grog el Tabernero",
+            "en": "Grog the Barkeep",
+            "fr": "Grog le Tavernier",
+            "it": "Grog il Taverniere",
+            "de": "Grog der Wirt",
+            "zh": "酒馆老板格罗格",
+            "ja": "酒場の主グロッグ"
+        },
+        "next": [],
+        "reward": "avatar=🧔;bg=0.1,0.06,0.03"
+    },
+    "tavern_hunt_done": {
+        "type": "message",
+        "text": {
+            "es": "¿Tres bandidos menos, dices? ¡Ja! Sabía que tenías más agallas de las que aparentas. Toma, un buen trozo de cuero curtido y algo de oro. Con un poco de suerte, el resto de la banda se lo pensará dos veces antes de acercarse a la ciudad.",
+            "en": "Three fewer bandits, you say? Ha! Knew you had more guts than you let on. Here, a good chunk of tanned leather and some gold. With any luck, the rest of the gang will think twice before coming near the city.",
+            "fr": "Trois bandits en moins, dis-tu ? Ha ! Je savais que tu avais plus de cran que tu n'en laissais paraître. Tiens, un bon morceau de cuir tanné et un peu d'or. Avec un peu de chance, le reste de la bande y réfléchira à deux fois avant de s'approcher de la ville.",
+            "it": "Tre banditi in meno, dici? Ah! Sapevo che avevi più fegato di quanto sembrasse. Tieni, un buon pezzo di cuoio conciato e un po' d'oro. Con un po' di fortuna, il resto della banda ci penserà due volte prima di avvicinarsi alla città.",
+            "de": "Drei Banditen weniger, sagst du? Ha! Ich wusste, du hast mehr Mumm, als du zeigst. Hier, ein gutes Stück gegerbtes Leder und etwas Gold. Mit etwas Glück wird sich der Rest der Bande zweimal überlegen, ob er sich der Stadt nähert.",
+            "zh": "少了三个强盗，你说？哈！我就知道你比看起来更有胆量。给你，一大块鞣制皮革和一些金子。运气好的话，剩下的那帮人再靠近这座城市之前会三思而后行。",
+            "ja": "盗賊が三人減ったって？ハッ！お前が見た目以上に度胸があるとは思っていたぜ。ほら、なめした革の良い切れ端と金貨だ。運が良ければ、残りの一味は街に近づく前に二の足を踏むだろう。"
+        },
+        "next": [
+            "tavern_hunt_done_ok"
+        ],
+        "reward": "gflag:hunt_bandidos_done;item:cuero=2;gold:60",
+        "condition": "has_gflag(\"hunt_bandidos_accepted\") and hunt_progress(\"hunt_bandidos_kills\") >= 3 and no_gflag(\"hunt_bandidos_done\")",
+        "once": true
+    },
+    "tavern_hunt_done_ok": {
+        "type": "option",
+        "text": {
+            "es": "💪  Cuando quieras, Grog",
+            "en": "💪  Anytime, Grog",
+            "fr": "💪  Quand tu veux, Grog",
+            "it": "💪  Quando vuoi, Grog",
+            "de": "💪  Jederzeit, Grog",
+            "zh": "💪  随时效劳，格罗格",
+            "ja": "💪  いつでも言ってくれ、グロッグ"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "tavern_hunt_waiting": {
+        "type": "message",
+        "text": {
+            "es": "¿Cómo va la caza de bandidos? No se alejan mucho de la ciudad, será que Celestia todavía les da algo de respeto. Búscalos por los alrededores y no vuelvas hasta tener a tres menos.",
+            "en": "How's the bandit hunt going? They don't stray far from the city, guess Celestia still puts the fear in them. Look for them in the surrounding area and don't come back until there are three fewer of them.",
+            "fr": "Comment se passe la chasse aux bandits ? Ils ne s'éloignent pas trop de la ville, je suppose que Celestia leur inspire encore un peu de respect. Cherche-les dans les environs et ne reviens pas avant d'en avoir éliminé trois.",
+            "it": "Come va la caccia ai banditi? Non si allontanano molto dalla città, sarà che Celestia gli incute ancora un po' di rispetto. Cercali nei dintorni e non tornare finché non ne hai fatti fuori tre.",
+            "de": "Wie läuft die Banditenjagd? Sie entfernen sich nicht weit von der Stadt, wohl weil Celestia ihnen immer noch etwas Respekt einflößt. Such sie in der Umgebung und komm nicht zurück, bis drei weniger sind.",
+            "zh": "猎杀强盗进展如何？他们不会走得离城市太远，也许塞莱斯提亚还能让他们心存一丝敬畏。到周围去找他们，找到并解决三个之前别回来。",
+            "ja": "盗賊狩りはどうだ？奴らは街からあまり離れないもんだ、セレスティアがまだ多少の威圧感を与えているんだろう。周辺を探して、三人減らすまで戻ってくるな。"
+        },
+        "next": [
+            "tavern_hunt_waiting_ok"
+        ],
+        "reward": "",
+        "condition": "has_gflag(\"hunt_bandidos_accepted\") and no_gflag(\"hunt_bandidos_done\")"
+    },
+    "tavern_hunt_waiting_ok": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Sigo cazando",
+            "en": "🚶  Still hunting",
+            "fr": "🚶  Je continue la chasse",
+            "it": "🚶  Continuo a cacciare",
+            "de": "🚶  Ich jage weiter",
+            "zh": "🚶  我还在猎杀",
+            "ja": "🚶  まだ狩りを続けている"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "tavern_hunt_offer": {
+        "type": "message",
+        "text": {
+            "es": "¿Buscas algo con lo que entrenar antes de los tres instructores? Desde que las patrullas de Celestia dejaron de pasar tan seguido por aquí, una banda de bandidos se ha instalado en los alrededores; se sienten impunes, los muy sinvergüenzas, por estar tan lejos de la capital. Si me ayudas a despachar a 3, te compensaré bien.",
+            "en": "Looking for something to warm up with before the three instructors? Ever since Celestia's patrols stopped coming by so often, a gang of bandits has settled in the area; they feel untouchable, the shameless lot, being so far from the capital. If you help me deal with 3 of them, I'll make it worth your while.",
+            "fr": "Tu cherches de quoi t'entraîner avant les trois instructeurs ? Depuis que les patrouilles de Celestia ne passent plus aussi souvent par ici, une bande de bandits s'est installée aux alentours ; ils se sentent intouchables, les effrontés, du fait d'être si loin de la capitale. Si tu m'aides à en éliminer 3, je te récompenserai bien.",
+            "it": "Cerchi qualcosa con cui allenarti prima dei tre istruttori? Da quando le pattuglie di Celestia hanno smesso di passare così spesso di qui, una banda di banditi si è insediata nei dintorni; si sentono impuniti, i sfacciati, per essere così lontani dalla capitale. Se mi aiuti a eliminarne 3, ti ricompenserò bene.",
+            "de": "Suchst du etwas, um dich vor den drei Ausbildern warmzumachen? Seit die Patrouillen von Celestia nicht mehr so oft hier vorbeikommen, hat sich eine Banditenbande in der Gegend niedergelassen; sie fühlen sich unantastbar, die Frechlinge, weil sie so weit von der Hauptstadt entfernt sind. Wenn du mir hilfst, 3 von ihnen zu erledigen, werde ich dich gut belohnen.",
+            "zh": "在三位导师面前热身之前，你在找点什么练手的东西吗？自从塞莱斯提亚的巡逻队不再那么频繁地经过这里以来，一伙强盗就在附近安顿了下来；这帮无耻之徒觉得自己离首都太远了，可以为所欲为。如果你能帮我解决3个，我会好好报答你的。",
+            "ja": "三人の師範に会う前に、腕試しに何か探しているのか？セレスティアの巡回がここをあまり通らなくなってから、盗賊団がこの辺りに居着いてしまってな。首都から遠いのをいいことに、あの恥知らずどもは自分たちが罰を受けないと思い込んでいる。三人片付けるのを手伝ってくれれば、たっぷり報いてやろう。"
+        },
+        "next": [
+            "tavern_hunt_ask",
+            "tavern_hunt_no"
+        ],
+        "reward": "",
+        "condition": "no_gflag(\"hunt_bandidos_accepted\")"
+    },
+    "tavern_hunt_ask": {
+        "type": "option",
+        "text": {
+            "es": "⚔️  Cazaré a 3 bandidos",
+            "en": "⚔️  I'll hunt down 3 bandits",
+            "fr": "⚔️  Je chasserai 3 bandits",
+            "it": "⚔️  Caccerò 3 banditi",
+            "de": "⚔️  Ich werde 3 Banditen jagen",
+            "zh": "⚔️  我会去猎杀3个强盗",
+            "ja": "⚔️  盗賊を三人狩ってこよう"
+        },
+        "next": [
+            "tavern_hunt_accepted_r"
+        ],
+        "reward": "gflag:hunt_bandidos_accepted"
+    },
+    "tavern_hunt_accepted_r": {
+        "type": "message",
+        "text": {
+            "es": "Así se habla. Ve con cuidado, esos rufianes no juegan limpio, pero un trago te estará esperando cuando vuelvas.",
+            "en": "That's the spirit. Be careful, those rogues don't fight fair, but a drink will be waiting for you when you're back.",
+            "fr": "Voilà qui est parlé. Fais attention, ces canailles ne jouent pas franc jeu, mais un verre t'attendra à ton retour.",
+            "it": "Così si parla. Fai attenzione, quei mascalzoni non giocano pulito, ma un bicchiere ti aspetterà al tuo ritorno.",
+            "de": "So spricht man. Sei vorsichtig, diese Schurken spielen nicht fair, aber ein Getränk wird auf dich warten, wenn du zurückkommst.",
+            "zh": "这话说得对。小心点，那些流氓不讲规矩，但等你回来时，会有一杯酒在等着你。",
+            "ja": "その意気だ。気をつけろよ、あの悪党どもはフェアプレーなんてしない。だが戻ってきた時には酒を用意しておくぞ。"
+        },
+        "next": [
+            "tavern_hunt_accepted_ok"
+        ],
+        "reward": ""
+    },
+    "tavern_hunt_accepted_ok": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Iré a buscarlos",
+            "en": "🚶  I'll go find them",
+            "fr": "🚶  Je vais les chercher",
+            "it": "🚶  Andrò a cercarli",
+            "de": "🚶  Ich werde sie suchen gehen",
+            "zh": "🚶  我会去找他们",
+            "ja": "🚶  探しに行くよ"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "tavern_hunt_no": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Ahora no",
+            "en": "🚶  Not right now",
+            "fr": "🚶  Pas maintenant",
+            "it": "🚶  Non ora",
+            "de": "🚶  Nicht jetzt",
+            "zh": "🚶  现在不行",
+            "ja": "🚶  今はやめておく"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "tavern_1": {
+        "type": "message",
+        "text": {
+            "es": "Se te ve muy enclenque e inútil, chico. Deberías formarte en una profesión y dejar de ser un Don Nadie. Al este hay unos instructores que buscan nuevos reclutas... si tienes agallas, ve a que te pongan a prueba.",
+            "en": "You look scrawny and useless, kid. You ought to train in a profession and stop being a Nobody. To the east there are instructors looking for fresh recruits... if you've got the guts, go let them put them to the test.",
+            "fr": "Tu as l'air bien chétif et inutile, petit. Tu devrais apprendre un métier et arrêter d'être un moins-que-rien. À l'est, il y a des instructeurs qui cherchent de nouvelles recrues... si tu as du cran, va te faire mettre à l'épreuve.",
+            "it": "Sembri molto gracile e inutile, ragazzo. Dovresti formarti in una professione e smettere di essere un Nessuno. A est ci sono alcuni istruttori che cercano nuove reclute... se hai fegato, vai a farti mettere alla prova.",
+            "de": "Du siehst ziemlich schwächlich und nutzlos aus, Junge. Du solltest dich in einem Beruf ausbilden lassen und aufhören, ein Niemand zu sein. Im Osten gibt es Ausbilder, die neue Rekruten suchen... wenn du Mumm hast, lass dich auf die Probe stellen.",
+            "zh": "你看起来又瘦弱又没用，孩子。你应该去学一门手艺，别再当个无名小卒了。东边有些教官在寻找新的学徒……如果你有胆量，就去让他们考验考验你吧。",
+            "ja": "お前はひどく貧弱で役立たずに見えるな、坊主。職業を身につけて、名もなき者であることをやめるべきだ。東には新しい弟子を探している師範たちがいる……度胸があるなら、試練を受けに行ってこい。"
+        },
+        "next": [
+            "tavern_opt_improve",
+            "tavern_opt_masters",
+            "tavern_opt_recommend",
+            "tavern_opt_leave"
+        ],
+        "reward": "gflag:sylphrena_arrived;questf:sylphrena_arrived"
+    },
+    "tavern_opt_masters": {
+        "type": "option",
+        "text": {
+            "es": "🎓  ¿Qué me puedes contar de los tres maestros de profesión?",
+            "en": "🎓  What can you tell me about the three profession masters?",
+            "fr": "🎓  Que peux-tu me dire des trois maîtres de profession ?",
+            "it": "🎓  Cosa mi puoi dire dei tre maestri di professione?",
+            "de": "🎓  Was kannst du mir über die drei Berufsmeister erzählen?",
+            "zh": "🎓  你能给我讲讲那三位职业大师的事吗？",
+            "ja": "🎓  三人の師範について何か教えてくれないか？"
+        },
+        "next": [
+            "tavern_masters_r"
+        ],
+        "reward": ""
+    },
+    "tavern_masters_r": {
+        "type": "message",
+        "text": {
+            "es": "Esos tres siempre andan buscando sangre nueva, aunque no es tan fácil impresionarlos como parece. Y ahora, con los bandidos rondando, más ganas tendrán de encontrar a alguien con agallas de verdad. No se alejan mucho de la ciudad, así que no hace falta que te pierdas por medio mundo para dar con ellos: búscalos por los alrededores, sin ir muy lejos.",
+            "en": "Those three are always looking for fresh blood, though impressing them isn't as easy as it looks. And now, with the bandits about, they'll be even more eager to find someone with real guts. They don't stray far from the city, so you won't need to wander half the world to find them: look around the surrounding area, not too far off.",
+            "fr": "Ces trois-là cherchent toujours du sang neuf, même s'il n'est pas si facile de les impressionner qu'il n'y paraît. Et maintenant, avec les bandits qui rôdent, ils auront encore plus envie de trouver quelqu'un avec du vrai cran. Ils ne s'éloignent pas beaucoup de la ville, donc tu n'as pas besoin de te perdre à travers le monde pour les trouver : cherche-les dans les environs, sans aller trop loin.",
+            "it": "Quei tre cercano sempre sangue nuovo, anche se non è così facile impressionarli come sembra. E ora, con i banditi in giro, avranno ancora più voglia di trovare qualcuno con vero fegato. Non si allontanano molto dalla città, quindi non serve perderti per mezzo mondo per trovarli: cercali nei dintorni, senza andare troppo lontano.",
+            "de": "Diese drei suchen immer nach frischem Blut, obwohl es nicht so einfach ist, sie zu beeindrucken, wie es scheint. Und jetzt, mit den umherziehenden Banditen, werden sie umso mehr darauf erpicht sein, jemanden mit echtem Mumm zu finden. Sie entfernen sich nicht weit von der Stadt, also musst du dich nicht durch die halbe Welt verlaufen, um sie zu finden: such in der Umgebung, nicht zu weit weg.",
+            "zh": "那三个人总是在寻找新鲜血液，尽管要打动他们并不像看上去那么容易。现在有强盗四处出没，他们会更加渴望找到真正有胆量的人。他们不会离城市太远，所以你不需要跑遍半个世界去找他们：在附近找找就行，不用走太远。",
+            "ja": "あの三人はいつも新しい血を探しているが、感心させるのは見た目ほど簡単ではない。今は盗賊がうろついているから、本物の度胸を持つ者をより一層求めているだろう。彼らは街からあまり離れないから、探すのに世界を半分も歩き回る必要はない——遠くまで行かず、周辺を探すといい。"
+        },
+        "next": [],
+        "reward": ""
+    },
+    "tavern_opt_improve": {
+        "type": "option",
+        "text": {
+            "es": "💪  ¿Cómo puedo mejorar?",
+            "en": "💪  How can I improve?",
+            "fr": "💪  Comment puis-je m'améliorer ?",
+            "it": "💪  Come posso migliorare?",
+            "de": "💪  Wie kann ich mich verbessern?",
+            "zh": "💪  我该怎么变强？",
+            "ja": "💪  どうすれば上達できる？"
+        },
+        "next": [
+            "tavern_improve"
+        ],
+        "reward": ""
+    },
+    "tavern_improve": {
+        "type": "message",
+        "text": {
+            "es": "¿Mejorar? Con ese cuerpo de flan tendrás que sudar sangre. Busca a los tres entrenadores de la zona; a lo mejor alguno ve algo en ti y te enseña a no desmayarte con el primer soplo de viento.",
+            "en": "Improve? With that body of jelly you'll have to sweat blood. Seek out the three trainers in the area; maybe one of them will see something in you and teach you not to faint at the first gust of wind.",
+            "fr": "T'améliorer ? Avec ce corps de flan, tu vas suer sang et eau. Cherche les trois entraîneurs de la région ; peut-être que l'un d'eux verra quelque chose en toi et t'apprendra à ne pas t'évanouir au premier coup de vent.",
+            "it": "Migliorare? Con quel corpo di flan dovrai sudare sangue. Cerca i tre allenatori della zona; magari uno di loro vede qualcosa in te e ti insegna a non svenire al primo soffio di vento.",
+            "de": "Verbessern? Mit diesem Wackelpudding-Körper wirst du Blut schwitzen müssen. Such die drei Ausbilder in der Gegend auf; vielleicht sieht einer von ihnen etwas in dir und bringt dir bei, nicht beim ersten Windstoß in Ohnmacht zu fallen.",
+            "zh": "变强？就凭你这副软趴趴的身体，你得流血流汗才行。去找找这地方的三位教练；也许其中一个能看出你的潜质，教你别一阵风就晕倒了。",
+            "ja": "上達だと？そのブヨブヨの体じゃ血の汗をかくことになるぞ。この地域の三人の師範を探すんだ。もしかすると、誰かがお前に何か見出して、最初の風で気絶しないよう教えてくれるかもしれん。"
+        },
+        "next": [],
+        "reward": ""
+    },
+    "tavern_opt_recommend": {
+        "type": "option",
+        "text": {
+            "es": "🍺  ¿Qué me recomiendas?",
+            "en": "🍺  What do you recommend?",
+            "fr": "🍺  Que me recommandes-tu ?",
+            "it": "🍺  Cosa mi consigli?",
+            "de": "🍺  Was empfiehlst du mir?",
+            "zh": "🍺  你有什么建议？",
+            "ja": "🍺  何かおすすめは？"
+        },
+        "next": [
+            "tavern_recommend"
+        ],
+        "reward": ""
+    },
+    "tavern_recommend": {
+        "type": "message",
+        "text": {
+            "es": "Vienes de lejos, ¿eh? Mi consejo es que acampes cerca de la ciudad. Ve al mercader y cómprate una tienda de campaña; así podrás descansar entre viajes y no acabarás hecho un harapo.",
+            "en": "You came from far away, huh? My advice is to camp near the city. Go to the merchant and buy a camping tent; that way you can rest between trips and you won't end up as a rag.",
+            "fr": "Tu viens de loin, hein ? Mon conseil, c'est de camper près de la ville. Va voir le marchand et achète-toi une tente de campement ; comme ça tu pourras te reposer entre deux voyages et tu ne finiras pas en loque.",
+            "it": "Vieni da lontano, eh? Il mio consiglio è che ti accampi vicino alla città. Vai dal mercante e comprati una tenda da campeggio; così potrai riposare tra un viaggio e l'altro e non finirai ridotto a uno straccio.",
+            "de": "Du kommst von weit her, was? Mein Rat: campiere in der Nähe der Stadt. Geh zum Händler und kauf dir ein Zelt; so kannst du dich zwischen den Reisen ausruhen und wirst nicht zum Lumpen.",
+            "zh": "你从很远的地方来的吧？我的建议是在城市附近扎营。去商人那里买一顶帐篷；这样你就可以在旅途之间休息，不至于变得像块破布一样。",
+            "ja": "遠くから来たんだな？アドバイスとしては、街の近くで野営することだ。商人のところへ行ってテントを買え。そうすれば旅の合間に休めるし、ボロボロにならずに済む。"
+        },
+        "next": [],
+        "reward": ""
+    },
+    "tavern_opt_leave": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Marcharse",
+            "en": "🚶  Leave",
+            "fr": "🚶  Partir",
+            "it": "🚶  Andarsene",
+            "de": "🚶  Gehen",
+            "zh": "🚶  离开",
+            "ja": "🚶  立ち去る"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

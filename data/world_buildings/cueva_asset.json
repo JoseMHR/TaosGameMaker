@@ -1,0 +1,8 @@
+{
+    "label": "Entrada a Cueva",
+    "icon": "🕳️",
+    "scale": 1.0,
+    "y_offset": 0.0,
+    "description": "Boca de cueva rocosa hacia las profundidades.",
+    "model_path": "cueva"
+}

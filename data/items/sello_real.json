@@ -1,0 +1,23 @@
+{
+    "name": {
+        "es": "Sello Real",
+        "en": "Royal Seal",
+        "fr": "Sceau Royal",
+        "it": "Sigillo Reale",
+        "de": "Königssiegel",
+        "zh": "皇家印玺",
+        "ja": "王家の印章"
+    },
+    "desc": {
+        "es": "El sello del Rey de Celestia. Sin él, ningún barco zarpa. Con él, el mar es tuyo.",
+        "en": "The seal of the King of Celestia. Without it, no ship sails. With it, the sea is yours.",
+        "fr": "Le sceau du Roi de Celestia. Sans lui, aucun navire ne prend la mer. Avec lui, la mer est à vous.",
+        "it": "Il sigillo del Re di Celestia. Senza di esso, nessuna nave salpa. Con esso, il mare è tuo.",
+        "de": "Das Siegel des Königs von Celestia. Ohne es sticht kein Schiff in See. Mit ihm gehört dir das Meer.",
+        "zh": "塞莱斯提亚国王的印玺。没有它，任何船只都无法起航；有了它，大海便属于你。",
+        "ja": "セレスティア国王の印章。これがなければどの船も出港できない。これがあれば海はあなたのもの。"
+    },
+    "icon": "📜",
+    "category": "important",
+    "usable": false
+}

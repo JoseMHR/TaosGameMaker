@@ -1,0 +1,59 @@
+{
+  "name": {
+    "es": "Lobo de Hielo",
+    "en": "Ice Wolf",
+    "fr": "Loup de Glace",
+    "it": "Lupo di Ghiaccio",
+    "de": "Eiswolf",
+    "zh": "冰狼",
+    "ja": "アイスウルフ"
+  },
+  "family": "beast",
+  "archetype": "balanced",
+  "icon": "🐺",
+  "image": "res://assets/combat/enemies/en_ice_wolf.png",
+  "attack_type": "physical",
+  "base_dodge": 6.0,
+  "dodge_scale": 0.2,
+  "element": "ice",
+  "weak_to": [
+    "fire"
+  ],
+  "resist": [
+    "ice"
+  ],
+  "status_on_hit": {
+    "type": "slow",
+    "chance": 0.3,
+    "turns": 2,
+    "power": 0
+  },
+  "ai": "aggressive",
+  "xp_reward_base": 32,
+  "xp_reward_scale": 5.0,
+  "gold_reward_base": 14,
+  "gold_reward_scale": 3.0,
+  "skills": [
+    {
+      "level": 1,
+      "skill_id": "bite"
+    },
+    {
+      "level": 5,
+      "skill_id": "frost_bite"
+    },
+    {
+      "level": 6,
+      "skill_id": "roar"
+    }
+  ],
+  "loot": [
+    {
+      "kind": "gold",
+      "min": 2,
+      "max": 8
+    }
+  ],
+  "zone": "zona_2_nieve",
+  "is_boss": false
+}

@@ -1,0 +1,25 @@
+{
+    "id": "house_snow_01",
+    "type": "poi",
+    "name": {
+        "es": "Refugio junto al Fuego",
+        "en": "Fireside Refuge",
+        "fr": "Refuge au Coin du Feu",
+        "it": "Rifugio del Focolare",
+        "de": "Zuflucht am Feuer",
+        "zh": "炉边避难所",
+        "ja": "暖炉のそばの避難所"
+    },
+    "icon": "🏕️",
+    "npc": "house_snow_01",
+    "visual": "casita",
+    "presences": [
+        {
+            "condition": "default",
+            "actor": "house_snow_01",
+            "entry_node": ""
+        }
+    ],
+    "bg": "bg_world_poi_hielo_refugio_01.png",
+    "music": "poi_house_cozy"
+}

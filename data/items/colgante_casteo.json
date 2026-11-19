@@ -1,0 +1,32 @@
+{
+    "name": {
+        "es": "Colgante de Reducción de Casteo",
+        "en": "Casting Reduction Pendant",
+        "fr": "Pendentif de Réduction de Lancer",
+        "it": "Ciondolo di Riduzione del Lancio",
+        "de": "Zauberreduktionsanhänger",
+        "zh": "施法缩减吊坠",
+        "ja": "詠唱短縮ペンダント"
+    },
+    "desc": {
+        "es": "Forjado por el Archimago Vael para quien resuelve su acertijo elemental. Agiliza el flujo de maná.",
+        "en": "Forged by Archmage Vael for whoever solves his elemental riddle. Quickens the flow of mana.",
+        "fr": "Forgé par l'Archimage Vael pour quiconque résout son énigme élémentaire. Accélère le flux de mana.",
+        "it": "Forgiato dall'Arcimago Vael per chi risolve il suo enigma elementale. Accelera il flusso di mana.",
+        "de": "Vom Erzmagier Vael für denjenigen geschmiedet, der sein elementares Rätsel löst. Beschleunigt den Manafluss.",
+        "zh": "大法师维尔为解开其元素谜题者锻造的物品，能加快魔力流动。",
+        "ja": "元素の謎を解いた者のためにアークメイジ・ヴァエルが鍛えたもの。マナの流れを速める。"
+    },
+    "icon": "📿",
+    "category": "equipment",
+    "usable": false,
+    "slot": "accessory",
+    "tier": 4,
+    "bonuses": {
+        "int": 7
+    },
+    "combat": {
+        "mag_damage": 70,
+        "mag_defense": 20
+    }
+}

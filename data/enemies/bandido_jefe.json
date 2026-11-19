@@ -1,0 +1,68 @@
+{
+  "name": {
+    "es": "Jefe de la Guarida",
+    "en": "Den Chief",
+    "fr": "Chef de la Tanière",
+    "it": "Capo del Covo",
+    "de": "Höhlenanführer",
+    "zh": "巢穴首领",
+    "ja": "巣窟の頭目"
+  },
+  "family": "humanoid",
+  "archetype": "boss",
+  "icon": "👑",
+  "image": "res://assets/combat/enemies/en_bandit_leader.png",
+  "attack_type": "physical",
+  "base_dodge": 7.0,
+  "dodge_scale": 0.15,
+  "element": "physical",
+  "weak_to": [
+    "ice",
+    "lightning"
+  ],
+  "resist": [
+    "physical"
+  ],
+  "ai": "aggressive",
+  "xp_reward_base": 300,
+  "xp_reward_scale": 18.0,
+  "gold_reward_base": 200,
+  "gold_reward_scale": 15.0,
+  "skills": [
+    {
+      "level": 1,
+      "skill_id": "cleave"
+    },
+    {
+      "level": 8,
+      "skill_id": "rend"
+    },
+    {
+      "level": 12,
+      "skill_id": "provoke_rage"
+    },
+    {
+      "level": 15,
+      "skill_id": "crushing_blow"
+    }
+  ],
+  "loot": [
+    {
+      "kind": "gold",
+      "min": 100,
+      "max": 200
+    },
+    {
+      "kind": "consumable",
+      "id": "potion",
+      "chance": 0.4
+    },
+    {
+      "kind": "equipment",
+      "chance": 0.55,
+      "level": 7
+    }
+  ],
+  "zone": "zona_3_sylphrena",
+  "is_boss": true
+}

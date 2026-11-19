@@ -1,0 +1,32 @@
+{
+    "name": {
+        "es": "Escudo de Plasma",
+        "en": "Plasma Shield",
+        "fr": "Bouclier de Plasma",
+        "it": "Scudo al Plasma",
+        "de": "Plasmaschild",
+        "zh": "等离子护盾",
+        "ja": "プラズマシールド"
+    },
+    "desc": {
+        "es": "Ensamblado por Brik con núcleos de autómata reciclados. Proyecta un campo de energía estable.",
+        "en": "Assembled by Brik from recycled automaton cores. Projects a stable energy field.",
+        "fr": "Assemblé par Brik avec des noyaux d'automates recyclés. Projette un champ d'énergie stable.",
+        "it": "Assemblato da Brik con nuclei di automi riciclati. Proietta un campo energetico stabile.",
+        "de": "Von Brik aus recycelten Automatenkernen zusammengebaut. Projiziert ein stabiles Energiefeld.",
+        "zh": "由布里克用回收自动机核心组装而成，能投射稳定的能量场。",
+        "ja": "ブリックがリサイクルされたオートマトンのコアで組み立てた。安定したエネルギーフィールドを投射する。"
+    },
+    "icon": "🛡️",
+    "category": "equipment",
+    "usable": false,
+    "slot": "shield",
+    "tier": 4,
+    "bonuses": {
+        "vit": 6
+    },
+    "combat": {
+        "phys_defense": 70,
+        "mag_defense": 30
+    }
+}

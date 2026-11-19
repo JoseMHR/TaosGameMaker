@@ -1,0 +1,150 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "La Abuela de las Galletas",
+            "en": "The Cookie Grandmother",
+            "fr": "La Grand-Mère aux Biscuits",
+            "it": "La Nonna dei Biscotti",
+            "de": "Die Keks-Großmutter",
+            "zh": "饼干奶奶",
+            "ja": "クッキーおばあさん"
+        },
+        "next": [],
+        "reward": "avatar=🍪;bg=0.15,0.13,0.09"
+    },
+    "abuela_root": {
+        "type": "message",
+        "text": {
+            "es": "Una casita con las ventanas floridas, un gato gordo en el alféizar y un olor a galletas de mantequilla que te abraza desde el camino. En la puerta, una abuelita menuda te saluda con la mano como si te esperara desde hace años. '¡Ay, por fin llegas, cariño! Pasa, pasa, que se enfrían. He hecho de más, como siempre.' La mesa está puesta para dos. Todo es cálido, dulce y acogedor. Tan acogedor que una vocecita en tu nuca pregunta: '¿para quién era el otro plato?'",
+            "en": "A little house with flowered windows, a fat cat on the sill, and a smell of butter cookies that hugs you from the road. At the door, a tiny old woman waves at you as if she's been expecting you for years. 'Oh, you're finally here, dear! Come in, come in, before they go cold. I made extra, as always.' The table is set for two. Everything is warm, sweet and welcoming. So welcoming that a small voice at the back of your neck asks: 'who was the other plate for?'",
+            "fr": "Une petite maison aux fenêtres fleuries, un gros chat sur le rebord et une odeur de biscuits au beurre qui t'enveloppe depuis le chemin. À la porte, une petite vieille dame te fait signe de la main comme si elle t'attendait depuis des années. « Ah, tu arrives enfin, mon chéri ! Entre, entre, avant qu'ils ne refroidissent. J'en ai fait plus, comme toujours. » La table est mise pour deux. Tout est chaleureux, doux et accueillant. Si accueillant qu'une petite voix dans ta nuque demande : « pour qui était l'autre assiette ? »",
+            "it": "Una casetta con le finestre fiorite, un gatto grasso sul davanzale e un odore di biscotti al burro che ti abbraccia dalla strada. Alla porta, una nonnina minuta ti saluta con la mano come se ti aspettasse da anni. 'Ah, sei finalmente arrivato, tesoro! Entra, entra, che si raffreddano. Ne ho fatti in più, come sempre.' Il tavolo è apparecchiato per due. Tutto è caldo, dolce e accogliente. Così accogliente che una vocina sulla nuca chiede: 'per chi era l'altro piatto?'",
+            "de": "Ein kleines Haus mit blumengeschmückten Fenstern, einer fetten Katze auf der Fensterbank und einem Duft von Buttergebäck, der dich schon vom Weg aus umarmt. An der Tür winkt dir eine winzige alte Frau zu, als hätte sie seit Jahren auf dich gewartet. „Ach, endlich bist du da, mein Schatz! Komm rein, komm rein, bevor sie kalt werden. Ich habe wieder zu viel gemacht, wie immer.“ Der Tisch ist für zwei gedeckt. Alles ist warm, süß und einladend. So einladend, dass eine kleine Stimme in deinem Nacken fragt: „für wen war der andere Teller?“",
+            "zh": "一座开满鲜花窗户的小屋，窗台上趴着一只肥猫，一股黄油饼干的香味从小路上就拥抱了你。门口，一位娇小的老太太向你挥手，仿佛已经等了你好几年。「哎呀，你终于来了，亲爱的！快进来，快进来，趁它们还没凉。我照例多做了一些。」餐桌已经摆好了两份餐具。一切都温暖、甜蜜而惬意。惬意得让你脖颈后一个小小的声音问道：「另一份餐具是给谁准备的？」",
+            "ja": "花で飾られた窓、窓辺の太った猫、そして道からも漂ってくるバタークッキーの匂いに包まれる小さな家。玄関では、小柄な老婆が何年も待っていたかのように手を振っている。「ああ、やっと来たね、坊や！お入り、お入り、冷めないうちに。いつものように多めに作ったよ」テーブルには二人分の食器が並んでいる。すべてが温かく、甘く、居心地がいい。あまりに居心地がよすぎて、首の後ろで小さな声がこう尋ねる——「もう一つの皿は誰のためのものだったんだ？」"
+        },
+        "next": [
+            "abuela_opt_comer",
+            "abuela_opt_preguntar",
+            "abuela_opt_ayudar",
+            "abuela_opt_salir"
+        ],
+        "reward": ""
+    },
+    "abuela_opt_comer": {
+        "type": "option",
+        "text": {
+            "es": "🍪  Sentarte y comer galletas con ella, sin más",
+            "en": "🍪  Sit down and eat cookies with her, no questions asked",
+            "fr": "🍪  T'asseoir et manger des biscuits avec elle, sans plus",
+            "it": "🍪  Sederti e mangiare biscotti con lei, senza altro",
+            "de": "🍪  Sich hinsetzen und einfach Kekse mit ihr essen",
+            "zh": "🍪  坐下来和她一起吃饼干，不再多问",
+            "ja": "🍪  何も聞かずに座って一緒にクッキーを食べる"
+        },
+        "next": [
+            "abuela_msg_comer"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "abuela_msg_comer": {
+        "type": "message",
+        "text": {
+            "es": "Te sientas y comes. Están DIVINAS: la mejor galleta de tu vida, sin exagerar. La abuela te observa comer con las manos entrelazadas y los ojos húmedos de felicidad. Te cuenta historias de un nieto que 'vendrá pronto, seguro', mientras te rellena el plato sin parar. Sales de allí ahíto, calentito y curiosamente reconfortado. Puede que la casa fuera un poco rara. Puede que el nieto no venga nunca. Pero pocas cosas curan tanto como que alguien se alegre de verte comer.",
+            "en": "You sit and eat. They are DIVINE: the best cookie of your life, no exaggeration. The grandmother watches you eat with her hands clasped and her eyes wet with happiness. She tells you stories about a grandson who 'will come soon, surely', while refilling your plate endlessly. You leave stuffed, warm and oddly comforted. Maybe the house was a little strange. Maybe the grandson will never come. But few things heal like someone being glad to watch you eat.",
+            "fr": "Tu t'assois et manges. Ils sont DIVINS : le meilleur biscuit de toute ta vie, sans exagérer. La grand-mère t'observe manger, les mains jointes et les yeux humides de bonheur. Elle te raconte des histoires d'un petit-fils qui « viendra bientôt, c'est sûr », tout en remplissant ton assiette sans arrêt. Tu repars repu, au chaud, et curieusement réconforté. La maison était peut-être un peu étrange. Le petit-fils ne viendra peut-être jamais. Mais peu de choses guérissent autant que quelqu'un qui se réjouit de te voir manger.",
+            "it": "Ti siedi e mangi. Sono DIVINI: il miglior biscotto della tua vita, senza esagerare. La nonna ti osserva mangiare con le mani intrecciate e gli occhi umidi di felicità. Ti racconta storie di un nipote che 'verrà presto, di sicuro', mentre ti riempie il piatto senza sosta. Esci di lì sazio, caldo e curiosamente confortato. Forse la casa era un po' strana. Forse il nipote non verrà mai. Ma poche cose curano quanto qualcuno che si rallegra di vederti mangiare.",
+            "de": "Du setzt dich hin und isst. Sie sind GÖTTLICH: der beste Keks deines Lebens, ohne Übertreibung. Die Großmutter beobachtet dich beim Essen mit gefalteten Händen und feuchten Augen vor Glück. Sie erzählt dir Geschichten von einem Enkel, der „bald kommen wird, ganz sicher“, während sie deinen Teller endlos nachfüllt. Du gehst gesättigt, warm und seltsam getröstet. Vielleicht war das Haus etwas seltsam. Vielleicht kommt der Enkel nie. Aber wenige Dinge heilen so sehr wie jemand, der sich freut, dich essen zu sehen.",
+            "zh": "你坐下来吃了起来。简直太美味了：这是你这辈子吃过的最好吃的饼干，一点都不夸张。奶奶双手交叠，眼含幸福的泪水看着你吃饼干。她不停地给你添饼干，讲着一个「肯定很快就会来」的孙子的故事。你饱着肚子、暖洋洋地、莫名其妙地感到宽慰离开了。也许这座房子有点奇怪。也许那个孙子永远不会来。但很少有什么事，能像有人为看着你吃东西而高兴那样疗愈人心。",
+            "ja": "座って食べる。信じられないほど美味しい——大げさではなく、人生最高のクッキーだ。おばあさんは手を組み、幸せに目を潤ませながらお前が食べるのを見つめている。「きっとすぐに来るよ」という孫の話をしながら、絶えず皿におかわりを盛ってくれる。満腹で、温かく、不思議と癒された気分で立ち去る。この家は少し奇妙だったかもしれない。孫は決して来ないかもしれない。だが、誰かがお前の食べる姿を喜んで見てくれること以上に癒されることはほとんどない。"
+        },
+        "next": [
+            "abuela_opt_salir"
+        ],
+        "reward": "heal:9999;faceta:cordura=+1"
+    },
+    "abuela_opt_preguntar": {
+        "type": "option",
+        "text": {
+            "es": "🕵️  Preguntar, con delicadeza, para quién es el segundo plato",
+            "en": "🕵️  Ask, gently, who the second plate is for",
+            "fr": "🕵️  Demander, avec délicatesse, pour qui est la deuxième assiette",
+            "it": "🕵️  Chiedere, con delicatezza, per chi è il secondo piatto",
+            "de": "🕵️  Behutsam fragen, für wen der zweite Teller ist",
+            "zh": "🕵️  委婉地问她第二份餐具是给谁准备的",
+            "ja": "🕵️  そっと、二番目の皿は誰のためかを尋ねる"
+        },
+        "next": [
+            "abuela_msg_preguntar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "abuela_msg_preguntar": {
+        "type": "message",
+        "text": {
+            "es": "'¿El otro plato?', repite, y por un momento la sonrisa se le queda quieta, como una foto. 'Es para mi nieto. Siempre pongo su plato. Se fue a la ciudad grande hace... uy, ya no sé cuántos inviernos. Pero seguro que hoy es el día.' Miras alrededor con otros ojos: hay polvo bajo la alegría, y las 'historias recientes' del nieto son todas viejísimas. No hay nada siniestro aquí. Solo una anciana que hornea para una silla vacía, por si acaso. Te ofreces a fregar los platos y te quedas un rato más. La soledad da menos miedo cuando alguien la acompaña.",
+            "en": "'The other plate?', she repeats, and for a moment her smile freezes, like a photograph. 'It's for my grandson. I always set his place. He went to the big city... oh, I've lost count of the winters. But surely today's the day.' You look around with new eyes: there's dust beneath the cheer, and the grandson's 'recent stories' are all ancient. There's nothing sinister here. Only an old woman baking for an empty chair, just in case. You offer to wash the dishes and stay a while longer. Loneliness is less frightening when someone keeps it company.",
+            "fr": "« L'autre assiette ? », répète-t-elle, et pendant un instant son sourire reste figé, comme une photographie. « C'est pour mon petit-fils. Je mets toujours son assiette. Il est parti pour la grande ville il y a... oh, je ne sais plus combien d'hivers. Mais aujourd'hui c'est sûrement le jour. » Tu regardes autour de toi avec d'autres yeux : il y a de la poussière sous la joie, et les « histoires récentes » du petit-fils sont toutes très anciennes. Il n'y a rien de sinistre ici. Seulement une vieille femme qui fait de la pâtisserie pour une chaise vide, au cas où. Tu proposes de laver la vaisselle et restes un moment de plus. La solitude fait moins peur quand quelqu'un lui tient compagnie.",
+            "it": "'L'altro piatto?', ripete, e per un momento il sorriso le si ferma, come una fotografia. 'È per mio nipote. Metto sempre il suo posto. Andò nella grande città... uh, ho perso il conto degli inverni. Ma di sicuro oggi è il giorno.' Ti guardi intorno con occhi diversi: c'è polvere sotto l'allegria, e le 'storie recenti' del nipote sono tutte vecchissime. Non c'è nulla di sinistro qui. Solo un'anziana che cuoce per una sedia vuota, per ogni evenienza. Ti offri di lavare i piatti e resti un po' di più. La solitudine spaventa meno quando qualcuno le fa compagnia.",
+            "de": "„Der andere Teller?“, wiederholt sie, und für einen Moment friert ihr Lächeln ein, wie ein Foto. „Er ist für meinen Enkel. Ich decke immer seinen Platz. Er ging in die große Stadt... oh, ich habe die Winter verloren gezählt. Aber sicher ist heute der Tag.“ Du siehst dich mit anderen Augen um: unter der Freude liegt Staub, und die „aktuellen Geschichten“ des Enkels sind alle uralt. Es gibt hier nichts Finsteres. Nur eine alte Frau, die für einen leeren Stuhl backt, nur für den Fall. Du bietest an, das Geschirr zu spülen, und bleibst noch eine Weile. Einsamkeit macht weniger Angst, wenn jemand ihr Gesellschaft leistet.",
+            "zh": "「另一份？」她重复道，笑容瞬间僵住，如同一张照片。「那是给我孙子的。我总是给他留一份。他去了大城市……唉，我已经数不清多少个冬天了。但今天肯定就是他回来的日子。」你用一双不同的眼睛环顾四周：欢乐之下藏着灰尘，而关于孙子的那些「最近的故事」全都陈旧不堪。这里没有任何险恶之事。只有一位以防万一而为空椅子烘焙的老妇人。你主动提出帮忙洗碗，多留了一会儿。当有人陪伴时，孤独就不那么可怕了。",
+            "ja": "「もう一つの皿？」彼女は繰り返し、一瞬、その笑顔が写真のように固まる。「あれは孫のためのものだよ。いつも彼の席を用意しているの。大都会に行ってしまってね……ああ、もう何回冬を過ごしたか分からないわ。でもきっと今日がその日よ」新しい目で周囲を見回す——喜びの下には埃が積もり、孫についての「最近の話」はどれも古びている。ここに邪悪なものは何もない。ただ、万が一のために空の椅子に向けて焼き菓子を作る老婆がいるだけだ。皿洗いを申し出て、もう少し長く滞在する。孤独は、誰かがそれに寄り添ってくれる時、恐ろしさが少し和らぐものだ。"
+        },
+        "next": [
+            "abuela_root"
+        ],
+        "reward": "faceta:inteligencia=+1"
+    },
+    "abuela_opt_ayudar": {
+        "type": "option",
+        "text": {
+            "es": "💌  Prometerle que, si pasas por la ciudad, buscarás a su nieto",
+            "en": "💌  Promise that, if you pass through the city, you'll look for her grandson",
+            "fr": "💌  Lui promettre que, si tu passes par la ville, tu chercheras son petit-fils",
+            "it": "💌  Promettere che, se passerai per la città, cercherai suo nipote",
+            "de": "💌  Ihr versprechen, dass du, falls du durch die Stadt kommst, ihren Enkel suchen wirst",
+            "zh": "💌  向她承诺，如果你路过城市，会去寻找她的孙子",
+            "ja": "💌  もし街を通ることがあれば、孫を探すと約束する"
+        },
+        "next": [
+            "abuela_msg_ayudar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "abuela_msg_ayudar": {
+        "type": "message",
+        "text": {
+            "es": "Le tomas las manos arrugadas y le prometes que, si tus pasos te llevan a la ciudad grande, preguntarás por su nieto. No sabes si podrás cumplirlo. No sabes si el nieto sigue vivo. Pero a ella se le ilumina la cara como si le hubieras traído la primavera. Te llena las alforjas de galletas 'para el viaje, y unas cuantas para él, que le encantan'. Te marchas cargado de dulces y de una promesa que pesa lo justo. A veces la bondad no es resolver el problema de alguien, sino darle un motivo para seguir esperando con ilusión.",
+            "en": "You take her wrinkled hands and promise that, if your steps lead you to the big city, you'll ask after her grandson. You don't know if you can keep it. You don't know if the grandson is even alive. But her face lights up as if you'd brought her the spring. She fills your saddlebags with cookies 'for the journey, and a few for him, he loves them'. You leave laden with sweets and a promise that weighs just right. Sometimes kindness isn't solving someone's problem, but giving them a reason to keep hoping with joy.",
+            "fr": "Tu prends ses mains ridées et lui promets que, si tes pas te mènent à la grande ville, tu demanderas après son petit-fils. Tu ne sais pas si tu pourras tenir cette promesse. Tu ne sais même pas si le petit-fils est encore en vie. Mais son visage s'illumine comme si tu lui avais apporté le printemps. Elle remplit tes sacoches de biscuits « pour le voyage, et quelques-uns pour lui, il les adore ». Tu repars chargé de sucreries et d'une promesse au poids juste. Parfois la bonté n'est pas de résoudre le problème de quelqu'un, mais de lui donner une raison de continuer à espérer avec joie.",
+            "it": "Prendi le sue mani rugose e le prometti che, se i tuoi passi ti porteranno nella grande città, chiederai di suo nipote. Non sai se potrai mantenerla. Non sai nemmeno se il nipote sia ancora vivo. Ma il suo viso si illumina come se le avessi portato la primavera. Ti riempie le bisacce di biscotti 'per il viaggio, e alcuni per lui, che gli piacciono tanto'. Te ne vai carico di dolci e di una promessa dal giusto peso. A volte la bontà non è risolvere il problema di qualcuno, ma dargli un motivo per continuare a sperare con gioia.",
+            "de": "Du nimmst ihre runzligen Hände und versprichst ihr, dass du, falls deine Schritte dich in die große Stadt führen, nach ihrem Enkel fragen wirst. Du weißt nicht, ob du es einhalten kannst. Du weißt nicht einmal, ob der Enkel noch lebt. Aber ihr Gesicht leuchtet auf, als hättest du ihr den Frühling gebracht. Sie füllt deine Satteltaschen mit Keksen „für die Reise, und ein paar für ihn, er liebt sie“. Du gehst beladen mit Süßigkeiten und einem Versprechen von gerade richtigem Gewicht. Manchmal ist Güte nicht, jemandes Problem zu lösen, sondern ihm einen Grund zu geben, weiter mit Freude zu hoffen.",
+            "zh": "你握住她布满皱纹的手，承诺如果你的脚步带你到那座大城市，你会去打听她的孙子。你不知道自己是否能兑现这个承诺。你甚至不知道那个孙子是否还活着。但她的脸庞亮了起来，仿佛你为她带来了春天。她把你的鞍袋装满了饼干，「路上吃的，还有一些给他的，他最爱吃这个了」。你带着满满的甜点和一个分量恰到好处的承诺离开了。有时候，善良并不是解决某人的问题，而是给他一个继续满怀希望地期待下去的理由。",
+            "ja": "彼女のしわだらけの手を取り、もし歩みが大都会に至れば孫のことを尋ねると約束する。それを守れるかどうかは分からない。孫がまだ生きているかどうかさえ分からない。だが彼女の顔は、まるで春を持ってきてもらったかのように輝く。「旅の途中で食べる分と、彼の大好物だから彼のために少し」とクッキーを鞍袋いっぱいに詰めてくれる。甘い菓子と、ちょうどいい重さの約束を抱えて立ち去る。時に優しさとは、誰かの問題を解決することではなく、喜びとともに希望を持ち続ける理由を与えることなのだ。"
+        },
+        "next": [
+            "abuela_opt_salir"
+        ],
+        "reward": "faceta:bondad=+1"
+    },
+    "abuela_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Darle las gracias y volver al camino",
+            "en": "🚶  Thank her and return to the road",
+            "fr": "🚶  La remercier et reprendre la route",
+            "it": "🚶  Ringraziarla e tornare sulla strada",
+            "de": "🚶  Ihr danken und zurück auf die Straße gehen",
+            "zh": "🚶  向她道谢，重新上路",
+            "ja": "🚶  彼女に感謝し、旅路に戻る"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

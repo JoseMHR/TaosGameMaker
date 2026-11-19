@@ -1,0 +1,26 @@
+{
+    "id": "poi_gloriam_aguador",
+    "type": "poi",
+    "icon": "🫗",
+    "name": {
+        "es": "El Aguador Generoso",
+        "en": "The Generous Water-Bearer",
+        "fr": "Le Généreux Porteur d'Eau",
+        "it": "Il Generoso Acquaiolo",
+        "de": "Der Großzügige Wasserträger",
+        "zh": "慷慨的水贩",
+        "ja": "気前のいい水売り"
+    },
+    "desc": {
+        "es": "Un hombre que custodia el último pozo bueno del desierto y ofrece agua a quien pasa, sin pedir nada a cambio. (PNJ singular).",
+        "en": "A man guarding the desert's last good well, offering water to any who pass, asking nothing in return. (Singular NPC).",
+        "fr": "Un homme qui garde le dernier bon puits du désert et offre de l'eau à quiconque passe, sans rien demander en retour. (PNJ singulier).",
+        "it": "Un uomo che custodisce l'ultimo pozzo buono del deserto e offre acqua a chi passa, senza chiedere nulla in cambio. (PNG singolare).",
+        "de": "Ein Mann, der den letzten guten Brunnen der Wüste hütet und jedem Vorbeigehenden Wasser anbietet, ohne etwas dafür zu verlangen. (Einzigartiger NPC).",
+        "zh": "一个守护着沙漠中最后一口好井的男人，为路过之人提供清水，不求任何回报。（唯一NPC）。",
+        "ja": "砂漠最後の良い井戸を守り、通りすがりの者に何も求めず水を分け与える男。（唯一のNPC）。"
+    },
+    "npc": "poi_gloriam_aguador",
+    "bg": "bg_world_poi_gloriam_aguador.png",
+    "music": "poi_generic"
+}

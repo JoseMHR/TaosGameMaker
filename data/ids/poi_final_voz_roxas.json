@@ -1,0 +1,26 @@
+{
+    "id": "poi_final_voz_roxas",
+    "type": "poi",
+    "icon": "📻",
+    "name": {
+        "es": "La Voz que Llega de Fuera",
+        "en": "The Voice From Outside",
+        "fr": "La Voix qui Vient de l'Extérieur",
+        "it": "La Voce che Viene da Fuori",
+        "de": "Die Stimme von Draußen",
+        "zh": "来自外界的声音",
+        "ja": "外からの声"
+    },
+    "desc": {
+        "es": "Una vieja radio flota en el vacío. De ella sale, entrecortada, la voz de un amigo que suplica desde muy lejos: 'Despierta, por favor'. (PNJ singular).",
+        "en": "An old radio floats in the void. From it comes, broken up, the voice of a friend pleading from very far away: 'Please wake up'. (Singular NPC).",
+        "fr": "Une vieille radio flotte dans le vide. Il en sort, hachée, la voix d'un ami qui supplie de très loin : « Réveille-toi, s'il te plaît ». (PNJ singulier).",
+        "it": "Una vecchia radio fluttua nel vuoto. Da essa esce, a tratti, la voce di un amico che supplica da molto lontano: 'Svegliati, per favore'. (PNG singolare).",
+        "de": "Ein altes Radio schwebt in der Leere. Aus ihm kommt, abgehackt, die Stimme eines Freundes, der aus weiter Ferne fleht: „Wach auf, bitte“. (Einzigartiger NPC).",
+        "zh": "一台旧收音机漂浮在虚空中，断断续续地传出一位朋友从遥远之处恳求的声音：「醒醒，求你了。」（唯一NPC）。",
+        "ja": "虚空に浮かぶ古いラジオ。そこから途切れ途切れに、遠くから懇願する友の声が聞こえる。「頼む、目を覚ましてくれ」（唯一のNPC）。"
+    },
+    "npc": "poi_final_voz_roxas",
+    "bg": "bg_world_poi_final_voz_roxas.png",
+    "music": "poi_generic"
+}

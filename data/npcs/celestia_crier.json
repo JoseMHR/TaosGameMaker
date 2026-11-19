@@ -1,0 +1,198 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Pregonero de Celestia",
+            "en": "The Celestia Crier",
+            "fr": "Le Crieur de Celestia",
+            "it": "Il Banditore di Celestia",
+            "de": "Der Ausrufer von Celestia",
+            "zh": "塞莱斯提亚的传令官",
+            "ja": "セレスティアの触れ役"
+        },
+        "next": [],
+        "reward": "avatar=📣;bg=0.08,0.07,0.11"
+    },
+    "cr_fort_done": {
+        "type": "message",
+        "text": {
+            "es": "'¡CINCO CRIATURAS MENOS EN LOS ALREDEDORES! ¡ATENCIÓN, CIUDADANOS! ¡Este forastero ha ayudado a la Guardia mientras vigilaba el puerto!' La multitud aplaude, algo confundida. Te entrega una bolsa de monedas y un descuento de por vida en cualquier tablón de encargos... bueno, lo del descuento se lo acaba de inventar.",
+            "en": "'FIVE FEWER CREATURES ABOUT! ATTENTION, CITIZENS! This stranger has helped the Guard while they watched the harbor!' The crowd applauds, somewhat confused. He hands you a bag of coins and a lifetime discount at any bounty board... well, he just made up the discount part.",
+            "fr": "« CINQ CRÉATURES DE MOINS AUX ENVIRONS ! ATTENTION, CITOYENS ! Cet étranger a aidé la Garde pendant qu'elle surveillait le port ! » La foule applaudit, quelque peu confuse. Il te remet une bourse de pièces et une réduction à vie sur n'importe quel tableau de contrats... bon, la réduction, il vient de l'inventer.",
+            "it": "'CINQUE CREATURE IN MENO NEI DINTORNI! ATTENZIONE, CITTADINI! Questo straniero ha aiutato la Guardia mentre sorvegliava il porto!' La folla applaude, un po' confusa. Ti consegna una borsa di monete e uno sconto a vita su qualsiasi bacheca di incarichi... beh, lo sconto se l'è appena inventato.",
+            "de": "„FÜNF KREATUREN WENIGER IN DER UMGEBUNG! ACHTUNG, BÜRGER! Dieser Fremde hat der Wache geholfen, während sie den Hafen bewachte!“ Die Menge applaudiert, etwas verwirrt. Er überreicht dir einen Beutel Münzen und einen lebenslangen Rabatt an jedem Auftragsbrett... nun, den Rabatt hat er sich gerade ausgedacht.",
+            "zh": "「周边少了五只怪物！各位市民请注意！这位陌生人在守卫守望港口时帮了大忙！」人群鼓掌欢呼，虽有些困惑。他递给你一袋金币，以及在任何任务布告栏享受终身折扣的资格……好吧，那个折扣是他刚刚编出来的。",
+            "ja": "「周辺の魔物が五体減った！市民諸君、注目せよ！この余所者は、衛兵たちが港を見張っている間に手伝ってくれたのだ！」群衆は少し困惑しながらも拍手する。彼はお金の入った袋と、どの依頼掲示板でも使える生涯割引をお前に渡す……まあ、割引の話は今考えついたものだが。"
+        },
+        "next": [
+            "cr_fort_done_ok"
+        ],
+        "reward": "gflag:fort_cleanup_done;gold:80;faceta:valor=+1",
+        "condition": "has_gflag(\"fort_cleanup_accepted\") and hunt_progress(\"hunt_celestia_kills\") >= 5 and no_gflag(\"fort_cleanup_done\")",
+        "once": true
+    },
+    "cr_fort_done_ok": {
+        "type": "option",
+        "text": {
+            "es": "😅  Un placer, supongo",
+            "en": "😅  My pleasure, I guess",
+            "fr": "😅  Tout le plaisir était pour moi, je suppose",
+            "it": "😅  Piacere mio, immagino",
+            "de": "😅  Meine Freude, nehme ich an",
+            "zh": "😅  荣幸之至，我猜",
+            "ja": "😅  こちらこそ、光栄だ、たぶん"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "cr_fort_waiting": {
+        "type": "message",
+        "text": {
+            "es": "'¿Cómo va la limpieza de los alrededores? Goblins, pájaros, golems... lo que sea que ronde cerca de la ciudad cuenta. No dejes que la Guardia se lleve todo el mérito, que bastante ocupada está vigilando el puerto!'",
+            "en": "'How's the cleanup of the surroundings going? Goblins, birds, golems... whatever's roaming near the city counts. Don't let the Guard take all the credit, they're busy enough watching the harbor!'",
+            "fr": "« Comment se passe le nettoyage des environs ? Gobelins, oiseaux, golems... tout ce qui rôde près de la ville compte. Ne laisse pas la Garde s'attribuer tout le mérite, elle est bien assez occupée à surveiller le port ! »",
+            "it": "'Come va la pulizia dei dintorni? Goblin, uccelli, golem... conta tutto ciò che si aggira vicino alla città. Non lasciare che la Guardia si prenda tutto il merito, è già abbastanza occupata a sorvegliare il porto!'",
+            "de": "„Wie läuft die Säuberung der Umgebung? Goblins, Vögel, Golems... alles, was in der Nähe der Stadt herumstreift, zählt. Lass die Wache nicht die ganze Anerkennung einheimsen, sie ist schon genug damit beschäftigt, den Hafen zu bewachen!“",
+            "zh": "「周边的清理进行得怎么样了？哥布林、鸟类、魔像……只要是在城市附近游荡的都算。别让守卫队独占功劳，他们光是看守港口就已经够忙的了！」",
+            "ja": "「周辺の掃討はどうなっている？ゴブリン、鳥、ゴーレム……街の近くをうろつくものならなんでも数に入る。衛兵に手柄を独り占めさせるな、彼らは港の見張りだけで十分忙しいのだからな！」"
+        },
+        "next": [
+            "cr_fort_waiting_ok"
+        ],
+        "reward": "",
+        "condition": "has_gflag(\"fort_cleanup_accepted\") and no_gflag(\"fort_cleanup_done\")"
+    },
+    "cr_fort_waiting_ok": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Sigo en ello",
+            "en": "🚶  Still on it",
+            "fr": "🚶  J'y travaille encore",
+            "it": "🚶  Ci sto ancora lavorando",
+            "de": "🚶  Ich bin noch dran",
+            "zh": "🚶  我还在处理",
+            "ja": "🚶  まだ取り組んでいる"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "cr_fort_offer": {
+        "type": "message",
+        "text": {
+            "es": "'¡ATENCIÓN, ATENCIÓN! Criaturas de todo tipo andan sueltas en los alrededores de Celestia: goblins, pájaros salvajes, hasta algún golem. La Guardia está ocupada... eh... vigilando el puerto, y necesita ayudantes. Despacha a 5 de esas criaturas, las que sean, y hay una recompensa esperándote.'",
+            "en": "'ATTENTION, ATTENTION! All sorts of creatures are roaming around Celestia: goblins, wild birds, even the odd golem. The Guard is busy... uh... watching the harbor, and needs helping hands. Take down 5 of those creatures, any of them, and there's a reward waiting for you.'",
+            "fr": "« ATTENTION, ATTENTION ! Des créatures de toutes sortes rôdent autour de Celestia : gobelins, oiseaux sauvages, même quelque golem. La Garde est occupée... euh... à surveiller le port, et a besoin d'aide. Élimine 5 de ces créatures, n'importe lesquelles, et une récompense t'attend. »",
+            "it": "'ATTENZIONE, ATTENZIONE! Creature di ogni tipo si aggirano intorno a Celestia: goblin, uccelli selvatici, persino qualche golem. La Guardia è occupata... ehm... a sorvegliare il porto, e ha bisogno di aiutanti. Elimina 5 di quelle creature, qualunque esse siano, e una ricompensa ti aspetta.'",
+            "de": "„ACHTUNG, ACHTUNG! Kreaturen aller Art streifen um Celestia herum: Goblins, wilde Vögel, sogar ein paar Golems. Die Wache ist beschäftigt... äh... mit der Bewachung des Hafens, und braucht Helfer. Erledige 5 dieser Kreaturen, egal welche, und eine Belohnung wartet auf dich.“",
+            "zh": "「注意，注意！各种各样的生物在塞莱斯提亚周围游荡：哥布林、野鸟，甚至偶尔出现的魔像。守卫队正忙着……呃……看守港口，需要帮手。消灭5只这样的生物，无论哪种，都有奖励等着你。」",
+            "ja": "「注目、注目！セレスティア周辺にはあらゆる魔物がうろついている——ゴブリン、野鳥、時にはゴーレムまで。衛兵は……えーと……港の見張りで忙しく、助っ人が必要だ。どれでもいいから魔物を5体倒せば、報酬が待っているぞ」"
+        },
+        "next": [
+            "cr_fort_ask",
+            "cr_fort_no"
+        ],
+        "reward": "",
+        "condition": "no_gflag(\"fort_cleanup_accepted\")"
+    },
+    "cr_fort_ask": {
+        "type": "option",
+        "text": {
+            "es": "⚔️  Limpiaré los alrededores de criaturas",
+            "en": "⚔️  I'll clear the creatures from the area",
+            "fr": "⚔️  Je débarrasserai les environs des créatures",
+            "it": "⚔️  Ripulirò i dintorni dalle creature",
+            "de": "⚔️  Ich werde die Kreaturen aus der Gegend vertreiben",
+            "zh": "⚔️  我会清理周边的怪物",
+            "ja": "⚔️  周辺の魔物を掃討しよう"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "gflag:fort_cleanup_accepted"
+    },
+    "cr_fort_no": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Ahora no",
+            "en": "🚶  Not right now",
+            "fr": "🚶  Pas maintenant",
+            "it": "🚶  Non adesso",
+            "de": "🚶  Nicht jetzt",
+            "zh": "🚶  现在不行",
+            "ja": "🚶  今はやめておく"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "cr_1": {
+        "type": "message",
+        "text": {
+            "es": "Un pregonero subido a un cajón vocifera al gentío. '¡OÍD, OÍD! ¡La gloriosa Celestia os da la bienvenida! ¡Los puertos siguen CERRADOS por decreto real! ¡Quien intente zarpar sin el sello del Rey será... eeh... fuertemente desaconsejado! ¡Disfruten de la ciudad y NO hagan preguntas!'",
+            "en": "A crier atop a crate bellows to the crowd. 'HEAR YE, HEAR YE! Glorious Celestia welcomes you! The ports remain CLOSED by royal decree! Any who try to sail without the King's seal shall be... uh... strongly discouraged! Enjoy the city and ask NO questions!'",
+            "fr": "Un crieur monté sur une caisse hurle à la foule. « ÉCOUTEZ, ÉCOUTEZ ! La glorieuse Celestia vous souhaite la bienvenue ! Les ports restent FERMÉS par décret royal ! Quiconque tenterait de prendre la mer sans le sceau du Roi sera... euh... fortement déconseillé de le faire ! Profitez de la ville et NE POSEZ PAS de questions ! »",
+            "it": "Un banditore in piedi su una cassa urla alla folla. 'UDITE, UDITE! La gloriosa Celestia vi dà il benvenuto! I porti restano CHIUSI per decreto reale! Chi tenterà di salpare senza il sigillo del Re sarà... ehm... fortemente sconsigliato! Godetevi la città e NON fate domande!'",
+            "de": "Ein Ausrufer, auf einer Kiste stehend, brüllt zur Menge. „HÖRT, HÖRT! Das glorreiche Celestia heißt euch willkommen! Die Häfen bleiben durch königlichen Erlass GESCHLOSSEN! Wer versucht, ohne das Siegel des Königs auszulaufen, dem wird... äh... dringend abgeraten! Genießt die Stadt und stellt KEINE Fragen!“",
+            "zh": "一位站在木箱上的传令官对着人群大喊。「听着，听着！光辉的塞莱斯提亚欢迎各位！港口依王室法令仍然关闭！任何试图在没有国王印章的情况下出海之人……呃……将受到强烈劝阻！好好享受这座城市，不要问问题！」",
+            "ja": "木箱の上に立った触れ役が群衆に向かって叫ぶ。「聞け、聞け！栄光あるセレスティアがお前たちを歓迎する！港は王命によりいまだ閉鎖中だ！王の印章なしに出航しようとする者は……えー……強く思いとどまらせることになる！街を楽しみ、質問はするな！」"
+        },
+        "next": [
+            "cr_1a",
+            "cr_1b"
+        ],
+        "reward": ""
+    },
+    "cr_1a": {
+        "type": "option",
+        "text": {
+            "es": "📣  Menudo ambiente...",
+            "en": "📣  Quite the atmosphere...",
+            "fr": "📣  Quelle ambiance...",
+            "it": "📣  Che atmosfera...",
+            "de": "📣  Was für eine Atmosphäre...",
+            "zh": "📣  真是「热闹」的气氛……",
+            "ja": "📣  すごい雰囲気だな……"
+        },
+        "next": [
+            "cr_1ar"
+        ],
+        "reward": ""
+    },
+    "cr_1ar": {
+        "type": "message",
+        "text": {
+            "es": "'¿Preguntas? ¡He dicho que NO preguntas! ...Pero entre tú y yo: sube a Celestia, aprende lo que puedas y ten el barco a la vista. Corren tiempos raros, forastero.'",
+            "en": "'Questions? I said NO questions! ...But between you and me: get up to Celestia, learn what you can, and keep an eye on that ship. Strange times, stranger.'",
+            "fr": "« Des questions ? J'ai dit PAS de questions ! ...Mais entre nous : monte à Celestia, apprends ce que tu peux et garde un œil sur ce bateau. Les temps sont étranges, étranger. »",
+            "it": "'Domande? Ho detto NO domande! ...Ma tra noi: sali a Celestia, impara quello che puoi e tieni d'occhio quella nave. Sono tempi strani, straniero.'",
+            "de": "„Fragen? Ich sagte KEINE Fragen! ...Aber unter uns: Geh hoch nach Celestia, lerne, was du kannst, und behalte das Schiff im Auge. Seltsame Zeiten, Fremder.“",
+            "zh": "「问题？我说了不许提问！……不过咱俩私下说：去塞莱斯提亚，尽量多学点东西，盯紧那艘船。这年头，怪事真不少啊，陌生人。」",
+            "ja": "「質問？質問はするなと言ったろう！……だが、ここだけの話、セレスティアへ上って学べるだけ学び、あの船から目を離すな。奇妙な時代だ、旅の者よ」"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "cr_1b": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Seguir tu camino",
+            "en": "🚶  Move along",
+            "fr": "🚶  Poursuivre ton chemin",
+            "it": "🚶  Proseguire il cammino",
+            "de": "🚶  Weitergehen",
+            "zh": "🚶  继续赶路",
+            "ja": "🚶  先へ進む"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

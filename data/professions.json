@@ -1,0 +1,471 @@
+{
+    "Don Nadie": {
+        "name": {
+            "es": "Don Nadie",
+            "en": "Nobody",
+            "fr": "Monsieur Personne",
+            "it": "Nessuno",
+            "de": "Herr Niemand",
+            "zh": "无名小卒",
+            "ja": "なんでもない人"
+        },
+        "icon": "👤",
+        "color": "334155",
+        "skills": [
+            {
+                "level": 1,
+                "id": "nob_punch"
+            },
+            {
+                "level": 3,
+                "id": "nob_talk"
+            },
+            {
+                "level": 5,
+                "id": "nob_beg"
+            },
+            {
+                "level": 7,
+                "id": "nob_shout"
+            },
+            {
+                "level": 9,
+                "id": "nob_flatter"
+            },
+            {
+                "level": 12,
+                "id": "nob_taunt"
+            },
+            {
+                "level": 15,
+                "id": "nob_pray"
+            },
+            {
+                "level": 18,
+                "id": "nob_play_dead"
+            },
+            {
+                "level": 21,
+                "id": "nob_dance"
+            },
+            {
+                "level": 24,
+                "id": "nob_throw_rock"
+            },
+            {
+                "level": 26,
+                "id": "nob_luck"
+            },
+            {
+                "level": 28,
+                "id": "nob_desperation"
+            },
+            {
+                "level": 30,
+                "id": "nob_legend"
+            }
+        ]
+    },
+    "Guerrero": {
+        "name": {
+            "es": "Guerrero",
+            "en": "Warrior",
+            "fr": "Guerrier",
+            "it": "Guerriero",
+            "de": "Krieger",
+            "zh": "战士",
+            "ja": "ワリアー"
+        },
+        "icon": "⚔️",
+        "color": "ef4444",
+        "skills": [
+            {
+                "level": 1,
+                "id": "war_slash"
+            },
+            {
+                "level": 3,
+                "id": "war_heavy_slash"
+            },
+            {
+                "level": 5,
+                "id": "war_guard_stance"
+            },
+            {
+                "level": 7,
+                "id": "war_shield_bash"
+            },
+            {
+                "level": 9,
+                "id": "war_counter"
+            },
+            {
+                "level": 12,
+                "id": "war_armor_break"
+            },
+            {
+                "level": 15,
+                "id": "war_barrier"
+            },
+            {
+                "level": 18,
+                "id": "war_shield"
+            },
+            {
+                "level": 21,
+                "id": "war_wall"
+            },
+            {
+                "level": 24,
+                "id": "war_berserk"
+            },
+            {
+                "level": 26,
+                "id": "war_heroic_charge"
+            },
+            {
+                "level": 28,
+                "id": "war_brave_heart"
+            },
+            {
+                "level": 30,
+                "id": "war_divine_execution"
+            }
+        ]
+    },
+    "Arquero": {
+        "name": {
+            "es": "Arquero",
+            "en": "Archer",
+            "fr": "Archer",
+            "it": "Arciere",
+            "de": "Bogenschütze",
+            "zh": "弓手",
+            "ja": "アーチャー"
+        },
+        "icon": "🏹",
+        "color": "22c55e",
+        "skills": [
+            {
+                "level": 1,
+                "id": "arc_arrow_shot"
+            },
+            {
+                "level": 3,
+                "id": "arc_double_shot"
+            },
+            {
+                "level": 5,
+                "id": "arc_aim"
+            },
+            {
+                "level": 7,
+                "id": "arc_poison_arrow"
+            },
+            {
+                "level": 9,
+                "id": "arc_steal"
+            },
+            {
+                "level": 12,
+                "id": "arc_hunter_focus"
+            },
+            {
+                "level": 15,
+                "id": "arc_piercing_arrow"
+            },
+            {
+                "level": 18,
+                "id": "arc_silence_arrow"
+            },
+            {
+                "level": 21,
+                "id": "arc_triple_shot"
+            },
+            {
+                "level": 24,
+                "id": "arc_eagle_eye"
+            },
+            {
+                "level": 26,
+                "id": "arc_rain_of_arrows"
+            },
+            {
+                "level": 28,
+                "id": "arc_phantom_arrow"
+            },
+            {
+                "level": 30,
+                "id": "arc_heavenly_shot"
+            }
+        ]
+    },
+    "Tiempo": {
+        "name": {
+            "es": "Tiempo",
+            "en": "Time Mage",
+            "fr": "Mage du temps",
+            "it": "Mago del tempo",
+            "de": "Zeitmagier",
+            "zh": "时间法师",
+            "ja": "タイムメイジ"
+        },
+        "icon": "⏳",
+        "color": "eab308",
+        "skills": [
+            {
+                "level": 1,
+                "id": "tm_quick"
+            },
+            {
+                "level": 1,
+                "id": "tm_slow"
+            },
+            {
+                "level": 1,
+                "id": "tm_acceleration"
+            },
+            {
+                "level": 4,
+                "id": "tm_delay"
+            },
+            {
+                "level": 7,
+                "id": "tm_haste"
+            },
+            {
+                "level": 10,
+                "id": "tm_stop"
+            },
+            {
+                "level": 13,
+                "id": "tm_time_shield"
+            },
+            {
+                "level": 16,
+                "id": "tm_rewind"
+            },
+            {
+                "level": 19,
+                "id": "tm_chrono_lock"
+            },
+            {
+                "level": 22,
+                "id": "tm_future_sight"
+            },
+            {
+                "level": 25,
+                "id": "tm_second_chance"
+            },
+            {
+                "level": 28,
+                "id": "tm_chrono_break"
+            },
+            {
+                "level": 30,
+                "id": "tm_eternal_time"
+            }
+        ]
+    },
+    "Psíquico": {
+        "name": {
+            "es": "Psíquico",
+            "en": "Psychic",
+            "fr": "Psychique",
+            "it": "Psichico",
+            "de": "Psioniker",
+            "zh": "精神术师",
+            "ja": "サイキック"
+        },
+        "icon": "🧠",
+        "color": "a855f7",
+        "skills": [
+            {
+                "level": 1,
+                "id": "psy_mind_strike"
+            },
+            {
+                "level": 3,
+                "id": "psy_focus"
+            },
+            {
+                "level": 5,
+                "id": "psy_confusion"
+            },
+            {
+                "level": 7,
+                "id": "psy_telekinesis"
+            },
+            {
+                "level": 9,
+                "id": "psy_gravity"
+            },
+            {
+                "level": 12,
+                "id": "psy_mind_break"
+            },
+            {
+                "level": 15,
+                "id": "psy_meditation"
+            },
+            {
+                "level": 18,
+                "id": "psy_psychic_barrier"
+            },
+            {
+                "level": 21,
+                "id": "psy_nightmare"
+            },
+            {
+                "level": 24,
+                "id": "psy_mental_prison"
+            },
+            {
+                "level": 26,
+                "id": "psy_sixth_sense"
+            },
+            {
+                "level": 28,
+                "id": "psy_astral_burst"
+            },
+            {
+                "level": 30,
+                "id": "psy_astral_nova"
+            }
+        ]
+    },
+    "Elementalista": {
+        "name": {
+            "es": "Elementalista",
+            "en": "Elementalist",
+            "fr": "Élémentaliste",
+            "it": "Elementalista",
+            "de": "Elementarist",
+            "zh": "元素师",
+            "ja": "エレメンタリスト"
+        },
+        "icon": "🌎",
+        "color": "3b82f6",
+        "skills": [
+            {
+                "level": 1,
+                "id": "ele_fire_1"
+            },
+            {
+                "level": 1,
+                "id": "ele_water_1"
+            },
+            {
+                "level": 1,
+                "id": "ele_wind_1"
+            },
+            {
+                "level": 1,
+                "id": "ele_earth_1"
+            },
+            {
+                "level": 10,
+                "id": "ele_fire_2"
+            },
+            {
+                "level": 10,
+                "id": "ele_water_2"
+            },
+            {
+                "level": 10,
+                "id": "ele_wind_2"
+            },
+            {
+                "level": 10,
+                "id": "ele_earth_2"
+            },
+            {
+                "level": 20,
+                "id": "ele_fire_3"
+            },
+            {
+                "level": 20,
+                "id": "ele_water_3"
+            },
+            {
+                "level": 20,
+                "id": "ele_wind_3"
+            },
+            {
+                "level": 20,
+                "id": "ele_earth_3"
+            },
+            {
+                "level": 30,
+                "id": "ele_ultima"
+            }
+        ]
+    },
+    "Sacerdote": {
+        "name": {
+            "es": "Sacerdote",
+            "en": "Priest",
+            "fr": "Prêtre",
+            "it": "Sacerdote",
+            "de": "Priester",
+            "zh": "神官",
+            "ja": "プリースト"
+        },
+        "icon": "✨",
+        "color": "f8fafc",
+        "skills": [
+            {
+                "level": 1,
+                "id": "pri_heal"
+            },
+            {
+                "level": 3,
+                "id": "pri_cure_poison"
+            },
+            {
+                "level": 5,
+                "id": "pri_blessing"
+            },
+            {
+                "level": 7,
+                "id": "pri_holy_light"
+            },
+            {
+                "level": 9,
+                "id": "pri_protect"
+            },
+            {
+                "level": 12,
+                "id": "pri_shell"
+            },
+            {
+                "level": 15,
+                "id": "pri_greater_heal"
+            },
+            {
+                "level": 18,
+                "id": "pri_sanctuary"
+            },
+            {
+                "level": 21,
+                "id": "pri_holy_spear"
+            },
+            {
+                "level": 24,
+                "id": "pri_resurrection"
+            },
+            {
+                "level": 26,
+                "id": "pri_divine_prayer"
+            },
+            {
+                "level": 28,
+                "id": "pri_judgement"
+            },
+            {
+                "level": 30,
+                "id": "pri_miracle"
+            }
+        ]
+    }
+}

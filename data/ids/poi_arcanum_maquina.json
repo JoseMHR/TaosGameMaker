@@ -1,0 +1,26 @@
+{
+    "id": "poi_arcanum_maquina",
+    "type": "poi",
+    "icon": "🥤",
+    "name": {
+        "es": "La Máquina Expendedora Sensible",
+        "en": "The Sentient Vending Machine",
+        "fr": "Le Distributeur Sensible",
+        "it": "Il Distributore Automatico Senziente",
+        "de": "Der Empfindsame Automat",
+        "zh": "有知觉的自动售货机",
+        "ja": "感覚を持つ自動販売機"
+    },
+    "desc": {
+        "es": "Una máquina expendedora que ha desarrollado consciencia, angustia existencial y unas ganas enormes de charlar. (PNJ singular).",
+        "en": "A vending machine that has developed consciousness, existential dread, and an enormous urge to chat. (Singular NPC).",
+        "fr": "Un distributeur automatique ayant développé une conscience, une angoisse existentielle et une immense envie de bavarder. (PNJ singulier).",
+        "it": "Un distributore automatico che ha sviluppato coscienza, angoscia esistenziale e un'enorme voglia di chiacchierare. (PNG singolare).",
+        "de": "Ein Verkaufsautomat, der Bewusstsein, existenzielle Angst und ein enormes Bedürfnis zu plaudern entwickelt hat. (Einzigartiger NPC).",
+        "zh": "一台产生了自我意识、存在主义焦虑，以及强烈聊天欲望的自动售货机。（唯一NPC）。",
+        "ja": "意識と実存的な苦悩、そして強烈なおしゃべり欲を身につけた自動販売機。（唯一のNPC）。"
+    },
+    "npc": "poi_arcanum_maquina",
+    "bg": "bg_world_poi_arcanum_maquina.png",
+    "music": "poi_comic"
+}

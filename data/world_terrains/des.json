@@ -1,0 +1,13 @@
+{
+	"code": "des",
+	"order": 3,
+	"label": "Desierto",
+	"color": "#cbb45e",
+	"icon": "🏜️",
+	"biome_color": "#2a2418",
+	"description": "Dunas abrasadoras: el sol pega fuerte y no hay dónde resguardarse.",
+	"walkable": true,
+	"speed_mult": 0.4,
+	"texture": "sand",
+	"hazard": "heat"
+}

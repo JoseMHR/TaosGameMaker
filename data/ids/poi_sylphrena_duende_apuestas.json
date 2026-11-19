@@ -1,0 +1,26 @@
+{
+    "id": "poi_sylphrena_duende_apuestas",
+    "type": "poi",
+    "icon": "🎲",
+    "name": {
+        "es": "El Duende de las Apuestas Imposibles",
+        "en": "The Goblin of Impossible Bets",
+        "fr": "Le Lutin des Paris Impossibles",
+        "it": "Il Folletto delle Scommesse Impossibili",
+        "de": "Der Kobold der Unmöglichen Wetten",
+        "zh": "不可能之赌的地精",
+        "ja": "不可能な賭けのゴブリン"
+    },
+    "desc": {
+        "es": "Un duende tramposo con una mesa plegable te reta a apuestas que jura que no puedes perder. Miente, obviamente. (PNJ singular).",
+        "en": "A cheating goblin with a folding table dares you to bets he swears you can't lose. He's lying, obviously. (Singular NPC).",
+        "fr": "Un lutin tricheur avec une table pliante te défie à des paris qu'il jure que tu ne peux pas perdre. Il ment, évidemment. (PNJ singulier).",
+        "it": "Un folletto imbroglione con un tavolo pieghevole ti sfida a scommesse che giura tu non possa perdere. Mente, ovviamente. (PNG singolare).",
+        "de": "Ein betrügerischer Kobold mit einem Klapptisch fordert dich zu Wetten heraus, die du seinem Schwur nach nicht verlieren kannst. Er lügt natürlich. (Einzigartiger NPC).",
+        "zh": "一个带着折叠桌的骗子地精，用赌局向你挑战，并发誓你不可能输。显然他在撒谎。（唯一NPC）。",
+        "ja": "折り畳み式の机を持ったいかさまゴブリンが、絶対に負けないと誓う賭けに挑んでくる。もちろん嘘だ。（唯一のNPC）。"
+    },
+    "npc": "poi_sylphrena_duende_apuestas",
+    "bg": "bg_world_poi_sylphrena_duende_apuestas.png",
+    "music": "poi_generic"
+}

@@ -1,0 +1,114 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "Tumba Antigua",
+            "en": "Ancient Grave",
+            "fr": "Tombe Antique",
+            "it": "Tomba Antica",
+            "de": "Uraltes Grab",
+            "zh": "古老坟墓",
+            "ja": "古の墓"
+        },
+        "next": [],
+        "reward": "bg=0.03,0.03,0.05"
+    },
+    "tumba3_root": {
+        "type": "message",
+        "text": {
+            "es": "Llegas ante una tumba de piedra negra, solitaria y desgastada por siglos de intemperie. A diferencia de las otras lápidas, aquí no crece ni una sola brizna de hierba. El viento aúlla con un susurro gélido que te eriza la piel.\n\nEn la parte frontal hay un grabado antiguo, pero los caracteres parecen distorsionarse y vibrar cuando intentas fijar la vista en ellos:\n\n«AQUÍ YACE ▓▒░█ §#%&...»",
+            "en": "You stand before a solitary tomb of dark, weathered stone. Unlike the neighboring graves, not a single blade of grass grows nearby. The freezing wind carries an eerie whistle that chills your bones.\n\nUpon the front face is an ancient engraving, but the glyphs seem to vibrate and glitch the moment you try to focus upon them:\n\n«HERE LIES ▓▒░█ §#%&...»",
+            "fr": "Tu arrives devant une tombe de pierre noire, solitaire et usée par des siècles d'intempéries. Contrairement aux autres pierres tombales, pas un seul brin d'herbe ne pousse ici. Le vent hurle avec un sifflement glacial qui te hérisse la peau.\n\nSur la face avant se trouve une gravure ancienne, mais les caractères semblent se déformer et vibrer lorsque tu essaies de fixer ton regard dessus :\n\n«CI-GÎT ▓▒░█ §#%&...»",
+            "it": "Arrivi davanti a una tomba di pietra nera, solitaria e consumata da secoli di intemperie. A differenza delle altre lapidi, qui non cresce nemmeno un filo d'erba. Il vento ulula con un sibilo gelido che ti fa rizzare la pelle.\n\nSulla facciata anteriore c'è un'incisione antica, ma i caratteri sembrano distorcersi e vibrare quando cerchi di fissarli con lo sguardo:\n\n«QUI GIACE ▓▒░█ §#%&...»",
+            "de": "Du erreichst ein einsames Grab aus schwarzem Stein, verwittert von Jahrhunderten der Witterung. Anders als bei den anderen Grabsteinen wächst hier nicht ein einziger Grashalm. Der Wind heult mit einem eisigen Pfeifen, das dir die Haut erschaudern lässt.\n\nAuf der Vorderseite befindet sich eine uralte Gravur, doch die Schriftzeichen scheinen sich zu verzerren und zu flimmern, sobald du versuchst, sie zu fixieren:\n\n«HIER RUHT ▓▒░█ §#%&...»",
+            "zh": "你来到一座黑石墓前，孤零零的，被数百年的风霜侵蚀。与其他墓碑不同，这里连一根草叶都没有生长。狂风发出令人毛骨悚然的呼啸，使你汗毛倒竖。\n\n正面刻着古老的文字，但当你试图凝视它们时，那些字符似乎会扭曲、颤动：\n\n「此处安息着▓▒░█ §#%&……」",
+            "ja": "お前は黒い石の孤独な墓の前に辿り着く。幾世紀もの風雨にさらされ、他の墓石とは違い、ここには一本の草も生えていない。風が凍りつくような口笛を鳴らし、肌を粟立たせる。\n\n正面には古い彫刻があるが、目を凝らそうとすると文字が歪み、震えているように見える：\n\n「ここに眠るは▓▒░█ §#%&……」"
+        },
+        "next": [
+            "tumba3_opt_leer",
+            "tumba3_opt_huir"
+        ],
+        "reward": ""
+    },
+    "tumba3_opt_leer": {
+        "type": "option",
+        "text": {
+            "es": "👁️  Fijar la mirada e intentar descifrar el grabado",
+            "en": "👁️  Focus your gaze and try to decipher the carving",
+            "fr": "👁️  Fixer le regard et essayer de déchiffrer la gravure",
+            "it": "👁️  Fissare lo sguardo e cercare di decifrare l'incisione",
+            "de": "👁️  Den Blick fixieren und versuchen, die Gravur zu entziffern",
+            "zh": "👁️  凝神注视，试图解读铭文",
+            "ja": "👁️  視線を集中させ、彫刻を解読しようとする"
+        },
+        "next": [
+            "tumba3_msg_leer"
+        ],
+        "reward": ""
+    },
+    "tumba3_opt_huir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Apartarse de inmediato (un terror instintivo te invade)",
+            "en": "🚶  Step away at once (an instinctive dread overtakes you)",
+            "fr": "🚶  S'écarter immédiatement (une terreur instinctive t'envahit)",
+            "it": "🚶  Allontanarsi immediatamente (un terrore istintivo ti invade)",
+            "de": "🚶  Sich sofort entfernen (ein instinktives Grauen überkommt dich)",
+            "zh": "🚶  立刻退开（一股本能的恐惧席卷而来）",
+            "ja": "🚶  即座に離れる（本能的な恐怖に襲われる）"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "tumba3_msg_leer": {
+        "type": "message",
+        "text": {
+            "es": "Un dolor punzante y atroz te taladra las sienes. Te llevas las manos a la cabeza... Tu visión parpadea, oscilando entre la realidad y la penumbra.\n\nLos símbolos corruptos en la piedra se recomponen lentamente ante tus ojos. No hay un nombre que puedas pronunciar, pero en el bajorrelieve ves tallados tus mismos ropajes, tu misma complexión... y una frase estremecedora:\n\n«Aquí yace el Don Nadie que jamás debió despertar.»\n\nUn escalofrío helado te paraliza. ¡Esa tumba es la tuya!",
+            "en": "A searing, agonizing pang pierces through your temples. You clutch your head in pain... Your vision flickers violently between waking reality and shadow.\n\nThe corrupt sigils on the stone slowly shift before your eyes. There is no name your tongue can utter, but carved in the stone relief you recognize your exact attire, your exact stature... and a chilling inscription:\n\n«Here lies the Nobody who should never have awoken.»\n\nA glacial dread freezes your blood. This grave belongs to you!",
+            "fr": "Une douleur lancinante et atroce te transperce les tempes. Tu portes les mains à ta tête... Ta vision vacille, oscillant entre la réalité et l'obscurité.\n\nLes symboles corrompus sur la pierre se recomposent lentement sous tes yeux. Il n'y a pas de nom que tu puisses prononcer, mais dans le bas-relief tu vois sculptés tes propres vêtements, ta propre carrure... et une phrase glaçante :\n\n«Ci-gît le Personne qui n'aurait jamais dû se réveiller.»\n\nUn frisson glacial te paralyse. Cette tombe est la tienne !",
+            "it": "Un dolore lancinante e atroce ti trafigge le tempie. Ti porti le mani alla testa... La tua vista sfarfalla, oscillando tra la realtà e la penombra.\n\nI simboli corrotti sulla pietra si ricompongono lentamente davanti ai tuoi occhi. Non c'è un nome che tu possa pronunciare, ma nel bassorilievo vedi scolpiti i tuoi stessi abiti, la tua stessa corporatura... e una frase agghiacciante:\n\n«Qui giace il Don Nessuno che non sarebbe mai dovuto svegliarsi.»\n\nUn brivido gelido ti paralizza. Quella tomba è la tua!",
+            "de": "Ein stechender, quälender Schmerz durchbohrt deine Schläfen. Du greifst dir an den Kopf... Deine Sicht flackert, schwankt zwischen Realität und Dunkelheit.\n\nDie verdorbenen Symbole auf dem Stein setzen sich langsam vor deinen Augen neu zusammen. Es gibt keinen Namen, den du aussprechen könntest, aber im Flachrelief siehst du deine eigene Kleidung, deine eigene Statur eingemeißelt... und einen erschütternden Satz:\n\n«Hier ruht das Niemand, das niemals hätte erwachen dürfen.»\n\nEin eisiger Schauer lähmt dich. Dieses Grab ist dein eigenes!",
+            "zh": "一阵撕裂般的剧痛刺穿你的太阳穴。你双手抱头……你的视野闪烁不定，在现实与幽暗之间摇摆。\n\n石头上那些扭曲的符号在你眼前缓缓重组。虽然没有你能读出的名字，但在浮雕中，你看见了自己一模一样的衣着，一模一样的体格……以及一句令人毛骨悚然的话：\n\n「此处安息着那本不该苏醒的无名之人。」\n\n一股冰冷的恐惧使你僵住。这座坟墓是你自己的！",
+            "ja": "刺すような、耐え難い痛みがこめかみを貫く。両手で頭を抱える……視界が激しく明滅し、現実と闇の間を揺れ動く。\n\n石に刻まれた乱れた記号が、お前の目の前でゆっくりと再構成されていく。口にできる名前はどこにもないが、浮き彫りには、お前とまったく同じ衣装、同じ体格が刻まれている……そしてぞっとする一文：\n\n「ここに眠るは、決して目覚めるべきではなかったドン・ナディ」\n\n氷のような戦慄がお前を凍りつかせる。この墓はお前自身のものだ！"
+        },
+        "next": [
+            "tumba3_opt_terror"
+        ],
+        "reward": ""
+    },
+    "tumba3_opt_terror": {
+        "type": "option",
+        "text": {
+            "es": "😱  ¡No... esto no puede ser real! (La realidad se fractura)",
+            "en": "😱  No... this cannot be real! (Reality fractures)",
+            "fr": "😱  Non... ce n'est pas possible ! (La réalité se fissure)",
+            "it": "😱  No... non può essere reale! (La realtà si frattura)",
+            "de": "😱  Nein... das kann nicht real sein! (Die Realität zerbricht)",
+            "zh": "😱  不……这不可能是真的！（现实开始破裂）",
+            "ja": "😱  違う……これが現実のはずがない！（現実が砕け散る）"
+        },
+        "next": [
+            "tumba3_msg_glitch"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "tumba3_msg_glitch": {
+        "type": "message",
+        "text": {
+            "es": "Un zumbido ensordecedor resuena en tu cráneo. El mundo a tu alrededor pierde el color, retorciéndose en espirales de estática. El suelo desaparece bajo tus pies...\n\nCuando abres los ojos de golpe y recuperas el aliento, estás de pie en el páramo. La tumba ya no está. No hay rastro de piedra ni de tierra removida... como si jamás hubiera existido.",
+            "en": "A deafening ringing echoes inside your skull. Color drains from the world, contorting into warped ripples of static. The earth gives way beneath you...\n\nWhen you snap your eyes open and gasp for air, you are standing alone in the wastelands. The grave is gone. No stone, no mound, not a single trace... as though it never existed.",
+            "fr": "Un bourdonnement assourdissant résonne dans ton crâne. Le monde autour de toi perd sa couleur, se tordant en spirales de parasites. Le sol disparaît sous tes pieds...\n\nQuand tu ouvres brusquement les yeux et reprends ton souffle, tu es debout dans la lande. La tombe n'est plus là. Aucune trace de pierre ni de terre remuée... comme si elle n'avait jamais existé.",
+            "it": "Un ronzio assordante risuona nel tuo cranio. Il mondo intorno a te perde colore, contorcendosi in spirali di statica. Il terreno scompare sotto i tuoi piedi...\n\nQuando apri di scatto gli occhi e riprendi fiato, sei in piedi nella landa. La tomba non c'è più. Nessuna traccia di pietra né di terra smossa... come se non fosse mai esistita.",
+            "de": "Ein ohrenbetäubendes Summen hallt in deinem Schädel wider. Die Welt um dich herum verliert ihre Farbe und windet sich in Spiralen aus Rauschen. Der Boden verschwindet unter deinen Füßen...\n\nAls du die Augen schlagartig öffnest und nach Luft schnappst, stehst du allein im Ödland. Das Grab ist verschwunden. Keine Spur von Stein oder aufgewühlter Erde... als hätte es nie existiert.",
+            "zh": "一阵震耳欲聋的嗡鸣在你颅骨中回荡。周遭世界失去了色彩，扭曲成一圈圈静电般的漩涡。大地在你脚下消失……\n\n当你猛然睁开双眼、大口喘气时，你正独自站在荒原上。坟墓已经不见了。没有石头，没有翻动过的泥土……仿佛它从未存在过。",
+            "ja": "耳をつんざく唸り声が頭蓋の中で響く。周囲の世界から色が失われ、ノイズの渦へと歪んでいく。足元から大地が消え去る……\n\nはっと目を見開き、息を吸い込むと、お前は荒野に一人立っている。墓はもうない。石の跡も、掘り返された土もない……まるで最初から存在しなかったかのように。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "worldt:tumba_propia_desvanecida;gflag:tumba_propia_desvanecida;faceta:cordura=-1;sfx:tremor"
+    }
+}

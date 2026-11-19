@@ -1,0 +1,144 @@
+[gd_scene format=3]
+
+[sub_resource type="StandardMaterial3D" id="Mat_Stone"]
+albedo_color = Color(0.42, 0.44, 0.48, 1)
+roughness = 0.85
+
+[sub_resource type="StandardMaterial3D" id="Mat_Wood"]
+albedo_color = Color(0.34, 0.21, 0.12, 1)
+roughness = 0.9
+
+[sub_resource type="StandardMaterial3D" id="Mat_BannerRed"]
+albedo_color = Color(0.82, 0.18, 0.15, 1)
+roughness = 0.6
+
+[sub_resource type="StandardMaterial3D" id="Mat_FireGlow"]
+albedo_color = Color(1.0, 0.55, 0.1, 1)
+emission_enabled = true
+emission = Color(1.0, 0.45, 0.05, 1)
+emission_energy_multiplier = 3.0
+
+[sub_resource type="StandardMaterial3D" id="Mat_Iron"]
+albedo_color = Color(0.2, 0.2, 0.24, 1)
+metallic = 0.75
+roughness = 0.35
+
+[sub_resource type="BoxMesh" id="Mesh_TowerBase"]
+size = Vector3(0.48, 0.4, 0.48)
+
+[sub_resource type="CylinderMesh" id="Mesh_TowerPillar"]
+top_radius = 0.04
+bottom_radius = 0.05
+height = 0.75
+radial_segments = 6
+
+[sub_resource type="BoxMesh" id="Mesh_Platform"]
+size = Vector3(0.58, 0.08, 0.58)
+
+[sub_resource type="PrismMesh" id="Mesh_TowerRoof"]
+size = Vector3(0.62, 0.38, 0.62)
+
+[sub_resource type="CylinderMesh" id="Mesh_GatePost"]
+top_radius = 0.05
+bottom_radius = 0.06
+height = 0.6
+radial_segments = 6
+
+[sub_resource type="BoxMesh" id="Mesh_BarrierBar"]
+size = Vector3(0.72, 0.06, 0.06)
+
+[sub_resource type="BoxMesh" id="Mesh_Banner"]
+size = Vector3(0.18, 0.45, 0.02)
+
+[sub_resource type="CylinderMesh" id="Mesh_Brazier"]
+top_radius = 0.08
+bottom_radius = 0.06
+height = 0.16
+radial_segments = 6
+
+[sub_resource type="SphereMesh" id="Mesh_Flame"]
+radius = 0.07
+height = 0.14
+
+[sub_resource type="CylinderMesh" id="Mesh_Spike"]
+top_radius = 0.01
+bottom_radius = 0.04
+height = 0.42
+radial_segments = 5
+
+[node name="CentinelaFrontera" type="Node3D"]
+
+[node name="TowerStoneBase" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.32, 0.2, -0.15)
+material_override = SubResource("Mat_Stone")
+mesh = SubResource("Mesh_TowerBase")
+
+[node name="PillarTL" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 0.75, -0.33)
+material_override = SubResource("Mat_Wood")
+mesh = SubResource("Mesh_TowerPillar")
+
+[node name="PillarTR" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.14, 0.75, -0.33)
+material_override = SubResource("Mat_Wood")
+mesh = SubResource("Mesh_TowerPillar")
+
+[node name="PillarBL" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 0.75, 0.03)
+material_override = SubResource("Mat_Wood")
+mesh = SubResource("Mesh_TowerPillar")
+
+[node name="PillarBR" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.14, 0.75, 0.03)
+material_override = SubResource("Mat_Wood")
+mesh = SubResource("Mesh_TowerPillar")
+
+[node name="WatchPlatform" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.32, 1.12, -0.15)
+material_override = SubResource("Mat_Wood")
+mesh = SubResource("Mesh_Platform")
+
+[node name="TowerRoof" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.32, 1.35, -0.15)
+material_override = SubResource("Mat_Wood")
+mesh = SubResource("Mesh_TowerRoof")
+
+[node name="SignalBrazier" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.32, 1.58, -0.15)
+material_override = SubResource("Mat_Iron")
+mesh = SubResource("Mesh_Brazier")
+
+[node name="SignalFlame" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.32, 1.7, -0.15)
+material_override = SubResource("Mat_FireGlow")
+mesh = SubResource("Mesh_Flame")
+
+[node name="FrontierBanner" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.32, 0.88, 0.16)
+material_override = SubResource("Mat_BannerRed")
+mesh = SubResource("Mesh_Banner")
+
+[node name="GatePostLeft" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.05, 0.3, 0.18)
+material_override = SubResource("Mat_Wood")
+mesh = SubResource("Mesh_GatePost")
+
+[node name="GatePostRight" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.45, 0.3, 0.18)
+material_override = SubResource("Mat_Wood")
+mesh = SubResource("Mesh_GatePost")
+
+[node name="BarrierBar" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.966, -0.259, 0, 0.259, 0.966, 0.2, 0.32, 0.18)
+material_override = SubResource("Mat_Wood")
+mesh = SubResource("Mesh_BarrierBar")
+
+[node name="BarricadeSpike1" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.866, -0.5, 0, 0.5, 0.866, 0, 0, 0, 1, 0.38, 0.15, 0.32)
+material_override = SubResource("Mat_Wood")
+mesh = SubResource("Mesh_Spike")
+
+[node name="BarricadeSpike2" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.707, 0.707, 0, -0.707, 0.707, 0, 0, 0, 1, 0.48, 0.15, 0.32)
+material_override = SubResource("Mat_Wood")
+mesh = SubResource("Mesh_Spike")

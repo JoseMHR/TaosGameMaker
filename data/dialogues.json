@@ -1,0 +1,18 @@
+{
+    "diary_found": {
+        "npc_name": { "es": "Descubrimiento", "en": "Discovery", "fr": "Découverte", "it": "Scoperta", "de": "Entdeckung", "zh": "发现", "ja": "発見" },
+        "npc_avatar": "📖",
+        "text": {
+            "es": "¡Has derrotado al boss de la cueva! Entre sus pertenencias encuentras el Diario Personal perdido.",
+            "en": "You defeated the cave boss! Among its belongings you find the lost Personal Diary.",
+            "fr": "Tu as vaincu le boss de la grotte ! Parmi ses possessions, tu trouves le Journal Personnel perdu.",
+            "it": "Hai sconfitto il boss della grotta! Tra i suoi averi trovi il Diario Personale perduto.",
+            "de": "Du hast den Höhlenboss besiegt! Unter seinen Sachen findest du das verlorene persönliche Tagebuch.",
+            "zh": "你击败了洞穴首领！在它的财物中，你找到了遗失的私人日记。",
+            "ja": "洞窟のボスを倒した！その持ち物の中に、失われた個人の日誌を見つけた。"
+        },
+        "choices": [
+            { "text": { "es": "✅  ¡Excelente!", "en": "✅  Excellent!", "fr": "✅  Excellent !", "it": "✅  Eccellente!", "de": "✅  Ausgezeichnet!", "zh": "✅  太好了！", "ja": "✅  すばらしい！" }, "action": "dismiss" }
+        ]
+    }
+}

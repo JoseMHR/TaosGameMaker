@@ -1,0 +1,9 @@
+{
+	"code": "fish",
+	"order": 4,
+	"label": "Zona de Pesca",
+	"icon": "🎣",
+	"biome_color": "#0f2742",
+	"description": "Un buen lugar para lanzar la caña.",
+	"placeable": true
+}

@@ -1,0 +1,26 @@
+{
+    "id": "poi_estatua_desafio",
+    "type": "poi",
+    "icon": "👁️",
+    "name": {
+        "es": "El Torneo de Miradas",
+        "en": "The Staring Tournament",
+        "fr": "Le Tournoi des Regards",
+        "it": "Il Torneo degli Sguardi",
+        "de": "Das Starrwett-Turnier",
+        "zh": "凝视锦标赛",
+        "ja": "見つめ合いトーナメント"
+    },
+    "desc": {
+        "es": "Una estatua de ruinas arcanas que reta en silencio a un duelo de miradas. (POI de inspección).",
+        "en": "An arcane-ruins statue silently challenging you to a staring duel. (Inspection POI).",
+        "fr": "Une statue des ruines arcaniques qui te défie silencieusement à un duel de regards. (POI d'inspection).",
+        "it": "Una statua delle rovine arcane che ti sfida in silenzio a un duello di sguardi. (POI di ispezione).",
+        "de": "Eine Statue in arkanen Ruinen, die dich still zu einem Starrduell herausfordert. (Inspektions-POI).",
+        "zh": "一尊来自奥秘废墟的雕像，无声地向你发起凝视对决的挑战。（探查类兴趣点）。",
+        "ja": "アルカナの廃墟にある彫像が、無言で睨めっこ勝負を挑んでくる。（調査ポイント）。"
+    },
+    "npc": "poi_estatua_desafio",
+    "bg": "bg_world_poi_arcanum_estatua_desafio.png",
+    "music": "poi_comic"
+}

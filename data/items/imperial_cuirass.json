@@ -1,0 +1,31 @@
+{
+    "name": {
+        "es": "Coraza Imperial",
+        "en": "Imperial Cuirass",
+        "fr": "Cuirasse Impériale",
+        "it": "Corazza Imperiale",
+        "de": "Kaiserlicher Brustpanzer",
+        "zh": "帝国胸甲",
+        "ja": "インペリアルキュイラス"
+    },
+    "desc": {
+        "es": "Coraza pulida de la guardia real de Sylphrena.",
+        "en": "A polished cuirass worn by Sylphrena's royal guard.",
+        "fr": "Cuirasse polie portée par la garde royale de Sylphrena.",
+        "it": "Corazza lucidata indossata dalla guardia reale di Sylphrena.",
+        "de": "Polierter Brustpanzer, getragen von Sylphrenas königlicher Garde.",
+        "zh": "西尔芙雷娜皇家卫队所穿的抛光胸甲。",
+        "ja": "シルフレナ王室近衛隊が着用する磨き上げられた胸甲。"
+    },
+    "icon": "🦺",
+    "category": "equipment",
+    "usable": false,
+    "slot": "armor",
+    "tier": 2,
+    "bonuses": {
+        "vit": 6
+    },
+    "combat": {
+        "phys_defense": 50
+    }
+}

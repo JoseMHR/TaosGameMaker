@@ -1,0 +1,12 @@
+{
+	"t": "lever",
+	"order": 10,
+	"label": "Palanca",
+	"icon": "🕹️",
+	"color": "#3aa0b0",
+	"group": "Onda Cinética",
+	"entity": true,
+	"actuator": true,
+	"stateful": true,
+	"skill": "onda"
+}

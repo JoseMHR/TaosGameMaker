@@ -1,0 +1,26 @@
+{
+    "id": "poi_gloriam_genio_tacano",
+    "type": "poi",
+    "icon": "🪔",
+    "name": {
+        "es": "El Genio Tacaño",
+        "en": "The Stingy Genie",
+        "fr": "Le Génie Radin",
+        "it": "Il Genio Tirchio",
+        "de": "Der Geizige Geist",
+        "zh": "吝啬的精灵",
+        "ja": "けちな魔神"
+    },
+    "desc": {
+        "es": "Un genio milenario concede deseos... interpretándolos de la forma más rácana y literal posible para currar lo menos que pueda. (PNJ singular).",
+        "en": "An ancient genie grants wishes... interpreting them in the stingiest, most literal way possible to do as little work as he can. (Singular NPC).",
+        "fr": "Un génie millénaire exauce les vœux... en les interprétant de la manière la plus radine et littérale possible pour travailler le moins possible. (PNJ singulier).",
+        "it": "Un genio millenario esaudisce i desideri... interpretandoli nel modo più tirchio e letterale possibile per faticare il meno possibile. (PNG singolare).",
+        "de": "Ein tausendjähriger Geist erfüllt Wünsche... indem er sie so geizig und wörtlich wie möglich auslegt, um so wenig wie möglich zu arbeiten. (Einzigartiger NPC).",
+        "zh": "一位千年精灵会实现愿望……却以最抠门、最字面的方式解读，好让自己尽量少做事。（唯一NPC）。",
+        "ja": "千年の魔神が願いを叶える……ただし、できるだけ働かずに済むよう、けちで文字通りの解釈をする。（唯一のNPC）。"
+    },
+    "npc": "poi_gloriam_genio_tacano",
+    "bg": "bg_world_poi_gloriam_genio_tacano.png",
+    "music": "poi_generic"
+}

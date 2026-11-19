@@ -1,0 +1,26 @@
+{
+    "id": "poi_arcanum_perro_robot",
+    "type": "poi",
+    "icon": "🐕‍🦺",
+    "name": {
+        "es": "El Perro Robot que Aún Juega",
+        "en": "The Robot Dog That Still Plays",
+        "fr": "Le Chien Robot qui Joue Encore",
+        "it": "Il Cane Robot che Gioca Ancora",
+        "de": "Der Roboterhund, der Noch Spielt",
+        "zh": "仍在玩耍的机器狗",
+        "ja": "まだ遊び続けるロボット犬"
+    },
+    "desc": {
+        "es": "Un perro robótico medio oxidado sigue trayendo una pelota podrida a cualquiera que pase, esperando que alguien vuelva a lanzarla. (PNJ singular).",
+        "en": "A half-rusted robotic dog still brings a rotten ball to anyone who passes, hoping someone will throw it again. (Singular NPC).",
+        "fr": "Un chien robotique à moitié rouillé continue d'apporter une balle pourrie à quiconque passe, espérant que quelqu'un la relancera. (PNJ singulier).",
+        "it": "Un cane robotico mezzo arrugginito continua a portare una palla marcia a chiunque passi, sperando che qualcuno la rilanci. (PNG singolare).",
+        "de": "Ein halb verrosteter Roboterhund bringt weiterhin jedem Vorbeigehenden einen verrotteten Ball, in der Hoffnung, dass ihn jemand wieder wirft. (Einzigartiger NPC).",
+        "zh": "一只半生锈的机械狗依然叼着一颗腐烂的球，追着每一个路过的人，希望有人再次把球扔出去。（唯一NPC）。",
+        "ja": "半分錆びついたロボット犬が、腐ったボールを通りすがりの誰かに持っていき、また投げてもらえるのを待ち続けている。（唯一のNPC）。"
+    },
+    "npc": "poi_arcanum_perro_robot",
+    "bg": "bg_world_poi_arcanum_perro_robot.png",
+    "music": "poi_generic"
+}

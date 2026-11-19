@@ -1,0 +1,23 @@
+{
+    "id": "sendero_guerrero",
+    "type": "dungeon",
+    "name": {
+        "es": "El Sendero del Guerrero",
+        "en": "The Warrior's Path",
+        "fr": "Le Sentier du Guerrier",
+        "it": "Il Sentiero del Guerriero",
+        "de": "Der Pfad des Kriegers",
+        "zh": "战士之路",
+        "ja": "戦士の道"
+    },
+    "icon": "⚔️",
+    "desc": {
+        "es": "Templo tematico: rompe el muro con la Onda Cinetica y vence al Coloso de Piedra para aprenderla.",
+        "en": "Themed temple: break the wall with the Kinetic Wave and defeat the Stone Colossus to learn it.",
+        "fr": "Temple thématique : brise le mur avec l'Onde Cinétique et vaincs le Colosse de Pierre pour l'apprendre.",
+        "it": "Tempio tematico: rompi il muro con l'Onda Cinetica e sconfiggi il Colosso di Pietra per impararla.",
+        "de": "Themen-Tempel: durchbrich die Mauer mit der Kinetischen Welle und besiege den Steinkoloss, um sie zu erlernen.",
+        "zh": "主题神庙：用动能冲击波打破石墙，击败石巨像以学会此技能。",
+        "ja": "テーマ神殿：キネティックウェーブで壁を壊し、ストーンコロッサスを倒してそれを習得せよ。"
+    }
+}

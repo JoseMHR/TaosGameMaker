@@ -1,0 +1,27 @@
+{
+    "name": {
+        "es": "Sushi",
+        "en": "Sushi",
+        "fr": "Sushi",
+        "it": "Sushi",
+        "de": "Sushi",
+        "zh": "寿司",
+        "ja": "寿司"
+    },
+    "desc": {
+        "es": "Arroz cocinado con pescado fresco.",
+        "en": "Cooked rice with fresh fish.",
+        "fr": "Riz cuit avec du poisson frais.",
+        "it": "Riso cotto con pesce fresco.",
+        "de": "Gekochter Reis mit frischem Fisch.",
+        "zh": "以新鲜鱼肉制成的煮米饭。",
+        "ja": "新鮮な魚を使った炊いたご飯。"
+    },
+    "icon": "🍣",
+    "category": "edible",
+    "usable": true,
+    "effects": {
+        "heal_pct": 0.4,
+        "mana_pct": 0.11
+    }
+}

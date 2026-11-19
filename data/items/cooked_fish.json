@@ -1,0 +1,26 @@
+{
+    "name": {
+        "es": "Pescado Cocinado",
+        "en": "Cooked Fish",
+        "fr": "Poisson Cuit",
+        "it": "Pesce Cotto",
+        "de": "Gekochter Fisch",
+        "zh": "熟鱼",
+        "ja": "焼き魚"
+    },
+    "desc": {
+        "es": "Un pescado a la brasa. Restaura un poco de vida y maná.",
+        "en": "Grilled fish. Restores a little health and mana.",
+        "fr": "Un poisson grillé. Restaure un peu de vie et de mana.",
+        "it": "Un pesce alla griglia. Ripristina un po' di vita e mana.",
+        "de": "Gegrillter Fisch. Stellt etwas Leben und Mana wieder her.",
+        "zh": "烤鱼，恢复少量生命值与魔法值。",
+        "ja": "焼いた魚。少しのHPとMPを回復する。"
+    },
+    "icon": "🍢",
+    "category": "edible",
+    "usable": true,
+    "effects": {
+        "heal_pct": 0.2
+    }
+}

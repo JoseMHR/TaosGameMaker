@@ -1,0 +1,103 @@
+[gd_scene load_steps=2 format=3 uid="uid://c3vb2ld2026vb"]
+
+[ext_resource type="Script" path="res://scenes/views/view_building/ViewBuilding.gd" id="1_vb"]
+
+[node name="ViewBuilding" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_vb")
+
+[node name="BG" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color(0.03, 0.02, 0.05, 1.0)
+
+[node name="VBox" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 0
+
+; ─── Cabecera ────────────────────────────────────────────────────────────────
+[node name="Header" type="PanelContainer" parent="VBox"]
+layout_mode = 2
+
+[node name="HBoxH" type="HBoxContainer" parent="VBox/Header"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="LblBuildingIcon" type="Label" parent="VBox/Header/HBoxH"]
+layout_mode = 2
+text = "🏰"
+theme_override_font_sizes/font_size = 28
+vertical_alignment = 1
+
+[node name="LblTitle" type="Label" parent="VBox/Header/HBoxH"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Edificio"
+theme_override_font_sizes/font_size = 22
+theme_override_colors/font_color = Color(0.92, 0.92, 0.95, 1.0)
+
+[node name="BtnBack" type="Button" parent="VBox/Header/HBoxH"]
+layout_mode = 2
+text = "← Regresar"
+theme_override_font_sizes/font_size = 18
+
+; ─── Zona NPC (avatar grande) ────────────────────────────────────────────────
+[node name="NPCBox" type="VBoxContainer" parent="VBox"]
+layout_mode = 2
+size_flags_vertical = 2
+alignment = 1
+theme_override_constants/separation = 8
+
+[node name="LblAvatar" type="Label" parent="VBox/NPCBox"]
+layout_mode = 2
+text = "❓"
+horizontal_alignment = 1
+theme_override_font_sizes/font_size = 100
+
+[node name="LblNpcName" type="Label" parent="VBox/NPCBox"]
+layout_mode = 2
+text = "NPC"
+horizontal_alignment = 1
+theme_override_font_sizes/font_size = 26
+theme_override_colors/font_color = Color(0.97, 0.78, 0.26, 1.0)
+
+; ─── Cuadro de diálogo + opciones ────────────────────────────────────────────
+[node name="DialogueMargin" type="MarginContainer" parent="VBox"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_top = 12
+theme_override_constants/margin_bottom = 20
+
+[node name="DialogueBox" type="VBoxContainer" parent="VBox/DialogueMargin"]
+layout_mode = 2
+theme_override_constants/separation = 14
+
+[node name="LblDialogue" type="Label" parent="VBox/DialogueMargin/DialogueBox"]
+layout_mode = 2
+text = "Diálogo..."
+autowrap_mode = 3
+theme_override_font_sizes/font_size = 22
+theme_override_colors/font_color = Color(0.80, 0.80, 0.85, 1.0)
+
+[node name="HSep" type="HSeparator" parent="VBox/DialogueMargin/DialogueBox"]
+layout_mode = 2
+
+[node name="ChoicesBox" type="VBoxContainer" parent="VBox/DialogueMargin/DialogueBox"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[connection signal="pressed" from="VBox/Header/HBoxH/BtnBack" to="." method="_on_btn_back_pressed"]

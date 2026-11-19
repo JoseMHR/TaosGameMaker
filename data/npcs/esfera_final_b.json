@@ -1,0 +1,65 @@
+{
+    "name": {
+        "es": "La Esfera de la Verdad",
+        "en": "The Sphere of Truth",
+        "fr": "La Sphère de la Vérité",
+        "it": "La Sfera della Verità",
+        "de": "Die Sphäre der Wahrheit",
+        "zh": "真理之球",
+        "ja": "真実の球"
+    },
+    "intro": {
+        "type": "message",
+        "text": {
+            "es": "Tu mente es una tormenta de cristales rotos, Aiden. La verdad era demasiado pesada para sostenerla, y las costuras de tu mundo imaginado se desgarran ante ti. Ni siquiera sabes ya quién eres... Solo buscas un refugio donde el dolor se disuelva en canciones olvidadas. Entra, pues... pierde la forma de tus recuerdos y déjate arrastrar por el bucle sin fin.",
+            "en": "Your mind is a storm of broken shards, Aiden. The truth was too heavy to hold, and the seams of your imagined world rip open before you. You no longer even know who you are... You only seek refuge where grief dissolves into forgotten songs. Enter, then... lose the shape of your memories and let yourself drift into the endless loop.",
+            "fr": "Ton esprit est une tempête d'éclats brisés, Aiden. La vérité était trop lourde à porter, et les coutures de ton monde imaginé se déchirent devant toi. Tu ne sais même plus qui tu es... Tu cherches seulement un refuge où la douleur se dissout en chansons oubliées. Entre, alors... perds la forme de tes souvenirs et laisse-toi emporter par la boucle sans fin.",
+            "it": "La tua mente è una tempesta di frammenti spezzati, Aiden. La verità era troppo pesante da sostenere, e le cuciture del tuo mondo immaginato si lacerano davanti a te. Non sai nemmeno più chi sei... Cerchi solo un rifugio dove il dolore si dissolva in canzoni dimenticate. Entra, dunque... perdi la forma dei tuoi ricordi e lasciati trascinare dal ciclo senza fine.",
+            "de": "Dein Geist ist ein Sturm zerbrochener Scherben, Aiden. Die Wahrheit war zu schwer zu ertragen, und die Nähte deiner erdachten Welt reißen vor dir auf. Du weißt nicht einmal mehr, wer du bist... Du suchst nur eine Zuflucht, wo der Schmerz sich in vergessenen Liedern auflöst. Tritt ein, dann... verliere die Gestalt deiner Erinnerungen und lass dich von der endlosen Schleife forttragen.",
+            "zh": "你的心智是一场破碎玻璃的风暴，艾登。真相太过沉重，你想象出的世界正在你面前撕裂开来。你甚至已经不知道自己是谁……你只想寻找一个避难所，让痛苦消融在被遗忘的歌声中。那就进来吧……放下记忆的形状，任由自己坠入这无尽的循环。",
+            "ja": "お前の心は砕けた破片の嵐だ、エイデン。真実はあまりに重く、思い描いた世界の縫い目はお前の前で引き裂かれていく。もはや自分が誰かすら分からない……ただ、痛みが忘れられた歌の中に溶けていく安らぎの場所を求めているだけだ。ならば入るがいい……記憶の形を失い、終わりなき円環に身を委ねよ。"
+        },
+        "options": [
+            {
+                "text": {
+                    "es": "Contemplar el desenlace (Final B: Locura)",
+                    "en": "Behold the outcome (Ending B: Madness)",
+                    "fr": "Contempler le dénouement (Fin B : Folie)",
+                    "it": "Contemplare l'epilogo (Finale B: Follia)",
+                    "de": "Den Ausgang betrachten (Ende B: Wahnsinn)",
+                    "zh": "凝视结局（结局B：疯狂）",
+                    "ja": "結末を見つめる（エンディングB：狂気）"
+                },
+                "next": "trigger_scene"
+            },
+            {
+                "text": {
+                    "es": "Volver al mapa",
+                    "en": "Return to map",
+                    "fr": "Retourner à la carte",
+                    "it": "Tornare alla mappa",
+                    "de": "Zur Karte zurückkehren",
+                    "zh": "返回地图",
+                    "ja": "地図に戻る"
+                },
+                "next": "close"
+            }
+        ]
+    },
+    "trigger_scene": {
+        "type": "message",
+        "text": {
+            "es": "La luz de la Esfera te envuelve por completo...",
+            "en": "The Sphere's light envelops you completely...",
+            "fr": "La lumière de la Sphère t'enveloppe complètement...",
+            "it": "La luce della Sfera ti avvolge completamente...",
+            "de": "Das Licht der Sphäre umhüllt dich vollständig...",
+            "zh": "球体的光芒将你彻底笼罩……",
+            "ja": "球の光がお前を完全に包み込む……"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "cine:final_b"
+    }
+}

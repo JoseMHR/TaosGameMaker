@@ -1,0 +1,32 @@
+{
+    "id": "poi_temple_sacerdote",
+    "type": "poi",
+    "name": {
+        "es": "Templo del Sacerdote",
+        "en": "Temple of the Priest",
+        "fr": "Temple du Prêtre",
+        "it": "Tempio del Sacerdote",
+        "de": "Tempel des Priesters",
+        "zh": "祭司神庙",
+        "ja": "司祭の神殿"
+    },
+    "icon": "💚",
+    "desc": {
+        "es": "El arte de restaurar la vida",
+        "en": "The art of restoring life",
+        "fr": "L'art de restaurer la vie",
+        "it": "L'arte di restaurare la vita",
+        "de": "Die Kunst, Leben wiederherzustellen",
+        "zh": "恢复生命之艺",
+        "ja": "命を回復する技"
+    },
+    "npc": "temple_healer",
+    "presences": [
+        {
+            "condition": "default",
+            "actor": "temple_healer",
+            "entry_node": ""
+        }
+    ],
+    "bg": "bg_temple_sacerdote.png"
+}

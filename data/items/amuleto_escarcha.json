@@ -1,0 +1,43 @@
+{
+    "name": {
+        "es": "Amuleto de Escarcha",
+        "en": "Frost Amulet",
+        "fr": "Amulette de Givre",
+        "it": "Amuleto di Brina",
+        "de": "Frostamulett",
+        "zh": "霜寒护身符",
+        "ja": "フロストアミュレット"
+    },
+    "desc": {
+        "es": "Talismán helado extraído del núcleo del Eco Fragmentado. Protege intensamente contra el frío extremo y canaliza corrientes de magia glacial.",
+        "en": "Chilled talisman taken from the core of the Fragmented Echo. Heavily protects against extreme cold and channels glacial magic.",
+        "fr": "Talisman glacé extrait du cœur de l'Écho Fragmenté. Protège intensément contre le froid extrême et canalise des courants de magie glaciale.",
+        "it": "Talismano gelido estratto dal nucleo dell'Eco Frammentato. Protegge intensamente dal freddo estremo e incanala correnti di magia glaciale.",
+        "de": "Eisiges Talisman aus dem Kern des Fragmentierten Echos. Schützt intensiv vor extremer Kälte und kanalisiert eisige Magieströme.",
+        "zh": "取自碎裂回响核心的冰冷护符。能强力防御极寒并引导冰系魔法之流。",
+        "ja": "断片化されたエコーの核から取り出された冷たい護符。極寒を強力に防ぎ、氷の魔力を導く。"
+    },
+    "icon": "❄️",
+    "category": "equipment",
+    "usable": false,
+    "slot": "accessory",
+    "tier": 4,
+    "bonuses": {
+        "int": 6,
+        "vit": 5,
+        "agi": 3
+    },
+    "combat": {
+        "mag_defense": 24,
+        "mag_damage": 16
+    },
+    "traits": [
+        {
+            "type": "resist_element",
+            "element": "ice",
+            "value": 0.3,
+            "min_refine": 0,
+            "desc": "+30% Resistencia a Hielo y Congelación"
+        }
+    ]
+}

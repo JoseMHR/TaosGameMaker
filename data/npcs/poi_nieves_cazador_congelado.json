@@ -1,0 +1,169 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Cazador Congelado",
+            "en": "The Frozen Hunter",
+            "fr": "Le Chasseur Gelé",
+            "it": "Il Cacciatore Congelato",
+            "de": "Der Gefrorene Jäger",
+            "zh": "冰封的猎人",
+            "ja": "凍った狩人"
+        },
+        "next": [],
+        "reward": "bg=0.07,0.10,0.13"
+    },
+    "caz_done": {
+        "type": "message",
+        "text": {
+            "es": "El montículo de piedras que le levantaste sigue en pie, resistiendo el viento. El bloque de hielo, ya vacío, se ha vuelto transparente del todo. Dondequiera que fuese, el cazador ya no está atrapado a mitad de camino.",
+            "en": "The cairn of stones you raised for him still stands, holding against the wind. The block of ice, now empty, has turned wholly transparent. Wherever he was going, the hunter is no longer trapped halfway there.",
+            "fr": "Le tumulus de pierres que tu as élevé pour lui tient toujours bon, résistant au vent. Le bloc de glace, désormais vide, est devenu entièrement transparent. Où qu'il allât, le chasseur n'est plus piégé à mi-chemin.",
+            "it": "Il tumulo di pietre che gli hai eretto resiste ancora, tenendo testa al vento. Il blocco di ghiaccio, ormai vuoto, è diventato completamente trasparente. Ovunque stesse andando, il cacciatore non è più intrappolato a metà strada.",
+            "de": "Der Steinhügel, den du für ihn errichtet hast, steht noch, dem Wind trotzend. Der nun leere Eisblock ist völlig durchsichtig geworden. Wohin er auch unterwegs war, der Jäger ist nicht mehr auf halbem Weg gefangen.",
+            "zh": "你为他堆起的石堆依然屹立，抵御着狂风。那块如今已空的冰块，已经完全变得透明。无论他要去往何方，这位猎人都不再被困在半路上了。",
+            "ja": "彼のために積み上げたケルンはまだ立ち続け、風に耐えている。今や空になった氷の塊は完全に透明になった。どこへ向かっていたにせよ、この狩人はもう道半ばに囚われてはいない。"
+        },
+        "next": [
+            "caz_opt_salir"
+        ],
+        "reward": "",
+        "condition": "gflag(\"caz_enterrado\")"
+    },
+    "caz_root": {
+        "type": "message",
+        "text": {
+            "es": "Un bloque de hielo tan puro como el cristal se alza a la altura de un hombre, y dentro hay, precisamente, un hombre: un cazador de pieles gruesas, congelado a mitad de un paso, con un brazo extendido hacia adelante. No hay pánico en su cara —solo una calma extraña, casi de alivio, como si al fin hubiera visto algo que llevaba mucho tiempo buscando. Su mano señala hacia el sur, hacia las tierras cálidas.",
+            "en": "A block of ice as pure as crystal rises to a man's height, and inside there is, precisely, a man: a hunter in thick furs, frozen mid-step, one arm reaching forward. There is no panic on his face — only a strange calm, almost relief, as if he had finally seen something he'd long been searching for. His hand points south, toward the warm lands.",
+            "fr": "Un bloc de glace aussi pur que le cristal s'élève à la taille d'un homme, et à l'intérieur se trouve, précisément, un homme : un chasseur en fourrures épaisses, figé en plein pas, un bras tendu vers l'avant. Il n'y a pas de panique sur son visage — seulement un calme étrange, presque du soulagement, comme s'il avait enfin vu quelque chose qu'il cherchait depuis longtemps. Sa main pointe vers le sud, vers les terres chaudes.",
+            "it": "Un blocco di ghiaccio puro come il cristallo si erge all'altezza di un uomo, e dentro c'è, precisamente, un uomo: un cacciatore con pellicce spesse, congelato a metà passo, con un braccio teso in avanti. Non c'è panico sul suo viso — solo una strana calma, quasi sollievo, come se avesse finalmente visto qualcosa che cercava da tempo. La sua mano indica verso sud, verso le terre calde.",
+            "de": "Ein Eisblock, rein wie Kristall, erhebt sich auf Mannshöhe, und darin befindet sich, genau genommen, ein Mann: ein Jäger in dicken Pelzen, mitten im Schritt erstarrt, einen Arm nach vorn ausgestreckt. Auf seinem Gesicht liegt keine Panik — nur eine seltsame Ruhe, fast Erleichterung, als hätte er endlich etwas gesehen, das er lange gesucht hatte. Seine Hand zeigt nach Süden, zu den warmen Ländern.",
+            "zh": "一块如水晶般纯净的冰块矗立着，高与人齐，里面正好有一个人：一位裹着厚厚毛皮的猎人，在行进途中被定格，一条手臂向前伸展。他的脸上没有恐慌——只有一种奇怪的平静，几乎是如释重负的样子，仿佛他终于看到了长久以来一直在寻找的东西。他的手指向南方，指向温暖的土地。",
+            "ja": "水晶のように純粋な氷の塊が人の背丈ほどに立っており、その中にはまさに一人の男がいる——厚い毛皮をまとった狩人が、片腕を前に伸ばしたまま歩みの途中で凍りついている。その顔にパニックはない——ただ奇妙な落ち着き、ほとんど安堵に近いものがある。まるでついに長らく探し求めていた何かを見つけたかのように。その手は南、暖かい土地を指している。"
+        },
+        "next": [
+            "caz_opt_mirar",
+            "caz_opt_enterrar",
+            "caz_opt_saquear",
+            "caz_opt_salir"
+        ],
+        "reward": ""
+    },
+    "caz_opt_mirar": {
+        "type": "option",
+        "text": {
+            "es": "🔎  Seguir con la vista lo que señala su mano",
+            "en": "🔎  Follow with your eyes what his hand points at",
+            "fr": "🔎  Suivre du regard ce que sa main désigne",
+            "it": "🔎  Seguire con lo sguardo ciò che indica la sua mano",
+            "de": "🔎  Mit den Augen verfolgen, worauf seine Hand zeigt",
+            "zh": "🔎  用目光追随他手指的方向",
+            "ja": "🔎  彼の手が指す方向を目で追う"
+        },
+        "next": [
+            "caz_msg_mirar"
+        ],
+        "reward": ""
+    },
+    "caz_msg_mirar": {
+        "type": "message",
+        "text": {
+            "es": "Te colocas a su altura y miras en la dirección exacta de su dedo congelado. Al sur, muy lejos, entre la bruma helada, hay un claro donde la nieve se derrite en un círculo perfecto y crece hierba verde imposible. En el hielo, junto a su cara, ves grabadas con la uña dos palabras: 'CASI llegué'. Se te encoge algo por dentro. Este hombre no se perdió: murió sabiendo hacia dónde iba.",
+            "en": "You crouch to his level and look in the exact direction of his frozen finger. Far to the south, through the icy haze, there is a clearing where the snow melts in a perfect circle and impossible green grass grows. In the ice, beside his face, you see two words scratched with a fingernail: 'ALMOST made it'. Something clenches inside you. This man wasn't lost: he died knowing where he was going.",
+            "fr": "Tu te places à sa hauteur et regardes dans la direction exacte de son doigt gelé. Au sud, très loin, à travers la brume glacée, il y a une clairière où la neige fond en un cercle parfait et où pousse une herbe verte impossible. Dans la glace, près de son visage, tu vois gravés à l'ongle deux mots : « PRESQUE arrivé ». Quelque chose se serre en toi. Cet homme ne s'est pas perdu : il est mort en sachant où il allait.",
+            "it": "Ti metti alla sua altezza e guardi nella direzione esatta del suo dito congelato. A sud, molto lontano, tra la nebbia gelida, c'è una radura dove la neve si scioglie in un cerchio perfetto e cresce un'impossibile erba verde. Nel ghiaccio, accanto al suo viso, vedi incise con l'unghia due parole: 'CI SONO QUASI arrivato'. Qualcosa ti si stringe dentro. Quest'uomo non si è perso: è morto sapendo dove stava andando.",
+            "de": "Du gehst auf seine Höhe und blickst in genau die Richtung seines gefrorenen Fingers. Weit im Süden, durch den eisigen Dunst, gibt es eine Lichtung, wo der Schnee in einem perfekten Kreis schmilzt und unmögliches grünes Gras wächst. Im Eis, neben seinem Gesicht, siehst du zwei mit dem Fingernagel eingeritzte Worte: „FAST geschafft“. Etwas in dir zieht sich zusammen. Dieser Mann hat sich nicht verirrt: er starb im Wissen, wohin er unterwegs war.",
+            "zh": "你蹲到与他齐平的高度，望向他冻僵的手指所指的确切方向。在南方，极远之处，透过冰雾，有一片空地，积雪在那里融化成一个完美的圆圈，长出不可思议的绿草。在冰层中，紧挨着他的脸，你看见用指甲刻下的两个字：「差点」就到了。你的心里某处紧缩了一下。这个人没有迷路：他死时清楚地知道自己要去哪里。",
+            "ja": "彼の高さまで身をかがめ、凍った指がまさに指す方向を見る。遥か南、氷の靄の向こうに、雪が完璧な円を描いて溶け、あり得ないほど緑の草が生える空き地がある。氷の中、彼の顔のそばに、爪で刻まれた二つの言葉が見える——「もう少しで」着いた。何かが胸の内で締め付けられる。この男は迷ったのではない。どこへ向かっているかを知りながら死んだのだ。"
+        },
+        "next": [
+            "caz_root"
+        ],
+        "reward": ""
+    },
+    "caz_opt_enterrar": {
+        "type": "option",
+        "text": {
+            "es": "⛏️  Levantarle un montículo de piedras y despedirle",
+            "en": "⛏️  Raise a cairn of stones and say goodbye",
+            "fr": "⛏️  Élever un tumulus de pierres et lui dire adieu",
+            "it": "⛏️  Erigergli un tumulo di pietre e dargli l'addio",
+            "de": "⛏️  Einen Steinhügel für ihn errichten und Lebewohl sagen",
+            "zh": "⛏️  为他堆起一座石冢，向他告别",
+            "ja": "⛏️  石を積んでケルンを作り、別れを告げる"
+        },
+        "next": [
+            "caz_msg_enterrar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "caz_msg_enterrar": {
+        "type": "message",
+        "text": {
+            "es": "No puedes romper el hielo sin destrozarlo, así que haces lo único digno: apilas piedra sobre piedra a su alrededor hasta levantar un montículo que lo proteja del viento y de los carroñeros. Le dedicas unas palabras torpes a un desconocido que casi lo logró. Cuando terminas, el viento amaina un instante, como una respiración contenida que por fin se suelta.",
+            "en": "You can't break the ice without shattering him, so you do the only decent thing: you stack stone upon stone around him until you raise a cairn to shield him from the wind and the scavengers. You offer a few clumsy words to a stranger who almost made it. When you finish, the wind dies for a moment, like a held breath finally let go.",
+            "fr": "Tu ne peux pas casser la glace sans le détruire, alors tu fais la seule chose digne : empiler pierre sur pierre autour de lui jusqu'à élever un tumulus qui le protège du vent et des charognards. Tu lui adresses quelques mots maladroits, à cet inconnu qui a presque réussi. Quand tu termines, le vent faiblit un instant, comme une respiration retenue enfin relâchée.",
+            "it": "Non puoi rompere il ghiaccio senza distruggerlo, quindi fai l'unica cosa dignitosa: accumuli pietra su pietra intorno a lui finché non erigi un tumulo che lo protegga dal vento e dagli avvoltoi. Gli dedichi alcune parole goffe, a uno sconosciuto che ce l'ha quasi fatta. Quando finisci, il vento si placa per un istante, come un respiro trattenuto finalmente rilasciato.",
+            "de": "Du kannst das Eis nicht brechen, ohne ihn zu zerstören, also tust du das einzig Würdige: Stein auf Stein um ihn herum stapeln, bis du einen Steinhügel errichtet hast, der ihn vor Wind und Aasfressern schützt. Du sprichst ein paar ungeschickte Worte für einen Fremden, der es fast geschafft hat. Als du fertig bist, legt sich der Wind für einen Moment, wie ein zurückgehaltener Atem, der endlich losgelassen wird.",
+            "zh": "你无法在不毁掉他的情况下打碎这块冰，于是你做了唯一体面的事：一块又一块地把石头堆在他周围，直到堆起一座能保护他不受风雪和食腐动物侵扰的石冢。你对这个几乎成功抵达的陌生人说了几句笨拙的话。当你完成时，风停歇了片刻，仿佛一口被憋住的气终于释放出来。",
+            "ja": "彼を壊さずに氷を割ることはできないので、唯一の尊厳ある行為をする——彼の周りに石を積み重ね、風と腐肉食動物から守るケルンを築くのだ。もう少しで成し遂げた見知らぬ男に、ぎこちない言葉を捧げる。終える頃、風は一瞬弱まる。まるでずっと堪えていた息をようやく吐き出したかのように。"
+        },
+        "next": [
+            "caz_opt_salir"
+        ],
+        "reward": "faceta:bondad=+1;gflag:caz_enterrado",
+        "condition": "no_gflag(\"caz_enterrado\")",
+        "once": true
+    },
+    "caz_opt_saquear": {
+        "type": "option",
+        "text": {
+            "es": "🎒  Rebuscar en su morral congelado (a ver qué llevaba)",
+            "en": "🎒  Rummage through his frozen pack (see what he carried)",
+            "fr": "🎒  Fouiller son sac gelé (voir ce qu'il transportait)",
+            "it": "🎒  Rovistare nella sua bisaccia congelata (vedere cosa portava)",
+            "de": "🎒  Seinen gefrorenen Rucksack durchsuchen (sehen, was er bei sich trug)",
+            "zh": "🎒  搜寻他冻结的背包（看看他随身携带了什么）",
+            "ja": "🎒  凍った袋を漁る（何を持っていたか見る）"
+        },
+        "next": [
+            "caz_msg_saquear"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "caz_msg_saquear": {
+        "type": "message",
+        "text": {
+            "es": "Arrancas el morral rígido que asoma del hielo. Dentro, unas monedas heladas y un colgante barato con el retrato de una familia sonriente. Te guardas las monedas y, tras dudarlo, también el colgante: total, a él ya no le sirve. Pero el peso del colgante en tu bolsillo se siente, absurdamente, como una traición pequeña que llevarás contigo un buen rato.",
+            "en": "You tear free the stiff pack jutting from the ice. Inside, some frozen coins and a cheap locket with the portrait of a smiling family. You pocket the coins and, after hesitating, the locket too: after all, it's no use to him now. But the weight of the locket in your pocket feels, absurdly, like a small betrayal you'll carry with you a good while.",
+            "fr": "Tu arraches le sac rigide qui dépasse de la glace. À l'intérieur, quelques pièces gelées et un médaillon bon marché avec le portrait d'une famille souriante. Tu empoches les pièces et, après avoir hésité, le médaillon aussi : après tout, il ne lui sert plus à rien. Mais le poids du médaillon dans ta poche te semble, absurdement, comme une petite trahison que tu porteras avec toi un bon moment.",
+            "it": "Strappi via la bisaccia rigida che spunta dal ghiaccio. Dentro, alcune monete congelate e un medaglione economico con il ritratto di una famiglia sorridente. Ti intaschi le monete e, dopo aver esitato, anche il medaglione: dopotutto, a lui non serve più. Ma il peso del medaglione in tasca ti sembra, assurdamente, un piccolo tradimento che porterai con te per un bel po'.",
+            "de": "Du reißt den steifen Rucksack heraus, der aus dem Eis ragt. Darin, ein paar gefrorene Münzen und ein billiges Medaillon mit dem Porträt einer lächelnden Familie. Du steckst die Münzen ein und, nach Zögern, auch das Medaillon: schließlich nützt es ihm nun nichts mehr. Aber das Gewicht des Medaillons in deiner Tasche fühlt sich, absurderweise, wie ein kleiner Verrat an, den du eine gute Weile mit dir tragen wirst.",
+            "zh": "你扯下那个从冰中露出的僵硬背包。里面有几枚冻结的硬币，还有一个廉价的挂坠，上面是一张微笑家庭的画像。你把硬币收进口袋，犹豫片刻后，也拿走了挂坠：反正对他来说已经没用了。但口袋里挂坠的重量，荒谬地让你感觉像是一次小小的背叛，你会带着这种感觉走上好一阵子。",
+            "ja": "氷から突き出た硬い袋を引き剥がす。中には凍った硬貨と、微笑む家族の肖像が入った安物のロケットがある。硬貨をポケットに入れ、ためらった末にロケットも取る——結局、彼にはもう必要ないのだから。だがポケットの中のロケットの重みは、不条理にも、しばらく持ち歩くことになる小さな裏切りのように感じられる。"
+        },
+        "next": [
+            "caz_opt_salir"
+        ],
+        "reward": "gold:30;faceta:bondad=-1",
+        "condition": "no_gflag(\"caz_enterrado\")"
+    },
+    "caz_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Dejarle mirando hacia el sur",
+            "en": "🚶  Leave him gazing south",
+            "fr": "🚶  Le laisser à contempler le sud",
+            "it": "🚶  Lasciarlo mentre guarda a sud",
+            "de": "🚶  Ihn zurücklassen, während er nach Süden blickt",
+            "zh": "🚶  留他继续凝望南方",
+            "ja": "🚶  南を見つめたままの彼を残して去る"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

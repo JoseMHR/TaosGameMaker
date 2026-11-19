@@ -1,0 +1,31 @@
+{
+    "name": {
+        "es": "Gorro de Cuero",
+        "en": "Leather Cap",
+        "fr": "Bonnet de Cuir",
+        "it": "Berretto di Cuoio",
+        "de": "Lederkappe",
+        "zh": "皮帽",
+        "ja": "レザーキャップ"
+    },
+    "desc": {
+        "es": "Un gorro simple que al menos protege de un golpe de refilón.",
+        "en": "A simple cap that at least softens a glancing blow.",
+        "fr": "Un bonnet simple qui adoucit au moins un coup en biais.",
+        "it": "Un berretto semplice che almeno attutisce un colpo di striscio.",
+        "de": "Eine einfache Kappe, die zumindest einen Streiftreffer abmildert.",
+        "zh": "一顶朴素的帽子，至少能缓冲一次擦伤的打击。",
+        "ja": "少なくともかすり傷程度の一撃を和らげる簡素な帽子。"
+    },
+    "icon": "🎩",
+    "category": "equipment",
+    "usable": false,
+    "slot": "helmet",
+    "tier": 1,
+    "bonuses": {
+        "vit": 2
+    },
+    "combat": {
+        "phys_defense": 8
+    }
+}

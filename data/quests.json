@@ -1,0 +1,623 @@
+{
+  "order": [
+    "not_started",
+    "knows_dam",
+    "dam_needs_wood",
+    "has_stone",
+    "dam_opened",
+    "yelmo_tunnel_cleared",
+    "snow_cross_completed",
+    "sylphrena_arrived",
+    "explorer_missing",
+    "item_found",
+    "banana_obtained",
+    "monkey_cleared",
+    "bandits_cave_cleared",
+    "celestia_arrived",
+    "all_professions_mastered",
+    "king_audience_done",
+    "harbor_boss_defeated",
+    "ship_unlocked",
+    "gloriam_arrived",
+    "desert_boots_obtained",
+    "solar_relic_found",
+    "sentinel_passed",
+    "arcanum_arrived",
+    "lab_docs_found",
+    "truth_revealed",
+    "final_sanctuary_reached",
+    "guardian_defeated",
+    "game_completed"
+  ],
+  "descriptions": {
+    "not_started": {
+      "title": {
+        "es": "Despertar",
+        "en": "Awakening",
+        "fr": "Réveil",
+        "it": "Risveglio",
+        "de": "Erwachen",
+        "zh": "苏醒",
+        "ja": "覚醒"
+      },
+      "hint": {
+        "es": "Explora el valle y habla con sus gentes para descubrir qué ha ocurrido.",
+        "en": "Explore the valley and talk to its people to find out what happened.",
+        "fr": "Explore la vallée et parle à ses habitants pour découvrir ce qui s'est passé.",
+        "it": "Esplora la valle e parla con la sua gente per scoprire cosa è successo.",
+        "de": "Erkunde das Tal und sprich mit seinen Bewohnern, um herauszufinden, was geschehen ist.",
+        "zh": "探索这个山谷，并与居民交谈，以弄清发生了什么。",
+        "ja": "谷を探索し、住民たちと話して何が起こったのかを見つけよう。"
+      }
+    },
+    "knows_dam": {
+      "title": {
+        "es": "La presa cerrada",
+        "en": "The closed dam",
+        "fr": "Le barrage fermé",
+        "it": "La diga chiusa",
+        "de": "Der geschlossene Damm",
+        "zh": "封闭的大坝",
+        "ja": "閉じられたダム"
+      },
+      "hint": {
+        "es": "Te han hablado de la presa que corta el río. Busca quién sepa cómo reabrirla.",
+        "en": "You've heard of the dam blocking the river. Find someone who knows how to reopen it.",
+        "fr": "On t'a parlé du barrage qui coupe la rivière. Trouve quelqu'un qui sache comment le réouvrir.",
+        "it": "Ti hanno parlato della diga che blocca il fiume. Trova qualcuno che sappia come riaprirla.",
+        "de": "Man hat dir vom Damm erzählt, der den Fluss blockiert. Finde jemanden, der weiß, wie man ihn wieder öffnet.",
+        "zh": "你听说过那座阻断河流的大坝。找一个知道如何重新打开它的人。",
+        "ja": "川を塞ぐダムのことを聞いた。開く方法を知る者を探そう。"
+      }
+    },
+    "dam_needs_wood": {
+      "title": {
+        "es": "Madera para la presa",
+        "en": "Wood for the dam",
+        "fr": "Du bois pour le barrage",
+        "it": "Legno per la diga",
+        "de": "Holz für den Damm",
+        "zh": "修坝用的木材",
+        "ja": "ダムのための木材"
+      },
+      "hint": {
+        "es": "Reúne 5 de madera para reparar el mecanismo de la presa.",
+        "en": "Gather 5 wood to repair the dam mechanism.",
+        "fr": "Récolte 5 unités de bois pour réparer le mécanisme du barrage.",
+        "it": "Raccogli 5 unità di legno per riparare il meccanismo della diga.",
+        "de": "Sammle 5 Holz, um den Mechanismus des Damms zu reparieren.",
+        "zh": "收集 5 单位木材以修复大坝的机制。",
+        "ja": "木材を 5 単位集めてダムの仕掛けを修理しよう。"
+      }
+    },
+    "has_stone": {
+      "title": {
+        "es": "Una piedra cualquiera",
+        "en": "An ordinary stone",
+        "fr": "Une pierre quelconque",
+        "it": "Una pietra qualsiasi",
+        "de": "Ein gewöhnlicher Stein",
+        "zh": "一块普通的石头",
+        "ja": "ただの石"
+      },
+      "hint": {
+        "es": "La anciana te ha dado una piedra corriente. Quizá sirva para alcanzar algún mecanismo lejano en la presa.",
+        "en": "The old woman gave you an ordinary stone. Maybe it can reach a distant mechanism at the dam.",
+        "fr": "La vieille femme t'a donné une pierre ordinaire. Elle pourrait servir à atteindre un mécanisme lointain du barrage.",
+        "it": "L'anziana ti ha dato una pietra comune. Forse serve a raggiungere un meccanismo lontano della diga.",
+        "de": "Die alte Frau hat dir einen gewöhnlichen Stein gegeben. Vielleicht kann er einen entfernten Mechanismus am Damm erreichen.",
+        "zh": "老妇人给你一块平常的石头。或许它能够打中大坝上某个遥远的机关。",
+        "ja": "老婆がただの石をくれた。ダムの遠くの仕掛けに届くかもしれない。"
+      }
+    },
+    "dam_opened": {
+      "title": {
+        "es": "El río renace",
+        "en": "The river reborn",
+        "fr": "La rivière renaissante",
+        "it": "Il fiume rinasce",
+        "de": "Der wiedergeborene Fluss",
+        "zh": "重生的河流",
+        "ja": "復活する川"
+      },
+      "hint": {
+        "es": "Has reabierto la presa. Habla con los ancianos del valle para conseguir la caña de pescar y la tienda de campaña, y prepárate para la cueva del este (dun_yelmo).",
+        "en": "You reopened the dam. Speak with the valley elders to obtain the fishing rod and tent, and prepare for the eastern cave (dun_yelmo).",
+        "fr": "Tu as réouvert le barrage. Parle aux anciens de la vallée pour obtenir la canne à pêche et la tente, et prépare-toi pour la grotte de l'est.",
+        "it": "Hai riaperto la diga. Parla con gli anziani della valle per ottenere la canna da pesca e la tenda, e preparati per la grotta orientale.",
+        "de": "Du hast den Damm wieder geöffnet. Sprich mit den Ältesten des Tals, um die Angelrute und das Zelt zu erhalten, und bereite dich auf die östliche Höhle vor.",
+        "zh": "你重新打开了大坝。与山谷的长者们交谈以获得鱼杆和帐篷，并准备前往东方洞穴。",
+        "ja": "ダムを再び開いた。谷の長老たちに話しかけて釣り竿とテントを手に入れ、東の洞窟に備えよう。"
+      }
+    },
+    "explorer_missing": {
+      "title": {
+        "es": "El explorador perdido",
+        "en": "The missing explorer",
+        "fr": "L'explorateur disparu",
+        "it": "L'esploratore scomparso",
+        "de": "Der verschwundene Entdecker",
+        "zh": "失踪的探险者",
+        "ja": "行方不明の探検家"
+      },
+      "hint": {
+        "es": "Busca al explorador desaparecido en la cueva del este.",
+        "en": "Search for the missing explorer in the eastern cave.",
+        "fr": "Recherche l'explorateur disparu dans la grotte de l'est.",
+        "it": "Cerca l'esploratore scomparso nella grotta orientale.",
+        "de": "Suche nach dem verschwundenen Entdecker in der östlichen Höhle.",
+        "zh": "在东方洞穴中寻找那位失踪的探险者。",
+        "ja": "東の洞窟で行方不明の探検家を探そう。"
+      }
+    },
+    "item_found": {
+      "title": {
+        "es": "El diario recuperado",
+        "en": "The recovered diary",
+        "fr": "Le journal retrouvé",
+        "it": "Il diario ritrovato",
+        "de": "Das wiedergefundene Tagebuch",
+        "zh": "找回的日记",
+        "ja": "取り戻した日記"
+      },
+      "hint": {
+        "es": "Has hallado el Diario Personal. Devuélvelo a quien lo reclame.",
+        "en": "You found the Personal Diary. Return it to whoever claims it.",
+        "fr": "Tu as trouvé le Journal Personnel. Rends-le à celui qui le réclame.",
+        "it": "Hai trovato il Diario Personale. Restituiscilo a chi lo reclama.",
+        "de": "Du hast das persönliche Tagebuch gefunden. Gib es dem zurück, der es beansprucht.",
+        "zh": "你找到了个人日记。将它归还给声称拥有它的人。",
+        "ja": "個人の日記を見つけた。それを持ち主と主張する者に戻そう。"
+      }
+    },
+    "banana_obtained": {
+      "title": {
+        "es": "El plátano dorado",
+        "en": "The golden banana",
+        "fr": "La banane dorée",
+        "it": "La banana dorata",
+        "de": "Die goldene Banane",
+        "zh": "金色香蕉",
+        "ja": "金色のバナナ"
+      },
+      "hint": {
+        "es": "Tienes el plátano. Entrégaselo al mono que bloquea el puente.",
+        "en": "You have the banana. Give it to the monkey blocking the bridge.",
+        "fr": "Tu as la banane. Donne-la au singe qui bloque le pont.",
+        "it": "Hai la banana. Dalla alla scimmia che blocca il ponte.",
+        "de": "Du hast die Banane. Gib sie dem Affen, der die Brücke blockiert.",
+        "zh": "你拿到了香蕉。把它交给堵住桥的那只猴子。",
+        "ja": "バナナを入手した。橋を塞ぐサルに渡そう。"
+      }
+    },
+    "monkey_cleared": {
+      "title": {
+        "es": "Puente despejado",
+        "en": "Bridge cleared",
+        "fr": "Pont dégagé",
+        "it": "Ponte liberato",
+        "de": "Brücke frei",
+        "zh": "桥已疏通",
+        "ja": "橋が通れるようになった"
+      },
+      "hint": {
+        "es": "El mono ha liberado el paso. El camino continúa.",
+        "en": "The monkey cleared the way. The road goes on.",
+        "fr": "Le singe a libéré le passage. La route continue.",
+        "it": "La scimmia ha liberato il passaggio. La strada continua.",
+        "de": "Der Affe hat den Weg freigegeben. Die Straße geht weiter.",
+        "zh": "猴子让开了道路。旅途得以继续。",
+        "ja": "サルが道を開けた。道は先へ続く。"
+      }
+    },
+    "yelmo_tunnel_cleared": {
+      "title": {
+        "es": "El túnel de las colinas",
+        "en": "The hill tunnel",
+        "fr": "Le tunnel des collines",
+        "it": "Il tunnel delle colline",
+        "de": "Der Hügeltunnel",
+        "zh": "丘陵隘道",
+        "ja": "丘のトンネル"
+      },
+      "hint": {
+        "es": "Has derrotado al Dios supremo inmortal de los Orcos. El túnel hacia las tierras heladas está abierto.",
+        "en": "You defeated the Supreme Immortal God of the Orcs. The tunnel to the frozen lands is open.",
+        "fr": "Tu as vaincu le Dieu Suprême Immortel des Orcs. Le tunnel vers les terres gelées est ouvert.",
+        "it": "Hai sconfitto il Dio Supremo Immortale degli Orchi. Il tunnel verso le terre gelate è aperto.",
+        "de": "Du hast den Unsterblichen Obergott der Orks besiegt. Der Tunnel zu den vereisten Ländern ist offen.",
+        "zh": "你击败了兽人的最高不死神。通往冰封大地的隘道已经开启。",
+        "ja": "オークの不死の最高神を倒した。氷の地へのトンネルが開いた。"
+      }
+    },
+    "snow_cross_completed": {
+      "title": {
+        "es": "La travesía helada",
+        "en": "The frozen crossing",
+        "fr": "La traversée gelée",
+        "it": "L'attraversamento gelato",
+        "de": "Die eisige Überquerung",
+        "zh": "冰冻之路",
+        "ja": "氷の道"
+      },
+      "hint": {
+        "es": "Has superado la Cueva del Eco y al Goblin Capitán. La pradera se abre ante ti.",
+        "en": "You cleared the Echo Cave and the Goblin Captain. The meadow opens before you.",
+        "fr": "Tu as franchi la Grotte de l'Écho et vaincu le Capitaine Gobelin. La prairie s'ouvre devant toi.",
+        "it": "Hai superato la Grotta dell'Eco e il Capitano Goblin. La prateria si apre davanti a te.",
+        "de": "Du hast die Echohöhle und den Goblin-Hauptmann überwunden. Die Wiese öffnet sich vor dir.",
+        "zh": "你通过了回声洞穴并击败了哥布林队长。草原在你面前展开。",
+        "ja": "エッコーの洞窟とゴブリン隊長を制した。草原が目の前に開ける。"
+      }
+    },
+    "sylphrena_arrived": {
+      "title": {
+        "es": "Llegada a Sylphrena",
+        "en": "Arrival at Sylphrena",
+        "fr": "Arrivée à Sylphrena",
+        "it": "Arrivo a Sylphrena",
+        "de": "Ankunft in Sylphrena",
+        "zh": "抵达西尔菲雷娜",
+        "ja": "シルフレナ到達"
+      },
+      "hint": {
+        "es": "Has llegado a Sylphrena. Aprende las 3 primeras profesiones y busca la forma de cruzar hacia Celestia.",
+        "en": "You've reached Sylphrena. Learn the first 3 professions and find a way across to Celestia.",
+        "fr": "Tu es arrivé à Sylphrena. Apprends les 3 premières professions et trouve un moyen de traverser vers Celestia.",
+        "it": "Sei arrivato a Sylphrena. Impara le prime 3 professioni e trova un modo per raggiungere Celestia.",
+        "de": "Du bist in Sylphrena angekommen. Erlerne die ersten 3 Berufe und finde einen Weg nach Celestia.",
+        "zh": "你到达了西尔菲雷娜。学习前 3 个职业，并寻找前往塞勒斯提亚的方法。",
+        "ja": "シルフレナに到達した。最初の3つの職業を修め、セレスティアへの行き方を探そう。"
+      }
+    },
+    "bandits_cave_cleared": {
+      "title": {
+        "es": "La guarida de bandidos",
+        "en": "The bandit den",
+        "fr": "Le repaire des bandits",
+        "it": "Il covo dei banditi",
+        "de": "Das Banditenversteck",
+        "zh": "盗贼巢穴",
+        "ja": "盗賊の隠れ家"
+      },
+      "hint": {
+        "es": "Has derrotado al Jefe Bandido. El camino hacia Celestia está despejado.",
+        "en": "You defeated the Bandit Chief. The road to Celestia is clear.",
+        "fr": "Tu as vaincu le Chef Bandit. La route vers Celestia est dégagée.",
+        "it": "Hai sconfitto il Capo Bandito. La strada per Celestia è libera.",
+        "de": "Du hast den Banditenhäuptling besiegt. Der Weg nach Celestia ist frei.",
+        "zh": "你击败了盗寇首领。通往塞勒斯提亚的道路已经打开。",
+        "ja": "盗賊団の頭を倒した。セレスティアへの道は開けている。"
+      }
+    },
+    "celestia_arrived": {
+      "title": {
+        "es": "Llegada a Celestia",
+        "en": "Arrival at Celestia",
+        "fr": "Arrivée à Celestia",
+        "it": "Arrivo a Celestia",
+        "de": "Ankunft in Celestia",
+        "zh": "抵达塞勒斯提亚",
+        "ja": "セレスティア到達"
+      },
+      "hint": {
+        "es": "Has llegado a Celestia. Domina las 3 profesiones avanzadas y consigue la audiencia real.",
+        "en": "You've reached Celestia. Master the 3 advanced professions and secure a royal audience.",
+        "fr": "Tu es arrivé à Celestia. Maîtrise les 3 professions avancées et obtiens une audience royale.",
+        "it": "Sei arrivato a Celestia. Padroneggia le 3 professioni avanzate e ottieni un'udienza reale.",
+        "de": "Du bist in Celestia angekommen. Meistere die 3 fortgeschrittenen Berufe und sichere dir eine königliche Audienz.",
+        "zh": "你到达了塞勒斯提亚。精通 3 个进阶职业并获得王室觐见。",
+        "ja": "セレスティアに到達した。進化した3つの職業を極め、王家への謁見を取り付けよう。"
+      }
+    },
+    "all_professions_mastered": {
+      "title": {
+        "es": "Las seis profesiones",
+        "en": "The six professions",
+        "fr": "Les six professions",
+        "it": "Le sei professioni",
+        "de": "Die sechs Berufe",
+        "zh": "六大职业",
+        "ja": "六つの職業"
+      },
+      "hint": {
+        "es": "Has aprendido las 6 profesiones. Preséntate ante el Rey de Celestia.",
+        "en": "You've learned all 6 professions. Present yourself before the King of Celestia.",
+        "fr": "Tu as appris les 6 professions. Présente-toi devant le Roi de Celestia.",
+        "it": "Hai imparato tutte le 6 professioni. Presentati al Re di Celestia.",
+        "de": "Du hast alle 6 Berufe erlernt. Stelle dich dem König von Celestia vor.",
+        "zh": "你已学会了六大职业。前去见塞勒斯提亚国王。",
+        "ja": "6つの職業すべてを修めた。セレスティア国王の前に参じよう。"
+      }
+    },
+    "king_audience_done": {
+      "title": {
+        "es": "Audiencia real",
+        "en": "Royal audience",
+        "fr": "Audience royale",
+        "it": "Udienza reale",
+        "de": "Königliche Audienz",
+        "zh": "王室觐见",
+        "ja": "王家の謁見"
+      },
+      "hint": {
+        "es": "El Rey exige que derrotes al Jefe del Puerto antes de entregarte su Sello Real.",
+        "en": "The King demands you defeat the Harbor Boss before granting you his Royal Seal.",
+        "fr": "Le Roi exige que tu vaincs le Boss du Port avant de te remettre son Sceau Royal.",
+        "it": "Il Re esige che tu sconfigga il Boss del Porto prima di concederti il suo Sigillo Reale.",
+        "de": "Der König fordert, dass du den Hafenboss besiegst, bevor er dir sein Königliches Siegel gewährt.",
+        "zh": "国王要求你先击败港口首领，才能将王家印玺交给你。",
+        "ja": "王は、王家の印を渡す前に港のボスを倒すことを要求している。"
+      }
+    },
+    "harbor_boss_defeated": {
+      "title": {
+        "es": "El Jefe del Puerto",
+        "en": "The Harbor Boss",
+        "fr": "Le Boss du Port",
+        "it": "Il Boss del Porto",
+        "de": "Der Hafenboss",
+        "zh": "港口首领",
+        "ja": "港のボス"
+      },
+      "hint": {
+        "es": "Has derrotado a la bestia del puerto. Reclama tu Sello Real y preséntalo al capitán.",
+        "en": "You defeated the harbor beast. Claim your Royal Seal and present it to the captain.",
+        "fr": "Tu as vaincu la bête du port. Réclame ton Sceau Royal et présente-le au capitaine.",
+        "it": "Hai sconfitto la bestia del porto. Reclama il tuo Sigillo Reale e presentalo al capitano.",
+        "de": "Du hast die Hafenbestie besiegt. Fordere dein Königliches Siegel ein und zeige es dem Kapitän.",
+        "zh": "你击败了港口的猛兽。领取你的王家印玺并展示给船长。",
+        "ja": "港の鬼を倒した。王家の印を手に入れ、船長に見せよう。"
+      }
+    },
+    "ship_unlocked": {
+      "title": {
+        "es": "El barco es tuyo",
+        "en": "The ship is yours",
+        "fr": "Le navire est à toi",
+        "it": "La nave è tua",
+        "de": "Das Schiff ist dein",
+        "zh": "船是你的了",
+        "ja": "船はあなたのもの"
+      },
+      "hint": {
+        "es": "El capitán te deja abordar. Zarpa hacia mar abierto.",
+        "en": "The captain lets you board. Set sail into open water.",
+        "fr": "Le capitaine te laisse monter à bord. Prends la mer.",
+        "it": "Il capitano ti lascia salire a bordo. Salpa verso il mare aperto.",
+        "de": "Der Kapitän lässt dich an Bord. Segle aufs offene Meer.",
+        "zh": "船长让你上了船。驶向大海。",
+        "ja": "船長が乗船を許した。外海へ出航しよう。"
+      }
+    },
+    "gloriam_arrived": {
+      "title": {
+        "es": "Llegada a Gloriam",
+        "en": "Arrival at Gloriam",
+        "fr": "Arrivée à Gloriam",
+        "it": "Arrivo a Gloriam",
+        "de": "Ankunft in Gloriam",
+        "zh": "抵达格里奥兰",
+        "ja": "グロリアム到達"
+      },
+      "hint": {
+        "es": "Has cruzado el mar y llegado a Gloriam, la ciudad del desierto.",
+        "en": "You crossed the sea and reached Gloriam, the desert city.",
+        "fr": "Tu as traversé la mer et atteint Gloriam, la cité du désert.",
+        "it": "Hai attraversato il mare e raggiunto Gloriam, la città del deserto.",
+        "de": "Du hast das Meer überquert und Gloriam erreicht, die Wüstenstadt.",
+        "zh": "你跨海抵达了沙漠城市格里奥兰。",
+        "ja": "海を渡り、沙漠の都市グロリアムに到達した。"
+      }
+    },
+    "desert_boots_obtained": {
+      "title": {
+        "es": "Botas de Arena",
+        "en": "Sand Boots",
+        "fr": "Bottes de Sable",
+        "it": "Stivali di Sabbia",
+        "de": "Sandstiefel",
+        "zh": "沙丘之靴",
+        "ja": "砂のブーツ"
+      },
+      "hint": {
+        "es": "Ya puedes caminar por las dunas sin quemarte ni frenarte.",
+        "en": "You can now cross the dunes without burning or slowing down.",
+        "fr": "Tu peux maintenant traverser les dunes sans te brûler ni ralentir.",
+        "it": "Ora puoi attraversare le dune senza scottarti né rallentare.",
+        "de": "Du kannst die Dünen nun überqueren, ohne dich zu verbrennen oder langsamer zu werden.",
+        "zh": "你现在可以跑过沙丘而不会灼伤或减速。",
+        "ja": "もうやけどや減速することなく沙丘を走れる。"
+      }
+    },
+    "solar_relic_found": {
+      "title": {
+        "es": "La Reliquia Solar",
+        "en": "The Solar Relic",
+        "fr": "La Relique Solaire",
+        "it": "La Reliquia Solare",
+        "de": "Das Sonnenrelikt",
+        "zh": "太阳遗物",
+        "ja": "太陽の遺物"
+      },
+      "hint": {
+        "es": "Has derrotado al Bandido Árido y recuperado la Reliquia del Núcleo Solar.",
+        "en": "You defeated the Arid Bandit and recovered the Solar Core Relic.",
+        "fr": "Tu as vaincu le Bandit Aride et récupéré la Relique du Noyau Solaire.",
+        "it": "Hai sconfitto il Bandito Arido e recuperato la Reliquia del Nucleo Solare.",
+        "de": "Du hast den Trockenbanditen besiegt und das Sonnenkern-Relikt zurückerhalten.",
+        "zh": "你击败了干旱盗寇并找回了太阳核心遗物。",
+        "ja": "旱の盗賊を倒し、太陽の核の遺物を取り戻した。"
+      }
+    },
+    "sentinel_passed": {
+      "title": {
+        "es": "El Centinela calmado",
+        "en": "The calmed Sentinel",
+        "fr": "La Sentinelle apaisée",
+        "it": "La Sentinella calmata",
+        "de": "Der beruhigte Wachposten",
+        "zh": "安抚的哨兵",
+        "ja": "静まった衛兵"
+      },
+      "hint": {
+        "es": "La Reliquia Solar ha reactivado al Centinela de Frontera en paz. El paso a Arcanum está abierto.",
+        "en": "The Solar Relic peacefully reactivated the Border Sentinel. The way to Arcanum is open.",
+        "fr": "La Relique Solaire a paisiblement réactivé la Sentinelle Frontière. La voie vers Arcanum est ouverte.",
+        "it": "La Reliquia Solare ha riattivato pacificamente la Sentinella di Frontiera. La via per Arcanum è aperta.",
+        "de": "Das Sonnenrelikt hat den Grenzwachposten friedlich reaktiviert. Der Weg nach Arcanum ist offen.",
+        "zh": "太阳遗物安静地重新激活了边境哨兵。通往奥术的道路已经打开。",
+        "ja": "太陽の遺物が国境の衛兵を静かに再起動させた。アーカノムへの道が開いた。"
+      }
+    },
+    "arcanum_arrived": {
+      "title": {
+        "es": "Llegada a Arcanum",
+        "en": "Arrival at Arcanum",
+        "fr": "Arrivée à Arcanum",
+        "it": "Arrivo ad Arcanum",
+        "de": "Ankunft in Arcanum",
+        "zh": "抵达奥术城",
+        "ja": "アーカノム到達"
+      },
+      "hint": {
+        "es": "Has llegado a la metrópolis de Arcanum. Algo aquí no encaja del todo.",
+        "en": "You've reached the metropolis of Arcanum. Something here doesn't quite add up.",
+        "fr": "Tu as atteint la métropole d'Arcanum. Quelque chose ne colle pas ici.",
+        "it": "Hai raggiunto la metropoli di Arcanum. Qualcosa qui non quadra del tutto.",
+        "de": "Du hast die Metropole Arcanum erreicht. Etwas stimmt hier nicht ganz.",
+        "zh": "你到达了奥术城大都会。这里有些不对劲。",
+        "ja": "アーカノムの大都会に到達した。何かがしっくりしない。"
+      }
+    },
+    "lab_docs_found": {
+      "title": {
+        "es": "Los documentos del laboratorio",
+        "en": "The laboratory documents",
+        "fr": "Les documents du laboratoire",
+        "it": "I documenti del laboratorio",
+        "de": "Die Labordokumente",
+        "zh": "实验室的文件",
+        "ja": "実験室の資料"
+      },
+      "hint": {
+        "es": "Has recuperado los 3 documentos ocultos en el Laboratorio de Arcanum.",
+        "en": "You recovered the 3 documents hidden in the Arcanum Laboratory.",
+        "fr": "Tu as récupéré les 3 documents cachés dans le Laboratoire d'Arcanum.",
+        "it": "Hai recuperato i 3 documenti nascosti nel Laboratorio di Arcanum.",
+        "de": "Du hast die 3 im Arcanum-Labor versteckten Dokumente wiedergefunden.",
+        "zh": "你找回了藏在奥术实验室的 3 份文件。",
+        "ja": "アーカノム実験室に隠されていた 3 つの資料を取り戻した。"
+      }
+    },
+    "truth_revealed": {
+      "title": {
+        "es": "La verdad revelada",
+        "en": "The revealed truth",
+        "fr": "La vérité révélée",
+        "it": "La verità rivelata",
+        "de": "Die enthüllte Wahrheit",
+        "zh": "揭露的真相",
+        "ja": "明らかになった真実"
+      },
+      "hint": {
+        "es": "La fantasía se resquebraja. Ahora sabes lo que de verdad ocurrió.",
+        "en": "The fantasy cracks open. You now know what truly happened.",
+        "fr": "Le fantasme se fissure. Tu sais maintenant ce qui s'est vraiment passé.",
+        "it": "La fantasia si incrina. Ora sai cosa è davvero accaduto.",
+        "de": "Die Illusion bricht auf. Jetzt weißt du, was wirklich geschah.",
+        "zh": "幻想开始裂开。你现在知道了真正发生的事。",
+        "ja": "幻想にひびが入る。あなたは今、本当に起こったことを知っている。"
+      }
+    },
+    "final_sanctuary_reached": {
+      "title": {
+        "es": "El Templo del Origen",
+        "en": "The Temple of Origin",
+        "fr": "Le Temple des Origines",
+        "it": "Il Tempio dell'Origine",
+        "de": "Der Tempel des Ursprungs",
+        "zh": "本源神庙",
+        "ja": "起源の神殿"
+      },
+      "hint": {
+        "es": "Has llegado al Templo del Origen, en el corazón de la Zona Final.",
+        "en": "You've reached the Temple of Origin, at the heart of the Final Zone.",
+        "fr": "Tu as atteint le Temple des Origines, au cœur de la Zone Finale.",
+        "it": "Hai raggiunto il Tempio dell'Origine, nel cuore della Zona Finale.",
+        "de": "Du hast den Tempel des Ursprungs erreicht, im Herzen der letzten Zone.",
+        "zh": "你到达了本源神庙，位于最终区域的核心。",
+        "ja": "最後の領域の心臓、起源の神殿に到達した。"
+      }
+    },
+    "guardian_defeated": {
+      "title": {
+        "es": "El Guardián Supremo",
+        "en": "The Supreme Guardian",
+        "fr": "Le Gardien Suprême",
+        "it": "Il Guardiano Supremo",
+        "de": "Der oberste Wächter",
+        "zh": "至高守卫者",
+        "ja": "最高の守護者"
+      },
+      "hint": {
+        "es": "Has derrotado al Guardián Supremo. Solo queda enfrentar la Esfera de la Verdad.",
+        "en": "You defeated the Supreme Guardian. Only the Sphere of Truth remains.",
+        "fr": "Tu as vaincu le Gardien Suprême. Il ne reste plus qu'à affronter la Sphère de Vérité.",
+        "it": "Hai sconfitto il Guardiano Supremo. Resta solo da affrontare la Sfera della Verità.",
+        "de": "Du hast den obersten Wächter besiegt. Nur die Sphäre der Wahrheit bleibt noch.",
+        "zh": "你击败了至高守卫者。只剩下面对真相之球了。",
+        "ja": "最高の守護者を倒した。残るのは真実の球体との対決のみ。"
+      }
+    },
+    "game_completed": {
+      "title": {
+        "es": "El final del viaje",
+        "en": "The end of the journey",
+        "fr": "La fin du voyage",
+        "it": "La fine del viaggio",
+        "de": "Das Ende der Reise",
+        "zh": "旅程的终点",
+        "ja": "旅の終わり"
+      },
+      "hint": {
+        "es": "Has llegado al final de tu viaje. Lo que decidas ahora es tuyo.",
+        "en": "You've reached the end of your journey. What you decide now is yours.",
+        "fr": "Tu as atteint la fin de ton voyage. Ce que tu décides maintenant t'appartient.",
+        "it": "Hai raggiunto la fine del tuo viaggio. Ciò che decidi ora è tuo.",
+        "de": "Du hast das Ende deiner Reise erreicht. Was du jetzt entscheidest, gehört dir.",
+        "zh": "你已到达旅程的终点。现在的决定属于你自己。",
+        "ja": "あなたの旅は終わった。今決めることはあなたのものだ。"
+      }
+    }
+  },
+  "combat_victory": {
+    "orco_berserker": {
+      "event": "clear_cave"
+    },
+    "bandido_jefe": {
+      "event": "clear_bandits_cave"
+    },
+    "corruptor_silvestre": {
+      "event": "clear_grove"
+    },
+    "jefe_puerto": {
+      "event": "defeat_harbor_boss"
+    },
+    "devorador_dunas": {
+      "event": "clear_desert_dungeon"
+    },
+    "arcanium_experimento": {
+      "event": "clear_laboratorio"
+    },
+    "automata_jefe": {
+      "event": "clear_laboratorio"
+    },
+    "guardian_supremo": {
+      "event": "defeat_final_guardian"
+    },
+    "eco_fragmentado": {
+      "event": "clear_ice_cave"
+    }
+  }
+}

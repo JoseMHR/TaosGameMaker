@@ -1,0 +1,27 @@
+{
+    "name": {
+        "es": "Elixir Supremo",
+        "en": "Supreme Elixir",
+        "fr": "Élixir Suprême",
+        "it": "Elisir Supremo",
+        "de": "Höchstes Elixier",
+        "zh": "至高秘药",
+        "ja": "スプリームエリクサー"
+    },
+    "desc": {
+        "es": "Restaura por completo la vida y el maná. Reservado para las peores emergencias.",
+        "en": "Fully restores health and mana. Reserved for the worst emergencies.",
+        "fr": "Restaure entièrement la vie et le mana. Réservé aux pires urgences.",
+        "it": "Ripristina completamente vita e mana. Riservato alle peggiori emergenze.",
+        "de": "Stellt Leben und Mana vollständig wieder her. Reserviert für die schlimmsten Notfälle.",
+        "zh": "完全恢复生命值与魔法值，专供最危急的情况使用。",
+        "ja": "HPとMPを完全回復する。最悪の緊急事態のために取っておくべき。"
+    },
+    "icon": "✨",
+    "category": "consumable",
+    "usable": true,
+    "effects": {
+        "heal_pct": 1.0,
+        "mana_pct": 1.0
+    }
+}

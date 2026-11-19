@@ -1,0 +1,70 @@
+================================================================================
+                           ECOS DE LA VERDAD
+                     Creado con: Taos Game Maker
+           Basado en la novela: 'El secreto de Lázaro'
+                 Autor: José Manuel Heredia Reyes
+================================================================================
+
+--------------------------------------------------------------------------------
+1. PERSONAJES Y MODELADO 3D
+--------------------------------------------------------------------------------
+• Protagonista (Modelo 3D):
+  - Kay Lousberg (https://www.kaylousberg.com) — Licencia CC0 / Game-Ready Assets.
+
+• Modelos 3D de Entornos y Accesorios:
+  - Quaternius (https://quaternius.com / https://www.patreon.com/quaternius) — CC0.
+  - Diseños y prototipos adicionales generados con Gemini IA.
+
+--------------------------------------------------------------------------------
+2. ARTE 2D, ILUSTRACIÓN Y FONDOS
+--------------------------------------------------------------------------------
+• Fondos de Escenario, Retratos y Cinemáticas:
+  - Ilustración y generación de fondos temáticos asistida con Gemini IA.
+
+--------------------------------------------------------------------------------
+3. MÚSICA Y BANDA SONORA (BGM)
+--------------------------------------------------------------------------------
+• Composiciones Musicales de Fondo:
+  - Liborio Conti (https://www.no-copyright-music.com) — Música libre de derechos.
+  - Temas ambientales y orquestales adicionales de www.no-copyright-music.com.
+
+--------------------------------------------------------------------------------
+4. EFECTOS DE SONIDO (SFX)
+--------------------------------------------------------------------------------
+• Efectos de Audio y Diseño Sonoro:
+  - JDSherbert (https://jdsherbert.itch.io) — UI and Environment Sound FX Packs.
+  - Chequered Ink (https://chequered-ink.itch.io/400-sounds-pack) — "400 Sounds Pack".
+  - FreeSFX Ltd (https://www.freesfx.co.uk) — Free Sound Effects Library.
+  - Tom Ciccone (https://tomciccone.itch.io/sound-design-for-horror) — Horror Sound Design.
+  - Makoto Hiramatsu (https://makotohiramatsu.itch.io) — Sound Effects Pack.
+
+--------------------------------------------------------------------------------
+5. TIPOGRAFÍAS (FONTS)
+--------------------------------------------------------------------------------
+• Cinzel:
+  - Diseñada por Natanael Gama (The Cinzel Project Authors).
+  - Licencia: SIL Open Font License, Version 1.1 (https://openfontlicense.org).
+
+• EB Garamond:
+  - Diseñada por Georg Duffner y Octavio Pardo (The EB Garamond Project Authors).
+  - Licencia: SIL Open Font License, Version 1.1 (https://openfontlicense.org).
+
+--------------------------------------------------------------------------------
+6. SHADERS, MATEMÁTICAS Y ALGORITMOS VISUALES
+--------------------------------------------------------------------------------
+• Procedural Sky & Voronoi Shader:
+  - Inigo Quilez (https://www.shadertoy.com/view/ldl3Dl) — Voronoi / Cellular noise.
+
+• Volumetric Rendering:
+  - Alan Zucconi (https://www.alanzucconi.com) — Raymarching & volumetric lighting.
+
+• Transformación de Rotación de Vectores:
+  - Martijn Pieters — Dirección angular y cálculo matricial.
+
+--------------------------------------------------------------------------------
+7. DEDICATORIA Y AGRADECIMIENTOS ESPECIALES
+--------------------------------------------------------------------------------
+A todos los lectores de la novela 'El secreto de Lázaro' y a la comunidad de
+desarrolladores independientes de Godot Engine por su constante apoyo e inspiración.
+
+================================================================================

@@ -1,0 +1,26 @@
+{
+    "id": "poi_yelmo_pescador_seco",
+    "type": "poi",
+    "icon": "🎣",
+    "name": {
+        "es": "El Pescador sin Agua",
+        "en": "The Waterless Fisherman",
+        "fr": "Le Pêcheur sans Eau",
+        "it": "Il Pescatore senza Acqua",
+        "de": "Der Wasserlose Fischer",
+        "zh": "无水渔夫",
+        "ja": "水のない漁師"
+    },
+    "desc": {
+        "es": "Un anciano que pesca pacientemente en el lecho agrietado de un lago que ya no existe. (PNJ singular).",
+        "en": "An old man patiently fishing in the cracked bed of a lake that no longer exists. (Singular NPC).",
+        "fr": "Un vieil homme pêchant patiemment dans le lit craquelé d'un lac qui n'existe plus. (PNJ singulier).",
+        "it": "Un vecchio che pesca pazientemente nel letto screpolato di un lago che non esiste più. (PNG singolare).",
+        "de": "Ein alter Mann, der geduldig im rissigen Bett eines nicht mehr existierenden Sees angelt. (Einzigartiger NPC).",
+        "zh": "一位老人耐心地在一片早已干涸的湖床龟裂处垂钓。（唯一NPC）。",
+        "ja": "もはや存在しない湖のひび割れた湖底で、辛抱強く釣りをする老人。（唯一のNPC）。"
+    },
+    "npc": "poi_yelmo_pescador_seco",
+    "bg": "bg_world_poi_yelmo_pescador_seco.png",
+    "music": "poi_generic"
+}

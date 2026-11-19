@@ -1,0 +1,66 @@
+{
+  "name": {
+    "es": "Titán Antiguo",
+    "en": "Ancient Titan",
+    "fr": "Titan Ancien",
+    "it": "Titano Antico",
+    "de": "Uralter Titan",
+    "zh": "远古泰坦",
+    "ja": "古の巨神"
+  },
+  "family": "giant",
+  "archetype": "boss",
+  "icon": "🗿",
+  "image": "res://assets/combat/enemies/en_ancient_titan.png",
+  "attack_type": "physical",
+  "base_dodge": 5.0,
+  "dodge_scale": 0.1,
+  "element": "earth",
+  "weak_to": [
+    "water",
+    "lightning"
+  ],
+  "resist": [
+    "earth",
+    "physical",
+    "fire"
+  ],
+  "ai": "defensive",
+  "xp_reward_base": 2200,
+  "xp_reward_scale": 45.0,
+  "gold_reward_base": 1300,
+  "gold_reward_scale": 40.0,
+  "skills": [
+    {
+      "level": 1,
+      "skill_id": "cataclysm_stomp"
+    },
+    {
+      "level": 30,
+      "skill_id": "immovable_bastion"
+    },
+    {
+      "level": 50,
+      "skill_id": "earth_core_blast"
+    }
+  ],
+  "loot": [
+    {
+      "kind": "gold",
+      "min": 80,
+      "max": 160
+    },
+    {
+      "kind": "consumable",
+      "id": "potion",
+      "chance": 0.4
+    },
+    {
+      "kind": "equipment",
+      "chance": 0.4,
+      "level": 22
+    }
+  ],
+  "zone": "zona_secreta",
+  "is_boss": true
+}

@@ -1,0 +1,64 @@
+{
+  "name": {
+    "es": "Liche Eterno",
+    "en": "Eternal Lich",
+    "fr": "Liche Éternelle",
+    "it": "Lich Eterno",
+    "de": "Ewiger Lich",
+    "zh": "永恒巫妖",
+    "ja": "エターナルリッチ"
+  },
+  "icon": "☠️",
+  "image": "res://assets/combat/enemies/en_eternal_lich.png",
+  "attack_type": "magic",
+  "base_dodge": 0.0,
+  "dodge_scale": 0.0,
+  "element": "dark",
+  "weak_to": [
+    "holy",
+    "magic",
+    "fire",
+    "physical"
+  ],
+  "resist": [
+    "dark",
+    "poison"
+  ],
+  "ai": "caster",
+  "xp_reward_base": 440,
+  "xp_reward_scale": 21.0,
+  "gold_reward_base": 270,
+  "gold_reward_scale": 18.0,
+  "skills": [
+    {
+      "level": 1,
+      "skill_id": "lich_curse"
+    },
+    {
+      "level": 5,
+      "skill_id": "lich_touch"
+    },
+    {
+      "level": 10,
+      "skill_id": "lich_blast"
+    }
+  ],
+  "loot": [
+    {
+      "kind": "gold",
+      "min": 120,
+      "max": 220
+    },
+    {
+      "kind": "equipment",
+      "chance": 1.0,
+      "level": 4
+    }
+  ],
+  "family": "magical",
+  "archetype": "boss",
+  "zone": "zona_4_celestia",
+  "level": 20,
+  "is_boss": true,
+  "ambient_poison_per_turn": 20
+}

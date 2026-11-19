@@ -1,0 +1,8 @@
+{
+    "label": "Casita de Madera",
+    "icon": "🏠",
+    "scale": 1.0,
+    "y_offset": 0.0,
+    "description": "Pequeña vivienda de madera con tejado a dos aguas.",
+    "model_path": "casita"
+}

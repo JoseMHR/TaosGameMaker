@@ -1,0 +1,81 @@
+[gd_scene format=3]
+
+[sub_resource type="StandardMaterial3D" id="Mat_CarvedStone"]
+albedo_color = Color(0.42, 0.44, 0.46, 1)
+roughness = 0.85
+
+[sub_resource type="StandardMaterial3D" id="Mat_DungeonVoid"]
+albedo_color = Color(0.02, 0.02, 0.03, 1)
+roughness = 1.0
+
+[sub_resource type="StandardMaterial3D" id="Mat_FireGlow"]
+albedo_color = Color(1.0, 0.55, 0.1, 1)
+emission_enabled = true
+emission = Color(1.0, 0.45, 0.05, 1)
+emission_energy_multiplier = 3.0
+
+[sub_resource type="BoxMesh" id="Mesh_Steps"]
+size = Vector3(0.9, 0.12, 0.85)
+
+[sub_resource type="BoxMesh" id="Mesh_Pillar"]
+size = Vector3(0.18, 0.75, 0.22)
+
+[sub_resource type="BoxMesh" id="Mesh_Lintel"]
+size = Vector3(0.82, 0.22, 0.32)
+
+[sub_resource type="BoxMesh" id="Mesh_DoorVoid"]
+size = Vector3(0.42, 0.6, 0.2)
+
+[sub_resource type="BoxMesh" id="Mesh_Brazier"]
+size = Vector3(0.12, 0.28, 0.12)
+
+[sub_resource type="SphereMesh" id="Mesh_Flame"]
+radius = 0.07
+height = 0.14
+
+[node name="EntradaMazmorra" type="Node3D"]
+
+[node name="Steps" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.06, 0)
+material_override = SubResource("Mat_CarvedStone")
+mesh = SubResource("Mesh_Steps")
+
+[node name="PillarL" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.28, 0.495, 0.05)
+material_override = SubResource("Mat_CarvedStone")
+mesh = SubResource("Mesh_Pillar")
+
+[node name="PillarR" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.28, 0.495, 0.05)
+material_override = SubResource("Mat_CarvedStone")
+mesh = SubResource("Mesh_Pillar")
+
+[node name="Lintel" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.92, 0.05)
+material_override = SubResource("Mat_CarvedStone")
+mesh = SubResource("Mesh_Lintel")
+
+[node name="DoorVoid" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.42, 0.0)
+material_override = SubResource("Mat_DungeonVoid")
+mesh = SubResource("Mesh_DoorVoid")
+
+[node name="BrazierL" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.38, 0.26, 0.32)
+material_override = SubResource("Mat_CarvedStone")
+mesh = SubResource("Mesh_Brazier")
+
+[node name="FlameL" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.38, 0.45, 0.32)
+material_override = SubResource("Mat_FireGlow")
+mesh = SubResource("Mesh_Flame")
+
+[node name="BrazierR" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.38, 0.26, 0.32)
+material_override = SubResource("Mat_CarvedStone")
+mesh = SubResource("Mesh_Brazier")
+
+[node name="FlameR" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.38, 0.45, 0.32)
+material_override = SubResource("Mat_FireGlow")
+mesh = SubResource("Mesh_Flame")

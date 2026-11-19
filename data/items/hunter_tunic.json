@@ -1,0 +1,41 @@
+{
+    "name": {
+        "es": "Túnica de Explorador",
+        "en": "Explorer's Tunic",
+        "fr": "Tunique d'Explorateur",
+        "it": "Tunica dell'Esploratore",
+        "de": "Entdeckertunika",
+        "zh": "探险者短袍",
+        "ja": "探検者のチュニック"
+    },
+    "desc": {
+        "es": "Prenda de cuero flexible ideal para arqueros y aventureros ágiles.",
+        "en": "Flexible leather garb ideal for archers and agile adventurers.",
+        "fr": "Vêtement en cuir souple idéal pour les archers et les aventuriers agiles.",
+        "it": "Indumento in cuoio flessibile ideale per arcieri e avventurieri agili.",
+        "de": "Flexibles Lederkleidungsstück, ideal für Bogenschützen und flinke Abenteurer.",
+        "zh": "柔韧的皮革服饰，非常适合弓箭手与身手敏捷的冒险者。",
+        "ja": "弓使いや素早い冒険者に最適な柔軟な革の衣服。"
+    },
+    "icon": "🥋",
+    "category": "equipment",
+    "usable": false,
+    "slot": "armor",
+    "tier": 3,
+    "bonuses": {
+        "agi": 4,
+        "dex": 2
+    },
+    "combat": {
+        "phys_defense": 18,
+        "mag_defense": 12
+    },
+    "traits": [
+        {
+            "type": "evasion",
+            "value": 0.05,
+            "min_refine": 0,
+            "desc": "+5% Probabilidad de Evasión"
+        }
+    ]
+}

@@ -1,0 +1,150 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Duelo del Mediodía",
+            "en": "The High-Noon Duel",
+            "fr": "Le Duel de Midi",
+            "it": "Il Duello di Mezzogiorno",
+            "de": "Das Mittagsduell",
+            "zh": "正午对决",
+            "ja": "真昼の決闘"
+        },
+        "next": [],
+        "reward": "avatar=🤠;bg=0.16,0.12,0.06"
+    },
+    "duelo_root": {
+        "type": "message",
+        "text": {
+            "es": "El sol cae a plomo sobre la calle principal de un pueblo fantasma. Una bola de matojos rueda entre vosotros con un timing perfecto. Al otro extremo, un forastero de sombrero calado entorna los ojos bajo el ala. 'Este pueblo no es lo bastante grande para los dos, forastero', gruñe, y su mano baja lentamente hacia la cadera... donde no hay funda, ni pistola, ni nada. Frunce el ceño, se palpa el cinturón, y susurra avergonzado: 'Eeh... ¿tú por casualidad no tendrás dos pistolas de sobra? Es que he venido a retar y se me han olvidado en casa.'",
+            "en": "The sun beats straight down on the main street of a ghost town. A tumbleweed rolls between you with perfect timing. At the far end, a stranger with a low-pulled hat narrows his eyes beneath the brim. 'This town ain't big enough for the both of us, stranger,' he growls, and his hand drifts slowly toward his hip... where there's no holster, no pistol, nothing. He frowns, pats his belt, and mutters, embarrassed: 'Uh... you wouldn't happen to have two spare pistols, would you? Came all this way to duel and left mine at home.'",
+            "fr": "Le soleil tombe à pic sur la rue principale d'une ville fantôme. Une boule de chardons roule entre vous avec un timing parfait. À l'autre bout, un étranger au chapeau baissé plisse les yeux sous le bord. « Cette ville n'est pas assez grande pour nous deux, étranger », grogne-t-il, et sa main descend lentement vers sa hanche... où il n'y a ni étui, ni pistolet, rien. Il fronce les sourcils, tâte sa ceinture, et murmure, gêné : « Euh... tu n'aurais pas par hasard deux pistolets en trop ? C'est que je suis venu pour un duel et j'ai oublié les miens à la maison. »",
+            "it": "Il sole cade a picco sulla via principale di un paese fantasma. Una palla di rovi rotola tra voi con un timing perfetto. All'altro capo, uno straniero con il cappello calato socchiude gli occhi sotto la falda. 'Questo paese non è abbastanza grande per entrambi, straniero', ringhia, e la sua mano scende lentamente verso il fianco... dove non c'è fondina, né pistola, niente. Aggrotta la fronte, si tasta la cintura, e mormora, imbarazzato: 'Ehm... non avrai per caso due pistole di scorta? È che sono venuto per sfidarti e me le sono dimenticate a casa.'",
+            "de": "Die Sonne brennt senkrecht auf die Hauptstraße einer Geisterstadt. Ein Steppenläufer rollt mit perfektem Timing zwischen euch. Am anderen Ende blinzelt ein Fremder mit tief gezogenem Hut unter der Krempe. „Diese Stadt ist nicht groß genug für uns beide, Fremder“, knurrt er, und seine Hand wandert langsam zur Hüfte... wo kein Holster ist, keine Pistole, nichts. Er runzelt die Stirn, tastet seinen Gürtel ab und murmelt verlegen: „Äh... hättest du zufällig zwei Ersatzpistolen? Ich bin nämlich zum Duellieren gekommen und hab meine zu Hause vergessen.“",
+            "zh": "太阳直直地照射在一座鬼镇的主街上。一团滚草以完美的时机在你们之间滚过。在另一端，一个压低帽檐的陌生人眯起眼睛。「这座镇容不下我们两个，陌生人，」他咆哮道，一只手缓缓伸向腰间……那里既没有枪套，也没有手枪，什么都没有。他皱起眉头，摸了摸腰带，尴尬地嘟囔道：「呃……你该不会碰巧带了两把多余的手枪吧？我是来决斗的，结果把枪忘在家里了。」",
+            "ja": "太陽がゴーストタウンのメインストリートに真上から照りつける。完璧なタイミングでタンブルウィードが二人の間を転がる。反対側では、帽子を目深にかぶった見知らぬ男がつばの下で目を細める。「この町は俺たち二人には狭すぎる、よそ者よ」と唸り、その手はゆっくりと腰へ向かう……そこにはホルスターも拳銃も、何もない。眉をひそめ、ベルトを触ってから、気まずそうに呟く。「えーと……余分な拳銃を二丁、たまたま持ってたりしないか？決闘しに来たんだが、家に忘れてきちまってな」"
+        },
+        "next": [
+            "duelo_opt_aceptar",
+            "duelo_opt_dedos",
+            "duelo_opt_retirar",
+            "duelo_opt_salir"
+        ],
+        "reward": ""
+    },
+    "duelo_opt_dedos": {
+        "type": "option",
+        "text": {
+            "es": "👉  Proponer un duelo a pistola de dedo: el primero que diga 'bang' gana",
+            "en": "👉  Propose a finger-gun duel: first to say 'bang' wins",
+            "fr": "👉  Proposer un duel au pistolet-doigt : le premier qui dit « pan » gagne",
+            "it": "👉  Proporre un duello a pistola con le dita: il primo che dice bang vince",
+            "de": "👉  Ein Fingerpistolen-Duell vorschlagen: wer zuerst „bäng“ sagt, gewinnt",
+            "zh": "👉  提议一场手指枪决斗：谁先喊出「砰」谁就赢",
+            "ja": "👉  『指鉄砲』の決闘を提案する——先に『バン』と言った方が勝ち"
+        },
+        "next": [
+            "duelo_msg_dedos"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "duelo_msg_dedos": {
+        "type": "message",
+        "text": {
+            "es": "Os colocáis espalda contra espalda, dais diez pasos solemnes mientras un cuervo hace de público. Giráis. '¡BANG!', gritáis los dos a la vez, apuntando con el dedo. Empate técnico. El forastero se lleva la mano al pecho, tambaleándose con un dramatismo digno de teatro: 'Me... me has dado... buen duelo, forastero...', y cae de rodillas fingiendo una agonía de diez minutos. Aplaudís los dos vuestra propia estupidez. Es lo más ridículo y lo más divertido que has hecho en todo el desierto.",
+            "en": "You stand back to back, take ten solemn paces while a crow plays the audience. You turn. 'BANG!', you both shout at once, pointing your fingers. Technical draw. The stranger clutches his chest, staggering with theater-worthy melodrama: 'You... you got me... good duel, stranger...', and drops to his knees faking a ten-minute agony. You both applaud your own stupidity. It's the most ridiculous and the most fun thing you've done in the whole desert.",
+            "fr": "Vous vous mettez dos à dos, faites dix pas solennels tandis qu'un corbeau fait office de public. Vous vous retournez. « PAN ! », criez-vous tous les deux en même temps, en pointant du doigt. Match nul technique. L'étranger porte la main à sa poitrine, titubant avec un sens du drame digne du théâtre : « Tu... tu m'as eu... bon duel, étranger... », et tombe à genoux en simulant une agonie de dix minutes. Vous applaudissez tous les deux votre propre stupidité. C'est la chose la plus ridicule et la plus amusante que tu aies faite dans tout le désert.",
+            "it": "Vi mettete schiena contro schiena, fate dieci passi solenni mentre un corvo fa da pubblico. Vi girate. 'BANG!', gridate entrambi allo stesso tempo, puntando il dito. Pareggio tecnico. Lo straniero si porta la mano al petto, barcollando con un dramma degno del teatro: 'Mi... mi hai preso... buon duello, straniero...', e cade in ginocchio fingendo un'agonia di dieci minuti. Applaudite entrambi la vostra stessa stupidità. È la cosa più ridicola e più divertente che tu abbia fatto in tutto il deserto.",
+            "de": "Ihr stellt euch Rücken an Rücken, geht zehn feierliche Schritte, während eine Krähe das Publikum spielt. Ihr dreht euch um. „BÄNG!“, schreit ihr beide gleichzeitig und zeigt mit dem Finger. Technisches Unentschieden. Der Fremde greift sich an die Brust, taumelt mit theaterreifer Dramatik: „Du... du hast mich erwischt... gutes Duell, Fremder...“, und sinkt auf die Knie, wobei er einen zehnminütigen Todeskampf vortäuscht. Ihr beide applaudiert eurer eigenen Dummheit. Es ist das Lächerlichste und Lustigste, was du in der ganzen Wüste getan hast.",
+            "zh": "你们背靠背站着，庄严地走了十步，一只乌鸦充当了观众。你们转身。「砰！」你们同时大喊，用手指指着对方。技术性平局。陌生人捂着胸口，以堪比戏剧的夸张摇晃起来：「你……你打中我了……好一场决斗，陌生人……」然后跪倒在地，假装十分钟的临终挣扎。你们俩都为自己的愚蠢鼓掌。这是你在整个沙漠中做过的最荒唐、也最有趣的事情。",
+            "ja": "背中合わせに立ち、カラスが観客役を務める中、厳かに十歩進む。振り返る。「バン！」二人同時に叫び、指で狙いをつける。技術的な引き分け。見知らぬ男は胸に手を当て、劇場さながらの大げさな仕草でよろめく。「や、やられた……良い決闘だったぞ、よそ者よ……」そして十分間の断末魔を演じながら膝をつく。二人とも自分たちの馬鹿さ加減に拍手を送る。砂漠中でお前がしたことの中で、一番馬鹿げていて、一番楽しいことだった。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:aspecto=+1;faceta:cordura=+1"
+    },
+    "duelo_opt_aceptar": {
+        "type": "option",
+        "text": {
+            "es": "🤠  Seguirle el juego con cara de póker y aceptar el duelo a muerte",
+            "en": "🤠  Play along with a poker face and accept the duel to the death",
+            "fr": "🤠  Jouer le jeu avec un visage impassible et accepter le duel à mort",
+            "it": "🤠  Stare al gioco con faccia da poker e accettare il duello a morte",
+            "de": "🤠  Mit Pokerface mitspielen und das Duell auf Leben und Tod annehmen",
+            "zh": "🤠  面无表情地配合，接受这场殊死决斗",
+            "ja": "🤠  ポーカーフェイスで話を合わせ、『命懸けの』決闘を受け入れる"
+        },
+        "next": [
+            "duelo_msg_aceptar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "duelo_msg_aceptar": {
+        "type": "message",
+        "text": {
+            "es": "Aceptas sin pestañear, y le sigues el juego con tanto aplomo que él se pone nervioso de verdad. Cuando toca desenfundar, tú sacas... una cuchara de tu zurrón y le apuntas con ella, impertérrito. El forastero estalla en carcajadas y se rinde: 'Tú ganas, forastero, tú ganas. Hacía años que nadie me plantaba cara sin miedo.' Se quita el sombrero en señal de respeto y te lo regala. Mantener el tipo ante un fanfarrón es medio duelo ganado.",
+            "en": "You accept without a blink, playing along with such composure that HE gets genuinely nervous. When it's time to draw, you pull out... a spoon from your pack and level it at him, deadpan. The stranger bursts into laughter and surrenders: 'You win, stranger, you win. It's been years since anyone faced me down without fear.' He removes his hat in respect and gives it to you. Holding your nerve against a blowhard is half the duel won.",
+            "fr": "Tu acceptes sans ciller, et joues le jeu avec tant d'assurance que c'est lui qui devient réellement nerveux. Quand vient le moment de dégainer, tu sors... une cuillère de ton sac et la pointes vers lui, imperturbable. L'étranger éclate de rire et se rend : « Tu gagnes, étranger, tu gagnes. Ça fait des années que personne ne m'a tenu tête sans peur. » Il retire son chapeau en signe de respect et te l'offre. Garder son sang-froid devant un fanfaron, c'est déjà la moitié du duel gagné.",
+            "it": "Accetti senza battere ciglio, e stai al gioco con tanta compostezza che è lui a innervosirsi davvero. Quando arriva il momento di sfoderare, tiri fuori... un cucchiaio dalla tua bisaccia e glielo punti contro, impassibile. Lo straniero scoppia a ridere e si arrende: 'Vinci tu, straniero, vinci tu. Sono anni che nessuno mi tiene testa senza paura.' Si toglie il cappello in segno di rispetto e te lo regala. Mantenere il sangue freddo davanti a uno spaccone è mezzo duello vinto.",
+            "de": "Du akzeptierst ohne zu zögern und spielst mit solcher Gelassenheit mit, dass ER wirklich nervös wird. Als es Zeit zum Ziehen ist, holst du... einen Löffel aus deinem Rucksack und zielst ungerührt auf ihn. Der Fremde bricht in Gelächter aus und ergibt sich: „Du gewinnst, Fremder, du gewinnst. Es sind Jahre her, dass mir jemand ohne Angst gegenübergetreten ist.“ Er nimmt aus Respekt seinen Hut ab und schenkt ihn dir. Die Nerven vor einem Angeber zu behalten ist schon das halbe Duell gewonnen.",
+            "zh": "你毫不犹豫地接受了，配合得如此镇定，以至于反而是他真正紧张起来。当到了拔枪的时候，你掏出的……是一把从背包里拿出的勺子，面不改色地对准他。陌生人爆笑起来，投降了：「你赢了，陌生人，你赢了。已经好多年没人能毫无惧色地面对我了。」他脱下帽子以示敬意，并把它送给了你。在一个爱吹牛的人面前保持镇定，已经算是赢了半场决斗。",
+            "ja": "たじろぎもせずに受け入れ、あまりにも堂々と話を合わせるので、彼のほうが本当に緊張してしまう。抜く番になると、お前が取り出したのは……袋の中のスプーンだ。無表情のままそれを彼に向ける。見知らぬ男は大笑いして降参する。「お前の勝ちだ、よそ者よ、お前の勝ちだ。恐れもせずに俺に立ち向かった奴なんて何年ぶりだ」敬意を込めて帽子を脱ぎ、それをお前に贈る。ほら吹きの前で冷静さを保つことは、決闘の半分を勝ち取ったも同然だ。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:valor=+1"
+    },
+    "duelo_opt_retirar": {
+        "type": "option",
+        "text": {
+            "es": "🏃  Yo no me juego el pellejo con un chiflado. Retirarte del duelo",
+            "en": "🏃  Im not risking my hide over a lunatic.' Back out of the duel",
+            "fr": "🏃  Je ne risque pas ma peau pour un cinglé. Se retirer du duel",
+            "it": "🏃  Non rischio la pelle per un pazzo. Ritirarsi dal duello",
+            "de": "🏃  Ich riskiere meine Haut nicht für einen Verrückten. Sich aus dem Duell zurückziehen",
+            "zh": "🏃  我才不会为一个疯子拿自己的小命冒险。退出决斗",
+            "ja": "🏃  変人のために命は張らない決闘から手を引く"
+        },
+        "next": [
+            "duelo_msg_retirar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "duelo_msg_retirar": {
+        "type": "message",
+        "text": {
+            "es": "Levantas las manos y das marcha atrás por la calle polvorienta. '¡Eso, huye! ¡Como todos!', te grita el forastero, plantado solo en mitad del pueblo fantasma con su duelo sin pistolas y sin rival. En el fondo sabes que no había ningún peligro real, que solo era un pobre diablo aburrido buscando un rato de teatro. Pero algo en tu estómago se encoge: has dejado a un hombre solo hablando con el viento por no querer hacer el ridículo un rato. La dignidad, a veces, sale cara.",
+            "en": "You raise your hands and back away down the dusty street. 'That's it, run! Like everyone else!', the stranger shouts, left alone in the middle of the ghost town with his pistol-less duel and no opponent. Deep down you know there was no real danger, that he was just a bored poor devil looking for a little theater. But something in your stomach tightens: you've left a man talking alone to the wind rather than look silly for a while. Dignity, sometimes, comes at a price.",
+            "fr": "Tu lèves les mains et recules dans la rue poussiéreuse. « C'est ça, fuis ! Comme tout le monde ! », te crie l'étranger, planté seul au milieu de la ville fantôme avec son duel sans pistolets et sans rival. Au fond tu sais qu'il n'y avait aucun vrai danger, que c'était juste un pauvre diable ennuyé cherchant un peu de théâtre. Mais quelque chose se serre dans ton estomac : tu as laissé un homme seul parler au vent pour ne pas te ridiculiser un instant. La dignité, parfois, coûte cher.",
+            "it": "Alzi le mani e indietreggi per la strada polverosa. 'Ecco, fuggi! Come tutti!', ti grida lo straniero, piantato solo in mezzo al paese fantasma con il suo duello senza pistole e senza rivale. In fondo sai che non c'era alcun pericolo reale, che era solo un povero diavolo annoiato in cerca di un po' di teatro. Ma qualcosa nel tuo stomaco si stringe: hai lasciato un uomo a parlare da solo al vento per non fare la figura del ridicolo un momento. La dignità, a volte, costa cara.",
+            "de": "Du hebst die Hände und weichst die staubige Straße zurück. „Genau, lauf weg! Wie alle!“, schreit dir der Fremde nach, allein zurückgelassen inmitten der Geisterstadt mit seinem pistolenlosen Duell und ohne Gegner. Tief im Inneren weißt du, dass es keine wirkliche Gefahr gab, dass er nur ein gelangweilter armer Kerl war, der ein wenig Theater suchte. Aber etwas zieht sich in deinem Magen zusammen: du hast einen Mann allein mit dem Wind reden lassen, nur um dich nicht kurz lächerlich zu machen. Würde hat manchmal ihren Preis.",
+            "zh": "你举起双手，沿着尘土飞扬的街道后退。「就是这样，逃跑吧！和所有人一样！」陌生人朝你喊道，孤零零地站在鬼镇中央，进行着一场没有手枪也没有对手的决斗。你内心深处知道其实并没有真正的危险，他只是一个无聊的可怜家伙，想找点戏剧性的乐子。但你的胃里却有什么东西紧缩起来：你为了不想暂时出丑，让一个男人孤独地对着风说话。尊严，有时候，代价高昂。",
+            "ja": "両手を上げ、埃っぽい通りを後ずさりする。「そうだ、逃げろ！みんなと同じようにな！」拳銃もなく対戦相手もいない決闘の真ん中に一人取り残された見知らぬ男が叫ぶ。本当の危険などなかったとお前は心の奥で分かっている——彼はただ退屈して芝居を求めていた哀れな男に過ぎなかったのだと。だが胃の中で何かが締め付けられる——一瞬滑稽に見られたくないがために、風に向かって独り語りする男を置き去りにしてしまったのだ。尊厳とは、時に高くつくものだ。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:valor=-1"
+    },
+    "duelo_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Saludar con el sombrero y seguir tu camino sin más",
+            "en": "🚶  Tip your hat and simply move on",
+            "fr": "🚶  Tirer ton chapeau et simplement passer ton chemin",
+            "it": "🚶  Salutare con il cappello e proseguire semplicemente il cammino",
+            "de": "🚶  Den Hut ziehen und einfach weitergehen",
+            "zh": "🚶  举帽致意，径直离去",
+            "ja": "🚶  帽子を軽く上げて、そのまま立ち去る"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "name": {
+        "es": "Bastón de Novicio",
+        "en": "Novice Staff",
+        "fr": "Bâton de Novice",
+        "it": "Bastone da Novizio",
+        "de": "Novizenstab",
+        "zh": "新手法杖",
+        "ja": "ノービスの杖"
+    },
+    "desc": {
+        "es": "Un bastón sencillo de madera para canalizar los primeros hechizos.",
+        "en": "A simple wooden staff to channel a first spell.",
+        "fr": "Un bâton en bois simple pour canaliser ses premiers sorts.",
+        "it": "Un semplice bastone di legno per incanalare i primi incantesimi.",
+        "de": "Ein einfacher Holzstab, um erste Zauber zu kanalisieren.",
+        "zh": "简单的木杖，用于引导初期法术。",
+        "ja": "最初の呪文を導くためのシンプルな木の杖。"
+    },
+    "icon": "🪄",
+    "category": "equipment",
+    "usable": false,
+    "slot": "weapon",
+    "tier": 1,
+    "bonuses": {
+        "int": 2
+    },
+    "combat": {
+        "mag_damage": 16
+    }
+}

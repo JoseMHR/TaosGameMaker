@@ -1,0 +1,78 @@
+{
+  "name": {
+    "es": "Devorador de Dunas",
+    "en": "Dune Devourer",
+    "fr": "Dévoreur des Dunes",
+    "it": "Divoratore delle Dune",
+    "de": "Dünenverschlinger",
+    "zh": "沙丘吞噬者",
+    "ja": "デューンデヴォアラー"
+  },
+  "family": "monster",
+  "archetype": "boss",
+  "icon": "🐛",
+  "image": "res://assets/combat/enemies/en_dune_devourer.png",
+  "attack_type": "physical",
+  "base_dodge": 6.0,
+  "dodge_scale": 0.15,
+  "element": "earth",
+  "weak_to": [
+    "water",
+    "ice"
+  ],
+  "resist": [
+    "earth",
+    "poison",
+    "fire"
+  ],
+  "status_on_hit": {
+    "type": "poison",
+    "chance": 0.3,
+    "turns": 3,
+    "power": 6
+  },
+  "ai": "aggressive",
+  "xp_reward_base": 700,
+  "xp_reward_scale": 26.0,
+  "gold_reward_base": 450,
+  "gold_reward_scale": 25.0,
+  "skills": [
+    {
+      "level": 1,
+      "skill_id": "acid_spray"
+    },
+    {
+      "level": 25,
+      "skill_id": "tail_whip"
+    },
+    {
+      "level": 30,
+      "skill_id": "quake"
+    },
+    {
+      "level": 35,
+      "skill_id": "dune_swallow"
+    }
+  ],
+  "loot": [
+    {
+      "kind": "gold",
+      "min": 150,
+      "max": 280
+    },
+    {
+      "kind": "item",
+      "id": "cuero",
+      "chance": 0.5,
+      "min": 1,
+      "max": 2
+    },
+    {
+      "kind": "equipment",
+      "chance": 0.5,
+      "level": 16
+    }
+  ],
+  "zone": "zona_5_desierto",
+  "is_boss": true
+}

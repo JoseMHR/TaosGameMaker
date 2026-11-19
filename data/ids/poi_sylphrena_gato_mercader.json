@@ -1,0 +1,26 @@
+{
+    "id": "poi_sylphrena_gato_mercader",
+    "type": "poi",
+    "icon": "🐈",
+    "name": {
+        "es": "El Gato Mercader",
+        "en": "The Merchant Cat",
+        "fr": "Le Chat Marchand",
+        "it": "Il Gatto Mercante",
+        "de": "Die Händlerkatze",
+        "zh": "商人猫",
+        "ja": "商人猫"
+    },
+    "desc": {
+        "es": "Un gato gordo sentado tras un tenderete de mercado abandonado, presidiendo las ventas con absoluta indiferencia. (PNJ singular).",
+        "en": "A fat cat seated behind an abandoned market stall, presiding over sales with absolute indifference. (Singular NPC).",
+        "fr": "Un gros chat assis derrière un étal de marché abandonné, présidant les ventes avec une indifférence absolue. (PNJ singulier).",
+        "it": "Un gatto grasso seduto dietro una bancarella di mercato abbandonata, che presiede le vendite con assoluta indifferenza. (PNG singolare).",
+        "de": "Eine fette Katze sitzt hinter einem verlassenen Marktstand und überwacht die Verkäufe mit absoluter Gleichgültigkeit. (Einzigartiger NPC).",
+        "zh": "一只肥猫坐在一个废弃的市场摊位后，以绝对的冷漠主持着买卖。（唯一NPC）。",
+        "ja": "廃棄された市場の露店の裏に座る太った猫が、完全な無関心のまま商いを取り仕切っている。（唯一のNPC）。"
+    },
+    "npc": "poi_sylphrena_gato_mercader",
+    "bg": "bg_world_poi_pradera_gato_mercader.png",
+    "music": "poi_comic"
+}

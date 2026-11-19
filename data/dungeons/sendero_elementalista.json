@@ -1,0 +1,5884 @@
+{
+    "name": {
+        "es": "El Sendero del Elementalista",
+        "en": "The Elementalist's Path",
+        "fr": "Le Sentier de l'Ãƒâ€°lÃƒÂ©mentaliste",
+        "it": "Il Sentiero dell'Elementalista",
+        "de": "Der Pfad des Elementaristen",
+        "zh": "Ã¥â€¦Æ’Ã§Â´Â Ã¤Â½Â¿Ã¤Â¹â€¹Ã¨Â·Â¯",
+        "ja": "Ã§Â²Â¾Ã©Å“Å Ã¤Â½Â¿Ã£Ââ€žÃ£ÂÂ®Ã©Ââ€œ"
+    },
+    "theme": "magma_caldera",
+    "boss": "temple_boss_elemental",
+    "boss_level": 20,
+    "music": "sendero_dark",
+    "cell_size": 4,
+    "wall_height": 4,
+    "ceiling": true,
+    "fog": true,
+    "ambient_energy": 0.45,
+    "ambient_color": "#351508",
+    "fill_light": 0.25,
+    "spawn": {
+        "f": 0,
+        "x": 17,
+        "y": 28
+    },
+    "portals": {
+        "west": {
+            "spawn": {
+                "f": 0,
+                "x": 17,
+                "y": 28
+            }
+        },
+        "east": {
+            "spawn": {
+                "f": 0,
+                "x": 17,
+                "y": 12
+            }
+        }
+    },
+    "floors": [
+        {
+            "name": "Caldera Elemental",
+            "w": 35,
+            "h": 41,
+            "cells": [
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "lava"
+                    },
+                    {
+                        "t": "lava"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "lava"
+                    },
+                    {
+                        "t": "lava"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "lava"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "lava"
+                    },
+                    {
+                        "t": "lava"
+                    },
+                    {
+                        "t": "lava"
+                    },
+                    {
+                        "t": "lava"
+                    },
+                    {
+                        "t": "lava"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_ice_block"
+                    },
+                    {
+                        "t": "lava"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "lava"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_ice_block"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "lava"
+                    },
+                    {
+                        "t": "lava"
+                    },
+                    {
+                        "t": "lava"
+                    },
+                    {
+                        "t": "lava"
+                    },
+                    {
+                        "t": "lava"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "lava"
+                    },
+                    {
+                        "t": "lava"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "lava"
+                    },
+                    {
+                        "t": "lava"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_deep_water_tile"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_deep_water_tile"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "lava"
+                    },
+                    {
+                        "t": "lava"
+                    },
+                    {
+                        "t": "lava"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "lava"
+                    },
+                    {
+                        "t": "lava"
+                    },
+                    {
+                        "t": "lava"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_deep_water_tile"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_deep_water_tile"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "lava"
+                    },
+                    {
+                        "t": "lava"
+                    },
+                    {
+                        "t": "lava"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "lava"
+                    },
+                    {
+                        "t": "lava"
+                    },
+                    {
+                        "t": "lava"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_deep_water_tile"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_deep_water_tile"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_campfire"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_campfire"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "boss_spikes",
+                        "state": "closed"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "boss_spikes",
+                        "state": "closed"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "boss_spikes",
+                        "state": "closed"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "boss_spikes",
+                        "state": "closed"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "boss_spikes",
+                        "state": "closed"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "boss_spikes",
+                        "state": "closed"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "boss_spikes",
+                        "state": "closed"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "boss_spikes",
+                        "state": "closed"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "boss_spikes",
+                        "state": "closed"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "boss_spikes",
+                        "state": "closed"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_deep_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_deep_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_deep_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_deep_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_deep_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_deep_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_deep_water_tile"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "boss_spikes",
+                        "state": "closed"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "boss_spikes",
+                        "state": "closed"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_deep_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_deep_water_tile"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_deep_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_deep_water_tile"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "boss_spikes",
+                        "state": "closed"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "boss_spikes",
+                        "state": "closed"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_deep_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_deep_water_tile"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "monster",
+                        "boss": true,
+                        "ref": "temple_boss_elemental",
+                        "level": 20,
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_deep_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_deep_water_tile"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "boss_spikes",
+                        "state": "closed"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "boss_spikes",
+                        "state": "closed"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_deep_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_deep_water_tile"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_deep_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_deep_water_tile"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "boss_spikes",
+                        "state": "closed"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "boss_spikes",
+                        "state": "closed"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_deep_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_deep_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_deep_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_deep_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_deep_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_deep_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_deep_water_tile"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "boss_spikes",
+                        "state": "closed"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "boss_spikes",
+                        "state": "closed"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "boss_spikes",
+                        "state": "closed"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "boss_spikes",
+                        "state": "closed"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "boss_spikes",
+                        "state": "closed"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "boss_spikes",
+                        "state": "closed"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "boss_spikes",
+                        "state": "closed"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "boss_spikes",
+                        "state": "closed"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "boss_spikes",
+                        "state": "closed"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "boss_spikes",
+                        "state": "closed"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_flame"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_flame"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_flame"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_flame"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_campfire"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_campfire"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_flame"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_flame"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_flame"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "teleport",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_flame"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_flame"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_flame"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_flame"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_flame"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_flame"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_flame"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_deep_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_deep_water_tile"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_deep_water_tile"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_deep_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_deep_water_tile"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "lever",
+                        "eid": "lever_boss_spikes",
+                        "state": "off",
+                        "single_use": true,
+                        "targets": [
+                            {
+                                "eid": "boss_spikes",
+                                "action": "open"
+                            }
+                        ]
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_deep_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_deep_water_tile"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_deep_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_deep_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_deep_water_tile"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_water_tile"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_flame"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_flame"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_magma_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_magma_wall"
+                    }
+                ]
+            ]
+        }
+    ],
+    "tutorial_skill": "elemental_affinity",
+    "complete_event": "tut_elementalist_done",
+    "tex_wall": "tex_magma_wall",
+    "tex_floor": "tex_magma_floor"
+}

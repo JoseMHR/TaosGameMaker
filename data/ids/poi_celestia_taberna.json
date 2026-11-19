@@ -1,0 +1,33 @@
+{
+    "id": "poi_celestia_taberna",
+    "type": "poi",
+    "name": {
+        "es": "Taberna Imperial",
+        "en": "Imperial Tavern",
+        "fr": "Taverne Impériale",
+        "it": "Taverna Imperiale",
+        "de": "Kaiserliche Taverne",
+        "zh": "帝国酒馆",
+        "ja": "帝国酒場"
+    },
+    "icon": "🍺",
+    "desc": {
+        "es": "Posada noble donde los viajeros descansan y comparten rumores",
+        "en": "Noble inn where travelers rest and share rumors",
+        "fr": "Auberge noble où les voyageurs se reposent et échangent des rumeurs",
+        "it": "Locanda nobile dove i viaggiatori riposano e condividono voci",
+        "de": "Vornehmes Gasthaus, wo Reisende ausruhen und Gerüchte austauschen",
+        "zh": "旅人在此歇脚、交流传闻的高贵旅店",
+        "ja": "旅人が休息し噂話を交わす、上品な宿屋"
+    },
+    "kind": "tavern",
+    "npc": "celestia_tabernero",
+    "presences": [
+        {
+            "condition": "default",
+            "actor": "celestia_tabernero",
+            "entry_node": ""
+        }
+    ],
+    "bg": "bg_city_celestia_taberna.png"
+}

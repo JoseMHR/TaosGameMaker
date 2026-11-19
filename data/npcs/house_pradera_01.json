@@ -1,0 +1,147 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "Grum el Cantero",
+            "en": "Grum the Stonecutter",
+            "fr": "Grum le Tailleur de Pierre",
+            "it": "Grum lo Scalpellino",
+            "de": "Grum der Steinmetz",
+            "zh": "石匠格拉姆",
+            "ja": "石工グラム"
+        },
+        "next": [],
+        "reward": "avatar=⛏️;bg=0.07,0.06,0.05"
+    },
+    "grum_root": {
+        "type": "message",
+        "text": {
+            "es": "Un hombre fornido cubierto de polvo gris acaricia con ternura maternal un bloque de granito sobre su mesa. '¡Chisss! ¡Baja la voz, forastero! ¿No ves que Silvita está durmiendo la siesta geológica? Le ha costado tres millones de años compactarse, no querrás causarle estrés sedimentario.'",
+            "en": "A burly man covered head to toe in grey dust is tenderly caressing a block of granite on his workbench. 'Shhh! Keep your voice down, stranger! Can't you see Silvita is having her geological nap? It took her three million years to compact, you wouldn't want to cause her sedimentary stress.'",
+            "fr": "Un homme robuste couvert de poussière grise caresse avec une tendresse maternelle un bloc de granit sur sa table. « Chut ! Baisse la voix, étranger ! Tu ne vois pas que Silvita fait sa sieste géologique ? Il lui a fallu trois millions d'années pour se compacter, tu ne voudrais pas lui causer un stress sédimentaire. »",
+            "it": "Un uomo robusto coperto di polvere grigia accarezza con tenerezza materna un blocco di granito sul suo tavolo. 'Sssh! Abbassa la voce, straniero! Non vedi che Silvita sta facendo il suo pisolino geologico? Le sono serviti tre milioni di anni per compattarsi, non vorrai causarle stress sedimentario.'",
+            "de": "Ein kräftiger Mann, von grauem Staub bedeckt, streichelt mit mütterlicher Zärtlichkeit einen Granitblock auf seinem Tisch. „Pssst! Sprich leiser, Fremder! Siehst du nicht, dass Silvita ihr geologisches Nickerchen hält? Sie hat drei Millionen Jahre gebraucht, um sich zu verdichten, du willst ihr doch keinen sedimentären Stress bereiten.“",
+            "zh": "一个身材壮实、浑身沾满灰尘的男人，正带着母亲般的温柔抚摸着桌上的一块花岗岩。「嘘！小声点，外乡人！你没看见西尔维塔正在打地质午觉吗？她花了三百万年才压实成型，你可不想让她承受沉积应力吧。」",
+            "ja": "灰色の埃にまみれた屈強な男が、机の上の花崗岩の塊を母親のような優しさで撫でている。「シーッ！声を落とせ、よそ者！シルビータが地質学的な昼寝をしているのが見えないのか？三百万年かけて圧縮されたんだぞ、堆積ストレスを与えたくはないだろう」"
+        },
+        "next": [
+            "grum_opt_loco",
+            "grum_opt_picar",
+            "grum_opt_consejo",
+            "grum_opt_salir"
+        ],
+        "reward": ""
+    },
+    "grum_opt_loco": {
+        "type": "option",
+        "text": {
+            "es": "🪨  ¿Le pones nombre a todas las piedras?",
+            "en": "🪨  Do you name every single stone?",
+            "fr": "🪨  Tu donnes un nom à toutes les pierres ?",
+            "it": "🪨  Dai un nome a tutte le pietre?",
+            "de": "🪨  Gibst du jedem Stein einen Namen?",
+            "zh": "🪨  你给每一块石头都起名字吗？",
+            "ja": "🪨  すべての石に名前をつけているのか？"
+        },
+        "next": [
+            "grum_msg_loco"
+        ],
+        "reward": ""
+    },
+    "grum_msg_loco": {
+        "type": "message",
+        "text": {
+            "es": "'¿Y tú no le pones nombre a tus amigos?' Grum te mira indignado. 'Aquella caliza de allí se llama Pepa, es tímida pero noble. Aquella diorita es Fernando, un cascarrabias pero aguanta lo que le echen. Las piedras son las únicas que nunca te mienten: si les pegas un martillazo, se rompen, sin dobleces.'",
+            "en": "'Don't you name your friends?' Grum glares at you offended. 'That limestone over there is Pepa, shy but noble. That diorite is Fernando, a grumpy fellow but tough as nails. Stones are the only things that never lie to you: if you hit them with a hammer, they break, no deceit.'",
+            "fr": "« Et toi, tu ne donnes pas de nom à tes amis ? » Grum te regarde, indigné. « Ce calcaire là-bas s'appelle Pepa, timide mais noble. Cette diorite, c'est Fernando, un grincheux mais increvable. Les pierres sont les seules qui ne te mentent jamais : si tu les frappes d'un coup de marteau, elles se cassent, sans détour. »",
+            "it": "'E tu non dai un nome ai tuoi amici?' Grum ti guarda indignato. 'Quel calcare laggiù si chiama Pepa, timida ma nobile. Quella diorite è Fernando, un burbero ma resistente a tutto. Le pietre sono le uniche che non ti mentono mai: se le colpisci con un martello, si rompono, senza doppiezze.'",
+            "de": "„Und du gibst deinen Freunden keinen Namen?“ Grum sieht dich empört an. „Der Kalkstein da drüben heißt Pepa, schüchtern, aber edel. Der Diorit ist Fernando, ein Griesgram, aber unverwüstlich. Steine sind die Einzigen, die dich nie belügen: Wenn du mit dem Hammer zuschlägst, brechen sie, ohne Hintergedanken.“",
+            "zh": "「那你不给朋友起名字吗？」格拉姆愤慨地看着你。「那边那块石灰岩叫佩帕，害羞但高贵。那块闪长岩是费尔南多，脾气差但结实耐用。石头是唯一从不对你撒谎的东西：你一锤子敲下去，它们就碎了，毫无虚假。」",
+            "ja": "「お前は友達に名前をつけないのか？」グラムは憤慨した様子でお前を見る。「あそこの石灰岩はペパという名だ、恥ずかしがり屋だが気高い。あの閃緑岩はフェルナンド、気難しいがどんな扱いにも耐える。石だけは決して嘘をつかない。ハンマーで叩けば、裏表なく砕けるからな」"
+        },
+        "next": [
+            "grum_root"
+        ],
+        "reward": ""
+    },
+    "grum_opt_picar": {
+        "type": "option",
+        "text": {
+            "es": "⛏️  ¿Cuál es el secreto para picar piedra?",
+            "en": "⛏️  What is the secret to mining stone?",
+            "fr": "⛏️  Quel est le secret pour tailler la pierre ?",
+            "it": "⛏️  Qual è il segreto per scalpellare la pietra?",
+            "de": "⛏️  Was ist das Geheimnis beim Steinabbau?",
+            "zh": "⛏️  凿石头的秘诀是什么？",
+            "ja": "⛏️  石を削る秘訣は何だ？"
+        },
+        "next": [
+            "grum_msg_picar"
+        ],
+        "reward": ""
+    },
+    "grum_msg_picar": {
+        "type": "message",
+        "text": {
+            "es": "'El ritmo, muchacho. Tienes que escuchar el pulso de la veta. No se trata de golpear con furia como un orco borracho, sino de encontrar la fisura del alma de la roca y susurrarle con el pico: \"es hora de transformarse\". ¡Y pim, pam, piedra de calidad para tus construcciones!'",
+            "en": "'Rhythm, lad. You must listen to the pulse of the vein. It is not about swinging blindly like a drunken orc, but finding the fissure in the rock's soul and whispering with your pickaxe: \"it is time to transform\". And bam, prime stone for your constructions!'",
+            "fr": "« Le rythme, mon garçon. Tu dois écouter le pouls de la veine. Il ne s'agit pas de frapper avec fureur comme un orc ivre, mais de trouver la fissure dans l'âme de la roche et de lui murmurer avec le pic : « c'est le moment de te transformer ». Et pan, pan, une pierre de qualité pour tes constructions ! »",
+            "it": "'Il ritmo, ragazzo. Devi ascoltare il battito della vena. Non si tratta di colpire con furia come un orco ubriaco, ma di trovare la fessura nell'anima della roccia e sussurrarle con il piccone: \"è ora di trasformarsi\". E pim, pam, pietra di qualità per le tue costruzioni!'",
+            "de": "„Der Rhythmus, Junge. Du musst den Puls der Ader hören. Es geht nicht darum, wie ein betrunkener Ork wild draufloszuschlagen, sondern den Riss in der Seele des Felsens zu finden und ihm mit der Spitzhacke zuzuflüstern: ‚Zeit, dich zu verwandeln'. Und schwupps, erstklassiger Stein für deine Bauten!“",
+            "zh": "「节奏，小子。你得倾听矿脉的脉动。这不是要像喝醉的兽人那样怒气冲冲地乱敲，而是要找到岩石灵魂中的裂缝，用镐对它低语：『是时候蜕变了』。然后砰、砰，优质石材就为你的建筑准备好了！」",
+            "ja": "「リズムだよ、坊主。鉱脈の鼓動を聞き取らなきゃいけない。酔っ払ったオークみたいに怒りに任せて叩くんじゃない、岩の魂の裂け目を見つけて、つるはしでこう囁くんだ——『変わる時が来たぞ』とな。そしてカーン、カーン、お前の建築のための上質な石が出来上がる！」"
+        },
+        "next": [
+            "grum_root"
+        ],
+        "reward": ""
+    },
+    "grum_opt_consejo": {
+        "type": "option",
+        "text": {
+            "es": "💬  Dicen que los templos del mundo están hechos de roca viva...",
+            "en": "💬  They say the world temples are made of living rock...",
+            "fr": "💬  On dit que les temples du monde sont faits de roche vivante...",
+            "it": "💬  Dicono che i templi del mondo siano fatti di roccia viva...",
+            "de": "💬  Man sagt, die Tempel der Welt seien aus lebendem Stein erbaut...",
+            "zh": "💬  据说世上的神庙都是用活岩石建造的……",
+            "ja": "💬  世界の神殿は生きた岩でできていると聞いたが……"
+        },
+        "next": [
+            "grum_msg_consejo"
+        ],
+        "reward": ""
+    },
+    "grum_msg_consejo": {
+        "type": "message",
+        "text": {
+            "es": "Grum baja la voz y se santigua con polvo de cantera. 'Roca estelar. No es de este suelo. Esos templos fueron erigidos por seres que no usaban martillos, sino resonancia armónica. Si entras en uno, no toques los altares con las manos grasientas... las piedras recuerdan.'",
+            "en": "Grum lowers his tone and crosses himself with quarry dust. 'Star rock. Not from this earth. Those temples were erected by beings who used harmonic resonance instead of hammers. If you enter one, don't touch the altars with greasy hands... stones remember.'",
+            "fr": "Grum baisse la voix et se signe avec de la poussière de carrière. « Roche stellaire. Elle ne vient pas de cette terre. Ces temples ont été érigés par des êtres qui n'utilisaient pas de marteaux, mais une résonance harmonique. Si tu entres dans l'un d'eux, ne touche pas les autels avec des mains grasses... les pierres se souviennent. »",
+            "it": "Grum abbassa la voce e si fa il segno della croce con polvere di cava. 'Roccia stellare. Non è di questa terra. Quei templi furono eretti da esseri che non usavano martelli, ma risonanza armonica. Se entri in uno di essi, non toccare gli altari con le mani unte... le pietre ricordano.'",
+            "de": "Grum senkt die Stimme und bekreuzigt sich mit Steinbruchstaub. „Sternenfels. Er stammt nicht von dieser Erde. Diese Tempel wurden von Wesen errichtet, die keine Hämmer benutzten, sondern harmonische Resonanz. Wenn du einen betrittst, berühre die Altäre nicht mit fettigen Händen... die Steine erinnern sich.“",
+            "zh": "格拉姆压低声音，用采石场的粉尘在胸前画了个十字。「星石。它不属于这片土地。那些神庙是由不使用锤子、而是使用谐波共振的存在建造的。如果你走进其中一座，别用油腻的手去碰祭坛……石头会记得的。」",
+            "ja": "グラムは声を潜め、採石場の粉塵で十字を切る。「星の岩だ。この大地のものじゃない。あの神殿は、ハンマーではなく調和共鳴を使う存在によって建てられたのだ。もしその一つに入ることがあれば、脂ぎった手で祭壇に触れるな……石は覚えているからな」"
+        },
+        "next": [
+            "grum_root"
+        ],
+        "reward": ""
+    },
+    "grum_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Os dejo descansar a ti y a Silvita.",
+            "en": "🚶  I will let you and Silvita rest.",
+            "fr": "🚶  Je vous laisse te reposer, toi et Silvita.",
+            "it": "🚶  Vi lascio riposare, te e Silvita.",
+            "de": "🚶  Ich lasse dich und Silvita ruhen.",
+            "zh": "🚶  我就让你和西尔维塔好好休息吧。",
+            "ja": "🚶  お前とシルビータをゆっくり休ませてやろう。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

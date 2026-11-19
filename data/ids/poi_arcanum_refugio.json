@@ -1,0 +1,25 @@
+{
+    "id": "poi_arcanum_refugio",
+    "type": "poi",
+    "icon": "🏚️",
+    "name": {
+        "es": "Callejón de los Olvidados",
+        "en": "Forgotten Alley",
+        "fr": "Ruelle des Oubliés",
+        "it": "Vicolo dei Dimenticati",
+        "de": "Gasse der Vergessenen",
+        "zh": "被遗忘者的小巷",
+        "ja": "忘れられた者たちの路地"
+    },
+    "desc": {
+        "es": "Refugio improvisado entre tuberías de vapor donde sobreviven los vagabundos",
+        "en": "Improvised shelter among steam pipes where vagrants survive",
+        "fr": "Abri improvisé parmi les tuyaux de vapeur où survivent les vagabonds",
+        "it": "Rifugio improvvisato tra tubi di vapore dove sopravvivono i vagabondi",
+        "de": "Notunterkunft zwischen Dampfrohren, in der Landstreicher überleben",
+        "zh": "蒸汽管道间的临时避难所，流浪者在此栖身",
+        "ja": "浮浪者が生き延びる、蒸気パイプの間の即席の避難所"
+    },
+    "npc": "arcanum_vagabundo",
+    "bg": "bg_city_arcanum_refugio.png"
+}

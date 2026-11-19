@@ -1,0 +1,31 @@
+{
+    "name": {
+        "es": "Anillo de Esmeralda",
+        "en": "Emerald Ring",
+        "fr": "Anneau d'Émeraude",
+        "it": "Anello di Smeraldo",
+        "de": "Smaragdring",
+        "zh": "翡翠戒指",
+        "ja": "エメラルドリング"
+    },
+    "desc": {
+        "es": "Una esmeralda tallada para reforzar la guardia de quien lo lleva.",
+        "en": "An emerald cut to reinforce its wearer's guard.",
+        "fr": "Une émeraude taillée pour renforcer la garde de celui qui la porte.",
+        "it": "Uno smeraldo tagliato per rafforzare la guardia di chi lo indossa.",
+        "de": "Ein Smaragd, geschliffen, um die Deckung des Trägers zu verstärken.",
+        "zh": "为强化佩戴者防御而雕琢的祖母绿。",
+        "ja": "装着者の守りを強化するようにカットされたエメラルド。"
+    },
+    "icon": "💍",
+    "category": "equipment",
+    "usable": false,
+    "slot": "accessory",
+    "tier": 3,
+    "bonuses": {
+        "vit": 5
+    },
+    "combat": {
+        "phys_defense": 15
+    }
+}

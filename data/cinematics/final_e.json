@@ -1,0 +1,97 @@
+﻿{
+    "id": "final_e",
+    "title": {
+        "es": "Final E — Venganza",
+        "en": "Ending E — Vengeance",
+        "fr": "Fin E — Vengeance",
+        "it": "Finale E — Vendetta",
+        "de": "Ende E — Rache",
+        "zh": "结局E——复仇",
+        "ja": "エンディングE——復讐"
+    },
+    "desc": "La ira hacia Arcanum. Aiden descubre la orden detrás del accidente y despierta buscando justicia y venganza.",
+    "music": "world_zone1_flooded",
+    "on_finish": "end",
+    "ops": "gflag:ending_vengeance;questf:game_completed",
+    "slides": [
+        {
+            "bg": "bg_ending_e_1.png",
+            "speaker": {
+                "es": "Final E — Venganza",
+                "en": "Ending E — Vengeance",
+                "fr": "Fin E — Vengeance",
+                "it": "Finale E — Vendetta",
+                "de": "Ende E — Rache",
+                "zh": "结局E——复仇",
+                "ja": "エンディングE——復讐"
+            },
+            "portrait": "",
+            "text": {
+                "es": "No fue un accidente. Fue una orden. Aiden lo ve por fin con claredad de hielo: él sostuvo la aguja, sí — pero alguien le puso la mano en la espalda y empujó. Y ese alguien tiene nombre, torres y bandera.",
+                "en": "It wasn't an accident. It was an order. Aiden sees it at last with ice-clear eyes: he held the needle, yes — but someone put a hand on his back and pushed. And that someone has a name, towers, and a flag.",
+                "fr": "Ce n'était pas un accident. C'était un ordre. Aiden le voit enfin avec une clarté glaciale : il a tenu l'aiguille, oui — mais quelqu'un lui a posé la main dans le dos et a poussé. Et ce quelqu'un a un nom, des tours et un drapeau.",
+                "it": "Non è stato un incidente. È stato un ordine. Aiden lo vede finalmente con chiarezza glaciale: ha tenuto lui l'ago, sì — ma qualcuno gli ha messo la mano sulla schiena e ha spinto. E quel qualcuno ha un nome, delle torri e una bandiera.",
+                "de": "Es war kein Unfall. Es war ein Befehl. Aiden sieht es endlich mit eisiger Klarheit: Er hielt die Nadel, ja — aber jemand legte ihm die Hand auf den Rücken und stieß. Und dieser Jemand hat einen Namen, Türme und eine Flagge.",
+                "zh": "这不是一场意外。这是一道命令。艾登终于以冰冷的清晰看透了一切：没错，是他握着那根针——但有人把手按在他的背上，推了一把。而那个人，有名字，有高塔，也有旗帜。",
+                "ja": "あれは事故ではなかった。命令だった。エイデンはついに氷のような明晰さでそれを悟る。針を握ったのは確かに自分だ——だが誰かがその背に手を置き、押したのだ。そしてその誰かには、名前があり、塔があり、旗がある。"
+            },
+            "fx": {
+                "darken": 0.45,
+                "glow": 0.25
+            }
+        },
+        {
+            "bg": "bg_ending_e_2.png",
+            "speaker": {
+                "es": "Informe Arcanum 04",
+                "en": "Arcanum Report 04",
+                "fr": "Rapport Arcanum 04",
+                "it": "Rapporto Arcanum 04",
+                "de": "Arcanum-Bericht 04",
+                "zh": "奥秘遗迹报告04",
+                "ja": "アルカナム報告書04"
+            },
+            "portrait": "",
+            "text": {
+                "es": "Recuerda el memorándum: 'Resultados, o se cancela el proyecto de las esferas.' El sello de Arcanum. Y junto a su propia firma, la de Roxas. Entre los tres convirtieron a un padre en el verdugo de su hija, y luego lo llamaron ciencia.",
+                "en": "He remembers the memo: 'Results, or the sphere project is cancelled.' Arcanum's seal. And beside his own signature, Roxas's. Between the three of them they turned a father into his daughter's executioner — and then called it science.",
+                "fr": "Il se souvient du mémo : « Des résultats, ou le projet des sphères est annulé. » Le sceau d'Arcanum. Et à côté de sa propre signature, celle de Roxas. À eux trois, ils ont fait d'un père le bourreau de sa fille — et ont appelé cela de la science.",
+                "it": "Ricorda il memorandum: 'Risultati, o il progetto delle sfere viene cancellato.' Il sigillo di Arcanum. E accanto alla propria firma, quella di Roxas. In tre hanno trasformato un padre nel boia di sua figlia, e poi lo hanno chiamato scienza.",
+                "de": "Er erinnert sich an das Memo: „Ergebnisse, sonst wird das Sphärenprojekt eingestellt.“ Das Siegel von Arcanum. Und neben seiner eigenen Unterschrift die von Roxas. Zu dritt machten sie aus einem Vater den Henker seiner Tochter — und nannten es Wissenschaft.",
+                "zh": "他记起了那份备忘录：「拿出成果，否则球体项目将被取消。」奥秘遗迹的印章。在他自己的签名旁边，还有罗克萨斯的签名。三个人联手，把一位父亲变成了自己女儿的刽子手——然后把这称之为科学。",
+                "ja": "彼はあのメモを思い出す。「成果を出せ、さもなくば球体プロジェクトは中止だ」。アルカナムの印章。そして自分の署名の隣には、ロクサスの署名があった。三人がかりで一人の父親をその娘の処刑人に変え、それを科学と呼んだのだ。"
+            },
+            "fx": {
+                "darken": 0.5,
+                "glow": 0.3
+            }
+        },
+        {
+            "bg": "bg_ending_e_3.png",
+            "speaker": {
+                "es": "Aiden",
+                "en": "Aiden",
+                "fr": "Aiden",
+                "it": "Aiden",
+                "de": "Aiden",
+                "zh": "艾登",
+                "ja": "エイデン"
+            },
+            "portrait": "",
+            "text": {
+                "es": "La Esfera arde en sus manos y Arcanum se desmorona en su mente, torre a torre. Por un latido sabe a justicia. Luego, ceniza. Pero Aiden sonríe, porque esta vez la Esfera no se apaga: la lleva consigo de vuelta a la vigilia. 'Ahora sé a quién visitar cuando despierte.'",
+                "en": "The Sphere burns in his hands and Arcanum crumbles in his mind, tower by tower. For one heartbeat it tastes like justice. Then, ash. But Aiden smiles, because this time the Sphere does not fade: he carries it back with him into waking. 'Now I know who to visit when I open my eyes.'",
+                "fr": "La Sphère brûle entre ses mains et Arcanum s'effondre dans son esprit, tour après tour. Le temps d'un battement de cœur, cela ressemble à la justice. Puis, à des cendres. Mais Aiden sourit, car cette fois la Sphère ne s'estompe pas : il l'emporte avec lui dans la veille. « Maintenant je sais qui visiter à mon réveil. »",
+                "it": "La Sfera brucia tra le sue mani e Arcanum crolla nella sua mente, torre dopo torre. Per un battito sa di giustizia. Poi, cenere. Ma Aiden sorride, perché questa volta la Sfera non svanisce: la porta con sé di ritorno nella veglia. 'Ora so chi visitare quando mi sveglio.'",
+                "de": "Die Sphäre brennt in seinen Händen, und Arcanum stürzt in seinem Geist ein, Turm für Turm. Für einen Herzschlag schmeckt es nach Gerechtigkeit. Dann, nach Asche. Aber Aiden lächelt, denn diesmal verblasst die Sphäre nicht: Er trägt sie mit sich zurück ins Wachsein. „Jetzt weiß ich, wen ich besuchen muss, wenn ich erwache.“",
+                "zh": "球体在他手中燃烧，奥秘遗迹在他脑海中一座塔一座塔地崩塌。有那么一瞬间，这尝起来像正义。随后，化为灰烬。但艾登露出了微笑，因为这一次球体没有消散：他将它带回了清醒的世界。「现在我知道醒来后该去拜访谁了。」",
+                "ja": "球は彼の手の中で燃え上がり、アルカナムは彼の心の中で塔一つ、また一つと崩れ落ちていく。ひと鼓動の間、それは正義の味がする。そして、灰になる。だがエイデンは微笑む。今回、球は消え去らないからだ。彼はそれを覚醒の世界へと持ち帰る。「目覚めたら誰を訪ねればいいか、これでわかった」"
+            },
+            "fx": {
+                "darken": 0.55,
+                "glow": 0.35,
+                "shake": 0.4
+            }
+        }
+    ]
+}

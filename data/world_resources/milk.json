@@ -1,0 +1,16 @@
+{
+	"code": "milk",
+	"order": 5,
+	"label": "Vaca",
+	"icon": "🐄",
+	"biome_color": "#284d24",
+	"description": "Vacas lecheras pastando plácidamente en el prado. Puedes ordeñarlas para obtener leche fresca.",
+	"placeable": true,
+	"skill": "",
+	"item": "milk",
+	"item_loc": "res_milk",
+	"category": "other",
+	"name_loc": "node_ganado",
+	"found_loc": "gather_found_ganado",
+	"capacity": 10
+}

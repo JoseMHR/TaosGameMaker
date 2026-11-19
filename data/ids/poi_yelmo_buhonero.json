@@ -1,0 +1,26 @@
+{
+    "id": "poi_yelmo_buhonero",
+    "type": "poi",
+    "icon": "🧳",
+    "name": {
+        "es": "El Buhonero Incansablemente Optimista",
+        "en": "The Relentlessly Optimistic Peddler",
+        "fr": "Le Colporteur Inlassablement Optimiste",
+        "it": "Il Merciaio Instancabilmente Ottimista",
+        "de": "Der Unermüdlich Optimistische Hausierer",
+        "zh": "永不气馁的乐观货郎",
+        "ja": "疲れ知らずの楽観的な行商人"
+    },
+    "desc": {
+        "es": "Un vendedor ambulante con un carro cargado de baratijas milagrosas que nadie ha pedido jamás. (PNJ singular).",
+        "en": "A travelling peddler with a cart full of miraculous trinkets nobody has ever asked for. (Singular NPC).",
+        "fr": "Un colporteur ambulant avec une charrette chargée de babioles miraculeuses que personne n'a jamais demandées. (PNJ singulier).",
+        "it": "Un venditore ambulante con un carretto carico di gingilli miracolosi che nessuno ha mai chiesto. (PNG singolare).",
+        "de": "Ein reisender Hausierer mit einem Karren voller wundersamer Nippes, um die nie jemand gebeten hat. (Einzigartiger NPC).",
+        "zh": "一位流动商贩，推着一车没人要求过的「神奇」小玩意。（唯一NPC）。",
+        "ja": "誰も頼んでいない奇跡の小物を満載した荷車を引く行商人。（唯一のNPC）。"
+    },
+    "npc": "poi_yelmo_buhonero",
+    "bg": "bg_world_poi_yelmo_buhonero.png",
+    "music": "poi_comic"
+}

@@ -1,0 +1,23 @@
+{
+    "name": {
+        "es": "Pico",
+        "en": "Pickaxe",
+        "fr": "Pioche",
+        "it": "Piccone",
+        "de": "Spitzhacke",
+        "zh": "镐子",
+        "ja": "つるはし"
+    },
+    "desc": {
+        "es": "Herramienta versátil: extrae piedra y minerales, rompe rocas pequeñas y abre caminos bloqueados por piedra.",
+        "en": "Versatile tool: mines stone and ore, breaks small rocks and opens paths blocked by stone.",
+        "fr": "Outil polyvalent : extrait pierre et minerais, brise les petits rochers et ouvre les chemins bloqués par la pierre.",
+        "it": "Strumento versatile: estrae pietra e minerali, rompe piccole rocce e apre percorsi bloccati dalla pietra.",
+        "de": "Vielseitiges Werkzeug: fördert Stein und Erz, zerbricht kleine Felsen und öffnet von Stein blockierte Wege.",
+        "zh": "多功能工具：开采石材与矿石，击碎小石块并打通被岩石阻挡的道路。",
+        "ja": "多用途な道具：石や鉱石を採掘し、小さな岩を砕き、石で塞がれた道を開く。"
+    },
+    "icon": "⛏️",
+    "category": "tool",
+    "usable": false
+}

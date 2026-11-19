@@ -1,0 +1,33 @@
+{
+    "id": "poi_celestia_puerto",
+    "type": "poi",
+    "visual": "puerto",
+    "name": {
+        "es": "Puerto de Celestia",
+        "en": "Port of Celestia",
+        "fr": "Port de Celestia",
+        "it": "Porto di Celestia",
+        "de": "Hafen von Celestia",
+        "zh": "塞莱斯提亚港",
+        "ja": "セレスティア港"
+    },
+    "icon": "⚓",
+    "desc": {
+        "es": "Barcos amarrados... y un capitán intransigente",
+        "en": "Moored ships... and an unyielding captain",
+        "fr": "Navires amarrés... et un capitaine intransigeant",
+        "it": "Navi ormeggiate... e un capitano intransigente",
+        "de": "Vertäute Schiffe... und ein unnachgiebiger Kapitän",
+        "zh": "停泊的船只……以及一位固执的船长",
+        "ja": "係留された船……そして頑固な船長"
+    },
+    "npc": "port_master",
+    "presences": [
+        {
+            "condition": "default",
+            "actor": "port_master",
+            "entry_node": ""
+        }
+    ],
+    "bg": "bg_world_poi_celestia_puerto.png"
+}

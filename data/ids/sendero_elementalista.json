@@ -1,0 +1,23 @@
+{
+    "id": "sendero_elementalista",
+    "type": "dungeon",
+    "name": {
+        "es": "El Sendero del Elementalista",
+        "en": "The Elementalist's Path",
+        "fr": "Le Sentier de l'Élémentaliste",
+        "it": "Il Sentiero dell'Elementalista",
+        "de": "Der Pfad des Elementaristen",
+        "zh": "元素使之路",
+        "ja": "精霊使いの道"
+    },
+    "icon": "✨",
+    "desc": {
+        "es": "Templo tematico: quema las raices con la Afinidad Elemental y vence al Nucleo Inestable para aprenderla.",
+        "en": "Themed temple: burn the roots with Elemental Affinity and defeat the Unstable Core to learn it.",
+        "fr": "Temple thématique : brûle les racines avec l'Affinité Élémentaire et vaincs le Noyau Instable pour l'apprendre.",
+        "it": "Tempio tematico: brucia le radici con l'Affinità Elementale e sconfiggi il Nucleo Instabile per impararla.",
+        "de": "Themen-Tempel: verbrenne die Wurzeln mit Elementarer Affinität und besiege den Instabilen Kern, um sie zu erlernen.",
+        "zh": "主题神庙：用元素亲和烧毁根须，击败不稳定核心以学会此技能。",
+        "ja": "テーマ神殿：エレメンタルアフィニティで根を燃やし、不安定なコアを倒してそれを習得せよ。"
+    }
+}

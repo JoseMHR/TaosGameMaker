@@ -1,0 +1,26 @@
+{
+    "id": "poi_nieves_lobo_solo",
+    "type": "poi",
+    "icon": "🐺",
+    "name": {
+        "es": "El Lobo que Perdió su Manada",
+        "en": "The Wolf That Lost Its Pack",
+        "fr": "Le Loup qui a Perdu sa Meute",
+        "it": "Il Lupo che Perse il suo Branco",
+        "de": "Der Wolf, der sein Rudel Verlor",
+        "zh": "失去族群的狼",
+        "ja": "群れを失った狼"
+    },
+    "desc": {
+        "es": "Un lobo blanco, herido y solo, tumbado en la nieve. Ni ataca ni huye: solo te observa con unos ojos demasiado tristes para ser una bestia. (PNJ singular).",
+        "en": "A white wolf, wounded and alone, lying in the snow. It neither attacks nor flees: it only watches you with eyes too sad to belong to a beast. (Singular NPC).",
+        "fr": "Un loup blanc, blessé et seul, allongé dans la neige. Il n'attaque ni ne fuit : il t'observe simplement avec des yeux trop tristes pour une bête. (PNJ singulier).",
+        "it": "Un lupo bianco, ferito e solo, disteso nella neve. Non attacca né fugge: si limita a osservarti con occhi troppo tristi per essere una bestia. (PNG singolare).",
+        "de": "Ein weißer Wolf, verwundet und allein, liegt im Schnee. Er greift weder an noch flieht er: Er beobachtet dich nur mit Augen, die zu traurig für ein Tier sind. (Einzigartiger NPC).",
+        "zh": "一只受伤、孤独的白狼躺在雪地里。它既不攻击也不逃跑，只是用一双对野兽而言太过悲伤的眼睛注视着你。（唯一NPC）。",
+        "ja": "傷を負い、一人きりで雪の中に横たわる白い狼。攻撃も逃走もせず、獣にしてはあまりに悲しい瞳でお前を見つめるだけだ。（唯一のNPC）。"
+    },
+    "npc": "poi_nieves_lobo_solo",
+    "bg": "bg_world_poi_nieves_lobo_solo.png",
+    "music": "poi_generic"
+}

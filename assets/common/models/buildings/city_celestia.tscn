@@ -1,0 +1,459 @@
+[gd_scene format=3]
+
+[sub_resource type="StandardMaterial3D" id="Mat_Marble"]
+albedo_color = Color(0.92, 0.93, 0.96, 1)
+roughness = 0.45
+
+[sub_resource type="StandardMaterial3D" id="Mat_Cobblestone"]
+albedo_color = Color(0.35, 0.37, 0.42, 1)
+roughness = 0.88
+
+[sub_resource type="StandardMaterial3D" id="Mat_PlazaPavement"]
+albedo_color = Color(0.68, 0.70, 0.74, 1)
+roughness = 0.75
+
+[sub_resource type="StandardMaterial3D" id="Mat_CelestialBlue"]
+albedo_color = Color(0.18, 0.38, 0.72, 1)
+roughness = 0.38
+metallic = 0.15
+
+[sub_resource type="StandardMaterial3D" id="Mat_SlateRoof"]
+albedo_color = Color(0.28, 0.36, 0.48, 1)
+roughness = 0.65
+
+[sub_resource type="StandardMaterial3D" id="Mat_GoldAccent"]
+albedo_color = Color(0.95, 0.78, 0.22, 1)
+metallic = 0.85
+roughness = 0.22
+
+[sub_resource type="StandardMaterial3D" id="Mat_TownhouseWall"]
+albedo_color = Color(0.88, 0.85, 0.78, 1)
+roughness = 0.85
+[sub_resource type="StandardMaterial3D" id="Mat_WoodGate"]
+albedo_color = Color(0.22, 0.14, 0.08, 1)
+roughness = 0.95
+
+[sub_resource type="StandardMaterial3D" id="Mat_WindowGlow"]
+albedo_color = Color(1.0, 0.85, 0.45, 1)
+emission_enabled = true
+emission = Color(1.0, 0.85, 0.45, 1)
+emission_energy_multiplier = 2.4
+
+[sub_resource type="StandardMaterial3D" id="Mat_ArcaneOrb"]
+albedo_color = Color(0.35, 0.88, 1.0, 1)
+emission_enabled = true
+emission = Color(0.35, 0.88, 1.0, 1)
+emission_energy_multiplier = 3.8
+roughness = 0.15
+
+[sub_resource type="StandardMaterial3D" id="Mat_RoyalBanner"]
+albedo_color = Color(0.82, 0.15, 0.18, 1)
+roughness = 0.65
+
+[sub_resource type="StandardMaterial3D" id="Mat_FountainWater"]
+transparency = 1
+albedo_color = Color(0.25, 0.65, 0.9, 0.85)
+roughness = 0.1
+metallic = 0.25
+
+[sub_resource type="BoxMesh" id="Mesh_Plinth"]
+size = Vector3(1.24, 0.08, 1.16)
+
+[sub_resource type="BoxMesh" id="Mesh_Plaza"]
+size = Vector3(1.14, 0.04, 1.06)
+
+[sub_resource type="BoxMesh" id="Mesh_Road"]
+size = Vector3(0.22, 0.02, 0.65)
+
+[sub_resource type="BoxMesh" id="Mesh_Keep"]
+size = Vector3(0.68, 0.62, 0.48)
+
+[sub_resource type="PrismMesh" id="Mesh_PalaceRoof"]
+size = Vector3(0.72, 0.36, 0.52)
+
+[sub_resource type="BoxMesh" id="Mesh_Dormer"]
+size = Vector3(0.14, 0.16, 0.12)
+
+[sub_resource type="PrismMesh" id="Mesh_DormerRoof"]
+size = Vector3(0.16, 0.14, 0.14)
+
+[sub_resource type="BoxMesh" id="Mesh_Balcony"]
+size = Vector3(0.38, 0.05, 0.10)
+
+[sub_resource type="CylinderMesh" id="Mesh_SpireTower"]
+top_radius = 0.13
+bottom_radius = 0.15
+height = 0.72
+radial_segments = 12
+
+[sub_resource type="CylinderMesh" id="Mesh_CollarLarge"]
+top_radius = 0.19
+bottom_radius = 0.14
+height = 0.08
+radial_segments = 12
+
+[sub_resource type="CylinderMesh" id="Mesh_ConeSpire"]
+top_radius = 0.01
+bottom_radius = 0.20
+height = 0.48
+radial_segments = 12
+
+[sub_resource type="CylinderMesh" id="Mesh_Finial"]
+top_radius = 0.012
+bottom_radius = 0.018
+height = 0.16
+radial_segments = 8
+
+[sub_resource type="SphereMesh" id="Mesh_Orb"]
+radius = 0.042
+height = 0.084
+
+[sub_resource type="CylinderMesh" id="Mesh_TowerFlank"]
+top_radius = 0.14
+bottom_radius = 0.17
+height = 1.02
+radial_segments = 12
+
+[sub_resource type="CylinderMesh" id="Mesh_ConeFlank"]
+top_radius = 0.01
+bottom_radius = 0.20
+height = 0.44
+radial_segments = 12
+
+[sub_resource type="BoxMesh" id="Mesh_Banner"]
+size = Vector3(0.02, 0.26, 0.12)
+
+[sub_resource type="BoxMesh" id="Mesh_WallSegment"]
+size = Vector3(0.24, 0.38, 0.12)
+
+[sub_resource type="BoxMesh" id="Mesh_WallParapet"]
+size = Vector3(0.26, 0.06, 0.15)
+
+[sub_resource type="BoxMesh" id="Mesh_Gatehouse"]
+size = Vector3(0.38, 0.48, 0.20)
+
+[sub_resource type="BoxMesh" id="Mesh_GateArch"]
+size = Vector3(0.18, 0.28, 0.22)
+
+[sub_resource type="PrismMesh" id="Mesh_GateRoof"]
+size = Vector3(0.42, 0.20, 0.24)
+
+[sub_resource type="CylinderMesh" id="Mesh_GateTurret"]
+top_radius = 0.055
+bottom_radius = 0.065
+height = 0.42
+radial_segments = 8
+
+[sub_resource type="CylinderMesh" id="Mesh_GateTurretRoof"]
+top_radius = 0.01
+bottom_radius = 0.075
+height = 0.18
+radial_segments = 8
+
+[sub_resource type="BoxMesh" id="Mesh_HouseA"]
+size = Vector3(0.28, 0.32, 0.26)
+
+[sub_resource type="PrismMesh" id="Mesh_RoofA"]
+size = Vector3(0.32, 0.22, 0.30)
+
+[sub_resource type="BoxMesh" id="Mesh_HouseB"]
+size = Vector3(0.24, 0.36, 0.24)
+
+[sub_resource type="PrismMesh" id="Mesh_RoofB"]
+size = Vector3(0.28, 0.24, 0.28)
+
+[sub_resource type="BoxMesh" id="Mesh_HouseC"]
+size = Vector3(0.22, 0.26, 0.22)
+
+[sub_resource type="PrismMesh" id="Mesh_RoofC"]
+size = Vector3(0.26, 0.18, 0.26)
+
+[sub_resource type="BoxMesh" id="Mesh_Chimney"]
+size = Vector3(0.06, 0.22, 0.06)
+
+[sub_resource type="BoxMesh" id="Mesh_Window"]
+size = Vector3(0.06, 0.09, 0.02)
+
+[sub_resource type="CylinderMesh" id="Mesh_FountainBasin"]
+top_radius = 0.11
+bottom_radius = 0.12
+height = 0.08
+radial_segments = 10
+
+[sub_resource type="CylinderMesh" id="Mesh_FountainWater"]
+top_radius = 0.095
+bottom_radius = 0.095
+height = 0.06
+radial_segments = 10
+
+[sub_resource type="CylinderMesh" id="Mesh_FountainPillar"]
+top_radius = 0.03
+bottom_radius = 0.04
+height = 0.18
+radial_segments = 8
+
+[sub_resource type="SphereMesh" id="Mesh_MiniCrystal"]
+radius = 0.025
+height = 0.05
+
+[node name="CityCelestia" type="Node3D"]
+
+[node name="Plinth" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.04, 0)
+material_override = SubResource("Mat_Cobblestone")
+mesh = SubResource("Mesh_Plinth")
+
+[node name="Plaza" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.09, 0)
+material_override = SubResource("Mat_PlazaPavement")
+mesh = SubResource("Mesh_Plaza")
+
+[node name="Road" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.115, 0.18)
+material_override = SubResource("Mat_Cobblestone")
+mesh = SubResource("Mesh_Road")
+
+[node name="PalaceKeep" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.41, -0.28)
+material_override = SubResource("Mat_Marble")
+mesh = SubResource("Mesh_Keep")
+
+[node name="PalaceRoof" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.88, -0.28)
+material_override = SubResource("Mat_CelestialBlue")
+mesh = SubResource("Mesh_PalaceRoof")
+
+[node name="PalaceBalcony" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.48, -0.035)
+material_override = SubResource("Mat_GoldAccent")
+mesh = SubResource("Mesh_Balcony")
+
+[node name="PalaceDormer" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.80, -0.05)
+material_override = SubResource("Mat_Marble")
+mesh = SubResource("Mesh_Dormer")
+
+[node name="PalaceDormerRoof" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.94, -0.05)
+material_override = SubResource("Mat_CelestialBlue")
+mesh = SubResource("Mesh_DormerRoof")
+
+[node name="PalaceWindowL" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.42, -0.035)
+material_override = SubResource("Mat_WindowGlow")
+mesh = SubResource("Mesh_Window")
+
+[node name="PalaceWindowR" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.42, -0.035)
+material_override = SubResource("Mat_WindowGlow")
+mesh = SubResource("Mesh_Window")
+
+[node name="SpireTower" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.06, -0.32)
+material_override = SubResource("Mat_Marble")
+mesh = SubResource("Mesh_SpireTower")
+
+[node name="SpireCollar" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.44, -0.32)
+material_override = SubResource("Mat_GoldAccent")
+mesh = SubResource("Mesh_CollarLarge")
+
+[node name="SpireConeRoof" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.70, -0.32)
+material_override = SubResource("Mat_CelestialBlue")
+mesh = SubResource("Mesh_ConeSpire")
+
+[node name="SpireFinial" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.98, -0.32)
+material_override = SubResource("Mat_GoldAccent")
+mesh = SubResource("Mesh_Finial")
+
+[node name="SpireOrb" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.08, -0.32)
+material_override = SubResource("Mat_ArcaneOrb")
+mesh = SubResource("Mesh_Orb")
+
+[node name="TowerLeft" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.46, 0.60, -0.34)
+material_override = SubResource("Mat_Marble")
+mesh = SubResource("Mesh_TowerFlank")
+
+[node name="TowerLeftCollar" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.46, 1.13, -0.34)
+material_override = SubResource("Mat_GoldAccent")
+mesh = SubResource("Mesh_CollarLarge")
+
+[node name="TowerLeftRoof" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.46, 1.38, -0.34)
+material_override = SubResource("Mat_CelestialBlue")
+mesh = SubResource("Mesh_ConeFlank")
+
+[node name="TowerLeftFinial" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.46, 1.62, -0.34)
+material_override = SubResource("Mat_GoldAccent")
+mesh = SubResource("Mesh_Finial")
+
+[node name="BannerLeft" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.46, 1.02, -0.16)
+material_override = SubResource("Mat_RoyalBanner")
+mesh = SubResource("Mesh_Banner")
+
+[node name="TowerRight" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.46, 0.60, -0.34)
+material_override = SubResource("Mat_Marble")
+mesh = SubResource("Mesh_TowerFlank")
+
+[node name="TowerRightCollar" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.46, 1.13, -0.34)
+material_override = SubResource("Mat_GoldAccent")
+mesh = SubResource("Mesh_CollarLarge")
+
+[node name="TowerRightRoof" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.46, 1.38, -0.34)
+material_override = SubResource("Mat_CelestialBlue")
+mesh = SubResource("Mesh_ConeFlank")
+
+[node name="TowerRightFinial" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.46, 1.62, -0.34)
+material_override = SubResource("Mat_GoldAccent")
+mesh = SubResource("Mesh_Finial")
+
+[node name="BannerRight" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.46, 1.02, -0.16)
+material_override = SubResource("Mat_RoyalBanner")
+mesh = SubResource("Mesh_Banner")
+
+[node name="WallWest" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.28, 0.28, -0.06)
+material_override = SubResource("Mat_Marble")
+mesh = SubResource("Mesh_WallSegment")
+
+[node name="WallParapetWest" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.28, 0.48, -0.06)
+material_override = SubResource("Mat_Cobblestone")
+mesh = SubResource("Mesh_WallParapet")
+
+[node name="WallEast" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.28, 0.28, -0.06)
+material_override = SubResource("Mat_Marble")
+mesh = SubResource("Mesh_WallSegment")
+
+[node name="WallParapetEast" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.28, 0.48, -0.06)
+material_override = SubResource("Mat_Cobblestone")
+mesh = SubResource("Mesh_WallParapet")
+
+[node name="Gatehouse" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.33, 0.04)
+material_override = SubResource("Mat_Marble")
+mesh = SubResource("Mesh_Gatehouse")
+
+[node name="GateArch" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.23, 0.05)
+material_override = SubResource("Mat_WoodGate")
+mesh = SubResource("Mesh_GateArch")
+
+[node name="GateRoof" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.65, 0.04)
+material_override = SubResource("Mat_CelestialBlue")
+mesh = SubResource("Mesh_GateRoof")
+
+[node name="GateTurretL" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.19, 0.38, 0.05)
+material_override = SubResource("Mat_Marble")
+mesh = SubResource("Mesh_GateTurret")
+
+[node name="GateTurretRoofL" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.19, 0.66, 0.05)
+material_override = SubResource("Mat_CelestialBlue")
+mesh = SubResource("Mesh_GateTurretRoof")
+
+[node name="GateTurretR" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.19, 0.38, 0.05)
+material_override = SubResource("Mat_Marble")
+mesh = SubResource("Mesh_GateTurret")
+
+[node name="GateTurretRoofR" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.19, 0.66, 0.05)
+material_override = SubResource("Mat_CelestialBlue")
+mesh = SubResource("Mesh_GateTurretRoof")
+
+[node name="HouseFrontLeft" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.966, 0, 0.259, 0, 1, 0, -0.259, 0, 0.966, -0.34, 0.26, 0.32)
+material_override = SubResource("Mat_TownhouseWall")
+mesh = SubResource("Mesh_HouseA")
+
+[node name="RoofFrontLeft" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.966, 0, 0.259, 0, 1, 0, -0.259, 0, 0.966, -0.34, 0.52, 0.32)
+material_override = SubResource("Mat_SlateRoof")
+mesh = SubResource("Mesh_RoofA")
+
+[node name="ChimneyFrontLeft" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.42, 0.58, 0.28)
+material_override = SubResource("Mat_Cobblestone")
+mesh = SubResource("Mesh_Chimney")
+
+[node name="WindowFrontLeft" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.966, 0, 0.259, 0, 1, 0, -0.259, 0, 0.966, -0.32, 0.26, 0.46)
+material_override = SubResource("Mat_WindowGlow")
+mesh = SubResource("Mesh_Window")
+
+[node name="HouseSideLeft" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.866, 0, 0.5, 0, 1, 0, -0.5, 0, 0.866, -0.50, 0.22, 0.08)
+material_override = SubResource("Mat_TownhouseWall")
+mesh = SubResource("Mesh_HouseC")
+
+[node name="RoofSideLeft" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.866, 0, 0.5, 0, 1, 0, -0.5, 0, 0.866, -0.50, 0.43, 0.08)
+material_override = SubResource("Mat_SlateRoof")
+mesh = SubResource("Mesh_RoofC")
+
+[node name="HouseFrontRight" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.966, 0, -0.259, 0, 1, 0, 0.259, 0, 0.966, 0.34, 0.28, 0.32)
+material_override = SubResource("Mat_Marble")
+mesh = SubResource("Mesh_HouseB")
+
+[node name="RoofFrontRight" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.966, 0, -0.259, 0, 1, 0, 0.259, 0, 0.966, 0.34, 0.57, 0.32)
+material_override = SubResource("Mat_CelestialBlue")
+mesh = SubResource("Mesh_RoofB")
+
+[node name="ChimneyFrontRight" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.42, 0.62, 0.28)
+material_override = SubResource("Mat_Cobblestone")
+mesh = SubResource("Mesh_Chimney")
+
+[node name="WindowFrontRight" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.966, 0, -0.259, 0, 1, 0, 0.259, 0, 0.966, 0.32, 0.30, 0.45)
+material_override = SubResource("Mat_WindowGlow")
+mesh = SubResource("Mesh_Window")
+
+[node name="HouseSideRight" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.707, 0, -0.707, 0, 1, 0, 0.707, 0, 0.707, 0.50, 0.22, 0.08)
+material_override = SubResource("Mat_TownhouseWall")
+mesh = SubResource("Mesh_HouseC")
+
+[node name="RoofSideRight" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.707, 0, -0.707, 0, 1, 0, 0.707, 0, 0.707, 0.50, 0.43, 0.08)
+material_override = SubResource("Mat_SlateRoof")
+mesh = SubResource("Mesh_RoofC")
+
+[node name="FountainBasin" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.05, 0.14, 0.38)
+material_override = SubResource("Mat_Marble")
+mesh = SubResource("Mesh_FountainBasin")
+
+[node name="FountainWater" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.05, 0.16, 0.38)
+material_override = SubResource("Mat_FountainWater")
+mesh = SubResource("Mesh_FountainWater")
+
+[node name="FountainPillar" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.05, 0.25, 0.38)
+material_override = SubResource("Mat_Marble")
+mesh = SubResource("Mesh_FountainPillar")
+
+[node name="FountainCrystal" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.05, 0.36, 0.38)
+material_override = SubResource("Mat_ArcaneOrb")
+mesh = SubResource("Mesh_MiniCrystal")

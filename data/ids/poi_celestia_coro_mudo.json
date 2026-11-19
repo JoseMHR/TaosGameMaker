@@ -1,0 +1,26 @@
+{
+    "id": "poi_celestia_coro_mudo",
+    "type": "poi",
+    "icon": "🎼",
+    "name": {
+        "es": "El Coro que Canta sin Voz",
+        "en": "The Choir That Sings Without Voice",
+        "fr": "Le Chœur qui Chante sans Voix",
+        "it": "Il Coro che Canta senza Voce",
+        "de": "Der Chor, der ohne Stimme Singt",
+        "zh": "无声之音的合唱团",
+        "ja": "声なき合唱団"
+    },
+    "desc": {
+        "es": "Doce cantores abren la boca al unísono en un templo, pero de sus gargantas no sale sonido alguno. El aire, sin embargo, vibra. (PNJ singular).",
+        "en": "Twelve singers open their mouths in unison in a temple, but no sound leaves their throats. The air, however, trembles. (Singular NPC).",
+        "fr": "Douze chanteurs ouvrent la bouche à l'unisson dans un temple, mais de leur gorge ne sort aucun son. L'air, pourtant, vibre. (PNJ singulier).",
+        "it": "Dodici cantori aprono la bocca all'unisono in un tempio, ma dalle loro gole non esce alcun suono. L'aria, tuttavia, vibra. (PNG singolare).",
+        "de": "Zwölf Sänger öffnen unisono den Mund in einem Tempel, doch aus ihren Kehlen kommt kein Laut. Die Luft jedoch erzittert. (Einzigartiger NPC).",
+        "zh": "十二位歌者在神庙中齐声张口，喉咙里却发不出任何声音。然而空气却在震颤。（唯一NPC）。",
+        "ja": "神殿で十二人の歌い手が一斉に口を開くが、喉からは何の音も出ない。それでも空気は震えている。（唯一のNPC）。"
+    },
+    "npc": "poi_celestia_coro_mudo",
+    "bg": "bg_world_poi_celestia_coro_mudo.png",
+    "music": "poi_generic"
+}

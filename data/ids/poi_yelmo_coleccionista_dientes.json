@@ -1,0 +1,26 @@
+{
+    "id": "poi_yelmo_coleccionista_dientes",
+    "type": "poi",
+    "icon": "🦷",
+    "name": {
+        "es": "El Coleccionista de Dientes",
+        "en": "The Tooth Collector",
+        "fr": "Le Collectionneur de Dents",
+        "it": "Il Collezionista di Denti",
+        "de": "Der Zahnsammler",
+        "zh": "牙齿收藏家",
+        "ja": "歯のコレクター"
+    },
+    "desc": {
+        "es": "Un ermitaño sonriente sentado tras una mesa cubierta de dientes ordenados por tamaño. Le falta la sonrisa a él. (PNJ singular).",
+        "en": "A smiling hermit seated behind a table covered in teeth arranged by size. He is the one missing his smile. (Singular NPC).",
+        "fr": "Un ermite souriant assis derrière une table couverte de dents classées par taille. C'est lui qui n'a plus le sourire. (PNJ singulier).",
+        "it": "Un eremita sorridente seduto dietro un tavolo coperto di denti ordinati per taglia. È lui a cui manca il sorriso. (PNG singolare).",
+        "de": "Ein lächelnder Einsiedler, der hinter einem Tisch voller nach Größe sortierter Zähne sitzt. Ihm selbst fehlt das Lächeln. (Einzigartiger NPC).",
+        "zh": "一位面带微笑的隐士坐在摆满按大小排列的牙齿的桌子后面。而他自己却缺了一颗牙笑不出来。（唯一NPC）。",
+        "ja": "大きさ順に並べられた歯で覆われた机の後ろに座る、微笑む隠者。笑顔が欠けているのは彼自身だ。（唯一のNPC）。"
+    },
+    "npc": "poi_yelmo_coleccionista_dientes",
+    "bg": "bg_world_poi_yelmo_coleccionista_dientes.png",
+    "music": "poi_generic"
+}

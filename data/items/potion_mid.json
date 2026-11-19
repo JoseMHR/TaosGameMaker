@@ -1,0 +1,26 @@
+{
+    "name": {
+        "es": "Poción Media",
+        "en": "Medium Potion",
+        "fr": "Potion Moyenne",
+        "it": "Pozione Media",
+        "de": "Mittlerer Trank",
+        "zh": "中型药水",
+        "ja": "中級ポーション"
+    },
+    "desc": {
+        "es": "Restaura el 45% de la vida máxima.",
+        "en": "Restores 45% of max health.",
+        "fr": "Restaure 45% de la vie maximale.",
+        "it": "Ripristina il 45% della vita massima.",
+        "de": "Stellt 45% der maximalen Gesundheit wieder her.",
+        "zh": "恢复 45% 的最大生命值。",
+        "ja": "最大HPの45%を回復する。"
+    },
+    "icon": "🧪",
+    "category": "consumable",
+    "usable": true,
+    "effects": {
+        "heal_pct": 0.45
+    }
+}

@@ -1,0 +1,51 @@
+{
+  "name": {
+    "es": "Lobo",
+    "en": "Wolf",
+    "fr": "Loup",
+    "it": "Lupo",
+    "de": "Wolf",
+    "zh": "狼",
+    "ja": "ウルフ"
+  },
+  "family": "beast",
+  "archetype": "balanced",
+  "icon": "🐺",
+  "image": "res://assets/combat/enemies/en_wolf.png",
+  "attack_type": "physical",
+  "base_dodge": 5.0,
+  "dodge_scale": 0.2,
+  "element": "physical",
+  "weak_to": [
+    "fire"
+  ],
+  "resist": [],
+  "ai": "aggressive",
+  "xp_reward_base": 18,
+  "xp_reward_scale": 4.0,
+  "gold_reward_base": 8,
+  "gold_reward_scale": 2.0,
+  "skills": [
+    {
+      "level": 1,
+      "skill_id": "bite"
+    },
+    {
+      "level": 1,
+      "skill_id": "claw"
+    },
+    {
+      "level": 3,
+      "skill_id": "aullido_miedo"
+    }
+  ],
+  "loot": [
+    {
+      "kind": "gold",
+      "min": 2,
+      "max": 8
+    }
+  ],
+  "zone": "zona_1_yelmo",
+  "is_boss": false
+}

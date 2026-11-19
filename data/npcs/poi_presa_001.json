@@ -1,0 +1,134 @@
+{
+    "presa_open": {
+        "type": "message",
+        "text": {
+            "es": "Las compuertas escupen mar y el cauce baja bramando hacia el valle. La presa vuelve a hacer su trabajo gracias a la inestimable (y accidental) colaboración de la gaviota.",
+            "en": "The floodgates spit sea and the channel thunders down into the valley. The dam is working again thanks to the priceless (and accidental) help of the seagull.",
+            "fr": "Les vannes crachent la mer et le chenal dévale en grondant vers la vallée. Le barrage refonctionne grâce à la précieuse (et accidentelle) collaboration de la mouette.",
+            "it": "Le paratoie sputano mare e il canale scende ruggendo verso la valle. La diga torna a funzionare grazie all'inestimabile (e accidentale) collaborazione del gabbiano.",
+            "de": "Die Schleusentore spucken das Meer aus, und der Kanal donnert hinab ins Tal. Der Damm funktioniert dank der unschätzbaren (und zufälligen) Mithilfe der Möwe wieder.",
+            "zh": "水闸喷涌出海水，河道咆哮着奔向山谷。多亏了那只海鸥无比珍贵（且纯属意外）的协助，水坝重新恢复运作。",
+            "ja": "水門から海水が噴き出し、水路が轟音を立てて谷へと流れ落ちる。カモメの貴重な（そして偶然の）協力のおかげで、ダムは再び機能し始めた。"
+        },
+        "next": [
+            "presa_open_ok"
+        ],
+        "reward": "",
+        "condition": "quest == \"dam_opened\""
+    },
+    "presa_open_ok": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Volver",
+            "en": "🚶  Leave",
+            "fr": "🚶  Retourner",
+            "it": "🚶  Tornare",
+            "de": "🚶  Zurückgehen",
+            "zh": "🚶  返回",
+            "ja": "🚶  戻る"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "presa_throw": {
+        "type": "message",
+        "text": {
+            "es": "La palanca oxidada asoma tras la reja inaccesible. Sostienes con solemnidad la 'gloriosa piedra' de la anciana. Es el momento de la verdad.",
+            "en": "The rusty lever peeks behind the inaccessible grate. You solemnly hold the elder's 'glorious stone'. This is the moment of truth.",
+            "fr": "Le levier rouillé apparaît derrière la grille inaccessible. Tu tiens solennellement la « glorieuse pierre » de la vieille femme. C'est le moment de vérité.",
+            "it": "La leva arrugginita spunta dietro l'inaccessibile inferriata. Tieni con solennità la 'gloriosa pietra' dell'anziana. È il momento della verità.",
+            "de": "Der rostige Hebel lugt hinter dem unzugänglichen Gitter hervor. Feierlich hältst du den 'glorreichen Stein' der alten Frau. Dies ist der Moment der Wahrheit.",
+            "zh": "生锈的杠杆藏在那道无法触及的栏杆后面。你郑重地握着老妇人的「荣耀之石」。真相时刻到了。",
+            "ja": "手の届かない格子の向こうに、錆びついたレバーがのぞいている。お前は老婆の「栄光の石」を厳かに手にする。真実の瞬間だ。"
+        },
+        "next": [
+            "presa_throw_do"
+        ],
+        "reward": "",
+        "condition": "has_item(\"lever_stone\")"
+    },
+    "presa_throw_do": {
+        "type": "option",
+        "text": {
+            "es": "🎯  Lanzar la piedra a la palanca",
+            "en": "🎯  Throw the stone at the lever",
+            "fr": "🎯  Lancer la pierre sur le levier",
+            "it": "🎯  Lanciare la pietra contro la leva",
+            "de": "🎯  Den Stein auf den Hebel werfen",
+            "zh": "🎯  把石头扔向杠杆",
+            "ja": "🎯  レバーに石を投げる"
+        },
+        "next": [
+            "presa_throw_r"
+        ],
+        "reward": "-item:lever_stone=1",
+        "condition": "has_item(\"lever_stone\")",
+        "once": true
+    },
+    "presa_throw_r": {
+        "type": "message",
+        "text": {
+            "es": "Apuntas con épica precisión, contienes el aliento y... ¡ZAS! ¡Un desastre absoluto! La piedra se desvía vergonzosamente hacia arriba. Se hace un silencio incómodo...\n\nDe pronto, un graznido ensordecedor interrumpe la calma. La piedra le ha dado de lleno a una gaviota despistada. El ave desorientada cae en picado, choca de morros contra la palanca oxidada y el impacto hace bajar el mecanismo. ¡CLANC! La compuerta se abre de par en par y el mar entra rugiendo. ¡Has abierto la presa pura y exclusivamente DE POTRA!",
+            "en": "You aim with epic precision, hold your breath and... BAM! An absolute disaster! The stone veers embarrassingly upward. An awkward silence falls...\n\nSuddenly, a deafening squawk cuts through the quiet. The stone hit a clueless seagull smack in the head. The dazed bird plunges downward, slams face-first into the rusty lever, and the impact forces the mechanism down. CLANK! The floodgate opens wide and the sea roars in. You reopened the dam purely through DUMB LUCK!",
+            "fr": "Tu vises avec une précision épique, retiens ton souffle et... BAM ! Un désastre absolu ! La pierre dévie honteusement vers le haut. Un silence gênant s'installe...\n\nSoudain, un cri assourdissant brise le calme. La pierre a heurté de plein fouet une mouette étourdie. L'oiseau désorienté plonge, s'écrase le bec le premier contre le levier rouillé, et l'impact fait descendre le mécanisme. CLANC ! La vanne s'ouvre en grand et la mer se rue en rugissant. Tu as rouvert le barrage grâce à un pur et exclusif COUP DE BOL !",
+            "it": "Miri con precisione epica, trattieni il respiro e... BAM! Un disastro totale! La pietra devia vergognosamente verso l'alto. Cala un silenzio imbarazzante...\n\nD'improvviso, uno strillo assordante rompe la quiete. La pietra ha colpito in pieno un gabbiano distratto. L'uccello disorientato precipita, sbatte il becco contro la leva arrugginita, e l'impatto abbassa il meccanismo. CLANG! La paratoia si spalanca e il mare irrompe ruggendo. Hai riaperto la diga per pura ed esclusiva CULO!",
+            "de": "Du zielst mit epischer Präzision, hältst den Atem an und... BUMM! Ein absolutes Desaster! Der Stein weicht beschämend nach oben ab. Ein peinliches Schweigen legt sich über die Szene...\n\nPlötzlich durchbricht ein ohrenbetäubender Schrei die Stille. Der Stein hat eine ahnungslose Möwe direkt getroffen. Der benommene Vogel stürzt kopfüber ab, prallt mit dem Schnabel voran gegen den rostigen Hebel, und der Aufprall drückt den Mechanismus herunter. KLONK! Das Tor öffnet sich weit und das Meer strömt brüllend hinein. Du hast den Damm rein und ausschließlich durch DUMMES GLÜCK wieder geöffnet!",
+            "zh": "你以史诗级的精准度瞄准，屏住呼吸……砰！彻底的灾难！石头竟丢人地偏向了上方。一阵尴尬的沉默笼罩四周……\n\n突然，一声震耳欲聋的尖叫划破寂静。石头正中一只毫无防备的海鸥。这只晕头转向的鸟径直坠落，脸先着地撞上生锈的杠杆，冲击力使机关向下移动。哐当！水闸大开，海水咆哮着涌入。你完全凭借纯粹的狗屎运重新打开了水坝！",
+            "ja": "お前は伝説級の精密さで狙いを定め、息を止め……ドン！完全な大失敗だ！石は情けなくも上に逸れていく。気まずい沈黙が流れる……\n\n突然、耳をつんざく鳴き声が静寂を破る。石は間抜けなカモメに命中していた。呆然とした鳥はまっさかさまに落下し、嘴から錆びたレバーに激突、その衝撃で機構が下がる。カチャン！水門が大きく開き、海水が轟音とともに流れ込む。お前はまったくもって純粋な「棚ぼた運」だけでダムを再び開いたのだ！"
+        },
+        "next": [
+            "presa_throw_ok"
+        ],
+        "reward": ""
+    },
+    "presa_throw_ok": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Volver",
+            "en": "🚶  Leave",
+            "fr": "🚶  Retourner",
+            "it": "🚶  Tornare",
+            "de": "🚶  Zurückgehen",
+            "zh": "🚶  返回",
+            "ja": "🚶  戻る"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "dam"
+    },
+    "presa_closed": {
+        "type": "message",
+        "text": {
+            "es": "Una vieja presa en la muralla norte. Al otro lado retumba el mar. La compuerta está trancada y una reja protege la palanca. Habrá que activarla con algún método ingenioso (o ridículo).",
+            "en": "An old dam in the northern wall. Beyond it the sea thunders. The floodgate is jammed and a grate guards the lever. You'll have to trip it with some clever (or ridiculous) method.",
+            "fr": "Un vieux barrage dans le mur nord. De l'autre côté, la mer gronde. La vanne est bloquée et une grille protège le levier. Il faudra la déclencher avec une méthode ingénieuse (ou ridicule).",
+            "it": "Una vecchia diga nel muro nord. Dall'altra parte rimbomba il mare. La paratoia è bloccata e un'inferriata protegge la leva. Bisognerà attivarla con qualche metodo ingegnoso (o ridicolo).",
+            "de": "Ein alter Damm in der Nordmauer. Dahinter grollt das Meer. Das Tor klemmt und ein Gitter schützt den Hebel. Man wird ihn mit irgendeiner cleveren (oder lächerlichen) Methode auslösen müssen.",
+            "zh": "北墙上有一座老旧的水坝。另一侧海浪轰鸣。水闸卡住了，一道栏杆保护着杠杆。得想个巧妙（或荒唐）的办法把它触发。",
+            "ja": "北の壁に古いダムがある。その向こうでは海が轟いている。水門は詰まっており、格子がレバーを守っている。何か巧妙な（あるいは馬鹿げた）方法で作動させる必要がありそうだ。"
+        },
+        "next": [
+            "presa_closed_ok"
+        ],
+        "reward": ""
+    },
+    "presa_closed_ok": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Volver",
+            "en": "🚶  Leave",
+            "fr": "🚶  Retourner",
+            "it": "🚶  Tornare",
+            "de": "🚶  Zurückgehen",
+            "zh": "🚶  返回",
+            "ja": "🚶  戻る"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

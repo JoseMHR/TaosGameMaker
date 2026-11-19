@@ -1,0 +1,81 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "La Sabia Investigadora",
+            "en": "The Sage Researcher",
+            "fr": "La Sage Chercheuse",
+            "it": "La Saggia Ricercatrice",
+            "de": "Die Weise Forscherin",
+            "zh": "贤者研究员",
+            "ja": "賢者の研究者"
+        },
+        "next": [],
+        "reward": "avatar=📜;bg=0.07,0.06,0.1"
+    },
+    "sg_1": {
+        "type": "message",
+        "text": {
+            "es": "Una investigadora rodeada de mapas te mira por encima de unas lentes torcidas. '¿Nuevo en Celestia? Tres consejos: no toques los cristales, no mires a los ojos a los del Tiempo, y no preguntes por el Rey en voz alta. ¿Vas a por las profesiones? Sabia decisión. Las necesitarás todas para lo que viene.'",
+            "en": "A researcher surrounded by maps peers at you over crooked spectacles. 'New in Celestia? Three tips: don't touch the crystals, don't make eye contact with the Time folk, and don't ask about the King out loud. Here for the professions? Wise choice. You'll need them all for what's coming.'",
+            "fr": "Une chercheuse entourée de cartes te scrute par-dessus des lunettes de travers. « Nouveau à Celestia ? Trois conseils : ne touche pas aux cristaux, ne croise pas le regard de ceux du Temps, et ne parle pas du Roi à voix haute. Tu viens pour les professions ? Sage décision. Tu en auras besoin de toutes pour ce qui arrive. »",
+            "it": "Una ricercatrice circondata da mappe ti scruta sopra occhiali storti. 'Nuovo a Celestia? Tre consigli: non toccare i cristalli, non guardare negli occhi quelli del Tempo, e non chiedere del Re ad alta voce. Sei qui per le professioni? Saggia decisione. Ti serviranno tutte per quello che sta arrivando.'",
+            "de": "Eine Forscherin, umgeben von Karten, mustert dich über eine schiefe Brille. „Neu in Celestia? Drei Tipps: Berühre die Kristalle nicht, sieh den Leuten der Zeit nicht in die Augen, und frag nicht laut nach dem König. Bist du wegen der Berufe hier? Weise Entscheidung. Du wirst sie alle brauchen für das, was kommt.“",
+            "zh": "一位被地图环绕的研究员透过歪斜的眼镜打量着你。「初来塞莱斯提亚？给你三个建议：别碰水晶，别直视时间之民的眼睛，也别大声打听国王的事。你是来学职业的？明智的选择。接下来的事，你会需要用上全部职业。」",
+            "ja": "地図に囲まれた研究者が、歪んだ眼鏡越しにお前を見つめる。「セレスティアは初めて？三つ助言をやろう。水晶に触るな、時の民と目を合わせるな、王のことを大声で聞くな。職業を求めてここに？賢明な判断だ。これから来ることに備えて、全部必要になるぞ」"
+        },
+        "next": [
+            "sg_1a",
+            "sg_1b"
+        ],
+        "reward": ""
+    },
+    "sg_1a": {
+        "type": "option",
+        "text": {
+            "es": "📜  ¿Para lo que viene?",
+            "en": "📜  For what's coming?",
+            "fr": "📜  Pour ce qui arrive ?",
+            "it": "📜  Per quello che sta arrivando?",
+            "de": "📜  Für das, was kommt?",
+            "zh": "📜  接下来的事？",
+            "ja": "📜  これから来ることとは？"
+        },
+        "next": [
+            "sg_1ar"
+        ],
+        "reward": ""
+    },
+    "sg_1ar": {
+        "type": "message",
+        "text": {
+            "es": "'No me hagas caso. Demasiados libros, poco sueño. Pero si un día el puerto se abre... no subas al primer barco. Sube al segundo.' Vuelve a sus mapas murmurando.",
+            "en": "'Don't mind me. Too many books, too little sleep. But if the port ever opens... don't board the first ship. Board the second.' She returns to her maps, muttering.",
+            "fr": "« Ne fais pas attention à moi. Trop de livres, pas assez de sommeil. Mais si un jour le port s'ouvre... ne monte pas sur le premier bateau. Monte sur le second. » Elle retourne à ses cartes en marmonnant.",
+            "it": "'Non darmi retta. Troppi libri, poco sonno. Ma se un giorno il porto si apre... non salire sulla prima nave. Sali sulla seconda.' Torna alle sue mappe borbottando.",
+            "de": "„Achte nicht auf mich. Zu viele Bücher, zu wenig Schlaf. Aber wenn der Hafen eines Tages öffnet... geh nicht an Bord des ersten Schiffs. Nimm das zweite.“ Sie kehrt murmelnd zu ihren Karten zurück.",
+            "zh": "「别理我，书看多了，觉睡少了。但如果有一天港口开放……别登上第一艘船，登上第二艘。」她喃喃自语地回去看她的地图了。",
+            "ja": "「気にしないでくれ。本の読みすぎで寝不足なだけだ。だがもしいつか港が開いたら……最初の船には乗るな。二番目の船に乗れ」彼女はつぶやきながら地図に戻っていく。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "sg_1b": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Despedirse",
+            "en": "🚶  Take your leave",
+            "fr": "🚶  Prendre congé",
+            "it": "🚶  Congedarsi",
+            "de": "🚶  Sich verabschieden",
+            "zh": "🚶  告别",
+            "ja": "🚶  別れを告げる"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

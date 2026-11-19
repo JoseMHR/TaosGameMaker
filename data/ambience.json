@@ -1,0 +1,273 @@
+{
+    "music": {
+        "world": "res://assets/common/music/bgm_world_zone3_sylphrena.ogg",
+        "world_zone1_flooded": "res://assets/common/music/bgm_world_zone1_flooded.ogg",
+        "world_zone1_drained": "res://assets/common/music/bgm_world_zone1_drained.ogg",
+        "world_dam_opened": "res://assets/common/music/bgm_world_zone1_flooded.ogg",
+        "world_zone3": "res://assets/common/music/bgm_world_zone3_sylphrena.ogg",
+        "world_zone4": "res://assets/common/music/bgm_world_zone4_celestia.ogg",
+        "world_desert": "res://assets/common/music/bgm_world_zone5_gloriam.ogg",
+        "world_arcanum": "res://assets/common/music/bgm_world_zona6_arcanum.ogg",
+        "world_final": "res://assets/common/music/bgm_world_final.ogg",
+        "world_boat": "res://assets/common/music/bgm_world_boat.ogg",
+        "world_snow": "res://assets/common/music/bgm_world_zone2_snow.ogg",
+        "nevada": "res://assets/common/music/bgm_world_zone2_snow.ogg",
+        "city_sylphrena": "res://assets/common/music/bgm_city_sylphrena.ogg",
+        "city_celestia": "res://assets/common/music/bgm_city_celestia.ogg",
+        "city_gloriam": "res://assets/common/music/bgm_city_gloriam.ogg",
+        "city_arcanum": "res://assets/common/music/bgm_city_arcanum.ogg",
+        "city_1": "res://assets/common/music/bgm_city_sylphrena.ogg",
+        "combat": "res://assets/common/music/bgm_combat_1.ogg",
+        "combat_1": "res://assets/common/music/bgm_combat_1.ogg",
+        "combat_2": "res://assets/common/music/bgm_combat_2.ogg",
+        "combat_3": "res://assets/common/music/bgm_combat_3.ogg",
+        "combat_boss": "res://assets/common/music/bgm_combat_boss.ogg",
+        "dungeon_bandidos": "res://assets/common/music/bgm_dungeon_bandidos.ogg",
+        "dungeon_desierto": "res://assets/common/music/bgm_dungeon_desierto.ogg",
+        "sendero_ancient": "res://assets/common/music/bgm_sendero_ancient.ogg",
+        "sendero_sanctuary": "res://assets/common/music/bgm_sendero_sanctuary.ogg",
+        "sendero_dark": "res://assets/common/music/bgm_sendero_dark.ogg",
+        "event_crisis_puerto": "res://assets/common/music/bgm_event_crisis_puerto.ogg",
+        "poi_house_cozy": "res://assets/common/music/bgm_poi_house_cozy.ogg",
+        "poi_comic": "res://assets/common/music/bgm_poi_comic.ogg",
+        "poi_generic": "res://assets/common/music/bgm_poi_generic.ogg",
+        "creepy": "res://assets/common/music/bgm_creepy.ogg"
+    },
+    "terrain": {
+        "ice": {
+            "weather": "snow",
+            "music": "nevada"
+        },
+        "icy": {
+            "weather": "snow",
+            "music": "nevada"
+        },
+        "snw": {
+            "weather": "snow",
+            "music": "nevada"
+        },
+        "des": {
+            "weather": "sand",
+            "music": "world_desert"
+        },
+        "bad": {
+            "music": "world_arcanum"
+        },
+        "grs": {
+            "weather_options": [
+                {
+                    "weather": "leaves",
+                    "probability": 0.35
+                },
+                {
+                    "weather": "rain",
+                    "probability": 0.15
+                }
+            ]
+        },
+        "gnd": {
+            "weather_options": [
+                {
+                    "weather": "rain",
+                    "probability": 0.2
+                }
+            ]
+        },
+        "lav": {
+            "weather": "ash"
+        }
+    },
+    "weather": {
+        "snow": {
+            "color": "#dbe8f0",
+            "count": 130,
+            "speed": 70,
+            "size": 3,
+            "drift": 25,
+            "angle": 8,
+            "intensity": 1.0,
+            "ambient_color": "#9fb6cc",
+            "ambient_alpha": 0.1
+        },
+        "sand": {
+            "color": "#cbb45e",
+            "count": 220,
+            "speed": 260,
+            "size": 2,
+            "drift": 140,
+            "angle": 55,
+            "intensity": 1.0,
+            "ambient_color": "#c9a24b",
+            "ambient_alpha": 0.12
+        },
+        "rain": {
+            "color": "#9fc0e0",
+            "count": 240,
+            "speed": 720,
+            "size": 2,
+            "drift": 40,
+            "angle": 12,
+            "intensity": 1.0,
+            "ambient_color": "#3a4a63",
+            "ambient_alpha": 0.18
+        },
+        "leaves": {
+            "color": "#8fae5c",
+            "count": 60,
+            "speed": 90,
+            "size": 4,
+            "drift": 70,
+            "angle": 30,
+            "intensity": 1.0,
+            "ambient_color": "#7f9a52",
+            "ambient_alpha": 0.05
+        },
+        "ash": {
+            "color": "#e8632a",
+            "count": 90,
+            "speed": 40,
+            "size": 3,
+            "drift": 30,
+            "angle": 170,
+            "intensity": 1.0,
+            "ambient_color": "#5a1e0a",
+            "ambient_alpha": 0.22
+        }
+    },
+    "zones": [
+        {
+            "id": "zona_6_arcanum",
+            "name": {
+                "es": "Páramo de Arcanum",
+                "en": "Arcanum Badlands",
+                "fr": "Terres arides d'Arcanum",
+                "it": "Terre desolate di Arcanum",
+                "de": "Ödland von Arcanum",
+                "zh": "奥术荒原",
+                "ja": "アーカノムの荒地"
+            },
+            "bounds": {
+                "x_min": 0,
+                "x_max": 25,
+                "y_min": 0,
+                "y_max": 27
+            },
+            "music": "world_arcanum"
+        },
+        {
+            "id": "zona_5_gloriam",
+            "name": {
+                "es": "Desierto de Gloriam",
+                "en": "Gloriam Desert",
+                "fr": "Désert de Gloriam",
+                "it": "Deserto di Gloriam",
+                "de": "Wüste von Gloriam",
+                "zh": "格里奥兰沙漠",
+                "ja": "グロリアムの沙漠"
+            },
+            "bounds": {
+                "x_min": 26,
+                "x_max": 65,
+                "y_min": 0,
+                "y_max": 27
+            },
+            "music": "world_desert"
+        },
+        {
+            "id": "zona_7_final",
+            "name": {
+                "es": "Zona Final",
+                "en": "Final Realm",
+                "fr": "Territoire final",
+                "it": "Regno finale",
+                "de": "Letztes Reich",
+                "zh": "最终领域",
+                "ja": "最後の領域"
+            },
+            "bounds": {
+                "x_min": 0,
+                "x_max": 16,
+                "y_min": 28,
+                "y_max": 65
+            },
+            "music": "world_final"
+        },
+        {
+            "id": "zona_1_yelmo",
+            "name": {
+                "es": "El Yelmo",
+                "en": "The Helm",
+                "fr": "Le Heaume",
+                "it": "L'Elmo",
+                "de": "Der Helm",
+                "zh": "头盔之地",
+                "ja": "兜の地"
+            },
+            "bounds": {
+                "x_min": 17,
+                "x_max": 31,
+                "y_min": 28,
+                "y_max": 48
+            },
+            "music": "world_zone1_flooded",
+            "music_dam_opened": "world_zone1_drained"
+        },
+        {
+            "id": "zona_2_nieves",
+            "name": {
+                "es": "Cumbres Heladas",
+                "en": "Frozen Peaks",
+                "fr": "Cimes gelées",
+                "it": "Vette gelate",
+                "de": "Vereiste Gipfel",
+                "zh": "冰封峰岭",
+                "ja": "氷の峰"
+            },
+            "bounds": {
+                "x_min": 32,
+                "x_max": 65,
+                "y_min": 28,
+                "y_max": 55
+            },
+            "music": "nevada"
+        },
+        {
+            "id": "zona_4_celestia",
+            "name": {
+                "es": "Segunda Pradera (Celestia)",
+                "en": "Second Grasslands (Celestia)",
+                "fr": "Deuxième prairie (Celestia)",
+                "it": "Seconda prateria (Celestia)",
+                "de": "Zweite Graslandschaft (Celestia)",
+                "zh": "第二草原（塞勒斯提亚）",
+                "ja": "第二草原（セレスティア）"
+            },
+            "bounds": {
+                "x_min": 66,
+                "x_max": 108,
+                "y_min": 0,
+                "y_max": 31
+            },
+            "music": "world_zone4"
+        },
+        {
+            "id": "zona_3_sylphrena",
+            "name": {
+                "es": "Primera Pradera (Sylphrena)",
+                "en": "First Grasslands (Sylphrena)",
+                "fr": "Première prairie (Sylphrena)",
+                "it": "Prima prateria (Sylphrena)",
+                "de": "Erste Graslandschaft (Sylphrena)",
+                "zh": "第一草原（西尔菲雷娜）",
+                "ja": "第一草原（シルフレナ）"
+            },
+            "bounds": {
+                "x_min": 66,
+                "x_max": 108,
+                "y_min": 32,
+                "y_max": 65
+            },
+            "music": "world_zone3"
+        }
+    ]
+}

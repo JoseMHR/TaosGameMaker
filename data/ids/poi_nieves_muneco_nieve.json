@@ -1,0 +1,26 @@
+{
+    "id": "poi_nieves_muneco_nieve",
+    "type": "poi",
+    "icon": "⛄",
+    "name": {
+        "es": "El Muñeco de Nieve Testigo",
+        "en": "The Witness Snowman",
+        "fr": "Le Bonhomme de Neige Témoin",
+        "it": "Il Pupazzo di Neve Testimone",
+        "de": "Der Zeugen-Schneemann",
+        "zh": "见证者雪人",
+        "ja": "目撃者の雪だるま"
+    },
+    "desc": {
+        "es": "Un muñeco de nieve de sonrisa torcida que parece mirar siempre hacia un punto distinto cuando no lo observas. (POI de inspección).",
+        "en": "A snowman with a crooked smile that always seems to face a different spot when you're not watching. (Inspection POI).",
+        "fr": "Un bonhomme de neige au sourire tordu qui semble toujours regarder un point différent quand tu ne l'observes pas. (POI d'inspection).",
+        "it": "Un pupazzo di neve dal sorriso storto che sembra guardare sempre un punto diverso quando non lo osservi. (POI di ispezione).",
+        "de": "Ein Schneemann mit schiefem Lächeln, der immer in eine andere Richtung zu blicken scheint, wenn du nicht hinschaust. (Inspektions-POI).",
+        "zh": "一个歪嘴微笑的雪人，每当你不看它时，它似乎总是望向不同的方向。（探查类兴趣点）。",
+        "ja": "見ていない時にいつも違う方向を見ているように思える、歪んだ笑みの雪だるま。（調査ポイント）。"
+    },
+    "npc": "poi_nieves_muneco_nieve",
+    "bg": "bg_world_poi_nieve_muneco_nieve.png",
+    "music": "poi_generic"
+}

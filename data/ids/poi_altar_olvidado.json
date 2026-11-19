@@ -1,0 +1,26 @@
+{
+    "id": "poi_altar_olvidado",
+    "type": "poi",
+    "icon": "⛩️",
+    "name": {
+        "es": "Altar del Viento Susurrante",
+        "en": "Altar of the Whispering Wind",
+        "fr": "Autel du Vent Murmurant",
+        "it": "Altare del Vento Sussurrante",
+        "de": "Altar des Flüsternden Windes",
+        "zh": "低语之风祭坛",
+        "ja": "囁く風の祭壇"
+    },
+    "desc": {
+        "es": "Un cuenco de piedra en un prado ventoso que reclama una ofrenda. (POI de inspección).",
+        "en": "A stone bowl in a windy meadow demanding an offering. (Inspection POI).",
+        "fr": "Un bol de pierre dans une prairie venteuse réclamant une offrande. (POI d'inspection).",
+        "it": "Una ciotola di pietra in un prato ventoso che reclama un'offerta. (POI di ispezione).",
+        "de": "Eine Steinschale auf einer windigen Wiese, die ein Opfer verlangt. (Inspektions-POI).",
+        "zh": "风中草地上的一只石碗，索求一份供品。（探查类兴趣点）。",
+        "ja": "風の吹く草原にある石の器。供物を要求している。（調査ポイント）。"
+    },
+    "npc": "poi_altar_olvidado",
+    "bg": "bg_world_poi_hielo_altar_olvidado.png",
+    "music": "poi_generic"
+}

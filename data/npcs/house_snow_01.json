@@ -1,0 +1,151 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Guardés del Fuego",
+            "en": "The Flame Warden",
+            "fr": "Le Gardien du Feu",
+            "it": "Il Guardiano del Fuoco",
+            "de": "Der Flammenwächter",
+            "zh": "火焰守护者",
+            "ja": "炎の番人"
+        },
+        "next": [],
+        "reward": "avatar=🔥;bg=0.07,0.05,0.03"
+    },
+    "snow01_root": {
+        "type": "message",
+        "text": {
+            "es": "Un hombre envuelto en seis capas de pieles de oso protege celosamente una hoguera central con un soplador de fuelle. '¡Cierra esa puerta, animal! ¡Que dejas escapar los grados de temperatura! Cada caloría en este glaciar cuesta una semana de leña y dos dedos congelados. Siéntate lejos del tiro de aire o te cobraré peaje térmico.'",
+            "en": "A man bundled in six layers of bearskin zealously shields a central hearth with a leather bellows. 'Shut that flap, you beast! You are bleeding ambient temperature! Every calorie on this glacier costs a week of timber and two frostbitten toes. Sit clear of the draft or I will levy a thermal tariff!'",
+            "fr": "Un homme emmitouflé dans six couches de peaux d'ours protège jalousement un foyer central avec un soufflet en cuir. « Ferme cette porte, animal ! Tu laisses échapper les degrés ! Chaque calorie sur ce glacier coûte une semaine de bois et deux orteils gelés. Assieds-toi loin du courant d'air ou je te fais payer une taxe thermique ! »",
+            "it": "Un uomo avvolto in sei strati di pelli d'orso protegge gelosamente un focolare centrale con un mantice di cuoio. 'Chiudi quella porta, animale! Fai scappare i gradi! Ogni caloria su questo ghiacciaio costa una settimana di legna e due dita congelate. Siediti lontano dalla corrente o ti farò pagare un pedaggio termico!'",
+            "de": "Ein in sechs Schichten Bärenfell gehüllter Mann bewacht eifersüchtig eine zentrale Feuerstelle mit einem Lederblasebalg. „Schließ diese Tür, du Tier! Du lässt die Wärme entweichen! Jede Kalorie auf diesem Gletscher kostet eine Woche Feuerholz und zwei erfrorene Zehen. Setz dich weg vom Luftzug, oder ich erhebe eine Wärmesteuer!“",
+            "zh": "一个裹着六层熊皮的男人用皮革风箱小心翼翼地守护着中央的一堆篝火。「关上那扇门，畜生！你在放走温度！这座冰川上每一卡热量都要花掉一周的木柴和两根冻僵的脚趾。坐远点，别挡着火焰的气流，不然我要收你的热量费！」",
+            "ja": "六重の熊皮に身を包んだ男が、革製のふいごで中央の炉を熱心に守っている。「その扉を閉めろ、この獣め！温度が逃げているだろう！この氷河では一カロリーごとに一週間分の薪と凍傷の指二本の犠牲を払っているんだ。隙間風のない場所に座れ、さもなくば熱料を徴収するぞ！」"
+        },
+        "next": [
+            "snow01_opt_lenha",
+            "snow01_opt_fuego",
+            "snow01_opt_glaciar",
+            "snow01_opt_salir"
+        ],
+        "reward": ""
+    },
+    "snow01_opt_lenha": {
+        "type": "option",
+        "text": {
+            "es": "🪵  (Ofrecerle 10 monedas para carbón y ayudarle con el fuelle junto al fuego)",
+            "en": "🪵  (Offer 10 gold for firewood and assist with the bellows by the hearth)",
+            "fr": "🪵  (Lui offrir 10 pièces d'or pour du bois et l'aider avec le soufflet près du feu)",
+            "it": "🪵  (Offrirgli 10 monete per il carbone e aiutarlo con il mantice vicino al fuoco)",
+            "de": "🪵  (Ihm 10 Gold für Brennholz anbieten und beim Blasebalg am Feuer helfen)",
+            "zh": "🪵  （给他10金币买木炭，并在炉火旁帮忙拉风箱）",
+            "ja": "🪵  （薪代として10ゴールドを渡し、炉のふいごを手伝う）"
+        },
+        "next": [
+            "snow01_msg_lenha"
+        ],
+        "reward": "gold:-10;faceta:bondad=+1;heal:50;item:carne=2",
+        "condition": "gold >= 10",
+        "once": true
+    },
+    "snow01_msg_lenha": {
+        "type": "message",
+        "text": {
+            "es": "El guardés afloja la mandíbula y guarda el fuelle con respeto. 'Pocos viajeros comprenden lo dura que es la vigilia blanca. Toma un plato de este caldo caliente de raíces alpinas y estas tiras de cecina curada al humo. Que el calor de mi lumbre acompañe cada paso que des en la cumbre.' El calor revitaliza tu cuerpo y disipa cualquier rastro de fatiga.",
+            "en": "The warden softens his grim frown and sets aside his bellows with respect. 'Few roamers grasp how brutal the white vigil proves. Take a bowl of this piping mountain root broth and these smoked venison cuts. May my hearth's ember shelter each stride you make upon the summit.' The warmth revitalizes your frame, melting all fatigue away.",
+            "fr": "Le gardien relâche la mâchoire et range le soufflet avec respect. « Peu de voyageurs comprennent à quel point la veille blanche est dure. Prends un bol de ce bouillon chaud de racines alpines et ces tranches de viande fumée. Que la chaleur de mon feu accompagne chaque pas que tu fais au sommet. » La chaleur revitalise ton corps et dissipe toute trace de fatigue.",
+            "it": "Il guardiano allenta la mascella e ripone il mantice con rispetto. 'Pochi viaggiatori capiscono quanto sia dura la veglia bianca. Prendi una scodella di questo brodo caldo di radici alpine e queste strisce di carne affumicata. Che il calore del mio fuoco accompagni ogni passo che farai sulla vetta.' Il calore rivitalizza il tuo corpo e dissipa ogni traccia di stanchezza.",
+            "de": "Der Wächter entspannt seinen Kiefer und legt den Blasebalg respektvoll beiseite. „Nur wenige Reisende verstehen, wie hart die weiße Wache ist. Nimm eine Schale dieser heißen Bergwurzelbrühe und diese Streifen geräucherten Wildbrets. Möge die Wärme meines Feuers jeden Schritt begleiten, den du auf dem Gipfel machst.“ Die Wärme belebt deinen Körper und vertreibt jede Spur von Erschöpfung.",
+            "zh": "看守放松了绷紧的下颚，恭敬地放下风箱。「很少有旅人明白这白色的守夜有多艰苦。来一碗这滚烫的高山根茎汤，还有这些烟熏肉条。愿我这炉火的温暖，陪伴你在山顶迈出的每一步。」这份暖意重振了你的身体，驱散了所有的疲惫。",
+            "ja": "番人は険しい表情を緩め、ふいごを敬意を込めて脇に置く。「この白い見張り番の過酷さを理解する旅人は少ない。この熱々の高山根スープと燻製の鹿肉を食べていけ。俺の炉の熱が、山頂で踏み出すお前の一歩一歩に寄り添わんことを」その温もりがお前の体を活力で満たし、疲労のすべてを溶かしていく。"
+        },
+        "next": [
+            "snow01_root"
+        ],
+        "reward": ""
+    },
+    "snow01_opt_fuego": {
+        "type": "option",
+        "text": {
+            "es": "🔥  ¿Cómo mantienes viva la llama con esta ventisca feroz?",
+            "en": "🔥  How do you sustain the flame through this ferocious gale?",
+            "fr": "🔥  Comment gardes-tu la flamme vivante avec ce blizzard féroce ?",
+            "it": "🔥  Come mantieni viva la fiamma con questa bufera feroce?",
+            "de": "🔥  Wie hältst du die Flamme bei diesem heftigen Schneesturm am Leben?",
+            "zh": "🔥  在如此猛烈的暴风雪中，你是怎么让火焰持续燃烧的？",
+            "ja": "🔥  この猛烈な吹雪の中で、どうやって炎を絶やさずにいるんだ？"
+        },
+        "next": [
+            "snow01_msg_fuego"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "snow01_msg_fuego": {
+        "type": "message",
+        "text": {
+            "es": "'Grasa de foca espectral y turba resinosa bendecida por los sabios. El fuego no es solo lumbre: es la única frontera que nos separa de las aberraciones que caminan cuando cae el sol en la nieve helada.' Aprender los principios del control del fuego en climas gélidos potencia tus recursos intelectuales.",
+            "en": "'Spectral seal tallow and resinous peat blessed by sages. Fire is no mere illumination: it is the sole rampart dividing our warm flesh from horrors roaming the drifts when twilight claims the snow.' Learning thermal mastery in subzero climates hones your intellect.",
+            "fr": "« Graisse de phoque spectral et tourbe résineuse bénite par les sages. Le feu n'est pas qu'une simple lueur : c'est la seule frontière qui nous sépare des aberrations qui marchent quand le soleil se couche sur la neige gelée. » Apprendre les principes du contrôle du feu par temps glacial renforce tes ressources intellectuelles.",
+            "it": "'Grasso di foca spettrale e torba resinosa benedetta dai saggi. Il fuoco non è solo luce: è l'unica frontiera che ci separa dalle aberrazioni che camminano quando il sole tramonta sulla neve ghiacciata.' Imparare i principi del controllo del fuoco nei climi gelidi potenzia le tue risorse intellettuali.",
+            "de": "„Fett spektraler Robben und harziger Torf, von Weisen gesegnet. Feuer ist nicht nur Leuchten: es ist die einzige Grenze, die uns von den Abscheulichkeiten trennt, die wandeln, wenn die Sonne über dem gefrorenen Schnee untergeht.“ Die Prinzipien der Feuerbeherrschung in eisigen Klimazonen zu erlernen, stärkt deine intellektuellen Fähigkeiten.",
+            "zh": "「幽灵海豹的脂肪，还有智者祝福过的树脂泥炭。火不仅仅是照明：它是唯一将我们与那些在冰雪上日落时游荡的怪物隔开的屏障。」学习在严寒气候中掌控火焰的原理，增强了你的智力储备。",
+            "ja": "「幻の海豹の脂と、賢者に祝福された樹脂質の泥炭だ。火はただの明かりじゃない。凍った雪の上に夕闇が訪れる時に徘徊する異形の者たちから、我々を隔てる唯一の防壁なのだ」極寒の地における火の統御の原理を学ぶことで、お前の知的資質が磨かれる。"
+        },
+        "next": [
+            "snow01_root"
+        ],
+        "reward": "faceta:inteligencia=+1;heal:25"
+    },
+    "snow01_opt_glaciar": {
+        "type": "option",
+        "text": {
+            "es": "❄️  ¿Qué peligros y secretos se esconden más allá de estas cumbres heladas?",
+            "en": "❄️  What perils and secrets lie buried beyond these frostbound crags?",
+            "fr": "❄️  Quels dangers et secrets se cachent au-delà de ces sommets gelés ?",
+            "it": "❄️  Quali pericoli e segreti si nascondono oltre queste vette ghiacciate?",
+            "de": "❄️  Welche Gefahren und Geheimnisse verbergen sich jenseits dieser eisigen Gipfel?",
+            "zh": "❄️  这些冰封的山峰之外，隐藏着什么样的危险和秘密？",
+            "ja": "❄️  この凍りついた峰々の向こうには、どんな危険と秘密が隠されているんだ？"
+        },
+        "next": [
+            "snow01_msg_glaciar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "snow01_msg_glaciar": {
+        "type": "message",
+        "text": {
+            "es": "'Al este se extienden las aguas que conducen a Celestia, y al sur el mar de arenas ardientes. Pero en estas nieves habita el Yeti Tímido, que huye del ruido, y un Ejército de Muñecos de Nieve encantados que vigilan los pasos glaciares. Quien no tiene valor para encarar la ventisca, muere antes de desenvainar.' Tu temple intrépido se afianza ante los desafíos.",
+            "en": "'Eastward lie waters leading into high Celestia, and southward the roaring dune sea. Yet in these snows dwells the Shy Yeti who shuns clamor, and an enchanted Army of Snowmen guarding glacial gaps. Whoever lacks courage to face the storm perishes before drawing steel.' Your dauntless grit stiffens against trials ahead.",
+            "fr": "« À l'est s'étendent les eaux qui mènent à Celestia, et au sud la mer de sables ardents. Mais dans ces neiges habite le Yéti Timide, qui fuit le bruit, et une Armée de Bonhommes de Neige enchantés qui gardent les cols glaciaires. Celui qui n'a pas le courage d'affronter la tempête meurt avant de dégainer. » Ta bravoure intrépide s'affermit face aux défis.",
+            "it": "'A est si estendono le acque che conducono a Celestia, e a sud il mare di sabbie ardenti. Ma in queste nevi abita lo Yeti Timido, che fugge dal rumore, e un Esercito di Pupazzi di Neve incantati che sorvegliano i passi glaciali. Chi non ha il coraggio di affrontare la bufera muore prima di sguainare.' Il tuo animo intrepido si rafforza di fronte alle sfide.",
+            "de": "„Im Osten erstrecken sich die Gewässer, die nach Celestia führen, und im Süden das Meer glühender Sande. Doch in diesen Schneefeldern wohnt der Schüchterne Yeti, der den Lärm meidet, und eine verzauberte Schneemann-Armee, die die Gletscherpässe bewacht. Wer nicht den Mut hat, dem Sturm zu trotzen, stirbt, bevor er die Klinge zieht.“ Dein unerschrockener Mut festigt sich angesichts der Herausforderungen.",
+            "zh": "「向东是通往塞莱斯提亚的水域，向南是灼热的沙海。但在这片雪地中，居住着害羞的雪怪，它躲避噪音，还有一支守卫冰川隘口的被施了魔法的雪人军团。没有勇气面对暴风雪的人，还没拔剑就已丧命。」你无畏的胆气在挑战面前更加坚定。",
+            "ja": "「東には天上のセレスティアへと続く水路があり、南には燃えるような砂の海がある。だがこの雪の中には騒音を嫌う内気なイエティが住み、氷河の峠を守る魔法の雪だるま軍団がいる。嵐に立ち向かう勇気のない者は、剣を抜く前に息絶える」試練を前に、お前の不屈の胆力が固まっていく。"
+        },
+        "next": [
+            "snow01_root"
+        ],
+        "reward": "faceta:valor=+1;discover:lore_cumbres_nieve"
+    },
+    "snow01_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Gracias por el calor, guardés. Cierro bien la puerta al salir",
+            "en": "🚶  Gratitude for the hearth warmth, warden. Latching the door behind me",
+            "fr": "🚶  Merci pour la chaleur, gardien. Je referme bien la porte en sortant",
+            "it": "🚶  Grazie per il calore, guardiano. Chiudo bene la porta uscendo",
+            "de": "🚶  Danke für die Wärme, Wächter. Ich schließe die Tür beim Rausgehen fest",
+            "zh": "🚶  谢谢你的温暖，守护者。我出去时会把门关好的",
+            "ja": "🚶  暖かさに感謝する、番人よ。出る時はちゃんと扉を閉めておく"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

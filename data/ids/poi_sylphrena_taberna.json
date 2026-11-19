@@ -1,0 +1,33 @@
+{
+    "id": "poi_sylphrena_taberna",
+    "type": "poi",
+    "name": {
+        "es": "La Taberna del Dragón",
+        "en": "The Dragon's Tavern",
+        "fr": "La Taverne du Dragon",
+        "it": "La Taverna del Drago",
+        "de": "Die Drachentaverne",
+        "zh": "飞龙酒馆",
+        "ja": "竜の酒場"
+    },
+    "icon": "🍺",
+    "desc": {
+        "es": "Rumores y bebida",
+        "en": "Rumors and drink",
+        "fr": "Rumeurs et boisson",
+        "it": "Voci e bevande",
+        "de": "Gerüchte und Getränke",
+        "zh": "传闻与美酒",
+        "ja": "噂と酒"
+    },
+    "kind": "tavern",
+    "npc": "tavern",
+    "presences": [
+        {
+            "condition": "default",
+            "actor": "tavern",
+            "entry_node": ""
+        }
+    ],
+    "bg": "bg_city_sylphrena_taberna.png"
+}

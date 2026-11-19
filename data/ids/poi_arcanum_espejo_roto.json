@@ -1,0 +1,26 @@
+{
+    "id": "poi_arcanum_espejo_roto",
+    "type": "poi",
+    "icon": "🪞",
+    "name": {
+        "es": "El Espejo Agrietado",
+        "en": "The Cracked Mirror",
+        "fr": "Le Miroir Fissuré",
+        "it": "Lo Specchio Incrinato",
+        "de": "Der Gesprungene Spiegel",
+        "zh": "裂痕之镜",
+        "ja": "ひび割れた鏡"
+    },
+    "desc": {
+        "es": "Un espejo de cuerpo entero, agrietado, en pie en mitad del páramo, que no siempre refleja a quien se pone delante. (POI de inspección).",
+        "en": "A cracked, full-length mirror standing in the middle of the badlands, that doesn't always reflect whoever stands before it. (Inspection POI).",
+        "fr": "Un miroir en pied fissuré, dressé au milieu des terres désolées, qui ne reflète pas toujours celui qui se tient devant lui. (POI d'inspection).",
+        "it": "Uno specchio a figura intera, incrinato, eretto in mezzo alle terre desolate, che non sempre riflette chi vi si pone davanti. (POI di ispezione).",
+        "de": "Ein gesprungener Ganzkörperspiegel, der mitten im Ödland steht und nicht immer widerspiegelt, wer vor ihm steht. (Inspektions-POI).",
+        "zh": "一面竖立在荒地中央的裂痕全身镜，并非总能映出站在它面前的人。（探查类兴趣点）。",
+        "ja": "荒野の真ん中に立つ、ひびの入った姿見。目の前に立つ者を必ずしも映し出すとは限らない。（調査ポイント）。"
+    },
+    "npc": "poi_arcanum_espejo_roto",
+    "bg": "bg_world_poi_arcanum_espejo_roto.png",
+    "music": "creepy"
+}

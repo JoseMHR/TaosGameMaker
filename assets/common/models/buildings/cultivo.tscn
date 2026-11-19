@@ -1,0 +1,259 @@
+[gd_scene format=3]
+
+[sub_resource type="StandardMaterial3D" id="Mat_Soil"]
+albedo_color = Color(0.24, 0.16, 0.10, 1)
+roughness = 0.95
+
+[sub_resource type="StandardMaterial3D" id="Mat_WoodFrame"]
+albedo_color = Color(0.38, 0.24, 0.14, 1)
+roughness = 0.85
+
+[sub_resource type="StandardMaterial3D" id="Mat_SproutGreen"]
+albedo_color = Color(0.35, 0.82, 0.2, 1)
+roughness = 0.55
+
+[sub_resource type="StandardMaterial3D" id="Mat_MarkerWood"]
+albedo_color = Color(0.58, 0.44, 0.28, 1)
+roughness = 0.8
+
+[sub_resource type="BoxMesh" id="Mesh_BedSoil"]
+size = Vector3(0.85, 0.08, 0.85)
+
+[sub_resource type="PrismMesh" id="Mesh_SoilRidge"]
+size = Vector3(0.22, 0.1, 0.78)
+
+[sub_resource type="BoxMesh" id="Mesh_FrameLong"]
+size = Vector3(0.08, 0.14, 0.96)
+
+[sub_resource type="BoxMesh" id="Mesh_FrameShort"]
+size = Vector3(0.8, 0.14, 0.08)
+
+[sub_resource type="CylinderMesh" id="Mesh_Stem"]
+top_radius = 0.008
+bottom_radius = 0.012
+height = 0.09
+radial_segments = 5
+
+[sub_resource type="SphereMesh" id="Mesh_Leaf"]
+radius = 0.03
+height = 0.015
+
+[sub_resource type="BoxMesh" id="Mesh_MarkerStick"]
+size = Vector3(0.025, 0.22, 0.015)
+
+[sub_resource type="BoxMesh" id="Mesh_MarkerSign"]
+size = Vector3(0.12, 0.08, 0.015)
+
+[node name="Cultivo" type="Node3D"]
+
+[node name="BedSoil" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.04, 0)
+material_override = SubResource("Mat_Soil")
+mesh = SubResource("Mesh_BedSoil")
+
+[node name="Ridge1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.26, 0.11, 0)
+material_override = SubResource("Mat_Soil")
+mesh = SubResource("Mesh_SoilRidge")
+
+[node name="Ridge2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.11, 0)
+material_override = SubResource("Mat_Soil")
+mesh = SubResource("Mesh_SoilRidge")
+
+[node name="Ridge3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.26, 0.11, 0)
+material_override = SubResource("Mat_Soil")
+mesh = SubResource("Mesh_SoilRidge")
+
+[node name="FrameLeft" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.44, 0.07, 0)
+material_override = SubResource("Mat_WoodFrame")
+mesh = SubResource("Mesh_FrameLong")
+
+[node name="FrameRight" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.44, 0.07, 0)
+material_override = SubResource("Mat_WoodFrame")
+mesh = SubResource("Mesh_FrameLong")
+
+[node name="FrameFront" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.07, 0.44)
+material_override = SubResource("Mat_WoodFrame")
+mesh = SubResource("Mesh_FrameShort")
+
+[node name="FrameBack" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.07, -0.44)
+material_override = SubResource("Mat_WoodFrame")
+mesh = SubResource("Mesh_FrameShort")
+
+[node name="Sprout_R1_1" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.26, 0.16, -0.24)
+
+[node name="Stem" type="MeshInstance3D" parent="Sprout_R1_1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.045, 0)
+material_override = SubResource("Mat_SproutGreen")
+mesh = SubResource("Mesh_Stem")
+
+[node name="LeafL" type="MeshInstance3D" parent="Sprout_R1_1"]
+transform = Transform3D(0.866, -0.5, 0, 0.5, 0.866, 0, 0, 0, 1, -0.025, 0.08, 0)
+material_override = SubResource("Mat_SproutGreen")
+mesh = SubResource("Mesh_Leaf")
+
+[node name="LeafR" type="MeshInstance3D" parent="Sprout_R1_1"]
+transform = Transform3D(0.866, 0.5, 0, -0.5, 0.866, 0, 0, 0, 1, 0.025, 0.08, 0)
+material_override = SubResource("Mat_SproutGreen")
+mesh = SubResource("Mesh_Leaf")
+
+[node name="Sprout_R1_2" type="Node3D" parent="."]
+transform = Transform3D(0.866, 0, 0.5, 0, 1, 0, -0.5, 0, 0.866, -0.26, 0.16, 0)
+
+[node name="Stem" type="MeshInstance3D" parent="Sprout_R1_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.045, 0)
+material_override = SubResource("Mat_SproutGreen")
+mesh = SubResource("Mesh_Stem")
+
+[node name="LeafL" type="MeshInstance3D" parent="Sprout_R1_2"]
+transform = Transform3D(0.866, -0.5, 0, 0.5, 0.866, 0, 0, 0, 1, -0.025, 0.08, 0)
+material_override = SubResource("Mat_SproutGreen")
+mesh = SubResource("Mesh_Leaf")
+
+[node name="LeafR" type="MeshInstance3D" parent="Sprout_R1_2"]
+transform = Transform3D(0.866, 0.5, 0, -0.5, 0.866, 0, 0, 0, 1, 0.025, 0.08, 0)
+material_override = SubResource("Mat_SproutGreen")
+mesh = SubResource("Mesh_Leaf")
+
+[node name="Sprout_R1_3" type="Node3D" parent="."]
+transform = Transform3D(0.966, 0, -0.259, 0, 1, 0, 0.259, 0, 0.966, -0.26, 0.16, 0.24)
+
+[node name="Stem" type="MeshInstance3D" parent="Sprout_R1_3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.045, 0)
+material_override = SubResource("Mat_SproutGreen")
+mesh = SubResource("Mesh_Stem")
+
+[node name="LeafL" type="MeshInstance3D" parent="Sprout_R1_3"]
+transform = Transform3D(0.866, -0.5, 0, 0.5, 0.866, 0, 0, 0, 1, -0.025, 0.08, 0)
+material_override = SubResource("Mat_SproutGreen")
+mesh = SubResource("Mesh_Leaf")
+
+[node name="LeafR" type="MeshInstance3D" parent="Sprout_R1_3"]
+transform = Transform3D(0.866, 0.5, 0, -0.5, 0.866, 0, 0, 0, 1, 0.025, 0.08, 0)
+material_override = SubResource("Mat_SproutGreen")
+mesh = SubResource("Mesh_Leaf")
+
+[node name="Sprout_R2_1" type="Node3D" parent="."]
+transform = Transform3D(0.707, 0, 0.707, 0, 1, 0, -0.707, 0, 0.707, 0, 0.16, -0.24)
+
+[node name="Stem" type="MeshInstance3D" parent="Sprout_R2_1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.045, 0)
+material_override = SubResource("Mat_SproutGreen")
+mesh = SubResource("Mesh_Stem")
+
+[node name="LeafL" type="MeshInstance3D" parent="Sprout_R2_1"]
+transform = Transform3D(0.866, -0.5, 0, 0.5, 0.866, 0, 0, 0, 1, -0.025, 0.08, 0)
+material_override = SubResource("Mat_SproutGreen")
+mesh = SubResource("Mesh_Leaf")
+
+[node name="LeafR" type="MeshInstance3D" parent="Sprout_R2_1"]
+transform = Transform3D(0.866, 0.5, 0, -0.5, 0.866, 0, 0, 0, 1, 0.025, 0.08, 0)
+material_override = SubResource("Mat_SproutGreen")
+mesh = SubResource("Mesh_Leaf")
+
+[node name="Sprout_R2_2" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.16, 0)
+
+[node name="Stem" type="MeshInstance3D" parent="Sprout_R2_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.045, 0)
+material_override = SubResource("Mat_SproutGreen")
+mesh = SubResource("Mesh_Stem")
+
+[node name="LeafL" type="MeshInstance3D" parent="Sprout_R2_2"]
+transform = Transform3D(0.866, -0.5, 0, 0.5, 0.866, 0, 0, 0, 1, -0.025, 0.08, 0)
+material_override = SubResource("Mat_SproutGreen")
+mesh = SubResource("Mesh_Leaf")
+
+[node name="LeafR" type="MeshInstance3D" parent="Sprout_R2_2"]
+transform = Transform3D(0.866, 0.5, 0, -0.5, 0.866, 0, 0, 0, 1, 0.025, 0.08, 0)
+material_override = SubResource("Mat_SproutGreen")
+mesh = SubResource("Mesh_Leaf")
+
+[node name="Sprout_R2_3" type="Node3D" parent="."]
+transform = Transform3D(0.866, 0, -0.5, 0, 1, 0, 0.5, 0, 0.866, 0, 0.16, 0.24)
+
+[node name="Stem" type="MeshInstance3D" parent="Sprout_R2_3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.045, 0)
+material_override = SubResource("Mat_SproutGreen")
+mesh = SubResource("Mesh_Stem")
+
+[node name="LeafL" type="MeshInstance3D" parent="Sprout_R2_3"]
+transform = Transform3D(0.866, -0.5, 0, 0.5, 0.866, 0, 0, 0, 1, -0.025, 0.08, 0)
+material_override = SubResource("Mat_SproutGreen")
+mesh = SubResource("Mesh_Leaf")
+
+[node name="LeafR" type="MeshInstance3D" parent="Sprout_R2_3"]
+transform = Transform3D(0.866, 0.5, 0, -0.5, 0.866, 0, 0, 0, 1, 0.025, 0.08, 0)
+material_override = SubResource("Mat_SproutGreen")
+mesh = SubResource("Mesh_Leaf")
+
+[node name="Sprout_R3_1" type="Node3D" parent="."]
+transform = Transform3D(0.966, 0, 0.259, 0, 1, 0, -0.259, 0, 0.966, 0.26, 0.16, -0.24)
+
+[node name="Stem" type="MeshInstance3D" parent="Sprout_R3_1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.045, 0)
+material_override = SubResource("Mat_SproutGreen")
+mesh = SubResource("Mesh_Stem")
+
+[node name="LeafL" type="MeshInstance3D" parent="Sprout_R3_1"]
+transform = Transform3D(0.866, -0.5, 0, 0.5, 0.866, 0, 0, 0, 1, -0.025, 0.08, 0)
+material_override = SubResource("Mat_SproutGreen")
+mesh = SubResource("Mesh_Leaf")
+
+[node name="LeafR" type="MeshInstance3D" parent="Sprout_R3_1"]
+transform = Transform3D(0.866, 0.5, 0, -0.5, 0.866, 0, 0, 0, 1, 0.025, 0.08, 0)
+material_override = SubResource("Mat_SproutGreen")
+mesh = SubResource("Mesh_Leaf")
+
+[node name="Sprout_R3_2" type="Node3D" parent="."]
+transform = Transform3D(0.707, 0, -0.707, 0, 1, 0, 0.707, 0, 0.707, 0.26, 0.16, 0)
+
+[node name="Stem" type="MeshInstance3D" parent="Sprout_R3_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.045, 0)
+material_override = SubResource("Mat_SproutGreen")
+mesh = SubResource("Mesh_Stem")
+
+[node name="LeafL" type="MeshInstance3D" parent="Sprout_R3_2"]
+transform = Transform3D(0.866, -0.5, 0, 0.5, 0.866, 0, 0, 0, 1, -0.025, 0.08, 0)
+material_override = SubResource("Mat_SproutGreen")
+mesh = SubResource("Mesh_Leaf")
+
+[node name="LeafR" type="MeshInstance3D" parent="Sprout_R3_2"]
+transform = Transform3D(0.866, 0.5, 0, -0.5, 0.866, 0, 0, 0, 1, 0.025, 0.08, 0)
+material_override = SubResource("Mat_SproutGreen")
+mesh = SubResource("Mesh_Leaf")
+
+[node name="Sprout_R3_3" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.26, 0.16, 0.24)
+
+[node name="Stem" type="MeshInstance3D" parent="Sprout_R3_3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.045, 0)
+material_override = SubResource("Mat_SproutGreen")
+mesh = SubResource("Mesh_Stem")
+
+[node name="LeafL" type="MeshInstance3D" parent="Sprout_R3_3"]
+transform = Transform3D(0.866, -0.5, 0, 0.5, 0.866, 0, 0, 0, 1, -0.025, 0.08, 0)
+material_override = SubResource("Mat_SproutGreen")
+mesh = SubResource("Mesh_Leaf")
+
+[node name="LeafR" type="MeshInstance3D" parent="Sprout_R3_3"]
+transform = Transform3D(0.866, 0.5, 0, -0.5, 0.866, 0, 0, 0, 1, 0.025, 0.08, 0)
+material_override = SubResource("Mat_SproutGreen")
+mesh = SubResource("Mesh_Leaf")
+
+[node name="MarkerStick" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.966, -0.259, 0, 0.259, 0.966, 0.35, 0.16, 0.35)
+material_override = SubResource("Mat_MarkerWood")
+mesh = SubResource("Mesh_MarkerStick")
+
+[node name="MarkerSign" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.966, -0.259, 0, 0.259, 0.966, 0.35, 0.24, 0.35)
+material_override = SubResource("Mat_MarkerWood")
+mesh = SubResource("Mesh_MarkerSign")

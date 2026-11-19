@@ -1,0 +1,41 @@
+{
+    "name": {
+        "es": "Malla de Aleación",
+        "en": "Alloy Mesh",
+        "fr": "Maille d'Alliage",
+        "it": "Maglia di Lega",
+        "de": "Legierungsgeflecht",
+        "zh": "合金网甲",
+        "ja": "アロイメッシュ"
+    },
+    "desc": {
+        "es": "Armadura de placas de aleación titánica reforzada contra deformación.",
+        "en": "Titanic alloy plate armor reinforced against physical distortion.",
+        "fr": "Armure de plaques d'alliage titanique renforcée contre la déformation.",
+        "it": "Armatura a piastre in lega titanica rinforzata contro la deformazione.",
+        "de": "Titanlegierungsplattenrüstung, verstärkt gegen Verformung.",
+        "zh": "钛合金板甲，经过强化以抵御物理变形。",
+        "ja": "変形に対して強化されたチタン合金プレートアーマー。"
+    },
+    "icon": "🛡️",
+    "category": "equipment",
+    "usable": false,
+    "slot": "armor",
+    "tier": 6,
+    "bonuses": {
+        "vit": 26,
+        "str": 14
+    },
+    "combat": {
+        "phys_defense": 170,
+        "mag_defense": 110
+    },
+    "traits": [
+        {
+            "type": "immune_status",
+            "status": "stun_bleed",
+            "min_refine": 5,
+            "desc": "Inmunidad total a Aturdimiento y Sangrado"
+        }
+    ]
+}

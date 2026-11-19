@@ -1,0 +1,117 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "La Última Puerta",
+            "en": "The Last Door",
+            "fr": "La Dernière Porte",
+            "it": "L'Ultima Porta",
+            "de": "Die Letzte Tür",
+            "zh": "最后一道门",
+            "ja": "最後の扉"
+        },
+        "next": [],
+        "reward": "bg=0.10,0.09,0.07"
+    },
+    "ult_root": {
+        "type": "message",
+        "text": {
+            "es": "Suspendido sobre el vacío, sin marco ni muro, brilla un umbral de luz cálida y dorada, la única fuente de calor de todo el abismo. No sabes qué hay al otro lado, pero algo en tu pecho lo reconoce: no es una salida al mundo de fantasía, sino a la vigilia. A despertar. A vivir con todo lo que ahora recuerdas. La luz no te empuja ni te llama; simplemente espera, paciente, a que seas tú quien decida cruzarla. Todavía no es momento —el Templo del Origen aún te aguarda— pero el umbral estará aquí cuando lo estés.",
+            "en": "Suspended over the void, with no frame or wall, glows a threshold of warm golden light, the only source of heat in the entire abyss. You don't know what lies beyond it, but something in your chest recognizes it: it isn't a way out into the fantasy world, but into waking. Into opening your eyes. Into living with everything you now remember. The light doesn't push you or call you; it simply waits, patient, for you to be the one who decides to cross it. It isn't time yet — the Temple of Origin still awaits you — but the threshold will be here when you are.",
+            "fr": "Suspendu au-dessus du vide, sans cadre ni mur, brille un seuil de lumière chaude et dorée, l'unique source de chaleur de tout l'abîme. Tu ne sais pas ce qu'il y a de l'autre côté, mais quelque chose dans ta poitrine le reconnaît : ce n'est pas une sortie vers le monde du rêve, mais vers la veille. Vers l'ouverture des yeux. Vers le fait de vivre avec tout ce dont tu te souviens maintenant. La lumière ne te pousse ni ne t'appelle ; elle attend simplement, patiente, que ce soit toi qui décides de la franchir. Ce n'est pas encore le moment — le Temple de l'Origine t'attend toujours — mais le seuil sera là quand tu le seras.",
+            "it": "Sospeso sul vuoto, senza cornice né muro, brilla una soglia di luce calda e dorata, l'unica fonte di calore in tutto l'abisso. Non sai cosa ci sia dall'altra parte, ma qualcosa nel tuo petto lo riconosce: non è una via d'uscita verso il mondo di fantasia, ma verso la veglia. Verso l'apertura degli occhi. Verso il vivere con tutto ciò che ora ricordi. La luce non ti spinge né ti chiama; aspetta semplicemente, paziente, che sia tu a decidere di attraversarla. Non è ancora il momento — il Tempio dell'Origine ti attende ancora — ma la soglia sarà qui quando lo sarai tu.",
+            "de": "Über dem Nichts schwebend, ohne Rahmen oder Wand, leuchtet eine Schwelle aus warmem, goldenem Licht, die einzige Wärmequelle im gesamten Abgrund. Du weißt nicht, was auf der anderen Seite ist, aber etwas in deiner Brust erkennt es: Es ist kein Ausgang in die Traumwelt, sondern in das Wachsein. In das Öffnen der Augen. In das Leben mit allem, woran du dich jetzt erinnerst. Das Licht drängt dich nicht und ruft dich nicht; es wartet nur geduldig, dass du derjenige bist, der sich entscheidet, es zu überschreiten. Es ist noch nicht so weit — der Tempel des Ursprungs wartet noch auf dich — aber die Schwelle wird hier sein, wenn du bereit bist.",
+            "zh": "悬浮在虚空之上，没有门框也没有墙壁，一道温暖的金色光之门槛闪耀着，是整个深渊中唯一的热源。你不知道另一边是什么，但你心中的某种东西认出了它：这不是通往幻想世界的出口，而是通往清醒的出口。通往睁开双眼。通往带着你如今所记起的一切去生活。这光既不推你，也不召唤你；它只是耐心地等待着，等你自己决定跨过去。现在还不是时候——本源神庙仍在等着你——但当你准备好时，这道门槛会一直在这里。",
+            "ja": "虚空に浮かび、枠も壁もなく、温かな金色の光の敷居が輝いている。この深淵全体で唯一の熱源だ。その向こうに何があるのかは分からないが、胸の奥の何かがそれを認識している——それは幻想の世界へと通じる出口ではなく、目覚めへの入り口だと。目を開くことへ。今思い出したすべてを抱えて生きることへ。光はお前を押しもせず、呼びもしない。ただ辛抱強く、お前自身がそれを越えると決める時を待っている。まだその時ではない——起源の神殿がまだお前を待っている——だが、お前の準備ができた時、この敷居はここにある。"
+        },
+        "next": [
+            "ult_opt_asomar",
+            "ult_opt_calor",
+            "ult_opt_salir"
+        ],
+        "reward": ""
+    },
+    "ult_opt_asomar": {
+        "type": "option",
+        "text": {
+            "es": "🌅  Asomarte un instante a la luz sin cruzarla",
+            "en": "🌅  Lean into the light for an instant without crossing",
+            "fr": "🌅  T'approcher un instant de la lumière sans la franchir",
+            "it": "🌅  Affacciarti un istante alla luce senza attraversarla",
+            "de": "🌅  Dich einen Moment ins Licht lehnen, ohne hindurchzugehen",
+            "zh": "🌅  向光靠近片刻，但不跨过去",
+            "ja": "🌅  越えることなく、一瞬だけ光に身を寄せる"
+        },
+        "next": [
+            "ult_msg_asomar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "ult_msg_asomar": {
+        "type": "message",
+        "text": {
+            "es": "Acercas la cara al umbral y dejas que la luz te bañe un momento. Al otro lado atisbas fragmentos: una ventana con sol de mañana, la mano cansada de un amigo sobre la tuya, el olor a café de hospital, la promesa borrosa de que el dolor, aunque no se va, se puede aprender a sostener. No es el paraíso. Es algo mejor y más difícil: es seguir. Te apartas de la luz sabiendo que, cuando llegue el momento, tendrás el valor de cruzarla.",
+            "en": "You bring your face to the threshold and let the light bathe you a moment. Beyond it you glimpse fragments: a window with morning sun, the tired hand of a friend on yours, the smell of hospital coffee, the blurry promise that pain, though it doesn't leave, can be learned to be borne. It isn't paradise. It's something better and harder: it's going on. You pull away from the light knowing that, when the moment comes, you'll have the courage to cross it.",
+            "fr": "Tu approches ton visage du seuil et laisses la lumière te baigner un moment. De l'autre côté, tu entrevois des fragments : une fenêtre baignée de soleil matinal, la main fatiguée d'un ami sur la tienne, l'odeur du café d'hôpital, la promesse floue que la douleur, bien qu'elle ne parte pas, peut s'apprendre à porter. Ce n'est pas le paradis. C'est quelque chose de mieux et de plus difficile : c'est continuer. Tu t'éloignes de la lumière en sachant que, quand le moment viendra, tu auras le courage de la franchir.",
+            "it": "Avvicini il viso alla soglia e lasci che la luce ti bagni per un momento. Dall'altra parte intravedi frammenti: una finestra col sole del mattino, la mano stanca di un amico sulla tua, l'odore del caffè d'ospedale, la promessa sfocata che il dolore, anche se non se ne va, si può imparare a sostenere. Non è il paradiso. È qualcosa di meglio e più difficile: è andare avanti. Ti allontani dalla luce sapendo che, quando arriverà il momento, avrai il coraggio di attraversarla.",
+            "de": "Du näherst dein Gesicht der Schwelle und lässt das Licht dich einen Moment baden. Auf der anderen Seite erhaschst du Fragmente: ein Fenster mit Morgensonne, die müde Hand eines Freundes auf deiner, der Geruch von Krankenhauskaffee, das verschwommene Versprechen, dass Schmerz, auch wenn er nicht vergeht, ertragen werden kann. Es ist nicht das Paradies. Es ist etwas Besseres und Schwierigeres: es ist Weitergehen. Du entfernst dich vom Licht, wissend, dass du, wenn der Moment kommt, den Mut haben wirst, es zu durchschreiten.",
+            "zh": "你把脸靠近门槛，让光沐浴自己片刻。在另一边，你瞥见了一些片段：一扇洒满晨光的窗户，一位朋友疲惫的手放在你手上，医院咖啡的气味，还有一个模糊的承诺——痛苦虽不会消失，却可以学着承受。这不是天堂。这是更好也更艰难的东西：是继续前行。你从光中退开，知道当那一刻到来时，自己会有勇气跨过它。",
+            "ja": "顔を敷居に近づけ、しばらく光に身を浸す。その向こうに断片が垣間見える——朝日が差し込む窓、自分の手に重なる友の疲れた手、病院のコーヒーの匂い、痛みは消えなくとも、それを抱えて生きることを学べるという曖昧な約束。それは楽園ではない。もっと良く、もっと難しい何かだ——それは、前へ進み続けるということ。光から身を引き、その時が来れば自分にはそれを越える勇気があるとわかりながら。"
+        },
+        "next": [
+            "ult_opt_salir"
+        ],
+        "reward": "faceta:valor=+1;faceta:cordura=+1;gflag:ult_asomado",
+        "condition": "no_gflag(\"ult_asomado\")",
+        "once": true
+    },
+    "ult_opt_calor": {
+        "type": "option",
+        "text": {
+            "es": "🤲  Calentarte las manos en su resplandor un rato",
+            "en": "🤲  Warm your hands in its glow for a while",
+            "fr": "🤲  Réchauffer tes mains dans sa lueur un moment",
+            "it": "🤲  Scaldarti le mani al suo bagliore per un po'",
+            "de": "🤲  Deine Hände eine Weile in ihrem Schein wärmen",
+            "zh": "🤲  在它的光辉中暖手片刻",
+            "ja": "🤲  しばらくその輝きで手を温める"
+        },
+        "next": [
+            "ult_msg_calor"
+        ],
+        "reward": ""
+    },
+    "ult_msg_calor": {
+        "type": "message",
+        "text": {
+            "es": "Extiendes las manos hacia la luz, como ante una hoguera en mitad de la noche más fría. El calor te devuelve poco a poco la sensación de ser una persona y no solo una culpa andante. En ese resplandor no oyes reproches ni pitidos de máquina: solo un silencio amable que parece decirte 'no tienes que resolverlo todo hoy; basta con que no te apagues'. Te quedas un rato, simplemente respirando, antes de seguir tu camino hacia el Templo.",
+            "en": "You stretch your hands toward the light, as if before a bonfire in the coldest night. The warmth slowly gives you back the feeling of being a person and not just a walking guilt. In that glow you hear no reproaches, no machine beeps: only a kind silence that seems to tell you 'you don't have to solve it all today; it's enough that you don't go out'. You stay a while, simply breathing, before continuing your way toward the Temple.",
+            "fr": "Tu tends les mains vers la lumière, comme devant un feu de camp au cœur de la nuit la plus froide. La chaleur te redonne peu à peu le sentiment d'être une personne et non seulement une culpabilité ambulante. Dans cette lueur, tu n'entends ni reproches ni bips de machine : seulement un silence bienveillant qui semble te dire « tu n'as pas à tout résoudre aujourd'hui ; il suffit que tu ne t'éteignes pas ». Tu restes un moment, simplement à respirer, avant de poursuivre ta route vers le Temple.",
+            "it": "Tendi le mani verso la luce, come davanti a un fuoco nel mezzo della notte più fredda. Il calore ti restituisce a poco a poco la sensazione di essere una persona e non solo una colpa ambulante. In quel bagliore non senti rimproveri né bip di macchine: solo un silenzio gentile che sembra dirti 'non devi risolvere tutto oggi; basta che tu non ti spenga'. Rimani un po', semplicemente respirando, prima di proseguire il tuo cammino verso il Tempio.",
+            "de": "Du streckst die Hände dem Licht entgegen, wie vor einem Lagerfeuer in der kältesten Nacht. Die Wärme gibt dir nach und nach das Gefühl zurück, ein Mensch zu sein und nicht nur eine wandelnde Schuld. In diesem Schein hörst du keine Vorwürfe, kein Maschinenpiepen: nur eine freundliche Stille, die dir zu sagen scheint „du musst nicht heute alles lösen; es reicht, dass du nicht erlischst“. Du bleibst eine Weile, atmest einfach, bevor du deinen Weg zum Tempel fortsetzt.",
+            "zh": "你伸出双手迎向那光，仿佛置身于最寒冷夜晚中的一堆篝火前。温暖渐渐让你重新找回身为一个人的感觉，而不仅仅是行走的愧疚。在那光辉中，你听不到任何责备，也听不到机器的滴答声：只有一种和善的寂静，似乎在对你说「你不必今天解决一切；只要你不熄灭就够了」。你停留片刻，只是呼吸着，然后才继续踏上前往神庙的路。",
+            "ja": "最も寒い夜の焚き火の前にいるかのように、光へと両手を伸ばす。温もりが少しずつ、自分が単なる歩く罪悪感ではなく、一人の人間であるという感覚を取り戻させてくれる。その輝きの中では、非難の声も機械の電子音も聞こえない。ただ優しい静寂だけが、「今日すべてを解決する必要はない、消えてしまわなければそれでいい」と語りかけてくるようだ。しばらくの間、ただ呼吸をしながらそこに留まり、それから神殿への道を再び歩き出す。"
+        },
+        "next": [
+            "ult_root"
+        ],
+        "reward": ""
+    },
+    "ult_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Alejarte del umbral (aún no es la hora)",
+            "en": "🚶  Step away from the threshold (it isn't time yet)",
+            "fr": "🚶  S'éloigner du seuil (ce n'est pas encore l'heure)",
+            "it": "🚶  Allontanarsi dalla soglia (non è ancora il momento)",
+            "de": "🚶  Sich von der Schwelle entfernen (es ist noch nicht so weit)",
+            "zh": "🚶  离开门槛（现在还不是时候）",
+            "ja": "🚶  敷居から離れる（まだその時ではない）"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

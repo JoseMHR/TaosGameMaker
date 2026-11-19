@@ -1,0 +1,26 @@
+{
+    "id": "poi_final_columpio",
+    "type": "poi",
+    "icon": "🌉",
+    "name": {
+        "es": "El Columpio Vacío",
+        "en": "The Empty Swing",
+        "fr": "La Balançoire Vide",
+        "it": "L'Altalena Vuota",
+        "de": "Die Leere Schaukel",
+        "zh": "空荡的秋千",
+        "ja": "誰もいないブランコ"
+    },
+    "desc": {
+        "es": "Un columpio infantil que se balancea solo, con un ritmo suave, en un rincón silencioso del abismo. (POI de inspección).",
+        "en": "A child's swing that sways on its own, gently, in a silent corner of the abyss. (Inspection POI).",
+        "fr": "Une balançoire d'enfant qui se balance seule, d'un rythme doux, dans un coin silencieux de l'abîme. (POI d'inspection).",
+        "it": "Un'altalena infantile che oscilla da sola, con un ritmo dolce, in un angolo silenzioso dell'abisso. (POI di ispezione).",
+        "de": "Eine Kinderschaukel, die sich sanft von selbst bewegt, in einer stillen Ecke des Abgrunds. (Inspektions-POI).",
+        "zh": "深渊寂静的角落里，一架儿童秋千正自顾自地轻轻摇晃。（探查类兴趣点）。",
+        "ja": "深淵の静かな片隅で、独りでに穏やかに揺れる子ども用ブランコ。（調査ポイント）。"
+    },
+    "npc": "poi_final_columpio",
+    "bg": "bg_world_poi_final_columpio.png",
+    "music": "creepy"
+}

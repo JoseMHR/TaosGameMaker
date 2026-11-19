@@ -1,0 +1,4488 @@
+{
+    "id": "dun_final",
+    "ambient_energy": 0.45,
+    "music": "orb_room",
+    "sky": "night_sky",
+    "ambient_color": "#0c0820",
+    "fill_light": 0.3,
+    "name": {
+        "es": "Templo del Origen 1",
+        "en": "Temple of Origin - Stellar Ascension",
+        "fr": "Temple de l'Origine - Ascension Stellaire",
+        "it": "Tempio dell'Origine - Ascensione Stellare",
+        "de": "Tempel des Ursprungs - Sternenaufstieg",
+        "zh": "起源神庙——星辰飞升",
+        "ja": "起源の神殿——星の昇天"
+    },
+    "fog": true,
+    "spawn": {
+        "y": 18,
+        "f": 0,
+        "x": 10
+    },
+    "wall_height": 4,
+    "portals": {
+        "entry": {
+            "spawn": {
+                "y": 18,
+                "f": 0,
+                "x": 10
+            }
+        }
+    },
+    "floors": [
+        {
+            "w": 21,
+            "name": "Planta 0: Islas del Vacio",
+            "cells": [
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "h": 1.2,
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "wall",
+                        "h": 1.2,
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "h": 1.2,
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "wall",
+                        "h": 1.2,
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "h": 1.2,
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "wall",
+                        "h": 1.2,
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "grab_ring"
+                    },
+                    {
+                        "to": {
+                            "y": 16,
+                            "f": 1,
+                            "x": 10
+                        },
+                        "t": "stairs",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "grab_ring"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "grab_ring"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "h": 1.2,
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "wall",
+                        "h": 1.2,
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "grab_ring"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "h": 1.2,
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "wall",
+                        "h": 1.2,
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "grab_ring"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "grab_ring"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "h": 1.2,
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "h": 1.2,
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "grab_ring"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "wall",
+                        "h": 1.2,
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "wall",
+                        "h": 1.2,
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "h": 1.2,
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "wall",
+                        "h": 1.2,
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "h": 1.2,
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "wall",
+                        "h": 1.2,
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ]
+            ],
+            "h": 21
+        },
+        {
+            "w": 21,
+            "name": "Planta 1: Terrazas Astrales",
+            "cells": [
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "h": 1.2,
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "wall",
+                        "h": 1.2,
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "h": 2,
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "wall",
+                        "h": 2,
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "h": 2,
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "wall",
+                        "h": 2,
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "lava"
+                    },
+                    {
+                        "t": "lava"
+                    },
+                    {
+                        "t": "lava"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "h": 1.2,
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "wall",
+                        "h": 1.2,
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "to": {
+                            "y": 4,
+                            "f": 0,
+                            "x": 10
+                        },
+                        "t": "stairs",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "h": 1.2,
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "wall",
+                        "h": 1.2,
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ]
+            ],
+            "h": 21
+        },
+        {
+            "w": 21,
+            "name": "Planta 2: Altar del Cosmos",
+            "cells": [
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "h": 3,
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "wall",
+                        "h": 3,
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "to": {
+                            "y": 18,
+                            "dungeon": "dun_final_2",
+                            "f": 0,
+                            "x": 10
+                        },
+                        "t": "teleport"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "monster",
+                        "level": 48,
+                        "ref": "guardian_celeste",
+                        "boss": true
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "lava"
+                    },
+                    {
+                        "t": "lava"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "lava"
+                    },
+                    {
+                        "t": "lava"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "lava"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "lava"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "lava"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "h": 3,
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "tex": "tex_crystal_floor",
+                        "t": "floor"
+                    },
+                    {
+                        "t": "wall",
+                        "h": 3,
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ]
+            ],
+            "h": 21
+        }
+    ],
+    "theme": "crystal_sanctum",
+    "ceiling": false,
+    "cell_size": 4
+}

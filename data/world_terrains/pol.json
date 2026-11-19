@@ -1,0 +1,21 @@
+{
+	"code": "pol",
+	"order": 9,
+	"label": "Contaminación",
+	"color": "#22c55e",
+	"icon": "☣️",
+	"biome_color": "#1b4d1b",
+	"description": "Suelo contaminado con radiación arcana; envenena y drena vida periódicamente.",
+	"walkable": true,
+	"damage": 5,
+	"damage_interval": 1.0,
+	"poison_duration": 5.0,
+	"speed_mult": 0.75,
+	"texture": "res://assets/world/map/tile_contaminacion.png",
+	"tint": "#77dd55",
+	"roughness": 0.35,
+	"emission": "#00ff44",
+	"emission_energy": 1.2,
+	"emission_pulse": 0.8,
+	"blendable": true
+}

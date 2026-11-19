@@ -1,0 +1,5371 @@
+{
+    "name": {
+        "es": "El Sendero del Psíquico",
+        "en": "The Psychic's Path",
+        "fr": "Le Sentier du Psychique",
+        "it": "Il Sentiero dello Psichico",
+        "de": "Der Pfad des Hellsehers",
+        "zh": "灵能者之路",
+        "ja": "超能力者の道"
+    },
+    "theme": "crystal_sanctum",
+    "boss": "temple_boss_psychic",
+    "boss_level": 10,
+    "music": "sendero_sanctuary",
+    "cell_size": 4,
+    "wall_height": 4,
+    "ceiling": false,
+    "sky": "psychic",
+    "fog": true,
+    "ambient_energy": 0.5,
+    "ambient_color": "#120824",
+    "fill_light": 0.25,
+    "spawn": {
+        "f": 0,
+        "x": 17,
+        "y": 28
+    },
+    "portals": {
+        "west": {
+            "spawn": {
+                "f": 0,
+                "x": 17,
+                "y": 28
+            }
+        },
+        "east": {
+            "spawn": {
+                "f": 0,
+                "x": 17,
+                "y": 12
+            }
+        }
+    },
+    "floors": [
+        {
+            "name": "Sanctum Psíquico",
+            "w": 35,
+            "h": 41,
+            "cells": [
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "grab_ring"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "grab_column"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "grab_ring"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "grab_ring"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "grab_column"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "grab_ring"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "teleport",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "monster",
+                        "boss": true,
+                        "ref": "temple_boss_psychic",
+                        "level": 10,
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "grab_ring"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "grab_ring"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "grab_column"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "grab_column"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "grab_ring"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "grab_ring"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "grab_column"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "grab_ring"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "grab_column"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "grab_column"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "grab_column"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "grab_ring"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "grab_column"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "grab_ring"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "grab_ring"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "teleport",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "grab_column"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "grab_column"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "grab_column"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "grab_column"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "grab_column"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "grab_column"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "grab_column"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "grab_column"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_crystal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_crystal_wall"
+                    }
+                ]
+            ]
+        }
+    ],
+    "tutorial_skill": "psychic_grab",
+    "complete_event": "tut_psychic_done",
+    "tex_wall": "tex_crystal_wall",
+    "tex_floor": "tex_crystal_floor",
+    "void_type": "abyss"
+}

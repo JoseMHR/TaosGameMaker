@@ -1,0 +1,266 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "Tariq el Nómada",
+            "en": "Tariq the Nomad",
+            "fr": "Tariq le Nomade",
+            "it": "Tariq il Nomade",
+            "de": "Tariq der Nomade",
+            "zh": "游牧民塔里克",
+            "ja": "遊牧民タリク"
+        },
+        "next": [],
+        "reward": "avatar=🐫;bg=0.15,0.12,0.04"
+    },
+    "tar_done": {
+        "type": "message",
+        "text": {
+            "es": "¡Por fin, agua fresca del oasis del norte! Toma, amigo, esto es lo mínimo que un nómada agradecido puede ofrecerte: un amuleto tallado con el sol de las dunas. Que te proteja del frío y del calor por igual.",
+            "en": "At last, cool water from the northern oasis! Here, friend, this is the least a grateful nomad can offer: an amulet carved with the desert sun. May it shield you from both cold and heat alike.",
+            "fr": "Enfin, de l'eau fraîche de l'oasis du nord ! Tiens, mon ami, c'est le moins qu'un nomade reconnaissant puisse t'offrir : une amulette sculptée avec le soleil des dunes. Qu'elle te protège du froid comme de la chaleur.",
+            "it": "Finalmente, acqua fresca dall'oasi del nord! Tieni, amico, questo è il minimo che un nomade riconoscente possa offrirti: un amuleto scolpito con il sole delle dune. Che ti protegga dal freddo e dal caldo allo stesso modo.",
+            "de": "Endlich, kühles Wasser aus der nördlichen Oase! Hier, Freund, das ist das Mindeste, was ein dankbarer Nomade dir anbieten kann: ein Amulett, geschnitzt mit der Dünensonne. Möge es dich gleichermaßen vor Kälte und Hitze schützen.",
+            "zh": "终于，来自北方绿洲的清凉之水！拿去吧，朋友，这是一个心怀感激的游牧民能给你的最起码的东西：一枚刻着沙丘之阳的护身符。愿它同样护你抵御寒冷与酷热。",
+            "ja": "ついに、北のオアシスの冷たい水だ！これを受け取れ、友よ、感謝する遊牧民が贈れる最低限のものだ——砂丘の太陽が彫られたお守りだ。寒さからも暑さからも、等しくお前を守ってくれるように。"
+        },
+        "next": [
+            "tar_done_ok"
+        ],
+        "reward": "-item:bebida_refrescante=2;gflag:nomada_sediento_done;item:amuleto_sol=1;faceta:amabilidad=+2",
+        "condition": "has_flag(\"nomada_sediento_accepted\") and has_item(\"bebida_refrescante\", 2) and no_gflag(\"nomada_sediento_done\")",
+        "once": true
+    },
+    "tar_done_ok": {
+        "type": "option",
+        "text": {
+            "es": "🙏  Que las dunas te sean leves",
+            "en": "🙏  May the dunes lie easy on you",
+            "fr": "🙏  Que les dunes te soient légères",
+            "it": "🙏  Che le dune ti siano leggere",
+            "de": "🙏  Mögen die Dünen dir leicht sein",
+            "zh": "🙏  愿沙丘轻抚你的旅途",
+            "ja": "🙏  砂丘がお前に優しくあらんことを"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "tar_waiting": {
+        "type": "message",
+        "text": {
+            "es": "El sol me ha secado la garganta hasta el alma. Si encuentras algo refrescante por ahí... dos bebidas bastarían para devolverme a la vida.",
+            "en": "The sun has dried my throat down to the soul. If you find something refreshing out there... two drinks would bring me back to life.",
+            "fr": "Le soleil m'a asséché la gorge jusqu'à l'âme. Si tu trouves quelque chose de rafraîchissant par là... deux boissons suffiraient à me ramener à la vie.",
+            "it": "Il sole mi ha seccato la gola fino all'anima. Se trovi qualcosa di rinfrescante da quelle parti... due bevande basterebbero a riportarmi in vita.",
+            "de": "Die Sonne hat mir die Kehle bis zur Seele ausgetrocknet. Wenn du dort draußen etwas Erfrischendes findest... zwei Getränke würden mich zurück ins Leben bringen.",
+            "zh": "太阳把我的喉咙都晒干到了灵魂深处。如果你能在外面找到点清凉的东西……两瓶饮料就足以让我起死回生。",
+            "ja": "太陽が魂の奥まで喉を干からびさせた。もしどこかで冷たいものを見つけたら……二杯の飲み物があれば俺は生き返る。"
+        },
+        "next": [
+            "tar_waiting_ok"
+        ],
+        "reward": "",
+        "condition": "has_flag(\"nomada_sediento_accepted\") and no_gflag(\"nomada_sediento_done\")"
+    },
+    "tar_waiting_ok": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Te traeré algo",
+            "en": "🚶  I'll bring you something",
+            "fr": "🚶  Je vais t'apporter quelque chose",
+            "it": "🚶  Ti porterò qualcosa",
+            "de": "🚶  Ich bringe dir etwas",
+            "zh": "🚶  我去给你带点东西",
+            "ja": "🚶  何か持ってこよう"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "tar_offer": {
+        "type": "message",
+        "text": {
+            "es": "Uf... el pozo del oasis se ha secado antes de tiempo este año, y mi garganta lo nota. Si pasas por la Cantina del Espejismo, tal vez Farid tenga algo frío que compartir con un viejo nómada sediento.",
+            "en": "Ugh... the oasis well dried up early this year, and my throat knows it. If you pass by the Mirage Cantina, maybe Farid has something cold to spare for a thirsty old nomad.",
+            "fr": "Ouf... le puits de l'oasis s'est asséché en avance cette année, et ma gorge le sait. Si tu passes par la Cantine du Mirage, peut-être que Farid aura quelque chose de frais à partager avec un vieux nomade assoiffé.",
+            "it": "Uff... il pozzo dell'oasi si è prosciugato in anticipo quest'anno, e la mia gola lo sa. Se passi per la Cantina del Miraggio, forse Farid ha qualcosa di fresco da condividere con un vecchio nomade assetato.",
+            "de": "Uff... der Oasenbrunnen ist dieses Jahr früh ausgetrocknet, und meine Kehle spürt es. Wenn du an der Fata-Morgana-Kantine vorbeikommst, hat Farid vielleicht etwas Kaltes für einen durstigen alten Nomaden übrig.",
+            "zh": "唉……今年绿洲的井提前干涸了，我的喉咙深有体会。如果你路过海市蜃楼小酒馆，也许法里德会有点冷饮分给一个口渴的老游牧民。",
+            "ja": "はぁ……今年はオアシスの井戸が早々に枯れてしまい、俺の喉もそれを思い知っている。蜃気楼食堂を通りかかったら、ファリドが喉の渇いた老遊牧民に何か冷たいものを分けてくれるかもしれない。"
+        },
+        "next": [
+            "tar_offer_ask",
+            "tar_offer_no"
+        ],
+        "reward": "",
+        "condition": "no_flag(\"nomada_sediento_accepted\")"
+    },
+    "tar_offer_ask": {
+        "type": "option",
+        "text": {
+            "es": "🥤  Te traeré 2 bebidas refrescantes",
+            "en": "🥤  I'll bring you 2 refreshing drinks",
+            "fr": "🥤  Je t'apporterai 2 boissons rafraîchissantes",
+            "it": "🥤  Ti porterò 2 bevande rinfrescanti",
+            "de": "🥤  Ich bringe dir 2 erfrischende Getränke",
+            "zh": "🥤  我会给你带来2瓶清凉饮料",
+            "ja": "🥤  冷たい飲み物を二つ持ってこよう"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "flag:nomada_sediento_accepted"
+    },
+    "tar_offer_no": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Ahora no puedo",
+            "en": "🚶  I can't right now",
+            "fr": "🚶  Je ne peux pas maintenant",
+            "it": "🚶  Ora non posso",
+            "de": "🚶  Jetzt kann ich nicht",
+            "zh": "🚶  我现在没空",
+            "ja": "🚶  今は無理だ"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "tar_1": {
+        "type": "message",
+        "text": {
+            "es": "La arena canta cuando el viento cambia de rumbo. En este oasis las almas sedientas encuentran paz.",
+            "en": "The sand sings when the wind shifts. In this oasis thirsty souls find peace.",
+            "fr": "Le sable chante quand le vent change de direction. Dans cette oasis, les âmes assoiffées trouvent la paix.",
+            "it": "La sabbia canta quando il vento cambia direzione. In questa oasi le anime assetate trovano pace.",
+            "de": "Der Sand singt, wenn der Wind die Richtung wechselt. In dieser Oase finden durstige Seelen Frieden.",
+            "zh": "当风向转变时，沙子会歌唱。在这片绿洲中，干渴的灵魂能找到平静。",
+            "ja": "風向きが変わると砂が歌う。このオアシスでは、渇いた魂が安らぎを見出す。"
+        },
+        "next": [
+            "tar_opt_espejismo",
+            "tar_opt_estrellas",
+            "tar_1a",
+            "tar_1b"
+        ],
+        "reward": ""
+    },
+    "tar_1a": {
+        "type": "option",
+        "text": {
+            "es": "🏜️  ¿Conoces los misterios de las dunas?",
+            "en": "🏜️  Do you know the dune mysteries?",
+            "fr": "🏜️  Connais-tu les mystères des dunes ?",
+            "it": "🏜️  Conosci i misteri delle dune?",
+            "de": "🏜️  Kennst du die Geheimnisse der Dünen?",
+            "zh": "🏜️  你了解沙丘的奥秘吗？",
+            "ja": "🏜️  砂丘の神秘を知っているか？"
+        },
+        "next": [
+            "tar_misterios"
+        ],
+        "reward": ""
+    },
+    "tar_misterios": {
+        "type": "message",
+        "text": {
+            "es": "Bajo las dunas yacen ruinas de civilizaciones olvidadas... y la Mazmorra del Desierto aguarda a quienes se atreven. Se dice que algo ahí abajo sigue vivo, esperando el calor adecuado para despertar.",
+            "en": "Beneath the dunes lie ruins of forgotten civilizations... and the Desert Dungeon awaits the daring. They say something down there is still alive, waiting for the right warmth to awaken.",
+            "fr": "Sous les dunes gisent les ruines de civilisations oubliées... et la Mazmorra du Désert attend ceux qui osent. On dit que quelque chose là-dessous est toujours vivant, attendant la bonne chaleur pour s'éveiller.",
+            "it": "Sotto le dune giacciono le rovine di civiltà dimenticate... e la Prigione del Deserto attende chi osa. Si dice che qualcosa laggiù sia ancora vivo, in attesa del giusto calore per svegliarsi.",
+            "de": "Unter den Dünen liegen Ruinen vergessener Zivilisationen... und der Wüstenkerker wartet auf die Wagemutigen. Man sagt, dort unten sei etwas noch am Leben und warte auf die richtige Wärme, um zu erwachen.",
+            "zh": "沙丘之下埋藏着被遗忘文明的遗迹……沙漠地牢正等待着敢于冒险的人。据说下面有某种东西依然活着，正等待着合适的暖意将它唤醒。",
+            "ja": "砂丘の下には忘れられた文明の遺跡が眠っている……そして砂漠のダンジョンが、勇気ある者を待っている。あそこには今も何かが生きていて、目覚めるにふさわしい暖かさを待っていると言われている。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "tar_1b": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Que tengas buen descanso",
+            "en": "🚶  Have a restful stay",
+            "fr": "🚶  Repose-toi bien",
+            "it": "🚶  Riposa bene",
+            "de": "🚶  Erhole dich gut",
+            "zh": "🚶  祝你好好休息",
+            "ja": "🚶  ゆっくり休んでくれ"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "tar_opt_espejismo": {
+        "type": "option",
+        "text": {
+            "es": "🐫  ¿Alguna vez has visto un espejismo que casi te hiciera perder el juicio?",
+            "en": "🐫  Ever witnessed a mirage that nearly made you lose your head?",
+            "fr": "🐫  As-tu déjà vu un mirage qui a failli te faire perdre la tête ?",
+            "it": "🐫  Hai mai visto un miraggio che ha quasi rischiato di farti perdere la ragione?",
+            "de": "🐫  Hast du je eine Fata Morgana gesehen, die dich fast um den Verstand brachte?",
+            "zh": "🐫  你见过差点让你丧失理智的海市蜃楼吗？",
+            "ja": "🐫  正気を失いそうになるほどの蜃気楼を見たことはあるか？"
+        },
+        "next": [
+            "tar_msg_espejismo"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "tar_msg_espejismo": {
+        "type": "message",
+        "text": {
+            "es": "Tariq se acaricia la barba blanca y suelta una risotada ronca: '¡Por las arenas ardientes, sí! Tras tres días extraviado sin cantimplora, juré ver un palacio flotante donde garzas con pajarita servían sorbetes helados de granada en copas de cristal. Me arrojé de cabeza gritando de gozo... y aterricé de boca contra el lomo de mi camello Babur, que se estaba revolcando en una duna. El animal me miró con una mezcla de lástima y desprecio que aún me escuece.'",
+            "en": "Tariq strokes his weathered beard and lets out a gravelly chuckle: 'By the blazing dunes, aye! After three days lost without a waterskin, I swore I saw a floating palace where herons in bowties served chilled pomegranate sherbet in crystal goblets. I lunged headfirst hollering with joy... and faceplanted straight into the belly of Babur, my camel, who was rolling in the dust. The beast gave me a look of pure pity and disgust that stings to this day.'",
+            "fr": "Tariq caresse sa barbe blanchie et pousse un rire rocailleux : « Par les sables brûlants, oui ! Après trois jours égaré sans gourde, j'ai juré voir un palais flottant où des hérons en nœud papillon servaient des sorbets à la grenade glacés dans des verres en cristal. J'ai plongé la tête la première en hurlant de joie... et j'ai atterri en plein sur le dos de mon chameau Babur, qui se roulait dans la poussière. La bête m'a jeté un regard mêlé de pitié et de mépris qui me brûle encore. »",
+            "it": "Tariq si accarezza la barba brizzolata e lascia andare una risata roca: 'Per le sabbie ardenti, sì! Dopo tre giorni disperso senz'acqua, avrei giurato di vedere un palazzo volante dove aironi con il papillon servivano sorbetti di melograno ghiacciati in coppe di cristallo. Mi ci sono fiondato a capofitto urlando di gioia... e sono atterrato con la faccia contro la schiena di Babur, il mio cammello, che si stava rotolando nella polvere. La bestia mi ha guardato con un misto di compassione e disgusto che brucia ancora.'",
+            "de": "Tariq streicht über seinen wettergegerbten Bart und stößt ein heiseres Glucksen aus: „Bei den brennenden Dünen, ja! Nach drei Tagen ohne Wasserschlauch schwor ich, einen schwebenden Palast zu sehen, in dem Reiher mit Fliege eiskaltes Granatapfelsorbet in Kristallgläsern servierten. Ich stürzte mich kopfüber jubelnd hinein... und landete mit dem Gesicht voran auf dem Bauch meines Kamels Babur, das sich im Staub wälzte. Das Tier sah mich mit einer Mischung aus Mitleid und Verachtung an, die mich bis heute wurmt.“",
+            "zh": "塔里克抚弄着白须，发出一阵沙哑的大笑：「以滚烫的黄沙起誓，确实见过！在断水迷路三天后，我发誓看到了一座漂浮的宫殿，戴着领结的苍鹭在水晶杯里端上冰镇石榴雪葩。我欢呼着一头扎了过去……结果整张脸直接撞在我那头正在沙坑里打滚的骆驼巴布尔肚子上。那畜生用一种交织着同情与鄙视的眼神看着我，至今想起来还让我臊得慌。」",
+            "ja": "タリクは白髭を撫で、しわがれた声で大笑いする。「灼熱の砂にかけて、あるとも！水筒なしで三日彷徨った後、蝶ネクタイを締めたサギたちが水晶の杯で冷えたザクロのシャーベットを給仕する宙に浮く宮殿を見たんだ。歓喜の叫びを上げて頭から飛び込んだら……砂煙の中で転がっていた愛ラクダのバブールの腹に顔面から激突した。あの獣が向けた哀れみと軽蔑の混ざった目は、今でも忘れられんよ」"
+        },
+        "next": [
+            "tar_1"
+        ],
+        "reward": "faceta:cordura=+1"
+    },
+    "tar_opt_estrellas": {
+        "type": "option",
+        "text": {
+            "es": "⭐  ¿Cómo os orientáis los nómadas cuando la tormenta borra las sendas?",
+            "en": "⭐  How do nomads navigate when sandstorms erase all paths?",
+            "fr": "⭐  Comment vous orientez-vous quand les tempêtes de sable effacent les pistes ?",
+            "it": "⭐  Come vi orientate voi nomadi quando le tempeste di sabbia cancellano le piste?",
+            "de": "⭐  Wie orientieren sich die Nomaden, wenn Sandstürme alle Pfade tilgen?",
+            "zh": "⭐  当沙暴抹去所有路径时，你们游牧民是如何辨别方向的？",
+            "ja": "⭐  砂嵐があらゆる道を消し去った時、遊牧民はどうやって方角を知るんだ？"
+        },
+        "next": [
+            "tar_msg_estrellas"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "tar_msg_estrellas": {
+        "type": "message",
+        "text": {
+            "es": "Tariq alza la mirada hacia el cielo sin límites: 'Las dunas se mueven como olas bravas y cambian de forma en una sola noche, pero las constelaciones del Escorpión y del Navegante permanecen fijas como faros de plata. Y si una tormenta oculta el cielo... sueltas las riendas de tu montura. Un camello sediento huele el agua subterránea a cinco leguas de distancia. Sigue a quien tiene mejor nariz que tú y vivirás para contarlo.'",
+            "en": "Tariq tilts his gaze toward the boundless skies: 'The dunes shift like wild waves and rearrange their shape in a single night, yet the constellations of the Scorpion and the Navigator stay anchored like silver lighthouses. And if a howling storm masks the sky... you drop the beast's reins. A thirsty camel scents subterranean water five leagues off. Follow whoever carries the better snout and you'll live to tell the tale.'",
+            "fr": "Tariq lève les yeux vers le ciel infini : « Les dunes bougent comme des vagues sauvages et changent de forme en une seule nuit, mais les constellations du Scorpion et du Navigateur restent ancrées comme des phares d'argent. Et si une tempête aveuglante masque le ciel... tu lâches la bride de ta monture. Un chameau assoiffé sent l'eau souterraine à cinq lieues à la ronde. Suis celui qui a un meilleur flair que toi et tu vivras pour le raconter. »",
+            "it": "Tariq alza lo sguardo verso il cielo sconfinato: 'Le dune si muovono come onde indomite e cambiano forma in una sola notte, ma le costellazioni dello Scorpione e del Navigatore rimangono salde come fari d'argento. E se una tempesta rabbiosa oscura il cielo... molli le briglie alla cavalcatura. Un cammello assetato fiuta l'acqua sotterranea a cinque leghe di distanza. Segui chi ha il naso migliore del tuo e vivrai per raccontarlo.'",
+            "de": "Tariq blickt in den grenzenlosen Himmel: „Die Dünen bewegen sich wie wilde Wellen und verändern über Nacht ihre Gestalt, doch die Sternbilder des Skorpions und des Seefahrers stehen fest wie silberne Leuchttürme. Und wenn ein tosender Sturm den Himmel verhüllt... lässt du die Zügel deines Reittiers los. Ein durstiges Kamel wittert unterirdisches Wasser aus fünf Meilen Entfernung. Folge demjenigen mit dem besseren Riecher und du wirst überleben, um davon zu berichten.“",
+            "zh": "塔里克抬头仰望无垠的夜空：「沙丘如汹涌的波涛般移动，一夜之间就能改头换面，但天蝎座与领航员座却如银色的灯塔般坚不可摧。如果狂暴的风暴遮蔽了天空……那就松开坐骑的缰绳。口渴的骆驼能在五里外闻到地下水的气味。跟着鼻子比你灵的家伙走，你就能活下来讲述这个故事。」",
+            "ja": "タリクは果てしない夜空を見上げる。「砂丘は荒波のように動き、一晩でその姿を変えてしまう。だが蠍座と航海者座の星々は、銀の灯台のように不動のままだ。そして猛り狂う嵐が空を覆い隠したなら……乗り物の手綱を放すのさ。喉の渇いたラクダは、五里先から地下水の匂いを嗅ぎ分ける。自分より鼻の利く者に従えば、生きてその話を語ることができるだろう」"
+        },
+        "next": [
+            "tar_1"
+        ],
+        "reward": "faceta:inteligencia=+1"
+    }
+}

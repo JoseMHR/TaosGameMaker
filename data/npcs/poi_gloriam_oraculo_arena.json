@@ -1,0 +1,148 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Oráculo de Arena",
+            "en": "The Sand Oracle",
+            "fr": "L'Oracle de Sable",
+            "it": "L'Oracolo di Sabbia",
+            "de": "Das Sandorakel",
+            "zh": "沙之神谕",
+            "ja": "砂の神託"
+        },
+        "next": [],
+        "reward": "bg=0.13,0.10,0.07"
+    },
+    "ora_root": {
+        "type": "message",
+        "text": {
+            "es": "Bajo un dosel de telas descoloridas, una anciana velada deja caer arena fina entre los dedos una y otra vez, estudiando los dibujos que forma al posarse. No levanta la vista. 'Te esperaba, viajero sin memoria', dice con una voz seca como el viento. 'La arena me ha hablado de ti antes de que llegaras. Dice que cargas un peso que ni tú recuerdas haber echado a la espalda. ¿Quieres que la arena te muestre lo que tu mente esconde?'",
+            "en": "Beneath a canopy of faded cloth, a veiled old woman lets fine sand trickle through her fingers over and over, studying the patterns it forms as it settles. She doesn't look up. 'I was expecting you, traveler without memory,' she says in a voice dry as the wind. 'The sand told me of you before you arrived. It says you carry a weight you don't even remember shouldering. Do you want the sand to show you what your mind hides?'",
+            "fr": "Sous un dais d'étoffes délavées, une vieille femme voilée laisse couler du sable fin entre ses doigts encore et encore, étudiant les motifs qu'il forme en se déposant. Elle ne lève pas les yeux. « Je t'attendais, voyageur sans mémoire », dit-elle d'une voix sèche comme le vent. « Le sable m'a parlé de toi avant que tu n'arrives. Il dit que tu portes un poids dont tu ne te souviens même pas avoir chargé sur ton dos. Veux-tu que le sable te montre ce que ton esprit cache ? »",
+            "it": "Sotto un baldacchino di stoffe sbiadite, un'anziana velata lascia scorrere sabbia fine tra le dita più e più volte, studiando i disegni che forma depositandosi. Non alza lo sguardo. 'Ti aspettavo, viaggiatore senza memoria', dice con una voce secca come il vento. 'La sabbia mi ha parlato di te prima che arrivassi. Dice che porti un peso di cui non ricordi nemmeno di esserti caricato sulle spalle. Vuoi che la sabbia ti mostri ciò che la tua mente nasconde?'",
+            "de": "Unter einem Baldachin aus verblassten Stoffen lässt eine verschleierte alte Frau immer wieder feinen Sand durch ihre Finger rieseln und studiert die Muster, die er beim Absetzen bildet. Sie schaut nicht auf. „Ich habe dich erwartet, Reisender ohne Erinnerung“, sagt sie mit einer Stimme trocken wie der Wind. „Der Sand hat mir von dir erzählt, bevor du ankamst. Er sagt, du trägst eine Last, von der du dir nicht einmal bewusst bist, sie geschultert zu haben. Willst du, dass der Sand dir zeigt, was dein Geist verbirgt?“",
+            "zh": "在一顶褪色布料搭成的天篷下，一位蒙面的老妇人一次又一次地让细沙从指间滑落，端详着沙粒落下时形成的图案。她没有抬头。「我在等你，失忆的旅人，」她用干燥如风的声音说道。「在你到来之前，沙子就已经跟我说过你的事了。它说你背负着一份连你自己都不记得曾经扛起的重担。你想让沙子给你看看你的心智所隐藏的东西吗？」",
+            "ja": "色あせた布の天蓋の下、ベールをまとった老婆が細かい砂を指の間から何度も何度も滑らせ、落ちて形作られる模様を見つめている。顔を上げない。「待っていたよ、記憶なき旅人よ」風のように乾いた声で言う。「お前が来る前から、砂がお前のことを教えてくれていた。お前が背負っていることさえ覚えていない重荷を運んでいると言っている。お前の心が隠しているものを、砂に見せてもらいたいか？」"
+        },
+        "next": [
+            "ora_opt_futuro",
+            "ora_opt_pasado",
+            "ora_opt_negar",
+            "ora_opt_salir"
+        ],
+        "reward": ""
+    },
+    "ora_opt_futuro": {
+        "type": "option",
+        "text": {
+            "es": "🔮  Pedirle que lea tu futuro",
+            "en": "🔮  Ask her to read your future",
+            "fr": "🔮  Lui demander de lire ton avenir",
+            "it": "🔮  Chiederle di leggere il tuo futuro",
+            "de": "🔮  Sie bitten, deine Zukunft zu lesen",
+            "zh": "🔮  请她解读你的未来",
+            "ja": "🔮  未来を読んでほしいと頼む"
+        },
+        "next": [
+            "ora_msg_futuro"
+        ],
+        "reward": ""
+    },
+    "ora_msg_futuro": {
+        "type": "message",
+        "text": {
+            "es": "La anciana deja caer un puñado de arena y observa el dibujo largo rato. 'Veo un final, pero no uno solo: veo seis puertas, y todas se abren desde dentro de ti. En una despiertas. En otra te pierdes para siempre. En otra ardes de rabia. En otra te apagas. En otra finges que nunca pasó. Y en la última, la más difícil, sonríes.' Recoge la arena. 'No te diré cuál elegirás. Eso, muchacho, todavía no está escrito. Depende de en quién decidas convertirte.'",
+            "en": "The old woman lets a handful of sand fall and studies the pattern for a long while. 'I see an ending, but not just one: I see six doors, and all of them open from within you. In one, you wake. In another, you're lost forever. In another, you burn with rage. In another, you fade. In another, you pretend it never happened. And in the last, the hardest, you smile.' She gathers the sand. 'I won't tell you which you'll choose. That, lad, isn't written yet. It depends on who you decide to become.'",
+            "fr": "La vieille femme laisse tomber une poignée de sable et observe longuement le dessin. « Je vois une fin, mais pas une seule : je vois six portes, et toutes s'ouvrent depuis l'intérieur de toi. Dans l'une, tu te réveilles. Dans une autre, tu te perds à jamais. Dans une autre, tu brûles de rage. Dans une autre, tu t'éteins. Dans une autre, tu fais semblant que ça n'est jamais arrivé. Et dans la dernière, la plus difficile, tu souris. » Elle ramasse le sable. « Je ne te dirai pas laquelle tu choisiras. Cela, mon garçon, n'est pas encore écrit. Cela dépend de qui tu décideras de devenir. »",
+            "it": "L'anziana lascia cadere una manciata di sabbia e osserva a lungo il disegno. 'Vedo una fine, ma non una sola: vedo sei porte, e tutte si aprono dall'interno di te. In una ti svegli. In un'altra ti perdi per sempre. In un'altra bruci di rabbia. In un'altra ti spegni. In un'altra fingi che non sia mai successo. E nell'ultima, la più difficile, sorridi.' Raccoglie la sabbia. 'Non ti dirò quale sceglierai. Questo, ragazzo, non è ancora scritto. Dipende da chi deciderai di diventare.'",
+            "de": "Die alte Frau lässt eine Handvoll Sand fallen und betrachtet lange das Muster. „Ich sehe ein Ende, aber nicht nur eines: Ich sehe sechs Türen, und alle öffnen sich von innen in dir. In einer erwachst du. In einer anderen gehst du für immer verloren. In einer anderen brennst du vor Wut. In einer anderen erlischst du. In einer anderen tust du so, als wäre es nie geschehen. Und in der letzten, der schwersten, lächelst du.“ Sie sammelt den Sand ein. „Ich werde dir nicht sagen, welche du wählst. Das, Junge, ist noch nicht geschrieben. Es hängt davon ab, wer du zu werden entscheidest.“",
+            "zh": "老妇人放下一把沙子，久久地凝视着那图案。「我看到一个结局，但不止一个：我看到六扇门，它们都从你的内心打开。在一扇门里，你醒来了。在另一扇门里，你永远迷失了。在另一扇门里，你怒火中烧。在另一扇门里，你熄灭了。在另一扇门里，你假装从未发生过。而在最后一扇门里，最艰难的那扇，你在微笑。」她收起了沙子。「我不会告诉你会选哪一个。孩子，那还没有被书写下来。这取决于你决定成为谁。」",
+            "ja": "老婆は一握りの砂を落とし、長い間その模様を見つめる。「終わりが見える、だが一つではない。六つの扉が見える、そのすべてがお前の内側から開く。一つでは目覚める。一つでは永遠に迷う。一つでは怒りに燃える。一つでは消え去る。一つではそれが起きなかったふりをする。そして最後の、最も困難な扉では、お前は微笑む」砂を集める。「どれを選ぶかは教えない。それはまだ書かれていないのだ、坊や。お前が誰になると決めるかにかかっている」"
+        },
+        "next": [
+            "ora_root"
+        ],
+        "reward": ""
+    },
+    "ora_opt_pasado": {
+        "type": "option",
+        "text": {
+            "es": "🕯️  Pedirle que lea tu pasado olvidado",
+            "en": "🕯️  Ask her to read your forgotten past",
+            "fr": "🕯️  Lui demander de lire ton passé oublié",
+            "it": "🕯️  Chiederle di leggere il tuo passato dimenticato",
+            "de": "🕯️  Sie bitten, deine vergessene Vergangenheit zu lesen",
+            "zh": "🕯️  请她解读你被遗忘的过去",
+            "ja": "🕯️  忘れられた過去を読んでほしいと頼む"
+        },
+        "next": [
+            "ora_msg_pasado"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "ora_msg_pasado": {
+        "type": "message",
+        "text": {
+            "es": "La anciana derrama la arena y su mano se detiene en seco. Por primera vez alza la vista, y sus ojos, tras el velo, están llenos de una compasión terrible. 'No, muchacho. Esto no. La arena dibuja una habitación blanca, una aguja, una manita que se apaga, y una mujer que se marcha por voluntad propia. Hay pasados que es una crueldad enseñar antes de tiempo.' Barre el dibujo con la palma, deprisa. 'Cuando estés listo, lo recordarás sin mi ayuda. Y ojalá, para entonces, ya sepas perdonarte.'",
+            "en": "The old woman spills the sand and her hand stops dead. For the first time she looks up, and her eyes, behind the veil, are full of a terrible compassion. 'No, lad. Not this. The sand draws a white room, a needle, a tiny hand going still, and a woman who leaves of her own will. There are pasts it is cruelty to show before their time.' She sweeps the pattern away with her palm, quickly. 'When you're ready, you'll remember without my help. And I only hope that, by then, you'll know how to forgive yourself.'",
+            "fr": "La vieille femme verse le sable et sa main s'arrête net. Pour la première fois, elle lève les yeux, et son regard, derrière le voile, est empli d'une compassion terrible. « Non, mon garçon. Pas ça. Le sable dessine une pièce blanche, une aiguille, une petite main qui s'immobilise, et une femme qui s'en va de son plein gré. Il y a des passés qu'il est cruel de montrer avant leur heure. » Elle balaie le dessin de la paume, rapidement. « Quand tu seras prêt, tu t'en souviendras sans mon aide. Et j'espère que, d'ici là, tu sauras te pardonner. »",
+            "it": "L'anziana versa la sabbia e la sua mano si ferma di colpo. Per la prima volta alza lo sguardo, e i suoi occhi, dietro il velo, sono pieni di una compassione terribile. 'No, ragazzo. Non questo. La sabbia disegna una stanza bianca, un ago, una manina che si spegne, e una donna che se ne va di propria volontà. Ci sono passati che è crudele mostrare prima del tempo.' Spazza via il disegno con il palmo, in fretta. 'Quando sarai pronto, lo ricorderai senza il mio aiuto. E spero che, per allora, tu sappia già perdonarti.'",
+            "de": "Die alte Frau verschüttet den Sand und ihre Hand hält abrupt inne. Zum ersten Mal blickt sie auf, und ihre Augen hinter dem Schleier sind voller schrecklichen Mitgefühls. „Nein, Junge. Das nicht. Der Sand zeichnet ein weißes Zimmer, eine Nadel, eine kleine Hand, die still wird, und eine Frau, die aus eigenem Willen geht. Es gibt Vergangenheiten, die zu zeigen vor ihrer Zeit eine Grausamkeit ist.“ Sie wischt das Muster hastig mit der Handfläche weg. „Wenn du bereit bist, wirst du dich ohne meine Hilfe erinnern. Und ich hoffe nur, dass du dir bis dahin verzeihen kannst.“",
+            "zh": "老妇人洒下沙子，她的手骤然停住。她第一次抬起头，面纱后的双眼充满了可怕的怜悯。「不，孩子。这个不行。沙子画出了一间白色的房间，一根针，一只渐渐冷却的小手，还有一个自愿离开的女人。有些过去，若在未到时候之前展示，是一种残忍。」她迅速用手掌把图案抹去。「等你准备好了，你不需要我的帮助也会想起来。我只希望，到那时，你已经学会了原谅自己。」",
+            "ja": "老婆は砂を注ぎ、手がぴたりと止まる。初めて顔を上げる。ベールの向こうの瞳は、恐ろしいほどの憐憫に満ちている。「いや、坊や。これは違う。砂が描くのは白い部屋、注射針、動かなくなる小さな手、そして自らの意志で去っていく女性。時が来る前に見せるのが残酷な過去もあるのだ」急いで手のひらで模様を払いのける。「準備ができれば、私の助けなしに思い出すだろう。その時までに、自分を許す術を知っていることを願うよ」"
+        },
+        "next": [
+            "ora_opt_salir"
+        ],
+        "reward": "faceta:cordura=-1;gflag:ora_pasado_visto"
+    },
+    "ora_opt_negar": {
+        "type": "option",
+        "text": {
+            "es": "🚫  No creo en la arena ni en profecías baratas.",
+            "en": "🚫  I don't believe in sand or cheap prophecies.",
+            "fr": "🚫  Je ne crois pas au sable ni aux prophéties bon marché.",
+            "it": "🚫  Non credo nella sabbia né nelle profezie a buon mercato.",
+            "de": "🚫  Ich glaube weder an Sand noch an billige Prophezeiungen.",
+            "zh": "🚫  我不相信沙子，也不相信廉价的预言。",
+            "ja": "🚫  砂も安っぽい予言も信じない"
+        },
+        "next": [
+            "ora_msg_negar"
+        ],
+        "reward": ""
+    },
+    "ora_msg_negar": {
+        "type": "message",
+        "text": {
+            "es": "La anciana ríe por lo bajo, sin ofenderse. 'No hace falta que creas, muchacho. La arena no necesita tu fe para caer donde cae.' Deja escurrir un último puñado, que dibuja, sin lugar a dudas, la silueta de una niña pequeña cogida de una mano adulta. Te quedas helado. La anciana ya ha vuelto a bajar la vista. 'Vuelve cuando dejes de tenerle miedo a lo que ya sabes', murmura.",
+            "en": "The old woman chuckles softly, unoffended. 'You needn't believe, lad. The sand doesn't need your faith to fall where it falls.' She lets a last handful trickle out, and it draws, beyond any doubt, the silhouette of a small girl holding an adult's hand. You freeze. The old woman has already lowered her gaze again. 'Come back when you stop being afraid of what you already know,' she murmurs.",
+            "fr": "La vieille femme rit doucement, sans s'offenser. « Tu n'as pas besoin de croire, mon garçon. Le sable n'a pas besoin de ta foi pour tomber où il tombe. » Elle laisse s'écouler une dernière poignée, qui dessine, sans aucun doute possible, la silhouette d'une petite fille tenant la main d'un adulte. Tu te glaces. La vieille femme a déjà baissé les yeux de nouveau. « Reviens quand tu cesseras d'avoir peur de ce que tu sais déjà », murmure-t-elle.",
+            "it": "L'anziana ride sommessamente, senza offendersi. 'Non serve che tu creda, ragazzo. La sabbia non ha bisogno della tua fede per cadere dove cade.' Lascia scorrere un'ultima manciata, che disegna, senza alcun dubbio, la sagoma di una bambina che tiene la mano di un adulto. Ti geli. L'anziana ha già riabbassato lo sguardo. 'Torna quando smetterai di avere paura di ciò che già sai', mormora.",
+            "de": "Die alte Frau lacht leise, ohne beleidigt zu sein. „Du musst nicht glauben, Junge. Der Sand braucht deinen Glauben nicht, um dort zu fallen, wo er fällt.“ Sie lässt eine letzte Handvoll rieseln, die zweifellos die Silhouette eines kleinen Mädchens zeichnet, das die Hand eines Erwachsenen hält. Du erstarrst. Die alte Frau hat ihren Blick bereits wieder gesenkt. „Komm zurück, wenn du aufhörst, dich vor dem zu fürchten, was du schon weißt“, murmelt sie.",
+            "zh": "老妇人轻声笑了，并没有生气。「你不需要相信，孩子。沙子落到哪里，并不需要你的信仰。」她让最后一把沙子滑落，毫无疑问地勾勒出一个小女孩牵着成年人手的轮廓。你僵住了。老妇人已经再次垂下了目光。「等你不再害怕自己已经知道的事情时，再回来吧，」她喃喃道。",
+            "ja": "老婆は気を悪くすることなく、静かに笑う。「信じる必要はない、坊や。砂は落ちる場所に落ちるのに、お前の信仰など必要としない」最後の一握りを流し落とすと、疑いようもなく、大人の手を握る小さな少女の輪郭が描かれる。お前は凍りつく。老婆はすでに再び目を伏せている。「もう知っていることを恐れなくなったら、また戻ってくるがいい」と彼女は呟く。"
+        },
+        "next": [
+            "ora_opt_salir"
+        ],
+        "reward": ""
+    },
+    "ora_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Alejarte del dosel del oráculo",
+            "en": "🚶  Walk away from the oracle's canopy",
+            "fr": "🚶  Séloigner du dais de loracle",
+            "it": "🚶  Allontanarti dal baldacchino dell'oracolo",
+            "de": "🚶  Sich vom Baldachin des Orakels entfernen",
+            "zh": "🚶  离开神谕的天篷",
+            "ja": "🚶  神託の天蓋を後にする"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

@@ -1,0 +1,17 @@
+[gd_scene format=3]
+
+[sub_resource type="StandardMaterial3D" id="Mat_Ice"]
+albedo_color = Color(0.65, 0.88, 0.98, 0.75)
+transparency = 1
+roughness = 0.15
+refraction_enabled = true
+
+[sub_resource type="BoxMesh" id="Mesh_IceCube"]
+size = Vector3(0.8, 0.8, 0.8)
+
+[node name="BloqueHielo" type="Node3D"]
+
+[node name="Ice" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.4, 0)
+material_override = SubResource("Mat_Ice")
+mesh = SubResource("Mesh_IceCube")

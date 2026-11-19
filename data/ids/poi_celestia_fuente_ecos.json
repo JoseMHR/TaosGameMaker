@@ -1,0 +1,26 @@
+{
+    "id": "poi_celestia_fuente_ecos",
+    "type": "poi",
+    "icon": "⛲",
+    "name": {
+        "es": "La Fuente de los Ecos",
+        "en": "The Fountain of Echoes",
+        "fr": "La Fontaine des Échos",
+        "it": "La Fontana degli Echi",
+        "de": "Der Brunnen der Echos",
+        "zh": "回声喷泉",
+        "ja": "こだまの噴水"
+    },
+    "desc": {
+        "es": "Una fuente de mármol que devuelve lo que le dices... pero con un retraso extraño y las palabras cambiadas. (POI de inspección).",
+        "en": "A marble fountain that gives back what you say to it... but with a strange delay and the words changed. (Inspection POI).",
+        "fr": "Une fontaine de marbre qui te renvoie ce que tu lui dis... mais avec un délai étrange et les mots changés. (POI d'inspection).",
+        "it": "Una fontana di marmo che ti restituisce ciò che le dici... ma con uno strano ritardo e le parole cambiate. (POI di ispezione).",
+        "de": "Ein Marmorbrunnen, der zurückgibt, was du ihm sagst... aber mit seltsamer Verzögerung und veränderten Worten. (Inspektions-POI).",
+        "zh": "一座大理石喷泉，会把你说的话反馈给你……但带着诡异的延迟，字词也变了样。（探查类兴趣点）。",
+        "ja": "話しかけた言葉を返してくる大理石の噴水……だが奇妙な遅れがあり、言葉も変わっている。（調査ポイント）。"
+    },
+    "npc": "poi_celestia_fuente_ecos",
+    "bg": "bg_world_poi_celestia_fuente_ecos.png",
+    "music": "creepy"
+}

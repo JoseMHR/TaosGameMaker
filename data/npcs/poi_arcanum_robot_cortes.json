@@ -1,0 +1,169 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Robot Cortés Averiado",
+            "en": "The Broken Courtesy Robot",
+            "fr": "Le Robot Courtois Détraqué",
+            "it": "Il Robot Cortese Guasto",
+            "de": "Der Defekte Höfliche Roboter",
+            "zh": "故障的礼貌机器人",
+            "ja": "壊れた礼儀ロボット"
+        },
+        "next": [],
+        "reward": "avatar=🤖;bg=0.06,0.07,0.09"
+    },
+    "rob_done": {
+        "type": "message",
+        "text": {
+            "es": "El robot te recibe con su lucecita ocular ahora estable y un cabeceo agradecido. 'BIENVENIDO DE NUEVO, ESTIMADO VISITANTE. Gracias a su reparación, mi tasa de satisfacción del cliente ha subido de un 0% a un 100%. Usted es, oficialmente, mi cliente favorito de todos los tiempos. (También es el único.)'",
+            "en": "The robot greets you with its ocular light now steady and a grateful nod. 'WELCOME BACK, ESTEEMED VISITOR. Thanks to your repair, my customer satisfaction rating has risen from 0% to 100%. You are, officially, my favorite customer of all time. (You are also the only one.)'",
+            "fr": "Le robot te reçoit avec sa petite lumière oculaire désormais stable et un hochement de tête reconnaissant. « BIENVENUE À NOUVEAU, ESTIMÉ VISITEUR. Grâce à votre réparation, mon taux de satisfaction client est passé de 0% à 100%. Vous êtes, officiellement, mon client préféré de tous les temps. (Vous êtes aussi le seul.) »",
+            "it": "Il robot ti accoglie con la sua lucina oculare ora stabile e un cenno di gratitudine. 'BENTORNATO, STIMATO VISITATORE. Grazie alla sua riparazione, il mio tasso di satisfazione del cliente è salito dallo 0% al 100%. Lei è, ufficialmente, il mio cliente preferito di tutti i tempi. (È anche l'unico.)'",
+            "de": "Der Roboter empfängt dich mit seinem nun stabilen Augenlicht und einem dankbaren Nicken. „WILLKOMMEN ZURÜCK, GESCHÄTZTER BESUCHER. Dank Ihrer Reparatur ist meine Kundenzufriedenheitsrate von 0% auf 100% gestiegen. Sie sind offiziell mein Lieblingskunde aller Zeiten. (Sie sind auch der einzige.)“",
+            "zh": "机器人用如今已经稳定下来的眼灯和一个感激的点头迎接你。「欢迎回来，尊贵的访客。由于您的修复，我的客户满意度从0%上升到了100%。您正式成为了我有史以来最喜欢的客户。（您也是唯一的一个。）」",
+            "ja": "ロボットは今は安定した眼球の光と感謝の頷きでお前を迎える。「またお越しくださり、尊敬すべきお客様。あなたの修理のおかげで、私の顧客満足度は0％から100％に上昇しました。あなたは正式に、私の史上最高のお客様です。（唯一のお客様でもあります）」"
+        },
+        "next": [
+            "rob_opt_salir"
+        ],
+        "reward": "",
+        "condition": "gflag(\"rob_reparado\")"
+    },
+    "rob_root": {
+        "type": "message",
+        "text": {
+            "es": "Un autómata de recepción, de diseño anticuado y elegante, yace apoyado contra un muro derruido. Le falta un brazo, tiene el torso abollado y chispea por una junta del cuello, pero en cuanto detecta tu presencia se incorpora con dificultad y una lucecita ocular parpadea al ritmo de su voz educadísima: 'BIEN-bienvenido a Torres Arcanum, donde el futuro es hoy. Lamento el... —chisporroteo— ...ligero desorden. ¿En qué puedo asis-sis-sistirle en este maravilloso día apocalíptico?'",
+            "en": "A reception automaton, of an old-fashioned and elegant design, lies propped against a ruined wall. It's missing an arm, its torso is dented, and it sparks from a joint in its neck, but the moment it detects your presence it struggles upright and an ocular light blinks in time with its impossibly polite voice: 'WEL-welcome to Arcanum Towers, where the future is today. I apologize for the... —crackle— ...slight disarray. How may I assis-sis-sist you on this wonderful apocalyptic day?'",
+            "fr": "Un automate de réception, de conception vieillotte et élégante, gît appuyé contre un mur en ruine. Il lui manque un bras, son torse est cabossé, et il émet des étincelles au niveau d'une jointure du cou, mais dès qu'il détecte ta présence, il se redresse avec difficulté et une petite lumière oculaire clignote au rythme de sa voix extrêmement polie : « BIEN-bienvenue aux Tours Arcanum, où le futur c'est aujourd'hui. Je m'excuse pour le... —grésillement— ...léger désordre. Comment puis-je vous as-s-sister en cette merveilleuse journée apocalyptique ? »",
+            "it": "Un automa di ricezione, di design antiquato ed elegante, giace appoggiato contro un muro in rovina. Gli manca un braccio, ha il torace ammaccato e scintilla da una giuntura del collo, ma non appena rileva la tua presenza si rialza con difficoltà e una lucina oculare lampeggia al ritmo della sua voce estremamente educata: 'BEN-benvenuto alle Torri Arcanum, dove il futuro è oggi. Mi scuso per il... —scoppiettio— ...leggero disordine. Come posso as-s-sisterla in questa meravigliosa giornata apocalittica?'",
+            "de": "Ein Empfangsautomat von altmodischem und elegantem Design lehnt gegen eine zerstörte Wand. Ihm fehlt ein Arm, sein Torso ist verbeult, und er funkt an einer Halsverbindung, doch sobald er deine Anwesenheit erkennt, richtet er sich mühsam auf, und eine kleine Augenlichter blinkt im Takt seiner unglaublich höflichen Stimme: „WILL-willkommen in den Arcanum-Türmen, wo die Zukunft heute ist. Ich entschuldige mich für die... —Knistern— ...leichte Unordnung. Wie kann ich Ihnen an diesem wunderbaren apokalyptischen Tag as-sis-sistieren?“",
+            "zh": "一台设计古老而优雅的接待自动机，靠着一堵坍塌的墙躺着。它缺了一条手臂，躯干凹陷，脖子的关节处不停冒着火花，但一旦它探测到你的存在，就艰难地直起身来，一个小眼灯随着它极其礼貌的声音节奏闪烁着：「欢——欢迎来到奥秘遗迹塔楼，未来就是今天。我为……——噼啪声——……些许的混乱表示歉意。在这美好的世界末日般的一天里，我能为您提——提——提供什么服务呢？」",
+            "ja": "古風で優雅な設計の受付用自動人形が、崩れた壁にもたれてうずくまっている。片腕が欠け、胴体は凹み、首の関節から火花が散っているが、お前の存在を検知した瞬間、苦労して立ち上がり、小さな眼球の光がその極めて丁寧な声のリズムに合わせて点滅する。「よ——ようこそアルカナムタワーへ、未来は今日にある場所です。この……——バチッ——……些細な乱れをお詫びいたします。この素晴らしい終末の日に、何をお手伝——伝——伝いしましょうか？」"
+        },
+        "next": [
+            "rob_opt_reparar",
+            "rob_opt_preguntar",
+            "rob_opt_burla",
+            "rob_opt_salir"
+        ],
+        "reward": ""
+    },
+    "rob_opt_reparar": {
+        "type": "option",
+        "text": {
+            "es": "🔧  Recolocarle la junta del cuello y limpiarle los contactos",
+            "en": "🔧  Reseat its neck joint and clean its contacts",
+            "fr": "🔧  Réajuster son articulation de cou et nettoyer ses contacts",
+            "it": "🔧  Riposizionargli la giuntura del collo e pulirgli i contatti",
+            "de": "🔧  Sein Halsgelenk neu einsetzen und seine Kontakte reinigen",
+            "zh": "🔧  重新固定它颈部的关节，清理接触点",
+            "ja": "🔧  首の関節を再装着し、接点を清掃する"
+        },
+        "next": [
+            "rob_msg_reparar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "rob_msg_reparar": {
+        "type": "message",
+        "text": {
+            "es": "Te arrodillas y trasteas con cuidado en su cuello chisporroteante hasta que la junta encaja con un clic. El robot deja de tartamudear y su voz se vuelve fluida y cálida. 'Oh. OH. Hacía tres años, dos meses y once días que nadie me tocaba salvo para arrancarme piezas. Usted... me ha reparado. Me ha tratado como a algo que merece funcionar.' Su lucecita ocular brilla intensamente. 'Permítame corresponder.' Y te entrega su último objeto de valor, guardado en su compartimento de pecho para 'un cliente que lo mereciera'.",
+            "en": "You kneel and carefully fiddle with its sparking neck until the joint clicks into place. The robot stops stuttering and its voice turns smooth and warm. 'Oh. OH. It has been three years, two months, and eleven days since anyone touched me except to strip me for parts. You... you repaired me. You treated me as something that deserves to work.' Its ocular light glows intensely. 'Allow me to reciprocate.' And it hands you its last item of value, kept in its chest compartment for 'a customer who would deserve it'.",
+            "fr": "Tu t'agenouilles et bricoles délicatement dans son cou qui grésille jusqu'à ce que la jointure s'emboîte avec un clic. Le robot arrête de bégayer et sa voix devient fluide et chaleureuse. « Oh. OH. Ça faisait trois ans, deux mois et onze jours que personne ne me touchait sauf pour m'arracher des pièces. Vous... vous m'avez réparé. Vous m'avez traité comme quelque chose qui mérite de fonctionner. » Sa petite lumière oculaire brille intensément. « Permettez-moi de vous rendre la pareille. » Et il te tend son dernier objet de valeur, gardé dans son compartiment de poitrine pour « un client qui le mériterait ».",
+            "it": "Ti inginocchi e trafficando con cura nel suo collo scoppiettante finché la giuntura non scatta in posizione. Il robot smette di balbettare e la sua voce diventa fluida e calda. 'Oh. OH. Erano tre anni, due mesi e undici giorni che nessuno mi toccava se non per strapparmi pezzi. Lei... mi ha riparato. Mi ha trattato come qualcosa che merita di funzionare.' La sua lucina oculare brilla intensamente. 'Mi permetta di ricambiare.' E ti consegna il suo ultimo oggetto di valore, custodito nel suo scomparto pettorale per 'un cliente che lo meritasse'.",
+            "de": "Du kniest nieder und fummelst vorsichtig an seinem knisternden Hals herum, bis die Verbindung mit einem Klick einrastet. Der Roboter hört auf zu stottern, und seine Stimme wird flüssig und warm. „Oh. OH. Es sind drei Jahre, zwei Monate und elf Tage her, dass mich jemand berührte, außer um mir Teile zu entnehmen. Sie... Sie haben mich reperiert. Sie haben mich behandelt wie etwas, das es verdient zu funktionieren.“ Seine Augenlichter leuchten intensiv. „Erlauben Sie mir, mich zu revanchieren.“ Und er reicht dir seinen letzten Wertgegenstand, aufbewahrt in seinem Brustfach für „einen Kunden, der es verdient hätte“.",
+            "zh": "你跪下来，小心地摸索着它那噼啪作响的脖子，直到关节咔哒一声归位。机器人停止了口吃，声音变得流畅而温暖。「哦。哦。已经三年两个月十一天没有人碰过我了，除了拆走我的零件。您……您修复了我。您把我当作一件值得运转的东西来对待。」它的眼灯明亮地闪烁着。「请允许我回报您。」然后它递给你它最后一件贵重物品，那是它一直存放在胸腔隔间里的，「留给一位配得上它的顾客」。",
+            "ja": "膝をつき、火花を散らす首を慎重にいじると、関節がカチッと収まる。ロボットは口ごもるのをやめ、声が滑らかで温かくなる。「ああ。ああ。三年二ヶ月十一日ぶりだ、部品を剥がされる以外の目的で誰かに触れられたのは。あなたは……あなたは私を修理してくださいました。動くべきものとして扱ってくださいました」眼球の光が強く輝く。「お礼をさせてください」そして、「その価値のあるお客様のために」胸部の収納庫に保管していた最後の貴重品を渡してくれる。"
+        },
+        "next": [
+            "rob_opt_salir"
+        ],
+        "reward": "faceta:bondad=+1;gold:40;gflag:rob_reparado",
+        "condition": "no_gflag(\"rob_reparado\")",
+        "once": true
+    },
+    "rob_opt_preguntar": {
+        "type": "option",
+        "text": {
+            "es": "❓  Preguntarle qué pasó con la gente de las torres",
+            "en": "❓  Ask it what happened to the people of the towers",
+            "fr": "❓  Lui demander ce qui est arrivé aux gens des tours",
+            "it": "❓  Chiedergli cosa accadde alla gente delle torri",
+            "de": "❓  Ihn fragen, was mit den Leuten der Türme passierte",
+            "zh": "❓  问它塔楼里的人们发生了什么",
+            "ja": "❓  タワーの人々に何が起こったのかを尋ねる"
+        },
+        "next": [
+            "rob_msg_preguntar"
+        ],
+        "reward": ""
+    },
+    "rob_msg_preguntar": {
+        "type": "message",
+        "text": {
+            "es": "La lucecita del robot baja de intensidad. 'Consultando archivos... Los ejecutivos exigieron acelerar el Proyecto Esfera. Hubo un... incidente en el laboratorio del Dr. Aiden. Una menor. Tras aquello, todo se vino abajo muy deprisa.' Hace una pausa impropia de una máquina. 'Mi última instrucción, antes de que se fueran todos, fue: «Diles a los que vengan que lo sentimos». Llevo tres años sin nadie a quien decírselo. Así que... lo siento. En nombre de todos ellos. Lo sentimos mucho.'",
+            "en": "The robot's light dims. 'Consulting archives... The executives demanded the Sphere Project be accelerated. There was an... incident in Dr. Aiden's laboratory. A minor. After that, everything fell apart very quickly.' It pauses in a way unbecoming of a machine. 'My last instruction, before everyone left, was: \"Tell those who come that we're sorry.\" I've had no one to tell for three years. So... I'm sorry. On behalf of them all. We're so sorry.'",
+            "fr": "La petite lumière du robot baisse d'intensité. « Consultation des archives... Les cadres ont exigé d'accélérer le Projet Sphère. Il y a eu un... incident dans le laboratoire du Dr Aiden. Une mineure. Après cela, tout s'est effondré très vite. » Il fait une pause peu commune pour une machine. « Ma dernière instruction, avant que tout le monde ne parte, fut : « Dites à ceux qui viendront que nous sommes désolés ». Ça fait trois ans que je n'ai personne à qui le dire. Alors... je suis désolé. Au nom d'eux tous. Nous sommes tellement désolés. »",
+            "it": "La lucina del robot si affievolisce. 'Consultazione archivi... I dirigenti esigettero di accelerare il Progetto Sfera. Ci fu un... incidente nel laboratorio del Dott. Aiden. Una minore. Dopo quello, tutto crollò molto in fretta.' Fa una pausa non consueta per una macchina. 'La mia ultima istruzione, prima che tutti se ne andassero, fu: \"Di' a quelli che verranno che siamo dispiaciuti\". Sono tre anni che non ho nessuno a cui dirlo. Quindi... mi dispiace. In nome di tutti loro. Ci dispiace moltissimo.'",
+            "de": "Das Licht des Roboters dimmt sich. „Archive werden konsultiert... Die Führungskräfte forderten die Beschleunigung des Sphärenprojekts. Es gab einen... Vorfall im Labor von Dr. Aiden. Eine Minderjährige. Danach brach alles sehr schnell zusammen.“ Er hält eine für eine Maschine unpassende Pause. „Meine letzte Anweisung, bevor alle gingen, war: ‚Sagt denen, die kommen, dass es uns leid tut.' Ich hatte drei Jahre lang niemanden, dem ich es sagen konnte. Also... es tut mir leid. Im Namen von ihnen allen. Es tut uns so leid.“",
+            "zh": "机器人的灯光变得暗淡。「查询档案中……高层要求加快球体计划的进度。艾登博士的实验室发生了……一次事故。一名未成年人。此后，一切都迅速崩溃了。」它做了一个不像机器该有的停顿。「所有人离开前，我最后收到的指令是：『告诉那些前来的人，我们很抱歉。』三年来，我没有任何人可以说这句话。所以……我很抱歉。以他们所有人的名义。我们非常抱歉。」",
+            "ja": "ロボットの光が薄暗くなる。「記録を確認中……幹部たちが球体計画の加速を要求した。エイデン博士の研究所で……事件があった。未成年者だ。それ以降、すべてが急速に崩れ去った」機械らしくない間を置く。「皆が去る前の最後の指示は『来る者に、私たちはすまなかったと伝えよ』だった。三年間、それを伝える相手がいなかった。だから……すまない。彼ら全員の名において。本当にすまなかった」"
+        },
+        "next": [
+            "rob_root"
+        ],
+        "reward": ""
+    },
+    "rob_opt_burla": {
+        "type": "option",
+        "text": {
+            "es": "🔩  Arrancarle una pieza para venderla, como todos los demás",
+            "en": "🔩  Strip a part off it to sell, like everyone else",
+            "fr": "🔩  Lui arracher une pièce pour la vendre, comme tous les autres",
+            "it": "🔩  Strappargli un pezzo da vendere, come tutti gli altri",
+            "de": "🔩  Ihm ein Teil abreißen, um es zu verkaufen, wie alle anderen",
+            "zh": "🔩  像其他人一样，从它身上拆一个零件去卖",
+            "ja": "🔩  他の連中と同じように、部品を剥がして売る"
+        },
+        "next": [
+            "rob_msg_burla"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "rob_msg_burla": {
+        "type": "message",
+        "text": {
+            "es": "Le arrancas una placa de circuitos del pecho. El robot no se resiste; ni siquiera protesta. Solo dice, con la misma cortesía impecable mientras su lucecita se apaga un poco más: 'Por supuesto. Sírvase usted mismo. Gracias por su visita a Torres Arcanum. Vuelva pron-pron-pronto.' Te guardas la pieza, que valdrá unas monedas, mientras el autómata se despide de ti con una reverencia rota. Nunca una cortesía te ha hecho sentir tan miserable.",
+            "en": "You rip a circuit board from its chest. The robot doesn't resist; it doesn't even protest. It only says, with the same impeccable courtesy as its light dims a little further: 'Of course. Help yourself. Thank you for visiting Arcanum Towers. Come back so-so-soon.' You pocket the part, which will be worth a few coins, while the automaton sees you off with a broken bow. Never has a courtesy made you feel so wretched.",
+            "fr": "Tu lui arraches une plaque de circuits de la poitrine. Le robot ne résiste pas ; il ne proteste même pas. Il dit seulement, avec la même courtoisie impeccable tandis que sa petite lumière s'éteint un peu plus : « Bien sûr. Servez-vous vous-même. Merci de votre visite aux Tours Arcanum. Revenez bien-bien-bientôt. » Tu empoches la pièce, qui vaudra quelques pièces d'or, tandis que l'automate te salue avec une révérence brisée. Jamais une courtoisie ne t'a fait sentir aussi misérable.",
+            "it": "Gli strappi una scheda di circuiti dal petto. Il robot non resiste; non protesta nemmeno. Dice solo, con la stessa cortesia impeccabile mentre la sua lucina si affievolisce un po' di più: 'Certamente. Si serva pure. Grazie per la sua visita alle Torri Arcanum. Torni pre-pre-presto.' Ti intaschi il pezzo, che varrà qualche moneta, mentre l'automa ti congeda con un inchino rotto. Mai una cortesia ti ha fatto sentire così miserabile.",
+            "de": "Du reißt ihm eine Leiterplatte aus der Brust. Der Roboter widersteht nicht; er protestiert nicht einmal. Er sagt nur mit derselben tadellosen Höflichkeit, während sein Licht ein wenig weiter erlischt: „Aber selbstverständlich. Bedienen Sie sich. Danke für Ihren Besuch der Arcanum-Türme. Kommen Sie bald-bald-bald wieder.“ Du steckst das Teil ein, das ein paar Münzen wert sein wird, während der Automat sich mit einer gebrochenen Verbeugung von dir verabschiedet. Nie hat dich eine Höflichkeit so elend fühlen lassen.",
+            "zh": "你从它的胸腔上撕下一块电路板。机器人没有抵抗；连抗议都没有。它只是用同样无可挑剔的礼貌说道，同时它的灯光又暗淡了一些：「当然。请自便。感谢您光临奥秘遗迹塔楼。请再——再——再次光临。」你把那零件收进口袋，它值几枚硬币，而这台自动机则以一个破碎的鞠躬向你道别。从来没有一种礼貌让你感觉如此卑劣。",
+            "ja": "胸から回路基板を引き剥がす。ロボットは抵抗しない。抗議もしない。ただ、光がさらに少し暗くなりながら、同じ完璧な礼儀正しさで言う。「もちろんでございます。ご自由にお持ちください。アルカナムタワーへのご来訪、ありがとうございました。また近——近——近いうちにお越しください」その部品をポケットに入れる。数枚のコインの価値になるだろう。自動人形は壊れたお辞儀とともにお前を見送る。礼儀正しさが、こんなに惨めな気持ちにさせたことは今までになかった。"
+        },
+        "next": [
+            "rob_opt_salir"
+        ],
+        "reward": "gold:15;faceta:bondad=-1",
+        "condition": "no_gflag(\"rob_reparado\")"
+    },
+    "rob_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Despedirte del robot",
+            "en": "🚶  Say goodbye to the robot",
+            "fr": "🚶  Dire adieu au robot",
+            "it": "🚶  Salutare il robot",
+            "de": "🚶  Sich vom Roboter verabschieden",
+            "zh": "🚶  向机器人告别",
+            "ja": "🚶  ロボットに別れを告げる"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

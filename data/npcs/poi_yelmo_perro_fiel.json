@@ -1,0 +1,167 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Perro que Aún Espera",
+            "en": "The Dog That Still Waits",
+            "fr": "Le Chien qui Attend Encore",
+            "it": "Il Cane che Ancora Aspetta",
+            "de": "Der Hund, der Noch Wartet",
+            "zh": "仍在等待的狗",
+            "ja": "まだ待つ犬"
+        },
+        "next": [],
+        "reward": "avatar=🐕;bg=0.10,0.09,0.07"
+    },
+    "perro_root": {
+        "type": "message",
+        "text": {
+            "es": "Junto a una choza con el tejado hundido, un perro flaco monta guardia sobre un montón de tierra removida. No ladra. No gruñe. Solo mira alternativamente el camino y la puerta rota, esperando. En el suelo, medio enterrado, hay un cuenco de madera con un nombre grabado a cuchillo: 'para mi buen chico'. El perro gime bajito cuando te acercas, como preguntando si tú eres el que no vuelve.",
+            "en": "Beside a hut with a collapsed roof, a thin dog keeps watch over a mound of turned earth. It doesn't bark. It doesn't growl. It only looks from the road to the broken door and back, waiting. Half-buried in the dirt is a wooden bowl with a name knife-carved into it: 'for my good boy'. The dog whines softly as you approach, as if asking whether you're the one who never came back.",
+            "fr": "Près d'une cabane au toit effondré, un chien maigre monte la garde sur un tas de terre remuée. Il n'aboie pas. Il ne grogne pas. Il regarde seulement alternativement le chemin et la porte brisée, en attendant. Sur le sol, à moitié enterré, il y a un bol en bois avec un nom gravé au couteau : « pour mon bon garçon ». Le chien gémit doucement quand tu approches, comme s'il demandait si tu es celui qui ne revient pas.",
+            "it": "Vicino a una capanna con il tetto sfondato, un cane magro monta la guardia su un mucchio di terra smossa. Non abbaia. Non ringhia. Guarda solo alternativamente la strada e la porta rotta, aspettando. Sul terreno, mezzo sepolto, c'è una ciotola di legno con un nome incisi a coltello: 'per il mio bravo ragazzo'. Il cane geme piano quando ti avvicini, come chiedendo se tu sei quello che non torna.",
+            "de": "Neben einer Hütte mit eingestürztem Dach hält ein dünner Hund Wache über einen Haufen aufgewühlter Erde. Er bellt nicht. Er knurrt nicht. Er blickt nur abwechselnd auf den Weg und die kaputte Tür, wartend. Am Boden, halb vergraben, liegt eine Holzschale mit einem eingeritzten Namen: „für meinen guten Jungen“. Der Hund winselt leise, als du dich näherst, als würde er fragen, ob du derjenige bist, der nicht zurückkehrt.",
+            "zh": "在一间屋顶塌陷的小屋旁，一只瘦弱的狗守卫着一堆翻动过的泥土。它不叫。它不吼。它只是交替地望着道路和那扇破损的门，等待着。地上，半埋着一个木碗，上面用刀刻着一个名字：「给我的好孩子」。当你靠近时，狗轻声呜咽起来，仿佛在问，你是不是那个再也没有回来的人。",
+            "ja": "屋根が崩れた小屋のそばで、痩せた犬が掘り返された土の山を見張っている。吠えない。うならない。ただ道と壊れた扉を交互に見つめ、待っているだけだ。半分埋まった地面に、ナイフで名前が刻まれた木の器がある——「いい子のために」。お前が近づくと、犬は小さく鳴く。まるで、お前が戻ってこなかった者なのかと尋ねているかのように。"
+        },
+        "next": [
+            "perro_opt_cavar",
+            "perro_opt_quedarte",
+            "perro_opt_examinar",
+            "perro_opt_marchar"
+        ],
+        "reward": ""
+    },
+    "perro_opt_cavar": {
+        "type": "option",
+        "text": {
+            "es": "⛏️  Cavar en el montón de tierra para darle sepultura digna a lo que haya",
+            "en": "⛏️  Dig into the mound to give whatever lies there a proper burial",
+            "fr": "⛏️  Creuser dans le tas de terre pour donner une sépulture digne à ce qui s'y trouve",
+            "it": "⛏️  Scavare nel mucchio di terra per dare sepoltura dignitosa a ciò che c'è",
+            "de": "⛏️  In den Erdhügel graben, um dem, was auch immer dort liegt, ein würdiges Begräbnis zu geben",
+            "zh": "⛏️  挖开这堆土，为里面的东西给予一个体面的葬礼",
+            "ja": "⛏️  土の山を掘って、そこにあるものに正式な埋葬を与える"
+        },
+        "next": [
+            "perro_msg_cavar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "perro_msg_cavar": {
+        "type": "message",
+        "text": {
+            "es": "Apartas la tierra con las manos. No hay ningún cuerpo: solo una manta enrollada, un mendrugo petrificado y una nota que el amo dejó antes de irse a buscar comida al páramo. 'Si no vuelvo en tres días, que alguien cuide de él. Se llama Cobre. Es lo único bueno que hice.' Cubres de nuevo el hueco, ahora con una piedra encima a modo de lápida, y le rascas las orejas a Cobre. Por primera vez, el perro deja de mirar el camino y te mira a ti. Te sientes un poco menos solo en este páramo, y un poco más valiente para lo que venga.",
+            "en": "You push the earth aside with your hands. There's no body: just a rolled blanket, a petrified crust of bread, and a note the master left before setting out to find food in the moor. 'If I'm not back in three days, let someone care for him. His name is Copper. He's the only good thing I ever did.' You cover the hole again, this time with a stone atop it as a headstone, and scratch Copper behind the ears. For the first time, the dog stops watching the road and looks at you. You feel a little less alone in this moor, and a little braver for whatever comes.",
+            "fr": "Tu écartes la terre avec tes mains. Il n'y a aucun corps : seulement une couverture roulée, un croûton pétrifié et une note que le maître a laissée avant de partir chercher de la nourriture dans la lande. « Si je ne reviens pas dans trois jours, que quelqu'un s'occupe de lui. Il s'appelle Cobre. C'est la seule bonne chose que j'aie faite. » Tu recouvres à nouveau le trou, cette fois avec une pierre au-dessus en guise de pierre tombale, et tu grattes les oreilles de Cobre. Pour la première fois, le chien arrête de regarder le chemin et te regarde toi. Tu te sens un peu moins seul dans cette lande, et un peu plus courageux pour ce qui va suivre.",
+            "it": "Sposti la terra con le mani. Non c'è alcun corpo: solo una coperta arrotolata, un tozzo di pane pietrificato e una nota che il padrone lasciò prima di andare a cercare cibo nella landa. 'Se non torno in tre giorni, che qualcuno si prenda cura di lui. Si chiama Cobre. È l'unica cosa buona che ho fatto.' Ricopri di nuovo il buco, ora con una pietra sopra a modo di lapide, e gratti le orecchie a Cobre. Per la prima volta, il cane smette di guardare la strada e guarda te. Ti senti un po' meno solo in questa landa, e un po' più coraggioso per quello che verrà.",
+            "de": "Du schiebst die Erde mit den Händen zur Seite. Es gibt keinen Körper: nur eine gerollte Decke, ein versteinertes Stück Brot und eine Notiz, die der Herr zurückließ, bevor er ging, um Nahrung im Ödland zu suchen. „Wenn ich in drei Tagen nicht zurück bin, soll sich jemand um ihn kümmern. Er heißt Cobre. Er ist das einzig Gute, das ich je getan habe.“ Du bedeckst das Loch erneut, dieses Mal mit einem Stein als Grabstein, und kraulst Cobre die Ohren. Zum ersten Mal hört der Hund auf, den Weg zu beobachten, und schaut dich an. Du fühlst dich ein wenig weniger allein in diesem Ödland, und ein wenig mutiger für das, was kommt.",
+            "zh": "你用手拨开泥土。里面没有尸体：只有一条卷起的毯子，一块石化的干面包，还有一张主人在出发去荒原寻找食物之前留下的字条。「如果我三天内没回来，希望有人能照顾它。它叫科布雷。这是我做过的唯一一件好事。」你重新盖上这个洞，这次在上面放了一块石头当作墓碑，并挠了挠科布雷的耳朵。这是狗第一次停止望着道路，转而看向你。你在这片荒原上感到不再那么孤单，也对接下来的事多了一点勇气。",
+            "ja": "手で土をかき分ける。遺体はない——巻いた毛布、石化したパンの塊、そして荒野に食料を探しに出る前に主人が残した書き置きだけがある。「三日以内に戻らなければ、誰かが彼を世話してくれ。名前はコブレだ。俺がした唯一の良いことだ」再び穴を覆い、今度は上に墓標として石を置き、コブレの耳を掻いてやる。初めて、犬は道を見つめるのをやめ、お前を見つめる。この荒野で少し孤独ではなくなり、これから来るものに対して少し勇気を持てるようになった。"
+        },
+        "next": [
+            "perro_opt_marchar"
+        ],
+        "reward": "faceta:bondad=+1;faceta:valor=+1"
+    },
+    "perro_opt_quedarte": {
+        "type": "option",
+        "text": {
+            "es": "🦴  Sentarte a su lado un rato y compartir con él tus provisiones",
+            "en": "🦴  Sit beside him a while and share your provisions with him",
+            "fr": "🦴  T'asseoir à ses côtés un moment et partager tes provisions avec lui",
+            "it": "🦴  Sederti al suo fianco un po' e condividere con lui le tue provviste",
+            "de": "🦴  Dich eine Weile neben ihn setzen und deine Vorräte mit ihm teilen",
+            "zh": "🦴  在它身边坐一会儿，与它分享你的食物",
+            "ja": "🦴  しばらく隣に座り、食料を分け合う"
+        },
+        "next": [
+            "perro_msg_quedarte"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "perro_msg_quedarte": {
+        "type": "message",
+        "text": {
+            "es": "Te sientas en el barro sin prisa. Cobre duda, se acerca, olfatea el trozo de comida que le tiendes y por fin come, con una avidez que rompe el corazón. Después apoya la cabeza en tu rodilla y suspira, como si llevara meses sin dormir de verdad. Os quedáis ahí los dos, viendo cómo el viento peina el páramo muerto. No arreglas nada, pero hay una paz callada en no dejar solo a quien espera. Cuando te levantas, respiras más hondo que en muchos días.",
+            "en": "You sit down in the mud, unhurried. Copper hesitates, edges closer, sniffs the scrap you hold out, and finally eats with a hunger that breaks your heart. Then he rests his head on your knee and sighs, as if he hasn't truly slept in months. The two of you stay there, watching the wind comb the dead moor. You fix nothing, but there is a quiet peace in not leaving alone the one who waits. When you rise, you breathe deeper than you have in days.",
+            "fr": "Tu t'assois dans la boue sans te hâter. Cobre hésite, s'approche, sent le morceau de nourriture que tu lui tends et finit par manger, avec une avidité qui brise le cœur. Puis il pose la tête sur ton genou et soupire, comme s'il n'avait pas vraiment dormi depuis des mois. Vous restez là tous les deux, à regarder le vent balayer la lande morte. Tu ne répares rien, mais il y a une paix silencieuse à ne pas laisser seul celui qui attend. Quand tu te lèves, tu respires plus profondément que depuis plusieurs jours.",
+            "it": "Ti siedi nel fango senza fretta. Cobre esita, si avvicina, annusa il pezzo di cibo che gli tendi e finalmente mangia, con un'avidità che spezza il cuore. Poi appoggia la testa sul tuo ginocchio e sospira, come se non dormisse davvero da mesi. Restate là entrambi, a guardare il vento che pettina la landa morta. Non aggiusti nulla, ma c'è una pace silenziosa nel non lasciare solo chi aspetta. Quando ti alzi, respiri più profondamente di quanto abbia fatto in molti giorni.",
+            "de": "Du setzt dich ohne Eile in den Schlamm. Cobre zögert, kommt näher, riecht das Stück Essen, das du ihm hinhältst, und isst schließlich mit einer herzzerreißenden Gier. Dann legt er den Kopf auf dein Knie und seufzt, als hätte er seit Monaten nicht wirklich geschlafen. Ihr bleibt beide dort und schaut zu, wie der Wind das tote Ödland durchkämmt. Du reparierst nichts, aber es liegt eine stille Ruhe darin, den, der wartet, nicht allein zu lassen. Als du aufstehst, atmest du tiefer als seit vielen Tagen.",
+            "zh": "你不慌不忙地坐在泥地上。科布雷犹豫了一下，靠了过来，嗅了嗅你递给它的那块食物，最终吃了起来，那份饥渴令人心碎。然后它把头靠在你的膝盖上，叹了口气，仿佛已经好几个月没真正睡过觉了。你们俩就这样待在那里，看着风梳理着这片死去的荒原。你什么也没能修复，但不让等待之人独自等待，本身就是一种静默的安宁。当你站起身时，你的呼吸比这几天里的任何时候都更深沉。",
+            "ja": "急ぐことなく泥の中に座る。コブレはためらい、近づき、差し出された食べ物の切れ端を嗅ぎ、ついに心が張り裂けるほどの飢えで食べ始める。それから膝に頭を乗せ、ため息をつく。まるで何ヶ月も本当に眠っていなかったかのように。二人とも、風が死んだ荒野を撫でる様子を見つめながらそこに留まる。何も直せてはいないが、待つ者を一人にしないことには静かな安らぎがある。立ち上がる時、この数日でどんな時よりも深く息をつく。"
+        },
+        "next": [
+            "perro_opt_marchar"
+        ],
+        "reward": "faceta:cordura=+1"
+    },
+    "perro_opt_examinar": {
+        "type": "option",
+        "text": {
+            "es": "🔍  Estudiar las huellas alrededor de la choza",
+            "en": "🔍  Study the tracks around the hut",
+            "fr": "🔍  Étudier les traces autour de la cabane",
+            "it": "🔍  Studiare le impronte attorno alla capanna",
+            "de": "🔍  Die Spuren um die Hütte untersuchen",
+            "zh": "🔍  研究小屋周围的脚印",
+            "ja": "🔍  小屋周辺の足跡を調べる"
+        },
+        "next": [
+            "perro_msg_examinar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "perro_msg_examinar": {
+        "type": "message",
+        "text": {
+            "es": "Las huellas del amo se alejan hacia el norte y no regresan. Pero las del perro sí: salen tras él, se detienen a media legua junto a un jirón de tela ensangrentada, y vuelven a la choza. Una y otra vez. Cobre encontró lo que le pasó a su amo hace mucho tiempo. Y aun así sigue esperando en la puerta, por si acaso. Hay una lealtad en los animales que a los humanos nos queda grande.",
+            "en": "The master's tracks head north and never return. But the dog's do: they follow him out, stop half a league away beside a strip of bloodied cloth, and come back to the hut. Again and again. Copper found out what happened to his master long ago. And still he waits at the door, just in case. There's a loyalty in animals that we humans can't quite fill.",
+            "fr": "Les traces du maître s'éloignent vers le nord et ne reviennent pas. Mais celles du chien, si : elles le suivent, s'arrêtent à mi-chemin près d'un lambeau de tissu ensanglanté, et retournent à la cabane. Encore et encore. Cobre a découvert depuis longtemps ce qui est arrivé à son maître. Et pourtant il continue d'attendre à la porte, au cas où. Il y a une loyauté chez les animaux qui dépasse ce que nous, humains, pouvons offrir.",
+            "it": "Le impronte del padrone si allontanano verso nord e non tornano. Ma quelle del cane sì: lo seguono, si fermano a metà strada vicino a un brandello di stoffa insanguinata, e tornano alla capanna. Ancora e ancora. Cobre scoprì da tempo cosa accadde al suo padrone. Eppure continua ad aspettare alla porta, per ogni evenienza. C'è una lealtà negli animali che a noi umani resta grande.",
+            "de": "Die Spuren des Herrn führen nach Norden und kehren nie zurück. Die des Hundes jedoch schon: sie folgen ihm, halten auf halbem Weg bei einem blutigen Stofffetzen an und kehren zur Hütte zurück. Immer wieder. Cobre hat schon vor langer Zeit entdeckt, was seinem Herrn geschah. Und trotzdem wartet er weiterhin an der Tür, nur für den Fall. Es gibt eine Treue in Tieren, die uns Menschen zu groß ist.",
+            "zh": "主人的脚印一直向北，再也没有回来。但狗的脚印却回来了：它跟着他走，在半路上一块沾血的布条旁停下，然后又回到小屋。反反复复。科布雷很早以前就已经知道主人发生了什么事。但它依然守在门口等待，以防万一。动物身上有一种忠诚，是我们人类难以企及的。",
+            "ja": "主人の足跡は北へ向かい、二度と戻らない。だが犬の足跡は戻っている——それを追いかけ、半分ほどのところで血まみれの布の切れ端の近くで止まり、小屋へ戻ってくる。何度も何度も。コブレはずっと前に、主人に何が起きたのかを見つけていたのだ。それでも念のため、扉の前で待ち続けている。動物には、我々人間には満たせない忠誠心がある。"
+        },
+        "next": [
+            "perro_root"
+        ],
+        "reward": "faceta:inteligencia=+1"
+    },
+    "perro_opt_marchar": {
+        "type": "option",
+        "text": {
+            "es": "🚶  No es tu problema. Seguir tu camino y dejarlo atrás",
+            "en": "🚶  Not your problem. Move on and leave it behind",
+            "fr": "🚶  Ce n'est pas ton problème. Poursuivre ton chemin et le laisser derrière toi",
+            "it": "🚶  Non è un problema tuo. Proseguire il cammino e lasciarlo indietro",
+            "de": "🚶  Es ist nicht dein Problem. Deinen Weg fortsetzen und ihn hinter dir lassen",
+            "zh": "🚶  这不是你的问题。继续赶路，把它抛在身后",
+            "ja": "🚶  お前の問題ではない。旅を続け、それを後に残す"
+        },
+        "next": [
+            "perro_msg_marchar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "perro_msg_marchar": {
+        "type": "message",
+        "text": {
+            "es": "Le das la espalda y aprietas el paso. A tus espaldas oyes cómo Cobre vuelve a acomodarse sobre la tierra removida, con un gemido que se apaga en el viento. No miras atrás; no serías capaz. Te dices que en el páramo no se puede salvar a todos, que cada cual carga con lo suyo. Casi te lo crees. La cobardía de mirar hacia otro lado siempre viene disfrazada de sentido común.",
+            "en": "You turn your back and quicken your pace. Behind you, you hear Copper settle again onto the turned earth with a whine that fades into the wind. You don't look back; you couldn't. You tell yourself you can't save everyone in the moor, that each of us carries our own. You almost believe it. The cowardice of looking away always comes dressed as common sense.",
+            "fr": "Tu lui tournes le dos et accélères le pas. Derrière toi, tu entends Cobre se réinstaller sur la terre remuée, avec un gémissement qui s'éteint dans le vent. Tu ne regardes pas en arrière ; tu n'en serais pas capable. Tu te dis que dans la lande, on ne peut pas sauver tout le monde, que chacun porte le sien. Tu y crois presque. La lâcheté de détourner le regard vient toujours déguisée en bon sens.",
+            "it": "Gli dai le spalle e accelli il passo. Dietro di te senti Cobre riaccomodarsi sulla terra smossa, con un gemito che si spegne nel vento. Non guardi indietro; non ne saresti capace. Ti dici che nella landa non si può salvare tutti, che ognuno porta il suo. Quasi ci credi. La codardia di guardare altrove viene sempre travestita da buonsenso.",
+            "de": "Du kehrst ihm den Rücken und beschleunigst deinen Schritt. Hinter dir hörst du, wie Cobre sich wieder auf der aufgewühlten Erde niederlässt, mit einem Winseln, das im Wind erstirbt. Du schaust nicht zurück; du wärst nicht dazu fähig. Du sagst dir, dass man im Ödland nicht jeden retten kann, dass jeder seine eigene Last trägt. Du glaubst es fast. Die Feigheit, wegzusehen, kommt immer als gesunder Menschenverstand getarnt.",
+            "zh": "你转身背对它，加快了脚步。你在身后听到科布雷重新趴回那堆翻动过的泥土上，发出一声消散在风中的呜咽。你没有回头看；你做不到。你告诉自己，在这片荒原上，无法拯救每一个人，每个人都要背负自己的重担。你几乎相信了这一点。转身回避的怯懦，总是伪装成常识的样子出现。",
+            "ja": "彼に背を向け、足を速める。背後で、コブレが再び掘り返された土の上に落ち着く音が聞こえる、風に消えていく鳴き声とともに。振り返らない、できないから。荒野ではすべての者を救うことはできない、誰もが自分自身の重荷を背負うのだと自分に言い聞かせる。ほとんど信じかけている。目を逸らす臆病さは、いつも常識の姿をして現れるものだ。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:valor=-1"
+    }
+}

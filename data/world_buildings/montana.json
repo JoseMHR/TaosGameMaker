@@ -1,0 +1,8 @@
+{
+    "label": "Pico de Montaña",
+    "icon": "🏔️",
+    "scale": 1.0,
+    "y_offset": 0.0,
+    "description": "Formación rocosa elevada.",
+    "model_path": "montana"
+}

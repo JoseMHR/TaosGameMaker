@@ -1,0 +1,23 @@
+{
+    "name": {
+        "es": "Pescado",
+        "en": "Fish",
+        "fr": "Poisson",
+        "it": "Pesce",
+        "de": "Fisch",
+        "zh": "鱼",
+        "ja": "魚"
+    },
+    "desc": {
+        "es": "Pescado fresco. Se puede cocinar.",
+        "en": "Fresh fish. Can be cooked.",
+        "fr": "Poisson frais. Peut être cuisiné.",
+        "it": "Pesce fresco. Può essere cucinato.",
+        "de": "Frischer Fisch. Kann gekocht werden.",
+        "zh": "新鲜的鱼，可以烹饪。",
+        "ja": "新鮮な魚。調理できる。"
+    },
+    "icon": "🐟",
+    "category": "other",
+    "usable": false
+}

@@ -1,0 +1,77 @@
+[gd_scene format=3 uid="uid://templo_tiempo_poi"]
+
+[sub_resource type="StandardMaterial3D" id="Mat_ChronoBrass"]
+albedo_color = Color(0.68, 0.55, 0.28, 1)
+metallic = 0.85
+roughness = 0.3
+
+[sub_resource type="StandardMaterial3D" id="Mat_AgedCopper"]
+albedo_color = Color(0.25, 0.42, 0.4, 1)
+roughness = 0.7
+
+[sub_resource type="StandardMaterial3D" id="Mat_TimeCyanGlow"]
+albedo_color = Color(0.0, 0.8, 0.95, 1)
+emission_enabled = true
+emission = Color(0.0, 0.8, 0.95, 1)
+emission_energy_multiplier = 3.5
+
+[sub_resource type="StandardMaterial3D" id="Mat_DoorVoid"]
+albedo_color = Color(0.02, 0.03, 0.04, 1)
+roughness = 1.0
+
+[sub_resource type="BoxMesh" id="Mesh_StairsBase"]
+size = Vector3(1.1, 0.12, 1.25)
+
+[sub_resource type="CylinderMesh" id="Mesh_OctagonHall"]
+top_radius = 0.42
+bottom_radius = 0.45
+height = 0.72
+radial_segments = 8
+
+[sub_resource type="BoxMesh" id="Mesh_DoorVoid"]
+size = Vector3(0.34, 0.52, 0.15)
+
+[sub_resource type="TorusMesh" id="Mesh_TimeGearRing"]
+inner_radius = 0.35
+outer_radius = 0.42
+
+[sub_resource type="CylinderMesh" id="Mesh_Hourglass"]
+top_radius = 0.08
+bottom_radius = 0.08
+height = 0.28
+radial_segments = 6
+
+[sub_resource type="PrismMesh" id="Mesh_ChronoCrystal"]
+size = Vector3(0.12, 0.32, 0.12)
+
+[node name="TemploTiempo" type="Node3D"]
+
+[node name="StairsBase" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.06, 0.05)
+material_override = SubResource("Mat_AgedCopper")
+mesh = SubResource("Mesh_StairsBase")
+
+[node name="OctagonHall" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.48, -0.1)
+material_override = SubResource("Mat_ChronoBrass")
+mesh = SubResource("Mesh_OctagonHall")
+
+[node name="DoorVoid" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.42, 0.3)
+material_override = SubResource("Mat_DoorVoid")
+mesh = SubResource("Mesh_DoorVoid")
+
+[node name="GearRingFront" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0.88, 0.32)
+material_override = SubResource("Mat_ChronoBrass")
+mesh = SubResource("Mesh_TimeGearRing")
+
+[node name="Hourglass" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.88, 0.33)
+material_override = SubResource("Mat_TimeCyanGlow")
+mesh = SubResource("Mesh_Hourglass")
+
+[node name="ClassChronoCrystal" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.28, -0.1)
+material_override = SubResource("Mat_TimeCyanGlow")
+mesh = SubResource("Mesh_ChronoCrystal")

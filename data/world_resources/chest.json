@@ -1,0 +1,10 @@
+{
+    "code": "chest",
+    "order": 20,
+    "label": "Cofre con Botín",
+    "icon": "🧰",
+    "biome_color": "#b45309",
+    "description": "Un cofre con oro y recompensas en el mapamundi.",
+    "placeable": true,
+    "skill": ""
+}

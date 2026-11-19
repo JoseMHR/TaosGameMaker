@@ -1,0 +1,26 @@
+{
+    "name": {
+        "es": "Poción Menor",
+        "en": "Minor Potion",
+        "fr": "Potion Mineure",
+        "it": "Pozione Minore",
+        "de": "Kleiner Trank",
+        "zh": "小型药水",
+        "ja": "下級ポーション"
+    },
+    "desc": {
+        "es": "Restaura 35 puntos de vida.",
+        "en": "Restores 35 health points.",
+        "fr": "Restaure 35 points de vie.",
+        "it": "Ripristina 35 punti vita.",
+        "de": "Stellt 35 Lebenspunkte wieder her.",
+        "zh": "恢复 35 点生命值。",
+        "ja": "HPを35回復する。"
+    },
+    "icon": "🧪",
+    "category": "consumable",
+    "usable": true,
+    "effects": {
+        "heal_pct": 0.15
+    }
+}

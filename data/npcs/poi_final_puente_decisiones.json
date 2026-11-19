@@ -1,0 +1,133 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Puente de lo que No Hiciste",
+            "en": "The Bridge of What You Didn't Do",
+            "fr": "Le Pont de ce que Tu N'as Pas Fait",
+            "it": "Il Ponte di ciò che Non Hai Fatto",
+            "de": "Die Brücke Dessen, was Du Nicht Getan Hast",
+            "zh": "未曾之举之桥",
+            "ja": "しなかったことの橋"
+        },
+        "next": [],
+        "reward": "avatar=🌉;bg=0.05,0.05,0.08"
+    },
+    "puente_root": {
+        "type": "message",
+        "text": {
+            "es": "Sobre el vacío negro se tiende un puente colgante interminable. Cada tablón lleva grabada una frase: 'la vez que no dijiste te quiero', 'la llamada que no hiciste', 'el perdón que no pediste a tiempo', 'la noche que la dejaste sola'. Son todas las decisiones que esquivaste, hechas madera bajo tus pies. El puente cruje y se balancea sobre la nada. Al otro lado, apenas visible, una luz cálida. Cruzar significa pisar, uno a uno, todos tus 'y si'.",
+            "en": "Over the black void stretches an endless suspension bridge. Each plank bears an engraved phrase: 'the time you didn't say I love you', 'the call you never made', 'the forgiveness you didn't ask for in time', 'the night you left her alone'. They are every choice you dodged, made wood beneath your feet. The bridge creaks and sways over nothing. On the far side, barely visible, a warm light. To cross means stepping, one by one, on every 'what if'.",
+            "fr": "Au-dessus du vide noir s'étend un pont suspendu interminable. Chaque planche porte une phrase gravée : « la fois où tu n'as pas dit je t'aime », « l'appel que tu n'as jamais passé », « le pardon que tu n'as pas demandé à temps », « la nuit où tu l'as laissée seule ». Ce sont toutes les décisions que tu as évitées, devenues bois sous tes pieds. Le pont grince et se balance au-dessus du néant. De l'autre côté, à peine visible, une lumière chaude. Traverser signifie fouler, une par une, tous tes « et si ».",
+            "it": "Sopra il vuoto nero si tende un ponte sospeso interminabile. Ogni asse porta incisa una frase: 'la volta che non hai detto ti amo', 'la chiamata che non hai fatto', 'il perdono che non hai chiesto in tempo', 'la notte che l'hai lasciata sola'. Sono tutte le decisioni che hai schivato, fatte legno sotto i tuoi piedi. Il ponte scricchiola e oscilla sul nulla. Dall'altra parte, appena visibile, una luce calda. Attraversare significa calpestare, uno per uno, tutti i tuoi 'e se'.",
+            "de": "Über der schwarzen Leere spannt sich eine endlose Hängebrücke. Jede Planke trägt eine eingravierte Phrase: „das Mal, als du nicht ‚ich liebe dich' gesagt hast“, „der Anruf, den du nie gemacht hast“, „die Vergebung, um die du nicht rechtzeitig gebeten hast“, „die Nacht, in der du sie allein gelassen hast“. Es sind all die Entscheidungen, denen du ausgewichen bist, zu Holz unter deinen Füßen geworden. Die Brücke knarrt und schwankt über dem Nichts. Auf der anderen Seite, kaum sichtbar, ein warmes Licht. Sie zu überqueren bedeutet, eines nach dem anderen, auf all deine „was wäre wenn“ zu treten.",
+            "zh": "在黑色的虚空之上，架着一座无尽的吊桥。每一块木板上都刻着一句话：「那次你没有说我爱你」、「你从未打过的那通电话」、「你没能及时求得的原谅」、「你让她独自一人的那个夜晚」。这些都是你曾经躲避的每一个决定，如今化作你脚下的木板。桥梁在虚无之上嘎吱作响，摇摇晃晃。彼岸，隐约可见一道温暖的光。跨过这座桥，就意味着一步一步地踩过你所有的「如果」。",
+            "ja": "黒い虚空の上に、終わりのない吊り橋が架かっている。それぞれの板には刻まれた言葉がある——「愛してると言わなかったあの時」「かけなかった電話」「間に合わずに乞えなかった許し」「彼女を一人にしたあの夜」。それらはすべて、お前が避けてきた決断であり、足元の木材と化している。橋は虚無の上で軋み、揺れる。向こう岸には、かすかに見える温かな光。渡るということは、お前のすべての「もしも」を一つずつ踏みしめるということだ。"
+        },
+        "next": [
+            "puente_opt_cruzar",
+            "puente_opt_leer",
+            "puente_opt_volver"
+        ],
+        "reward": ""
+    },
+    "puente_opt_cruzar": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Cruzar el puente entero, pisando cada tablón sin detenerte",
+            "en": "🚶  Cross the whole bridge, stepping on every plank without stopping",
+            "fr": "🚶  Traverser tout le pont, en marchant sur chaque planche sans t'arrêter",
+            "it": "🚶  Attraversare l'intero ponte, calpestando ogni asse senza fermarti",
+            "de": "🚶  Die ganze Brücke überqueren, jede Planke betretend, ohne anzuhalten",
+            "zh": "🚶  走过整座桥，踩过每一块木板而不停下",
+            "ja": "🚶  止まることなく、すべての板を踏んで橋全体を渡る"
+        },
+        "next": [
+            "puente_msg_cruzar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "puente_msg_cruzar": {
+        "type": "message",
+        "text": {
+            "es": "Avanzas. Cada tablón que pisas susurra su frase con tu propia voz, reprochándote lo que no hiciste. A mitad del puente el balanceo es feroz y la tentación de mirar abajo, al vacío, es casi irresistible. Pero sigues, paso a paso, aceptando cada 'y si' bajo tus botas en lugar de esquivarlo. Cuando por fin pisas el otro lado, tiemblas de agotamiento, pero has hecho algo que llevabas toda la vida evitando: caminar por encima de tus arrepentimientos sin caerte en ellos. Eso es, quizá, la definición misma del valor.",
+            "en": "You move forward. Each plank you step on whispers its phrase in your own voice, reproaching you for what you didn't do. Halfway across, the sway is fierce and the temptation to look down, into the void, is almost irresistible. But you go on, step by step, accepting each 'what if' beneath your boots instead of dodging it. When you finally set foot on the far side, you're trembling with exhaustion, but you've done something you spent a lifetime avoiding: walking over your regrets without falling into them. That, perhaps, is the very definition of courage.",
+            "fr": "Tu avances. Chaque planche que tu foules murmure sa phrase avec ta propre voix, te reprochant ce que tu n'as pas fait. Au milieu du pont, le balancement est féroce et la tentation de regarder en bas, vers le vide, est presque irrésistible. Mais tu continues, pas à pas, acceptant chaque « et si » sous tes bottes au lieu de l'éviter. Quand tu poses enfin le pied de l'autre côté, tu trembles d'épuisement, mais tu as fait quelque chose que tu évitais depuis toute une vie : marcher au-dessus de tes regrets sans y tomber. C'est peut-être, cela, la définition même du courage.",
+            "it": "Avanzi. Ogni asse che calpesti sussurra la sua frase con la tua stessa voce, rimproverandoti ciò che non hai fatto. A metà del ponte l'oscillazione è feroce e la tentazione di guardare in basso, nel vuoto, è quasi irresistibile. Ma continui, passo dopo passo, accettando ogni 'e se' sotto i tuoi stivali invece di schivarlo. Quando finalmente calpesti l'altro lato, tremi di sfinimento, ma hai fatto qualcosa che evitavi da tutta la vita: camminare sopra i tuoi rimpianti senza caderci dentro. Questa è, forse, la definizione stessa del coraggio.",
+            "de": "Du gehst voran. Jede Planke, die du betrittst, flüstert ihre Phrase mit deiner eigenen Stimme und wirft dir vor, was du nicht getan hast. In der Mitte der Brücke ist das Schwanken heftig, und die Versuchung, nach unten in die Leere zu blicken, ist fast unwiderstehlich. Aber du gehst weiter, Schritt für Schritt, akzeptierst jedes „was wäre wenn“ unter deinen Stiefeln, anstatt es zu meiden. Als du endlich die andere Seite betrittst, zitterst du vor Erschöpfung, aber du hast etwas getan, dem du dein ganzes Leben ausgewichen bist: über deine Reue zu gehen, ohne hineinzufallen. Das ist vielleicht die wahre Definition von Mut.",
+            "zh": "你前进着。每一块你踩过的木板都用你自己的声音低语着它的字句，谴责着你未曾做过的事。桥中央的摇晃格外剧烈，向下望向虚空的诱惑几乎无法抗拒。但你继续前行，一步一步，接受脚下的每一个「如果」，而不是躲避它。当你终于踏上对岸时，你因精疲力竭而颤抖，但你完成了一件你逃避了一生的事情：踩着你的悔恨前行而不坠入其中。这，或许正是勇气的真正定义。",
+            "ja": "前へ進む。踏むたびに板は自分自身の声でそのフレーズを囁き、しなかったことを責め立てる。橋の中程では揺れが激しく、下の虚空を見たいという誘惑がほとんど抗いがたいほどになる。だが一歩一歩、避けるのではなくブーツの下にすべての「もしも」を受け入れながら進み続ける。ついに対岸に足をつけた時、疲労で震えているが、生涯避け続けてきたことを成し遂げた——後悔の上を、落ちることなく歩き渡ったのだ。それこそが、おそらく勇気の真の定義なのだろう。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:valor=+2;faceta:cordura=-1"
+    },
+    "puente_opt_leer": {
+        "type": "option",
+        "text": {
+            "es": "📖  Leer con detenimiento las frases grabadas en los primeros tablones",
+            "en": "📖  Read carefully the phrases engraved on the first planks",
+            "fr": "📖  Lire attentivement les phrases gravées sur les premières planches",
+            "it": "📖  Leggere con attenzione le frasi incise sulle prime assi",
+            "de": "📖  Die auf den ersten Planken eingravierten Sätze sorgfältig lesen",
+            "zh": "📖  仔细阅读最前面几块木板上刻着的字句",
+            "ja": "📖  最初の板に刻まれた言葉を注意深く読む"
+        },
+        "next": [
+            "puente_msg_leer"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "puente_msg_leer": {
+        "type": "message",
+        "text": {
+            "es": "Te agachas y lees. No son decisiones de cualquiera: son las TUYAS, todas, en orden, desde la más antigua. Y cuanto más te acercas al centro del puente, más recientes y más dolorosas se vuelven, hasta un tablón que aún tiene la madera fresca: 'la inyección que le pusiste'. Se te corta la respiración. El puente no juzga; solo te recuerda que cada 'y si' que esquivaste sigue ahí, sosteniéndote sobre el abismo. Te incorporas con el pulso temblando.",
+            "en": "You crouch and read. They aren't just anyone's choices: they're YOURS, all of them, in order, from the oldest. And the closer you get to the center of the bridge, the more recent and more painful they become, up to a plank whose wood is still fresh: 'the injection you gave her'. Your breath catches. The bridge doesn't judge; it only reminds you that every 'what if' you dodged is still there, holding you up over the abyss. You rise, pulse trembling.",
+            "fr": "Tu te penches et lis. Ce ne sont pas les décisions de n'importe qui : ce sont les TIENNES, toutes, dans l'ordre, depuis la plus ancienne. Et plus tu t'approches du centre du pont, plus elles deviennent récentes et douloureuses, jusqu'à une planche dont le bois est encore frais : « l'injection que tu lui as faite ». Ta respiration se coupe. Le pont ne juge pas ; il te rappelle seulement que chaque « et si » que tu as évité est toujours là, te soutenant au-dessus de l'abîme. Tu te redresses, le pouls tremblant.",
+            "it": "Ti pieghi e leggi. Non sono decisioni di chiunque: sono le TUE, tutte, in ordine, dalla più antica. E più ti avvicini al centro del ponte, più diventano recenti e dolorose, fino a un'asse il cui legno è ancora fresco: 'l'iniezione che le hai fatto'. Il respiro ti si mozza. Il ponte non giudica; ti ricorda solo che ogni 'e se' che hai schivato è ancora lì, a sostenerti sopra l'abisso. Ti rialzi con il polso tremante.",
+            "de": "Du beugst dich und liest. Es sind nicht die Entscheidungen von irgendjemandem: es sind DEINE, alle, in Reihenfolge, von der ältesten an. Und je näher du der Mitte der Brücke kommst, desto neuer und schmerzhafter werden sie, bis zu einer Planke, deren Holz noch frisch ist: „die Spritze, die du ihr gegeben hast“. Dein Atem stockt. Die Brücke urteilt nicht; sie erinnert dich nur daran, dass jedes „was wäre wenn“, dem du auswichst, immer noch da ist und dich über dem Abgrund hält. Du richtest dich auf, der Puls zitternd.",
+            "zh": "你俯身阅读。这些不是随便什么人的决定：这些全都是你的，按顺序排列，从最古老的开始。你越靠近桥的中心，它们就变得越近、越痛，直到一块木头还很新鲜的木板：「你给她注射的那一针」。你的呼吸一滞。这座桥不做评判；它只是提醒你，你躲避过的每一个「如果」依然在那里，支撑着你悬于深渊之上。你站起身，脉搏颤抖着。",
+            "ja": "身をかがめて読む。それは誰か他人の決断ではない——すべてお前自身のものだ、古い順に並んでいる。橋の中心に近づくほど、それらはより最近のもの、より痛みを伴うものになっていき、木材がまだ新しい一枚の板に至る——「彼女に打った注射」。息が詰まる。橋は裁かない。ただ、避けてきたすべての「もしも」が今もそこにあり、深淵の上でお前を支えているのだと思い出させるだけだ。震える脈拍とともに立ち上がる。"
+        },
+        "next": [
+            "puente_root"
+        ],
+        "reward": "faceta:cordura=-1"
+    },
+    "puente_opt_volver": {
+        "type": "option",
+        "text": {
+            "es": "↩️  Es demasiado. Dar media vuelta y no cruzar",
+            "en": "↩️  It's too much. Turn back and don't cross",
+            "fr": "↩️  C'est trop. Faire demi-tour et ne pas traverser",
+            "it": "↩️  È troppo. Fare dietrofront e non attraversare",
+            "de": "↩️  Es ist zu viel. Umkehren und nicht überqueren",
+            "zh": "↩️  太沉重了。转身放弃过桥",
+            "ja": "↩️  重すぎる。引き返し、渡らない"
+        },
+        "next": [
+            "puente_msg_volver"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "puente_msg_volver": {
+        "type": "message",
+        "text": {
+            "es": "Miras la luz cálida del otro lado, luego los tablones que tendrías que pisar para llegar a ella, y das media vuelta. No puedes. Todavía no. Cada 'y si' pesa demasiado para caminar sobre ellos hoy. Regresas a tierra firme con la luz a tu espalda, prometiéndote que otro día sí. Es la misma promesa que llevas años haciéndote. El puente seguirá ahí, meciéndose, esperando a que reúnas el valor que hoy no encontraste.",
+            "en": "You look at the warm light on the far side, then at the planks you'd have to step on to reach it, and you turn back. You can't. Not yet. Every 'what if' weighs too much to walk on today. You return to solid ground with the light behind you, promising yourself another day, yes. It's the same promise you've been making for years. The bridge will still be there, swaying, waiting for you to gather the courage you didn't find today.",
+            "fr": "Tu regardes la lumière chaude de l'autre côté, puis les planches que tu devrais fouler pour l'atteindre, et tu fais demi-tour. Tu ne peux pas. Pas encore. Chaque « et si » pèse trop lourd pour marcher dessus aujourd'hui. Tu retournes sur la terre ferme avec la lumière derrière toi, te promettant qu'un autre jour, oui. C'est la même promesse que tu te fais depuis des années. Le pont restera là, se balançant, attendant que tu rassembles le courage que tu n'as pas trouvé aujourd'hui.",
+            "it": "Guardi la luce calda dall'altra parte, poi le assi che dovresti calpestare per raggiungerla, e fai dietrofront. Non puoi. Non ancora. Ogni 'e se' pesa troppo per camminarci sopra oggi. Torni sulla terraferma con la luce alle spalle, promettendoti che un altro giorno sì. È la stessa promessa che ti fai da anni. Il ponte resterà lì, oscillando, aspettando che tu raccolga il coraggio che oggi non hai trovato.",
+            "de": "Du blickst auf das warme Licht auf der anderen Seite, dann auf die Planken, die du betreten müsstest, um es zu erreichen, und kehrst um. Du kannst nicht. Noch nicht. Jedes „was wäre wenn“ wiegt heute zu schwer, um darauf zu gehen. Du kehrst auf festen Boden zurück, das Licht hinter dir, und versprichst dir, dass ein anderer Tag kommen wird. Es ist dasselbe Versprechen, das du dir seit Jahren machst. Die Brücke wird dort bleiben, schwankend, wartend, dass du den Mut aufbringst, den du heute nicht gefunden hast.",
+            "zh": "你望向对岸温暖的光，再看看你要踩过才能抵达那里的木板，然后转身离去。你做不到。还不行。今天每一个「如果」都太沉重，无法承受。你带着身后的那道光返回坚实的土地，向自己承诺总有一天会做到。这是你多年来一直对自己许下的同一个承诺。这座桥会一直摇曳在那里，等待你聚集起今天未能找到的勇气。",
+            "ja": "対岸の温かい光を、そしてそこに至るために踏まねばならない板を見つめ、引き返す。できない。まだできない。今日、すべての「もしも」を渡るには重すぎる。光を背にして固い地面へと戻り、いつかまた挑戦しようと自分に誓う。それは何年も前から繰り返してきたのと同じ約束だ。橋はそこに残り、揺れ続けながら、今日見つけられなかった勇気をお前が奮い立たせる日を待っている。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:valor=-1"
+    }
+}

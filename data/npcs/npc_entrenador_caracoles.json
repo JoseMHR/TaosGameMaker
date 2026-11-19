@@ -1,0 +1,185 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "Don Velocidad",
+            "en": "Don Velocity",
+            "fr": "Don Vitesse",
+            "it": "Don Velocità",
+            "de": "Don Geschwindigkeit",
+            "zh": "极速先生",
+            "ja": "ドン・ベロシティ"
+        },
+        "next": [],
+        "reward": "avatar=🐌;bg=0.08,0.07,0.05"
+    },
+    "caracol_root": {
+        "type": "message",
+        "text": {
+            "es": "En mitad de las ardientes arenas del desierto, un hombre con visera de carreras, gafas de sol fosforitas y un cronómetro colgado al cuello grita enfervorizado a una pequeña concha inmóvil sobre una línea de cal trazada en la arena: '¡¡VAMOS, TURBO-MANOLO!! ¡¡REDUCE EN LA CURVA TRES!! ¡¡TIENES QUE MORDER EL ÁPICE!!' El caracol no se ha movido ni medio milímetro en dos horas.",
+            "en": "In the blazing sands of the desert, a man with a racing visor, neon sunglasses, and a stopwatch around his neck screams hysterically at a tiny motionless snail sitting on a chalk line: 'COME ON, TURBO-MANOLO!! DOWNSHIFT ON TURN THREE!! HIT THE APEX!!' The snail has not moved half a millimeter in two hours.",
+            "fr": "Au milieu des sables brûlants du désert, un homme avec une visière de course, des lunettes de soleil fluorescentes et un chronomètre autour du cou hurle avec ferveur à une petite coquille immobile posée sur une ligne de craie tracée dans le sable : « ALLEZ, TURBO-MANOLO !! RÉDUIS DANS LE VIRAGE TROIS !! IL FAUT MORDRE LA CORDE ! » L'escargot n'a pas bougé d'un demi-millimètre en deux heures.",
+            "it": "In mezzo alle sabbie ardenti del deserto, un uomo con visiera da corsa, occhiali da sole fosforescenti e un cronometro al collo grida infervorato a un piccolo guscio immobile su una linea di calce tracciata nella sabbia: 'FORZA, TURBO-MANOLO!! RIDUCI NELLA CURVA TRE!! DEVI MORDERE L'APICE!!' La lumaca non si è mossa di mezzo millimetro in due ore.",
+            "de": "Mitten im glühenden Wüstensand schreit ein Mann mit Renn-Visier, neonfarbener Sonnenbrille und einer Stoppuhr um den Hals hysterisch auf ein winziges bewegungsloses Schneckenhaus ein, das auf einer im Sand gezogenen Kalklinie sitzt: „LOS, TURBO-MANOLO!! RUNTERSCHALTEN IN KURVE DREI!! DEN SCHEITELPUNKT TREFFEN!!“ Die Schnecke hat sich seit zwei Stunden keinen halben Millimeter bewegt.",
+            "zh": "在灼热的沙漠中央，一个戴着赛车遮阳板、荧光太阳镜、脖子上挂着秒表的男人，正对着一只静止不动、停在沙地上用石灰画出的线上的小蜗牛壳狂热地大喊：「加油，涡轮马诺洛！！三号弯道减速！！你得咬住内线！！」这只蜗牛两个小时里连半毫米都没动过。",
+            "ja": "灼熱の砂漠の真ん中で、レーシング用バイザーをつけ、蛍光色のサングラスをかけ、首にストップウォッチを下げた男が、砂に描かれた石灰の線の上でじっと動かない小さな殻に向かって狂ったように叫んでいる。「行け、ターボ・マノロ！！三番コーナーでシフトダウンだ！！アペックスを攻めろ！！」そのカタツムリは二時間、半ミリも動いていない。"
+        },
+        "next": [
+            "caracol_opt_f1",
+            "caracol_opt_apostar",
+            "caracol_opt_dopaje",
+            "caracol_opt_reto",
+            "caracol_opt_salir"
+        ],
+        "reward": ""
+    },
+    "caracol_opt_f1": {
+        "type": "option",
+        "text": {
+            "es": "🏎️  Amigo... ese caracol parece una piedra quieta",
+            "en": "🏎️  Buddy... that snail looks like a stationary rock",
+            "fr": "🏎️  Mon ami... cet escargot ressemble à un caillou immobile",
+            "it": "🏎️  Amico... quella lumaca sembra una pietra ferma",
+            "de": "🏎️  Freund... diese Schnecke sieht aus wie ein reglosener Stein",
+            "zh": "🏎️  朋友……那只蜗牛看起来就像一块静止的石头",
+            "ja": "🏎️  なあ……あのカタツムリ、まるで動かない石みたいだぞ"
+        },
+        "next": [
+            "caracol_msg_f1"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "caracol_msg_f1": {
+        "type": "message",
+        "text": {
+            "es": "'¿Una piedra? ¡Es aerodinámica pura, ignorante! Turbo-Manolo está gestionando la degradación de su baba en el asfalto desértico. Si acelera ahora sobrecalentará las antenas. ¡Es pura estrategia de parada en boxes!' Analizar la física molecular de la baba amplía tus horizontes intelectuales.",
+            "en": "'A rock? That is pure aerodynamic perfection, you heathen! Turbo-Manolo is managing slime degradation on the desert gravel. If he throttles now, his antennas will overheat. It is pure pit-stop strategy!' Pondering the molecular physics of gastropod slime expands your intellectual horizon.",
+            "fr": "« Un caillou ? C'est de l'aérodynamisme pur, ignorant ! Turbo-Manolo gère la dégradation de sa bave sur l'asphalte désertique. S'il accélère maintenant, il va surchauffer ses antennes. C'est de la pure stratégie d'arrêt aux stands ! » Analyser la physique moléculaire de la bave élargit tes horizons intellectuels.",
+            "it": "'Una pietra? È pura aerodinamica, ignorante! Turbo-Manolo sta gestendo la degradazione della sua bava sull'asfalto desertico. Se accelera ora surriscalderà le antenne. È pura strategia da pit-stop!' Analizzare la fisica molecolare della bava amplia i tuoi orizzonti intellettuali.",
+            "de": "„Ein Stein? Das ist reine Aerodynamik, Ignorant! Turbo-Manolo verwaltet den Schleimabbau auf dem Wüstenasphalt. Wenn er jetzt beschleunigt, überhitzt er seine Fühler. Das ist reine Boxenstopp-Strategie!“ Die molekulare Physik des Schleims zu analysieren erweitert deinen intellektuellen Horizont.",
+            "zh": "「石头？这是纯粹的空气动力学，无知的家伙！涡轮马诺洛正在沙漠柏油路上管理它黏液的降解速度。如果它现在加速，触角会过热的。这纯粹是进站策略！」分析黏液的分子物理学拓宽了你的知识视野。",
+            "ja": "「石だと？これは純粋な空力学だ、無知め！ターボ・マノロは砂漠のアスファルト上で粘液の劣化を管理しているんだ。今加速したら触角が過熱してしまう。これは純粋なピットストップ戦略だ！」粘液の分子物理学を分析することで、お前の知的視野が広がる。"
+        },
+        "next": [
+            "caracol_root"
+        ],
+        "reward": "faceta:inteligencia=+1"
+    },
+    "caracol_opt_apostar": {
+        "type": "option",
+        "text": {
+            "es": "🏁  ¡Apuesto 10 de oro a que Turbo-Manolo bate el récord de sector hoy mismo!",
+            "en": "🏁  I wager 10 gold that Turbo-Manolo shatters the sector record this very day!",
+            "fr": "🏁  Je parie 10 pièces d'or que Turbo-Manolo bat le record du secteur aujourd'hui même !",
+            "it": "🏁  Scommetto 10 monete d'oro che Turbo-Manolo batte il record del settore oggi stesso!",
+            "de": "🏁  Ich wette 10 Gold, dass Turbo-Manolo heute den Streckenrekord bricht!",
+            "zh": "🏁  我赌10金币，涡轮马诺洛今天就能打破赛段纪录！",
+            "ja": "🏁  金貨10枚賭ける、ターボ・マノロは今日中にセクターレコードを更新する！"
+        },
+        "next": [
+            "caracol_msg_apostar"
+        ],
+        "reward": "gold:+15;faceta:valor=+1;discover:lore_carreras_caracoles",
+        "condition": "gold >= 10",
+        "once": true
+    },
+    "caracol_msg_apostar": {
+        "type": "message",
+        "text": {
+            "es": "¡Don Velocidad agita una bandera a cuadros como si no hubiera un mañana! De repente, Turbo-Manolo estira una antena tres milímetros hacia adelante. ¡DON VELOCIDAD EXPLOTA DE JÚBILO! '¡¡POLE POSITION!! ¡¡VUELTA RÁPIDA DE LA DÉCADA!!' Te estrecha la mano llorando de euforia y te paga la apuesta multiplicada con 25 monedas de oro. El deporte de alta competición templa tu espíritu.",
+            "en": "Don Velocity wildly waves a checkered flag like there is no tomorrow! Suddenly, Turbo-Manolo extends one antenna three millimeters forward. DON VELOCITY ERUPTS IN BLISS! 'POLE POSITION!! FASTEST LAP OF THE DECADE!!' He weeps with joy, pumping your hand, and pays your wager multiplied with 25 golden coins. High octane motorsport tempers your soul.",
+            "fr": "Don Vitesse agite un drapeau à damiers comme s'il n'y avait pas de lendemain ! Soudain, Turbo-Manolo étire une antenne de trois millimètres vers l'avant. DON VITESSE EXPLOSE DE JOIE ! « POLE POSITION !! TOUR LE PLUS RAPIDE DE LA DÉCENNIE !! » Il te serre la main en pleurant d'euphorie et te paie le pari multiplié avec 25 pièces d'or. Le sport de haute compétition trempe ton esprit.",
+            "it": "Don Velocità agita una bandiera a scacchi come se non ci fosse un domani! Improvvisamente, Turbo-Manolo allunga un'antenna di tre millimetri in avanti. DON VELOCITÀ ESPLODE DI GIOIA! 'POLE POSITION!! GIRO PIÙ VELOCE DEL DECENNIO!!' Ti stringe la mano piangendo di euforia e ti paga la scommessa moltiplicata con 25 monete d'oro. Lo sport ad alta competizione tempra il tuo spirito.",
+            "de": "Don Geschwindigkeit schwenkt eine Zielflagge, als gäbe es kein Morgen! Plötzlich streckt Turbo-Manolo eine Fühler drei Millimeter nach vorne. DON GESCHWINDIGKEIT EXPLODIERT VOR FREUDE! „POLE POSITION!! SCHNELLSTE RUNDE DES JAHRZEHNTS!!“ Er schüttelt dir weinend vor Euphorie die Hand und zahlt deine vervielfachte Wette mit 25 Goldmünzen aus. Der Hochleistungssport stählt deinen Geist.",
+            "zh": "极速先生疯狂挥舞着方格旗，好像明天不再来一样！突然，涡轮马诺洛的一根触角向前伸展了三毫米。极速先生欣喜若狂地爆发出来！「杆位！！十年来最快的一圈！！」他激动得热泪盈眶地和你握手，还把赌注加倍支付给你——25枚金币。高水平竞技体育磨砺了你的精神。",
+            "ja": "ドン・ベロシティは明日などないかのようにチェッカーフラッグを振り回す！突然、ターボ・マノロが触角を三ミリ前に伸ばす。ドン・ベロシティは歓喜の絶頂に達する！「ポールポジション！！十年に一度の最速ラップだ！！」感激の涙を流しながらお前の手を握り、賭け金の倍額、金貨25枚を支払う。ハイオクなモータースポーツがお前の魂を鍛える。"
+        },
+        "next": [
+            "caracol_root"
+        ],
+        "reward": ""
+    },
+    "caracol_opt_dopaje": {
+        "type": "option",
+        "text": {
+            "es": "🥬  ¿Le estás dando lechuga con potenciadores químicos?",
+            "en": "🥬  Are you doping him with performance-enhancing salad?",
+            "fr": "🥬  Tu lui donnes de la laitue avec des boosters chimiques ?",
+            "it": "🥬  Gli dai lattuga con potenziatori chimici?",
+            "de": "🥬  Gibst du ihm Salat mit chemischen Leistungssteigerern?",
+            "zh": "🥬  你是不是给它喂了含化学增强剂的生菜？",
+            "ja": "🥬  化学的な増強剤入りのレタスを与えているのか？"
+        },
+        "next": [
+            "caracol_msg_dopaje"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "caracol_msg_dopaje": {
+        "type": "message",
+        "text": {
+            "es": "'¡Totalmente orgánico! Solo lechuga de monte regada con rocío de Arcanum y tres gotas de cafeína destilada. La Federación Internacional de Gasterópodos no ha prohibido el extracto de menta... todavía.'",
+            "en": "'One hundred percent organic! Mountain romaine misted with Arcanum dew and three drops of concentrated espresso. The International Gastropod Racing Federation has not banned mint extract... yet.'",
+            "fr": "« Totalement bio ! Juste de la laitue de montagne arrosée de rosée d'Arcanum et trois gouttes de caféine distillée. La Fédération Internationale des Gastéropodes n'a pas encore interdit l'extrait de menthe... pour l'instant. »",
+            "it": "'Totalmente biologico! Solo lattuga di montagna irrorata con rugiada di Arcanum e tre gocce di caffeina distillata. La Federazione Internazionale dei Gasteropodi non ha vietato l'estratto di menta... ancora.'",
+            "de": "„Vollkommen biologisch! Nur Bergsalat, besprüht mit Arcanum-Tau und drei Tropfen destilliertem Koffein. Der Internationale Gastropoden-Verband hat Minzextrakt noch nicht verboten... noch nicht.“",
+            "zh": "「完全有机！只是山间生菜，用奥秘遗迹的露水浇灌，再加三滴蒸馏咖啡因。国际腹足类联合会还没禁止薄荷提取物……目前还没有。」",
+            "ja": "「完全にオーガニックだ！山のレタスにアルカナムの露を吹きかけ、蒸留カフェインを三滴垂らしただけだ。国際腹足類連盟はまだミント抽出物を禁止していない……今のところはな」"
+        },
+        "next": [
+            "caracol_root"
+        ],
+        "reward": ""
+    },
+    "caracol_opt_reto": {
+        "type": "option",
+        "text": {
+            "es": "🏆  Admiro tu perseverancia. Con paciencia se conquistan reinos enteros",
+            "en": "🏆  I admire your sheer perseverance. With patience whole realms are conquered",
+            "fr": "🏆  J'admire ta persévérance. Avec de la patience, on conquiert des royaumes entiers",
+            "it": "🏆  Ammiro la tua perseveranza. Con la pazienza si conquistano regni interi",
+            "de": "🏆  Ich bewundere deine schiere Ausdauer. Mit Geduld werden ganze Königreiche erobert",
+            "zh": "🏆  我佩服你的坚持不懈。耐心足以征服整个王国",
+            "ja": "🏆  お前の粘り強さには感服する。忍耐で王国全体すら征服できるものだ"
+        },
+        "next": [
+            "caracol_msg_reto"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "caracol_msg_reto": {
+        "type": "message",
+        "text": {
+            "es": "'¡Así se habla! La velocidad no se mide en metros por segundo, ¡sino en pasión por milímetro! Toma un sorbo de nuestro tónico hidratante de boxes.' El agua fresca con menta te restaura el vigor. Don Velocidad sonríe conmovido.",
+            "en": "'Spoken like a champion! Speed is not measured in yards per second, but in passion per millimeter! Sip from our pit-crew hydration draught.' Crisp mint water restores your strength. Don Velocity smiles warmly.",
+            "fr": "« Voilà qui est bien dit ! La vitesse ne se mesure pas en mètres par seconde, mais en passion par millimètre ! Prends une gorgée de notre tonique hydratant de stand. » L'eau fraîche à la menthe te redonne de la vigueur. Don Vitesse sourit, touché.",
+            "it": "'Così si parla! La velocità non si misura in metri al secondo, ma in passione per millimetro! Prendi un sorso del nostro tonico idratante da box.' L'acqua fresca alla menta ti restituisce vigore. Don Velocità sorride commosso.",
+            "de": "„So spricht man! Geschwindigkeit wird nicht in Metern pro Sekunde gemessen, sondern in Leidenschaft pro Millimeter! Nimm einen Schluck von unserem Boxenstopp-Erfrischungstrank.“ Frisches Minzwasser stellt deine Kraft wieder her. Don Geschwindigkeit lächelt gerührt.",
+            "zh": "「这话说得好！速度不是用米每秒衡量的，而是每毫米的激情！来喝一口我们的维修站补水剂吧。」清凉的薄荷水恢复了你的活力。极速先生感动地微笑着。",
+            "ja": "「よくぞ言った！速度はメートル毎秒じゃなく、ミリメートルあたりの情熱で測るものだ！このピットクルーの水分補給剤を一口飲め」爽やかなミント水がお前の活力を取り戻す。ドン・ベロシティは感動して微笑む。"
+        },
+        "next": [
+            "caracol_root"
+        ],
+        "reward": "faceta:bondad=+1;heal:25"
+    },
+    "caracol_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  No te desconcentro más, ¡ánimo Turbo-Manolo!",
+            "en": "🚶  I shall not break your focus, godspeed Turbo-Manolo!",
+            "fr": "🚶  Je ne vais pas te déconcentrer davantage, bon courage Turbo-Manolo !",
+            "it": "🚶  Non ti distraggo oltre, forza Turbo-Manolo!",
+            "de": "🚶  Ich lenke dich nicht weiter ab, viel Glück Turbo-Manolo!",
+            "zh": "🚶  我不再打扰你专注了，加油，涡轮马诺洛！",
+            "ja": "🚶  これ以上集中を乱さないでおくよ、頑張れターボ・マノロ！"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

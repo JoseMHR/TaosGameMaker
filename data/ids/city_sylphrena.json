@@ -1,0 +1,34 @@
+{
+    "id": "city_sylphrena",
+    "type": "city",
+    "name": {
+        "es": "Sylphrena",
+        "en": "Sylphrena",
+        "fr": "Sylphrena",
+        "it": "Sylphrena",
+        "de": "Sylphrena",
+        "zh": "希尔芙蕾娜",
+        "ja": "シルフレナ"
+    },
+    "icon": "🏰",
+    "desc": {
+        "es": "La gran capital del reino del agua",
+        "en": "The grand capital of the water realm",
+        "fr": "La grande capitale du royaume de l'eau",
+        "it": "La grande capitale del regno dell'acqua",
+        "de": "Die große Hauptstadt des Wasserreichs",
+        "zh": "水之王国的宏伟都城",
+        "ja": "水の王国の大都"
+    },
+    "bg": "bg_city_sylphrena.png",
+    "content": [
+        "poi_sylphrena_taberna",
+        "poi_sylphrena_shop",
+        "poi_sylphrena_board",
+        "poi_sylphrena_transportista",
+        "poi_sylphrena_church",
+        "poi_sylphrena_herrero",
+        "poi_sylphrena_mara",
+        "poi_sylphrena_aldeano"
+    ]
+}

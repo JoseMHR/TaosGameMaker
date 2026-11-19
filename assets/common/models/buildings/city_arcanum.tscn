@@ -1,0 +1,155 @@
+[gd_scene format=3]
+
+[sub_resource type="StandardMaterial3D" id="Mat_DarkAlloy"]
+albedo_color = Color(0.1, 0.12, 0.16, 1)
+metallic = 0.85
+roughness = 0.2
+
+[sub_resource type="StandardMaterial3D" id="Mat_CyanGlow"]
+albedo_color = Color(0.0, 0.85, 1.0, 1)
+emission_enabled = true
+emission = Color(0.0, 0.85, 1.0, 1)
+emission_energy_multiplier = 3.2
+
+[sub_resource type="StandardMaterial3D" id="Mat_Glass"]
+albedo_color = Color(0.15, 0.3, 0.45, 0.85)
+metallic = 0.6
+roughness = 0.1
+
+[sub_resource type="StandardMaterial3D" id="Mat_CityBase"]
+albedo_color = Color(0.06, 0.08, 0.1, 1)
+metallic = 0.9
+roughness = 0.4
+
+[sub_resource type="CylinderMesh" id="Mesh_CenterTower"]
+top_radius = 0.14
+bottom_radius = 0.35
+height = 1.55
+radial_segments = 6
+
+[sub_resource type="TorusMesh" id="Mesh_EnergyRing"]
+inner_radius = 0.22
+outer_radius = 0.28
+
+[sub_resource type="BoxMesh" id="Mesh_TallTower"]
+size = Vector3(0.24, 1.1, 0.24)
+
+[sub_resource type="BoxMesh" id="Mesh_MedTower"]
+size = Vector3(0.22, 0.75, 0.22)
+
+[sub_resource type="CylinderMesh" id="Mesh_HexTower"]
+top_radius = 0.12
+bottom_radius = 0.18
+height = 0.95
+radial_segments = 6
+
+[sub_resource type="BoxMesh" id="Mesh_PodiumBase"]
+size = Vector3(1.1, 0.12, 1.1)
+
+[sub_resource type="BoxMesh" id="Mesh_Skybridge"]
+size = Vector3(0.42, 0.04, 0.05)
+
+[sub_resource type="PrismMesh" id="Mesh_SpireTip"]
+size = Vector3(0.16, 0.4, 0.16)
+
+[sub_resource type="CylinderMesh" id="Mesh_Antenna"]
+top_radius = 0.01
+bottom_radius = 0.02
+height = 0.35
+
+[node name="CiudadFuturista" type="Node3D"]
+
+[node name="PodiumBase" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.06, 0)
+material_override = SubResource("Mat_CityBase")
+mesh = SubResource("Mesh_PodiumBase")
+
+[node name="MainSpire" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.825, 0)
+material_override = SubResource("Mat_DarkAlloy")
+mesh = SubResource("Mesh_CenterTower")
+
+[node name="EnergyRing1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.65, 0)
+material_override = SubResource("Mat_CyanGlow")
+mesh = SubResource("Mesh_EnergyRing")
+
+[node name="EnergyRing2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.05, 0)
+material_override = SubResource("Mat_CyanGlow")
+mesh = SubResource("Mesh_EnergyRing")
+
+[node name="SpireTip" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.7, 0)
+material_override = SubResource("Mat_CyanGlow")
+mesh = SubResource("Mesh_SpireTip")
+
+[node name="TowerWest" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.966, 0, 0.259, 0, 1, 0, -0.259, 0, 0.966, -0.38, 0.62, -0.05)
+material_override = SubResource("Mat_DarkAlloy")
+mesh = SubResource("Mesh_TallTower")
+
+[node name="GlassWest" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.966, 0, 0.259, 0, 0.85, 0, -0.259, 0, 0.966, -0.38, 0.62, -0.03)
+material_override = SubResource("Mat_Glass")
+mesh = SubResource("Mesh_TallTower")
+
+[node name="AntennaWest" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.38, 1.25, -0.05)
+material_override = SubResource("Mat_CyanGlow")
+mesh = SubResource("Mesh_Antenna")
+
+[node name="TowerEast" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.866, 0, -0.5, 0, 1, 0, 0.5, 0, 0.866, 0.38, 0.62, -0.05)
+material_override = SubResource("Mat_DarkAlloy")
+mesh = SubResource("Mesh_TallTower")
+
+[node name="GlassEast" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.866, 0, -0.5, 0, 0.85, 0, 0.5, 0, 0.866, 0.38, 0.62, -0.03)
+material_override = SubResource("Mat_Glass")
+mesh = SubResource("Mesh_TallTower")
+
+[node name="AntennaEast" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.38, 1.25, -0.05)
+material_override = SubResource("Mat_CyanGlow")
+mesh = SubResource("Mesh_Antenna")
+
+[node name="TowerNorthL" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.22, 0.52, -0.38)
+material_override = SubResource("Mat_DarkAlloy")
+mesh = SubResource("Mesh_HexTower")
+
+[node name="TowerNorthR" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.22, 0.52, -0.38)
+material_override = SubResource("Mat_DarkAlloy")
+mesh = SubResource("Mesh_HexTower")
+
+[node name="TowerSouthLeft" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.966, 0, -0.259, 0, 1, 0, 0.259, 0, 0.966, -0.32, 0.44, 0.32)
+material_override = SubResource("Mat_DarkAlloy")
+mesh = SubResource("Mesh_MedTower")
+
+[node name="GlassSouthL" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.966, 0, -0.259, 0, 0.8, 0, 0.259, 0, 0.966, -0.32, 0.44, 0.33)
+material_override = SubResource("Mat_Glass")
+mesh = SubResource("Mesh_MedTower")
+
+[node name="TowerSouthRight" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.866, 0, 0.5, 0, 1, 0, -0.5, 0, 0.866, 0.32, 0.44, 0.32)
+material_override = SubResource("Mat_DarkAlloy")
+mesh = SubResource("Mesh_MedTower")
+
+[node name="GlassSouthR" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.866, 0, 0.5, 0, 0.8, 0, -0.5, 0, 0.866, 0.32, 0.44, 0.33)
+material_override = SubResource("Mat_Glass")
+mesh = SubResource("Mesh_MedTower")
+
+[node name="SkybridgeL" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.966, 0, 0.259, 0, 1, 0, -0.259, 0, 0.966, -0.2, 0.72, -0.02)
+material_override = SubResource("Mat_CyanGlow")
+mesh = SubResource("Mesh_Skybridge")
+
+[node name="SkybridgeR" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.966, 0, -0.259, 0, 1, 0, 0.259, 0, 0.966, 0.2, 0.72, -0.02)
+material_override = SubResource("Mat_CyanGlow")
+mesh = SubResource("Mesh_Skybridge")

@@ -1,0 +1,8 @@
+{
+    "label": "Maqueta de Aldea",
+    "icon": "🏡",
+    "scale": 1.0,
+    "y_offset": 0.0,
+    "description": "Conjunto de casas rurales y huertos.",
+    "model_path": "aldea"
+}

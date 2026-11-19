@@ -1,0 +1,150 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Torneo de Miradas",
+            "en": "The Staring Contest",
+            "fr": "Le Tournoi de Regards",
+            "it": "Il Torneo di Sguardi",
+            "de": "Der Starrwettbewerb",
+            "zh": "凝视之战",
+            "ja": "にらめっこ大会"
+        },
+        "next": [],
+        "reward": "bg=0.05,0.05,0.07"
+    },
+    "estatua_root": {
+        "type": "message",
+        "text": {
+            "es": "Una efigie colosal tallada en obsidiana negra se alza en mitad de las ruinas arcanas. Sus ojos de rubí pulido están abiertos de par en par, fijos en un punto en el infinito. Una inscripción desgastada a sus pies reza: 'AQUEL QUE PESTAÑEE PRIMERO RENUNCIA A SU DIGNIDAD ANTE LOS DIOSES'.",
+            "en": "A colossal effigy carved from polished obsidian towers amidst the arcane ruins. Its ruby gemstones are wide open, locked in an unblinking gaze upon infinity. A weathered inscription at its pedestal reads: 'HE WHO BLINKS FORFEITS HIS DIGNITY BEFORE THE GODS.'",
+            "fr": "Une effigie colossale taillée dans l'obsidienne noire se dresse au milieu des ruines arcaniques. Ses yeux de rubis polis sont grands ouverts, fixés sur un point à l'infini. Une inscription usée à ses pieds dit : « CELUI QUI CLIGNE DES YEUX EN PREMIER RENONCE À SA DIGNITÉ DEVANT LES DIEUX ».",
+            "it": "Un'effigie colossale scolpita in ossidiana nera si erge in mezzo alle rovine arcane. I suoi occhi di rubino levigato sono spalancati, fissi su un punto all'infinito. Un'iscrizione consumata ai suoi piedi recita: 'COLUI CHE SBATTE LE PALPEBRE PER PRIMO RINUNCIA ALLA SUA DIGNITÀ DAVANTI AGLI DEI'.",
+            "de": "Eine kolossale Statue aus schwarzem Obsidian erhebt sich inmitten der arkanen Ruinen. Ihre polierten Rubinaugen sind weit geöffnet, starr auf einen unendlich fernen Punkt gerichtet. Eine verwitterte Inschrift zu ihren Füßen lautet: „WER ZUERST BLINZELT, VERZICHTET AUF SEINE WÜRDE VOR DEN GÖTTERN.“",
+            "zh": "一尊由黑色黑曜石雕成的巨大雕像矗立在这片奥秘遗迹的废墟中央。它那打磨光滑的红宝石双眼大睁着，凝视着无穷远处的一点。脚下一行磨损的铭文写着：「先眨眼者，将在众神面前放弃自己的尊严」。",
+            "ja": "黒曜石で彫られた巨大な像が、秘術の廃墟の真ん中に立っている。磨かれたルビーの目は大きく見開かれ、無限の彼方の一点を見つめている。足元に刻まれた摩耗した銘文にはこうある：「先に瞬きした者は、神々の前で己の尊厳を放棄する」"
+        },
+        "next": [
+            "estatua_opt_duelo",
+            "estatua_opt_espejo",
+            "estatua_opt_trampa",
+            "estatua_opt_salir"
+        ],
+        "reward": ""
+    },
+    "estatua_opt_duelo": {
+        "type": "option",
+        "text": {
+            "es": "👁️  Aceptar el desafío con honor y clavarle la mirada fijamente",
+            "en": "👁️  Accept the honorable duel and lock unblinking eyes",
+            "fr": "👁️  Accepter le défi avec honneur et le fixer intensément",
+            "it": "👁️  Accettare la sfida con onore e fissarla intensamente",
+            "de": "👁️  Die ehrenvolle Herausforderung annehmen und unverwandt zurückstarren",
+            "zh": "👁️  以荣誉之名接受挑战，死死盯着它",
+            "ja": "👁️  名誉をもって挑戦を受け、瞬きせずに見つめ返す"
+        },
+        "next": [
+            "estatua_msg_duelo"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "estatua_msg_duelo": {
+        "type": "message",
+        "text": {
+            "es": "Pasan diez segundos... treinta segundos... un minuto. El aire seco te quema las córneas. Empiezas a lagrimar copiosamente. La estatua, al ser roca volcánica, demuestra una envidiable ausencia de biología ocular. ¡Pestañeas estrepitosamente! El eco susurra: 'DERROTA DESHONROSA'. Sin embargo, aguantar un minuto entero mirando a los ojos del abismo forja una determinación inquebrantable.",
+            "en": "Ten seconds elapse... thirty seconds... a full minute. Dry wind burns your retinas. Tears pour down your cheeks. The effigy, being igneous silicate, exhibits zero biological necessity to blink. You blink frantically! The wind sighs: 'DISHONORABLE DEFEAT'. Yet holding gaze against the stony abyss for sixty seconds tempers unyielding grit.",
+            "fr": "Dix secondes passent... trente secondes... une minute. L'air sec te brûle les cornées. Tu commences à pleurer abondamment. La statue, étant de roche volcanique, fait preuve d'une enviable absence de biologie oculaire. Tu clignes des yeux bruyamment ! L'écho murmure : « DÉFAITE DÉSHONORANTE ». Cependant, tenir une minute entière le regard de l'abîme forge une détermination inébranlable.",
+            "it": "Passano dieci secondi... trenta secondi... un minuto. L'aria secca ti brucia le cornee. Inizi a lacrimare copiosamente. La statua, essendo roccia vulcanica, dimostra un'invidiabile assenza di biologia oculare. Sbatti le palpebre rumorosamente! L'eco sussurra: 'SCONFITTA DISONOREVOLE'. Tuttavia, resistere un minuto intero guardando negli occhi dell'abisso forgia una determinazione incrollabile.",
+            "de": "Zehn Sekunden vergehen... dreißig Sekunden... eine Minute. Die trockene Luft brennt in deinen Hornhäuten. Du beginnst reichlich zu weinen. Die Statue, als vulkanisches Gestein, zeigt eine beneidenswerte Abwesenheit von Augenbiologie. Du blinzelst lärmend! Das Echo flüstert: „UNEHRENHAFTE NIEDERLAGE“. Doch eine ganze Minute lang dem Blick des Abgrunds standzuhalten, schmiedet unerschütterliche Entschlossenheit.",
+            "zh": "十秒过去了……三十秒……一分钟。干燥的空气灼烧着你的角膜。你开始不停地流泪。这座雕像由火山岩制成，可怜地拥有令人羡慕的、完全不需要眨眼的生理构造。你哗啦一下眨了眼！回声低语道：「不光彩的失败」。然而，坚持整整一分钟直视深渊的双眼，锻造出一份坚不可摧的决心。",
+            "ja": "十秒が経つ……三十秒……一分。乾いた空気が角膜を焼く。涙が止まらなくなる。像は火山岩でできているため、羨ましいほど瞬きの生理的必要がない。お前はついに派手に瞬きしてしまう！風がため息をつくように囁く：「不名誉な敗北」。それでも、一分間深淵の眼差しに耐え抜いたことは、揺るぎない胆力を鍛え上げる。"
+        },
+        "next": [
+            "estatua_root"
+        ],
+        "reward": "faceta:valor=+1"
+    },
+    "estatua_opt_espejo": {
+        "type": "option",
+        "text": {
+            "es": "🪞  (Colocar una superficie reflectante frente a sus ojos para que encare su propia mirada)",
+            "en": "🪞  (Hold up a mirror before its ruby eyes to force it to duel its own reflection)",
+            "fr": "🪞  (Placer une surface réfléchissante devant ses yeux pour qu'elle affronte son propre regard)",
+            "it": "🪞  (Posizionare una superficie riflettente davanti ai suoi occhi per farla confrontare con il proprio sguardo)",
+            "de": "🪞  (Eine spiegelnde Oberfläche vor ihre Augen halten, damit sie ihrem eigenen Blick begegnet)",
+            "zh": "🪞  （在它眼前放一块反光面，让它直面自己的目光）",
+            "ja": "🪞  （反射する面をその目の前に置き、己自身の視線と対峙させる）"
+        },
+        "next": [
+            "estatua_msg_espejo"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "estatua_msg_espejo": {
+        "type": "message",
+        "text": {
+            "es": "Los rubíes de la estatua quedan alineados exactamente con su propio reflejo en el cristal pulido. Un bucle infinito de miradas pétreas sobrecarga el encantamiento. Se escucha un zumbido armónico que hace vibrar el suelo, los ojos de la efigie destellan en dorado y una compuerta secreta en la base se abre revelando una antigua ofrenda de 40 monedas de oro y una bendición curativa. ¡Ingenio puro contra la terquedad de la piedra!",
+            "en": "The effigy's ruby eyes align squarely with their own reflection in the polished glass. An infinite visual feedback loop overloads the ancient enchantment. A resonant chord hums through the foundation, ruby eyes flare golden, and a hidden dais slides open yielding 40 ancient gold coins and a restorative blessing. Pure wits triumphing over brute stone!",
+            "fr": "Les rubis de la statue s'alignent exactement avec leur propre reflet dans le verre poli. Une boucle infinie de regards pétrifiés surcharge l'enchantement. On entend un bourdonnement harmonique qui fait vibrer le sol, les yeux de l'effigie s'illuminent en doré et une trappe secrète dans la base s'ouvre, révélant une offrande ancienne de 40 pièces d'or et une bénédiction curative. Pure ingéniosité contre l'entêtement de la pierre !",
+            "it": "I rubini della statua si allineano esattamente con il proprio riflesso nel vetro levigato. Un ciclo infinito di sguardi pietrificati sovraccarica l'incantesimo. Si sente un ronzio armonico che fa vibrare il suolo, gli occhi dell'effigie lampeggiano dorati e una botola segreta nella base si apre rivelando un'antica offerta di 40 monete d'oro e una benedizione curativa. Pura arguzia contro la testardaggine della pietra!",
+            "de": "Die Rubine der Statue richten sich exakt auf ihr eigenes Spiegelbild im polierten Glas aus. Eine endlose Schleife versteinerter Blicke überlastet den Zauber. Ein harmonisches Summen lässt den Boden erzittern, die Augen der Statue leuchten golden auf, und eine geheime Falltür im Sockel öffnet sich und offenbart ein uraltes Opfer von 40 Goldmünzen und einen heilenden Segen. Reiner Verstand gegen die Sturheit des Steins!",
+            "zh": "雕像的红宝石与打磨光滑的玻璃中自己的倒影恰好对齐。一个无限循环的石化凝视使这道魔法超载。一阵和谐的嗡鸣声让地面震动起来，雕像的眼睛闪烁出金光，底座中一道隐秘的机关打开，露出一份古老的供奉——40枚金币和一道治愈祝福。纯粹的机智战胜了石头的顽固！",
+            "ja": "像のルビーが、磨かれたガラスに映る自身の反射と正確に重なり合う。無限に続く石化した視線のループが古代の魔法に過負荷をかける。共鳴する唸りが地盤を震わせ、ルビーの目が金色に輝き、台座の隠し扉が開いて古い供物——金貨40枚と回復の祝福——が現れる。純粋な機知が石の頑固さに打ち勝ったのだ！"
+        },
+        "next": [
+            "estatua_root"
+        ],
+        "reward": "faceta:inteligencia=+1;faceta:aspecto=+1;discover:lore_estatua_desafio;gold:+40;heal:35"
+    },
+    "estatua_opt_trampa": {
+        "type": "option",
+        "text": {
+            "es": "🧤  (Taparle los ojos a la estatua con un pañuelo de viaje)",
+            "en": "🧤  (Drape a travel kerchief over the effigy eyes)",
+            "fr": "🧤  (Bander les yeux de la statue avec un mouchoir de voyage)",
+            "it": "🧤  (Coprire gli occhi della statua con un fazzoletto da viaggio)",
+            "de": "🧤  (Der Statue die Augen mit einem Reisetuch verbinden)",
+            "zh": "🧤  （用一条旅行头巾蒙住雕像的眼睛）",
+            "ja": "🧤  （旅行用のスカーフで像の目を覆う）"
+        },
+        "next": [
+            "estatua_msg_trampa"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "estatua_msg_trampa": {
+        "type": "message",
+        "text": {
+            "es": "Le encasquetas un pañuelo sobre los ojos de rubí. Técnicamente ya no puede mantener contacto visual. Has ganado el torneo por abandono técnico de la roca. Tu sentido del juego limpio queda en entredicho, pero tu picaresca y astucia callejera se fortalecen.",
+            "en": "You drape a travel kerchief over its ruby gaze. Technically it can no longer maintain visual line of sight. You conquer the match by technical forfeit of the boulder. Your chivalric honor is debatable, but your streetwise cunning flourishes.",
+            "fr": "Tu enfonces un mouchoir sur ses yeux de rubis. Techniquement, elle ne peut plus maintenir de contact visuel. Tu as gagné le tournoi par abandon technique de la roche. Ton sens du fair-play est remis en question, mais ta ruse et ton astuce de rue se renforcent.",
+            "it": "Le calchi un fazzoletto sugli occhi di rubino. Tecnicamente non può più mantenere il contatto visivo. Hai vinto il torneo per abbandono tecnico della roccia. Il tuo senso del gioco pulito è in discussione, ma la tua furbizia e astuzia di strada si rafforzano.",
+            "de": "Du stülpst ein Tuch über ihre Rubinaugen. Technisch kann sie nun keinen Blickkontakt mehr halten. Du gewinnst das Turnier durch technischen Rückzug des Felsens. Dein Sinn für Fairplay steht infrage, aber deine Straßenschläue blüht auf.",
+            "zh": "你把一条头巾扣在了它的红宝石眼睛上。从技术上讲，它已经无法保持视线接触了。你以「石头技术性弃权」赢得了这场比赛。你的公平竞赛精神值得商榷，但你的街头智慧和狡黠却更上一层楼。",
+            "ja": "そのルビーの目にスカーフを被せる。技術的にはもう視線を維持できない。お前は岩の技術的失格により勝利を収めた。フェアプレー精神は疑わしいが、お前の抜け目のなさとずる賢さは強化される。"
+        },
+        "next": [
+            "estatua_root"
+        ],
+        "reward": "faceta:inteligencia=+1;gold:+15"
+    },
+    "estatua_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  (Retirarse frotándose los ojos con alivio)",
+            "en": "🚶  (Depart while blinking with profound relief)",
+            "fr": "🚶  (Se retirer en clignant des yeux avec un profond soulagement)",
+            "it": "🚶  (Ritirarsi sbattendo le palpebre con profondo sollievo)",
+            "de": "🚶  (Sich zurückziehen, während man vor tiefer Erleichterung blinzelt)",
+            "zh": "🚶  （如释重负地眨着眼离开）",
+            "ja": "🚶  （深い安堵の瞬きをしながら立ち去る）"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": {
+        "es": "Dibujo Infantil de Elara",
+        "en": "Elara's Child Drawing",
+        "fr": "Dessin d'Enfant d'Elara",
+        "it": "Disegno Infantile di Elara",
+        "de": "Elaras Kinderzeichnung",
+        "zh": "艾拉拉的儿童画",
+        "ja": "エララの子供の絵"
+    },
+    "desc": {
+        "es": "Un dibujo a crayón, arrugado y muy querido: una niña sonriente de la mano de su padre, junto a una esfera brillante. Dedicado 'Para papá'.",
+        "en": "A crumpled, well-loved crayon drawing: a smiling girl holding her father's hand next to a glowing orb. Dedicated 'For daddy'.",
+        "fr": "Un dessin au crayon de cire, froissé et très aimé : une fillette souriante tenant la main de son père, près d'une orbe brillante. Dédicace « Pour papa ».",
+        "it": "Un disegno a pastelli, sgualcito e molto amato: una bambina sorridente per mano al padre, accanto a una sfera splendente. Dedica 'Per papà'.",
+        "de": "Eine zerknitterte, geliebte Buntstiftzeichnung: ein lächelndes Mädchen, das die Hand seines Vaters hält, neben einer leuchtenden Kugel. Widmung „Für Papa“.",
+        "zh": "一幅皱皱的蜡笔画，饱含深情：一个微笑的小女孩牵着父亲的手，旁边是一颗发光的球体。上面写着「献给爸爸」。",
+        "ja": "しわくちゃで大切にされたクレヨンの絵。輝く球のそばで父親の手を握る笑顔の少女。「パパへ」と書かれている。"
+    },
+    "icon": "🖍️",
+    "category": "important",
+    "usable": false
+}

@@ -1,0 +1,26 @@
+{
+    "id": "poi_gloriam_madre_arena",
+    "type": "poi",
+    "icon": "🏖️",
+    "name": {
+        "es": "La Madre de Arena",
+        "en": "The Sand Mother",
+        "fr": "La Mère de Sable",
+        "it": "La Madre di Sabbia",
+        "de": "Die Sandmutter",
+        "zh": "沙之母",
+        "ja": "砂の母"
+    },
+    "desc": {
+        "es": "Una mujer modela sin descanso figuras de niños en la arena y les habla como si estuvieran vivos. El viento se los lleva; ella empieza de nuevo. (PNJ singular).",
+        "en": "A woman tirelessly sculpts children out of sand and speaks to them as if alive. The wind takes them; she starts again. (Singular NPC).",
+        "fr": "Une femme façonne sans relâche des figures d'enfants dans le sable et leur parle comme s'ils étaient vivants. Le vent les emporte ; elle recommence. (PNJ singulier).",
+        "it": "Una donna modella senza sosta figure di bambini nella sabbia e parla loro come se fossero vivi. Il vento se li porta via; lei ricomincia. (PNG singolare).",
+        "de": "Eine Frau formt unermüdlich Kinderfiguren aus Sand und spricht mit ihnen, als wären sie lebendig. Der Wind trägt sie fort; sie beginnt von neuem. (Einzigartiger NPC).",
+        "zh": "一个女人不停地用沙子塑造孩子的形象，并像对待活人一样和他们说话。风把它们吹散；她又重新开始。（唯一NPC）。",
+        "ja": "女が絶え間なく砂で子どもの形を作り、まるで生きているかのように話しかける。風がそれをさらうと、彼女はまた最初から作り直す。（唯一のNPC）。"
+    },
+    "npc": "poi_gloriam_madre_arena",
+    "bg": "bg_world_poi_gloriam_madre_arena.png",
+    "music": "poi_generic"
+}

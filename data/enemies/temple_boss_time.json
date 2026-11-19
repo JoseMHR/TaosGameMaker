@@ -1,0 +1,62 @@
+{
+  "name": {
+    "es": "Cronófago",
+    "en": "Chronophage",
+    "fr": "Chronophage",
+    "it": "Cronofago",
+    "de": "Chronophage",
+    "zh": "食时者",
+    "ja": "クロノファージ"
+  },
+  "icon": "⏱️",
+  "image": "res://assets/combat/enemies/en_chronophage.png",
+  "attack_type": "magic",
+  "base_dodge": 0.0,
+  "dodge_scale": 0.0,
+  "element": "time",
+  "weak_to": [
+    "time",
+    "magic",
+    "physical"
+  ],
+  "resist": [
+    "dark"
+  ],
+  "ai": "defensive",
+  "xp_reward_base": 420,
+  "xp_reward_scale": 20.0,
+  "gold_reward_base": 250,
+  "gold_reward_scale": 18.0,
+  "skills": [
+    {
+      "level": 1,
+      "skill_id": "chrono_tick"
+    },
+    {
+      "level": 5,
+      "skill_id": "time_warp"
+    },
+    {
+      "level": 10,
+      "skill_id": "decay_pulse"
+    }
+  ],
+  "loot": [
+    {
+      "kind": "gold",
+      "min": 120,
+      "max": 220
+    },
+    {
+      "kind": "equipment",
+      "chance": 1.0,
+      "level": 4
+    }
+  ],
+  "family": "magical",
+  "archetype": "boss",
+  "zone": "zona_4_celestia",
+  "is_boss": true,
+  "fixed_hp": 200,
+  "time_decay_per_sec": 5
+}

@@ -1,0 +1,27 @@
+{
+    "id": "poi_tumba_yelmo_02",
+    "type": "poi",
+    "visual": "poi_tumba",
+    "icon": "🪦",
+    "name": {
+        "es": "Tumba de Sir Roderick el Confiado",
+        "en": "Tomb of Sir Roderick the Confident",
+        "fr": "Tombe de Sir Roderick le Confiant",
+        "it": "Tomba di Sir Roderick il Fiducioso",
+        "de": "Grab von Sir Roderick dem Zuversichtlichen",
+        "zh": "自信的罗德里克爵士之墓",
+        "ja": "自信家ロデリック卿の墓"
+    },
+    "desc": {
+        "es": "El reposo final de un aventurero con un exceso fatal de optimismo. (POI de inspección).",
+        "en": "The final resting place of an adventurer with fatal overconfidence. (Inspection POI).",
+        "fr": "Le dernier repos d'un aventurier avec un excès fatal d'optimisme. (POI d'inspection).",
+        "it": "L'ultimo riposo di un avventuriero con un eccesso fatale di ottimismo. (POI di ispezione).",
+        "de": "Die letzte Ruhestätte eines Abenteurers mit tödlichem Übermaß an Optimismus. (Inspektions-POI).",
+        "zh": "一位因过度乐观而丧命的冒险者的最终安息地。（探查类兴趣点）。",
+        "ja": "致命的なまでの楽観主義を持った冒険者の最後の安息の地。（調査ポイント）。"
+    },
+    "npc": "poi_tumba_yelmo_02",
+    "bg": "bg_world_poi_yelmo_tumba.png",
+    "music": "poi_comic"
+}

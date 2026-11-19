@@ -1,0 +1,27 @@
+{
+    "name": {
+        "es": "Estofado del Marinero",
+        "en": "Sailor's Stew",
+        "fr": "Ragoût du Marin",
+        "it": "Stufato del Marinaio",
+        "de": "Matroseneintopf",
+        "zh": "水手炖菜",
+        "ja": "船乗りシチュー"
+    },
+    "desc": {
+        "es": "Un guiso contundente de leche, pescado y carne asada.",
+        "en": "A hearty stew of milk, fish and roast meat.",
+        "fr": "Un ragoût copieux de lait, de poisson et de viande grillée.",
+        "it": "Uno stufato sostanzioso di latte, pesce e carne arrostita.",
+        "de": "Ein herzhafter Eintopf aus Milch, Fisch und gebratenem Fleisch.",
+        "zh": "以牛奶、鱼肉与烤肉炖成的丰盛炖菜。",
+        "ja": "ミルク、魚、焼き肉を使った食べ応えのあるシチュー。"
+    },
+    "icon": "🍲",
+    "category": "edible",
+    "usable": true,
+    "effects": {
+        "heal_pct": 0.6,
+        "mana_pct": 0.14
+    }
+}

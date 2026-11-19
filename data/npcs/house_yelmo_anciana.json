@@ -1,0 +1,342 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "La Anciana del Yelmo",
+            "en": "The Helm Old Crone",
+            "fr": "La Vieille Femme du Heaume",
+            "it": "L'Anziana dell'Elmo",
+            "de": "Die Alte Frau des Helms",
+            "zh": "头盔的老妇人",
+            "ja": "兜の老婆"
+        },
+        "next": [],
+        "reward": "avatar=👵;bg=0.05,0.06,0.08"
+    },
+    "entry": {
+        "type": "message",
+        "text": {
+            "es": "Una anciana encorvada remueve un caldero que desprende un vapor verde fosforito y huele a hierbas amargas. Te mira con ojos nublados y una sonrisa desdentada. '¿Eres tú, Rodolfo? ¡Por fin vuelves de comprar el pan, tardón! ¡Llevas cincuenta años de retraso! Siéntate y tómate este caldito de raíces y musgo... te pondrá pelo en el pecho o te derretirá las tripas, una de dos.'",
+            "en": "A hunched old woman stirs a cauldron emitting neon-green steam smelling of bitter herbs. She peers at you with cloudy eyes and a toothless grin. 'Is that you, Rodolfo? Finally back with the bread, slowpoke! You are fifty years late! Sit down and have some root-and-moss broth... it will either put hair on your chest or melt your guts, one of the two.'",
+            "fr": "Une vieille femme voûtée remue un chaudron qui dégage une vapeur vert fluo et sent les herbes amères. Elle te regarde avec des yeux troubles et un sourire édenté. « C'est toi, Rodolphe ? Enfin de retour avec le pain, traînard ! Tu as cinquante ans de retard ! Assieds-toi et bois ce petit bouillon de racines et de mousse... ça te mettra du poil sur la poitrine ou ça te fondra les tripes, l'un des deux. »",
+            "it": "Un'anziana curva rimesta un calderone che emana un vapore verde fosforescente e odora di erbe amare. Ti guarda con occhi annebbiati e un sorriso sdentato. 'Sei tu, Rodolfo? Finalmente torni con il pane, ritardatario! Sei in ritardo di cinquant'anni! Siediti e bevi questo brodino di radici e muschio... o ti metterà i peli sul petto o ti scioglierà le budella, una delle due.'",
+            "de": "Eine gebeugte alte Frau rührt in einem Kessel, der neongrünen Dampf und den Geruch bitterer Kräuter ausströmt. Sie mustert dich mit trüben Augen und einem zahnlosen Grinsen. „Bist du das, Rodolfo? Endlich zurück mit dem Brot, Trödler! Du bist fünfzig Jahre zu spät! Setz dich hin und iss diese Wurzel-Moos-Brühe... entweder wächst dir Brusthaar oder sie schmilzt dir die Eingeweide, eins von beidem.“",
+            "zh": "一位驼背的老妇人正在搅拌一口大锅，锅里冒出荧光绿色的蒸汽，散发出苦涩草药的气味。她用浑浊的眼睛看着你，露出一个没牙的笑容。「是你吗，罗多尔福？终于带着面包回来了，慢吞吞的家伙！你迟到了整整五十年！坐下，喝点这个根须苔藓汤……要么让你胸口长毛，要么把你的肠子都融化掉，二选一。」",
+            "ja": "腰の曲がった老婆が、蛍光緑の蒸気を放ち苦い薬草の匂いがする大鍋をかき混ぜている。曇った目と歯のない笑みでお前を見つめる。「あんたなのかい、ロドルフォ？やっとパンを持って帰ってきたね、のろまだね！五十年も遅刻じゃないか！座って、この根っこと苔のスープを飲みな……胸に毛が生えるか、腸が溶けるか、どちらかだよ」"
+        },
+        "next": [
+            "anciana_opt_reward_rod",
+            "anciana_opt_pesca_info",
+            "anciana_opt_quest_ask",
+            "anciana_opt_quest_deliver",
+            "anciana_opt_quest_reminder",
+            "anciana_opt_quien",
+            "anciana_opt_lore",
+            "anciana_opt_sopa",
+            "anciana_opt_salir"
+        ],
+        "reward": ""
+    },
+    "anciana_menu": {
+        "type": "message",
+        "text": {
+            "es": "La anciana sigue removiendo el caldero humeante con su cuchara de madera, mirándote con cariño senil. '¿Qué más quieres preguntarle a tu vieja abuela, Rodolfo?'",
+            "en": "The old woman keeps stirring the steaming cauldron with her wooden spoon, looking at you with senile fondness. 'What else do you wish to ask your old granny, Rodolfo?'",
+            "fr": "La vieille femme continue de remuer le chaudron fumant avec sa cuillère en bois, te regardant avec une tendresse sénile. « Que veux-tu encore demander à ta vieille grand-mère, Rodolphe ? »",
+            "it": "L'anziana continua a rimestare il calderone fumante con il suo cucchiaio di legno, guardandoti con affetto senile. 'Cos'altro vuoi chiedere alla tua vecchia nonna, Rodolfo?'",
+            "de": "Die alte Frau rührt weiterhin mit ihrem Holzlöffel im dampfenden Kessel und blickt dich mit seniler Zuneigung an. „Was willst du deine alte Großmutter noch fragen, Rodolfo?“",
+            "zh": "老妇人继续用她的木勺搅拌着冒烟的大锅，带着老年人特有的怜爱看着你。「你还想问你的老奶奶什么呢，罗多尔福？」",
+            "ja": "老婆は木のスプーンで湯気の立つ大鍋をかき混ぜ続けながら、老いた愛情を込めてお前を見つめる。「他に何を年寄りのおばあちゃんに聞きたいんだい、ロドルフォ？」"
+        },
+        "next": [
+            "anciana_opt_reward_rod",
+            "anciana_opt_pesca_info",
+            "anciana_opt_quest_ask",
+            "anciana_opt_quest_deliver",
+            "anciana_opt_quest_reminder",
+            "anciana_opt_quien",
+            "anciana_opt_lore",
+            "anciana_opt_sopa",
+            "anciana_opt_salir"
+        ],
+        "reward": ""
+    },
+    "anciana_opt_reward_rod": {
+        "type": "option",
+        "text": {
+            "es": "🎣  ¡He abierto la presa! El río corre de nuevo por el valle",
+            "en": "🎣  I opened the dam! The river flows through the valley again",
+            "fr": "🎣  J'ai ouvert le barrage ! La rivière coule de nouveau dans la vallée",
+            "it": "🎣  Ho aperto la diga! Il fiume scorre di nuovo nella valle",
+            "de": "🎣  Ich habe den Damm geöffnet! Der Fluss fließt wieder durchs Tal",
+            "zh": "🎣  我打开了水坝！河水又在山谷中流淌了",
+            "ja": "🎣  ダムを開いたぞ！川がまた谷を流れている"
+        },
+        "next": [
+            "anciana_msg_reward_rod"
+        ],
+        "reward": "item:cana_pescar=1;flag:anciana_rod_given;gflag:anciana_rod_given;rel:1;xp:43",
+        "condition": "gflag(\"dam_opened\") and no_gflag(\"anciana_rod_given\")",
+        "once": true
+    },
+    "anciana_msg_reward_rod": {
+        "type": "message",
+        "text": {
+            "es": "La anciana se asoma por la ventana y sus ojos nublados brillan con lágrimas de emoción. '¡El río! ¡El agua cristalina vuelve a bañar nuestro valle! ¡Ay, mi querido Rodolfo, sabía que no me fallarías! Has madurado una barbaridad, muchacho... se nota en tus ojos la templanza y la experiencia de un auténtico aventurero. Toma esto... es mi vieja caña de pescar. En el río que baja de la presa hay peces frescos saltando. Si pescas unos cuantos y los cocinas en una hoguera, tendrás comida sabrosa para curarte las heridas antes de enfrentarte a los peligros del este.'",
+            "en": "The old woman gazes out the window, her cloudy eyes glistening with joyous tears. 'The river! Crystal-clear water flows through our valley once more! Ah, my dear Rodolfo, I knew you would not let me down! You have grown so much, boy... I can see the grit and experience of a true adventurer in your eyes. Take this... it is my old fishing rod. Fresh fish are leaping in the river below the dam. If you catch some and cook them at a campfire, you will have hearty meals to heal your wounds before braving the dangers to the east.'",
+            "fr": "La vieille femme se penche par la fenêtre et ses yeux troubles brillent de larmes d'émotion. « La rivière ! L'eau cristalline baigne à nouveau notre vallée ! Ah, mon cher Rodolphe, je savais que tu ne me décevrais pas ! Tu as tellement mûri, mon garçon... on voit dans tes yeux la trempe et l'expérience d'un authentique aventurier. Tiens, prends ceci... c'est ma vieille canne à pêche. Dans la rivière qui descend du barrage, des poissons frais sautent. Si tu en pêches quelques-uns et que tu les cuisines sur un feu, tu auras de la nourriture savoureuse pour soigner tes blessures avant d'affronter les dangers de l'est. »",
+            "it": "L'anziana si affaccia alla finestra e i suoi occhi annebbiati brillano di lacrime di emozione. 'Il fiume! L'acqua cristallina torna a bagnare la nostra valle! Ah, mio caro Rodolfo, sapevo che non mi avresti deluso! Sei maturato tantissimo, ragazzo... si vede nei tuoi occhi la tempra e l'esperienza di un vero avventuriero. Tieni questo... è la mia vecchia canna da pesca. Nel fiume che scende dalla diga ci sono pesci freschi che saltano. Se ne peschi un po' e li cucini su un falò, avrai cibo saporito per curarti le ferite prima di affrontare i pericoli dell'est.'",
+            "de": "Die alte Frau schaut aus dem Fenster und ihre trüben Augen glänzen mit Freudentränen. „Der Fluss! Kristallklares Wasser durchströmt wieder unser Tal! Ach, mein lieber Rodolfo, ich wusste, du würdest mich nicht enttäuschen! Du bist so sehr gereift, Junge... man sieht in deinen Augen die Standhaftigkeit und Erfahrung eines echten Abenteurers. Nimm das... es ist meine alte Angelrute. Im Fluss unterhalb des Damms springen frische Fische. Wenn du ein paar fängst und sie am Lagerfeuer kochst, hast du herzhafte Mahlzeiten, um deine Wunden zu heilen, bevor du dich den Gefahren im Osten stellst.“",
+            "zh": "老妇人探出窗外，浑浊的眼睛闪烁着激动的泪光。「河水！清澈的水又重新浇灌我们的山谷了！啊，我亲爱的罗多尔福，我就知道你不会让我失望的！你成长了太多，孩子……我能从你的眼中看到真正冒险者的坚韧与经验。拿着这个……这是我的旧钓竿。水坝下游流淌的河里有新鲜的鱼在跳跃。如果你钓到一些，用篝火烹饪，你就能在面对东方的危险之前，用美味的食物治愈你的伤口。」",
+            "ja": "老婆は窓の外を見つめ、曇った目に喜びの涙を光らせる。「川だ！透き通った水がまた谷を流れているよ！ああ、愛しいロドルフォ、あんたが私を裏切らないって分かっていたよ！すっかり成長したね、坊や……本物の冒険者の覚悟と経験がその目に見えるよ。これを取っておくれ……私の古い釣り竿だよ。ダムの下流の川には新鮮な魚が跳ねている。何匹か釣って焚き火で調理すれば、東の危険に立ち向かう前に傷を癒す美味しい食事になるよ」"
+        },
+        "next": [
+            "anciana_menu"
+        ],
+        "reward": ""
+    },
+    "anciana_opt_pesca_info": {
+        "type": "option",
+        "text": {
+            "es": "🐟  ¿Cómo pesco y cocino para curarme?",
+            "en": "🐟  How do I fish and cook to heal myself?",
+            "fr": "🐟  Comment pêcher et cuisiner pour me soigner ?",
+            "it": "🐟  Come pesco e cucino per curarmi?",
+            "de": "🐟  Wie fische und koche ich, um mich zu heilen?",
+            "zh": "🐟  我该怎么钓鱼和烹饪来治愈自己？",
+            "ja": "🐟  どうやって釣りをして料理し、自分を癒せばいい？"
+        },
+        "next": [
+            "anciana_msg_pesca_info"
+        ],
+        "reward": "",
+        "condition": "gflag(\"anciana_rod_given\") or has_item(\"cana_pescar\")"
+    },
+    "anciana_msg_pesca_info": {
+        "type": "message",
+        "text": {
+            "es": "'¡Muy fácil, muchacho! Acércate a los muelles o zonas con peces en el río y pulsa Pescar con tu caña en la mano. Luego, en tu campamento base, levanta una hoguera con madera y podrás asar el pescado. ¡Una buena comida caliente restaura tu vida por completo y te prepara para cualquier combate!'",
+            "en": "'Very simple, boy! Walk up to the fishing spots along the river and fish with your rod. Then, at your base camp, build a campfire with wood and roast your catch. A warm meal fully restores your health and gets you ready for battle!'",
+            "fr": "« Très simple, mon garçon ! Approche-toi des quais ou des zones à poissons dans la rivière et pêche avec ta canne en main. Ensuite, à ton campement de base, allume un feu avec du bois et tu pourras griller le poisson. Un bon repas chaud restaure entièrement ta vie et te prépare à n'importe quel combat ! »",
+            "it": "'Facilissimo, ragazzo! Avvicinati ai moli o alle zone con pesci nel fiume e pesca con la canna in mano. Poi, al tuo campo base, accendi un falò con la legna e potrai arrostire il pesce. Un buon pasto caldo ripristina completamente la tua vita e ti prepara per qualsiasi combattimento!'",
+            "de": "„Ganz einfach, Junge! Geh zu den Anlegestellen oder Fischbereichen im Fluss und angle mit deiner Rute in der Hand. Dann, in deinem Basislager, entfache ein Feuer mit Holz und du kannst den Fisch braten. Eine gute warme Mahlzeit stellt dein Leben vollständig wieder her und bereitet dich auf jeden Kampf vor!“",
+            "zh": "「非常简单，孩子！走到河边的码头或有鱼的地方，手持钓竿钓鱼即可。然后，在你的基地营地里，用木材生一堆篝火，你就能烤鱼了。一顿美味热腾腾的食物能完全恢复你的生命值，让你为任何战斗做好准备！」",
+            "ja": "「とても簡単だよ、坊や！川の埠頭や魚のいる場所に近づいて、竿を手に釣りをするんだ。それから拠点キャンプで木材を使って焚き火を起こせば、魚を焼けるよ。温かい食事は体力を完全に回復させて、どんな戦いにも備えさせてくれる！」"
+        },
+        "next": [
+            "anciana_menu"
+        ],
+        "reward": ""
+    },
+    "anciana_opt_quest_ask": {
+        "type": "option",
+        "text": {
+            "es": "🌊  ¿Me ayudas a abrir la presa?",
+            "en": "🌊  Will you help me open the dam?",
+            "fr": "🌊  Peux-tu m'aider à ouvrir le barrage ?",
+            "it": "🌊  Mi aiuti ad aprire la diga?",
+            "de": "🌊  Hilfst du mir, den Damm zu öffnen?",
+            "zh": "🌊  你能帮我打开水坝吗？",
+            "ja": "🌊  ダムを開くのを手伝ってくれるか？"
+        },
+        "next": [
+            "anciana_msg_quest_ask"
+        ],
+        "reward": "",
+        "condition": "no_flag(\"anciana_axe_given\") and no_item(\"lever_stone\") and no_gflag(\"dam_opened\")"
+    },
+    "anciana_msg_quest_ask": {
+        "type": "message",
+        "text": {
+            "es": "La anciana sonríe con picardía: '¿La gran presa norte? ¡Claro que sí, muchacho! Pero antes una mano lava la otra... Mi hoguera está casi apagada y mis viejos huesos necesitan calor. Tráeme 5 trozos de leña del bosque y te daré algo muy especial para la presa. Toma mi vieja hacha para talar árboles, ¡y cuidado con no cortarte un dedo!'",
+            "en": "The old woman grins mischievously: 'The great northern dam? Of course, boy! But one hand washes the other... My hearth is almost cold and my old bones need warmth. Bring me 5 pieces of wood from the forest and I will give you something very special for the dam. Take my old axe to chop trees, and be careful not to cut off a finger!'",
+            "fr": "La vieille femme sourit avec malice : « Le grand barrage du nord ? Bien sûr, mon garçon ! Mais une main lave l'autre... Mon feu est presque éteint et mes vieux os ont besoin de chaleur. Apporte-moi 5 morceaux de bois de la forêt et je te donnerai quelque chose de très spécial pour le barrage. Prends ma vieille hache pour abattre des arbres, et fais attention à ne pas te couper un doigt ! »",
+            "it": "L'anziana sorride con malizia: 'La grande diga del nord? Certo, ragazzo! Ma una mano lava l'altra... Il mio focolare è quasi spento e le mie vecchie ossa hanno bisogno di calore. Portami 5 pezzi di legna dalla foresta e ti darò qualcosa di molto speciale per la diga. Prendi la mia vecchia ascia per abbattere alberi, e attento a non tagliarti un dito!'",
+            "de": "Die alte Frau lächelt schelmisch: „Der große Nord-Damm? Aber natürlich, mein Junge! Doch eine Hand wäscht die andere... Mein Feuer ist fast erloschen und meine alten Knochen brauchen Wärme. Bring mir 5 Stück Holz aus dem Wald, und ich gebe dir etwas ganz Besonderes für den Damm. Nimm meine alte Axt, um Bäume zu fällen, und pass auf, dass du dir keinen Finger abschneidest!“",
+            "zh": "老妇人狡黠地笑了：「北方的大水坝？当然可以，孩子！但礼尚往来嘛……我的炉火快熄灭了，我这把老骨头需要暖和暖和。从森林里给我带回来5块木柴，我就给你一件对水坝非常特别的东西。拿上我这把旧斧头去砍树吧，小心别切到手指！」",
+            "ja": "老婆はいたずらっぽく微笑む。「北の大きなダムかい？もちろんだとも、坊や！だが持ちつ持たれつってやつさ……私の炉はもう消えかかっていて、この老いた骨には温もりが必要なんだよ。森から薪を五本持ってきておくれ、そうすればダムのためにとても特別な物をあげよう。木を切るのにこの古い斧を持っていきな、指を切らないように気をつけて！」"
+        },
+        "next": [
+            "anciana_menu"
+        ],
+        "reward": "item:hacha=1;flag:anciana_axe_given"
+    },
+    "anciana_opt_quest_deliver": {
+        "type": "option",
+        "text": {
+            "es": "🪵  Traigo los 5 trozos de leña para tu hoguera",
+            "en": "🪵  I brought the 5 pieces of wood for your hearth",
+            "fr": "🪵  J'apporte les 5 morceaux de bois pour ton feu",
+            "it": "🪵  Ti porto i 5 pezzi di legna per il tuo focolare",
+            "de": "🪵  Ich bringe die 5 Stück Holz für deinen Herd",
+            "zh": "🪵  我带来了5块木柴，给你生炉子用",
+            "ja": "🪵  炉のために薪を五本持ってきたぞ"
+        },
+        "next": [
+            "anciana_msg_quest_deliver"
+        ],
+        "reward": "-item:wood=5;item:lever_stone=1;flag:anciana_stone_given;rel:1;faceta:bondad=1",
+        "condition": "has_flag(\"anciana_axe_given\") and has_item(\"wood\", 5) and no_item(\"lever_stone\") and no_gflag(\"dam_opened\")"
+    },
+    "anciana_msg_quest_deliver": {
+        "type": "message",
+        "text": {
+            "es": "La anciana echa los leños a la hoguera y las llamas crepitan con fuerza. '¡Ay, qué bendito calorcito! Eres un buen chico, Rodolfo. Como lo prometido es deuda, aquí tienes la llave de tu destino: ¡una gloriosa y formidable piedra arrojadiza! ¿Qué me miras con esa cara de pasmo? ¡Menos da una piedra, muchacho! Apunta bien a la palanca oxidada de la presa y verás la magia.'",
+            "en": "The old woman tosses the logs into the hearth and flames crackle brightly. 'Ah, what blessed warmth! You are a good boy, Rodolfo. A promise is a promise, so here is the key to your destiny: a glorious and formidable throwing stone! Why are you looking at me with that shocked face? Better than nothing, boy! Aim carefully at the dam's rusty lever and you will see the magic.'",
+            "fr": "La vieille femme jette les bûches dans le feu et les flammes crépitent avec vigueur. « Ah, quelle bénie chaleur ! Tu es un bon garçon, Rodolphe. Une promesse est une promesse, alors voici la clé de ton destin : une glorieuse et formidable pierre à lancer ! Pourquoi me regardes-tu avec cette tête ébahie ? Mieux vaut ça que rien, mon garçon ! Vise bien le levier rouillé du barrage et tu verras la magie. »",
+            "it": "L'anziana getta i ceppi nel focolare e le fiamme crepitano con forza. 'Ah, che benedetto calorino! Sei un bravo ragazzo, Rodolfo. Una promessa è una promessa, quindi ecco la chiave del tuo destino: una gloriosa e formidabile pietra da lancio! Perché mi guardi con quella faccia sbalordita? Meglio di niente, ragazzo! Mira bene alla leva arrugginita della diga e vedrai la magia.'",
+            "de": "Die alte Frau wirft die Scheite ins Feuer, und die Flammen prasseln kräftig. „Ach, was für eine gesegnete Wärme! Du bist ein guter Junge, Rodolfo. Ein Versprechen ist ein Versprechen, also hier ist der Schlüssel zu deinem Schicksal: ein glorreicher und gewaltiger Wurfstein! Warum schaust du mich mit diesem verblüfften Gesicht an? Besser als nichts, Junge! Ziele gut auf den rostigen Hebel des Damms, und du wirst die Magie sehen.“",
+            "zh": "老妇人把木柴扔进炉火里，火焰噼啪作响，燃烧得十分旺盛。「啊，多么幸福的暖意啊！你真是个好孩子，罗多尔福。承诺就是承诺，所以这是你命运的钥匙：一块光辉而强大的投掷石！你干嘛用那种震惊的表情看着我？总比什么都没有强，孩子！瞄准水坝那生锈的拉杆，你就会见证奇迹。」",
+            "ja": "老婆は薪を炉に投げ入れ、炎が力強くパチパチと燃え上がる。「ああ、なんて有難い暖かさだろう！お前はいい子だね、ロドルフォ。約束は約束だから、これがお前の運命の鍵だよ——栄光ある恐ろしい投げ石だ！なんでそんな呆れた顔で私を見るんだい？何もないよりましだろう、坊や！ダムの錆びたレバーをよく狙えば、魔法が見られるよ」"
+        },
+        "next": [
+            "anciana_menu"
+        ],
+        "reward": ""
+    },
+    "anciana_opt_quest_reminder": {
+        "type": "option",
+        "text": {
+            "es": "🪵  Sobre la leña para la hoguera...",
+            "en": "🪵  About the firewood for the hearth...",
+            "fr": "🪵  À propos du bois pour ton feu...",
+            "it": "🪵  A proposito della legna per il focolare...",
+            "de": "🪵  Zum Thema Feuerholz...",
+            "zh": "🪵  关于炉子的木柴……",
+            "ja": "🪵  炉の薪について……"
+        },
+        "next": [
+            "anciana_msg_quest_reminder"
+        ],
+        "reward": "",
+        "condition": "has_flag(\"anciana_axe_given\") and no_item(\"wood\", 5) and no_item(\"lever_stone\") and no_gflag(\"dam_opened\")"
+    },
+    "anciana_msg_quest_reminder": {
+        "type": "message",
+        "text": {
+            "es": "'Aún no tienes los 5 trozos de leña, Rodolfo. Equípate el hacha que te di, busca unos árboles por el valle y tala un poco de madera. ¡Mis reumas no aguantan este frío!'",
+            "en": "'You don't have the 5 pieces of wood yet, Rodolfo. Equip the axe I gave you, find some trees in the valley and chop some wood. My aching joints cannot bear this cold!'",
+            "fr": "« Tu n'as pas encore les 5 morceaux de bois, Rodolphe. Équipe la hache que je t'ai donnée, trouve des arbres dans la vallée et coupe un peu de bois. Mes rhumatismes ne supportent pas ce froid ! »",
+            "it": "'Non hai ancora i 5 pezzi di legna, Rodolfo. Equipaggia l'ascia che ti ho dato, cerca alberi nella valle e taglia un po' di legna. I miei reumatismi non reggono questo freddo!'",
+            "de": "„Du hast die 5 Stück Holz noch nicht, Rodolfo. Rüste die Axt aus, die ich dir gegeben habe, finde Bäume im Tal und schlage etwas Holz. Mein Rheuma erträgt diese Kälte nicht!“",
+            "zh": "「你还没有拿到那5块木柴呢，罗多尔福。装备上我给你的斧头，到山谷里找些树，砍点木材来。我的风湿受不了这种寒冷了！」",
+            "ja": "「まだ薪を五本持ってきていないね、ロドルフォ。渡した斧を装備して、谷で木を探して薪を切ってきておくれ。私のリウマチはこの寒さに耐えられないんだよ！」"
+        },
+        "next": [
+            "anciana_menu"
+        ],
+        "reward": ""
+    },
+    "anciana_opt_quien": {
+        "type": "option",
+        "text": {
+            "es": "👵  Señora, no soy Rodolfo...",
+            "en": "👵  Maam, I am not Rodolfo...",
+            "fr": "👵  Madame, je ne suis pas Rodolphe...",
+            "it": "👵  Signora, non sono Rodolfo...",
+            "de": "👵  Verehrte Frau, ich bin nicht Rodolfo...",
+            "zh": "👵  女士，我不是罗多尔福……",
+            "ja": "👵  おばあさん、俺はロドルフォじゃない……"
+        },
+        "next": [
+            "anciana_msg_quien"
+        ],
+        "reward": ""
+    },
+    "anciana_msg_quien": {
+        "type": "message",
+        "text": {
+            "es": "'¿Que no eres Rodolfo? ¡Pues claro que lo eres, tienes la misma cara de despistado y esa ridícula capa de aventurero! Deja de decir pamplinas. En mis tiempos los jóvenes no se inventaban identidades para librarse de comer verdura.'",
+            "en": "'Not Rodolfo? Of course you are, you have the exact same clueless face and that ridiculous adventurer cape! Stop talking nonsense. Back in my day youngsters didn't make up fake identities to skip eating their greens.'",
+            "fr": "« Tu n'es pas Rodolphe ? Mais bien sûr que si, tu as exactement le même visage de tête en l'air et cette ridicule cape d'aventurier ! Arrête de dire des bêtises. De mon temps, les jeunes ne s'inventaient pas d'identités pour éviter de manger des légumes. »",
+            "it": "'Non sei Rodolfo? Ma certo che lo sei, hai la stessa faccia da svampito e quella ridicola mantella da avventuriero! Smettila di dire sciocchezze. Ai miei tempi i giovani non si inventavano identità per non mangiare le verdure.'",
+            "de": "„Du bist nicht Rodolfo? Aber natürlich bist du das, du hast genau dasselbe zerstreute Gesicht und diesen lächerlichen Abenteurerumhang! Hör auf, Unsinn zu reden. Zu meiner Zeit haben sich junge Leute keine falschen Identitäten ausgedacht, um Gemüse zu vermeiden.“",
+            "zh": "「你不是罗多尔福？你当然是，你有着一模一样的糊涂脸和那件荒唐的冒险者斗篷！别说傻话了。我年轻的时候，孩子们才不会为了不吃蔬菜而编造什么假身份呢。」",
+            "ja": "「ロドルフォじゃない？いや、まさにあんただよ、その同じぼんやりした顔とその馬鹿げた冒険者マントを見れば分かる！馬鹿げたことを言うんじゃないよ。私の若い頃は、若者は野菜を食べたくないからって偽の身元をでっち上げたりはしなかったもんだよ。」"
+        },
+        "next": [
+            "anciana_menu"
+        ],
+        "reward": ""
+    },
+    "anciana_opt_lore": {
+        "type": "option",
+        "text": {
+            "es": "📜  ¿Qué le ocurrió realmente a este valle?",
+            "en": "📜  What really happened to this valley?",
+            "fr": "📜  Que s'est-il vraiment passé dans cette vallée ?",
+            "it": "📜  Cosa è successo realmente a questa valle?",
+            "de": "📜  Was ist wirklich mit diesem Tal geschehen?",
+            "zh": "📜  这片山谷究竟发生了什么？",
+            "ja": "📜  この谷に本当は何が起きたんだ？"
+        },
+        "next": [
+            "anciana_msg_lore"
+        ],
+        "reward": ""
+    },
+    "anciana_msg_lore": {
+        "type": "message",
+        "text": {
+            "es": "La anciana detiene la cuchara. Su mirada se vuelve gélida y lúcida por un instante perturbador. 'La ambición de Celestia, muchacho. Cerraron la gran presa norte para alimentar sus fuentes y jardines flotantes, y nos cortaron el río a todos sin pestañear. Los ricos beben vino en las nubes mientras nosotros criamos polvo y sequía en los tobillos. Si alguna vez abres esas compuertas... el agua volverá a correr por el valle y la vida regresará, pero la vergüenza de los reyes no se limpiará jamás.'",
+            "en": "The old woman pauses her wooden spoon. Her gaze turns freezing cold and startlingly lucid for a chilling second. 'The ambition of Celestia, boy. They shut the northern dam to feed their floating fountains and gardens, cutting off our river without blinking. The wealthy sip wine in the clouds while we choke on dust and drought down here. If you ever open those floodgates... water will rush through the valley and life will return, but the shame of kings will never wash away.'",
+            "fr": "La vieille femme arrête sa cuillère. Son regard devient glacial et lucide pendant un instant troublant. « L'ambition de Celestia, mon garçon. Ils ont fermé le grand barrage du nord pour alimenter leurs fontaines et jardins flottants, et ils nous ont coupé la rivière à tous sans sourciller. Les riches boivent du vin dans les nuages pendant que nous avalons la poussière et la sécheresse ici-bas. Si jamais tu ouvres ces vannes... l'eau reviendra couler dans la vallée et la vie reviendra, mais la honte des rois ne se lavera jamais. »",
+            "it": "L'anziana ferma il cucchiaio. Il suo sguardo diventa gelido e lucido per un istante inquietante. 'L'ambizione di Celestia, ragazzo. Chiusero la grande diga del nord per alimentare le loro fontane e giardini fluttuanti, e ci tagliarono il fiume a tutti senza batter ciglio. I ricchi bevono vino tra le nuvole mentre noi respiriamo polvere e siccità quaggiù. Se mai aprirai quelle chiuse... l'acqua tornerà a scorrere per la valle e la vita ritornerà, ma la vergogna dei re non si laverà mai via.'",
+            "de": "Die alte Frau hält mit dem Löffel inne. Ihr Blick wird für einen beunruhigenden Moment eisig und klar. „Der Ehrgeiz von Celestia, mein Junge. Sie schlossen den großen Nord-Damm, um ihre schwebenden Brunnen und Gärten zu versorgen, und schnitten uns allen ohne mit der Wimper zu zucken den Fluss ab. Die Reichen trinken Wein in den Wolken, während wir hier unten in Staub und Dürre ersticken. Wenn du jemals diese Schleusen öffnest... wird das Wasser wieder durch das Tal fließen und das Leben zurückkehren, aber die Schande der Könige wird niemals abgewaschen werden.“",
+            "zh": "老妇人停下了手中的勺子。她的目光在令人不安的瞬间变得冰冷而清醒。「是塞莱斯提亚的野心啊，孩子。他们关闭了北方的大水坝，只为了供给他们悬浮的喷泉与花园，毫不犹豫地切断了我们所有人的河流。富人们在云端品着美酒，而我们在这里啃食着尘土与干旱。如果你有朝一日打开那些水闸……水会重新流入山谷，生命也将回归，但国王们的耻辱将永远无法洗清。」",
+            "ja": "老婆はスプーンを止める。その視線は、ぞっとするような一瞬、氷のように冷たく、はっとするほど明晰になる。「セレスティアの野心だよ、坊や。彼らは浮遊する噴水や庭園を養うために北の大きなダムを閉じ、瞬き一つせずに我々全員の川を断ち切ったのさ。金持ちどもは雲の上でワインをすすり、我々はここで埃と干ばつにあえいでいる。もしお前がいつかあの水門を開いたら……水は谷を流れ、命は戻ってくるだろう。だが王たちの恥は決して洗い流されはしないよ」"
+        },
+        "next": [
+            "anciana_menu"
+        ],
+        "reward": ""
+    },
+    "anciana_opt_sopa": {
+        "type": "option",
+        "text": {
+            "es": "🍲  Probar una cucharada del caldito",
+            "en": "🍲  Taste a spoonful of the broth",
+            "fr": "🍲  Goûter une cuillerée du petit bouillon",
+            "it": "🍲  Assaggiare un cucchiaio del brodino",
+            "de": "🍲  Einen Löffel der Brühe probieren",
+            "zh": "🍲  尝一口这碗浓汤",
+            "ja": "🍲  スープを一口味わう"
+        },
+        "next": [
+            "anciana_msg_sopa"
+        ],
+        "reward": ""
+    },
+    "anciana_msg_sopa": {
+        "type": "message",
+        "text": {
+            "es": "Tragas un sorbo. Sabe a suela de bota vieja y tierra seca, pero una extraña energía reconfortante te recorre la espina dorsal. '¡Ja! ¡Ves como eres Rodolfo! ¡Ningún forastero sobrevive al primer trago!'",
+            "en": "You take a sip. It tastes like an old boot sole and dry soil, but a strange comforting warmth tingles down your spine. 'Ha! See? You ARE Rodolfo! No stranger survives the first sip!'",
+            "fr": "Tu avales une gorgée. Ça a le goût d'une vieille semelle de botte et de terre sèche, mais une étrange énergie réconfortante parcourt ta colonne vertébrale. « Ha ! Tu vois bien que tu es Rodolphe ! Aucun étranger ne survit à la première gorgée ! »",
+            "it": "Ingoi un sorso. Sa di suola di stivale vecchio e terra secca, ma una strana energia confortante ti percorre la spina dorsale. 'Ah! Vedi come sei Rodolfo! Nessuno straniero sopravvive al primo sorso!'",
+            "de": "Du schluckst einen Schluck. Es schmeckt nach alter Stiefelsohle und trockener Erde, aber eine seltsame, tröstliche Energie durchläuft deine Wirbelsäule. „Ha! Siehst du, dass du Rodolfo bist! Kein Fremder überlebt den ersten Schluck!“",
+            "zh": "你咽下一口汤。味道像是旧靴底和干土，但一股奇怪的暖流舒适地沿着你的脊背涌上来。「哈！看吧，你就是罗多尔福！没有一个外乡人能活过第一口！」",
+            "ja": "一口飲み込む。古い靴底と乾いた土のような味がするが、奇妙な心地よいエネルギーが背筋を伝う。「ハッ！ほら見ろ、やっぱりロドルフォじゃないか！よそ者は最初の一口で生き延びられないんだよ！」"
+        },
+        "next": [
+            "anciana_menu"
+        ],
+        "reward": ""
+    },
+    "anciana_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Tengo que marcharme, abuela.",
+            "en": "🚶  I must be on my way, granny.",
+            "fr": "🚶  Je dois partir, grand-mère.",
+            "it": "🚶  Devo andare, nonna.",
+            "de": "🚶  Ich muss los, Oma.",
+            "zh": "🚶  我得走了，奶奶。",
+            "ja": "🚶  もう行かなきゃ、おばあちゃん。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

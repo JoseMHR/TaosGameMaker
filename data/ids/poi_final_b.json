@@ -1,0 +1,29 @@
+{
+    "id": "poi_final_b",
+    "type": "poi",
+    "name": {
+        "es": "Final B: Locura",
+        "en": "Ending B: Madness",
+        "fr": "Fin B : Folie",
+        "it": "Finale B: Follia",
+        "de": "Ende B: Wahnsinn",
+        "zh": "结局B：疯狂",
+        "ja": "エンディングB：狂気"
+    },
+    "icon": "🌀",
+    "desc": {
+        "es": "Juicio de la Esfera y Desenlace B: El Colapso y el Bucle Eterno.",
+        "en": "Sphere Judgment and Outcome B: Collapse and the Eternal Loop.",
+        "fr": "Jugement de la Sphère et Dénouement B : L'Effondrement et la Boucle Éternelle.",
+        "it": "Giudizio della Sfera ed Esito B: Il Collasso e il Ciclo Eterno.",
+        "de": "Urteil der Sphäre und Ausgang B: Der Zusammenbruch und die Ewige Schleife.",
+        "zh": "真理之球的审判与结局B：崩溃与永恒循环。",
+        "ja": "球の審判と結末B：崩壊と永遠のループ。"
+    },
+    "portal": {
+        "view": "cinematic",
+        "cinematic_id": "final_b",
+        "label": "🔮  Ver Final B: Locura"
+    },
+    "bg": "bg_ending_temple.png"
+}

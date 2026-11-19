@@ -1,0 +1,26 @@
+{
+    "id": "poi_nieves_yeti_timido",
+    "type": "poi",
+    "icon": "🦶",
+    "name": {
+        "es": "El Yeti Tímido",
+        "en": "The Shy Yeti",
+        "fr": "Le Yéti Timide",
+        "it": "Lo Yeti Timido",
+        "de": "Der Schüchterne Yeti",
+        "zh": "害羞的雪怪",
+        "ja": "内気なイエティ"
+    },
+    "desc": {
+        "es": "Una criatura enorme y peluda intentando esconderse, sin éxito, tras un árbol demasiado delgado. (PNJ singular).",
+        "en": "An enormous furry creature trying, unsuccessfully, to hide behind a far-too-thin tree. (Singular NPC).",
+        "fr": "Une créature énorme et poilue essayant, sans succès, de se cacher derrière un arbre bien trop fin. (PNJ singulier).",
+        "it": "Una creatura enorme e pelosa che cerca, senza successo, di nascondersi dietro un albero troppo sottile. (PNG singolare).",
+        "de": "Eine riesige, pelzige Kreatur, die sich erfolglos hinter einem viel zu dünnen Baum zu verstecken versucht. (Einzigartiger NPC).",
+        "zh": "一只巨大的毛茸茸生物，正徒劳地想躲在一棵太过纤细的树后面。（唯一NPC）。",
+        "ja": "細すぎる木の陰に隠れようとして失敗している、巨大で毛むくじゃらの生き物。（唯一のNPC）。"
+    },
+    "npc": "poi_nieves_yeti_timido",
+    "bg": "bg_world_poi_nieve_yeti_timido.png",
+    "music": "poi_comic"
+}

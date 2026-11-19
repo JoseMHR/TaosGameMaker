@@ -1,0 +1,98 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "Dragón Furioso",
+            "en": "Furious Dragon",
+            "fr": "Dragon Furieux",
+            "it": "Drago Furioso",
+            "de": "Wütender Drache",
+            "zh": "暴怒之龙",
+            "ja": "怒れる竜"
+        },
+        "next": [],
+        "reward": "avatar=npc_world_poi_arcanum_dragon_furioso.png;bg=0.05,0.03,0.02"
+    },
+    "dragon_root": {
+        "type": "message",
+        "text": {
+            "es": "Un dragón verde, enorme, con las escamas erizadas y los ojos inyectados en rabia, se alza sobre la cima y ruge con una furia que hace temblar la piedra bajo tus pies. '¡TÚ!' —parece bramar entre el humo y las llamas—. '¡Furioso! ¡FURIOSO estoy contigo! Tú y tu amigo Roxas me robasteis del nido cuando aún era un huevo. La dragona Samy os hundió el barco y os perdonó la vida a cambio de llevarme al templo de las esferas... y vosotros cumplisteis, sin pestañear. ¿Y sabes lo que le hiciste luego a los humanos que confiaron en ti? ¿A tu propia sangre? Acabaré contigo aquí y ahora, como el mal que eres. Y si no recuerdas lo que hiciste... entonces INTENTA recordarlo.'",
+            "en": "A massive green dragon, scales bristling, eyes blazing with rage, rises over the peak and roars with a fury that shakes the ground beneath your feet. 'YOU!' it seems to bellow through smoke and flame. 'I am FURIOUS with you! You and your friend Roxas stole me from the nest when I was still an egg. The dragon Samy sank your ship and spared your lives in exchange for carrying me to the temple of spheres... and you did it without blinking. And do you know what you did afterward to the humans who trusted you? To your own blood? I will end you here and now, like the evil that you are. And if you don't remember what you did... then TRY to remember.'",
+            "fr": "Un dragon vert, énorme, les écailles hérissées et les yeux injectés de rage, se dresse au sommet et rugit d'une fureur qui fait trembler la pierre sous tes pieds. « TOI ! » — semble-t-il beugler à travers la fumée et les flammes —. « Furieux ! Je suis FURIEUX contre toi ! Toi et ton ami Roxas m'avez volé du nid alors que je n'étais encore qu'un œuf. La dragonne Samy a coulé votre navire et vous a épargné la vie en échange de me porter jusqu'au temple des sphères... et vous l'avez fait, sans sourciller. Et sais-tu ce que tu as fait ensuite aux humains qui t'avaient fait confiance ? À ton propre sang ? Je vais t'achever ici et maintenant, comme le mal que tu es. Et si tu ne te souviens pas de ce que tu as fait... alors ESSAIE de t'en souvenir. »",
+            "it": "Un drago verde, enorme, con le squame irte e gli occhi iniettati di rabbia, si erge sulla cima e ruggisce con una furia che fa tremare la roccia sotto i tuoi piedi. 'TU!' — sembra ruggire tra il fumo e le fiamme —. 'Furioso! Sono FURIOSO con te! Tu e il tuo amico Roxas mi avete rubato dal nido quando ero ancora un uovo. La draghessa Samy ha affondato la vostra nave e vi ha risparmiato la vita in cambio di portarmi al tempio delle sfere... e voi avete obbedito, senza battere ciglio. E sai cosa hai fatto poi agli umani che si fidavano di te? Al tuo stesso sangue? Ti finirò qui e ora, come il male che sei. E se non ricordi cosa hai fatto... allora PROVA a ricordarlo.'",
+            "de": "Ein riesiger grüner Drache, Schuppen gesträubt, Augen vor Wut glühend, erhebt sich über dem Gipfel und brüllt mit einer Wut, die den Fels unter deinen Füßen erzittern lässt. „DU!“ — scheint er durch Rauch und Flammen zu brüllen —. „Wütend! Ich bin WÜTEND auf dich! Du und dein Freund Roxas habt mich aus dem Nest gestohlen, als ich noch ein Ei war. Die Drachin Samy versenkte euer Schiff und verschonte euer Leben, im Austausch dafür, mich zum Tempel der Sphären zu bringen... und ihr habt es getan, ohne mit der Wimper zu zucken. Und weißt du, was du danach den Menschen angetan hast, die dir vertrauten? Deinem eigenen Blut? Ich werde dich hier und jetzt vernichten, wie das Übel, das du bist. Und wenn du dich nicht erinnerst, was du getan hast... dann VERSUCHE, dich zu erinnern.“",
+            "zh": "一条巨大的绿色巨龙，鳞片竖起，双目因愤怒而充血，从山顶昂然而起，怒吼声震得你脚下的岩石颤抖。「你！」它似乎在浓烟与烈焰中咆哮，「愤怒！我对你感到愤怒！你和你的朋友罗克萨斯在我还是一颗蛋的时候就把我从巢中偷走。飞龙萨米击沉了你们的船，饶了你们的性命，条件是把我带到球体神殿……而你们照做了，眼睛都没眨一下。你知道后来你对那些信任你的人类做了什么吗？对你自己的血脉？我要在此刻终结你，就像你这个恶徒应得的下场。如果你不记得自己做过什么……那就好好努力回想起来。」",
+            "ja": "巨大な緑の竜が、鱗を逆立て、怒りに血走った目をして頂上に現れ、足元の岩を震わせるほどの怒りで咆哮する。「貴様！」煙と炎の中でそう吼えているようだ。「怒っている！お前に、怒り狂っているのだ！お前とお前の友ロクサスは、私がまだ卵だった頃に巣から盗み出した。竜サミーはお前たちの船を沈め、球の神殿まで私を運ぶことと引き換えに命を助けた……そしてお前たちはためらいもなくそれを実行した。その後、お前を信じた人間たちに何をしたか知っているか？お前自身の血族に？お前のような悪には、ここで今、終止符を打ってやる。そしてもし自分の行いを覚えていないのなら……思い出そうと努力するがいい。」"
+        },
+        "next": [
+            "dragon_opt_recuerdos",
+            "dragon_opt_salir"
+        ],
+        "reward": ""
+    },
+    "dragon_opt_recuerdos": {
+        "type": "option",
+        "text": {
+            "es": "✨  Mostrar los recuerdos recuperados del laboratorio",
+            "en": "✨  Show the recovered memories from the laboratory",
+            "fr": "✨  Montrer les souvenirs récupérés du laboratoire",
+            "it": "✨  Mostra i ricordi recuperati dal laboratorio",
+            "de": "✨  Die wiedergewonnenen Erinnerungen aus dem Labor zeigen",
+            "zh": "✨  展示从实验室找回的记忆",
+            "ja": "✨  研究所から取り戻した記憶を見せる"
+        },
+        "next": [
+            "dragon_calmado"
+        ],
+        "reward": "",
+        "condition": "has_item(\"recuerdos_aiden\") or gflag(\"flag_arcanum_lab_cleared\") or has_item(\"nucleo_automata\")"
+    },
+    "dragon_calmado": {
+        "type": "message",
+        "text": {
+            "es": "El dragón se detiene en seco. Su mirada furiosa se fija en los recuerdos y la verdad que emana de ti. El fuego de sus fauces se apaga lentamente y sus enormes alas descienden. Un estremecimiento recorre su cuerpo colosal hasta replegarse sobre las rocas, convirtiéndose en un huevo sereno y tibio. El camino hacia el sur de la montaña queda despejado.",
+            "en": "The dragon stops in its tracks. Its furious gaze fixes upon the memories and truth emanating from you. The fire in its jaws slowly dies down and its massive wings lower. A tremor runs through its colossal body until it curls upon the rocks, turning into a serene and warm egg. The path south across the mountain lies clear.",
+            "fr": "Le dragon s'arrête net. Son regard furieux se pose sur les souvenirs et la vérité qui émanent de toi. Le feu de ses mâchoires s'éteint lentement et ses ailes imposantes s'abaissent. Un frisson parcourt son corps colossal jusqu'à ce qu'il se replie sur les rochers, redevenant un œuf serein et tiède. Le chemin vers le sud de la montagne est dégagé.",
+            "it": "Il drago si ferma di colpo. Il suo sguardo furioso si fissa sui ricordi e sulla verità che emanano da te. Il fuoco dalle sue fauci si spegne lentamente e le sue enormi ali si abbassano. Un tremito scuote il suo corpo colossale finché non si rannicchia sulle rocce, trasformandosi in un uovo sereno e tiepido. Il sentiero a sud della montagna è libero.",
+            "de": "Der Drache hält abrupt inne. Sein wütender Blick heftet sich auf die Erinnerungen und die Wahrheit, die von dir ausgeht. Das Feuer in seinen Kiefern erlischt langsam und seine mächtigen Schwingen senken sich. Ein Zittern durchfährt seinen gewaltigen Körper, bis er sich auf den Felsen zusammenrollt und zu einem friedlichen, warmen Ei wird. Der Weg nach Süden über das Gebirge ist frei.",
+            "zh": "巨龙猛地停住脚步。它狂暴的目光停留在你身上散发出的记忆与真相之上。颚间的烈焰缓缓熄灭，巨大的双翼随之垂下。一阵战栗掠过它庞大的身躯，最终蜷缩在岩石间，化作一颗宁静而温润的蛋。通往山脉南部的道路彻底敞开。",
+            "ja": "竜はぴたりと動きを止めた。怒りに満ちた視線が、お前から放たれる記憶と真実に注がれる。顎から漏れる炎が静かに消え、巨大な翼がゆっくりと下ろされる。その巨躯を震わせながら岩の上に身を丸め、やがて穏やかで温かな卵の姿へと戻っていった。山脈の南へと続く道は開かれた。"
+        },
+        "next": [
+            "dragon_calmado_ok"
+        ],
+        "reward": "gflag:dragon_egg_remembered;gflag:flag_arcanum_lab_cleared;gflag:dragon_cima_unlocked;emit:dragon_cima_unlocked"
+    },
+    "dragon_calmado_ok": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Continuar",
+            "en": "🚶  Continue",
+            "fr": "🚶  Continuer",
+            "it": "🚶  Continua",
+            "de": "🚶  Weiter",
+            "zh": "🚶  继续",
+            "ja": "🚶  続ける"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "dragon_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Retroceder, temblando",
+            "en": "🚶  Step back, trembling",
+            "fr": "🚶  Reculer, tremblant",
+            "it": "🚶  Indietreggiare, tremante",
+            "de": "🚶  Zitternd zurückweichen",
+            "zh": "🚶  颤抖着后退",
+            "ja": "🚶  震えながら後ずさる"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

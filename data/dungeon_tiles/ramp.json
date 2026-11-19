@@ -1,0 +1,9 @@
+{
+	"t": "ramp",
+	"order": 103,
+	"label": "Rampa",
+	"icon": "📐",
+	"color": "#9ca3af",
+	"group": "Estructura",
+	"orient": true
+}

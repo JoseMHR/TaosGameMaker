@@ -1,0 +1,23 @@
+{
+    "id": "dun_nieves",
+    "type": "dungeon",
+    "name": {
+        "es": "Catacumba de las Nieves",
+        "en": "Snow Catacombs",
+        "fr": "Catacombes des Neiges",
+        "it": "Catacombe delle Nevi",
+        "de": "Schneekatakomben",
+        "zh": "雪原墓穴",
+        "ja": "雪のカタコンベ"
+    },
+    "icon": "❄️",
+    "desc": {
+        "es": "Una profunda catacumba excavada bajo el hielo perpetuo, donde moran bestias heladas y acechan peligros glaciales.",
+        "en": "A deep catacomb carved beneath the perpetual ice, home to frozen beasts and glacial perils.",
+        "fr": "Une profonde catacombe creusée sous la glace éternelle, où vivent des bêtes gelées et rôdent des dangers glaciaires.",
+        "it": "Una profonda catacomba scavata sotto il ghiaccio perpetuo, dimora di bestie ghiacciate e insidie glaciali.",
+        "de": "Eine tiefe Katakombe unter dem ewigen Eis, Heimat gefrorener Bestien und eisiger Gefahren.",
+        "zh": "一座深藏于永冻冰层之下的墓穴，栖息着冰霜猛兽，潜伏着冰川危机。",
+        "ja": "永久凍土の下に掘られた深いカタコンベ。凍てついた獣が棲み、氷河の危険が潜む。"
+    }
+}

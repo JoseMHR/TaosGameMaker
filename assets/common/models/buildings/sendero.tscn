@@ -1,0 +1,161 @@
+[gd_scene format=3]
+
+[sub_resource type="StandardMaterial3D" id="Mat_PathStone"]
+albedo_color = Color(0.38, 0.36, 0.35, 1)
+roughness = 0.85
+
+[sub_resource type="StandardMaterial3D" id="Mat_Runestone"]
+albedo_color = Color(0.22, 0.21, 0.22, 1)
+roughness = 0.9
+
+[sub_resource type="StandardMaterial3D" id="Mat_WarRed"]
+albedo_color = Color(0.9, 0.15, 0.15, 1)
+emission_enabled = true
+emission = Color(0.9, 0.15, 0.15, 1)
+emission_energy_multiplier = 2.5
+
+[sub_resource type="StandardMaterial3D" id="Mat_ArcherGreen"]
+albedo_color = Color(0.15, 0.85, 0.25, 1)
+emission_enabled = true
+emission = Color(0.15, 0.85, 0.25, 1)
+emission_energy_multiplier = 2.5
+
+[sub_resource type="StandardMaterial3D" id="Mat_PriestGold"]
+albedo_color = Color(0.95, 0.85, 0.25, 1)
+emission_enabled = true
+emission = Color(0.95, 0.85, 0.25, 1)
+emission_energy_multiplier = 2.5
+
+[sub_resource type="StandardMaterial3D" id="Mat_EleOrange"]
+albedo_color = Color(1.0, 0.45, 0.05, 1)
+emission_enabled = true
+emission = Color(1.0, 0.45, 0.05, 1)
+emission_energy_multiplier = 2.5
+
+[sub_resource type="StandardMaterial3D" id="Mat_PsyPurple"]
+albedo_color = Color(0.7, 0.15, 0.9, 1)
+emission_enabled = true
+emission = Color(0.7, 0.15, 0.9, 1)
+emission_energy_multiplier = 2.5
+
+[sub_resource type="StandardMaterial3D" id="Mat_TimeCyan"]
+albedo_color = Color(0.0, 0.8, 0.95, 1)
+emission_enabled = true
+emission = Color(0.0, 0.8, 0.95, 1)
+emission_energy_multiplier = 2.5
+
+[sub_resource type="CylinderMesh" id="Mesh_CenterPlinth"]
+top_radius = 0.28
+bottom_radius = 0.35
+height = 0.12
+radial_segments = 6
+
+[sub_resource type="BoxMesh" id="Mesh_Pathway"]
+size = Vector3(0.14, 0.06, 0.42)
+
+[sub_resource type="CylinderMesh" id="Mesh_Obelisk"]
+top_radius = 0.04
+bottom_radius = 0.08
+height = 0.55
+radial_segments = 5
+
+[sub_resource type="SphereMesh" id="Mesh_Orb"]
+radius = 0.06
+height = 0.12
+
+[node name="SenderoProfesiones" type="Node3D"]
+
+[node name="CenterPlinth" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.06, 0)
+material_override = SubResource("Mat_PathStone")
+mesh = SubResource("Mesh_CenterPlinth")
+
+[node name="Path0" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.21, 0.05, 0)
+material_override = SubResource("Mat_PathStone")
+mesh = SubResource("Mesh_Pathway")
+
+[node name="Path60" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.5, 0, 0.866, 0, 1, 0, -0.866, 0, 0.5, 0.105, 0.05, 0.182)
+material_override = SubResource("Mat_PathStone")
+mesh = SubResource("Mesh_Pathway")
+
+[node name="Path120" type="MeshInstance3D" parent="."]
+transform = Transform3D(-0.5, 0, 0.866, 0, 1, 0, -0.866, 0, -0.5, -0.105, 0.05, 0.182)
+material_override = SubResource("Mat_PathStone")
+mesh = SubResource("Mesh_Pathway")
+
+[node name="Path180" type="MeshInstance3D" parent="."]
+transform = Transform3D(-1, 0, 0, 0, 1, 0, 0, 0, -1, -0.21, 0.05, 0)
+material_override = SubResource("Mat_PathStone")
+mesh = SubResource("Mesh_Pathway")
+
+[node name="Path240" type="MeshInstance3D" parent="."]
+transform = Transform3D(-0.5, 0, -0.866, 0, 1, 0, 0.866, 0, -0.5, -0.105, 0.05, -0.182)
+material_override = SubResource("Mat_PathStone")
+mesh = SubResource("Mesh_Pathway")
+
+[node name="Path300" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.5, 0, -0.866, 0, 1, 0, 0.866, 0, 0.5, 0.105, 0.05, -0.182)
+material_override = SubResource("Mat_PathStone")
+mesh = SubResource("Mesh_Pathway")
+
+[node name="ObeliskGuerrero" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.42, 0.275, 0)
+material_override = SubResource("Mat_Runestone")
+mesh = SubResource("Mesh_Obelisk")
+
+[node name="RuneGuerrero" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.42, 0.58, 0)
+material_override = SubResource("Mat_WarRed")
+mesh = SubResource("Mesh_Orb")
+
+[node name="ObeliskArquero" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.21, 0.275, 0.364)
+material_override = SubResource("Mat_Runestone")
+mesh = SubResource("Mesh_Obelisk")
+
+[node name="RuneArquero" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.21, 0.58, 0.364)
+material_override = SubResource("Mat_ArcherGreen")
+mesh = SubResource("Mesh_Orb")
+
+[node name="ObeliskSacerdote" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.21, 0.275, 0.364)
+material_override = SubResource("Mat_Runestone")
+mesh = SubResource("Mesh_Obelisk")
+
+[node name="RuneSacerdote" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.21, 0.58, 0.364)
+material_override = SubResource("Mat_PriestGold")
+mesh = SubResource("Mesh_Orb")
+
+[node name="ObeliskElementalista" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.42, 0.275, 0)
+material_override = SubResource("Mat_Runestone")
+mesh = SubResource("Mesh_Obelisk")
+
+[node name="RuneElementalista" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.42, 0.58, 0)
+material_override = SubResource("Mat_EleOrange")
+mesh = SubResource("Mesh_Orb")
+
+[node name="ObeliskPsiquico" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.21, 0.275, -0.364)
+material_override = SubResource("Mat_Runestone")
+mesh = SubResource("Mesh_Obelisk")
+
+[node name="RunePsiquico" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.21, 0.58, -0.364)
+material_override = SubResource("Mat_PsyPurple")
+mesh = SubResource("Mesh_Orb")
+
+[node name="ObeliskTiempo" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.21, 0.275, -0.364)
+material_override = SubResource("Mat_Runestone")
+mesh = SubResource("Mesh_Obelisk")
+
+[node name="RuneTiempo" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.21, 0.58, -0.364)
+material_override = SubResource("Mat_TimeCyan")
+mesh = SubResource("Mesh_Orb")

@@ -1,0 +1,23 @@
+{
+    "name": {
+        "es": "Trigo",
+        "en": "Wheat",
+        "fr": "Blé",
+        "it": "Grano",
+        "de": "Weizen",
+        "zh": "小麦",
+        "ja": "小麦"
+    },
+    "desc": {
+        "es": "Espigas de trigo doradas.",
+        "en": "Golden wheat stalks.",
+        "fr": "Épis de blé dorés.",
+        "it": "Spighe di grano dorate.",
+        "de": "Goldene Weizenähren.",
+        "zh": "金黄的麦穗。",
+        "ja": "黄金色の小麦の穂。"
+    },
+    "icon": "🌾",
+    "category": "other",
+    "usable": false
+}

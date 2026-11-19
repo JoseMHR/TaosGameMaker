@@ -1,0 +1,331 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Altar del Viento",
+            "en": "The Wind Altar",
+            "fr": "L'Autel du Vent",
+            "it": "L'Altare del Vento",
+            "de": "Der Windaltar",
+            "zh": "风之祭坛",
+            "ja": "風の祭壇"
+        },
+        "next": [],
+        "reward": "bg=0.06,0.08,0.06"
+    },
+    "intro": {
+        "type": "message",
+        "text": {
+            "es": "Un cuenco de piedra descansa sobre un pedestal agrietado, en mitad de un prado donde el viento nunca deja de soplar. Un grabado desgastado promete, con la vaguedad estudiada de todo oráculo, que «quien alimente al viento, ligero viajará». El cuenco está vacío. El viento espera. El viento, ya lo sabes, miente a menudo.",
+            "en": "A stone bowl rests on a cracked pedestal, in the middle of a meadow where the wind never stops blowing. A worn engraving promises, with the studied vagueness of every oracle, that «who feeds the wind shall travel light». The bowl is empty. The wind waits. The wind, as you already know, lies often.",
+            "fr": "Un bol de pierre repose sur un piédestal fissuré, au milieu d'un pré où le vent ne cesse jamais de souffler. Une gravure usée promet, avec la vague étudiée de tout oracle, que « qui nourrit le vent voyagera léger ». Le bol est vide. Le vent attend. Le vent, tu le sais déjà, ment souvent.",
+            "it": "Una ciotola di pietra riposa su un piedistallo incrinato, in mezzo a un prato dove il vento non smette mai di soffiare. Un'incisione consumata promette, con la vaghezza studiata di ogni oracolo, che 'chi nutre il vento viaggerà leggero'. La ciotola è vuota. Il vento aspetta. Il vento, lo sai già, mente spesso.",
+            "de": "Eine Steinschale ruht auf einem rissigen Sockel, mitten auf einer Wiese, wo der Wind nie aufhört zu wehen. Eine abgenutzte Gravur verspricht mit der einstudierten Vagheit jedes Orakels, dass „wer den Wind nährt, leicht reisen wird“. Die Schale ist leer. Der Wind wartet. Der Wind, das weißt du bereits, lügt oft.",
+            "zh": "一只石碗放置在一个裂开的基座上，四周是一片风从未停止吹拂的草地。一处磨损的刻字带着一切神谕都惯用的那种精心设计的模糊性承诺道：「喂养风者，行囊自轻。」碗是空的。风在等待。而风，你已经知道，常常撒谎。",
+            "ja": "ひび割れた台座の上に石の器が置かれ、周囲では風が決して止むことのない草原が広がっている。摩耗した彫刻には、あらゆる神託が持つ計算された曖昧さで「風を養う者は身軽に旅する」と約束されている。器は空だ。風は待っている。風は、お前もすでに知っているように、しばしば嘘をつく。"
+        },
+        "next": [
+            "act_offer",
+            "act_riddle",
+            "act_meditate",
+            "act_broke",
+            "back"
+        ],
+        "condition": "not_discovered(\"poi_altar_olvidado\")"
+    },
+    "act_offer": {
+        "type": "option",
+        "text": {
+            "es": "🪙  Depositar 10 monedas en el cuenco con fe reverente",
+            "en": "🪙  Place 10 coins in the bowl with reverent faith",
+            "fr": "🪙  Déposer 10 pièces dans le bol avec une foi révérencieuse",
+            "it": "🪙  Deporre 10 monete nella ciotola con fede reverenziale",
+            "de": "🪙  10 Münzen mit ehrfürchtigem Glauben in die Schale legen",
+            "zh": "🪙  怀着虔诚的信念，将10枚硬币放入碗中",
+            "ja": "🪙  敬虔な信仰を込めて器に硬貨を十枚置く"
+        },
+        "next": [
+            "res_ok"
+        ],
+        "reward": "gold:-10;xp:20;faceta:bondad=+1;heal:30;discover:poi_altar_olvidado",
+        "condition": "gold >= 10",
+        "once": true
+    },
+    "act_riddle": {
+        "type": "option",
+        "text": {
+            "es": "🧠  (Examinar la base del pedestal y descifrar el mecanismo rúnico de succión)",
+            "en": "🧠  (Examine the pedestal base to decode its pneumatic rune mechanism)",
+            "fr": "🧠  (Examiner la base du piédestal et déchiffrer le mécanisme runique d'aspiration)",
+            "it": "🧠  (Esaminare la base del piedistallo e decifrare il meccanismo runico di aspirazione)",
+            "de": "🧠  (Die Basis des Sockels untersuchen und den runischen Saugmechanismus entschlüsseln)",
+            "zh": "🧠  （检查基座底部，破解符文吸力机制）",
+            "ja": "🧠  （台座の基部を調べ、吸引の符文機構を解読する）"
+        },
+        "next": [
+            "res_riddle"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "res_riddle": {
+        "type": "message",
+        "text": {
+            "es": "Tus dedos palpan el relieve agrietado. Descubres una válvula neumática oculta que desvía el aire hacia un depósito interior de piedra. Al presionar el glifo adecuado, la válvula se abre con un siseo presurizado, expulsando 35 monedas de oro y una gema que quedaron atrapadas en el conducto. Tu agudeza arqueológica desmitifica la magia del viento.",
+            "en": "Your fingers trace cracked reliefs. You discover a hidden pneumatic valve venting air into an inner stone chamber. Pressing the correct glyph unlatches the pressure seal with a hiss, ejecting 35 gold coins and a gem snagged in the flue. Your archaeological acumen demystifies wind sorcery.",
+            "fr": "Tes doigts palpent le relief craquelé. Tu découvres une valve pneumatique cachée qui dévie l'air vers un réservoir intérieur en pierre. En appuyant sur le glyphe adéquat, la valve s'ouvre avec un sifflement pressurisé, expulsant 35 pièces d'or et une gemme restées coincées dans le conduit. Ta perspicacité archéologique démystifie la magie du vent.",
+            "it": "Le tue dita palpano il rilievo screpolato. Scopri una valvola pneumatica nascosta che devia l'aria verso un serbatoio interno di pietra. Premendo il glifo giusto, la valvola si apre con un sibilo pressurizzato, espellendo 35 monete d'oro e una gemma rimaste intrappolate nel condotto. La tua acutezza archeologica smitizza la magia del vento.",
+            "de": "Deine Finger tasten das rissige Relief ab. Du entdeckst ein verstecktes pneumatisches Ventil, das Luft in eine innere Steinkammer leitet. Beim Drücken des richtigen Glyphs öffnet sich das Ventil mit einem druckvollen Zischen und stößt 35 Goldmünzen und einen im Kanal steckengebliebenen Edelstein aus. Dein archäologischer Scharfsinn entmystifiziert die Windmagie.",
+            "zh": "你的手指抚摸着裂开的浮雕。你发现了一个隐藏的气动阀门，能把空气引导至内部的石制储藏室。按下正确的符文后，阀门带着一声加压的嘶嘶声打开，喷出了35枚金币和一颗卡在管道中的宝石。你的考古敏锐揭穿了风之魔法的神秘面纱。",
+            "ja": "指がひび割れた浮彫を撫でる。内部の石室へと空気を逃す隠された空気弁を発見する。正しい紋章を押すと、弁が加圧された音を立てて開き、管に詰まっていた金貨35枚と宝石一つが排出される。お前の考古学的な鋭さが風の魔法の謎を解き明かす。"
+        },
+        "next": [
+            "intro_r"
+        ],
+        "reward": "faceta:inteligencia=+1;gold:+35"
+    },
+    "act_meditate": {
+        "type": "option",
+        "text": {
+            "es": "🌬️  (Cerrar los ojos de espaldas al viento y respirar la ráfaga con serenidad)",
+            "en": "🌬️  (Close eyes facing into the gale and breathe the gust with calm resolve)",
+            "fr": "🌬️  (Fermer les yeux face au vent et respirer la rafale avec sérénité)",
+            "it": "🌬️  (Chiudere gli occhi rivolto al vento e respirare la raffica con serenità)",
+            "de": "🌬️  (Die Augen dem Sturm zugewandt schließen und die Böe mit Gelassenheit atmen)",
+            "zh": "🌬️  （闭上眼睛，迎风而立，平静地呼吸这阵狂风）",
+            "ja": "🌬️  （突風に向かって目を閉じ、落ち着いてその風を呼吸する）"
+        },
+        "next": [
+            "res_meditate"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "res_meditate": {
+        "type": "message",
+        "text": {
+            "es": "Permaneces inmóvil mientras el vendaval azota tu capa. En lugar de luchar contra el viento, acompasas tu respiración a sus ráfagas. Una templanza profunda inunda tu mente: el frío ya no muerde y la determinación te vuelve inamovible como una torre. El valor silencioso templa tu espíritu.",
+            "en": "You stand unmoving as the gale whips your cloak. Rather than battling the storm, you rhythm your breath to its gusts. A profound composure washes over your consciousness: the cold no longer bites and resolve makes you steadfast as a keep. Quiet bravery tempers your spirit.",
+            "fr": "Tu restes immobile tandis que la tempête fouette ta cape. Au lieu de lutter contre le vent, tu accordes ta respiration à ses rafales. Une profonde sérénité inonde ton esprit : le froid ne mord plus et la détermination te rend inébranlable comme une tour. Le courage silencieux trempe ton esprit.",
+            "it": "Resti immobile mentre la bufera sferza il tuo mantello. Invece di lottare contro il vento, sincronizzi il tuo respiro alle sue raffiche. Una profonda serenità inonda la tua mente: il freddo non morde più e la determinazione ti rende immobile come una torre. Il coraggio silenzioso tempra il tuo spirito.",
+            "de": "Du bleibst unbeweglich, während der Sturm deinen Umhang peitscht. Statt gegen den Wind zu kämpfen, gleichst du deinen Atem seinen Böen an. Eine tiefe Gelassenheit durchflutet deinen Geist: die Kälte beißt nicht mehr, und Entschlossenheit macht dich unerschütterlich wie ein Turm. Stiller Mut stählt deinen Geist.",
+            "zh": "你一动不动地站着，任凭暴风肆虐你的斗篷。你没有与风对抗，而是让呼吸与阵风的节奏保持一致。一种深沉的宁静涌入你的心中：寒冷不再刺痛，决心让你像一座塔一样坚不可摧。无言的勇气磨砺了你的精神。",
+            "ja": "嵐がマントを打ちつける中、身動きせずに立ち続ける。風と戦う代わりに、呼吸を突風のリズムに合わせる。深い落ち着きが心に満ち渡る——寒さはもう噛みつかず、決意が塔のように揺るぎない存在にする。静かな勇気が精神を鍛える。"
+        },
+        "next": [
+            "intro_r"
+        ],
+        "reward": "faceta:valor=+1;heal:35"
+    },
+    "act_broke": {
+        "type": "option",
+        "text": {
+            "es": "🕳️  Rebuscar en tus bolsillos vacíos",
+            "en": "🕳️  Rummage through your empty pockets",
+            "fr": "🕳️  Fouiller dans tes poches vides",
+            "it": "🕳️  Frugare nelle tue tasche vuote",
+            "de": "🕳️  In deinen leeren Taschen wühlen",
+            "zh": "🕳️  在你空空如也的口袋里翻找",
+            "ja": "🕳️  空のポケットを漁る"
+        },
+        "next": [
+            "res_broke"
+        ],
+        "condition": "gold < 10"
+    },
+    "res_ok": {
+        "type": "message",
+        "text": {
+            "es": "Las monedas tintinean contra la piedra y, por un instante milagroso, el viento cambia de dirección para soplar exactamente a tu favor. Una sensación reconfortante de ligereza aligera tus pasos, como si la tierra bendijera tu viaje.",
+            "en": "The coins clink against the stone and, for one miraculous instant, the wind shifts to blow exactly in your favor. A comforting lightness buoys your stride, as if the earth itself blessed your path.",
+            "fr": "Les pièces tintent contre la pierre et, pendant un instant miraculeux, le vent change de direction pour souffler exactement en ta faveur. Une sensation réconfortante de légèreté allège tes pas, comme si la terre bénissait ton voyage.",
+            "it": "Le monete tintinnano contro la pietra e, per un istante miracoloso, il vento cambia direzione per soffiare esattamente a tuo favore. Una sensazione confortante di leggerezza alleggerisce i tuoi passi, come se la terra benedicesse il tuo viaggio.",
+            "de": "Die Münzen klirren gegen den Stein, und für einen wundersamen Moment dreht der Wind, um genau zu deinen Gunsten zu wehen. Ein tröstliches Gefühl der Leichtigkeit beflügelt deinen Schritt, als würde die Erde selbst deine Reise segnen.",
+            "zh": "硬币叮当作响地撞在石头上，短暂的一瞬间，奇迹般地，风改变了方向，恰好朝着有利于你的方向吹拂。一种令人安慰的轻盈感让你的步伐变得轻快，仿佛大地正在祝福你的旅程。",
+            "ja": "硬貨が石に当たって音を立て、奇跡のような一瞬、風が向きを変えてまさにお前に有利な方向へ吹く。心地よい軽やかさが足取りを軽くし、まるで大地自身がお前の旅を祝福しているかのようだ。"
+        },
+        "next": [
+            "intro_r"
+        ]
+    },
+    "res_broke": {
+        "type": "message",
+        "text": {
+            "es": "Sacas de tus bolsillos: dos pelusas, un botón y la firme resolución de no ofrecerle nada al viento. El viento, imperturbable, sigue soplando. No parece ofendido. El viento nunca se ofende; solo espera. Vuelve cuando tintinees un poco más.",
+            "en": "From your pockets you produce: two bits of lint, a button, and the firm resolve to offer the wind nothing. The wind, unbothered, keeps blowing. It doesn't seem offended. The wind never takes offense; it only waits. Come back when you jingle a bit more.",
+            "fr": "Tu sors de tes poches : deux peluches, un bouton et la ferme résolution de ne rien offrir au vent. Le vent, imperturbable, continue de souffler. Il ne semble pas offensé. Le vent ne s'offense jamais ; il attend seulement. Reviens quand tu tinteras un peu plus.",
+            "it": "Tiri fuori dalle tue tasche: due peluzzi, un bottone e la ferma risoluzione di non offrire nulla al vento. Il vento, imperturbabile, continua a soffiare. Non sembra offeso. Il vento non si offende mai; aspetta soltanto. Torna quando tintinnerai un po' di più.",
+            "de": "Du holst aus deinen Taschen: zwei Fusseln, einen Knopf und den festen Entschluss, dem Wind nichts anzubieten. Der Wind bläst unbeeindruckt weiter. Er scheint nicht beleidigt zu sein. Der Wind fühlt sich nie beleidigt; er wartet nur. Komm zurück, wenn du etwas mehr klimperst.",
+            "zh": "你从口袋里掏出：两团绒毛、一颗纽扣，以及不打算给风任何东西的坚定决心。风依旧我行我素，继续吹拂着。它似乎并不觉得被冒犯。风从不觉得被冒犯；它只是在等待。等你多攒些叮当作响的东西再来吧。",
+            "ja": "ポケットから取り出したのは——ほこりくず二つ、ボタン一つ、そして風に何も捧げないという固い決意だ。風は動じることなく吹き続ける。気を悪くしたようには見えない。風は決して気を悪くしない、ただ待っているだけだ。もう少しじゃらじゃら音を立てられるようになったら戻ってこい。"
+        },
+        "next": [
+            "intro"
+        ]
+    },
+    "intro_r": {
+        "type": "message",
+        "text": {
+            "es": "El altar del viento sigue susurrando su promesa a quien sepa escucharla. La piedra permanece tibia bajo el sol del páramo mientras las corrientes giran dóciles en torno al pedestal.",
+            "en": "The wind altar continues murmuring its pledge to whoever knows how to listen. The stone remains warm beneath the heathland sun while air currents swirl tamed around the pedestal.",
+            "fr": "L'autel du vent continue de murmurer sa promesse à qui sait l'écouter. La pierre reste tiède sous le soleil de la lande tandis que les courants d'air tournoient dociles autour du piédestal.",
+            "it": "L'altare del vento continua a sussurrare la sua promessa a chi sa ascoltarla. La pietra rimane tiepida sotto il sole della landa mentre le correnti girano docili intorno al piedistallo.",
+            "de": "Der Windaltar flüstert weiterhin sein Versprechen zu jedem, der zuzuhören weiß. Der Stein bleibt warm unter der Ödlandsonne, während die Luftströmungen zahm um den Sockel wirbeln.",
+            "zh": "风之祭坛依然在向懂得聆听的人低语着它的承诺。石头在荒原的阳光下依然温热，气流温顺地在基座周围盘旋。",
+            "ja": "風の祭壇は、耳を傾ける術を知る者に、その約束を囁き続けている。石は荒野の太陽の下で暖かいままで、気流は台座の周りを従順に渦巻いている。"
+        },
+        "next": [
+            "act_r_tribute",
+            "act_r_meditate",
+            "act_r_gale",
+            "act_r_valve",
+            "back"
+        ],
+        "condition": "discovered(\"poi_altar_olvidado\")"
+    },
+    "act_r_tribute": {
+        "type": "option",
+        "text": {
+            "es": "🪙  Depositar una ofrenda de 5 monedas en el cuenco eólico",
+            "en": "🪙  Deposit an offering of 5 coins into the wind bowl",
+            "fr": "🪙  Déposer une offrande de 5 pièces dans le bol éolien",
+            "it": "🪙  Deporre un'offerta di 5 monete nella ciotola eolica",
+            "de": "🪙  Eine Opfergabe von 5 Münzen in die Windschale legen",
+            "zh": "🪙  将5枚硬币的祭品放入风之碗中",
+            "ja": "🪙  風の器に5枚の硬貨の供物を捧げる"
+        },
+        "next": [
+            "res_r_tribute"
+        ],
+        "reward": "",
+        "condition": "gold >= 5"
+    },
+    "res_r_tribute": {
+        "type": "message",
+        "text": {
+            "es": "Las monedas tintinean en el fondo del cuenco. Una ráfaga ascendente perfumada a flores silvestres asciende en espiral y te envuelve, despejando tu fatiga y acelerando tu andar con un soplo bienhechor.",
+            "en": "The coins clink at the bottom of the basin. An upward gust scented with wild blossoms spirals around you, clearing fatigue and quickening your step with a beneficial breeze.",
+            "fr": "Les pièces tintent au fond du bol. Une bourrasque ascendante parfumée de fleurs sauvages tourbillonne autour de toi, dissipant ta fatigue et accélérant ton pas d'un souffle bienfaisant.",
+            "it": "Le monete tintinnano sul fondo della ciotola. Una raffica ascendente profumata di fiori selvatici sale a spirale e ti avvolge, dissipando la tua fatica e accelerando il tuo passo con un soffio benefico.",
+            "de": "Die Münzen klirren am Boden der Schale. Eine aufsteigende, nach Wildblumen duftende Böe wirbelt spiralförmig um dich herum, vertreibt deine Erschöpfung und beschleunigt deinen Schritt mit einem wohltuenden Hauch.",
+            "zh": "硬币在碗底叮当作响。一阵带着野花香气的上升气流螺旋般环绕着你，驱散了你的疲惫，并以一股有益的气息加快了你的步伐。",
+            "ja": "硬貨が器の底で音を立てる。野花の香りを乗せた上昇気流が渦を巻いてお前を包み込み、疲労を払拭し、恵み深い風で足取りを速める。"
+        },
+        "next": [
+            "intro_r"
+        ],
+        "reward": "gold:-5;heal:35;faceta:bondad=+1;xp:15"
+    },
+    "act_r_meditate": {
+        "type": "option",
+        "text": {
+            "es": "🌬️  Cerrar los ojos y acompasar la respiración al silbido del páramo",
+            "en": "🌬️  Close your eyes and pace your breathing to the heathland gale",
+            "fr": "🌬️  Fermer les yeux et accorder ta respiration au sifflement de la lande",
+            "it": "🌬️  Chiudere gli occhi e sincronizzare il respiro al sibilo della landa",
+            "de": "🌬️  Die Augen schließen und den Atem dem Heulen des Ödlands anpassen",
+            "zh": "🌬️  闭上眼睛，让呼吸配合荒原的呼啸声",
+            "ja": "🌬️  目を閉じ、荒野の風音に呼吸を合わせる"
+        },
+        "next": [
+            "res_r_meditate"
+        ],
+        "reward": ""
+    },
+    "res_r_meditate": {
+        "type": "message",
+        "text": {
+            "es": "Te sientas en la base del pedestal. Con cada respiración profunda, expulsas las tensiones del viaje y absorbes la pureza del aire libre. Tu mente se despeja y tu cordura se afianza.",
+            "en": "You sit at the base of the plinth. With each deep breath, you release trail tension and drink in the purity of the open air. Your mind clarifies and your composure solidifies.",
+            "fr": "Tu t'assois à la base du piédestal. À chaque respiration profonde, tu expulses les tensions du voyage et absorbes la pureté de l'air libre. Ton esprit se clarifie et ta raison s'affermit.",
+            "it": "Ti siedi alla base del piedistallo. Con ogni respiro profondo, espelli le tensioni del viaggio e assorbi la purezza dell'aria aperta. La tua mente si schiarisce e la tua sanità mentale si rafforza.",
+            "de": "Du setzt dich an den Fuß des Sockels. Mit jedem tiefen Atemzug entlädst du die Anspannungen der Reise und saugst die Reinheit der freien Luft ein. Dein Geist klärt sich und deine Fassung festigt sich.",
+            "zh": "你坐在基座的底部。每一次深呼吸，都排出了旅途的紧张感，吸入了自由空气的纯净。你的思绪清晰起来，理智也变得更加稳固。",
+            "ja": "台座の基部に座る。深く息をするたびに旅の緊張を吐き出し、開けた空気の純粋さを吸い込む。心が澄み渡り、正気が確固たるものになる。"
+        },
+        "next": [
+            "intro_r"
+        ],
+        "reward": "heal:40;faceta:cordura=+1;xp:15"
+    },
+    "act_r_gale": {
+        "type": "option",
+        "text": {
+            "es": "🛡️  Plantar los pies con firmeza y aguantar la ventisca a pecho descubierto",
+            "en": "🛡️  Plant your boots firmly and brace against the storm bare-chested",
+            "fr": "🛡️  Planter fermement tes bottes et affronter la tempête à poitrine découverte",
+            "it": "🛡️  Piantare saldamente gli stivali e affrontare la tempesta a petto nudo",
+            "de": "🛡️  Die Stiefel fest verankern und dem Sturm mit nackter Brust trotzen",
+            "zh": "🛡️  双脚牢牢站定，赤裸胸膛抵御这场暴风",
+            "ja": "🛡️  ブーツをしっかりと踏みしめ、胸をはだけて嵐に立ち向かう"
+        },
+        "next": [
+            "res_r_gale"
+        ],
+        "reward": ""
+    },
+    "res_r_gale": {
+        "type": "message",
+        "text": {
+            "es": "El viento ruge contra tu pecho con fuerza de ariete. Clavas las botas en la grava sin retroceder un palmo. La resistencia indómita ante la bravura de la naturaleza templa tu temple guerrero.",
+            "en": "The wind batters your chest like a battering ram. You dig your boots into the gravel without yielding an inch. Indomitable defiance against nature's fury tempers your martial resolve.",
+            "fr": "Le vent rugit contre ta poitrine avec la force d'un bélier. Tu plantes tes bottes dans le gravier sans reculer d'un pouce. La résistance indomptable face à la bravoure de la nature trempe ta trempe guerrière.",
+            "it": "Il vento ruggisce contro il tuo petto con forza d'ariete. Pianti gli stivali nella ghiaia senza indietreggiare di un palmo. La resistenza indomita davanti alla furia della natura tempra il tuo carattere guerriero.",
+            "de": "Der Wind tobt gegen deine Brust mit der Kraft eines Rammbocks. Du gräbst deine Stiefel in den Kies, ohne einen Zentimeter zurückzuweichen. Der unbezähmbare Widerstand gegen die Wildheit der Natur stählt deine kriegerische Entschlossenheit.",
+            "zh": "风像攻城槌一样猛烈地撞击着你的胸膛。你把靴子深深地扎进砾石里，一步也不退让。面对自然野性的不屈抵抗磨砺了你的战士气概。",
+            "ja": "風が破城槌のような力で胸を打つ。砂利にブーツを踏みしめ、一歩も引かない。自然の猛威に対する不屈の抵抗が戦士の気概を鍛える。"
+        },
+        "next": [
+            "intro_r"
+        ],
+        "reward": "faceta:valor=+1;xp:20"
+    },
+    "act_r_valve": {
+        "type": "option",
+        "text": {
+            "es": "🔍  Inspeccionar las toberas del pedestal en busca de sedimentos valiosos",
+            "en": "🔍  Inspect pedestal vents in search of valuable sediment",
+            "fr": "🔍  Inspecter les buses du piédestal à la recherche de sédiments précieux",
+            "it": "🔍  Ispezionare gli ugelli del piedistallo alla ricerca di sedimenti preziosi",
+            "de": "🔍  Die Düsen des Sockels nach wertvollem Sediment untersuchen",
+            "zh": "🔍  检查基座的喷嘴，寻找珍贵的沉积物",
+            "ja": "🔍  貴重な堆積物を求めて台座の噴出口を調べる"
+        },
+        "next": [
+            "res_r_valve"
+        ],
+        "reward": ""
+    },
+    "res_r_valve": {
+        "type": "message",
+        "text": {
+            "es": "Examinas las ranuras de aireación del oráculo. Las corrientes continuas arrastran polvo mineral y esquirlas doradas de las cordilleras. Limpiando el conducto con destreza rescatas 15 monedas atrapadas.",
+            "en": "You inspect the aeration slots of the oracle. Constant drafts sweep mineral dust and golden flakes down from the mountain ridges. Expertly clearing the flue yields 15 trapped coins.",
+            "fr": "Tu examines les fentes d'aération de l'oracle. Les courants continus charrient de la poussière minérale et des paillettes dorées venues des chaînes de montagnes. En nettoyant le conduit avec adresse, tu récupères 15 pièces coincées.",
+            "it": "Esamini le fessure di aerazione dell'oracolo. Le correnti continue trascinano polvere minerale e scaglie dorate dalle catene montuose. Pulendo il condotto con destrezza recuperi 15 monete intrappolate.",
+            "de": "Du untersuchst die Belüftungsschlitze des Orakels. Ständige Luftströme tragen Mineralstaub und goldene Splitter von den Gebirgsketten herab. Durch geschicktes Reinigen des Kanals gewinnst du 15 eingeklemmte Münzen zurück.",
+            "zh": "你检查了神谕的通风缝隙。持续不断的气流携带着矿物粉尘和来自山脉的金色碎屑。你熟练地清理管道，找回了15枚被卡住的硬币。",
+            "ja": "神託の通気口を調べる。絶え間ない気流が山脈から鉱物の粉塵と金色のかけらを運んでくる。巧みに管を掃除して、詰まっていた硬貨15枚を回収する。"
+        },
+        "next": [
+            "intro_r"
+        ],
+        "reward": "faceta:inteligencia=+1;gold:+15;xp:10"
+    },
+    "back": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Marcharse",
+            "en": "🚶  Leave",
+            "fr": "🚶  Partir",
+            "it": "🚶  Andarsene",
+            "de": "🚶  Gehen",
+            "zh": "🚶  离开",
+            "ja": "🚶  立ち去る"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

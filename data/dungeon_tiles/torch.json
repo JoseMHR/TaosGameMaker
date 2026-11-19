@@ -1,0 +1,10 @@
+{
+	"t": "torch",
+	"order": 206,
+	"label": "Antorcha",
+	"icon": "🕯️",
+	"color": "#e08a2a",
+	"group": "Sistema",
+	"entity": true,
+	"orient": true
+}

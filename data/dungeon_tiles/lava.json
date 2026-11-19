@@ -1,0 +1,8 @@
+{
+	"t": "lava",
+	"order": 111,
+	"label": "Lava",
+	"icon": "🔥",
+	"color": "#c8410f",
+	"group": "Peligros"
+}

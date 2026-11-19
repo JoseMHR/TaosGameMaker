@@ -1,0 +1,31 @@
+{
+    "name": {
+        "es": "Anillo de Fortuna",
+        "en": "Fortune Ring",
+        "fr": "Anneau de Fortune",
+        "it": "Anello della Fortuna",
+        "de": "Glücksring",
+        "zh": "幸运戒指",
+        "ja": "フォーチュンリング"
+    },
+    "desc": {
+        "es": "Un anillo que atrae la buena suerte.",
+        "en": "A ring that attracts good luck.",
+        "fr": "Un anneau qui attire la bonne fortune.",
+        "it": "Un anello che attira la buona sorte.",
+        "de": "Ein Ring, der Glück anzieht.",
+        "zh": "一枚能招来好运的戒指。",
+        "ja": "幸運を引き寄せる指輪。"
+    },
+    "icon": "💍",
+    "category": "equipment",
+    "usable": false,
+    "slot": "accessory",
+    "tier": 1,
+    "bonuses": {
+        "luk": 3
+    },
+    "combat": {
+        "mag_defense": 10
+    }
+}

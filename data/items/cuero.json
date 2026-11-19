@@ -1,0 +1,23 @@
+{
+    "name": {
+        "es": "Cuero Curtido",
+        "en": "Tanned Leather",
+        "fr": "Cuir Tanné",
+        "it": "Cuoio Conciato",
+        "de": "Gegerbtes Leder",
+        "zh": "鞣制皮革",
+        "ja": "なめし革"
+    },
+    "desc": {
+        "es": "Piel de jabalí curtida a mano. Muy apreciada por curtidores y armeros.",
+        "en": "Hand-tanned boar hide. Highly valued by tanners and armorers.",
+        "fr": "Peau de sanglier tannée à la main. Très appréciée des tanneurs et des armuriers.",
+        "it": "Pelle di cinghiale conciata a mano. Molto apprezzata da conciatori e armaioli.",
+        "de": "Handgegerbte Wildschweinhaut. Von Gerbern und Waffenschmieden sehr geschätzt.",
+        "zh": "手工鞣制的野猪皮，深受制革匠与铠甲师的青睐。",
+        "ja": "手作業でなめされたイノシシの皮。なめし職人や武具職人に高く評価される。"
+    },
+    "icon": "🟫",
+    "category": "other",
+    "usable": false
+}

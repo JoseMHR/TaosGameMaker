@@ -1,0 +1,26 @@
+{
+    "id": "poi_final_barco_hundido",
+    "type": "poi",
+    "icon": "⛵",
+    "name": {
+        "es": "El Barco Hundido",
+        "en": "The Sunken Ship",
+        "fr": "Le Navire Englouti",
+        "it": "La Nave Affondata",
+        "de": "Das Gesunkene Schiff",
+        "zh": "沉没的船只",
+        "ja": "沈んだ船"
+    },
+    "desc": {
+        "es": "El casco destrozado de un barco emergiendo del vacío, cubierto de sal y de marcas de garras colosales. (POI de inspección).",
+        "en": "The wrecked hull of a ship rising from the void, crusted with salt and marked by colossal claws. (Inspection POI).",
+        "fr": "La coque brisée d'un navire émergeant du vide, couverte de sel et de marques de griffes colossales. (POI d'inspection).",
+        "it": "Lo scafo distrutto di una nave che emerge dal vuoto, coperto di sale e di segni di artigli colossali. (POI di ispezione).",
+        "de": "Der zerstörte Rumpf eines Schiffes, aus der Leere auftauchend, mit Salz überkrustet und von riesigen Krallenspuren gezeichnet. (Inspektions-POI).",
+        "zh": "一艘从虚空中浮现的破碎船体，覆满盐渍，还留着巨爪的抓痕。（探查类兴趣点）。",
+        "ja": "虚空から現れた難破船の船体。塩に覆われ、巨大な爪の跡が刻まれている。（調査ポイント）。"
+    },
+    "npc": "poi_final_barco_hundido",
+    "bg": "bg_world_poi_final_barco_hundido.png",
+    "music": "creepy"
+}

@@ -1,0 +1,39 @@
+{
+    "name": {
+        "es": "Escudo de Templanza Física",
+        "en": "Physical Bulwark Shield",
+        "fr": "Bouclier de Tempérance Physique",
+        "it": "Scudo di Temperanza Fisica",
+        "de": "Schild der physischen Mäßigung",
+        "zh": "物理节制之盾",
+        "ja": "フィジカルバルワークシールド"
+    },
+    "desc": {
+        "es": "Un escudo macizo de hierro forjado. Protege pasivamente contra un 20% del daño no elemental (físico).",
+        "en": "A solid forged iron shield. Passively mitigates 20% of non-elemental (physical) damage.",
+        "fr": "Un bouclier massif en fer forgé. Atténue passivement 20% des dégâts non élémentaires (physiques).",
+        "it": "Uno scudo massiccio in ferro forgiato. Mitiga passivamente il 20% del danno non elementale (fisico).",
+        "de": "Ein massiver, geschmiedeter Eisenschild. Mindert passiv 20% des nicht-elementaren (physischen) Schadens.",
+        "zh": "厚重的锻铁盾牌，可被动减免 20% 非元素（物理）伤害。",
+        "ja": "頑丈な鍛造鉄の盾。無属性（物理）ダメージを20%パッシブで軽減する。"
+    },
+    "icon": "🛡️",
+    "category": "equipment",
+    "usable": false,
+    "slot": "shield",
+    "tier": 2,
+    "bonuses": {
+        "vit": 4
+    },
+    "combat": {
+        "phys_defense": 24,
+        "mag_defense": 8
+    },
+    "traits": [
+        {
+            "type": "non_elemental_damage_reduction",
+            "value": 0.2,
+            "desc": "Reduce un 20% el daño no elemental (físico) recibido"
+        }
+    ]
+}

@@ -1,0 +1,167 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Vendedor de Lluvia Embotellada",
+            "en": "The Bottled-Rain Salesman",
+            "fr": "Le Vendeur de Pluie en Bouteille",
+            "it": "Il Venditore di Pioggia Imbottigliata",
+            "de": "Der Verkäufer von Abgefülltem Regen",
+            "zh": "瓶装雨水贩子",
+            "ja": "瓶詰め雨売り"
+        },
+        "next": [],
+        "reward": "avatar=☔;bg=0.12,0.11,0.08"
+    },
+    "lluvia_root": {
+        "type": "message",
+        "text": {
+            "es": "Un hombre delgado con un chaleco de mil bolsillos ha montado un tenderete en el sitio más seco del páramo. Sobre la mesa, decenas de frascos con etiquetas escritas a mano: 'Chubasco de Primavera', 'Tormenta de Montaña (edición limitada)', 'Llovizna Melancólica para poetas'. '¡AMIGO! ¡Tú tienes cara de necesitar precipitaciones!', te grita agitando un frasco vacío... perdón, 'lleno de lluvia concentrada invisible'. 'Solo tres monedas. Destápalo cuando quieras y ¡ZAS! Aguacero garantizado o le devuelvo el frasco.'",
+            "en": "A thin man in a vest of a thousand pockets has set up a stall in the driest spot of the moor. On the table, dozens of jars with hand-written labels: 'Spring Shower', 'Mountain Storm (limited edition)', 'Melancholy Drizzle for poets'. 'FRIEND! You've got the face of someone who needs precipitation!', he shouts, shaking an empty jar... sorry, 'a jar full of invisible concentrated rain'. 'Only three coins. Uncork it whenever you like and BAM! Downpour guaranteed, or I'll give you the jar back.'",
+            "fr": "Un homme mince avec un gilet à mille poches a monté un étal à l'endroit le plus sec de la lande. Sur la table, des dizaines de bocaux avec des étiquettes écrites à la main : « Averse de Printemps », « Tempête de Montagne (édition limitée) », « Bruine Mélancolique pour poètes ». « AMI ! Tu as la tête de quelqu'un qui a besoin de précipitations ! », te crie-t-il en agitant un bocal vide... pardon, « plein de pluie concentrée invisible ». « Seulement trois pièces. Débouche-le quand tu veux et PAF ! Averse garantie, ou je te reprends le bocal. »",
+            "it": "Un uomo esile con un gilet dalle mille tasche ha allestito un banchetto nel punto più secco della landa. Sul tavolo, decine di boccette con etichette scritte a mano: 'Acquazzone di Primavera', 'Tempesta di Montagna (edizione limitata)', 'Pioggerella Malinconica per poeti'. 'AMICO! Hai la faccia di chi ha bisogno di precipitazioni!', ti grida agitando una boccetta vuota... scusa, 'piena di pioggia concentrata invisibile'. 'Solo tre monete. Stappala quando vuoi e ZAC! Acquazzone garantito o ti restituisco la boccetta.'",
+            "de": "Ein dünner Mann in einer Weste mit tausend Taschen hat an der trockensten Stelle des Ödlands einen Stand aufgebaut. Auf dem Tisch Dutzende von Fläschchen mit handgeschriebenen Etiketten: „Frühlingsregenschauer“, „Bergsturm (limitierte Auflage)“, „Melancholischer Nieselregen für Dichter“. „FREUND! Du siehst aus, als bräuchtest du Niederschlag!“, ruft er, während er ein leeres Fläschchen schüttelt... Verzeihung, „voll mit unsichtbarem konzentriertem Regen“. „Nur drei Münzen. Entkorke es, wann immer du willst, und ZACK! Garantierter Wolkenbruch, sonst gebe ich dir das Fläschchen zurück.“",
+            "zh": "一个穿着有千个口袋的马甲的瘦男人，在这片荒原最干燥的地方摆了个摊。桌上摆着几十个手写标签的小瓶子：「春雨骤降」、「山间风暴（限量版）」、「诗人专用忧郁细雨」。「朋友！你这脸色，看着像是需要点降水啊！」他朝你喊道，摇晃着一个空瓶子……不好意思，是「装满了看不见的浓缩雨水」的瓶子。「只要三枚硬币。什么时候想打开就打开，然后哗啦一下！保证大雨倾盆，不然我把瓶子退给你。」",
+            "ja": "千のポケットがついたベストを着た痩せた男が、荒野で最も乾いた場所に露店を構えている。テーブルの上には、手書きのラベルが貼られた数十本の瓶が並んでいる——「春の雨」「山の嵐（限定版）」「詩人のための憂鬱な霧雨」。「友よ！お前は雨が必要な顔をしているぞ！」空の瓶を振りながら叫ぶ……失礼、「見えない濃縮雨で満たされた」瓶だ。「たった三枚のコインだ。好きな時にコルクを抜けば、バーン！豪雨保証、でなければ瓶を返そう」"
+        },
+        "next": [
+            "lluvia_opt_comprar",
+            "lluvia_opt_desenmascarar",
+            "lluvia_opt_amenazar",
+            "lluvia_opt_salir"
+        ],
+        "reward": ""
+    },
+    "lluvia_opt_comprar": {
+        "type": "option",
+        "text": {
+            "es": "🪙  ¡Vendido!Comprar un frasco deTormenta de Montaña (−3 oro)",
+            "en": "🪙  Sold!Buy a jar ofMountain Storm (−3 gold)",
+            "fr": "🪙  Vendu ! » Acheter un bocal de « Tempête de Montagne (−3 or)",
+            "it": "🪙  Venduto!Comprare una boccetta diTempesta di Montagna (−3 oro)",
+            "de": "🪙  Verkauft! Ein Fläschchen Bergsturm kaufen (−3 Gold)",
+            "zh": "🪙  成交！买一瓶山间风暴（-3金币）",
+            "ja": "🪙  買った！『山の嵐』を一本買う（-3ゴールド）"
+        },
+        "next": [
+            "lluvia_msg_comprar"
+        ],
+        "reward": "gold:-3",
+        "condition": "gold >= 3",
+        "once": true
+    },
+    "lluvia_msg_comprar": {
+        "type": "message",
+        "text": {
+            "es": "Pagas y destapas el frasco con solemnidad. No pasa absolutamente nada, claro. El vendedor observa el cielo despejado con fingida sorpresa: '¡Ajá! Es que esta variedad es de EFECTO RETARDADO. Puede tardar entre un día y... nunca. Pero cuando caiga, ¡menudo espectáculo!' Te guiña un ojo con tal descaro que casi le admiras. Te has quedado sin monedas y con un frasco vacío, pero reconoce que pocas estafas tienen tanto arte.",
+            "en": "You pay and uncork the jar with great solemnity. Nothing whatsoever happens, of course. The salesman studies the clear sky with feigned surprise: 'Aha! This variety is DELAYED-ACTION. May take anywhere from a day to... never. But when it falls, what a show!' He winks at you with such nerve you almost admire him. You're left coinless and holding an empty jar, but you'll admit few swindles have this much artistry.",
+            "fr": "Tu paies et débouches le bocal avec solennité. Il ne se passe absolument rien, bien sûr. Le vendeur observe le ciel dégagé avec une surprise feinte : « Ah ha ! C'est que cette variété est à EFFET RETARDÉ. Ça peut prendre entre un jour et... jamais. Mais quand ça tombera, quel spectacle ! » Il te fait un clin d'œil avec un tel aplomb que tu l'admires presque. Tu te retrouves sans pièces et avec un bocal vide, mais tu reconnais que peu d'arnaques ont autant d'art.",
+            "it": "Paghi e stappi la boccetta con solennità. Non succede assolutamente nulla, ovviamente. Il venditore osserva il cielo sgombro con sorpresa fittizia: 'Aha! È che questa varietà è a EFFETTO RITARDATO. Può volerci tra un giorno e... mai. Ma quando cadrà, che spettacolo!' Ti fa l'occhiolino con tale sfrontatezza che quasi lo ammiri. Ti sei ritrovato senza monete e con una boccetta vuota, ma riconosci che poche truffe hanno tanta arte.",
+            "de": "Du zahlst und entkorkst das Fläschchen feierlich. Es geschieht natürlich absolut nichts. Der Verkäufer betrachtet den klaren Himmel mit gespielter Überraschung: „Aha! Diese Sorte hat VERZÖGERTE WIRKUNG. Es kann zwischen einem Tag und... nie liegen. Aber wenn es fällt, was für ein Spektakel!“ Er zwinkert dir mit solcher Frechheit zu, dass du ihn fast bewunderst. Du bleibst ohne Münzen und mit einem leeren Fläschchen zurück, gibst aber zu, dass wenige Betrügereien so viel Kunst haben.",
+            "zh": "你付了钱，庄重地打开瓶子。当然，什么都没有发生。商人假装惊讶地望着晴朗的天空：「哈！这是因为这款是延迟生效型的。可能需要一天……或者永远不生效。但等它落下来的时候，那可真是场好戏！」他冲你眨了眨眼，那份厚脸皮让你几乎有点敬佩他。你现在没了钱，手里只剩个空瓶子，但你不得不承认，很少有骗局能有这般艺术性。",
+            "ja": "支払い、厳粛に瓶のコルクを抜く。もちろん何も起こらない。商人は演技の驚きを込めて晴れた空を見つめる。「あはは！この品種は遅延効果タイプなんだ。一日かかることもあれば……永遠に来ないこともある。だが落ちてきたら、大したものだぞ！」あまりの厚顔さでウィンクするので、ほとんど感心してしまう。金は使い果たし、空の瓶を手に残されるが、これほど芸術的な詐欺は少ないと認めざるを得ない。"
+        },
+        "next": [
+            "lluvia_msg_credulo"
+        ],
+        "reward": ""
+    },
+    "lluvia_msg_credulo": {
+        "type": "message",
+        "text": {
+            "es": "Te alejas mirando el frasco al trasluz, todavía preguntándote si quizá, solo quizá, funcione mañana. El vendedor ya le está gritando a un cuervo que también 'tiene cara de sequía'.",
+            "en": "You wander off holding the jar up to the light, still wondering whether maybe, just maybe, it'll work tomorrow. The salesman is already shouting at a crow that also 'has the look of a drought' about it.",
+            "fr": "Tu t'éloignes en tenant le bocal à contre-jour, te demandant encore si peut-être, seulement peut-être, ça marchera demain. Le vendeur crie déjà sur un corbeau qui « a aussi une tête de sécheresse ».",
+            "it": "Ti allontani tenendo la boccetta controluce, chiedendoti ancora se forse, solo forse, funzionerà domani. Il venditore sta già gridando a un corvo che ha anche 'la faccia della siccità'.",
+            "de": "Du gehst davon, hältst das Fläschchen gegen das Licht, fragst dich immer noch, ob es vielleicht, nur vielleicht, morgen funktioniert. Der Verkäufer schreit bereits einen Raben an, der auch „das Gesicht einer Dürre“ hat.",
+            "zh": "你离开了，把瓶子举向光线，仍在想着，也许，只是也许，明天它会生效。商人已经在朝一只乌鸦喊话了，说它「也长着一副干旱的脸」。",
+            "ja": "瓶を光にかざしながら去っていく。もしかしたら、もしかしたら、明日効くかもしれないと考えながら。商人はすでに「乾季の顔をしている」カラスに向かって叫んでいる。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:aspecto=-1"
+    },
+    "lluvia_opt_desenmascarar": {
+        "type": "option",
+        "text": {
+            "es": "🧠  Destapar un frasco delante de él y demostrar que están vacíos",
+            "en": "🧠  Uncork a jar in front of him and prove they're empty",
+            "fr": "🧠  Déboucher un bocal devant lui et démontrer qu'ils sont vides",
+            "it": "🧠  Stappare una boccetta davanti a lui e dimostrare che sono vuote",
+            "de": "🧠  Ein Fläschchen vor ihm entkorken und beweisen, dass sie leer sind",
+            "zh": "🧠  当着他的面打开一个瓶子，证明它们都是空的",
+            "ja": "🧠  彼の前で瓶を開け、空であることを証明する"
+        },
+        "next": [
+            "lluvia_msg_desenmascarar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "lluvia_msg_desenmascarar": {
+        "type": "message",
+        "text": {
+            "es": "Coges un frasco, lo destapas, lo pones boca abajo y lo agitas bajo su nariz. 'Está. Vacío.', le dices despacio. El hombre no se inmuta: 'Vacío para el ojo VULGAR, amigo. La lluvia potencial es incolora e inodora hasta que decide manifestarse.' Le sostienes la mirada hasta que, poco a poco, la sonrisa se le desmorona. 'Vale, vale', susurra. 'Es agua de charco y mucha labia. Pero la gente necesita creer que mañana lloverá. Yo solo... vendo esperanza barata.' Te vas habiendo ganado el pulso, y con una lección incómoda sobre por qué funcionan las estafas.",
+            "en": "You grab a jar, uncork it, turn it upside down and shake it under his nose. 'It's. Empty.', you say slowly. The man doesn't flinch: 'Empty to the VULGAR eye, friend. Potential rain is colorless and odorless until it decides to manifest.' You hold his gaze until, little by little, the grin crumbles. 'Fine, fine,' he whispers. 'It's puddle water and a lot of patter. But people need to believe it'll rain tomorrow. I just... sell cheap hope.' You leave having won the standoff, and with an uncomfortable lesson about why swindles work.",
+            "fr": "Tu prends un bocal, le débouches, le retournes et le secoues sous son nez. « Il est. Vide. », lui dis-tu lentement. L'homme ne se démonte pas : « Vide pour l'œil VULGAIRE, mon ami. La pluie potentielle est incolore et sans odeur jusqu'à ce qu'elle décide de se manifester. » Tu soutiens son regard jusqu'à ce que, petit à petit, son sourire s'effondre. « D'accord, d'accord », murmure-t-il. « C'est de l'eau de flaque et beaucoup de baratin. Mais les gens ont besoin de croire qu'il pleuvra demain. Je... je vends juste de l'espoir bon marché. » Tu repars ayant gagné le duel, avec une leçon inconfortable sur pourquoi les arnaques fonctionnent.",
+            "it": "Prendi una boccetta, la stappi, la giri a testa in giù e la scuoti sotto il suo naso. 'È. Vuota.', gli dici lentamente. L'uomo non si scompone: 'Vuota per l'occhio VOLGARE, amico. La pioggia potenziale è incolore e inodore finché non decide di manifestarsi.' Sostieni il suo sguardo finché, poco a poco, il sorriso gli si sgretola. 'Va bene, va bene', sussurra. 'È acqua di pozzanghera e molta parlantina. Ma la gente ha bisogno di credere che domani pioverà. Io... vendo solo speranza a buon mercato.' Te ne vai avendo vinto il duello, con una lezione scomoda sul perché funzionano le truffe.",
+            "de": "Du nimmst ein Fläschchen, entkorkst es, drehst es kopfüber und schüttelst es unter seiner Nase. „Es. Ist. Leer.“, sagst du langsam. Der Mann lässt sich nicht beirren: „Leer für das VULGÄRE Auge, mein Freund. Potenzieller Regen ist farb- und geruchlos, bis er sich manifestieren will.“ Du hältst seinem Blick stand, bis sein Grinsen nach und nach zerfällt. „Na gut, na gut“, flüstert er. „Es ist Pfützenwasser und viel Geschwätz. Aber die Leute müssen glauben, dass es morgen regnen wird. Ich verkaufe nur... billige Hoffnung.“ Du gehst als Sieger des Duells, mit einer unbequemen Lektion darüber, warum Betrügereien funktionieren.",
+            "zh": "你拿起一个瓶子，打开瓶盖，把它倒过来，在他鼻子底下晃了晃。「它。是。空的。」你慢慢地对他说。那男人毫不动摇：「对『庸俗』的眼睛来说是空的，朋友。潜在的雨水是无色无味的，直到它决定显现出来。」你与他对视，直到他的笑容一点点崩溃。「好吧，好吧，」他低声说道。「那是坑洼水，加上一大堆花言巧语。但人们需要相信明天会下雨。我只是……卖点便宜的希望而已。」你带着赢得这场对峙的胜利，以及一个关于骗局为何有效的令人不适的教训离开了。",
+            "ja": "瓶を取り、コルクを抜き、それを逆さにして彼の鼻先で振る。「これは。空だ」ゆっくりと言う。男は動じない。「俗な目には空に見えるだけだ、友よ。潜在的な雨は、それが姿を現すと決めるまでは無色無臭なのだ」彼の視線を受け止め続けると、少しずつ笑みが崩れていく。「わかった、わかったよ」彼は囁く。「水たまりの水と、たくさんの口上さ。だが人々は明日雨が降ると信じる必要があるんだ。俺はただ……安っぽい希望を売っているだけさ」対決に勝利し、詐欺がなぜ機能するのかという不快な教訓を得て立ち去る。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:inteligencia=+1"
+    },
+    "lluvia_opt_amenazar": {
+        "type": "option",
+        "text": {
+            "es": "😠  Agarrarle del chaleco y exigirle que devuelva el dinero a todos",
+            "en": "😠  Grab him by the vest and demand he refund everyone",
+            "fr": "😠  Lattraper par le gilet et exiger quil rembourse tout le monde",
+            "it": "😠  Afferrarlo per il gilet ed esigere che restituisca il denaro a tutti",
+            "de": "😠  Ihn an der Weste packen und fordern, dass er allen das Geld zurückgibt",
+            "zh": "😠  抓住他的马甲，要求他把钱还给所有人",
+            "ja": "😠  ベストを掴み、皆に金を返すよう要求する"
+        },
+        "next": [
+            "lluvia_msg_amenazar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "lluvia_msg_amenazar": {
+        "type": "message",
+        "text": {
+            "es": "Lo levantas por el chaleco hasta que los frascos tintinean. '¡Devuélveles el dinero a los que has timado!', gruñes. El hombre, pálido, vacía sus bolsillos ahí mismo: un puñado de monedas, dos botones y un ratón dormido que sale corriendo. 'No queda casi nada, lo juro, ¡me lo gasté en más frascos!' Le sueltas. Has hecho justicia a tu manera, aunque asustar a un desgraciado que vende agua de charco a muertos de sed te deja un regusto agrio: en el páramo, hasta los villanos son de segunda mano.",
+            "en": "You lift him by the vest until the jars jingle. 'Give back the money to everyone you conned!', you snarl. Pale, the man empties his pockets right there: a handful of coins, two buttons, and a sleeping mouse that scurries off. 'There's almost nothing left, I swear, I spent it all on more jars!' You let him go. You've done justice your way, though bullying a wretch who sells puddle water to the parched leaves a sour aftertaste: in the moor, even the villains are second-hand.",
+            "fr": "Tu le soulèves par le gilet jusqu'à ce que les bocaux s'entrechoquent. « Rends l'argent à ceux que tu as escroqués ! », grondes-tu. L'homme, pâle, vide ses poches sur place : une poignée de pièces, deux boutons et une souris endormie qui s'échappe en courant. « Il ne reste presque rien, je te le jure, j'ai tout dépensé en d'autres bocaux ! » Tu le lâches. Tu as fait justice à ta manière, bien que malmener un misérable qui vend de l'eau de flaque à des gens assoiffés te laisse un arrière-goût amer : dans la lande, même les scélérats sont de seconde main.",
+            "it": "Lo alzi per il gilet finché le boccette tintinnano. 'Restituisci i soldi a quelli che hai truffato!', ringhi. L'uomo, pallido, svuota le sue tasche lì per lì: una manciata di monete, due bottoni e un topo dormiente che scappa. 'Non ne è quasi rimasto niente, lo giuro, l'ho spesa tutta in altre boccette!' Lo lasci andare. Hai fatto giustizia a modo tuo, sebbene spaventare un disgraziato che vende acqua di pozzanghera a chi ha sete lasci un retrogusto amaro: nella landa, persino i cattivi sono di seconda mano.",
+            "de": "Du hebst ihn an der Weste hoch, bis die Fläschchen klimpern. „Gib das Geld denen zurück, die du betrogen hast!“, knurrst du. Der Mann leert bleich seine Taschen auf der Stelle: eine Handvoll Münzen, zwei Knöpfe und eine schlafende Maus, die davonläuft. „Es ist fast nichts mehr übrig, ich schwöre es, ich habe es für mehr Fläschchen ausgegeben!“ Du lässt ihn los. Du hast auf deine Art Gerechtigkeit geübt, obwohl es einen bitteren Nachgeschmack hinterlässt, einen Elenden zu bedrängen, der Pfützenwasser an Verdurstende verkauft: im Ödland sind selbst die Bösewichte gebraucht.",
+            "zh": "你揪着他的马甲把他提起来，直到那些瓶子叮当作响。「把钱还给你骗过的那些人！」你咆哮道。那男人脸色发白，当场倒出了他的口袋：一把硬币，两个纽扣，还有一只逃跑的睡鼠。「几乎什么都不剩了，我发誓，我把钱都花在买更多瓶子上了！」你松开了他。你以自己的方式实现了正义，尽管恐吓一个卖坑洼水给渴死之人的可怜家伙，给你留下了一种苦涩的余味：在这片荒原上，就连恶棍都是二手的。",
+            "ja": "瓶がカチャカチャ音を立てるほどベストを持ち上げる。「騙した奴らに金を返せ！」お前は唸る。男は青ざめ、その場でポケットを空にする——一握りの硬貨、二つのボタン、そして逃げていく眠っていたネズミ。「もうほとんど何もない、誓う、他の瓶を買うのに全部使ってしまったんだ！」お前は彼を放す。自分なりの正義を行ったが、喉の渇いた者に水たまりの水を売る哀れな男を脅すことは苦い後味を残す——荒野では、悪党すら二番手のものなのだ。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:valor=+1;faceta:bondad=-1;gold:+5"
+    },
+    "lluvia_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Hoy no, gracias. Seguir tu camino entre risas",
+            "en": "🚶  Not today, thanks. Move on, chuckling",
+            "fr": "🚶  Pas aujourdhui, merci. » Poursuivre ton chemin en riant",
+            "it": "🚶  Oggi no, grazie. Proseguire il cammino ridendo",
+            "de": "🚶  Heute nicht, danke. Lachend weitergehen",
+            "zh": "🚶  今天不用了，谢谢。笑着继续赶路",
+            "ja": "🚶  今日はいい、ありがとう笑いながら先へ進む"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

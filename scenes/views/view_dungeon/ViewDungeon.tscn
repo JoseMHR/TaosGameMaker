@@ -1,0 +1,97 @@
+[gd_scene load_steps=2 format=3 uid="uid://d4vd3ng2026vd"]
+
+[ext_resource type="Script" path="res://scenes/views/view_dungeon/ViewDungeon.gd" id="1_vd"]
+
+[node name="ViewDungeon" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_vd")
+
+[node name="BG" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.0313726, 0.0196078, 0.0431373, 1)
+
+[node name="VBox" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 0
+
+; ─── Cabecera ────────────────────────────────────────────────────────────────
+[node name="Header" type="PanelContainer" parent="VBox"]
+layout_mode = 2
+
+[node name="MarginHeader" type="MarginContainer" parent="VBox/Header"]
+layout_mode = 2
+theme_override_constants/margin_left = 24
+theme_override_constants/margin_right = 24
+theme_override_constants/margin_top = 18
+theme_override_constants/margin_bottom = 18
+
+[node name="HBoxH" type="HBoxContainer" parent="VBox/Header/MarginHeader"]
+layout_mode = 2
+theme_override_constants/separation = 16
+
+[node name="LblDungeonIcon" type="Label" parent="VBox/Header/MarginHeader/HBoxH"]
+visible = false
+layout_mode = 2
+text = "⛰️"
+theme_override_font_sizes/font_size = 38
+vertical_alignment = 1
+
+[node name="LblDungeonName" type="Label" parent="VBox/Header/MarginHeader/HBoxH"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Mazmorra"
+horizontal_alignment = 1
+theme_override_font_sizes/font_size = 34
+theme_override_colors/font_color = Color(0.85, 0.55, 0.55, 1)
+
+[node name="BtnLeave" type="Button" parent="VBox/Header/MarginHeader/HBoxH"]
+visible = false
+layout_mode = 2
+custom_minimum_size = Vector2(0, 56)
+text = "Huir"
+theme_override_font_sizes/font_size = 26
+
+; ─── SubViewport 3D ──────────────────────────────────────────────────────────
+[node name="ViewportContainer" type="SubViewportContainer" parent="VBox"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+stretch = true
+
+[node name="SubViewport" type="SubViewport" parent="VBox/ViewportContainer"]
+own_world_3d = true
+handle_input_locally = false
+physics_object_picking = true
+size = Vector2i(512, 512)
+render_target_update_mode = 0
+
+; ─── Controles Táctiles Overlay (Mobile) ──────────────────────────────────────
+[node name="MobileControls" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+
+
+
+
+[connection signal="pressed" from="VBox/Header/MarginHeader/HBoxH/BtnLeave" to="." method="_on_btn_leave_pressed"]

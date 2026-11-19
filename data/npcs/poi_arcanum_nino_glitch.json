@@ -1,0 +1,151 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Niño con Interferencias",
+            "en": "The Glitching Child",
+            "fr": "L'Enfant à Interférences",
+            "it": "Il Bambino con Interferenze",
+            "de": "Das Flackernde Kind",
+            "zh": "干扰之童",
+            "ja": "ノイズの子供"
+        },
+        "next": [],
+        "reward": "bg=0.05,0.06,0.08"
+    },
+    "gli_root": {
+        "type": "message",
+        "text": {
+            "es": "En una esquina del páramo, la figura translúcida de un niño pequeño parpadea como una imagen mal sintonizada. Se distorsiona, se pixela, se recompone, y todo el rato repite la misma frase con la voz cortada por interferencias: 'papá-á-á dijo que solo era un-un-un juego... ¿por qué me duele-le-le?' No parece verte del todo, como si mirara a través de ti hacia alguien que no está.",
+            "en": "In a corner of the badlands, the translucent figure of a small child flickers like a badly tuned image. It distorts, pixelates, reassembles, and all the while repeats the same phrase in a voice sliced by static: 'daddy-y-y said it was just a-a-a game... why does it hurt-t-t?' It doesn't quite seem to see you, as if looking through you toward someone who isn't there.",
+            "fr": "Dans un coin du désert, la silhouette translucide d'un petit enfant clignote comme une image mal réglée. Elle se distord, se pixellise, se recompose, et répète sans cesse la même phrase d'une voix hachée par les interférences : « papa-a-a a dit que c'était juste un-un-un jeu... pourquoi ça me fait mal-al-al ? » Elle ne semble pas vraiment te voir, comme si elle regardait à travers toi vers quelqu'un qui n'est pas là.",
+            "it": "In un angolo della landa, la figura traslucida di un bambino piccolo lampeggia come un'immagine mal sintonizzata. Si distorce, si pixela, si ricompone, e per tutto il tempo ripete la stessa frase con la voce tagliata dalle interferenze: 'papà-à-à ha detto che era solo un-un-un gioco... perché mi fa male-le-le?' Non sembra vederti del tutto, come se guardasse attraverso di te verso qualcuno che non c'è.",
+            "de": "In einer Ecke des Ödlands flackert die durchscheinende Gestalt eines kleinen Kindes wie ein schlecht eingestelltes Bild. Sie verzerrt sich, zerfällt in Pixel, setzt sich wieder zusammen, und wiederholt dabei immerzu denselben Satz mit einer von Störungen zerhackten Stimme: „Papa-a-a hat gesagt, es war nur ein S-S-Spiel... warum tut es weh-eh-eh?“ Sie scheint dich nicht ganz zu sehen, als würde sie durch dich hindurch auf jemanden blicken, der nicht da ist.",
+            "zh": "在荒原的一个角落，一个小孩半透明的身影像调频不良的画面一样闪烁着。它扭曲，变成像素状，又重新组合起来，同时不断重复着同一句话，声音被干扰切得断断续续：「爸爸——爸爸说这只是个游——游戏……为什么会疼——疼——疼？」它似乎并没有真正看见你，仿佛在透过你望向一个不在场的人。",
+            "ja": "荒野の片隅で、小さな子供の半透明な姿が調整不良な映像のように明滅している。歪み、ピクセル化し、再び組み立てられながら、ずっと同じフレーズを静電気に切り裂かれた声で繰り返している。「パパ、パパは、ただの、げ、げ、ゲームだって言った……なんでいた、た、たいの？」お前をまともに見ていないようで、まるでそこにいない誰かをお前越しに見つめているかのようだ。"
+        },
+        "next": [
+            "gli_opt_escuchar",
+            "gli_opt_consolar",
+            "gli_opt_huir",
+            "gli_opt_salir"
+        ],
+        "reward": ""
+    },
+    "gli_opt_escuchar": {
+        "type": "option",
+        "text": {
+            "es": "👂  Quedarte quieto y escuchar el bucle completo",
+            "en": "👂  Stay still and listen to the full loop",
+            "fr": "👂  Rester immobile et écouter la boucle entière",
+            "it": "👂  Restare fermo e ascoltare l'intero ciclo",
+            "de": "👂  Still bleiben und die ganze Schleife anhören",
+            "zh": "👂  静止不动，听完整个循环",
+            "ja": "👂  じっと立ち止まり、ループ全体を聞く"
+        },
+        "next": [
+            "gli_msg_escuchar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "gli_msg_escuchar": {
+        "type": "message",
+        "text": {
+            "es": "Aguantas y escuchas el ciclo entero. La frase se completa, poco a poco, entre parpadeos: 'Papá dijo que solo era un juego. Cogí la bola bonita porque brillaba. Luego me sentí mala. Papá lloraba y me pinchaba el brazo para curarme. Y luego... y luego ya no me acuerdo de nada. ¿Papá, sigues ahí? Tengo frío.' La figura se congela un instante mirándote directamente, y jurarías que, por una fracción de segundo, te reconoce. Se te parte algo por dentro.",
+            "en": "You hold on and listen to the entire cycle. The phrase completes itself, little by little, between flickers: 'Daddy said it was just a game. I took the pretty ball because it was shiny. Then I felt sick. Daddy was crying and putting a needle in my arm to make me better. And then... and then I don't remember anything. Daddy, are you still there? I'm cold.' The figure freezes for an instant, looking straight at you, and you'd swear that, for a fraction of a second, it recognizes you. Something inside you breaks.",
+            "fr": "Tu tiens bon et écoutes le cycle complet. La phrase se complète, petit à petit, entre les clignotements : « Papa a dit que c'était juste un jeu. J'ai pris la belle boule parce qu'elle brillait. Après je me suis sentie mal. Papa pleurait et me piquait le bras pour me soigner. Et puis... et puis je ne me souviens plus de rien. Papa, tu es toujours là ? J'ai froid. » La silhouette se fige un instant en te regardant directement, et tu jurerais que, pendant une fraction de seconde, elle te reconnaît. Quelque chose se brise en toi.",
+            "it": "Resisti e ascolti l'intero ciclo. La frase si completa, poco a poco, tra i lampeggi: 'Papà ha detto che era solo un gioco. Ho preso la palla bella perché brillava. Poi mi sono sentita male. Papà piangeva e mi pungeva il braccio per curarmi. E poi... e poi non ricordo più nulla. Papà, sei ancora lì? Ho freddo.' La figura si congela un istante guardandoti direttamente, e giureresti che, per una frazione di secondo, ti riconosce. Qualcosa dentro di te si spezza.",
+            "de": "Du hältst durch und hörst den gesamten Zyklus an. Der Satz vervollständigt sich, nach und nach, zwischen den Flackern: „Papa hat gesagt, es war nur ein Spiel. Ich habe die hübsche Kugel genommen, weil sie glänzte. Dann fühlte ich mich schlecht. Papa weinte und stach mir in den Arm, um mich zu heilen. Und dann... und dann erinnere ich mich an nichts mehr. Papa, bist du noch da? Mir ist kalt.“ Die Gestalt erstarrt für einen Moment und blickt dich direkt an, und du würdest schwören, dass sie dich für den Bruchteil einer Sekunde erkennt. Etwas in dir zerbricht.",
+            "zh": "你忍住不动，听完了整个循环。这句话在闪烁间一点点被拼凑完整：「爸爸说这只是个游戏。我拿了那个漂亮的球，因为它在发光。然后我感觉不舒服。爸爸哭了，把针扎进我的手臂想治好我。然后……然后我什么都不记得了。爸爸，你还在吗？我好冷。」这个身影瞬间凝固，直直地看着你，你敢发誓，有那么一瞬间，它认出了你。你的内心有什么东西碎裂了。",
+            "ja": "耐えて全サイクルを聞く。フレーズは明滅の合間に少しずつ完成していく——「パパは、ただのゲームだって言った。きれいな球を取ったの、光ってたから。それから気分が悪くなった。パパは泣きながら、治すために腕に針を刺した。それから……それから何も覚えてない。パパ、まだそこにいる？寒いよ」その姿が一瞬止まり、まっすぐお前を見つめる。誓ってもいい、ほんの一瞬、お前を認識したのだと。心の中で何かが砕ける。"
+        },
+        "next": [
+            "gli_opt_salir"
+        ],
+        "reward": "faceta:cordura=-1;gflag:gli_escuchado"
+    },
+    "gli_opt_consolar": {
+        "type": "option",
+        "text": {
+            "es": "🫂  Arrodillarte e intentar consolar a la figura",
+            "en": "🫂  Kneel and try to comfort the figure",
+            "fr": "🫂  T'agenouiller et essayer de consoler la figure",
+            "it": "🫂  Inginocchiarti e cercare di consolare la figura",
+            "de": "🫂  Sich hinknien und versuchen, die Gestalt zu trösten",
+            "zh": "🫂  跪下来试着安慰这个身影",
+            "ja": "🫂  膝をつき、その姿を慰めようとする"
+        },
+        "next": [
+            "gli_msg_consolar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "gli_msg_consolar": {
+        "type": "message",
+        "text": {
+            "es": "Te arrodillas a su altura, aunque sabes que tus manos la atravesarían. 'No tienes frío', le dices con toda la ternura que puedes reunir. 'Y no fue culpa tuya. Nunca fue culpa tuya.' La figura deja de parpadear un instante. La interferencia se calma. Por primera vez la frase cambia: 'vale, papá. No estoy enfadada. Te quiero.' Y se apaga con suavidad, como una vela, dejándote de rodillas en el páramo con las mejillas empapadas y sin saber a quién acabas de despedir.",
+            "en": "You kneel to its level, though you know your hands would pass right through it. 'You're not cold,' you tell it with all the tenderness you can gather. 'And it wasn't your fault. It was never your fault.' The figure stops flickering for an instant. The static settles. For the first time the phrase changes: 'okay, daddy. I'm not angry. I love you.' And it fades gently, like a candle, leaving you kneeling in the badlands with soaked cheeks, not knowing whom you just said goodbye to.",
+            "fr": "Tu t'agenouilles à sa hauteur, bien que tu saches que tes mains la traverseraient. « Tu n'as pas froid », lui dis-tu avec toute la tendresse que tu peux rassembler. « Et ce n'était pas ta faute. Ça n'a jamais été ta faute. » La silhouette cesse de clignoter un instant. L'interférence se calme. Pour la première fois la phrase change : « d'accord, papa. Je ne suis pas fâchée. Je t'aime. » Et elle s'éteint doucement, comme une bougie, te laissant à genoux dans le désert, les joues trempées, sans savoir qui tu viens de dire au revoir.",
+            "it": "Ti inginocchi alla sua altezza, sebbene tu sappia che le tue mani la attraverserebbero. 'Non hai freddo', le dici con tutta la tenerezza che riesci a raccogliere. 'E non è stata colpa tua. Non è mai stata colpa tua.' La figura smette di lampeggiare per un istante. L'interferenza si calma. Per la prima volta la frase cambia: 'va bene, papà. Non sono arrabbiata. Ti voglio bene.' E si spegne dolcemente, come una candela, lasciandoti in ginocchio nella landa con le guance bagnate, senza sapere a chi hai appena dato l'addio.",
+            "de": "Du kniest dich auf ihre Höhe, obwohl du weißt, dass deine Hände sie durchdringen würden. „Dir ist nicht kalt“, sagst du ihr mit aller Zärtlichkeit, die du aufbringen kannst. „Und es war nicht deine Schuld. Es war nie deine Schuld.“ Die Gestalt hört für einen Moment auf zu flackern. Die Störung beruhigt sich. Zum ersten Mal ändert sich der Satz: „Okay, Papa. Ich bin nicht böse. Ich liebe dich.“ Und sie verlöscht sanft, wie eine Kerze, und lässt dich kniend im Ödland mit tränennassen Wangen zurück, ohne zu wissen, von wem du dich gerade verabschiedet hast.",
+            "zh": "你跪下与它同高，尽管你知道你的手会穿过它。「你不冷，」你用你所能汇聚的全部温柔对它说。「那不是你的错。从来都不是你的错。」这个身影停止了闪烁片刻。干扰平息了。第一次，那句话变了：「好的，爸爸。我没有生气。我爱你。」然后它像蜡烛一样轻轻熄灭，留下你跪在荒原上，脸颊湿透，不知道自己刚刚道别的是谁。",
+            "ja": "手を伸ばせば通り抜けてしまうと分かっていながらも、その高さに膝をつく。「寒くないよ」ありったけの優しさを込めて言う。「それにお前のせいじゃなかった。決してお前のせいじゃなかった」その姿が一瞬明滅を止める。ノイズが静まる。初めてフレーズが変わる——「うん、パパ。怒ってないよ。愛してる」そしてろうそくのように穏やかに消えていき、頬を涙で濡らしたまま、誰に別れを告げたのかも分からないまま、荒野に膝をついたお前だけが残される。"
+        },
+        "next": [
+            "gli_opt_salir"
+        ],
+        "reward": "faceta:bondad=+1;faceta:cordura=-1;gflag:gli_consolado",
+        "condition": "no_gflag(\"gli_consolado\")",
+        "once": true
+    },
+    "gli_opt_huir": {
+        "type": "option",
+        "text": {
+            "es": "😨  Retroceder: no quieres oír más",
+            "en": "😨  Back away: you don't want to hear any more",
+            "fr": "😨  Reculer : tu ne veux plus rien entendre",
+            "it": "😨  Indietreggiare: non vuoi sentire altro",
+            "de": "😨  Zurückweichen: du willst nichts mehr hören",
+            "zh": "😨  后退：你不想再听下去了",
+            "ja": "😨  後ずさる：もう聞きたくない"
+        },
+        "next": [
+            "gli_msg_huir"
+        ],
+        "reward": ""
+    },
+    "gli_msg_huir": {
+        "type": "message",
+        "text": {
+            "es": "Retrocedes deprisa, apartando la mirada. Pero por muy lejos que camines, la vocecita entrecortada te sigue, tan clara como si estuviera pegada a tu oído: 'papá, no te vayas otra vez'. Aprietas el paso. La voz no sube de volumen; simplemente no se aleja. Comprendes que hay cosas de las que no se puede huir andando, porque las llevas dentro de la cabeza.",
+            "en": "You back away quickly, looking aside. But no matter how far you walk, the broken little voice follows you, as clear as if pressed to your ear: 'daddy, don't leave again'. You quicken your pace. The voice doesn't get louder; it simply doesn't recede. You understand there are things you can't walk away from, because you carry them inside your head.",
+            "fr": "Tu recules rapidement, détournant le regard. Mais peu importe la distance que tu parcours, la petite voix hachée te suit, aussi claire que si elle était collée à ton oreille : « papa, ne repars pas encore ». Tu accélères le pas. La voix ne monte pas en volume ; elle ne s'éloigne simplement pas. Tu comprends qu'il y a des choses dont on ne peut pas s'éloigner en marchant, parce qu'on les porte à l'intérieur de sa tête.",
+            "it": "Indietreggi rapidamente, distogliendo lo sguardo. Ma per quanto tu cammini lontano, la vocina spezzata ti segue, chiara come se fosse incollata al tuo orecchio: 'papà, non andartene di nuovo'. Accelleri il passo. La voce non aumenta di volume; semplicemente non si allontana. Comprendi che ci sono cose da cui non si può fuggire camminando, perché le porti dentro la testa.",
+            "de": "Du weichst schnell zurück und schaust weg. Aber egal wie weit du gehst, die zerbrochene kleine Stimme folgt dir, so klar, als wäre sie an deinem Ohr geklebt: „Papa, geh nicht wieder weg“. Du beschleunigst deinen Schritt. Die Stimme wird nicht lauter; sie entfernt sich einfach nicht. Du verstehst, dass es Dinge gibt, vor denen man nicht davonlaufen kann, weil man sie im Kopf trägt.",
+            "zh": "你迅速后退，移开视线。但无论你走多远，那断断续续的小声音都紧随着你，清晰得仿佛贴在你的耳边：「爸爸，别再离开了」。你加快了脚步。声音没有变大；只是没有远离。你明白，有些东西是无法用行走摆脱的，因为你把它们装在脑海里带着走。",
+            "ja": "急いで後ずさり、目をそらす。だがどれだけ遠くまで歩いても、その途切れ途切れの小さな声はまるで耳元に貼りついているかのようについてくる。「パパ、また行かないで」歩みを速める。声は大きくならない。ただ遠ざかりもしない。頭の中に抱えているものからは、歩いて逃げることはできないのだと理解する。"
+        },
+        "next": [
+            "gli_opt_salir"
+        ],
+        "reward": ""
+    },
+    "gli_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Seguir adelante en silencio",
+            "en": "🚶  Move on in silence",
+            "fr": "🚶  Continuer en silence",
+            "it": "🚶  Proseguire in silenzio",
+            "de": "🚶  Schweigend weitergehen",
+            "zh": "🚶  沉默地继续前行",
+            "ja": "🚶  静かに先へ進む"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

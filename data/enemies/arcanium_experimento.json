@@ -1,0 +1,65 @@
+{
+  "name": {
+    "es": "Experimento Fallido",
+    "en": "Failed Experiment",
+    "fr": "Expérience Ratée",
+    "it": "Esperimento Fallito",
+    "de": "Missglücktes Experiment",
+    "zh": "失败的实验体",
+    "ja": "失敗した実験体"
+  },
+  "family": "construct",
+  "archetype": "boss",
+  "icon": "🧪",
+  "image": "res://assets/combat/enemies/en_failed_experiment.png",
+  "attack_type": "magic",
+  "base_dodge": 10.0,
+  "dodge_scale": 0.2,
+  "element": "poison",
+  "weak_to": [
+    "holy",
+    "fire"
+  ],
+  "resist": [
+    "poison",
+    "lightning",
+    "dark"
+  ],
+  "ai": "caster",
+  "xp_reward_base": 1100,
+  "xp_reward_scale": 32.0,
+  "gold_reward_base": 700,
+  "gold_reward_scale": 30.0,
+  "skills": [
+    {
+      "level": 1,
+      "skill_id": "toxic_burst"
+    },
+    {
+      "level": 35,
+      "skill_id": "void_laser"
+    },
+    {
+      "level": 40,
+      "skill_id": "corruption_wave"
+    },
+    {
+      "level": 45,
+      "skill_id": "hyper_beam"
+    }
+  ],
+  "loot": [
+    {
+      "kind": "gold",
+      "min": 150,
+      "max": 280
+    },
+    {
+      "kind": "equipment",
+      "chance": 1.0,
+      "level": 8
+    }
+  ],
+  "zone": "zona_6_arcanum",
+  "is_boss": true
+}

@@ -1,0 +1,210 @@
+[gd_scene format=3]
+
+[sub_resource type="StandardMaterial3D" id="Mat_StoneDark"]
+albedo_color = Color(0.26, 0.28, 0.32, 1)
+roughness = 0.95
+
+[sub_resource type="StandardMaterial3D" id="Mat_StoneWall"]
+albedo_color = Color(0.40, 0.42, 0.46, 1)
+roughness = 0.88
+
+[sub_resource type="StandardMaterial3D" id="Mat_StoneLight"]
+albedo_color = Color(0.55, 0.58, 0.62, 1)
+roughness = 0.8
+
+[sub_resource type="StandardMaterial3D" id="Mat_WoodBeam"]
+albedo_color = Color(0.34, 0.23, 0.14, 1)
+roughness = 0.85
+
+[sub_resource type="StandardMaterial3D" id="Mat_IronFittings"]
+albedo_color = Color(0.18, 0.20, 0.22, 1)
+metallic = 0.7
+roughness = 0.35
+
+[sub_resource type="StandardMaterial3D" id="Mat_WarningPlank"]
+albedo_color = Color(0.78, 0.32, 0.18, 1)
+roughness = 0.8
+
+[sub_resource type="BoxMesh" id="Mesh_Foundation"]
+size = Vector3(1.55, 0.2, 0.7)
+
+[sub_resource type="BoxMesh" id="Mesh_MainWall"]
+size = Vector3(1.4, 0.58, 0.44)
+
+[sub_resource type="BoxMesh" id="Mesh_PillarLeft"]
+size = Vector3(0.34, 0.82, 0.52)
+
+[sub_resource type="BoxMesh" id="Mesh_PillarRight"]
+size = Vector3(0.34, 0.82, 0.52)
+
+[sub_resource type="BoxMesh" id="Mesh_PillarCap"]
+size = Vector3(0.38, 0.08, 0.56)
+
+[sub_resource type="BoxMesh" id="Mesh_CrenelLarge"]
+size = Vector3(0.3, 0.22, 0.4)
+
+[sub_resource type="BoxMesh" id="Mesh_CrenelSmall"]
+size = Vector3(0.22, 0.18, 0.4)
+
+[sub_resource type="BoxMesh" id="Mesh_ProtrudingBlockA"]
+size = Vector3(0.26, 0.16, 0.1)
+
+[sub_resource type="BoxMesh" id="Mesh_ProtrudingBlockB"]
+size = Vector3(0.2, 0.14, 0.1)
+
+[sub_resource type="BoxMesh" id="Mesh_ProtrudingBlockC"]
+size = Vector3(0.32, 0.18, 0.1)
+
+[sub_resource type="BoxMesh" id="Mesh_CrossBeam"]
+size = Vector3(1.48, 0.09, 0.08)
+
+[sub_resource type="CylinderMesh" id="Mesh_DiagonalStrut"]
+top_radius = 0.035
+bottom_radius = 0.035
+height = 0.72
+radial_segments = 6
+
+[sub_resource type="BoxMesh" id="Mesh_IronBracket"]
+size = Vector3(0.07, 0.13, 0.04)
+
+[sub_resource type="PrismMesh" id="Mesh_Spike"]
+size = Vector3(0.06, 0.16, 0.06)
+
+[sub_resource type="BoxMesh" id="Mesh_RubbleChunkA"]
+size = Vector3(0.22, 0.12, 0.2)
+
+[sub_resource type="PrismMesh" id="Mesh_RubbleChunkB"]
+size = Vector3(0.18, 0.14, 0.18)
+
+[sub_resource type="BoxMesh" id="Mesh_RubbleChunkC"]
+size = Vector3(0.16, 0.1, 0.15)
+
+[sub_resource type="BoxMesh" id="Mesh_WarningPlank"]
+size = Vector3(0.68, 0.13, 0.03)
+
+[node name="BloqueoPiedra" type="Node3D"]
+
+[node name="Foundation_Base" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.1, 0)
+material_override = SubResource("Mat_StoneDark")
+mesh = SubResource("Mesh_Foundation")
+
+[node name="Wall_Core_Main" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.49, 0)
+material_override = SubResource("Mat_StoneWall")
+mesh = SubResource("Mesh_MainWall")
+
+[node name="Pillar_Left" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.62, 0.41, 0)
+material_override = SubResource("Mat_StoneDark")
+mesh = SubResource("Mesh_PillarLeft")
+
+[node name="Pillar_Left_Cap" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.62, 0.86, 0)
+material_override = SubResource("Mat_StoneLight")
+mesh = SubResource("Mesh_PillarCap")
+
+[node name="Pillar_Right" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.62, 0.41, 0)
+material_override = SubResource("Mat_StoneDark")
+mesh = SubResource("Mesh_PillarRight")
+
+[node name="Pillar_Right_Cap" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.62, 0.86, 0)
+material_override = SubResource("Mat_StoneLight")
+mesh = SubResource("Mesh_PillarCap")
+
+[node name="Crenel_Left" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.32, 0.89, 0)
+material_override = SubResource("Mat_StoneLight")
+mesh = SubResource("Mesh_CrenelLarge")
+
+[node name="Crenel_Right" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.87, 0)
+material_override = SubResource("Mat_StoneWall")
+mesh = SubResource("Mesh_CrenelSmall")
+
+[node name="Stone_Relief_Front_1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.22, 0.38, 0.24)
+material_override = SubResource("Mat_StoneLight")
+mesh = SubResource("Mesh_ProtrudingBlockA")
+
+[node name="Stone_Relief_Front_2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.28, 0.58, 0.24)
+material_override = SubResource("Mat_StoneDark")
+mesh = SubResource("Mesh_ProtrudingBlockB")
+
+[node name="Stone_Relief_Front_3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.05, 0.28, 0.24)
+material_override = SubResource("Mat_StoneWall")
+mesh = SubResource("Mesh_ProtrudingBlockC")
+
+[node name="Stone_Relief_Back_1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.16, 0.42, -0.24)
+material_override = SubResource("Mat_StoneLight")
+mesh = SubResource("Mesh_ProtrudingBlockA")
+
+[node name="Stone_Relief_Back_2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.26, 0.62, -0.24)
+material_override = SubResource("Mat_StoneDark")
+mesh = SubResource("Mesh_ProtrudingBlockB")
+
+[node name="Wood_CrossBeam_Front" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.46, 0.25)
+material_override = SubResource("Mat_WoodBeam")
+mesh = SubResource("Mesh_CrossBeam")
+
+[node name="Wood_Strut_Left" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.9659, -0.2588, 0, 0.2588, 0.9659, 0, 0, 0, 1, -0.45, 0.32, 0.28)
+material_override = SubResource("Mat_WoodBeam")
+mesh = SubResource("Mesh_DiagonalStrut")
+
+[node name="Wood_Strut_Right" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.9659, 0.2588, 0, -0.2588, 0.9659, 0, 0, 0, 1, 0.45, 0.32, 0.28)
+material_override = SubResource("Mat_WoodBeam")
+mesh = SubResource("Mesh_DiagonalStrut")
+
+[node name="Iron_Bracket_1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.45, 0.46, 0.29)
+material_override = SubResource("Mat_IronFittings")
+mesh = SubResource("Mesh_IronBracket")
+
+[node name="Iron_Bracket_2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.45, 0.46, 0.29)
+material_override = SubResource("Mat_IronFittings")
+mesh = SubResource("Mesh_IronBracket")
+
+[node name="Iron_Spike_1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.06, 0.86, 0)
+material_override = SubResource("Mat_IronFittings")
+mesh = SubResource("Mesh_Spike")
+
+[node name="Iron_Spike_2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.42, 0.86, 0)
+material_override = SubResource("Mat_IronFittings")
+mesh = SubResource("Mesh_Spike")
+
+[node name="Warning_Plank" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.9986, 0.0523, 0, -0.0523, 0.9986, 0, 0, 0, 1, 0, 0.62, 0.28)
+material_override = SubResource("Mat_WarningPlank")
+mesh = SubResource("Mesh_WarningPlank")
+
+[node name="Rubble_1" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.9397, 0, 0.342, 0, 1, 0, -0.342, 0, 0.9397, -0.38, 0.08, 0.38)
+material_override = SubResource("Mat_StoneWall")
+mesh = SubResource("Mesh_RubbleChunkA")
+
+[node name="Rubble_2" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.866, 0, -0.5, 0, 1, 0, 0.5, 0, 0.866, 0.36, 0.09, 0.36)
+material_override = SubResource("Mat_StoneLight")
+mesh = SubResource("Mesh_RubbleChunkB")
+
+[node name="Rubble_3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.62, 0.06, -0.32)
+material_override = SubResource("Mat_StoneDark")
+mesh = SubResource("Mesh_RubbleChunkC")
+
+[node name="Rubble_4" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.766, 0, 0.6428, 0, 1, 0, -0.6428, 0, 0.766, 0.25, 0.07, -0.32)
+material_override = SubResource("Mat_StoneWall")
+mesh = SubResource("Mesh_RubbleChunkA")

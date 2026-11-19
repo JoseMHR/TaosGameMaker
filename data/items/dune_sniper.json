@@ -1,0 +1,41 @@
+{
+    "name": {
+        "es": "Francotirador de Dunas",
+        "en": "Dune Sniper",
+        "fr": "Tireur d'Élite des Dunes",
+        "it": "Cecchino delle Dune",
+        "de": "Dünenscharfschütze",
+        "zh": "沙丘狙击手",
+        "ja": "デューンスナイパー"
+    },
+    "desc": {
+        "es": "Arco compuesto reforzado con tendones de sierpe de arena.",
+        "en": "Reinforced composite bow crafted with sand wyrm sinew.",
+        "fr": "Arc composite renforcé avec des tendons de ver des sables.",
+        "it": "Arco composito rinforzato con tendini di verme delle sabbie.",
+        "de": "Verstärkter Kompositbogen aus Sehnen des Sandwurms.",
+        "zh": "以沙虫肌腱强化的复合弓。",
+        "ja": "サンドワームの腱で補強された複合弓。"
+    },
+    "icon": "🏹",
+    "category": "equipment",
+    "usable": false,
+    "slot": "weapon",
+    "tier": 5,
+    "bonuses": {
+        "dex": 16,
+        "agi": 8
+    },
+    "combat": {
+        "range_damage": 150
+    },
+    "traits": [
+        {
+            "type": "inflict_status",
+            "status": "blind",
+            "chance": 0.2,
+            "min_refine": 5,
+            "desc": "20% probabilidad de aplicar Ceguera al enemigo"
+        }
+    ]
+}

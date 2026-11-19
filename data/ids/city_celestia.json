@@ -1,0 +1,34 @@
+{
+    "id": "city_celestia",
+    "type": "city",
+    "name": {
+        "es": "Celestia",
+        "en": "Celestia",
+        "fr": "Celestia",
+        "it": "Celestia",
+        "de": "Celestia",
+        "zh": "塞莱斯提亚",
+        "ja": "セレスティア"
+    },
+    "icon": "🏛️",
+    "desc": {
+        "es": "La ciudadela de los templos y los sabios",
+        "en": "The citadel of temples and sages",
+        "fr": "La citadelle des temples et des sages",
+        "it": "La cittadella dei templi e dei saggi",
+        "de": "Die Zitadelle der Tempel und Weisen",
+        "zh": "神庙与贤者的城塞",
+        "ja": "神殿と賢者の城塞"
+    },
+    "bg": "bg_city_celestia.png",
+    "content": [
+        "poi_celestia_taberna",
+        "poi_celestia_shop",
+        "poi_celestia_board",
+        "poi_celestia_transportista",
+        "poi_celestia_palace",
+        "poi_celestia_archmage",
+        "poi_celestia_sage",
+        "poi_celestia_crier"
+    ]
+}

@@ -1,0 +1,183 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "Brom el Mercader Imperial",
+            "en": "Brom the Imperial Merchant",
+            "fr": "Brom le Marchand Impérial",
+            "it": "Brom il Mercante Imperiale",
+            "de": "Brom der Kaiserliche Händler",
+            "zh": "帝国商人布罗姆",
+            "ja": "帝国商人ブロム"
+        },
+        "next": [],
+        "reward": "avatar=🧔;bg=0.06,0.045,0.1"
+    },
+    "entry": {
+        "type": "message",
+        "text": {
+            "es": "¡Saludos, aventurero! Bienvenido a la Tienda Real de Sylphrena. Aquí solo manejamos acero forjado bajo sello real, suministros de campaña de primer orden y una joya indispensable para cualquier viajero serio: la Tienda de Campaña. Plántala en el mapamundi cuando caiga la noche y convertirás cualquier claro en tu base personal. ¿Qué necesitas para tus andanzas?",
+            "en": "Greetings, adventurer! Welcome to the Royal Shop of Sylphrena. Here we deal only in royal-crested steel, prime field rations, and an indispensable marvel for any true wanderer: the Expedition Tent. Pitch it anywhere on the world map when night falls to turn any clearing into your personal sanctuary. What requires your attention today?",
+            "fr": "Salutations, aventurier ! Bienvenue à la Boutique Royale de Sylphrena. Ici nous ne traitons que l'acier forgé sous sceau royal, des provisions de campagne de première qualité et un joyau indispensable pour tout voyageur sérieux : la Tente d'Expédition. Plante-la sur la carte du monde à la tombée de la nuit et tu transformeras n'importe quelle clairière en ton sanctuaire personnel. Que te faut-il pour tes aventures ?",
+            "it": "Saluti, avventuriero! Benvenuto alla Bottega Reale di Sylphrena. Qui trattiamo solo acciaio forgiato sotto sigillo reale, forniture da campo di prima qualità e un gioiello indispensabile per ogni vero viaggiatore: la Tenda da Spedizione. Piantala sulla mappa del mondo al calare della notte e trasformerai qualsiasi radura nel tuo santuario personale. Di cosa hai bisogno per le tue avventure?",
+            "de": "Grüße, Abenteurer! Willkommen im Königlichen Laden von Sylphrena. Hier führen wir nur Stahl, geschmiedet unter königlichem Siegel, erstklassige Feldproviant und ein unverzichtbares Wunder für jeden wahren Wanderer: das Expeditionszelt. Schlage es bei Einbruch der Nacht irgendwo auf der Weltkarte auf und verwandle jede Lichtung in dein persönliches Refugium. Was benötigst du für deine Abenteuer?",
+            "zh": "问候你，冒险者！欢迎来到希尔芙蕾娜皇家商店。这里我们只经营带有王室标记的锻钢、一流的野营补给，以及任何真正的旅行者都不可或缺的宝物：远征帐篷。夜幕降临时，把它插在世界地图上的任何地方，就能把任何一片空地变成你的私人庇护所。你的冒险需要什么？",
+            "ja": "ようこそ、冒険者よ！シルフレナ王家の店へ。ここでは王家の刻印付きの鋼、一級の野営食料、そして真の旅人には欠かせない逸品——遠征用テントのみを扱っている。夜が来たら世界地図上のどこでも張れば、どんな空き地も個人の聖域に変わる。今日は何が必要だ？"
+        },
+        "next": [
+            "imp_opt_tienda",
+            "imp_opt_tienda_camp",
+            "imp_opt_acero",
+            "imp_opt_chisme",
+            "imp_opt_salir"
+        ],
+        "reward": ""
+    },
+    "imp_opt_tienda": {
+        "type": "option",
+        "text": {
+            "es": "🛍️  Enséñame tu inventario imperial. Quiero pertrecharme para el viaje",
+            "en": "🛍️  Show me your imperial inventory. I wish to outfit myself for the journey",
+            "fr": "🛍️  Montre-moi ton inventaire impérial. Je veux m'équiper pour le voyage",
+            "it": "🛍️  Mostrami il tuo inventario imperiale. Voglio equipaggiarmi per il viaggio",
+            "de": "🛍️  Zeig mir dein kaiserliches Inventar. Ich möchte mich für die Reise ausrüsten",
+            "zh": "🛍️  给我看看你的帝国库存。我想为旅程做好装备",
+            "ja": "🛍️  帝国の在庫を見せてくれ。旅の装備を整えたい"
+        },
+        "next": [
+            "imp_msg_tienda"
+        ],
+        "reward": ""
+    },
+    "imp_msg_tienda": {
+        "type": "message",
+        "text": {
+            "es": "Brom aparta una lona de cuero engrasado y revela un arsenal reluciente de armaduras pesadas, escudos con el blasón de la capital, pociones selladas y equipo de supervivencia. '¡Toma asiento y escoge con calma!'",
+            "en": "Brom sweeps aside an oiled leather tarp, revealing a gleaming rack of plate armor, crest-emblazoned shields, sealed draughts, and field equipment. 'Take a seat and choose at your leisure!'",
+            "fr": "Brom écarte une bâche en cuir huilé et révèle un arsenal étincelant d'armures lourdes, de boucliers portant le blason de la capitale, de potions scellées et d'équipement de survie. « Assieds-toi et choisis à ton aise ! »",
+            "it": "Brom scosta un telo di cuoio oleato e rivela un arsenale scintillante di armature pesanti, scudi con il blasone della capitale, pozioni sigillate e equipaggiamento di sopravvivenza. 'Siediti e scegli con calma!'",
+            "de": "Brom schiebt eine geölte Lederplane zur Seite und offenbart ein glänzendes Arsenal aus schwerer Rüstung, mit dem Wappen der Hauptstadt versehenen Schilden, versiegelten Tränken und Überlebensausrüstung. „Setz dich hin und wähle in Ruhe!“",
+            "zh": "布罗姆拉开一块涂了油的皮革布，露出了一整套闪闪发光的重甲、刻有首都徽记的盾牌、密封的药水以及生存装备。「坐下来慢慢挑吧！」",
+            "ja": "ブロムは油を塗った革の覆いをよけ、重装甲、首都の紋章が刻まれた盾、封をされた薬、そしてサバイバル装備が輝く武具の数々を見せる。「座ってゆっくり選んでくれ！」"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "open_shop:imperial"
+    },
+    "imp_opt_tienda_camp": {
+        "type": "option",
+        "text": {
+            "es": "🏕️  Cuéntame más sobre esa Tienda de Campaña. ¿Cómo ayuda a un viajero solitario?",
+            "en": "🏕️  Tell me more of that Expedition Tent. How does it aid a solitary traveler?",
+            "fr": "🏕️  Parle-moi davantage de cette Tente d'Expédition. Comment aide-t-elle un voyageur solitaire ?",
+            "it": "🏕️  Parlami di più di quella Tenda da Spedizione. Come aiuta un viaggiatore solitario?",
+            "de": "🏕️  Erzähl mir mehr über dieses Expeditionszelt. Wie hilft es einem einsamen Reisenden?",
+            "zh": "🏕️  跟我多说说那个远征帐篷吧。它对独行的旅人有什么帮助？",
+            "ja": "🏕️  その遠征用テントについてもっと教えてくれ。孤独な旅人にどう役立つんだ？"
+        },
+        "next": [
+            "imp_msg_tienda_camp"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "imp_msg_tienda_camp": {
+        "type": "message",
+        "text": {
+            "es": "Brom sonríe con complicidad: 'En las tierras salvajes, la noche es traicionera y las tormentas no perdonan. Si llevas una tienda en la mochila, puedes acampar en cualquier casilla libre. Te permite descansar hasta que salga el sol, curarte junto a una hoguera e incluso cocinar los ingredientes que coseches por el campo. Es la diferencia entre un explorador profesional y comida para los lobos.' La lección táctica amplía tus conocimientos de supervivencia.",
+            "en": "Brom grins knowingly: 'Out in the untamed wilds, darkness is treacherous and weather bites hard. Keep a tent in your pack and you can pitch camp on any open tile. It lets you rest until dawn breaks, heal wounds by the fire, and cook wild game and herbs you forage on the trail. It is the sole boundary between a seasoned ranger and wolf fodder.' The tactical counsel expands your survival expertise.",
+            "fr": "Brom sourit avec complicité : « Dans les terres sauvages, la nuit est traîtresse et les tempêtes ne pardonnent pas. Si tu portes une tente dans ton sac, tu peux camper sur n'importe quelle case libre. Elle te permet de te reposer jusqu'au lever du soleil, de te soigner près d'un feu de camp, et même de cuisiner les ingrédients récoltés dans les champs. C'est la différence entre un explorateur professionnel et de la nourriture pour les loups. » La leçon tactique élargit tes connaissances en survie.",
+            "it": "Brom sorride con complicità: 'Nelle terre selvagge, la notte è traditrice e le tempeste non perdonano. Se porti una tenda nello zaino, puoi accamparti in qualsiasi casella libera. Ti permette di riposare finché sorge il sole, curarti vicino a un fuoco e persino cucinare gli ingredienti che raccogli per i campi. È la differenza tra un esploratore professionista e cibo per i lupi.' La lezione tattica amplia le tue conoscenze di sopravvivenza.",
+            "de": "Brom lächelt verschwörerisch: „In der Wildnis ist die Nacht heimtückisch und Stürme kennen keine Gnade. Wenn du ein Zelt im Rucksack trägst, kannst du auf jedem freien Feld campen. Es erlaubt dir, bis zum Sonnenaufgang zu ruhen, dich an einem Lagerfeuer zu heilen und sogar Zutaten zu kochen, die du unterwegs sammelst. Das ist der Unterschied zwischen einem professionellen Entdecker und Wolfsfutter.“ Die taktische Lektion erweitert dein Überlebenswissen.",
+            "zh": "布罗姆意味深长地笑了：「在荒野中，夜晚是充满危险的，风暴不会宽恕任何人。如果你的背包里带着一顶帐篷，你就能在任何空地上扎营。它能让你休息到日出，能在篝火旁疗伤，甚至还能烹煮你在野外采集的食材。这就是一名专业探险者与狼群食物之间的区别。」这番战术上的建议拓宽了你的求生知识。",
+            "ja": "ブロムは意味深に笑う。「未開の地では夜は油断できないし、嵐は容赦がない。テントを袋に入れておけば、どんな空き地にも野営できる。日が昇るまで休み、焚き火で傷を治し、野で採った材料を調理することもできる。それが、一人前の探検者と狼の餌との違いなのだ」その戦術的な助言はお前の生存知識を広げる。"
+        },
+        "next": [
+            "entry"
+        ],
+        "reward": "faceta:inteligencia=+1;heal:20"
+    },
+    "imp_opt_acero": {
+        "type": "option",
+        "text": {
+            "es": "⚔️  El acero de tus petos parece resistente. He encarado bestias feroces en los caminos y aprecio el metal recio",
+            "en": "⚔️  The steel of your cuirasses looks solid. I have faced dire beasts along the highways and respect sturdy plate",
+            "fr": "⚔️  Lacier de tes cuirasses semble solide. Jai affronté des bêtes féroces sur les routes et j'apprécie le métal robuste",
+            "it": "⚔️  L'acciaio delle tue corazze sembra resistente. Ho affrontato bestie feroci sulle strade e apprezzo il metallo robusto",
+            "de": "⚔️  Der Stahl deiner Brustpanzer sieht robust aus. Ich habe wilden Bestien auf den Straßen gegenübergestanden und schätze widerstandsfähiges Metall",
+            "zh": "⚔️  你这些胸甲的钢材看起来很坚固。我在路上遇过凶猛的野兽，很欣赏坚固的金属",
+            "ja": "⚔️  その胸甲の鋼は頑丈そうだな。道中で凶暴な獣に何度も遭遇してきたから、丈夫な金属は評価している"
+        },
+        "next": [
+            "imp_msg_acero"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "imp_msg_acero": {
+        "type": "message",
+        "text": {
+            "es": "Brom golpea su propio peto con el puño emitiendo un tintineo sordo y rotundo: '¡Se nota a la legua quién ha olido la pólvora y esquivado zarpazos! La mayoría de los señoritos de la corte solo quieren brocados dorados que se abollan con mirarles. A un veterano de verdad le guardo siempre el mejor filo de la trastienda.' Tu firmeza militar gana su respeto instantáneo.",
+            "en": "Brom thumps his own breastplate with a clenched fist, ringing out a deep, solid chime: 'One can spot a soul who has smelled blood and dodged talons from leagues away! Most highborn nobles only crave gilded filigree that crumples upon impact. For a true front-line veteran, I reserve the keenest edge in the backroom.' Your martial poise earns his instant respect.",
+            "fr": "Brom frappe son propre plastron du poing, produisant un tintement sourd et net : « On voit à des lieues qui a senti la poudre et évité les griffes ! La plupart des jeunes seigneurs de la cour ne veulent que des brocards dorés qui se cabossent à peine on les regarde. Pour un vrai vétéran, je garde toujours la meilleure lame de l'arrière-boutique. » Ta fermeté militaire gagne son respect instantané.",
+            "it": "Brom colpisce il proprio corsaletto col pugno emettendo un tintinnio sordo e sonoro: 'Si nota a leghe di distanza chi ha annusato la polvere e schivato le zampate! La maggior parte dei signorini di corte vogliono solo brocati dorati che si ammaccano solo a guardarli. A un vero veterano riservo sempre il miglior filo del retrobottega.' La tua fermezza militare guadagna il suo rispetto istantaneo.",
+            "de": "Brom schlägt mit der Faust auf seinen eigenen Brustpanzer und erzeugt einen dumpfen, satten Klang: „Man erkennt aus meilenweiter Entfernung, wer Pulver gerochen und Klauenhieben ausgewichen ist! Die meisten Hofjunker wollen nur goldene Brokate, die einbeulen, wenn man sie nur ansieht. Für einen echten Veteranen bewahre ich immer die schärfste Klinge im Hinterzimmer.“ Deine militärische Standhaftigkeit gewinnt sofort seinen Respekt.",
+            "zh": "布罗姆用拳头敲了敲自己的胸甲，发出一声低沉而厚重的铿锵声：「一眼就能看出谁闻过硝烟、躲过利爪！宫廷里大多数纨绔子弟只想要看一眼就凹陷的镀金织锦。对真正的老兵，我总会在后屋留着最锋利的刀刃。」你军人般的坚毅赢得了他立刻的尊重。",
+            "ja": "ブロムは自分の胸甲を拳で叩き、深く重い音を響かせる。「戦の匂いを知り、爪を避けてきた者は遠くからでも分かるものだ！宮廷の若様連中の多くは、見るだけで凹むような金の錦しか欲しがらない。本物の歴戦の勇士には、いつも裏に最良の刃を取っておくものだ」お前の軍人らしい確固たる態度が、彼の即座の敬意を勝ち取る。"
+        },
+        "next": [
+            "entry"
+        ],
+        "reward": "faceta:valor=+1;gold:+25"
+    },
+    "imp_opt_chisme": {
+        "type": "option",
+        "text": {
+            "es": "👑  Sylphrena luce espléndida. ¿Cómo marchan las cosas en la capital imperial?",
+            "en": "👑  Sylphrena looks splendid. How do affairs fare in the imperial capital?",
+            "fr": "👑  Sylphrena a l'air splendide. Comment vont les choses dans la capitale impériale ?",
+            "it": "👑  Sylphrena appare splendida. Come vanno le cose nella capitale imperiale?",
+            "de": "👑  Sylphrena sieht prächtig aus. Wie stehen die Dinge in der kaiserlichen Hauptstadt?",
+            "zh": "👑  希尔芙蕾娜看起来光辉灿烂。帝国首都的情况如何？",
+            "ja": "👑  シルフレナは素晴らしい様子だな。帝国の首都ではどうなっている？"
+        },
+        "next": [
+            "imp_msg_chisme"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "imp_msg_chisme": {
+        "type": "message",
+        "text": {
+            "es": "Brom mira a ambos lados antes de inclinarse sobre el mostrador: 'Aparentemente todo brilla, pero las caravanas que vienen del norte traen historias inquietantes de frío antinatural en las cordilleras. Los caminos se vuelven más peligrosos cada semana. Si vas a marchar más allá de las murallas, no vayas con las manos vacías ni el estómago ligero.'",
+            "en": "Brom glances left and right before leaning across the polished timber: 'On the surface all glitters bright, yet caravans trickling from the north spin chilling tales of unnatural frost creeping across the ridge. Roads grow perilous with each passing moon. If you journey past outer battlements, venture not empty-handed nor on an empty belly.'",
+            "fr": "Brom regarde de part et d'autre avant de se pencher sur le comptoir : « En apparence tout brille, mais les caravanes qui viennent du nord rapportent des histoires troublantes de froid contre nature dans les chaînes de montagnes. Les routes deviennent plus dangereuses chaque semaine. Si tu comptes marcher au-delà des murailles, ne pars pas les mains vides ni l'estomac vide. »",
+            "it": "Brom guarda da entrambi i lati prima di chinarsi sul bancone: 'In apparenza tutto brilla, ma le carovane che vengono dal nord portano storie inquietanti di freddo antinaturale sulle catene montuose. Le strade diventano più pericolose ogni settimana. Se stai per marciare oltre le mura, non andare a mani vuote né a stomaco leggero.'",
+            "de": "Brom schaut nach beiden Seiten, bevor er sich über den Tresen lehnt: „An der Oberfläche glänzt alles, doch Karawanen aus dem Norden bringen beunruhigende Geschichten von unnatürlicher Kälte in den Gebirgsketten. Die Straßen werden jede Woche gefährlicher. Wenn du über die Mauern hinausmarschieren willst, geh nicht mit leeren Händen und leichtem Bauch.“",
+            "zh": "布罗姆左右看了看，才靠近柜台：「表面上一切都金光闪闪，但从北方来的商队带来了令人不安的消息，说山脊上出现了反常的严寒。道路一周比一周危险。如果你打算走出城墙，别空着手，也别饿着肚子出发。」",
+            "ja": "ブロムは左右を見回してから、カウンターに身を寄せて言う。「表面上はすべてが輝いているように見えるが、北からのキャラバンが、山脈で不自然な寒さが広がっているという不安な話を伝えてくる。道は週を追うごとに危険になっている。城壁の外へ進むなら、手を空にしたまま、腹を空かせたまま行くな」"
+        },
+        "next": [
+            "entry"
+        ],
+        "reward": "faceta:aspecto=+1;discover:lore_sylphrena_capital"
+    },
+    "imp_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Buen servicio, Brom. Que la corona bendiga tus negocios",
+            "en": "🚶  Fine wares, Brom. May the crown prosper your commerce",
+            "fr": "🚶  Bon service, Brom. Que la couronne bénisse ton commerce",
+            "it": "🚶  Buon servizio, Brom. Che la corona benedica i tuoi affari",
+            "de": "🚶  Guter Service, Brom. Möge die Krone deinen Handel segnen",
+            "zh": "🚶  服务不错，布罗姆。愿王室保佑你的生意",
+            "ja": "🚶  良い商売だったな、ブロム。王家がお前の商いを祝福せんことを"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

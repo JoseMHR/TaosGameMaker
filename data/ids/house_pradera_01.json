@@ -1,0 +1,25 @@
+{
+    "id": "house_pradera_01",
+    "type": "poi",
+    "name": {
+        "es": "Choza del Cantero",
+        "en": "Quarryman's Hut",
+        "fr": "Cabane du Carrier",
+        "it": "Capanna del Cavatore",
+        "de": "Hütte des Steinbrechers",
+        "zh": "采石工小屋",
+        "ja": "石切り職人の小屋"
+    },
+    "icon": "⛏️",
+    "npc": "house_007",
+    "visual": "casita",
+    "presences": [
+        {
+            "condition": "default",
+            "actor": "house_007",
+            "entry_node": ""
+        }
+    ],
+    "bg": "bg_world_poi_pradera_cantero_01.png",
+    "music": "poi_house_cozy"
+}

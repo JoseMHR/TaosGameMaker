@@ -1,0 +1,33 @@
+{
+    "id": "poi_celestia_crier",
+    "type": "poi",
+    "name": {
+        "es": "Plaza del Pregonero",
+        "en": "Crier's Square",
+        "fr": "Place du Crieur",
+        "it": "Piazza del Banditore",
+        "de": "Platz des Ausrufers",
+        "zh": "传令官广场",
+        "ja": "触れ役の広場"
+    },
+    "icon": "📣",
+    "desc": {
+        "es": "Noticias y decretos reales",
+        "en": "News and royal decrees",
+        "fr": "Nouvelles et décrets royaux",
+        "it": "Notizie e decreti reali",
+        "de": "Neuigkeiten und königliche Dekrete",
+        "zh": "新闻与皇家法令",
+        "ja": "ニュースと王家の勅令"
+    },
+    "kind": "npc",
+    "npc": "celestia_crier",
+    "presences": [
+        {
+            "condition": "default",
+            "actor": "celestia_crier",
+            "entry_node": ""
+        }
+    ],
+    "bg": "bg_city_celestia_crier.png"
+}

@@ -1,0 +1,23 @@
+{
+    "name": {
+        "es": "Oreja de Goblin",
+        "en": "Goblin Ear",
+        "fr": "Oreille de Gobelin",
+        "it": "Orecchio di Goblin",
+        "de": "Goblinohr",
+        "zh": "哥布林之耳",
+        "ja": "ゴブリンの耳"
+    },
+    "desc": {
+        "es": "Prueba desagradable pero efectiva de que un goblin menos acecha los caminos reales.",
+        "en": "An unpleasant but effective proof that one less goblin lurks the royal roads.",
+        "fr": "Preuve désagréable mais efficace qu'un gobelin de moins rôde sur les routes royales.",
+        "it": "Prova sgradevole ma efficace che un goblin in meno si aggira per le strade reali.",
+        "de": "Unangenehmer, aber wirksamer Beweis dafür, dass ein Goblin weniger die Königsstraßen heimsucht.",
+        "zh": "一个令人不悦但确凿的证据，证明皇家大道上少了一只哥布林出没。",
+        "ja": "王道を徘徊するゴブリンが一匹減った不快だが確かな証拠。"
+    },
+    "icon": "👂",
+    "category": "other",
+    "usable": false
+}

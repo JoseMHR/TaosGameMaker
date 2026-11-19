@@ -1,0 +1,165 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "La Feria que Nunca Cerró",
+            "en": "The Fair That Never Closed",
+            "fr": "La Fête Foraine qui n'a Jamais Fermé",
+            "it": "La Fiera che Non Chiuse Mai",
+            "de": "Der Jahrmarkt, der nie schloss",
+            "zh": "从未关闭的集市",
+            "ja": "決して閉まらなかった祭り"
+        },
+        "next": [],
+        "reward": "avatar=🎠;bg=0.12,0.08,0.13"
+    },
+    "feria_root": {
+        "type": "message",
+        "text": {
+            "es": "En un claro entre los árboles, una feria entera sigue en marcha: el tiovivo gira con su musiquilla desafinada, las bombillas de colores parpadean, los puestos de algodón de azúcar tienen las máquinas encendidas. Pero la maleza cubre las casetas, la pintura se cae a tiras y no hay NADIE. Ni feriantes, ni niños, ni huellas recientes. Solo caballitos de madera dando vueltas sin fin para un público que se marchó hace treinta años. La musiquilla se salta siempre la misma nota, como un hipo eterno.",
+            "en": "In a clearing among the trees, a whole fair is still running: the carousel turns with its out-of-tune little tune, colored bulbs blink, the cotton-candy stalls have their machines switched on. But weeds cover the booths, paint peels off in strips, and there's NO ONE. No carnies, no children, no recent footprints. Only wooden horses circling endlessly for an audience that left thirty years ago. The little tune always skips the same note, like an eternal hiccup.",
+            "fr": "Dans une clairière entre les arbres, toute une fête foraine continue de fonctionner : le manège tourne avec sa petite musique désaccordée, les ampoules colorées clignotent, les stands de barbe à papa ont leurs machines allumées. Mais les mauvaises herbes recouvrent les baraques, la peinture s'écaille en lambeaux et il n'y a PERSONNE. Ni forains, ni enfants, ni traces récentes. Seulement des chevaux de bois qui tournent sans fin pour un public parti depuis trente ans. La petite musique saute toujours la même note, comme un hoquet éternel.",
+            "it": "In una radura tra gli alberi, un'intera fiera continua a funzionare: la giostra gira con la sua musichetta stonata, le lampadine colorate lampeggiano, i chioschi di zucchero filato hanno le macchine accese. Ma le erbacce coprono le baracche, la pittura si stacca a strisce e non c'è NESSUNO. Né giostrai, né bambini, né impronte recenti. Solo cavallini di legno che girano senza fine per un pubblico partito trent'anni fa. La musichetta salta sempre la stessa nota, come un singhiozzo eterno.",
+            "de": "Auf einer Lichtung zwischen den Bäumen läuft noch immer ein ganzer Jahrmarkt: das Karussell dreht sich mit seiner verstimmten kleinen Melodie, bunte Lichter blinken, die Zuckerwatte-Stände haben ihre Maschinen eingeschaltet. Doch Unkraut überwuchert die Buden, die Farbe blättert in Streifen ab, und es ist NIEMAND da. Keine Schausteller, keine Kinder, keine frischen Fußspuren. Nur Holzpferde, die sich endlos für ein Publikum drehen, das vor dreißig Jahren gegangen ist. Die kleine Melodie überspringt immer dieselbe Note, wie ein ewiger Schluckauf.",
+            "zh": "在树林间的一片空地上，一整座集市仍在运转：旋转木马转动着，播放着走调的小曲；彩色灯泡闪烁着；棉花糖摊位的机器都开着。但杂草覆盖了摊位，油漆一条条剥落，而这里空无一人。没有摊主，没有孩子，没有新鲜的脚印。只有木马无休止地转动，为三十年前就已离去的观众服务。那首小曲总是跳过同一个音符，就像永恒的打嗝。",
+            "ja": "木々の間の空き地に、集市全体がまだ動いている——回転木馬は調子外れの小曲を鳴らしながら回り、色とりどりの電球が点滅し、綿菓子の屋台は機械が動いている。だが雑草が屋台を覆い、ペンキは帯状に剥がれ、誰もいない。芸人も子供も、新しい足跡もない。ただ、三十年前に去った観客のために木馬が延々と回り続けているだけだ。小曲はいつも同じ音符を飛ばす、永遠のしゃっくりのように。"
+        },
+        "next": [
+            "feria_opt_montar",
+            "feria_opt_investigar",
+            "feria_opt_apagar",
+            "feria_opt_salir"
+        ],
+        "reward": ""
+    },
+    "feria_opt_investigar": {
+        "type": "option",
+        "text": {
+            "es": "🔍  Investigar por qué la feria sigue encendida y vacía",
+            "en": "🔍  Investigate why the fair is still lit and empty",
+            "fr": "🔍  Enquêter sur la raison pour laquelle la fête reste allumée et vide",
+            "it": "🔍  Indagare sul perché la fiera resti accesa e vuota",
+            "de": "🔍  Untersuchen, warum der Jahrmarkt weiterhin beleuchtet und leer bleibt",
+            "zh": "🔍  调查为何集市依然亮着灯却空无一人",
+            "ja": "🔍  なぜ祭りが灯り続け、空虚なままなのかを調べる"
+        },
+        "next": [
+            "feria_msg_investigar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "feria_msg_investigar": {
+        "type": "message",
+        "text": {
+            "es": "En la caseta de billetes encuentras un cartel comido por el moho: 'CERRADO POR LUTO. Volveremos cuando el corazón aguante.' Debajo, la foto de una niña sonriente y una fecha. Nunca reabrieron. El viejo feriante, dicen las tablas garabateadas de la trastienda, no soportó apagar la feria favorita de su hija después de perderla, así que la dejó encendida 'hasta que ella volviera'. Él ya no está. La feria sigue girando, fiel a una promesa que solo la mantiene a ella. Se te encoge algo por dentro.",
+            "en": "In the ticket booth you find a mold-eaten sign: 'CLOSED FOR MOURNING. We'll be back when the heart can bear it.' Beneath it, a photo of a smiling little girl and a date. They never reopened. The old carny, say the scribbled boards in the back room, couldn't bring himself to switch off his daughter's favorite fair after losing her, so he left it running 'until she came back'. He's gone now. The fair keeps turning, faithful to a promise that only keeps her alive. Something tightens inside you.",
+            "fr": "Dans la cabine des billets, tu trouves un écriteau rongé par la moisissure : « FERMÉ POUR DEUIL. Nous reviendrons quand le cœur pourra le supporter. » En dessous, la photo d'une fillette souriante et une date. Ils n'ont jamais rouvert. Le vieux forain, disent les planches griffonnées de l'arrière-salle, n'a pas supporté d'éteindre la fête préférée de sa fille après l'avoir perdue, alors il l'a laissée allumée « jusqu'à ce qu'elle revienne ». Il n'est plus là. La fête continue de tourner, fidèle à une promesse qui ne fait que la maintenir en vie. Quelque chose se serre en toi.",
+            "it": "Nella cassa dei biglietti trovi un cartello corroso dalla muffa: 'CHIUSO PER LUTTO. Torneremo quando il cuore potrà sopportarlo.' Sotto, la foto di una bambina sorridente e una data. Non riapersero mai. Il vecchio giostraio, dicono le tavole scarabocchiate del retrobottega, non riuscì a sopportare di spegnere la fiera preferita di sua figlia dopo averla persa, così la lasciò accesa 'finché lei non fosse tornata'. Lui non c'è più. La fiera continua a girare, fedele a una promessa che la mantiene viva solo lei. Qualcosa si stringe dentro di te.",
+            "de": "In der Ticketbude findest du ein von Schimmel zerfressenes Schild: „GESCHLOSSEN WEGEN TRAUER. Wir kommen zurück, wenn das Herz es ertragen kann.“ Darunter das Foto eines lächelnden kleinen Mädchens und ein Datum. Sie öffneten nie wieder. Der alte Schausteller, so besagen die vollgekritzelten Bretter im Hinterzimmer, konnte es nicht ertragen, den Lieblingsjahrmarkt seiner Tochter nach ihrem Verlust auszuschalten, also ließ er ihn brennen, „bis sie zurückkäme“. Er ist nicht mehr da. Der Jahrmarkt dreht sich weiter, treu einem Versprechen, das nur sie am Leben hält. Etwas zieht sich in dir zusammen.",
+            "zh": "在售票棚里，你发现了一块被霉菌蚕食的告示牌：「因悲伤而闭馆。等心能承受时，我们会回来。」下面是一张微笑女孩的照片，还有一个日期。他们从未重新开放。据后屋里潦草涂写的木板所说，那位年老的摊主在失去女儿之后，无法忍受关掉她最喜欢的这个集市，于是让它一直亮着，「直到她回来」。他已经不在了。集市依然在转动，忠实地守护着一个只让她活着的承诺。你的内心某处紧缩了一下。",
+            "ja": "チケット売り場で、カビに食われた看板を見つける：「喪に服すため休業。心が耐えられるようになったら戻ります」その下には、笑う小さな少女の写真と日付がある。二度と開くことはなかった。裏部屋に書き散らされた板によれば、老いた芸人は、娘を失った後、彼女の一番好きだった祭りを消すことができず、「彼女が戻ってくるまで」動かし続けたのだという。彼はもういない。祭りは回り続けている、彼女だけを生かし続ける約束に忠実に。何かが胸の中で締め付けられる。"
+        },
+        "next": [
+            "feria_root"
+        ],
+        "reward": "faceta:cordura=-1"
+    },
+    "feria_opt_montar": {
+        "type": "option",
+        "text": {
+            "es": "🎠  Subirte al tiovivo y dar una vuelta, por los que ya no pueden",
+            "en": "🎠  Climb onto the carousel and take a ride, for those who no longer can",
+            "fr": "🎠  Monter sur le manège et faire un tour, pour ceux qui ne le peuvent plus",
+            "it": "🎠  Salire sulla giostra e fare un giro, per quelli che non possono più farlo",
+            "de": "🎠  Auf das Karussell steigen und eine Runde drehen, für die, die es nicht mehr können",
+            "zh": "🎠  骑上旋转木马，转一圈，为那些再也不能这样做的人",
+            "ja": "🎠  もうそれができない人々のために、回転木馬に乗って一回りする"
+        },
+        "next": [
+            "feria_msg_montar"
+        ],
+        "reward": ""
+    },
+    "feria_msg_montar": {
+        "type": "message",
+        "text": {
+            "es": "Te encaramas a un caballito descolorido y te dejas llevar por la vuelta lenta y chirriante. Por un momento, entre las luces parpadeantes y la musiquilla rota, casi puedes oír risas de niños que no están. No es miedo lo que sientes: es una ternura extraña, la de honrar la alegría de alguien a quien nunca conociste montándote en su recuerdo. Al bajar, dejas una flor del prado sobre la foto de la niña. La feria sigue girando, ahora un poquito menos sola.",
+            "en": "You clamber onto a faded little horse and let the slow, creaking turn carry you. For a moment, amid the blinking lights and the broken tune, you can almost hear the laughter of children who aren't there. It isn't fear you feel: it's a strange tenderness, that of honoring the joy of someone you never knew by riding through their memory. Getting off, you lay a meadow flower on the girl's photo. The fair keeps turning, a little less alone now.",
+            "fr": "Tu grimpes sur un petit cheval décoloré et te laisses porter par le tour lent et grinçant. Pendant un instant, parmi les lumières clignotantes et la petite musique cassée, tu peux presque entendre des rires d'enfants absents. Ce n'est pas de la peur que tu ressens : c'est une tendresse étrange, celle d'honorer la joie de quelqu'un que tu n'as jamais connu en montant dans son souvenir. En descendant, tu déposes une fleur des prés sur la photo de la fillette. La fête continue de tourner, un tout petit peu moins seule maintenant.",
+            "it": "Ti arrampichi su un cavallino sbiadito e ti lasci portare dal giro lento e stridente. Per un momento, tra le luci lampeggianti e la musichetta rotta, puoi quasi sentire risate di bambini che non ci sono. Non è paura quello che senti: è una tenerezza strana, quella di onorare la gioia di qualcuno che non hai mai conosciuto cavalcando nel suo ricordo. Scendendo, lasci un fiore del prato sulla foto della bambina. La fiera continua a girare, ora un po' meno sola.",
+            "de": "Du kletterst auf ein verblasstes Pferdchen und lässt dich von der langsamen, knarrenden Drehung tragen. Für einen Moment, zwischen den blinkenden Lichtern und der zerbrochenen Melodie, kannst du fast das Lachen von Kindern hören, die nicht da sind. Es ist keine Angst, die du fühlst: es ist eine seltsame Zärtlichkeit, die eines, der die Freude von jemandem ehrt, den du nie kanntest, indem er in seiner Erinnerung reitet. Beim Absteigen legst du eine Wiesenblume auf das Foto des Mädchens. Der Jahrmarkt dreht sich weiter, jetzt ein wenig weniger allein.",
+            "zh": "你爬上一只褪色的小木马，任由那缓慢而吱呀作响的转动带着你。片刻间，在闪烁的灯光和破碎的小曲之间，你几乎能听到那些不在场孩子们的笑声。你感受到的不是恐惧：而是一种奇异的温柔——通过骑乘他的回忆，来致敬一个你从未认识过的人的欢乐。下来时，你在那女孩的照片上放了一朵草地的野花。集市继续转动着，如今稍微不那么孤单了。",
+            "ja": "色あせた小さな馬にまたがり、その遅くきしむ回転に身を任せる。一瞬、点滅する光と壊れた小曲の中で、そこにいない子供たちの笑い声がほとんど聞こえてきそうな気がする。感じているのは恐怖ではない——不思議な優しさだ、会ったこともない誰かの喜びを、その記憶に乗ることで敬うという行為の優しさが。降りる時、少女の写真の上に草原の花を一つ置く。祭りは回り続けている、今は少しだけ孤独ではなくなって。"
+        },
+        "next": [
+            "feria_msg_montar2"
+        ],
+        "reward": ""
+    },
+    "feria_msg_montar2": {
+        "type": "message",
+        "text": {
+            "es": "Al alejarte, juras que la musiquilla, por primera vez en treinta años, ya no se salta la nota. La feria suena entera. Completa. Quizá solo necesitaba que alguien volviera a subirse.",
+            "en": "As you walk away, you'd swear the little tune, for the first time in thirty years, no longer skips the note. The fair plays whole. Complete. Maybe it just needed someone to climb aboard again.",
+            "fr": "En t'éloignant, tu jurerais que la petite musique, pour la première fois depuis trente ans, ne saute plus la note. La fête foraine joue entière. Complète. Peut-être qu'il lui suffisait que quelqu'un remonte à bord.",
+            "it": "Allontanandoti, giureresti che la musichetta, per la prima volta in trent'anni, non salta più la nota. La fiera suona intera. Completa. Forse aveva solo bisogno che qualcuno ci salisse di nuovo.",
+            "de": "Während du dich entfernst, würdest du schwören, dass die kleine Melodie, zum ersten Mal seit dreißig Jahren, die Note nicht mehr überspringt. Der Jahrmarkt spielt vollständig. Ganz. Vielleicht brauchte er nur jemanden, der wieder aufsteigt.",
+            "zh": "在你离开时，你会发誓这首小曲三十年来第一次不再跳过那个音符了。集市的音乐完整地响着。也许它只是需要有人重新骑上去而已。",
+            "ja": "立ち去る時、三十年ぶりに小曲がその音符を飛ばさなくなったと誓ってもいい。祭りは完全な音楽を奏でる。丸ごとの。多分、必要だったのはただ誰かがもう一度乗ることだけだったのだ。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:bondad=+1;faceta:cordura=+1"
+    },
+    "feria_opt_apagar": {
+        "type": "option",
+        "text": {
+            "es": "🔌  Buscar el generador y apagar por fin la feria, para que descanse",
+            "en": "🔌  Find the generator and finally switch the fair off, so it can rest",
+            "fr": "🔌  Chercher le générateur et éteindre enfin la fête, pour qu'elle repose",
+            "it": "🔌  Cercare il generatore e spegnere finalmente la fiera, perché possa riposare",
+            "de": "🔌  Den Generator suchen und den Jahrmarkt endlich abschalten, damit er ruhen kann",
+            "zh": "🔌  找到发电机，终于关掉这座集市，让它得以安息",
+            "ja": "🔌  発電機を見つけ、ついに祭りを止め、休ませてやる"
+        },
+        "next": [
+            "feria_msg_apagar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "feria_msg_apagar": {
+        "type": "message",
+        "text": {
+            "es": "Encuentras la vieja manivela tras el tiovivo y, tras dudarlo, tiras. Las luces se apagan una a una, la música se ralentiza hasta un gemido grave y los caballitos se detienen por primera vez en décadas. El silencio que queda es enorme, casi sólido. No sabes si has hecho un favor o cometido un pequeño sacrilegio: has dejado descansar a la feria, sí, pero también has apagado la última llama de un padre que no quería decir adiós. Algunos duelos hay que dejarlos cerrarse solos.",
+            "en": "You find the old crank behind the carousel and, after hesitating, you pull. The lights go out one by one, the music slows to a low moan, and the horses stop for the first time in decades. The silence left behind is enormous, almost solid. You don't know if you've done a favor or committed a small sacrilege: you've let the fair rest, yes, but you've also snuffed out the last flame of a father who didn't want to say goodbye. Some griefs must be left to close on their own.",
+            "fr": "Tu trouves la vieille manivelle derrière le manège et, après avoir hésité, tu tires. Les lumières s'éteignent une à une, la musique ralentit jusqu'à un gémissement grave et les petits chevaux s'arrêtent pour la première fois depuis des décennies. Le silence qui reste est immense, presque solide. Tu ne sais pas si tu as rendu service ou commis un petit sacrilège : tu as laissé la fête se reposer, oui, mais tu as aussi éteint la dernière flamme d'un père qui ne voulait pas dire adieu. Certains deuils, il faut les laisser se refermer d'eux-mêmes.",
+            "it": "Trovi la vecchia manovella dietro la giostra e, dopo aver esitato, tiri. Le luci si spengono una a una, la musica si rallenta fino a un gemito grave e i cavallini si fermano per la prima volta in decenni. Il silenzio che rimane è enorme, quasi solido. Non sai se hai fatto un favore o commesso un piccolo sacrilegio: hai lasciato riposare la fiera, sì, ma hai anche spento l'ultima fiamma di un padre che non voleva dire addio. Alcuni lutti bisogna lasciarli chiudere da soli.",
+            "de": "Du findest die alte Kurbel hinter dem Karussell und ziehst, nach kurzem Zögern, daran. Die Lichter erlöschen eines nach dem anderen, die Musik verlangsamt sich zu einem tiefen Stöhnen, und die Pferdchen bleiben zum ersten Mal seit Jahrzehnten stehen. Die zurückbleibende Stille ist enorm, fast greifbar. Du weißt nicht, ob du einen Gefallen getan oder einen kleinen Sakrileg begangen hast: du hast den Jahrmarkt ruhen lassen, ja, aber du hast auch die letzte Flamme eines Vaters gelöscht, der sich nicht verabschieden wollte. Manche Trauer muss man sich selbst schließen lassen.",
+            "zh": "你在旋转木马后面找到了那台旧手摇发电机，犹豫之后，拉动了它。灯光一盏接一盏熄灭，音乐减慢成一声低沉的呻吟，木马也在几十年来第一次停了下来。留下的寂静无比巨大，几乎是实实在在的。你不知道自己是做了一件好事，还是犯下了一个小小的渎神之举：你确实让这座集市得以安息，但你也熄灭了一位不愿说再见的父亲最后的火焰。有些悲伤，必须让它自己去愈合。",
+            "ja": "回転木馬の裏に古いクランクを見つけ、ためらった末に引く。灯りが一つずつ消え、音楽が低いうめきへと減速していき、馬たちは数十年ぶりに止まる。残された沈黙は巨大で、ほとんど固体のようだ。恩恵を施したのか、小さな冒涜を犯したのか分からない——確かに祭りを休ませたが、別れを言いたくなかった父親の最後の灯りも消してしまったのだ。悲しみの中には、自然に閉じるのを待つべきものもある。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:cordura=-1"
+    },
+    "feria_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Dejar la feria girando y seguir tu camino",
+            "en": "🚶  Leave the fair turning and go on your way",
+            "fr": "🚶  Laisser la fête tourner et poursuivre ton chemin",
+            "it": "🚶  Lasciare la fiera a girare e proseguire il tuo cammino",
+            "de": "🚶  Den Jahrmarkt sich weiterdrehen lassen und deinen Weg fortsetzen",
+            "zh": "🚶  留下集市继续转动，继续赶路",
+            "ja": "🚶  祭りを回し続けたまま、旅を続ける"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

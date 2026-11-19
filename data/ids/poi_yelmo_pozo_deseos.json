@@ -1,0 +1,26 @@
+{
+    "id": "poi_yelmo_pozo_deseos",
+    "type": "poi",
+    "icon": "🪙",
+    "name": {
+        "es": "El Pozo de los Deseos Secos",
+        "en": "The Well of Dry Wishes",
+        "fr": "Le Puits des Vœux Secs",
+        "it": "Il Pozzo dei Desideri Secchi",
+        "de": "Der Brunnen der Trockenen Wünsche",
+        "zh": "干涸愿望之井",
+        "ja": "乾いた願いの井戸"
+    },
+    "desc": {
+        "es": "Un viejo pozo de piedra, seco hasta el fondo, del que a veces sube un eco que no deberías oír. (POI de inspección).",
+        "en": "An old stone well, dry to the bottom, from which sometimes rises an echo you shouldn't hear. (Inspection POI).",
+        "fr": "Un vieux puits de pierre, sec jusqu'au fond, d'où monte parfois un écho que tu ne devrais pas entendre. (POI d'inspection).",
+        "it": "Un vecchio pozzo di pietra, secco fino in fondo, da cui a volte sale un'eco che non dovresti sentire. (POI di ispezione).",
+        "de": "Ein alter Steinbrunnen, bis zum Grund ausgetrocknet, aus dem manchmal ein Echo aufsteigt, das du nicht hören solltest. (Inspektions-POI).",
+        "zh": "一口古老的石井，早已干涸见底，偶尔会传出你不该听到的回声。（探查类兴趣点）。",
+        "ja": "底まで乾ききった古い石造りの井戸。時折、聞いてはいけない残響が立ち上る。（調査ポイント）。"
+    },
+    "npc": "poi_yelmo_pozo_deseos",
+    "bg": "bg_world_poi_yelmo_pozo_deseos.png",
+    "music": "creepy"
+}

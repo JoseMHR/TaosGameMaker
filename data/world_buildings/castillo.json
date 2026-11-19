@@ -1,0 +1,8 @@
+{
+    "label": "Castillo Fortificado",
+    "icon": "🏰",
+    "scale": 1.0,
+    "y_offset": 0.0,
+    "description": "Gran fortaleza de piedra con torres y almenas.",
+    "model_path": "castillo"
+}

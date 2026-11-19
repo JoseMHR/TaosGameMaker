@@ -1,0 +1,183 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "Aurelius el Erudito Mágico",
+            "en": "Aurelius the Arcane Scholar",
+            "fr": "Aurelius l'Érudit Arcanique",
+            "it": "Aurelius l'Erudito Arcano",
+            "de": "Aurelius der Arkane Gelehrte",
+            "zh": "秘术学者奥雷利乌斯",
+            "ja": "秘術学者アウレリウス"
+        },
+        "next": [],
+        "reward": "avatar=✨;bg=0.06,0.05,0.12"
+    },
+    "entry": {
+        "type": "message",
+        "text": {
+            "es": "¡Bienvenido a El Arcanum de Celestia! El aire vibra con estática estelar y los estantes flotan ligeramente desafiando la gravedad. Aquí encontrarás pócimas que burbujean solas, botas que caminan sin ti y amuletos bendecidos por la magia de las alturas. Todo con certificado arcano... más o menos. ¿Qué maravilla busca hoy tu corazón?",
+            "en": "Welcome to The Arcanum of Celestia! The air hums with stellar static and shelves levitate gently defying gravity. Here you shall find potions that bubble on their own, boots that stride without you, and amulets blessed by high magic. All magically certified... more or less. What marvel does your heart seek today?",
+            "fr": "Bienvenue à l'Arcanum de Celestia ! L'air vibre d'électricité stellaire et les étagères flottent légèrement en défiant la gravité. Ici tu trouveras des potions qui bouillonnent toutes seules, des bottes qui marchent sans toi et des amulettes bénies par la magie des hauteurs. Tout avec certificat arcanique... plus ou moins. Quelle merveille cherche ton cœur aujourd'hui ?",
+            "it": "Benvenuto all'Arcanum di Celestia! L'aria vibra di elettricità stellare e gli scaffali fluttuano leggermente sfidando la gravità. Qui troverai pozioni che ribollono da sole, stivali che camminano senza di te e amuleti benedetti dalla magia delle altezze. Tutto con certificato arcano... più o meno. Quale meraviglia cerca oggi il tuo cuore?",
+            "de": "Willkommen im Arcanum von Celestia! Die Luft summt vor stellarer Statik und Regale schweben leicht der Schwerkraft trotzend. Hier findest du Tränke, die von selbst blubbern, Stiefel, die ohne dich gehen, und Amulette, gesegnet von der Magie der Höhen. Alles arkan zertifiziert... mehr oder weniger. Welches Wunder sucht dein Herz heute?",
+            "zh": "欢迎来到塞莱斯提亚的奥秘阁！空气中弥漫着星辰般的静电，货架轻轻漂浮，蔑视着重力。在这里，你能找到自行冒泡的药水、无需你穿就能行走的靴子，以及被高天魔法祝福过的护身符。一切都持有秘术认证……大概吧。今天你的心在寻求怎样的奇迹？",
+            "ja": "セレスティアのアルカナムへようこそ！空気は星の静電気に満ち、棚は重力に逆らって軽やかに浮いている。ここには自然に泡立つ薬、お前なしで歩くブーツ、高き魔法に祝福されたお守りがある。すべて魔法認証済み……おおむねな。今日、お前の心はどんな奇跡を求めているのだ？"
+        },
+        "next": [
+            "cel_opt_tienda",
+            "cel_opt_experimento",
+            "cel_opt_taliman",
+            "cel_opt_rumor",
+            "cel_opt_salir"
+        ],
+        "reward": ""
+    },
+    "cel_opt_tienda": {
+        "type": "option",
+        "text": {
+            "es": "🛍️  Enséñame tus reliquias y pócimas. Quiero consultar el catálogo",
+            "en": "🛍️  Show me your relics and potions. I want to inspect the catalog",
+            "fr": "🛍️  Montre-moi tes reliques et potions. Je veux consulter le catalogue",
+            "it": "🛍️  Mostrami le tue reliquie e pozioni. Voglio consultare il catalogo",
+            "de": "🛍️  Zeig mir deine Relikte und Tränke. Ich möchte den Katalog einsehen",
+            "zh": "🛍️  给我看看你的圣物和药水，我想查阅一下目录",
+            "ja": "🛍️  遺物と薬を見せてくれ。カタログを確認したい"
+        },
+        "next": [
+            "cel_msg_tienda"
+        ],
+        "reward": ""
+    },
+    "cel_msg_tienda": {
+        "type": "message",
+        "text": {
+            "es": "Aurelius chasquea los dedos y varios pergaminos iluminados descienden flotando en espiral, desplegando un inventario de elixires refulgentes, varitas sintonizadas y armaduras imbuidas. '¡Todo a tu entera disposición!'",
+            "en": "Aurelius snaps his fingers and illuminated scrolls float down in a graceful spiral, revealing an inventory of radiant elixirs, tuned wands, and imbued armor. 'Everything at your full disposal!'",
+            "fr": "Aurelius claque des doigts et plusieurs parchemins illuminés descendent en spirale, déployant un inventaire d'élixirs éclatants, de baguettes accordées et d'armures imprégnées. « Tout est à ton entière disposition ! »",
+            "it": "Aurelius schiocca le dita e diverse pergamene illuminate scendono fluttuando a spirale, dispiegando un inventario di elisir sfavillanti, bacchette accordate e armature imbevute. 'Tutto a tua completa disposizione!'",
+            "de": "Aurelius schnippt mit den Fingern, und mehrere leuchtende Pergamente schweben spiralförmig herab und entfalten ein Inventar aus strahlenden Elixieren, gestimmten Zauberstäben und durchdrungenen Rüstungen. „Alles zu deiner vollen Verfügung!“",
+            "zh": "奥雷利乌斯打了个响指，几卷发光的卷轴螺旋般飘落而下，展开了一份光辉灵药、调音法杖和浸魔护甲的库存清单。「一切都任你使用！」",
+            "ja": "アウレリウスが指を鳴らすと、輝く巻物が螺旋を描いて舞い降り、光り輝くエリクサー、調律された杖、魔力を込めた鎧の目録が広がる。「すべて自由に使うがいい！」"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "open_shop:celestia"
+    },
+    "cel_opt_experimento": {
+        "type": "option",
+        "text": {
+            "es": "🧪  Ese matraz que levita y cambia de color... ¿es seguro o va a estallar?",
+            "en": "🧪  That levitating flask shifting color... is it safe or about to detonate?",
+            "fr": "🧪  Cette fiole qui lévite et change de couleur... est-elle sûre ou va-t-elle exploser ?",
+            "it": "🧪  Quel matraccio che levita e cambia colore... è sicuro o sta per esplodere?",
+            "de": "🧪  Diese schwebende, farbwechselnde Flasche... ist sie sicher oder kurz vorm Explodieren?",
+            "zh": "🧪  那个悬浮着不断变色的烧瓶……是安全的，还是要爆炸了？",
+            "ja": "🧪  あの浮遊して色を変えるフラスコ……安全なのか、それとも爆発寸前なのか？"
+        },
+        "next": [
+            "cel_msg_experimento"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "cel_msg_experimento": {
+        "type": "message",
+        "text": {
+            "es": "'¿Estallar? ¡Qué exageración! Apenas tiene un 12% de probabilidad de generar una micro-singularidad temporal!' Aurelius acerca su lupa, pero el matraz emite un '¡POF!' sonoro, liberando una nube de chispas violetas que te dejan el pelo de punta y con olor a lavanda cósmica. Te ríes con él del susto; un cosquilleo rejuvenecedor revitaliza todo tu cuerpo. Entender los caprichos arcanos agudiza tu intelecto.",
+            "en": "'Detonate? What an exaggeration! Barely a twelve percent chance of generating a micro-temporal singularity!' Aurelius leans close with his magnifying lens, but the flask pops with a loud 'POOF!', venting a cloud of violet sparks that leaves your hair standing on end smelling of cosmic lavender. You laugh with him at the fright; a tingling rejuvenation courses through your body. Grasping arcane whims sharpens your mind.",
+            "fr": "« Exploser ? Quelle exagération ! À peine 12% de probabilité de générer une micro-singularité temporelle ! » Aurelius approche sa loupe, mais la fiole émet un « POUF ! » retentissant, libérant un nuage d'étincelles violettes qui te dressent les cheveux et te laissent une odeur de lavande cosmique. Tu ris avec lui de la frayeur ; un picotement rajeunissant revitalise tout ton corps. Comprendre les caprices arcaniques aiguise ton intellect.",
+            "it": "'Esplodere? Che esagerazione! Ha appena il 12% di probabilità di generare una micro-singolarità temporale!' Aurelius avvicina la sua lente, ma il matraccio emette un sonoro 'POF!', liberando una nuvola di scintille viola che ti lasciano i capelli dritti e con odore di lavanda cosmica. Ridi con lui dello spavento; un formicolio ringiovanente rivitalizza tutto il tuo corpo. Comprendere i capricci arcani affina il tuo intelletto.",
+            "de": "„Explodieren? Was für eine Übertreibung! Kaum zwölf Prozent Wahrscheinlichkeit, eine zeitliche Mikrosingularität zu erzeugen!“ Aurelius nähert sich mit seiner Lupe, doch die Flasche macht ein lautes „PLOPP!“ und setzt eine Wolke violetter Funken frei, die dir die Haare zu Berge stehen lassen und nach kosmischem Lavendel riechen. Du lachst mit ihm über den Schreck; ein verjüngendes Kribbeln durchströmt deinen ganzen Körper. Arkane Launen zu verstehen schärft deinen Verstand.",
+            "zh": "「爆炸？太夸张了！最多只有12%的概率会产生微型时间奇点！」奥雷利乌斯凑近放大镜观察，但烧瓶却「砰」地一声响亮爆开，释放出一团紫色的火花，让你的头发根根竖起，还带着宇宙薰衣草的气味。你和他一起对这场虚惊大笑起来；一股使人焕发青春的酥麻感重新激活了你的全身。理解秘术的古怪之处磨砺了你的智识。",
+            "ja": "「爆発だと？大げさな！時間的マイクロ特異点を生む確率はわずか12パーセントだ！」アウレリウスが拡大鏡を近づけると、フラスコが大きな「ポン！」という音を立て、紫の火花の雲を放ち、髪を逆立たせ宇宙的なラベンダーの香りを残す。お前は彼と一緒にその驚きを笑い合う。若返るようなうずきが全身を活性化させる。秘術の気まぐれを理解することは、お前の知性を磨く。"
+        },
+        "next": [
+            "entry"
+        ],
+        "reward": "faceta:inteligencia=+1;heal:35"
+    },
+    "cel_opt_taliman": {
+        "type": "option",
+        "text": {
+            "es": "✨  Tienes un aura de gran prestigio. ¿Qué talismán recomendarías a un alma intrépida?",
+            "en": "✨  You carry an aura of high prestige. What talisman would you recommend to a bold soul?",
+            "fr": "✨  Vous portez une aura de grand prestige. Quel talisman recommanderiez-vous à une âme intrépide ?",
+            "it": "✨  Hai unaura di grande prestigio. Quale talismano consiglieresti a unanima intrepida?",
+            "de": "✨  Ihr tragt eine Aura großen Ansehens. Welches Talisman würdet Ihr einer kühnen Seele empfehlen?",
+            "zh": "✨  你身上散发着一种崇高的气度。你会向一个无畏的灵魂推荐什么样的护符？",
+            "ja": "✨  あなたは大変な威厳のオーラをまとっている。大胆な魂にどんな護符を勧めますか？"
+        },
+        "next": [
+            "cel_msg_talisman"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "cel_msg_talisman": {
+        "type": "message",
+        "text": {
+            "es": "El erudito se ajusta la túnica con orgullo evidente ante tu sincera cortesía. 'Pocos reconocen la verdadera finura de mis encantos estelares entre tanta prisa aventurera. Por tu porte noble y tus amables palabras, quédate con esta talla de fresno sagrado. Que la luz del cenit nunca te abandone.'",
+            "en": "The scholar straightens his robes with evident pride at your courteous praise. 'Few recognize the refined elegance of my stellar charms amidst vulgar adventurer haste. For your noble poise and kind words, take this holy ash wood carving. May zenith light never forsake your path.'",
+            "fr": "L'érudit rajuste sa robe avec une fierté évidente face à ta courtoisie sincère. « Peu reconnaissent la véritable finesse de mes charmes stellaires parmi tant de hâte aventurière. Pour ta noble allure et tes mots aimables, garde cette taille de frêne sacré. Que la lumière du zénith ne t'abandonne jamais. »",
+            "it": "L'erudito si sistema la tunica con orgoglio evidente di fronte alla tua sincera cortesia. 'Pochi riconoscono la vera raffinatezza dei miei incanti stellari tra tanta fretta avventuriera. Per il tuo nobile portamento e le tue parole gentili, tieni questo intaglio di frassino sacro. Che la luce dello zenit non ti abbandoni mai.'",
+            "de": "Der Gelehrte richtet seine Robe mit deutlichem Stolz angesichts deiner aufrichtigen Höflichkeit. „Wenige erkennen die wahre Feinheit meiner Sternenzauber inmitten so viel abenteuerlicher Eile. Für deine noble Haltung und freundlichen Worte behalte diese heilige Eschenholzschnitzerei. Möge das Licht des Zeniths dich nie verlassen.“",
+            "zh": "面对你真诚的礼貌，这位学者带着明显的自豪整理了一下他的长袍。「在这么多急躁的冒险者中，很少有人能欣赏我星辰法宝的真正精妙。看在你高贵的举止与温和的话语份上，收下这块神圣白蜡木雕刻吧。愿天顶之光永不离你而去。」",
+            "ja": "学者はお前の誠実な礼儀に明らかな誇りを込めてローブを整える。「冒険者の粗野な急ぎ足の中で、私の星の魔法の真の洗練さを認める者は少ない。お前の気高い佇まいと優しい言葉に免じて、この聖なるトネリコの彫刻を受け取るがいい。天頂の光が決してお前の道を見捨てませんように」"
+        },
+        "next": [
+            "entry"
+        ],
+        "reward": "faceta:aspecto=+1;gold:+25"
+    },
+    "cel_opt_rumor": {
+        "type": "option",
+        "text": {
+            "es": "📜  ¿Qué murmuran los magos en las altas torres de Celestia?",
+            "en": "📜  What do mages whisper in the high spires of Celestia?",
+            "fr": "📜  Que murmurent les mages dans les hautes flèches de Celestia ?",
+            "it": "📜  Cosa mormorano i maghi nelle alte guglie di Celestia?",
+            "de": "📜  Was flüstern die Magier in den hohen Türmen von Celestia?",
+            "zh": "📜  塞莱斯提亚的高塔中，法师们在低声议论着什么？",
+            "ja": "📜  セレスティアの高い尖塔で魔導師たちは何を囁いている？"
+        },
+        "next": [
+            "cel_msg_rumor"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "cel_msg_rumor": {
+        "type": "message",
+        "text": {
+            "es": "Aurelius susurra mientras sella un pergamino con cera estelar: 'Dicen que las estrellas titilan con un patrón que no se veía desde el Gran Cataclismo. En la Biblioteca del Árbol, los libros más antiguos crujen de noche sin que nadie los abra... Algo se agita en las profundidades del mundo y la magia está respondiendo.'",
+            "en": "Aurelius whispers while sealing a scroll with starlight wax: 'They say the heavens flicker in patterns unseen since the Great Cataclysm. In the Tree Library, the oldest tomes shudder at night without hands turning their pages... Something stirs in the earth's deepest cradle, and ancient magic awakens.'",
+            "fr": "Aurelius chuchote en scellant un parchemin avec de la cire stellaire : « On dit que les cieux scintillent selon un schéma qu'on n'avait pas vu depuis le Grand Cataclysme. Dans la Bibliothèque de l'Arbre, les livres les plus anciens grincent la nuit sans que personne ne les ouvre... Quelque chose s'agite dans les profondeurs du monde et la magie répond. »",
+            "it": "Aurelius sussurra mentre sigilla una pergamena con cera stellare: 'Dicono che i cieli scintillino con un motivo mai visto dal Grande Cataclisma. Nella Biblioteca dell'Albero, i libri più antichi scricchiolano di notte senza che nessuno li apra... Qualcosa si agita nelle profondità del mondo e la magia sta rispondendo.'",
+            "de": "Aurelius flüstert, während er ein Pergament mit Sternenwachs versiegelt: „Man sagt, der Himmel flackert in einem Muster, das man seit dem Großen Kataklysmus nicht mehr gesehen hat. In der Baumbibliothek erschauern die ältesten Bücher nachts, ohne dass jemand sie aufschlägt... Etwas rührt sich in den Tiefen der Welt, und die Magie antwortet.“",
+            "zh": "奥雷利乌斯一边用星辰蜡封起卷轴一边低语：「据说天空以一种自大灾变以来从未见过的模式闪烁着。在树之图书馆里，最古老的书籍在夜里发出摩擦声，却没有任何人翻动它们……世界深处有什么正在苏醒，魔法正在做出回应。」",
+            "ja": "アウレリウスは星の蝋で巻物を封じながら囁く。「天空が大災厄以来見られなかった模様で瞬いていると言われている。木の図書館では、誰も開いていないのに、最も古い書物が夜になると軋むという……世界の深奥で何かが動いており、魔法が応えているのだ」"
+        },
+        "next": [
+            "entry"
+        ],
+        "reward": "faceta:bondad=+1;discover:lore_celestia_corte"
+    },
+    "cel_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Solo admiraba los grimorios. Que las estrellas velen por tu tienda",
+            "en": "🚶  Just admiring the tomes. May the stars keep watch over your shop",
+            "fr": "🚶  Je ne faisais qu'admirer les grimoires. Que les étoiles veillent sur ta boutique",
+            "it": "🚶  Stavo solo ammirando i grimori. Che le stelle veglino sul tuo negozio",
+            "de": "🚶  Ich habe nur die Grimoire bewundert. Mögen die Sterne über deinen Laden wachen",
+            "zh": "🚶  我只是在欣赏这些魔法书。愿群星守护你的店铺",
+            "ja": "🚶  魔導書を眺めていただけだ。星々がお前の店を見守らんことを"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

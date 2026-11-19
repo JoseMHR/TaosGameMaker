@@ -1,0 +1,167 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Duende de las Apuestas Imposibles",
+            "en": "The Goblin of Impossible Bets",
+            "fr": "Le Lutin des Paris Impossibles",
+            "it": "Il Folletto delle Scommesse Impossibili",
+            "de": "Der Kobold der Unmöglichen Wetten",
+            "zh": "不可能赌局的精灵",
+            "ja": "不可能な賭けのゴブリン"
+        },
+        "next": [],
+        "reward": "avatar=🎲;bg=0.10,0.13,0.09"
+    },
+    "duende_root": {
+        "type": "message",
+        "text": {
+            "es": "Un duende verde y arrugado, con chistera y monóculo, ha plantado una mesa plegable en mitad del prado. Sobre ella, tres cubiletes y un guisante. '¡Amigo mío! ¡Qué suerte la tuya!', chilla frotándose las manos. 'Un juego sencillísimo: ¿bajo qué cubilete está el guisante? Aciertas y DUPLICO tu apuesta. Fallas y... bueno, ya sabes. Diez de oro para empezar. ¡No puedes perder!' Sus dedos son sospechosamente rápidos y su sonrisa, sospechosamente ancha.",
+            "en": "A green, wrinkled goblin in a top hat and monocle has set up a folding table in the middle of the meadow. On it, three cups and a pea. 'My friend! What luck you have!', he squeals, rubbing his hands. 'A very simple game: under which cup is the pea? Guess right and I DOUBLE your bet. Guess wrong and... well, you know. Ten gold to start. You can't lose!' His fingers are suspiciously fast and his grin suspiciously wide.",
+            "fr": "Un lutin vert et ridé, chapeau haut de forme et monocle, a planté une table pliante au milieu du pré. Dessus, trois gobelets et un petit pois. « Mon ami ! Quelle chance tu as ! », glapit-il en se frottant les mains. « Un jeu très simple : sous quel gobelet est le petit pois ? Tu devines juste et je DOUBLE ta mise. Tu te trompes et... eh bien, tu sais. Dix pièces d'or pour commencer. Tu ne peux pas perdre ! » Ses doigts sont suspicieusement rapides et son sourire, suspicieusement large.",
+            "it": "Un folletto verde e rugoso, con cilindro e monocolo, ha piantato un tavolo pieghevole in mezzo al prato. Sopra, tre bicchierini e un pisello. 'Amico mio! Che fortuna la tua!', strilla stropicciandosi le mani. 'Un gioco semplicissimo: sotto quale bicchierino è il pisello? Indovini e RADDOPPIO la tua puntata. Sbagli e... beh, lo sai. Dieci d'oro per iniziare. Non puoi perdere!' Le sue dita sono sospettosamente veloci e il suo sorriso, sospettosamente largo.",
+            "de": "Ein grüner, faltiger Kobold mit Zylinder und Monokel hat mitten auf der Wiese einen Klapptisch aufgestellt. Darauf drei Becher und eine Erbse. „Mein Freund! Was für ein Glück du hast!“, kreischt er und reibt sich die Hände. „Ein ganz einfaches Spiel: unter welchem Becher ist die Erbse? Rätst du richtig, VERDOPPLE ich deinen Einsatz. Rätst du falsch und... nun, du weißt schon. Zehn Gold zum Start. Du kannst nicht verlieren!“ Seine Finger sind verdächtig schnell und sein Grinsen verdächtig breit.",
+            "zh": "一个满脸皱纹的绿色精灵，戴着高顶礼帽和单片眼镜，在草地中央支起了一张折叠桌。桌上摆着三个杯子和一颗豌豆。「我的朋友！你运气真好！」他一边搓着手一边尖叫道。「一个非常简单的游戏：豌豆在哪个杯子底下？猜对了我给你双倍下注。猜错了……嗯，你懂的。十枚金币起步。你不可能输的！」他的手指快得可疑，笑容也宽得可疑。",
+            "ja": "皺だらけの緑色のゴブリンが、シルクハットをかぶりモノクルをつけて、草原の真ん中に折り畳み式の机を立てている。その上には三つのカップと一粒の豆。「我が友よ！なんて幸運だ！」手をこすり合わせながら甲高い声で言う。「とても簡単なゲームだ——豆はどのカップの下にある？当てたら賭け金を『倍』にしてやる。外したら……まあ、分かるだろう。まずは金貨十枚だ。負けるはずがないぞ！」その指はどこか怪しいほど素早く、笑みも怪しいほど広い。"
+        },
+        "next": [
+            "duende_opt_jugar",
+            "duende_opt_trampa",
+            "duende_opt_retar",
+            "duende_opt_salir"
+        ],
+        "reward": ""
+    },
+    "duende_opt_jugar": {
+        "type": "option",
+        "text": {
+            "es": "🎲  Apostar diez de oro y confiar en tu suerte (−10 oro)",
+            "en": "🎲  Bet ten gold and trust your luck (−10 gold)",
+            "fr": "🎲  Parier dix pièces d'or et faire confiance à ta chance (−10 or)",
+            "it": "🎲  Scommettere dieci d'oro e fidarti della tua fortuna (−10 oro)",
+            "de": "🎲  Zehn Gold setzen und auf dein Glück vertrauen (−10 Gold)",
+            "zh": "🎲  下注十枚金币，相信自己的运气（-10金币）",
+            "ja": "🎲  金貨十枚を賭け、運を信じる（-10ゴールド）"
+        },
+        "next": [
+            "duende_msg_jugar"
+        ],
+        "reward": "gold:-10",
+        "condition": "gold >= 10",
+        "once": true
+    },
+    "duende_msg_jugar": {
+        "type": "message",
+        "text": {
+            "es": "Señalas un cubilete con toda tu convicción. El duende lo levanta con una floritura: nada. Levanta los otros dos: el guisante no está bajo NINGUNO. '¡Vaya, qué mala pata! El guisante estaba... eeeh... de vacaciones', improvisa, guardándose tu oro a la velocidad del rayo. Te acaban de estafar con una sonrisa de oreja a oreja y, curiosamente, no puedes ni enfadarte: ha sido una obra de arte del descaro. Lección aprendida a diez monedas el asiento.",
+            "en": "You point at a cup with total conviction. The goblin lifts it with a flourish: nothing. He lifts the other two: the pea isn't under ANY of them. 'Oh, tough luck! The pea was... uh... on holiday,' he improvises, pocketing your gold at lightning speed. You've just been swindled with an ear-to-ear grin and, oddly, you can't even be angry: it was a masterpiece of nerve. Lesson learned at ten coins a seat.",
+            "fr": "Tu désignes un gobelet avec toute ta conviction. Le lutin le soulève avec une fioriture : rien. Il soulève les deux autres : le petit pois n'est sous AUCUN d'entre eux. « Ah zut, quelle malchance ! Le petit pois était... euh... en vacances », improvise-t-il, empochant ton or à la vitesse de l'éclair. Tu viens de te faire arnaquer avec un sourire jusqu'aux oreilles et, curieusement, tu ne peux même pas être en colère : c'était une œuvre d'art de l'aplomb. Leçon apprise pour dix pièces le siège.",
+            "it": "Indichi un bicchierino con tutta la tua convinzione. Il folletto lo solleva con un fioretto: niente. Solleva gli altri due: il pisello non è sotto NESSUNO. 'Ma guarda, che sfortuna! Il pisello era... ehm... in vacanza', improvvisa, intascando il tuo oro alla velocità della luce. Sei appena stato truffato con un sorriso da orecchio a orecchio e, curiosamente, non riesci nemmeno ad arrabbiarti: è stata un'opera d'arte della sfacciataggine. Lezione imparata a dieci monete il posto.",
+            "de": "Du zeigst mit voller Überzeugung auf einen Becher. Der Kobold hebt ihn mit einer Geste: nichts. Er hebt die anderen beiden: die Erbse ist unter KEINEM von ihnen. „Ach, was für ein Pech! Die Erbse war... äh... im Urlaub“, improvisiert er, während er blitzschnell dein Gold einsteckt. Du wurdest gerade mit einem Grinsen von einem Ohr zum anderen betrogen, und seltsamerweise kannst du nicht einmal wütend sein: es war ein Meisterwerk der Frechheit. Lektion gelernt für zehn Münzen den Platz.",
+            "zh": "你带着十足的信心指了一个杯子。精灵带着一个夸张的手势掀开它：什么都没有。他又掀开了另外两个：豌豆哪一个下面都不在。「哎呀，真倒霉！豌豆去……呃……度假了，」他临场编造着，闪电般地把你的金币收进了口袋。你刚刚被一个笑容满面的家伙骗了，奇怪的是，你甚至气不起来：这简直是厚脸皮的艺术品。用十枚硬币的价格换来了一堂课。",
+            "ja": "確信を込めて一つのカップを指し示す。ゴブリンは大げさな仕草でそれを持ち上げる——何もない。他の二つも持ち上げる——豆はどれの下にもない。「おやおや、なんて運が悪い！豆は……えーと……休暇中だったんだ」と即興で言い訳しながら、稲妻のような速さでお前の金を懐に入れる。満面の笑みで詐欺にあったばかりだが、なぜか怒ることすらできない——それは厚顔無恥の傑作だった。金貨十枚で得た教訓だ。"
+        },
+        "next": [
+            "duende_root"
+        ],
+        "reward": ""
+    },
+    "duende_opt_trampa": {
+        "type": "option",
+        "text": {
+            "es": "🧠  Vigilar sus manos con lupa y pillarle la trampa in fraganti",
+            "en": "🧠  Watch his hands like a hawk and catch the trick red-handed",
+            "fr": "🧠  Surveiller ses mains à la loupe et le prendre en flagrant délit de tricherie",
+            "it": "🧠  Sorvegliare le sue mani con la lente e coglierlo in flagrante",
+            "de": "🧠  Seine Hände wie ein Falke beobachten und ihn auf frischer Tat ertappen",
+            "zh": "🧠  用鹰眼一样的目光盯着他的手，当场抓他作弊",
+            "ja": "🧠  鷹のように手を見張り、その場でトリックを見破る"
+        },
+        "next": [
+            "duende_msg_trampa"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "duende_msg_trampa": {
+        "type": "message",
+        "text": {
+            "es": "No apartas la vista ni un parpadeo. Y ahí está: en el segundo exacto en que cambia los cubiletes, el guisante desaparece por una trampilla en su manga. '¡Te he visto!', exclamas, atrapándole la muñeca. El duende se queda helado, luego suelta una carcajada admirada: '¡BRAVO! Llevaba trescientos incautos sin que nadie mirase de verdad. Te has ganado esto, tramposo honesto.' Y te suelta una bolsita de oro por 'mérito a la observación'. Fijarse de verdad en el mundo tiene premio.",
+            "en": "You don't look away for a single blink. And there it is: in the exact second he swaps the cups, the pea vanishes through a trapdoor in his sleeve. 'I saw you!', you exclaim, catching his wrist. The goblin freezes, then bursts into an admiring laugh: 'BRAVO! Three hundred suckers and none of them truly looked. You've earned this, you honest cheat.' And he tosses you a small pouch of gold for 'merit in observation'. Truly paying attention to the world has its reward.",
+            "fr": "Tu ne détournes pas le regard une seule seconde. Et voilà : à l'instant précis où il échange les gobelets, le petit pois disparaît par une trappe dans sa manche. « Je t'ai vu ! », t'exclames-tu, attrapant son poignet. Le lutin se fige, puis éclate d'un rire admiratif : « BRAVO ! Trois cents naïfs sans que personne n'ait vraiment regardé. Tu as gagné ça, tricheur honnête. » Et il te lance une petite bourse d'or pour « mérite d'observation ». Vraiment prêter attention au monde a sa récompense.",
+            "it": "Non distogli lo sguardo nemmeno per un istante. Ed eccolo lì: nell'esatto secondo in cui scambia i bicchierini, il pisello scompare in una botola nella sua manica. 'Ti ho visto!', esclami, afferrandogli il polso. Il folletto si blocca, poi scoppia in una risata ammirata: 'BRAVO! Trecento sciocchi senza che nessuno guardasse davvero. Te lo sei guadagnato, imbroglione onesto.' E ti lancia una sacchettina d'oro per 'merito di osservazione'. Osservare davvero il mondo ha la sua ricompensa.",
+            "de": "Du schaust nicht eine Sekunde weg. Und da ist es: in genau dem Moment, in dem er die Becher tauscht, verschwindet die Erbse durch eine Falltür in seinem Ärmel. „Ich habe dich gesehen!“, rufst du und packst sein Handgelenk. Der Kobold erstarrt, dann bricht er in bewunderndes Gelächter aus: „BRAVO! Dreihundert Dumme, und keiner hat wirklich hingeschaut. Das hast du dir verdient, ehrlicher Betrüger.“ Und er wirft dir ein kleines Säckchen Gold zu, für „Verdienst in Beobachtung“. Der Welt wirklich Aufmerksamkeit zu schenken hat seinen Lohn.",
+            "zh": "你一秒钟都没有移开视线。就在那里：正是他交换杯子的那一刻，豌豆从他袖子里的一个暗门消失了。「我看见你了！」你惊呼道，一把抓住他的手腕。精灵僵住了，然后爆发出钦佩的笑声：「太棒了！三百个傻瓜，没有一个真正看清楚过。你赢得了这个，诚实的骗子。」他扔给你一小袋金币，作为「观察力的奖励」。真正留心这个世界是有回报的。",
+            "ja": "一瞬たりとも目を離さない。そしてそこにある——彼がカップを入れ替えるまさにその瞬間、豆は袖の隠し扉から消えている。「見たぞ！」お前は叫び、彼の手首を掴む。ゴブリンは固まり、それから感嘆の笑い声を上げる。「見事だ！三百人の間抜けの中で、誰も本当に見ていなかったのに。これは正直な詐欺師であるお前に相応しいものだ」そして「観察力の功績」として小さな金貨袋を投げてくれる。世界に本当に注意を払うことには報いがあるのだ。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:inteligencia=+1;gold:+25"
+    },
+    "duende_opt_retar": {
+        "type": "option",
+        "text": {
+            "es": "😏  Retarle a él a una apuesta tuya, a ver si aguanta su propia medicina",
+            "en": "😏  Challenge HIM to a bet of yours, see if he can take his own medicine",
+            "fr": "😏  Le défier toi-même à un pari, voir s'il tient sa propre médecine",
+            "it": "😏  Sfidarlo tu a una scommessa, vedere se regge la sua stessa medicina",
+            "de": "😏  Ihn selbst zu einer deiner Wetten herausfordern, sehen ob er seine eigene Medizin verträgt",
+            "zh": "😏  向他发起你自己的挑战，看看他能不能承受自己的把戏",
+            "ja": "😏  自分の賭けで彼に挑戦し、自分の薬を飲めるか試す"
+        },
+        "next": [
+            "duende_msg_retar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "duende_msg_retar": {
+        "type": "message",
+        "text": {
+            "es": "'Me juego lo que quieras', le dices, 'a que no eres capaz de estarte callado un minuto entero.' El duende abre la boca para aceptar... y ya ha perdido. Se tapa la boca con las dos manos, colorado del esfuerzo, aguantando como puede mientras tú silbas tranquilamente. A los cuarenta segundos estalla: '¡ES IMPOSIBLE, ME ABURRO, TÚ GANAS!' Pagas la apuesta a carcajadas y él, encantado de haber conocido por fin a alguien más listo que él, te deja marchar con una reverencia. Plantarle cara a un tramposo con su propio juego requiere agallas.",
+            "en": "'I'll bet you anything,' you say, 'that you can't keep quiet for one whole minute.' The goblin opens his mouth to accept... and he's already lost. He claps both hands over his mouth, red with effort, holding on as best he can while you whistle calmly. At forty seconds he bursts: 'IT'S IMPOSSIBLE, I'M BORED, YOU WIN!' You settle the bet howling with laughter, and he, delighted to have finally met someone cleverer than himself, sees you off with a bow. Standing up to a cheat at his own game takes nerve.",
+            "fr": "« Je parie ce que tu veux », lui dis-tu, « que tu es incapable de rester silencieux une minute entière. » Le lutin ouvre la bouche pour accepter... et il a déjà perdu. Il se couvre la bouche des deux mains, rouge de l'effort, tenant bon tant bien que mal pendant que tu siffles tranquillement. Au bout de quarante secondes il explose : « C'EST IMPOSSIBLE, JE M'ENNUIE, TU GAGNES ! » Tu règles le pari en éclatant de rire et lui, ravi d'avoir enfin rencontré quelqu'un de plus malin que lui, te laisse partir avec une révérence. Tenir tête à un tricheur à son propre jeu demande du cran.",
+            "it": "'Scommetto quello che vuoi', gli dici, 'che non sei capace di stare zitto per un minuto intero.' Il folletto apre la bocca per accettare... e ha già perso. Si copre la bocca con entrambe le mani, rosso per lo sforzo, resistendo come può mentre tu fischietti tranquillamente. Ai quaranta secondi esplode: 'È IMPOSSIBILE, MI ANNOIO, VINCI TU!' Paghi la scommessa scoppiando a ridere e lui, felice di aver finalmente incontrato qualcuno più furbo di lui, ti lascia andare con un inchino. Tener testa a un imbroglione al suo stesso gioco richiede fegato.",
+            "de": "„Ich wette alles, was du willst“, sagst du, „dass du keine ganze Minute lang still sein kannst.“ Der Kobold öffnet den Mund, um zu akzeptieren... und hat bereits verloren. Er hält sich mit beiden Händen den Mund zu, rot vor Anstrengung, hält so gut er kann durch, während du gemütlich pfeifst. Nach vierzig Sekunden platzt er heraus: „ES IST UNMÖGLICH, MIR IST LANGWEILIG, DU GEWINNST!“ Du begleichst die Wette mit brüllendem Gelächter, und er, entzückt endlich jemanden Klügeren als sich selbst getroffen zu haben, lässt dich mit einer Verbeugung gehen. Einem Betrüger bei seinem eigenen Spiel standzuhalten erfordert Mumm.",
+            "zh": "「我跟你打赌，」你对他说，「你连一整分钟都保持不了沉默。」精灵张开嘴准备接受挑战……但他已经输了。他用双手捂住嘴，因用力而涨红了脸，努力忍耐着，而你则悠闲地吹着口哨。四十秒后他终于爆发了：「这不可能，我好无聊，你赢了！」你大笑着结清了赌注，而他，为终于遇到一个比自己更聪明的人而感到高兴，向你鞠了一躬，放你离开。以对方的游戏反制骗子，需要胆量。",
+            "ja": "「何でも賭ける」お前は言う。「お前は一分間丸ごと黙っていられない」ゴブリンは受け入れようと口を開く……そしてすでに負けている。両手で口を押さえ、努力で真っ赤になりながら、お前が落ち着いて口笛を吹く間、なんとか耐える。四十秒で爆発する。「無理だ、退屈すぎる、お前の勝ちだ！」大笑いしながら賭けを清算し、彼は自分より賢い誰かにようやく出会えたことを喜び、お辞儀をしてお前を見送る。詐欺師をその得意な土俵で打ち負かすには度胸が要る。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:valor=+1;faceta:aspecto=+1"
+    },
+    "duende_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Ni de broma. Alejarte sin picar el anzuelo",
+            "en": "🚶  No way. Walk off without taking the bait",
+            "fr": "🚶  Certainement pas. » Téloigner sans mordre à l'hameçon",
+            "it": "🚶  Neanche per sogno. Allontanarti senza abboccare",
+            "de": "🚶  Auf keinen Fall. Sich entfernen, ohne anzubeißen",
+            "zh": "🚶  想都别想。不上钩，转身离开",
+            "ja": "🚶  まさか餌に食いつかずに立ち去る"
+        },
+        "next": [
+            "duende_msg_salir"
+        ],
+        "reward": ""
+    },
+    "duende_msg_salir": {
+        "type": "message",
+        "text": {
+            "es": "Levantas las manos y te alejas sin jugar. '¡Cobardeee! ¡El miedo a perder es perder dos veces!', te canturrea el duende a la espalda, ofendidísimo de que le estropees el negocio. Le ignoras. No has ganado nada, pero tampoco has perdido oro con un tramposo de manual. A veces la jugada más inteligente es no jugar; otras, simplemente no te apetecía arriesgarte. Solo tú sabes cuál de las dos ha sido.",
+            "en": "You raise your hands and walk away without playing. 'Cowaaard! Fear of losing is losing twice!', the goblin sing-songs after you, thoroughly offended that you're spoiling his business. You ignore him. You've won nothing, but you haven't lost gold to a textbook cheat either. Sometimes the smartest play is not to play; other times, you just didn't feel like risking it. Only you know which of the two it was.",
+            "fr": "Tu lèves les mains et t'éloignes sans jouer. « Trouillaaard ! La peur de perdre, c'est perdre deux fois ! », te chante le lutin dans le dos, tout à fait offensé que tu gâches son commerce. Tu l'ignores. Tu n'as rien gagné, mais tu n'as pas non plus perdu d'or face à un tricheur de manuel. Parfois le coup le plus intelligent est de ne pas jouer ; d'autres fois, tu n'avais tout simplement pas envie de prendre le risque. Toi seul sais lequel des deux c'était.",
+            "it": "Alzi le mani e ti allontani senza giocare. 'Codardooo! La paura di perdere è perdere due volte!', ti canticchia il folletto alle spalle, offesissimo che tu gli rovini l'affare. Lo ignori. Non hai vinto nulla, ma nemmeno hai perso oro con un imbroglione da manuale. A volte la mossa più intelligente è non giocare; altre volte, semplicemente non ti andava di rischiare. Solo tu sai quale delle due sia stata.",
+            "de": "Du hebst die Hände und gehst davon, ohne zu spielen. „Feiglinggg! Angst vor dem Verlieren ist zweimal verlieren!“, singt der Kobold hinter dir, zutiefst beleidigt, dass du ihm sein Geschäft verdirbst. Du ignorierst ihn. Du hast nichts gewonnen, aber auch kein Gold an einen Lehrbuch-Betrüger verloren. Manchmal ist der klügste Zug, nicht zu spielen; ein anderes Mal wolltest du einfach nicht riskieren. Nur du weißt, welches von beiden es war.",
+            "zh": "你举起双手，没有参与游戏就离开了。「胆小鬼——！怕输就是输两次！」精灵在你身后唱着，对你搅了他的生意感到非常愤怒。你无视了他。你什么都没赢到，但你也没有因为一个教科书式的骗子而损失金子。有时候最聪明的招数就是不玩；有时候，你只是不想冒这个险。只有你自己知道究竟是哪一种情况。",
+            "ja": "両手を上げ、賭けずに立ち去る。「臆病者めぇ！負けるのを恐れることは二度負けることだ！」お前の背後でゴブリンが歌うように言う、商売を邪魔されたことに深く憤慨しながら。お前はそれを無視する。何も勝ち取ってはいないが、教科書通りの詐欺師に金を失ったわけでもない。時に最も賢い手は、賭けないことだ。あるいは単に、リスクを冒す気分ではなかっただけかもしれない。どちらだったのかは、お前自身しか知らない。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

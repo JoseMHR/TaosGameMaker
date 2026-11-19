@@ -1,0 +1,94 @@
+﻿{
+    "id": "final_f",
+    "title": {
+        "es": "Final F — Epílogo Secreto",
+        "en": "Ending F — Secret Epilogue",
+        "fr": "Fin F — Épilogue secret",
+        "it": "Finale F — Epilogo segreto",
+        "de": "Ende F — Geheimer Epilog",
+        "zh": "结局F——秘密尾声",
+        "ja": "エンディングF——秘密のエピローグ"
+    },
+    "desc": "El recuerdo real y la reconciliación. Aiden recuerda el jardín antes de la tragedia y despierta para abrir una clínica con el nombre de Elara.",
+    "music": "world_zone1_flooded",
+    "on_finish": "end",
+    "ops": "gflag:ending_secret_epilogue;questf:game_completed",
+    "slides": [
+        {
+            "bg": "bg_ending_f_1.png",
+            "speaker": {
+                "es": "Final F — Epílogo Secreto",
+                "en": "Ending F — Secret Epilogue",
+                "fr": "Fin F — Épilogue secret",
+                "it": "Finale F — Epilogo segreto",
+                "de": "Ende F — Geheimer Epilog",
+                "zh": "结局F——秘密尾声",
+                "ja": "エンディングF——秘密のエピローグ"
+            },
+            "portrait": "",
+            "text": {
+                "es": "Has aceptado la verdad y has vivido, de veras, las seis vidas que un hombre roto se inventó para no mirarse. Esa plenitud abre una última puerta que la Esfera guardaba solo para quien ya no la necesita.",
+                "en": "You have accepted the truth, and truly lived all six lives a broken man invented so he wouldn't have to look at himself. That wholeness opens one last door the Sphere kept only for the one who no longer needs it.",
+                "fr": "Tu as accepté la vérité et tu as vraiment vécu les six vies qu'un homme brisé s'est inventées pour ne pas se regarder lui-même. Cette plénitude ouvre une dernière porte que la Sphère gardait uniquement pour celui qui n'en a plus besoin.",
+                "it": "Hai accettato la verità e hai davvero vissuto le sei vite che un uomo spezzato si è inventato per non guardarsi allo specchio. Quella pienezza apre un'ultima porta che la Sfera custodiva solo per chi non ne ha più bisogno.",
+                "de": "Du hast die Wahrheit akzeptiert und wirklich die sechs Leben gelebt, die sich ein gebrochener Mann erfand, um sich nicht selbst betrachten zu müssen. Diese Vollständigkeit öffnet eine letzte Tür, die die Sphäre nur für den bewahrte, der sie nicht mehr braucht.",
+                "zh": "你已接受了真相，也真正活过了那六段人生——那是一个破碎的男人为了不去正视自己而编织出来的六段人生。这份圆满打开了最后一道门，而这道门，真理之球只为不再需要它的人保留。",
+                "ja": "お前は真実を受け入れ、壊れた男が自分自身と向き合わずに済むよう作り上げた六つの人生を、本当に生き抜いた。その充足が、球がもはやそれを必要としない者のためだけに取っておいた最後の扉を開く。"
+            },
+            "fx": {
+                "glow": 0.6,
+                "darken": 0.2
+            }
+        },
+        {
+            "bg": "bg_ending_f_2.png",
+            "speaker": {
+                "es": "Elara",
+                "en": "Elara",
+                "fr": "Elara",
+                "it": "Elara",
+                "de": "Elara",
+                "zh": "艾拉拉",
+                "ja": "エララ"
+            },
+            "portrait": "",
+            "text": {
+                "es": "Antes de todo — antes de Arcanum, antes del mar, antes de la dragona Samy — Elara ríe en el jardín con una esfera de juguete que brilla muchísimo menos que ella. Corre hacia él con un dibujo arrugado en la mano. 'Para papá', dice. Y en el dibujo están los dos, cogidos de la mano, bajo un sol torcido.",
+                "en": "Before everything — before Arcanum, before the sea, before Samy the dragon — Elara laughs in the garden holding a toy sphere that shines far, far less than she does. She runs to him with a crumpled drawing in her hand. 'For daddy,' she says. And in the drawing it's the two of them, hand in hand, under a crooked sun.",
+                "fr": "Avant tout — avant Arcanum, avant la mer, avant Samy la dragonne — Elara rit dans le jardin en tenant une sphère jouet qui brille bien, bien moins qu'elle. Elle court vers lui, un dessin froissé à la main. « Pour papa », dit-elle. Et sur le dessin, ils sont tous les deux, main dans la main, sous un soleil de travers.",
+                "it": "Prima di tutto — prima di Arcanum, prima del mare, prima di Samy la draghessa — Elara ride nel giardino tenendo una sfera giocattolo che brilla molto, molto meno di lei. Corre verso di lui con un disegno sgualcito in mano. 'Per papà', dice. E nel disegno ci sono loro due, mano nella mano, sotto un sole storto.",
+                "de": "Vor allem — vor Arcanum, vor dem Meer, vor Samy der Drachin — lacht Elara im Garten und hält eine Spielzeugsphäre, die weit, weit weniger leuchtet als sie selbst. Sie rennt mit einer zerknitterten Zeichnung in der Hand zu ihm. „Für Papa“, sagt sie. Und auf der Zeichnung sind sie beide, Hand in Hand, unter einer schiefen Sonne.",
+                "zh": "在这一切之前——在奥秘遗迹之前，在大海之前，在飞龙萨米之前——艾拉拉在花园里笑着，手里拿着一颗玩具球，它的光芒远远不及她本人。她拿着一张皱巴巴的画跑向他。「给爸爸，」她说。画上是他们两个人，手牵着手，站在一轮歪斜的太阳下。",
+                "ja": "すべての前——アルカナムの前、海の前、竜サミーの前——エララは庭で笑っている。彼女自身よりもずっと光の弱いおもちゃの球を手に持って。しわくちゃの絵を手に、彼女は父の元へ駆け寄る。「パパへ」と彼女は言う。絵の中には二人がいる、手を繋ぎ、傾いた太陽の下で。"
+            },
+            "fx": {
+                "glow": 0.85
+            }
+        },
+        {
+            "bg": "bg_ending_f_3.png",
+            "speaker": {
+                "es": "Narrador",
+                "en": "Narrator",
+                "fr": "Narrateur",
+                "it": "Narratore",
+                "de": "Erzähler",
+                "zh": "旁白",
+                "ja": "ナレーター"
+            },
+            "portrait": "",
+            "text": {
+                "es": "Aiden se guarda esa luz y despierta. Meses después, abre una pequeña clínica infantil con el nombre de ella grabado sobre la puerta. De las esferas no vuelve a hablar nunca. No hace falta: por fin cura en vez de destruir, y cada niño que sale sano de allí es, de algún modo, ella.",
+                "en": "Aiden keeps that light and wakes. Months later, he opens a small children's clinic with her name carved over the door. He never speaks of the spheres again. He doesn't need to: at last he heals instead of destroys, and every child who walks out well is, somehow, her.",
+                "fr": "Aiden garde cette lumière avec lui et se réveille. Des mois plus tard, il ouvre une petite clinique pour enfants avec son nom gravé au-dessus de la porte. Il ne parle plus jamais des sphères. Il n'en a pas besoin : il guérit enfin au lieu de détruire, et chaque enfant qui en sort en bonne santé est, d'une certaine façon, elle.",
+                "it": "Aiden custodisce quella luce e si sveglia. Mesi dopo, apre una piccola clinica pediatrica con il suo nome inciso sopra la porta. Delle sfere non parla mai più. Non ne ha bisogno: finalmente cura invece di distruggere, e ogni bambino che ne esce sano è, in un certo senso, lei.",
+                "de": "Aiden bewahrt dieses Licht und erwacht. Monate später eröffnet er eine kleine Kinderklinik mit ihrem Namen über der Tür eingraviert. Von den Sphären spricht er nie wieder. Er muss nicht: endlich heilt er, statt zu zerstören, und jedes Kind, das gesund von dort weggeht, ist auf gewisse Weise sie.",
+                "zh": "艾登带着那份光醒来。数月之后，他开了一家小小的儿童诊所，门楣上刻着她的名字。他再也没有提起过那些球体。他不需要了：他终于开始治愈而非毁灭，而每一个健康走出诊所的孩子，在某种意义上，都是她。",
+                "ja": "エイデンはその光を胸に秘めたまま目覚める。数か月後、彼はドアの上に彼女の名を刻んだ小さな児童診療所を開く。球体について語ることは二度とない。その必要はない——ついに彼は破壊ではなく癒しをもたらす者となり、そこから元気に去っていく子ども一人ひとりが、どこかで彼女なのだから。"
+            },
+            "fx": {
+                "glow": 0.95
+            }
+        }
+    ]
+}

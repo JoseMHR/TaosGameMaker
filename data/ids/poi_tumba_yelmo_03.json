@@ -1,0 +1,27 @@
+{
+    "id": "poi_tumba_yelmo_03",
+    "type": "poi",
+    "visual": "poi_tumba",
+    "icon": "🪦",
+    "name": {
+        "es": "Tumba Olvidada del Páramo",
+        "en": "Forgotten Wasteland Grave",
+        "fr": "Tombe Oubliée de la Lande",
+        "it": "Tomba Dimenticata della Landa",
+        "de": "Vergessenes Grab des Moors",
+        "zh": "荒原被遗忘的坟墓",
+        "ja": "荒野の忘れられた墓"
+    },
+    "desc": {
+        "es": "Una lápida solitaria y agrietada cubierta de runas ininteligibles. El aire a su alrededor está helado. (POI de inspección).",
+        "en": "A cracked lonely grave covered in indecipherable runes. The air around it is freezing. (Inspection POI).",
+        "fr": "Une pierre tombale solitaire et fissurée couverte de runes indéchiffrables. L'air autour d'elle est glacé. (POI d'inspection).",
+        "it": "Una lapide solitaria e incrinata coperta di rune indecifrabili. L'aria intorno ad essa è gelida. (POI di ispezione).",
+        "de": "Ein einsamer, gesprungener Grabstein, bedeckt mit unentzifferbaren Runen. Die Luft um ihn herum ist eisig. (Inspektions-POI).",
+        "zh": "一块孤零零、裂痕斑斑的墓碑，覆盖着无法辨认的符文。周围的空气冰冷刺骨。（探查类兴趣点）。",
+        "ja": "解読不能な古代文字に覆われた、ひび割れた孤独な墓石。その周りの空気は凍てついている。（調査ポイント）。"
+    },
+    "npc": "poi_tumba_yelmo_03",
+    "bg": "bg_world_poi_yelmo_tumba.png",
+    "music": "creepy"
+}

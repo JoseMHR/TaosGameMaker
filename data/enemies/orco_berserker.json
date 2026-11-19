@@ -1,0 +1,60 @@
+{
+  "name": {
+    "es": "Dios supremo inmortal de los Orcos",
+    "en": "Supreme Immortal God of the Orcs",
+    "fr": "Dieu Suprême Immortel des Orcs",
+    "it": "Dio Supremo Immortale degli Orchi",
+    "de": "Unsterblicher Höchster Gott der Orks",
+    "zh": "兽人的至高不朽之神",
+    "ja": "オークの至高不滅の神"
+  },
+  "family": "monster",
+  "archetype": "boss",
+  "icon": "🪓",
+  "image": "res://assets/combat/enemies/en_orc_berserker.png",
+  "attack_type": "physical",
+  "base_dodge": 3.0,
+  "dodge_scale": 0.1,
+  "element": "physical",
+  "weak_to": [
+    "ice",
+    "magic"
+  ],
+  "resist": [
+    "physical"
+  ],
+  "ai": "aggressive",
+  "xp_reward_base": 201,
+  "xp_reward_scale": 0.0,
+  "gold_reward_base": 50,
+  "gold_reward_scale": 8.0,
+  "skills": [
+    {
+      "level": 1,
+      "skill_id": "gritar_furioso"
+    },
+    {
+      "level": 1,
+      "skill_id": "ataque_mortal"
+    }
+  ],
+  "loot": [
+    {
+      "kind": "gold",
+      "min": 12,
+      "max": 30
+    },
+    {
+      "kind": "consumable",
+      "id": "potion",
+      "chance": 0.25
+    },
+    {
+      "kind": "equipment",
+      "chance": 0.3,
+      "level": 2
+    }
+  ],
+  "zone": "zona_1_yelmo",
+  "is_boss": true
+}

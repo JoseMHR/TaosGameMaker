@@ -1,0 +1,132 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "Capitán del Puerto",
+            "en": "Harbor Captain",
+            "fr": "Capitaine du Port",
+            "it": "Capitano del Porto",
+            "de": "Hafenkapitän",
+            "zh": "港务长",
+            "ja": "港湾長"
+        },
+        "next": [],
+        "reward": "avatar=⚓;bg=0.04,0.07,0.1"
+    },
+    "port_crisis": {
+        "type": "message",
+        "text": {
+            "es": "El capitán sujeta el timón aterrado: '¡Cuidado grumete! ¡Esa monstruosidad marina está destrozando el muelle justo al norte! ¡Acaba con ella o ningún barco podrá zarpar con vida!'",
+            "en": "The captain grips the helm in terror: 'Watch out deckhand! That sea monstrosity is destroying the northern dock! Slay it or no ship will ever leave alive!'",
+            "fr": "Le capitaine s'agrippe à la barre, terrifié : « Attention, moussaillon ! Cette monstruosité marine détruit le quai juste au nord ! Débarrasse-nous d'elle ou aucun navire ne pourra jamais repartir vivant ! »",
+            "it": "Il capitano stringe il timone terrorizzato: 'Attento mozzo! Quella mostruosità marina sta distruggendo il molo proprio a nord! Uccidila o nessuna nave potrà mai salpare viva!'",
+            "de": "Der Kapitän klammert sich entsetzt ans Steuer: „Vorsicht, Deckjunge! Diese Meeresungeheuerlichkeit zerstört den Kai gleich im Norden! Erledige sie, oder kein Schiff wird jemals lebend auslaufen können!“",
+            "zh": "船长惊恐地紧握着舵轮：「小心，水手！那只海怪正在摧毁北边的码头！杀了它，否则没有一艘船能活着出海！」",
+            "ja": "船長は恐怖に駆られながら舵を握りしめる。「気をつけろ、見習い！あの海の怪物がすぐ北の埠頭を破壊している！奴を倒せ、さもなくばどの船も生きて出港できん！」"
+        },
+        "next": [
+            "port_crisis_ok"
+        ],
+        "reward": "",
+        "condition": "(has_flag(\"boss_puerto_activo\") or has_gflag(\"boss_puerto_activo\")) and no_flag(\"boss_puerto_derrotado\") and no_gflag(\"boss_puerto_derrotado\")"
+    },
+    "port_crisis_ok": {
+        "type": "option",
+        "text": {
+            "es": "⚔️  ¡Me encargo del monstruo!",
+            "en": "⚔️  I'll handle the monster!",
+            "fr": "⚔️  Je m'occupe du monstre !",
+            "it": "⚔️  Mi occupo io del mostro!",
+            "de": "⚔️  Ich kümmere mich um das Monster!",
+            "zh": "⚔️  怪物交给我！",
+            "ja": "⚔️  怪物は俺に任せろ！"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "port_ready_to_sail": {
+        "type": "message",
+        "text": {
+            "es": "El capitán te sonríe aliviado y admira tu Sello Real: '¡Que me aspen! ¡Has salvado el puerto y tienes la bendición del Rey! El barco está listo y amarrado en el muelle. Las velas ansían viento. ¿Zarpamos hacia nuevas tierras?'",
+            "en": "The captain smiles relieved and admires your Royal Seal: 'Well blow me down! You saved the harbor and carry the King's blessing! The ship is ready and moored at the dock. Shall we set sail across the sea?'",
+            "fr": "Le capitaine te sourit, soulagé, et admire ton Sceau Royal : « Ça alors ! Tu as sauvé le port et tu portes la bénédiction du Roi ! Le navire est prêt, amarré au quai. Les voiles n'attendent que le vent. Mettons-nous en route vers de nouvelles terres ? »",
+            "it": "Il capitano ti sorride sollevato e ammira il tuo Sigillo Reale: 'Perbacco! Hai salvato il porto e porti la benedizione del Re! La nave è pronta e ormeggiata al molo. Le vele non aspettano altro che il vento. Salpiamo verso nuove terre?'",
+            "de": "Der Kapitän lächelt erleichtert und bewundert dein Königliches Siegel: „Na, so was! Du hast den Hafen gerettet und trägst den Segen des Königs! Das Schiff ist bereit und am Kai vertäut. Die Segel warten nur auf Wind. Sollen wir zu neuen Ländern aufbrechen?“",
+            "zh": "船长如释重负地向你微笑，并端详着你的王家印章：「哎呀！你救了港口，还带着国王的祝福！船已经准备就绪，停泊在码头。船帆只等风起。我们要扬帆前往新大陆吗？」",
+            "ja": "船長は安堵の笑みを浮かべ、お前の王家の印章に見入る。「これはたまげた！港を救い、王のご加護まで携えているとは！船の準備は整い、埠頭に係留してある。あとは風を待つだけだ。新たな大陸へ出航するか？」"
+        },
+        "next": [
+            "port_sail_go",
+            "port_sail_wait"
+        ],
+        "reward": "",
+        "condition": "has_item(\"sello_real\") and (has_flag(\"boss_puerto_derrotado\") or has_gflag(\"boss_puerto_derrotado\"))"
+    },
+    "port_sail_go": {
+        "type": "option",
+        "text": {
+            "es": "⛵  ¡Zarpar en barco!",
+            "en": "⛵  Set sail!",
+            "fr": "⛵  Prendre la mer !",
+            "it": "⛵  Salpare!",
+            "de": "⛵  In See stechen!",
+            "zh": "⛵  出海！",
+            "ja": "⛵  出航する！"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "gflag:boat_obtained;spawn_boat;questf:ship_unlocked;dialogue:prologue_end"
+    },
+    "port_sail_wait": {
+        "type": "option",
+        "text": {
+            "es": "⚓  Todavía no, volveré luego",
+            "en": "⚓  Not yet, I'll return later",
+            "fr": "⚓  Pas encore, je reviendrai plus tard",
+            "it": "⚓  Non ancora, tornerò più tardi",
+            "de": "⚓  Noch nicht, ich komme später zurück",
+            "zh": "⚓  还没准备好，我稍后再来",
+            "ja": "⚓  まだだ、また後で来る"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "port_need_permission": {
+        "type": "message",
+        "text": {
+            "es": "El capitán cruza los brazos con firmeza: 'Lo siento forastero, pero ningún barco zarpa hacia mar abierto sin una orden directa del trono. Necesitas el permiso del Rey de Celestia si quieres cruzar el mar.'",
+            "en": "The captain crosses his arms firmly: 'Sorry stranger, but no vessel sails into open sea without direct royal orders. You need permission from the King of Celestia if you want to cross the sea.'",
+            "fr": "Le capitaine croise fermement les bras : « Désolé étranger, mais aucun navire ne prend le large sans un ordre direct du trône. Il te faut la permission du Roi de Celestia si tu veux traverser la mer. »",
+            "it": "Il capitano incrocia le braccia con fermezza: 'Mi dispiace straniero, ma nessuna nave salpa verso il mare aperto senza un ordine diretto del trono. Ti serve il permesso del Re di Celestia se vuoi attraversare il mare.'",
+            "de": "Der Kapitän verschränkt entschlossen die Arme: „Tut mir leid, Fremder, aber kein Schiff sticht ohne direkten Befehl des Throns in offene See. Du brauchst die Erlaubnis des Königs von Celestia, wenn du das Meer überqueren willst.“",
+            "zh": "船长坚定地抱起双臂：「抱歉，陌生人，没有王座的直接命令，任何船只都不能出海。如果你想渡海，需要塞莱斯提亚国王的许可。」",
+            "ja": "船長は毅然と腕を組む。「悪いが余所者よ、玉座からの直接の命令なしに外洋へ出る船はない。海を渡りたいならセレスティア王の許可が必要だ。」"
+        },
+        "next": [
+            "port_need_ok"
+        ],
+        "reward": "",
+        "condition": "default"
+    },
+    "port_need_ok": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Iré a hablar con el Rey al Palacio",
+            "en": "🚶  I will go speak with the King at the Palace",
+            "fr": "🚶  J'irai parler au Roi au Palais",
+            "it": "🚶  Andrò a parlare con il Re al Palazzo",
+            "de": "🚶  Ich werde im Palast mit dem König sprechen",
+            "zh": "🚶  我会去王宫和国王谈谈",
+            "ja": "🚶  王宮へ行き、王と話をしよう"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

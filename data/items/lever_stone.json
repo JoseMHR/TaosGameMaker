@@ -1,0 +1,23 @@
+{
+    "name": {
+        "es": "Piedra simple e inútil",
+        "en": "Simple, useless stone",
+        "fr": "Pierre simple et inutile",
+        "it": "Pietra semplice e inutile",
+        "de": "Einfacher, nutzloser Stein",
+        "zh": "普通又没用的石头",
+        "ja": "単純で役に立たない石"
+    },
+    "desc": {
+        "es": "Una piedra completamente ordinaria, gris y redondeada. Parece no servir para nada, pero cabe cómodamente en la palma de la mano.",
+        "en": "A completely ordinary, grey, rounded stone. It seems utterly useless, but fits comfortably in the palm of your hand.",
+        "fr": "Une pierre complètement ordinaire, grise et arrondie. Elle semble ne servir à rien, mais tient confortablement dans le creux de la main.",
+        "it": "Una pietra completamente ordinaria, grigia e arrotondata. Sembra non servire a nulla, ma sta comodamente nel palmo della mano.",
+        "de": "Ein völlig gewöhnlicher, grauer, runder Stein. Er scheint völlig nutzlos zu sein, passt aber bequem in die Handfläche.",
+        "zh": "一块极其普通的灰色圆石。看似毫无用处，但握在掌心却十分舒适。",
+        "ja": "完全に普通で、灰色の丸い石。何の役にも立たなそうだが、手のひらにちょうど収まる。"
+    },
+    "icon": "🪨",
+    "category": "important",
+    "usable": false
+}

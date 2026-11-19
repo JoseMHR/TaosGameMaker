@@ -1,0 +1,29 @@
+{
+    "id": "poi_final_f",
+    "type": "poi",
+    "name": {
+        "es": "Final F: Reconciliación",
+        "en": "Ending F: Secret Epilogue",
+        "fr": "Fin F : Réconciliation",
+        "it": "Finale F: Riconciliazione",
+        "de": "Ende F: Versöhnung",
+        "zh": "结局F：和解",
+        "ja": "エンディングF：和解"
+    },
+    "icon": "🌸",
+    "desc": {
+        "es": "Juicio de la Esfera y Desenlace F: El Perdón y la Clínica de Elara.",
+        "en": "Sphere Judgment and Outcome F: Forgiveness and Elara's Clinic.",
+        "fr": "Jugement de la Sphère et Dénouement F : Le Pardon et la Clinique d'Elara.",
+        "it": "Giudizio della Sfera ed Esito F: Il Perdono e la Clinica di Elara.",
+        "de": "Urteil der Sphäre und Ausgang F: Die Vergebung und Elaras Klinik.",
+        "zh": "真理之球的审判与结局F：宽恕与艾拉拉的诊所。",
+        "ja": "球の審判と結末F：赦しとエララの診療所。"
+    },
+    "portal": {
+        "view": "cinematic",
+        "cinematic_id": "final_f",
+        "label": "🔮  Ver Final F: Epílogo Secreto"
+    },
+    "bg": "bg_ending_temple.png"
+}

@@ -1,0 +1,12 @@
+{
+	"t": "armario_libreria",
+	"order": 230,
+	"label": "Armario Alto (Librería)",
+	"icon": "📚",
+	"color": "#6e4b2a",
+	"group": "Decoración",
+	"solid": true,
+	"orient": true,
+	"decor": true,
+	"entity": true
+}

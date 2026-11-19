@@ -1,0 +1,23 @@
+{
+    "name": {
+        "es": "Plano de la Hoguera",
+        "en": "Campfire Blueprint",
+        "fr": "Plan de Feu de Camp",
+        "it": "Progetto del Falò",
+        "de": "Lagerfeuer-Bauplan",
+        "zh": "篝火图纸",
+        "ja": "キャンプファイアの設計図"
+    },
+    "desc": {
+        "es": "Instrucciones para levantar una hoguera junto al campamento (20 maderas).",
+        "en": "Instructions to build a campfire next to your camp (20 wood).",
+        "fr": "Instructions pour construire un feu de camp près de votre campement (20 bois).",
+        "it": "Istruzioni per costruire un falò accanto all'accampamento (20 legna).",
+        "de": "Anleitung zum Bau eines Lagerfeuers neben deinem Lager (20 Holz).",
+        "zh": "在营地旁搭建篝火的说明书（需要 20 份木材）。",
+        "ja": "キャンプの近くに焚き火を作るための説明書（木材20個）。"
+    },
+    "icon": "📜",
+    "category": "important",
+    "usable": false
+}

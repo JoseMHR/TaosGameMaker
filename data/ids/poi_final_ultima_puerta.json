@@ -1,0 +1,26 @@
+{
+    "id": "poi_final_ultima_puerta",
+    "type": "poi",
+    "icon": "🌅",
+    "name": {
+        "es": "La Última Puerta",
+        "en": "The Last Door",
+        "fr": "La Dernière Porte",
+        "it": "L'Ultima Porta",
+        "de": "Die Letzte Tür",
+        "zh": "最后一道门",
+        "ja": "最後の扉"
+    },
+    "desc": {
+        "es": "Un umbral de luz cálida suspendido sobre el abismo, del que emana una paz que asusta y atrae a partes iguales. (POI de inspección).",
+        "en": "A threshold of warm light suspended over the abyss, radiating a peace that frightens and draws you in equal measure. (Inspection POI).",
+        "fr": "Un seuil de lumière chaude suspendu au-dessus de l'abîme, dégageant une paix qui effraie et attire à parts égales. (POI d'inspection).",
+        "it": "Una soglia di luce calda sospesa sull'abisso, da cui emana una pace che spaventa e attrae in egual misura. (POI di ispezione).",
+        "de": "Eine Schwelle warmen Lichts, über dem Abgrund schwebend, von der ein Frieden ausgeht, der gleichermaßen erschreckt und anzieht. (Inspektions-POI).",
+        "zh": "悬浮在深渊之上的温暖光之门槛，散发着令人既恐惧又向往的平静。（探查类兴趣点）。",
+        "ja": "深淵の上に浮かぶ温かな光の敷居。恐怖と魅惑を等しくもたらす安らぎを放っている。（調査ポイント）。"
+    },
+    "npc": "poi_final_ultima_puerta",
+    "bg": "bg_world_poi_final_ultima_puerta.png",
+    "music": "creepy"
+}

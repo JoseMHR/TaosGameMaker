@@ -1,0 +1,183 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "La Roca Sonriente",
+            "en": "The Smiling Rock",
+            "fr": "Le Rocher Souriant",
+            "it": "La Roccia Sorridente",
+            "de": "Der Lächelnde Fels",
+            "zh": "微笑的岩石",
+            "ja": "微笑む岩"
+        },
+        "next": [],
+        "reward": "bg=0.06,0.06,0.07"
+    },
+    "filosofo_root": {
+        "type": "message",
+        "text": {
+            "es": "En medio del páramo desolado de Arcanum se alza un peñasco grisáceo con una profunda hendidura natural que forma una sonrisa socarrona y cínica. Cuanto más la miras, más parece que se está burlando abiertamente de tu equipo, de tu postura y de tus decisiones de vida.",
+            "en": "In the desolate badlands of Arcanum stands a weathered boulder whose natural fissure forms an unmistakably mocking, cynical grin. The longer you stare, the more it feels like it is actively ridiculing your gear, your posture, and your entire life trajectory.",
+            "fr": "Au milieu de la lande désolée d'Arcanum se dresse un rocher grisâtre avec une profonde fissure naturelle formant un sourire narquois et cynique. Plus tu le regardes, plus il semble se moquer ouvertement de ton équipement, de ta posture et de tes choix de vie.",
+            "it": "In mezzo alla landa desolata di Arcanum si erge un masso grigiastro con una profonda fenditura naturale che forma un sorriso beffardo e cinico. Più lo guardi, più sembra deridere apertamente il tuo equipaggiamento, la tua postura e le tue scelte di vita.",
+            "de": "Mitten im verlassenen Ödland von Arcanum steht ein gräulicher Felsbrocken mit einem tiefen natürlichen Riss, der ein unverkennbar spöttisches, zynisches Grinsen bildet. Je länger du hinschaust, desto mehr scheint er offen über deine Ausrüstung, deine Haltung und deine gesamte Lebensentscheidung zu spotten.",
+            "zh": "在奥秘遗迹荒凉的荒原中央，矗立着一块灰蒙蒙的巨石，上面天然形成的深深裂缝构成了一个明显嘲讽而愤世嫉俗的笑容。你盯着它看得越久，就越觉得它在公然嘲笑你的装备、你的姿态，以及你人生的所有选择。",
+            "ja": "アルカナムの荒涼とした荒野の真ん中に、灰色がかった巨岩が立っている。天然の裂け目が、紛れもなく嘲るような、皮肉めいた笑みを形作っている。見つめれば見つめるほど、それがお前の装備、姿勢、そして人生の選択全体を露骨に嘲笑っているように感じられる。"
+        },
+        "next": [
+            "filosofo_opt_hablar",
+            "filosofo_opt_filosofar",
+            "filosofo_opt_musgo",
+            "filosofo_opt_patada",
+            "filosofo_opt_salir"
+        ],
+        "reward": ""
+    },
+    "filosofo_opt_hablar": {
+        "type": "option",
+        "text": {
+            "es": "🗿  ¿De qué te ríes tanto, pedrusco?",
+            "en": "🗿  What are you smirking at, boulder?",
+            "fr": "🗿  De quoi ris-tu autant, gros caillou ?",
+            "it": "🗿  Di cosa ridi tanto, pietrone?",
+            "de": "🗿  Worüber lachst du so, Felsbrocken?",
+            "zh": "🗿  你笑什么呢，大石头？",
+            "ja": "🗿  何をニヤついているんだ、岩石野郎？"
+        },
+        "next": [
+            "filosofo_msg_hablar"
+        ],
+        "reward": ""
+    },
+    "filosofo_msg_hablar": {
+        "type": "message",
+        "text": {
+            "es": "El viento silba entre las grietas minerales produciendo un sonido que suena sospechosamente a carcajada burlona. 'Me río de los mortales que corren buscando reliquias y gloria. Hace mil años vino otro héroe igual que tú, con la misma mirada de iluminado... ahora sus huesos abonan el musgo que tengo en la espalda. Disfruta de la caminata, campeón.'",
+            "en": "The wind hisses through the mineral fissures, producing an acoustic vibration suspiciously identical to dry laughter. 'I laugh at mortals galloping about seeking relics and hollow glory. A thousand years ago another savior came with that exact same righteous scowl... today his marrow fertilizes the lichen on my backside. Enjoy the stroll, champ.'",
+            "fr": "Le vent siffle entre les fissures minérales, produisant un son suspicieusement semblable à un rire moqueur. « Je ris des mortels qui courent après les reliques et la gloire. Il y a mille ans est venu un autre héros comme toi, avec le même regard illuminé... maintenant ses os fertilisent la mousse sur mon dos. Profite de la balade, champion. »",
+            "it": "Il vento fischia tra le crepe minerali producendo un suono sospettosamente simile a una risata beffarda. 'Rido dei mortali che corrono in cerca di reliquie e gloria. Mille anni fa venne un altro eroe come te, con lo stesso sguardo illuminato... ora le sue ossa concimano il muschio sulla mia schiena. Goditi la camminata, campione.'",
+            "de": "Der Wind pfeift durch die mineralischen Risse und erzeugt einen Klang, der verdächtig nach höhnischem Gelächter klingt. „Ich lache über Sterbliche, die auf der Jagd nach Relikten und Ruhm herumlaufen. Vor tausend Jahren kam ein anderer Held wie du, mit demselben erleuchteten Blick... heute düngen seine Knochen das Moos auf meinem Rücken. Genieß den Spaziergang, Champion.“",
+            "zh": "风在矿石的裂缝间呼啸，发出一种可疑地类似嘲笑声的声音。「我在嘲笑那些为了遗物和荣耀而奔波的凡人。一千年前，来过一位和你一样的英雄，带着同样一副大彻大悟的表情……如今他的骸骨滋养着我背上的苔藓。享受这段旅程吧，冠军。」",
+            "ja": "風が鉱物の裂け目を吹き抜け、疑わしいほど嘲るような笑い声に似た音を立てる。「遺物と栄光を求めて駆け回る死すべき者たちを笑っているのさ。千年前、お前と同じような英雄気取りの目をした男が来たものだ……今では彼の骨が俺の背中の苔を肥やしている。散歩を楽しめよ、チャンピオン」"
+        },
+        "next": [
+            "filosofo_root"
+        ],
+        "reward": ""
+    },
+    "filosofo_opt_filosofar": {
+        "type": "option",
+        "text": {
+            "es": "🧠  Si tú estás inmóvil pero el cosmos se expande, ¿no eres tú quien viaja a velocidad sideral en reposo relativo?",
+            "en": "🧠  If you remain immobile while the cosmos expands, aren't you the one racing at sidereal velocity in relative rest?",
+            "fr": "🧠  Si toi tu es immobile mais que le cosmos sétend, nes-tu pas celui qui voyage à vitesse sidérale en repos relatif ?",
+            "it": "🧠  Se tu sei immobile ma il cosmo si espande, non sei tu che viaggi a velocità siderale in quiete relativa?",
+            "de": "🧠  Wenn du unbeweglich bist, aber der Kosmos sich ausdehnt, bist dann nicht du derjenige, der mit siderischer Geschwindigkeit in relativer Ruhe reist?",
+            "zh": "🧠  如果你静止不动，但宇宙在膨胀，那你难道不是在相对静止中以恒星速度旅行的那个人吗？",
+            "ja": "🧠  お前が静止していても宇宙が膨張しているなら、相対的な静止の中で恒星速度で旅しているのはお前自身ではないか？"
+        },
+        "next": [
+            "filosofo_msg_filosofar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "filosofo_msg_filosofar": {
+        "type": "message",
+        "text": {
+            "es": "El silbido del viento se detiene en seco. La hendidura de la roca deja de sonreír por primera vez en tres milenios. Se escucha un leve *CRAC* mineral interno mientras sus capas de basalto intentan computar la paradoja relativista. Un fragmento de geoda brillante con oro cae a tus pies. Has ganado un debate ontológico a una roca geológica.",
+            "en": "The wind whistling abruptly cuts out. The boulder's grin freezes and drops for the first time in three millennia. A subtle subterranean *CRACK* echoes as basalt layers overheat computing relativistic paradoxes. A glittering geode shard loaded with gold clatters to your boots. You defeated a prehistoric stone in ontological dialectics.",
+            "fr": "Le sifflement du vent s'arrête net. La fissure du rocher cesse de sourire pour la première fois en trois millénaires. On entend un léger *CRAC* minéral intérieur tandis que ses couches de basalte tentent de calculer le paradoxe relativiste. Un fragment de géode brillant chargé d'or tombe à tes pieds. Tu as gagné un débat ontologique contre une roche géologique.",
+            "it": "Il fischio del vento si interrompe di colpo. La fenditura della roccia smette di sorridere per la prima volta in tre millenni. Si sente un lieve *CRAC* minerale interno mentre i suoi strati di basalto tentano di calcolare il paradosso relativistico. Un frammento di geode brillante con oro cade ai tuoi piedi. Hai vinto un dibattito ontologico contro una roccia geologica.",
+            "de": "Das Pfeifen des Windes bricht abrupt ab. Der Riss im Felsen hört zum ersten Mal seit drei Jahrtausenden auf zu lächeln. Ein leises inneres mineralisches *KNACK* ist zu hören, während seine Basaltschichten versuchen, das relativistische Paradoxon zu berechnen. Ein glitzerndes Geodenfragment mit Gold fällt dir vor die Füße. Du hast eine ontologische Debatte gegen einen geologischen Felsen gewonnen.",
+            "zh": "风声戛然而止。这块岩石的裂缝三千年来第一次不再微笑。一声细微的矿物内部「咔嚓」声响起，它的玄武岩层正试图计算这个相对论悖论。一块闪闪发光、带金子的晶洞碎片掉落在你脚边。你赢得了一场与地质岩石的本体论辩论。",
+            "ja": "風の唸りがぴたりと止む。岩の裂け目は三千年ぶりに初めて笑うのをやめる。玄武岩の層が相対論的パラドックスを計算しようとする中、かすかな内部の鉱物的「ピシッ」という音が響く。金を含んだ輝く晶洞の破片がお前の足元に落ちる。地質学的な岩を相手に存在論的な議論に勝利したのだ。"
+        },
+        "next": [
+            "filosofo_root"
+        ],
+        "reward": "faceta:inteligencia=+1;discover:lore_roca_filosofa;gold:+35"
+    },
+    "filosofo_opt_musgo": {
+        "type": "option",
+        "text": {
+            "es": "🌱  (Acariciar el musgo de su lomo con ternura y agradecerle su sombra en el páramo)",
+            "en": "🌱  (Gently stroke the lichen on its back and thank it for providing shelter on the trail)",
+            "fr": "🌱  (Caresser tendrement la mousse sur son dos et le remercier pour son ombre dans la lande)",
+            "it": "🌱  (Accarezzare con tenerezza il muschio sul suo dorso e ringraziarlo per la sua ombra nella landa)",
+            "de": "🌱  (Zärtlich das Moos auf seinem Rücken streicheln und ihm für den Schatten auf dem Pfad danken)",
+            "zh": "🌱  （温柔地抚摸它背上的苔藓，感谢它在荒原中提供的荫凉）",
+            "ja": "🌱  （背中の苔を優しく撫で、荒野で日陰を提供してくれたことに感謝する）"
+        },
+        "next": [
+            "filosofo_msg_musgo"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "filosofo_msg_musgo": {
+        "type": "message",
+        "text": {
+            "es": "La roca emite una vibración armónica, tibia y reconfortante. Nadie en mil años le había mostrado cariño desinteresado. El calor telúrico asciende por tus palmas, sanando tus rozaduras y dolores musculares. La compasión hacia lo que parece inerte templa tu nobleza.",
+            "en": "The boulder hums with a deep, warm, comforting subterranean resonance. Not in a millennium had anyone shown it selfless warmth. Telluric heat flows into your palms, mending blisters and trail bruises. Compassion toward seemingly inanimate creation enriches your virtue.",
+            "fr": "Le rocher émet une vibration harmonique, tiède et réconfortante. Personne en mille ans ne lui avait montré de tendresse désintéressée. La chaleur tellurique remonte le long de tes paumes, guérissant tes écorchures et douleurs musculaires. La compassion envers ce qui semble inerte trempe ta noblesse.",
+            "it": "La roccia emette una vibrazione armonica, tiepida e confortante. Nessuno in mille anni le aveva mostrato affetto disinteressato. Il calore tellurico sale lungo i tuoi palmi, guarendo le tue escoriazioni e i dolori muscolari. La compassione verso ciò che sembra inerte tempra la tua nobiltà.",
+            "de": "Der Fels gibt eine warme, tröstliche harmonische Schwingung von sich. Niemand hatte ihm in tausend Jahren uneigennützige Zuneigung gezeigt. Tellurische Wärme steigt in deine Handflächen auf und heilt deine Schürfwunden und Muskelschmerzen. Mitgefühl gegenüber scheinbar Leblosem stärkt deinen Edelmut.",
+            "zh": "岩石发出一种温暖而令人安心的和谐振动。一千年来从未有人对它表现出无私的关爱。地脉的热量顺着你的手掌上升，治愈了你的擦伤和肌肉酸痛。对看似无生命之物的怜悯磨砺了你的高尚品格。",
+            "ja": "岩は温かく心地よい調和的な振動を発する。千年もの間、誰も無私の愛情を示したことはなかった。地の熱が手のひらを伝って上り、擦り傷と筋肉の痛みを癒していく。無生物に見えるものへの慈悲が、お前の気高さを鍛える。"
+        },
+        "next": [
+            "filosofo_root"
+        ],
+        "reward": "faceta:bondad=+1;heal:30"
+    },
+    "filosofo_opt_patada": {
+        "type": "option",
+        "text": {
+            "es": "👢  (Darle una patada con todas tus fuerzas)",
+            "en": "👢  (Kick the rock with all your might)",
+            "fr": "👢  (Lui donner un coup de pied de toutes tes forces)",
+            "it": "👢  (Darle un calcio con tutte le tue forze)",
+            "de": "👢  (Mit aller Kraft dagegen treten)",
+            "zh": "👢  （用尽全力踢它一脚）",
+            "ja": "👢  （全力で蹴りつける）"
+        },
+        "next": [
+            "filosofo_msg_patada"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "filosofo_msg_patada": {
+        "type": "message",
+        "text": {
+            "es": "¡CLANG! Te rompes casi el dedo gordo del pie, y el dolor te sube por toda la pierna hasta dejarte medio grupo muscular en fuego. La roca no se ha inmutado ni un milímetro, pero su sonrisa parece haberse ensanchado dos centímetros. La estupidez temeraria forja el carácter de los más duros.",
+            "en": "CLANG! You nearly fracture your big toe, the pain shooting up your whole leg until half your muscles are on fire. The boulder does not budge a micron, yet its grin appears to have broadened by two whole centimeters. Reckless bravado tempers the hardest souls.",
+            "fr": "CLANG ! Tu te casses presque le gros orteil, et la douleur remonte toute ta jambe jusqu'à te laisser la moitié des muscles en feu. Le rocher n'a pas bougé d'un millimètre, mais son sourire semble s'être élargi de deux centimètres. La bravade téméraire forge le caractère des plus endurcis.",
+            "it": "CLANG! Ti spacchi quasi l'alluce, e il dolore ti sale su per tutta la gamba lasciandoti mezzo gruppo muscolare in fiamme. La roccia non si è mossa di un millimetro, ma il suo sorriso sembra essersi allargato di due centimetri. La stupidità sconsiderata forgia il carattere dei più duri.",
+            "de": "KLONG! Du brichst dir fast den großen Zeh, und der Schmerz schießt dein ganzes Bein hinauf, bis die Hälfte deiner Muskeln in Flammen steht. Der Fels hat sich nicht einen Millimeter bewegt, aber sein Grinsen scheint sich um zwei Zentimeter verbreitert zu haben. Waghalsige Tollkühnheit formt den Charakter der Härtesten.",
+            "zh": "咣当！你差点摔断大脚趾，疼痛沿着整条腿蔓延，让你半边肌肉都像着了火一样。这块岩石纹丝未动，但它的笑容似乎变宽了两厘米。鲁莽的冒失锻造着最坚韧之人的性格。",
+            "ja": "ガツン！足の親指をほとんど折りかけ、痛みが脚全体を駆け上がり、筋肉の半分が燃えるようになる。岩は一ミリも動かないが、その笑みは二センチ広がったように見える。無謀な蛮勇が最も屈強な魂を鍛える。"
+        },
+        "next": [
+            "filosofo_root"
+        ],
+        "reward": "damage:40%;faceta:valor=+1"
+    },
+    "filosofo_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  (Ignorar a la roca y seguir caminando)",
+            "en": "🚶  (Ignore the mocking stone and march on)",
+            "fr": "🚶  (Ignorer la pierre moqueuse et continuer ta route)",
+            "it": "🚶  (Ignorare la pietra beffarda e proseguire il cammino)",
+            "de": "🚶  (Den spöttischen Stein ignorieren und weitergehen)",
+            "zh": "🚶  （无视这块嘲弄人的岩石，继续前行）",
+            "ja": "🚶  （嘲る石を無視して先へ進む）"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

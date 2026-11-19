@@ -1,0 +1,23 @@
+{
+    "name": {
+        "es": "Banana",
+        "en": "Banana",
+        "fr": "Banane",
+        "it": "Banana",
+        "de": "Banane",
+        "zh": "香蕉",
+        "ja": "バナナ"
+    },
+    "desc": {
+        "es": "Una banana madura muy apreciada por cierto habitante.",
+        "en": "A ripe banana, prized by a certain dweller.",
+        "fr": "Une banane mûre très appréciée par un certain habitant.",
+        "it": "Una banana matura molto apprezzata da un certo abitante.",
+        "de": "Eine reife Banane, die von einem bestimmten Bewohner sehr geschätzt wird.",
+        "zh": "一根熟透的香蕉，深受某位居民喜爱。",
+        "ja": "ある住民にとても好まれている熟れたバナナ。"
+    },
+    "icon": "🍌",
+    "category": "important",
+    "usable": false
+}

@@ -1,0 +1,166 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Coleccionista de Dientes",
+            "en": "The Tooth Collector",
+            "fr": "Le Collectionneur de Dents",
+            "it": "Il Collezionista di Denti",
+            "de": "Der Zahnsammler",
+            "zh": "牙齿收藏家",
+            "ja": "歯のコレクター"
+        },
+        "next": [],
+        "reward": "avatar=🦷;bg=0.09,0.08,0.07"
+    },
+    "dientes_root": {
+        "type": "message",
+        "text": {
+            "es": "Tras una mesa desvencijada, un ermitaño de ojos amables te sonríe con las encías desnudas: no le queda ni un solo diente. Ante él, sobre un paño negro, cientos de dientes humanos ordenados con mimo por tamaño, forma y color, cada uno con una etiquetita. 'Bienvenido, bienvenido', cecea encantado. 'Colecciono sonrisas. La gente cree que colecciono dientes, pero no: cada uno guarda la risa de quien lo perdió. ¿Me regalarías la tuya? Solo una. Ni la notarás.' Extiende unos alicates limpios y relucientes.",
+            "en": "Behind a rickety table, a kind-eyed hermit smiles at you with bare gums: he hasn't a single tooth left. Before him, on a black cloth, hundreds of human teeth lovingly arranged by size, shape and color, each with a little label. 'Welcome, welcome,' he lisps, delighted. 'I collect smiles. People think I collect teeth, but no: each one holds the laughter of whoever lost it. Would you gift me yours? Just one. You won't even feel it.' He holds out a clean, gleaming pair of pliers.",
+            "fr": "Derrière une table branlante, un ermite aux yeux doux te sourit avec des gencives nues : il ne lui reste plus une seule dent. Devant lui, sur un tissu noir, des centaines de dents humaines soigneusement disposées par taille, forme et couleur, chacune avec une petite étiquette. « Bienvenue, bienvenue », zozote-t-il, ravi. « Je collectionne les sourires. Les gens croient que je collectionne des dents, mais non : chacune garde le rire de celui qui l'a perdue. M'offrirais-tu la tienne ? Juste une. Tu ne la sentiras même pas. » Il tend une paire de pinces propres et brillantes.",
+            "it": "Dietro un tavolo traballante, un eremita dagli occhi gentili ti sorride con le gengive nude: non gli resta nemmeno un dente. Davanti a lui, su un panno nero, centinaia di denti umani ordinati con cura per dimensione, forma e colore, ognuno con una piccola etichetta. 'Benvenuto, benvenuto', biascica incantato. 'Colleziono sorrisi. La gente crede che io collezioni denti, ma no: ognuno custodisce la risata di chi lo ha perso. Mi regaleresti il tuo? Solo uno. Non lo sentirai nemmeno.' Estende delle pinze pulite e lucenti.",
+            "de": "Hinter einem wackligen Tisch lächelt dich ein Einsiedler mit sanften Augen mit bloßem Zahnfleisch an: er hat keinen einzigen Zahn mehr. Vor ihm, auf einem schwarzen Tuch, liegen hunderte menschlicher Zähne, liebevoll nach Größe, Form und Farbe geordnet, jeder mit einem kleinen Etikett. „Willkommen, willkommen“, lispelt er entzückt. „Ich sammle Lächeln. Die Leute glauben, ich sammle Zähne, aber nein: jeder bewahrt das Lachen dessen, der ihn verloren hat. Würdest du mir deinen schenken? Nur einen. Du wirst es nicht einmal spüren.“ Er hält eine saubere, glänzende Zange hin.",
+            "zh": "在一张摇摇欲坠的桌子后面，一位眼神温和的隐士朝你露出光秃秃的牙龈微笑：他一颗牙齿都不剩了。在他面前，一块黑布上摆放着数百颗人类牙齿，按大小、形状和颜色精心排列，每一颗都贴着小标签。「欢迎，欢迎，」他带着含糊不清的语调兴奋地说道。「我收藏的是笑容。人们以为我收藏的是牙齿，但不是：每一颗都保存着失去它的人的笑声。你愿意送给我一颗吗？只要一颗。你甚至都不会感觉到。」他递出一把干净发亮的钳子。",
+            "ja": "ぐらついた机の向こうで、優しい目をした隠者が歯茎をむき出しにして微笑む——歯が一本も残っていない。彼の前には黒い布の上に、大きさ、形、色によって丁寧に並べられた何百もの人間の歯があり、それぞれに小さなラベルがついている。「ようこそ、ようこそ」と嬉しそうに舌足らずに言う。「私は笑顔を集めているのです。皆は歯を集めていると思っていますが、違います——それぞれが失った人の笑い声を宿しているのです。一本、私にくださいませんか？たった一本です。感じることすらないでしょう」清潔で輝くペンチを差し出す。"
+        },
+        "next": [
+            "dientes_opt_dar",
+            "dientes_opt_negar",
+            "dientes_opt_preguntar",
+            "dientes_opt_huir"
+        ],
+        "reward": ""
+    },
+    "dientes_opt_preguntar": {
+        "type": "option",
+        "text": {
+            "es": "❓  ¿Por qué haces esto? ¿De dónde son todos estos dientes?",
+            "en": "❓  Why do you do this? Where are all these teeth from?",
+            "fr": "❓  Pourquoi fais-tu ça ? D'où viennent toutes ces dents ?",
+            "it": "❓  Perché fai questo? Da dove vengono tutti questi denti?",
+            "de": "❓  Warum tust du das? Woher kommen all diese Zähne?",
+            "zh": "❓  你为什么要这样做？这些牙齿都是从哪里来的？",
+            "ja": "❓  なぜこんなことをするんだ？この歯はどこから来たんだ？"
+        },
+        "next": [
+            "dientes_msg_preguntar"
+        ],
+        "reward": ""
+    },
+    "dientes_msg_preguntar": {
+        "type": "message",
+        "text": {
+            "es": "'Ah, todos donados, todos con gusto', asegura acariciando el paño. 'Verás, yo tenía una risa preciosa. La perdí el día que enterré a mi mujer: se me cayeron los dientes uno a uno, del disgusto, en un mes. Desde entonces guardo las risas de otros, para que no se pierdan como se perdió la mía. Cuando echo de menos reír, saco uno y me acuerdo de su dueño.' Lo dice con una ternura tan absoluta que no sabes si es lo más tierno o lo más perturbador que has oído en el páramo. Probablemente ambas cosas.",
+            "en": "'Ah, all donated, all gladly given,' he assures you, stroking the cloth. 'You see, I had a beautiful laugh. I lost it the day I buried my wife: my teeth fell out one by one, from grief, in a month. Since then I keep the laughter of others, so it won't be lost the way mine was. When I miss laughing, I take one out and remember its owner.' He says it with such absolute tenderness that you can't tell if it's the sweetest or the most disturbing thing you've heard in the moor. Probably both.",
+            "fr": "« Ah, tous donnés, tous avec plaisir », assure-t-il en caressant le tissu. « Vois-tu, j'avais un rire magnifique. Je l'ai perdu le jour où j'ai enterré ma femme : mes dents sont tombées une à une, de chagrin, en un mois. Depuis, je garde les rires des autres, pour qu'ils ne se perdent pas comme le mien s'est perdu. Quand le rire me manque, j'en sors une et je me souviens de son propriétaire. » Il le dit avec une tendresse si absolue que tu ne sais pas si c'est la chose la plus touchante ou la plus troublante que tu aies entendue dans la lande. Probablement les deux.",
+            "it": "'Ah, tutti donati, tutti con piacere', assicura accarezzando il panno. 'Vedi, avevo una risata bellissima. La persi il giorno in cui seppellii mia moglie: mi caddero i denti uno a uno, per il dispiacere, in un mese. Da allora conservo le risate degli altri, perché non si perdano come si perse la mia. Quando mi manca ridere, ne tiro fuori uno e mi ricordo del suo proprietario.' Lo dice con una tenerezza così assoluta che non sai se sia la cosa più tenera o più inquietante che tu abbia sentito nella landa. Probabilmente entrambe.",
+            "de": "„Ah, alle gespendet, alle gerne gegeben“, versichert er und streichelt das Tuch. „Siehst du, ich hatte ein wunderschönes Lachen. Ich verlor es an dem Tag, als ich meine Frau begrub: meine Zähne fielen einer nach dem anderen aus, vor Kummer, innerhalb eines Monats. Seitdem bewahre ich die Lacher anderer, damit sie nicht verloren gehen, wie meines verloren ging. Wenn mir das Lachen fehlt, nehme ich einen heraus und erinnere mich an seinen Besitzer.“ Er sagt es mit einer so absoluten Zärtlichkeit, dass du nicht weißt, ob es das Zärtlichste oder das Verstörendste ist, was du im Ödland gehört hast. Wahrscheinlich beides.",
+            "zh": "「啊，全都是捐赠的，全都是心甘情愿的，」他一边抚摸着那块布一边保证道。「你瞧，我曾经有一个美妙的笑容。就在我埋葬妻子的那天，我失去了它：我的牙齿因悲伤在一个月内一颗接一颗地掉落。从那以后，我保存着别人的笑声，让它们不像我的那样消失。当我想笑却笑不出来时，我就拿出一颗，想起它的主人。」他说这话时带着一种绝对的温柔，让你分不清这是你在荒原上听过的最感人的事，还是最令人不安的事。大概两者皆是。",
+            "ja": "「ああ、すべて贈られたもの、すべて快く与えられたものです」と布を撫でながら請け合う。「実は私にも美しい笑いがあったのです。妻を埋葬した日にそれを失いました——悲しみのあまり、一ヶ月のうちに歯が一本ずつ抜け落ちていったのです。それ以来、私の笑いが失われたように失われないよう、他人の笑いを保管しているのです。笑うことが恋しくなると、一本取り出してその持ち主を思い出すのです」あまりにも絶対的な優しさで語るので、それが荒野で聞いた中で最も優しいことなのか、最も不穏なことなのか分からない。おそらく両方だろう。"
+        },
+        "next": [
+            "dientes_root"
+        ],
+        "reward": ""
+    },
+    "dientes_opt_dar": {
+        "type": "option",
+        "text": {
+            "es": "🦷  Acceder: dejar que te saque una muela por curiosidad morbosa",
+            "en": "🦷  Agree: let him pull a tooth out of morbid curiosity",
+            "fr": "🦷  Accepter : le laisser t'arracher une molaire par curiosité morbide",
+            "it": "🦷  Accettare: lasciarti strappare un molare per curiosità morbosa",
+            "de": "🦷  Zustimmen: sich aus morbider Neugier einen Backenzahn ziehen lassen",
+            "zh": "🦷  同意：出于病态的好奇心，让他拔出你的一颗臼齿",
+            "ja": "🦷  同意する：病的な好奇心から奥歯を抜かせる"
+        },
+        "next": [
+            "dientes_msg_dar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "dientes_msg_dar": {
+        "type": "message",
+        "text": {
+            "es": "Abres la boca. Un chasquido, un pinchazo, y el ermitaño alza tu muela a la luz como un joyero con un diamante. Los ojos se le llenan de lágrimas de pura gratitud. 'Preciosa. Se nota que has reído poco y llorado mucho. La cuidaré.' La coloca con reverencia entre las demás y le pone una etiqueta con la fecha de hoy. Te vas con un hueco en la encía, un regusto a hierro y la incómoda sensación de haber dejado un pedacito de ti en una colección de duelos ajenos.",
+            "en": "You open your mouth. A click, a sting, and the hermit lifts your tooth to the light like a jeweler with a diamond. His eyes brim with tears of pure gratitude. 'Beautiful. You can tell you've laughed little and wept much. I'll take good care of it.' He sets it reverently among the others and labels it with today's date. You leave with a gap in your gum, an iron aftertaste, and the uneasy feeling of having left a small piece of yourself in a collection of other people's grief.",
+            "fr": "Tu ouvres la bouche. Un clic, un pincement, et l'ermite lève ta molaire vers la lumière comme un bijoutier avec un diamant. Ses yeux s'emplissent de larmes de pure gratitude. « Magnifique. On voit que tu as peu ri et beaucoup pleuré. J'en prendrai bien soin. » Il la place avec révérence parmi les autres et l'étiquette avec la date d'aujourd'hui. Tu repars avec un trou dans la gencive, un arrière-goût de fer et le sentiment inconfortable d'avoir laissé un petit morceau de toi dans une collection de deuils étrangers.",
+            "it": "Apri la bocca. Uno scatto, una fitta, e l'eremita alza il tuo molare alla luce come un gioielliere con un diamante. Gli occhi gli si riempiono di lacrime di pura gratitudine. 'Bellissimo. Si vede che hai riso poco e pianto molto. Me ne prenderò cura.' Lo colloca con riverenza tra gli altri e gli mette un'etichetta con la data di oggi. Te ne vai con un buco nella gengiva, un retrogusto di ferro e la scomoda sensazione di aver lasciato un pezzetto di te in una collezione di lutti altrui.",
+            "de": "Du öffnest den Mund. Ein Klick, ein Stechen, und der Einsiedler hebt deinen Backenzahn wie ein Juwelier einen Diamanten ins Licht. Seine Augen füllen sich mit Tränen reiner Dankbarkeit. „Wunderschön. Man merkt, dass du wenig gelacht und viel geweint hast. Ich werde ihn gut hüten.“ Er legt ihn ehrfürchtig zu den anderen und beschriftet ihn mit dem heutigen Datum. Du gehst mit einer Lücke im Zahnfleisch, einem Eisengeschmack und dem unangenehmen Gefühl, ein kleines Stück von dir in einer Sammlung fremder Trauer zurückgelassen zu haben.",
+            "zh": "你张开嘴。一声咔哒，一阵刺痛，隐士像一位捧着钻石的珠宝匠一样，把你的臼齿举向光亮处。他的眼中充满了纯粹感激的泪水。「太美了。看得出来你笑得少，哭得多。我会好好照顾它的。」他恭敬地把它放在其他牙齿之间，贴上今天日期的标签。你带着牙龈上的一个空洞、口中铁锈的余味，以及一种把自己的一小部分留在了别人悲伤收藏品中的不安感觉离开了。",
+            "ja": "口を開ける。カチッという音、刺すような痛み、そして隠者は宝石商がダイヤモンドを扱うように奥歯を光にかざす。彼の目は純粋な感謝の涙で満ちる。「美しい。あまり笑わず、多くを泣いたことが分かります。大切にしましょう」うやうやしく他のものの中に置き、今日の日付をラベルに書き込む。歯茎に穴が空いたまま、鉄のような後味とともに、他人の悲しみのコレクションに自分の小さな一部を残してきたという居心地の悪い感覚を抱えて立ち去る。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:aspecto=-1;faceta:cordura=-1"
+    },
+    "dientes_opt_negar": {
+        "type": "option",
+        "text": {
+            "es": "✋  Negarte con firmeza pero con respeto, y desearle suerte",
+            "en": "✋  Refuse firmly but respectfully, and wish him well",
+            "fr": "✋  Refuser fermement mais avec respect, et lui souhaiter bonne chance",
+            "it": "✋  Rifiutare con fermezza ma con rispetto, e augurargli buona fortuna",
+            "de": "✋  Standhaft, aber respektvoll ablehnen und ihm Glück wünschen",
+            "zh": "✋  坚定但尊重地拒绝，并祝他好运",
+            "ja": "✋  毅然としつつも敬意を持って断り、幸運を祈る"
+        },
+        "next": [
+            "dientes_msg_negar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "dientes_msg_negar": {
+        "type": "message",
+        "text": {
+            "es": "'No, amigo. Mi risa me la quedo yo, aunque la use poco', le dices con calma, sin apartar la vista de los alicates. Él asiente, sin ofenderse lo más mínimo. 'Haces bien. Yo regalé la mía sin querer y mira dónde acabé.' Guarda los alicates. Antes de irte, te suelta: 'Ríete más, viajero. No esperes a un entierro para descubrir cuánto valía tu sonrisa.' Te marchas con los dientes intactos y un consejo que pesa más de lo que esperabas. Plantarse ante lo perturbador sin ser cruel también es una forma de valor.",
+            "en": "'No, friend. I'll keep my laugh, even if I use it little,' you say calmly, never taking your eyes off the pliers. He nods, not the least offended. 'You do well. I gave mine away without meaning to, and look where I ended up.' He puts the pliers away. Before you go, he adds: 'Laugh more, traveler. Don't wait for a funeral to find out what your smile was worth.' You leave with your teeth intact and a piece of advice that weighs more than you expected. Standing your ground before the disturbing without being cruel is its own kind of courage.",
+            "fr": "« Non, mon ami. Je garde mon rire, même si je l'utilise peu », lui dis-tu calmement, sans quitter les pinces des yeux. Il acquiesce, sans être le moins du monde offensé. « Tu fais bien. J'ai donné le mien sans le vouloir et regarde où j'ai fini. » Il range les pinces. Avant de partir, il te lance : « Ris davantage, voyageur. N'attends pas des funérailles pour découvrir la valeur de ton sourire. » Tu repars les dents intactes et avec un conseil qui pèse plus lourd que prévu. Se tenir droit face au troublant sans être cruel est aussi une forme de courage.",
+            "it": "'No, amico. La mia risata la tengo io, anche se la uso poco', gli dici con calma, senza mai staccare gli occhi dalle pinze. Lui annuisce, senza offendersi minimamente. 'Fai bene. Io regalai la mia senza volerlo e guarda dove sono finito.' Ripone le pinze. Prima che tu vada, ti lancia: 'Ridi di più, viaggiatore. Non aspettare un funerale per scoprire quanto valeva il tuo sorriso.' Te ne vai con i denti intatti e un consiglio che pesa più di quanto ti aspettassi. Tenere testa a ciò che è inquietante senza essere crudele è anch'esso una forma di coraggio.",
+            "de": "„Nein, Freund. Ich behalte mein Lachen, auch wenn ich es wenig nutze“, sagst du ruhig, ohne die Zange aus den Augen zu lassen. Er nickt, ohne im Geringsten beleidigt zu sein. „Du tust gut daran. Ich gab meins unbeabsichtigt weg, und schau, wo ich gelandet bin.“ Er legt die Zange weg. Bevor du gehst, wirft er dir zu: „Lach mehr, Reisender. Warte nicht auf eine Beerdigung, um herauszufinden, was dein Lächeln wert war.“ Du gehst mit unversehrten Zähnen und einem Rat, der schwerer wiegt, als du erwartet hattest. Sich dem Verstörenden zu stellen, ohne grausam zu sein, ist ebenfalls eine Form von Mut.",
+            "zh": "「不，朋友。我的笑容我自己留着，尽管我用得不多，」你平静地对他说，目光始终没有离开那把钳子。他点了点头，一点也不觉得被冒犯。「你做得对。我不小心把我的送出去了，看看我落到了什么地步。」他收起了钳子。在你离开之前，他对你说：「多笑一点，旅人。别等到葬礼才发现你的笑容有多珍贵。」你带着完好无损的牙齿，以及一句比你预想更沉重的忠告离开了。在不残忍的前提下坚定地面对令人不安之事，也是一种勇气。",
+            "ja": "「いや、友よ。私の笑いはあまり使わないが、自分のものとして持っておく」ペンチから目を離さずに冷静に言う。彼は少しも気を悪くせず頷く。「それでいい。私は意図せず自分の笑いを譲ってしまい、この有様だ」ペンチをしまう。去る前に彼はこう投げかける。「もっと笑え、旅人よ。葬式を待って初めて自分の笑顔の価値を知るなよ」歯は無傷のまま、そして予想以上に重みのある助言を胸に立ち去る。不穏なものの前で残酷にならずに毅然とすることも、一種の勇気なのだ。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:valor=+1"
+    },
+    "dientes_opt_huir": {
+        "type": "option",
+        "text": {
+            "es": "🏃  Los alicates. Salir pitando sin decir palabra",
+            "en": "🏃  The pliers. Bolt without a word",
+            "fr": "🏃  Ces pinces. Filer sans dire un mot",
+            "it": "🏃  Quelle pinze. Filare via senza dire una parola",
+            "de": "🏃  Diese Zange. Ohne ein Wort abhauen",
+            "zh": "🏃  那把钳子。一言不发地逃跑",
+            "ja": "🏃  あのペンチだ。一言も言わずに逃げ出す"
+        },
+        "next": [
+            "dientes_msg_huir"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "dientes_msg_huir": {
+        "type": "message",
+        "text": {
+            "es": "No esperas a averiguar si esos alicates son solo para 'donaciones voluntarias'. Das media vuelta y sales corriendo mientras el ermitaño te grita, dolido: '¡Solo quería una sonrisa! ¡Todo el mundo huye de mí! ¡Por eso las guardo!' Su lamento se pierde a tu espalda. Quizá era inofensivo; quizá no. Pero hay sustos que el cuerpo decide por ti, y las piernas casi siempre votan por marcharse.",
+            "en": "You don't wait to find out whether those pliers are only for 'voluntary donations'. You spin around and run while the hermit shouts after you, wounded: 'I only wanted a smile! Everyone runs from me! That's why I keep them!' His lament fades behind you. Maybe he was harmless; maybe not. But there are frights the body decides for you, and the legs almost always vote to leave.",
+            "fr": "Tu n'attends pas de découvrir si ces pinces ne sont que pour les « dons volontaires ». Tu fais demi-tour et t'enfuis en courant tandis que l'ermite te crie, blessé : « Je voulais juste un sourire ! Tout le monde me fuit ! C'est pour ça que je les garde ! » Sa plainte se perd derrière toi. Peut-être était-il inoffensif ; peut-être pas. Mais il y a des frayeurs que le corps décide à ta place, et les jambes votent presque toujours pour partir.",
+            "it": "Non aspetti di scoprire se quelle pinze sono solo per 'donazioni volontarie'. Fai dietrofront e corri via mentre l'eremita ti grida, ferito: 'Volevo solo un sorriso! Tutti scappano da me! Per questo li conservo!' Il suo lamento si perde dietro di te. Forse era innocuo; forse no. Ma ci sono spaventi che il corpo decide per te, e le gambe votano quasi sempre per andarsene.",
+            "de": "Du wartest nicht, um herauszufinden, ob diese Zange nur für „freiwillige Spenden“ ist. Du drehst dich um und rennst davon, während der Einsiedler verletzt hinter dir herruft: „Ich wollte nur ein Lächeln! Alle rennen vor mir davon! Deshalb bewahre ich sie auf!“ Sein Klagen verklingt hinter dir. Vielleicht war er harmlos; vielleicht nicht. Aber es gibt Schrecken, die der Körper für dich entscheidet, und die Beine stimmen fast immer für die Flucht.",
+            "zh": "你没有等着弄清楚那把钳子是不是只用于「自愿捐赠」。你转身拔腿就跑，隐士在你身后受伤般地喊道：「我只是想要一个笑容而已！所有人都逃离我！这就是我保存它们的原因！」他的哀叹在你身后渐渐消失。也许他是无害的；也许不是。但有些恐惧是由身体替你决定的，而双腿几乎总是投票选择离开。",
+            "ja": "あのペンチが「自発的な寄付」だけのためのものかどうかを確かめる気はない。振り返って走り出すと、傷ついた隠者が背後から叫ぶ。「私はただ笑顔が欲しかっただけだ！皆が私から逃げていく！だからそれを保存しているんだ！」彼の嘆きは背後で消えていく。彼は無害だったかもしれない、そうでなかったかもしれない。だが体が代わりに決める恐怖というものがあり、脚はほとんど常に逃げることに投票するのだ。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:valor=-1"
+    }
+}

@@ -1,0 +1,189 @@
+[gd_scene load_steps=10 format=3 uid="uid://caja_pesada_pbr"]
+
+[ext_resource type="Texture2D" uid="uid://bev146w8eyywm" path="res://assets/common/models/interactive/caja_pesada_tex_1.png" id="1_albedo"]
+[ext_resource type="Texture2D" uid="uid://c4busx18ly7cm" path="res://assets/common/models/interactive/caja_pesada_tex_0.png" id="2_normal"]
+
+[sub_resource type="StandardMaterial3D" id="Mat_HeavyCore"]
+albedo_color = Color(0.48, 0.50, 0.54, 1)
+albedo_texture = ExtResource("1_albedo")
+metallic = 0.65
+roughness = 0.45
+normal_enabled = true
+normal_texture = ExtResource("2_normal")
+uv1_scale = Vector3(1, 1, 1)
+
+[sub_resource type="StandardMaterial3D" id="Mat_ReinforcedSteel"]
+albedo_color = Color(0.18, 0.19, 0.22, 1)
+metallic = 0.85
+roughness = 0.35
+
+[sub_resource type="StandardMaterial3D" id="Mat_BrassRivets"]
+albedo_color = Color(0.72, 0.60, 0.38, 1)
+metallic = 0.90
+roughness = 0.28
+
+[sub_resource type="BoxMesh" id="Mesh_HeavyCore"]
+size = Vector3(1.24, 1.24, 1.24)
+
+[sub_resource type="BoxMesh" id="Mesh_FrameH"]
+size = Vector3(1.30, 0.14, 1.30)
+
+[sub_resource type="BoxMesh" id="Mesh_PostV"]
+size = Vector3(0.14, 1.24, 0.14)
+
+[sub_resource type="BoxMesh" id="Mesh_MidBand"]
+size = Vector3(1.28, 0.18, 1.28)
+
+[sub_resource type="BoxMesh" id="Mesh_Cross"]
+size = Vector3(1.42, 0.12, 0.03)
+
+[sub_resource type="BoxMesh" id="Mesh_Corner"]
+size = Vector3(0.18, 0.18, 0.18)
+
+[sub_resource type="SphereMesh" id="Mesh_Rivet"]
+radius = 0.028
+height = 0.056
+radial_segments = 6
+rings = 4
+
+[node name="CajaPesada" type="Node3D"]
+
+[node name="Core" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.625, 0)
+material_override = SubResource("Mat_HeavyCore")
+mesh = SubResource("Mesh_HeavyCore")
+
+[node name="FrameTop" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.18, 0)
+material_override = SubResource("Mat_ReinforcedSteel")
+mesh = SubResource("Mesh_FrameH")
+
+[node name="FrameBottom" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.07, 0)
+material_override = SubResource("Mat_ReinforcedSteel")
+mesh = SubResource("Mesh_FrameH")
+
+[node name="MidBand" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.625, 0)
+material_override = SubResource("Mat_ReinforcedSteel")
+mesh = SubResource("Mesh_MidBand")
+
+[node name="Post1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.56, 0.625, 0.56)
+material_override = SubResource("Mat_ReinforcedSteel")
+mesh = SubResource("Mesh_PostV")
+
+[node name="Post2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.56, 0.625, 0.56)
+material_override = SubResource("Mat_ReinforcedSteel")
+mesh = SubResource("Mesh_PostV")
+
+[node name="Post3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.56, 0.625, -0.56)
+material_override = SubResource("Mat_ReinforcedSteel")
+mesh = SubResource("Mesh_PostV")
+
+[node name="Post4" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.56, 0.625, -0.56)
+material_override = SubResource("Mat_ReinforcedSteel")
+mesh = SubResource("Mesh_PostV")
+
+[node name="CrossFront1" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.707107, -0.707107, 0, 0.707107, 0.707107, 0, 0, 0, 1, 0, 0.625, 0.626)
+material_override = SubResource("Mat_ReinforcedSteel")
+mesh = SubResource("Mesh_Cross")
+
+[node name="CrossFront2" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.707107, 0.707107, 0, -0.707107, 0.707107, 0, 0, 0, 1, 0, 0.625, 0.626)
+material_override = SubResource("Mat_ReinforcedSteel")
+mesh = SubResource("Mesh_Cross")
+
+[node name="CrossBack1" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.707107, -0.707107, 0, 0.707107, 0.707107, 0, 0, 0, 1, 0, 0.625, -0.626)
+material_override = SubResource("Mat_ReinforcedSteel")
+mesh = SubResource("Mesh_Cross")
+
+[node name="CrossBack2" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.707107, 0.707107, 0, -0.707107, 0.707107, 0, 0, 0, 1, 0, 0.625, -0.626)
+material_override = SubResource("Mat_ReinforcedSteel")
+mesh = SubResource("Mesh_Cross")
+
+[node name="CrossRight1" type="MeshInstance3D" parent="."]
+transform = Transform3D(0, 0, -1, 0.707107, 0.707107, 0, 0.707107, -0.707107, 0, 0.626, 0.625, 0)
+material_override = SubResource("Mat_ReinforcedSteel")
+mesh = SubResource("Mesh_Cross")
+
+[node name="CrossRight2" type="MeshInstance3D" parent="."]
+transform = Transform3D(0, 0, 1, -0.707107, 0.707107, 0, -0.707107, -0.707107, 0, 0.626, 0.625, 0)
+material_override = SubResource("Mat_ReinforcedSteel")
+mesh = SubResource("Mesh_Cross")
+
+[node name="CrossLeft1" type="MeshInstance3D" parent="."]
+transform = Transform3D(0, 0, 1, 0.707107, 0.707107, 0, -0.707107, 0.707107, 0, -0.626, 0.625, 0)
+material_override = SubResource("Mat_ReinforcedSteel")
+mesh = SubResource("Mesh_Cross")
+
+[node name="CrossLeft2" type="MeshInstance3D" parent="."]
+transform = Transform3D(0, 0, -1, -0.707107, 0.707107, 0, 0.707107, 0.707107, 0, -0.626, 0.625, 0)
+material_override = SubResource("Mat_ReinforcedSteel")
+mesh = SubResource("Mesh_Cross")
+
+[node name="CornerTop1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.57, 1.18, 0.57)
+material_override = SubResource("Mat_ReinforcedSteel")
+mesh = SubResource("Mesh_Corner")
+
+[node name="CornerTop2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.57, 1.18, 0.57)
+material_override = SubResource("Mat_ReinforcedSteel")
+mesh = SubResource("Mesh_Corner")
+
+[node name="CornerTop3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.57, 1.18, -0.57)
+material_override = SubResource("Mat_ReinforcedSteel")
+mesh = SubResource("Mesh_Corner")
+
+[node name="CornerTop4" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.57, 1.18, -0.57)
+material_override = SubResource("Mat_ReinforcedSteel")
+mesh = SubResource("Mesh_Corner")
+
+[node name="CornerBot1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.57, 0.07, 0.57)
+material_override = SubResource("Mat_ReinforcedSteel")
+mesh = SubResource("Mesh_Corner")
+
+[node name="CornerBot2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.57, 0.07, 0.57)
+material_override = SubResource("Mat_ReinforcedSteel")
+mesh = SubResource("Mesh_Corner")
+
+[node name="CornerBot3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.57, 0.07, -0.57)
+material_override = SubResource("Mat_ReinforcedSteel")
+mesh = SubResource("Mesh_Corner")
+
+[node name="CornerBot4" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.57, 0.07, -0.57)
+material_override = SubResource("Mat_ReinforcedSteel")
+mesh = SubResource("Mesh_Corner")
+
+[node name="Rivet1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.625, 0.645)
+material_override = SubResource("Mat_BrassRivets")
+mesh = SubResource("Mesh_Rivet")
+
+[node name="Rivet2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.625, -0.645)
+material_override = SubResource("Mat_BrassRivets")
+mesh = SubResource("Mesh_Rivet")
+
+[node name="Rivet3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.645, 0.625, 0)
+material_override = SubResource("Mat_BrassRivets")
+mesh = SubResource("Mesh_Rivet")
+
+[node name="Rivet4" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.645, 0.625, 0)
+material_override = SubResource("Mat_BrassRivets")
+mesh = SubResource("Mesh_Rivet")

@@ -1,0 +1,65 @@
+{
+  "name": {
+    "es": "Centinela de Arcanium",
+    "en": "Arcanium Sentinel",
+    "fr": "Sentinelle d'Arcanum",
+    "it": "Sentinella di Arcanum",
+    "de": "Arcanum-Wächter",
+    "zh": "奥秘遗迹哨兵",
+    "ja": "アルカナムセンチネル"
+  },
+  "family": "construct",
+  "archetype": "tank",
+  "icon": "🤖",
+  "image": "res://assets/combat/enemies/en_sentinel_robot.png",
+  "attack_type": "physical",
+  "base_dodge": 6.0,
+  "dodge_scale": 0.15,
+  "element": "lightning",
+  "weak_to": [
+    "water",
+    "earth"
+  ],
+  "resist": [
+    "poison",
+    "physical"
+  ],
+  "ai": "defensive",
+  "xp_reward_base": 220,
+  "xp_reward_scale": 12.0,
+  "gold_reward_base": 110,
+  "gold_reward_scale": 8.0,
+  "skills": [
+    {
+      "level": 1,
+      "skill_id": "plasma_shot"
+    },
+    {
+      "level": 36,
+      "skill_id": "electric_shield"
+    },
+    {
+      "level": 40,
+      "skill_id": "laser_sweep"
+    }
+  ],
+  "loot": [
+    {
+      "kind": "gold",
+      "min": 40,
+      "max": 90
+    },
+    {
+      "kind": "consumable",
+      "id": "potion",
+      "chance": 0.3
+    },
+    {
+      "kind": "equipment",
+      "chance": 0.4,
+      "level": 6
+    }
+  ],
+  "zone": "zona_6_arcanum",
+  "is_boss": false
+}

@@ -1,0 +1,151 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Vendedor Sepultado",
+            "en": "The Entombed Merchant",
+            "fr": "Le Marchand Enseveli",
+            "it": "Il Mercante Sepolto",
+            "de": "Der Verschüttete Händler",
+            "zh": "被埋葬的商人",
+            "ja": "埋もれた商人"
+        },
+        "next": [],
+        "reward": "avatar=🧰;bg=0.05,0.06,0.08"
+    },
+    "snow02_root": {
+        "type": "message",
+        "text": {
+            "es": "Una carreta de mercader quedó sepultada bajo un alud de nieve hace meses, pero su dueño ha instalado farolillos de aceite y alfombras convirtiendo la caverna de hielo en una boutique de lujo. '¡Bienvenido a \"Boutique Bajo Cero\"! Cero corrientes de aire, todo congelado a la perfección. ¿Buscaba provisiones o un abrigo que no huela a perro mojado?'",
+            "en": "A merchant wagon got pinned beneath an avalanche months ago, yet its proprietor strung lanterns and tapestries, turning the snow cave into a luxury boutique. 'Welcome to \"Sub-Zero Boutique\"! Zero drafts, everything flash-frozen to perfection. Seeking provisions or an overcoat that does not smell of damp hound?'",
+            "fr": "Un chariot de marchand a été enseveli sous une avalanche de neige il y a des mois, mais son propriétaire a installé des lanternes à huile et des tapis, transformant la caverne de glace en boutique de luxe. « Bienvenue à la « Boutique Sous Zéro » ! Zéro courant d'air, tout est congelé à la perfection. Vous cherchiez des provisions ou un manteau qui ne sente pas le chien mouillé ? »",
+            "it": "Un carro di mercante è rimasto sepolto sotto una valanga di neve mesi fa, ma il suo proprietario ha installato lanterne a olio e tappeti, trasformando la caverna di ghiaccio in una boutique di lusso. 'Benvenuto alla \"Boutique Sotto Zero\"! Zero correnti d'aria, tutto congelato alla perfezione. Cercava provviste o un cappotto che non puzzi di cane bagnato?'",
+            "de": "Ein Händlerwagen wurde vor Monaten von einer Lawine begraben, doch sein Besitzer hat Öllampen und Teppiche installiert und die Eishöhle in eine Luxusboutique verwandelt. „Willkommen in der ‚Boutique unter Null'! Null Zugluft, alles perfekt tiefgefroren. Suchen Sie Proviant oder einen Mantel, der nicht nach nassem Hund riecht?“",
+            "zh": "一辆商人的马车几个月前被雪崩掩埋，但它的主人挂上了油灯和地毯，将这座冰洞变成了一家豪华精品店。「欢迎光临『零下精品店』！没有一丝穿堂风，一切都冷冻得恰到好处。您是想找补给品，还是找件不带湿狗味的外套？」",
+            "ja": "何ヶ月も前に雪崩に埋もれた商人の荷馬車だが、その主人はランタンやタペストリーを設置し、雪の洞窟を高級ブティックに変えてしまった。「『氷点下ブティック』へようこそ！すきま風ゼロ、すべてが完璧に急速冷凍されております。物資をお探しですか、それとも濡れた犬の匂いがしない外套を？」"
+        },
+        "next": [
+            "snow02_opt_atrapada",
+            "snow02_opt_ventilar",
+            "snow02_opt_ofertas",
+            "snow02_opt_salir"
+        ],
+        "reward": ""
+    },
+    "snow02_opt_atrapada": {
+        "type": "option",
+        "text": {
+            "es": "🏔️  ¿No te agobia estar enterrado bajo tres metros de hielo?",
+            "en": "🏔️  Does it not distress you being buried beneath ten feet of hard ice?",
+            "fr": "🏔️  Ça ne tennuie pas dêtre enterré sous trois mètres de glace ?",
+            "it": "🏔️  Non ti pesa essere sepolto sotto tre metri di ghiaccio?",
+            "de": "🏔️  Bedrückt es dich nicht, unter drei Metern Eis begraben zu sein?",
+            "zh": "🏔️  被埋在三米厚的冰下，你不觉得压抑吗？",
+            "ja": "🏔️  三メートルの氷の下に埋もれて、辛くないのか？"
+        },
+        "next": [
+            "snow02_msg_atrapada"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "snow02_msg_atrapada": {
+        "type": "message",
+        "text": {
+            "es": "'¿Agobiarme? ¡Aquí no pago diezmos a Celestia, los quesos no crían gusanos y los clientes entran corriendo para no morir congelados! Es el modelo de negocio más brillante de mi vida.' Analizar su visión comercial ante la adversidad expande tu astucia pragmática.",
+            "en": "'Distress me? Here I pay zero tithes to high Celestia, cheeses never mold, and customers sprint inside to avoid perishing from frostbite! It is the most brilliant entrepreneurial pivot of my life.' Analyzing his commercial savvy in adversity sharpens your pragmatic cunning.",
+            "fr": "« M'ennuyer ? Ici je ne paie aucune dîme à Celestia, les fromages ne moisissent jamais et les clients entrent en courant pour ne pas mourir de froid ! C'est le pivot commercial le plus brillant de ma vie. » Analyser sa vision commerciale face à l'adversité élargit ta ruse pragmatique.",
+            "it": "'Pesarmi? Qui non pago decime a Celestia, i formaggi non ammuffiscono mai e i clienti entrano di corsa per non morire assiderati! È il modello di business più brillante della mia vita.' Analizzare la sua visione commerciale nell'avversità amplia la tua astuzia pragmatica.",
+            "de": "„Bedrücken? Hier zahle ich keinen Zehnten an Celestia, der Käse schimmelt nie, und die Kunden rennen herein, um nicht zu erfrieren! Das ist der genialste Geschäftskniff meines Lebens.“ Seine geschäftliche Cleverness angesichts der Widrigkeiten zu analysieren, schärft deine pragmatische Gewitztheit.",
+            "zh": "「压抑？在这里我不用向塞莱斯提亚交什一税，奶酪永远不会长虫，顾客们为了不被冻死会争先恐后地冲进来！这是我这辈子最聪明的商业转型。」分析他在逆境中的商业眼光，磨砺了你务实的机智。",
+            "ja": "「辛い？ここではセレスティアに十分の一税を払う必要もないし、チーズにカビが生えることもないし、客は凍死しないよう我先にと駆け込んでくる！これは俺の人生で最も見事な事業転換だ」逆境における彼の商才を分析することで、お前の実利的な狡猾さが磨かれる。"
+        },
+        "next": [
+            "snow02_root"
+        ],
+        "reward": "faceta:inteligencia=+1"
+    },
+    "snow02_opt_ventilar": {
+        "type": "option",
+        "text": {
+            "es": "⛏️  (Picar un respiradero en la cúpula de hielo para evacuar el humo de los faroles)",
+            "en": "⛏️  (Chisel a ventilation flue in the ice dome to clear lamp smoke)",
+            "fr": "⛏️  (Creuser un conduit dans le dôme de glace pour évacuer la fumée des lanternes)",
+            "it": "⛏️  (Scavare uno sfiatatoio nella cupola di ghiaccio per far uscire il fumo delle lanterne)",
+            "de": "⛏️  (Einen Belüftungsschacht in die Eiskuppel meißeln, um den Lampenrauch abzuleiten)",
+            "zh": "⛏️  （在冰穹上凿一个通风口，排出灯笼的烟）",
+            "ja": "⛏️  （氷のドームに換気口を掘り、ランタンの煙を逃がす）"
+        },
+        "next": [
+            "snow02_msg_ventilar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "snow02_msg_ventilar": {
+        "type": "message",
+        "text": {
+            "es": "Abres un conducto diagonal perfecto con tu herramienta. El humo gris escapa al instante y un aire fresco y limpio inunda la boutique. El mercader respira aliviado: '¡Por los ancestros! Llevaba dos días viendo lucecitas de colores por el hollín. ¡Me has salvado la vida sin romperme el escaparate!' Te entrega 35 monedas de oro con gratitud desbordante.",
+            "en": "You bore a clean diagonal flue through the ceiling. Grey fumes vent immediately, allowing crisp mountain air to refresh the boutique. The merchant gasps in relief: 'By the forebears! I had been hallucinating dancing fairies from carbon soot. You saved my life without shattering my glass shelves!' He presses 35 gold coins upon you in boundless gratitude.",
+            "fr": "Tu ouvres un conduit diagonal parfait avec ton outil. La fumée grise s'échappe instantanément et un air frais et propre inonde la boutique. Le marchand respire soulagé : « Par les ancêtres ! Ça faisait deux jours que je voyais des petites lumières colorées à cause de la suie. Tu m'as sauvé la vie sans casser ma vitrine ! » Il te remet 35 pièces d'or avec une gratitude débordante.",
+            "it": "Apri un condotto diagonale perfetto con il tuo attrezzo. Il fumo grigio fuoriesce all'istante e un'aria fresca e pulita invade la boutique. Il mercante respira sollevato: 'Per gli antenati! Erano due giorni che vedevo lucine colorate per via della fuliggine. Mi hai salvato la vita senza rompermi la vetrina!' Ti consegna 35 monete d'oro con gratitudine traboccante.",
+            "de": "Du gräbst mit deinem Werkzeug einen perfekten diagonalen Schacht. Der graue Rauch entweicht sofort, und frische, saubere Luft flutet die Boutique. Der Händler atmet erleichtert auf: „Bei den Ahnen! Zwei Tage lang habe ich vor lauter Ruß bunte Lichter gesehen. Du hast mir das Leben gerettet, ohne mein Schaufenster zu zerbrechen!“ Er drückt dir mit überschwänglicher Dankbarkeit 35 Goldmünzen in die Hand.",
+            "zh": "你用工具凿出一条完美的斜向通道。灰烟瞬间逸散，一股清新洁净的空气涌入店铺。商人如释重负地喘着气：「祖先在上！我已经因为烟灰看了两天的彩色小光点了。你救了我的命，还没打碎我的橱窗！」他满怀感激地递给你35枚金币。",
+            "ja": "道具で完璧な斜めの通気孔を開ける。灰色の煙が即座に抜け、清々しい澄んだ空気が店内に満ちる。商人は安堵のため息をつく。「ご先祖様に感謝を！二日間も煤で色とりどりの光が見えていたんだ。ショーケースを割らずに命を救ってくれた！」溢れんばかりの感謝とともに、金貨35枚を握らせてくる。"
+        },
+        "next": [
+            "snow02_root"
+        ],
+        "reward": "faceta:bondad=+1;faceta:valor=+1;gold:+35;discover:lore_boutique_bajo_cero"
+    },
+    "snow02_opt_ofertas": {
+        "type": "option",
+        "text": {
+            "es": "🥩  Compraré una ración de provisiones de marcha para el camino (10 Oro)",
+            "en": "🥩  I will purchase trail rations for the road (10 Gold)",
+            "fr": "🥩  J'achèterai une ration de provisions de route (10 Or)",
+            "it": "🥩  Comprerò una razione di provviste da viaggio (10 Oro)",
+            "de": "🥩  Ich kaufe eine Portion Wegzehrung (10 Gold)",
+            "zh": "🥩  我要买一份行军口粮（10金币）",
+            "ja": "🥩  携帯食料を一つ買おう（10ゴールド）"
+        },
+        "next": [
+            "snow02_msg_ofertas"
+        ],
+        "reward": "gold:-10;heal:35;item:carne=2;faceta:aspecto=+1",
+        "condition": "gold >= 10",
+        "once": true
+    },
+    "snow02_msg_ofertas": {
+        "type": "message",
+        "text": {
+            "es": "El mercader te entrega dos piezas de cecina ahumada envueltas primorosamente en papel encerado con un lazo rojo. 'Conservadas a temperatura glacial; te darán energía para escalar hasta la luna.' Comer el sustento reconfortante te llena de vigor y prestancia.",
+            "en": "The merchant presents two strips of smoked venison neatly wrapped in wax parchment with a red twine bow. 'Preserved at glacial chill; this fuel will grant you stamina to scale the moon.' Partaking of the hearty fare fills you with vigor and poise.",
+            "fr": "Le marchand te tend deux morceaux de viande séchée fumée, joliment enveloppés dans du papier ciré avec un ruban rouge. « Conservés à température glaciale ; ils te donneront l'énergie de grimper jusqu'à la lune. » Manger cette nourriture réconfortante te remplit de vigueur et de prestance.",
+            "it": "Il mercante ti consegna due pezzi di carne secca affumicata avvolti con cura in carta cerata con un fiocco rosso. 'Conservate a temperatura glaciale; ti daranno energia per scalare fino alla luna.' Mangiare questo sostentamento riconfortante ti riempie di vigore e prestanza.",
+            "de": "Der Händler reicht dir zwei Streifen geräuchertes Trockenfleisch, sorgfältig in Wachspapier mit einer roten Schleife verpackt. „Bei eisiger Temperatur konserviert; das gibt dir die Energie, bis zum Mond zu klettern.“ Diese herzhafte Verpflegung zu essen erfüllt dich mit Kraft und Haltung.",
+            "zh": "商人递给你两条熏制的干肉条，用蜡纸精心包好，还系着红丝带。「以冰冻低温保存；能给你爬到月亮上去的力气。」享用这份令人满足的食物让你充满活力与气度。",
+            "ja": "商人が二本の燻製干し肉を差し出す。蝋紙で丁寧に包まれ、赤いリボンがかけられている。「氷点下で保存済みだ、月まで登れるほどの活力をくれるぞ」この滋養ある食事を口にすると、活力と気品が満ちてくる。"
+        },
+        "next": [
+            "snow02_root"
+        ],
+        "reward": ""
+    },
+    "snow02_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Me alegro de que el negocio prospere. ¡Hasta luego!",
+            "en": "🚶  Glad commerce thrives. Farewell!",
+            "fr": "🚶  Je suis content que les affaires prospèrent. À bientôt !",
+            "it": "🚶  Sono contento che gli affari prosperino. Alla prossima!",
+            "de": "🚶  Ich freue mich, dass das Geschäft blüht. Bis bald!",
+            "zh": "🚶  很高兴生意兴隆。回头见！",
+            "ja": "🚶  商売繁盛で何よりだ。またな！"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "id": "poi_celestia_profeta_fin",
+    "type": "poi",
+    "icon": "📢",
+    "name": {
+        "es": "El Profeta del Mundo Falso",
+        "en": "The Prophet of the False World",
+        "fr": "Le Prophète du Faux Monde",
+        "it": "Il Profeta del Mondo Falso",
+        "de": "Der Prophet der Falschen Welt",
+        "zh": "虚假世界的先知",
+        "ja": "偽りの世界の預言者"
+    },
+    "desc": {
+        "es": "Un hombre harapiento grita en la plaza que nada de esto es real, que todos vivís dentro del sueño de un dormido. Nadie le escucha. (PNJ singular).",
+        "en": "A ragged man shouts in the square that none of this is real, that you all live inside the dream of a sleeper. No one listens. (Singular NPC).",
+        "fr": "Un homme en haillons crie sur la place que rien de tout cela n'est réel, que vous vivez tous dans le rêve d'un dormeur. Personne ne l'écoute. (PNJ singulier).",
+        "it": "Un uomo cencioso grida nella piazza che niente di tutto questo è reale, che tutti vivete dentro il sogno di un dormiente. Nessuno lo ascolta. (PNG singolare).",
+        "de": "Ein zerlumpter Mann schreit auf dem Platz, dass nichts davon real sei, dass ihr alle im Traum eines Schlafenden lebt. Niemand hört ihm zu. (Einzigartiger NPC).",
+        "zh": "一个衣衫褴褛的男人在广场上呼喊，说这一切都不是真的，说你们都活在一个沉睡者的梦中。没有人理会他。（唯一NPC）。",
+        "ja": "ぼろをまとった男が広場で叫んでいる。これはすべて現実ではない、お前たちは眠る者の夢の中に生きているのだと。誰も耳を貸さない。（唯一のNPC）。"
+    },
+    "npc": "poi_celestia_profeta_fin",
+    "bg": "bg_world_poi_celestia_profeta_fin.png",
+    "music": "poi_generic"
+}

@@ -1,0 +1,150 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Profeta del Mundo Falso",
+            "en": "The Prophet of the False World",
+            "fr": "Le Prophète du Monde Faux",
+            "it": "Il Profeta del Mondo Falso",
+            "de": "Der Prophet der Falschen Welt",
+            "zh": "虚假世界的预言者",
+            "ja": "偽りの世界の予言者"
+        },
+        "next": [],
+        "reward": "avatar=📢;bg=0.10,0.10,0.13"
+    },
+    "profeta_root": {
+        "type": "message",
+        "text": {
+            "es": "Subido a una caja en la plaza de los sabios, un hombre harapiento grita hasta desgañitarse mientras los eruditos lo esquivan con desdén. '¡DESPERTAD! ¡Nada de esto es real! ¡Este cielo, estas torres, vosotros mismos: sois el sueño de un hombre que no quiere despertar! ¡Hay una ESFERA, y mientras él la mire seguiremos existiendo como decorado de su dolor!' Te señala directamente a ti, con los ojos inyectados: 'TÚ. Tú sí lo notas, ¿verdad? Que a veces el mundo... titila.'",
+            "en": "Standing on a crate in the square of the sages, a ragged man shouts himself hoarse while the scholars sidestep him in disdain. 'WAKE UP! None of this is real! This sky, these towers, you yourselves: you are the dream of a man who won't wake! There is a SPHERE, and as long as he looks into it we go on existing as scenery for his grief!' He points straight at you, eyes bloodshot: 'YOU. You feel it, don't you? That sometimes the world... flickers.'",
+            "fr": "Debout sur une caisse dans la place des sages, un homme en haillons crie jusqu'à s'enrouer tandis que les érudits l'évitent avec dédain. « RÉVEILLEZ-VOUS ! Rien de tout ça n'est réel ! Ce ciel, ces tours, vous-mêmes : vous êtes le rêve d'un homme qui ne veut pas se réveiller ! Il y a une SPHÈRE, et tant qu'il la regarde nous continuerons d'exister comme décor de sa douleur ! » Il te pointe directement du doigt, les yeux injectés de sang : « TOI. Toi, tu le sens, n'est-ce pas ? Que parfois le monde... vacille. »",
+            "it": "In piedi su una cassa nella piazza dei sapienti, un uomo cencioso grida fino a strapparsi la voce mentre gli eruditi lo evitano con disdegno. 'SVEGLIATEVI! Niente di tutto questo è reale! Questo cielo, queste torri, voi stessi: siete il sogno di un uomo che non vuole svegliarsi! C'è una SFERA, e mentre lui la guarda continuiamo a esistere come scenario del suo dolore!' Ti punta dritto addosso, con gli occhi iniettati di sangue: 'TU. Tu lo senti, vero? Che a volte il mondo... vacilla.'",
+            "de": "Auf einer Kiste stehend auf dem Platz der Weisen, schreit sich ein zerlumpter Mann die Stimme heiser, während die Gelehrten ihm verächtlich ausweichen. „WACHT AUF! Nichts davon ist real! Dieser Himmel, diese Türme, ihr selbst: ihr seid der Traum eines Mannes, der nicht aufwachen will! Es gibt eine SPHÄRE, und solange er hineinblickt, existieren wir weiter als Kulisse seines Schmerzes!“ Er zeigt direkt auf dich, mit blutunterlaufenen Augen: „DU. Du merkst es doch, oder? Dass die Welt manchmal... flackert.“",
+            "zh": "在贤者广场的一个箱子上，一个衣衫破烂的男人声嘶力竭地喊着，学者们带着轻蔑绕开他。「醒醒！这一切都不是真实的！这片天空，这些塔楼，你们自己：都只是一个不愿醒来之人的梦境！那颗球体存在着，只要他还在凝视它，我们就将继续以他痛苦的布景而存在！」他直直地指向你，双眼布满血丝：「你。你也感觉到了，对吧？有时这个世界……会闪烁。」",
+            "ja": "賢者の広場で木箱の上に立つ、ぼろをまとった男が声を枯らして叫び、学者たちは軽蔑して彼を避けていく。「目を覚ませ！これはすべて現実ではない！この空、この塔、お前たち自身も——目覚めたくない男の夢なのだ！球体があり、彼がそれを見つめている限り、我々は彼の苦しみの舞台装置として存在し続けるのだ！」血走った目で、彼はまっすぐお前を指す。「お前だ。お前も感じているだろう？時々、世界が……ちらつくのを」"
+        },
+        "next": [
+            "profeta_opt_escuchar",
+            "profeta_opt_debatir",
+            "profeta_opt_calmar",
+            "profeta_opt_salir"
+        ],
+        "reward": ""
+    },
+    "profeta_opt_escuchar": {
+        "type": "option",
+        "text": {
+            "es": "👂  Escuchar lo que dice con atención, aunque te ponga la piel de gallina",
+            "en": "👂  Listen closely to what he says, even as it makes your skin crawl",
+            "fr": "👂  Écouter attentivement ce qu'il dit, même si ça te donne des frissons",
+            "it": "👂  Ascoltare con attenzione ciò che dice, anche se ti fa venire la pelle d'oca",
+            "de": "👂  Aufmerksam zuhören, was er sagt, auch wenn es dir eine Gänsehaut verursacht",
+            "zh": "👂  仔细听他说的话，即便让你毛骨悚然",
+            "ja": "👂  鳥肌が立っても、彼の言葉に注意深く耳を傾ける"
+        },
+        "next": [
+            "profeta_msg_escuchar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "profeta_msg_escuchar": {
+        "type": "message",
+        "text": {
+            "es": "Bajas la voz y le preguntas cómo lo sabe. Se te acerca y susurra: 'Yo también viajé. El Yelmo muerto, la nieve, el desierto que fue mar... ¿no te has fijado en que TODO gira alrededor de una pérdida? Cada rincón de este mundo es una herida de alguien. Es demasiada tristeza junta para ser casualidad. Alguien SUEÑA su culpa, y nosotros somos las cicatrices.' Se te seca la boca, porque en el fondo llevas todo el viaje sintiendo exactamente eso. Te alejas sin saber si acabas de hablar con un loco o con el único cuerdo del reino.",
+            "en": "You lower your voice and ask how he knows. He leans in and whispers: 'I traveled too. The dead Moor, the snow, the desert that was once a sea... haven't you noticed that EVERYTHING circles a loss? Every corner of this world is someone's wound. It's too much sorrow gathered to be chance. Someone DREAMS his guilt, and we are the scars.' Your mouth goes dry, because deep down you've felt exactly that the whole journey. You walk away unsure whether you've just spoken with a madman or the only sane person in the realm.",
+            "fr": "Tu baisses la voix et lui demandes comment il le sait. Il s'approche et murmure : « Moi aussi j'ai voyagé. La lande morte, la neige, le désert qui fut une mer... n'as-tu pas remarqué que TOUT tourne autour d'une perte ? Chaque coin de ce monde est la blessure de quelqu'un. C'est trop de tristesse réunie pour être un hasard. Quelqu'un RÊVE sa culpabilité, et nous sommes les cicatrices. » Ta bouche se dessèche, car au fond tu ressens exactement cela depuis tout le voyage. Tu t'éloignes sans savoir si tu viens de parler à un fou ou au seul homme sain d'esprit du royaume.",
+            "it": "Abbassi la voce e gli chiedi come lo sa. Si avvicina e sussurra: 'Anch'io viaggiai. La landa morta, la neve, il deserto che fu mare... non hai notato che TUTTO gira attorno a una perdita? Ogni angolo di questo mondo è la ferita di qualcuno. È troppa tristezza insieme per essere un caso. Qualcuno SOGNA la sua colpa, e noi siamo le cicatrici.' Ti si secca la bocca, perché in fondo hai sentito esattamente questo per tutto il viaggio. Ti allontani senza sapere se hai appena parlato con un pazzo o con l'unico sano di mente del regno.",
+            "de": "Du senkst die Stimme und fragst ihn, wie er das weiß. Er lehnt sich vor und flüstert: „Ich bin auch gereist. Das tote Ödland, der Schnee, die Wüste, die einst ein Meer war... hast du nicht bemerkt, dass sich ALLES um einen Verlust dreht? Jede Ecke dieser Welt ist die Wunde von jemandem. Es ist zu viel Trauer, um Zufall zu sein. Jemand TRÄUMT seine Schuld, und wir sind die Narben.“ Dein Mund wird trocken, denn im Grunde hast du genau das die ganze Reise über gefühlt. Du gehst weg, ohne zu wissen, ob du gerade mit einem Verrückten oder mit dem einzigen geistig gesunden Menschen des Königreichs gesprochen hast.",
+            "zh": "你压低声音问他是怎么知道的。他靠近你，低声说道：「我也曾旅行过。那片死去的荒地，那雪，那曾是海洋的沙漠……你没注意到一切都围绕着一次失去在旋转吗？这个世界的每一个角落都是某人的伤口。这种悲伤聚集得太多，绝非偶然。有人在『梦』着他的愧疚，而我们就是那些伤痕。」你的嘴变得干涩，因为你其实一路上都感觉到了完全一样的东西。你走开了，不知道自己刚刚是和一个疯子说了话，还是和这个王国里唯一一个清醒的人说了话。",
+            "ja": "声を落とし、彼にどうしてそれを知っているのか尋ねる。彼は近づいて囁く。「俺も旅をしたのだ。死んだ荒野、雪、かつて海だった砂漠……すべてが一つの失われたものを中心に回っていることに気づかなかったか？この世界のあらゆる場所が、誰かの傷なのだ。これほどの悲しみが集まっているのは、偶然にしては多すぎる。誰かが自分の罪悪感を『夢』見ているのだ。そして我々はその傷跡なのだ」口の中が乾く。心の奥では、この旅の間ずっく全く同じことを感じていたからだ。今、狂人と話したのか、それとも王国で唯一正気な人物と話したのか分からないまま、その場を去る。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:cordura=-2"
+    },
+    "profeta_opt_debatir": {
+        "type": "option",
+        "text": {
+            "es": "🧠  Discutirle con lógica: si fuera un sueño, ¿cómo lo sabrías tú?",
+            "en": "🧠  Argue with logic: if it were a dream, how would YOU know?",
+            "fr": "🧠  Le contredire avec logique : si c'était un rêve, comment le saurais-TU ?",
+            "it": "🧠  Contraddirlo con la logica: se fosse un sogno, come lo sapresti TU?",
+            "de": "🧠  Ihm mit Logik widersprechen: wenn es ein Traum wäre, wie wüsstest DU das?",
+            "zh": "🧠  用逻辑反驳他：如果这是一场梦，你又怎么知道呢？",
+            "ja": "🧠  論理で反論する：もしこれが夢なら、お前自身がどうやってそれを知るというんだ？"
+        },
+        "next": [
+            "profeta_msg_debatir"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "profeta_msg_debatir": {
+        "type": "message",
+        "text": {
+            "es": "'Si esto es un sueño ajeno', le rebates, 'tú serías parte del sueño, así que tu certeza vale tan poco como la mía. Un personaje soñado que grita que todo es un sueño sigue siendo... parte del sueño.' El profeta parpadea, desconcertado, y por primera vez calla. Luego suelta una risita amarga: 'Tienes razón. Puede que yo sea solo la parte del durmiente que sabe que está soñando y no puede despertar. Qué condena.' Te alejas con la cabeza dándote vueltas, pero con las ideas más claras que él. La lógica no consuela, pero ordena.",
+            "en": "'If this is someone else's dream,' you counter, 'then you'd be part of the dream too, so your certainty is worth as little as mine. A dreamed character shouting that it's all a dream is still... part of the dream.' The prophet blinks, thrown, and for the first time falls silent. Then he lets out a bitter chuckle: 'You're right. Maybe I'm just the part of the sleeper that knows he's dreaming and can't wake. What a sentence.' You leave with your head spinning, but with clearer ideas than his. Logic doesn't console, but it orders.",
+            "fr": "« Si c'est le rêve de quelqu'un d'autre », rétorques-tu, « alors tu ferais partie du rêve aussi, donc ta certitude vaut aussi peu que la mienne. Un personnage rêvé qui crie que tout est un rêve reste... une partie du rêve. » Le prophète cligne des yeux, déconcerté, et pour la première fois se taît. Puis il laisse échapper un petit rire amer : « Tu as raison. Je suis peut-être seulement la partie du dormeur qui sait qu'il rêve et ne peut pas se réveiller. Quelle malédiction. » Tu t'éloignes la tête qui tourne, mais avec les idées plus claires que les siennes. La logique ne consolide pas, mais elle ordonne.",
+            "it": "'Se questo è il sogno di qualcun altro', ribatti, 'allora tu saresti parte del sogno anche tu, quindi la tua certezza vale poco tanto quanto la mia. Un personaggio sognato che grida che tutto è un sogno rimane... parte del sogno.' Il profeta sbatte le palpebre, disorientato, e per la prima volta tace. Poi lascia scappare una risatina amara: 'Hai ragione. Forse sono solo la parte del dormiente che sa che sta sognando e non può svegliarsi. Che condanna.' Ti allontani con la testa che gira, ma con le idee più chiare delle sue. La logica non consola, ma ordina.",
+            "de": "„Wenn dies der Traum eines anderen ist“, entgegnest du, „dann wärst du auch Teil des Traumes, also ist deine Gewissheit so wenig wert wie meine. Eine geträumte Figur, die schreit, dass alles ein Traum ist, bleibt... Teil des Traumes.“ Der Prophet blinzelt, verblüfft, und schweigt zum ersten Mal. Dann lässt er ein bitteres Kichern hören: „Du hast recht. Vielleicht bin ich nur der Teil des Schlafenden, der weiß, dass er träumt und nicht aufwachen kann. Was für eine Verdammnis.“ Du gehst mit schwindelndem Kopf, aber mit klareren Gedanken als er. Logik tröstet nicht, aber sie ordnet.",
+            "zh": "「如果这是别人的梦，」你反驳道，「那你也是这个梦的一部分，所以你的确定性和我的一样没什么价值。一个在梦中呐喊『一切都是梦』的角色，仍然……是梦的一部分。」预言者眨了眨眼，感到困惑，第一次沉默了下来。然后他发出一声苦笑：「你说得对。也许我只是那个沉睡者中知道自己在做梦却无法醒来的那一部分。真是一种惩罚。」你带着晕头转向离开了，但思路却比他更清晰。逻辑不能安慰人，但它能理清秩序。",
+            "ja": "「もしこれが誰か他の人の夢なら」お前は反論する、「お前もその夢の一部ということになる。だからお前の確信も俺のものと同じくらい価値がない。すべてが夢だと叫ぶ夢の中の登場人物は、それでも……夢の一部にすぎない」予言者は困惑して瞬きをし、初めて沈黙する。それから苦い笑いをこぼす。「お前の言う通りだ。俺はただ、自分が夢を見ていることを知っていて、覚醒できない眠る者の一部にすぎないのかもしれん。なんという呪いだ」頭が混乱したまま、しかし彼よりも明晰な考えを抱いてその場を去る。論理は慰めにはならないが、秩序を与える。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:inteligencia=+1"
+    },
+    "profeta_opt_calmar": {
+        "type": "option",
+        "text": {
+            "es": "🤲  Bajarlo de la caja y ofrecerle agua y un momento de paz",
+            "en": "🤲  Help him down from the crate and offer him water and a moment of peace",
+            "fr": "🤲  L'aider à descendre de sa caisse et lui offrir de l'eau et un moment de paix",
+            "it": "🤲  Aiutarlo a scendere dalla cassa e offrirgli acqua e un momento di pace",
+            "de": "🤲  Ihm von der Kiste helfen und ihm Wasser und einen Moment des Friedens anbieten",
+            "zh": "🤲  帮他从箱子上下来，给他水和片刻的安宁",
+            "ja": "🤲  木箱から下ろすのを手伝い、水と一時の安らぎを与える"
+        },
+        "next": [
+            "profeta_msg_calmar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "profeta_msg_calmar": {
+        "type": "message",
+        "text": {
+            "es": "Le tiendes la mano y lo ayudas a bajar. Le das de beber. Poco a poco, el profeta deja de gritar y se echa a llorar, agotado. 'Nadie me escucha. Llevo años gritando la verdad y solo consigo que los niños me tiren piedras.' Le pones una manta por los hombros. No sabes si lo que dice es cierto, pero sí sabes que un hombre que sufre merece un trato humano, profeta o loco. 'Gracias', susurra. 'Por tratarme como si fuera real.' Te vas con una tristeza tranquila y la sensación de haber hecho lo correcto.",
+            "en": "You reach out and help him down. You give him water. Little by little, the prophet stops shouting and breaks into exhausted tears. 'No one listens to me. I've been shouting the truth for years and all I get is children throwing stones.' You drape a blanket over his shoulders. You don't know if what he says is true, but you do know a suffering man deserves humane treatment, prophet or madman. 'Thank you,' he whispers. 'For treating me as if I were real.' You leave with a quiet sadness and the feeling of having done the right thing.",
+            "fr": "Tu lui tends la main et l'aides à descendre. Tu lui donnes à boire. Peu à peu, le prophète cesse de crier et éclate en sanglots, épuisé. « Personne ne m'écoute. Ça fait des années que je crie la vérité et je n'obtiens que des enfants qui me jettent des pierres. » Tu lui poses une couverture sur les épaules. Tu ne sais pas si ce qu'il dit est vrai, mais tu sais qu'un homme qui souffre mérite un traitement humain, prophète ou fou. « Merci », murmure-t-il. « De me traiter comme si j'étais réel. » Tu pars avec une tristesse tranquille et le sentiment d'avoir fait ce qu'il fallait.",
+            "it": "Gli tendi la mano e lo aiuti a scendere. Gli dai da bere. Poco a poco, il profeta smette di gridare e scoppia in lacrime, esausto. 'Nessuno mi ascolta. Sono anni che grido la verità e ottengo solo che i bambini mi tirino le pietre.' Gli metti una coperta sulle spalle. Non sai se quello che dice è vero, ma sai che un uomo che soffre merita un trattamento umano, profeta o pazzo. 'Grazie', sussurra. 'Per avermi trattato come se fossi reale.' Te ne vai con una tristezza tranquilla e la sensazione di aver fatto la cosa giusta.",
+            "de": "Du streckst die Hand aus und hilfst ihm herunter. Du gibst ihm zu trinken. Nach und nach hört der Prophet auf zu schreien und bricht erschöpft in Tränen aus. „Niemand hört mir zu. Ich schreie seit Jahren die Wahrheit und bekomme nur Kinder, die Steine nach mir werfen.“ Du legst ihm eine Decke über die Schultern. Du weißt nicht, ob das, was er sagt, wahr ist, aber du weißt, dass ein leidender Mensch menschliche Behandlung verdient, Prophet oder Wahnsinniger. „Danke“, flüstert er. „Dass du mich behandelt hast, als wäre ich real.“ Du gehst mit einer stillen Traurigkeit und dem Gefühl, das Richtige getan zu haben.",
+            "zh": "你伸出手，帮他从箱子上下来。你给他喝水。渐渐地，预言者不再喊叫，疲惫地哭了起来。「没有人听我的话。这些年我一直在喊出真相，得到的却只有孩子们朝我扔石头。」你把一条毯子搭在他的肩上。你不知道他说的是不是真的，但你知道一个受苦的人，无论是预言者还是疯子，都应得到人道的对待。「谢谢你，」他低声说道，「把我当作一个真实存在的人来对待。」你带着一种平静的悲伤，以及做对了事情的感觉离开了。",
+            "ja": "手を差し伸べ、彼が箱から降りるのを手伝う。水を与える。少しずつ、予言者は叫ぶのをやめ、疲れ切って涙を流す。「誰も俺の話を聞かない。何年も真実を叫び続けて、子供たちに石を投げられるだけだ」彼の肩に毛布をかける。彼の言うことが本当かどうかは分からないが、苦しんでいる人間は——予言者であろうと狂人であろうと——人道的な扱いを受けるべきだと分かっている。「ありがとう」彼は囁く。「俺を現実の存在として扱ってくれて」静かな悲しみと、正しいことをしたという感覚を抱いてその場を去る。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:bondad=+1"
+    },
+    "profeta_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Es un chalado de plaza. Seguir de largo como los demás",
+            "en": "🚶  He's a town crackpot. Walk on by, like everyone else",
+            "fr": "🚶  C'est un fou de place. Passer ton chemin comme les autres",
+            "it": "🚶  È un matto da piazza. Proseguire per la tua strada come gli altri",
+            "de": "🚶  Er ist ein Stadtnarr. Wie alle anderen weitergehen",
+            "zh": "🚶  他是个广场上的疯子。像其他人一样继续走过去",
+            "ja": "🚶  広場の変人だ。他の人々と同じように通り過ぎる"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

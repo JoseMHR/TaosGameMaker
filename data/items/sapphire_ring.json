@@ -1,0 +1,40 @@
+{
+    "name": {
+        "es": "Anillo de Zafiro",
+        "en": "Sapphire Ring",
+        "fr": "Anneau de Saphir",
+        "it": "Anello di Zaffiro",
+        "de": "Saphirring",
+        "zh": "蓝宝石戒指",
+        "ja": "サファイアリング"
+    },
+    "desc": {
+        "es": "Joya imbuida con la calma del agua y la pureza del hielo.",
+        "en": "Gem imbued with water's calm and ice's purity.",
+        "fr": "Bijou imprégné du calme de l'eau et de la pureté de la glace.",
+        "it": "Gioiello imbevuto della calma dell'acqua e della purezza del ghiaccio.",
+        "de": "Juwel, durchdrungen von der Ruhe des Wassers und der Reinheit des Eises.",
+        "zh": "蕴含水之宁静与冰之纯净的宝石。",
+        "ja": "水の静けさと氷の純粋さを宿した宝石。"
+    },
+    "icon": "💍",
+    "category": "equipment",
+    "usable": false,
+    "slot": "accessory",
+    "tier": 4,
+    "bonuses": {
+        "int": 6
+    },
+    "combat": {
+        "mag_defense": 20
+    },
+    "traits": [
+        {
+            "type": "resist_element",
+            "element": "water",
+            "value": 0.2,
+            "min_refine": 0,
+            "desc": "+20% Resistencia a elemento Agua y Hielo"
+        }
+    ]
+}

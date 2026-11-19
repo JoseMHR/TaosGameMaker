@@ -1,0 +1,26 @@
+{
+    "id": "poi_cabana_crujiente",
+    "type": "poi",
+    "icon": "🏚️",
+    "name": {
+        "es": "La Cabaña de las Sombras",
+        "en": "The Cabin of Shadows",
+        "fr": "La Cabane des Ombres",
+        "it": "La Capanna delle Ombre",
+        "de": "Die Hütte der Schatten",
+        "zh": "阴影小屋",
+        "ja": "影の小屋"
+    },
+    "desc": {
+        "es": "Una cabaña vacía en el bosque que cruje de forma sospechosa. (POI de inspección).",
+        "en": "An empty forest cabin that creaks suspiciously. (Inspection POI).",
+        "fr": "Une cabane vide dans la forêt qui craque de façon suspecte. (POI d'inspection).",
+        "it": "Una capanna vuota nel bosco che scricchiola in modo sospetto. (POI di ispezione).",
+        "de": "Eine leere Waldhütte, die verdächtig knarrt. (Inspektions-POI).",
+        "zh": "森林中一间空荡荡的小屋，发出可疑的吱呀声。（探查类兴趣点）。",
+        "ja": "不審な軋み音を立てる、森の中の空っぽの小屋。（調査ポイント）。"
+    },
+    "npc": "poi_cabana_crujiente",
+    "bg": "bg_world_poi_hielo_cabana_crujiente.png",
+    "music": "poi_house_cozy"
+}

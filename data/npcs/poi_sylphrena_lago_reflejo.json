@@ -1,0 +1,167 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Lago que te Mira Mal",
+            "en": "The Lake That Watches You Wrong",
+            "fr": "Le Lac qui te Regarde Mal",
+            "it": "Il Lago che ti Guarda Male",
+            "de": "Der See, der Dich Falsch Ansieht",
+            "zh": "邪视之湖",
+            "ja": "お前を間違って見る湖"
+        },
+        "next": [],
+        "reward": "avatar=🪞;bg=0.07,0.12,0.13"
+    },
+    "lagorf_root": {
+        "type": "message",
+        "text": {
+            "es": "Un lago de aguas tan quietas que parecen un cristal negro. Te asomas por costumbre a ver tu reflejo... y se te corta la respiración. Tu reflejo está ahí, sí, idéntico. Pero no hace lo que tú haces. Cuando te quedas quieto, él se lleva un dedo a los labios. Cuando frunces el ceño, él sonríe. Y cuando te acercas más, tu reflejo, muy despacio, niega con la cabeza, como advirtiéndote de que no lo hagas.",
+            "en": "A lake so still its water looks like black glass. Out of habit you lean over to see your reflection... and your breath catches. Your reflection is there, yes, identical. But it doesn't do what you do. When you stand still, it raises a finger to its lips. When you frown, it smiles. And when you lean closer, your reflection, very slowly, shakes its head, as if warning you not to.",
+            "fr": "Un lac aux eaux si calmes qu'elles ressemblent à du verre noir. Par habitude, tu te penches pour voir ton reflet... et le souffle te manque. Ton reflet est là, oui, identique. Mais il ne fait pas ce que tu fais. Quand tu restes immobile, il porte un doigt à ses lèvres. Quand tu fronces les sourcils, il sourit. Et quand tu t'approches davantage, ton reflet, très lentement, secoue la tête, comme pour t'avertir de ne pas le faire.",
+            "it": "Un lago con acque così ferme che sembrano vetro nero. Per abitudine ti sporgi a vedere il tuo riflesso... e ti si mozza il fiato. Il tuo riflesso è lì, sì, identico. Ma non fa quello che fai tu. Quando resti fermo, lui si porta un dito alle labbra. Quando aggrotti le sopracciglia, lui sorride. E quando ti avvicini ancora, il tuo riflesso, molto lentamente, scuote la testa, come avvertendoti di non farlo.",
+            "de": "Ein See mit so ruhigem Wasser, dass es wie schwarzes Glas aussieht. Aus Gewohnheit beugst du dich vor, um dein Spiegelbild zu sehen... und der Atem bleibt dir stocken. Dein Spiegelbild ist da, ja, identisch. Aber es tut nicht, was du tust. Wenn du still stehst, legt es einen Finger an die Lippen. Wenn du die Stirn runzelst, lächelt es. Und wenn du näher kommst, schüttelt dein Spiegelbild sehr langsam den Kopf, als würde es dich warnen, es nicht zu tun.",
+            "zh": "一片湖水如此静止，看起来像一块黑色玻璃。出于习惯，你俯身去看自己的倒影……却猛然屏住了呼吸。你的倒影确实在那里，与你一模一样。但它没有做出你的动作。当你静止不动时，它把一根手指放到嘴唇上。当你皱眉时，它却在微笑。而当你更靠近时，你的倒影非常缓慢地摇了摇头，仿佛在警告你不要靠近。",
+            "ja": "水面が黒いガラスのように静かな湖。習慣で自分の反射を見ようと身を乗り出す……そして息が止まる。反射はそこにある、確かに、同一だ。だがそれはお前がすることをしない。じっとしていると、指を唇に当てる。眉をひそめると、微笑む。そしてさらに近づくと、反射は非常にゆっくりと首を振る、するなと警告するかのように。"
+        },
+        "next": [
+            "lagorf_opt_tocar",
+            "lagorf_opt_observar",
+            "lagorf_opt_preguntar",
+            "lagorf_opt_huir"
+        ],
+        "reward": ""
+    },
+    "lagorf_opt_tocar": {
+        "type": "option",
+        "text": {
+            "es": "✋  Meter la mano en el agua para tocar tu reflejo, pese a su advertencia",
+            "en": "✋  Reach into the water to touch your reflection, despite its warning",
+            "fr": "✋  Plonger la main dans l'eau pour toucher ton reflet, malgré son avertissement",
+            "it": "✋  Immergere la mano nell'acqua per toccare il tuo riflesso, nonostante il suo avvertimento",
+            "de": "✋  Die Hand ins Wasser tauchen, um dein Spiegelbild zu berühren, trotz seiner Warnung",
+            "zh": "✋  不顾它的警告，把手伸入水中，去触碰你的倒影",
+            "ja": "✋  警告を無視して、水に手を入れて自分の反射に触れる"
+        },
+        "next": [
+            "lagorf_msg_tocar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "lagorf_msg_tocar": {
+        "type": "message",
+        "text": {
+            "es": "Hundes la mano en el agua helada. Al otro lado, tu reflejo hunde la suya para encontrarte... y por un instante vuestros dedos se rozan a través de la superficie, como dos personas separadas por un cristal. Sientes un tirón, una tentación brutal de dejarte arrastrar dentro, donde 'todo sería más fácil'. Retiras la mano de golpe, temblando. El reflejo te mira con una pena infinita y articula: 'algún día'. Sales del trance empapado y aterrado, pero entero. Enfrentar tu propio abismo y no saltar es una victoria que nadie más verá.",
+            "en": "You plunge your hand into the freezing water. On the other side, your reflection plunges its own to meet you... and for an instant your fingers brush through the surface, like two people separated by glass. You feel a tug, a brutal temptation to let yourself be pulled inside, where 'everything would be easier'. You yank your hand back, trembling. The reflection watches you with infinite sorrow and mouths: 'someday'. You come out of the trance soaked and terrified, but whole. Facing your own abyss and not jumping is a victory no one else will see.",
+            "fr": "Tu plonges la main dans l'eau glacée. De l'autre côté, ton reflet plonge la sienne pour te rejoindre... et pendant un instant vos doigts se frôlent à travers la surface, comme deux personnes séparées par une vitre. Tu sens une traction, une tentation brutale de te laisser entraîner à l'intérieur, où « tout serait plus facile ». Tu retires ta main d'un coup, tremblant. Le reflet te regarde avec une peine infinie et articule : « un jour ». Tu sors de la transe trempé et terrifié, mais entier. Affronter son propre abîme et ne pas sauter est une victoire que personne d'autre ne verra.",
+            "it": "Immergi la mano nell'acqua gelata. Dall'altro lato, il tuo riflesso immerge la sua per raggiungerti... e per un istante le vostre dita si toccano attraverso la superficie, come due persone separate da un vetro. Senti uno strattone, una tentazione brutale di lasciarti trascinare dentro, dove 'tutto sarebbe più facile'. Ritiri la mano di scatto, tremando. Il riflesso ti guarda con una pena infinita e articola: 'un giorno'. Esci dalla trance bagnato e terrorizzato, ma intero. Affrontare il proprio abisso e non saltare è una vittoria che nessun altro vedrà.",
+            "de": "Du tauchst die Hand in das eiskalte Wasser. Auf der anderen Seite taucht dein Spiegelbild seine eigene, um dich zu treffen... und für einen Moment berühren sich eure Finger durch die Oberfläche, wie zwei Menschen, die durch Glas getrennt sind. Du fühlst einen Zug, eine brutale Verlockung, dich hineinziehen zu lassen, wo „alles einfacher wäre“. Du reißt deine Hand zurück, zitternd. Das Spiegelbild sieht dich mit unendlicher Trauer an und formt: „irgendwann“. Du kommst durchnässt und entsetzt, aber unversehrt aus der Trance. Dem eigenen Abgrund gegenüberzustehen und nicht zu springen, ist ein Sieg, den niemand anderes sehen wird.",
+            "zh": "你把手伸进冰冷的水中。在另一边，你的倒影也伸出了它的手来迎接你……刹那间，你们的手指隔着水面轻轻触碰，就像两个被玻璃隔开的人。你感到一阵拉力，一种残酷的诱惑，想让自己被拖进那个「一切都会更容易」的地方。你猛地缩回手，颤抖着。倒影用一种无尽的悲伤看着你，无声地说着：「有一天」。你从这种恍惚中出来，浑身湿透，惊恐万分，但完好无损。直面自己的深渊而不跳下去，是一场没有其他人会看到的胜利。",
+            "ja": "凍りつく水に手を突き入れる。向こう側では、反射が自分の手を差し出してお前に応える……そして一瞬、水面を隔てて指先が触れ合う、ガラスで隔てられた二人のように。何かに引き寄せられる感覚、「すべてがもっと簡単になる」場所へ引き込まれたいという残酷な誘惑を感じる。震えながら手を引き戻す。反射は無限の悲しみを込めてお前を見つめ、「いつか」と口を動かす。ずぶ濡れで恐怖に震えながらも、無事にその恍惚から抜け出す。自分自身の深淵に向き合い、跳び込まないこと——それは誰にも見られない勝利なのだ。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:valor=+1;faceta:cordura=-1"
+    },
+    "lagorf_opt_observar": {
+        "type": "option",
+        "text": {
+            "es": "👁️  Quedarte quieto y observar qué te muestra el reflejo",
+            "en": "👁️  Stay still and watch what the reflection shows you",
+            "fr": "👁️  Rester immobile et observer ce que le reflet te montre",
+            "it": "👁️  Restare fermo e osservare cosa ti mostra il riflesso",
+            "de": "👁️  Still bleiben und beobachten, was das Spiegelbild dir zeigt",
+            "zh": "👁️  静止不动，观察倒影会向你展示什么",
+            "ja": "👁️  静止し、反射が何を見せるかを観察する"
+        },
+        "next": [
+            "lagorf_msg_observar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "lagorf_msg_observar": {
+        "type": "message",
+        "text": {
+            "es": "Te quedas inmóvil. El reflejo, libre de imitarte, empieza a representar una escena: se ve a sí mismo dándole la espalda a alguien que tiende una mano, marchándose mientras esa figura se hunde. Luego alza la vista hacia ti y señala tu pecho, como diciendo 'esto ya lo hiciste'. No sabes si te muestra tu pasado, un miedo o una profecía. Te apartas del borde con más preguntas que respuestas y un nudo frío en el estómago.",
+            "en": "You hold still. The reflection, free from imitating you, begins to act out a scene: it shows itself turning its back on someone reaching out a hand, walking away as that figure sinks. Then it looks up at you and points at your chest, as if to say 'you already did this'. You can't tell whether it's showing you your past, a fear, or a prophecy. You step back from the edge with more questions than answers and a cold knot in your stomach.",
+            "fr": "Tu restes immobile. Le reflet, libéré de t'imiter, commence à jouer une scène : il se voit lui-même tourner le dos à quelqu'un qui tend une main, s'éloignant tandis que cette silhouette s'enfonce. Puis il lève les yeux vers toi et pointe ta poitrine, comme pour dire « tu l'as déjà fait ». Tu ne sais pas s'il te montre ton passé, une peur ou une prophétie. Tu t'éloignes du bord avec plus de questions que de réponses et un nœud froid dans l'estomac.",
+            "it": "Resti immobile. Il riflesso, libero di imitarti, inizia a rappresentare una scena: si vede voltare le spalle a qualcuno che tende una mano, andandosene mentre quella figura affonda. Poi alza lo sguardo verso di te e ti indica il petto, come a dire 'questo l'hai già fatto'. Non sai se ti mostra il tuo passato, una paura o una profezia. Ti allontani dal bordo con più domande che risposte e un nodo freddo nello stomaco.",
+            "de": "Du bleibst unbeweglich. Das Spiegelbild, frei von der Nachahmung deiner Bewegungen, beginnt eine Szene darzustellen: es sieht sich selbst, wie es jemandem, der eine Hand ausstreckt, den Rücken kehrt und weggeht, während diese Gestalt versinkt. Dann blickt es zu dir auf und zeigt auf deine Brust, als würde es sagen „das hast du schon getan“. Du weißt nicht, ob es dir deine Vergangenheit, eine Angst oder eine Prophezeiung zeigt. Du trittst vom Rand zurück, mit mehr Fragen als Antworten und einem kalten Knoten im Magen.",
+            "zh": "你静止不动。倒影不再模仿你，开始表演一场场景：它看着自己转身背对一个伸出手的人，走开了，而那个人影正在下沉。然后它抬起头看向你，指着你的胸口，仿佛在说「你已经这样做过了」。你不知道它展示的是你的过去、一种恐惧，还是一个预言。你从湖边退开，带着比答案更多的疑问，以及胃中一个冰冷的结。",
+            "ja": "静止したままでいる。お前を真似ることから解放された反射は、ある場面を演じ始める——手を差し出す誰かに背を向け、その人影が沈んでいく間に去っていく自分自身を映し出す。それから顔を上げてお前を見つめ、胸を指し示す、まるで「これはもうやったことだ」と言うように。過去なのか、恐怖なのか、予言なのかは分からない。答えよりも多くの疑問と、胃の中の冷たいしこりを抱えて、縁から離れる。"
+        },
+        "next": [
+            "lagorf_root"
+        ],
+        "reward": "faceta:cordura=-1"
+    },
+    "lagorf_opt_preguntar": {
+        "type": "option",
+        "text": {
+            "es": "🗣️  Preguntarle al reflejo, en voz alta, qué es lo que quiere",
+            "en": "🗣️  Ask the reflection aloud what it wants",
+            "fr": "🗣️  Demander à voix haute au reflet ce qu'il veut",
+            "it": "🗣️  Chiedere ad alta voce al riflesso cosa vuole",
+            "de": "🗣️  Das Spiegelbild laut fragen, was es will",
+            "zh": "🗣️  大声问倒影，它到底想要什么",
+            "ja": "🗣️  反射に何を望んでいるのか声に出して尋ねる"
+        },
+        "next": [
+            "lagorf_msg_preguntar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "lagorf_msg_preguntar": {
+        "type": "message",
+        "text": {
+            "es": "'¿Qué quieres de mí?', preguntas al agua. El reflejo abre la boca y, aunque no oyes nada, las ondas del lago forman palabras en su superficie: 'Que uno de los dos deje de fingir que está bien.' Tragas saliva. 'Yo soy el que dice en voz alta lo que tú te callas', continúan las ondas. 'Por eso me tienes miedo.' El agua vuelve a alisarse. Te alejas del lago con la incómoda sospecha de que tenía razón.",
+            "en": "'What do you want from me?', you ask the water. The reflection opens its mouth and, though you hear nothing, the ripples of the lake form words on its surface: 'For one of us to stop pretending we're fine.' You swallow. 'I'm the one who says out loud what you keep quiet,' the ripples go on. 'That's why you fear me.' The water smooths over again. You leave the lake with the uneasy suspicion that it was right.",
+            "fr": "« Que veux-tu de moi ? », demandes-tu à l'eau. Le reflet ouvre la bouche et, bien que tu n'entendes rien, les ondulations du lac forment des mots à sa surface : « Que l'un de nous deux cesse de prétendre que tout va bien. » Tu avales ta salive. « Je suis celui qui dit à voix haute ce que tu tais », continuent les ondulations. « C'est pour ça que tu me craines. » L'eau se lisse à nouveau. Tu t'éloignes du lac avec le soupçon inconfortable qu'il avait raison.",
+            "it": "'Cosa vuoi da me?', chiedi all'acqua. Il riflesso apre la bocca e, sebbene tu non senta nulla, le onde del lago formano parole sulla sua superficie: 'Che uno di noi due smetta di fingere che va tutto bene.' Deglutisci. 'Io sono quello che dice ad alta voce quello che tu taci', continuano le onde. 'Per questo mi temi.' L'acqua torna a distendersi. Ti allontani dal lago con il sospetto scomodo che avesse ragione.",
+            "de": "„Was willst du von mir?“, fragst du das Wasser. Das Spiegelbild öffnet den Mund, und obwohl du nichts hörst, formen die Wellen des Sees Worte auf seiner Oberfläche: „Dass einer von uns beiden aufhört, so zu tun, als wäre alles in Ordnung.“ Du schluckst. „Ich bin derjenige, der laut sagt, was du verschweigst“, fahren die Wellen fort. „Deshalb fürchtest du mich.“ Das Wasser glättet sich wieder. Du entfernst dich vom See mit dem unbequemen Verdacht, dass es recht hatte.",
+            "zh": "「你想从我这里得到什么？」你问着水面。倒影张开嘴，虽然你听不到任何声音，湖面的波纹却在表面拼出了字：「让我们俩中的一个不再假装自己没事。」你咽了口唾沫。「我是那个大声说出你所隐瞒之事的人，」波纹继续说道。「这就是你害怕我的原因。」水面重新恢复了平静。你带着一种不安的怀疑离开了这片湖，怀疑它说的是对的。",
+            "ja": "「私から何が欲しいの？」水に問いかける。反射は口を開くが、何も聞こえない。だが湖の波紋がその表面に言葉を形作る。「私たちのどちらかが、大丈夫だというふりをやめること」お前は唾を飲む。「私はお前が黙っていることを声に出す者だ」波紋は続く。「だからこそお前は私を恐れているのだ」水は再び滑らかになる。それが正しかったのではという不安な疑念を抱えて湖を後にする。"
+        },
+        "next": [
+            "lagorf_root"
+        ],
+        "reward": "faceta:inteligencia=+1"
+    },
+    "lagorf_opt_huir": {
+        "type": "option",
+        "text": {
+            "es": "🏃  No mirar más ese agua. Alejarte del lago deprisa",
+            "en": "🏃  Look at that water no more. Hurry away from the lake",
+            "fr": "🏃  Ne plus regarder cette eau. T'éloigner rapidement du lac",
+            "it": "🏃  Non guardare più quell'acqua. Allontanarti in fretta dal lago",
+            "de": "🏃  Dieses Wasser nicht mehr ansehen. Dich schnell vom See entfernen",
+            "zh": "🏃  不再看那水面。迅速远离这片湖",
+            "ja": "🏃  もうその水を見ない。急いで湖から離れる"
+        },
+        "next": [
+            "lagorf_msg_huir"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "lagorf_msg_huir": {
+        "type": "message",
+        "text": {
+            "es": "Apartas la vista y te alejas a paso vivo, resistiendo la tentación de volver a mirar. Sabes que si te asomaras otra vez, el reflejo seguiría ahí, esperando, paciente. Prefieres no averiguar qué más tenía que enseñarte. Te dices que hay verdades que uno tiene derecho a no mirar de frente. Puede que sea sensato. Puede que solo sea que aún no estás listo para lo que ese lago quería mostrarte.",
+            "en": "You look away and leave at a brisk pace, resisting the urge to glance back. You know that if you leaned over again, the reflection would still be there, waiting, patient. You'd rather not find out what else it had to show you. You tell yourself some truths a person has the right not to face head-on. Maybe that's wise. Maybe it's just that you're not ready yet for what that lake wanted to show you.",
+            "fr": "Tu détournes le regard et t'éloignes à vive allure, résistant à la tentation de regarder à nouveau. Tu sais que si tu te penchais à nouveau, le reflet serait toujours là, attendant, patient. Tu préfères ne pas découvrir ce qu'il avait d'autre à te montrer. Tu te dis qu'il y a des vérités qu'on a le droit de ne pas regarder en face. C'est peut-être sage. Ou peut-être que tu n'es simplement pas encore prêt pour ce que ce lac voulait te montrer.",
+            "it": "Distogli lo sguardo e ti allontani a passo svelto, resistendo alla tentazione di guardare di nuovo. Sai che se ti sporgessi ancora, il riflesso sarebbe ancora lì, ad aspettare, paziente. Preferisci non scoprire cos'altro avesse da mostrarti. Ti dici che ci sono verità che uno ha il diritto di non guardare in faccia. Forse è saggio. Forse è solo che non sei ancora pronto per quello che quel lago voleva mostrarti.",
+            "de": "Du schaust weg und entfernst dich in zügigem Tempo, dem Drang widerstehend, noch einmal zurückzublicken. Du weißt, dass, wenn du sich wieder vorbeugen würdest, das Spiegelbild noch immer dort wäre, wartend, geduldig. Du willst lieber nicht erfahren, was es dir noch zeigen wollte. Du sagst dir, dass es Wahrheiten gibt, die man das Recht hat, ihnen nicht direkt ins Auge zu sehen. Vielleicht ist das weise. Vielleicht bist du einfach noch nicht bereit für das, was dieser See dir zeigen wollte.",
+            "zh": "你移开视线，快步离开，抵抗着再看一眼的诱惑。你知道，如果你再俯身看去，那倒影仍会在那里，耐心地等待着。你宁愿不去发现它还想给你展示什么。你告诉自己，有些真相，人有权不去直面它们。也许这是明智的。也许只是因为你还没有准备好去面对那片湖想要展示给你的东西。",
+            "ja": "目を逸らし、もう一度見たいという誘惑に耐えながら、急ぎ足でその場を離れる。もう一度身を乗り出せば、反射はまだそこで、辛抱強く待っているだろうと分かっている。それが他に何を見せようとしていたのかは知らない方がいい。人には正面から向き合わなくてもいい真実がある、と自分に言い聞かせる。それは賢明かもしれない。あるいは単に、その湖が見せようとしていたものに、まだ向き合う準備ができていないだけなのかもしれない。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:valor=-1"
+    }
+}

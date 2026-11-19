@@ -1,0 +1,5527 @@
+{
+    "name": {
+        "es": "El Sendero del Sacerdote",
+        "en": "The Healer's Path",
+        "fr": "Le Sentier du Prêtre",
+        "it": "Il Sentiero del Sacerdote",
+        "de": "Der Pfad des Priesters",
+        "zh": "祭司之路",
+        "ja": "司祭の道"
+    },
+    "theme": "sanctuary",
+    "boss": "temple_boss_healer",
+    "boss_level": 20,
+    "music": "sendero_sanctuary",
+    "cell_size": 4,
+    "wall_height": 4,
+    "ceiling": true,
+    "fog": true,
+    "ambient_energy": 0.45,
+    "ambient_color": "#38352a",
+    "fill_light": 0.25,
+    "spawn": {
+        "f": 0,
+        "x": 17,
+        "y": 28
+    },
+    "portals": {
+        "west": {
+            "spawn": {
+                "f": 0,
+                "x": 17,
+                "y": 28
+            }
+        },
+        "east": {
+            "spawn": {
+                "f": 0,
+                "x": 17,
+                "y": 12
+            }
+        }
+    },
+    "floors": [
+        {
+            "name": "Manantial Sagrado",
+            "w": 35,
+            "h": 41,
+            "cells": [
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "teleport",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "monster",
+                        "boss": true,
+                        "ref": "temple_boss_healer",
+                        "level": 20,
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "teleport",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_sanctuary_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_sanctuary_wall"
+                    }
+                ]
+            ]
+        }
+    ],
+    "tutorial_skill": "restoration",
+    "complete_event": "tut_healer_done",
+    "tex_wall": "tex_sanctuary_wall",
+    "tex_floor": "tex_sanctuary_floor",
+    "void_type": "lava"
+}

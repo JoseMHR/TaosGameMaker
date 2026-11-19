@@ -1,0 +1,40 @@
+{
+    "name": {
+        "es": "Anillo de Rubí",
+        "en": "Ruby Ring",
+        "fr": "Anneau de Rubis",
+        "it": "Anello di Rubino",
+        "de": "Rubinring",
+        "zh": "红宝石戒指",
+        "ja": "ルビーリング"
+    },
+    "desc": {
+        "es": "Anillo con un rubí ardiente que calienta el espíritu del portador.",
+        "en": "Ring with a fiery ruby that warms the bearer's spirit.",
+        "fr": "Anneau avec un rubis ardent qui réchauffe l'esprit de celui qui le porte.",
+        "it": "Anello con un rubino ardente che riscalda lo spirito di chi lo indossa.",
+        "de": "Ring mit feurigem Rubin, der den Geist des Trägers erwärmt.",
+        "zh": "镶有炽热红宝石的戒指，能温暖佩戴者的心灵。",
+        "ja": "装着者の心を温める燃えるようなルビーが付いた指輪。"
+    },
+    "icon": "💍",
+    "category": "equipment",
+    "usable": false,
+    "slot": "accessory",
+    "tier": 3,
+    "bonuses": {
+        "str": 3
+    },
+    "combat": {
+        "phys_damage": 12
+    },
+    "traits": [
+        {
+            "type": "resist_element",
+            "element": "fire",
+            "value": 0.1,
+            "min_refine": 0,
+            "desc": "+10% Resistencia a elemento Fuego"
+        }
+    ]
+}

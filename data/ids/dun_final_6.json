@@ -1,0 +1,32 @@
+{
+    "id": "dun_final_6",
+    "type": "dungeon",
+    "name": {
+        "es": "Fase 6: Pasillo de la Memoria",
+        "en": "Phase 6: Hall of Memory",
+        "fr": "Phase 6 : Couloir de la Mémoire",
+        "it": "Fase 6: Corridoio della Memoria",
+        "de": "Phase 6: Halle der Erinnerung",
+        "zh": "第六阶段：记忆回廊",
+        "ja": "第六段階：記憶の回廊"
+    },
+    "icon": "🕳️",
+    "portal": {
+        "view": "dungeon",
+        "event_id": "dun_final_6"
+    },
+    "desc": {
+        "es": "Templo del Origen - Fase 6: Confrontación suprema ante el Guardián Supremo Lv 50 y la Esfera de la Verdad.",
+        "en": "Temple of Origin - Phase 6: Supreme confrontation against the Supreme Guardian Lv 50 and the Sphere of Truth.",
+        "fr": "Temple de l'Origine - Phase 6 : Confrontation suprême face au Gardien Suprême Niv. 50 et à la Sphère de la Vérité.",
+        "it": "Tempio dell'Origine - Fase 6: Confronto supremo contro il Guardiano Supremo Lv 50 e la Sfera della Verità.",
+        "de": "Tempel des Ursprungs - Phase 6: Höchste Konfrontation mit dem Obersten Wächter Lv. 50 und der Sphäre der Wahrheit.",
+        "zh": "起源神庙——第六阶段：与50级至高守护者及真理之球的终极对决。",
+        "ja": "起源の神殿——第六段階：レベル50の至高の守護者と真実の球との最終対決。"
+    },
+    "bg": [
+        0.05,
+        0.05,
+        0.08
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "id": "dun_final_4",
+    "type": "dungeon",
+    "name": {
+        "es": "Fase 4: Las Dos Mentes",
+        "en": "Phase 4: The Two Minds",
+        "fr": "Phase 4 : Les Deux Esprits",
+        "it": "Fase 4: Le Due Menti",
+        "de": "Phase 4: Die Zwei Geister",
+        "zh": "第四阶段：两个心智",
+        "ja": "第四段階：二つの心"
+    },
+    "icon": "🕳️",
+    "portal": {
+        "view": "dungeon",
+        "event_id": "dun_final_4"
+    },
+    "desc": {
+        "es": "Templo del Origen - Fase 4: La bifurcación de mundos (Templo vs Hospital Arcanium).",
+        "en": "Temple of Origin - Phase 4: The bifurcation of worlds (Temple vs Arcanium Hospital).",
+        "fr": "Temple de l'Origine - Phase 4 : La bifurcation des mondes (Temple vs Hôpital Arcanium).",
+        "it": "Tempio dell'Origine - Fase 4: La biforcazione dei mondi (Tempio vs Ospedale Arcanium).",
+        "de": "Tempel des Ursprungs - Phase 4: Die Gabelung der Welten (Tempel vs. Arcanium-Krankenhaus).",
+        "zh": "起源神庙——第四阶段：世界的分岔（神庙对阵奥秘遗迹医院）。",
+        "ja": "起源の神殿——第四段階：世界の分岐（神殿対アルカナム病院）。"
+    },
+    "bg": [
+        0.05,
+        0.05,
+        0.08
+    ]
+}

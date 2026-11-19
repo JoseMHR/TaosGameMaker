@@ -1,0 +1,149 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "La Terminal Parpadeante",
+            "en": "The Flickering Terminal",
+            "fr": "Le Terminal Clignotant",
+            "it": "Il Terminale Lampeggiante",
+            "de": "Das Flackernde Terminal",
+            "zh": "闪烁的终端",
+            "ja": "点滅する端末"
+        },
+        "next": [],
+        "reward": "bg=0.04,0.06,0.07"
+    },
+    "term_root": {
+        "type": "message",
+        "text": {
+            "es": "Incrustada absurdamente en un peñasco del páramo, una terminal de laboratorio de pantalla verde parpadea entre chisporroteos. Los muros de piedra a su alrededor están cruzados por cables que no llevan a ninguna parte. La pantalla vomita líneas de un registro de investigación, entrecortadas por interferencias: '...ensayo 04... sujeto responde a la radiación de la esfera... DR. AIDEN insiste en continuar pese a...' El cursor palpita, esperando una orden que solo tú puedes dar.",
+            "en": "Absurdly embedded in a badland crag, a green-screen lab terminal flickers amid sparks. The stone walls around it are laced with cables that lead nowhere. The screen spews lines of a research log, broken by static: '...trial 04... subject responds to sphere radiation... DR. AIDEN insists on continuing despite...' The cursor pulses, awaiting a command only you can give.",
+            "fr": "Encastré absurdement dans un rocher du désert, un terminal de laboratoire à écran vert clignote parmi des crépitements. Les murs de pierre alentour sont traversés de câbles qui ne mènent nulle part. L'écran vomit des lignes d'un journal de recherche, entrecoupées d'interférences : « ...essai 04... le sujet répond au rayonnement de la sphère... DR AIDEN insiste pour continuer malgré... » Le curseur palpite, attendant un ordre que toi seul peux donner.",
+            "it": "Incastonato assurdamente in una roccia della landa, un terminale di laboratorio a schermo verde lampeggia tra scoppiettii. Le pareti di pietra intorno sono attraversate da cavi che non portano da nessuna parte. Lo schermo vomita righe di un registro di ricerca, interrotte da interferenze: '...prova 04... il soggetto risponde alla radiazione della sfera... IL DOTT. AIDEN insiste per continuare nonostante...' Il cursore pulsa, in attesa di un comando che solo tu puoi dare.",
+            "de": "Absurd in einen Felsen des Ödlands eingebettet, flackert ein grünbildschirmiges Labor-Terminal zwischen Funkenknistern. Die Steinwände ringsum sind von Kabeln durchzogen, die ins Nirgendwo führen. Der Bildschirm spuckt Zeilen eines Forschungsprotokolls aus, unterbrochen von Störungen: „...Versuch 04... Testperson reagiert auf Sphärenstrahlung... DR. AIDEN besteht darauf fortzufahren trotz...“ Der Cursor pulsiert und wartet auf einen Befehl, den nur du geben kannst.",
+            "zh": "一个绿屏实验室终端荒谬地嵌在荒原的一块岩石中，伴随着噼啪声闪烁着。周围的石壁上布满了通向虚无的电缆。屏幕吐出一行行研究记录，间或被干扰打断：「……第04号试验……受试者对球体辐射产生反应……艾登博士坚持继续，尽管……」光标在闪动，等待着只有你才能给出的指令。",
+            "ja": "荒野の岩に不条理にも埋め込まれた緑画面の研究所端末が、火花とともに明滅している。周囲の石壁には、どこにも通じていない配線が走っている。画面には研究記録が次々と流れ、静電気で途切れる——「……試験04……被験者は球の放射に反応……エイデン博士は……にもかかわらず継続を主張……」カーソルは脈打ちながら、お前だけが与えられる命令を待っている。"
+        },
+        "next": [
+            "term_opt_leer",
+            "term_opt_buscar",
+            "term_opt_apagar",
+            "term_opt_salir"
+        ],
+        "reward": ""
+    },
+    "term_opt_leer": {
+        "type": "option",
+        "text": {
+            "es": "🖥️  Leer el registro completo que reproduce la pantalla",
+            "en": "🖥️  Read the full log the screen is replaying",
+            "fr": "🖥️  Lire le journal complet que rejoue l'écran",
+            "it": "🖥️  Leggere il registro completo che lo schermo riproduce",
+            "de": "🖥️  Das gesamte Protokoll lesen, das der Bildschirm wiedergibt",
+            "zh": "🖥️  阅读屏幕上重播的完整记录",
+            "ja": "🖥️  画面が再生している全記録を読む"
+        },
+        "next": [
+            "term_msg_leer"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "term_msg_leer": {
+        "type": "message",
+        "text": {
+            "es": "Las líneas se suceden entre parpadeos: 'La corporación exige resultados o cancela el proyecto de las esferas. El Dr. Aiden lleva once días sin salir del laboratorio. Se niega a probar en voluntarios; dice que primero lo probará en sí mismo.' Y luego, con la fecha de hace muy poco: 'ADVERTENCIA: acceso no autorizado del menor a la sala de esferas. Repito: HAY UNA NIÑA EN LA SALA DE ESFERAS.' La grabación se corta en un chillido de estática. Te tiemblan las manos y no sabes exactamente por qué.",
+            "en": "The lines scroll by between flickers: 'The corporation demands results or cancels the sphere project. Dr. Aiden hasn't left the lab in eleven days. He refuses to test on volunteers; he says he'll test on himself first.' And then, dated very recently: 'WARNING: unauthorized access by the minor to the sphere chamber. Repeat: THERE IS A CHILD IN THE SPHERE CHAMBER.' The recording cuts out in a shriek of static. Your hands are shaking and you don't quite know why.",
+            "fr": "Les lignes défilent entre les clignotements : « L'entreprise exige des résultats ou annule le projet des sphères. Le Dr Aiden n'a pas quitté le laboratoire depuis onze jours. Il refuse de tester sur des volontaires ; il dit qu'il testera d'abord sur lui-même. » Puis, avec une date très récente : « AVERTISSEMENT : accès non autorisé du mineur à la salle des sphères. Je répète : IL Y A UNE FILLE DANS LA SALLE DES SPHÈRES. » L'enregistrement s'interrompt dans un hurlement de parasites. Tes mains tremblent et tu ne sais pas exactement pourquoi.",
+            "it": "Le righe scorrono tra i lampeggi: 'L'azienda esige risultati o cancella il progetto delle sfere. Il Dott. Aiden non esce dal laboratorio da undici giorni. Rifiuta di sperimentare sui volontari; dice che proverà prima su se stesso.' E poi, con una data molto recente: 'AVVERTIMENTO: accesso non autorizzato del minore alla sala delle sfere. Ripeto: C'È UNA BAMBINA NELLA SALA DELLE SFERE.' La registrazione si interrompe in uno strillo di statica. Le mani ti tremano e non sai bene perché.",
+            "de": "Die Zeilen ziehen zwischen den Flackern vorbei: „Das Unternehmen fordert Ergebnisse oder bricht das Sphärenprojekt ab. Dr. Aiden hat das Labor seit elf Tagen nicht verlassen. Er weigert sich, an Freiwilligen zu testen; er sagt, er werde zuerst an sich selbst testen.“ Und dann, mit sehr aktuellem Datum: „WARNUNG: unbefugter Zugang des Minderjährigen zum Sphärenraum. Ich wiederhole: EIN KIND IST IM SPHÄRENRAUM.“ Die Aufnahme bricht in einem Kreischen von Rauschen ab. Deine Hände zittern, und du weißt nicht genau, warum.",
+            "zh": "文字在闪烁间不断滚动：「公司要求出成果，否则取消球体项目。艾登博士已经十一天没有离开实验室了。他拒绝在志愿者身上进行测试；他说他会先在自己身上试验。」然后，日期非常近的一条：「警告：未成年人未经授权进入球体室。重复：球体室内有一名儿童。」录音在一阵刺耳的静电噪声中戛然而止。你的手在颤抖，却不太清楚为什么。",
+            "ja": "行がちらつきの合間に流れていく——「会社は結果を求めている、さもなければ球体計画は中止だ。エイデン博士は十一日間、研究所を出ていない。志願者での試験を拒否し、まず自分自身で試すと言っている」。そして、ごく最近の日付でこうある——「警告：未成年者が球体室に無許可でアクセス。繰り返す：球体室に子供がいる」。記録は静電気の悲鳴とともに途切れる。手が震えているが、なぜかは正確には分からない。"
+        },
+        "next": [
+            "term_opt_salir"
+        ],
+        "reward": "faceta:cordura=-1;gflag:term_leida"
+    },
+    "term_opt_buscar": {
+        "type": "option",
+        "text": {
+            "es": "🔎  Rebuscar en los archivos ocultos de la terminal",
+            "en": "🔎  Dig through the terminal's hidden files",
+            "fr": "🔎  Fouiller dans les fichiers cachés du terminal",
+            "it": "🔎  Rovistare nei file nascosti del terminale",
+            "de": "🔎  Die versteckten Dateien des Terminals durchsuchen",
+            "zh": "🔎  搜寻终端里隐藏的文件",
+            "ja": "🔎  端末の隠しファイルを探る"
+        },
+        "next": [
+            "term_msg_buscar"
+        ],
+        "reward": ""
+    },
+    "term_msg_buscar": {
+        "type": "message",
+        "text": {
+            "es": "Tecleas con una soltura que no sabías tener —los dedos parecen recordar el teclado por sí solos— y accedes a una carpeta protegida. Dentro no hay datos científicos: hay fotos. Un hombre con bata blanca y una niña pequeña riéndose, soplando las velas de una tarta. Bajo la última imagen, un archivo de texto de una sola línea: 'copia de seguridad de lo único que importaba'. Cierras la carpeta despacio, con un nudo en la garganta que la ciencia no puede explicar.",
+            "en": "You type with an ease you didn't know you had — your fingers seem to remember the keyboard on their own — and access a protected folder. Inside there's no scientific data: there are photos. A man in a white coat and a small girl laughing, blowing out the candles on a cake. Beneath the last image, a text file of a single line: 'backup of the only thing that mattered'. You close the folder slowly, a knot in your throat that science cannot explain.",
+            "fr": "Tu tapes avec une aisance que tu ne te connaissais pas — tes doigts semblent se souvenir du clavier tout seuls — et accèdes à un dossier protégé. À l'intérieur, il n'y a pas de données scientifiques : il y a des photos. Un homme en blouse blanche et une petite fille riant, soufflant les bougies d'un gâteau. Sous la dernière image, un fichier texte d'une seule ligne : « sauvegarde de la seule chose qui comptait ». Tu refermes le dossier lentement, avec un nœud dans la gorge que la science ne peut expliquer.",
+            "it": "Digiti con una disinvoltura che non sapevi di avere — le dita sembrano ricordare la tastiera da sole — e accedi a una cartella protetta. Dentro non ci sono dati scientifici: ci sono foto. Un uomo in camice bianco e una bambina che ride, soffiando le candeline di una torta. Sotto l'ultima immagine, un file di testo di una sola riga: 'copia di sicurezza dell'unica cosa che contava'. Chiudi la cartella lentamente, con un nodo in gola che la scienza non può spiegare.",
+            "de": "Du tippst mit einer Leichtigkeit, von der du nicht wusstest, dass du sie hattest — deine Finger scheinen sich von selbst an die Tastatur zu erinnern — und greifst auf einen geschützten Ordner zu. Darin gibt es keine wissenschaftlichen Daten: es sind Fotos. Ein Mann im weißen Kittel und ein kleines Mädchen, das lacht und die Kerzen einer Torte ausbläst. Unter dem letzten Bild eine Textdatei mit einer einzigen Zeile: „Sicherung des Einzigen, was zählte“. Du schließt den Ordner langsam, mit einem Kloß im Hals, den die Wissenschaft nicht erklären kann.",
+            "zh": "你以一种自己都不知道自己拥有的熟练度打字——手指仿佛自行记得键盘的位置——然后进入了一个受保护的文件夹。里面没有科学数据：只有照片。一个穿白大褂的男人和一个正在笑着吹灭蛋糕蜡烛的小女孩。在最后一张图片下面，是一个只有一行字的文本文件：「唯一重要之事的备份」。你缓缓合上文件夹，喉咙里哽着一种科学无法解释的哽咽感。",
+            "ja": "自分でも知らなかったほどの手慣れた様子でタイプする——指が勝手にキーボードを覚えているかのようだ——そして保護されたフォルダにアクセスする。中には科学的データはない。写真がある。白衣を着た男と、ケーキのろうそくを吹き消しながら笑う小さな女の子。最後の画像の下には、たった一行のテキストファイル——「唯一大切だったものの記録」。科学では説明できない喉の締め付けとともに、ゆっくりとフォルダを閉じる。"
+        },
+        "next": [
+            "term_root"
+        ],
+        "reward": ""
+    },
+    "term_opt_apagar": {
+        "type": "option",
+        "text": {
+            "es": "⏻  Apagar la terminal para que deje de repetir todo eso",
+            "en": "⏻  Shut the terminal down so it stops repeating all of that",
+            "fr": "⏻  Éteindre le terminal pour qu'il cesse de tout répéter",
+            "it": "⏻  Spegnere il terminale perché smetta di ripetere tutto ciò",
+            "de": "⏻  Das Terminal ausschalten, damit es aufhört, all das zu wiederholen",
+            "zh": "⏻  关闭终端，让它停止重复播放这一切",
+            "ja": "⏻  すべての繰り返しを止めるために端末を切る"
+        },
+        "next": [
+            "term_msg_apagar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "term_msg_apagar": {
+        "type": "message",
+        "text": {
+            "es": "Buscas el interruptor y cortas la corriente. La pantalla se apaga con un zumbido decreciente... y vuelve a encenderse sola al instante, mostrando la misma línea: 'HAY UNA NIÑA EN LA SALA DE ESFERAS'. La apagas otra vez. Se enciende otra vez. Comprendes que esta terminal no funciona con electricidad: funciona con algo que llevas dentro y que se niega a apagarse. Te alejas dejándola parpadear a solas en el páramo.",
+            "en": "You find the switch and cut the power. The screen dies with a descending hum... and turns itself back on instantly, showing the same line: 'THERE IS A CHILD IN THE SPHERE CHAMBER'. You shut it off again. It powers on again. You understand this terminal doesn't run on electricity: it runs on something you carry inside that refuses to switch off. You walk away, leaving it flickering alone in the badlands.",
+            "fr": "Tu cherches l'interrupteur et coupes le courant. L'écran s'éteint dans un bourdonnement décroissant... et se rallume aussitôt de lui-même, affichant la même ligne : « IL Y A UNE FILLE DANS LA SALLE DES SPHÈRES ». Tu l'éteins à nouveau. Il se rallume à nouveau. Tu comprends que ce terminal ne fonctionne pas à l'électricité : il fonctionne avec quelque chose que tu portes en toi et qui refuse de s'éteindre. Tu t'éloignes en le laissant clignoter seul dans le désert.",
+            "it": "Cerchi l'interruttore e tagli la corrente. Lo schermo si spegne con un ronzio decrescente... e si riaccende da solo all'istante, mostrando la stessa riga: 'C'È UNA BAMBINA NELLA SALA DELLE SFERE'. Lo spegni di nuovo. Si riaccende di nuovo. Comprendi che questo terminale non funziona a elettricità: funziona con qualcosa che porti dentro e che si rifiuta di spegnersi. Ti allontani lasciandolo lampeggiare da solo nella landa.",
+            "de": "Du suchst den Schalter und trennst den Strom. Der Bildschirm erlischt mit einem abklingenden Summen... und schaltet sich sofort von selbst wieder ein, zeigt dieselbe Zeile: „EIN KIND IST IM SPHÄRENRAUM“. Du schaltest ihn wieder aus. Er schaltet sich wieder ein. Du verstehst, dass dieses Terminal nicht mit Elektrizität läuft: es läuft mit etwas, das du in dir trägst und das sich weigert, sich abzuschalten. Du gehst weg und lässt es allein im Ödland flackern.",
+            "zh": "你找到开关，切断了电源。屏幕带着逐渐减弱的嗡鸣声熄灭了……然后立刻自行重新开启，显示着同一行字：「球体室内有一名儿童」。你再次关掉它。它又自行开启。你明白了，这个终端运行的不是电力：它运行的是你内心携带的、拒绝熄灭的某种东西。你转身离去，任由它独自在荒原中闪烁。",
+            "ja": "スイッチを探し、電源を切る。画面は音を落としながら消える……そして即座に自動で再び点灯し、同じ行を表示する——「球体室に子供がいる」。再び切る。再び点く。この端末は電気で動いているのではないと理解する——お前の内側に抱え、消えることを拒む何かで動いているのだと。荒野に一人明滅させたまま、その場を去る。"
+        },
+        "next": [
+            "term_opt_salir"
+        ],
+        "reward": "faceta:cordura=-1"
+    },
+    "term_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Alejarte de la pantalla parpadeante",
+            "en": "🚶  Step away from the flickering screen",
+            "fr": "🚶  S'éloigner de l'écran clignotant",
+            "it": "🚶  Allontanarti dallo schermo lampeggiante",
+            "de": "🚶  Sich vom flackernden Bildschirm entfernen",
+            "zh": "🚶  离开这个闪烁的屏幕",
+            "ja": "🚶  点滅する画面から離れる"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

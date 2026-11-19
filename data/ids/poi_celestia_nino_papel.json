@@ -1,0 +1,26 @@
+{
+    "id": "poi_celestia_nino_papel",
+    "type": "poi",
+    "icon": "📄",
+    "name": {
+        "es": "El Niño de Papel",
+        "en": "The Paper Child",
+        "fr": "L'Enfant de Papier",
+        "it": "Il Bambino di Carta",
+        "de": "Das Papierkind",
+        "zh": "纸做的孩子",
+        "ja": "紙の子ども"
+    },
+    "desc": {
+        "es": "Una figura de papel plegado, del tamaño de un niño, que se mantiene en pie sin viento y pregunta por su padre. (PNJ singular).",
+        "en": "A folded-paper figure the size of a child, standing without any wind, asking for its father. (Singular NPC).",
+        "fr": "Une figure en papier plié, de la taille d'un enfant, qui se tient debout sans vent et demande son père. (PNJ singulier).",
+        "it": "Una figura di carta piegata, delle dimensioni di un bambino, che si regge in piedi senza vento e chiede del padre. (PNG singolare).",
+        "de": "Eine gefaltete Papierfigur in Kindesgröße, die ohne Wind aufrecht steht und nach ihrem Vater fragt. (Einzigartiger NPC).",
+        "zh": "一个孩子大小的折纸人偶，在无风中站立，追问着自己的父亲在哪里。（唯一NPC）。",
+        "ja": "子どもほどの大きさの折り紙の人形。風もないのに立ち、父親のことを尋ねてくる。（唯一のNPC）。"
+    },
+    "npc": "poi_celestia_nino_papel",
+    "bg": "bg_world_poi_celestia_nino_papel.png",
+    "music": "creepy"
+}

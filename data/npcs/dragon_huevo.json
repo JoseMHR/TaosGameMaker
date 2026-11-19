@@ -1,0 +1,84 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "Huevo de Dragón",
+            "en": "Dragon Egg",
+            "fr": "Œuf de Dragon",
+            "it": "Uovo di Drago",
+            "de": "Drachenei",
+            "zh": "龙蛋",
+            "ja": "ドラゴンの卵"
+        },
+        "next": [],
+        "reward": "avatar=npc_world_poi_arcanum_huevo_dragon.png;bg=0.06,0.05,0.03"
+    },
+    "huevo_idle": {
+        "type": "message",
+        "text": {
+            "es": "El huevo de dragón reposa en silencio sobre la roca, envuelto en un calor tenue. El camino hacia el sur queda abierto.",
+            "en": "The dragon egg rests quietly on the rock, wrapped in a faint warmth. The path south lies open.",
+            "fr": "L'œuf de dragon repose en silence sur la roche, enveloppé d'une chaleur ténue. Le chemin vers le sud est ouvert.",
+            "it": "L'uovo di drago riposa in silenzio sulla roccia, avvolto in un tenue calore. Il sentiero verso sud è aperto.",
+            "de": "Das Drachenei ruht still auf dem Fels, in schwache Wärme gehüllt. Der Weg nach Süden liegt offen.",
+            "zh": "龙蛋静静地躺在岩石上，裹着一层微弱的暖意。通往南方的道路已经敞开。",
+            "ja": "ドラゴンの卵が岩の上で静かに横たわり、かすかな温もりに包まれている。南への道は開かれている。"
+        },
+        "next": [
+            "huevo_idle_ok"
+        ],
+        "reward": "",
+        "condition": "gflag(\"dragon_egg_remembered\")"
+    },
+    "huevo_idle_ok": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Continuar",
+            "en": "🚶  Continue",
+            "fr": "🚶  Continuer",
+            "it": "🚶  Continua",
+            "de": "🚶  Weiter",
+            "zh": "🚶  继续",
+            "ja": "🚶  続ける"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "huevo_narrator": {
+        "type": "message",
+        "text": {
+            "es": "Donde antes rugía un dragón gigante ahora solo hay un huevo, cálido e inofensivo, posado entre las rocas. No hay rastro de furia, ni de amenaza. Ahora Aiden lo recuerda todo. La dragona Samy les hundió el barco a él y a Roxas en alta mar, y les perdonó la vida a cambio de una sola cosa: robar este huevo y llevarlo al templo de las esferas. Así empezó todo. Un huevo inofensivo, fácil de llevarse... y la primera piedra de una avalancha que aún no sabía que caería sobre su propia hija.",
+            "en": "Where a giant dragon once roared, there now lies only an egg, warm and harmless, resting among the rocks. No trace of fury, no threat remains. Now Aiden remembers everything. The dragon Samy sank his and Roxas's ship out at sea, and spared their lives in exchange for one thing: steal this egg and carry it to the temple of spheres. That is how it all began. A harmless egg, easy to carry away... and the first stone of an avalanche he did not yet know would fall upon his own daughter.",
+            "fr": "Là où rugissait autrefois un dragon géant, il ne reste plus qu'un œuf, chaud et inoffensif, posé entre les rochers. Aucune trace de fureur, aucune menace. Aiden se souvient maintenant de tout. La dragonne Samy a coulé son navire et celui de Roxas en pleine mer, et leur a laissé la vie sauve en échange d'une seule chose : voler cet œuf et le porter au temple des sphères. C'est ainsi que tout a commencé. Un œuf inoffensif, facile à emporter... et la première pierre d'une avalanche qui, il ne le savait pas encore, s'abattrait sur sa propre fille.",
+            "it": "Dove un tempo ruggiva un drago gigante, ora giace solo un uovo, caldo e innocuo, posato tra le rocce. Nessuna traccia di furia, nessuna minaccia. Ora Aiden ricorda tutto. La draghessa Samy affondò la sua nave e quella di Roxas in alto mare, e risparmiò loro la vita in cambio di una sola cosa: rubare quest'uovo e portarlo al tempio delle sfere. Così iniziò tutto. Un uovo innocuo, facile da portare via... e la prima pietra di una valanga che ancora non sapeva sarebbe caduta sulla sua stessa figlia.",
+            "de": "Wo einst ein riesiger Drache brüllte, liegt nun nur noch ein Ei, warm und harmlos, zwischen den Felsen. Keine Spur von Wut, keine Bedrohung. Jetzt erinnert sich Aiden an alles. Die Drachin Samy versenkte sein und Roxas' Schiff auf hoher See und schenkte ihnen das Leben im Austausch für eine einzige Sache: dieses Ei zu stehlen und es zum Tempel der Sphären zu bringen. So begann alles. Ein harmloses Ei, leicht zu tragen... und der erste Stein einer Lawine, von der er noch nicht wusste, dass sie auf seine eigene Tochter niedergehen würde.",
+            "zh": "曾经巨龙咆哮之地，如今只剩一颗蛋，温暖而无害地躺在岩石间。没有一丝愤怒的痕迹，没有一丝威胁。现在艾登记起了一切。飞龙萨米在公海上击沉了他和罗克萨斯的船，只用一个条件饶了他们的性命：偷走这颗蛋，并把它带到球体神殿。一切就是这样开始的。一颗无害、易于携带的蛋……却是那场雪崩的第一块石头——而他当时还不知道，这场雪崩终将降临到自己女儿的头上。",
+            "ja": "かつて巨大な竜が咆哮していた場所には、今では岩の間に温かく無害な卵が一つ横たわるだけだ。怒りの気配も、脅威も残っていない。今エイデンはすべてを思い出している。竜サミーは大海原で彼とロクサスの船を沈め、たった一つの条件と引き換えに命を助けた——この卵を盗み、球の神殿へ運ぶこと。すべてはそこから始まった。無害で、持ち運びやすい卵……それが、いずれ自分の娘に降りかかることになるとは知る由もなかった雪崩の、最初の一石だった。"
+        },
+        "next": [
+            "huevo_narrator_ok"
+        ],
+        "reward": "",
+        "condition": "no_gflag(\"dragon_egg_remembered\") and has_item(\"recuerdos_aiden\")"
+    },
+    "huevo_narrator_ok": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Continuar",
+            "en": "🚶  Continue",
+            "fr": "🚶  Continuer",
+            "it": "🚶  Continua",
+            "de": "🚶  Weiter",
+            "zh": "🚶  继续",
+            "ja": "🚶  続ける"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "gflag:dragon_egg_remembered;gflag:flag_arcanum_lab_cleared;gflag:dragon_cima_unlocked;emit:dragon_cima_unlocked",
+        "condition": "has_item(\"recuerdos_aiden\")",
+        "once": true
+    }
+}

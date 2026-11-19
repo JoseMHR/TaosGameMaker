@@ -1,0 +1,114 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "Lápida Gruñona",
+            "en": "Grumpy Tombstone",
+            "fr": "La Tombe Grincheuse",
+            "it": "La Tomba Scorbutica",
+            "de": "Der Griesgrämige Grabstein",
+            "zh": "暴躁的墓碑",
+            "ja": "気難しい墓石"
+        },
+        "next": [],
+        "reward": "bg=0.06,0.06,0.06"
+    },
+    "tumba1_root": {
+        "type": "message",
+        "text": {
+            "es": "Ves una gran tumba de piedra con un yelmo apoyado encima. En la losa principal hay un epitafio cincelado con rabia evidente:\n\n«Aquí estoy enterrado yo, escrito por mí mismo. No busques tesoros, no invoques mi espíritu y, sobre todo... ¡dejadme descansar en paz, coño! Que en vida ya me disteis bastante la tabarra.»",
+            "en": "You see a large stone tomb with a weathered helmet resting on top. Chiseled into the stone with unmistakable fury is an epitaph:\n\n«Here lie I, buried by mine own hands. Seek no treasures, summon not my spirit, and above all... let me bloody well rest in peace! Ye bothered me quite enough when I was alive.»",
+            "fr": "Tu vois une grande tombe de pierre avec un heaume posé dessus. Sur la dalle principale est gravée, avec une rage manifeste, une épitaphe :\n\n«Ci-gît celui qui écrit ces mots lui-même. Ne cherchez pas de trésors, n'invoquez pas mon esprit et, surtout... foutez-moi la paix, bon sang ! Vous m'avez assez cassé les pieds de mon vivant.»",
+            "it": "Vedi una grande tomba di pietra con un elmo appoggiato sopra. Sulla lastra principale è incisa, con evidente rabbia, un'epitaffio:\n\n«Qui sono sepolto io, scritto da me stesso. Non cercate tesori, non invocate il mio spirito e, soprattutto... lasciatemi riposare in pace, accidenti! Mi avete già scocciato abbastanza da vivo.»",
+            "de": "Du siehst ein großes Steingrab mit einem darauf liegenden Helm. In die Hauptplatte ist mit unverkennbarer Wut ein Epitaph gemeißelt:\n\n«Hier liege ich begraben, von mir selbst geschrieben. Sucht keine Schätze, beschwört nicht meinen Geist, und vor allem... lasst mich verdammt noch mal in Frieden ruhen! Ihr habt mir schon zu Lebzeiten genug auf die Nerven gegangen.»",
+            "zh": "你看到一座大石墓，上面放着一顶头盔。主石板上以显而易见的怒气刻着墓志铭：\n\n「此处埋葬着我，字句皆由我本人所写。别来找什么宝藏，别召唤我的灵魂，最重要的是……让老子安息，见鬼去吧！我活着的时候你们烦我还不够吗。」",
+            "ja": "大きな石の墓に兜が乗せられているのが見える。主碑板には、明らかな怒りを込めてこう刻まれている：\n\n「ここに眠る我、自らこの言葉を記す。宝など探すな、我が霊を呼び出すな、そして何より……安らかに眠らせろ、くそったれ！生きている間に十分うんざりさせられたのだからな。」"
+        },
+        "next": [
+            "tumba1_opt_tocar",
+            "tumba1_opt_silencio",
+            "tumba1_opt_salir"
+        ],
+        "reward": ""
+    },
+    "tumba1_opt_tocar": {
+        "type": "option",
+        "text": {
+            "es": "🪓  (Tocar la losa para ver si hay un mecanismo oculto)",
+            "en": "🪓  (Tap the stone slab to check for hidden switches)",
+            "fr": "🪓  (Toucher la dalle pour vérifier un mécanisme caché)",
+            "it": "🪓  (Toccare la lastra per verificare un meccanismo nascosto)",
+            "de": "🪓  (Die Platte berühren, um nach einem versteckten Mechanismus zu suchen)",
+            "zh": "🪓  （敲击石板，检查是否有隐藏机关）",
+            "ja": "🪓  （石板を叩いて隠された仕掛けがないか確認する）"
+        },
+        "next": [
+            "tumba1_msg_tocar"
+        ],
+        "reward": ""
+    },
+    "tumba1_msg_tocar": {
+        "type": "message",
+        "text": {
+            "es": "Al tocar la piedra, una pequeña tablilla de madera cae al suelo desde un hueco lateral. Pone con carbón fresco: '¿Qué parte de «dejadme en paz» no has entendido? Vete a salvar el mundo y deja a los muertos dormir la siesta.'",
+            "en": "As you tap the granite, a small wooden placard drops from a groove. Freshly scrawled in charcoal: 'Which syllable of \"leave me alone\" escaped thy comprehension? Go save the world and let corpses have their nap.'",
+            "fr": "En touchant la pierre, une petite plaquette de bois tombe au sol depuis une fente latérale. Elle porte, écrit au charbon frais : « Quelle partie de « laissez-moi tranquille » n'as-tu pas comprise ? Va sauver le monde et laisse les morts faire la sieste. »",
+            "it": "Toccando la pietra, una piccola tavoletta di legno cade a terra da una fessura laterale. Vi è scritto con carbone fresco: 'Quale parte di «lasciatemi in pace» non hai capito? Vai a salvare il mondo e lascia i morti a fare un pisolino.'",
+            "de": "Als du den Stein berührst, fällt aus einem seitlichen Spalt eine kleine Holztafel zu Boden. Mit frischer Holzkohle steht darauf: „Welchen Teil von ‚lasst mich in Ruhe' habt ihr nicht verstanden? Geht die Welt retten und lasst die Toten ihr Nickerchen halten.“",
+            "zh": "触碰石头时，一块小木牌从侧面的缝隙中掉落到地上。上面用新鲜的炭笔写着：「『别烦我』这几个字你们到底哪里没听懂？去拯救世界吧，让死人安心打个盹。」",
+            "ja": "石に触れると、側面の隙間から小さな木札が落ちてくる。新しい木炭でこう書かれている：「『放っておいてくれ』のどこが分からなかったんだ？世界でも救いに行って、死人には昼寝させてくれ」"
+        },
+        "next": [
+            "tumba1_root"
+        ],
+        "reward": ""
+    },
+    "tumba1_opt_silencio": {
+        "type": "option",
+        "text": {
+            "es": "🤫  Guardar un respetuoso y riguroso minuto de silencio",
+            "en": "🤫  Observe a strict, respectful minute of total silence",
+            "fr": "🤫  Observer une minute de silence respectueuse et rigoureuse",
+            "it": "🤫  Osservare un rispettoso e rigoroso minuto di silenzio",
+            "de": "🤫  Eine strenge, respektvolle Schweigeminute einhalten",
+            "zh": "🤫  恭敬而严格地默哀一分钟",
+            "ja": "🤫  厳粛に一分間の黙祷を捧げる"
+        },
+        "next": [
+            "tumba1_msg_silencio"
+        ],
+        "reward": ""
+    },
+    "tumba1_msg_silencio": {
+        "type": "message",
+        "text": {
+            "es": "Permaneces en absoluto silencio frente a la tumba. El viento cesa por un instante. Jurarías escuchar un suave y agradecido ronquido proveniente de las profundidades de la tierra.",
+            "en": "You stand in profound stillness before the grave. The howling wind fades for a fleeting second. You could swear you hear a faint, appreciative snore vibrating from beneath the loam.",
+            "fr": "Tu restes en silence absolu devant la tombe. Le vent cesse un instant. Tu jurerais entendre un doux ronflement reconnaissant provenant des profondeurs de la terre.",
+            "it": "Rimani in assoluto silenzio davanti alla tomba. Il vento cessa per un istante. Giureresti di sentire un dolce e riconoscente russare provenire dalle profondità della terra.",
+            "de": "Du verharrst in völliger Stille vor dem Grab. Der Wind hält für einen Moment inne. Du würdest schwören, ein sanftes, dankbares Schnarchen aus den Tiefen der Erde zu hören.",
+            "zh": "你在墓前保持绝对的沉默。风停了片刻。你几乎可以发誓，听到大地深处传来一声柔和而感激的鼾声。",
+            "ja": "墓の前で完全な静寂を守る。風が一瞬止まる。大地の奥深くから、感謝するような柔らかいいびきが聞こえた気がしてならない。"
+        },
+        "next": [
+            "tumba1_root"
+        ],
+        "reward": ""
+    },
+    "tumba1_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Alejarse de puntillas para no molestar",
+            "en": "🚶  Tiptoe away quietly",
+            "fr": "🚶  S'éloigner sur la pointe des pieds pour ne pas déranger",
+            "it": "🚶  Allontanarsi in punta di piedi per non disturbare",
+            "de": "🚶  Auf Zehenspitzen davonschleichen, um nicht zu stören",
+            "zh": "🚶  踮着脚悄悄离开，以免打扰",
+            "ja": "🚶  邪魔しないよう、忍び足で立ち去る"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

@@ -1,0 +1,62 @@
+{
+  "name": {
+    "es": "Manifestación de la Negación",
+    "en": "Manifestation of Denial",
+    "fr": "Manifestation du Déni",
+    "it": "Manifestazione della Negazione",
+    "de": "Manifestation der Verleugnung",
+    "zh": "否认化身",
+    "ja": "否認の顕現"
+  },
+  "family": "manifestacion",
+  "archetype": "tank",
+  "icon": "🙈",
+  "image": "res://assets/combat/enemies/en_denial_manifestation.png",
+  "attack_type": "magic",
+  "base_dodge": 6.0,
+  "dodge_scale": 0.15,
+  "element": "ice",
+  "weak_to": [
+    "fire",
+    "holy"
+  ],
+  "resist": [
+    "ice",
+    "physical"
+  ],
+  "status_on_hit": {
+    "type": "slow",
+    "chance": 0.3,
+    "turns": 2,
+    "power": 0
+  },
+  "ai": "defensive",
+  "xp_reward_base": 370,
+  "xp_reward_scale": 17.0,
+  "gold_reward_base": 195,
+  "gold_reward_scale": 13.0,
+  "skills": [
+    {
+      "level": 1,
+      "skill_id": "ice_shards"
+    },
+    {
+      "level": 46,
+      "skill_id": "dodge_stance"
+    }
+  ],
+  "loot": [
+    {
+      "kind": "gold",
+      "min": 50,
+      "max": 100
+    },
+    {
+      "kind": "equipment",
+      "chance": 0.4,
+      "level": 7
+    }
+  ],
+  "zone": "zona_7_epilogo",
+  "is_boss": false
+}

@@ -1,0 +1,150 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Examen que Nunca Termina",
+            "en": "The Exam That Never Ends",
+            "fr": "L'Examen qui ne Finit Jamais",
+            "it": "L'Esame che Non Finisce Mai",
+            "de": "Die Prüfung, die Nie Endet",
+            "zh": "永不结束的考试",
+            "ja": "決して終わらない試験"
+        },
+        "next": [],
+        "reward": "avatar=📝;bg=0.11,0.11,0.10"
+    },
+    "examen_root": {
+        "type": "message",
+        "text": {
+            "es": "Un aula polvorienta con cinco pupitres. En cada uno, un estudiante encanecido —barbas larguísimas, gafas rotas— sigue inclinado sobre el mismo examen, mordiendo la punta de la pluma. En la pizarra, con letra desvaída: 'PREGUNTA 1 de 1: ¿Cuál es el sentido de la vida? Dispone de todo el tiempo necesario.' Uno de los ancianos alza la vista, aterrado: 'Shhh. Llevo cuarenta años en la primera pregunta. No pienso entregar hasta estar SEGURO. ¿Y si me equivoco?'",
+            "en": "A dusty classroom with five desks. At each, a grey-haired student —endless beards, broken spectacles— still hunches over the same exam, chewing the tip of a pen. On the blackboard, in faded chalk: 'QUESTION 1 of 1: What is the meaning of life? You have all the time you need.' One of the old men looks up, terrified: 'Shhh. I've spent forty years on the first question. I won't hand it in until I'm SURE. What if I'm wrong?'",
+            "fr": "Une salle de classe poussiéreuse avec cinq pupitres. À chacun, un étudiant grisonnant — barbes interminables, lunettes cassées — reste penché sur le même examen, mordillant le bout de sa plume. Au tableau, en lettres délavées : « QUESTION 1 sur 1 : Quel est le sens de la vie ? Vous disposez de tout le temps nécessaire. » L'un des vieillards lève les yeux, terrifié : « Chut. Ça fait quarante ans que je suis sur la première question. Je ne compte pas la rendre tant que je ne suis pas SÛR. Et si je me trompe ? »",
+            "it": "Un'aula polverosa con cinque banchi. A ognuno, uno studente ingrigito —barbe lunghissime, occhiali rotti— resta chino sullo stesso esame, mordendo la punta della penna. Alla lavagna, con lettere sbiadite: 'DOMANDA 1 di 1: Qual è il senso della vita? Ha tutto il tempo necessario.' Uno degli anziani alza lo sguardo, terrorizzato: 'Sssh. Sono quarant'anni che sono sulla prima domanda. Non consegnerò finché non sarò SICURO. E se sbaglio?'",
+            "de": "Ein staubiges Klassenzimmer mit fünf Pulten. An jedem sitzt ein ergrauter Schüler — endlose Bärte, kaputte Brillen — noch immer über dieselbe Prüfung gebeugt, auf der Feder kauend. An der Tafel, in verblasster Kreide: „FRAGE 1 von 1: Was ist der Sinn des Lebens? Sie haben so viel Zeit, wie Sie brauchen.“ Einer der Alten blickt entsetzt auf: „Pssst. Ich bin seit vierzig Jahren bei der ersten Frage. Ich gebe nicht ab, bis ich mir SICHER bin. Was, wenn ich mich irre?“",
+            "zh": "一间落满灰尘的教室，摆着五张课桌。每张桌前都坐着一位白发苍苍的学生——留着长长的胡须，戴着破碎的眼镜——依然俯身伏在同一份试卷上，咬着笔尖。黑板上，用褪色的粉笔写着：「第1题（共1题）：人生的意义是什么？你有充足的时间。」其中一位老人惊恐地抬起头：「嘘。我在第一题上已经耗了四十年了。除非我确定，否则我不会交卷的。万一我错了怎么办？」",
+            "ja": "五つの机がある埃っぽい教室。それぞれに、白髪の学生——長い髭、壊れた眼鏡——が同じ試験にかじりつき、ペンの先を噛んでいる。黒板には色あせた文字で：「問1／全1問：人生の意味とは何か。必要なだけ時間をかけてよい」。老人の一人が怯えたように顔を上げる。「シーッ。最初の問題に取り組んで四十年だ。確信が持てるまで提出するつもりはない。もし間違えたら？」"
+        },
+        "next": [
+            "examen_opt_responder",
+            "examen_opt_convencer",
+            "examen_opt_copiar",
+            "examen_opt_salir"
+        ],
+        "reward": ""
+    },
+    "examen_opt_responder": {
+        "type": "option",
+        "text": {
+            "es": "✍️  Coger una hoja, escribir tu propia respuesta y entregarla sin miedo",
+            "en": "✍️  Grab a sheet, write your own answer and hand it in without fear",
+            "fr": "✍️  Prendre une feuille, écrire ta propre réponse et la rendre sans peur",
+            "it": "✍️  Prendere un foglio, scrivere la tua risposta e consegnarla senza paura",
+            "de": "✍️  Ein Blatt nehmen, deine eigene Antwort schreiben und sie furchtlos abgeben",
+            "zh": "✍️  拿一张纸，写下你自己的答案，毫无畏惧地交上去",
+            "ja": "✍️  紙を取り、自分の答えを書いて、恐れず提出する"
+        },
+        "next": [
+            "examen_msg_responder"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "examen_msg_responder": {
+        "type": "message",
+        "text": {
+            "es": "Coges una hoja en blanco y escribes lo primero honesto que se te ocurre: 'El sentido de la vida es no pasársela entera intentando averiguar el sentido de la vida.' Y la entregas. Los cinco ancianos contienen la respiración, esperando que el techo se derrumbe o suene una alarma. No pasa nada. Solo una campanita, y en la pizarra aparece: 'APTO. Cualquier respuesta vivida vale más que la respuesta perfecta jamás escrita.' Los estudiantes te miran como si hubieras partido el cielo en dos. Te vas dejándolos, por fin, atreverse a garabatear algo.",
+            "en": "You grab a blank sheet and write the first honest thing that comes to mind: 'The meaning of life is not to spend the whole of it trying to work out the meaning of life.' And you hand it in. The five old men hold their breath, waiting for the ceiling to fall or an alarm to sound. Nothing happens. Just a little bell, and on the blackboard appears: 'PASS. Any answer that was lived is worth more than the perfect answer never written.' The students stare at you as if you'd split the sky in two. You leave them, at last, daring to scribble something.",
+            "fr": "Tu prends une feuille blanche et écris la première chose honnête qui te vient à l'esprit : « Le sens de la vie est de ne pas passer toute sa vie à essayer de découvrir le sens de la vie. » Et tu la rends. Les cinq vieillards retiennent leur souffle, s'attendant à ce que le plafond s'effondre ou qu'une alarme retentisse. Rien ne se passe. Juste une petite clochette, et sur le tableau apparaît : « ADMIS. Toute réponse vécue vaut plus que la réponse parfaite jamais écrite. » Les étudiants te regardent comme si tu avais fendu le ciel en deux. Tu les laisses, enfin, oser griffonner quelque chose.",
+            "it": "Prendi un foglio bianco e scrivi la prima cosa onesta che ti viene in mente: 'Il senso della vita è non passarla tutta cercando di scoprire il senso della vita.' E lo consegni. I cinque anziani trattengono il respiro, aspettando che il soffitto crolli o suoni un allarme. Non succede nulla. Solo un campanellino, e sulla lavagna appare: 'PROMOSSO. Qualsiasi risposta vissuta vale più della risposta perfetta mai scritta.' Gli studenti ti guardano come se avessi diviso il cielo in due. Li lasci, finalmente, osare scarabocchiare qualcosa.",
+            "de": "Du nimmst ein leeres Blatt und schreibst das erste Ehrliche, das dir in den Sinn kommt: „Der Sinn des Lebens ist es, nicht das ganze Leben damit zu verbringen, den Sinn des Lebens herauszufinden.“ Und gibst es ab. Die fünf alten Männer halten den Atem an, in Erwartung, dass die Decke einstürzt oder ein Alarm ertönt. Nichts passiert. Nur ein kleines Glöckchen, und an der Tafel erscheint: „BESTANDEN. Jede gelebte Antwort ist mehr wert als die niemals geschriebene perfekte Antwort.“ Die Schüler starren dich an, als hättest du den Himmel in zwei Teile gespalten. Du lässt sie, endlich, es wagen, etwas hinzukritzeln.",
+            "zh": "你拿起一张白纸，写下脑海中第一句诚实的话：「人生的意义就在于不要把整个人生都花在寻找人生意义上。」然后交了上去。五位老人屏住呼吸，等着天花板塌下来，或是警报响起。什么都没发生。只有一声小铃响，黑板上出现了：「通过。任何被真正活出来的答案，都胜过一份从未被写下的完美答案。」学生们盯着你，仿佛你把天空劈成了两半。你终于让他们敢于潦草地写下点什么了。",
+            "ja": "白紙を取り、頭に浮かんだ最初の正直な言葉を書く。「人生の意味とは、人生の意味を探すことに人生すべてを費やさないことだ」そして提出する。五人の老人は息を止め、天井が崩れるか警報が鳴るのを待つ。何も起こらない。ただ小さな鈴の音が鳴り、黒板にはこう現れる。「合格。生きられたどんな答えも、決して書かれることのなかった完璧な答えより価値がある」学生たちはお前を、まるで空を真っ二つに割ったかのように見つめる。ついに彼らも何かを走り書きする勇気を得て、その場を後にする。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:valor=+1;faceta:inteligencia=+1"
+    },
+    "examen_opt_convencer": {
+        "type": "option",
+        "text": {
+            "es": "🗣️  Convencer a los ancianos de que un aprobado imperfecto es mejor que no vivir",
+            "en": "🗣️  Convince the old men that an imperfect pass beats never living",
+            "fr": "🗣️  Convaincre les vieillards qu'une réponse imparfaite vaut mieux que ne jamais vivre",
+            "it": "🗣️  Convincere gli anziani che una promozione imperfetta è meglio del non vivere",
+            "de": "🗣️  Die alten Männer überzeugen, dass ein unvollkommenes Bestehen besser ist als nie zu leben",
+            "zh": "🗣️  说服老人们，一个不完美的及格总好过没有生活过",
+            "ja": "🗣️  不完全な合格でも、生きないことよりましだと老人たちを説得する"
+        },
+        "next": [
+            "examen_msg_convencer"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "examen_msg_convencer": {
+        "type": "message",
+        "text": {
+            "es": "Te sientas con ellos y hablas despacio: 'Habéis gastado la vida entera protegiendo una nota que nunca llegará. El miedo a fallar os ha costado más que cualquier fallo posible.' Uno a uno, con las manos temblando, van garabateando una respuesta cualquiera y entregándola. Ninguno suspende: resulta que el examen se aprobaba con solo atreverse a contestar. Salen del aula por primera vez en décadas, entornando los ojos ante un sol que habían olvidado. Ayudar a alguien a soltar su miedo es un pequeño milagro cotidiano.",
+            "en": "You sit with them and speak slowly: 'You've spent your whole lives protecting a grade that will never come. The fear of failing has cost you more than any possible failure.' One by one, hands shaking, they scribble down some answer and hand it in. None of them fail: it turns out the exam was passed simply by daring to answer. They step out of the classroom for the first time in decades, squinting at a sun they'd forgotten. Helping someone let go of their fear is a small everyday miracle.",
+            "fr": "Tu t'assois avec eux et parles lentement : « Vous avez passé votre vie entière à protéger une note qui n'arrivera jamais. La peur d'échouer vous a coûté plus que n'importe quel échec possible. » Un par un, les mains tremblantes, ils griffonnent une réponse quelconque et la rendent. Aucun d'eux n'échoue : il s'avère que l'examen était réussi simplement en osant répondre. Ils sortent de la classe pour la première fois depuis des décennies, plissant les yeux devant un soleil qu'ils avaient oublié. Aider quelqu'un à lâcher sa peur est un petit miracle quotidien.",
+            "it": "Ti siedi con loro e parli lentamente: 'Avete passato tutta la vita proteggendo un voto che non arriverà mai. La paura di fallire vi è costata più di qualsiasi fallimento possibile.' Uno per uno, con le mani tremanti, scarabocchiano una risposta qualunque e la consegnano. Nessuno viene bocciato: risulta che l'esame si superava semplicemente osando rispondere. Escono dall'aula per la prima volta in decenni, socchiudendo gli occhi davanti a un sole che avevano dimenticato. Aiutare qualcuno a lasciar andare la propria paura è un piccolo miracolo quotidiano.",
+            "de": "Du setzt dich zu ihnen und sprichst langsam: „Ihr habt euer ganzes Leben damit verbracht, eine Note zu schützen, die nie kommen wird. Die Angst vor dem Scheitern hat euch mehr gekostet als jedes mögliche Scheitern.“ Einer nach dem anderen, mit zitternden Händen, kritzeln sie irgendeine Antwort hin und geben sie ab. Keiner fällt durch: es stellt sich heraus, dass die Prüfung schon durch den Mut zu antworten bestanden wurde. Sie verlassen das Klassenzimmer zum ersten Mal seit Jahrzehnten und blinzeln in eine Sonne, die sie vergessen hatten. Jemandem zu helfen, seine Angst loszulassen, ist ein kleines alltägliches Wunder.",
+            "zh": "你坐在他们中间，缓缓说道：「你们用一生守护着一个永远不会到来的分数。对失败的恐惧，付出的代价比任何可能的失败都要大。」他们一个接一个地，颤抖着手，随便写下一个答案，交了上去。没有一个人不及格：原来这场考试的通过标准只是敢于作答。他们几十年来第一次走出教室，在忘却已久的阳光下眯起了眼睛。帮助一个人放下恐惧，是一个日常的小小奇迹。",
+            "ja": "彼らのそばに座り、ゆっくりと話す。「あなたたちは決して来ない成績を守るために、人生すべてを費やしてきた。失敗を恐れることは、どんな可能な失敗よりも多くの代償を払わせてきた」一人また一人と、震える手で何らかの答えを書き、提出していく。誰も不合格にはならない——実はこの試験は、答える勇気を持つだけで合格するものだったのだ。何十年ぶりかで教室を出て、忘れていた太陽に目を細める。誰かの恐怖を手放させることは、日々の小さな奇跡だ。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:bondad=+1"
+    },
+    "examen_opt_copiar": {
+        "type": "option",
+        "text": {
+            "es": "😏  Espiar la hoja del de al lado a ver qué ha puesto en cuarenta años",
+            "en": "😏  Peek at the neighbor's sheet to see what he's written in forty years",
+            "fr": "😏  Espionner la feuille du voisin pour voir ce qu'il a écrit en quarante ans",
+            "it": "😏  Spiare il foglio del vicino per vedere cosa ha scritto in quarant'anni",
+            "de": "😏  Auf das Blatt des Nachbarn spähen, um zu sehen, was er in vierzig Jahren geschrieben hat",
+            "zh": "😏  偷瞄旁边人的试卷，看看他四十年来写了些什么",
+            "ja": "😏  隣の学生の紙を覗いて、四十年間で何を書いたか見る"
+        },
+        "next": [
+            "examen_msg_copiar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "examen_msg_copiar": {
+        "type": "message",
+        "text": {
+            "es": "Estiras el cuello para copiar. Su hoja, tras cuatro décadas de esfuerzo titánico, contiene exactamente: 'El sentido de la vida es' — y nada más. Se quedó atascado en la tercera palabra. En el margen, tachones y tachones de intentos borrados. Cuarenta años para media frase. Reprimes una carcajada y le das una palmadita en el hombro. Al menos su caligrafía es impecable.",
+            "en": "You crane your neck to copy. His sheet, after four decades of titanic effort, contains exactly: 'The meaning of life is' — and nothing more. He got stuck on the third word. In the margin, crossings-out upon crossings-out of erased attempts. Forty years for half a sentence. You stifle a laugh and pat him on the shoulder. At least his handwriting is impeccable.",
+            "fr": "Tu étires le cou pour copier. Sa feuille, après quatre décennies d'un effort titanesque, contient exactement : « Le sens de la vie est » — et rien de plus. Il est resté bloqué au troisième mot. Dans la marge, des ratures et des ratures de tentatives effacées. Quarante ans pour une demi-phrase. Tu réprimes un éclat de rire et lui donnes une petite tape sur l'épaule. Au moins, sa calligraphie est impeccable.",
+            "it": "Allunghi il collo per copiare. Il suo foglio, dopo quattro decenni di sforzo titanico, contiene esattamente: 'Il senso della vita è' — e nient'altro. Si è bloccato alla terza parola. Nel margine, cancellature su cancellature di tentativi cancellati. Quarant'anni per mezza frase. Reprimi una risata e gli dai una pacca sulla spalla. Almeno la sua calligrafia è impeccabile.",
+            "de": "Du streckst den Hals, um abzuschreiben. Sein Blatt enthält, nach vier Jahrzehnten titanischer Anstrengung, genau: „Der Sinn des Lebens ist“ — und nichts weiter. Er blieb beim dritten Wort stecken. Am Rand, Durchstreichungen über Durchstreichungen gelöschter Versuche. Vierzig Jahre für einen halben Satz. Du unterdrückst ein Lachen und klopfst ihm auf die Schulter. Immerhin ist seine Handschrift makellos.",
+            "zh": "你伸长脖子去偷看。他的试卷，经过四十年的巨大努力，写着的恰好是：「人生的意义是」——再无其他。他卡在了第三个词上。页边空白处，是一遍又一遍被划掉的尝试痕迹。四十年换来半句话。你忍住笑意，拍了拍他的肩膀。至少他的字迹无可挑剔。",
+            "ja": "首を伸ばして写す。彼の紙には、四十年の巨大な努力の末に、ちょうど「人生の意味は」——それだけしか書かれていない。三つ目の単語で行き詰まっているのだ。余白には、消された試みの線が幾重にも重なっている。四十年かけて半分の文。笑いをこらえ、彼の肩を叩く。少なくとも彼の筆跡は完璧だ。"
+        },
+        "next": [
+            "examen_root"
+        ],
+        "reward": "faceta:aspecto=+1"
+    },
+    "examen_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Salir de puntillas para no romperles la concentración",
+            "en": "🚶  Tiptoe out so as not to break their concentration",
+            "fr": "🚶  Sortir sur la pointe des pieds pour ne pas briser leur concentration",
+            "it": "🚶  Uscire in punta di piedi per non spezzare la loro concentrazione",
+            "de": "🚶  Auf Zehenspitzen hinausgehen, um ihre Konzentration nicht zu stören",
+            "zh": "🚶  踮着脚尖离开，以免打断他们的专注",
+            "ja": "🚶  集中を乱さないよう爪先立ちで出ていく"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

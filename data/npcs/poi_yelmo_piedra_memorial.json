@@ -1,0 +1,151 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "La Piedra sin Nombre",
+            "en": "The Nameless Stone",
+            "fr": "La Pierre Sans Nom",
+            "it": "La Pietra Senza Nome",
+            "de": "Der Namenlose Stein",
+            "zh": "无名之石",
+            "ja": "名もなき石"
+        },
+        "next": [],
+        "reward": "bg=0.06,0.06,0.07"
+    },
+    "pmem_root": {
+        "type": "message",
+        "text": {
+            "es": "Al borde del camino se yergue una lápida tosca, gris, sin flores. Donde debería ir el nombre no hay más que un cráter de arañazos: alguien golpeó la piedra una y otra vez hasta borrar cada letra, como si escribir el nombre doliera más que perder a quien lo llevaba. Solo ha sobrevivido una palabra al pie: 'PERDÓNAME'.",
+            "en": "At the roadside stands a rough grey headstone, without flowers. Where the name should be there is only a crater of scratches: someone struck the stone again and again until every letter was erased, as if writing the name hurt more than losing the one who bore it. Only one word survived at the base: 'FORGIVE ME'.",
+            "fr": "Au bord du chemin se dresse une pierre tombale grossière, grise, sans fleurs. Là où devrait figurer le nom, il n'y a qu'un cratère de griffures : quelqu'un a frappé la pierre encore et encore jusqu'à effacer chaque lettre, comme si écrire le nom faisait plus mal que de perdre celui qui le portait. Un seul mot a survécu au pied : « PARDONNE-MOI ».",
+            "it": "Al bordo della strada si erge una lapide grezza, grigia, senza fiori. Dove dovrebbe esserci il nome c'è solo un cratere di graffi: qualcuno ha colpito la pietra più e più volte fino a cancellare ogni lettera, come se scrivere il nome facesse più male che perdere chi lo portava. È sopravvissuta solo una parola in fondo: 'PERDONAMI'.",
+            "de": "Am Wegesrand steht ein grober, grauer Grabstein, ohne Blumen. Wo der Name stehen sollte, ist nur ein Krater aus Kratzern: Jemand hat immer wieder auf den Stein eingeschlagen, bis jeder Buchstabe getilgt war, als hätte das Schreiben des Namens mehr geschmerzt als der Verlust dessen, der ihn trug. Nur ein Wort hat am Fuß überlebt: „VERGIB MIR“.",
+            "zh": "路边矗立着一块粗糙的灰色墓碑，没有鲜花。本该刻着名字的地方只剩下一片刮痕坑洼：有人一遍又一遍地敲打这块石头，直到抹去每一个字母，仿佛写下这个名字比失去它所代表的人更加痛苦。只有一个词在底部幸存了下来：「原谅我」。",
+            "ja": "道端に、花もない粗末な灰色の墓石が立っている。名前があるべき場所には、傷跡のクレーターしかない。誰かが何度も何度も石を叩き、すべての文字を消し去った。まるで名前を書くことが、その名を持つ者を失うことよりも辛いかのように。台座にただ一つの言葉だけが生き残っている：「許してくれ」"
+        },
+        "next": [
+            "pmem_opt_tocar",
+            "pmem_opt_limpiar",
+            "pmem_opt_rezar",
+            "pmem_opt_salir"
+        ],
+        "reward": ""
+    },
+    "pmem_opt_tocar": {
+        "type": "option",
+        "text": {
+            "es": "✋  Pasar los dedos por las letras borradas",
+            "en": "✋  Run your fingers over the erased letters",
+            "fr": "✋  Passer les doigts sur les lettres effacées",
+            "it": "✋  Passare le dita sulle lettere cancellate",
+            "de": "✋  Mit den Fingern über die getilgten Buchstaben fahren",
+            "zh": "✋  用手指抚过那些被抹去的字母",
+            "ja": "✋  消された文字に指を滑らせる"
+        },
+        "next": [
+            "pmem_msg_tocar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "pmem_msg_tocar": {
+        "type": "message",
+        "text": {
+            "es": "Recorres los surcos con la yema del dedo, y por un segundo tus labios se mueven solos, formando un nombre —dos sílabas, suaves, familiares— que se te deshace en la boca antes de sonar. Se te encoge el estómago con una tristeza que no tiene recuerdo al que agarrarse. Lloras un poco, sin saber por quién. Quizá esta piedra no sea de un desconocido después de todo.",
+            "en": "You trace the grooves with your fingertip, and for a second your lips move on their own, forming a name — two syllables, soft, familiar — that dissolves in your mouth before it can sound. Your stomach clenches with a sorrow that has no memory to hold onto. You cry a little, not knowing for whom. Perhaps this stone doesn't belong to a stranger after all.",
+            "fr": "Tu parcours les sillons du bout du doigt, et pendant une seconde tes lèvres bougent d'elles-mêmes, formant un nom — deux syllabes, douces, familières — qui se dissout dans ta bouche avant de résonner. Ton estomac se serre d'une tristesse qui n'a aucun souvenir auquel s'accrocher. Tu pleures un peu, sans savoir pour qui. Peut-être cette pierre n'appartient-elle pas à un inconnu, après tout.",
+            "it": "Percorri i solchi con la punta del dito, e per un secondo le tue labbra si muovono da sole, formando un nome — due sillabe, morbide, familiari — che si dissolve in bocca prima di suonare. Lo stomaco ti si stringe con una tristezza che non ha alcun ricordo a cui aggrapparsi. Piangi un po', senza sapere per chi. Forse questa pietra non appartiene a uno sconosciuto, dopotutto.",
+            "de": "Du fährst mit der Fingerspitze über die Rillen, und für eine Sekunde bewegen sich deine Lippen von selbst und formen einen Namen — zwei Silben, weich, vertraut —, der sich in deinem Mund auflöst, bevor er erklingt. Dein Magen zieht sich zusammen mit einer Trauer, die sich an keine Erinnerung klammern kann. Du weinst ein wenig, ohne zu wissen, für wen. Vielleicht gehört dieser Stein doch nicht einem Fremden.",
+            "zh": "你用指尖抚过那些凹痕，一瞬间，你的嘴唇不由自主地动了起来，拼出一个名字——两个音节，柔软而熟悉——却在发出声音前就消散在口中。你的胃因一种无处依附的悲伤而紧缩。你哭了一点，却不知道是为了谁。也许，这块石头终究不属于一个陌生人。",
+            "ja": "指先で溝をなぞると、一瞬、唇が勝手に動き、名前を形作る——柔らかく、聞き覚えのある二つの音節——だがそれは声になる前に口の中で溶けて消える。すがりつく記憶のない悲しみに胃が締め付けられる。誰のためかも分からぬまま、少し涙が出る。もしかしたら、この石は結局、見知らぬ誰かのものではないのかもしれない。"
+        },
+        "next": [
+            "pmem_opt_salir"
+        ],
+        "reward": "faceta:cordura=-1"
+    },
+    "pmem_opt_limpiar": {
+        "type": "option",
+        "text": {
+            "es": "🌿  Limpiar la lápida y dejar unas flores del páramo",
+            "en": "🌿  Clean the stone and leave a few moor flowers",
+            "fr": "🌿  Nettoyer la pierre tombale et y déposer quelques fleurs de la lande",
+            "it": "🌿  Pulire la lapide e lasciare alcuni fiori della landa",
+            "de": "🌿  Den Grabstein reinigen und ein paar Moorblumen niederlegen",
+            "zh": "🌿  清理墓碑，放上几朵荒原上的野花",
+            "ja": "🌿  墓石を掃除し、荒野の花を手向ける"
+        },
+        "next": [
+            "pmem_msg_limpiar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "pmem_msg_limpiar": {
+        "type": "message",
+        "text": {
+            "es": "Arrancas las pocas florecillas grises que sobreviven en el páramo y las colocas al pie de la piedra. Frotas el musgo, apartas el barro. No sabes de quién es esta tumba, pero alguien tiene que cuidarla, y hoy te toca a ti. Al terminar, un extraño sosiego te asienta el pecho, como si a lo lejos alguien, por fin, respirara aliviado.",
+            "en": "You pluck the few grey flowers that survive on the moor and lay them at the foot of the stone. You scrub away the moss, wipe off the mud. You don't know whose grave this is, but someone has to tend it, and today it falls to you. When you finish, a strange calm settles in your chest, as if somewhere far off someone, at last, breathed easier.",
+            "fr": "Tu cueilles les quelques petites fleurs grises qui survivent dans la lande et les places au pied de la pierre. Tu frottes la mousse, écartes la boue. Tu ne sais pas à qui appartient cette tombe, mais quelqu'un doit s'en occuper, et aujourd'hui c'est ton tour. Une fois terminé, un étrange apaisement s'installe dans ta poitrine, comme si au loin quelqu'un, enfin, respirait plus librement.",
+            "it": "Raccogli i pochi fiorellini grigi che sopravvivono nella landa e li poni ai piedi della pietra. Sfreghi via il muschio, allontani il fango. Non sai di chi sia questa tomba, ma qualcuno deve curarla, e oggi tocca a te. Al termine, uno strano sollievo si posa nel tuo petto, come se in lontananza qualcuno, finalmente, respirasse più leggero.",
+            "de": "Du pflückst die wenigen grauen Blümchen, die auf dem Moor überleben, und legst sie zu Füßen des Steins nieder. Du schrubbst das Moos ab, entfernst den Schlamm. Du weißt nicht, wessen Grab dies ist, aber jemand muss sich darum kümmern, und heute bist du an der Reihe. Als du fertig bist, legt sich eine seltsame Ruhe auf deine Brust, als würde irgendwo weit weg jemand endlich erleichtert aufatmen.",
+            "zh": "你摘下荒原上仅存的几朵灰色小花，放在石头脚下。你擦去苔藓，拂开泥泞。你不知道这是谁的坟墓，但总得有人照料它，今天轮到了你。做完这一切后，一种奇异的安宁在你胸中沉淀下来，仿佛远方的某个人，终于松了一口气。",
+            "ja": "荒野に生き残るわずかな灰色の花を摘み、石の足元に置く。苔をこすり落とし、泥を払う。この墓が誰のものかは分からないが、誰かが手入れをしなければならず、今日はそれがお前の番だ。終える頃には、不思議な静けさが胸に宿る——まるで遠くの誰かが、ついに安堵の息をついたかのように。"
+        },
+        "next": [
+            "pmem_opt_salir"
+        ],
+        "reward": "faceta:bondad=+1;gflag:pmem_cuidada",
+        "condition": "no_gflag(\"pmem_cuidada\")",
+        "once": true
+    },
+    "pmem_opt_rezar": {
+        "type": "option",
+        "text": {
+            "es": "🙏  Leer en voz alta la única palabra: Perdóname",
+            "en": "🙏  Read the only word aloud: Forgive me",
+            "fr": "🙏  Lire à voix haute lunique mot : « Pardonne-moi",
+            "it": "🙏  Leggere ad alta voce l'unica parola: Perdonami",
+            "de": "🙏  Das einzige Wort laut lesen: Vergib mir",
+            "zh": "🙏  大声念出这唯一的字：原谅我",
+            "ja": "🙏  唯一の言葉を声に出して読む：許してくれ"
+        },
+        "next": [
+            "pmem_msg_rezar"
+        ],
+        "reward": ""
+    },
+    "pmem_msg_rezar": {
+        "type": "message",
+        "text": {
+            "es": "Pronuncias la palabra en voz alta y el viento la arranca de inmediato, llevándosela por el páramo como si tuviera prisa por entregarla. Por un instante te parece que la palabra no la dices tú a la piedra, sino la piedra a ti. '¿A quién le pido perdón?', te oyes murmurar. El silencio no responde, pero tampoco se marcha.",
+            "en": "You speak the word aloud and the wind snatches it at once, carrying it off across the moor as if in a hurry to deliver it. For an instant it seems the word is not spoken by you to the stone, but by the stone to you. 'Whom am I asking for forgiveness?' you hear yourself murmur. The silence doesn't answer, but it doesn't leave either.",
+            "fr": "Tu prononces le mot à voix haute et le vent l'arrache aussitôt, l'emportant à travers la lande comme s'il était pressé de le livrer. Pendant un instant, il te semble que ce n'est pas toi qui dis ce mot à la pierre, mais la pierre qui te le dit. « À qui est-ce que je demande pardon ? », t'entends-tu murmurer. Le silence ne répond pas, mais il ne s'en va pas non plus.",
+            "it": "Pronunci la parola ad alta voce e il vento la strappa immediatamente, portandola via per la landa come se avesse fretta di consegnarla. Per un istante ti sembra che la parola non la dica tu alla pietra, ma la pietra a te. 'A chi chiedo perdono?', ti senti mormorare. Il silenzio non risponde, ma nemmeno se ne va.",
+            "de": "Du sprichst das Wort laut aus, und der Wind reißt es sofort mit sich, trägt es über das Moor, als hätte er es eilig, es auszuliefern. Für einen Moment scheint es dir, als würdest nicht du das Wort zum Stein sprechen, sondern der Stein zu dir. „Wen bitte ich um Vergebung?“, hörst du dich murmeln. Die Stille antwortet nicht, aber sie geht auch nicht fort.",
+            "zh": "你大声说出这个字，风立刻将它撕走，仿佛急于将它传递出去般刮过荒原。刹那间，你觉得这个字似乎不是你对石头说的，而是石头对你说的。「我究竟在向谁请求原谅？」你听见自己喃喃自语。寂静没有回答，但也没有离去。",
+            "ja": "その言葉を声に出すと、風が即座にそれをさらい、まるで急いで届けようとするかのように荒野を越えて運んでいく。一瞬、その言葉はお前が石に語りかけたのではなく、石がお前に語りかけたように思える。「誰に許しを乞うているのだろう」と自分の呟きが聞こえる。沈黙は答えないが、去ってもいかない。"
+        },
+        "next": [
+            "pmem_opt_salir"
+        ],
+        "reward": ""
+    },
+    "pmem_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Seguir tu camino en silencio",
+            "en": "🚶  Continue on your way in silence",
+            "fr": "🚶  Poursuivre ton chemin en silence",
+            "it": "🚶  Proseguire il tuo cammino in silenzio",
+            "de": "🚶  Schweigend deinen Weg fortsetzen",
+            "zh": "🚶  静静地继续赶路",
+            "ja": "🚶  静かに歩みを続ける"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

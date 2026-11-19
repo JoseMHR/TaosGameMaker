@@ -1,0 +1,134 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Árbol de los Lazos",
+            "en": "The Tree of Ribbons",
+            "fr": "L'Arbre aux Rubans",
+            "it": "L'Albero dei Nastri",
+            "de": "Der Baum der Bänder",
+            "zh": "丝带之树",
+            "ja": "リボンの木"
+        },
+        "next": [],
+        "reward": "bg=0.07,0.09,0.07"
+    },
+    "arb_done": {
+        "type": "message",
+        "text": {
+            "es": "El lazo que ataste ondea entre los otros mil, indistinguible ya del duelo de todos los demás. El árbol susurra con la brisa, y por un momento no parece un monumento a la pérdida, sino a que nadie, nunca, pierde a solas.",
+            "en": "The ribbon you tied flutters among the thousand others, now indistinguishable from everyone else's grief. The tree whispers in the breeze, and for a moment it seems less a monument to loss than to the fact that no one, ever, loses alone.",
+            "fr": "Le ruban que tu as noué flotte parmi les mille autres, désormais indiscernable du deuil de tous les autres. L'arbre murmure dans la brise, et pour un instant il ne ressemble plus à un monument à la perte, mais au fait que personne, jamais, ne perd seul.",
+            "it": "Il nastro che hai legato ondeggia tra gli altri mille, ormai indistinguibile dal lutto di tutti gli altri. L'albero sussurra nella brezza, e per un momento non sembra un monumento alla perdita, ma al fatto che nessuno, mai, perde da solo.",
+            "de": "Das Band, das du geknüpft hast, flattert unter den tausend anderen, nun ununterscheidbar von der Trauer aller anderen. Der Baum flüstert im Wind, und für einen Moment scheint er weniger ein Denkmal des Verlustes zu sein als der Tatsache, dass niemand jemals allein verliert.",
+            "zh": "你系上的那条丝带在其他成千条丝带中飘荡，如今已与所有人的哀伤融为一体，难以分辨。大树在微风中低语，一时间，它似乎不再是失落的纪念碑，而更像是在诉说——从来没有人，是独自承受失去的。",
+            "ja": "お前が結んだリボンは他の何千本もの中で揺れ、今ではすべての人の悲しみと見分けがつかなくなっている。木は風の中で囁き、一瞬、それは喪失の記念碑というより、誰もが決して一人で失うことはないという事実の証のように思える。"
+        },
+        "next": [
+            "arb_opt_salir"
+        ],
+        "reward": "",
+        "condition": "gflag(\"arb_lazo_atado\")"
+    },
+    "arb_root": {
+        "type": "message",
+        "text": {
+            "es": "En una loma verde, apartado del bullicio, se alza un roble enorme y antiquísimo. De cada rama, de cada ramita, cuelgan lazos de colores: miles de ellos, descoloridos por el sol, nuevos y brillantes, algunos con nombres bordados, otros con solo un nudo apretado. Una anciana ata en silencio uno más y se aleja sin mirar atrás. Es un árbol donde la gente deja atados a quienes ya no puede abrazar.",
+            "en": "On a green rise, apart from the bustle, stands an enormous, ancient oak. From every branch, every twig, hang colored ribbons: thousands of them, sun-faded, new and bright, some with names embroidered, others with only a tight knot. An old woman silently ties one more and walks away without looking back. It is a tree where people leave tied those they can no longer embrace.",
+            "fr": "Sur une colline verte, à l'écart du tumulte, se dresse un chêne énorme et très ancien. De chaque branche, de chaque brindille, pendent des rubans colorés : des milliers, décolorés par le soleil, neufs et brillants, certains brodés de noms, d'autres avec seulement un nœud serré. Une vieille femme en noue un de plus en silence et s'éloigne sans se retourner. C'est un arbre où les gens attachent ceux qu'ils ne peuvent plus étreindre.",
+            "it": "Su una collina verde, lontano dal trambusto, si erge un'enorme e antichissima quercia. Da ogni ramo, da ogni ramoscello, pendono nastri colorati: migliaia, scoloriti dal sole, nuovi e brillanti, alcuni ricamati con nomi, altri con solo un nodo stretto. Un'anziana ne annoda in silenzio uno in più e si allontana senza guardarsi indietro. È un albero dove la gente lega chi non può più abbracciare.",
+            "de": "Auf einem grünen Hügel, abseits des Trubels, steht eine riesige, uralte Eiche. Von jedem Ast, jedem Zweig, hängen bunte Bänder: Tausende, sonnengebleicht, neu und leuchtend, manche mit gestickten Namen, andere nur mit einem festen Knoten. Eine alte Frau bindet still noch eines und geht davon, ohne sich umzusehen. Es ist ein Baum, an dem Menschen jene festbinden, die sie nicht mehr umarmen können.",
+            "zh": "在一座远离喧嚣的青翠小丘上，矗立着一棵巨大而古老的橡树。每根树枝、每根细枝上都挂着彩色丝带：成千上万条，有的被阳光晒褪了色，有的崭新鲜艳，一些绣着名字，另一些只打着一个紧紧的结。一位老妇人默默地又系上一条，头也不回地离开了。这是一棵树，人们在此系上那些再也无法拥抱的人。",
+            "ja": "喧騒から離れた緑の丘に、巨大で古いオークの木が立っている。すべての枝、すべての小枝から色とりどりのリボンが垂れ下がっている——何千本もが、日に焼けたもの、新しく鮮やかなもの、名前が刺繍されたもの、ただきつく結ばれただけのもの。一人の老女が静かにもう一本結び、振り返ることなく去っていく。それは、もう抱きしめることのできない人々を結びつける木なのだ。"
+        },
+        "next": [
+            "arb_opt_leer",
+            "arb_opt_atar",
+            "arb_opt_salir"
+        ],
+        "reward": ""
+    },
+    "arb_opt_leer": {
+        "type": "option",
+        "text": {
+            "es": "📖  Leer los nombres bordados en los lazos más viejos",
+            "en": "📖  Read the names embroidered on the oldest ribbons",
+            "fr": "📖  Lire les noms brodés sur les rubans les plus anciens",
+            "it": "📖  Leggere i nomi ricamati sui nastri più vecchi",
+            "de": "📖  Die auf den ältesten Bändern gestickten Namen lesen",
+            "zh": "📖  阅读最古老丝带上绣的名字",
+            "ja": "📖  最も古いリボンに刺繍された名前を読む"
+        },
+        "next": [
+            "arb_msg_leer"
+        ],
+        "reward": ""
+    },
+    "arb_msg_leer": {
+        "type": "message",
+        "text": {
+            "es": "Recorres los lazos con la mirada. Padres, hijas, compañeros, mascotas, sueños. 'Para Bruno, que odiaba el invierno.' 'Para mamá, ya no me duele.' 'Para el que no volvió del mar.' Y entonces, entre todos, uno pequeño, de lana roja infantil, sin nombre, solo con un dibujo torpe de dos figuras cogidas de la mano bajo un sol. Se te seca la garganta sin motivo aparente. Apartas la vista, pero el nudo en el pecho no se deshace.",
+            "en": "You run your eyes over the ribbons. Fathers, daughters, comrades, pets, dreams. 'For Bruno, who hated winter.' 'For mom, it doesn't hurt anymore.' 'For the one who never came back from the sea.' And then, among them all, a small one, of a child's red wool, without a name, only a clumsy drawing of two figures holding hands under a sun. Your throat goes dry for no apparent reason. You look away, but the knot in your chest doesn't loosen.",
+            "fr": "Tu parcours les rubans du regard. Des pères, des filles, des compagnons, des animaux, des rêves. « Pour Bruno, qui détestait l'hiver. » « Pour maman, ça ne fait plus mal. » « Pour celui qui n'est jamais revenu de la mer. » Et puis, parmi tous, un petit, en laine rouge d'enfant, sans nom, seulement un dessin maladroit de deux silhouettes se tenant la main sous un soleil. Ta gorge se serre sans raison apparente. Tu détournes le regard, mais le nœud dans ta poitrine ne se dénoue pas.",
+            "it": "Percorri i nastri con lo sguardo. Padri, figlie, compagni, animali, sogni. 'Per Bruno, che odiava l'inverno.' 'Per mamma, non fa più male.' 'Per chi non è tornato dal mare.' E poi, tra tutti, uno piccolo, di lana rossa infantile, senza nome, solo un disegno maldestro di due figure che si tengono per mano sotto un sole. Ti si secca la gola senza motivo apparente. Distogli lo sguardo, ma il nodo nel petto non si scioglie.",
+            "de": "Du lässt deinen Blick über die Bänder gleiten. Väter, Töchter, Gefährten, Haustiere, Träume. „Für Bruno, der den Winter hasste.“ „Für Mama, es tut nicht mehr weh.“ „Für den, der nie vom Meer zurückkehrte.“ Und dann, unter all diesen, ein kleines, aus roter Kinderwolle, ohne Namen, nur eine ungeschickte Zeichnung von zwei Gestalten, die sich unter einer Sonne an den Händen halten. Deine Kehle wird ohne ersichtlichen Grund trocken. Du schaust weg, doch der Knoten in deiner Brust löst sich nicht.",
+            "zh": "你的目光扫过这些丝带。父亲、女儿、伙伴、宠物、梦想。「献给布鲁诺，他讨厌冬天。」「献给妈妈，已经不痛了。」「献给那个再也没能从海上归来的人。」然后，在所有丝带中，有一条很小的，用孩童的红色毛线织成，没有名字，只画着两个手拉手站在太阳下的粗糙人形。你的喉咙莫名地干涩起来。你移开视线，但胸口的那个结却始终无法解开。",
+            "ja": "リボンに目を走らせる。父、娘、仲間、ペット、夢。「冬が嫌いだったブルーノへ」「ママへ、もう痛くないよ」「海から戻らなかった人へ」。そしてその中に、小さな、子供用の赤い毛糸でできた、名前のないものがある——太陽の下で手をつなぐ二つの人影の下手な絵だけが描かれている。理由もなく喉が渇く。目をそらすが、胸の結び目はほどけない。"
+        },
+        "next": [
+            "arb_root"
+        ],
+        "reward": ""
+    },
+    "arb_opt_atar": {
+        "type": "option",
+        "text": {
+            "es": "🎗️  Atar un lazo por alguien que no logras recordar",
+            "en": "🎗️  Tie a ribbon for someone you can't quite remember",
+            "fr": "🎗️  Nouer un ruban pour quelqu'un dont tu ne parviens pas à te souvenir",
+            "it": "🎗️  Legare un nastro per qualcuno che non riesci a ricordare",
+            "de": "🎗️  Ein Band für jemanden binden, an den du dich nicht erinnern kannst",
+            "zh": "🎗️  为一个你想不起来的人系上一条丝带",
+            "ja": "🎗️  誰かをはっきりと思い出せないまま、リボンを結ぶ"
+        },
+        "next": [
+            "arb_msg_atar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "arb_msg_atar": {
+        "type": "message",
+        "text": {
+            "es": "Arrancas una tira de tela de tu capa y la anudas a una rama libre. No sabes por quién la atas —no tienes recuerdos, no tienes nombres—, pero mientras aprietas el nudo, las manos te tiemblan y las lágrimas caen sin permiso, como si el cuerpo llorase por alguien que la mente aún no se atreve a nombrar. Cuando terminas, respiras más hondo. Duele, pero es un dolor limpio, de los que curan un poco.",
+            "en": "You tear a strip of cloth from your cloak and knot it to a free branch. You don't know for whom you tie it — you have no memories, no names — but as you cinch the knot, your hands tremble and tears fall unbidden, as if the body were weeping for someone the mind doesn't yet dare to name. When you finish, you breathe deeper. It hurts, but it's a clean hurt, the kind that heals a little.",
+            "fr": "Tu arraches une bande de tissu de ta cape et la noues à une branche libre. Tu ne sais pas pour qui tu la noues — tu n'as ni souvenirs, ni noms — mais tandis que tu serres le nœud, tes mains tremblent et des larmes tombent sans ta permission, comme si le corps pleurait quelqu'un que l'esprit n'ose pas encore nommer. Quand tu as fini, tu respires plus profondément. Ça fait mal, mais c'est une douleur propre, de celles qui guérissent un peu.",
+            "it": "Strappi una striscia di stoffa dal tuo mantello e la annodi a un ramo libero. Non sai per chi la leghi — non hai ricordi, non hai nomi — ma mentre stringi il nodo, le mani ti tremano e le lacrime cadono senza permesso, come se il corpo piangesse qualcuno che la mente non osa ancora nominare. Quando finisci, respiri più profondamente. Fa male, ma è un dolore pulito, di quelli che guariscono un po'.",
+            "de": "Du reißt einen Streifen Stoff von deinem Umhang und knüpfst ihn an einen freien Ast. Du weißt nicht, für wen du ihn bindest — du hast keine Erinnerungen, keine Namen —, aber während du den Knoten festziehst, zittern deine Hände und Tränen fallen ungefragt, als würde der Körper um jemanden weinen, den der Geist noch nicht zu benennen wagt. Als du fertig bist, atmest du tiefer. Es tut weh, aber es ist ein reiner Schmerz, von der Art, die ein wenig heilt.",
+            "zh": "你从斗篷上撕下一条布，将它系在一根空着的树枝上。你不知道自己是在为谁系上——你没有记忆，没有名字——但当你拉紧结时，双手不由自主地颤抖，泪水未经许可地滑落，仿佛身体正在为一个心智尚不敢说出名字的人哭泣。系好之后，你的呼吸变得更深沉了。这很痛，但那是一种干净的痛，是能稍稍治愈人的那种。",
+            "ja": "マントから布切れを一枚引きちぎり、空いている枝に結びつける。誰のために結んでいるのか分からない——記憶も名前もない——だが結び目を締める間、手が震え、涙が許しもなく流れ落ちる。まるで、まだ心が名付ける勇気のない誰かのために、体が泣いているかのようだ。結び終えると、より深く息をつく。痛むが、それは少し癒しをもたらす種類の、清らかな痛みだ。"
+        },
+        "next": [
+            "arb_opt_salir"
+        ],
+        "reward": "faceta:bondad=+1;faceta:cordura=+1;gflag:arb_lazo_atado",
+        "condition": "no_gflag(\"arb_lazo_atado\")",
+        "once": true
+    },
+    "arb_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Dejar el árbol con sus mil despedidas",
+            "en": "🚶  Leave the tree to its thousand farewells",
+            "fr": "🚶  Laisser l'arbre à ses mille adieux",
+            "it": "🚶  Lasciare l'albero ai suoi mille addii",
+            "de": "🚶  Den Baum mit seinen tausend Abschieden zurücklassen",
+            "zh": "🚶  让大树继续承载它那成千上万次的告别",
+            "ja": "🚶  木をその千の別れとともに残して立ち去る"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "id": "poi_sylphrena_arbol_lazos",
+    "type": "poi",
+    "icon": "🎗️",
+    "name": {
+        "es": "El Árbol de los Lazos",
+        "en": "The Tree of Ribbons",
+        "fr": "L'Arbre aux Rubans",
+        "it": "L'Albero dei Nastri",
+        "de": "Der Baum der Bänder",
+        "zh": "丝带之树",
+        "ja": "リボンの木"
+    },
+    "desc": {
+        "es": "Un viejo roble de la pradera cubierto de miles de lazos de colores, cada uno atado por alguien que perdió a alguien. (POI de inspección).",
+        "en": "An old meadow oak covered in thousands of colored ribbons, each tied by someone who lost someone. (Inspection POI).",
+        "fr": "Un vieux chêne de la prairie couvert de milliers de rubans colorés, chacun noué par quelqu'un qui a perdu quelqu'un. (POI d'inspection).",
+        "it": "Una vecchia quercia della prateria coperta di migliaia di nastri colorati, ognuno legato da qualcuno che ha perso qualcuno. (POI di ispezione).",
+        "de": "Eine alte Eiche in der Prärie, bedeckt mit Tausenden bunter Bänder, jedes geknüpft von jemandem, der jemanden verloren hat. (Inspektions-POI).",
+        "zh": "草原上一棵古老的橡树，挂满了成千上万条彩色丝带，每一条都是失去了某个人的人系上的。（探查类兴趣点）。",
+        "ja": "何千もの色とりどりのリボンで覆われた草原の古いオーク。それぞれのリボンは、誰かを失った者が結んだものだ。（調査ポイント）。"
+    },
+    "npc": "poi_sylphrena_arbol_lazos",
+    "bg": "bg_world_poi_pradera_arbol_lazos.png",
+    "music": "poi_generic"
+}

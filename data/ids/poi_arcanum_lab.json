@@ -1,0 +1,25 @@
+{
+    "id": "poi_arcanum_lab",
+    "type": "poi",
+    "icon": "🔬",
+    "name": {
+        "es": "Laboratorio Arcano",
+        "en": "Arcane Laboratory",
+        "fr": "Laboratoire Arcanique",
+        "it": "Laboratorio Arcano",
+        "de": "Arkanes Labor",
+        "zh": "奥秘实验室",
+        "ja": "アルカナ研究所"
+    },
+    "desc": {
+        "es": "Complejo de investigación de autómatas y energía arcana",
+        "en": "Research facility for automatons and arcane energy",
+        "fr": "Complexe de recherche sur les automates et l'énergie arcanique",
+        "it": "Complesso di ricerca su automi ed energia arcana",
+        "de": "Forschungskomplex für Automaten und arkane Energie",
+        "zh": "自动机与奥秘能量研究综合体",
+        "ja": "オートマトンとアルカナエネルギーの研究施設"
+    },
+    "npc": "arcanum_cientifico",
+    "bg": "bg_city_arcanum_lab.png"
+}

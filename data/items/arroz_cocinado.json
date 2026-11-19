@@ -1,0 +1,27 @@
+{
+    "name": {
+        "es": "Arroz Cocinado",
+        "en": "Cooked Rice",
+        "fr": "Riz Cuit",
+        "it": "Riso Cotto",
+        "de": "Gekochter Reis",
+        "zh": "煮熟的米饭",
+        "ja": "炊いたご飯"
+    },
+    "desc": {
+        "es": "Arroz cocido al vapor, sencillo y reconfortante.",
+        "en": "Steamed rice, simple and comforting.",
+        "fr": "Riz cuit à la vapeur, simple et réconfortant.",
+        "it": "Riso cotto al vapore, semplice e confortante.",
+        "de": "Gedämpfter Reis, einfach und wohltuend.",
+        "zh": "简单又暖心的蒸米饭。",
+        "ja": "シンプルで心温まる蒸したご飯。"
+    },
+    "icon": "🍚",
+    "category": "edible",
+    "usable": true,
+    "effects": {
+        "heal_pct": 0.2,
+        "mana_pct": 0.07
+    }
+}

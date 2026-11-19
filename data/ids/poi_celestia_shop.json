@@ -1,0 +1,34 @@
+{
+    "id": "poi_celestia_shop",
+    "type": "poi",
+    "name": {
+        "es": "El Arcanum",
+        "en": "The Arcanum",
+        "fr": "L'Arcanum",
+        "it": "L'Arcanum",
+        "de": "Das Arcanum",
+        "zh": "奥秘之屋",
+        "ja": "アルカナム"
+    },
+    "icon": "✨",
+    "desc": {
+        "es": "Reliquias y pócimas mágicas",
+        "en": "Magical relics and potions",
+        "fr": "Reliques et potions magiques",
+        "it": "Reliquie e pozioni magiche",
+        "de": "Reliquien und magische Tränke",
+        "zh": "圣物与魔法药水",
+        "ja": "秘宝と魔法の薬"
+    },
+    "kind": "shop",
+    "npc": "shopkeeper_celestia",
+    "stock": "celestia",
+    "presences": [
+        {
+            "condition": "default",
+            "actor": "shopkeeper_celestia",
+            "entry_node": ""
+        }
+    ],
+    "bg": "bg_city_celestia_shop.png"
+}

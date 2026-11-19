@@ -1,0 +1,218 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "Centinela de Frontera",
+            "en": "Border Sentinel",
+            "fr": "Sentinelle Frontalière",
+            "it": "Sentinella di Frontiera",
+            "de": "Grenzwächter",
+            "zh": "边境哨兵",
+            "ja": "国境の哨戒兵"
+        },
+        "next": [],
+        "reward": "avatar=npc_centinela_automata.png;bg=0.05,0.05,0.05"
+    },
+    "centinela_passed": {
+        "type": "message",
+        "text": {
+            "es": "El Centinela permanece erguido junto a la calzada de piedra, su lente ocular encendida en un turquesa pacífico y sereno. El paso hacia las tierras de Arcanum está completamente despejado.",
+            "en": "The Sentinel stands tall alongside the stone highway, its ocular lens glowing in peaceful, serene turquoise. The pass into the lands of Arcanum lies fully clear.",
+            "fr": "La Sentinelle reste dressée le long de la voie de pierre, sa lentille oculaire allumée d'un turquoise paisible et serein. Le passage vers les terres d'Arcanum est entièrement dégagé.",
+            "it": "La Sentinella resta eretta lungo la strada di pietra, la sua lente oculare accesa di un turchese pacifico e sereno. Il passaggio verso le terre di Arcanum è completamente sgombro.",
+            "de": "Der Wächter steht aufrecht entlang der Steinstraße, seine Augenlinse leuchtet in friedlichem, gelassenem Türkis. Der Weg in die Länder von Arcanum liegt vollständig frei.",
+            "zh": "哨兵依然笔直地站在石路旁，它的眼镜片散发着平静而安详的青绿色光芒。通往奥秘遗迹土地的道路完全畅通。",
+            "ja": "哨戒兵は石の道沿いにまっすぐ立ち、その眼球レンズは穏やかで静かなターコイズ色に光っている。アルカナムの地への道は完全に開かれている。"
+        },
+        "next": [
+            "centinela_passed_ok"
+        ],
+        "reward": "",
+        "condition": "quest == \"sentinel_passed\" or quest == \"arcanum_arrived\" or gflag(\"sentinel_passed\")"
+    },
+    "centinela_passed_ok": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Continuar el viaje hacia el norte",
+            "en": "🚶  Continue your journey north",
+            "fr": "🚶  Continuer ton voyage vers le nord",
+            "it": "🚶  Continuare il viaggio verso nord",
+            "de": "🚶  Deine Reise nach Norden fortsetzen",
+            "zh": "🚶  继续向北旅行",
+            "ja": "🚶  北への旅を続ける"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "centinela_open": {
+        "type": "message",
+        "text": {
+            "es": "El Centinela detecta el calor radiante de la Reliquia Solar en tu equipaje. Su lente ocular, apagada durante siglos, se ilumina con un haz turquesa vibrante. La gigantesca figura de bronce y obsidiana inclina levemente su coraza y se aparta hacia el borde del sendero. El paso al norte, hacia la gran Arcanum, queda abierto para ti.",
+            "en": "The Sentinel detects the radiant heat of the Solar Relic in your pack. Its ocular lens, dark for centuries, ignites with vibrant turquoise brilliance. The massive bronze-and-obsidian figure bows its chassis slightly, stepping to the trail's shoulder. The road north into grand Arcanum lies open before you.",
+            "fr": "La Sentinelle détecte la chaleur radiante de la Relique Solaire dans ton bagage. Sa lentille oculaire, éteinte depuis des siècles, s'illumine d'un faisceau turquoise vibrant. La gigantesque silhouette de bronze et d'obsidienne incline légèrement sa cuirasse et s'écarte vers le bord du chemin. Le passage vers le nord, vers la grande Arcanum, s'ouvre pour toi.",
+            "it": "La Sentinella rileva il calore radiante della Reliquia Solare nel tuo bagaglio. La sua lente oculare, spenta per secoli, si illumina con un fascio turchese vibrante. La gigantesca figura di bronzo e ossidiana inclina leggermente la sua corazza e si sposta verso il margine del sentiero. Il passaggio a nord, verso la grande Arcanum, rimane aperto per te.",
+            "de": "Der Wächter erkennt die strahlende Wärme des Sonnenrelikts in deinem Gepäck. Seine Augenlinse, jahrhundertelang dunkel, leuchtet mit einem lebhaften türkisen Strahl. Die gewaltige Gestalt aus Bronze und Obsidian neigt leicht ihre Panzerung und tritt zum Wegesrand. Der Weg nach Norden, in das große Arcanum, öffnet sich für dich.",
+            "zh": "哨兵察觉到你行囊中太阳圣器散发出的辐射热量。它那已经熄灭了几个世纪的眼镜片，此刻迸发出充满生机的青绿色光芒。这座由青铜与黑曜石构成的巨大身影微微倾斜了它的护甲，退到道路的边缘。通往北方大奥秘遗迹的道路，为你敞开了。",
+            "ja": "哨戒兵は荷物の中の太陽の遺物が放つ輝く熱を検知する。何世紀も暗かった眼球レンズが、鮮やかなターコイズの光で灯る。青銅と黒曜石でできた巨大な姿がわずかに機体を傾け、道の端へと退く。北への道、偉大なアルカナムへの道が、お前の前に開かれる。"
+        },
+        "next": [
+            "centinela_open_ok"
+        ],
+        "reward": "",
+        "condition": "has_item(\"reliquia_solar\")"
+    },
+    "centinela_open_ok": {
+        "type": "option",
+        "text": {
+            "es": "🔆  Alzar la Reliquia Solar con orgullo de guardián",
+            "en": "🔆  Raise the Solar Relic with guardian pride",
+            "fr": "🔆  Lever la Relique Solaire avec fierté de gardien",
+            "it": "🔆  Alzare la Reliquia Solare con orgoglio da guardiano",
+            "de": "🔆  Das Sonnenrelikt mit Wächterstolz erheben",
+            "zh": "🔆  以守护者的骄傲举起太阳圣器",
+            "ja": "🔆  守護者の誇りを込めて太陽の遺物を掲げる"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "gflag:sentinel_passed;questf:sentinel_passed;event:arrive_at_arcanum;faceta:valor=+1;discover:lore_centinela_arcanum",
+        "condition": "has_item(\"reliquia_solar\")",
+        "once": true
+    },
+    "centinela_blocked": {
+        "type": "message",
+        "text": {
+            "es": "Una figura colosal de bronce cincelado y obsidiana bloquea el desfiladero hacia Arcanum. Runas turquesa apagadas recorren su blindaje pectoral. Su lente ocular negra te enfoca con un zumbido neumático inmóvil. No es hostil, pero su masa de diez toneladas no se moverá sin una llave que reconozca su protocolo.",
+            "en": "A colossal figure of chiselled bronze and obsidian bars the canyon pass toward Arcanum. Dim turquoise runes stripe its breastplate. Its black crystal lens focuses upon you with a motionless pneumatic hum. It bears no malice, yet its ten-ton bulk will not budge without a key validating ancient clearance.",
+            "fr": "Une figure colossale de bronze ciselé et d'obsidienne bloque le défilé vers Arcanum. Des runes turquoise éteintes parcourent son blindage pectoral. Sa lentille oculaire noire te fixe avec un ronronnement pneumatique immobile. Elle n'est pas hostile, mais sa masse de dix tonnes ne se déplacera pas sans une clé qui reconnaisse son protocole.",
+            "it": "Una figura colossale di bronzo cesellato e ossidiana blocca la gola verso Arcanum. Rune turchesi spente attraversano la sua corazza pettorale. La sua lente oculare nera ti fissa con un ronzio pneumatico immobile. Non è hostile, ma la sua massa di dieci tonnellate non si muoverà senza una chiave che riconosca il suo protocollo.",
+            "de": "Eine kolossale Gestalt aus gemeißeltem Bronze und Obsidian blockiert die Schlucht nach Arcanum. Erloschene türkise Runen ziehen sich über ihre Brustplatte. Ihre schwarze Augenlinse fokussiert dich mit einem regungslosen pneumatischen Summen. Sie ist nicht feindlich, doch ihre zehn Tonnen Masse wird sich nicht ohne einen Schlüssel bewegen, der ihr Protokoll erkennt.",
+            "zh": "一座由雕刻的青铜和黑曜石构成的巨大身影堵住了通往奥秘遗迹的峡谷通道。熄灭的青绿色符文贯穿着它的胸甲。它那黑色的水晶眼镜片以静止不动的气动嗡鸣声聚焦在你身上。它并无敌意，但它十吨的躯体若无一把能识别其协议的钥匙，是不会移动的。",
+            "ja": "彫刻された青銅と黒曜石でできた巨大な姿が、アルカナムへの峡谷の通路を塞いでいる。消えたターコイズの紋章がその胸甲に走っている。黒い結晶レンズが動かない空圧の唸りとともにお前に焦点を合わせる。悪意はないが、十トンの巨体は、古の許可を確認する鍵がなければ動かない。"
+        },
+        "next": [
+            "centinela_opt_saludo",
+            "centinela_opt_runas",
+            "centinela_opt_flor",
+            "centinela_blocked_ok"
+        ],
+        "reward": ""
+    },
+    "centinela_opt_saludo": {
+        "type": "option",
+        "text": {
+            "es": "🛡️  Presentar un saludo marcial solemne y cuadrarte ante el coloso",
+            "en": "🛡️  Execute a crisp military salute, standing tall before the titan",
+            "fr": "🛡️  Effectuer un salut militaire solennel et te tenir droit devant le colosse",
+            "it": "🛡️  Presentare un saluto marziale solenne e metterti sull'attenti davanti al colosso",
+            "de": "🛡️  Einen feierlichen militärischen Gruß darbieten und dich vor dem Koloss aufrichten",
+            "zh": "🛡️  向巨像行一个庄重的军礼，站得笔直",
+            "ja": "🛡️  厳粛な軍礼を行い、巨人の前で堂々と立つ"
+        },
+        "next": [
+            "centinela_msg_saludo"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "centinela_msg_saludo": {
+        "type": "message",
+        "text": {
+            "es": "El coloso emite un chasquido de vapor por las hombreras. Su lente brilla fugazmente en ámbar mientras registra tu postura inquebrantable. Reconoce la disciplina de un guerrero de honor. Una sensación de aplomo y temple marcial fortifica tus músculos.",
+            "en": "The colossus vents a hiss of steam from its pauldron seals. Its ocular lens flares amber briefly as it registers your unwavering stance. It honors the discipline of a valiant soul. A surge of martial poise and steadfast vigor fortifies your muscles.",
+            "fr": "Le colosse émet un claquement de vapeur par ses épaulières. Sa lentille brille fugacement en ambre tandis qu'il enregistre ta posture inébranlable. Il reconnaît la discipline d'un guerrier d'honneur. Un sentiment d'aplomb et de vigueur martiale fortifie tes muscles.",
+            "it": "Il colosso emette uno sfrigolio di vapore dalle spallacce. La sua lente brilla fugacemente in ambra mentre registra la tua postura incrollabile. Riconosce la disciplina di un guerriero d'onore. Una sensazione di aplomb e vigore marziale fortifica i tuoi muscoli.",
+            "de": "Der Koloss stößt ein Zischen von Dampf aus seinen Schulterpanzern aus. Seine Linse leuchtet kurz in Amber, während sie deine unerschütterliche Haltung registriert. Er erkennt die Disziplin eines Ehrenkriegers an. Ein Gefühl von Gelassenheit und kriegerischer Kraft stärkt deine Muskeln.",
+            "zh": "巨像的肩甲发出一声蒸气的爆裂声。它的镜片短暂地闪烁出琥珀色的光，记录下你那不可动摇的姿态。它承认了一位荣誉战士的自律。一种镇定与战斗般的力量强化了你的肌肉。",
+            "ja": "巨像は肩甲から蒸気の音を放つ。レンズが一瞬アンバー色に光り、揺るぎないお前の姿勢を記録する。名誉ある戦士の自律性を認める。落ち着きと戦士的な活力の感覚がお前の筋肉を強化する。"
+        },
+        "next": [
+            "centinela_blocked"
+        ],
+        "reward": "faceta:valor=+1;heal:25"
+    },
+    "centinela_opt_runas": {
+        "type": "option",
+        "text": {
+            "es": "🧠  (Inspeccionar las runas apagadas de su coraza para descifrar su código de activación)",
+            "en": "🧠  (Examine the dormant glyphs on its chest to deduce the ignition code)",
+            "fr": "🧠  (Examiner les runes éteintes de sa cuirasse pour déchiffrer son code d'activation)",
+            "it": "🧠  (Ispezionare le rune spente della sua corazza per decifrare il codice di attivazione)",
+            "de": "🧠  (Die erloschenen Runen auf ihrem Panzer untersuchen, um den Aktivierungscode zu entschlüsseln)",
+            "zh": "🧠  （检查它护甲上熄灭的符文，破解它的启动密码）",
+            "ja": "🧠  （胸甲の消えた紋章を調べ、起動コードを解読する）"
+        },
+        "next": [
+            "centinela_msg_runas"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "centinela_msg_runas": {
+        "type": "message",
+        "text": {
+            "es": "Reconoces la iconografía del sol naciente grabada en su núcleo: el autómata fue forjado durante la Primera Dinastía y requiere una 'Reliquia Solar' imbuida de calor perenne para autorizar el tránsito fronterizo. Descifrar el enigma arcano ahorra días de búsqueda infructuosa.",
+            "en": "You recognize dawn solar iconography etched onto its fuel core: the automaton was forged during the First Dynasty and demands a 'Solar Relic' brimming with perennial warmth to authorize border crossing. Deciphering the glyphs saves days of wandering in vain.",
+            "fr": "Tu reconnais l'iconographie du soleil levant gravée sur son noyau : l'automate a été forgé pendant la Première Dynastie et requiert une « Relique Solaire » imbue de chaleur perpétuelle pour autoriser le passage frontalier. Déchiffrer l'énigme arcanique t'épargne des jours de recherche infructueuse.",
+            "it": "Riconosci l'iconografia del sole nascente incisa sul suo nucleo: l'automa fu forgiato durante la Prima Dinastia e richiede una 'Reliquia Solare' imbevuta di calore perenne per autorizzare il transito di frontiera. Decifrare l'enigma arcano ti risparmia giorni di ricerca infruttuosa.",
+            "de": "Du erkennst die auf seinem Kern eingravierte Ikonografie der aufgehenden Sonne: der Automat wurde während der Ersten Dynastie geschmiedet und benötigt ein von immerwährender Wärme durchdrungenes „Sonnenrelikt“, um die Grenzüberschreitung zu genehmigen. Das arkane Rätsel zu entschlüsseln erspart dir Tage vergeblicher Suche.",
+            "zh": "你认出了刻在它核心上的旭日图案：这个自动机是在第一王朝时期铸造的，需要一件蕴含着永恒温暖的「太阳圣器」才能授权边境通行。破解这个秘密之谜为你省去了数天无果的搜寻。",
+            "ja": "その核に刻まれた日の出の図像を認識する——この機械人形は第一王朝時代に鍛造され、国境通過を認可するには永久の熱を帯びた「太陽の遺物」を必要とする。この秘術の謎を解読することで、無駄な探索の何日分もの時間を省く。"
+        },
+        "next": [
+            "centinela_blocked"
+        ],
+        "reward": "faceta:inteligencia=+1;discover:lore_centinela_arcanum"
+    },
+    "centinela_opt_flor": {
+        "type": "option",
+        "text": {
+            "es": "🌸  (Depositar una flor silvestre del camino a los pies del guardián solitario)",
+            "en": "🌸  (Place a wild wayside blossom at the feet of the lonely guardian)",
+            "fr": "🌸  (Déposer une fleur sauvage du chemin aux pieds du gardien solitaire)",
+            "it": "🌸  (Deporre un fiore selvatico del cammino ai piedi del guardiano solitario)",
+            "de": "🌸  (Eine wilde Wegblume zu Füßen des einsamen Wächters legen)",
+            "zh": "🌸  （在这孤独的守卫脚下放一朵路边的野花）",
+            "ja": "🌸  （道端の野草を孤独な守護者の足元に置く）"
+        },
+        "next": [
+            "centinela_msg_flor"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "centinela_msg_flor": {
+        "type": "message",
+        "text": {
+            "es": "El autómata baja lentamente su visor para enfocar la pequeña flor blanca que reposa sobre sus placas de bronce. Un suave zumbido armónico brota de su pecho, casi como un ronroneo mecánico. Aunque no puede dejarte pasar sin la reliquia, una brisa tibia reconforta tus pasos.",
+            "en": "The automaton tilts its visor slowly to scan the small white blossom resting upon its bronze footplates. A gentle harmonic hum resonates from its core, akin to a mechanical purr. Though bound by code until the relic arrives, a warm updraft comforts your step.",
+            "fr": "L'automate baisse lentement son viseur pour observer la petite fleur blanche posée sur ses plaques de bronze. Un doux bourdonnement harmonique jaillit de sa poitrine, presque comme un ronronnement mécanique. Bien qu'il ne puisse te laisser passer sans la relique, une brise tiède réconforte tes pas.",
+            "it": "L'automa abbassa lentamente il suo visore per osservare il piccolo fiore bianco che riposa sulle sue placche di bronzo. Un dolce ronzio armonico sorge dal suo petto, quasi come un fusa mecc anico. Sebbene non possa lasciarti passare senza la reliquia, una brezza calda conforta i tuoi passi.",
+            "de": "Der Automat senkt langsam sein Visier, um die kleine weiße Blume auf seinen Bronzeplatten zu betrachten. Ein sanftes harmonisches Summen dringt aus seiner Brust, fast wie ein mechanisches Schnurren. Obwohl er dich ohne das Relikt nicht durchlassen kann, tröstet dich ein warmer Aufwind bei deinen Schritten.",
+            "zh": "自动机缓缓低下它的护目镜，凝视着停在它青铜甲板上的那朵小白花。一阵柔和的和谐嗡鸣从它的胸腔中升起，几乎像是机械的呼噜声。虽然没有那件圣器它不能让你通过，但一阵温暖的气流安慰着你的脚步。",
+            "ja": "機械人形はゆっくりとバイザーを下げ、青銅の板の上に置かれた小さな白い花を見つめる。優しい調和的な唸りが胸から響く、機械的な喉鳴りのように。遺物が届くまでは規則に縛られているが、温かい上昇気流がお前の足取りを慰めてくれる。"
+        },
+        "next": [
+            "centinela_blocked"
+        ],
+        "reward": "faceta:bondad=+1;heal:20"
+    },
+    "centinela_blocked_ok": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Dar media vuelta y buscar la reliquia necesaria",
+            "en": "🚶  Turn back and seek the necessary relic",
+            "fr": "🚶  Faire demi-tour et chercher la relique nécessaire",
+            "it": "🚶  Fare dietrofront e cercare la reliquia necessaria",
+            "de": "🚶  Umkehren und das benötigte Relikt suchen",
+            "zh": "🚶  转身去寻找所需的圣器",
+            "ja": "🚶  引き返し、必要な遺物を探す"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

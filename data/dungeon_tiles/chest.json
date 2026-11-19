@@ -1,0 +1,9 @@
+{
+	"t": "chest",
+	"order": 200,
+	"label": "Cofre",
+	"icon": "🧰",
+	"color": "#b8892f",
+	"group": "Sistema",
+	"entity": true
+}

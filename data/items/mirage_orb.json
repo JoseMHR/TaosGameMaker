@@ -1,0 +1,40 @@
+{
+    "name": {
+        "es": "Orbe del Espejismo",
+        "en": "Mirage Orb",
+        "fr": "Orbe du Mirage",
+        "it": "Sfera del Miraggio",
+        "de": "Fata-Morgana-Orb",
+        "zh": "幻境法球",
+        "ja": "ミラージュオーブ"
+    },
+    "desc": {
+        "es": "Esfera mística que absorbe el calor circundante y lo convierte en maná.",
+        "en": "Mystic sphere that converts ambient heat into mana.",
+        "fr": "Sphère mystique qui absorbe la chaleur ambiante et la convertit en mana.",
+        "it": "Sfera mistica che assorbe il calore ambientale e lo converte in mana.",
+        "de": "Mystische Kugel, die Umgebungswärme in Mana umwandelt.",
+        "zh": "能吸收周围热量并转化为魔力的神秘法球。",
+        "ja": "周囲の熱を吸収してマナに変換する神秘的な球体。"
+    },
+    "icon": "🔮",
+    "category": "equipment",
+    "usable": false,
+    "slot": "accessory",
+    "tier": 5,
+    "bonuses": {
+        "int": 12,
+        "luk": 12
+    },
+    "combat": {
+        "mag_damage": 55
+    },
+    "traits": [
+        {
+            "type": "mp_regen",
+            "value": 12,
+            "min_refine": 5,
+            "desc": "Regenera 12 MP al final de cada turno"
+        }
+    ]
+}

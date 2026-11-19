@@ -1,0 +1,122 @@
+[gd_scene format=3 uid="uid://bep7e5n3kyy0k"]
+
+[sub_resource type="StandardMaterial3D" id="Mat_WoodPost"]
+albedo_color = Color(0.3, 0.19, 0.11, 1)
+roughness = 0.9
+
+[sub_resource type="CylinderMesh" id="Mesh_MainPost"]
+top_radius = 0.045
+bottom_radius = 0.05
+height = 1.15
+radial_segments = 6
+
+[sub_resource type="StandardMaterial3D" id="Mat_SackCloth"]
+albedo_color = Color(0.62, 0.52, 0.38, 1)
+roughness = 0.9
+
+[sub_resource type="CylinderMesh" id="Mesh_StrawTorso"]
+top_radius = 0.15
+bottom_radius = 0.12
+height = 0.52
+radial_segments = 8
+
+[sub_resource type="StandardMaterial3D" id="Mat_Rope"]
+albedo_color = Color(0.55, 0.45, 0.32, 1)
+roughness = 0.9
+
+[sub_resource type="TorusMesh" id="Mesh_RopeTie"]
+inner_radius = 0.13
+outer_radius = 0.16
+
+[sub_resource type="StandardMaterial3D" id="Mat_TargetRed"]
+albedo_color = Color(0.82, 0.18, 0.15, 1)
+roughness = 0.75
+
+[sub_resource type="CylinderMesh" id="Mesh_TargetPatch"]
+top_radius = 0.08
+bottom_radius = 0.08
+height = 0.02
+radial_segments = 8
+
+[sub_resource type="CylinderMesh" id="Mesh_CrossArm"]
+top_radius = 0.03
+bottom_radius = 0.03
+height = 0.82
+radial_segments = 6
+
+[sub_resource type="StandardMaterial3D" id="Mat_Straw"]
+albedo_color = Color(0.76, 0.64, 0.38, 1)
+roughness = 0.95
+
+[sub_resource type="CylinderMesh" id="Mesh_ArmPad"]
+top_radius = 0.06
+bottom_radius = 0.06
+height = 0.16
+radial_segments = 6
+
+[sub_resource type="SphereMesh" id="Mesh_StrawHead"]
+radius = 0.11
+height = 0.22
+
+[sub_resource type="StandardMaterial3D" id="Mat_IronHelmet"]
+albedo_color = Color(0.28, 0.3, 0.34, 1)
+metallic = 0.8
+roughness = 0.35
+
+[sub_resource type="CylinderMesh" id="Mesh_BucketHelm"]
+top_radius = 0.115
+bottom_radius = 0.125
+height = 0.18
+radial_segments = 8
+
+[node name="CampDummy" type="Node3D" unique_id=854329938]
+
+[node name="MainPost" type="MeshInstance3D" parent="." unique_id=179086483]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.575, 0)
+material_override = SubResource("Mat_WoodPost")
+mesh = SubResource("Mesh_MainPost")
+
+[node name="TorsoSack" type="MeshInstance3D" parent="." unique_id=986369133]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.52, 0)
+material_override = SubResource("Mat_SackCloth")
+mesh = SubResource("Mesh_StrawTorso")
+
+[node name="RopeWaist" type="MeshInstance3D" parent="." unique_id=1379348519]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.34, 0)
+material_override = SubResource("Mat_Rope")
+mesh = SubResource("Mesh_RopeTie")
+
+[node name="RopeChest" type="MeshInstance3D" parent="." unique_id=1758188179]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.68, 0)
+material_override = SubResource("Mat_Rope")
+mesh = SubResource("Mesh_RopeTie")
+
+[node name="TargetPatch" type="MeshInstance3D" parent="." unique_id=293611357]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0.54, 0.14)
+material_override = SubResource("Mat_TargetRed")
+mesh = SubResource("Mesh_TargetPatch")
+
+[node name="CrossArm" type="MeshInstance3D" parent="." unique_id=1662665841]
+transform = Transform3D(-0.03513433, -0.9993826, 4.3684413e-08, 0, -4.37114e-08, -1, 0.9993826, -0.03513433, 1.5357711e-09, 0, 0.72, 0)
+material_override = SubResource("Mat_WoodPost")
+mesh = SubResource("Mesh_CrossArm")
+
+[node name="ArmPadLeft" type="MeshInstance3D" parent="." unique_id=1947508874]
+transform = Transform3D(-4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0, 1, -0.38, 0.72, 0)
+material_override = SubResource("Mat_Straw")
+mesh = SubResource("Mesh_ArmPad")
+
+[node name="ArmPadRight" type="MeshInstance3D" parent="." unique_id=161539436]
+transform = Transform3D(-4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 0, 0, 1, 0.38, 0.72, 0)
+material_override = SubResource("Mat_Straw")
+mesh = SubResource("Mesh_ArmPad")
+
+[node name="StrawHead" type="MeshInstance3D" parent="." unique_id=1868590076]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.88, 0)
+material_override = SubResource("Mat_Straw")
+mesh = SubResource("Mesh_StrawHead")
+
+[node name="IronHelmet" type="MeshInstance3D" parent="." unique_id=2077209099]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.95, 0)
+material_override = SubResource("Mat_IronHelmet")
+mesh = SubResource("Mesh_BucketHelm")

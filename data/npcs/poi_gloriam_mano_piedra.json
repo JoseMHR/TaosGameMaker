@@ -1,0 +1,118 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "La Mano de Piedra",
+            "en": "The Hand of Stone",
+            "fr": "La Main de Pierre",
+            "it": "La Mano di Pietra",
+            "de": "Die Hand aus Stein",
+            "zh": "石之手",
+            "ja": "石の手"
+        },
+        "next": [],
+        "reward": "bg=0.15,0.12,0.06"
+    },
+    "mano_root": {
+        "type": "message",
+        "text": {
+            "es": "De la arena emerge una mano de piedra colosal, tan grande que podrías tumbarte en su palma abierta. Es cuanto queda visible de una estatua titánica enterrada por los siglos. Los dedos están tallados con un cuidado exquisito, y todos sostienen —o sostenían— algo redondo que ya no está: una esfera, a juzgar por la huella hueca y pulida en el centro de la palma. Grabados en la muñeca hay símbolos de un alfabeto que, inquietantemente, casi entiendes.",
+            "en": "From the sand rises a colossal stone hand, so large you could lie down in its open palm. It is all that remains visible of a titanic statue buried by the centuries. The fingers are carved with exquisite care, and all of them hold — or held — something round that is now gone: a sphere, judging by the hollow, polished imprint at the center of the palm. Carved on the wrist are symbols of an alphabet that, unsettlingly, you almost understand.",
+            "fr": "Du sable émerge une main de pierre colossale, si grande que tu pourrais t'allonger dans sa paume ouverte. C'est tout ce qui reste visible d'une statue titanesque enterrée par les siècles. Les doigts sont sculptés avec un soin exquis, et tous tiennent — ou tenaient — quelque chose de rond qui n'est plus là : une sphère, à en juger par l'empreinte creuse et polie au centre de la paume. Gravés sur le poignet se trouvent des symboles d'un alphabet que, de manière troublante, tu comprends presque.",
+            "it": "Dalla sabbia emerge una mano di pietra colossale, così grande che potresti sdraiarti sul suo palmo aperto. È tutto ciò che rimane visibile di una statua titanica sepolta dai secoli. Le dita sono scolpite con cura squisita, e tutte tengono — o tenevano — qualcosa di rotondo che ora non c'è più: una sfera, a giudicare dall'impronta cava e levigata al centro del palmo. Incisi sul polso ci sono simboli di un alfabeto che, inquietantemente, quasi comprendi.",
+            "de": "Aus dem Sand ragt eine kolossale Hand aus Stein, so groß, dass du dich in ihre offene Handfläche legen könntest. Sie ist alles, was von einer titanischen Statue sichtbar geblieben ist, die von den Jahrhunderten begraben wurde. Die Finger sind mit exquisiter Sorgfalt gemeißelt, und alle halten — oder hielten — etwas Rundes, das nun fehlt: eine Sphäre, nach dem hohlen, polierten Abdruck in der Mitte der Handfläche zu urteilen. In das Handgelenk eingraviert sind Symbole eines Alphabets, das du, beunruhigenderweise, fast verstehst.",
+            "zh": "沙中伸出一只巨大的石手，大到你可以躺在它张开的掌心里。这是一座被岁月掩埋的巨型雕像唯一仍可见的部分。手指雕刻得极为精细，每根手指都握着——或者曾经握着——某种如今已不在的圆形物体：从掌心那个光滑中空的印痕来看，那应该是一颗球体。手腕上刻着某种字母符号，而令人不安的是，你几乎能读懂它们。",
+            "ja": "砂の中から巨大な石の手が突き出ている。開いた手のひらに横たわれるほどの大きさだ。何世紀もの間に埋もれた巨像の中で、唯一目に見える部分だ。指は精緻な彫刻が施され、そのすべてが今はもうない丸いもの——手のひら中央のくぼんだ磨かれた跡から判断するに、球体——を握っている、あるいはかつて握っていたようだ。手首に刻まれているのは、不穏なことに、お前がほとんど理解できてしまう文字の記号だ。"
+        },
+        "next": [
+            "mano_opt_simbolos",
+            "mano_opt_palma",
+            "mano_opt_salir"
+        ],
+        "reward": ""
+    },
+    "mano_opt_simbolos": {
+        "type": "option",
+        "text": {
+            "es": "📜  Descifrar los símbolos grabados en la muñeca",
+            "en": "📜  Decipher the symbols carved on the wrist",
+            "fr": "📜  Déchiffrer les symboles gravés sur le poignet",
+            "it": "📜  Decifrare i simboli incisi sul polso",
+            "de": "📜  Die auf dem Handgelenk eingravierten Symbole entziffern",
+            "zh": "📜  破译手腕上刻的符号",
+            "ja": "📜  手首に刻まれた記号を解読する"
+        },
+        "next": [
+            "mano_msg_simbolos"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "mano_msg_simbolos": {
+        "type": "message",
+        "text": {
+            "es": "Pasas horas cotejando los símbolos hasta que, de golpe, encajan en tu mente como si siempre los hubieras sabido. Es una advertencia: 'Aquí gobernó un pueblo que arrancó a la tierra unas esferas de luz para volverse dioses. Las esferas les dieron todo el saber... y les quitaron todo lo demás. Cuando comprendieron su error, ya se habían convertido en polvo bajo la arena. No toques la luz que duerme. No repitas nuestra soberbia.' Cierras los ojos. Por algún motivo, esas palabras no te suenan a historia antigua, sino a profecía personal.",
+            "en": "You spend hours cross-checking the symbols until, all at once, they lock into your mind as if you'd always known them. It is a warning: 'Here ruled a people who tore from the earth spheres of light to become gods. The spheres gave them all knowledge... and took everything else. By the time they understood their error, they had already turned to dust beneath the sand. Do not touch the sleeping light. Do not repeat our arrogance.' You close your eyes. For some reason, these words don't sound like ancient history, but like a personal prophecy.",
+            "fr": "Tu passes des heures à comparer les symboles jusqu'à ce que, d'un coup, ils s'imbriquent dans ton esprit comme si tu les avais toujours connus. C'est un avertissement : « Ici régna un peuple qui a arraché à la terre des sphères de lumière pour devenir des dieux. Les sphères leur ont donné tout le savoir... et leur ont pris tout le reste. Quand ils ont compris leur erreur, ils s'étaient déjà changés en poussière sous le sable. Ne touche pas la lumière endormie. Ne répète pas notre orgueil. » Tu fermes les yeux. Pour une raison quelconque, ces mots ne sonnent pas comme une histoire ancienne, mais comme une prophétie personnelle.",
+            "it": "Passi ore a confrontare i simboli finché, all'improvviso, si incastrano nella tua mente come se li avessi sempre conosciuti. È un avvertimento: 'Qui governò un popolo che strappò alla terra sfere di luce per diventare dei. Le sfere diedero loro tutto il sapere... e tolsero loro tutto il resto. Quando compresero il loro errore, si erano già trasformati in polvere sotto la sabbia. Non toccare la luce addormentata. Non ripetere la nostra superbia.' Chiudi gli occhi. Per qualche motivo, quelle parole non suonano come storia antica, ma come una profezia personale.",
+            "de": "Du verbringst Stunden damit, die Symbole abzugleichen, bis sie sich plötzlich in deinem Geist zusammenfügen, als hättest du sie immer schon gekannt. Es ist eine Warnung: „Hier herrschte ein Volk, das der Erde Sphären aus Licht entriss, um Götter zu werden. Die Sphären gaben ihnen alles Wissen... und nahmen ihnen alles andere. Als sie ihren Irrtum verstanden, waren sie bereits zu Staub unter dem Sand geworden. Berühre nicht das schlafende Licht. Wiederhole nicht unseren Hochmut.“ Du schließt die Augen. Aus irgendeinem Grund klingen diese Worte nicht wie alte Geschichte, sondern wie eine persönliche Prophezeiung.",
+            "zh": "你花了数小时比对这些符号，直到它们突然在你脑中拼合起来，仿佛你早已知晓一般。这是一则警告：「曾有一族人在此统治，他们从大地夺取光之球体，妄图成为神明。球体赐予了他们全部的知识……却夺走了其余的一切。当他们明白自己的错误时，早已在沙下化为尘土。不要触碰沉睡的光。不要重蹈我们的傲慢。」你闭上双眼。不知为何，这些话听起来不像是古老的历史，而像是对你个人的预言。",
+            "ja": "何時間もかけて記号を照合していくうちに、まるでずっと知っていたかのように、それらが突然お前の心の中で組み合わさる。それは警告だ：「ここにはかつて、神になろうと大地から光の球を引き剥がした民が支配していた。球はすべての知識を彼らに与えた……そしてそれ以外のすべてを奪った。自分たちの過ちを理解した時には、既に砂の下で塵と化していた。眠れる光に触れるな。我らの傲慢を繰り返すな」。目を閉じる。なぜかその言葉は、古代の歴史ではなく、自分自身への預言のように響く。"
+        },
+        "next": [
+            "mano_opt_salir"
+        ],
+        "reward": "faceta:inteligencia=+1;gflag:mano_descifrada",
+        "condition": "no_gflag(\"mano_descifrada\")",
+        "once": true
+    },
+    "mano_opt_palma": {
+        "type": "option",
+        "text": {
+            "es": "🖐️  Colocar tu propia mano en el hueco vacío de la palma",
+            "en": "🖐️  Place your own hand in the empty hollow of the palm",
+            "fr": "🖐️  Placer ta propre main dans le creux vide de la paume",
+            "it": "🖐️  Posare la tua mano nel vuoto della palma",
+            "de": "🖐️  Deine eigene Hand in die leere Höhlung der Handfläche legen",
+            "zh": "🖐️  把你的手放进掌心的空洞印痕中",
+            "ja": "🖐️  手のひらの空虚なくぼみに自分の手を置く"
+        },
+        "next": [
+            "mano_msg_palma"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "mano_msg_palma": {
+        "type": "message",
+        "text": {
+            "es": "Apoyas la palma en la huella redonda y lisa donde antaño descansó una esfera. La piedra está caliente, más de lo que el sol justifica, y late débilmente contra tu piel como un corazón lejano. Una certeza absurda te invade: tus manos conocen ese gesto. Tus manos han sostenido una esfera así antes. La retiras de golpe, con el corazón desbocado, sin recordar cuándo ni por qué, pero seguro de que la respuesta te aterra.",
+            "en": "You rest your palm in the round, smooth imprint where a sphere once lay. The stone is warm, warmer than the sun accounts for, and it pulses faintly against your skin like a distant heart. An absurd certainty fills you: your hands know this gesture. Your hands have held a sphere like this before. You pull away sharply, heart pounding, not recalling when or why, but certain the answer terrifies you.",
+            "fr": "Tu poses ta paume dans l'empreinte ronde et lisse où reposait autrefois une sphère. La pierre est chaude, plus que le soleil ne le justifie, et elle bat faiblement contre ta peau comme un cœur lointain. Une certitude absurde t'envahit : tes mains connaissent ce geste. Tes mains ont déjà tenu une sphère comme celle-ci auparavant. Tu la retires brusquement, le cœur affolé, sans te souvenir quand ni pourquoi, mais certain que la réponse te terrifie.",
+            "it": "Appoggi il palmo nell'impronta rotonda e liscia dove un tempo riposava una sfera. La pietra è calda, più di quanto il sole giustifichi, e pulsa debolmente contro la tua pelle come un cuore lontano. Una certezza assurda ti invade: le tue mani conoscono quel gesto. Le tue mani hanno già tenuto una sfera simile prima d'ora. La ritiri di scatto, con il cuore in tumulto, senza ricordare quando né perché, ma certo che la risposta ti terrorizza.",
+            "de": "Du legst deine Handfläche in den runden, glatten Abdruck, wo einst eine Sphäre lag. Der Stein ist warm, wärmer als die Sonne es rechtfertigt, und pulsiert schwach gegen deine Haut wie ein fernes Herz. Eine absurde Gewissheit erfasst dich: Deine Hände kennen diese Geste. Deine Hände haben schon einmal eine solche Sphäre gehalten. Du ziehst sie abrupt zurück, das Herz rasend, ohne dich zu erinnern, wann oder warum, aber sicher, dass die Antwort dich erschreckt.",
+            "zh": "你把手掌放进那个圆滑的印痕中，那里曾经放置过一颗球体。石头很温暖，暖得超出阳光所能解释的程度，并且如同远方的心跳一般，微弱地贴着你的皮肤搏动。一种荒谬的笃定涌上心头：你的手认得这个动作。你的手以前握过这样的球体。你猛地缩回手，心跳狂乱，虽不记得是何时何故，却确信答案会令你恐惧。",
+            "ja": "かつて球が置かれていた、丸く滑らかな跡に手のひらを重ねる。石は温かい——太陽の熱だけでは説明できないほどに——そして遠い心臓のように、かすかに肌に脈打っている。奇妙な確信がお前を満たす——この手はこの仕草を知っている。この手は以前にもこのような球を握ったことがある。いつ、なぜかは思い出せないまま、心臓を高鳴らせながら急いで手を引く。だが、その答えが自分を恐怖させるものだということだけは確信している。"
+        },
+        "next": [
+            "mano_opt_salir"
+        ],
+        "reward": "faceta:cordura=-1"
+    },
+    "mano_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Dejar la mano señalando al cielo",
+            "en": "🚶  Leave the hand pointing at the sky",
+            "fr": "🚶  Laisser la main pointer vers le ciel",
+            "it": "🚶  Lasciare la mano che indica il cielo",
+            "de": "🚶  Die Hand zurücklassen, wie sie zum Himmel zeigt",
+            "zh": "🚶  离开这只指向天空的手",
+            "ja": "🚶  空を指し示す手を後にする"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

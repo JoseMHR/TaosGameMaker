@@ -1,0 +1,54 @@
+[gd_scene format=3]
+
+[sub_resource type="StandardMaterial3D" id="Mat_WoodDeck"]
+albedo_color = Color(0.28, 0.18, 0.12, 1)
+roughness = 0.8
+
+[sub_resource type="BoxMesh" id="Mesh_Deck"]
+size = Vector3(0.65, 0.08, 2.0)
+
+[sub_resource type="CylinderMesh" id="Mesh_Post"]
+top_radius = 0.025
+bottom_radius = 0.025
+height = 0.36
+radial_segments = 8
+
+[sub_resource type="BoxMesh" id="Mesh_Rail"]
+size = Vector3(0.04, 0.04, 2.0)
+
+[node name="Puente" type="Node3D"]
+
+[node name="Deck" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.04, 0)
+material_override = SubResource("Mat_WoodDeck")
+mesh = SubResource("Mesh_Deck")
+
+[node name="Post_L1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.3, 0.18, -0.9)
+material_override = SubResource("Mat_WoodDeck")
+mesh = SubResource("Mesh_Post")
+
+[node name="Post_L2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.3, 0.18, 0.9)
+material_override = SubResource("Mat_WoodDeck")
+mesh = SubResource("Mesh_Post")
+
+[node name="Post_R1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.3, 0.18, -0.9)
+material_override = SubResource("Mat_WoodDeck")
+mesh = SubResource("Mesh_Post")
+
+[node name="Post_R2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.3, 0.18, 0.9)
+material_override = SubResource("Mat_WoodDeck")
+mesh = SubResource("Mesh_Post")
+
+[node name="Rail_Left" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.3, 0.32, 0)
+material_override = SubResource("Mat_WoodDeck")
+mesh = SubResource("Mesh_Rail")
+
+[node name="Rail_Right" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.3, 0.32, 0)
+material_override = SubResource("Mat_WoodDeck")
+mesh = SubResource("Mesh_Rail")

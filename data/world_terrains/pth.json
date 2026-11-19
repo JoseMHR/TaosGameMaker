@@ -1,0 +1,21 @@
+{
+    "code": "pth",
+    "order": 12,
+    "label": "Camino de Piedra",
+    "color": "#8d5b4c",
+    "icon": "🧱",
+    "biome_color": "#4a3c31",
+    "walkable": true,
+    "speed_mult": 1.5,
+    "block_enemies": true,
+    "texture": "templo",
+    "description": "Camino pavimentado con ladrillos de piedra. Permite desplazarse un 50% más rápido y los enemigos evitan pisarlo.",
+    "variants": [
+        {
+            "weight": 1,
+            "label": "Camino de Piedra",
+            "icon": "🧱",
+            "biome_color": "#4a3c31"
+        }
+    ]
+}

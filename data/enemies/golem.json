@@ -1,0 +1,66 @@
+{
+  "name": {
+    "es": "Golem",
+    "en": "Golem",
+    "fr": "Golem",
+    "it": "Golem",
+    "de": "Golem",
+    "zh": "魔像",
+    "ja": "ゴーレム"
+  },
+  "family": "construct",
+  "archetype": "tank",
+  "icon": "🗿",
+  "image": "res://assets/combat/enemies/en_stone_golem.png",
+  "attack_type": "physical",
+  "base_dodge": 2.0,
+  "dodge_scale": 0.1,
+  "element": "earth",
+  "weak_to": [
+    "lightning",
+    "water"
+  ],
+  "resist": [
+    "physical",
+    "fire",
+    "poison"
+  ],
+  "ai": "defensive",
+  "xp_reward_base": 90,
+  "xp_reward_scale": 8.0,
+  "gold_reward_base": 45,
+  "gold_reward_scale": 5.0,
+  "skills": [
+    {
+      "level": 1,
+      "skill_id": "quake"
+    },
+    {
+      "level": 16,
+      "skill_id": "iron_guard"
+    },
+    {
+      "level": 19,
+      "skill_id": "stone_fist"
+    }
+  ],
+  "loot": [
+    {
+      "kind": "gold",
+      "min": 12,
+      "max": 30
+    },
+    {
+      "kind": "consumable",
+      "id": "potion",
+      "chance": 0.25
+    },
+    {
+      "kind": "equipment",
+      "chance": 0.3,
+      "level": 2
+    }
+  ],
+  "zone": "zona_4_celestia",
+  "is_boss": false
+}

@@ -1,0 +1,45 @@
+[gd_scene format=3]
+
+[sub_resource type="StandardMaterial3D" id="Mat_DockWood"]
+albedo_color = Color(0.28, 0.18, 0.12, 1)
+roughness = 0.8
+
+[sub_resource type="StandardMaterial3D" id="Mat_Barrel"]
+albedo_color = Color(0.22, 0.14, 0.08, 1)
+
+[sub_resource type="BoxMesh" id="Mesh_Dock"]
+size = Vector3(0.55, 0.08, 1.2)
+
+[sub_resource type="CylinderMesh" id="Mesh_Piling"]
+top_radius = 0.035
+bottom_radius = 0.035
+height = 0.32
+radial_segments = 8
+
+[sub_resource type="CylinderMesh" id="Mesh_Barrel"]
+top_radius = 0.09
+bottom_radius = 0.1
+height = 0.22
+radial_segments = 12
+
+[node name="Pesca" type="Node3D"]
+
+[node name="DockDeck" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.04, -0.4)
+material_override = SubResource("Mat_DockWood")
+mesh = SubResource("Mesh_Dock")
+
+[node name="Piling_Left" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.24, 0.16, 0.08)
+material_override = SubResource("Mat_DockWood")
+mesh = SubResource("Mesh_Piling")
+
+[node name="Piling_Right" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.24, 0.16, 0.08)
+material_override = SubResource("Mat_DockWood")
+mesh = SubResource("Mesh_Piling")
+
+[node name="FishBarrel" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.16, 0.11, -0.7)
+material_override = SubResource("Mat_Barrel")
+mesh = SubResource("Mesh_Barrel")

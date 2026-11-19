@@ -1,0 +1,25 @@
+{
+    "id": "poi_arcanum_chatarra",
+    "type": "poi",
+    "icon": "🔩",
+    "name": {
+        "es": "Taller de Chatarra",
+        "en": "Scrap Workshop",
+        "fr": "Atelier de Ferraille",
+        "it": "Officina di Rottami",
+        "de": "Schrottwerkstatt",
+        "zh": "废料作坊",
+        "ja": "スクラップ工房"
+    },
+    "desc": {
+        "es": "Piezas mecánicas, circuitos reciclados y componentes cibernéticos",
+        "en": "Mechanical scrap, recycled circuits and cybernetics",
+        "fr": "Pièces mécaniques, circuits recyclés et composants cybernétiques",
+        "it": "Pezzi meccanici, circuiti riciclati e componenti cibernetici",
+        "de": "Mechanische Teile, recycelte Schaltkreise und kybernetische Komponenten",
+        "zh": "机械零件、回收电路与仿生元件",
+        "ja": "機械部品、再生回路、サイバネティック部品"
+    },
+    "npc": "arcanum_chatarrero",
+    "bg": "bg_city_arcanum_chatarra.png"
+}

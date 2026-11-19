@@ -1,0 +1,27 @@
+{
+    "id": "poi_gloriam_shop",
+    "type": "poi",
+    "icon": "🏺",
+    "name": {
+        "es": "Bazar de las Especias",
+        "en": "Spice Bazaar",
+        "fr": "Bazar des Épices",
+        "it": "Bazar delle Spezie",
+        "de": "Gewürzbasar",
+        "zh": "香料集市",
+        "ja": "香辛料バザール"
+    },
+    "desc": {
+        "es": "Seda, tintes exóticos y especias raras traídas del sur",
+        "en": "Silk, exotic dyes, and rare spices from the south",
+        "fr": "Soie, teintures exotiques et épices rares venues du sud",
+        "it": "Seta, tinture esotiche e spezie rare provenienti dal sud",
+        "de": "Seide, exotische Farbstoffe und seltene Gewürze aus dem Süden",
+        "zh": "来自南方的丝绸、异国染料与珍稀香料",
+        "ja": "南方から来た絹、異国の染料、珍しい香辛料"
+    },
+    "npc": "gloriam_mercader",
+    "bg": "bg_city_gloriam_shop.png",
+    "kind": "shop",
+    "stock": "desert"
+}

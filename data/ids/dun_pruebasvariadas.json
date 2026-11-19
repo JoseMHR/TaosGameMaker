@@ -1,0 +1,13 @@
+{
+    "id": "dun_pruebasvariadas",
+    "type": "dungeon",
+    "name": {
+        "es": "PruebasVariadas",
+        "en": "New Standard Dungeon"
+    },
+    "icon": "🕳️",
+    "desc": {
+        "es": "",
+        "en": ""
+    }
+}

@@ -1,0 +1,165 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Faro sin Mar",
+            "en": "The Lighthouse Without a Sea",
+            "fr": "Le Phare sans Mer",
+            "it": "Il Faro senza Mare",
+            "de": "Der Leuchtturm ohne Meer",
+            "zh": "无海的灯塔",
+            "ja": "海のない灯台"
+        },
+        "next": [],
+        "reward": "avatar=🗼;bg=0.10,0.10,0.09"
+    },
+    "faro_root": {
+        "type": "message",
+        "text": {
+            "es": "En mitad del desierto más seco, un faro de piedra se alza contra el cielo. Su linterna sigue girando, barriendo con su haz no las olas, sino las dunas, una y otra vez, buscando barcos que ya no existen. Al pie, una campana de niebla suena sola de vez en cuando, ronca. La puerta está abierta. Dentro, una escalera de caracol y, en la pared, un mapa marino de un océano que aquí, hace mucho, sí existió. Alguien mantiene este faro encendido en un mar de arena.",
+            "en": "In the middle of the driest desert, a stone lighthouse rises against the sky. Its lantern still turns, sweeping its beam not over waves but over the dunes, again and again, searching for ships that no longer exist. At its foot, a fog bell tolls by itself now and then, hoarse. The door stands open. Inside, a spiral staircase and, on the wall, a sea chart of an ocean that here, long ago, truly existed. Someone keeps this lighthouse burning over a sea of sand.",
+            "fr": "Au milieu du désert le plus sec, un phare de pierre se dresse contre le ciel. Sa lanterne tourne encore, balayant de son faisceau non pas les vagues mais les dunes, encore et encore, cherchant des navires qui n'existent plus. À son pied, une cloche de brume sonne seule de temps à autre, rauque. La porte est ouverte. À l'intérieur, un escalier en colimaçon et, sur le mur, une carte marine d'un océan qui, ici, il y a longtemps, existait vraiment. Quelqu'un garde ce phare allumé sur une mer de sable.",
+            "it": "In mezzo al deserto più secco, un faro di pietra si erge contro il cielo. La sua lanterna gira ancora, spazzando col suo raggio non le onde ma le dune, ancora e ancora, cercando navi che non esistono più. Ai suoi piedi, una campana da nebbia suona sola di tanto in tanto, rauca. La porta è aperta. Dentro, una scala a chiocciola e, sulla parete, una carta marina di un oceano che qui, molto tempo fa, esistette davvero. Qualcuno mantiene questo faro acceso su un mare di sabbia.",
+            "de": "Mitten in der trockensten Wüste erhebt sich ein Steinleuchtturm gegen den Himmel. Seine Laterne dreht sich noch immer und fegt mit ihrem Strahl nicht über Wellen, sondern über Dünen, immer wieder, auf der Suche nach Schiffen, die es nicht mehr gibt. An seinem Fuß läutet gelegentlich eine Nebelglocke, rauh, von selbst. Die Tür steht offen. Drinnen eine Wendeltreppe und an der Wand eine Seekarte eines Ozeans, der hier, vor langer Zeit, wirklich existierte. Jemand hält diesen Leuchtturm über einem Meer aus Sand brennend.",
+            "zh": "在最干旱的沙漠中央，一座石灯塔矗立在天空下。它的灯笼依然在旋转，用光束一次又一次地扫过——不是海浪，而是沙丘——寻找已经不复存在的船只。塔脚下，一口雾钟偶尔独自敲响，声音嘶哑。门是开着的。里面有一道螺旋楼梯，墙上挂着一幅海图，画的是很久以前这里确实存在过的一片海洋。有人让这座灯塔在一片沙之海上持续燃烧着。",
+            "ja": "最も乾燥した砂漠の真ん中に、石造りの灯台が空に向かってそびえている。その灯りはまだ回っており、波ではなく砂丘を照らす光を、何度も何度も投げかけ、もはや存在しない船を探している。その根元では、時折しわがれた霧の鐘が独りで鳴っている。扉は開いている。中には螺旋階段があり、壁には、遥か昔、ここに本当に存在した海の航海図が掛けられている。誰かが、砂の海の上でこの灯台の光を灯し続けているのだ。"
+        },
+        "next": [
+            "faro_opt_subir",
+            "faro_opt_campana",
+            "faro_opt_mapa",
+            "faro_opt_salir"
+        ],
+        "reward": ""
+    },
+    "faro_opt_subir": {
+        "type": "option",
+        "text": {
+            "es": "🔦  Subir a lo alto del faro para ver quién mantiene la luz encendida",
+            "en": "🔦  Climb to the top of the lighthouse to see who keeps the light burning",
+            "fr": "🔦  Monter en haut du phare pour voir qui maintient la lumière allumée",
+            "it": "🔦  Salire in cima al faro per vedere chi mantiene la luce accesa",
+            "de": "🔦  Zum Leuchtturm hinaufsteigen, um zu sehen, wer das Licht brennen hält",
+            "zh": "🔦  爬上灯塔顶端，看看是谁让这灯一直亮着",
+            "ja": "🔦  誰が灯りを絶やさずにいるのかを見に灯台の頂上へ登る"
+        },
+        "next": [
+            "faro_msg_subir"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "faro_msg_subir": {
+        "type": "message",
+        "text": {
+            "es": "Subes hasta la linterna. No hay nadie: solo un mecanismo de relojería que un farero, muerto hace décadas, dejó dando cuerda a la lámpara 'por si el mar vuelve'. En su diario, la última entrada: 'El agua se retiró en una noche y se llevó los barcos por debajo, con la tripulación dormida. No pude avisarles a tiempo. Mantendré la luz encendida para que, si alguno sigue ahí abajo, sepa que alguien sigue esperándolo en la orilla.' Miras las dunas iluminadas por el haz y, por un instante, jurarías ver mástiles asomando bajo la arena.",
+            "en": "You climb to the lantern. There's no one: only a clockwork mechanism that a keeper, dead for decades, left winding the lamp 'in case the sea returns'. In his journal, the last entry: 'The water withdrew in a single night and dragged the ships under, crews asleep. I couldn't warn them in time. I'll keep the light burning so that, if any of them is still down there, they'll know someone still waits for them on the shore.' You look at the dunes lit by the beam and, for an instant, you'd swear you see masts jutting up from beneath the sand.",
+            "fr": "Tu montes jusqu'à la lanterne. Il n'y a personne : seulement un mécanisme d'horlogerie qu'un gardien, mort depuis des décennies, a laissé remonter la lampe « au cas où la mer reviendrait ». Dans son journal, la dernière entrée : « L'eau s'est retirée en une seule nuit et a emporté les navires par le fond, les équipages endormis. Je n'ai pas pu les prévenir à temps. Je garderai la lumière allumée pour que, si l'un d'eux est encore là-dessous, il sache que quelqu'un continue de l'attendre sur le rivage. » Tu regardes les dunes éclairées par le faisceau et, pendant un instant, tu jurerais voir des mâts émerger sous le sable.",
+            "it": "Sali fino alla lanterna. Non c'è nessuno: solo un meccanismo a orologeria che un guardiano, morto da decenni, ha lasciato a caricare la lampada 'nel caso il mare ritorni'. Nel suo diario, l'ultima voce: 'L'acqua si ritirò in una sola notte e portò via le navi sotto, con gli equipaggi addormentati. Non ho potuto avvisarli in tempo. Manterrò la luce accesa perché, se qualcuno di loro è ancora laggiù, sappia che qualcuno continua ad aspettarlo sulla riva.' Guardi le dune illuminate dal raggio e, per un istante, giureresti di vedere alberi maestri che affiorano sotto la sabbia.",
+            "de": "Du steigst bis zur Laterne hinauf. Da ist niemand: nur ein Uhrwerk, das ein Wächter, seit Jahrzehnten tot, aufziehen ließ, „falls das Meer zurückkehrt“. In seinem Tagebuch der letzte Eintrag: „Das Wasser zog sich in einer einzigen Nacht zurück und riss die Schiffe mit den schlafenden Mannschaften unter sich. Ich konnte sie nicht rechtzeitig warnen. Ich werde das Licht brennen lassen, damit, falls einer von ihnen noch da unten ist, er weiß, dass jemand immer noch an der Küste auf ihn wartet.“ Du blickst auf die vom Strahl beleuchteten Dünen und würdest für einen Moment schwören, Mastspitzen unter dem Sand hervorragen zu sehen.",
+            "zh": "你爬到灯笼那里。没有人：只有一个上了几十年的时钟机构，是一位已故几十年的灯塔守护人留下来的，「以防海水回来」而继续为灯上劲。他日记的最后一条写着：「水在一夜之间退去，把还在熟睡的船员和船只都拖入了海底。我没能及时警告他们。我会让这灯一直亮着，好让下面的人如果还有谁在，知道岸边仍有人在等他。」你望着被光束照亮的沙丘，一瞬间，你会发誓看到了从沙下探出的桅杆。",
+            "ja": "灯りのある場所まで登る。誰もいない——数十年前に死んだ番人が、「海が戻ってくるかもしれないから」とランプのねじを巻き続けさせただけの時計仕掛けがあるだけだ。彼の日記の最後の記述——「水はある夜のうちに退き、寝入っていた船員たちとともに船を海底へ引き込んでいった。時間内に彼らに警告できなかった。もし彼らの誰かがまだあそこにいるなら、岸で誰かがまだ待っていると分かるように、灯りを灯し続けよう」光に照らされた砂丘を見つめると、一瞬、砂の下からマストが突き出ているのを見た気がする。"
+        },
+        "next": [
+            "faro_root"
+        ],
+        "reward": "faceta:cordura=-1"
+    },
+    "faro_opt_campana": {
+        "type": "option",
+        "text": {
+            "es": "🔔  Tocar tú mismo la campana de niebla, por los que quedaron abajo",
+            "en": "🔔  Ring the fog bell yourself, for those left below",
+            "fr": "🔔  Sonner toi-même la cloche de brume, pour ceux qui sont restés en bas",
+            "it": "🔔  Suonare tu stesso la campana da nebbia, per quelli rimasti sotto",
+            "de": "🔔  Selbst die Nebelglocke läuten, für die, die unten geblieben sind",
+            "zh": "🔔  亲自敲响雾钟，为那些留在下面的人",
+            "ja": "🔔  下に残された者たちのために、自ら霧の鐘を鳴らす"
+        },
+        "next": [
+            "faro_msg_campana"
+        ],
+        "reward": ""
+    },
+    "faro_msg_campana": {
+        "type": "message",
+        "text": {
+            "es": "Agarras la cuerda de la campana y la tocas, tres tañidos largos y graves que ruedan por las dunas hasta perderse. Es un gesto inútil y lo sabes: no queda mar, no queda tripulación, no queda nadie a quien avisar. Y aun así lo haces, porque alguien debería. El sonido se apaga y el desierto queda en un silencio distinto, casi agradecido. Honrar a los que nadie recuerda, aunque no sirva de nada, es una forma callada de decir que ninguna pérdida es del todo invisible.",
+            "en": "You grab the bell rope and ring it, three long, low tolls that roll across the dunes until they fade. It's a useless gesture and you know it: no sea remains, no crew, no one left to warn. And still you do it, because someone should. The sound dies away and the desert falls into a different silence, almost grateful. Honoring those no one remembers, even when it changes nothing, is a quiet way of saying that no loss is entirely invisible.",
+            "fr": "Tu attrapes la corde de la cloche et la sonnes, trois longs tintements graves qui roulent sur les dunes jusqu'à se perdre. C'est un geste inutile et tu le sais : il ne reste plus de mer, plus d'équipage, plus personne à avertir. Et pourtant tu le fais, parce que quelqu'un devrait. Le son s'éteint et le désert retombe dans un silence différent, presque reconnaissant. Honorer ceux dont personne ne se souvient, même si ça ne change rien, est une façon silencieuse de dire qu'aucune perte n'est totalement invisible.",
+            "it": "Prendi la corda della campana e la suoni, tre rintocchi lunghi e gravi che rotolano sulle dune fino a perdersi. È un gesto inutile e lo sai: non resta mare, non resta equipaggio, non resta nessuno da avvertire. Eppure lo fai, perché qualcuno dovrebbe. Il suono si spegne e il deserto rimane in un silenzio diverso, quasi grato. Onorare chi nessuno ricorda, anche se non serve a nulla, è un modo silenzioso di dire che nessuna perdita è del tutto invisibile.",
+            "de": "Du greifst nach dem Glockenseil und läutest sie, drei lange, tiefe Töne, die über die Dünen rollen, bis sie sich verlieren. Es ist eine nutzlose Geste, und du weißt es: kein Meer bleibt, keine Mannschaft, niemand mehr zum Warnen. Und trotzdem tust du es, weil jemand es tun sollte. Der Klang verklingt und die Wüste versinkt in einer anderen Stille, fast dankbar. Diejenigen zu ehren, an die sich niemand erinnert, auch wenn es nichts ändert, ist eine leise Art zu sagen, dass kein Verlust völlig unsichtbar ist.",
+            "zh": "你抓住钟绳，敲响了它，三声悠长而低沉的钟响滚过沙丘，直至消散。这是一个毫无用处的举动，你也知道：没有海了，没有船员了，没有任何人可以警告了。但你依然这样做，因为总得有人这样做。钟声消散，沙漠陷入一种不同的寂静，几乎带着感激之意。纪念那些无人记得的人，即便毫无用处，也是一种无声的方式，诉说着没有任何失去是完全不可见的。",
+            "ja": "鐘の縄を取り、鳴らす。三つの長く低い響きが砂丘を渡り、消えていく。無意味な行為だと分かっている——海は残っておらず、船員も残っておらず、警告すべき者もいない。それでもお前は行う、誰かがそうすべきだからだ。音が消えると、砂漠は違う静寂に落ちる、ほとんど感謝しているかのように。誰にも覚えられていない者たちを敬うことは、何も変えられなくても、いかなる損失も完全に見えないものではないと静かに語る方法なのだ。"
+        },
+        "next": [
+            "faro_msg_campana2"
+        ],
+        "reward": ""
+    },
+    "faro_msg_campana2": {
+        "type": "message",
+        "text": {
+            "es": "Cuando el último tañido se apaga, muy lejos, bajo la arena, te parece oír una segunda campana responder. Débil. Agradecida. Puede que solo sea el eco. Prefieres creer que no.",
+            "en": "As the last toll dies away, far off, beneath the sand, you think you hear a second bell answer. Faint. Grateful. Maybe it's only the echo. You'd rather believe it isn't.",
+            "fr": "Quand le dernier tintement s'éteint, très loin, sous le sable, tu crois entendre une seconde cloche répondre. Faible. Reconnaissante. Ce n'est peut-être que l'écho. Tu préfères croire que non.",
+            "it": "Quando l'ultimo rintocco si spegne, molto lontano, sotto la sabbia, ti sembra di sentire una seconda campana rispondere. Debole. Grata. Forse è solo l'eco. Preferisci credere che non lo sia.",
+            "de": "Als der letzte Ton verklingt, glaubst du, weit weg, unter dem Sand, eine zweite Glocke antworten zu hören. Schwach. Dankbar. Vielleicht ist es nur das Echo. Du glaubst lieber, dass es das nicht ist.",
+            "zh": "当最后一声钟响消失时，远方，沙下深处，你似乎听到了第二口钟的回应。微弱。感激。或许那只是回声。你更愿意相信不是。",
+            "ja": "最後の音が消えると、遥か遠く、砂の下から、二つ目の鐘が答えているように聞こえる。かすかに。感謝を込めて。ただの反響かもしれない。そうではないと信じたい。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:bondad=+1;faceta:valor=+1"
+    },
+    "faro_opt_mapa": {
+        "type": "option",
+        "text": {
+            "es": "🗺️  Estudiar el mapa marino del océano desaparecido",
+            "en": "🗺️  Study the sea chart of the vanished ocean",
+            "fr": "🗺️  Étudier la carte marine de l'océan disparu",
+            "it": "🗺️  Studiare la carta marina dell'oceano scomparso",
+            "de": "🗺️  Die Seekarte des verschwundenen Ozeans studieren",
+            "zh": "🗺️  研究这幅消失的海洋的海图",
+            "ja": "🗺️  消えた海の航海図を調べる"
+        },
+        "next": [
+            "faro_msg_mapa"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "faro_msg_mapa": {
+        "type": "message",
+        "text": {
+            "es": "El mapa muestra este mismo desierto cuando era un mar interior, salpicado de islas, rutas y puertos que hoy son solo nombres enterrados bajo las dunas. Una anotación al margen dice: 'El mar no se secó por sí solo. Algo bebió el agua desde abajo.' Te guardas la copia: un buen mapa de un mundo que ya no existe sigue enseñando de dónde vienen las cosas. Y en Gloriam, saber dónde hubo agua puede salvarte la vida.",
+            "en": "The chart shows this very desert when it was an inland sea, dotted with islands, routes and ports that today are only names buried under the dunes. A note in the margin reads: 'The sea did not dry up on its own. Something drank the water from below.' You keep the copy: a good map of a world that no longer exists still teaches where things came from. And in Gloriam, knowing where there was once water can save your life.",
+            "fr": "La carte montre ce même désert quand c'était une mer intérieure, parsemée d'îles, de routes et de ports qui aujourd'hui ne sont que des noms enterrés sous les dunes. Une annotation en marge dit : « La mer ne s'est pas asséchée seule. Quelque chose a bu l'eau par le dessous. » Tu gardes la copie : une bonne carte d'un monde qui n'existe plus enseigne toujours d'où viennent les choses. Et à Gloriam, savoir où il y a eu de l'eau peut te sauver la vie.",
+            "it": "La mappa mostra questo stesso deserto quando era un mare interno, punteggiato di isole, rotte e porti che oggi sono solo nomi sepolti sotto le dune. Un'annotazione a margine dice: 'Il mare non si è seccato da solo. Qualcosa ha bevuto l'acqua da sotto.' Conservi la copia: una buona mappa di un mondo che non esiste più insegna ancora da dove vengono le cose. E a Gloriam, sapere dove c'era acqua può salvarti la vita.",
+            "de": "Die Karte zeigt genau diese Wüste, als sie ein Binnenmeer war, gesprenkelt mit Inseln, Routen und Häfen, die heute nur noch unter den Dünen begrabene Namen sind. Eine Randnotiz besagt: „Das Meer trocknete nicht von selbst aus. Etwas trank das Wasser von unten.“ Du bewahrst die Kopie auf: eine gute Karte einer nicht mehr existierenden Welt lehrt immer noch, woher Dinge kommen. Und in Gloriam kann das Wissen, wo es einst Wasser gab, dein Leben retten.",
+            "zh": "这幅地图展示的正是这片沙漠曾作为一片内海时的样貌，星星点点分布着岛屿、航线和港口，如今这些都只是埋在沙丘下的名字。页边的一条注释写道：「大海不是自己干涸的。有什么东西从下方把水喝干了。」你保留了这份复制品：一张关于一个已不复存在的世界的好地图，依然能教你事物的来源。而在格洛里亚姆，知道哪里曾有水，能救你的命。",
+            "ja": "地図には、この砂漠が内海だった頃の姿が描かれている——島々、航路、そして今は砂丘の下に埋もれた名前だけの港が点在している。欄外の注記にはこうある：「海は自然に干上がったのではない。何かが下から水を飲んだのだ」写しを保管しておく——もはや存在しない世界の良い地図は、それでも物事の起源を教えてくれる。そしてグロリアムでは、かつて水があった場所を知ることが、命を救うことになるかもしれない。"
+        },
+        "next": [
+            "faro_root"
+        ],
+        "reward": "faceta:inteligencia=+1"
+    },
+    "faro_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Dejar el faro barriendo sus dunas y seguir camino",
+            "en": "🚶  Leave the lighthouse sweeping its dunes and move on",
+            "fr": "🚶  Laisser le phare balayer ses dunes et poursuivre ton chemin",
+            "it": "🚶  Lasciare il faro a spazzare le sue dune e proseguire il cammino",
+            "de": "🚶  Den Leuchtturm seine Dünen weiter überstreichen lassen und weitergehen",
+            "zh": "🚶  留下灯塔继续扫视它的沙丘，继续赶路",
+            "ja": "🚶  灯台がその砂丘を照らし続けるのに任せ、旅を続ける"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

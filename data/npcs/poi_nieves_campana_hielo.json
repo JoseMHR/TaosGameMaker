@@ -1,0 +1,115 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "La Campana de Hielo",
+            "en": "The Bell of Ice",
+            "fr": "La Cloche de Glace",
+            "it": "La Campana di Ghiaccio",
+            "de": "Die Eisglocke",
+            "zh": "冰之钟",
+            "ja": "氷の鐘"
+        },
+        "next": [],
+        "reward": "bg=0.06,0.08,0.11"
+    },
+    "camp_root": {
+        "type": "message",
+        "text": {
+            "es": "Bajo un arco de piedra vencido por el peso de los siglos cuelga una vieja campana de bronce, tan cubierta de carámbanos que parece hecha de vidrio. Una placa helada reza: 'Táñela y oirás lo que perdiste'. No hay pueblo cerca al que llamar, ni razón para que una campana espere sola en mitad de la nieve. El badajo, curiosamente, está limpio de hielo, como si alguien lo tañera a menudo.",
+            "en": "Beneath a stone arch bowed by the weight of centuries hangs an old bronze bell, so caked in icicles it looks made of glass. A frozen plaque reads: 'Ring it and you'll hear what you lost'. There is no village near to call, no reason for a bell to wait alone in the middle of the snow. The clapper, curiously, is clear of ice, as if someone rings it often.",
+            "fr": "Sous une arche de pierre affaissée par le poids des siècles pend une vieille cloche de bronze, si couverte de glaçons qu'elle semble faite de verre. Une plaque gelée dit : « Sonne-la et tu entendras ce que tu as perdu ». Il n'y a aucun village à proximité pour l'appeler, aucune raison pour qu'une cloche attende seule au milieu de la neige. Le battant, curieusement, est libre de glace, comme si quelqu'un la sonnait souvent.",
+            "it": "Sotto un arco di pietra piegato dal peso dei secoli pende una vecchia campana di bronzo, così coperta di ghiaccioli da sembrare fatta di vetro. Una targa ghiacciata recita: 'Suonala e sentirai ciò che hai perso'. Non c'è nessun villaggio vicino da chiamare, nessuna ragione perché una campana aspetti sola in mezzo alla neve. Il battaglio, curiosamente, è libero dal ghiaccio, come se qualcuno la suonasse spesso.",
+            "de": "Unter einem von der Last der Jahrhunderte gebeugten Steinbogen hängt eine alte Bronzeglocke, so von Eiszapfen bedeckt, dass sie aus Glas zu bestehen scheint. Eine gefrorene Tafel besagt: „Läute sie und du wirst hören, was du verloren hast“. Es gibt kein Dorf in der Nähe, das sie rufen könnte, keinen Grund, warum eine Glocke allein inmitten des Schnees warten sollte. Der Klöppel ist merkwürdigerweise eisfrei, als würde sie jemand oft läuten.",
+            "zh": "在一座被岁月压弯的石拱下，悬挂着一口古老的青铜钟，钟身覆满冰柱，看上去仿佛是玻璃做的。一块结冰的牌匾上写着：「敲响它，你将听见你所失去的」。附近没有村庄可以呼唤，也没有理由让一口钟孤零零地在雪中等待。奇怪的是，钟槌上竟没有结冰，仿佛有人经常敲响它。",
+            "ja": "幾世紀もの重みにたわんだ石のアーチの下に、古い青銅の鐘がつるされている。つららに覆われすぎて、まるでガラスでできているようだ。凍った銘板にはこうある：「鳴らせば、失ったものが聞こえるだろう」。近くに呼ぶべき村もなく、雪の中で鐘が独り待つ理由もない。不思議なことに、舌の部分だけは氷がなく、まるで誰かが頻繁に鳴らしているかのようだ。"
+        },
+        "next": [
+            "camp_opt_tanher",
+            "camp_opt_leer",
+            "camp_opt_salir"
+        ],
+        "reward": ""
+    },
+    "camp_opt_tanher": {
+        "type": "option",
+        "text": {
+            "es": "🔔  Tañer la campana una vez",
+            "en": "🔔  Ring the bell once",
+            "fr": "🔔  Sonner la cloche une fois",
+            "it": "🔔  Suonare la campana una volta",
+            "de": "🔔  Die Glocke einmal läuten",
+            "zh": "🔔  敲响钟一次",
+            "ja": "🔔  鐘を一度鳴らす"
+        },
+        "next": [
+            "camp_msg_tanher"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "camp_msg_tanher": {
+        "type": "message",
+        "text": {
+            "es": "Empujas el badajo. La campana no suena a bronce: suena a voz. Un tañido cálido y humano se expande por la nieve y, dentro de él, oyes trozos de una vida que no recuerdas haber vivido —una puerta que se abre, un 'ya llegué a casa', el chirrido de una cuna, dos risas encajadas la una en la otra—. El eco se apaga y el frío regresa de golpe. Te quedas mirando la campana con los ojos húmedos, preguntándote a quién pertenecían esas risas.",
+            "en": "You push the clapper. The bell does not ring like bronze: it rings like a voice. A warm, human toll spreads across the snow and, inside it, you hear scraps of a life you don't recall living — a door opening, an 'I'm home', the creak of a cradle, two laughs nested one inside the other. The echo fades and the cold rushes back. You stand staring at the bell, eyes damp, wondering whose those laughs were.",
+            "fr": "Tu pousses le battant. La cloche ne sonne pas comme du bronze : elle sonne comme une voix. Un tintement chaud et humain se répand sur la neige et, à l'intérieur, tu entends des bribes d'une vie que tu ne te souviens pas avoir vécue — une porte qui s'ouvre, un « je suis rentré », le grincement d'un berceau, deux rires imbriqués l'un dans l'autre. L'écho s'éteint et le froid revient d'un coup. Tu restes à fixer la cloche, les yeux humides, te demandant à qui appartenaient ces rires.",
+            "it": "Spingi il battaglio. La campana non suona come bronzo: suona come una voce. Un rintocco caldo e umano si espande sulla neve e, al suo interno, senti frammenti di una vita che non ricordi di aver vissuto — una porta che si apre, un 'sono a casa', il cigolio di una culla, due risate intrecciate l'una nell'altra. L'eco svanisce e il freddo torna di colpo. Rimani a fissare la campana con gli occhi umidi, chiedendoti a chi appartenessero quelle risate.",
+            "de": "Du stößt den Klöppel an. Die Glocke klingt nicht wie Bronze: sie klingt wie eine Stimme. Ein warmer, menschlicher Klang breitet sich über den Schnee aus, und darin hörst du Fetzen eines Lebens, an das du dich nicht erinnerst gelebt zu haben – eine sich öffnende Tür, ein „ich bin zu Hause“, das Knarren einer Wiege, zwei ineinander verschlungene Lacher. Das Echo verklingt und die Kälte kehrt schlagartig zurück. Du bleibst stehen und starrst die Glocke an, mit feuchten Augen, und fragst dich, wem diese Lacher gehörten.",
+            "zh": "你推动钟槌。这口钟发出的不是青铜的声响，而是一种人声。一声温暖而充满人情味的钟鸣在雪地里蔓延开来，其中，你听见了一段你不记得自己经历过的生活片段——一扇打开的门，一句「我回来了」，摇篮的吱呀声，两串交织在一起的笑声。回声渐渐消散，寒冷猛地涌了回来。你站在那里凝视着钟，双眼湿润，不知道那些笑声究竟属于谁。",
+            "ja": "舌を押す。鐘は青銅の音ではなく、声のように鳴る。温かく人間らしい響きが雪の上に広がり、その中に、お前が生きた記憶のない人生の断片が聞こえてくる——開くドア、「ただいま」という声、揺りかごのきしみ、絡み合う二つの笑い声。残響が消え、寒さが一気に戻ってくる。お前は目を潤ませながら鐘を見つめ続け、あの笑い声が誰のものだったのかと自問する。"
+        },
+        "next": [
+            "camp_opt_salir"
+        ],
+        "reward": "faceta:cordura=-1;gflag:camp_taneda"
+    },
+    "camp_opt_leer": {
+        "type": "option",
+        "text": {
+            "es": "🪧  Rascar el hielo de la placa para leerla entera",
+            "en": "🪧  Scrape the ice off the plaque to read it fully",
+            "fr": "🪧  Gratter la glace de la plaque pour la lire entièrement",
+            "it": "🪧  Raschiare il ghiaccio dalla targa per leggerla per intero",
+            "de": "🪧  Das Eis von der Tafel kratzen, um sie ganz zu lesen",
+            "zh": "🪧  刮掉牌匾上的冰以读全铭文",
+            "ja": "🪧  銘板の氷を削り取り、全文を読む"
+        },
+        "next": [
+            "camp_msg_leer"
+        ],
+        "reward": ""
+    },
+    "camp_msg_leer": {
+        "type": "message",
+        "text": {
+            "es": "Bajo la capa de escarcha aparecen más palabras, grabadas por una mano temblorosa: 'El que la tañe recuerda. El que recuerda, sana. Pero sanar duele más que olvidar, y por eso nadie viene ya.' Comprendes entonces por qué el badajo está limpio y la nieve intacta: alguien la visita, sí, pero no se atreve a tocarla. Solo la mira, y se marcha.",
+            "en": "Beneath the layer of frost more words appear, carved by a trembling hand: 'Whoever rings it remembers. Whoever remembers, heals. But healing hurts more than forgetting, and that is why no one comes anymore.' You understand then why the clapper is clean and the snow untouched: someone visits it, yes, but doesn't dare to ring it. They only look at it, and leave.",
+            "fr": "Sous la couche de givre apparaissent d'autres mots, gravés d'une main tremblante : « Celui qui la sonne se souvient. Celui qui se souvient, guérit. Mais guérir fait plus mal qu'oublier, et c'est pourquoi personne ne vient plus. » Tu comprends alors pourquoi le battant est propre et la neige intacte : quelqu'un lui rend visite, oui, mais n'ose pas la sonner. Il ne fait que la regarder, et repart.",
+            "it": "Sotto lo strato di brina appaiono altre parole, incise da una mano tremante: 'Chi la suona ricorda. Chi ricorda, guarisce. Ma guarire fa più male che dimenticare, ed è per questo che nessuno viene più.' Comprendi allora perché il battaglio è pulito e la neve intatta: qualcuno la visita, sì, ma non osa suonarla. La guarda soltanto, e se ne va.",
+            "de": "Unter der Reifschicht erscheinen weitere Worte, von zitternder Hand eingraviert: „Wer sie läutet, erinnert sich. Wer sich erinnert, heilt. Doch Heilen tut mehr weh als Vergessen, und deshalb kommt niemand mehr.“ Du verstehst nun, warum der Klöppel sauber und der Schnee unberührt ist: Jemand besucht sie, ja, aber wagt es nicht, sie zu läuten. Er sieht sie nur an und geht.",
+            "zh": "在冰霜层下，还刻着更多的文字，出自一只颤抖的手：「敲响它的人，会记起往事。记起的人，会痊愈。但痊愈比遗忘更痛，因此再也没有人前来了。」你这才明白，为何钟槌是干净的，雪地却毫无痕迹：确实有人来过，但不敢敲响它。那人只是凝视着它，然后离去。",
+            "ja": "霜の層の下に、震える手で刻まれた別の言葉が現れる：「鳴らす者は思い出す。思い出す者は癒される。だが癒しは忘却よりも痛みを伴う。だから誰ももう来ない」。ここでお前は理解する——なぜ舌は綺麗で、雪には足跡一つないのか。誰かが訪れてはいる。だが鳴らす勇気はない。ただ見つめて、去っていくだけなのだ。"
+        },
+        "next": [
+            "camp_root"
+        ],
+        "reward": ""
+    },
+    "camp_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Alejarte, dejando la campana en silencio",
+            "en": "🚶  Walk away, leaving the bell in silence",
+            "fr": "🚶  S'éloigner en laissant la cloche silencieuse",
+            "it": "🚶  Allontanarti, lasciando la campana in silenzio",
+            "de": "🚶  Sich entfernen und die Glocke im Schweigen zurücklassen",
+            "zh": "🚶  离开，留下寂静的钟",
+            "ja": "🚶  鐘を静寂のままにして立ち去る"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

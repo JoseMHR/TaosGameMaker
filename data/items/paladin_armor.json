@@ -1,0 +1,32 @@
+{
+    "name": {
+        "es": "Armadura de Paladín",
+        "en": "Paladin Armor",
+        "fr": "Armure de Paladin",
+        "it": "Armatura da Paladino",
+        "de": "Paladinrüstung",
+        "zh": "圣骑士铠甲",
+        "ja": "パラディンアーマー"
+    },
+    "desc": {
+        "es": "Bendecida antes de la forja, protege el cuerpo y el espíritu.",
+        "en": "Blessed before forging, it protects both body and spirit.",
+        "fr": "Bénie avant sa forge, elle protège le corps et l'esprit.",
+        "it": "Benedetta prima della forgiatura, protegge corpo e spirito.",
+        "de": "Vor dem Schmieden gesegnet, schützt sie Körper und Geist.",
+        "zh": "在锻造前受过祝福，能同时守护身体与精神。",
+        "ja": "鍛造前に祝福を受け、肉体と精神の両方を守る。"
+    },
+    "icon": "🦺",
+    "category": "equipment",
+    "usable": false,
+    "slot": "armor",
+    "tier": 5,
+    "bonuses": {
+        "vit": 14
+    },
+    "combat": {
+        "phys_defense": 160,
+        "mag_defense": 30
+    }
+}

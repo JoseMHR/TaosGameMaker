@@ -1,0 +1,8 @@
+{
+    "label": "Muro de Presa",
+    "icon": "🚧",
+    "scale": 1.0,
+    "y_offset": 0.0,
+    "description": "Construcción hidráulica de retención de aguas.",
+    "model_path": "presa"
+}

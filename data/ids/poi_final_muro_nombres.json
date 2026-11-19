@@ -1,0 +1,26 @@
+{
+    "id": "poi_final_muro_nombres",
+    "type": "poi",
+    "icon": "🧱",
+    "name": {
+        "es": "El Muro de los Nombres",
+        "en": "The Wall of Names",
+        "fr": "Le Mur des Noms",
+        "it": "Il Muro dei Nomi",
+        "de": "Die Mauer der Namen",
+        "zh": "姓名之墙",
+        "ja": "名前の壁"
+    },
+    "desc": {
+        "es": "Un muro interminable grabado con los nombres de todos los que sufrieron por el Proyecto Esfera. (POI de inspección).",
+        "en": "An endless wall carved with the names of all who suffered for the Sphere Project. (Inspection POI).",
+        "fr": "Un mur interminable gravé des noms de tous ceux qui ont souffert à cause du Projet Sphère. (POI d'inspection).",
+        "it": "Un muro interminabile inciso con i nomi di tutti coloro che hanno sofferto per il Progetto Sfera. (POI di ispezione).",
+        "de": "Eine endlose Mauer, eingraviert mit den Namen all jener, die unter dem Sphärenprojekt gelitten haben. (Inspektions-POI).",
+        "zh": "一堵刻满了所有因球体计划而受苦之人姓名的无尽之墙。（探查类兴趣点）。",
+        "ja": "球体計画によって苦しんだすべての者の名が刻まれた、終わりのない壁。（調査ポイント）。"
+    },
+    "npc": "poi_final_muro_nombres",
+    "bg": "bg_world_poi_final_muro_nombres.png",
+    "music": "creepy"
+}

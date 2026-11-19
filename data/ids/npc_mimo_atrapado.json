@@ -1,0 +1,26 @@
+{
+    "id": "npc_mimo_atrapado",
+    "type": "poi",
+    "icon": "🤡",
+    "name": {
+        "es": "Marcel el Silencioso",
+        "en": "Marcel the Silent",
+        "fr": "Marcel le Silencieux",
+        "it": "Marcel il Silenzioso",
+        "de": "Marcel der Schweigsame",
+        "zh": "沉默的马塞尔",
+        "ja": "沈黙のマルセル"
+    },
+    "desc": {
+        "es": "Un mimo en un claro solitario, atrapado en una caja invisible que resulta demasiado real. (PNJ singular).",
+        "en": "A mime in a lonely clearing, trapped in an invisible box that turns out to be all too real. (Singular NPC).",
+        "fr": "Un mime dans une clairière solitaire, piégé dans une boîte invisible qui s'avère bien trop réelle. (PNJ singulier).",
+        "it": "Un mimo in una radura solitaria, intrappolato in una scatola invisibile che si rivela fin troppo reale. (PNG singolare).",
+        "de": "Ein Pantomime auf einer einsamen Lichtung, gefangen in einer unsichtbaren Box, die sich als allzu real erweist. (Einzigartiger NPC).",
+        "zh": "在孤寂的林间空地上，一位默剧演员被困在一个看不见却异常真实的箱子里。（唯一NPC）。",
+        "ja": "孤独な空き地にいるパントマイム役者。見えない箱に閉じ込められているが、それはあまりにも現実的だ。（唯一のNPC）。"
+    },
+    "npc": "npc_mimo_atrapado",
+    "bg": "bg_world_poi_pradera_mimo_atrapado.png",
+    "music": "poi_comic"
+}

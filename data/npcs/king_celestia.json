@@ -1,0 +1,148 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "Rey Aldebarán III",
+            "en": "King Aldebaran III",
+            "fr": "Roi Aldebaran III",
+            "it": "Re Aldebaran III",
+            "de": "König Aldebaran III.",
+            "zh": "阿尔德巴兰三世国王",
+            "ja": "アルデバラン三世国王"
+        },
+        "next": [],
+        "reward": "avatar=👑;bg=0.1,0.08,0.03"
+    },
+    "king_crisis": {
+        "type": "message",
+        "text": {
+            "es": "El Rey está de pie frente al ventanal señalando aterrado: '¡¿Qué haces aquí todavía?! ¡Esa monstruosidad marina está destrozando el puerto norte! ¡Ve de inmediato a acabar con la criatura antes de que hunda toda nuestra flota!'",
+            "en": "The King stands before the window pointing in terror: 'What are you still doing here?! That sea monstrosity is destroying the northern port! Go immediately and eliminate the creature before it sinks our entire fleet!'",
+            "fr": "Le Roi se tient devant la fenêtre, pointant du doigt, terrifié : « Que fais-tu encore ici ?! Cette monstruosité marine détruit le port nord ! Va immédiatement en finir avec cette créature avant qu'elle ne coule toute notre flotte ! »",
+            "it": "Il Re è in piedi davanti alla finestra e indica terrorizzato: 'Cosa ci fai ancora qui?! Quella mostruosità marina sta distruggendo il porto nord! Vai immediatamente a farla finita con la creatura prima che affondi tutta la nostra flotta!'",
+            "de": "Der König steht vor dem Fenster und zeigt entsetzt darauf: „Was machst du noch hier?! Diese Meeresungeheuerlichkeit zerstört den Nordhafen! Geh sofort und mache dieser Kreatur ein Ende, bevor sie unsere gesamte Flotte versenkt!“",
+            "zh": "国王站在窗前，惊恐地指着外面：「你怎么还在这里？！那只海怪正在摧毁北方港口！立刻去解决那只怪物，免得它把我们整支舰队都击沉！」",
+            "ja": "王は窓の前に立ち、恐怖に駆られて指をさす。「まだここにいるのか？！あの海の怪物が北の港を破壊している！艦隊全体を沈められる前に、すぐ行ってあの生き物を仕留めてこい！」"
+        },
+        "next": [
+            "king_crisis_ok"
+        ],
+        "reward": "",
+        "condition": "(has_flag(\"boss_puerto_activo\") or has_gflag(\"boss_puerto_activo\")) and no_flag(\"boss_puerto_derrotado\") and no_gflag(\"boss_puerto_derrotado\")"
+    },
+    "king_crisis_ok": {
+        "type": "option",
+        "text": {
+            "es": "🏃  ¡Voy al puerto de inmediato!",
+            "en": "🏃  I'm going to the port immediately!",
+            "fr": "🏃  Je vais immédiatement au port !",
+            "it": "🏃  Vado subito al porto!",
+            "de": "🏃  Ich gehe sofort zum Hafen!",
+            "zh": "🏃  我立刻去港口！",
+            "ja": "🏃  すぐに港へ向かいます！"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "king_after_boss": {
+        "type": "message",
+        "text": {
+            "es": "El Rey te aplaude con entusiasmo: '¡Increíble hazaña! La bestia del puerto ha caído y los marineros vuelven a respirar. Ya tienes mi Sello Real, así que el mar entero es tuyo. ¡Zarpa hacia nuevas tierras cuando desees!'",
+            "en": "The King applauds you enthusiastically: 'Incredible feat! The harbor beast has fallen and our sailors can breathe again. You already have my Royal Seal, so the entire sea is yours. Set sail whenever you wish!'",
+            "fr": "Le Roi t'applaudit avec enthousiasme : « Un exploit incroyable ! La bête du port est tombée et nos marins peuvent respirer à nouveau. Tu as déjà mon Sceau Royal, donc la mer entière t'appartient. Prends la mer vers de nouvelles terres quand tu le souhaites ! »",
+            "it": "Il Re ti applaude con entusiasmo: 'Impresa incredibile! La bestia del porto è caduta e i nostri marinai possono di nuovo respirare. Hai già il mio Sigillo Reale, quindi il mare intero è tuo. Salpa verso nuove terre quando desideri!'",
+            "de": "Der König applaudiert dir begeistert: „Unglaubliche Leistung! Die Bestie des Hafens ist gefallen, und unsere Seeleute können wieder aufatmen. Du hast bereits mein Königliches Siegel, also gehört dir das gesamte Meer. Segle zu neuen Ländern, wann immer du willst!“",
+            "zh": "国王热情地为你鼓掌：「真是了不起的壮举！港口的怪兽已经倒下，我们的水手们又能安心呼吸了。你已经拥有我的王家印章，整片大海都是你的了。想出海前往新大陆，随时都可以！」",
+            "ja": "王は熱狂的にお前に拍手を送る。「見事な功績だ！港の怪物は倒れ、我らの船乗りたちは再び安堵の息をつける。すでに王家の印章を持っているのだから、海全体はお前のものだ。好きな時に新たな大陸へ出航するがいい！」"
+        },
+        "next": [
+            "king_after_boss_ok"
+        ],
+        "reward": "",
+        "condition": "(has_flag(\"boss_puerto_derrotado\") or has_gflag(\"boss_puerto_derrotado\")) and has_item(\"sello_real\")"
+    },
+    "king_after_boss_ok": {
+        "type": "option",
+        "text": {
+            "es": "👑  Larga vida al Rey",
+            "en": "👑  Long live the King",
+            "fr": "👑  Longue vie au Roi",
+            "it": "👑  Lunga vita al Re",
+            "de": "👑  Lang lebe der König",
+            "zh": "👑  国王万岁",
+            "ja": "👑  国王陛下万歳"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "king_grant_seal": {
+        "type": "message",
+        "text": {
+            "es": "El Rey te mira con ojos desorbitados y una sonrisa de asombro: '¡Vaya! Pareces alguien realmente interesante... Nunca en cien años había visto a nadie dominar tantas virtudes y completar las seis sendas del poder. Eres digno de mi permiso y del Sello Real para zarpar en barco...'\n\nDe pronto, un mensajero entra corriendo y gritando: '¡MI SEÑOR! ¡UN MONSTRUO MARINO ESTÁ ATACANDO EL PUERTO, NOS HUNDEN LA FLOTA!'\n\nEl Rey se levanta alarmado: '¡Por todos los cielos! ¡Es el momento perfecto para alguien con tu destreza! ¡Toma el Sello Real y ve de inmediato a salvar nuestro puerto y vencer a esa criatura!'",
+            "en": "The King looks at you with wide eyes and a smile of wonder: 'Well, well! You seem like truly someone interesting... Never in a hundred years have I seen anyone master so many virtues and conquer all six paths of power. You are worthy of my permission and the Royal Seal to set sail...'\n\nSuddenly, a messenger bursts in shouting: 'MY LORD! A SEA MONSTER IS ATTACKING THE PORT, THEY ARE SINKING OUR FLEET!'\n\nThe King rises in alarm: 'Good heavens! It is the perfect moment for someone of your skill! Take the Royal Seal and go immediately to save our port and slay that creature!'",
+            "fr": "Le Roi te regarde avec des yeux écarquillés et un sourire émerveillé : « Eh bien ! Tu sembles vraiment être quelqu'un d'intéressant... Je n'ai jamais, en cent ans, vu personne maîtriser autant de vertus et accomplir les six voies du pouvoir. Tu es digne de mon autorisation et du Sceau Royal pour prendre la mer... »\n\nSoudain, un messager entre en courant en criant : « MON SEIGNEUR ! UN MONSTRE MARIN ATTAQUE LE PORT, ILS COULENT NOTRE FLOTTE ! »\n\nLe Roi se lève, alarmé : « Par tous les cieux ! C'est le moment parfait pour quelqu'un de ton talent ! Prends le Sceau Royal et va immédiatement sauver notre port et vaincre cette créature ! »",
+            "it": "Il Re ti guarda con occhi sgranati e un sorriso stupito: 'Ma guarda! Sembri davvero qualcuno di interessante... Non ho mai visto in cento anni nessuno padroneggiare tante virtù e completare le sei vie del potere. Sei degno del mio permesso e del Sigillo Reale per salpare...'\n\nD'improvviso, un messaggero entra correndo e gridando: 'MIO SIGNORE! UN MOSTRO MARINO STA ATTACCANDO IL PORTO, CI STANNO AFFONDANDO LA FLOTTA!'\n\nIl Re si alza allarmato: 'Per tutti i cieli! È il momento perfetto per qualcuno con la tua abilità! Prendi il Sigillo Reale e vai immediatamente a salvare il nostro porto e sconfiggere quella creatura!'",
+            "de": "Der König schaut dich mit weit aufgerissenen Augen und einem staunenden Lächeln an: „Nun, nun! Du scheinst wirklich jemand Interessantes zu sein... In hundert Jahren habe ich niemanden gesehen, der so viele Tugenden meistert und alle sechs Pfade der Macht vollendet. Du bist meiner Erlaubnis und des Königlichen Siegels würdig, um in See zu stechen...“\n\nPlötzlich stürmt ein Bote herein und schreit: „MEIN HERR! EIN SEEUNGEHEUER GREIFT DEN HAFEN AN, SIE VERSENKEN UNSERE FLOTTE!“\n\nDer König erhebt sich alarmiert: „Bei allen Himmeln! Das ist der perfekte Moment für jemanden mit deinem Können! Nimm das Königliche Siegel und geh sofort, um unseren Hafen zu retten und diese Kreatur zu besiegen!“",
+            "zh": "国王睁大双眼，带着惊叹的微笑看着你：「哎呀！你看起来真是个有意思的人……我这一百年来从未见过有人能掌握如此多的美德，并完成力量的六条道路。你配得上我的许可和王家印章，可以出海了……」\n\n突然，一名信使跑进来大喊：「陛下！海怪正在攻击港口，我们的舰队要沉了！」\n\n国王惊慌地站起身：「苍天在上！这正是需要你这般才能之人的时刻！拿上王家印章，立刻去拯救我们的港口，击败那只怪物！」",
+            "ja": "王は目を見開き、驚嘆した笑みでお前を見つめる。「これはこれは！お前は本当に興味深い人物のようだな……この百年、これほど多くの美徳を極め、力の六つの道すべてを完遂した者を見たことがない。お前は出航の許可と王家の印章を受けるに値する……」\n\n突然、伝令が駆け込んできて叫ぶ。「陛下！海の怪物が港を襲っています、艦隊が沈められています！」\n\n王は驚いて立ち上がる。「なんということだ！これはまさにお前のような技量の持ち主にふさわしい瞬間だ！王家の印章を持って、すぐに港を救い、あの生き物を倒してくるのだ！」"
+        },
+        "next": [
+            "king_grant_seal_ok"
+        ],
+        "reward": "",
+        "condition": "(has_all_professions() or quest == \"all_professions_mastered\") and no_flag(\"boss_puerto_activo\") and no_gflag(\"boss_puerto_activo\") and no_flag(\"boss_puerto_derrotado\") and no_gflag(\"boss_puerto_derrotado\")"
+    },
+    "king_grant_seal_ok": {
+        "type": "option",
+        "text": {
+            "es": "⚔️  Aceptar el Sello Real y defender el Puerto",
+            "en": "⚔️  Accept the Royal Seal and defend the Port",
+            "fr": "⚔️  Accepter le Sceau Royal et défendre le Port",
+            "it": "⚔️  Accettare il Sigillo Reale e difendere il Porto",
+            "de": "⚔️  Das Königliche Siegel annehmen und den Hafen verteidigen",
+            "zh": "⚔️  接受王家印章，保卫港口",
+            "ja": "⚔️  王家の印章を受け取り、港を守る"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "item:sello_real=1;gflag:boss_puerto_activo;flag:boss_puerto_activo;gflag:puerto_bajo_ataque;flag:puerto_bajo_ataque"
+    },
+    "king_need_professions": {
+        "type": "message",
+        "text": {
+            "es": "Un rey enjuto y solemne te observa despectivamente desde su trono: 'No sé quién eres, pero no me interesas... ¿Buscas mi permiso real para cruzar el gran mar? Solo alguien verdaderamente excepcional sería merecedor de tal honor. Vuelve cuando hayas demostrado tu valía dominando las seis profesiones de los senderos del reino.'",
+            "en": "A solemn king looks down at you from his throne: 'I don't know who you are, nor do I care... You seek my royal permission to cross the great sea? Only someone truly exceptional would be worthy of such honor. Return when you have proven your worth by mastering all six professions from the elemental trials.'",
+            "fr": "Un roi maigre et solennel t'observe avec mépris depuis son trône : « Je ne sais pas qui tu es, et cela ne m'intéresse pas... Tu cherches ma permission royale pour traverser la grande mer ? Seul quelqu'un de véritablement exceptionnel serait digne d'un tel honneur. Reviens quand tu auras prouvé ta valeur en maîtrisant les six professions des voies élémentaires. »",
+            "it": "Un re smilzo e solenne ti osserva con disprezzo dal suo trono: 'Non so chi tu sia, e non mi interessa... Cerchi il mio permesso reale per attraversare il grande mare? Solo qualcuno di veramente eccezionale sarebbe degno di un tale onore. Torna quando avrai dimostrato il tuo valore padroneggiando le sei professioni dei sentieri elementali.'",
+            "de": "Ein hagerer, feierlicher König beobachtet dich verächtlich von seinem Thron aus: „Ich weiß nicht, wer du bist, und es interessiert mich nicht... Du suchst meine königliche Erlaubnis, um das große Meer zu überqueren? Nur jemand wirklich Außergewöhnliches wäre einer solchen Ehre würdig. Kehre zurück, wenn du deinen Wert bewiesen hast, indem du die sechs Berufe der elementaren Pfade meisterst.“",
+            "zh": "一位瘦削而威严的国王从王座上轻蔑地打量着你：「我不知道你是谁，也没兴趣知道……你在寻求我的王家许可，好穿越大海？只有真正卓越之人才配得上如此殊荣。等你精通了元素试炼的六大职业，证明自己的价值后再回来吧。」",
+            "ja": "痩せた威厳ある王が、玉座から軽蔑の目でお前を見下ろす。「お前が何者かなど知らぬし、興味もない……大海を渡る王の許可を求めているのか？真に卓越した者だけがそのような栄誉に値する。元素の試練の六つの職業をすべて極め、己の価値を証明してから戻ってくるがいい」"
+        },
+        "next": [
+            "king_need_professions_ok"
+        ],
+        "reward": "",
+        "condition": "default"
+    },
+    "king_need_professions_ok": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Entendido, volveré cuando domine todas las profesiones",
+            "en": "🚶  Understood, I will return once I master all professions",
+            "fr": "🚶  Compris, je reviendrai une fois toutes les professions maîtrisées",
+            "it": "🚶  Capito, tornerò quando avrò padroneggiato tutte le professioni",
+            "de": "🚶  Verstanden, ich komme zurück, wenn ich alle Berufe gemeistert habe",
+            "zh": "🚶  明白了，等我精通所有职业后再回来",
+            "ja": "🚶  分かりました、すべての職業を極めたら戻ってきます"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

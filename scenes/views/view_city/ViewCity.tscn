@@ -1,0 +1,97 @@
+[gd_scene load_steps=2 format=3 uid="uid://b2vc1ty2026vc"]
+
+[ext_resource type="Script" path="res://scenes/views/view_city/ViewCity.gd" id="1_vc"]
+
+[node name="ViewCity" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_vc")
+
+[node name="BG" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color(0.04, 0.03, 0.07, 1.0)
+
+[node name="VBox" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 0
+
+; ─── Cabecera ────────────────────────────────────────────────────────────────
+[node name="Header" type="PanelContainer" parent="VBox"]
+layout_mode = 2
+
+[node name="MarginHeader" type="MarginContainer" parent="VBox/Header"]
+layout_mode = 2
+theme_override_constants/margin_left = 24
+theme_override_constants/margin_right = 24
+theme_override_constants/margin_top = 18
+theme_override_constants/margin_bottom = 18
+
+[node name="HBoxHeader" type="HBoxContainer" parent="VBox/Header/MarginHeader"]
+layout_mode = 2
+theme_override_constants/separation = 16
+
+[node name="LblCityIcon" type="Label" parent="VBox/Header/MarginHeader/HBoxHeader"]
+layout_mode = 2
+text = "🏰"
+theme_override_font_sizes/font_size = 38
+vertical_alignment = 1
+
+[node name="LblCityName" type="Label" parent="VBox/Header/MarginHeader/HBoxHeader"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Ciudad Imperial"
+theme_override_font_sizes/font_size = 34
+theme_override_colors/font_color = Color(0.92, 0.92, 0.95, 1.0)
+
+[node name="BtnExit" type="Button" parent="VBox/Header/MarginHeader/HBoxHeader"]
+layout_mode = 2
+custom_minimum_size = Vector2(0, 56)
+text = "Salir al Mapa"
+theme_override_font_sizes/font_size = 26
+
+; ─── Espaciador para empujar el contenido hacia abajo ─────────────────────────
+[node name="Spacer" type="Control" parent="VBox"]
+layout_mode = 2
+size_flags_vertical = 3
+
+; ─── Grid de edificios (2 columnas) ──────────────────────────────────────────
+[node name="GridMargin" type="MarginContainer" parent="VBox"]
+layout_mode = 2
+theme_override_constants/margin_left = 16
+theme_override_constants/margin_right = 16
+theme_override_constants/margin_top = 16
+theme_override_constants/margin_bottom = 16
+
+[node name="GridBuildings" type="GridContainer" parent="VBox/GridMargin"]
+layout_mode = 2
+columns = 2
+theme_override_constants/h_separation = 16
+theme_override_constants/v_separation = 16
+
+; ─── Botón Ocultar Interfaz ──────────────────────────────────────────────────
+[node name="BtnToggleUIMargin" type="MarginContainer" parent="VBox"]
+layout_mode = 2
+theme_override_constants/margin_left = 24
+theme_override_constants/margin_right = 24
+theme_override_constants/margin_top = 8
+theme_override_constants/margin_bottom = 24
+
+[node name="BtnToggleUI" type="Button" parent="VBox/BtnToggleUIMargin"]
+layout_mode = 2
+custom_minimum_size = Vector2(0, 64)
+text = "Ocultar Interfaz"
+theme_override_font_sizes/font_size = 24
+
+[connection signal="pressed" from="VBox/Header/MarginHeader/HBoxHeader/BtnExit" to="." method="_on_btn_exit_pressed"]

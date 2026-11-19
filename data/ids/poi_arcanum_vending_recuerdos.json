@@ -1,0 +1,26 @@
+{
+    "id": "poi_arcanum_vending_recuerdos",
+    "type": "poi",
+    "icon": "🥤",
+    "name": {
+        "es": "La Expendedora de Recuerdos",
+        "en": "The Memory Vending Machine",
+        "fr": "Le Distributeur de Souvenirs",
+        "it": "Il Distributore di Ricordi",
+        "de": "Der Erinnerungsautomat",
+        "zh": "记忆自动贩卖机",
+        "ja": "記憶の自動販売機"
+    },
+    "desc": {
+        "es": "Una máquina expendedora que, en vez de refrescos, dispensa recuerdos embotellados de desconocidos. Algunos, en oferta. (PNJ singular).",
+        "en": "A vending machine that, instead of sodas, dispenses bottled memories of strangers. Some on sale. (Singular NPC).",
+        "fr": "Un distributeur automatique qui, au lieu de sodas, distribue des souvenirs embouteillés d'inconnus. Certains en promotion. (PNJ singulier).",
+        "it": "Un distributore automatico che, invece di bibite, eroga ricordi imbottigliati di sconosciuti. Alcuni in offerta. (PNG singolare).",
+        "de": "Ein Verkaufsautomat, der statt Limonade abgefüllte Erinnerungen von Fremden ausgibt. Manche im Angebot. (Einzigartiger NPC).",
+        "zh": "一台不卖汽水、只贩卖陌生人瓶装记忆的自动售货机。有些还在打折。（唯一NPC）。",
+        "ja": "炭酸飲料の代わりに、見知らぬ人々の瓶詰めの記憶を売る自動販売機。中にはセール中のものも。（唯一のNPC）。"
+    },
+    "npc": "poi_arcanum_vending_recuerdos",
+    "bg": "bg_world_poi_arcanum_vending_recuerdos.png",
+    "music": "poi_generic"
+}

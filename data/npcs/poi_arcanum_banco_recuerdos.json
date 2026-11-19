@@ -1,0 +1,116 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Banco de la Plaza",
+            "en": "The Plaza Bench",
+            "fr": "Le Banc de la Place",
+            "it": "La Panchina della Piazza",
+            "de": "Die Platzbank",
+            "zh": "广场长椅",
+            "ja": "広場のベンチ"
+        },
+        "next": [],
+        "reward": "bg=0.06,0.06,0.08"
+    },
+    "banco_root": {
+        "type": "message",
+        "text": {
+            "es": "Entre los escombros de una plaza en ruinas sobrevive, intacto, un sencillo banco de parque de madera y hierro. A su alrededor, todo está destruido; él, en cambio, parece esperar limpio y cuidado, como si alguien lo barriera cada mañana. Una placa atornillada al respaldo dice: 'Para descansar y recordar los días buenos.' Del asiento emana una calidez imposible en este páramo helado y tóxico.",
+            "en": "Among the rubble of a ruined plaza survives, intact, a simple park bench of wood and iron. All around it, everything is destroyed; it, by contrast, seems to wait clean and cared for, as if someone swept it every morning. A plaque bolted to the backrest reads: 'To rest and remember the good days.' From the seat emanates a warmth impossible in this frozen, toxic wasteland.",
+            "fr": "Parmi les décombres d'une place en ruines survit, intact, un simple banc de parc en bois et fer. Tout autour, tout est détruit ; lui, en revanche, semble attendre propre et entretenu, comme si quelqu'un le balayait chaque matin. Une plaque vissée au dossier dit : « Pour se reposer et se souvenir des bons jours. » Du siège émane une chaleur impossible dans ce désert gelé et toxique.",
+            "it": "Tra le macerie di una piazza in rovina sopravvive, intatta, una semplice panchina di legno e ferro. Tutt'intorno tutto è distrutto; essa, invece, sembra attendere pulita e curata, come se qualcuno la spazzasse ogni mattina. Una targa avvitata allo schienale recita: 'Per riposare e ricordare i giorni belli.' Dal sedile emana un calore impossibile in questa landa gelida e tossica.",
+            "de": "Zwischen den Trümmern eines zerstörten Platzes überlebt, unversehrt, eine schlichte Parkbank aus Holz und Eisen. Ringsum ist alles zerstört; sie hingegen scheint sauber und gepflegt zu warten, als würde sie jemand jeden Morgen fegen. Eine an der Lehne angeschraubte Tafel besagt: „Zum Ausruhen und um sich an die guten Tage zu erinnern.“ Vom Sitz geht eine Wärme aus, die in dieser eisigen, giftigen Ödnis unmöglich erscheint.",
+            "zh": "在一座废墟广场的瓦砾之中，一张简朴的木铁长椅完好无损地幸存下来。周围的一切都已被摧毁；而它却显得洁净而有人照料，仿佛每天清晨都有人打扫。靠背上拧着一块牌匾，写着：「供人歇息，追忆美好的往昔。」座椅散发出一种在这片冰冻而有毒的荒原中不该存在的暖意。",
+            "ja": "廃墟と化した広場の瓦礫の中に、無傷のまま木と鉄でできた素朴な公園のベンチが残っている。周囲はすべて破壊されているのに、それだけは毎朝誰かが掃除しているかのように、清潔で手入れが行き届いているように見える。背もたれにねじ止めされた銘板にはこうある：「休息し、良き日々を思い出すために」。座席からは、この凍りついた有毒な荒野にはあり得ない温かさが漂っている。"
+        },
+        "next": [
+            "banco_opt_sentarse",
+            "banco_opt_placa",
+            "banco_opt_salir"
+        ],
+        "reward": ""
+    },
+    "banco_opt_sentarse": {
+        "type": "option",
+        "text": {
+            "es": "🪑  Sentarte en el banco y cerrar los ojos",
+            "en": "🪑  Sit on the bench and close your eyes",
+            "fr": "🪑  S'asseoir sur le banc et fermer les yeux",
+            "it": "🪑  Sedersi sulla panchina e chiudere gli occhi",
+            "de": "🪑  Sich auf die Bank setzen und die Augen schließen",
+            "zh": "🪑  坐在长椅上，闭上双眼",
+            "ja": "🪑  ベンチに座り目を閉じる"
+        },
+        "next": [
+            "banco_msg_sentarse"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "banco_msg_sentarse": {
+        "type": "message",
+        "text": {
+            "es": "Te sientas y cierras los ojos. Al instante, las ruinas se desvanecen y el sonido cambia: pájaros, hojas, el murmullo de una fuente. Oyes a una niña reír muy cerca —'¡otra vez, papá, empújame más fuerte!'— y una voz de hombre, cálida y cansada, que responde 'la última, cariño, que mamá nos espera para cenar'. Notas incluso el peso fantasma de una manita agarrándote el dedo. Abres los ojos y las ruinas regresan de golpe. Estás llorando, y por primera vez no es de miedo, sino de una nostalgia que reconoces sin poder ubicar.",
+            "en": "You sit and close your eyes. At once the ruins vanish and the sound changes: birds, leaves, the murmur of a fountain. You hear a little girl laughing very close — 'again, daddy, push me higher!' — and a man's voice, warm and tired, answering 'last one, sweetheart, mommy's waiting for us for dinner'. You even feel the phantom weight of a tiny hand gripping your finger. You open your eyes and the ruins rush back. You are crying, and for the first time it isn't from fear, but from a nostalgia you recognize without being able to place.",
+            "fr": "Tu t'assois et fermes les yeux. Aussitôt, les ruines s'évanouissent et le son change : des oiseaux, des feuilles, le murmure d'une fontaine. Tu entends une petite fille rire tout près — « encore, papa, pousse-moi plus fort ! » — et une voix d'homme, chaude et fatiguée, qui répond « la dernière, ma chérie, maman nous attend pour dîner ». Tu sens même le poids fantôme d'une petite main agrippant ton doigt. Tu ouvres les yeux et les ruines reviennent d'un coup. Tu pleures, et pour la première fois ce n'est pas de peur, mais d'une nostalgie que tu reconnais sans pouvoir la situer.",
+            "it": "Ti siedi e chiudi gli occhi. All'istante, le rovine svaniscono e il suono cambia: uccelli, foglie, il mormorio di una fontana. Senti una bambina ridere molto vicino — 'ancora, papà, spingimi più forte!' — e una voce d'uomo, calda e stanca, che risponde 'l'ultima, tesoro, che la mamma ci aspetta per cena'. Percepisci persino il peso fantasma di una manina che ti afferra il dito. Apri gli occhi e le rovine tornano di colpo. Stai piangendo, e per la prima volta non è per paura, ma per una nostalgia che riconosci senza riuscire a collocarla.",
+            "de": "Du setzt dich und schließt die Augen. Sofort verschwinden die Ruinen und der Klang ändert sich: Vögel, Blätter, das Murmeln eines Brunnens. Du hörst ganz in der Nähe ein kleines Mädchen lachen — „nochmal, Papa, schieb mich fester!“ — und eine Männerstimme, warm und müde, die antwortet „das letzte Mal, Schatz, Mama wartet mit dem Abendessen auf uns“. Du spürst sogar das geisterhafte Gewicht einer winzigen Hand, die deinen Finger umklammert. Du öffnest die Augen und die Ruinen kehren schlagartig zurück. Du weinst, und zum ersten Mal ist es nicht aus Angst, sondern aus einer Nostalgie, die du erkennst, ohne sie einordnen zu können.",
+            "zh": "你坐下，闭上眼睛。刹那间，废墟消失了，声音也变了：鸟鸣、树叶沙沙声，还有喷泉的潺潺水声。你听见一个小女孩在很近的地方笑着——「再来一次，爸爸，推得更用力点！」——还有一个男人温暖而疲惫的声音回答道：「这是最后一次了，宝贝，妈妈还等着我们回去吃晚饭呢。」你甚至能感觉到一只小手抓着你手指的幻影般的重量。你睁开眼睛，废墟猛地涌回。你在哭泣，但这是第一次，那不是出于恐惧，而是一种你能辨认却说不清来处的乡愁。",
+            "ja": "腰を下ろし、目を閉じる。たちまち廃墟は消え去り、音が変わる——鳥の声、木の葉のざわめき、噴水のせせらぎ。すぐ近くで小さな女の子が笑う声が聞こえる——「もう一回、パパ、もっと強く押して！」——そして温かく疲れた男の声が答える。「これで最後だよ、ママが夕食を用意して待ってるからね」。指を握る小さな手の幻の重みさえ感じる。目を開けると、廃墟が一気に戻ってくる。お前は泣いている。だが初めて、それは恐怖からではなく、どこか分からないが確かに覚えのある郷愁からだ。"
+        },
+        "next": [
+            "banco_opt_salir"
+        ],
+        "reward": "faceta:cordura=-1;faceta:bondad=+1;gflag:banco_sentado"
+    },
+    "banco_opt_placa": {
+        "type": "option",
+        "text": {
+            "es": "🪧  Buscar quién mandó poner el banco y su placa",
+            "en": "🪧  Look for who had the bench and its plaque placed",
+            "fr": "🪧  Chercher qui a fait installer le banc et sa plaque",
+            "it": "🪧  Cercare chi fece mettere la panchina e la sua targa",
+            "de": "🪧  Herausfinden, wer die Bank und ihre Tafel aufstellen ließ",
+            "zh": "🪧  查明是谁下令设立这张长椅和牌匾",
+            "ja": "🪧  誰がこのベンチと銘板を設置させたのか調べる"
+        },
+        "next": [
+            "banco_msg_placa"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "banco_msg_placa": {
+        "type": "message",
+        "text": {
+            "es": "Rascas bajo la placa principal y encuentras una segunda, más pequeña, medio oculta: 'Aquí traía a mi hija los domingos. Cuando ya no pude traerla, mandé que este banco recordara por mí lo que yo no soportaba recordar solo. Si te sientas y las oyes reír, cuídalas un ratito por mí. — A.' Una sola inicial. La acaricias con el pulgar, y algo muy hondo en ti reconoce esa letra como propia sin saber por qué.",
+            "en": "You scrape beneath the main plaque and find a second, smaller one, half hidden: 'I used to bring my daughter here on Sundays. When I could no longer bring her, I had this bench remember for me what I couldn't bear to remember alone. If you sit and hear them laugh, look after them a little while for me. — A.' A single initial. You brush it with your thumb, and something very deep in you recognizes that letter as your own without knowing why.",
+            "fr": "Tu grattes sous la plaque principale et trouves une seconde, plus petite, à demi cachée : « J'amenais ma fille ici le dimanche. Quand je ne pus plus l'amener, j'ai fait en sorte que ce banc se souvienne pour moi de ce que je ne pouvais supporter de me rappeler seul. Si tu t'assois et les entends rire, veille sur elles un moment pour moi. — A. » Une seule initiale. Tu la caresses du pouce, et quelque chose de très profond en toi reconnaît cette lettre comme la sienne, sans savoir pourquoi.",
+            "it": "Raschi sotto la targa principale e trovi una seconda, più piccola, mezza nascosta: 'Portavo qui mia figlia la domenica. Quando non potei più portarla, feci sì che questa panchina ricordasse per me ciò che non sopportavo di ricordare da solo. Se ti siedi e le senti ridere, veglia su di loro un momento per me. — A.' Una sola iniziale. La accarezzi con il pollice, e qualcosa di molto profondo in te riconosce quella lettera come propria senza sapere perché.",
+            "de": "Du kratzt unter der Haupttafel und findest eine zweite, kleinere, halb verborgene: „Ich brachte meine Tochter sonntags hierher. Als ich sie nicht mehr mitbringen konnte, ließ ich diese Bank für mich erinnern, was ich nicht allein zu ertragen vermochte. Wenn du dich hinsetzt und sie lachen hörst, pass ein wenig auf sie auf, für mich. — A.“ Eine einzige Initiale. Du streichst mit dem Daumen darüber, und etwas sehr Tiefes in dir erkennt diesen Buchstaben als seinen eigenen, ohne zu wissen warum.",
+            "zh": "你刮开主牌匾下方，发现了第二块更小、半藏着的牌子：「我以前每个星期天都带女儿来这里。当我再也无法带她来时，我让这张长椅替我记住那些我一个人无法承受去回忆的事。如果你坐下听见她们的笑声，请替我照看她们一会儿。——A。」只有一个首字母。你用拇指抚摸着它，内心深处某种东西不知为何认出了这个字母属于自己。",
+            "ja": "主銘板の下を削ると、半ば隠れたもう一つの小さな銘板が見つかる。「日曜日にはいつも娘をここに連れてきていた。もう連れてこられなくなった時、一人では耐えられない記憶をこのベンチに代わりに覚えていてもらうことにした。もし座って彼女たちの笑い声が聞こえたら、少しの間、私の代わりに見守ってやってくれ。——A」。たった一つのイニシャル。親指でそれをなぞると、なぜか分からないが、心の奥深くで何かがその文字を自分のものだと認識する。"
+        },
+        "next": [
+            "banco_opt_salir"
+        ],
+        "reward": "faceta:cordura=-1"
+    },
+    "banco_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Levantarte y dejar el banco esperando",
+            "en": "🚶  Rise and leave the bench waiting",
+            "fr": "🚶  Se lever et laisser le banc attendre",
+            "it": "🚶  Alzarti e lasciare la panchina in attesa",
+            "de": "🚶  Aufstehen und die Bank weiter warten lassen",
+            "zh": "🚶  站起身，让长椅继续等待",
+            "ja": "🚶  立ち上がり、ベンチを待たせたままにする"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "label": "Cofre con Botín",
+    "icon": "🧰",
+    "scale": 0.8,
+    "y_offset": 0.0,
+    "description": "Un cofre con tesoros y recompensas en el mapamundi.",
+    "model_path": "cofre"
+}

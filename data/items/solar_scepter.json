@@ -1,0 +1,47 @@
+{
+    "name": {
+        "es": "Cetro Solar",
+        "en": "Solar Scepter",
+        "fr": "Sceptre Solaire",
+        "it": "Scettro Solare",
+        "de": "Sonnenzepter",
+        "zh": "太阳权杖",
+        "ja": "ソーラーセプター"
+    },
+    "desc": {
+        "es": "Cetro coronado con un fragmento de roca solar viva.",
+        "en": "Scepter topped with a fragment of living solar rock.",
+        "fr": "Sceptre couronné d'un fragment de roche solaire vivante.",
+        "it": "Scettro coronato con un frammento di roccia solare vivente.",
+        "de": "Zepter, gekrönt mit einem Fragment lebendigen Sonnengesteins.",
+        "zh": "顶端镶有活体太阳岩碎片的权杖。",
+        "ja": "生きた太陽石の欠片を頂いた笏。"
+    },
+    "icon": "🪄",
+    "category": "equipment",
+    "usable": false,
+    "slot": "weapon",
+    "tier": 5,
+    "element": "fire",
+    "bonuses": {
+        "int": 18,
+        "vit": 6
+    },
+    "combat": {
+        "mag_damage": 162
+    },
+    "traits": [
+        {
+            "type": "element_attack",
+            "element": "fire",
+            "min_refine": 0,
+            "desc": "Hechizos imbuidos en Fuego"
+        },
+        {
+            "type": "fire_damage_bonus",
+            "value": 0.25,
+            "min_refine": 5,
+            "desc": "+25% Daño de habilidades de Fuego"
+        }
+    ]
+}

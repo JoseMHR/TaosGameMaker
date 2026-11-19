@@ -1,0 +1,32 @@
+{
+    "id": "poi_celestia_board",
+    "type": "poi",
+    "name": {
+        "es": "Tablón de Encargos",
+        "en": "Request Board",
+        "fr": "Tableau des Commandes",
+        "it": "Bacheca degli Incarichi",
+        "de": "Auftragsbrett",
+        "zh": "委托布告栏",
+        "ja": "依頼掲示板"
+    },
+    "icon": "📋",
+    "desc": {
+        "es": "Encargos de Celestia",
+        "en": "Celestia requests",
+        "fr": "Commandes de Celestia",
+        "it": "Incarichi di Celestia",
+        "de": "Aufträge von Celestia",
+        "zh": "塞莱斯提亚的委托任务",
+        "ja": "セレスティアの依頼"
+    },
+    "kind": "board",
+    "presences": [
+        {
+            "condition": "default",
+            "actor": "poi_celestia_board",
+            "entry_node": ""
+        }
+    ],
+    "bg": "bg_city_celestia_board.png"
+}

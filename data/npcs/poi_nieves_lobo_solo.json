@@ -1,0 +1,167 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Lobo que Perdió su Manada",
+            "en": "The Wolf That Lost Its Pack",
+            "fr": "Le Loup qui a Perdu sa Meute",
+            "it": "Il Lupo che Perse il suo Branco",
+            "de": "Der Wolf, der sein Rudel Verlor",
+            "zh": "失去族群的孤狼",
+            "ja": "群れを失った狼"
+        },
+        "next": [],
+        "reward": "avatar=🐺;bg=0.10,0.12,0.15"
+    },
+    "lobo_root": {
+        "type": "message",
+        "text": {
+            "es": "Un lobo enorme, de pelaje blanco manchado de sangre seca, yace en un hueco de la nieve. Tiene una pata trasera destrozada por lo que parece un cepo. No gruñe cuando te acercas; ni siquiera se levanta. Solo te sigue con la mirada, jadeando despacio, resignado. Alrededor, medio enterradas, hay huellas de toda una manada que se marchó sin él hace días. En el hielo, sus propios intentos de arrastrarse tras ellos, cada vez más cortos.",
+            "en": "A huge wolf, its white coat stained with dried blood, lies in a hollow in the snow. One hind leg is mangled by what looks like a trap. It doesn't growl as you approach; it doesn't even rise. It only follows you with its gaze, panting slowly, resigned. Around it, half-buried, are the tracks of a whole pack that left without it days ago. In the ice, its own attempts to drag itself after them, shorter and shorter each time.",
+            "fr": "Un loup énorme, au pelage blanc taché de sang séché, est allongé dans un creux de la neige. Une de ses pattes arrière est déchirée par ce qui semble être un piège. Il ne grogne pas quand tu approches ; il ne se lève même pas. Il te suit seulement du regard, respirant lentement, résigné. Autour de lui, à moitié enterrées, il y a les traces de toute une meute qui l'a quitté il y a des jours. Sur la glace, ses propres tentatives de se traîner derrière eux, de plus en plus courtes.",
+            "it": "Un lupo enorme, con il pelo bianco macchiato di sangue secco, giace in un avvallamento nella neve. Una zampa posteriore è dilaniata da quello che sembra un cepo. Non ringhia quando ti avvicini; non si alza nemmeno. Ti segue solo con lo sguardo, respirando lentamente, rassegnato. Attorno a lui, mezzo sepolte, ci sono le impronte di un intero branco che se ne andò senza di lui giorni prima. Sul ghiaccio, i suoi stessi tentativi di trascinarsi dietro di loro, sempre più corti.",
+            "de": "Ein riesiger Wolf mit weißem, mit trockenem Blut befleckten Fell liegt in einer Vertiefung im Schnee. Ein Hinterbein ist von etwas verstümmelt, das wie eine Falle aussieht. Er knurrt nicht, als du dich näherst; er erhebt sich nicht einmal. Er folgt dir nur mit den Augen, langsam atmend, resigniert. Um ihn herum, halb vergraben, sind die Spuren eines ganzen Rudels, das ihn vor Tagen ohne ihn verließ. Im Eis seine eigenen Versuche, sich hinter ihnen herzuschleppen, jedes Mal kürzer.",
+            "zh": "一只巨大的狼，白色的毛皮上沾着干涸的血迹，躺在雪地的一处凹陷中。它的一条后腿被一个看起来像陷阱的东西撕裂了。当你靠近时，它没有咆哮；甚至没有站起来。它只是用目光跟随着你，缓慢地喘息着，一副听天由命的样子。它周围，半埋在雪中的，是几天前抛弃了它离去的整个族群的脚印。冰面上，是它自己尝试跟随它们爬行的痕迹，一次比一次短。",
+            "ja": "白い毛皮に乾いた血の跡がついた巨大な狼が、雪の窪みに横たわっている。片方の後ろ足は、罠のようなものによって傷つけられている。お前が近づいても唸らない。立ち上がろうともしない。ただ視線でお前を追い、ゆっくりと諦めたように呼吸している。周囲には、数日前に彼を置いて去った群れ全体の足跡が半分雪に埋もれている。氷の上には、彼ら自身が後を追おうとした跡が、次第に短くなりながら残っている。"
+        },
+        "next": [
+            "lobo_opt_curar",
+            "lobo_opt_alimentar",
+            "lobo_opt_rematar",
+            "lobo_opt_alejar"
+        ],
+        "reward": ""
+    },
+    "lobo_opt_curar": {
+        "type": "option",
+        "text": {
+            "es": "🩹  Arriesgarte a acercarte y liberarle la pata del cepo, aunque muerda",
+            "en": "🩹  Risk approaching and free its leg from the trap, even if it bites",
+            "fr": "🩹  Prendre le risque de t'approcher et de libérer sa patte du piège, même s'il mord",
+            "it": "🩹  Rischiare di avvicinarti e liberargli la zampa dal cepo, anche se morde",
+            "de": "🩹  Das Risiko eingehen, dich zu nähern und sein Bein aus der Falle zu befreien, auch wenn er beißt",
+            "zh": "🩹  冒险靠近，把它的腿从陷阱中解救出来，即便它可能会咬你",
+            "ja": "🩹  噛まれるリスクを負って近づき、罠から足を解放する"
+        },
+        "next": [
+            "lobo_msg_curar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "lobo_msg_curar": {
+        "type": "message",
+        "text": {
+            "es": "Te acercas muy despacio, hablándole bajito. El lobo tensa el cuerpo, enseña los dientes... y te deja hacer. Fuerzas el cepo oxidado hasta abrirlo y liberas la pata, en carne viva pero entera. La bestia se incorpora tambaleándose, te olfatea la mano —podría arrancártela— y en cambio te lame los dedos una sola vez. Luego cojea hacia el norte, siguiendo las huellas de su manada, con una posibilidad que hace un momento no tenía. Antes de perderse en la ventisca, se gira y aúlla una vez: por ti. Acercarse a unos colmillos por compasión no es poca cosa.",
+            "en": "You approach very slowly, speaking softly. The wolf tenses, bares its teeth... and lets you work. You pry the rusted trap open and free the leg, raw but whole. The beast staggers upright, sniffs your hand —it could tear it off— and instead licks your fingers just once. Then it limps north, following its pack's tracks, with a chance it didn't have a moment ago. Before it vanishes into the blizzard, it turns and howls once: for you. Reaching toward fangs out of compassion is no small thing.",
+            "fr": "Tu t'approches très lentement, lui parlant à voix basse. Le loup tend son corps, montre les dents... et te laisse faire. Tu forces le piège rouillé jusqu'à l'ouvrir et libères la patte, à vif mais entière. La bête se redresse en chancelant, sent ta main —elle pourrait te l'arracher— et à la place te lèche les doigts une seule fois. Puis elle boite vers le nord, suivant les traces de sa meute, avec une chance qu'elle n'avait pas un instant auparavant. Avant de disparaître dans la tempête, elle se tourne et hurle une fois : pour toi. S'approcher de crocs par compassion n'est pas peu de chose.",
+            "it": "Ti avvicini molto lentamente, parlandogli piano. Il lupo tende il corpo, mostra i denti... e ti lascia fare. Forzi il cepo arrugginito finché non si apre e liberi la zampa, viva ma intera. La bestia si rialza vacillando, ti annusa la mano —potrebbe strappartela— e invece ti lecca le dita una sola volta. Poi zoppica verso nord, seguendo le impronte del suo branco, con una possibilità che un momento fa non aveva. Prima di perdersi nella bufera, si gira e ulula una volta: per te. Avvicinarsi a delle zanne per compassione non è poca cosa.",
+            "de": "Du näherst dich sehr langsam und sprichst leise zu ihm. Der Wolf spannt seinen Körper, zeigt die Zähne... und lässt dich weitermachen. Du zwingst die verrostete Falle auf und befreist das Bein, blutig, aber unversehrt. Die Bestie richtet sich taumelnd auf, beschnuppert deine Hand —sie könnte sie dir abreißen— und leckt statt dessen einmal deine Finger. Dann hinkt sie nach Norden, den Spuren ihres Rudels folgend, mit einer Chance, die sie einen Moment zuvor nicht hatte. Bevor sie sich im Schneesturm verliert, dreht sie sich um und heult einmal: für dich. Sich aus Mitgefühl an Fänge heranzuwagen ist keine Kleinigkeit.",
+            "zh": "你非常缓慢地靠近，低声对它说话。狼绷紧了身体，露出了牙齿……但让你继续下去。你用力打开那生锈的陷阱，解救出它的腿，皮肉外露却完整无缺。这头野兽摇晃着站起来，嗅了嗅你的手——它本可以撕断你的手——却反而只舔了一下你的手指。然后它一瘸一拐地朝北方走去，跟随着它族群的脚印，怀着片刻之前它还没有的一份机会。在消失于暴风雪之前，它转过身来，为你嗥叫了一声。出于怜悯而靠近利齿，绝非小事。",
+            "ja": "非常にゆっくりと近づき、静かに話しかける。狼は体を緊張させ、歯をむき出しにする……そしてお前にさせる。錆びた罠を力ずくで開き、足を解放する——生々しいが、なくなってはいない。獣はふらつきながら立ち上がり、お前の手を嗅ぐ——引きちぎることもできたのに——代わりに一度だけ指を舐める。それから北へ向かって足を引きながら歩き、群れの足跡を追う。少し前まではなかった可能性を手に。吹雪の中に消える前に、振り返って一度だけ吠える——お前のために。牙に慈悲で近づくことは、小さなことではない。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:bondad=+1;faceta:valor=+1"
+    },
+    "lobo_opt_alimentar": {
+        "type": "option",
+        "text": {
+            "es": "🥩  No atreverte a tocarlo, pero dejarle comida y agua al alcance",
+            "en": "🥩  Not dare to touch it, but leave food and water within its reach",
+            "fr": "🥩  Ne pas oser le toucher, mais lui laisser de la nourriture et de l'eau à portée",
+            "it": "🥩  Non osare toccarlo, ma lasciargli cibo e acqua a portata",
+            "de": "🥩  Ihn nicht anzufassen wagen, aber Nahrung und Wasser in seiner Reichweite lassen",
+            "zh": "🥩  不敢触碰它，但把食物和水留在它能触及的范围内",
+            "ja": "🥩  触れる勇気はないが、手の届く範囲に食料と水を置く"
+        },
+        "next": [
+            "lobo_msg_alimentar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "lobo_msg_alimentar": {
+        "type": "message",
+        "text": {
+            "es": "No te fías de acercarte a esos colmillos, pero tampoco puedes dejarlo morir sin más. Le lanzas desde una distancia prudente todo lo que puedes: carne, un poco de nieve derretida en tu odre. El lobo come con ansia, sin quitarte el ojo de encima. No le has quitado el cepo, así que su suerte sigue en el aire, pero le has comprado unos días y, quizá, la fuerza para liberarse solo. Un gesto de bondad a medias sigue siendo bondad.",
+            "en": "You don't trust yourself near those fangs, but you can't just leave it to die either. From a safe distance you toss it all you can: meat, a little snow melted in your waterskin. The wolf eats ravenously, never taking its eyes off you. You haven't removed the trap, so its fate is still uncertain, but you've bought it a few days and, perhaps, the strength to free itself. A half-measure of kindness is still kindness.",
+            "fr": "Tu n'as pas confiance pour t'approcher de ces crocs, mais tu ne peux pas non plus le laisser mourir sans rien faire. Depuis une distance prudente, tu lui lances tout ce que tu peux : de la viande, un peu de neige fondue dans ton outre. Le loup mange avec avidité, sans te quitter des yeux. Tu ne lui as pas retiré le piège, donc son destin reste incertain, mais tu lui as acheté quelques jours et, peut-être, la force de se libérer seul. Un geste de bonté à moitié fait reste de la bonté.",
+            "it": "Non ti fidi ad avvicinarti a quelle zanne, ma non puoi nemmeno lasciarlo morire senza fare nulla. Da una distanza prudente gli lanci tutto quello che puoi: carne, un po' di neve sciolta nel tuo otre. Il lupo mangia con ansia, senza mai togliere gli occhi da te. Non gli hai tolto il cepo, quindi il suo destino resta incerto, ma gli hai comprato qualche giorno e, forse, la forza di liberarsi da solo. Un gesto di bontà a metà resta comunque bontà.",
+            "de": "Du traust dich nicht, dich diesen Fängen zu nähern, aber du kannst ihn auch nicht einfach sterben lassen. Aus sicherer Entfernung wirfst du ihm alles zu, was du kannst: Fleisch, etwas geschmolzenen Schnee aus deinem Wasserschlauch. Der Wolf frisst gierig, ohne dich aus den Augen zu lassen. Du hast die Falle nicht entfernt, also bleibt sein Schicksal ungewiss, aber du hast ihm ein paar Tage erkauft und vielleicht die Kraft, sich selbst zu befreien. Eine halbe Geste der Güte bleibt trotzdem Güte.",
+            "zh": "你不敢靠近那些利齿，但你也不能就这样眼看着它死去。你从一个安全的距离扔给它所有你能给的东西：肉，还有你水袋里融化的一点雪水。狼贪婪地吃着，眼睛始终没有离开你。你没有取下那个陷阱，所以它的命运依然不确定，但你为它争取到了几天的时间，也许，还有让它自己获得自由的力气。一半的善意，仍然是善意。",
+            "ja": "その牙に近づく勇気はないが、何もせずに死なせることもできない。安全な距離から、できる限りのものを投げてやる——肉、水筒で溶かした少しの雪。狼は貪るように食べ、お前から目を離さない。罠は取り除いていないので、その運命は依然として不確かだが、数日の時間を、そしておそらく自分で脱出する力を与えた。半分だけの優しさの仕草も、やはり優しさなのだ。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:bondad=+1"
+    },
+    "lobo_opt_rematar": {
+        "type": "option",
+        "text": {
+            "es": "🗡️  Está sufriendo sin remedio: darle una muerte rápida y piadosa",
+            "en": "🗡️  It's suffering hopelessly: give it a quick, merciful death",
+            "fr": "🗡️  Il souffre sans espoir de guérison : lui offrir une mort rapide et clémente",
+            "it": "🗡️  Sta soffrendo senza rimedio: dargli una morte rapida e pietosa",
+            "de": "🗡️  Er leidet ohne Aussicht auf Heilung: ihm einen schnellen, gnädigen Tod geben",
+            "zh": "🗡️  它正无望地痛苦着：给它一个快速而慈悲的死亡",
+            "ja": "🗡️  救いようのない苦しみだ：速やかで慈悲深い死を与える"
+        },
+        "next": [
+            "lobo_msg_rematar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "lobo_msg_rematar": {
+        "type": "message",
+        "text": {
+            "es": "Desenvainas y te arrodillas a su lado. El lobo no se resiste; parece entenderlo. Le apoyas la mano en la cabeza un instante y haces lo que hay que hacer, rápido y limpio. Muere sin un gemido, con los ojos vueltos hacia el norte, hacia donde se fue su manada. Le cubres el cuerpo con nieve. No sabes si has cometido una crueldad o el único acto de misericordia posible; a veces la línea entre ambas cosas es tan fina como el filo que llevas.",
+            "en": "You draw your blade and kneel beside it. The wolf doesn't resist; it seems to understand. You rest your hand on its head for an instant and do what must be done, quick and clean. It dies without a whimper, eyes turned north, toward where its pack went. You cover the body with snow. You don't know whether you've committed a cruelty or the only mercy possible; sometimes the line between the two is as thin as the edge you carry.",
+            "fr": "Tu dégaines et t'agenouilles à ses côtés. Le loup ne résiste pas ; il semble comprendre. Tu poses ta main sur sa tête un instant et fais ce qui doit être fait, vite et proprement. Il meurt sans gémir, les yeux tournés vers le nord, vers là où sa meute est partie. Tu couvres son corps de neige. Tu ne sais pas si tu as commis une cruauté ou l'unique acte de miséricorde possible ; parfois la ligne entre les deux est aussi fine que le tranchant que tu portes.",
+            "it": "Sfoderi e ti inginocchi al suo fianco. Il lupo non resiste; sembra capirlo. Gli appoggi la mano sulla testa per un istante e fai ciò che deve essere fatto, rapido e limpido. Muore senza un gemito, con gli occhi rivolti a nord, verso dove è andato il suo branco. Gli coprii il corpo di neve. Non sai se hai commesso una crudeltà o l'unico atto di misericordia possibile; a volte la linea tra le due cose è sottile come il filo che porti.",
+            "de": "Du ziehst deine Klinge und kniest an seiner Seite nieder. Der Wolf leistet keinen Widerstand; er scheint es zu verstehen. Du legst deine Hand einen Moment auf seinen Kopf und tust, was getan werden muss, schnell und saubere. Er stirbt ohne ein Winseln, die Augen nach Norden gewandt, wohin sein Rudel ging. Du bedeckst den Körper mit Schnee. Du weißt nicht, ob du eine Grausamkeit begangen hast oder den einzig möglichen Akt der Gnade; manchmal ist die Grenze zwischen beidem so dünn wie die Klinge, die du trägst.",
+            "zh": "你拔出武器，跪在它身旁。狼没有抵抗；它似乎明白了。你把手放在它头上片刻，做了必须做的事，迅速而干净。它没有一声呻吟地死去，双眼望向北方，望向它的族群离去的方向。你用雪覆盖了它的尸体。你不知道自己做的是一种残忍之举，还是唯一可能的慈悲之举；有时两者之间的界限就如你手中的刀刃一样薄。",
+            "ja": "剣を抜き、その傍らに膝をつく。狼は抵抗しない、理解しているようだ。頭に一瞬手を置き、速やかに、清らかにやるべきことをする。うめき声も出さずに死んでいく。目は北を、群れが去った方向を向いている。雪でその体を覆う。残酷な行為をしたのか、可能な唯一の慈悲の行為をしたのか分からない。時にその境界は、お前が持つ刃と同じくらい薄いものなのだ。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:cordura=-1"
+    },
+    "lobo_opt_alejar": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Es un depredador salvaje. Alejarte despacio y dejarlo a su suerte",
+            "en": "🚶  It's a wild predator. Back away slowly and leave it to its fate",
+            "fr": "🚶  C'est un prédateur sauvage. Reculer lentement et le laisser à son sort",
+            "it": "🚶  È un predatore selvaggio. Allontanarti lentamente e lasciarlo al suo destino",
+            "de": "🚶  Es ist ein wildes Raubtier. Sich langsam entfernen und es seinem Schicksal überlassen",
+            "zh": "🚶  这是一只野生的掠食者。慢慢退开，让它自己去面对命运",
+            "ja": "🚶  野生の捕食者だ。ゆっくりと後退し、運命に任せる"
+        },
+        "next": [
+            "lobo_msg_alejar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "lobo_msg_alejar": {
+        "type": "message",
+        "text": {
+            "es": "Retrocedes sin darle la espalda del todo, hasta que el hueco en la nieve queda lejos. Te repites que es una bestia salvaje, que te habría destrozado en buen estado, que no es asunto tuyo. Todo cierto. Y aun así, mientras te alejas, sus ojos siguen clavados en ti, y ese aullido corto y roto que suelta cuando ya no puedes verlo te acompaña un buen trecho. Dar media vuelta ante lo que sufre siempre es más fácil que quedarse.",
+            "en": "You back away without quite turning your back, until the hollow in the snow is far behind. You tell yourself it's a wild beast, that in good health it would have torn you apart, that it's none of your business. All true. And still, as you go, its eyes stay fixed on you, and that short, broken howl it lets out once you can no longer see it follows you a good while. Turning away from what suffers is always easier than staying.",
+            "fr": "Tu recules sans tout à fait lui tourner le dos, jusqu'à ce que le creux dans la neige soit loin derrière. Tu te répètes que c'est une bête sauvage, qu'en bonne santé elle t'aurait déchiqueté, que ce n'est pas ton affaire. Tout cela est vrai. Et pourtant, alors que tu t'éloignes, ses yeux restent fixés sur toi, et ce hurlement court et brisé qu'elle lâche une fois que tu ne peux plus la voir t'accompagne un bon moment. Tourner le dos à ce qui souffre est toujours plus facile que de rester.",
+            "it": "Indietreggi senza voltare del tutto le spalle, finché l'avvallamento nella neve non resta lontano. Ti ripeti che è una bestia selvaggia, che in buona salute ti avrebbe dilaniato, che non è affare tuo. Tutto vero. Eppure, mentre te ne vai, i suoi occhi restano fissi su di te, e quel ululato corto e rotto che emette quando ormai non puoi più vederlo ti accompagna per un bel tratto. Voltare le spalle a chi soffre è sempre più facile che restare.",
+            "de": "Du weichst zurück, ohne dich ganz umzudrehen, bis die Vertiefung im Schnee weit hinter dir liegt. Du sagst dir, dass es ein wildes Tier ist, dass es dich in gutem Zustand zerfleischt hätte, dass es nicht deine Angelegenheit ist. Alles wahr. Und doch, während du gehst, bleiben seine Augen auf dich gerichtet, und dieses kurze, gebrochene Heulen, das es ausstößt, als du es nicht mehr sehen kannst, begleitet dich noch eine gute Weile. Sich von dem, was leidet, abzuwenden, ist immer leichter als zu bleiben.",
+            "zh": "你后退着，没有完全转身，直到雪地里的那个凹陷远远落在身后。你反复告诉自己，这是一只野生的猛兽，健康状态下它会把你撕成碎片，这不是你的事。这一切都是真的。然而，在你离开的同时，它的目光始终盯着你，而当你再也看不见它时，它发出的那声短促而破碎的哀嗥，伴随了你好长一段路。对痛苦之物转身离去，总是比留下来更容易。",
+            "ja": "完全に背を向けずに後退し、雪の窪みが遠く後ろに離れるまで。それは野生の獣であり、健康であればお前を引き裂いていただろう、自分の関わることではないと自分に言い聞かせる。すべて本当のことだ。それでも、離れていく間、その目はお前に固定され続け、もう見えなくなった時に発する短く途切れた咆哮は、しばらくの間ついてくる。苦しむものから背を向けることは、留まることよりも常に簡単なのだ。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:valor=-1"
+    }
+}

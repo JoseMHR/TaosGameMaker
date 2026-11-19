@@ -1,0 +1,26 @@
+{
+    "id": "poi_arcanum_camara_seguridad",
+    "type": "poi",
+    "icon": "📹",
+    "name": {
+        "es": "La Cámara que lo Vio Todo",
+        "en": "The Camera That Saw Everything",
+        "fr": "La Caméra qui a Tout Vu",
+        "it": "La Telecamera che ha Visto Tutto",
+        "de": "Die Kamera, die Alles Sah",
+        "zh": "洞悉一切的摄像头",
+        "ja": "全てを見た監視カメラ"
+    },
+    "desc": {
+        "es": "Una cámara de vigilancia oxidada te sigue con el objetivo y narra en voz alta cosas que hiciste y que jamás le contaste a nadie. (PNJ singular).",
+        "en": "A rusted security camera tracks you with its lens and narrates aloud things you did and never told anyone. (Singular NPC).",
+        "fr": "Une caméra de surveillance rouillée te suit du regard et raconte à voix haute des choses que tu as faites et n'as jamais racontées à personne. (PNJ singulier).",
+        "it": "Una telecamera di sorveglianza arrugginita ti segue con l'obiettivo e narra ad alta voce cose che hai fatto e che non hai mai raccontato a nessuno. (PNG singolare).",
+        "de": "Eine verrostete Überwachungskamera verfolgt dich mit ihrem Objektiv und erzählt laut Dinge, die du getan und nie jemandem erzählt hast. (Einzigartiger NPC).",
+        "zh": "一台生锈的监控摄像头用镜头追踪着你，大声讲述你做过却从未告诉任何人的事情。（唯一NPC）。",
+        "ja": "錆びた監視カメラがレンズでお前を追いかけ、誰にも話したことのない過去の行いを大声で語る。（唯一のNPC）。"
+    },
+    "npc": "poi_arcanum_camara_seguridad",
+    "bg": "bg_world_poi_arcanum_camara_seguridad.png",
+    "music": "poi_generic"
+}

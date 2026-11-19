@@ -1,0 +1,169 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Espantapájaros Filósofo",
+            "en": "The Philosopher Scarecrow",
+            "fr": "L'Épouvantail Philosophe",
+            "it": "Lo Spaventapasseri Filosofo",
+            "de": "Die Philosophische Vogelscheuche",
+            "zh": "哲学家稻草人",
+            "ja": "哲学者かかし"
+        },
+        "next": [],
+        "reward": "bg=0.10,0.08,0.05"
+    },
+    "esp_done": {
+        "type": "message",
+        "text": {
+            "es": "El espantapájaros sigue clavado en su estaca, con la cabeza de saco ladeada. Un cuervo se ha posado en su hombro y ahora ambos te miran con el mismo silencio condescendiente. Crees oír, muy bajito, un '...ya lo hablamos'.",
+            "en": "The scarecrow still hangs on its stake, burlap head tilted. A crow has perched on its shoulder and now the two of them watch you with the same condescending silence. You think you hear, very faintly, a '...we already talked about this.'",
+            "fr": "L'épouvantail reste planté sur son pieu, la tête de sac penchée. Un corbeau s'est posé sur son épaule et tous deux te regardent maintenant avec le même silence condescendant. Tu crois entendre, très bas, un « ...on en a déjà parlé ».",
+            "it": "Lo spaventapasseri resta piantato sul suo palo, con la testa di sacco inclinata. Un corvo si è posato sulla sua spalla e ora entrambi ti guardano con lo stesso silenzio condiscendente. Credi di sentire, molto piano, un '...ne abbiamo già parlato'.",
+            "de": "Die Vogelscheuche steckt weiterhin auf ihrem Pfahl, den Sackkopf geneigt. Eine Krähe hat sich auf ihrer Schulter niedergelassen, und beide betrachten dich nun mit demselben herablassenden Schweigen. Du glaubst, ganz leise, ein „...darüber haben wir schon gesprochen“ zu hören.",
+            "zh": "稻草人依旧钉在木桩上，麻袋头歪向一边。一只乌鸦停在它的肩膀上，此刻两者用同样居高临下的沉默注视着你。你觉得自己隐约听见了一句极轻的「……我们已经谈过这个了」。",
+            "ja": "かかしは相変わらず杭に刺さり、麻袋の頭を傾けている。カラスがその肩にとまり、今は二人ともお前を同じ見下したような沈黙で見つめている。とても小さく「……もうその話はしただろう」という声が聞こえた気がする。"
+        },
+        "next": [
+            "esp_opt_salir"
+        ],
+        "reward": "",
+        "condition": "gflag(\"esp_debate_done\")"
+    },
+    "esp_root": {
+        "type": "message",
+        "text": {
+            "es": "El espantapájaros está torcido sobre un bancal reseco, con un brazo de palo señalando al horizonte y el otro caído como si hubiera renunciado a algo. Alguien le ha bordado en la boca de saco una sonrisa demasiado sabia. Cuando el viento le mueve la cabeza, juras que asiente a tus pensamientos antes de que los pienses.",
+            "en": "The scarecrow leans over a parched furrow, one stick arm pointing at the horizon and the other drooping as if it gave up on something. Someone stitched a far-too-wise smile onto its burlap mouth. When the wind nudges its head, you swear it nods along to your thoughts before you think them.",
+            "fr": "L'épouvantail est tordu sur un champ desséché, un bras de bâton pointant vers l'horizon et l'autre pendant comme s'il avait renoncé à quelque chose. Quelqu'un a brodé sur sa bouche de sac un sourire bien trop sage. Quand le vent lui bouge la tête, tu jurerais qu'il approuve tes pensées avant même que tu ne les penses.",
+            "it": "Lo spaventapasseri è storto su un campo riarso, con un braccio di legno che indica l'orizzonte e l'altro caduto come se avesse rinunciato a qualcosa. Qualcuno gli ha ricamato sulla bocca di sacco un sorriso troppo saggio. Quando il vento gli muove la testa, giureresti che annuisce ai tuoi pensieri prima che tu li pensi.",
+            "de": "Die Vogelscheuche steht schief auf einem ausgedörrten Feld, ein Stockarm zeigt zum Horizont, der andere hängt herab, als hätte er auf etwas verzichtet. Jemand hat auf ihren Sackmund ein viel zu weises Lächeln gestickt. Wenn der Wind ihren Kopf bewegt, würdest du schwören, sie nickt zu deinen Gedanken, bevor du sie überhaupt denkst.",
+            "zh": "这个稻草人歪斜地立在一片干枯的田地上，一条木棒手臂指向地平线，另一条则垂下，仿佛已经放弃了什么。有人在它的麻袋嘴上绣了一个过于睿智的微笑。当风吹动它的头时，你敢发誓，它在你想到之前就已经在赞同你的想法了。",
+            "ja": "かかしは干からびた畑に傾いて立ち、片方の棒の腕は地平線を指し、もう片方は何かを諦めたかのように垂れ下がっている。誰かがその麻袋の口に、あまりにも賢そうな笑みを刺繍した。風が頭を揺らすと、お前が考える前にその考えに頷いているように誓ってもいい。"
+        },
+        "next": [
+            "esp_opt_debate",
+            "esp_opt_sombrero",
+            "esp_opt_tirar",
+            "esp_opt_salir"
+        ],
+        "reward": ""
+    },
+    "esp_opt_debate": {
+        "type": "option",
+        "text": {
+            "es": "🗣️  Debatir con él el sentido de espantar",
+            "en": "🗣️  Debate the meaning of scaring with it",
+            "fr": "🗣️  Débattre avec lui du sens d'effrayer",
+            "it": "🗣️  Dibattere con lui il significato dello spaventare",
+            "de": "🗣️  Mit ihr über den Sinn des Erschreckens diskutieren",
+            "zh": "🗣️  和它辩论驱赶的意义",
+            "ja": "🗣️  脅かすことの意味について議論する"
+        },
+        "next": [
+            "esp_msg_debate"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "esp_msg_debate": {
+        "type": "message",
+        "text": {
+            "es": "Le planteas la paradoja: si su único propósito es asustar a los pájaros, ¿qué es cuando un pájaro se posa en él sin miedo? El viento silba entre la paja como una respuesta larga y pensativa. Y de pronto lo entiendes: el espantapájaros no fracasa al no asustar; simplemente ha decidido ofrecer sombra en lugar de miedo. Sales del bancal sintiéndote extrañamente más listo.",
+            "en": "You pose it the paradox: if its sole purpose is to scare birds, what is it when a bird lands on it unafraid? The wind whistles through the straw like a long, thoughtful reply. And suddenly you get it: the scarecrow doesn't fail by not scaring; it simply chose to offer shade instead of fear. You leave the furrow feeling strangely smarter.",
+            "fr": "Tu lui poses le paradoxe : si son seul but est d'effrayer les oiseaux, qu'est-il quand un oiseau se pose sur lui sans peur ? Le vent siffle dans la paille comme une longue réponse pensive. Et soudain tu comprends : l'épouvantail n'échoue pas en n'effrayant pas ; il a simplement choisi d'offrir de l'ombre plutôt que la peur. Tu quittes le champ te sentant étrangement plus sage.",
+            "it": "Gli poni il paradosso: se il suo unico scopo è spaventare gli uccelli, cos'è quando un uccello si posa su di lui senza paura? Il vento fischia tra la paglia come una lunga risposta pensierosa. E all'improvviso capisci: lo spaventapasseri non fallisce non spaventando; ha semplicemente deciso di offrire ombra invece di paura. Esci dal campo sentendoti stranamente più saggio.",
+            "de": "Du stellst ihr das Paradoxon: Wenn ihr einziger Zweck ist, Vögel zu erschrecken, was ist sie dann, wenn ein Vogel sich furchtlos auf sie setzt? Der Wind pfeift durch das Stroh wie eine lange, nachdenkliche Antwort. Und plötzlich verstehst du: Die Vogelscheuche scheitert nicht, indem sie nicht erschreckt; sie hat einfach beschlossen, Schatten statt Angst anzubieten. Du verlässt das Feld, dich seltsam klüger fühlend.",
+            "zh": "你向它提出这个悖论：如果它唯一的目的是吓走鸟儿，那么当一只鸟毫无畏惧地停在它身上时，它又算什么？风穿过稻草，发出一种长长的、深思熟虑般的回应。突然你明白了：稻草人并不是因为没能吓退鸟而失败；它只是选择了提供庇荫而非恐惧。你离开这片田地时，觉得自己莫名地更聪明了一些。",
+            "ja": "お前はこの逆説を投げかける——もし唯一の目的が鳥を脅かすことなら、鳥が恐れずにその上に止まった時、それは何なのか？風が藁の間を吹き抜け、長く思慮深い答えのように響く。そして突然、お前は理解する——かかしは脅かせなかったから失敗しているのではなく、恐怖の代わりに日陰を提供することを選んだのだ。不思議と少し賢くなった気分で畑を後にする。"
+        },
+        "next": [
+            "esp_opt_salir"
+        ],
+        "reward": "faceta:inteligencia=+1;gflag:esp_debate_done",
+        "condition": "no_gflag(\"esp_debate_done\")",
+        "once": true
+    },
+    "esp_opt_sombrero": {
+        "type": "option",
+        "text": {
+            "es": "🎩  Enderezarle el sombrero con respeto",
+            "en": "🎩  Straighten its hat, respectfully",
+            "fr": "🎩  Redresser son chapeau avec respect",
+            "it": "🎩  Raddrizzargli il cappello con rispetto",
+            "de": "🎩  Respektvoll ihren Hut geraderücken",
+            "zh": "🎩  恭敬地扶正它的帽子",
+            "ja": "🎩  敬意を込めて帽子を直す"
+        },
+        "next": [
+            "esp_msg_sombrero"
+        ],
+        "reward": ""
+    },
+    "esp_msg_sombrero": {
+        "type": "message",
+        "text": {
+            "es": "Le colocas bien el sombrero de fieltro apolillado. El cuervo de su hombro ladea la cabeza, evidentemente impresionado por tu cortesía hacia un objeto inanimado, y decide no picotearte los ojos hoy. Pequeñas victorias.",
+            "en": "You set its moth-eaten felt hat right. The crow on its shoulder tilts its head, evidently impressed by your courtesy toward an inanimate object, and decides not to peck your eyes out today. Small victories.",
+            "fr": "Tu redresses son chapeau de feutre mité. Le corbeau sur son épaule penche la tête, visiblement impressionné par ta courtoisie envers un objet inanimé, et décide de ne pas te picorer les yeux aujourd'hui. Petites victoires.",
+            "it": "Gli sistemi bene il cappello di feltro tarlato. Il corvo sulla sua spalla inclina la testa, evidentemente impressionato dalla tua cortesia verso un oggetto inanimato, e decide di non beccarti gli occhi oggi. Piccole vittorie.",
+            "de": "Du richtest ihren mottenzerfressenen Filzhut gerade. Die Krähe auf ihrer Schulter neigt den Kopf, offensichtlich beeindruckt von deiner Höflichkeit gegenüber einem unbelebten Objekt, und beschließt, dir heute nicht die Augen auszuhacken. Kleine Siege.",
+            "zh": "你为它整理好那顶被虫蛀的毡帽。它肩膀上的乌鸦歪着头，显然对你对一个无生命物体表现出的礼貌感到印象深刻，决定今天不啄你的眼睛了。小小的胜利。",
+            "ja": "虫食いだらけのフェルト帽をきちんとかぶせ直す。肩の上のカラスは頭を傾げ、明らかに無生物への礼儀に感心した様子で、今日は目をつつくのをやめることにする。小さな勝利だ。"
+        },
+        "next": [
+            "esp_root"
+        ],
+        "reward": ""
+    },
+    "esp_opt_tirar": {
+        "type": "option",
+        "text": {
+            "es": "💢  Derribarlo de un empujón (no me gusta cómo me mira)",
+            "en": "💢  Shove it down (I don't like how it looks at me)",
+            "fr": "💢  Le renverser d'une poussée (je n'aime pas comme il me regarde)",
+            "it": "💢  Buttarlo giù con una spinta (non mi piace come mi guarda)",
+            "de": "💢  Sie mit einem Stoß umwerfen (mir gefällt nicht, wie sie mich anschaut)",
+            "zh": "💢  一把把它推倒（我不喜欢它看我的样子）",
+            "ja": "💢  押し倒す（あの視線が気に入らない）"
+        },
+        "next": [
+            "esp_msg_tirar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "esp_msg_tirar": {
+        "type": "message",
+        "text": {
+            "es": "Lo empujas y cae de bruces en el barro seco con un crujido lastimero de paja. En el silencio que sigue, sin nadie a quien vigilar, tres cuervos aterrizan de inmediato sobre el bancal como si hubieran estado esperando este momento toda su vida. Enseguida te sientes un poco mezquino: has ganado una guerra contra un montón de paja.",
+            "en": "You shove it and it topples face-first into the dry mud with a pitiful crackle of straw. In the silence that follows, with no one left to watch, three crows land on the furrow at once as if they'd been waiting their whole lives for this. You quickly feel a little petty: you've won a war against a pile of straw.",
+            "fr": "Tu le pousses et il tombe face contre le sol sec dans un craquement pitoyable de paille. Dans le silence qui suit, sans plus personne à surveiller, trois corbeaux se posent aussitôt sur le champ, comme s'ils avaient attendu ce moment toute leur vie. Tu te sens rapidement un peu mesquin : tu as gagné une guerre contre un tas de paille.",
+            "it": "Lo spingi e cade a faccia in giù nel fango secco con uno scricchiolio pietoso di paglia. Nel silenzio che segue, senza più nessuno a fare la guardia, tre corvi atterrano immediatamente sul campo come se avessero atteso questo momento per tutta la vita. Ti senti subito un po' meschino: hai vinto una guerra contro un mucchio di paglia.",
+            "de": "Du stößt sie um und sie fällt mit einem klagenden Strohknistern kopfüber in den trockenen Schlamm. In der darauffolgenden Stille, ohne dass noch jemand wacht, landen sofort drei Krähen auf dem Feld, als hätten sie ihr ganzes Leben lang auf diesen Moment gewartet. Du fühlst dich schnell etwas kleinlich: Du hast einen Krieg gegen einen Strohhaufen gewonnen.",
+            "zh": "你推倒了它，它面朝下摔进干裂的泥土中，发出一阵可怜的稻草碎裂声。随后的寂静中，再也没有什么可以守望，三只乌鸦立刻降落在田地上，仿佛它们一生都在等待这一刻。你很快感到一丝卑劣：你赢得了一场对抗一堆稻草的战争。",
+            "ja": "押し倒すと、それは哀れな藁の音を立てて乾いた泥の中に顔から倒れ込む。続く静寂の中、もう見張るものがいなくなり、三羽のカラスがまるで一生この瞬間を待っていたかのように、すぐさま畑に降り立つ。すぐに少し卑劣な気分になる——藁の山を相手に戦争に勝ったのだと。"
+        },
+        "next": [
+            "esp_opt_salir"
+        ],
+        "reward": "faceta:bondad=-1",
+        "condition": "no_gflag(\"esp_debate_done\")"
+    },
+    "esp_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Marcharte (sintiendo su mirada en la nuca)",
+            "en": "🚶  Walk away (feeling its gaze on your neck)",
+            "fr": "🚶  Partir (sentant son regard dans ta nuque)",
+            "it": "🚶  Andartene (sentendo il suo sguardo sulla nuca)",
+            "de": "🚶  Weggehen (ihren Blick im Nacken spürend)",
+            "zh": "🚶  离开（感觉它的视线一直盯着你的后颈）",
+            "ja": "🚶  立ち去る（首筋にその視線を感じながら）"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

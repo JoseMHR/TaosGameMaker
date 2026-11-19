@@ -1,0 +1,12 @@
+{
+	"code": "gnd",
+	"order": 6,
+	"label": "Tierra",
+	"color": "#6b4a2b",
+	"icon": "🟫",
+	"biome_color": "#4a3a28",
+	"description": "Tierra fértil recuperada tras reabrir la presa.",
+	"walkable": true,
+	"texture": "ground",
+	"tint": "#ffffff"
+}

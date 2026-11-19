@@ -1,0 +1,33 @@
+{
+    "id": "poi_sylphrena_mara",
+    "type": "poi",
+    "name": {
+        "es": "Casa de Mara",
+        "en": "Mara's House",
+        "fr": "Maison de Mara",
+        "it": "Casa di Mara",
+        "de": "Maras Haus",
+        "zh": "玛拉的家",
+        "ja": "マーラの家"
+    },
+    "icon": "🏡",
+    "desc": {
+        "es": "Un hogar humilde",
+        "en": "A humble home",
+        "fr": "Un foyer humble",
+        "it": "Una casa umile",
+        "de": "Ein bescheidenes Zuhause",
+        "zh": "一间简朴的家",
+        "ja": "つつましい家"
+    },
+    "kind": "npc",
+    "npc": "villager_mara",
+    "presences": [
+        {
+            "condition": "default",
+            "actor": "villager_mara",
+            "entry_node": ""
+        }
+    ],
+    "bg": "bg_city_sylphrena_mara.png"
+}

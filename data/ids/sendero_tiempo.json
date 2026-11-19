@@ -1,0 +1,23 @@
+{
+    "id": "sendero_tiempo",
+    "type": "dungeon",
+    "name": {
+        "es": "El Sendero del Tiempo",
+        "en": "The Time Path",
+        "fr": "Le Sentier du Temps",
+        "it": "Il Sentiero del Tempo",
+        "de": "Der Pfad der Zeit",
+        "zh": "时间之路",
+        "ja": "時の道"
+    },
+    "icon": "⏳",
+    "desc": {
+        "es": "Templo tematico: ralentiza las cuchillas con la Distorsion Temporal y vence al Cronofago para aprenderla.",
+        "en": "Themed temple: slow the blades with Time Distortion and defeat the Chronophage to learn it.",
+        "fr": "Temple thématique : ralentis les lames avec la Distorsion Temporelle et vaincs le Chronophage pour l'apprendre.",
+        "it": "Tempio tematico: rallenta le lame con la Distorsione Temporale e sconfiggi il Cronofago per impararla.",
+        "de": "Themen-Tempel: verlangsame die Klingen mit Zeitverzerrung und besiege den Chronophagen, um sie zu erlernen.",
+        "zh": "主题神庙：用时间扭曲减缓刀刃，击败食时者以学会此技能。",
+        "ja": "テーマ神殿：タイムディストーションで刃を遅くし、クロノファージを倒してそれを習得せよ。"
+    }
+}

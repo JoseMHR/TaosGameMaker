@@ -1,0 +1,183 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "Serena, la Guardiana de la Vida",
+            "en": "Serena, Keeper of Life",
+            "fr": "Serena, la Gardienne de la Vie",
+            "it": "Serena, la Guardiana della Vita",
+            "de": "Serena, die Hüterin des Lebens",
+            "zh": "生命守护者塞蕾娜",
+            "ja": "生命の守護者セレナ"
+        },
+        "next": [],
+        "reward": "avatar=💚;bg=0.04,0.1,0.06"
+    },
+    "heal_0": {
+        "type": "message",
+        "text": {
+            "es": "Serena te detiene con una mano suave pero firme, sin perder la sonrisa. 'Ah, no, cariño. Solo los aprendices pueden entrar al Sendero. Primero, déjame ver de qué madera estás hecho.'",
+            "en": "Serena stops you with a gentle but firm hand, smile unwavering. 'Ah, no, sweetheart. Only apprentices may enter the Path. First, let me see what you're made of.'",
+            "fr": "Serena t'arrête d'une main douce mais ferme, sans jamais perdre le sourire. « Ah, non, mon cœur. Seuls les apprentis peuvent entrer dans le Sentier. D'abord, laisse-moi voir de quel bois tu es fait. »",
+            "it": "Serena ti ferma con una mano dolce ma ferma, senza perdere il sorriso. 'Ah, no, tesoro. Solo gli apprendisti possono entrare nel Sentiero. Prima, lasciami vedere di che pasta sei fatto.'",
+            "de": "Serena hält dich mit sanfter, aber fester Hand auf, ihr Lächeln unerschütterlich. „Ach nein, mein Schatz. Nur Lehrlinge dürfen den Pfad betreten. Lass mich zuerst sehen, aus welchem Holz du geschnitzt bist.“",
+            "zh": "塞蕾娜用一只温柔却坚定的手拦住了你，笑容始终未变。「哦不，亲爱的。只有学徒才能进入这条路。先让我看看你是什么样的料子。」",
+            "ja": "セレナは優しくも確固たる手でお前を止める。微笑みは崩れない。「ああ、だめよ、いとしい人。弟子だけがこの道に入れるの。まずは、あなたがどんな人か見せてもらいましょう」"
+        },
+        "next": [
+            "heal_0a",
+            "heal_0b"
+        ],
+        "reward": "",
+        "condition": "no_gflag(\"apprentice_sendero_sacerdote\")"
+    },
+    "heal_0a": {
+        "type": "option",
+        "text": {
+            "es": "💚  Acepto entrenar",
+            "en": "💚  I accept training",
+            "fr": "💚  J'accepte l'entraînement",
+            "it": "💚  Accetto di allenarmi",
+            "de": "💚  Ich akzeptiere das Training",
+            "zh": "💚  我接受训练",
+            "ja": "💚  修行を受け入れる"
+        },
+        "next": [
+            "heal_0r"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "heal_0r": {
+        "type": "message",
+        "text": {
+            "es": "'...tras varias horas intentando enseñarte a curar sin empeorarlo... sigo teniendo mis dudas... pero oficialmente eres aprendiz.' Te sonríe con demasiada dulzura. 'Ya puedes entrar al Sendero. No te cures a ti misma primero; da mala imagen.' 💚 Ahora eres un aprendiz de Sacerdote. Busca el Sendero del Sacerdote para ponerte a prueba.",
+            "en": "'...after several hours trying to teach you to heal without making it worse... I still have my doubts... but you are officially an apprentice.' She smiles at you with unsettling sweetness. 'You may enter the Path now. Don't heal yourself first; it looks bad.' 💚 You are now a Priest apprentice. Seek out the Priest's Path to put yourself to the test.",
+            "fr": "« ...après plusieurs heures à essayer de t'apprendre à guérir sans aggraver les choses... j'ai encore des doutes... mais officiellement tu es apprentie. » Elle te sourit avec une douceur troublante. « Tu peux entrer dans le Sentier maintenant. Ne te guéris pas toi-même en premier ; ça fait mauvais effet. » 💚 Tu es maintenant une apprentie Prêtresse. Cherche le Sentier du Prêtre pour te mettre à l'épreuve.",
+            "it": "'...dopo diverse ore a cercare di insegnarti a curare senza peggiorare le cose... ho ancora dei dubbi... ma sei ufficialmente apprendista.' Ti sorride con una dolcezza inquietante. 'Ora puoi entrare nel Sentiero. Non curare prima te stessa; fa cattiva impressione.' 💚 Ora sei un'apprendista Sacerdotessa. Cerca il Sentiero del Sacerdote per metterti alla prova.",
+            "de": "„...nach mehreren Stunden, in denen ich versucht habe, dir das Heilen beizubringen, ohne es zu verschlimmern... ich habe immer noch meine Zweifel... aber offiziell bist du Lehrlingin.“ Sie lächelt dich mit beunruhigender Süße an. „Du kannst den Pfad jetzt betreten. Heile nicht zuerst dich selbst; das macht keinen guten Eindruck.“ 💚 Du bist jetzt eine Priester-Lehrlingin. Suche den Pfad des Priesters, um dich zu prüfen.",
+            "zh": "「……经过好几个小时试图教你治愈而不是把事情搞得更糟……我心里还是有点犯嘀咕……但正式来说，你已经是个学徒了。」她带着一种令人不安的甜美对你微笑。「你现在可以进入这条路了。别先治愈自己；那样看起来不太好。」💚 你现在是祭司学徒了。去寻找祭司之路来考验自己吧。",
+            "ja": "「……何時間もかけて悪化させずに癒す方法を教えようとしたが……まだ不安が残るわ……だが正式には、あなたは弟子よ」不安になるほどの甘さで微笑む。「もう道に入っていいわよ。まず自分を癒したりしないでね、印象が悪いから」💚 お前は今、司祭の弟子となった。司祭の道を探し、自らを試すがいい。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "gflag:apprentice_sendero_sacerdote"
+    },
+    "heal_0b": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Salir del Templo",
+            "en": "🚶  Leave the Temple",
+            "fr": "🚶  Quitter le Temple",
+            "it": "🚶  Lasciare il Tempio",
+            "de": "🚶  Den Tempel verlassen",
+            "zh": "🚶  离开神庙",
+            "ja": "🚶  神殿を去る"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "heal_1": {
+        "condition": "gflag(\"apprentice_sendero_sacerdote\")",
+        "type": "message",
+        "text": {
+            "es": "Serena te recibe con una sonrisa demasiado serena, entre plantas que parecen respirar. 'Bienvenido, corazón. Aquí curamos heridas, huesos, almas... y alguna que otra cosa que, en teoría, no debería volver. Pero no hablemos de eso todavía. La Restauración es un don precioso. Mi Sendero del Sacerdote te lo enseñará. Sonríe, ¿quieres? Ayuda mucho.'",
+            "en": "Serena greets you with an unsettlingly serene smile, among plants that seem to breathe. 'Welcome, sweetheart. Here we mend wounds, bones, souls... and the odd thing that, in theory, shouldn't come back. But let's not talk about that yet. Restoration is a precious gift. My Priest's Path will teach it to you. Do smile, won't you? It helps.'",
+            "fr": "Serena t'accueille avec un sourire trop serein, parmi des plantes qui semblent respirer. « Bienvenue, mon cœur. Ici, nous soignons les blessures, les os, les âmes... et parfois quelque chose qui, en théorie, ne devrait pas revenir. Mais n'en parlons pas encore. La Restauration est un don précieux. Mon Sentier du Prêtre te l'enseignera. Souris, tu veux bien ? Ça aide beaucoup. »",
+            "it": "Serena ti accoglie con un sorriso troppo sereno, tra piante che sembrano respirare. 'Benvenuto, tesoro. Qui curiamo ferite, ossa, anime... e qualche altra cosa che, in teoria, non dovrebbe tornare. Ma non parliamone ancora. La Restaurazione è un dono prezioso. Il mio Sentiero del Sacerdote te lo insegnerà. Sorridi, vuoi? Aiuta molto.'",
+            "de": "Serena empfängt dich mit einem unheimlich gelassenen Lächeln, zwischen Pflanzen, die zu atmen scheinen. „Willkommen, mein Schatz. Hier heilen wir Wunden, Knochen, Seelen... und die eine oder andere Sache, die theoretisch nicht zurückkehren sollte. Aber davon reden wir noch nicht. Wiederherstellung ist eine kostbare Gabe. Mein Pfad des Priesters wird sie dich lehren. Lächle doch, ja? Das hilft sehr.“",
+            "zh": "塞蕾娜以一种过于平静的微笑迎接你，周围的植物仿佛在呼吸。「欢迎，亲爱的。在这里我们医治伤口、骨骼、灵魂……还有那些理论上不该回来的东西。不过我们现在先不谈这个。复原是一份珍贵的天赋。我的祭司之路会教给你。笑一笑，好吗？这很有帮助。」",
+            "ja": "呼吸しているかのような植物たちの間で、セレナが不気味なほど穏やかな笑みで迎える。「ようこそ、いとしい人。ここでは傷や骨、魂を癒すの……それから、理論上は戻ってくるべきではない何かもね。でもそれはまだ話さないでおきましょう。リストレーションは貴重な贈り物よ。私の司祭の道がそれを教えてくれるわ。笑ってくれる？とても助かるの」"
+        },
+        "next": [
+            "heal_1c",
+            "heal_1a",
+            "heal_1b"
+        ],
+        "reward": ""
+    },
+    "heal_1c": {
+        "type": "option",
+        "text": {
+            "es": "🏆  He completado la prueba",
+            "en": "🏆  I have completed the trial",
+            "fr": "🏆  J'ai réussi l'épreuve",
+            "it": "🏆  Ho completato la prova",
+            "de": "🏆  Ich habe die Prüfung bestanden",
+            "zh": "🏆  我已完成试炼",
+            "ja": "🏆  試練を終えた"
+        },
+        "next": [
+            "heal_1c_r"
+        ],
+        "reward": "",
+        "condition": "gflag(\"trial_done_sendero_sacerdote\") and no_prof(\"Sacerdote\")"
+    },
+    "heal_1c_r": {
+        "type": "message",
+        "text": {
+            "es": "La sonrisa serena de Serena se rompe un instante, sorprendida de verdad. '¿Ya, cariño? ¡Vaya! Pensé que tardarías más en volver de una pieza.' Recupera la compostura y te sonríe. 'Es oficial: eres Sacerdote. Cura con sabiduría.'",
+            "en": "Serena's serene smile breaks for a moment, genuinely surprised. 'Already, sweetheart? My! I thought you'd take longer to come back in one piece.' She composes herself and smiles. 'It's official: you're a Priest. Heal wisely.'",
+            "fr": "Le sourire serein de Serena se brise un instant, réellement surprise. « Déjà, mon cœur ? Eh bien ! Je pensais que tu mettrais plus de temps à revenir entière. » Elle se ressaisit et te sourit. « C'est officiel : tu es Prêtresse. Soigne avec sagesse. »",
+            "it": "Il sorriso sereno di Serena si spezza per un istante, davvero sorpresa. 'Già, tesoro? Perbacco! Pensavo ci avresti messo più tempo a tornare tutta intera.' Si ricompone e sorride. 'È ufficiale: sei una Sacerdotessa. Cura con saggezza.'",
+            "de": "Serenas gelassenes Lächeln bricht für einen Moment, wirklich überrascht. „Schon, mein Schatz? Meine Güte! Ich dachte, du würdest länger brauchen, um heil zurückzukommen.“ Sie fasst sich und lächelt. „Es ist offiziell: Du bist eine Priesterin. Heile mit Weisheit.“",
+            "zh": "塞蕾娜平静的笑容裂开了一瞬，真的感到惊讶。「这么快，亲爱的？天哪！我还以为你要花更长时间才能安然无恙地回来呢。」她恢复镇定，微笑起来。「这就是正式的了：你是祭司了。请以智慧行医。」",
+            "ja": "セレナの穏やかな笑みが一瞬崩れる、本当に驚いたようだ。「もう終わったの、いとしい人？あらまあ！無事に戻るのはもっと時間がかかると思っていたわ」気を取り直して微笑む。「公式よ：あなたは司祭よ。賢く癒しなさい」"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "prof:Sacerdote;event:check_all_professions"
+    },
+    "heal_1a": {
+        "type": "option",
+        "text": {
+            "es": "💚  ¿Dónde está la prueba?",
+            "en": "💚  Where is the trial?",
+            "fr": "💚  Où se trouve l'épreuve ?",
+            "it": "💚  Dove si trova la prova?",
+            "de": "💚  Wo befindet sich die Prüfung?",
+            "zh": "💚  试炼在哪里？",
+            "ja": "💚  試練はどこにある？"
+        },
+        "next": [
+            "heal_1ar"
+        ],
+        "reward": ""
+    },
+    "heal_1ar": {
+        "type": "message",
+        "text": {
+            "es": "'A dos pasos, cariño. Repara lo que el tiempo rompió y regresa con las manos cálidas. Entonces serás Sacerdote. Y recuerda: curar es fácil; saber CUÁNDO no hacerlo, eso es sabiduría.'",
+            "en": "'Two steps away, dear. Repair what time has broken and return with warm hands. Then you'll be a Priest. And remember: healing is easy; knowing WHEN not to, that is wisdom.'",
+            "fr": "« À deux pas, mon cœur. Répare ce que le temps a brisé et reviens avec les mains chaudes. Alors tu seras Prêtresse. Et souviens-toi : guérir est facile ; savoir QUAND ne pas le faire, ça c'est de la sagesse. »",
+            "it": "'A due passi, tesoro. Ripara ciò che il tempo ha spezzato e torna con le mani calde. Allora sarai una Sacerdotessa. E ricorda: curare è facile; sapere QUANDO non farlo, quella è saggezza.'",
+            "de": "„Zwei Schritte entfernt, mein Schatz. Repariere, was die Zeit zerbrochen hat, und kehre mit warmen Händen zurück. Dann wirst du Priesterin sein. Und denk daran: Heilen ist leicht; zu wissen, WANN man es nicht tun sollte, das ist Weisheit.“",
+            "zh": "「就在不远处，亲爱的。修复被时间打碎的东西，带着温暖的双手归来。那时你就是祭司了。记住：治愈很容易；知道『何时不该治愈』，那才是智慧。」",
+            "ja": "「二歩先よ、いとしい人。時が壊したものを修復し、温かい手で戻ってきなさい。そうすればあなたは司祭よ。覚えておいて：癒すのは簡単。いつ癒さないべきかを知ること、それこそが知恵なの」"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "heal_1b": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Salir del Templo",
+            "en": "🚶  Leave the Temple",
+            "fr": "🚶  Quitter le Temple",
+            "it": "🚶  Lasciare il Tempio",
+            "de": "🚶  Den Tempel verlassen",
+            "zh": "🚶  离开神庙",
+            "ja": "🚶  神殿を去る"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

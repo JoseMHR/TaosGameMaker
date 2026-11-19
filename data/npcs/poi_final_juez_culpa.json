@@ -1,0 +1,153 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Juez de la Culpa",
+            "en": "The Judge of Guilt",
+            "fr": "Le Juge de la Culpabilité",
+            "it": "Il Giudice della Colpa",
+            "de": "Der Richter der Schuld",
+            "zh": "愧疚的审判者",
+            "ja": "罪悪感の裁判官"
+        },
+        "next": [],
+        "reward": "bg=0.05,0.05,0.06"
+    },
+    "juez_root": {
+        "type": "message",
+        "text": {
+            "es": "Tras una mesa de piedra flotante, una figura encapuchada sin rostro sostiene una balanza de bronce que brilla en la penumbra. En un platillo hay una pluma; el otro está vacío, esperando. Cuando te acercas, la figura habla con una voz que es la tuya, envejecida y despojada de excusas: 'Llevas todo el viaje huyendo de este tribunal. Aquí no se juzga lo que el mundo te hizo, sino lo que hiciste tú. ¿Estás listo para poner tu culpa en la balanza, o volverás a esconderla debajo de la armadura?'",
+            "en": "Behind a floating stone table, a faceless hooded figure holds a bronze scale that gleams in the gloom. On one pan there is a feather; the other is empty, waiting. As you approach, the figure speaks in a voice that is your own, aged and stripped of excuses: 'You've spent the whole journey fleeing this tribunal. Here we don't judge what the world did to you, but what you did. Are you ready to place your guilt on the scale, or will you hide it under the armor again?'",
+            "fr": "Derrière une table de pierre flottante, une silhouette encapuchonnée sans visage tient une balance de bronze qui brille dans la pénombre. Sur un plateau se trouve une plume ; l'autre est vide, en attente. Quand tu t'approches, la silhouette parle d'une voix qui est la tienne, vieillie et dépouillée d'excuses : « Tu as passé tout le voyage à fuir ce tribunal. Ici on ne juge pas ce que le monde t'a fait, mais ce que tu as fait, toi. Es-tu prêt à mettre ta culpabilité dans la balance, ou vas-tu la cacher à nouveau sous ton armure ? »",
+            "it": "Dietro un tavolo di pietra fluttuante, una figura incappucciata senza volto regge una bilancia di bronzo che brilla nella penombra. Su un piatto c'è una piuma; l'altro è vuoto, in attesa. Quando ti avvicini, la figura parla con una voce che è la tua, invecchiata e priva di scuse: 'Hai passato tutto il viaggio a fuggire da questo tribunale. Qui non si giudica ciò che il mondo ti ha fatto, ma ciò che hai fatto tu. Sei pronto a mettere la tua colpa sulla bilancia, o tornerai a nasconderla sotto l'armatura?'",
+            "de": "Hinter einem schwebenden Steintisch hält eine gesichtslose, vermummte Gestalt eine bronzene Waage, die im Halbdunkel glänzt. Auf einer Waagschale liegt eine Feder; die andere ist leer, wartend. Als du dich näherst, spricht die Gestalt mit einer Stimme, die deine eigene ist, gealtert und aller Ausreden entkleidet: „Du hast die ganze Reise damit verbracht, vor diesem Tribunal zu fliehen. Hier wird nicht beurteilt, was die Welt dir angetan hat, sondern was du getan hast. Bist du bereit, deine Schuld auf die Waage zu legen, oder wirst du sie wieder unter der Rüstung verstecken?“",
+            "zh": "在一张悬浮的石桌后，一个没有面孔的戴兜帽身影握着一杆在昏暗中闪着微光的青铜天平。一个秤盘上放着一根羽毛；另一个秤盘空着，在等待。当你靠近时，这个身影用一种既是你自己的、却已苍老、不再有借口的声音说道：「这一路上，你都在逃避这场审判。这里不评判世界对你做了什么，而是评判你自己做了什么。你准备好把你的愧疚放上天平了吗，还是要再一次把它藏在盔甲之下？」",
+            "ja": "浮遊する石の机の向こうで、顔のないフードをかぶった人影が、薄暗がりの中で輝く青銅の天秤を持っている。片方の皿には羽根が乗っており、もう片方は空のまま待っている。近づくと、その人影はお前自身の声で、年老いて言い訳を剥ぎ取られた声で語りかける。「お前はこの旅路の間ずっと、この裁きから逃げ続けてきた。ここで裁かれるのは世界がお前にしたことではなく、お前がしたことだ。愧疚を天秤に乗せる準備はできているか、それとも再び鎧の下に隠すつもりか？」"
+        },
+        "next": [
+            "juez_opt_asumir",
+            "juez_opt_culpar",
+            "juez_opt_preguntar",
+            "juez_opt_salir"
+        ],
+        "reward": ""
+    },
+    "juez_opt_asumir": {
+        "type": "option",
+        "text": {
+            "es": "⚖️  Fui yo. Yo le puse la aguja. Acepto lo que hice.",
+            "en": "⚖️  It was me. I put in the needle. I accept what I did.",
+            "fr": "⚖️  C'était moi. C'est moi qui ai planté l'aiguille. J'accepte ce que j'ai fait.",
+            "it": "⚖️  Sono stato io. Sono io che ho messo l'ago. Accetto ciò che ho fatto.",
+            "de": "⚖️  Ich war es. Ich habe die Nadel gesetzt. Ich akzeptiere, was ich getan habe.",
+            "zh": "⚖️  是我。是我扎下的那根针。我接受我所做的。",
+            "ja": "⚖️  俺だ。俺が針を刺した。自分のしたことを受け入れる"
+        },
+        "next": [
+            "juez_msg_asumir"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "juez_msg_asumir": {
+        "type": "message",
+        "text": {
+            "es": "Colocas tu culpa entera en el platillo vacío, sin regatear, sin repartirla. La balanza se hunde bajo un peso descomunal... y luego, muy despacio, se equilibra con la pluma del otro lado. La figura encapuchada inclina la cabeza. 'Asumir no es hundirse, sino dejar de fingir que no pasó. La culpa que se mira de frente pesa lo mismo que una pluma; la que se esconde, pesa el mundo entero.' Por primera vez en todo el viaje, respiras sin que te duela el pecho.",
+            "en": "You place your entire guilt on the empty pan, without haggling, without dividing it. The scale sinks under an enormous weight... and then, very slowly, it balances against the feather on the other side. The hooded figure bows its head. 'To own it is not to sink, but to stop pretending it never happened. Guilt looked at head-on weighs the same as a feather; guilt hidden away weighs the whole world.' For the first time in the entire journey, you breathe without your chest aching.",
+            "fr": "Tu places toute ta culpabilité sur le plateau vide, sans marchander, sans la répartir. La balance s'enfonce sous un poids énorme... puis, très lentement, s'équilibre avec la plume de l'autre côté. La silhouette encapuchonnée incline la tête. « Assumer, ce n'est pas sombrer, mais cesser de prétendre que ce n'est pas arrivé. La culpabilité regardée en face pèse le même poids qu'une plume ; celle qu'on cache, pèse le monde entier. » Pour la première fois de tout le voyage, tu respires sans que ta poitrine te fasse mal.",
+            "it": "Metti tutta la tua colpa sul piatto vuoto, senza contrattare, senza dividerla. La bilancia sprofonda sotto un peso enorme... e poi, molto lentamente, si bilancia con la piuma dall'altra parte. La figura incappucciata inclina la testa. 'Assumersela non è sprofondare, ma smettere di fingere che non sia successo. La colpa guardata in faccia pesa quanto una piuma; quella nascosta pesa il mondo intero.' Per la prima volta in tutto il viaggio, respiri senza che il petto ti faccia male.",
+            "de": "Du legst deine gesamte Schuld auf die leere Waagschale, ohne zu feilschen, ohne sie zu teilen. Die Waage sinkt unter einem gewaltigen Gewicht... und dann, ganz langsam, gleicht sie sich mit der Feder auf der anderen Seite aus. Die vermummte Gestalt neigt den Kopf. „Sie zu übernehmen bedeutet nicht unterzugehen, sondern aufzuhören, so zu tun, als wäre nichts geschehen. Schuld, der man ins Auge blickt, wiegt so viel wie eine Feder; versteckte Schuld wiegt die ganze Welt.“ Zum ersten Mal auf der ganzen Reise atmest du, ohne dass deine Brust schmerzt.",
+            "zh": "你把全部的愧疚都放上那个空秤盘，没有讨价还价，没有分摊。天平在巨大的重量下沉了下去……然后，非常缓慢地，与另一侧的羽毛达到了平衡。那个戴兜帽的身影低下了头。「承担并非沉沦，而是不再假装它从未发生过。直面的愧疚与一根羽毛同重；藏起来的愧疚，重如整个世界。」这是整趟旅程中，你第一次呼吸时胸口不再疼痛。",
+            "ja": "お前はすべての愧疚を、値切ることも分けることもなく、空の皿に乗せる。天秤は莫大な重みで沈み込む……そしてゆっくりと、反対側の羽根と釣り合っていく。フードの人影は頭を下げる。「引き受けるとは沈むことではない、起きなかったふりをやめることだ。真正面から見た罪悪感は羽根と同じ重さになる。隠されたものは世界と同じ重さになる」旅路の中で初めて、胸が痛むことなく息ができる。"
+        },
+        "next": [
+            "juez_opt_salir"
+        ],
+        "reward": "faceta:valor=+1;faceta:cordura=+1;gflag:juez_asumido",
+        "condition": "no_gflag(\"juez_asumido\") and no_gflag(\"juez_culpado\")",
+        "once": true
+    },
+    "juez_opt_culpar": {
+        "type": "option",
+        "text": {
+            "es": "🔥  No fue culpa mía. Fue Arcanum. Fue Roxas. Fue el mundo.",
+            "en": "🔥  It wasn't my fault. It was Arcanum. It was Roxas. It was the world.",
+            "fr": "🔥  Ce n'était pas ma faute. C'était Arcanum. C'était Roxas. C'était le monde.",
+            "it": "🔥  Non è stata colpa mia. È stata Arcanum. È stato Roxas. È stato il mondo.",
+            "de": "🔥  Es war nicht meine Schuld. Es war Arcanum. Es war Roxas. Es war die Welt.",
+            "zh": "🔥  这不是我的错。是奥秘遗迹的错。是罗克萨斯的错。是这个世界的错。",
+            "ja": "🔥  俺のせいじゃない。アルカナムのせいだ。ロクサスのせいだ。世界のせいだ"
+        },
+        "next": [
+            "juez_msg_culpar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "juez_msg_culpar": {
+        "type": "message",
+        "text": {
+            "es": "Escupes los nombres uno a uno, y con cada acusación la balanza tiembla pero no se equilibra: la pluma sigue arriba, ligera, intacta. 'Todo eso es cierto', concede la figura sin alzar la voz. 'Arcanum te presionó. Roxas te empujó. El mundo fue cruel. Y aun así, la mano que sostuvo la aguja fue la tuya. Puedes repartir la culpa entre mil, pero la parte que te toca no se disuelve por mucho que grites.' La rabia te calienta la sangre, y el abismo a tu alrededor se tiñe de rojo.",
+            "en": "You spit the names one by one, and with each accusation the scale trembles but does not balance: the feather stays up, light, untouched. 'All of that is true,' the figure concedes without raising its voice. 'Arcanum pressured you. Roxas pushed you. The world was cruel. And even so, the hand that held the needle was yours. You can divide the guilt among a thousand, but the part that is yours does not dissolve no matter how loud you shout.' Rage warms your blood, and the abyss around you flushes red.",
+            "fr": "Tu craches les noms un à un, et à chaque accusation la balance tremble mais ne s'équilibre pas : la plume reste en haut, légère, intacte. « Tout cela est vrai », concède la silhouette sans élever la voix. « Arcanum t'a mis la pression. Roxas t'a poussé. Le monde a été cruel. Et pourtant, la main qui tenait l'aiguille était la tienne. Tu peux répartir la culpabilité entre mille personnes, mais la part qui te revient ne se dissout pas, aussi fort que tu cries. » La rage réchauffe ton sang, et l'abîme autour de toi se teinte de rouge.",
+            "it": "Sputi i nomi uno a uno, e ad ogni accusa la bilancia trema ma non si bilancia: la piuma resta in alto, leggera, intatta. 'Tutto questo è vero', concede la figura senza alzare la voce. 'Arcanum ti ha fatto pressione. Roxas ti ha spinto. Il mondo è stato crudele. Eppure, la mano che teneva l'ago era la tua. Puoi dividere la colpa tra mille, ma la parte che ti tocca non si dissolve per quanto tu urli.' La rabbia ti scalda il sangue, e l'abisso intorno a te si tinge di rosso.",
+            "de": "Du spuckst die Namen einen nach dem anderen aus, und bei jeder Anschuldigung bebt die Waage, gleicht sich aber nicht aus: die Feder bleibt oben, leicht, unberührt. „All das ist wahr“, gibt die Gestalt zu, ohne die Stimme zu erheben. „Arcanum hat dich unter Druck gesetzt. Roxas hat dich gedrängt. Die Welt war grausam. Und dennoch, die Hand, die die Nadel hielt, war deine. Du kannst die Schuld auf tausend verteilen, aber der Teil, der dir zufällt, löst sich nicht auf, egal wie laut du schreist.“ Wut erhitzt dein Blut, und der Abgrund um dich herum färbt sich rot.",
+            "zh": "你一个接一个地咒骂那些名字，随着每一次指控，天平颤动却无法达到平衡：羽毛依然停留在高处，轻盈，未受影响。「这一切都是真的，」那身影没有提高声音地承认。「奥秘遗迹逼迫了你。罗克萨斯推动了你。这个世界很残酷。可即便如此，握着那根针的手依然是你的。你可以把愧疚分摊给一千个人，但属于你的那一份，无论你怎么呼喊都不会消散。」愤怒让你的血液沸腾，你周围的深渊染上了一片红色。",
+            "ja": "お前は名前を一つずつ吐き出す。非難のたびに天秤は震えるが、釣り合わない——羽根は軽く、無傷のまま高い位置に留まっている。「それはすべて真実だ」その人影は声を荒げずに認める。「アルカナムはお前に圧力をかけた。ロクサスはお前を追い立てた。世界は残酷だった。それでも、針を握った手はお前自身のものだった。愧疚を千人に分け与えることはできる。だがお前の分は、どれだけ叫んでも溶け去りはしない」怒りが血を熱くし、周囲の深淵が赤く染まっていく。"
+        },
+        "next": [
+            "juez_opt_salir"
+        ],
+        "reward": "faceta:valor=+1;faceta:bondad=-1;gflag:juez_culpado",
+        "condition": "no_gflag(\"juez_asumido\") and no_gflag(\"juez_culpado\")",
+        "once": true
+    },
+    "juez_opt_preguntar": {
+        "type": "option",
+        "text": {
+            "es": "❓  ¿Y si no soporto el veredicto?",
+            "en": "❓  And if I can't bear the verdict?",
+            "fr": "❓  Et si je ne supporte pas le verdict ?",
+            "it": "❓  E se non sopporto il verdetto?",
+            "de": "❓  Und wenn ich das Urteil nicht ertrage?",
+            "zh": "❓  如果我承受不了这个判决呢？",
+            "ja": "❓  もし判決に耐えられなかったら？"
+        },
+        "next": [
+            "juez_msg_preguntar"
+        ],
+        "reward": ""
+    },
+    "juez_msg_preguntar": {
+        "type": "message",
+        "text": {
+            "es": "La figura ladea la cabeza encapuchada. 'Entonces harás lo que llevas haciendo desde el accidente: inventarte un mundo de héroes y dragones donde seas cualquier cosa menos el hombre que falló. Puedes quedarte aquí para siempre, huyendo. O puedes cruzar la última puerta y despertar. El veredicto no lo dicto yo, muchacho. Nunca lo dicté. Lo dictas tú, con cada paso que decides dar a partir de ahora.'",
+            "en": "The figure tilts its hooded head. 'Then you'll do what you've done since the accident: invent a world of heroes and dragons where you're anything but the man who failed. You can stay here forever, running. Or you can cross the last door and wake. The verdict isn't mine to pass, lad. It never was. You pass it yourself, with every step you choose to take from now on.'",
+            "fr": "La silhouette incline sa tête encapuchonnée. « Alors tu feras ce que tu fais depuis l'accident : t'inventer un monde de héros et de dragons où tu seras tout sauf l'homme qui a échoué. Tu peux rester ici pour toujours, en fuite. Ou tu peux franchir la dernière porte et te réveiller. Le verdict, ce n'est pas moi qui le prononce, mon garçon. Je ne l'ai jamais prononcé. C'est toi qui le prononces, à chaque pas que tu choisis de faire désormais. »",
+            "it": "La figura inclina la testa incappucciata. 'Allora farai ciò che fai dall'incidente: inventarti un mondo di eroi e draghi dove sarai tutto tranne l'uomo che ha fallito. Puoi restare qui per sempre, fuggendo. Oppure puoi attraversare l'ultima porta e svegliarti. Il verdetto non lo pronuncio io, ragazzo. Non l'ho mai pronunciato. Lo pronunci tu, con ogni passo che decidi di fare da ora in poi.'",
+            "de": "Die Gestalt neigt ihren vermummten Kopf. „Dann wirst du tun, was du seit dem Unfall tust: dir eine Welt aus Helden und Drachen erfinden, in der du alles bist, nur nicht der Mann, der versagt hat. Du kannst für immer hierbleiben und fliehen. Oder du kannst die letzte Tür durchschreiten und aufwachen. Das Urteil spreche nicht ich, Junge. Ich habe es nie gesprochen. Du sprichst es selbst, mit jedem Schritt, den du von nun an zu gehen entscheidest.“",
+            "zh": "那身影歪着戴兜帽的头。「那你就会继续做你自事故以来一直在做的事：编织一个充满英雄与巨龙的世界，在那里，你什么都是，唯独不是那个失败的男人。你可以永远留在这里逃避。或者你可以跨过最后一道门，醒来。判决不是我下的，孩子。我从来都不是。是你自己下的，从你今后决定迈出的每一步开始。」",
+            "ja": "その人影はフードをかぶった頭を傾ける。「それなら、事故以来ずっとしてきたことを続けるだけだ——失敗した男以外の何にでもなれる、英雄と竜の世界を作り上げることを。ここに永遠に留まり、逃げ続けることもできる。あるいは最後の扉を越え、目覚めることもできる。判決を下すのは私ではない、若者よ。私は一度たりとも下したことはない。お前自身が、これから踏み出すすべての一歩によって、それを下すのだ」"
+        },
+        "next": [
+            "juez_root"
+        ],
+        "reward": ""
+    },
+    "juez_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Apartarte del tribunal",
+            "en": "🚶  Step away from the tribunal",
+            "fr": "🚶  S'éloigner du tribunal",
+            "it": "🚶  Allontanarti dal tribunale",
+            "de": "🚶  Sich vom Tribunal entfernen",
+            "zh": "🚶  离开这场审判",
+            "ja": "🚶  裁きの場を後にする"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

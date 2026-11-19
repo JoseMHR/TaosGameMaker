@@ -1,0 +1,25 @@
+{
+    "id": "poi_gloriam_residencia",
+    "type": "poi",
+    "icon": "🏡",
+    "name": {
+        "es": "Residencia de las Arenas",
+        "en": "Desert Residence",
+        "fr": "Résidence des Sables",
+        "it": "Residenza delle Sabbie",
+        "de": "Sandresidenz",
+        "zh": "沙之宅邸",
+        "ja": "砂の邸宅"
+    },
+    "desc": {
+        "es": "Hogar señorial de adobe y mosaicos dorados",
+        "en": "Manor home of adobe and golden mosaics",
+        "fr": "Demeure seigneuriale d'adobe et de mosaïques dorées",
+        "it": "Dimora signorile di adobe e mosaici dorati",
+        "de": "Herrschaftliches Anwesen aus Lehmziegeln und goldenen Mosaiken",
+        "zh": "土坯与金色马赛克装饰的豪宅",
+        "ja": "日干しレンガと金のモザイクでできた邸宅"
+    },
+    "npc": "gloriam_habitante",
+    "bg": "bg_city_gloriam_residencia.png"
+}

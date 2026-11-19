@@ -1,0 +1,167 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "La Madre de Arena",
+            "en": "The Sand Mother",
+            "fr": "La Mère de Sable",
+            "it": "La Madre di Sabbia",
+            "de": "Die Sandmutter",
+            "zh": "沙之母",
+            "ja": "砂の母"
+        },
+        "next": [],
+        "reward": "avatar=🏖️;bg=0.15,0.12,0.07"
+    },
+    "madre_root": {
+        "type": "message",
+        "text": {
+            "es": "Arrodillada sobre una duna, una mujer modela con manos expertas la figura de un niño en la arena: cada dedo, cada pestaña, una sonrisa. Le habla con dulzura mientras trabaja: 'Quieto, cariño, que casi está.' En cuanto termina, una ráfaga de viento deshace la figura y la esparce. Ella no llora. Sonríe con una calma terrible, junta más arena y empieza de nuevo. A su alrededor, decenas de montoncitos: todos los niños de arena que el desierto le ha ido borrando, uno tras otro, quizá durante años.",
+            "en": "Kneeling on a dune, a woman shapes with expert hands the figure of a child in the sand: every finger, every eyelash, a smile. She speaks to it tenderly as she works: 'Hold still, sweetheart, almost done.' The moment she finishes, a gust of wind undoes the figure and scatters it. She doesn't weep. She smiles with a terrible calm, gathers more sand, and begins again. Around her, dozens of little mounds: all the sand children the desert has erased, one after another, perhaps for years.",
+            "fr": "Agenouillée sur une dune, une femme façonne de ses mains expertes la figure d'un enfant dans le sable : chaque doigt, chaque cil, un sourire. Elle lui parle avec douceur tout en travaillant : « Tiens-toi tranquille, mon chéri, c'est presque fini. » Dès qu'elle termine, une rafale de vent défait la figure et la disperse. Elle ne pleure pas. Elle sourit avec un calme terrible, ramasse plus de sable et recommence. Autour d'elle, des dizaines de petits monticules : tous les enfants de sable que le désert lui a effacés, l'un après l'autre, depuis peut-être des années.",
+            "it": "Inginocchiata su una duna, una donna modella con mani esperte la figura di un bambino nella sabbia: ogni dito, ogni ciglio, un sorriso. Gli parla con dolcezza mentre lavora: 'Stai fermo, tesoro, che è quasi fatto.' Non appena finisce, una raffica di vento disfà la figura e la disperde. Lei non piange. Sorride con una calma terribile, raccoglie altra sabbia e ricomincia. Intorno a lei, decine di mucchietti: tutti i bambini di sabbia che il deserto le ha cancellato, uno dopo l'altro, forse per anni.",
+            "de": "Auf einer Düne kniend formt eine Frau mit geschickten Händen die Figur eines Kindes im Sand: jeden Finger, jede Wimper, ein Lächeln. Sie spricht sanft mit ihm, während sie arbeitet: „Halt still, Schatz, es ist fast fertig.“ Sobald sie fertig ist, löst eine Windböe die Figur auf und verstreut sie. Sie weint nicht. Sie lächelt mit schrecklicher Ruhe, sammelt mehr Sand und beginnt von vorn. Um sie herum liegen Dutzende kleiner Hügel: all die Sandkinder, die die Wüste ihr genommen hat, eines nach dem anderen, vielleicht schon seit Jahren.",
+            "zh": "一位女子跪在沙丘上，用娴熟的双手在沙中塑造出一个孩子的形象：每一根手指，每一根睫毛，一个微笑。她一边劳作一边温柔地对它说话：「乖乖别动，亲爱的，快好了。」她一完工，一阵狂风便吹散了这个雕像，将其打散。她没有哭泣。她带着一种可怕的平静微笑着，又聚起更多的沙子，重新开始。她周围有着几十堆小土丘：那是沙漠一个接一个抹去的所有沙之孩子，也许已经持续了好多年。",
+            "ja": "砂丘に膝をついた女性が、熟練の手で砂の中に子供の姿を形作っている——指の一本一本、まつげの一本一本、笑顔まで。作業しながら優しく語りかける。「じっとしていてね、坊や、もうすぐできるから」完成した瞬間、一陣の風がその姿を崩し、散らしていく。彼女は泣かない。恐ろしいほどの穏やかさで微笑み、さらに砂を集めて再び始める。彼女の周りには数十の小さな山——砂漠が消し去ってきたすべての砂の子供たちが、次から次へと、おそらく何年もの間そこにある。"
+        },
+        "next": [
+            "madre_opt_ayudar",
+            "madre_opt_hablar",
+            "madre_opt_verdad",
+            "madre_opt_salir"
+        ],
+        "reward": ""
+    },
+    "madre_opt_hablar": {
+        "type": "option",
+        "text": {
+            "es": "🗣️  Preguntarle con delicadeza a quién está modelando",
+            "en": "🗣️  Gently ask her whom she is sculpting",
+            "fr": "🗣️  Lui demander avec délicatesse qui elle est en train de modeler",
+            "it": "🗣️  Chiederle con delicatezza chi sta modellando",
+            "de": "🗣️  Sie behutsam fragen, wen sie gerade formt",
+            "zh": "🗣️  委婉地问她正在塑造的是谁",
+            "ja": "🗣️  誰を形作っているのかそっと尋ねる"
+        },
+        "next": [
+            "madre_msg_hablar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "madre_msg_hablar": {
+        "type": "message",
+        "text": {
+            "es": "'A mi hijo', responde sin dejar de amasar arena. 'La fiebre se lo llevó cuando el pozo se secó y no hubo con qué bajarla. Aquí lo tengo, ¿ves? Justo como era. Solo que el viento es celoso y me lo borra cada tarde.' Te mira con unos ojos secos de tanto llorar. 'Mientras siga sabiendo dibujar su cara de memoria, no lo he perdido del todo. El día que no me salga... ese día sí estaré sola.' Se te cierra la garganta. No hay nada que puedas arreglar aquí, solo acompañar.",
+            "en": "'My son,' she answers, never stopping her kneading of sand. 'The fever took him when the well ran dry and there was nothing to bring it down. Here he is, see? Just as he was. Only the wind is jealous and erases him every evening.' She looks at you with eyes dried from too much weeping. 'As long as I can still draw his face from memory, I haven't wholly lost him. The day it won't come... that's the day I'll truly be alone.' Your throat closes. There's nothing you can fix here, only accompany.",
+            "fr": "« Mon fils », répond-elle sans arrêter de pétrir le sable. « La fièvre l'a emporté quand le puits s'est asséché et qu'il n'y avait rien pour la faire baisser. Le voici, tu vois ? Exactement comme il était. Seulement le vent est jaloux et me l'efface chaque soir. » Elle te regarde avec des yeux secs d'avoir tant pleuré. « Tant que je saurai encore dessiner son visage de mémoire, je ne l'aurai pas complètement perdu. Le jour où je n'y arriverai plus... ce jour-là, oui, je serai seule. » Ta gorge se serre. Il n'y a rien que tu puisses réparer ici, seulement l'accompagner.",
+            "it": "'Mio figlio', risponde senza smettere di impastare la sabbia. 'La febbre se lo portò via quando il pozzo si seccò e non ci fu nulla per abbassarla. Eccolo qui, vedi? Proprio com'era. Solo che il vento è geloso e me lo cancella ogni sera.' Ti guarda con occhi secchi dal tanto piangere. 'Finché saprò ancora disegnare il suo viso a memoria, non l'ho perso del tutto. Il giorno in cui non ci riuscirò... quel giorno sì che sarò sola.' Ti si chiude la gola. Non c'è niente che tu possa aggiustare qui, solo accompagnare.",
+            "de": "„Mein Sohn“, antwortet sie, ohne mit dem Sandkneten aufzuhören. „Das Fieber nahm ihn, als der Brunnen austrocknete und es nichts gab, um es zu senken. Hier ist er, siehst du? Genau wie er war. Nur ist der Wind eifersüchtig und löscht ihn jeden Abend aus.“ Sie sieht dich mit von so viel Weinen getrockneten Augen an. „Solange ich sein Gesicht noch aus dem Gedächtnis zeichnen kann, habe ich ihn nicht ganz verloren. Der Tag, an dem es mir nicht mehr gelingt... an diesem Tag werde ich wirklich allein sein.“ Deine Kehle schnürt sich zu. Es gibt hier nichts, was du reparieren kannst, nur begleiten.",
+            "zh": "「我的儿子，」她一边继续揉着沙子一边回答道。「井水干涸之时，没有任何东西能退烧，高烧带走了他。他就在这里，你看到了吗？和他生前一模一样。只是风很嫉妒，每天傍晚都要把他抹去。」她用因哭泣太多而干涸的双眼看着你。「只要我还能凭记忆画出他的脸，我就没有完全失去他。到了我做不到的那一天……那一天，我才会真正孤单一人。」你的喉咙一紧。这里没有什么是你能修复的，只能陪伴。",
+            "ja": "「息子です」砂をこねる手を止めずに答える。「井戸が涸れて、熱を下げるものが何もなかった時に熱が彼を連れて行きました。ほら、ここに彼がいます。彼そのままです。ただ風が嫉妬深くて、毎晩彼を消してしまうのです」あまりに泣きすぎて乾いた目でお前を見つめる。「彼の顔を記憶から描けるうちは、彼を完全に失ってはいません。それができなくなった日……その日こそ、本当に一人になるのです」喉が締め付けられる。ここで直せるものは何もなく、ただ寄り添うことしかできない。"
+        },
+        "next": [
+            "madre_root"
+        ],
+        "reward": "faceta:cordura=-1"
+    },
+    "madre_opt_ayudar": {
+        "type": "option",
+        "text": {
+            "es": "🤲  Arrodillarte a su lado y ayudarla a modelar, con cuidado y cariño",
+            "en": "🤲  Kneel beside her and help her sculpt, with care and tenderness",
+            "fr": "🤲  T'agenouiller à ses côtés et l'aider à modeler, avec soin et tendresse",
+            "it": "🤲  Inginocchiarti al suo fianco e aiutarla a modellare, con cura e affetto",
+            "de": "🤲  Sich neben sie knien und beim Formen helfen, mit Sorgfalt und Zärtlichkeit",
+            "zh": "🤲  跪在她身边，细心温柔地帮她塑形",
+            "ja": "🤲  隣に膝をつき、丁寧に優しく形作るのを手伝う"
+        },
+        "next": [
+            "madre_msg_ayudar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "madre_msg_ayudar": {
+        "type": "message",
+        "text": {
+            "es": "Te arrodillas y, siguiendo sus indicaciones, ayudas a moldear las manitas mientras ella se concentra en la cara. Trabajáis en silencio, hombro con hombro, hasta que la figura queda entera y perfecta. 'Gracias', susurra. 'Nunca nadie se había quedado a ayudarme. Todos se van corriendo, asustados.' Antes de que el viento vuelva, le pones al niño de arena un guijarro brillante en el pecho, 'para que el corazón le pese lo justo y no se lo lleve el viento tan pronto'. Ella sonríe de verdad por primera vez. No has curado su duelo, pero lo has acompañado un rato. A veces basta con eso.",
+            "en": "You kneel and, following her guidance, help mold the little hands while she focuses on the face. You work in silence, shoulder to shoulder, until the figure stands whole and perfect. 'Thank you,' she whispers. 'No one ever stayed to help me. They all run off, frightened.' Before the wind returns, you set a bright pebble on the sand child's chest, 'so his heart weighs just enough and the wind won't take him so soon'. She smiles, truly, for the first time. You haven't healed her grief, but you've kept it company a while. Sometimes that's enough.",
+            "fr": "Tu t'agenouilles et, suivant ses instructions, tu aides à modeler les petites mains tandis qu'elle se concentre sur le visage. Vous travaillez en silence, épaule contre épaule, jusqu'à ce que la figure soit entière et parfaite. « Merci », murmure-t-elle. « Personne n'était jamais resté pour m'aider. Tout le monde s'enfuit, effrayé. » Avant que le vent ne revienne, tu poses sur la poitrine de l'enfant de sable un galet brillant, « pour que son cœur pèse juste ce qu'il faut et que le vent ne l'emporte pas si vite ». Elle sourit vraiment pour la première fois. Tu n'as pas guéri son deuil, mais tu lui as tenu compagnie un moment. Parfois, ça suffit.",
+            "it": "Ti inginocchi e, seguendo le sue indicazioni, aiuti a modellare le manine mentre lei si concentra sul viso. Lavorate in silenzio, spalla a spalla, finché la figura non è intera e perfetta. 'Grazie', sussurra. 'Nessuno era mai rimasto ad aiutarmi. Tutti scappano, spaventati.' Prima che il vento ritorni, metti sul petto del bambino di sabbia un sassolino luminoso, 'perché il cuore gli pesi il giusto e il vento non se lo porti via così presto'. Lei sorride davvero per la prima volta. Non hai curato il suo lutto, ma l'hai accompagnato per un po'. A volte basta questo.",
+            "de": "Du kniest nieder und hilfst nach ihren Anweisungen, die kleinen Hände zu formen, während sie sich auf das Gesicht konzentriert. Ihr arbeitet schweigend, Schulter an Schulter, bis die Figur ganz und vollkommen ist. „Danke“, flüstert sie. „Niemand ist je geblieben, um mir zu helfen. Alle rennen erschrocken davon.“ Bevor der Wind zurückkehrt, legst du dem Sandkind einen glänzenden Kieselstein auf die Brust, „damit sein Herz gerade genug wiegt und der Wind es nicht so schnell mitnimmt“. Sie lächelt zum ersten Mal wirklich. Du hast ihre Trauer nicht geheilt, aber du hast sie eine Weile begleitet. Manchmal reicht das.",
+            "zh": "你跪下来，按照她的指导，帮忙塑造那双小手，而她则专注于脸部。你们肩并肩地默默工作着，直到雕像完整而完美。「谢谢你，」她低声说道。「从来没有人留下来帮过我。所有人都吓跑了。」在风再次吹起之前，你在这个沙之孩子的胸口放了一颗闪亮的鹅卵石，「这样他的心就有恰到好处的重量，不会那么快被风带走了」。她第一次真正地笑了。你没能治愈她的悲伤，但你陪伴了她一会儿。有时，这就足够了。",
+            "ja": "膝をつき、彼女の指示に従って、彼女が顔に集中している間、小さな手を形作るのを手伝う。肩を並べて静かに作業を続け、姿が丸ごと完璧になるまで。「ありがとう」と彼女は囁く。「誰も残って手伝ってくれたことはありませんでした。皆、怖がって逃げてしまうのです」風が戻る前に、砂の子供の胸に光る小石を置く——「心臓がちょうどいい重さになって、風がすぐに連れ去らないように」彼女は初めて本当に微笑む。彼女の悲しみを癒すことはできなかったが、しばらく寄り添うことができた。時にそれで十分なのだ。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:bondad=+1;faceta:valor=+1"
+    },
+    "madre_opt_verdad": {
+        "type": "option",
+        "text": {
+            "es": "💬  Decirle, con suavidad, que su hijo ya no está y que puede descansar",
+            "en": "💬  Tell her, gently, that her son is gone and she may rest",
+            "fr": "💬  Lui dire, avec douceur, que son fils n'est plus là et qu'elle peut se reposer",
+            "it": "💬  Dirle, con dolcezza, che suo figlio non c'è più e che può riposare",
+            "de": "💬  Ihr sanft sagen, dass ihr Sohn nicht mehr da ist und sie sich ausruhen kann",
+            "zh": "💬  温柔地告诉她，她的儿子已经不在了，她可以休息了",
+            "ja": "💬  息子はもういないこと、休んでいいのだと優しく伝える"
+        },
+        "next": [
+            "madre_msg_verdad"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "madre_msg_verdad": {
+        "type": "message",
+        "text": {
+            "es": "Te arrodillas y le tomas las manos llenas de arena. 'Se ha ido', le dices con toda la ternura que tienes. 'Lo modelas cada día para no decírtelo. Pero puedes descansar. Él no querría verte aquí, borrándote con el viento.' La mujer se queda muy quieta. Por un momento temes haberla roto. Luego, despacio, algo se afloja en su cara y las lágrimas —secas desde hacía años— vuelven por fin. Llora largo rato en tu hombro. 'Ya lo sabía', musita al fin. 'Solo necesitaba que alguien lo dijera en voz alta conmigo.' Decir la verdad que duele, con amor, también es un acto de valor.",
+            "en": "You kneel and take her sand-covered hands. 'He's gone,' you tell her with all the tenderness you have. 'You sculpt him every day so you won't have to say it. But you can rest. He wouldn't want to see you here, erasing yourself with the wind.' The woman goes very still. For a moment you fear you've broken her. Then, slowly, something loosens in her face and the tears —dry for years— finally return. She weeps a long while on your shoulder. 'I knew,' she murmurs at last. 'I just needed someone to say it aloud with me.' Speaking the truth that hurts, with love, is also an act of courage.",
+            "fr": "Tu t'agenouilles et prends ses mains couvertes de sable. « Il est parti », lui dis-tu avec toute la tendresse dont tu disposes. « Tu le modèles chaque jour pour ne pas te le dire. Mais tu peux te reposer. Il ne voudrait pas te voir ici, t'effaçant avec le vent. » La femme reste très immobile. Pendant un instant, tu crains de l'avoir brisée. Puis, lentement, quelque chose se détend sur son visage et les larmes — sèches depuis des années — reviennent enfin. Elle pleure longtemps sur ton épaule. « Je le savais déjà », murmure-t-elle enfin. « J'avais juste besoin que quelqu'un le dise à voix haute avec moi. » Dire la vérité qui fait mal, avec amour, est aussi un acte de courage.",
+            "it": "Ti inginocchi e le prendi le mani coperte di sabbia. 'Se n'è andato', le dici con tutta la tenerezza che hai. 'Lo modelli ogni giorno per non doverlo dire. Ma puoi riposare. Lui non vorrebbe vederti qui, a cancellarti col vento.' La donna resta immobile. Per un momento temi di averla spezzata. Poi, lentamente, qualcosa si allenta sul suo viso e le lacrime —secche da anni— tornano finalmente. Piange a lungo sulla tua spalla. 'Lo sapevo già', mormora infine. 'Avevo solo bisogno che qualcuno lo dicesse ad alta voce con me.' Dire la verità che fa male, con amore, è anch'esso un atto di coraggio.",
+            "de": "Du kniest nieder und nimmst ihre mit Sand bedeckten Hände. „Er ist fort“, sagst du mit aller Zärtlichkeit, die du besitzt. „Du formst ihn jeden Tag, um es dir nicht sagen zu müssen. Aber du kannst dich ausruhen. Er würde nicht wollen, dass du hier bist und dich mit dem Wind auslöschst.“ Die Frau bleibt ganz still. Für einen Moment fürchtest du, sie gebrochen zu haben. Dann löst sich langsam etwas in ihrem Gesicht, und die Tränen — seit Jahren getrocknet — kehren endlich zurück. Sie weint lange an deiner Schulter. „Ich wusste es schon“, murmelt sie schließlich. „Ich brauchte nur jemanden, der es laut mit mir sagt.“ Die schmerzhafte Wahrheit liebevoll auszusprechen ist ebenfalls ein Akt des Mutes.",
+            "zh": "你跪下来，握住她那双满是沙子的手。「他已经走了，」你用你所拥有的全部温柔对她说。「你每天塑造他，就是为了不说出这句话。但你可以休息了。他不会想看到你在这里，被风一点点抹去。」那女人一动不动。有那么一刻，你担心自己伤害了她。然后，她的脸慢慢放松下来，那多年干涸的泪水终于再次流淌。她在你肩上哭了很久。「我早就知道了，」她最终喃喃道。「我只是需要有人陪我把它说出来。」用爱说出令人痛苦的真相，同样是一种勇气。",
+            "ja": "膝をつき、砂まみれの彼女の手を取る。「彼はもういません」ありったけの優しさを込めて言う。「それを言わずに済むよう、あなたは毎日彼を形作っているのです。でも休んでいいのです。彼は風とともに自分を消していくあなたをここで見たくはないでしょう」女性はとても静かになる。一瞬、彼女を壊してしまったのではないかと恐れる。それから、ゆっくりと彼女の顔から何かが緩み、何年も乾いていた涙がついに戻ってくる。彼女は長い間、お前の肩で泣く。「知っていたのです」ついに呟く。「ただ、誰かに一緒に声に出して言ってもらう必要があっただけなのです」痛みを伴う真実を、愛を込めて語ることもまた、勇気の行為なのだ。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:valor=+1;faceta:cordura=-1"
+    },
+    "madre_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  No te ves capaz. Alejarte en silencio y dejarla con su arena",
+            "en": "🚶  You can't face it. Slip away in silence and leave her to her sand",
+            "fr": "🚶  Tu ne t'en sens pas capable. T'éloigner en silence et la laisser à son sable",
+            "it": "🚶  Non ti senti in grado. Allontanarti in silenzio e lasciarla con la sua sabbia",
+            "de": "🚶  Du fühlst dich dazu nicht in der Lage. Sich schweigend entfernen und sie mit ihrem Sand allein lassen",
+            "zh": "🚶  你觉得自己无法承受。默默离开，留她与她的沙子在一起",
+            "ja": "🚶  そんな覚悟はできない。静かに立ち去り、砂とともに彼女を残す"
+        },
+        "next": [
+            "madre_msg_salir"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "madre_msg_salir": {
+        "type": "message",
+        "text": {
+            "es": "No te ves con fuerzas para meterte en un dolor tan hondo. Retrocedes despacio y la dejas modelando, hablándole al niño de arena que el viento volverá a borrar. Su voz dulce te acompaña duna abajo: 'Casi está, cariño, casi está.' Te dices que no era asunto tuyo, que cada cual llora como puede. Y aun así, cargas con su imagen mucho después de perderla de vista. Hay dolores ajenos de los que uno huye porque se parecen demasiado al propio.",
+            "en": "You don't feel strong enough to step into such deep pain. You back away slowly and leave her sculpting, speaking to the sand child the wind will erase again. Her sweet voice follows you down the dune: 'Almost done, sweetheart, almost done.' You tell yourself it was none of your business, that everyone grieves as best they can. And still, you carry her image long after she's out of sight. There are other people's sorrows we flee because they resemble our own too closely.",
+            "fr": "Tu ne te sens pas assez fort pour entrer dans une douleur aussi profonde. Tu recules lentement et la laisses en train de modeler, parlant à l'enfant de sable que le vent effacera à nouveau. Sa douce voix t'accompagne le long de la dune : « C'est presque fini, mon chéri, presque fini. » Tu te dis que ce n'était pas ton affaire, que chacun pleure comme il peut. Et pourtant, tu portes son image bien après l'avoir perdue de vue. Il y a des douleurs d'autrui que l'on fuit parce qu'elles ressemblent trop à la sienne.",
+            "it": "Non ti senti abbastanza forte per entrare in un dolore così profondo. Indietreggi lentamente e la lasci a modellare, parlando al bambino di sabbia che il vento cancellerà di nuovo. La sua dolce voce ti accompagna giù per la duna: 'È quasi fatto, tesoro, quasi fatto.' Ti dici che non era affare tuo, che ognuno piange come può. Eppure, porti con te la sua immagine molto dopo averla persa di vista. Ci sono dolori altrui da cui si fugge perché somigliano troppo al proprio.",
+            "de": "Du fühlst dich nicht stark genug, um in einen so tiefen Schmerz einzutreten. Du weichst langsam zurück und lässt sie formen, während sie mit dem Sandkind spricht, das der Wind wieder auslöschen wird. Ihre süße Stimme begleitet dich die Düne hinab: „Es ist fast fertig, Schatz, fast fertig.“ Du sagst dir, dass es nicht deine Angelegenheit war, dass jeder trauert, so gut er kann. Und dennoch trägst du ihr Bild noch lange, nachdem du sie aus den Augen verloren hast. Es gibt fremden Schmerz, vor dem wir fliehen, weil er dem eigenen zu sehr ähnelt.",
+            "zh": "你觉得自己没有足够的力量去承受这么深的痛苦。你慢慢退开，留下她继续塑形，对着那个风会再次抹去的沙之孩子说着话。她那甜美的声音伴随着你走下沙丘：「快好了，亲爱的，快好了。」你告诉自己这不是你的事，每个人都以自己的方式哀悼。然而，即使在你已经看不见她之后很久，你依然带着她的身影。有些他人的痛苦，我们之所以逃避，是因为它们与自己的痛苦太过相似。",
+            "ja": "そんな深い痛みに踏み込む強さは持ち合わせていないと感じる。ゆっくりと後退し、風が再び消してしまう砂の子供に語りかける彼女を残していく。彼女の甘い声が砂丘を下るお前について来る。「もうすぐできるわ、坊や、もうすぐよ」自分には関係のないことだ、誰もが自分なりに悲しむのだと自分に言い聞かせる。それでも、姿が見えなくなってからも、ずっとその姿を胸に抱え続ける。自分自身のものにあまりにも似ているがゆえに逃げてしまう、他人の悲しみというものがあるのだ。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:valor=-1"
+    }
+}

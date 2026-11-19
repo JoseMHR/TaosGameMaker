@@ -1,0 +1,95 @@
+﻿{
+    "id": "final_c",
+    "title": {
+        "es": "Final C — Negación",
+        "en": "Ending C — Denial",
+        "fr": "Fin C — Déni",
+        "it": "Finale C — Negazione",
+        "de": "Ende C — Verleugnung",
+        "zh": "结局C——否认",
+        "ja": "エンディングC——否認"
+    },
+    "desc": "El héroe en bucle y la mentira confortable. Aiden rechaza la verdad para vivir un cuento eterno en Sylphrena.",
+    "music": "world_zone1_flooded",
+    "on_finish": "end",
+    "ops": "gflag:ending_denial;questf:game_completed",
+    "slides": [
+        {
+            "bg": "bg_ending_c_1.png",
+            "speaker": {
+                "es": "Final C — Negación",
+                "en": "Ending C — Denial",
+                "fr": "Fin C — Déni",
+                "it": "Finale C — Negazione",
+                "de": "Ende C — Verleugnung",
+                "zh": "结局C——否认",
+                "ja": "エンディングC——否認"
+            },
+            "portrait": "",
+            "text": {
+                "es": "La Esfera le ofrece toda la verdad, entera, si solo mira dentro. Aiden aparta la vista. Con una calma que asusta, le da la espalda al Templo del Origen. 'No quiero saberlo', dice. 'Prefiero el cuento.'",
+                "en": "The Sphere offers him the whole truth, entire, if only he looks inside. Aiden turns his eyes away. With a calm that frightens, he turns his back on the Temple of Origin. 'I don't want to know,' he says. 'I prefer the story.'",
+                "fr": "La Sphère lui offre toute la vérité, entière, s'il regarde seulement à l'intérieur. Aiden détourne les yeux. Avec un calme effrayant, il tourne le dos au Temple de l'Origine. « Je ne veux pas le savoir », dit-il. « Je préfère le conte. »",
+                "it": "La Sfera gli offre tutta la verità, intera, se solo guarda dentro. Aiden distoglie lo sguardo. Con una calma che spaventa, volta le spalle al Tempio dell'Origine. 'Non voglio saperlo', dice. 'Preferisco la favola.'",
+                "de": "Die Sphäre bietet ihm die ganze Wahrheit, vollständig, wenn er nur hineinschaut. Aiden wendet den Blick ab. Mit erschreckender Ruhe kehrt er dem Tempel des Ursprungs den Rücken. „Ich will es nicht wissen“, sagt er. „Ich bevorzuge das Märchen.“",
+                "zh": "只要他愿意向内看，真理之球便会向他展示全部真相。可艾登移开了目光。他以一种令人心惊的平静，转身背对了起源神庙。「我不想知道，」他说，「我更喜欢那个童话。」",
+                "ja": "内側さえ覗けば、球は彼にすべての真実を与えるだろう。だがエイデンは目をそらす。恐ろしいほどの落ち着きで、起源の神殿に背を向ける。「知りたくない」と彼は言う。「おとぎ話の方がいい」"
+            },
+            "fx": {
+                "darken": 0.2,
+                "glow": 0.2
+            }
+        },
+        {
+            "bg": "bg_ending_c_2.png",
+            "speaker": {
+                "es": "Narrador",
+                "en": "Narrator",
+                "fr": "Narrateur",
+                "it": "Narratore",
+                "de": "Erzähler",
+                "zh": "旁白",
+                "ja": "ナレーター"
+            },
+            "portrait": "",
+            "text": {
+                "es": "Regresa a Sylphrena, la ciudad luminosa. En la plaza del mercado corre una niña con la risa de Elara — una cara que su mente construyó con cariño para no tener que decirle adiós jamás. Aiden la saluda cada mañana. Ella nunca envejece. Él tampoco pregunta por qué.",
+                "en": "He returns to Sylphrena, the city of light. In the market square runs a girl with Elara's laugh — a face his mind lovingly built so he'd never have to say goodbye. Aiden greets her every morning. She never grows older. He never asks why.",
+                "fr": "Il retourne à Sylphrena, la cité lumineuse. Sur la place du marché court une fillette au rire d'Elara — un visage que son esprit a tendrement construit pour ne jamais avoir à lui dire adieu. Aiden la salue chaque matin. Elle ne vieillit jamais. Lui non plus ne demande jamais pourquoi.",
+                "it": "Torna a Sylphrena, la città luminosa. Nella piazza del mercato corre una bambina con la risata di Elara — un volto che la sua mente ha costruito con affetto per non doverle mai dire addio. Aiden la saluta ogni mattina. Lei non invecchia mai. Lui non chiede mai perché.",
+                "de": "Er kehrt nach Sylphrena zurück, die leuchtende Stadt. Auf dem Marktplatz rennt ein Mädchen mit Elaras Lachen — ein Gesicht, das sein Geist liebevoll erschuf, damit er ihr niemals Lebewohl sagen muss. Aiden begrüßt sie jeden Morgen. Sie wird nie älter. Er fragt auch nie, warum.",
+                "zh": "他回到了光辉之城希尔芙蕾娜。市集广场上，一个笑声和艾拉拉一模一样的小女孩在奔跑——那是他的心智出于爱意塑造出的面容，好让他永远不必对她说再见。艾登每天早晨都向她问好。她从不长大。他也从不追问原因。",
+                "ja": "彼は光の都シルフレナへと戻る。市場の広場を、エララと同じ笑い声を持つ少女が駆けていく——二度と別れを告げずに済むよう、彼の心が愛情を込めて作り上げた顔だ。エイデンは毎朝彼女に挨拶する。彼女は決して歳を取らない。彼もまた、その理由を問うことはない。"
+            },
+            "fx": {
+                "darken": 0.15,
+                "glow": 0.3
+            }
+        },
+        {
+            "bg": "bg_ending_c_3.png",
+            "speaker": {
+                "es": "Narrador",
+                "en": "Narrator",
+                "fr": "Narrateur",
+                "it": "Narratore",
+                "de": "Erzähler",
+                "zh": "旁白",
+                "ja": "ナレーター"
+            },
+            "portrait": "",
+            "text": {
+                "es": "Una vida perfecta, en bucle, para siempre. Heroica, luminosa, sin culpa. Y falsa. En el silencio de cada noche, bajo la sonrisa, algo muy hondo en él sigue sabiendo la verdad — y elige, otra vez, no escucharla.",
+                "en": "A perfect life, on loop, forever. Heroic, luminous, guiltless. And false. In the silence of each night, beneath the smile, something very deep in him still knows the truth — and chooses, once again, not to listen.",
+                "fr": "Une vie parfaite, en boucle, pour toujours. Héroïque, lumineuse, sans culpabilité. Et fausse. Dans le silence de chaque nuit, sous le sourire, quelque chose de très profond en lui connaît encore la vérité — et choisit, une fois de plus, de ne pas l'écouter.",
+                "it": "Una vita perfetta, in loop, per sempre. Eroica, luminosa, senza colpa. E falsa. Nel silenzio di ogni notte, sotto il sorriso, qualcosa di molto profondo in lui conosce ancora la verità — e sceglie, ancora una volta, di non ascoltarla.",
+                "de": "Ein perfektes Leben, in Schleife, für immer. Heldenhaft, leuchtend, schuldlos. Und falsch. In der Stille jeder Nacht, unter dem Lächeln, weiß etwas sehr Tiefes in ihm noch immer die Wahrheit — und entscheidet sich, wieder einmal, sie nicht zu hören.",
+                "zh": "一段完美的人生，循环往复，永无止境。英勇、光辉、毫无愧疚。却也是虚假的。在每一个夜晚的寂静中，在那微笑之下，他内心深处仍有某种东西知道真相——却一次又一次地选择不去聆听。",
+                "ja": "完璧な人生が、永遠にループし続ける。英雄的で、輝かしく、罪もない。そして、偽りの人生だ。夜ごとの静寂の中、微笑みの下で、彼の内なる深いところにある何かは、今もなお真実を知っている——そして再び、それに耳を貸さないことを選ぶ。"
+            },
+            "fx": {
+                "darken": 0.25
+            }
+        }
+    ]
+}

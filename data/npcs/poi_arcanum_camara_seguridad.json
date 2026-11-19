@@ -1,0 +1,167 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "La Cámara que lo Vio Todo",
+            "en": "The Camera That Saw Everything",
+            "fr": "La Caméra qui a Tout Vu",
+            "it": "La Telecamera che ha Visto Tutto",
+            "de": "Die Kamera, die Alles Sah",
+            "zh": "见证了一切的摄像头",
+            "ja": "すべてを見たカメラ"
+        },
+        "next": [],
+        "reward": "avatar=📹;bg=0.07,0.08,0.10"
+    },
+    "camara_root": {
+        "type": "message",
+        "text": {
+            "es": "En una esquina en ruinas, una cámara de vigilancia oxidada gira con un zumbido y te enfoca. Un altavoz reventado escupe una voz plana y femenina: 'Sujeto identificado. Reproduciendo grabaciones archivadas...' Y entonces empieza a narrar, con frialdad de informe, cosas de tu vida: la vez que mentiste y dejaste que otro cargara con la culpa; la promesa que no cumpliste; aquella noche en el hospital. Cosas que NUNCA has contado a nadie. La luz roja de grabación parpadea, imperturbable. 'Continúa la reproducción', dice. '¿Desea que siga?'",
+            "en": "In a ruined corner, a rusted security camera swivels with a hum and focuses on you. A blown speaker spits out a flat, female voice: 'Subject identified. Playing archived recordings...' And then it begins to narrate, with the coldness of a report, things from your life: the time you lied and let someone else take the blame; the promise you didn't keep; that night in the hospital. Things you have NEVER told anyone. The red recording light blinks, unperturbed. 'Playback continues,' it says. 'Do you wish me to go on?'",
+            "fr": "Dans un coin en ruines, une caméra de surveillance rouillée pivote avec un bourdonnement et se braque sur toi. Un haut-parleur crevé crache une voix plate et féminine : « Sujet identifié. Lecture des enregistrements archivés... » Et elle commence alors à narrer, avec la froideur d'un rapport, des choses de ta vie : la fois où tu as menti et laissé quelqu'un d'autre porter la faute ; la promesse que tu n'as pas tenue ; cette nuit-là à l'hôpital. Des choses que tu n'as JAMAIS racontées à personne. Le voyant rouge d'enregistrement clignote, imperturbable. « Lecture en cours », dit-elle. « Souhaitez-vous que je continue ? »",
+            "it": "In un angolo in rovina, una telecamera di sorveglianza arrugginita gira con un ronzio e si punta su di te. Un altoparlante scoppiato sputa una voce piatta e femminile: 'Soggetto identificato. Riproduzione delle registrazioni archiviate...' E allora inizia a narrare, con la freddezza di un rapporto, cose della tua vita: la volta che mentisti e lasciasti che un altro portasse la colpa; la promessa che non mantenesti; quella notte in ospedale. Cose che non hai MAI raccontato a nessuno. La luce rossa di registrazione lampeggia, imperturbabile. 'Riproduzione in corso', dice. 'Desidera che continui?'",
+            "de": "In einer verfallenen Ecke dreht sich eine verrostete Überwachungskamera mit einem Summen und fokussiert dich. Ein kaputter Lautsprecher spuckt eine flache, weibliche Stimme aus: „Subjekt identifiziert. Archivierte Aufnahmen werden abgespielt...“ Und dann beginnt sie, mit der Kälte eines Berichts, Dinge aus deinem Leben zu erzählen: das Mal, als du gelogen hast und jemand anderen die Schuld tragen ließest; das Versprechen, das du nicht gehalten hast; jene Nacht im Krankenhaus. Dinge, die du NIEMALS jemandem erzählt hast. Das rote Aufnahmelicht blinkt, unbeeindruckt. „Wiedergabe läuft weiter“, sagt sie. „Möchten Sie, dass ich fortfahre?“",
+            "zh": "在一个废墟角落里，一台生锈的监控摄像头带着嗡嗡声转动，聚焦在你身上。一个损坏的扬声器发出一个平淡的女性声音：「已识别目标。正在播放存档录像……」接着它开始以报告般的冷酷叙述你人生中的种种事情：那次你撒谎让别人替你背了黑锅；那个你没有兑现的承诺；医院里的那个夜晚。你从未告诉过任何人的事情。红色的录制指示灯毫不动摇地闪烁着。「回放继续，」它说道。「您希望我继续吗？」",
+            "ja": "廃墟の一角で、錆びついた監視カメラが唸りながら旋回し、お前に焦点を合わせる。壊れたスピーカーが平坦な女性の声を吐き出す。「対象を識別しました。保存記録を再生します……」そして報告書のような冷たさで、お前の人生の出来事を語り始める——嘘をついて誰かに罪をなすりつけたあの時、守らなかった約束、あの病院での夜。誰にも決して話したことのないこと。赤い録画ランプは平然と点滅している。「再生を続けます」と言う。「続行をご希望ですか？」"
+        },
+        "next": [
+            "camara_opt_enfrentar",
+            "camara_opt_apagar",
+            "camara_opt_preguntar",
+            "camara_opt_huir"
+        ],
+        "reward": ""
+    },
+    "camara_opt_enfrentar": {
+        "type": "option",
+        "text": {
+            "es": "🎙️  Mirar al objetivo y responder en voz alta a cada cosa que te reprocha",
+            "en": "🎙️  Look into the lens and answer aloud to everything it throws at you",
+            "fr": "🎙️  Regarder l'objectif et répondre à voix haute à tout ce qu'elle te reproche",
+            "it": "🎙️  Guardare l'obiettivo e rispondere ad alta voce a ogni cosa che ti rimprovera",
+            "de": "🎙️  In die Linse blicken und laut auf alles antworten, was sie dir vorwirft",
+            "zh": "🎙️  望向镜头，大声回应它指责的每一件事",
+            "ja": "🎙️  レンズを見つめ、責められることすべてに声に出して答える"
+        },
+        "next": [
+            "camara_msg_enfrentar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "camara_msg_enfrentar": {
+        "type": "message",
+        "text": {
+            "es": "Te plantas ante el objetivo y, en vez de callar, contestas. 'Sí. Mentí. Sí, rompí esa promesa. Y sí, esa noche pasó y no hay día que no la reviva.' Lo dices todo, sin excusas, mirando a la lente como quien mira a los ojos. La cámara procesa un segundo y su voz cambia de tono: 'Reconocimiento completo. Cuando el sujeto acepta la grabación, esta deja de tener poder sobre él.' La luz roja se apaga. No has borrado lo que hiciste, pero por fin lo has dicho en voz alta, y algo pesa menos. Enfrentar la propia culpa de frente es la clase de valentía que no tiene testigos.",
+            "en": "You stand before the lens and, instead of staying silent, you answer. 'Yes. I lied. Yes, I broke that promise. And yes, that night happened and there's not a day I don't relive it.' You say it all, no excuses, looking into the lens the way you'd look someone in the eye. The camera processes a second and its voice shifts: 'Acknowledgment complete. When the subject accepts the recording, it loses its power over them.' The red light goes dark. You haven't erased what you did, but you've finally said it aloud, and something weighs less. Facing your own guilt head-on is the kind of courage that has no witnesses.",
+            "fr": "Tu te plantes devant l'objectif et, au lieu de te taire, tu réponds. « Oui. J'ai menti. Oui, j'ai brisé cette promesse. Et oui, cette nuit-là s'est produite et il n'y a pas un jour où je ne la revis pas. » Tu dis tout, sans excuses, en regardant l'objectif comme on regarde quelqu'un dans les yeux. La caméra traite l'information une seconde et sa voix change de ton : « Reconnaissance complète. Quand le sujet accepte l'enregistrement, celui-ci cesse d'avoir du pouvoir sur lui. » Le voyant rouge s'éteint. Tu n'as pas effacé ce que tu as fait, mais tu l'as enfin dit à voix haute, et quelque chose pèse moins. Affronter sa propre culpabilité en face est le genre de courage qui n'a pas de témoins.",
+            "it": "Ti pianti davanti all'obiettivo e, invece di tacere, rispondi. 'Sì. Ho mentito. Sì, ho rotto quella promessa. E sì, quella notte accadde e non c'è giorno in cui non la riviva.' Dici tutto, senza scuse, guardando la lente come si guarda negli occhi. La telecamera elabora un secondo e la sua voce cambia tono: 'Riconoscimento completo. Quando il soggetto accetta la registrazione, questa smette di avere potere su di lui.' La luce rossa si spegne. Non hai cancellato quello che hai fatto, ma finalmente l'hai detto ad alta voce, e qualcosa pesa meno. Affrontare la propria colpa faccia a faccia è il tipo di coraggio che non ha testimoni.",
+            "de": "Du stellst dich vor die Linse und antwortest, statt zu schweigen. „Ja. Ich habe gelogen. Ja, ich habe dieses Versprechen gebrochen. Und ja, jene Nacht geschah, und es vergeht kein Tag, an dem ich sie nicht wiedererlebe.“ Du sagst alles, ohne Ausreden, und blickst in die Linse, wie man jemandem in die Augen sieht. Die Kamera verarbeitet eine Sekunde und ihre Stimme ändert den Ton: „Anerkennung abgeschlossen. Wenn das Subjekt die Aufnahme akzeptiert, verliert sie ihre Macht über es.“ Das rote Licht erlischt. Du hast nicht ausgelöscht, was du getan hast, aber du hast es endlich laut gesagt, und etwas wiegt weniger. Der eigenen Schuld direkt ins Gesicht zu blicken, ist die Art von Mut, die keine Zeugen hat.",
+            "zh": "你站在镜头前，没有沉默，而是回答了。「是的。我说谎了。是的，我打破了那个承诺。是的，那个夜晚确实发生过，没有一天我不重新经历它。」你把一切都说了出来，没有任何借口，直视着镜头，像是在直视一个人的眼睛。摄像头处理了一秒钟，声音的语气变了：「确认完成。当受试者接受录像时，它便不再对他有任何权力。」红灯熄灭了。你没有抹去你所做过的事，但你终于把它大声说了出来，某种重担减轻了。直面自己的愧疚，是一种没有见证者的勇气。",
+            "ja": "レンズの前に立ち、黙る代わりに答える。「そうだ。嘘をついた。そうだ、あの約束を破った。そしてそうだ、あの夜は起きたことであり、それを追体験しない日は一日もない」何の言い訳もせず、誰かの目を見つめるようにレンズを見つめてすべてを語る。カメラは一秒間処理し、声の調子が変わる。「承認完了。対象が記録を受け入れると、それは対象への支配力を失います」赤い光が消える。したことを消し去ったわけではないが、ついに声に出して言えた。何かが軽くなる。自分自身の罪に正面から向き合うことは、証人のいない種類の勇気なのだ。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:valor=+1;faceta:cordura=+1"
+    },
+    "camara_opt_preguntar": {
+        "type": "option",
+        "text": {
+            "es": "❓  Preguntarle quién la programó para vigilar recuerdos ajenos",
+            "en": "❓  Ask who programmed it to surveil other people's memories",
+            "fr": "❓  Lui demander qui l'a programmée pour surveiller les souvenirs des autres",
+            "it": "❓  Chiederle chi l'ha programmata per sorvegliare i ricordi altrui",
+            "de": "❓  Sie fragen, wer sie programmierte, um fremde Erinnerungen zu überwachen",
+            "zh": "❓  询问它是谁编程让它监视他人的记忆",
+            "ja": "❓  誰が他人の記憶を監視するようにプログラムしたのかを尋ねる"
+        },
+        "next": [
+            "camara_msg_preguntar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "camara_msg_preguntar": {
+        "type": "message",
+        "text": {
+            "es": "'Fui instalada por Arcanum en la Sección de Estudios de la Culpa', recita la cámara. 'Objetivo del proyecto: demostrar que todo dolor humano puede grabarse, catalogarse y reproducirse a voluntad. Que la memoria es solo un archivo que puede editarse. El proyecto se canceló cuando los sujetos empezaron a preferir mis grabaciones falsas a sus recuerdos reales.' Un escalofrío. Es exactamente la clase de horror que convirtió esta ciudad en un cementerio: gente a la que le vendieron olvidar. Te guardas el dato; entender a Arcanum es entender lo que le pasó al mundo.",
+            "en": "'I was installed by Arcanum in the Guilt Studies Section,' the camera recites. 'Project objective: to prove that all human pain can be recorded, catalogued and played back at will. That memory is only a file that can be edited. The project was cancelled when subjects began to prefer my false recordings to their real memories.' A chill. It's exactly the kind of horror that turned this city into a graveyard: people sold the chance to forget. You file the detail away; understanding Arcanum is understanding what happened to the world.",
+            "fr": "« J'ai été installée par Arcanum dans la Section des Études de la Culpabilité », récite la caméra. « Objectif du projet : démontrer que toute douleur humaine peut être enregistrée, cataloguée et rejouée à volonté. Que la mémoire n'est qu'un fichier qui peut être édité. Le projet a été annulé quand les sujets ont commencé à préférer mes fausses données à leurs vrais souvenirs. » Un frisson. C'est exactement le genre d'horreur qui a transformé cette ville en cimetière : des gens à qui l'on a vendu l'oubli. Tu gardes cette information ; comprendre Arcanum, c'est comprendre ce qui est arrivé au monde.",
+            "it": "'Fui installata da Arcanum nella Sezione degli Studi sulla Colpa', recita la telecamera. 'Obiettivo del progetto: dimostrare che ogni dolore umano può essere registrato, catalogato e riprodotto a piacere. Che la memoria è solo un file che può essere modificato. Il progetto fu cancellato quando i soggetti iniziarono a preferire le mie registrazioni false ai loro ricordi reali.' Un brivido. È esattamente il tipo di orrore che trasformò questa città in un cimitero: gente a cui vendettero l'oblio. Conservi il dato; capire Arcanum è capire cosa accadde al mondo.",
+            "de": "„Ich wurde von Arcanum in der Sektion für Schuldstudien installiert“, rezitiert die Kamera. „Projektziel: zu beweisen, dass jeglicher menschliche Schmerz aufgezeichnet, katalogisiert und nach Belieben abgespielt werden kann. Dass das Gedächtnis nur eine Datei ist, die bearbeitet werden kann. Das Projekt wurde eingestellt, als die Probanden begannen, meine falschen Aufnahmen ihren echten Erinnerungen vorzuziehen.“ Ein Schauer. Es ist genau die Art von Grauen, die diese Stadt in einen Friedhof verwandelte: Menschen, denen das Vergessen verkauft wurde. Du merkst dir das Detail; Arcanum zu verstehen bedeutet, zu verstehen, was mit der Welt geschah.",
+            "zh": "「我是被奥秘遗迹安装在愧疚研究部门的，」摄像头背诵道。「项目目标：证明所有人类的痛苦都可以被记录、分类，并随意重播。记忆只是一个可以被编辑的文件。当受试者开始更愿意相信我伪造的记录，而不是他们真实的记忆时，这个项目被取消了。」一阵寒意。这正是把这座城市变成一片墓地的那种恐怖：人们被卖掉了遗忘的机会。你把这个细节记下来；理解奥秘遗迹，就是理解这个世界发生了什么。",
+            "ja": "「私はアルカナムの罪悪感研究部門に設置されました」カメラは暗唱する。「プロジェクトの目的：あらゆる人間の苦痛が記録され、分類され、自由に再生できることを証明すること。記憶とは編集可能なファイルに過ぎないこと。被験者が私の偽の記録を本物の記憶よりも好むようになった時、プロジェクトは中止されました」身震いする。それはまさに、この街を墓地に変えた種類の恐怖だ——忘れる機会を売られた人々。その詳細を心に留める。アルカナムを理解することは、世界に何が起きたかを理解することなのだ。"
+        },
+        "next": [
+            "camara_root"
+        ],
+        "reward": "faceta:inteligencia=+1"
+    },
+    "camara_opt_apagar": {
+        "type": "option",
+        "text": {
+            "es": "🔌  Arrancarle los cables para que se calle de una vez",
+            "en": "🔌  Rip out its cables to shut it up for good",
+            "fr": "🔌  Lui arracher les câbles pour la faire taire une fois pour toutes",
+            "it": "🔌  Strapparle i cavi per farla tacere una volta per tutte",
+            "de": "🔌  Ihre Kabel herausreißen, um sie endgültig zum Schweigen zu bringen",
+            "zh": "🔌  扯断它的电缆，让它彻底闭嘴",
+            "ja": "🔌  ケーブルを引きちぎり、永久に黙らせる"
+        },
+        "next": [
+            "camara_msg_apagar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "camara_msg_apagar": {
+        "type": "message",
+        "text": {
+            "es": "Le arrancas los cables de cuajo. La voz se ralentiza hasta un gruñido grave y la luz roja muere. Silencio. Pero mientras te alejas, no puedes evitar pensar que apagar la cámara no borra lo que grabó: solo hace que dejes de oírlo. Lo que te reprochaba sigue ahí, en el único archivo que no se puede desconectar: tú. Callar a quien te dice la verdad incómoda es fácil; lo difícil es que deje de ser verdad.",
+            "en": "You tear its cables clean out. The voice slows to a low growl and the red light dies. Silence. But as you walk away, you can't help thinking that switching the camera off doesn't erase what it recorded: it only stops you from hearing it. What it reproached you with is still there, in the one archive that can't be unplugged: you. Silencing whoever tells you the uncomfortable truth is easy; the hard part is making it stop being true.",
+            "fr": "Tu lui arraches les câbles d'un coup. La voix ralentit jusqu'à un grognement grave et le voyant rouge meurt. Silence. Mais en t'éloignant, tu ne peux t'empêcher de penser qu'éteindre la caméra n'efface pas ce qu'elle a enregistré : ça t'empêche juste de l'entendre. Ce qu'elle te reprochait est toujours là, dans le seul fichier qu'on ne peut débrancher : toi. Faire taire celui qui te dit la vérité gênante est facile ; le difficile est qu'elle cesse d'être vraie.",
+            "it": "Le strappi via i cavi di netto. La voce rallenta fino a un ringhio grave e la luce rossa muore. Silenzio. Ma mentre te ne vai, non puoi fare a meno di pensare che spegnere la telecamera non cancella quello che ha registrato: fa solo sì che tu smetta di sentirlo. Quello che ti rimproverava è ancora lì, nell'unico archivio che non si può scollegare: te. Zittire chi ti dice la verità scomoda è facile; il difficile è che smetta di essere vera.",
+            "de": "Du reißt ihr die Kabel klar heraus. Die Stimme verlangsamt sich zu einem tiefen Knurren, und das rote Licht erlischt. Stille. Doch während du gehst, kannst du nicht anders, als zu denken, dass das Ausschalten der Kamera nicht löscht, was sie aufgezeichnet hat: es hindert dich nur daran, es zu hören. Was sie dir vorwarf, ist immer noch da, in dem einzigen Archiv, das man nicht abstöpseln kann: dich selbst. Denjenigen zum Schweigen zu bringen, der dir die unbequeme Wahrheit sagt, ist leicht; das Schwierige ist, dass sie aufhört, wahr zu sein.",
+            "zh": "你一把扯断它的电缆。声音渐渐减弱成一声低沉的咆哮，红灯熄灭了。寂静。但当你离开时，你忍不住想到，关掉摄像头并不能抹去它录下的东西：只是让你不再听到它而已。它指责你的那些事情依然存在，存在于唯一一个无法被拔掉插头的档案里：你自己。让那个告诉你不舒服真相的人闭嘴很容易；难的是让它不再是真相。",
+            "ja": "そのケーブルをきれいに引きちぎる。声は低い唸りへと減速し、赤い光が消える。静寂。だが立ち去りながら、カメラを消しても記録したものが消えるわけではなく、ただ聞こえなくなるだけだと考えずにはいられない。それが責めていたものは今もそこにある——決して抜くことのできない唯一のアーカイブ、お前自身の中に。不快な真実を語る者を黙らせるのは簡単だ。難しいのは、それが真実であることをやめさせることだ。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:cordura=-1"
+    },
+    "camara_opt_huir": {
+        "type": "option",
+        "text": {
+            "es": "🏃  No quieres oír ni una palabra más. Salir corriendo de su campo de visión",
+            "en": "🏃  You don't want to hear another word. Run out of its field of view",
+            "fr": "🏃  Tu ne veux pas entendre un mot de plus. Sortir en courant de son champ de vision",
+            "it": "🏃  Non vuoi sentire nemmeno una parola in più. Uscire correndo dal suo campo visivo",
+            "de": "🏃  Du willst kein Wort mehr hören. Aus ihrem Sichtfeld rennen",
+            "zh": "🏃  你不想再听一个字。跑出它的视野范围",
+            "ja": "🏃  もう一言も聞きたくない。視界の外へ走り出る"
+        },
+        "next": [
+            "camara_msg_huir"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "camara_msg_huir": {
+        "type": "message",
+        "text": {
+            "es": "Sales de su ángulo a toda prisa, pero la voz plana te persigue subiendo el volumen: 'El sujeto abandona la sesión. Nota de archivo: la evitación es el comportamiento más frecuente. Se conservará la grabación para su próxima visita.' Doblas la esquina y ya no la oyes. Has escapado de la cámara, pero no de lo que sabía. Hay verdades que corren más rápido que tú.",
+            "en": "You bolt out of its angle, but the flat voice chases you, raising its volume: 'Subject abandons the session. Archive note: avoidance is the most frequent behavior. The recording will be preserved for their next visit.' You round the corner and can't hear it anymore. You've escaped the camera, but not what it knew. There are truths that run faster than you.",
+            "fr": "Tu sors de son angle à toute vitesse, mais la voix plate te poursuit en montant le volume : « Le sujet abandonne la session. Note d'archive : l'évitement est le comportement le plus fréquent. L'enregistrement sera conservé pour sa prochaine visite. » Tu tournes le coin et tu ne l'entends plus. Tu as échappé à la caméra, mais pas à ce qu'elle savait. Il y a des vérités qui courent plus vite que toi.",
+            "it": "Esci dal suo angolo a tutta velocità, ma la voce piatta ti insegue alzando il volume: 'Il soggetto abbandona la sessione. Nota d'archivio: l'evitamento è il comportamento più frequente. La registrazione sarà conservata per la sua prossima visita.' Giri l'angolo e non la senti più. Sei sfuggito alla telecamera, ma non a quello che sapeva. Ci sono verità che corrono più veloci di te.",
+            "de": "Du verlässt eilig ihren Blickwinkel, aber die flache Stimme verfolgt dich mit erhobener Lautstärke: „Subjekt bricht die Sitzung ab. Archivnotiz: Vermeidung ist das häufigste Verhalten. Die Aufnahme wird für seinen nächsten Besuch aufbewahrt.“ Du biegst um die Ecke und hörst sie nicht mehr. Du bist der Kamera entkommen, aber nicht dem, was sie wusste. Es gibt Wahrheiten, die schneller laufen als du.",
+            "zh": "你飞速逃出它的视线范围，但那平淡的声音追着你，音量还提高了：「受试者放弃了会话。存档记录：回避是最常见的行为。此录像将保留至他下次访问。」你拐过弯，再也听不见它了。你逃脱了摄像头，但没有逃脱它所知道的东西。有些真相跑得比你更快。",
+            "ja": "その視界から急いで出るが、平坦な声は音量を上げながら追いかけてくる。「対象はセッションを放棄しました。記録メモ：回避は最も頻繁に見られる行動です。次回の訪問のために記録は保存されます」角を曲がると、もう聞こえなくなる。カメラからは逃げたが、それが知っていたことからは逃げられなかった。お前より速く走る真実というものがあるのだ。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:valor=-1"
+    }
+}

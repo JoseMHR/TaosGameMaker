@@ -1,0 +1,757 @@
+{
+    "name": {
+        "es": "Túnel de las Colinas",
+        "en": "Hill Tunnel",
+        "fr": "Tunnel des Collines",
+        "it": "Tunnel delle Colline",
+        "de": "Hügeltunnel",
+        "zh": "丘陵隧道",
+        "ja": "丘陵トンネル"
+    },
+    "theme": "cave",
+    "boss": "orco_berserker",
+    "boss_level": 99,
+    "music": "dungeon",
+    "cell_size": 5,
+    "wall_height": 5,
+    "ceiling": true,
+    "fog": true,
+    "ambient_energy": 0.45,
+    "ambient_color": "#3a3330",
+    "fill_light": 0.25,
+    "spawn": {
+        "f": 0,
+        "x": 2,
+        "y": 12
+    },
+    "portals": {
+        "west": {
+            "spawn": {
+                "f": 0,
+                "x": 2,
+                "y": 13
+            }
+        },
+        "east": {
+            "spawn": {
+                "f": 0,
+                "x": 2,
+                "y": 2
+            }
+        }
+    },
+    "floors": [
+        {
+            "name": "Planta 0",
+            "w": 10,
+            "h": 16,
+            "cells": [
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "teleport",
+                        "portal": "east",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "torch",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "torch",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "monster",
+                        "ref": "orco_berserker",
+                        "level": 99,
+                        "boss": true,
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "torch",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "torch",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "lever",
+                        "eid": "lever_d1_spikes",
+                        "state": "off",
+                        "targets": [
+                            {
+                                "eid": "d1_spikes_1",
+                                "action": "open"
+                            },
+                            {
+                                "eid": "d1_spikes_2",
+                                "action": "open"
+                            },
+                            {
+                                "eid": "d1_spikes_3",
+                                "action": "open"
+                            },
+                            {
+                                "eid": "d1_spikes_4",
+                                "action": "open"
+                            }
+                        ],
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "d1_spikes_1",
+                        "state": "closed"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "d1_spikes_2",
+                        "state": "closed"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "d1_spikes_3",
+                        "state": "closed"
+                    },
+                    {
+                        "t": "spikes",
+                        "eid": "d1_spikes_4",
+                        "state": "closed"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "chest",
+                        "gold": 100,
+                        "rot": 270
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "torch",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "torch",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "teleport",
+                        "portal": "west",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    }
+                ]
+            ]
+        }
+    ],
+    "id": "dun_yelmo",
+    "tex_wall": "tex_cave_wall",
+    "tex_floor": "tex_cave_wall"
+}

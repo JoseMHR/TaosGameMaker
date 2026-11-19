@@ -1,0 +1,167 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Abismo que Susurra",
+            "en": "The Whispering Abyss",
+            "fr": "L'Abîme qui Chuchote",
+            "it": "L'Abisso che Sussurra",
+            "de": "Der Flüsternde Abgrund",
+            "zh": "低语的深渊",
+            "ja": "囁く深淵"
+        },
+        "next": [],
+        "reward": "avatar=🕳️;bg=0.03,0.03,0.05"
+    },
+    "abismo_root": {
+        "type": "message",
+        "text": {
+            "es": "El suelo del vacío se abre en una grieta sin fondo. De ella sube un aire tibio y una voz dulcísima, casi maternal, que te llama por tu nombre: 'Aiden... estás tan cansado... Yo puedo quitártelo todo. La culpa, el recuerdo de Elara, la noche de Elena, el peso que arrastras desde hace once días. Solo tienes que dejarte caer. Un paso. Y por fin, nada. Ni dolor, ni memoria, ni tú. ¿No sería un descanso?' El borde te llama. Sería tan fácil.",
+            "en": "The floor of the void splits into a bottomless rift. From it rises a warm air and a sweetest voice, almost motherly, calling you by name: 'Aiden... you're so tired... I can take it all away. The guilt, the memory of Elara, Elena's night, the weight you've dragged for eleven days. You only have to let yourself fall. One step. And at last, nothing. No pain, no memory, no you. Wouldn't that be a rest?' The edge calls to you. It would be so easy.",
+            "fr": "Le sol du vide s'ouvre sur une crevasse sans fond. Il en monte un air chaud et une voix très douce, presque maternelle, qui t'appelle par ton nom : « Aiden... tu es si fatigué... Je peux tout t'enlever. La culpabilité, le souvenir d'Elara, la nuit d'Elena, le poids que tu traînes depuis onze jours. Tu n'as qu'à te laisser tomber. Un pas. Et enfin, plus rien. Ni douleur, ni mémoire, ni toi. Ne serait-ce pas un repos ? » Le bord t'appelle. Ce serait si facile.",
+            "it": "Il suolo del vuoto si apre in una crepa senza fondo. Da essa sale un'aria calda e una voce dolcissima, quasi materna, che ti chiama per nome: 'Aiden... sei così stanco... Posso toglierti tutto. La colpa, il ricordo di Elara, la notte di Elena, il peso che trascini da undici giorni. Devi solo lasciarti cadere. Un passo. E finalmente, niente. Né dolore, né memoria, né te. Non sarebbe un riposo?' Il bordo ti chiama. Sarebbe così facile.",
+            "de": "Der Boden der Leere öffnet sich zu einer bodenlosen Kluft. Aus ihr steigt eine warme Luft und eine sehr süße, fast mütterliche Stimme auf, die dich bei deinem Namen ruft: „Aiden... du bist so müde... Ich kann dir alles nehmen. Die Schuld, die Erinnerung an Elara, die Nacht von Elena, die Last, die du seit elf Tagen trägst. Du musst dich nur fallen lassen. Ein Schritt. Und endlich, nichts. Kein Schmerz, keine Erinnerung, kein du mehr. Wäre das nicht eine Ruhe?“ Der Rand ruft dich. Es wäre so einfach.",
+            "zh": "虚空的地面裂开了一道无底的深渊。从中升起温暖的空气，还有一个极为甜美、近乎母性的声音，唤着你的名字：「艾登……你如此疲惫……我可以把一切都拿走。愧疚，艾拉拉的记忆，艾琳娜的那个夜晚，你已经背负了十一天的重担。你只需要让自己坠落。一步。然后，终于，什么都没有了。没有痛苦，没有记忆，也没有你。那难道不是一种休息吗？」深渊的边缘在呼唤着你。这会是如此简单的事。",
+            "ja": "虚空の床が底なしの裂け目を開く。そこから温かい空気と、極めて甘い、母性を感じさせる声が、お前の名前を呼びながら立ち上る。「エイデン……とても疲れているのね……すべてを取り除いてあげられるわ。罪悪感、エララの記憶、エレナの夜、十一日間背負ってきた重荷。ただ身を任せて落ちればいいだけ。一歩。そしてついに、何もなくなる。痛みも記憶もお前自身も。それは休息にならない？」縁がお前を呼んでいる。それはとても簡単なことのように思える。"
+        },
+        "next": [
+            "abismo_opt_resistir",
+            "abismo_opt_hablar",
+            "abismo_opt_asomar",
+            "abismo_opt_ceder"
+        ],
+        "reward": ""
+    },
+    "abismo_opt_resistir": {
+        "type": "option",
+        "text": {
+            "es": "🛡️  Apartarte del borde con firmeza: tu dolor es tuyo y no lo entregas",
+            "en": "🛡️  Step firmly back from the edge: your pain is yours and you won't give it up",
+            "fr": "🛡️  T'écarter fermement du bord : ta douleur est à toi et tu ne la donnes pas",
+            "it": "🛡️  Allontanarti con fermezza dal bordo: il tuo dolore è tuo e non lo consegni",
+            "de": "🛡️  Dich fest vom Rand zurückziehen: dein Schmerz gehört dir, und du gibst ihn nicht auf",
+            "zh": "🛡️  坚定地退离边缘：你的痛苦是你自己的，绝不交出",
+            "ja": "🛡️  縁からきっぱりと後退する：お前の痛みはお前自身のものであり、渡さない"
+        },
+        "next": [
+            "abismo_msg_resistir"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "abismo_msg_resistir": {
+        "type": "message",
+        "text": {
+            "es": "Cierras los puños, clavas los talones y das un paso ATRÁS. 'No', dices en voz alta, y te tiembla la voz pero no las piernas. 'La culpa es mía. El recuerdo de Elara es mío. Si me los quitas, dejo de ser yo, y entonces ¿quién queda para recordarla?' El abismo insiste, más agrio ahora, pero tú ya le das la espalda. Cargar con lo que duele en lugar de arrojarlo al vacío es la decisión más difícil que existe, y la acabas de tomar de pie. Sales de allí exhausto, entero, y extrañamente orgulloso.",
+            "en": "You clench your fists, dig in your heels, and take a step BACK. 'No,' you say aloud, and your voice trembles but not your legs. 'The guilt is mine. The memory of Elara is mine. If you take them, I stop being me, and then who's left to remember her?' The abyss insists, more bitter now, but you're already turning your back on it. Carrying what hurts instead of throwing it into the void is the hardest decision there is, and you just made it standing up. You leave exhausted, whole, and strangely proud.",
+            "fr": "Tu serres les poings, ancres tes talons et fais un pas EN ARRIÈRE. « Non », dis-tu à voix haute, et ta voix tremble mais pas tes jambes. « La culpabilité est mienne. Le souvenir d'Elara est mien. Si tu me les enlèves, je cesse d'être moi, et alors qui reste pour se souvenir d'elle ? » L'abîme insiste, plus âpre maintenant, mais tu lui tournes déjà le dos. Porter ce qui fait mal au lieu de le jeter dans le vide est la décision la plus difficile qui soit, et tu viens de la prendre debout. Tu repars épuisé, entier, et étrangement fier.",
+            "it": "Stringi i pugni, pianti i talloni e fai un passo INDIETRO. 'No', dici ad alta voce, e la voce ti trema ma non le gambe. 'La colpa è mia. Il ricordo di Elara è mio. Se me li togli, smetto di essere io, e allora chi resta a ricordarla?' L'abisso insiste, più acre ora, ma tu gli dai già le spalle. Portare ciò che fa male invece di gettarlo nel vuoto è la decisione più difficile che esista, e l'hai appena presa in piedi. Te ne vai esausto, intero, e stranamente orgoglioso.",
+            "de": "Du ballst die Fäuste, gräbst die Fersen ein und machst einen Schritt ZURÜCK. „Nein“, sagst du laut, und deine Stimme zittert, aber nicht deine Beine. „Die Schuld ist meine. Die Erinnerung an Elara ist meine. Wenn du sie mir nimmst, höre ich auf, ich zu sein, und wer bleibt dann übrig, um sich an sie zu erinnern?“ Der Abgrund beharrt, nun bitterer, aber du kehrst ihm bereits den Rücken. Das, was schmerzt, zu tragen, statt es in die Leere zu werfen, ist die schwerste Entscheidung, die es gibt, und du hast sie gerade stehend getroffen. Du gehst erschöpft, unversehrt und seltsam stolz.",
+            "zh": "你握紧拳头，脚跟牢牢扎地，向后退了一步。「不，」你大声说道，声音在颤抖，但双腿没有。「愧疚是我的。艾拉拉的记忆是我的。如果你把它们从我这里夺走，我就不再是我了，那还有谁来记得她呢？」深渊继续坚持着，这次语气更加尖锐，但你已经转身背对它了。承担痛苦，而不是把它抛入虚无，是存在的最艰难的决定，而你刚刚站着做出了这个决定。你精疲力竭地离开了，完整无缺，还带着一种奇怪的骄傲。",
+            "ja": "拳を握りしめ、踵を踏ん張り、一歩「後ろ」に下がる。「いや」と声に出して言う、声は震えるが脚は震えない。「罪悪感は私のものだ。エララの記憶は私のものだ。それを奪えば、私は私でなくなる。そうすれば誰が彼女を覚えていられる？」深淵はより刺々しく主張を続けるが、お前はすでに背を向けている。痛むものを虚空に投げ込むのではなく背負うことは、存在する中で最も困難な決断であり、お前はそれを立ったまま下したのだ。疲れ果て、無傷で、そして不思議なほど誇らしい気持ちで立ち去る。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:valor=+2;faceta:cordura=+1"
+    },
+    "abismo_opt_hablar": {
+        "type": "option",
+        "text": {
+            "es": "🗣️  Preguntarle al abismo qué es en realidad y qué gana contigo",
+            "en": "🗣️  Ask the abyss what it truly is and what it gains from you",
+            "fr": "🗣️  Demander à l'abîme ce qu'il est réellement et ce qu'il gagne avec toi",
+            "it": "🗣️  Chiedere all'abisso cosa sia realmente e cosa ci guadagni con te",
+            "de": "🗣️  Den Abgrund fragen, was er wirklich ist und was er mit dir gewinnt",
+            "zh": "🗣️  询问深渊它究竟是什么，从你身上能得到什么",
+            "ja": "🗣️  深淵に、それが本当は何であり、お前から何を得るのかを尋ねる"
+        },
+        "next": [
+            "abismo_msg_hablar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "abismo_msg_hablar": {
+        "type": "message",
+        "text": {
+            "es": "'¿Qué soy?', ronronea la grieta. 'Soy la parte de ti que, cada noche desde el accidente, se asoma a la ventana del hospital y calcula la altura. La que susurra que sería más fácil no despertar. No soy un monstruo, Aiden: soy tu propio cansancio, con voz bonita. Por eso doy tanto miedo.' Un frío te recorre la espalda, porque es verdad, y saberlo no lo hace menos tentador. Te alejas del borde con mucho cuidado, consciente de que este abismo no está fuera de ti: viaja contigo.",
+            "en": "'What am I?', the rift purrs. 'I'm the part of you that, every night since the accident, leans out the hospital window and measures the drop. The part that whispers it would be easier not to wake. I'm no monster, Aiden: I'm your own exhaustion, with a pretty voice. That's why I frighten you so.' A cold runs down your spine, because it's true, and knowing it doesn't make it less tempting. You back away from the edge very carefully, aware that this abyss isn't outside you: it travels with you.",
+            "fr": "« Ce que je suis ? », ronronne la crevasse. « Je suis la partie de toi qui, chaque nuit depuis l'accident, se penche à la fenêtre de l'hôpital et calcule la hauteur. Celle qui murmure qu'il serait plus facile de ne pas se réveiller. Je ne suis pas un monstre, Aiden : je suis ta propre lassitude, avec une jolie voix. C'est pour ça que je fais si peur. » Un froid te parcourt le dos, parce que c'est vrai, et le savoir ne le rend pas moins tentant. Tu t'éloignes du bord avec beaucoup de précaution, conscient que cet abîme n'est pas hors de toi : il voyage avec toi.",
+            "it": "'Cosa sono?', fa le fusa la crepa. 'Sono la parte di te che, ogni notte dall'incidente, si affaccia alla finestra dell'ospedale e calcola l'altezza. Quella che sussurra che sarebbe più facile non svegliarsi. Non sono un mostro, Aiden: sono la tua stessa stanchezza, con una bella voce. Per questo faccio così paura.' Un freddo ti percorre la schiena, perché è vero, e saperlo non lo rende meno allettante. Ti allontani dal bordo con molta cautela, consapevole che questo abisso non è fuori di te: viaggia con te.",
+            "de": "„Was ich bin?“, schnurrt die Kluft. „Ich bin der Teil von dir, der sich jede Nacht seit dem Unfall aus dem Krankenhausfenster lehnt und die Höhe berechnet. Der Teil, der flüstert, es wäre leichter, nicht aufzuwachen. Ich bin kein Monster, Aiden: ich bin deine eigene Erschöpfung, mit einer hübschen Stimme. Deshalb machst du dich vor mir so fürchten.“ Ein kalter Schauer läuft dir über den Rücken, denn es ist wahr, und es zu wissen, macht es nicht weniger verlockend. Du weichst sehr vorsichtig vom Rand zurück, dir bewusst, dass dieser Abgrund nicht außerhalb von dir liegt: er reist mit dir.",
+            "zh": "「我是什么？」那道裂缝低吟道。「我是你自那次事故以来，每晚都靠在医院窗边计算高度的那一部分自己。是那个低语着『不醒来会更容易』的那部分。我不是怪物，艾登：我是你自己的疲惫，只是拥有一个动听的声音。这就是为什么我如此令人恐惧。」一阵寒意窜过你的脊背，因为这是事实，而知道这一点并没有让它变得不那么诱人。你非常小心地从边缘退开，意识到这个深渊并非在你之外：它一直伴随着你。",
+            "ja": "「私が何かって？」裂け目が喉を鳴らす。「私は、事故以来毎晩病院の窓から身を乗り出して高さを測っているお前の一部よ。目覚めない方が楽だと囁く部分。私は怪物じゃないの、エイデン——私はお前自身の疲労、美しい声を持った。だからこそ私はこれほど怖いのよ」それが真実だからこそ背筋に冷たいものが走り、それを知っていても誘惑が減ることはない。この深淵がお前の外側にあるのではなく、お前とともに旅していると気づきながら、非常に慎重に縁から離れる。"
+        },
+        "next": [
+            "abismo_root"
+        ],
+        "reward": "faceta:cordura=-1"
+    },
+    "abismo_opt_asomar": {
+        "type": "option",
+        "text": {
+            "es": "👁️  Asomarte al borde solo para mirar el fondo, sin saltar",
+            "en": "👁️  Lean over the edge just to look at the bottom, without jumping",
+            "fr": "👁️  Te pencher au bord juste pour regarder le fond, sans sauter",
+            "it": "👁️  Sporgerti al bordo solo per guardare il fondo, senza saltare",
+            "de": "👁️  Sich über den Rand beugen, nur um auf den Grund zu schauen, ohne zu springen",
+            "zh": "👁️  探身望向边缘，只是为了看看底部，不跳下去",
+            "ja": "👁️  跳ばずに、ただ底を見るために縁から身を乗り出す"
+        },
+        "next": [
+            "abismo_msg_asomar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "abismo_msg_asomar": {
+        "type": "message",
+        "text": {
+            "es": "Te asomas. No hay fondo, solo una oscuridad tibia que sube a recibirte y el vértigo dulce de lo fácil que sería inclinarse un poco más. Te quedas ahí demasiado tiempo, notando cómo el borde tira de ti como un imán suave. Cuando por fin retrocedes, el corazón te martillea: has coqueteado con la caída y has vuelto, pero por un instante entendiste por qué a algunos les gana. Sales tocado, con la certeza incómoda de que ese borde te seguirá llamando.",
+            "en": "You lean over. There's no bottom, only a warm darkness rising to meet you and the sweet vertigo of how easy it would be to tip a little further. You stay there too long, feeling the edge pull at you like a soft magnet. When you finally step back, your heart hammers: you flirted with the fall and returned, but for an instant you understood why it wins over some. You leave shaken, with the uneasy certainty that this edge will keep calling you.",
+            "fr": "Tu te penches. Il n'y a pas de fond, seulement une obscurité tiède qui monte à ta rencontre et le doux vertige de la facilité qu'il y aurait à s'incliner un peu plus. Tu restes là trop longtemps, sentant le bord te tirer comme un aimant doux. Quand tu recules enfin, ton cœur bat à tout rompre : tu as flirté avec la chute et tu es revenu, mais pendant un instant tu as compris pourquoi certains y succombent. Tu repars ébranlé, avec la certitude inconfortable que ce bord continuera de t'appeler.",
+            "it": "Ti sporgi. Non c'è fondo, solo un'oscurità tiepida che sale a incontrarti e la dolce vertigine di quanto sarebbe facile inclinarsi un po' di più. Resti lì troppo a lungo, sentendo il bordo tirarti come un magnete morbido. Quando finalmente ti ritiri, il cuore ti martella: hai flirtato con la caduta e sei tornato, ma per un istante hai capito perché a qualcuno vince. Te ne vai scosso, con la scomoda certezza che quel bordo continuerà a chiamarti.",
+            "de": "Du beugst dich vor. Es gibt keinen Grund, nur eine warme Dunkelheit, die dir entgegensteigt, und den süßen Schwindel darüber, wie leicht es wäre, sich noch etwas weiter zu neigen. Du bleibst zu lange dort, spürst, wie der Rand dich wie ein sanfter Magnet zieht. Als du endlich zurücktrittst, hämmert dein Herz: du hast mit dem Fall geflirtet und bist zurückgekommen, aber für einen Moment hast du verstanden, warum es manche besiegt. Du gehst erschüttert, mit der unbequemen Gewissheit, dass dieser Rand dich weiter rufen wird.",
+            "zh": "你俯身望去。没有底部，只有一片温暖的黑暗涌上来迎接你，还有那种再倾斜一点就会发生的美妙眩晕感。你在那里待得太久了，感觉边缘像一块柔软的磁铁一样吸引着你。当你终于后退时，你的心脏怦怦直跳：你曾与坠落调过情，然后又回来了，但那一瞬间，你明白了为何有人会输给它。你带着一种震惊，以及那个边缘会继续呼唤你的不安确信离开了。",
+            "ja": "身を乗り出す。底はない、ただ迎えるように立ち上る温かい闇と、もう少し傾けばどれほど簡単かという甘い眩暈があるだけだ。柔らかな磁石のように縁がお前を引っ張るのを感じながら、あまりにも長くそこに留まる。ついに後ずさると、心臓が高鳴っている——落下と戯れ、そして戻ってきた。だが一瞬、それがなぜ何人かに勝つのかを理解した。動揺しながら、この縁が呼び続けるだろうという不安な確信を抱いて立ち去る。"
+        },
+        "next": [
+            "abismo_root"
+        ],
+        "reward": "faceta:cordura=-1"
+    },
+    "abismo_opt_ceder": {
+        "type": "option",
+        "text": {
+            "es": "🌑  Dejar que se lleve tu culpa: rendirte y no cargar más con nada",
+            "en": "🌑  Let it take your guilt: give up and carry nothing more",
+            "fr": "🌑  Le laisser emporter ta culpabilité : abandonner et ne plus rien porter",
+            "it": "🌑  Lasciare che porti via la tua colpa: arrenderti e non portare più nulla",
+            "de": "🌑  Es deine Schuld nehmen lassen: aufgeben und nichts mehr tragen",
+            "zh": "🌑  让它带走你的愧疚：放弃，不再背负任何东西",
+            "ja": "🌑  それに罪悪感を持って行かせる：諦め、もう何も背負わない"
+        },
+        "next": [
+            "abismo_msg_ceder"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "abismo_msg_ceder": {
+        "type": "message",
+        "text": {
+            "es": "Te acercas al borde y susurras: 'Llévatelo. Todo. Ya no puedo más.' El abismo ronronea, satisfecho, y algo tira de tu pecho hacia abajo: por un instante glorioso, el peso desaparece. No sientes culpa, ni recuerdos, ni a Elara, ni a Elena. Nada. Pero con ellos se va también todo lo que eras, y lo que queda de pie al borde es una cáscara hueca que ya no sabe por qué lloraba. Retrocedes vaciado, aliviado y perdido a la vez. Rendir tu dolor es rendir tu historia; y una persona sin su historia es solo un cuerpo que camina.",
+            "en": "You step to the edge and whisper: 'Take it. All of it. I can't anymore.' The abyss purrs, satisfied, and something pulls your chest downward: for one glorious instant, the weight vanishes. You feel no guilt, no memories, no Elara, no Elena. Nothing. But with them goes everything you were, and what's left standing at the edge is a hollow shell that no longer knows why it wept. You back away emptied, relieved and lost at once. Surrendering your pain is surrendering your story; and a person without their story is only a body that walks.",
+            "fr": "Tu t'approches du bord et murmures : « Prends-le. Tout. Je n'en peux plus. » L'abîme ronronne, satisfait, et quelque chose tire ta poitrine vers le bas : pendant un instant glorieux, le poids disparaît. Tu ne ressens ni culpabilité, ni souvenirs, ni Elara, ni Elena. Rien. Mais avec eux s'en va aussi tout ce que tu étais, et ce qui reste debout au bord n'est plus qu'une coquille vide qui ne sait plus pourquoi elle pleurait. Tu recules vidé, soulagé et perdu à la fois. Rendre sa douleur, c'est rendre son histoire ; et une personne sans son histoire n'est plus qu'un corps qui marche.",
+            "it": "Ti avvicini al bordo e sussurri: 'Prendilo. Tutto. Non ce la faccio più.' L'abisso fa le fusa, soddisfatto, e qualcosa tira il tuo petto verso il basso: per un istante glorioso, il peso scompare. Non senti colpa, né ricordi, né Elara, né Elena. Niente. Ma con loro se ne va anche tutto ciò che eri, e ciò che resta in piedi al bordo è un guscio vuoto che non sa più perché piangeva. Ti ritiri svuotato, sollevato e perso allo stesso tempo. Cedere il proprio dolore è cedere la propria storia; e una persona senza la sua storia è solo un corpo che cammina.",
+            "de": "Du trittst an den Rand und flüsterst: „Nimm es. Alles. Ich kann nicht mehr.“ Der Abgrund schnurrt zufrieden, und etwas zieht deine Brust nach unten: für einen glorreichen Moment verschwindet das Gewicht. Du fühlst keine Schuld, keine Erinnerungen, weder Elara noch Elena. Nichts. Aber mit ihnen geht auch alles, was du warst, und was am Rand stehen bleibt, ist eine hohle Hülle, die nicht mehr weiß, warum sie weinte. Du weichst zurück, geleert, erleichtert und zugleich verloren. Seinen Schmerz aufzugeben bedeutet, seine Geschichte aufzugeben; und ein Mensch ohne seine Geschichte ist nur ein Körper, der geht.",
+            "zh": "你走到边缘，低语道：「拿走吧。全部。我撑不下去了。」深渊满足地低吟着，某种东西把你的胸口向下拉：在那光辉的一瞬间，重担消失了。你感觉不到愧疚，没有记忆，没有艾拉拉，也没有艾琳娜。什么都没有。但随着它们一起离去的，还有你曾经是的一切，站在边缘的只剩下一具空壳，甚至已经不知道自己为什么哭泣。你后退了，感觉空虚、如释重负，同时又迷失了方向。放弃你的痛苦，就是放弃你的故事；而一个没有自己故事的人，只是一具行走的躯体。",
+            "ja": "縁に近づき囁く。「持って行って。すべて。もう耐えられない」深淵は満足げに喉を鳴らし、何かが胸を下へと引っ張る——一瞬の栄光のうちに、重みが消える。罪悪感も、記憶も、エララも、エレナも感じない。何もない。だがそれらとともに、お前だったすべても消え去り、縁に立ち残っているのは、なぜ泣いていたのかさえもう分からない空っぽの殻だ。空虚に、安堵しながら、同時に迷いながら後退する。痛みを明け渡すことは、自分の物語を明け渡すことだ。そして物語を持たない人間は、ただ歩く体にすぎない。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:valor=-2;faceta:cordura=-1"
+    }
+}

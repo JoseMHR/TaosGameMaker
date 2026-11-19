@@ -1,0 +1,38 @@
+{
+    "id": "poi_centinela_frontera",
+    "gate": {
+        "dir": "west",
+        "open_when": "gate_flag('sentinel_passed')"
+    },
+    "type": "poi",
+    "visual": "poi_centinela_frontera",
+    "name": {
+        "es": "Centinela de Frontera",
+        "en": "Border Sentinel",
+        "fr": "Sentinelle de Frontière",
+        "it": "Sentinella di Confine",
+        "de": "Grenzwächter",
+        "zh": "边境哨兵",
+        "ja": "国境の哨兵"
+    },
+    "icon": "🗿",
+    "desc": {
+        "es": "Un autómata colosal custodia el paso hacia Arcanum",
+        "en": "A colossal automaton guards the way to Arcanum",
+        "fr": "Un automate colossal garde le passage vers Arcanum",
+        "it": "Un automa colossale custodisce il passaggio verso Arcanum",
+        "de": "Ein kolossaler Automat bewacht den Weg nach Arcanum",
+        "zh": "一台巨大的自动机守卫着通往奥秘遗迹的道路",
+        "ja": "巨大なオートマトンがアルカナムへの通路を守っている"
+    },
+    "npc": "npc_centinela_automata",
+    "presences": [
+        {
+            "condition": "default",
+            "actor": "npc_centinela_automata",
+            "entry_node": ""
+        }
+    ],
+    "bg": "bg_world_poi_arcanum_centinela.png",
+    "music": "poi_generic"
+}

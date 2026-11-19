@@ -1,0 +1,31 @@
+{
+    "name": {
+        "es": "Escudo de Madera",
+        "en": "Wooden Shield",
+        "fr": "Bouclier de Bois",
+        "it": "Scudo di Legno",
+        "de": "Holzschild",
+        "zh": "木盾",
+        "ja": "木の盾"
+    },
+    "desc": {
+        "es": "Un escudo básico reforzado con un borde de hierro.",
+        "en": "A basic shield reinforced with an iron rim.",
+        "fr": "Un bouclier basique renforcé d'un bord en fer.",
+        "it": "Uno scudo base rinforzato con un bordo di ferro.",
+        "de": "Ein einfacher Schild, verstärkt mit einem Eisenrand.",
+        "zh": "带有铁边加固的基础盾牌。",
+        "ja": "鉄の縁で補強された基本的な盾。"
+    },
+    "icon": "🛡️",
+    "category": "equipment",
+    "usable": false,
+    "slot": "shield",
+    "tier": 1,
+    "bonuses": {
+        "vit": 2
+    },
+    "combat": {
+        "phys_defense": 10
+    }
+}

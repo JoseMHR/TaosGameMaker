@@ -1,0 +1,26 @@
+{
+    "id": "poi_celestia_biblioteca_arbol",
+    "type": "poi",
+    "icon": "📚",
+    "name": {
+        "es": "La Biblioteca al Aire Libre",
+        "en": "The Open-Air Library",
+        "fr": "La Bibliothèque à Ciel Ouvert",
+        "it": "La Biblioteca all'Aperto",
+        "de": "Die Freiluftbibliothek",
+        "zh": "露天图书馆",
+        "ja": "青空図書館"
+    },
+    "desc": {
+        "es": "Un erudito excéntrico que ha 'clasificado' cientos de libros colgándolos de las ramas de un árbol por temática celestial. (PNJ singular).",
+        "en": "An eccentric scholar who has 'shelved' hundreds of books by hanging them from a tree's branches by celestial theme. (Singular NPC).",
+        "fr": "Un érudit excentrique qui a « classé » des centaines de livres en les accrochant aux branches d'un arbre par thème céleste. (PNJ singulier).",
+        "it": "Uno studioso eccentrico che ha 'catalogato' centinaia di libri appendendoli ai rami di un albero per tema celeste. (PNG singolare).",
+        "de": "Ein exzentrischer Gelehrter, der Hunderte von Büchern „katalogisiert“ hat, indem er sie nach himmlischem Thema an die Äste eines Baumes hängte. (Einzigartiger NPC).",
+        "zh": "一位古怪的学者，把数百本书按天体主题挂在一棵树的枝干上，算是「整理归类」。（唯一NPC）。",
+        "ja": "何百冊もの本を天体のテーマ別に木の枝に吊るして「整理」した、風変わりな学者。（唯一のNPC）。"
+    },
+    "npc": "poi_celestia_biblioteca_arbol",
+    "bg": "bg_world_poi_celestia_biblioteca_arbol.png",
+    "music": "poi_comic"
+}

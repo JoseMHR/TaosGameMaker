@@ -1,0 +1,165 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Reloj de Arena de los Nombres",
+            "en": "The Hourglass of Names",
+            "fr": "Le Sablier des Noms",
+            "it": "La Clessidra dei Nomi",
+            "de": "Die Sanduhr der Namen",
+            "zh": "姓名沙漏",
+            "ja": "名前の砂時計"
+        },
+        "next": [],
+        "reward": "avatar=⏳;bg=0.06,0.06,0.09"
+    },
+    "reloj_root": {
+        "type": "message",
+        "text": {
+            "es": "Flotando en el vacío se alza un reloj de arena más alto que una casa. Al acercarte descubres que lo que cae por su cuello no son granos de arena: son NOMBRES, minúsculos, escritos en letra apretada, millones, cayendo sin cesar de la ampolla de arriba a la de abajo. Cada nombre brilla un instante al pasar por el estrecho y se apaga al posarse en el montón. Buscas sin querer, y una parte de ti sabe que si miras el tiempo suficiente, verás caer los que temes.",
+            "en": "Floating in the void rises an hourglass taller than a house. As you approach you find that what falls through its neck are not grains of sand: they are NAMES, tiny, written in cramped script, millions of them, pouring endlessly from the upper bulb to the lower. Each name glows for an instant as it passes through the narrows and goes dark as it settles on the heap. You search without meaning to, and part of you knows that if you look long enough, you'll see the ones you dread fall.",
+            "fr": "Flottant dans le vide se dresse un sablier plus haut qu'une maison. En t'approchant, tu découvres que ce qui tombe par son goulot, ce ne sont pas des grains de sable : ce sont des NOMS, minuscules, écrits en écriture serrée, des millions, tombant sans cesse de l'ampoule supérieure à l'inférieure. Chaque nom brille un instant en passant par l'étroit passage et s'éteint en se posant sur le tas. Tu cherches sans le vouloir, et une partie de toi sait que si tu regardes suffisamment longtemps, tu verras tomber ceux que tu redoutes.",
+            "it": "Fluttuando nel vuoto si erge una clessidra più alta di una casa. Avvicinandoti scopri che ciò che cade attraverso il suo collo non sono granelli di sabbia: sono NOMI, minuscoli, scritti in una grafia stretta, milioni, che cadono incessantemente dall'ampolla superiore a quella inferiore. Ogni nome brilla per un istante mentre passa per lo strozzo e si spegne posandosi sul mucchio. Cerchi senza volerlo, e una parte di te sa che se guardi a lungo abbastanza, vedrai cadere quelli che temi.",
+            "de": "Im Nichts schwebend erhebt sich eine Sanduhr, höher als ein Haus. Beim Näherkommen entdeckst du, dass das, was durch ihren Hals fällt, keine Sandkörner sind: es sind NAMEN, winzig, in enger Handschrift geschrieben, Millionen von ihnen, die unaufhörlich von der oberen zur unteren Ampulle fallen. Jeder Name leuchtet für einen Moment auf, während er durch die Engstelle geht, und erlischt, wenn er sich auf den Haufen legt. Du suchst, ohne es zu wollen, und ein Teil von dir weiß, dass du, wenn du lange genug schaust, diejenigen fallen sehen wirst, die du fürchtest.",
+            "zh": "在虚空中漂浮着一个比房子还高的沙漏。你走近后发现，从它的颈部落下的并不是沙粒：而是名字，微小的，以密密麻麻的字迹书写着，成百万个，从上方的球体不断地落向下方。每个名字在经过狭窄的颈部时都会闪烁一瞬，然后落在堆积物上熄灭。你不由自主地寻找起来，而你内心的一部分知道，如果你看得足够久，你会看到你所畏惧的那些名字落下。",
+            "ja": "虚空に浮かぶ、家よりも高い砂時計がそびえている。近づくと、その首から落ちているのは砂粒ではないことに気づく——それは名前だ、小さく、密に書かれた文字で、何百万もの名前が、上の球から下の球へと絶え間なく落ちている。それぞれの名前は狭い箇所を通過する時に一瞬輝き、山に積もると消えていく。意図せずに探してしまう。心の一部は、十分長く見つめれば、恐れているものが落ちるのを目にすることになると知っている。"
+        },
+        "next": [
+            "reloj_opt_buscar",
+            "reloj_opt_girar",
+            "reloj_opt_tocar",
+            "reloj_opt_salir"
+        ],
+        "reward": ""
+    },
+    "reloj_opt_buscar": {
+        "type": "option",
+        "text": {
+            "es": "🔎  Buscar entre los nombres que caen los de las personas que perdiste",
+            "en": "🔎  Search among the falling names for those you lost",
+            "fr": "🔎  Chercher parmi les noms qui tombent ceux des personnes que tu as perdues",
+            "it": "🔎  Cercare tra i nomi che cadono quelli delle persone che hai perso",
+            "de": "🔎  Unter den fallenden Namen nach denen suchen, die du verloren hast",
+            "zh": "🔎  在坠落的名字中寻找你曾失去之人的名字",
+            "ja": "🔎  落ちる名前の中から、失った人々の名を探す"
+        },
+        "next": [
+            "reloj_msg_buscar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "reloj_msg_buscar": {
+        "type": "message",
+        "text": {
+            "es": "Fijas la vista en el cuello del reloj. Durante un rango eterno solo ves nombres de extraños. Y entonces, brillando más que los demás, pasa uno que conoces: 'Elara'. Y justo detrás, pegado: 'Elena'. Los dos caen juntos, giran en el estrecho y se posan suavemente en el montón de abajo, entre otros millones. No desaparecen: se suman a todos los que alguien, en algún lugar, también llora. Comprendes que tu pérdida, por inmensa que sea, cae en el mismo reloj que la de todo el mundo. No te consuela del todo. Pero te hace sentir menos solo en el dolor.",
+            "en": "You fix your eyes on the neck of the hourglass. For an eternal stretch you see only strangers' names. And then, glowing brighter than the rest, one you know passes by: 'Elara'. And right behind it, close together: 'Elena'. The two fall together, spin in the narrows, and settle gently onto the heap below, among millions of others. They don't vanish: they join all those that someone, somewhere, also weeps for. You understand that your loss, however immense, falls into the same hourglass as everyone's. It doesn't fully console you. But it makes you feel less alone in the grief.",
+            "fr": "Tu fixes ton regard sur le goulot du sablier. Pendant un intervalle éternel, tu ne vois que des noms d'inconnus. Et alors, brillant plus que les autres, passe un nom que tu connais : « Elara ». Et juste derrière, collé : « Elena ». Les deux tombent ensemble, tournent dans l'étroit passage et se posent doucement sur le tas en dessous, parmi des millions d'autres. Ils ne disparaissent pas : ils se joignent à tous ceux que quelqu'un, quelque part, pleure aussi. Tu comprends que ta perte, aussi immense soit-elle, tombe dans le même sablier que celle de tout le monde. Ça ne te console pas entièrement. Mais ça te fait sentir moins seul dans la douleur.",
+            "it": "Fissi lo sguardo sul collo della clessidra. Per un tratto eterno vedi solo nomi di sconosciuti. E poi, brillando più degli altri, passa uno che conosci: 'Elara'. E subito dietro, attaccato: 'Elena'. I due cadono insieme, girano nello strozzo e si posano dolcemente sul mucchio sotto, tra milioni di altri. Non scompaiono: si uniscono a tutti quelli che qualcuno, in qualche luogo, piange anche. Comprendi che la tua perdita, per quanto immensa, cade nella stessa clessidra di quella di tutti. Non ti consola del tutto. Ma ti fa sentire meno solo nel dolore.",
+            "de": "Du richtest deinen Blick auf den Hals der Sanduhr. Für eine endlose Weile siehst du nur Namen von Fremden. Und dann, heller leuchtend als die anderen, geht einer vorbei, den du kennst: „Elara“. Und direkt danach, dicht dahinter: „Elena“. Beide fallen zusammen, drehen sich in der Engstelle und legen sich sanft auf den Haufen darunter, unter Millionen anderen. Sie verschwinden nicht: sie gesellen sich zu allen, die jemand, irgendwo, ebenfalls betrauert. Du verstehst, dass dein Verlust, wie immens er auch sein mag, in dieselbe Sanduhr fällt wie der aller anderen. Es tröstet dich nicht ganz. Aber es lässt dich weniger allein im Schmerz fühlen.",
+            "zh": "你把目光死死盯在沙漏的颈部。在一段永恒般的时间里，你只看到陌生人的名字。然后，比其他名字更亮地，一个你认识的名字经过：「艾拉拉」。紧接着，紧贴着它：「艾琳娜」。两个名字一起坠落，在狭窄处旋转，轻轻落在下方的堆积物上，与数百万其他名字融为一体。它们并没有消失：它们加入了某处某人也在哀悼的所有名字之中。你明白了，无论你的失去有多巨大，它都落进了和所有人一样的那个沙漏中。这并没有完全安慰你。但它让你在悲伤中感觉不再那么孤单。",
+            "ja": "砂時計の首に目を固定する。永遠のような時間、見知らぬ名前だけが続く。そして、他よりも明るく輝きながら、知っている名前が通り過ぎる——「エララ」。そのすぐ後ろに、寄り添うように——「エレナ」。二つは一緒に落ち、狭い箇所で回転し、下の山に、何百万もの他の名前とともに、そっと積もる。それらは消えない——どこかで誰かが泣いている、そのすべてに加わるのだ。お前は理解する——お前の失ったものは、どれほど大きくても、皆と同じ砂時計に落ちるのだと。それは完全な慰めにはならない。だが、悲しみの中で、お前は少し孤独ではなくなる。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:cordura=-1"
+    },
+    "reloj_opt_girar": {
+        "type": "option",
+        "text": {
+            "es": "🔄  Intentar girar el reloj para que el tiempo vuelva atrás",
+            "en": "🔄  Try to turn the hourglass so time runs backward",
+            "fr": "🔄  Essayer de retourner le sablier pour que le temps recule",
+            "it": "🔄  Provare a girare la clessidra perché il tempo torni indietro",
+            "de": "🔄  Versuchen, die Sanduhr umzudrehen, damit die Zeit zurückläuft",
+            "zh": "🔄  尝试翻转沙漏，让时间倒流",
+            "ja": "🔄  時が逆に流れるよう砂時計をひっくり返そうとする"
+        },
+        "next": [
+            "reloj_msg_girar"
+        ],
+        "reward": ""
+    },
+    "reloj_msg_girar": {
+        "type": "message",
+        "text": {
+            "es": "Empujas el reloj colosal con todas tus fuerzas, desesperado por invertirlo, por hacer que los nombres vuelvan a subir, por deshacer lo perdido. No se mueve ni un milímetro. Grabado en la base, lees: 'Este reloj solo cae hacia un lado. Se llama tiempo por eso.' Te derrumbas contra el cristal, agotado. Nadie puede girar el reloj. Aceptar eso —dejar de empujar lo que no cede— es, en el fondo, la única manera de dejar de romperse las manos contra el pasado.",
+            "en": "You shove the colossal hourglass with all your strength, desperate to invert it, to make the names rise again, to undo what's lost. It doesn't move a millimeter. Engraved on the base you read: 'This glass falls only one way. That's why it's called time.' You slump against the glass, spent. No one can turn the hourglass. Accepting that —ceasing to push at what won't give— is, in the end, the only way to stop shattering your hands against the past.",
+            "fr": "Tu pousses le sablier colossal de toutes tes forces, désespéré de l'inverser, de faire remonter les noms, de défaire ce qui a été perdu. Il ne bouge pas d'un millimètre. Gravé sur la base, tu lis : « Ce verre ne tombe que dans un sens. C'est pour ça qu'on l'appelle le temps. » Tu t'effondres contre le verre, épuisé. Personne ne peut retourner le sablier. Accepter cela — cesser de pousser ce qui ne céde pas — est, au fond, la seule façon d'arrêter de se briser les mains contre le passé.",
+            "it": "Spingi la clessidra colossale con tutte le tue forze, desideroso di invertirla, di far risalire i nomi, di disfare ciò che è perduto. Non si muove di un millimetro. Incisa sulla base, leggi: 'Questo vetro cade solo da un lato. Per questo si chiama tempo.' Ti accasci contro il vetro, esausto. Nessuno può girare la clessidra. Accettarlo —smettere di spingere ciò che non cede— è, in fondo, l'unico modo per smettere di rompersi le mani contro il passato.",
+            "de": "Du schiebst mit aller Kraft gegen die kolossale Sanduhr, verzweifelt bemüht, sie umzudrehen, die Namen wieder aufsteigen zu lassen, das Verlorene ungeschehen zu machen. Sie bewegt sich keinen Millimeter. Eingraviert an der Basis liest du: „Dieses Glas fällt nur in eine Richtung. Deshalb heißt es Zeit.“ Du sinkst erschöpft gegen das Glas. Niemand kann die Sanduhr umdrehen. Das zu akzeptieren — aufzuhören, gegen das zu drücken, was nicht nachgibt — ist, im Grunde, die einzige Möglichkeit, aufzuhören, sich die Hände an der Vergangenheit zu zerschlagen.",
+            "zh": "你用尽全力推动这座巨大的沙漏，绝望地想要将它翻转，让那些名字重新升起，抹去所失去的一切。它连一毫米也没有动。你读到底座上刻着的字：「这玻璃只朝一个方向坠落。因此它才被称为时间。」你精疲力竭地跌坐在玻璃上。没有人能够翻转这座沙漏。接受这一点——不再去推那些无法撼动的东西——归根结底，是唯一能停止在过去面前将双手打得粉碎的方法。",
+            "ja": "この巨大な砂時計を全力で押す、絶望的に逆転させたい、名前をもう一度上げたい、失われたものを元に戻したいと。ミリも動かない。基部に刻まれた文字を読む——「この硝子は一方向にしか落ちない。それゆえに時と呼ばれるのだ」疲れ果てて硝子にもたれかかる。誰も砂時計を逆転させることはできない。それを受け入れること——譲らないものを押し続けるのをやめること——は、結局、過去に対して手を砕き続けるのをやめる唯一の方法なのだ。"
+        },
+        "next": [
+            "reloj_msg_girar2"
+        ],
+        "reward": ""
+    },
+    "reloj_msg_girar2": {
+        "type": "message",
+        "text": {
+            "es": "Te quedas un rato con la frente apoyada en el cristal frío, respirando. Poco a poco dejas de empujar. Y por primera vez, en vez de pelearte con el tiempo, simplemente lo miras caer. Duele menos así.",
+            "en": "You stay a while with your forehead against the cold glass, breathing. Little by little you stop pushing. And for the first time, instead of fighting time, you simply watch it fall. It hurts less this way.",
+            "fr": "Tu restes un moment le front appuyé contre le verre froid, respirant. Peu à peu tu cesses de pousser. Et pour la première fois, au lieu de te battre contre le temps, tu le regardes simplement tomber. Ça fait moins mal ainsi.",
+            "it": "Rimani un po' con la fronte appoggiata al vetro freddo, respirando. Poco a poco smetti di spingere. E per la prima volta, invece di combattere contro il tempo, semplicemente lo guardi cadere. Fa meno male così.",
+            "de": "Du bleibst eine Weile mit der Stirn am kalten Glas, atmend. Nach und nach hörst du auf zu drücken. Und zum ersten Mal, statt gegen die Zeit zu kämpfen, siehst du ihr einfach beim Fallen zu. So schmerzt es weniger.",
+            "zh": "你把额头靠在冰冷的玻璃上，静静地呼吸了一会儿。渐渐地，你不再推动它。这是第一次，你没有与时间抗争，而只是看着它坠落。这样感觉不那么痛了。",
+            "ja": "冷たい硝子に額をつけたまま、しばらく呼吸をする。少しずつ押すのをやめる。そして初めて、時と戦う代わりに、ただそれが落ちるのを見つめる。こうする方が痛みは少ない。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:cordura=+1"
+    },
+    "reloj_opt_tocar": {
+        "type": "option",
+        "text": {
+            "es": "✍️  Escribir tu propio nombre en el cristal, junto a los que caen",
+            "en": "✍️  Write your own name on the glass, beside the ones that fall",
+            "fr": "✍️  Écrire ton propre nom sur le verre, à côté de ceux qui tombent",
+            "it": "✍️  Scrivere il tuo nome sul vetro, accanto a quelli che cadono",
+            "de": "✍️  Deinen eigenen Namen auf das Glas schreiben, neben denen, die fallen",
+            "zh": "✍️  在玻璃上写下你自己的名字，与那些坠落的名字并列",
+            "ja": "✍️  落ちていく名前の隣に、自分自身の名前をガラスに書く"
+        },
+        "next": [
+            "reloj_msg_tocar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "reloj_msg_tocar": {
+        "type": "message",
+        "text": {
+            "es": "Con el dedo, escribes tu nombre en el vaho del cristal, junto al río de nombres que cae por dentro. Al hacerlo, comprendes que tú también caerás algún día por ese cuello estrecho, y que alguien, quizá, te buscará entre los granos como tú buscaste a los tuyos. La idea, que debería aterrarte, te trae en cambio una calma extraña: formar parte del mismo reloj que todos los que amaste no es una condena, es una compañía. Te alejas más ligero.",
+            "en": "With your finger, you write your name in the mist on the glass, beside the river of names falling within. As you do, you understand that you too will one day fall through that narrow neck, and that someone, perhaps, will search for you among the grains as you searched for yours. The thought, which should terrify you, brings instead a strange calm: being part of the same hourglass as everyone you loved is not a sentence, it's company. You leave lighter.",
+            "fr": "Du doigt, tu écris ton nom dans la buée du verre, à côté du fleuve de noms qui tombe à l'intérieur. En le faisant, tu comprends que toi aussi tu tomberas un jour par ce goulot étroit, et que quelqu'un, peut-être, te cherchera parmi les grains comme tu as cherché les tiens. Cette pensée, qui devrait t'effrayer, t'apporte au contraire un calme étrange : faire partie du même sablier que tous ceux que tu as aimés n'est pas une condamnation, c'est une compagnie. Tu t'éloignes plus léger.",
+            "it": "Con il dito, scrivi il tuo nome nella condensa del vetro, accanto al fiume di nomi che cade dentro. Nel farlo, comprendi che anche tu un giorno cadrai attraverso quel collo strettoo, e che qualcuno, forse, ti cercherà tra i granelli come tu cercasti i tuoi. Il pensiero, che dovrebbe terrorizzarti, ti porta invece una strana calma: far parte della stessa clessidra di tutti quelli che hai amato non è una condanna, è una compagnia. Ti allontani più leggero.",
+            "de": "Mit dem Finger schreibst du deinen Namen in den Dunst des Glases, neben den Fluss der Namen, der innen fällt. Dabei verstehst du, dass auch du eines Tages durch diesen engen Hals fallen wirst, und dass jemand, vielleicht, dich unter den Körnern suchen wird, wie du deine gesucht hast. Der Gedanke, der dich erschrecken sollte, bringt dir stattdessen eine seltsame Ruhe: Teil derselben Sanduhr zu sein wie alle, die du geliebt hast, ist keine Verurteilung, es ist Gesellschaft. Du gehst leichter fort.",
+            "zh": "你用手指在玻璃的水汽上写下自己的名字，就在内部坠落的名字之河旁边。这样做的时候，你明白了自己也会有一天从这个狭窄的颈部坠落，而某个人，也许，会像你寻找你所爱之人那样，在沙粒中寻找你。这个本该令你恐惧的想法，却反而给你带来一种奇异的平静：与你所爱过的所有人共处同一个沙漏，不是一种惩罚，而是一种陪伴。你带着更轻松的心情离开了。",
+            "ja": "指で、硝子の露に自分の名前を書く。内側で落ちていく名前の川のすぐそばに。そうしながら、いつか自分もあの狭い首を通って落ちるのだと、そしていつか誰かが、お前が自分の愛する者を探したように、粒の中からお前を探すのだと理解する。恐ろしいはずのこの考えは、代わりに奇妙な安らぎをもたらす——愛したすべての人々と同じ砂時計の一部であることは、罰ではなく、伴侶なのだと。より軽い心持ちで立ち去る。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:cordura=+1;faceta:valor=+1"
+    },
+    "reloj_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Apartar la vista del reloj y seguir adelante",
+            "en": "🚶  Look away from the hourglass and press on",
+            "fr": "🚶  Détourner le regard du sablier et continuer",
+            "it": "🚶  Distogliere lo sguardo dalla clessidra e proseguire",
+            "de": "🚶  Den Blick von der Sanduhr abwenden und weitergehen",
+            "zh": "🚶  从沙漏移开视线，继续前行",
+            "ja": "🚶  砂時計から目を逸らし、先へ進む"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

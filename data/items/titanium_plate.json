@@ -1,0 +1,41 @@
+{
+    "name": {
+        "es": "Peto de Titanio",
+        "en": "Titanium Plate",
+        "fr": "Plastron en Titane",
+        "it": "Corazza di Titanio",
+        "de": "Titanplatte",
+        "zh": "钛合金胸甲",
+        "ja": "チタンプレート"
+    },
+    "desc": {
+        "es": "Pesa como una roca pero desvía tajos mortales con absoluta solidez.",
+        "en": "Heavy as rock, deflecting deadly slashes with absolute solidity.",
+        "fr": "Pèse comme un roc mais dévie les coups mortels avec une solidité absolue.",
+        "it": "Pesa come un macigno ma devia colpi mortali con assoluta solidità.",
+        "de": "Schwer wie ein Fels, doch wehrt sie tödliche Hiebe mit absoluter Festigkeit ab.",
+        "zh": "重如磐石，却能以绝对的坚固性偏转致命的斩击。",
+        "ja": "岩のように重いが、絶対的な堅牢さで致命的な斬撃を逸らす。"
+    },
+    "icon": "🛡️",
+    "category": "equipment",
+    "usable": false,
+    "slot": "armor",
+    "tier": 4,
+    "bonuses": {
+        "vit": 8,
+        "str": 4
+    },
+    "combat": {
+        "phys_defense": 62,
+        "mag_defense": 30
+    },
+    "traits": [
+        {
+            "type": "immune_status",
+            "status": "burn",
+            "min_refine": 5,
+            "desc": "Inmunidad completa al estado Quemadura"
+        }
+    ]
+}

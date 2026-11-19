@@ -1,0 +1,168 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "La Bailarina de la Duna",
+            "en": "The Dancer of the Dune",
+            "fr": "La Danseuse de la Dune",
+            "it": "La Danzatrice della Duna",
+            "de": "Die Tänzerin der Düne",
+            "zh": "沙丘的舞者",
+            "ja": "砂丘の踊り子"
+        },
+        "next": [],
+        "reward": "avatar=💃;bg=0.16,0.10,0.06"
+    },
+    "bai_done": {
+        "type": "message",
+        "text": {
+            "es": "La bailarina te saluda desde la cresta con un giro de velos y una carcajada. '¡Mi rival digno! El desierto es más soportable desde que sé que existe alguien con quien bailar. Vuelve cuando quieras perder otra vez, con esa elegancia tuya.'",
+            "en": "The dancer greets you from the crest with a swirl of veils and a laugh. 'My worthy rival! The desert is more bearable since I learned there's someone to dance with. Come back whenever you want to lose again, with that elegance of yours.'",
+            "fr": "La danseuse te salue depuis la crête avec un tourbillon de voiles et un éclat de rire. « Ma digne rivale ! Le désert est plus supportable depuis que je sais qu'il existe quelqu'un avec qui danser. Reviens quand tu voudras perdre encore, avec cette élégance qui est la tienne. »",
+            "it": "La danzatrice ti saluta dalla cresta con un vortice di velli e una risata. 'La mia degna rivale! Il deserto è più sopportabile da quando so che esiste qualcuno con cui danzare. Torna quando vorrai perdere di nuovo, con quella tua eleganza.'",
+            "de": "Die Tänzerin grüßt dich vom Kamm mit einem Wirbel aus Schleiern und einem Lachen. „Meine würdige Rivalin! Die Wüste ist erträglicher, seit ich weiß, dass es jemanden gibt, mit dem ich tanzen kann. Komm zurück, wann immer du wieder verlieren willst, mit dieser Eleganz, die dir eigen ist.“",
+            "zh": "舞者从沙丘顶端向你打招呼，旋转着彩色的纱巾，笑了起来。「我的对手啊！自从我知道有人可以与我共舞以来，这片沙漠就变得可以忍受了。什么时候你想再输一次，带着你那份优雅，随时回来吧。」",
+            "ja": "踊り子は稜線からベールを翻しながら笑いかける。「私の好敵手よ！一緒に踊れる相手がいると知って、砂漠がずっと耐えやすくなったわ。あなたのその優雅さで、またいつでも負けにいらっしゃい」"
+        },
+        "next": [
+            "bai_opt_salir"
+        ],
+        "reward": "",
+        "condition": "gflag(\"bai_duelo\")"
+    },
+    "bai_root": {
+        "type": "message",
+        "text": {
+            "es": "En lo alto de una duna esculpida por el viento, una figura envuelta en velos de colores danza sola contra el cielo anaranjado del atardecer. Sus pies dibujan espirales en la arena con una precisión hipnótica. Al notarte, no se detiene: te señala con un giro elegante y su voz llega clara sobre la brisa: '¿Vienes a mirar o vienes a bailar, viajero? En este desierto solo respeto a quien se atreve a moverse conmigo.'",
+            "en": "Atop a wind-sculpted dune, a figure wrapped in colored veils dances alone against the orange sunset sky. Her feet trace spirals in the sand with hypnotic precision. Noticing you, she doesn't stop: she points at you with an elegant turn and her voice carries clear over the breeze: 'Have you come to watch or to dance, traveler? In this desert I respect only those who dare to move with me.'",
+            "fr": "Au sommet d'une dune sculptée par le vent, une silhouette enveloppée de voiles colorés danse seule contre le ciel orangé du couchant. Ses pieds dessinent des spirales dans le sable avec une précision hypnotique. En te remarquant, elle ne s'arrête pas : elle te désigne d'un tournoiement élégant et sa voix porte, claire, sur la brise : « Viens-tu regarder ou viens-tu danser, voyageur ? Dans ce désert, je ne respecte que celui qui ose bouger avec moi. »",
+            "it": "In cima a una duna scolpita dal vento, una figura avvolta in veli colorati danza sola contro il cielo arancione del tramonto. I suoi piedi disegnano spirali nella sabbia con precisione ipnotica. Notandoti, non si ferma: ti indica con un elegante giro e la sua voce arriva chiara sulla brezza: 'Vieni a guardare o vieni a danzare, viaggiatore? In questo deserto rispetto solo chi osa muoversi con me.'",
+            "de": "Auf dem Gipfel einer windgeformten Düne tanzt eine in bunte Schleier gehüllte Gestalt allein gegen den orangefarbenen Abendhimmel. Ihre Füße zeichnen Spiralen im Sand mit hypnotischer Präzision. Als sie dich bemerkt, hält sie nicht an: sie zeigt mit einer eleganten Drehung auf dich, und ihre Stimme trägt klar über die Brise: „Kommst du, um zuzusehen, oder kommst du, um zu tanzen, Reisender? In dieser Wüste respektiere ich nur den, der es wagt, sich mit mir zu bewegen.“",
+            "zh": "在一座被风雕刻出来的沙丘顶上，一个裹着彩色纱巾的身影独自在橙色的落日天空下起舞。她的双脚在沙地上以一种令人着迷的精准描绘出螺旋。她注意到你，却没有停下：一个优雅的旋转指向你，她的声音随着微风清晰传来：「你是来观看的，还是来跳舞的，旅人？在这片沙漠里，我只敬重敢与我共舞的人。」",
+            "ja": "風に彫られた砂丘の頂で、色とりどりのベールに包まれた人影が、夕焼けのオレンジ色の空を背景に一人で踊っている。その足は催眠術のような精密さで砂に螺旋を描いている。お前に気づいても、彼女は止まらない——優雅な回転でお前を指し示し、その声は風の中を澄んで届く。「見に来たの、それとも踊りに来たの、旅人よ？この砂漠で私が敬意を払うのは、私とともに動く勇気のある者だけよ」"
+        },
+        "next": [
+            "bai_opt_bailar",
+            "bai_opt_mirar",
+            "bai_opt_negar",
+            "bai_opt_salir"
+        ],
+        "reward": ""
+    },
+    "bai_opt_bailar": {
+        "type": "option",
+        "text": {
+            "es": "💃  Aceptar el reto y lanzarte a bailar con todo tu descaro",
+            "en": "💃  Accept the challenge and throw yourself into the dance with full bravado",
+            "fr": "💃  Accepter le défi et te lancer dans la danse avec toute ton audace",
+            "it": "💃  Accettare la sfida e lanciarti a danzare con tutta la tua audacia",
+            "de": "💃  Die Herausforderung annehmen und dich mit voller Kühnheit in den Tanz stürzen",
+            "zh": "💃  接受挑战，毫无顾忌地投入这场舞蹈",
+            "ja": "💃  挑戦を受け入れ、大胆に踊りに身を投じる"
+        },
+        "next": [
+            "bai_msg_bailar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "bai_msg_bailar": {
+        "type": "message",
+        "text": {
+            "es": "Subes a la duna y te lanzas. No tienes ni idea de bailar, pero suples la técnica con un descaro absoluto: giros imposibles, poses dramáticas, un final de rodillas con los brazos abiertos al cielo. La bailarina te sigue el ritmo, riendo, y durante unos minutos gloriosos los dos convertís una duna en un escenario. Al terminar, te coloca un velo de seda en el hombro como trofeo. 'Bailas fatal', dice, 'pero bailas SIN MIEDO. Eso, viajero, es lo único que no se puede enseñar.'",
+            "en": "You climb the dune and throw yourself in. You have no idea how to dance, but you make up for technique with sheer bravado: impossible spins, dramatic poses, a finale on your knees with arms flung open to the sky. The dancer matches your rhythm, laughing, and for a few glorious minutes the two of you turn a dune into a stage. When you finish, she drapes a silk veil over your shoulder as a trophy. 'You dance terribly,' she says, 'but you dance WITHOUT FEAR. That, traveler, is the one thing that can't be taught.'",
+            "fr": "Tu montes sur la dune et te lances. Tu n'as aucune idée de comment danser, mais tu compenses la technique par une audace absolue : des tours impossibles, des poses dramatiques, un final à genoux, les bras ouverts vers le ciel. La danseuse suit ton rythme en riant, et pendant quelques minutes glorieuses vous transformez tous les deux une dune en scène. Quand tu termines, elle pose un voile de soie sur ton épaule comme trophée. « Tu danses affreusement mal », dit-elle, « mais tu danses SANS PEUR. Ça, voyageur, c'est la seule chose qui ne s'enseigne pas. »",
+            "it": "Sali sulla duna e ti lanci. Non hai idea di come si danzi, ma compensi la tecnica con un'audacia assoluta: giri impossibili, pose drammatiche, un finale in ginocchio con le braccia aperte al cielo. La danzatrice segue il tuo ritmo, ridendo, e per alcuni minuti gloriosi entrambi trasformate una duna in un palcoscenico. Quando finisci, ti posa un velo di seta sulla spalla come trofeo. 'Danzi malissimo', dice, 'ma danzi SENZA PAURA. Questo, viaggiatore, è l'unica cosa che non si può insegnare.'",
+            "de": "Du steigst die Düne hinauf und stürzt dich hinein. Du hast keine Ahnung, wie man tanzt, aber du gleichst die Technik mit absoluter Kühnheit aus: unmögliche Drehungen, dramatische Posen, ein Finale auf den Knien mit zum Himmel ausgestreckten Armen. Die Tänzerin folgt lachend deinem Rhythmus, und für ein paar herrliche Minuten verwandelt ihr beide eine Düne in eine Bühne. Als du fertig bist, legt sie dir einen Seidenschleier als Trophäe auf die Schulter. „Du tanzt furchtbar“, sagt sie, „aber du tanzt OHNE ANGST. Das, Reisender, ist das einzige, was man nicht lehren kann.“",
+            "zh": "你爬上沙丘，纵身投入其中。你完全不知道怎么跳舞，但你用绝对的胆量弥补了技巧的不足：不可能的旋转，戏剧性的姿势，最后以跪地、双臂向天空敞开作为结尾。舞者笑着跟上你的节奏，几分钟光辉的时刻里，你们两人把一座沙丘变成了舞台。结束时，她把一条丝绸纱巾披在你的肩上，作为战利品。「你跳得糟透了，」她说，「但你跳得毫无畏惧。旅人，那才是唯一无法教授的东西。」",
+            "ja": "砂丘に登り、身を投じる。踊り方など分からないが、絶対的な大胆さで技術の不足を補う——あり得ない回転、演劇的な姿勢、両腕を空に広げた膝つきの最後の決め。踊り子は笑いながらお前のリズムに合わせ、数分間の輝かしい時間、二人は砂丘を舞台に変える。終えると、彼女は戦利品として絹のベールをお前の肩にかける。「あなたの踊りは酷いものね」と彼女は言う。「でも恐れずに踊ったわ。それこそ、旅人よ、教えることのできない唯一のものよ」"
+        },
+        "next": [
+            "bai_opt_salir"
+        ],
+        "reward": "faceta:aspecto=+1;gflag:bai_duelo",
+        "condition": "no_gflag(\"bai_duelo\")",
+        "once": true
+    },
+    "bai_opt_mirar": {
+        "type": "option",
+        "text": {
+            "es": "👀  Sentarte a contemplar su danza en silencio",
+            "en": "👀  Sit and watch her dance in silence",
+            "fr": "👀  T'asseoir et contempler sa danse en silence",
+            "it": "👀  Sederti a contemplare la sua danza in silenzio",
+            "de": "👀  Sich hinsetzen und ihren Tanz schweigend betrachten",
+            "zh": "👀  静静地坐下欣赏她的舞蹈",
+            "ja": "👀  静かに座って彼女の踊りを見つめる"
+        },
+        "next": [
+            "bai_msg_mirar"
+        ],
+        "reward": ""
+    },
+    "bai_msg_mirar": {
+        "type": "message",
+        "text": {
+            "es": "Te sientas en la arena y la observas. Cuenta una historia sin palabras: la ves nacer, crecer, perder algo, buscarlo, rendirse y, al final, alzarse de nuevo con los brazos al cielo. Cuando termina, jadeante, te dice: 'Bailo lo que no sé decir. Cada duna guarda un duelo que no supe llorar de otra forma.' Te vas entendiendo que hay lenguajes para el dolor que no usan la voz.",
+            "en": "You sit in the sand and watch her. She tells a story without words: you see her born, grow, lose something, search for it, give up, and, at the end, rise again with arms to the sky. When she finishes, breathless, she tells you: 'I dance what I can't say. Every dune holds a grief I couldn't mourn any other way.' You leave understanding that there are languages for pain that don't use the voice.",
+            "fr": "Tu t'assois dans le sable et l'observes. Elle raconte une histoire sans mots : tu la vois naître, grandir, perdre quelque chose, le chercher, abandonner, et, à la fin, se relever à nouveau les bras vers le ciel. Quand elle termine, essoufflée, elle te dit : « Je danse ce que je ne sais pas dire. Chaque dune garde un deuil que je n'ai su pleurer d'aucune autre façon. » Tu repars en comprenant qu'il existe des langages pour la douleur qui n'utilisent pas la voix.",
+            "it": "Ti siedi nella sabbia e la osservi. Racconta una storia senza parole: la vedi nascere, crescere, perdere qualcosa, cercarlo, arrendersi e, alla fine, alzarsi di nuovo con le braccia al cielo. Quando finisce, ansimante, ti dice: 'Danzo ciò che non so dire. Ogni duna custodisce un lutto che non ho saputo piangere in altro modo.' Te ne vai comprendendo che esistono linguaggi per il dolore che non usano la voce.",
+            "de": "Du setzt dich in den Sand und beobachtest sie. Sie erzählt eine Geschichte ohne Worte: du siehst sie geboren werden, wachsen, etwas verlieren, es suchen, aufgeben und schließlich mit den Armen zum Himmel wieder aufstehen. Als sie außer Atem endet, sagt sie dir: „Ich tanze, was ich nicht sagen kann. Jede Düne birgt eine Trauer, die ich auf keine andere Weise beweinen konnte.“ Du gehst mit dem Verständnis, dass es Sprachen für den Schmerz gibt, die keine Stimme benutzen.",
+            "zh": "你坐在沙地上，看着她跳舞。她用无言的方式讲述着一个故事：你看着她出生、成长、失去什么、寻找它、放弃，最后又双臂朝天再次站起。当她喘息着结束时，她对你说：「我跳出了我说不出的东西。每一座沙丘都藏着一次我无法用其他方式哭泣的悲伤。」你带着一种理解离开了：有些痛苦的语言，不需要声音。",
+            "ja": "砂の上に座り、彼女を見つめる。言葉のない物語を語っている——生まれ、育ち、何かを失い、それを探し、諦め、そして最後にまた天に向かって腕を掲げて立ち上がる姿を見る。息を切らして終えると、彼女は言う。「私は言えないことを踊るの。すべての砂丘には、他のやり方では泣けなかった悲しみが眠っている」声を使わない痛みの言語があるのだと理解しながら、その場を去る。"
+        },
+        "next": [
+            "bai_root"
+        ],
+        "reward": ""
+    },
+    "bai_opt_negar": {
+        "type": "option",
+        "text": {
+            "es": "🙅  Yo no bailo. Los héroes de verdad no hacen el ridículo.",
+            "en": "🙅  I dont dance. Real heroes dont make fools of themselves.",
+            "fr": "🙅  Je ne danse pas. Les vrais héros ne se ridiculisent pas.",
+            "it": "🙅  Io non danzo. I veri eroi non si rendono ridicoli.",
+            "de": "🙅  Ich tanze nicht. Wahre Helden machen sich nicht lächerlich.",
+            "zh": "🙅  我不跳舞。真正的英雄不会出丑。",
+            "ja": "🙅  俺は踊らない。本物の英雄は道化になどならない"
+        },
+        "next": [
+            "bai_msg_negar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "bai_msg_negar": {
+        "type": "message",
+        "text": {
+            "es": "La bailarina se detiene y te mira con una lástima elegante. 'Ah. Uno de esos que confunden la rigidez con la fuerza.' Reanuda su danza dándote la espalda. 'El que teme al ridículo, viajero, ya ha perdido contra sí mismo. Cuando aprendas a hacer el tonto sin miedo, vuelve. Ese día valdrás más que ahora.' El velo de seda se queda ondeando en su hombro, un premio que no has sabido ganar.",
+            "en": "The dancer stops and looks at you with an elegant pity. 'Ah. One of those who mistake stiffness for strength.' She resumes her dance, turning her back on you. 'The one who fears looking foolish, traveler, has already lost against himself. When you learn to play the fool without fear, come back. That day you'll be worth more than you are now.' The silk veil stays fluttering on her shoulder, a prize you failed to earn.",
+            "fr": "La danseuse s'arrête et te regarde avec une pitié élégante. « Ah. Un de ceux qui confondent la raideur avec la force. » Elle reprend sa danse en te tournant le dos. « Celui qui craint le ridicule, voyageur, a déjà perdu contre lui-même. Quand tu apprendras à faire l'imbécile sans peur, reviens. Ce jour-là, tu vaudras plus qu'aujourd'hui. » Le voile de soie reste flottant sur son épaule, un prix que tu n'as pas su gagner.",
+            "it": "La danzatrice si ferma e ti guarda con un'elegante pietà. 'Ah. Uno di quelli che confondono la rigidità con la forza.' Riprende la sua danza girandoti le spalle. 'Chi teme il ridicolo, viaggiatore, ha già perso contro se stesso. Quando imparerai a fare lo sciocco senza paura, torna. Quel giorno varrai più di ora.' Il velo di seta resta ondeggiante sulla sua spalla, un premio che non hai saputo conquistare.",
+            "de": "Die Tänzerin hält an und blickt dich mit eleganter Verachtung an. „Ah. Einer von denen, die Steifheit mit Stärke verwechseln.“ Sie nimmt ihren Tanz wieder auf und kehrt dir den Rücken. „Wer sich vor der Lächerlichkeit fürchtet, Reisender, hat schon gegen sich selbst verloren. Wenn du lernst, ohne Angst den Narren zu spielen, komm zurück. An diesem Tag wirst du mehr wert sein als jetzt.“ Der Seidenschleier bleibt auf ihrer Schulter wehen, ein Preis, den du nicht zu verdienen wusstest.",
+            "zh": "舞者停下来，用一种优雅的怜悯看着你。「啊。又一个把僵硬当作力量的人。」她转身背对着你，继续舞动。「害怕出丑的人，旅人，早已输给了自己。等你学会毫无畏惧地做个傻瓜时，再回来吧。那一天，你的价值会比现在更高。」那条丝绸纱巾依然在她肩上飘动，那是一个你未能赢得的奖品。",
+            "ja": "踊り子は止まり、優雅な憐れみでお前を見つめる。「ああ。硬直を強さと勘違いする者の一人ね」背を向けて踊りを再開する。「道化になることを恐れる者は、旅人よ、既に自分自身に負けているのよ。恐れずに道化を演じられるようになったら戻ってきなさい。その日、あなたは今よりも価値のある人間になるでしょう」絹のベールは彼女の肩で揺れ続けている——お前が勝ち取ることのできなかった賞品として。"
+        },
+        "next": [
+            "bai_opt_salir"
+        ],
+        "reward": "faceta:aspecto=-1"
+    },
+    "bai_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Dejarla danzando contra el atardecer",
+            "en": "🚶  Leave her dancing against the sunset",
+            "fr": "🚶  La laisser danser contre le coucher de soleil",
+            "it": "🚶  Lasciarla danzare contro il tramonto",
+            "de": "🚶  Sie tanzend gegen den Sonnenuntergang zurücklassen",
+            "zh": "🚶  留她在落日中继续舞蹈",
+            "ja": "🚶  夕日を背に踊る彼女を残して去る"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

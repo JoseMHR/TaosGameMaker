@@ -1,0 +1,26 @@
+{
+    "id": "poi_celestia_astronomo_ciego",
+    "type": "poi",
+    "icon": "🔭",
+    "name": {
+        "es": "El Astrónomo Ciego",
+        "en": "The Blind Astronomer",
+        "fr": "L'Astronome Aveugle",
+        "it": "L'Astronomo Cieco",
+        "de": "Der Blinde Astronom",
+        "zh": "盲眼天文学家",
+        "ja": "盲目の天文学者"
+    },
+    "desc": {
+        "es": "Un anciano ciego que cartografía las estrellas de memoria desde una colina, apuntando al cielo que ya no puede ver. (PNJ singular).",
+        "en": "A blind old man who maps the stars from memory atop a hill, pointing at a sky he can no longer see. (Singular NPC).",
+        "fr": "Un vieil homme aveugle qui cartographie les étoiles de mémoire depuis une colline, pointant vers un ciel qu'il ne peut plus voir. (PNJ singulier).",
+        "it": "Un vecchio cieco che mappa le stelle a memoria da una collina, indicando un cielo che non può più vedere. (PNG singolare).",
+        "de": "Ein blinder alter Mann, der die Sterne aus dem Gedächtnis von einem Hügel aus kartiert und auf einen Himmel zeigt, den er nicht mehr sehen kann. (Einzigartiger NPC).",
+        "zh": "一位失明的老人，在山丘上凭记忆绘制星图，指向他再也看不见的天空。（唯一NPC）。",
+        "ja": "丘の上で記憶を頼りに星を地図に描く盲目の老人。もう見えない空を指差している。（唯一のNPC）。"
+    },
+    "npc": "poi_celestia_astronomo_ciego",
+    "bg": "bg_world_poi_celestia_astronomo_ciego.png",
+    "music": "poi_generic"
+}

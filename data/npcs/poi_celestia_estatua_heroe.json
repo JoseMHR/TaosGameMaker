@@ -1,0 +1,151 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "La Estatua del Héroe Equivocado",
+            "en": "The Statue of the Wrong Hero",
+            "fr": "La Statue du Mauvais Héros",
+            "it": "La Statua dell'Eroe Sbagliato",
+            "de": "Die Statue des Falschen Helden",
+            "zh": "错位的英雄雕像",
+            "ja": "間違った英雄の像"
+        },
+        "next": [],
+        "reward": "bg=0.07,0.07,0.09"
+    },
+    "est_root": {
+        "type": "message",
+        "text": {
+            "es": "En una plaza de mármol de Celestia se alza una estatua colosal: un guerrero de mandíbula heroica, espada en alto, pisando a un dragón vencido. Impresionante. Majestuoso. Pero la placa de bronce a sus pies, recién pulida, no cuadra: 'EN MEMORIA DE ORWEN EL CONTABLE, QUE MURIÓ SIN HERIR A NADIE Y CUADRÓ LAS CUENTAS DEL REINO TRES AÑOS SEGUIDOS.' Alguien ha puesto una placa humilde bajo una estatua grandiosa que no le corresponde.",
+            "en": "In a marble square of Celestia rises a colossal statue: a warrior with a heroic jaw, sword aloft, trampling a defeated dragon. Impressive. Majestic. But the bronze plaque at its feet, freshly polished, doesn't match: 'IN MEMORY OF ORWEN THE ACCOUNTANT, WHO DIED WITHOUT HARMING A SOUL AND BALANCED THE KINGDOM'S BOOKS THREE YEARS RUNNING.' Someone has placed a humble plaque beneath a grand statue that doesn't belong to him.",
+            "fr": "Sur une place de marbre de Celestia se dresse une statue colossale : un guerrier à la mâchoire héroïque, épée levée, piétinant un dragon vaincu. Impressionnant. Majestueux. Mais la plaque de bronze à ses pieds, récemment polie, ne correspond pas : « À LA MÉMOIRE D'ORWEN LE COMPTABLE, QUI EST MORT SANS BLESSER PERSONNE ET A ÉQUILIBRÉ LES COMPTES DU ROYAUME TROIS ANNÉES DE SUITE. » Quelqu'un a placé une plaque humble sous une statue grandiose qui ne lui correspond pas.",
+            "it": "In una piazza di marmo di Celestia si erge una statua colossale: un guerriero dalla mascella eroica, spada alzata, che calpesta un drago sconfitto. Impressionante. Maestosa. Ma la targa di bronzo ai suoi piedi, appena lucidata, non corrisponde: 'IN MEMORIA DI ORWEN IL CONTABILE, CHE MORÌ SENZA FERIRE NESSUNO E QUADRÒ I CONTI DEL REGNO PER TRE ANNI DI SEGUITO.' Qualcuno ha messo una targa umile sotto una statua grandiosa che non gli appartiene.",
+            "de": "Auf einem Marmorplatz von Celestia erhebt sich eine kolossale Statue: ein Krieger mit heroischem Kinn, das Schwert erhoben, tritt auf einen besiegten Drachen. Beeindruckend. Majestätisch. Doch die frisch polierte Bronzetafel zu ihren Füßen passt nicht: „IN GEDENKEN AN ORWEN DEN BUCHHALTER, DER STARB, OHNE JEMANDEM ETWAS ANZUTUN, UND DIE BÜCHER DES KÖNIGREICHS DREI JAHRE IN FOLGE AUSGLICH.“ Jemand hat eine bescheidene Tafel unter eine großartige Statue gesetzt, die ihm nicht gehört.",
+            "zh": "在塞莱斯提亚一座大理石广场上，矗立着一座巨大的雕像：一位下颚棱角分明的英勇战士，高举利剑，脚踏一条被击败的巨龙。令人惊叹，气势恢宏。但脚下那块刚刚擦亮的铜牌却与之格格不入：「纪念会计师奥文，他一生未曾伤害任何人，并连续三年为王国理清账目。」有人把一块朴素的牌匾放在了一座与之毫不相称的宏伟雕像下。",
+            "ja": "セレスティアの大理石の広場に、巨大な像がそびえ立っている——英雄的な顎を持つ戦士が剣を掲げ、倒した竜を踏みつけている。壮観だ。荘厳だ。だがその足元にある、磨き上げられたばかりの銅の銘板は不釣り合いだ：「誰一人傷つけることなく世を去り、三年連続で王国の帳簿を締めた会計士オーウェンを偲んで」。誰かが、この壮大な像には似つかわしくない質素な銘板をその足元に置いたのだ。"
+        },
+        "next": [
+            "est_opt_investigar",
+            "est_opt_placa",
+            "est_opt_burla",
+            "est_opt_salir"
+        ],
+        "reward": ""
+    },
+    "est_opt_investigar": {
+        "type": "option",
+        "text": {
+            "es": "🔎  Preguntar a los transeúntes por la historia real",
+            "en": "🔎  Ask the passersby about the real story",
+            "fr": "🔎  Demander aux passants la véritable histoire",
+            "it": "🔎  Chiedere ai passanti la storia vera",
+            "de": "🔎  Passanten nach der wahren Geschichte fragen",
+            "zh": "🔎  向路人打听真实的历史",
+            "ja": "🔎  通行人に本当の話を尋ねる"
+        },
+        "next": [
+            "est_msg_investigar"
+        ],
+        "reward": ""
+    },
+    "est_msg_investigar": {
+        "type": "message",
+        "text": {
+            "es": "Una vendedora te lo cuenta en voz baja: 'La estatua era de un general famoso que ganó mil batallas y perdió su alma en cada una. Cuando murió, nadie vino al funeral. Pero el viejo Orwen, el contable, sí que dejó huella: pagó de su bolsillo el pan de los huérfanos durante años, sin que nadie lo supiera. Así que una noche cambiamos la placa. El pueblo decidió a quién quería recordar de verdad.' Sonríe. 'La gloria es de quien la merece, no de quien la firma.'",
+            "en": "A vendor tells you quietly: 'The statue belonged to a famous general who won a thousand battles and lost his soul in every one. When he died, no one came to the funeral. But old Orwen, the accountant, truly left a mark: he paid out of his own pocket for the orphans' bread for years, and no one knew. So one night we swapped the plaque. The people decided whom they truly wanted to remember.' She smiles. 'Glory belongs to the one who earns it, not the one who signs it.'",
+            "fr": "Une marchande te le raconte à voix basse : « La statue était celle d'un général célèbre qui a gagné mille batailles et perdu son âme à chacune d'elles. Quand il est mort, personne n'est venu à ses funérailles. Mais le vieil Orwen, le comptable, lui, a vraiment laissé sa trace : il a payé de sa poche le pain des orphelins pendant des années, sans que personne ne le sache. Alors une nuit, nous avons changé la plaque. Le peuple a décidé qui il voulait vraiment se souvenir. » Elle sourit. « La gloire appartient à celui qui la mérite, pas à celui qui la signe. »",
+            "it": "Una venditrice te lo racconta a bassa voce: 'La statua era di un generale famoso che vinse mille battaglie e perse la sua anima in ognuna di esse. Quando morì, nessuno venne al funerale. Ma il vecchio Orwen, il contabile, lasciò davvero il segno: pagò di tasca sua il pane degli orfani per anni, senza che nessuno lo sapesse. Così una notte cambiammo la targa. Il popolo decise chi voleva davvero ricordare.' Sorride. 'La gloria è di chi la merita, non di chi la firma.'",
+            "de": "Eine Verkäuferin erzählt es dir leise: „Die Statue gehörte einem berühmten General, der tausend Schlachten gewann und bei jeder davon seine Seele verlor. Als er starb, kam niemand zur Beerdigung. Aber der alte Orwen, der Buchhalter, hinterließ tatsächlich Spuren: Er bezahlte jahrelang aus eigener Tasche das Brot für die Waisen, ohne dass es jemand wusste. Also tauschten wir eines Nachts die Tafel aus. Das Volk entschied, an wen es sich wirklich erinnern wollte.“ Sie lächelt. „Ruhm gehört dem, der ihn verdient, nicht dem, der ihn unterschreibt.“",
+            "zh": "一位商贩小声告诉你：「这座雕像原本属于一位著名的将军，他打赢了一千场战役，却在每一场中都失去了自己的灵魂。他死时，没有人来参加葬礼。但那位老会计师奥文，却真正留下了印记：多年来他自掏腰包为孤儿们买面包，无人知晓。于是在一个夜晚，我们换掉了那块牌匾。是人民决定了他们真正想要缅怀的是谁。」她微笑着说：「荣耀属于配得上它的人，而非署名之人。」",
+            "ja": "行商の女が小声で語ってくれる。「あの像はな、千の戦いに勝利し、そのすべてで魂を失った有名な将軍のものだったんだ。彼が死んだ時、誰も葬儀に来なかった。だが年老いた会計士オーウェンは、本当に足跡を残した男だった——何年もの間、誰にも知られず自分の懐から孤児たちのパン代を払い続けていたのさ。だからある夜、私たちは銘板をすり替えた。誰を本当に覚えていたいか、民が決めたんだ」彼女は微笑む。「栄光はそれに値する者のものであって、署名する者のものじゃないのさ」"
+        },
+        "next": [
+            "est_root"
+        ],
+        "reward": ""
+    },
+    "est_opt_placa": {
+        "type": "option",
+        "text": {
+            "es": "🧽  Pulir con cuidado la humilde placa de Orwen",
+            "en": "🧽  Carefully polish Orwen's humble plaque",
+            "fr": "🧽  Polir soigneusement lhumble plaque dOrwen",
+            "it": "🧽  Lucidare con cura l'umile targa di Orwen",
+            "de": "🧽  Orwens bescheidene Tafel sorgfältig polieren",
+            "zh": "🧽  仔细擦亮奥文那块朴素的牌匾",
+            "ja": "🧽  オーウェンの質素な銘板を丁寧に磨く"
+        },
+        "next": [
+            "est_msg_placa"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "est_msg_placa": {
+        "type": "message",
+        "text": {
+            "es": "Sacas un trapo y limpias el bronce hasta que las letras de Orwen brillan más que la espada de mármol que tienen encima. Un par de ancianos que pasaban se detienen y asienten en silencio, agradecidos. Te marchas pensando en cómo se mide una vida: no por las batallas ganadas, sino por la gente que respira mejor porque tú existías. Un pensamiento que, por algún motivo, se te clava hondo.",
+            "en": "You take out a rag and clean the bronze until Orwen's letters shine brighter than the marble sword above them. A couple of old folk passing by stop and nod in silence, grateful. You leave thinking about how a life is measured: not by battles won, but by the people who breathe easier because you existed. A thought that, for some reason, lodges itself deep.",
+            "fr": "Tu sors un chiffon et nettoies le bronze jusqu'à ce que les lettres d'Orwen brillent plus que l'épée de marbre au-dessus. Un couple de vieillards qui passait s'arrête et hoche la tête en silence, reconnaissant. Tu pars en pensant à comment on mesure une vie : non pas par les batailles gagnées, mais par les gens qui respirent mieux parce que tu as existé. Une pensée qui, pour une raison quelconque, se plante profondément en toi.",
+            "it": "Tiri fuori uno straccio e pulisci il bronzo finché le lettere di Orwen non brillano più della spada di marmo sopra di esse. Un paio di anziani che passavano si fermano e annuiscono in silenzio, riconoscenti. Te ne vai pensando a come si misura una vita: non dalle battaglie vinte, ma dalla gente che respira meglio perché tu esistevi. Un pensiero che, per qualche motivo, ti si conficca in profondità.",
+            "de": "Du holst ein Tuch heraus und putzt das Bronze, bis Orwens Buchstaben heller strahlen als das Marmorschwert darüber. Ein paar vorbeigehende alte Leute halten inne und nicken schweigend, dankbar. Du gehst weiter und denkst darüber nach, wie man ein Leben misst: nicht an gewonnenen Schlachten, sondern an den Menschen, die leichter atmen, weil du existiert hast. Ein Gedanke, der sich aus irgendeinem Grund tief in dich einprägt.",
+            "zh": "你拿出一块布，擦拭铜牌，直到奥文的名字比头顶那把大理石剑更加闪耀。一对经过的老人停下脚步，默默地感激地点了点头。你离开时思考着一个生命该如何衡量：不是看赢了多少战役，而是看有多少人因为你的存在而活得更轻松。不知为何，这个念头深深地扎进了你的心里。",
+            "ja": "布を取り出し、オーウェンの文字が頭上の大理石の剣よりも輝くまで青銅を磨く。通りかかった老夫婦が足を止め、感謝を込めて静かに頷く。命はどう測られるのかを考えながら立ち去る——勝った戦いの数ではなく、お前がいたことで楽に息ができる人々の数によって。なぜかその考えが、深く心に刺さる。"
+        },
+        "next": [
+            "est_opt_salir"
+        ],
+        "reward": "faceta:bondad=+1;gflag:est_pulida",
+        "condition": "no_gflag(\"est_pulida\")",
+        "once": true
+    },
+    "est_opt_burla": {
+        "type": "option",
+        "text": {
+            "es": "😏  Reírte: ¿Un contable bajo una estatua de guerra? Ridículo.",
+            "en": "😏  Scoff: An accountant under a war statue? Ridiculous.",
+            "fr": "😏  Te moquer : Un comptable sous une statue de guerre ? Ridicule.",
+            "it": "😏  Ridere: Un contabile sotto una statua di guerra? Ridicolo.",
+            "de": "😏  Spotten: Ein Buchhalter unter einer Kriegsstatue? Lächerlich.",
+            "zh": "😏  嘲笑道：一个会计师配一座战争雕像？真可笑。",
+            "ja": "😏  嘲笑する：戦争の像の下に会計士だと？馬鹿げてる"
+        },
+        "next": [
+            "est_msg_burla"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "est_msg_burla": {
+        "type": "message",
+        "text": {
+            "es": "Sueltas una carcajada y un niño que dejaba una flor a los pies de la placa se gira y te mira con dureza. 'Orwen le pagaba la medicina a mi hermana', dice, y se va. La risa se te muere en la garganta. Te quedas a solas con la estatua de un héroe que nadie llora y la placa de un hombre corriente que todos echan de menos, sintiéndote, de pronto, muy pequeño.",
+            "en": "You burst out laughing and a child who was laying a flower at the foot of the plaque turns and stares at you hard. 'Orwen paid for my sister's medicine,' he says, and walks off. The laugh dies in your throat. You're left alone with the statue of a hero no one mourns and the plaque of an ordinary man everyone misses, feeling, all of a sudden, very small.",
+            "fr": "Tu éclates de rire et un enfant qui déposait une fleur au pied de la plaque se retourne et te fixe durement. « Orwen payait les médicaments de ma sœur », dit-il, et il s'en va. Le rire meurt dans ta gorge. Tu restes seul avec la statue d'un héros que personne ne pleure et la plaque d'un homme ordinaire à qui tout le monde manque, te sentant, soudain, tout petit.",
+            "it": "Scoppi a ridere e un bambino che stava lasciando un fiore ai piedi della targa si gira e ti fissa con durezza. 'Orwen pagava le medicine di mia sorella', dice, e se ne va. La risata ti muore in gola. Rimani solo con la statua di un eroe che nessuno piange e la targa di un uomo comune che tutti rimpiangono, sentendoti, all'improvviso, molto piccolo.",
+            "de": "Du brichst in Gelächter aus, und ein Kind, das eine Blume zu Füßen der Tafel niederlegte, dreht sich um und starrt dich hart an. „Orwen hat die Medizin meiner Schwester bezahlt“, sagt es und geht weg. Das Lachen erstirbt in deiner Kehle. Du bleibst allein mit der Statue eines Helden, den niemand betrauert, und der Tafel eines gewöhnlichen Mannes, der allen fehlt, und fühlst dich plötzlich sehr klein.",
+            "zh": "你放声大笑，一个正在牌匾脚下放花的孩子转过身来，狠狠地瞪着你。「奥文替我妹妹付了药钱，」他说完便离开了。笑声在你喉咙里咽了下去。你独自留下，面对一座无人哀悼的英雄雕像，和一块所有人都怀念的普通人的牌匾，突然觉得自己无比渺小。",
+            "ja": "お前は笑い声を上げるが、銘板の足元に花を供えていた子供が振り向き、厳しい目でお前を見つめる。「オーウェンは僕の姉さんの薬代を払ってくれたんだ」そう言って去っていく。笑いが喉の奥で消える。誰にも悼まれない英雄の像と、皆が恋しく思う平凡な男の銘板とともに一人残され、突然、自分がひどく小さく感じられる。"
+        },
+        "next": [
+            "est_opt_salir"
+        ],
+        "reward": "faceta:bondad=-1"
+    },
+    "est_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Alejarte de la plaza",
+            "en": "🚶  Walk away from the square",
+            "fr": "🚶  S'éloigner de la place",
+            "it": "🚶  Allontanarti dalla piazza",
+            "de": "🚶  Sich vom Platz entfernen",
+            "zh": "🚶  离开广场",
+            "ja": "🚶  広場を後にする"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

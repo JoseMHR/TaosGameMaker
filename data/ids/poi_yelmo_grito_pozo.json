@@ -1,0 +1,26 @@
+{
+    "id": "poi_yelmo_grito_pozo",
+    "type": "poi",
+    "icon": "🕳️",
+    "name": {
+        "es": "El Grito en el Fondo del Pozo",
+        "en": "The Cry at the Bottom of the Well",
+        "fr": "Le Cri au Fond du Puits",
+        "it": "Il Grido in Fondo al Pozzo",
+        "de": "Der Schrei am Grunde des Brunnens",
+        "zh": "井底的呼喊",
+        "ja": "井戸の底からの叫び"
+    },
+    "desc": {
+        "es": "Un pozo seco del que sube, débil, una voz que pide ayuda... y que suena inquietantemente parecida a la tuya. (PNJ singular).",
+        "en": "A dry well from which rises, faintly, a voice calling for help... one that sounds unsettlingly like your own. (Singular NPC).",
+        "fr": "Un puits sec d'où monte, faiblement, une voix qui appelle à l'aide... et qui ressemble étrangement à la tienne. (PNJ singulier).",
+        "it": "Un pozzo secco da cui sale, debole, una voce che chiede aiuto... e che suona inquietantemente simile alla tua. (PNG singolare).",
+        "de": "Ein trockener Brunnen, aus dem schwach eine Stimme aufsteigt, die um Hilfe ruft... und die deiner eigenen unheimlich ähnelt. (Einzigartiger NPC).",
+        "zh": "一口干枯的井中传来微弱的求救声……听起来诡异地像你自己的声音。（唯一NPC）。",
+        "ja": "乾いた井戸の底から弱々しく助けを求める声が聞こえる……それは不気味なほどお前自身の声に似ている。（唯一のNPC）。"
+    },
+    "npc": "poi_yelmo_grito_pozo",
+    "bg": "bg_world_poi_yelmo_grito_pozo.png",
+    "music": "poi_generic"
+}

@@ -1,0 +1,267 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "Aldeano Despistado",
+            "en": "Clueless Villager",
+            "fr": "Villageois Distrait",
+            "it": "Villico Distratto",
+            "de": "Zerstreuter Dorfbewohner",
+            "zh": "健忘的村民",
+            "ja": "うっかり者の村人"
+        },
+        "next": [],
+        "reward": "avatar=🧔;bg=0.08,0.06,0.04"
+    },
+    "diary_explorer": {
+        "type": "message",
+        "text": {
+            "es": "¿Aún nada de mi diario? Está en la Cueva Oscura del oeste, donde vive esa sombra de mal genio. ¡Ten cuidado, que esa cueva no perdona a los distraídos... como yo!",
+            "en": "Still no diary? It's in the Dark Cave to the west, where that grumpy shadow lives. Be careful, that cave doesn't forgive the distracted... like me!",
+            "fr": "Toujours rien de mon journal ? Il est dans la Grotte Sombre à l'ouest, où vit cette ombre de mauvais caractère. Fais attention, cette grotte ne pardonne pas aux distraits... comme moi !",
+            "it": "Ancora niente del mio diario? È nella Grotta Oscura a ovest, dove vive quell'ombra di cattivo umore. Fai attenzione, quella grotta non perdona i distratti... come me!",
+            "de": "Immer noch keine Spur von meinem Tagebuch? Es ist in der Dunklen Höhle im Westen, wo dieser mürrische Schatten wohnt. Sei vorsichtig, diese Höhle verzeiht keine Zerstreuten... wie mich!",
+            "zh": "我的日记还是没消息吗？它在西边的黑暗洞穴里，那个脾气暴躁的阴影就住在那儿。小心点，那个洞穴可不会放过粗心大意的人……比如我！",
+            "ja": "俺の日記、まだ見つからないのか？西の暗黒洞窟にあるんだ、あの不機嫌な影が住んでいるところに。気をつけろよ、あの洞窟はうっかり者を容赦しないからな……俺みたいにな！"
+        },
+        "next": [
+            "diary_explorer_ok"
+        ],
+        "reward": "",
+        "condition": "quest == \"explorer_missing\" and no_item(\"diario\")"
+    },
+    "diary_explorer_ok": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Seguiré buscando",
+            "en": "🚶  I'll keep searching",
+            "fr": "🚶  Je continuerai à chercher",
+            "it": "🚶  Continuerò a cercare",
+            "de": "🚶  Ich suche weiter",
+            "zh": "🚶  我会继续找",
+            "ja": "🚶  引き続き探してみる"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "diary_has": {
+        "type": "message",
+        "text": {
+            "es": "¡ESE es mi diario! No preguntaré cómo lo conseguiste ni por qué huele a sombra chamuscada. ¿Me lo das?",
+            "en": "THAT'S my diary! I won't ask how you got it or why it smells of singed shadow. Will you give it to me?",
+            "fr": "C'EST mon journal ! Je ne demanderai pas comment tu l'as obtenu ni pourquoi il sent l'ombre brûlée. Tu me le donnes ?",
+            "it": "QUELLO è il mio diario! Non chiederò come l'hai ottenuto né perché puzza di ombra bruciacchiata. Me lo dai?",
+            "de": "DAS ist mein Tagebuch! Ich werde nicht fragen, wie du es bekommen hast oder warum es nach versengtem Schatten riecht. Gibst du es mir?",
+            "zh": "那就是我的日记！我不会问你是怎么弄到手的，也不问为什么它闻起来有股烧焦阴影的味道。你能还给我吗？",
+            "ja": "それは俺の日記だ！どうやって手に入れたのか、なぜ焦げた影の匂いがするのかは聞かないでおく。返してくれるか？"
+        },
+        "next": [
+            "diary_give",
+            "diary_keep"
+        ],
+        "reward": "",
+        "condition": "has_item(\"diario\")"
+    },
+    "diary_give": {
+        "type": "option",
+        "text": {
+            "es": "📖  Entregar el Diario Personal",
+            "en": "📖  Hand over the Personal Diary",
+            "fr": "📖  Rendre le Journal Personnel",
+            "it": "📖  Consegnare il Diario Personale",
+            "de": "📖  Das Persönliche Tagebuch übergeben",
+            "zh": "📖  交出私人日记",
+            "ja": "📖  個人的な日記を手渡す"
+        },
+        "next": [
+            "diary_give_r"
+        ],
+        "reward": "-item:diario=1;item:banana=1;quests:banana_obtained;faceta:amabilidad=+3",
+        "condition": "has_item(\"diario\")",
+        "once": true
+    },
+    "diary_give_r": {
+        "type": "message",
+        "text": {
+            "es": "¡Eternamente agradecido! Toma esta Banana. ¿Que para qué una banana? Al mono que guarda el puente del norte lo vuelven loco. Tú confía en el despistado.",
+            "en": "Forever grateful! Take this Banana. Why a banana, you ask? The monkey guarding the northern bridge goes wild for them. Trust the absentminded fellow.",
+            "fr": "Éternellement reconnaissant ! Prends cette banane. Pourquoi une banane, demandes-tu ? Le singe qui garde le pont du nord en devient fou. Fais confiance au distrait.",
+            "it": "Eternamente grato! Prendi questa banana. Perché una banana, chiedi? La scimmia che sorveglia il ponte del nord ne va matta. Fidati del distratto.",
+            "de": "Ewig dankbar! Nimm diese Banane. Warum eine Banane, fragst du? Der Affe, der die Nordbrücke bewacht, wird verrückt danach. Vertrau dem Zerstreuten.",
+            "zh": "感激不尽！拿着这根香蕉吧。你问为什么是香蕉？看守北桥的那只猴子对香蕉着迷得很。相信这个健忘鬼吧。",
+            "ja": "永遠に感謝する！このバナナを受け取ってくれ。なぜバナナかって？北の橋を守っている猿がこれに目がないんだ。このうっかり者を信じてくれ。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "diary_keep": {
+        "type": "option",
+        "text": {
+            "es": "🚶  No, me lo quedo",
+            "en": "🚶  No, I'll keep it",
+            "fr": "🚶  Non, je le garde",
+            "it": "🚶  No, me lo tengo",
+            "de": "🚶  Nein, ich behalte es",
+            "zh": "🚶  不，我要留着",
+            "ja": "🚶  いや、これは俺がもらう"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "diary_thanked": {
+        "type": "message",
+        "text": {
+            "es": "¡Gracias de nuevo por el diario! Disfruta la banana... y salúdame al mono del puente.",
+            "en": "Thanks again for the diary! Enjoy the banana... and say hi to the bridge monkey for me.",
+            "fr": "Encore merci pour le journal ! Profite bien de la banane... et salue le singe du pont pour moi.",
+            "it": "Grazie ancora per il diario! Goditi la banana... e saluta la scimmia del ponte per me.",
+            "de": "Nochmals danke für das Tagebuch! Genieß die Banane... und grüß den Brückenaffen von mir.",
+            "zh": "再次感谢你归还日记！好好享用那根香蕉吧……替我向桥上的猴子问好。",
+            "ja": "日記のことは改めて感謝する！バナナを楽しんでくれ……橋の猿によろしく伝えておいてくれ。"
+        },
+        "next": [
+            "diary_opt_secretos",
+            "diary_thanked_ok"
+        ],
+        "reward": "",
+        "condition": "quest == \"banana_obtained\" or quest == \"monkey_cleared\""
+    },
+    "diary_thanked_ok": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Marcharse",
+            "en": "🚶  Leave",
+            "fr": "🚶  Partir",
+            "it": "🚶  Andarsene",
+            "de": "🚶  Gehen",
+            "zh": "🚶  离开",
+            "ja": "🚶  立ち去る"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "diary_offer": {
+        "type": "message",
+        "text": {
+            "es": "¡Ah, viajero! Verás... perdí mi Diario Personal en la Cueva Oscura del oeste. ¿Que qué hacía yo en una cueva llena de monstruos? Ni idea, soy MUY despistado. Si me lo traes, te daré algo que te vendrá de perlas.",
+            "en": "Ah, traveler! You see... I lost my Personal Diary in the Dark Cave to the west. What was I doing in a monster-filled cave? No idea, I'm VERY absentminded. Bring it back and I'll give you something rather handy.",
+            "fr": "Ah, voyageur ! Tu vois... j'ai perdu mon Journal Personnel dans la Grotte Sombre à l'ouest. Ce que je faisais dans une grotte pleine de monstres ? Aucune idée, je suis TRÈS distrait. Si tu me le rapportes, je te donnerai quelque chose de bien utile.",
+            "it": "Ah, viaggiatore! Vedi... ho perso il mio Diario Personale nella Grotta Oscura a ovest. Cosa facevo in una grotta piena di mostri? Non ne ho idea, sono MOLTO distratto. Se me lo riporti, ti darò qualcosa di davvero utile.",
+            "de": "Ah, Reisender! Weißt du... ich habe mein Persönliches Tagebuch in der Dunklen Höhle im Westen verloren. Was ich in einer monsterverseuchten Höhle machte? Keine Ahnung, ich bin SEHR zerstreut. Wenn du es zurückbringst, gebe ich dir etwas ziemlich Praktisches.",
+            "zh": "啊，旅人！你瞧……我把我的私人日记弄丢在西边的黑暗洞穴里了。我在一个满是怪物的洞穴里干什么？我也不知道，我非常健忘。要是你能帮我找回来，我会给你一件相当有用的东西。",
+            "ja": "ああ、旅人よ！実はな……西の暗黒洞窟で個人的な日記をなくしてしまったんだ。怪物だらけの洞窟で何をしていたかって？さっぱり分からん、俺はとてもうっかり者なんでな。持って帰ってきてくれたら、かなり役立つものをやろう。"
+        },
+        "next": [
+            "diary_accept",
+            "diary_offer_no"
+        ],
+        "reward": ""
+    },
+    "diary_accept": {
+        "type": "option",
+        "text": {
+            "es": "⚔️  Aceptar la misión",
+            "en": "⚔️  Accept the quest",
+            "fr": "⚔️  Accepter la mission",
+            "it": "⚔️  Accettare la missione",
+            "de": "⚔️  Die Quest annehmen",
+            "zh": "⚔️  接受任务",
+            "ja": "⚔️  依頼を受ける"
+        },
+        "next": [
+            "diary_accept_r"
+        ],
+        "reward": "questf:explorer_missing",
+        "condition": "quest == \"sylphrena_arrived\"",
+        "once": true
+    },
+    "diary_accept_r": {
+        "type": "message",
+        "text": {
+            "es": "¡Mil gracias! Está en la Cueva Oscura, al oeste de la ciudad. Cuidado: dicen que dentro vive una sombra con muy malas pulgas.",
+            "en": "A thousand thanks! It's in the Dark Cave, west of the city. Careful: they say a very grumpy shadow lives inside.",
+            "fr": "Mille mercis ! Il est dans la Grotte Sombre, à l'ouest de la ville. Attention : on dit qu'une ombre de très mauvaise humeur y vit.",
+            "it": "Mille grazie! È nella Grotta Oscura, a ovest della città. Attenzione: dicono che dentro viva un'ombra di pessimo umore.",
+            "de": "Tausend Dank! Es ist in der Dunklen Höhle, westlich der Stadt. Vorsicht: Man sagt, dort lebt ein sehr übellauniger Schatten.",
+            "zh": "千恩万谢！它在城西的黑暗洞穴里。小心点：据说里面住着一个脾气极差的阴影。",
+            "ja": "本当にありがとう！それは街の西にある暗黒洞窟にある。気をつけろ、中にはひどく機嫌の悪い影が住んでいるらしい。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "diary_offer_no": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Marcharse",
+            "en": "🚶  Leave",
+            "fr": "🚶  Partir",
+            "it": "🚶  Andarsene",
+            "de": "🚶  Gehen",
+            "zh": "🚶  离开",
+            "ja": "🚶  立ち去る"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "diary_opt_secretos": {
+        "type": "option",
+        "text": {
+            "es": "📖  ¿Qué secretos tan vitales e inconfesables contiene ese diario?",
+            "en": "📖  What vital, unspeakable secrets are in that diary of yours?",
+            "fr": "📖  Quels secrets vitaux et inavouables renferme ce journal ?",
+            "it": "📖  Quali segreti vitali e inconfessabili racchiude quel diario?",
+            "de": "📖  Welche lebenswichtigen, unaussprechlichen Geheimnisse birgt dieses Tagebuch?",
+            "zh": "📖  那本日记里究竟藏着什么至关重要、不可告人的秘密？",
+            "ja": "📖  その日記にはどんな重大で口外できない秘密が書かれているんだ？"
+        },
+        "next": [
+            "diary_msg_secretos"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "diary_msg_secretos": {
+        "type": "message",
+        "text": {
+            "es": "El aldeano baja la voz y hojea con orgullo: 'Día 12: Intenté ordeñar a un jabalí salvaje. Resultó ser un macho; me persiguió tres leguas. Día 19: He descubierto que si te pones el caldero en la cabeza no te mojas con la lluvia, pero te chocas con todos los robles del camino. Y Día 23: Me escondí de mi suegra en una cueva oscura llena de murciélagos y sombras devoradoras. Bastante más acogedor que el salón.' Cierra el diario con un golpe solemne: '¿Comprendes ahora por qué no podía caer en malas manos?'",
+            "en": "The villager lowers his voice and browses with pride: 'Day 12: Tried to milk a wild boar. Turned out to be male; chased me three leagues. Day 19: Discovered that putting the soup cauldron on your head keeps the rain off, though you collide with every oak along the path. And Day 23: Hid from my mother-in-law in a dark cave crawling with bats and ravenous shadows. Much cozier than the parlor.' He snaps the diary shut solemnly: 'Do you see now why this could never fall into the wrong hands?'",
+            "fr": "Le villageois baisse la voix et feuillette avec fierté : « Jour 12 : J'ai essayé de traire un sanglier sauvage. C'était un mâle ; il m'a poursuivi sur trois lieues. Jour 19 : J'ai découvert que se mettre le chaudron sur la tête protège de la pluie, même si l'on percute chaque chêne sur le chemin. Et Jour 23 : Je me suis caché de ma belle-mère dans une grotte sombre grouillant de chauves-souris et d'ombres dévorantes. Nettement plus chaleureux que le salon. » Il referme le journal d'un coup solennel : « Tu comprends maintenant pourquoi ça ne devait pas tomber entre de mauvaises mains ? »",
+            "it": "Il villico abbassa la voce e sfoglia con orgoglio: 'Giorno 12: Ho tentato di mungere un cinghiale selvatico. Si è rivelato essere maschio; mi ha inseguito per tre leghe. Giorno 19: Ho scoperto che mettersi il calderone in testa ripara dalla pioggia, anche se vai a sbattere contro ogni quercia lungo il sentiero. E Giorno 23: Mi sono nascosto da mia suocera in una grotta buia piena di pipistrelli e ombre divoratrici. Molto più accogliente del salotto.' Chiude il diario con un colpo solenne: 'Capisci adesso perché non poteva cadere in mani sbagliate?'",
+            "de": "Der Dorfbewohner senkt die Stimme und blättert stolz: „Tag 12: Versuchte, ein Wildschwein zu melken. Es stellte sich als Keiler heraus; jagte mich drei Meilen weit. Tag 19: Habe entdeckt, dass ein Kochtopf auf dem Kopf vor Regen schützt, auch wenn man gegen jede Eiche am Weg prallt. Und Tag 23: Versteckte mich vor meiner Schwiegermutter in einer dunklen Höhle voller Fledermäuse und gefräßiger Schatten. Viel gemütlicher als die gute Stube.“ Er klappt das Tagebuch feierlich zu: „Verstehst du jetzt, warum das niemals in falsche Hände geraten durfte?“",
+            "zh": "村民压低声音，自豪地翻动着日记：「第12天：试图给一头野猪挤奶。结果发现是头公猪；它追了我整整三里路。第19天：发现把铁锅扣在头上可以防雨，虽然会撞上沿途的每一棵橡树。还有第23天：为了躲岳母，我躲进了一个到处是蝙蝠和嗜血阴影的黑暗洞穴。比家里的客厅温馨多了。」他郑重地合上日记：「你现在明白为什么这东西绝对不能落入坏人手里了吧？」",
+            "ja": "村人は声を落とし、誇らしげにページをめくる。「十二日目：イノシシの乳を搾ろうと試みた。雄だったらしく、三里にわたって追い回された。十九日目：大鍋を頭にかぶれば雨を防げると発見したが、道中のすべての樫の木に激突した。そして二十三日目：姑から隠れるため、コウモリと飢えた影がうろつく暗黒洞窟に身を隠した。居間よりよほど居心地が良かった」彼は厳かに日記を閉じる。「これが決して悪人の手に渡ってはならなかった理由が、お前にも分かっただろう？」"
+        },
+        "next": [
+            "diary_opt_secretos_reir"
+        ],
+        "reward": ""
+    },
+    "diary_opt_secretos_reir": {
+        "type": "option",
+        "text": {
+            "es": "😂  Ese diario es patrimonio de la humanidad",
+            "en": "😂  That diary is a treasure to humankind",
+            "fr": "😂  Ce journal est un trésor pour l'humanité",
+            "it": "😂  Quel diario è un patrimonio dell'umanità",
+            "de": "😂  Dieses Tagebuch ist ein Schatz für die Menschheit",
+            "zh": "😂  那本日记简直是人类的瑰宝",
+            "ja": "😂  その日記は人類の遺産だな"
+        },
+        "next": [
+            "diary_thanked"
+        ],
+        "reward": "faceta:cordura=+1"
+    }
+}

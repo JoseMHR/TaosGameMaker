@@ -1,0 +1,26 @@
+{
+    "id": "poi_arcanum_banco_recuerdos",
+    "type": "poi",
+    "icon": "🪑",
+    "name": {
+        "es": "El Banco de la Plaza",
+        "en": "The Plaza Bench",
+        "fr": "Le Banc de la Place",
+        "it": "La Panchina della Piazza",
+        "de": "Die Bank auf dem Platz",
+        "zh": "广场长椅",
+        "ja": "広場のベンチ"
+    },
+    "desc": {
+        "es": "Un banco de parque solitario entre las ruinas donde, al sentarse, se reproduce el eco de una tarde en familia que ya no existe. (POI de inspección).",
+        "en": "A lone park bench among the ruins where, on sitting, the echo of a family afternoon that no longer exists replays. (Inspection POI).",
+        "fr": "Un banc de parc solitaire au milieu des ruines où, en s'asseyant, résonne l'écho d'un après-midi en famille qui n'existe plus. (POI d'inspection).",
+        "it": "Una panchina solitaria tra le rovine dove, sedendosi, riecheggia l'eco di un pomeriggio in famiglia che non esiste più. (POI di ispezione).",
+        "de": "Eine einsame Parkbank inmitten der Ruinen, wo beim Hinsetzen das Echo eines Familiennachmittags erklingt, den es nicht mehr gibt. (Inspektions-POI).",
+        "zh": "废墟中一张孤独的公园长椅，坐下后会回响起一段早已不复存在的家庭午后时光的回声。（探查类兴趣点）。",
+        "ja": "廃墟に佇む一つの公園のベンチ。座ると、もう存在しない家族の午後の残響が聞こえてくる。（調査ポイント）。"
+    },
+    "npc": "poi_arcanum_banco_recuerdos",
+    "bg": "bg_world_poi_arcanum_banco_recuerdos.png",
+    "music": "creepy"
+}

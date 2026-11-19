@@ -1,0 +1,23 @@
+{
+    "name": {
+        "es": "Informe Arcanum 04",
+        "en": "Arcanum Report 04",
+        "fr": "Rapport Arcanum 04",
+        "it": "Rapporto Arcanum 04",
+        "de": "Arcanum-Bericht 04",
+        "zh": "奥秘遗迹报告04",
+        "ja": "アルカナム報告書04"
+    },
+    "desc": {
+        "es": "Un informe corporativo con exigencias y amenazas veladas hacia el equipo de investigación. Una firma al final te resulta extrañamente familiar.",
+        "en": "A corporate report full of demands and veiled threats toward the research team. A signature at the bottom feels strangely familiar.",
+        "fr": "Un rapport d'entreprise plein d'exigences et de menaces voilées envers l'équipe de recherche. Une signature au bas de la page vous semble étrangement familière.",
+        "it": "Un rapporto aziendale pieno di richieste e minacce velate verso il team di ricerca. Una firma in fondo ti sembra stranamente familiare.",
+        "de": "Ein Unternehmensbericht voller Forderungen und versteckter Drohungen gegenüber dem Forschungsteam. Eine Unterschrift am unteren Rand kommt dir seltsam bekannt vor.",
+        "zh": "一份企业报告，充满了对研究团队的要求与暗中的威胁。底部的一个签名让你感到莫名的熟悉。",
+        "ja": "研究チームへの要求と隠された脅しに満ちた企業報告書。下部の署名がなぜか妙に見覚えがある。"
+    },
+    "icon": "📄",
+    "category": "important",
+    "usable": false
+}

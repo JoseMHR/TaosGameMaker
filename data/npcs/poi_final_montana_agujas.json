@@ -1,0 +1,115 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "La Montaña de Agujas",
+            "en": "The Mountain of Needles",
+            "fr": "La Montagne d'Aiguilles",
+            "it": "La Montagna di Aghi",
+            "de": "Der Nadelberg",
+            "zh": "针山",
+            "ja": "針の山"
+        },
+        "next": [],
+        "reward": "bg=0.06,0.06,0.07"
+    },
+    "agu_root": {
+        "type": "message",
+        "text": {
+            "es": "Ante ti se alza una colina imposible hecha enteramente de jeringuillas, viales rotos y ampollas vacías, miles y miles, apiladas hasta perderse en la oscuridad de arriba. Todas contuvieron lo mismo: la esencia destilada de las esferas. Todas fueron usadas por unas mismas manos, en un mismo intento desesperado. En la cima, clavada, una única jeringuilla más pequeña que las demás brilla con una luz distinta, más triste. Sabes, sin que nadie te lo diga, cuál fue la última.",
+            "en": "Before you rises an impossible hill made entirely of syringes, broken vials, and empty ampoules, thousands upon thousands, stacked until they vanish into the darkness above. All of them held the same thing: the distilled essence of the spheres. All were used by the same hands, in the same desperate attempt. At the summit, embedded, a single syringe smaller than the rest glows with a different, sadder light. You know, without anyone telling you, which was the last.",
+            "fr": "Devant toi s'élève une colline impossible faite entièrement de seringues, de flacons brisés et d'ampoules vides, des milliers et des milliers, empilées jusqu'à se perdre dans l'obscurité en hauteur. Toutes contenaient la même chose : l'essence distillée des sphères. Toutes furent utilisées par les mêmes mains, dans une même tentative désespérée. Au sommet, plantée, une unique seringue plus petite que les autres brille d'une lumière différente, plus triste. Tu sais, sans que personne ne te le dise, laquelle fut la dernière.",
+            "it": "Davanti a te si erge una collina impossibile fatta interamente di siringhe, fiale rotte e ampolle vuote, migliaia e migliaia, ammucchiate fino a perdersi nell'oscurità in alto. Tutte contenevano la stessa cosa: l'essenza distillata delle sfere. Tutte furono usate dalle stesse mani, in un medesimo tentativo disperato. In cima, conficcata, un'unica siringa più piccola delle altre brilla di una luce diversa, più triste. Sai, senza che nessuno te lo dica, quale fu l'ultima.",
+            "de": "Vor dir erhebt sich ein unmöglicher Hügel, ganz aus Spritzen, zerbrochenen Fläschchen und leeren Ampullen, Tausende und Abertausende, aufgetürmt bis sie sich oben in der Dunkelheit verlieren. Alle enthielten dasselbe: die destillierte Essenz der Sphären. Alle wurden von denselben Händen benutzt, in ein und demselben verzweifelten Versuch. Auf dem Gipfel, eingesteckt, leuchtet eine einzige Spritze, kleiner als die anderen, in einem anderen, traurigeren Licht. Du weißt, ohne dass es dir jemand sagt, welche die letzte war.",
+            "zh": "你面前矗立着一座不可能存在的山丘，完全由注射器、破碎的药瓶和空安瓿堆积而成，成千上万，一直堆到消失在上方的黑暗中。它们都装过同一样东西：球体提炼出的精华。它们都由同一双手使用，用于同一次绝望的尝试。在山顶，插着一支比其他都小的注射器，闪烁着一种不同的、更悲伤的光。不需要任何人告诉你，你就知道那是最后一支。",
+            "ja": "目の前に、注射器、割れた薬瓶、空のアンプルだけでできた、あり得ない丘がそびえ立っている。何千、何万本と積み重なり、上方の闇へと消えていく。そのすべてが同じものを収めていた——球から蒸留された精髄。すべてが同じ手によって、同じ絶望的な試みのために使われた。頂上には、他より小さな一本の注射器が突き刺さり、違う、より悲しい光を放っている。誰に言われるまでもなく、それが最後の一本だったことをお前は知っている。"
+        },
+        "next": [
+            "agu_opt_subir",
+            "agu_opt_recordar",
+            "agu_opt_salir"
+        ],
+        "reward": ""
+    },
+    "agu_opt_subir": {
+        "type": "option",
+        "text": {
+            "es": "🧗  Subir hasta la cima a por la última jeringuilla",
+            "en": "🧗  Climb to the summit for the last syringe",
+            "fr": "🧗  Grimper jusqu'au sommet pour la dernière seringue",
+            "it": "🧗  Salire fino alla cima per l'ultima siringa",
+            "de": "🧗  Zum Gipfel klettern, um die letzte Spritze zu holen",
+            "zh": "🧗  爬上顶峰，取回最后一支注射器",
+            "ja": "🧗  最後の注射器を求めて頂上まで登る"
+        },
+        "next": [
+            "agu_msg_subir"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "agu_msg_subir": {
+        "type": "message",
+        "text": {
+            "es": "Trepas la montaña de cristal, que se te clava en las manos con cada agarre, hasta alcanzar la pequeña jeringuilla de la cumbre. Al cogerla, un recuerdo te parte en dos: tus propias manos, temblorosas, hundiendo esa aguja en un brazo diminuto, convencido de que la esencia de las esferas la curaría, rezando entre lágrimas... y el pitido de la máquina volviéndose una línea plana. No la curaste. La mataste tú, intentando salvarla. La verdad más pesada del abismo cae por fin sobre tus hombros.",
+            "en": "You climb the mountain of glass, which bites into your hands with every hold, until you reach the small syringe at the top. As you grasp it, a memory tears you in two: your own hands, trembling, sinking that needle into a tiny arm, convinced the essence of the spheres would cure her, praying through tears... and the machine's beep flattening into a single line. You didn't cure her. You killed her, trying to save her. The heaviest truth of the abyss falls at last upon your shoulders.",
+            "fr": "Tu escalades la montagne de verre, qui te blesse les mains à chaque prise, jusqu'à atteindre la petite seringue du sommet. En la saisissant, un souvenir te déchire en deux : tes propres mains, tremblantes, enfonçant cette aiguille dans un bras minuscule, convaincu que l'essence des sphères la guérirait, priant à travers les larmes... et le bip de la machine devenant une ligne plate. Tu ne l'as pas guérie. Tu l'as tuée, en essayant de la sauver. La vérité la plus lourde de l'abîme s'abat enfin sur tes épaules.",
+            "it": "Ti arrampichi sulla montagna di vetro, che ti taglia le mani a ogni presa, fino a raggiungere la piccola siringa in cima. Nel prenderla, un ricordo ti squarcia in due: le tue stesse mani, tremanti, che affondano quell'ago in un braccio minuscolo, convinto che l'essenza delle sfere l'avrebbe curata, pregando tra le lacrime... e il bip della macchina che diventa una linea piatta. Non l'hai curata. L'hai uccisa tu, cercando di salvarla. La verità più pesante dell'abisso cade finalmente sulle tue spalle.",
+            "de": "Du erklimmst den Glasberg, der sich bei jedem Griff in deine Hände schneidet, bis du die kleine Spritze auf dem Gipfel erreichst. Als du sie ergreifst, zerreißt dich eine Erinnerung in zwei Teile: deine eigenen, zitternden Hände, wie sie die Nadel in einen winzigen Arm senken, überzeugt, die Essenz der Sphären würde sie heilen, betend unter Tränen... und das Piepen der Maschine, das zu einer geraden Linie wird. Du hast sie nicht geheilt. Du hast sie getötet, während du versuchtest, sie zu retten. Die schwerste Wahrheit des Abgrunds fällt endlich auf deine Schultern.",
+            "zh": "你攀爬着这座玻璃之山，每一次抓握都刺痛双手，直到抵达山顶那支小小的注射器。当你拿起它时，一段记忆将你撕裂成两半：你自己颤抖的双手，将那根针扎入一条纤细的手臂，深信球体的精华能治愈她，含泪祈祷……然后机器的滴答声化作一条直线。你没有治好她。你在试图拯救她的过程中杀死了她。深渊中最沉重的真相，终于压上了你的肩头。",
+            "ja": "つかむたびに手を切りつけてくるガラスの山を登り、頂上の小さな注射器にたどり着く。それを掴んだ瞬間、記憶がお前を真っ二つに引き裂く——震える自分の手が、球の精髄が彼女を治すと信じて、涙ながらに祈りながら、その針を小さな腕に突き刺す姿。そして機械の電子音が一本の線に変わる。お前は彼女を治さなかった。救おうとして、殺してしまったのだ。深淵で最も重い真実が、ついにお前の肩にのしかかる。"
+        },
+        "next": [
+            "agu_opt_salir"
+        ],
+        "reward": "faceta:cordura=-1;faceta:valor=+1;gflag:agu_verdad"
+    },
+    "agu_opt_recordar": {
+        "type": "option",
+        "text": {
+            "es": "🕯️  Quedarte al pie y dejar que los recuerdos vengan solos",
+            "en": "🕯️  Stay at the foot and let the memories come on their own",
+            "fr": "🕯️  Rester au pied et laisser les souvenirs venir d'eux-mêmes",
+            "it": "🕯️  Restare ai piedi e lasciare che i ricordi arrivino da soli",
+            "de": "🕯️  Am Fuß bleiben und die Erinnerungen von selbst kommen lassen",
+            "zh": "🕯️  留在山脚，让回忆自行涌来",
+            "ja": "🕯️  麓に留まり、記憶が自然に訪れるのを待つ"
+        },
+        "next": [
+            "agu_msg_recordar"
+        ],
+        "reward": ""
+    },
+    "agu_msg_recordar": {
+        "type": "message",
+        "text": {
+            "es": "Te quedas quieto al pie de la montaña y dejas que las imágenes lleguen sin luchar. Los plazos imposibles de Arcanum. Las noches sin dormir. La certeza soberbia de que tú, y solo tú, podías domar el poder de las esferas. Cada jeringuilla de esta montaña es una hora que le robaste a tu familia por perseguir un milagro. No subes a por la última: aún no puedes. Pero ya no apartas la vista, y eso, en este lugar, es una forma de valentía.",
+            "en": "You stand still at the foot of the mountain and let the images come without fighting. Arcanum's impossible deadlines. The sleepless nights. The arrogant certainty that you, and only you, could tame the power of the spheres. Every syringe on this mountain is an hour you stole from your family chasing a miracle. You don't climb for the last one: you can't yet. But you no longer look away, and that, in this place, is a kind of courage.",
+            "fr": "Tu restes immobile au pied de la montagne et laisses les images venir sans lutter. Les délais impossibles d'Arcanum. Les nuits sans sommeil. La certitude arrogante que toi, et toi seul, pouvais dompter le pouvoir des sphères. Chaque seringue de cette montagne est une heure que tu as volée à ta famille pour poursuivre un miracle. Tu ne montes pas chercher la dernière : tu ne peux pas encore. Mais tu ne détournes plus le regard, et cela, en ce lieu, est une forme de courage.",
+            "it": "Rimani fermo ai piedi della montagna e lasci che le immagini arrivino senza combattere. Le scadenze impossibili di Arcanum. Le notti insonni. La certezza arrogante che tu, e solo tu, potessi domare il potere delle sfere. Ogni siringa di questa montagna è un'ora che hai rubato alla tua famiglia inseguendo un miracolo. Non sali a prendere l'ultima: non puoi ancora. Ma non distogli più lo sguardo, e questo, in questo luogo, è una forma di coraggio.",
+            "de": "Du bleibst still am Fuß des Berges stehen und lässt die Bilder kommen, ohne zu kämpfen. Arcanums unmögliche Fristen. Die schlaflosen Nächte. Die arrogante Gewissheit, dass du, und nur du, die Macht der Sphären zähmen könntest. Jede Spritze dieses Berges ist eine Stunde, die du deiner Familie gestohlen hast, um ein Wunder zu jagen. Du steigst nicht hinauf, um die letzte zu holen: du kannst es noch nicht. Aber du schaust nicht mehr weg, und das ist an diesem Ort eine Form von Mut.",
+            "zh": "你静静地站在山脚，让那些画面不加抵抗地涌来。奥秘遗迹那不可能完成的期限。无数个不眠之夜。那份自负的笃定——认为只有你，唯独你，能驾驭球体的力量。这座山上的每一支注射器，都是你为追逐奇迹而从家人身上偷走的一个小时。你没有爬上去取那最后一支：你还做不到。但你不再移开视线，而在这个地方，这已是一种勇气。",
+            "ja": "山の麓に立ち尽くし、抗うことなくイメージが押し寄せるままにする。アルカナムの不可能な締め切り。眠れぬ夜々。自分だけが、自分だけが球の力を制御できるという傲慢な確信。この山の注射器の一本一本が、奇跡を追い求めて家族から奪った一時間だ。最後の一本を取りに登ることはしない——まだできない。だがもう目を逸らしはしない。そしてこの場所において、それは一種の勇気なのだ。"
+        },
+        "next": [
+            "agu_root"
+        ],
+        "reward": ""
+    },
+    "agu_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Alejarte de la montaña de agujas",
+            "en": "🚶  Walk away from the mountain of needles",
+            "fr": "🚶  S'éloigner de la montagne d'aiguilles",
+            "it": "🚶  Allontanarsi dalla montagna di aghi",
+            "de": "🚶  Sich vom Nadelberg entfernen",
+            "zh": "🚶  离开针山",
+            "ja": "🚶  針の山から立ち去る"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "id": "poi_gloriam_bailarina",
+    "type": "poi",
+    "icon": "💃",
+    "name": {
+        "es": "La Bailarina de la Duna",
+        "en": "The Dancer of the Dune",
+        "fr": "La Danseuse de la Dune",
+        "it": "La Ballerina della Duna",
+        "de": "Die Tänzerin der Düne",
+        "zh": "沙丘舞者",
+        "ja": "砂丘の踊り子"
+    },
+    "desc": {
+        "es": "Una danzarina de velos que practica sobre la cresta de una duna y reta a los viajeros a un duelo de baile. (PNJ singular).",
+        "en": "A veiled dancer practicing atop a dune crest, challenging travelers to a dance-off. (Singular NPC).",
+        "fr": "Une danseuse aux voiles qui s'entraîne sur la crête d'une dune et défie les voyageurs à un duel de danse. (PNJ singulier).",
+        "it": "Una danzatrice velata che si esercita sulla cresta di una duna e sfida i viaggiatori a un duello di danza. (PNG singolare).",
+        "de": "Eine Schleiertänzerin, die auf einem Dünenkamm übt und Reisende zu einem Tanzduell herausfordert. (Einzigartiger NPC).",
+        "zh": "一位在沙丘顶脊练习的面纱舞者，向旅人发起舞蹈对决的挑战。（唯一NPC）。",
+        "ja": "砂丘の稜線で練習し、旅人にダンス対決を挑むベールの踊り子。（唯一のNPC）。"
+    },
+    "npc": "poi_gloriam_bailarina",
+    "bg": "bg_world_poi_gloriam_bailarina.png",
+    "music": "poi_comic"
+}

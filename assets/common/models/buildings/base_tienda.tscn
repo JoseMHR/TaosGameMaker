@@ -1,0 +1,198 @@
+[gd_scene format=3]
+
+[sub_resource type="Shader" id="Shader_TentWind"]
+code = "shader_type spatial;
+render_mode cull_disabled, diffuse_lambert, specular_schlick_ggx;
+
+uniform vec4 albedo_color : source_color = vec4(0.82, 0.44, 0.18, 1.0);
+uniform float roughness : hint_range(0.0, 1.0) = 0.75;
+uniform float wind_speed = 2.0;
+uniform float wind_strength = 0.015;
+
+void vertex() {
+	if (VERTEX.y > 0.2) {
+		float wave = sin(TIME * wind_speed + VERTEX.x * 3.0 + VERTEX.z * 3.0);
+		VERTEX.x += wave * wind_strength;
+		VERTEX.z += wave * wind_strength;
+	}
+}
+
+void fragment() {
+	ALBEDO = albedo_color.rgb;
+	ROUGHNESS = roughness;
+}
+"
+
+[sub_resource type="ShaderMaterial" id="Mat_TentCanvas"]
+render_priority = 0
+shader = SubResource("Shader_TentWind")
+shader_parameter/albedo_color = Color(0.82, 0.44, 0.18, 1)
+shader_parameter/roughness = 0.75
+shader_parameter/wind_speed = 2.0
+shader_parameter/wind_strength = 0.015
+
+[sub_resource type="StandardMaterial3D" id="Mat_TentInnerVoid"]
+albedo_color = Color(0.08, 0.08, 0.1, 1)
+roughness = 1.0
+
+[sub_resource type="StandardMaterial3D" id="Mat_WoodPoles"]
+albedo_color = Color(0.36, 0.22, 0.12, 1)
+roughness = 0.9
+
+[sub_resource type="StandardMaterial3D" id="Mat_ClothMat"]
+albedo_color = Color(0.22, 0.32, 0.25, 1)
+roughness = 0.9
+
+[sub_resource type="StandardMaterial3D" id="Mat_Bedroll"]
+albedo_color = Color(0.75, 0.28, 0.2, 1)
+roughness = 0.8
+
+[sub_resource type="StandardMaterial3D" id="Mat_Rope"]
+albedo_color = Color(0.68, 0.6, 0.45, 1)
+roughness = 0.9
+
+[sub_resource type="StandardMaterial3D" id="Mat_LanternGlow"]
+albedo_color = Color(1.0, 0.8, 0.25, 1)
+emission_enabled = true
+emission = Color(1.0, 0.7, 0.15, 1)
+emission_energy_multiplier = 3.2
+
+[sub_resource type="BoxMesh" id="Mesh_RoofPanel"]
+size = Vector3(0.04, 0.82, 1.1)
+
+[sub_resource type="PrismMesh" id="Mesh_BackWall"]
+size = Vector3(0.82, 0.68, 0.04)
+
+[sub_resource type="PrismMesh" id="Mesh_VoidOpening"]
+size = Vector3(0.74, 0.62, 0.04)
+
+[sub_resource type="BoxMesh" id="Mesh_Flap"]
+size = Vector3(0.03, 0.6, 0.25)
+
+[sub_resource type="CylinderMesh" id="Mesh_Pole"]
+top_radius = 0.018
+bottom_radius = 0.018
+height = 0.78
+radial_segments = 6
+
+[sub_resource type="CylinderMesh" id="Mesh_RidgePole"]
+top_radius = 0.02
+bottom_radius = 0.02
+height = 1.18
+radial_segments = 6
+
+[sub_resource type="BoxMesh" id="Mesh_FloorMat"]
+size = Vector3(0.72, 0.03, 1.0)
+
+[sub_resource type="CylinderMesh" id="Mesh_Bedroll"]
+top_radius = 0.08
+bottom_radius = 0.08
+height = 0.55
+radial_segments = 8
+
+[sub_resource type="CylinderMesh" id="Mesh_Peg"]
+top_radius = 0.012
+bottom_radius = 0.012
+height = 0.18
+radial_segments = 5
+
+[sub_resource type="CylinderMesh" id="Mesh_Rope"]
+top_radius = 0.005
+bottom_radius = 0.005
+height = 0.58
+
+[sub_resource type="SphereMesh" id="Mesh_Lantern"]
+radius = 0.045
+height = 0.09
+
+[node name="BaseTienda" type="Node3D"]
+
+[node name="RoofLeft" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.766, 0.643, 0, -0.643, 0.766, 0, 0, 0, 1, -0.26, 0.38, 0)
+material_override = SubResource("Mat_TentCanvas")
+mesh = SubResource("Mesh_RoofPanel")
+
+[node name="RoofRight" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.766, -0.643, 0, 0.643, 0.766, 0, 0, 0, 1, 0.26, 0.38, 0)
+material_override = SubResource("Mat_TentCanvas")
+mesh = SubResource("Mesh_RoofPanel")
+
+[node name="BackWall" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.34, -0.52)
+material_override = SubResource("Mat_TentCanvas")
+mesh = SubResource("Mesh_BackWall")
+
+[node name="FrontVoid" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.31, 0.51)
+material_override = SubResource("Mat_TentInnerVoid")
+mesh = SubResource("Mesh_VoidOpening")
+
+[node name="FlapLeft" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.866, 0, -0.5, -0.321, 0.766, -0.557, 0.383, 0.643, 0.663, -0.28, 0.28, 0.52)
+material_override = SubResource("Mat_TentCanvas")
+mesh = SubResource("Mesh_Flap")
+
+[node name="FlapRight" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.866, 0, 0.5, 0.321, 0.766, -0.557, -0.383, 0.643, 0.663, 0.28, 0.28, 0.52)
+material_override = SubResource("Mat_TentCanvas")
+mesh = SubResource("Mesh_Flap")
+
+[node name="RidgePole" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0.71, 0)
+material_override = SubResource("Mat_WoodPoles")
+mesh = SubResource("Mesh_RidgePole")
+
+[node name="PoleFront_Left" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.906, 0.423, 0, -0.423, 0.906, 0, 0, 0, 1, -0.22, 0.36, 0.54)
+material_override = SubResource("Mat_WoodPoles")
+mesh = SubResource("Mesh_Pole")
+
+[node name="PoleFront_Right" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.906, -0.423, 0, 0.423, 0.906, 0, 0, 0, 1, 0.22, 0.36, 0.54)
+material_override = SubResource("Mat_WoodPoles")
+mesh = SubResource("Mesh_Pole")
+
+[node name="PoleBack_Left" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.906, 0.423, 0, -0.423, 0.906, 0, 0, 0, 1, -0.22, 0.36, -0.54)
+material_override = SubResource("Mat_WoodPoles")
+mesh = SubResource("Mesh_Pole")
+
+[node name="PoleBack_Right" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.906, -0.423, 0, 0.423, 0.906, 0, 0, 0, 1, 0.22, 0.36, -0.54)
+material_override = SubResource("Mat_WoodPoles")
+mesh = SubResource("Mesh_Pole")
+
+[node name="FloorMat" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.015, 0.02)
+material_override = SubResource("Mat_ClothMat")
+mesh = SubResource("Mesh_FloorMat")
+
+[node name="Bedroll" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.12, 0.09, 0.38)
+material_override = SubResource("Mat_Bedroll")
+mesh = SubResource("Mesh_Bedroll")
+
+[node name="PegFL" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.966, -0.259, 0, 0.259, 0.966, 0, 0, 0, 1, -0.62, 0.06, 0.52)
+material_override = SubResource("Mat_WoodPoles")
+mesh = SubResource("Mesh_Peg")
+
+[node name="RopeFL" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.866, -0.5, 0, 0.5, 0.866, 0, 0, 0, 1, -0.32, 0.36, 0.52)
+material_override = SubResource("Mat_Rope")
+mesh = SubResource("Mesh_Rope")
+
+[node name="PegFR" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.966, 0.259, 0, -0.259, 0.966, 0, 0, 0, 1, 0.62, 0.06, 0.52)
+material_override = SubResource("Mat_WoodPoles")
+mesh = SubResource("Mesh_Peg")
+
+[node name="RopeFR" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.866, 0.5, 0, -0.5, 0.866, 0, 0, 0, 1, 0.32, 0.36, 0.52)
+material_override = SubResource("Mat_Rope")
+mesh = SubResource("Mesh_Rope")
+
+[node name="HangingLantern" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.58, 0.52)
+material_override = SubResource("Mat_LanternGlow")
+mesh = SubResource("Mesh_Lantern")

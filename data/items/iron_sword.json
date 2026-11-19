@@ -1,0 +1,31 @@
+{
+    "name": {
+        "es": "Espada de Hierro",
+        "en": "Iron Sword",
+        "fr": "Épée de Fer",
+        "it": "Spada di Ferro",
+        "de": "Eisenschwert",
+        "zh": "铁剑",
+        "ja": "鉄の剣"
+    },
+    "desc": {
+        "es": "Una espada de hierro forjada en la base.",
+        "en": "An iron sword forged at the base.",
+        "fr": "Une épée de fer forgée à la base.",
+        "it": "Una spada di ferro forgiata alla base.",
+        "de": "Ein an der Basis geschmiedetes Eisenschwert.",
+        "zh": "在基地锻造的铁剑。",
+        "ja": "拠点で鍛えられた鉄の剣。"
+    },
+    "icon": "⚔️",
+    "category": "equipment",
+    "usable": false,
+    "slot": "weapon",
+    "tier": 4,
+    "bonuses": {
+        "str": 6
+    },
+    "combat": {
+        "phys_damage": 100
+    }
+}

@@ -1,0 +1,263 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Yeti Tímido",
+            "en": "The Shy Yeti",
+            "fr": "Le Yéti Timide",
+            "it": "Lo Yeti Timido",
+            "de": "Der Schüchterne Yeti",
+            "zh": "害羞的雪人",
+            "ja": "内気なイエティ"
+        },
+        "next": [],
+        "reward": "avatar=🦶;bg=0.09,0.11,0.13"
+    },
+    "yeti_done": {
+        "type": "message",
+        "text": {
+            "es": "Detrás del arbolito, el yeti te saluda tímidamente con dos dedos peludos del tamaño de salchichas. Ya no tiembla al verte. A sus pies ha dejado, muy ordenaditos, varios pescados helados de montaña: su forma de decir 'somos amigos'.",
+            "en": "From behind the little tree, the yeti gives you a shy wave with two furry fingers the size of sausages. He no longer trembles at the sight of you. At his feet he has left, very neatly arranged, several frozen mountain fish: his way of saying 'we're friends'.",
+            "fr": "Derrière le petit arbre, le yéti te salue timidement de deux doigts poilus de la taille de saucisses. Il ne tremble plus en te voyant. À ses pieds, il a laissé, très soigneusement rangés, plusieurs poissons de montagne gelés : sa façon de dire « nous sommes amis ».",
+            "it": "Dietro l'alberello, lo yeti ti saluta timidamente con due dita pelose grandi come salsicce. Non trema più vedendoti. Ai suoi piedi ha lasciato, ben ordinati, diversi pesci di montagna congelati: il suo modo di dire 'siamo amici'.",
+            "de": "Hinter dem kleinen Baum winkt dir der Yeti schüchtern mit zwei pelzigen, wurstgroßen Fingern zu. Er zittert nicht mehr beim Anblick von dir. Zu seinen Füßen hat er, sehr ordentlich aufgereiht, mehrere gefrorene Bergfische hinterlassen: seine Art zu sagen „wir sind Freunde“.",
+            "zh": "在小树后面，雪人用两根香肠大小的毛茸茸手指羞涩地向你挥手。它看到你时不再颤抖了。它在脚边整整齐齐地摆放了几条冰冻的山鱼：这是它表达「我们是朋友」的方式。",
+            "ja": "小さな木の後ろから、イエティはソーセージほどの大きさの毛むくじゃらの指二本で恥ずかしそうに手を振る。もうお前を見ても震えていない。その足元には、きちんと並べられた凍った山魚が数匹置かれている——「私たちは友達だ」と伝える彼なりの方法だ。"
+        },
+        "next": [
+            "yeti_opt_pescado",
+            "yeti_opt_bolanieve",
+            "yeti_opt_charla",
+            "yeti_opt_salir"
+        ],
+        "reward": "",
+        "condition": "gflag(\"yeti_amigo\")"
+    },
+    "yeti_root": {
+        "type": "message",
+        "text": {
+            "es": "Un pino escuálido tiembla en mitad del claro. Tiembla porque detrás de él, agazapada, hay una montaña de pelo blanco de tres metros que ha decidido que ese tronco de un palmo de ancho la oculta por completo. Dos ojillos enormes te espían por un lado del árbol; en cuanto los miras, desaparecen tras el tronco con un chillido agudo impropio de semejante bestia. El suelo tiembla cuando se encoge de vergüenza.",
+            "en": "A scrawny pine trembles in the middle of the clearing. It trembles because behind it, crouched, is a three-meter mountain of white fur that has decided a trunk a hand's-width wide hides it completely. Two enormous little eyes spy on you from one side of the tree; the moment you look, they vanish behind the trunk with a high-pitched squeak unbecoming of such a beast. The ground shakes as it cringes with embarrassment.",
+            "fr": "Un pin chétif tremble au milieu de la clairière. Il tremble parce que derrière lui, accroupie, se cache une montagne de fourrure blanche de trois mètres qui a décidé qu'un tronc large d'une paume la dissimule entièrement. Deux énormes petits yeux t'épient d'un côté de l'arbre ; dès que tu les regardes, ils disparaissent derrière le tronc avec un cri aigu peu digne d'une telle bête. Le sol tremble quand elle se recroqueville de honte.",
+            "it": "Un pino gracile trema in mezzo alla radura. Trema perché dietro di esso, accovacciata, c'è una montagna di pelo bianco di tre metri che ha deciso che un tronco largo un palmo la nasconde completamente. Due occhietti enormi ti spiano da un lato dell'albero; nel momento in cui li guardi, scompaiono dietro il tronco con uno strillo acuto inadatto a una bestia simile. Il suolo trema quando si rannicchia di vergogna.",
+            "de": "Eine dürre Kiefer zittert mitten auf der Lichtung. Sie zittert, weil sich dahinter, geduckt, ein drei Meter hoher Berg aus weißem Fell befindet, der beschlossen hat, dass ein handbreiter Stamm ihn völlig verbirgt. Zwei riesige kleine Augen spähen dich von der Seite des Baumes aus an; sobald du sie ansiehst, verschwinden sie mit einem hohen Quietschen hinter dem Stamm, unpassend für ein solches Ungetüm. Der Boden bebt, wenn es sich vor Verlegenheit zusammenkauert.",
+            "zh": "一棵瘦弱的松树在空地中央颤抖着。它之所以颤抖，是因为树后蹲伏着一座三米高的白色毛发之山，它认定一根一掌宽的树干足以将自己完全遮住。两只巨大的小眼睛从树的一侧窥视着你；一旦你看向它们，它们便伴随着一声与这样一头巨兽不相称的尖锐叫声消失在树干后面。它因害羞而蜷缩时，地面都在震动。",
+            "ja": "空き地の真ん中で、痩せた松の木が震えている。震えているのは、その後ろにうずくまる、三メートルもある白い毛の山が、手のひら幅の幹で自分が完全に隠れていると思い込んでいるからだ。木の片側から二つの巨大な小さな目がお前をうかがっている。目が合った瞬間、そのような獣には似つかわしくない甲高い悲鳴とともに幹の後ろに消える。恥ずかしさに身をすくめると、地面が揺れる。"
+        },
+        "next": [
+            "yeti_opt_suave",
+            "yeti_opt_escondite",
+            "yeti_opt_asustar",
+            "yeti_opt_salir"
+        ],
+        "reward": ""
+    },
+    "yeti_opt_suave": {
+        "type": "option",
+        "text": {
+            "es": "🫶  Hablarle bajito, con voz tranquila, sin acercarte",
+            "en": "🫶  Speak to it softly, in a calm voice, without approaching",
+            "fr": "🫶  Lui parler tout bas, dune voix calme, sans tapprocher",
+            "it": "🫶  Parlargli sottovoce, con voce calma, senza avvicinarti",
+            "de": "🫶  Leise mit ruhiger Stimme zu ihm sprechen, ohne näherzukommen",
+            "zh": "🫶  用轻柔平静的声音对它说话，不靠近",
+            "ja": "🫶  近づかず、静かな声で優しく話しかける"
+        },
+        "next": [
+            "yeti_msg_suave"
+        ],
+        "reward": ""
+    },
+    "yeti_msg_suave": {
+        "type": "message",
+        "text": {
+            "es": "Te agachas y le hablas con la voz más dulce que encuentras: que no pasa nada, que no vas a hacerle daño, que ese árbol le queda muy favorecedor. Poco a poco, la enorme cabeza asoma de nuevo. El yeti descubre, maravillado, que un humano no ha gritado ni ha huido de él. Emite un ronroneo grave que hace vibrar la nieve y te tiende, tembloroso, un pescado congelado como regalo de paz. Habéis hecho las paces con la montaña más tímida del mundo.",
+            "en": "You crouch and speak in the sweetest voice you can find: that it's all right, that you won't hurt it, that the tree really suits it. Little by little, the enormous head peeks out again. The yeti discovers, amazed, that a human hasn't screamed or fled from it. It lets out a deep purr that makes the snow vibrate and holds out, trembling, a frozen fish as a peace offering. You have made peace with the shyest mountain in the world.",
+            "fr": "Tu t'accroupis et lui parles de la voix la plus douce que tu puisses trouver : que tout va bien, que tu ne lui feras pas de mal, que cet arbre lui va très bien. Peu à peu, l'énorme tête réapparaît. Le yéti découvre, émerveillé, qu'un humain ne l'a ni crié ni fui. Il émet un ronronnement grave qui fait vibrer la neige et te tend, tremblant, un poisson gelé en cadeau de paix. Vous avez fait la paix avec la montagne la plus timide du monde.",
+            "it": "Ti accovacci e gli parli con la voce più dolce che riesci a trovare: che va tutto bene, che non gli farai del male, che quell'albero gli sta davvero bene. Poco a poco, l'enorme testa riappare. Lo yeti scopre, meravigliato, che un umano non ha gridato né è fuggito da lui. Emette un ronzio profondo che fa vibrare la neve e ti porge, tremante, un pesce congelato come dono di pace. Avete fatto pace con la montagna più timida del mondo.",
+            "de": "Du kauerst dich hin und sprichst mit der süßesten Stimme, die du finden kannst: dass alles in Ordnung ist, dass du ihm nicht wehtun wirst, dass dieser Baum ihm wirklich gut steht. Nach und nach taucht der riesige Kopf wieder auf. Der Yeti entdeckt erstaunt, dass ein Mensch nicht geschrien oder vor ihm geflohen ist. Er stößt ein tiefes Schnurren aus, das den Schnee zum Vibrieren bringt, und reicht dir zitternd einen gefrorenen Fisch als Friedensangebot. Ihr habt Frieden mit dem schüchternsten Berg der Welt geschlossen.",
+            "zh": "你蹲下来，用你能找到的最温柔的声音对它说话：没关系的，你不会伤害它，这棵树非常衬它。渐渐地，那颗巨大的脑袋又探了出来。雪人惊奇地发现，一个人类居然没有对它尖叫或逃跑。它发出一声低沉的呼噜声，让雪都为之震动，然后颤抖着递给你一条冻鱼作为和平的礼物。你们已经和这世上最害羞的山峰握手言和了。",
+            "ja": "しゃがみ込み、見つけられる限り最も優しい声で話しかける——大丈夫だ、傷つけたりしない、その木は本当によく似合っているよ、と。少しずつ、巨大な頭が再び顔を出す。イエティは、人間が悲鳴を上げも逃げもしなかったことに驚嘆する。雪を振動させるほど深い喉鳴りを発し、震えながら和解の印として凍った魚を差し出す。世界一内気な山と仲直りしたのだ。"
+        },
+        "next": [
+            "yeti_done"
+        ],
+        "reward": "faceta:bondad=+1;gflag:yeti_amigo;item:fish:1;heal:20"
+    },
+    "yeti_opt_escondite": {
+        "type": "option",
+        "text": {
+            "es": "🌲  Seguirle el juego y esconderte tú también tras una ramita",
+            "en": "🌲  Play along and hide yourself too behind a twig",
+            "fr": "🌲  Jouer le jeu et te cacher toi aussi derrière une brindille",
+            "it": "🌲  Stare al gioco e nasconderti anche tu dietro un ramoscello",
+            "de": "🌲  Mitspielen und dich ebenfalls hinter einem Zweig verstecken",
+            "zh": "🌲  配合它，也躲到一根小树枝后面",
+            "ja": "🌲  遊びに付き合い、自分も小枝の後ろに『隠れる』"
+        },
+        "next": [
+            "yeti_msg_escondite"
+        ],
+        "reward": ""
+    },
+    "yeti_msg_escondite": {
+        "type": "message",
+        "text": {
+            "es": "Te pones detrás de una ramita ridícula y finges que no te ve. El yeti asoma un ojo. Tú te 'escondes' más. Él se esconde. Tú asomas. Durante cinco minutos absurdos jugáis al escondite más desigual de la historia, hasta que la criatura suelta una risa atronadora que provoca un pequeño alud a lo lejos. Le has enseñado a un monstruo legendario a jugar. Tu carisma y simpatía rompen el hielo.",
+            "en": "You duck behind a ridiculous twig and pretend you can't see it. The yeti peeks one eye out. You 'hide' further. It hides. You peek. For five absurd minutes you play the most lopsided game of hide-and-seek in history, until the creature bursts into a thunderous laugh that triggers a small avalanche in the distance. You've taught a legendary monster to play. Your charisma and warmth break the ice.",
+            "fr": "Tu te places derrière une brindille ridicule et fais semblant qu'il ne te voit pas. Le yéti sort un œil. Tu te « caches » davantage. Il se cache. Tu ressors. Pendant cinq minutes absurdes, vous jouez à la plus inégale partie de cache-cache de l'histoire, jusqu'à ce que la créature éclate d'un rire tonitruant qui déclenche une petite avalanche au loin. Tu as appris à jouer à un monstre légendaire. Ton charisme et ta sympathie brisent la glace.",
+            "it": "Ti metti dietro un ramoscello ridicolo e fingi che non ti veda. Lo yeti fa capolino con un occhio. Tu ti 'nascondi' di più. Lui si nasconde. Tu ricompari. Per cinque assurdi minuti giocate al nascondino più impari della storia, finché la creatura scoppia in una risata tonante che provoca una piccola valanga in lontananza. Hai insegnato a un mostro leggendario a giocare. Il tuo carisma e la tua simpatia rompono il ghiaccio.",
+            "de": "Du stellst dich hinter einen lächerlichen Zweig und tust so, als würde er dich nicht sehen. Der Yeti lugt mit einem Auge hervor. Du „versteckst“ dich weiter. Er versteckt sich. Du lugst hervor. Fünf absurde Minuten lang spielt ihr das ungleichste Versteckspiel der Geschichte, bis das Wesen in ein donnerndes Lachen ausbricht, das in der Ferne eine kleine Lawine auslöst. Du hast einem legendären Monster das Spielen beigebracht. Dein Charisma und deine Herzlichkeit brechen das Eis.",
+            "zh": "你站在一根荒唐的小树枝后面，假装它看不见你。雪人露出一只眼睛。你「藏」得更深了。它藏了起来。你又探出头来。就这样，你们进行了五分钟荒唐至极的历史上最不对等的捉迷藏游戏，直到这生物爆发出雷鸣般的笑声，还在远处引发了一场小雪崩。你教会了一头传奇怪兽玩游戏。你的魅力与亲和力打破了僵局。",
+            "ja": "馬鹿げた小枝の後ろに身を潜め、見えていないふりをする。イエティが片目を覗かせる。お前はさらに『隠れる』。彼も隠れる。お前が覗く。五分間もの馬鹿げた時間、歴史上最も不釣り合いなかくれんぼをすることになり、ついにその生き物は轟くような笑い声を上げ、遠くで小さな雪崩を引き起こす。伝説の怪物に遊び方を教えたのだ。お前のカリスマと親しみやすさが氷を溶かす。"
+        },
+        "next": [
+            "yeti_root"
+        ],
+        "reward": "faceta:aspecto=+1;xp:15"
+    },
+    "yeti_opt_asustar": {
+        "type": "option",
+        "text": {
+            "es": "😠  Gritarle y agitar los brazos para espantarlo",
+            "en": "😠  Shout and wave your arms to scare it off",
+            "fr": "😠  Crier et agiter les bras pour l'effrayer",
+            "it": "😠  Gridare e agitare le braccia per spaventarlo",
+            "de": "😠  Schreien und mit den Armen wedeln, um ihn zu erschrecken",
+            "zh": "😠  大喊并挥舞手臂，把它吓跑",
+            "ja": "😠  叫んで腕を振り回し、追い払う"
+        },
+        "next": [
+            "yeti_msg_asustar"
+        ],
+        "reward": ""
+    },
+    "yeti_msg_asustar": {
+        "type": "message",
+        "text": {
+            "es": "Alzas los brazos y sueltas tu grito más terrible. El yeti se sobresalta, se le llenan los ojos de lágrimas del tamaño de puños y sale corriendo entre gimoteos que retumban por todo el valle, tirando el pobre pino a su paso. Te quedas solo en el claro, victorioso sobre una criatura que solo quería un amigo. Tu fiereza intimida a las bestias, aunque la culpa hiela el ambiente.",
+            "en": "You raise your arms and let out your most terrible roar. The yeti startles, its eyes welling with fist-sized tears, and bolts away whimpering in sobs that echo through the whole valley, knocking down the poor pine as it goes. You stand alone in the clearing, victorious over a creature that only wanted a friend. Your ferocity cowers wild beasts, though guilt chills the air.",
+            "fr": "Tu lèves les bras et pousses ton cri le plus terrible. Le yéti sursaute, ses yeux s'emplissent de larmes de la taille de poings, et il détale en gémissant, des sanglots résonnant dans toute la vallée, renversant le pauvre pin sur son passage. Tu restes seul dans la clairière, victorieux face à une créature qui ne voulait qu'un ami. Ta férocité intimide les bêtes sauvages, bien que la culpabilité glace l'atmosphère.",
+            "it": "Alzi le braccia e sferri il tuo grido più terribile. Lo yeti sussulta, gli occhi gli si riempiono di lacrime grandi come pugni, e scappa via gemendo, con singhiozzi che rimbombano per tutta la valle, abbattendo il povero pino al suo passaggio. Resti solo nella radura, vittorioso su una creatura che voleva solo un amico. La tua ferocia intimidisce le bestie, sebbene il senso di colpa geli l'atmosfera.",
+            "de": "Du hebst die Arme und stößt deinen schrecklichsten Schrei aus. Der Yeti erschrickt, seine Augen füllen sich mit faustgroßen Tränen, und er läuft schluchzend davon, mit Schluchzern, die durchs ganze Tal hallen, wobei er die arme Kiefer im Vorbeigehen umwirft. Du bleibst allein in der Lichtung zurück, siegreich über ein Wesen, das nur einen Freund wollte. Deine Wildheit schüchtert wilde Bestien ein, obwohl die Schuld die Atmosphäre gefrieren lässt.",
+            "zh": "你举起手臂，发出你最可怕的吼声。雪人吓了一跳，眼中涌出拳头大小的泪水，一边哭泣一边跑开，抽泣声响彻整个山谷，甚至撞倒了可怜的松树。你独自留在空地上，战胜了一头只想要一个朋友的生物。你的凶猛震慑了野兽，尽管愧疚让空气都变得冰冷。",
+            "ja": "腕を上げ、最も恐ろしい叫び声を上げる。イエティは驚き、拳ほどの大きさの涙を目に浮かべ、すすり泣きながら谷全体に響き渡るほどの声で逃げ出し、途中で哀れな松の木を倒してしまう。ただ友達を求めていただけの生き物に勝利し、空き地に一人取り残される。お前の獰猛さが野獣たちを怯えさせるが、罪悪感が空気を凍らせる。"
+        },
+        "next": [
+            "yeti_opt_salir"
+        ],
+        "reward": "faceta:valor=+1;faceta:bondad=-1"
+    },
+    "yeti_opt_pescado": {
+        "type": "option",
+        "text": {
+            "es": "🐟  Agradecerle el gesto y aceptar uno de sus pescados helados",
+            "en": "🐟  Thank it warmly and accept one of its frozen fish",
+            "fr": "🐟  Le remercier chaleureusement et accepter un de ses poissons gelés",
+            "it": "🐟  Ringraziarlo calorosamente e accettare uno dei suoi pesci congelati",
+            "de": "🐟  Ihm herzlich danken und einen seiner gefrorenen Fische annehmen",
+            "zh": "🐟  热情地感谢它，接受一条它的冻鱼",
+            "ja": "🐟  心から感謝し、凍った魚を一匹受け取る"
+        },
+        "next": [
+            "yeti_msg_pescado"
+        ],
+        "reward": ""
+    },
+    "yeti_msg_pescado": {
+        "type": "message",
+        "text": {
+            "es": "Recoges uno de los pescados con genuina gratitud. El yeti emite un ronroneo hondo que hace vibrar la nieve bajo tus botas y se da golpecitos en el pecho con orgullo. Las provisiones de la montaña reconfortan tu cuerpo.",
+            "en": "You pick up one of the fish with genuine gratitude. The yeti purrs deeply, vibrating the snow under your boots, and pats its chest with pride. Mountain provisions comfort your body.",
+            "fr": "Tu ramasses l'un des poissons avec une gratitude sincère. Le yéti émet un ronronnement profond qui fait vibrer la neige sous tes bottes et se tape la poitrine avec fierté. Les provisions de la montagne réconfortent ton corps.",
+            "it": "Raccogli uno dei pesci con genuina gratitudine. Lo yeti emette un ronzio profondo che fa vibrare la neve sotto i tuoi stivali e si batte il petto con orgoglio. Le provviste della montagna confortano il tuo corpo.",
+            "de": "Du hebst einen der Fische mit aufrichtiger Dankbarkeit auf. Der Yeti stößt ein tiefes Schnurren aus, das den Schnee unter deinen Stiefeln zum Vibrieren bringt, und klopft sich stolz auf die Brust. Die Bergvorräte stärken deinen Körper.",
+            "zh": "你带着真诚的感激捡起了一条鱼。雪人发出一声低沉的呼噜声，让你靴子下的雪为之震动，并骄傲地拍了拍自己的胸口。山中的物资抚慰了你的身体。",
+            "ja": "心からの感謝を込めて魚を一匹拾い上げる。イエティはブーツの下の雪を振動させるほど深い喉鳴りを発し、誇らしげに胸を叩く。山の恵みがお前の体を癒す。"
+        },
+        "next": [
+            "yeti_done"
+        ],
+        "reward": "item:fish:1;heal:25;faceta:bondad=+1"
+    },
+    "yeti_opt_bolanieve": {
+        "type": "option",
+        "text": {
+            "es": "❄️  Lanzarle una bola de nieve suave para echar una batalla amistosa",
+            "en": "❄️  Toss a gentle snowball at it for a friendly snowball fight",
+            "fr": "❄️  Lui lancer une boule de neige douce pour une bataille amicale",
+            "it": "❄️  Lanciargli una palla di neve leggera per una battaglia amichevole",
+            "de": "❄️  Ihm einen sanften Schneeball für eine freundschaftliche Schneeballschlacht zuwerfen",
+            "zh": "❄️  朝它扔一个轻柔的雪球，来一场友好的雪战",
+            "ja": "❄️  友好的な雪合戦をするため、軽い雪玉を投げる"
+        },
+        "next": [
+            "yeti_msg_bolanieve"
+        ],
+        "reward": ""
+    },
+    "yeti_msg_bolanieve": {
+        "type": "message",
+        "text": {
+            "es": "La bola de nieve impacta con un suave 'chof' en su espeso pelaje. El yeti pestañea atónito... sonríe mostrando unos colmillos gigantescos y, con torpeza infantil, compacta una bola del tamaño de una rueda de molino que te cae encima como una manta. Sales sacudiéndote la escarcha entre carcajadas que ahuyentan el frío.",
+            "en": "The snowball lands with a soft 'thwack' against its dense coat. The yeti blinks astonished... smiles revealing huge tusks and, with childlike clumsiness, compacts a snowball the size of a mill wheel that tumbles over you like a blanket. You emerge dusting off frost amid laughter that drives away the cold.",
+            "fr": "La boule de neige atterrit avec un doux « plouf » dans son épaisse fourrure. Le yéti cligne des yeux, stupéfait... sourit en montrant des crocs gigantesques et, avec une maladresse enfantine, compacte une boule de la taille d'une meule de moulin qui te tombe dessus comme une couverture. Tu ressors en secouant le givre au milieu d'éclats de rire qui chassent le froid.",
+            "it": "La palla di neve atterra con un morbido 'ciaf' sulla sua fitta pelliccia. Lo yeti sbatte le palpebre stupito... sorride mostrando zanne gigantesche e, con goffaggine infantile, compatta una palla grande come una macina che ti cade addosso come una coperta. Esci scuotendoti di dosso la brina tra risate che scacciano il freddo.",
+            "de": "Der Schneeball landet mit einem sanften „Plopp“ in seinem dichten Fell. Der Yeti blinzelt verblüfft... lächelt mit riesigen Reißzähnen und presst mit kindlicher Tollpatschigkeit einen Schneeball von der Größe eines Mühlsteins zusammen, der wie eine Decke über dich hereinbricht. Du tauchst wieder auf, den Reif abschüttelnd, inmitten von Lachen, das die Kälte vertreibt.",
+            "zh": "雪球带着柔和的「噗」的一声落在它厚厚的毛皮上。雪人惊讶地眨着眼……露出巨大的獠牙微笑起来，然后带着孩子气的笨拙，压出一个磨盘大小的雪球，像毯子一样朝你砸了过来。你从雪堆中钻出来，一边抖落身上的霜雪，一边在驱散寒意的欢笑声中站起身来。",
+            "ja": "雪玉は柔らかい「ぼふっ」という音を立ててその厚い毛皮に当たる。イエティは驚いて瞬きをし……巨大な牙を見せて微笑み、子供っぽい不器用さで石臼ほどの大きさの雪玉を固め、それが毛布のようにお前に降りかかる。寒さを追い払う笑い声とともに、霜を払いながら立ち上がる。"
+        },
+        "next": [
+            "yeti_done"
+        ],
+        "reward": "faceta:valor=+1;heal:15;xp:15"
+    },
+    "yeti_opt_charla": {
+        "type": "option",
+        "text": {
+            "es": "🗣️  Contarle historias sobre las tierras cálidas para entretenerlo",
+            "en": "🗣️  Tell it stories about warm lands to keep it entertained",
+            "fr": "🗣️  Lui raconter des histoires sur les terres chaudes pour le divertir",
+            "it": "🗣️  Raccontargli storie sulle terre calde per intrattenerlo",
+            "de": "🗣️  Ihm Geschichten über warme Länder erzählen, um ihn zu unterhalten",
+            "zh": "🗣️  给它讲述温暖大地的故事，逗它开心",
+            "ja": "🗣️  暖かい土地の物語を話して楽しませる"
+        },
+        "next": [
+            "yeti_msg_charla"
+        ],
+        "reward": ""
+    },
+    "yeti_msg_charla": {
+        "type": "message",
+        "text": {
+            "es": "Te sientas sobre un pedrusco y le relatas cómo son las playas del sur, los campos dorados y los bosques templados. El yeti escucha con los ojos como platos, tapándose la boca con timidez cuando describes un barco navegando. Transmitir conocimiento afina tu ingenio y elegancia.",
+            "en": "You sit upon a rock and describe southern beaches, golden plains, and temperate woods. The yeti listens wide-eyed, covering its snout with bashful wonder whenever you depict a sailing ship. Imparting lore hones your wit and grace.",
+            "fr": "Tu t'assois sur un rocher et lui décris les plages du sud, les champs dorés et les forêts tempérées. Le yéti écoute les yeux écarquillés, se couvrant la bouche timidement quand tu décris un bateau naviguant. Transmettre le savoir affine ton esprit et ton élégance.",
+            "it": "Ti siedi su un macigno e gli racconti come sono le spiagge del sud, i campi dorati e i boschi temperati. Lo yeti ascolta con gli occhi sgranati, coprendosi la bocca con timidezza quando descrivi una nave che naviga. Trasmettere conoscenza affina il tuo ingegno e la tua eleganza.",
+            "de": "Du setzt dich auf einen Felsbrocken und beschreibst ihm die Strände des Südens, die goldenen Felder und die gemäßigten Wälder. Der Yeti hört mit weit aufgerissenen Augen zu und bedeckt schüchtern seinen Mund, wenn du ein segelndes Schiff beschreibst. Wissen weiterzugeben schärft deinen Witz und deine Anmut.",
+            "zh": "你坐在一块巨石上，向它描述南方的海滩、金色的田野和温带的森林。雪人瞪大了眼睛听着，当你描述一艘航行的船时，还害羞地捂住了嘴巴。传授知识磨砺了你的机智与优雅。",
+            "ja": "岩に腰かけ、南の浜辺、黄金の野原、温帯の森について語る。イエティは目を丸くして聞き入り、帆船の様子を描写すると恥ずかしそうに口元を覆う。知識を伝えることが機知と優雅さを磨く。"
+        },
+        "next": [
+            "yeti_done"
+        ],
+        "reward": "faceta:inteligencia=+1;faceta:aspecto=+1;xp:20"
+    },
+    "yeti_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Despedirte y marcharte",
+            "en": "🚶  Wave farewell and leave",
+            "fr": "🚶  Faire un signe d'adieu et partir",
+            "it": "🚶  Salutare con la mano e andartene",
+            "de": "🚶  Zum Abschied winken und gehen",
+            "zh": "🚶  挥手告别，离开",
+            "ja": "🚶  手を振って別れを告げ、立ち去る"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

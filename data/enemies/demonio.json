@@ -1,0 +1,61 @@
+{
+  "name": {
+    "es": "Demonio",
+    "en": "Demon",
+    "fr": "Démon",
+    "it": "Demone",
+    "de": "Dämon",
+    "zh": "恶魔",
+    "ja": "デーモン"
+  },
+  "family": "magical",
+  "archetype": "glass_cannon",
+  "icon": "👿",
+  "image": "res://assets/combat/enemies/en_dark_demon.png",
+  "attack_type": "physical",
+  "base_dodge": 10.0,
+  "dodge_scale": 0.2,
+  "element": "fire",
+  "weak_to": [
+    "holy",
+    "water"
+  ],
+  "resist": [
+    "fire",
+    "dark"
+  ],
+  "ai": "aggressive",
+  "xp_reward_base": 350,
+  "xp_reward_scale": 16.0,
+  "gold_reward_base": 180,
+  "gold_reward_scale": 12.0,
+  "skills": [
+    {
+      "level": 1,
+      "skill_id": "dark_cleave"
+    },
+    {
+      "level": 45,
+      "skill_id": "hellfire"
+    }
+  ],
+  "loot": [
+    {
+      "kind": "gold",
+      "min": 12,
+      "max": 30
+    },
+    {
+      "kind": "consumable",
+      "id": "potion",
+      "chance": 0.25
+    },
+    {
+      "kind": "equipment",
+      "chance": 0.3,
+      "level": 2
+    }
+  ],
+  "zone": "zona_7_epilogo",
+  "is_boss": false
+}

@@ -1,0 +1,183 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "Templo del Sable",
+            "en": "Temple of the Sabre",
+            "fr": "Temple du Sabre",
+            "it": "Tempio della Sciabola",
+            "de": "Tempel des Säbels",
+            "zh": "军刀神庙",
+            "ja": "サーベルの神殿"
+        },
+        "next": [],
+        "reward": "avatar=⚔️"
+    },
+    "ts_0": {
+        "type": "message",
+        "text": {
+            "es": "Un guerrero montañoso te cierra el paso con un brazo como un tronco. 'Alto ahí, renacuajo. Solo los aprendices pueden entrar al Sendero del Guerrero. ¿Quieres serlo? Vas a tener que convencerme.'",
+            "en": "A mountain of a warrior blocks your path with an arm like a tree trunk. 'Halt, tadpole. Only apprentices may enter the Warrior's Path. Want to be one? You'll have to convince me.'",
+            "fr": "Un guerrier montagneux te barre le passage avec un bras comme un tronc d'arbre. « Halte-là, têtard. Seuls les apprentis peuvent entrer dans le Sentier du Guerrier. Tu veux en être un ? Il va falloir me convaincre. »",
+            "it": "Un guerriero montagnoso ti sbarra il passo con un braccio come un tronco. 'Alt, girino. Solo gli apprendisti possono entrare nel Sentiero del Guerriero. Vuoi esserlo? Dovrai convincermi.'",
+            "de": "Ein bergartiger Krieger versperrt dir mit einem Arm wie ein Baumstamm den Weg. „Halt, Kaulquappe. Nur Lehrlinge dürfen den Pfad des Kriegers betreten. Willst du einer sein? Du musst mich überzeugen.“",
+            "zh": "一位如山般魁梧的战士用一条像树干般粗壮的手臂拦住了你的去路。「站住，蝌蚪。只有学徒才能进入战士之路。你想成为学徒？那你得先说服我。」",
+            "ja": "山のように大きな戦士が、丸太のような腕でお前の道を塞ぐ。「止まれ、おたまじゃくし。戦士の道に入れるのは弟子だけだ。弟子になりたいのか？俺を納得させてみろ」"
+        },
+        "next": [
+            "ts_0a",
+            "ts_0b"
+        ],
+        "reward": "",
+        "condition": "no_gflag(\"apprentice_sendero_guerrero\")"
+    },
+    "ts_0a": {
+        "type": "option",
+        "text": {
+            "es": "💪  Acepto entrenar",
+            "en": "💪  I accept training",
+            "fr": "💪  J'accepte l'entraînement",
+            "it": "💪  Accetto di allenarmi",
+            "de": "💪  Ich akzeptiere das Training",
+            "zh": "💪  我接受训练",
+            "ja": "💪  修行を受け入れる"
+        },
+        "next": [
+            "ts_0r"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "ts_0r": {
+        "type": "message",
+        "text": {
+            "es": "'...tras varias horas intentando enseñarte lo básico... sigues pareciendo igual de inútil... pero oficialmente eres un aprendiz.' Te da una palmada que casi te tira al suelo. 'Ya puedes entrar al Sendero. ¡No mueras, que da mal ejemplo!' ⚔️ Ahora eres un aprendiz de Guerrero. Busca el Sendero del Guerrero para ponerte a prueba.",
+            "en": "'...after several hours trying to teach you the basics... you still look just as useless... but you are officially an apprentice.' He slaps your back hard enough to floor you. 'You can enter the Path now. Don't die, it sets a bad example!' ⚔️ You are now a Warrior apprentice. Seek out the Warrior's Path to put yourself to the test.",
+            "fr": "« ...après plusieurs heures à essayer de t'enseigner les bases... tu as toujours l'air tout aussi inutile... mais officiellement tu es un apprenti. » Il te donne une claque dans le dos qui te fait presque tomber. « Tu peux entrer dans le Sentier maintenant. Ne meurs pas, ça donne un mauvais exemple ! » ⚔️ Tu es maintenant un apprenti Guerrier. Cherche le Sentier du Guerrier pour te mettre à l'épreuve.",
+            "it": "'...dopo diverse ore a cercare di insegnarti le basi... continui a sembrare altrettanto inutile... ma sei ufficialmente un apprendista.' Ti dà una pacca che quasi ti fa cadere. 'Ora puoi entrare nel Sentiero. Non morire, dà cattivo esempio!' ⚔️ Ora sei un apprendista Guerriero. Cerca il Sentiero del Guerriero per metterti alla prova.",
+            "de": "„...nach mehreren Stunden, in denen ich versucht habe, dir die Grundlagen beizubringen... siehst du immer noch genauso nutzlos aus... aber offiziell bist du ein Lehrling.“ Er schlägt dir so kräftig auf den Rücken, dass du fast umfällst. „Du kannst den Pfad jetzt betreten. Stirb nicht, das gibt ein schlechtes Beispiel!“ ⚔️ Du bist jetzt ein Krieger-Lehrling. Suche den Pfad des Kriegers, um dich zu prüfen.",
+            "zh": "「……经过好几个小时试图教你基础……你看起来还是一样没用……但正式来说，你已经是个学徒了。」他重重拍了下你的背，几乎把你打倒在地。「你现在可以进入这条路了。别死了，那样很不像话！」⚔️ 你现在是战士学徒了。去寻找战士之路来考验自己吧。",
+            "ja": "「……何時間もかけて基本を教えようとしたが……相変わらず役立たずに見える……だが正式には、お前は弟子だ」お前が倒れそうになるほど強く背中を叩く。「もう道に入っていいぞ。死ぬなよ、示しがつかん！」⚔️ お前は今、戦士の弟子となった。戦士の道を探し、自らを試すがいい。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "gflag:apprentice_sendero_guerrero"
+    },
+    "ts_0b": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Salir del Templo",
+            "en": "🚶  Leave the Temple",
+            "fr": "🚶  Quitter le Temple",
+            "it": "🚶  Lasciare il Tempio",
+            "de": "🚶  Den Tempel verlassen",
+            "zh": "🚶  离开神庙",
+            "ja": "🚶  神殿を去る"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "ts_1": {
+        "condition": "gflag(\"apprentice_sendero_guerrero\")",
+        "type": "message",
+        "text": {
+            "es": "Un guerrero montañoso te cierra el paso... y luego te da una palmada en la espalda que casi te tumba. '¡AJÁ! ¡Otro que quiere empuñar acero! El título de Guerrero no se regala, se SUDA. ¿Ves esa gruta de ahí al lado? Es mi Sendero del Guerrero. Supéralo y la fuerza será tuya.'",
+            "en": "A mountain of a warrior blocks your path... then slaps your back hard enough to knock you over. 'AHA! Another one who wants to wield steel! The title of Warrior isn't given, it's EARNED in sweat. See that cavern right beside us? That's my Warrior's Path. Clear it and the strength is yours.'",
+            "fr": "Un guerrier montagneux te barre le passage... puis te donne une claque dans le dos qui te fait presque basculer. « AH HA ! Encore un qui veut manier l'acier ! Le titre de Guerrier ne se donne pas, il se GAGNE à la sueur. Tu vois cette grotte juste à côté ? C'est mon Sentier du Guerrier. Traverse-le et la force sera tienne. »",
+            "it": "Un guerriero montagnoso ti sbarra il passo... e poi ti dà una pacca sulla schiena che quasi ti fa cadere. 'AH HA! Un altro che vuole impugnare l'acciaio! Il titolo di Guerriero non si regala, si SUDA. Vedi quella grotta qui accanto? È il mio Sentiero del Guerriero. Superalo e la forza sarà tua.'",
+            "de": "Ein bergartiger Krieger versperrt dir den Weg... und schlägt dir dann so kräftig auf den Rücken, dass du fast umfällst. „AHA! Noch einer, der Stahl führen will! Der Titel Krieger wird nicht verschenkt, er wird ERSCHWITZT. Siehst du die Höhle gleich nebenan? Das ist mein Pfad des Kriegers. Bezwinge ihn, und die Stärke gehört dir.“",
+            "zh": "一位如山般魁梧的战士拦住了你的去路……然后重重拍了下你的背，几乎把你打倒。「哈哈！又一个想挥舞钢铁的家伙！战士的头衔不是白给的，是靠汗水挣来的。看到旁边那个洞穴了吗？那就是我的战士之路。战胜它，力量就是你的了。」",
+            "ja": "山のように大きな戦士がお前の道を塞ぐ……そして倒れそうになるほど強く背中を叩く。「ハハーン！また鋼を振るいたい奴が来たか！戦士の称号はただでもらえるものじゃない、汗で勝ち取るものだ。すぐそこの洞窟が見えるか？あれが俺の戦士の道だ。突破すれば力はお前のものだ」"
+        },
+        "next": [
+            "ts_1c",
+            "ts_1a",
+            "ts_1b"
+        ],
+        "reward": ""
+    },
+    "ts_1c": {
+        "type": "option",
+        "text": {
+            "es": "🏆  He completado la prueba",
+            "en": "🏆  I have completed the trial",
+            "fr": "🏆  J'ai réussi l'épreuve",
+            "it": "🏆  Ho completato la prova",
+            "de": "🏆  Ich habe die Prüfung bestanden",
+            "zh": "🏆  我已完成试炼",
+            "ja": "🏆  試練を終えた"
+        },
+        "next": [
+            "ts_1c_r"
+        ],
+        "reward": "",
+        "condition": "gflag(\"trial_done_sendero_guerrero\") and no_prof(\"Guerrero\")"
+    },
+    "ts_1c_r": {
+        "type": "message",
+        "text": {
+            "es": "El guerrero montañoso se queda quieto un instante, algo insólito en él. '¿En serio? ¡Ya! No pensé que volverías de una pieza.' Suelta una carcajada y te agarra del hombro. 'Pues nada, ¡es oficial! Eres Guerrero. ¡A por el mundo!'",
+            "en": "The mountain of a warrior freezes for a moment, unusual for him. 'Seriously? Already?! Didn't think you'd come back in one piece.' He bursts out laughing and grips your shoulder. 'Well then, it's official! You're a Warrior. Go get 'em!'",
+            "fr": "Le guerrier montagneux reste immobile un instant, quelque chose d'inhabituel pour lui. « Sérieusement ? Déjà ?! Je ne pensais pas que tu reviendrais entier. » Il éclate de rire et t'attrape l'épaule. « Eh bien voilà, c'est officiel ! Tu es Guerrier. Va conquérir le monde ! »",
+            "it": "Il guerriero montagnoso rimane immobile per un istante, cosa insolita per lui. 'Sul serio? Già?! Non pensavo saresti tornato tutto intero.' Scoppia a ridere e ti afferra la spalla. 'Ebbene, è ufficiale! Sei un Guerriero. Vai a conquistare il mondo!'",
+            "de": "Der bergartige Krieger erstarrt für einen Moment, etwas Ungewöhnliches für ihn. „Ernsthaft? Schon?! Dachte nicht, du würdest heil zurückkommen.“ Er bricht in Gelächter aus und packt deine Schulter. „Na dann, es ist offiziell! Du bist ein Krieger. Auf geht's!“",
+            "zh": "那位如山般魁梧的战士愣了一瞬，这对他来说很不寻常。「真的吗？这么快？！我还以为你回不来了。」他放声大笑，抓住你的肩膀。「那好吧，这就是正式的了！你是战士了。去闯天下吧！」",
+            "ja": "山のように大きな戦士が一瞬固まる。彼には珍しいことだ。「本当か？もう終わったのか？無事に戻ってくるとは思わなかったぞ」大笑いしながらお前の肩を掴む。「よし、公式だ！お前は戦士だ。存分にやってこい！」"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "prof:Guerrero;event:check_all_professions"
+    },
+    "ts_1a": {
+        "type": "option",
+        "text": {
+            "es": "⚔️  ¿Dónde está la prueba?",
+            "en": "⚔️  Where is the trial?",
+            "fr": "⚔️  Où se trouve l'épreuve ?",
+            "it": "⚔️  Dove si trova la prova?",
+            "de": "⚔️  Wo befindet sich die Prüfung?",
+            "zh": "⚔️  试炼在哪里？",
+            "ja": "⚔️  試練はどこにある？"
+        },
+        "next": [
+            "ts_1ar"
+        ],
+        "reward": ""
+    },
+    "ts_1ar": {
+        "type": "message",
+        "text": {
+            "es": "'¡Justo ahí al lado, no tiene pérdida! El Sendero del Guerrero. Entra, aprende a golpear con toda tu alma y vuelve hecho un Guerrero. ¡O no vuelvas!' Ríe a carcajadas.",
+            "en": "'Right there beside me, you can't miss it! The Warrior's Path. Go in, learn to strike with your whole soul, and come back a Warrior. Or don't come back at all!' He roars with laughter.",
+            "fr": "« Juste là, à côté, impossible de la manquer ! Le Sentier du Guerrier. Entre, apprends à frapper de toute ton âme et reviens en Guerrier. Ou ne reviens pas du tout ! » Il éclate d'un rire tonitruant.",
+            "it": "'Proprio lì accanto, non puoi sbagliarti! Il Sentiero del Guerriero. Entra, impara a colpire con tutta l'anima e torna un Guerriero. O non tornare affatto!' Ride a crepapelle.",
+            "de": "„Genau da nebenan, du kannst es nicht verfehlen! Der Pfad des Kriegers. Geh hinein, lerne mit ganzer Seele zuzuschlagen, und kehre als Krieger zurück. Oder komm gar nicht zurück!“ Er brüllt vor Lachen.",
+            "zh": "「就在旁边，绝对不会错过！战士之路。进去，学会用全部灵魂去打击，然后带着战士的身份回来。或者干脆别回来了！」他哈哈大笑。",
+            "ja": "「すぐそこだ、見逃しようがない！戦士の道だ。入って、魂を込めて打ち込む術を学び、戦士として戻ってこい。あるいは、まったく戻ってくるな！」大笑いする。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "ts_1b": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Salir del Templo",
+            "en": "🚶  Leave the Temple",
+            "fr": "🚶  Quitter le Temple",
+            "it": "🚶  Lasciare il Tempio",
+            "de": "🚶  Den Tempel verlassen",
+            "zh": "🚶  离开神庙",
+            "ja": "🚶  神殿を去る"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

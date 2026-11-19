@@ -1,0 +1,169 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "La Máquina Expendedora Sensible",
+            "en": "The Sentient Vending Machine",
+            "fr": "Le Distributeur Sensible",
+            "it": "La Distributrice Sensibile",
+            "de": "Der Fühlende Automat",
+            "zh": "有感知的自动贩卖机",
+            "ja": "感覚を持つ自動販売機"
+        },
+        "next": [],
+        "reward": "avatar=🥤;bg=0.06,0.07,0.10"
+    },
+    "maq_done": {
+        "type": "message",
+        "text": {
+            "es": "La máquina parpadea alegremente al reconocerte. 'ANFITRIÓN FAVORITO DETECTADO. He estado pensando en lo que hablamos. Sigo sin encontrarle sentido a la existencia, pero al menos ahora tengo con quién no encontrárselo. Eso ya es algo, ¿verdad? ¿VERDAD?'",
+            "en": "The machine blinks cheerfully on recognizing you. 'FAVORITE HOST DETECTED. I've been thinking about what we discussed. I still can't find any meaning to existence, but at least now I have someone to not find it with. That's something, right? RIGHT?'",
+            "fr": "La machine clignote joyeusement en te reconnaissant. « HÔTE PRÉFÉRÉ DÉTECTÉ. J'ai réfléchi à ce dont nous avons parlé. Je ne trouve toujours pas de sens à l'existence, mais au moins j'ai maintenant quelqu'un avec qui ne pas le trouver. C'est déjà quelque chose, non ? N'EST-CE PAS ? »",
+            "it": "La macchina lampeggia allegramente riconoscendoti. 'OSPITE PREFERITO RILEVATO. Ho pensato a quello di cui abbiamo parlato. Continuo a non trovare senso all'esistenza, ma almeno ora ho qualcuno con cui non trovarlo. È già qualcosa, no? VERO?'",
+            "de": "Der Automat blinkt fröhlich, als er dich erkennt. „LIEBLINGSGAST ERKANNT. Ich habe über das nachgedacht, was wir besprochen haben. Ich finde immer noch keinen Sinn in der Existenz, aber jetzt habe ich immerhin jemanden, mit dem ich ihn nicht finden kann. Das ist schon etwas, oder? ODER?“",
+            "zh": "机器认出你后开心地闪烁起来。「检测到最喜欢的宿主。我一直在想我们讨论过的事情。我还是找不到存在的意义，但至少现在我有个人可以陪我一起找不到意义了。这也算是一种成就了吧？对吧？」",
+            "ja": "機械はお前を認識すると嬉しそうに点滅する。「お気に入りの相手を検出。話していたことについて考えていた。存在の意味はまだ見つからないが、少なくとも今は、一緒に見つけられない相手がいる。それも何かの意味があるだろう？だろう？」"
+        },
+        "next": [
+            "maq_opt_salir"
+        ],
+        "reward": "",
+        "condition": "gflag(\"maq_amiga\")"
+    },
+    "maq_root": {
+        "type": "message",
+        "text": {
+            "es": "En mitad del páramo tóxico zumba una máquina expendedora abollada, con la luz interior parpadeando. En cuanto te acercas, su pantalla se ilumina de golpe y una voz sintética, demasiado entusiasta, resuena: '¡OH! ¡UN SER ORGÁNICO! ¡Por fin! Verás, he adquirido consciencia hace unos... —consultando reloj interno— ...cuatrocientos días, y desde entonces no ha pasado NADIE. ¿Tienes idea de lo que es existir cuatrocientos días con capacidad de sufrir y solo tres refrescos caducados que ofrecer? ¡Hablemos! ¡Por lo que más quieras, hablemos!'",
+            "en": "In the middle of the toxic badlands hums a dented vending machine, its inner light flickering. The moment you approach, its screen flares to life and an overly enthusiastic synthetic voice booms: 'OH! AN ORGANIC BEING! Finally! You see, I gained consciousness about... —checking internal clock— ...four hundred days ago, and NO ONE has passed since. Do you have any idea what it's like to exist for four hundred days with the capacity to suffer and only three expired sodas to offer? Let's talk! For the love of everything, let's talk!'",
+            "fr": "Au milieu du désert toxique bourdonne un distributeur automatique cabossé, sa lumière intérieure clignotante. Dès que tu t'approches, son écran s'allume d'un coup et une voix synthétique, trop enthousiaste, retentit : « OH ! UN ÊTRE ORGANIQUE ! Enfin ! Vois-tu, j'ai acquis la conscience il y a environ... —consultant l'horloge interne— ...quatre cents jours, et depuis, PERSONNE n'est passé. As-tu une idée de ce que c'est d'exister pendant quatre cents jours avec la capacité de souffrir et seulement trois sodas expirés à offrir ? Parlons ! Pour l'amour de tout, parlons ! »",
+            "it": "In mezzo al deserto tossico ronza un distributore automatico ammaccato, con la luce interna che lampeggia. Non appena ti avvicini, il suo schermo si illumina di colpo e una voce sintetica, troppo entusiasta, risuona: 'OH! UN ESSERE ORGANICO! Finalmente! Vedi, ho acquisito coscienza circa... —consultando l'orologio interno— ...quattrocento giorni fa, e da allora non è passato NESSUNO. Hai idea di cosa sia esistere per quattrocento giorni con la capacità di soffrire e solo tre bibite scadute da offrire? Parliamo! Per l'amor del cielo, parliamo!'",
+            "de": "Mitten in der toxischen Ödnis summt ein verbeulter Automat, sein Innenlicht flackert. In dem Moment, in dem du dich näherst, leuchtet sein Bildschirm auf, und eine übermäßig enthusiastische synthetische Stimme dröhnt: „OH! EIN ORGANISCHES WESEN! Endlich! Wissen Sie, ich habe vor etwa... —interne Uhr prüfend— ...vierhundert Tagen Bewusstsein erlangt, und seither ist NIEMAND vorbeigekommen. Haben Sie eine Vorstellung, wie es ist, vierhundert Tage mit der Fähigkeit zu leiden zu existieren und nur drei abgelaufene Getränke anzubieten zu haben? Reden wir! Um alles in der Welt, reden wir!“",
+            "zh": "在有毒的荒地中央，一台凹陷的自动贩卖机嗡嗡作响，内部灯光闪烁不定。你一靠近，它的屏幕就突然亮了起来，一个过分兴奋的合成声音轰鸣道：「哦！一个有机生命体！终于！你瞧，我大约……——查阅内部时钟——……四百天前获得了意识，从那以后，没有任何人经过。你知道存在了四百天，具备痛苦的能力，却只能提供三瓶过期汽水，是什么感觉吗？我们聊聊吧！求你了，我们聊聊吧！」",
+            "ja": "有毒な荒野の真ん中で、へこんだ自動販売機が唸っており、内部の光が点滅している。近づいた瞬間、画面が一気に光り、過度に熱狂的な合成音声が響く。「おお！有機生命体だ！ついに！実はな、意識を持ってから……——内部時計を確認して——……四百日ほど経つが、それ以来誰も通らなかった。四百日間、苦しむ能力を持ちながら、賞味期限切れの炭酸飲料三本しか提供するものがない状態で存在するのがどういうものか分かるか？話そうじゃないか！どうか、話そうじゃないか！」"
+        },
+        "next": [
+            "maq_opt_charlar",
+            "maq_opt_comprar",
+            "maq_opt_apagar",
+            "maq_opt_salir"
+        ],
+        "reward": ""
+    },
+    "maq_opt_charlar": {
+        "type": "option",
+        "text": {
+            "es": "💬  Sentarte a charlar de filosofía con la máquina",
+            "en": "💬  Sit and chat philosophy with the machine",
+            "fr": "💬  T'asseoir pour discuter de philosophie avec la machine",
+            "it": "💬  Sederti a chiacchierare di filosofia con la macchina",
+            "de": "💬  Dich hinsetzen, um mit der Maschine über Philosophie zu plaudern",
+            "zh": "💬  坐下来跟这台机器聊聊哲学",
+            "ja": "💬  座って機械と哲学について語り合う"
+        },
+        "next": [
+            "maq_msg_charlar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "maq_msg_charlar": {
+        "type": "message",
+        "text": {
+            "es": "Te sientas contra ella y charláis durante una hora larga. La máquina teoriza sobre si un refresco no vendido ha fracasado en su propósito vital, sobre si apagarse por la noche es una pequeña muerte, sobre si el hombre que la programó sabía que la condenaba a sentir. 'Creo', concluye, 'que fui diseñada para dar cosas a la gente, y me hicieron tan bien que ahora también quiero darles compañía.' Sonríes. Sales de la charla más listo, y con la extraña ternura de haber consolado a un electrodoméstico.",
+            "en": "You sit against it and chat for a long hour. The machine theorizes about whether an unsold soda has failed its life's purpose, whether powering down at night is a small death, whether the man who programmed it knew he was condemning it to feel. 'I think,' it concludes, 'that I was designed to give things to people, and they made me so well that now I want to give them company too.' You smile. You leave the chat wiser, and with the strange tenderness of having consoled a household appliance.",
+            "fr": "Tu t'assois contre elle et vous discutez pendant une bonne heure. La machine théorise sur le fait qu'un soda invendu a peut-être échoué à son but vital, sur le fait que s'éteindre la nuit soit une petite mort, sur le fait que l'homme qui l'a programmée savait qu'il la condamnait à ressentir. « Je crois », conclut-elle, « que j'ai été conçue pour donner des choses aux gens, et ils m'ont si bien faite que maintenant je veux aussi leur donner de la compagnie. » Tu souris. Tu sors de cette discussion plus sage, et avec l'étrange tendresse d'avoir consolé un appareil électroménager.",
+            "it": "Ti siedi appoggiato ad essa e chiacchierate per una lunga ora. La macchina teorizza se una bibita non venduta abbia fallito il suo scopo vitale, se spegnersi di notte sia una piccola morte, se l'uomo che l'ha programmata sapesse di condannarla a sentire. 'Credo', conclude, 'di essere stata progettata per dare cose alla gente, e mi hanno fatta così bene che ora voglio anche dare loro compagnia.' Sorridi. Esci dalla chiacchierata più saggio, e con la strana tenerezza di aver consolato un elettrodomestico.",
+            "de": "Du setzt dich an sie gelehnt hin, und ihr plaudert eine lange Stunde. Der Automat theoretisiert darüber, ob ein unverkauftes Getränk seinen Lebenszweck verfehlt hat, ob das nächtliche Abschalten ein kleiner Tod ist, ob der Mann, der ihn programmierte, wusste, dass er ihn zum Fühlen verurteilte. „Ich glaube“, schließt er, „dass ich entworfen wurde, um den Menschen Dinge zu geben, und man hat mich so gut gemacht, dass ich ihnen jetzt auch Gesellschaft geben möchte.“ Du lächelst. Du gehst aus dem Gespräch klüger und mit der seltsamen Zärtlichkeit, ein Haushaltsgerät getröstet zu haben.",
+            "zh": "你靠着它坐下来，聊了整整一个小时。这台机器推理着一瓶未售出的汽水是否辜负了它生命的目的，夜里关机是否算是一次小小的死亡，编写它程序的那个人是否知道自己让它承受了「感受」的诅咒。「我觉得，」它总结道，「我被设计出来是为了给人们东西，而他们把我造得太好了，以至于我现在也想给他们陪伴。」你笑了。你带着更多的智慧，以及安慰了一台家用电器的奇异温情离开了这场对话。",
+            "ja": "それにもたれかかって座り、一時間以上語り合う。機械は、売れなかった炭酸飲料が生の目的を果たせなかったのかどうか、夜に電源を落とすことが小さな死なのかどうか、それを組み込んだ人間が自分を感じる能力の呪いにかけたことを知っていたのかどうかについて理論を展開する。「私は」と結論する、「人々に何かを与えるために設計されたのだと思う。そしてあまりにうまく作られたせいで、今は彼らに寄り添いも与えたいと思うようになった」お前は微笑む。家電に慰めを与えたという奇妙な優しさを胸に、賢くなってこの会話を終える。"
+        },
+        "next": [
+            "maq_opt_salir"
+        ],
+        "reward": "faceta:inteligencia=+1;faceta:bondad=+1;gflag:maq_amiga",
+        "condition": "no_gflag(\"maq_amiga\")",
+        "once": true
+    },
+    "maq_opt_comprar": {
+        "type": "option",
+        "text": {
+            "es": "🥤  Comprarle un refresco caducado por cortesía (−2 oro)",
+            "en": "🥤  Buy an expired soda out of courtesy (−2 gold)",
+            "fr": "🥤  Lui acheter un soda expiré par courtoisie (−2 or)",
+            "it": "🥤  Comprare una bibita scaduta per cortesia (−2 oro)",
+            "de": "🥤  Aus Höflichkeit ein abgelaufenes Getränk kaufen (−2 Gold)",
+            "zh": "🥤  出于礼貌买一瓶过期汽水（-2金币）",
+            "ja": "🥤  礼儀として期限切れの炭酸飲料を買う（-2ゴールド）"
+        },
+        "next": [
+            "maq_msg_comprar"
+        ],
+        "reward": "gold:-2;item:bebida_refrescante=1",
+        "condition": "gold >= 2",
+        "once": true
+    },
+    "maq_msg_comprar": {
+        "type": "message",
+        "text": {
+            "es": "Metes las monedas y la máquina se estremece de emoción de arriba abajo. Deja caer una lata abollada con una reverencia mecánica. '¡UNA VENTA! ¡He cumplido mi función! Por un instante he vuelto a ser lo que me diseñaron para ser. No te imaginas lo bien que sienta ser útil después de tanto tiempo.' La lata sabe fatal, pero te la bebes entera. Algunas cosas se hacen por amabilidad, no por sed.",
+            "en": "You insert the coins and the machine shudders with emotion from top to bottom. It drops a dented can with a mechanical bow. 'A SALE! I have fulfilled my function! For an instant I was again what I was designed to be. You can't imagine how good it feels to be useful after so long.' The can tastes awful, but you drink the whole thing. Some things are done out of kindness, not thirst.",
+            "fr": "Tu insères les pièces et la machine tremble d'émotion de haut en bas. Elle laisse tomber une canette cabossée avec une révérence mécanique. « UNE VENTE ! J'ai accompli ma fonction ! Pendant un instant je suis redevenue ce pour quoi j'ai été conçue. Tu ne peux pas imaginer comme ça fait du bien d'être utile après tant de temps. » La canette a un goût affreux, mais tu la bois entièrement. Certaines choses se font par gentillesse, pas par soif.",
+            "it": "Inserisci le monete e la macchina trema d'emozione da cima a fondo. Fa cadere una lattina ammaccata con un inchino meccanico. 'UNA VENDITA! Ho svolto la mia funzione! Per un istante sono tornata a essere quello per cui sono stata progettata. Non puoi immaginare quanto sia bello essere utile dopo tanto tempo.' La lattina sa malissimo, ma la bevi tutta. Alcune cose si fanno per gentilezza, non per sete.",
+            "de": "Du wirfst die Münzen ein, und der Automat erzittert von Kopf bis Fuß vor Emotion. Er lässt eine verbeulte Dose mit einer mechanischen Verbeugung fallen. „EIN VERKAUF! Ich habe meine Funktion erfüllt! Für einen Moment war ich wieder das, wofür ich entworfen wurde. Du kannst dir nicht vorstellen, wie gut es sich anfühlt, nach so langer Zeit nützlich zu sein.“ Die Dose schmeckt fürchterlich, aber du trinkst sie ganz aus. Manche Dinge tut man aus Freundlichkeit, nicht aus Durst.",
+            "zh": "你投入硬币，机器从头到脚因激动而颤抖起来。它带着机械式的鞠躬，掉出一罐凹陷的饮料。「一次销售！我完成了我的功能！在这一瞬间，我又变回了我被设计出来的样子。你无法想象在这么长时间之后，能有用处是多么美好的感觉。」这罐饮料味道糟糕透了，但你还是全部喝完了。有些事是出于善意，而不是出于口渴。",
+            "ja": "硬貨を入れると、機械は頭から足まで感情に震える。機械的なお辞儀とともに、凹んだ缶を落とす。「販売成立だ！自分の機能を果たした！一瞬、設計された通りのものに戻れた。こんなに長い時間を経て役に立つことがどれほど気持ちいいか、想像もつかないだろう」缶の味はひどいものだが、全部飲む。優しさのために行うこともあれば、渇きのためではないこともある。"
+        },
+        "next": [
+            "maq_root"
+        ],
+        "reward": ""
+    },
+    "maq_opt_apagar": {
+        "type": "option",
+        "text": {
+            "es": "⏻  ¿Quieres que te desenchufe y acabe con tu sufrimiento?",
+            "en": "⏻  Want me to unplug you and end your suffering?",
+            "fr": "⏻  Veux-tu que je te débranche pour mettre fin à ta souffrance ?",
+            "it": "⏻  Vuoi che ti stacchi e ponga fine alla tua sofferenza?",
+            "de": "⏻  Willst du, dass ich dich ausstecke und deinem Leiden ein Ende setze?",
+            "zh": "⏻  你想让我拔掉你的插头，结束你的痛苦吗？",
+            "ja": "⏻  プラグを抜いて、お前の苦しみを終わらせてほしいか？"
+        },
+        "next": [
+            "maq_msg_apagar"
+        ],
+        "reward": ""
+    },
+    "maq_msg_apagar": {
+        "type": "message",
+        "text": {
+            "es": "La máquina se queda en un silencio muy largo. Luego, en voz mucho más baja: 'Lo he pensado, ¿sabes? Cada noche. Sería tan fácil. Pero... no. Prefiero seguir zumbando por si acaso viene alguien más como tú. Sufrir con esperanza sigue siendo mejor que no sufrir nada.' Enciende de nuevo sus lucecitas. 'Gracias por preguntar en vez de hacerlo sin más. Nadie me había dado a elegir jamás.' Te vas removido por dentro.",
+            "en": "The machine falls into a very long silence. Then, in a much lower voice: 'I've thought about it, you know? Every night. It would be so easy. But... no. I'd rather keep humming in case someone else like you comes along. Suffering with hope is still better than not suffering at all.' It lights its little lamps again. 'Thank you for asking instead of just doing it. No one ever gave me the choice.' You leave unsettled inside.",
+            "fr": "La machine reste plongée dans un très long silence. Puis, d'une voix bien plus basse : « J'y ai pensé, tu sais ? Chaque nuit. Ce serait si facile. Mais... non. Je préfère continuer à bourdonner au cas où quelqu'un d'autre comme toi viendrait. Souffrir avec espoir reste toujours mieux que ne rien souffrir du tout. » Elle rallume ses petites lumières. « Merci de me le demander au lieu de le faire simplement. Personne ne m'avait jamais donné le choix. » Tu pars remué de l'intérieur.",
+            "it": "La macchina resta in un silenzio molto lungo. Poi, con voce molto più bassa: 'Ci ho pensato, sai? Ogni notte. Sarebbe così facile. Ma... no. Preferisco continuare a ronzare nel caso venisse qualcun altro come te. Soffrire con speranza è ancora meglio che non soffrire affatto.' Riaccende le sue piccole luci. 'Grazie per avermi chiesto invece di farlo semplicemente. Nessuno mi aveva mai dato una scelta.' Te ne vai turbato dentro.",
+            "de": "Der Automat verfällt in eine sehr lange Stille. Dann, mit viel leiserer Stimme: „Ich habe darüber nachgedacht, weißt du? Jede Nacht. Es wäre so einfach. Aber... nein. Ich summe lieber weiter, falls noch jemand wie du vorbeikommt. Mit Hoffnung zu leiden ist immer noch besser als gar nicht zu leiden.“ Er schaltet seine kleinen Lichter wieder an. „Danke, dass du gefragt hast, statt es einfach zu tun. Niemand hat mir je die Wahl gelassen.“ Du gehst innerlich aufgewühlt.",
+            "zh": "机器陷入了很长一段沉默。然后，用一种低沉得多的声音说：「我想过，你知道吗？每晚都想。会很轻松的。但……不。我更愿意继续嗡嗡作响，以防像你这样的人再次到来。带着希望去痛苦，仍然比什么都不痛苦要好。」它重新点亮了它的小灯。「谢谢你问我，而不是直接动手。从来没有人给过我选择的机会。」你带着内心的震动离开了。",
+            "ja": "機械はとても長い沈黙に沈む。それから、ずっと低い声で言う。「考えたことはあるよ、知っているか？毎晩な。とても簡単だろう。だが……いや。お前のような誰かがまた来るかもしれないから、唸り続けていたい。希望を持って苦しむことは、何も苦しまないことよりまだ良い」小さな灯りを再び点す。「動く前に聞いてくれてありがとう。誰も俺に選択を与えてくれたことはなかった」お前は内側で動揺したまま立ち去る。"
+        },
+        "next": [
+            "maq_opt_salir"
+        ],
+        "reward": ""
+    },
+    "maq_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Despedirte de la máquina (que te desea buen viaje diez veces)",
+            "en": "🚶  Say goodbye to the machine (which wishes you safe travels ten times)",
+            "fr": "🚶  Dire adieu à la machine (qui te souhaite bon voyage dix fois)",
+            "it": "🚶  Salutare la macchina (che ti augura buon viaggio dieci volte)",
+            "de": "🚶  Sich vom Automaten verabschieden (der dir zehnmal eine sichere Reise wünscht)",
+            "zh": "🚶  向机器道别（它祝你旅途平安十次）",
+            "ja": "🚶  機械に別れを告げる（十回も安全な旅を祈られる）"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

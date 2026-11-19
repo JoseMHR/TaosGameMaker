@@ -1,0 +1,204 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "Zaid el Mercader",
+            "en": "Zaid the Merchant",
+            "fr": "Zaid le Marchand",
+            "it": "Zaid il Mercante",
+            "de": "Zaid der Händler",
+            "zh": "商人扎伊德",
+            "ja": "商人ザイド"
+        },
+        "next": [],
+        "reward": "avatar=🏺;bg=0.18,0.13,0.03"
+    },
+    "zaid_discount": {
+        "type": "message",
+        "text": {
+            "es": "¡Por todos los soles del desierto, si es el mismísimo héroe que salvó la caravana de Yasmín! En este bazar tu palabra vale más que el platino. Tengo sedas que repelen el fuego, esencias exóticas traídas del mar de dunas y el mejor equipo de expedición. Dime, ¿qué honrará hoy las alforjas del salvador de las arenas?",
+            "en": "By all the desert suns, if it isn't the very hero who saved Yasmin's caravan! In this bazaar your word is worth more than platinum. I have silks that repel fire, exotic scents brought from the dune sea, and the finest expedition gear. Tell me, what shall honor the saddlebags of the desert's savior today?",
+            "fr": "Par tous les soleils du désert, si ce n'est pas le héros en personne qui a sauvé la caravane de Yasmin ! Dans ce bazar, ta parole vaut plus que le platine. J'ai des soies qui repoussent le feu, des essences exotiques venues de la mer de dunes et le meilleur équipement d'expédition. Dis-moi, qu'honorera aujourd'hui les sacoches du sauveur des sables ?",
+            "it": "Per tutti i soli del deserto, se non è proprio l'eroe che ha salvato la carovana di Yasmin! In questo bazar la tua parola vale più del platino. Ho sete che respingono il fuoco, essenze esotiche portate dal mare di dune e il miglior equipaggiamento da spedizione. Dimmi, cosa onorerà oggi le bisacce del salvatore delle sabbie?",
+            "de": "Bei allen Sonnen der Wüste, wenn das nicht der Held höchstpersönlich ist, der Yasmins Karawane rettete! In diesem Basar ist dein Wort mehr wert als Platin. Ich habe feuerabweisende Seiden, exotische Essenzen aus dem Dünenmeer und die beste Expeditionsausrüstung. Sag mir, was wird heute die Satteltaschen des Retters der Sande ehren?",
+            "zh": "以沙漠所有的太阳起誓，这不正是拯救了雅斯敏商队的那位英雄本人吗！在这个集市里，你的话比铂金还珍贵。我有能防火的丝绸，来自沙丘之海的异域香精，还有最好的远征装备。告诉我，今天什么能配得上这位沙之救星的鞍袋呢？",
+            "ja": "砂漠のあらゆる太陽にかけて、これはヤスミンのキャラバンを救ったまさにその英雄ではないか！この市場ではお前の言葉はプラチナよりも価値がある。火を弾く絹、砂丘の海から運ばれた異国の香料、そして最高の遠征装備がある。教えてくれ、今日は砂漠の救世主の鞍袋に何を加えようか？"
+        },
+        "next": [
+            "zaid_opt_tienda",
+            "zaid_opt_picante",
+            "zaid_opt_regateo",
+            "zaid_opt_rumor",
+            "zaid_opt_salir"
+        ],
+        "reward": "",
+        "condition": "gflag(\"gloriam_caravan_rescued\")"
+    },
+    "zaid_1": {
+        "type": "message",
+        "text": {
+            "es": "¡Salam y bienvenido al Gran Bazar de las Especias! El aire huele a azafrán molido, canela de las rocas y polvo de estrellas. Aquí no vendemos baratijas: tenemos sedas que repelen el calor, especias que reviven a los muertos y unas Botas de Arena que te salvarán la vida en las dunas. ¿Qué buscas bajo mis toldos carmesíes?",
+            "en": "Salam and welcome to the Grand Spice Bazaar! The air smells of crushed saffron, rock cinnamon, and star dust. We sell no trinkets here: I have heat-repelling silks, spices that awaken the dead, and Sand Boots that will save your life in the dunes. What seek you beneath my crimson canopies?",
+            "fr": "Salam et bienvenue au Grand Bazar des Épices ! L'air sent le safran moulu, la cannelle des roches et la poussière d'étoiles. Ici, nous ne vendons pas de babioles : j'ai des soies qui repoussent la chaleur, des épices qui ressuscitent les morts et des Bottes de Sable qui te sauveront la vie dans les dunes. Que cherches-tu sous mes auvents pourpres ?",
+            "it": "Salam e benvenuto al Grande Bazar delle Spezie! L'aria odora di zafferano macinato, cannella delle rocce e polvere di stelle. Qui non vendiamo cianfrusaglie: ho sete che respingono il calore, spezie che rianimano i morti e degli Stivali di Sabbia che ti salveranno la vita nelle dune. Cosa cerchi sotto le mie tende cremisi?",
+            "de": "Salam und willkommen im Großen Gewürzbasar! Die Luft riecht nach gemahlenem Safran, Felsenzimt und Sternenstaub. Hier verkaufen wir keinen Tand: ich habe hitzeabweisende Seiden, Gewürze, die die Toten wiederbeleben, und Sandstiefel, die dir in den Dünen das Leben retten. Was suchst du unter meinen purpurnen Zeltdächern?",
+            "zh": "祝安，欢迎来到大香料集市！空气中弥漫着研磨藏红花、岩石肉桂和星尘的香气。我们这里不卖廉价小玩意儿：我有能抵御高温的丝绸，能让死人复活的香料，还有能在沙丘中救你性命的沙靴。你在我这红色的遮篷下想找什么呢？",
+            "ja": "サラーム、そして大香辛料市場へようこそ！空気には挽いたサフラン、岩のシナモン、星の塵の香りが漂っている。ここでは安物は売らない——熱を弾く絹、死者を蘇らせる香辛料、砂丘でお前の命を救う砂のブーツがある。この深紅の天幕の下で何を探しているのだ？"
+        },
+        "next": [
+            "zaid_opt_tienda",
+            "zaid_opt_picante",
+            "zaid_opt_regateo",
+            "zaid_opt_rumor",
+            "zaid_opt_salir"
+        ],
+        "reward": ""
+    },
+    "zaid_opt_tienda": {
+        "type": "option",
+        "text": {
+            "es": "🛍️  Enséñame tus mercancías. Quiero ver tu catálogo de equipo y provisiones",
+            "en": "🛍️  Show me your wares. I want to see your catalog of gear and supplies",
+            "fr": "🛍️  Montre-moi tes marchandises. Je veux voir ton catalogue d'équipement et de provisions",
+            "it": "🛍️  Mostrami la tua merce. Voglio vedere il tuo catalogo di equipaggiamento e provviste",
+            "de": "🛍️  Zeig mir deine Waren. Ich möchte deinen Katalog an Ausrüstung und Vorräten sehen",
+            "zh": "🛍️  给我看看你的商品。我想看看你的装备和补给目录",
+            "ja": "🛍️  お前の商品を見せてくれ。装備と物資のカタログを見たい"
+        },
+        "next": [
+            "zaid_msg_tienda"
+        ],
+        "reward": ""
+    },
+    "zaid_msg_tienda": {
+        "type": "message",
+        "text": {
+            "es": "Zaid despliega sobre un tapete persa reluciente una hilera de frascos de cristal, ungüentos de aloe del desierto, cimitarras templadas y las codiciadas botas ligeras. '¡Contempla con tus propios ojos! Cada pieza garantizada contra escorpiones y tempestades.'",
+            "en": "Zaid unfolds across a gleaming Persian carpet an array of glass vials, desert aloe balms, tempered scimitars, and the coveted lightweight boots. 'Behold with your own eyes! Every piece guaranteed against scorpions and sandstorms.'",
+            "fr": "Zaid déploie sur un tapis persan étincelant une rangée de flacons de verre, d'onguents d'aloès du désert, de cimeterres trempés et les bottes légères tant convoitées. « Contemple de tes propres yeux ! Chaque pièce garantie contre les scorpions et les tempêtes. »",
+            "it": "Zaid dispiega su un tappeto persiano scintillante una fila di boccette di vetro, unguenti di aloe del deserto, scimitarre temprate e gli agognati stivali leggeri. 'Contempla con i tuoi stessi occhi! Ogni pezzo garantito contro scorpioni e tempeste.'",
+            "de": "Zaid breitet auf einem glänzenden persischen Teppich eine Reihe von Glasfläschchen, Wüstenaloe-Salben, gehärteten Krummsäbeln und den begehrten leichten Stiefeln aus. „Betrachte es mit eigenen Augen! Jedes Stück garantiert gegen Skorpione und Stürme.“",
+            "zh": "扎伊德在一块闪闪发光的波斯地毯上展开了一排玻璃瓶、沙漠芦荟软膏、经过淬炼的弯刀，还有那令人垂涎的轻便靴子。「用你自己的眼睛看看吧！每件商品都保证能防蝎子和风暴！」",
+            "ja": "ザイドは輝くペルシャ絨毯の上に、ガラス瓶、砂漠のアロエ軟膏、鍛えられたシミターの列、そして人気の軽量ブーツを広げる。「自分の目で見るがいい！すべての品がサソリと嵐に対して保証されているぞ」"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "open_shop:desert"
+    },
+    "zaid_opt_picante": {
+        "type": "option",
+        "text": {
+            "es": "🌶️  Dices que tus especias reviven a los muertos... ¡dame a probar la más picante que tengas!",
+            "en": "🌶️  You say your spices awaken the dead... let me taste the hottest one you have!",
+            "fr": "🌶️  Tu dis que tes épices ressuscitent les morts... donne-moi à goûter la plus piquante que tu aies !",
+            "it": "🌶️  Dici che le tue spezie rianimano i morti... dammi da assaggiare la più piccante che hai!",
+            "de": "🌶️  Du sagst, deine Gewürze erwecken die Toten... lass mich das schärfste probieren, das du hast!",
+            "zh": "🌶️  你说你的香料能让死人复活……让我尝尝你手上最辣的那种！",
+            "ja": "🌶️  お前の香辛料は死者を蘇らせるというなら……一番辛いものを味見させてくれ！"
+        },
+        "next": [
+            "zaid_msg_picante"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "zaid_msg_picante": {
+        "type": "message",
+        "text": {
+            "es": "Zaid enarca una ceja con sonrisa pícara y descorcha un diminuto frasco de obsidiana con pinzas de plata. Te deposita una pizca de 'Polvo de Fénix Carmesí' en la lengua. Al instante, tus ojos se inyectan en sangre, el vapor te sale a presión por los oídos y una llamarada invisible te calcina la garganta... pero un calor vivificante y feroz se expande por tus músculos. Zaid rompe a aplaudir: '¡Por las arenas de Gloriam! ¡La mayoría de los guerreros caen de rodillas pidiendo leche de camella! Tienes un espíritu ardiente como el mediodía.'",
+            "en": "Zaid raises an eyebrow with a mischievous smirk and uncorks a tiny obsidian flask with silver tongs. He places a pinch of 'Crimson Phoenix Powder' on your tongue. Instantly, your eyes flare bloodshot, steam shoots from your ears, and an invisible inferno sears your throat... but a ferocious, invigorating warmth surges through your veins. Zaid bursts into applause: 'By the sands of Gloriam! Most warriors drop to their knees begging for camel milk! You possess a spirit burning like the desert noon.'",
+            "fr": "Zaid hausse un sourcil avec un sourire malicieux et débouche un minuscule flacon d'obsidienne avec des pinces en argent. Il te dépose une pincée de « Poudre du Phénix Cramoisi » sur la langue. Instantanément, tes yeux s'injectent de sang, la vapeur te sort sous pression des oreilles et une flamme invisible te calcine la gorge... mais une chaleur vivifiante et féroce se répand dans tes muscles. Zaid se met à applaudir : « Par les sables de Gloriam ! La plupart des guerriers tombent à genoux en réclamant du lait de chamelle ! Tu as un esprit brûlant comme le midi. »",
+            "it": "Zaid inarca un sopracciglio con sorriso malizioso e stappa un piccolo flacone di ossidiana con pinze d'argento. Ti deposita un pizzico di 'Polvere di Fenice Cremisi' sulla lingua. All'istante, i tuoi occhi si iniettano di sangue, il vapore ti esce sotto pressione dalle orecchie e una fiamma invisibile ti calcina la gola... ma un calore vivificante e feroce si espande nei tuoi muscoli. Zaid scoppia ad applaudire: 'Per le sabbie di Gloriam! La maggior parte dei guerrieri cade in ginocchio chiedendo latte di cammella! Hai uno spirito ardente come il mezzogiorno.'",
+            "de": "Zaid hebt eine Augenbraue mit einem schelmischen Lächeln und entkorkt ein winziges Obsidianfläschchen mit Silberzangen. Er legt dir eine Prise „Karminroter Phönixstaub“ auf die Zunge. Sofort werden deine Augen blutunterlaufen, Dampf schießt unter Druck aus deinen Ohren, und eine unsichtbare Flamme versengt deine Kehle... aber eine belebende, wilde Hitze breitet sich in deinen Muskeln aus. Zaid bricht in Applaus aus: „Bei den Sanden von Gloriams! Die meisten Krieger fallen auf die Knie und betteln um Kamelmilch! Du hast einen Geist, der wie der Mittag brennt.“",
+            "zh": "扎伊德挑起一边眉毛，露出一个狡黠的笑容，用银色的钳子打开了一个小小的黑曜石瓶子。他往你的舌头上放了一小撮「猩红凤凰粉」。瞬间，你的眼睛充血，蒸汽从耳朵里高压喷出，一团看不见的火焰灼烧着你的喉咙……但一股富有生命力、猛烈的热量在你的肌肉中扩散开来。扎伊德鼓起掌来：「以格洛里亚姆的沙子起誓！大多数战士都会跪地求骆驼奶！你拥有一种如正午般炽热的精神。」",
+            "ja": "ザイドはいたずらっぽい笑みで片眉を上げ、銀の鋏で小さな黒曜石の小瓶を開ける。「深紅の不死鳥の粉」をひとつまみ、お前の舌に乗せる。瞬時に目が充血し、耳から圧力をもって蒸気が噴き出し、見えない炎が喉を焼く……だが猛烈で生き生きとした熱が筋肉に広がっていく。ザイドは拍手を始める。「グロリアムの砂にかけて！ほとんどの戦士はラクダの乳を求めて膝をつくというのに！お前は真昼のように燃える精神を持っているな」"
+        },
+        "next": [
+            "zaid_1"
+        ],
+        "reward": "faceta:valor=+1;heal:30;discover:lore_especias_gloriam"
+    },
+    "zaid_opt_regateo": {
+        "type": "option",
+        "text": {
+            "es": "🧠  Esa seda parece buena, pero la trama del sur suele aflojarse con la arena. Si ajustas el precio, cerramos trato.",
+            "en": "🧠  That silk looks decent, but southern weaves tend to loosen in the grit. Adjust the price and we have a deal.",
+            "fr": "🧠  Cette soie a lair bonne, mais la trame du sud a tendance à se relâcher avec le sable. Si tu ajustes le prix, on conclut laffaire.",
+            "it": "🧠  Quella seta sembra buona, ma la trama del sud tende ad allentarsi con la sabbia. Se aggiusti il prezzo, chiudiamo l'affare.",
+            "de": "🧠  Diese Seide sieht gut aus, aber südliche Webungen lockern sich oft im Sand. Wenn du den Preis anpasst, sind wir uns einig.",
+            "zh": "🧠  这块丝绸看起来不错，但南方的织法遇到沙子容易松散。如果你调整一下价格，我们就成交。",
+            "ja": "🧠  その絹は良さそうだが、南部の織り方は砂で緩みやすい。値段を調整すれば取引成立だ"
+        },
+        "next": [
+            "zaid_msg_regateo"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "zaid_msg_regateo": {
+        "type": "message",
+        "text": {
+            "es": "Los ojos del mercader se iluminan con auténtico deleite profesional. Acaricia el borde de la tela, finge indignación durante tres segundos y luego suelta una carcajada sincera: '¡Ah, un comprador con ojo de halcón y lengua de plata! Me alegra el alma negociar con alguien que sabe distinguir la seda de gusano solar del lino basto. Toma, un descuento de bienvenida en oro contante y sonante por honrar el arte del regateo.'",
+            "en": "The merchant's eyes gleam with genuine professional delight. He strokes the fabric edge, feigns outrage for three seconds, and then bursts into hearty laughter: 'Ah, a buyer with the eye of a hawk and a tongue of silver! It gladdens my soul to bargain with someone who can tell sun-worm silk from coarse linen. Here, a welcome gold rebate for honoring the noble art of haggling.'",
+            "fr": "Les yeux du marchand s'illuminent d'un authentique plaisir professionnel. Il caresse le bord du tissu, feint l'indignation pendant trois secondes, puis éclate d'un rire sincère : « Ah, un acheteur à l'œil de faucon et à la langue d'argent ! Ça me réjouit l'âme de négocier avec quelqu'un qui sait distinguer la soie de ver solaire du lin grossier. Tiens, une remise de bienvenue en or sonnant et trébuchant pour avoir honoré l'art du marchandage. »",
+            "it": "Gli occhi del mercante si illuminano di autentico piacere professionale. Accarezza il bordo del tessuto, finge indignazione per tre secondi e poi scoppia in una risata sincera: 'Ah, un compratore con occhio di falco e lingua d'argento! Mi rallegra l'anima negoziare con qualcuno che sa distinguere la seta di verme solare dal lino grezzo. Tieni, uno sconto di benvenuto in oro sonante per aver onorato l'arte della contrattazione.'",
+            "de": "Die Augen des Händlers leuchten vor echtem beruflichem Vergnügen auf. Er streichelt den Stoffrand, täuscht drei Sekunden lang Empörung vor und bricht dann in ehrliches Gelächter aus: „Ah, ein Käufer mit Falkenaugen und silberner Zunge! Es erfreut meine Seele, mit jemandem zu handeln, der Sonnenwurm-Seide von grobem Leinen unterscheiden kann. Hier, ein Willkommensrabatt in klingendem Gold, für das Ehren der edlen Kunst des Feilschens.“",
+            "zh": "商人的眼中闪烁着真正的职业喜悦。他抚摸着布料的边缘，假装了三秒钟的愤慨，然后爆发出真心的笑声：「啊，一位鹰眼加银舌的买家！能和一个能分辨出太阳蚕丝与粗麻布的人讨价还价，真是让我心花怒放。给你，这是欢迎折扣，用响当当的金子表示对讨价还价这门艺术的敬意。」",
+            "ja": "商人の目は本物の職人的な喜びで輝く。布の端を撫で、三秒間憤慨したふりをし、それから心からの笑い声を上げる。「ああ、鷹の目と銀の舌を持つ買い手だな！太陽蚕の絹と粗い麻布を見分けられる者と取引するのは魂が喜ぶ。ほら、値切りの高貴な技を称えて、ウェルカム値引きを鳴る金貨でくれてやろう」"
+        },
+        "next": [
+            "zaid_1"
+        ],
+        "reward": "faceta:inteligencia=+1;gold:+35"
+    },
+    "zaid_opt_rumor": {
+        "type": "option",
+        "text": {
+            "es": "🐪  Pasas el día entre caravanas... ¿qué secretos o peligros esconden estas dunas?",
+            "en": "🐪  You spend your days among caravans... what secrets or perils lurk in these dunes?",
+            "fr": "🐪  Tu passes tes journées parmi les caravanes... quels secrets ou dangers cachent ces dunes ?",
+            "it": "🐪  Passi le giornate tra le carovane... quali segreti o pericoli nascondono queste dune?",
+            "de": "🐪  Du verbringst deine Tage unter Karawanen... welche Geheimnisse oder Gefahren verbergen diese Dünen?",
+            "zh": "🐪  你整天都待在商队之间……这些沙丘里藏着什么秘密或危险吗？",
+            "ja": "🐪  キャラバンの間で日々を過ごしているんだろう……この砂丘にはどんな秘密や危険が潜んでいる？"
+        },
+        "next": [
+            "zaid_msg_rumor"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "zaid_msg_rumor": {
+        "type": "message",
+        "text": {
+            "es": "Zaid baja la voz y mira hacia la puerta del bazar. 'Si viajas hacia el este, ten cuidado con los espejismos: hay viajeros que juran haber visto ciudades de cristal flotando sobre el calor. Y si oyes campanas que suenan sin viento en plena noche, no te acerques: es la vieja Caravana Fantasma, condenada a vagar por haber vendido agua salada a los peregrinos. Respeta el desierto y el desierto te dejará pasar.' Su advertencia cala hondo en tu memoria.",
+            "en": "Zaid lowers his voice and glances towards the bazaar entrance. 'If you journey east, beware the mirages: travelers swear they have seen crystal spires floating on the horizon heat. And if you hear bells ringing on windless nights, do not draw near: it is the old Ghost Caravan, doomed to wander for selling salt water to pilgrims. Respect the desert, and the desert shall let you pass.' His warning engraves itself into your memory.",
+            "fr": "Zaid baisse la voix et jette un œil vers la porte du bazar. « Si tu voyages vers l'est, méfie-toi des mirages : des voyageurs jurent avoir vu des villes de cristal flotter au-dessus de la chaleur. Et si tu entends des cloches sonner sans vent en pleine nuit, ne t'approche pas : c'est la vieille Caravane Fantôme, condamnée à errer pour avoir vendu de l'eau salée à des pèlerins. Respecte le désert et le désert te laissera passer. » Son avertissement se grave profondément dans ta mémoire.",
+            "it": "Zaid abbassa la voce e guarda verso la porta del bazar. 'Se viaggi verso est, fai attenzione ai miraggi: ci sono viaggiatori che giurano di aver visto città di cristallo fluttuare sopra il calore. E se senti campane che suonano senza vento nel cuore della notte, non avvicinarti: è la vecchia Carovana Fantasma, condannata a vagare per aver venduto acqua salata ai pellegrini. Rispetta il deserto e il deserto ti lascerà passare.' Il suo avvertimento si incide profondamente nella tua memoria.",
+            "de": "Zaid senkt die Stimme und blickt zur Tür des Basars. „Wenn du nach Osten reist, achte auf Luftspiegelungen: Reisende schwören, kristallene Städte über der Hitze schweben gesehen zu haben. Und wenn du mitten in der Nacht Glocken ohne Wind läuten hörst, nähere dich nicht: es ist die alte Geisterkarawane, verdammt, zu wandern, weil sie Pilgern Salzwasser verkaufte. Respektiere die Wüste, und die Wüste wird dich passieren lassen.“ Seine Warnung prägt sich tief in dein Gedächtnis ein.",
+            "zh": "扎伊德压低声音，望向集市的门口。「如果你往东走，要小心海市蜃楼：有旅人发誓说自己看见过水晶城市漂浮在热气之上。如果你在深夜听到没有风却响起的钟声，千万别靠近：那是古老的幽灵商队，因为向朝圣者出售盐水而被诅咒永远流浪。尊重沙漠，沙漠就会让你通过。」他的警告深深地刻在了你的记忆中。",
+            "ja": "ザイドは声を落とし、市場の入り口の方を見やる。「東へ旅するなら、蜃気楼に気をつけろ。旅人たちは熱の上に浮かぶ水晶の街を見たと誓っている。そして風もないのに真夜中に鐘が鳴るのを聞いたら、近づくな。それは巡礼者たちに塩水を売った罪で永遠に彷徨うことを運命づけられた古の幽霊キャラバンだ。砂漠を敬え、そうすれば砂漠はお前を通してくれる」その警告はお前の記憶に深く刻まれる。"
+        },
+        "next": [
+            "zaid_1"
+        ],
+        "reward": "faceta:bondad=+1;discover:lore_dunas_gloriam"
+    },
+    "zaid_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Solo estaba echando un vistazo. Que los vientos te sean propicios",
+            "en": "🚶  Just browsing for now. May favorable winds guide your caravans",
+            "fr": "🚶  Je regardais juste. Que des vents favorables guident tes caravanes",
+            "it": "🚶  Stavo solo dando un'occhiata. Che venti favorevoli guidino le tue carovane",
+            "de": "🚶  Ich habe mich nur umgesehen. Mögen günstige Winde deine Karawanen leiten",
+            "zh": "🚶  我只是随便看看。愿顺风指引你的商队",
+            "ja": "🚶  ただ見ていただけだ。順風がお前のキャラバンを導かんことを"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

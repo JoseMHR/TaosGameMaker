@@ -1,0 +1,8 @@
+{
+    "label": "Ruinas de Piedra",
+    "icon": "🏛️",
+    "scale": 1.0,
+    "y_offset": 0.0,
+    "description": "Restos arqueológicos de un antiguo asentamiento.",
+    "model_path": "ruinas"
+}

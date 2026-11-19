@@ -1,0 +1,40 @@
+{
+    "name": {
+        "es": "Espada de Acero",
+        "en": "Steel Sword",
+        "fr": "Épée d'Acier",
+        "it": "Spada d'Acciaio",
+        "de": "Stahlschwert",
+        "zh": "钢剑",
+        "ja": "鋼の剣"
+    },
+    "desc": {
+        "es": "Una espada de acero forjada por los herreros de Sylphrena.",
+        "en": "A sharp steel sword forged by Sylphrena smiths.",
+        "fr": "Une épée d'acier tranchante forgée par les forgerons de Sylphrena.",
+        "it": "Una spada d'acciaio affilata forgiata dai fabbri di Sylphrena.",
+        "de": "Ein scharfes Stahlschwert, geschmiedet von Sylphrenas Schmieden.",
+        "zh": "由西尔芙雷娜铁匠锻造的锋利钢剑。",
+        "ja": "シルフレナの鍛冶師が鍛えた鋭い鋼の剣。"
+    },
+    "icon": "⚔️",
+    "category": "equipment",
+    "usable": false,
+    "slot": "weapon",
+    "tier": 3,
+    "bonuses": {
+        "str": 4,
+        "vit": 2
+    },
+    "combat": {
+        "phys_damage": 45
+    },
+    "traits": [
+        {
+            "type": "crit_damage",
+            "value": 0.1,
+            "min_refine": 5,
+            "desc": "+10% Daño Crítico"
+        }
+    ]
+}

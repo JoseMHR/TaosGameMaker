@@ -1,0 +1,29 @@
+{
+    "id": "poi_final_d",
+    "type": "poi",
+    "name": {
+        "es": "Final D: Autodestrucción",
+        "en": "Ending D: Self-destruction",
+        "fr": "Fin D : Autodestruction",
+        "it": "Finale D: Autodistruzione",
+        "de": "Ende D: Selbstzerstörung",
+        "zh": "结局D：自我毁灭",
+        "ja": "エンディングD：自己破壊"
+    },
+    "icon": "🕯️",
+    "desc": {
+        "es": "Juicio de la Esfera y Desenlace D: La Caída y el Silencio Final.",
+        "en": "Sphere Judgment and Outcome D: The Fall and Final Silence.",
+        "fr": "Jugement de la Sphère et Dénouement D : La Chute et le Silence Final.",
+        "it": "Giudizio della Sfera ed Esito D: La Caduta e il Silenzio Finale.",
+        "de": "Urteil der Sphäre und Ausgang D: Der Fall und die Letzte Stille.",
+        "zh": "真理之球的审判与结局D：坠落与最终的寂静。",
+        "ja": "球の審判と結末D：転落と最後の静寂。"
+    },
+    "portal": {
+        "view": "cinematic",
+        "cinematic_id": "final_d",
+        "label": "🔮  Ver Final D: Autodestrucción"
+    },
+    "bg": "bg_ending_temple.png"
+}

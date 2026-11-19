@@ -1,0 +1,41 @@
+{
+    "name": {
+        "es": "Chaleco de Nanofibras",
+        "en": "Nanofiber Vest",
+        "fr": "Gilet en Nanofibres",
+        "it": "Gilet in Nanofibra",
+        "de": "Nanofaserweste",
+        "zh": "纳米纤维背心",
+        "ja": "ナノファイバーベスト"
+    },
+    "desc": {
+        "es": "Blindaje ligero de polímero inteligente que absorbe impactos y radiación.",
+        "en": "Smart polymer light armor absorbing kinetic impact and radiation.",
+        "fr": "Blindage léger en polymère intelligent absorbant les impacts et les radiations.",
+        "it": "Corazza leggera in polimero intelligente che assorbe impatti e radiazioni.",
+        "de": "Leichte Panzerung aus intelligentem Polymer, die Stoßeinwirkung und Strahlung absorbiert.",
+        "zh": "轻质智能聚合物装甲，能吸收冲击与辐射。",
+        "ja": "衝撃と放射線を吸収するスマートポリマー製の軽量装甲。"
+    },
+    "icon": "🦺",
+    "category": "equipment",
+    "usable": false,
+    "slot": "armor",
+    "tier": 6,
+    "bonuses": {
+        "agi": 18,
+        "int": 14
+    },
+    "combat": {
+        "phys_defense": 135,
+        "mag_defense": 130
+    },
+    "traits": [
+        {
+            "type": "elemental_damage_reduction",
+            "value": 0.15,
+            "min_refine": 5,
+            "desc": "Reduce un 15% todo el daño elemental recibido"
+        }
+    ]
+}

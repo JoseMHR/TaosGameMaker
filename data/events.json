@@ -1,0 +1,214 @@
+{
+  "tut_warrior_done": {
+    "desc": "Sendero del Guerrero superado: NO otorga la profesion todavia. Solo marca la prueba como superada; el jugador debe volver a contarselo al Maestro (temple_swordsman.json, opcion 'He completado la prueba') para que 'prof:Guerrero' se conceda de verdad.",
+    "actions": [
+      "gflag:trial_done_sendero_guerrero"
+    ]
+  },
+  "tut_psychic_done": {
+    "desc": "Sendero del Psiquico superado: NO otorga la profesion todavia. Solo marca la prueba como superada; el jugador debe volver a contarselo al Maestro (temple_psychic.json, opcion 'He completado la prueba') para que 'prof:Psíquico' se conceda de verdad.",
+    "actions": [
+      "gflag:trial_done_sendero_psiquico"
+    ]
+  },
+  "tut_time_done": {
+    "desc": "Sendero del Tiempo superado: NO otorga la profesion todavia. Solo marca la prueba como superada; el jugador debe volver a contarselo al Maestro (temple_time.json, opcion 'He completado la prueba') para que 'prof:Tiempo' se conceda de verdad.",
+    "actions": [
+      "gflag:trial_done_sendero_tiempo"
+    ]
+  },
+  "tut_archer_done": {
+    "desc": "Sendero del Arquero superado: NO otorga la profesion todavia. Solo marca la prueba como superada; el jugador debe volver a contarselo al Maestro (temple_archer.json, opcion 'He completado la prueba') para que 'prof:Arquero' se conceda de verdad.",
+    "actions": [
+      "gflag:trial_done_sendero_arquero"
+    ]
+  },
+  "tut_elementalist_done": {
+    "desc": "Sendero del Elementalista superado: NO otorga la profesion todavia. Solo marca la prueba como superada; el jugador debe volver a contarselo al Maestro (temple_elementalist.json, opcion 'He completado la prueba') para que 'prof:Elementalista' se conceda de verdad.",
+    "actions": [
+      "gflag:trial_done_sendero_elementalista"
+    ]
+  },
+  "tut_healer_done": {
+    "desc": "Sendero del Sacerdote superado: NO otorga la profesion todavia. Solo marca la prueba como superada; el jugador debe volver a contarselo al Maestro (temple_healer.json, opcion 'He completado la prueba') para que 'prof:Sacerdote' se conceda de verdad.",
+    "actions": [
+      "gflag:trial_done_sendero_sacerdote"
+    ]
+  },
+  "check_all_professions": {
+    "desc": "Comprueba si las 6 profesiones ya estan desbloqueadas (Guerrero, Arquero, Sacerdote, Elementalista, Psíquico, Tiempo). Si es asi, avanza la questline principal a 'all_professions_mastered' (gate real del Rey de Celestia). Se invoca desde cada tut_*_done; es seguro llamarlo repetidamente, solo actua la primera vez que las 6 esten completas.",
+    "condition": "has_prof(\"Guerrero\") and has_prof(\"Arquero\") and has_prof(\"Sacerdote\") and has_prof(\"Elementalista\") and has_prof(\"Psíquico\") and has_prof(\"Tiempo\")",
+    "actions": [
+      "questf:all_professions_mastered",
+      "gflag:act1_reunion_seen"
+    ]
+  },
+  "accept_quest": {
+    "desc": "El explorador acepta la misión de encontrar el diario perdido.",
+    "actions": [
+      "questf:explorer_missing"
+    ]
+  },
+  "start_cave_combat": {
+    "desc": "Inicia el combate contra el jefe de la cueva (la Sombra Oscura).",
+    "actions": [
+      "combat:sombra_eterna:1:boss"
+    ]
+  },
+  "clear_cave": {
+    "desc": "Al vencer al Dios supremo inmortal de los Orcos (dun_yelmo_start): despeja la casilla, abre el paso al este y avanza la questline principal.",
+    "actions": [
+      "worldt:cave_cleared",
+      "gflag:cave_cleared",
+      "questf:yelmo_tunnel_cleared"
+    ]
+  },
+  "clear_ice_cave": {
+    "desc": "Al vencer al Eco Fragmentado en la Catacumba de las Nieves (dun_nieves): la travesía helada queda superada, se otorgan recompensas y se abre el camino.",
+    "actions": [
+      "questf:snow_cross_completed",
+      "gold:150",
+      "xp:200",
+      "gflag:ice_cave_cleared"
+    ]
+  },
+  "clear_bandits_cave": {
+    "desc": "Al vencer al Jefe Bandido (dun_bandidos): despeja el camino hacia Celestia (junto al Puente del Mono). Marca gflag para el logro 'Justicia del Páramo'.",
+    "actions": [
+      "questf:bandits_cave_cleared",
+      "gflag:bandit_boss_defeated",
+      "event:find_diary"
+    ]
+  },
+  "clear_grove": {
+    "desc": "Al vencer al Corruptor Silvestre (corruptor_silvestre): marca el gflag del logro 'Purificación Silvestre'. Enganchado desde quests.json.combat_victory.",
+    "actions": [
+      "gflag:grove_boss_defeated"
+    ]
+  },
+  "receive_banana": {
+    "desc": "El Noble intercambia el diario por un plátano.",
+    "actions": [
+      "-item:diario=1",
+      "item:banana=1",
+      "questf:banana_obtained"
+    ]
+  },
+  "give_banana": {
+    "desc": "El jugador entrega el plátano al mono y se abre el puente. Marca gflag para el logro 'El Mono del Puente'.",
+    "actions": [
+      "-item:banana=1",
+      "questf:monkey_cleared",
+      "worldt:monkey_cleared",
+      "gflag:monkey_cleared"
+    ]
+  },
+  "find_diary": {
+    "desc": "Al vencer al jefe de la cueva (Sombra Oscura): concede el Diario perdido, avanza la misión y muestra el diálogo de descubrimiento. Solo si aún no se tiene el diario.",
+    "condition": "not has_item(\"diario\")",
+    "actions": [
+      "item:diario=1",
+      "questf:item_found",
+      "dialogue:diary_found"
+    ]
+  },
+  "defeat_harbor_boss": {
+    "desc": "Al vencer al Jefe del Puerto (jefe_puerto, Lv 25, combate disparado desde port_master.json): avanza la questline principal. El Sello Real lo entrega el Rey de Celestia (king_celestia.json) al regresar.",
+    "actions": [
+      "questf:harbor_boss_defeated",
+      "gflag:boss_puerto_derrotado",
+      "flag:boss_puerto_derrotado"
+    ]
+  },
+  "arrive_at_gloriam": {
+    "desc": "Tras zarpar de Celestia con el barco desbloqueado: el jugador llega a Gloriam (primer desembarco en el continente de Arcanium). NO se regala protección: debe comprar la anti-insolación (p. ej. botas_arena) en la tienda de Gloriam para cruzar las dunas sin insolarse. Marca gflag para el logro 'Nuevo Horizonte'.",
+    "actions": [
+      "questf:gloriam_arrived",
+      "questf:desert_boots_obtained",
+      "gflag:visited_city_003"
+    ]
+  },
+  "clear_desert_dungeon": {
+    "desc": "Al vencer al Devorador de Dunas (dun_desierto): concede la Reliquia del Núcleo Solar y avanza la questline principal. Marca gflag para el logro 'Reliquia del Núcleo Solar'.",
+    "actions": [
+      "item:reliquia_solar=1",
+      "questf:solar_relic_found",
+      "gflag:solar_relic_found"
+    ]
+  },
+  "arrive_at_arcanum": {
+    "desc": "Tras calmar al Centinela de Frontera (npc_centinela_automata.json) con la Reliquia Solar: se abre el paso a Arcanum. Marca gflag para el logro 'Llegada a Arcanum'.",
+    "actions": [
+      "questf:arcanum_arrived",
+      "gflag:arcanum_arrived"
+    ]
+  },
+  "clear_laboratorio": {
+    "desc": "Al vencer al Experimento de Arcanium (dun_laboratorio): concede los 3 documentos de la tragedia de Aiden, desbloquea sus recuerdos (item recuerdos_aiden) y revela la verdad (cinemática arcanum_revelation).",
+    "condition": "no_gflag(\"truth_revealed\")",
+    "actions": [
+      "item:informe_arcanum_04=1",
+      "item:dibujo_elara=1",
+      "item:registro_medico_elara=1",
+      "item:recuerdos_aiden=1",
+      "item:nucleo_automata=1",
+      "questf:lab_docs_found",
+      "gflag:truth_revealed",
+      "gflag:act2_lab_cleared",
+      "gflag:flag_arcanum_lab_cleared",
+      "emit:flag_arcanum_lab_cleared",
+      "worldt:act2_lab_cleared",
+      "questf:truth_revealed",
+      "cine:arcanum_revelation",
+      "questf:final_sanctuary_reached"
+    ]
+  },
+  "defeat_final_guardian": {
+    "desc": "Al vencer al Guardián Supremo (dun_final): concede la Esfera de la Verdad y avanza la questline principal. El Guardián del Templo (guardian_templo.json) recoge el hilo narrativo para el Tribunal. Marca gflag para el logro 'El Guardián Supremo'.",
+    "actions": [
+      "item:esfera_verdad=1",
+      "questf:guardian_defeated",
+      "gflag:guardian_defeated"
+    ]
+  },
+  "dismiss": {
+    "desc": "Cierra el diálogo sin efectos.",
+    "actions": []
+  },
+  "ev_final_a": {
+    "desc": "Juicio de la Esfera y Epílogo A: Aceptación.",
+    "actions": [
+      "cine:final_a"
+    ]
+  },
+  "ev_final_b": {
+    "desc": "Juicio de la Esfera y Epílogo B: Locura.",
+    "actions": [
+      "cine:final_b"
+    ]
+  },
+  "ev_final_c": {
+    "desc": "Juicio de la Esfera y Epílogo C: Negación.",
+    "actions": [
+      "cine:final_c"
+    ]
+  },
+  "ev_final_d": {
+    "desc": "Juicio de la Esfera y Epílogo D: Autodestrucción.",
+    "actions": [
+      "cine:final_d"
+    ]
+  },
+  "ev_final_e": {
+    "desc": "Juicio de la Esfera y Epílogo E: Venganza.",
+    "actions": [
+      "cine:final_e"
+    ]
+  },
+  "ev_final_f": {
+    "desc": "Juicio de la Esfera y Epílogo F: Reconciliación / Epílogo Secreto.",
+    "actions": [
+      "cine:final_f"
+    ]
+  }
+}

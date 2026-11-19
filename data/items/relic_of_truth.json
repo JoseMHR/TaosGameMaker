@@ -1,0 +1,36 @@
+{
+    "name": {
+        "es": "Reliquia de la Verdad",
+        "en": "Relic of Truth",
+        "fr": "Relique de la Vérité",
+        "it": "Reliquia della Verità",
+        "de": "Relikt der Wahrheit",
+        "zh": "真理圣物",
+        "ja": "真実の遺物"
+    },
+    "desc": {
+        "es": "Un pequeño fragmento de claridad, herencia de quienes ya no temen recordar.",
+        "en": "A small fragment of clarity, the legacy of those no longer afraid to remember.",
+        "fr": "Un petit fragment de clarté, héritage de ceux qui n'ont plus peur de se souvenir.",
+        "it": "Un piccolo frammento di chiarezza, eredità di chi non teme più di ricordare.",
+        "de": "Ein kleines Fragment der Klarheit, das Erbe derer, die sich nicht mehr vor dem Erinnern fürchten.",
+        "zh": "一小片清明的碎片，是那些不再惧怕回忆之人的遗产。",
+        "ja": "思い出すことをもう恐れない者たちの遺産、小さな明晰の欠片。"
+    },
+    "icon": "🏺",
+    "category": "equipment",
+    "usable": false,
+    "slot": "accessory",
+    "tier": 6,
+    "bonuses": {
+        "str": 8,
+        "int": 8,
+        "vit": 8,
+        "agi": 8,
+        "luk": 8
+    },
+    "combat": {
+        "phys_defense": 20,
+        "mag_defense": 20
+    }
+}

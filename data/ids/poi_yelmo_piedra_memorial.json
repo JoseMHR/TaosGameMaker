@@ -1,0 +1,26 @@
+{
+    "id": "poi_yelmo_piedra_memorial",
+    "type": "poi",
+    "icon": "🪨",
+    "name": {
+        "es": "La Piedra sin Nombre",
+        "en": "The Nameless Stone",
+        "fr": "La Pierre Sans Nom",
+        "it": "La Pietra Senza Nome",
+        "de": "Der Namenlose Stein",
+        "zh": "无名之石",
+        "ja": "名もなき石"
+    },
+    "desc": {
+        "es": "Una lápida tosca junto al camino con un nombre borrado a golpes, como si alguien no soportara leerlo. (POI de inspección).",
+        "en": "A rough headstone by the road with a name battered away, as if someone couldn't bear to read it. (Inspection POI).",
+        "fr": "Une pierre tombale grossière près du chemin avec un nom effacé à coups répétés, comme si quelqu'un ne pouvait supporter de le lire. (POI d'inspection).",
+        "it": "Una lapide rozza accanto al sentiero con un nome cancellato a colpi, come se qualcuno non sopportasse di leggerlo. (POI di ispezione).",
+        "de": "Ein grober Grabstein am Wegesrand mit einem gewaltsam ausgelöschten Namen, als könnte es jemand nicht ertragen, ihn zu lesen. (Inspektions-POI).",
+        "zh": "路边一块粗糙的墓碑，上面的名字被反复敲砸抹去，仿佛有人无法忍受读到它。（探查类兴趣点）。",
+        "ja": "道端の粗末な墓石。名前は何度も叩かれて消されている。まるで誰かがそれを読むことに耐えられなかったかのように。（調査ポイント）。"
+    },
+    "npc": "poi_yelmo_piedra_memorial",
+    "bg": "bg_world_poi_yelmo_piedra_memorial.png",
+    "music": "poi_generic"
+}

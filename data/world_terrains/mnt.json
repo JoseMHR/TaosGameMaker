@@ -1,0 +1,11 @@
+{
+	"code": "mnt",
+	"order": 7,
+	"label": "Montaña",
+	"color": "#41414a",
+	"icon": "🏔️",
+	"biome_color": "#3a3a3c",
+	"description": "Montañas escarpadas e imposibles de cruzar a pie.",
+	"walkable": false,
+	"texture": "mountain"
+}

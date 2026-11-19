@@ -1,0 +1,150 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "Buzón Solitario",
+            "en": "Solitary Mailbox",
+            "fr": "Boîte aux Lettres Solitaire",
+            "it": "Cassetta Postale Solitaria",
+            "de": "Einsamer Briefkasten",
+            "zh": "孤独的信箱",
+            "ja": "孤独な郵便受け"
+        },
+        "next": [],
+        "reward": "bg=0.06,0.06,0.06"
+    },
+    "buzon_root": {
+        "type": "message",
+        "text": {
+            "es": "Un buzón de correos de madera y latón oxidado se sostiene obstinadamente en mitad de la hierba salvaje, a kilómetros de cualquier asentamiento civilizado. Su banderita roja está levantada.",
+            "en": "A wooden post mailbox with rusted brass fittings stands stubbornly in the middle of untamed tall grass, miles from any known township. Its tiny red flag is raised.",
+            "fr": "Une boîte aux lettres en bois et laiton rouillé se dresse obstinément au milieu de hautes herbes sauvages, à des kilomètres de toute agglomération civilisée. Son petit drapeau rouge est levé.",
+            "it": "Una cassetta postale in legno con guarnizioni di ottone arrugginito si erge ostinatamente in mezzo all'erba alta e selvaggia, a chilometri da qualsiasi insediamento civile. La sua piccola bandierina rossa è alzata.",
+            "de": "Ein hölzerner Pfostenbriefkasten mit verrosteten Messingbeschlägen steht hartnäckig inmitten wilden hohen Grases, meilenweit von jeder bekannten Siedlung entfernt. Sein kleines rotes Fähnchen ist aufgestellt.",
+            "zh": "一个木制邮筒，配着生锈的黄铜配件，倔强地矗立在野生的高草丛中，离任何已知的定居点都有数英里之遥。它那小小的红色旗子被竖了起来。",
+            "ja": "錆びた真鍮の金具がついた木製の郵便受けが、どんな既知の集落からも何マイルも離れた、伸び放題の草むらの中に頑固に立っている。小さな赤い旗が上がっている。"
+        },
+        "next": [
+            "buzon_opt_abrir",
+            "buzon_opt_tesoro",
+            "buzon_opt_carta",
+            "buzon_opt_salir"
+        ],
+        "reward": ""
+    },
+    "buzon_opt_abrir": {
+        "type": "option",
+        "text": {
+            "es": "📬  Abrir la puertecita del buzón y leer la correspondencia perdida",
+            "en": "📬  Open the mailbox flap and read the lost correspondence",
+            "fr": "📬  Ouvrir le petit volet de la boîte aux lettres et lire le courrier perdu",
+            "it": "📬  Aprire lo sportellino della cassetta e leggere la corrispondenza perduta",
+            "de": "📬  Die kleine Klappe des Briefkastens öffnen und die verlorene Post lesen",
+            "zh": "📬  打开信箱的小门，阅读遗失的信件",
+            "ja": "📬  郵便受けの小さな扉を開け、失われた郵便物を読む"
+        },
+        "next": [
+            "buzon_msg_abrir"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "buzon_msg_abrir": {
+        "type": "message",
+        "text": {
+            "es": "Dentro encuentras tres cartas amarillentas:\n1. Una reclamación del Gremio de Herreros por una factura de herraduras de hace 340 años con intereses astronómicos.\n2. Una tierna carta de amor que reza: 'Querida Beatriz, si el cataclismo no nos separa, nos veremos al pie del roble centenario...'.\n3. Un folleto publicitario: '¡APRENDA PIROMANCIA ELEMENTAL EN TRES CÓMODOS PLAZOS DESDE SU CHOZA!'.\nReconstruir estas vidas olvidadas agudiza tu comprensión histórica.",
+            "en": "Inside you discover three yellowed missives:\n1. A collection notice from the Blacksmith Guild for a horseshoe bill dating back 340 years with staggering compound interest.\n2. A tender love letter reading: 'My dearest Beatrice, if the cataclysm spareth us not, find me beneath the century oak...'.\n3. A promotional flyer: 'MASTER ELEMENTAL PYROMANCY IN THREE EASY INSTALLMENTS FROM THY HUT!'.\nPiecing together these forgotten lives sharpens your historic insight.",
+            "fr": "À l'intérieur, tu trouves trois missives jaunies :\n1. Une réclamation de la Guilde des Forgerons pour une facture de fers à cheval vieille de 340 ans, avec des intérêts astronomiques.\n2. Une tendre lettre d'amour qui dit : « Ma très chère Béatrice, si le cataclysme ne nous sépare pas, retrouve-moi au pied du chêne centenaire... ».\n3. Un prospectus publicitaire : « MAÎTRISEZ LA PYROMANCIE ÉLÉMENTAIRE EN TROIS FACILES VERSEMENTS DEPUIS VOTRE CHAUMIÈRE ! ».\nReconstituer ces vies oubliées aiguise ta compréhension historique.",
+            "it": "Dentro trovi tre missive ingiallite:\n1. Un avviso di riscossione della Gilda dei Fabbri per una fattura di ferri di cavallo vecchia di 340 anni con interessi astronomici.\n2. Una tenera lettera d'amore che recita: 'Mia carissima Beatrice, se il cataclisma non ci separerà, trovami ai piedi della quercia secolare...'.\n3. Un volantino pubblicitario: 'IMPARA LA PIROMANZIA ELEMENTALE IN TRE COMODE RATE DALLA TUA CAPANNA!'.\nRicostruire queste vite dimenticate affina la tua comprensione storica.",
+            "de": "Im Inneren findest du drei vergilbte Schreiben:\n1. Eine Mahnung der Schmiedegilde für eine 340 Jahre alte Hufeisenrechnung mit astronomischen Zinsen.\n2. Einen zärtlichen Liebesbrief mit dem Wortlaut: „Meine liebste Beatrice, wenn der Kataklysmus uns nicht trennt, finde mich unter der hundertjährigen Eiche...“.\n3. Einen Werbeflyer: „ERLERNE ELEMENTARE PYROMANTIE IN DREI BEQUEMEN RATEN VON DEINER HÜTTE AUS!“.\nDiese vergessenen Leben zu rekonstruieren schärft dein historisches Verständnis.",
+            "zh": "在信箱里，你找到了三封发黄的信件：\n1. 铁匠公会寄来的一张340年前的马蹄铁账单催缴通知，附带天文数字般的利息。\n2. 一封温柔的情书，写道：「亲爱的贝雅特丽丝，若这场浩劫没有将我们分开，请在那棵百年橡树下等我……」。\n3. 一张广告传单：「在你的小屋中，三期轻松付款，即可掌握元素炎术！」。\n拼凑这些被遗忘的人生，磨砺了你对历史的理解。",
+            "ja": "中には黄ばんだ三通の手紙がある：\n1. 鍛冶ギルドからの、340年前の蹄鉄代金に天文学的な利息をつけた督促状。\n2. 優しい恋文：「愛しのベアトリスへ、もし大災厄が我らを引き裂かなければ、あの百年樫の木の下で会おう……」。\n3. 宣伝チラシ：「あなたの小屋から、三回の簡単な分割払いでエレメンタル・パイロマンシーを習得！」。\nこれらの忘れられた人生を繋ぎ合わせることで、歴史への理解が深まる。"
+        },
+        "next": [
+            "buzon_root"
+        ],
+        "reward": "faceta:inteligencia=+1;discover:lore_buzon_solitario"
+    },
+    "buzon_opt_tesoro": {
+        "type": "option",
+        "text": {
+            "es": "🪙  (Tantear el fondo de madera en busca de compartimentos secretos)",
+            "en": "🪙  (Feel around the wooden base for hidden compartments)",
+            "fr": "🪙  (Tâter le fond en bois à la recherche de compartiments secrets)",
+            "it": "🪙  (Tastare il fondo di legno alla ricerca di scomparti segreti)",
+            "de": "🪙  (Den Holzboden nach geheimen Fächern abtasten)",
+            "zh": "🪙  （摸索木质底部，寻找暗格）",
+            "ja": "🪙  （木の底を手探りし、隠し部屋を探す）"
+        },
+        "next": [
+            "buzon_msg_tesoro"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "buzon_msg_tesoro": {
+        "type": "message",
+        "text": {
+            "es": "Tus dedos tropiezan con una doble tablilla en el fondo. Al levantarla descubres una bolsita de cuero engrasado que contenía el pago anticipado de un mensajero real de hace tres siglos: 30 monedas de oro intactas y un sello postal de plata reluciente. Tu curiosidad detectivesca se ve justamente recompensada.",
+            "en": "Your fingertips brush a false bottom slat. Prying it loose reveals an oiled pouch containing pre-paid royal courier fees from three centuries past: 30 unblemished gold coins and a polished silver seal. Your sharp investigative instinct is handsomely rewarded.",
+            "fr": "Tes doigts tombent sur une planchette double au fond. En la soulevant, tu découvres une petite bourse en cuir graissé contenant le paiement anticipé d'un messager royal d'il y a trois siècles : 30 pièces d'or intactes et un sceau postal en argent brillant. Ta curiosité de détective est justement récompensée.",
+            "it": "Le tue dita si imbattono in un doppio fondo. Sollevandolo scopri un sacchettino di cuoio oliato contenente il pagamento anticipato di un messaggero reale di tre secoli fa: 30 monete d'oro intatte e un sigillo postale d'argento lucente. La tua curiosità investigativa viene giustamente ricompensata.",
+            "de": "Deine Finger stoßen auf einen doppelten Boden. Beim Anheben entdeckst du einen kleinen Beutel aus geöltem Leder mit der Vorauszahlung eines königlichen Boten aus drei Jahrhunderten: 30 unversehrte Goldmünzen und ein glänzendes silbernes Postsiegel. Deine detektivische Neugier wird verdient belohnt.",
+            "zh": "你的手指碰到了一层双层夹板。掀开后，你发现了一个装油皮革小袋，里面是三个世纪前一位皇家信使的预付款：30枚完好的金币和一枚闪亮的银质邮戳。你的侦探好奇心得到了应有的回报。",
+            "ja": "指先が二重底に触れる。持ち上げると、油を塗った革の小袋が現れる。中には三世紀前の王室伝令の前払い金——無傷の金貨30枚と、輝く銀の郵便印章が入っていた。お前の探偵的好奇心は正当に報われた。"
+        },
+        "next": [
+            "buzon_root"
+        ],
+        "reward": "faceta:valor=+1;gold:+30"
+    },
+    "buzon_opt_carta": {
+        "type": "option",
+        "text": {
+            "es": "✉️  Dejar una nota de esperanza y calidez para futuros viajeros",
+            "en": "✉️  Leave a message of hope and warmth for future wanderers",
+            "fr": "✉️  Laisser un mot d'espoir et de chaleur pour les futurs voyageurs",
+            "it": "✉️  Lasciare un messaggio di speranza e calore per i futuri viaggiatori",
+            "de": "✉️  Eine Botschaft der Hoffnung und Wärme für zukünftige Wanderer hinterlassen",
+            "zh": "✉️  为未来的旅人留下一句充满希望与温暖的话",
+            "ja": "✉️  未来の旅人へ希望と温もりのメッセージを残す"
+        },
+        "next": [
+            "buzon_msg_carta"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "buzon_msg_carta": {
+        "type": "message",
+        "text": {
+            "es": "Escribes: 'Quienquiera que lea esto: el camino es duro, pero el mundo aún alberga belleza. Sigue adelante.' Depositas la nota y cierras la puertecita. Una profunda paz espiritual y un calor sereno reconfortan tu corazón, aliviando tu cansancio.",
+            "en": "You write: 'Whoever reads these words: the trail is harsh, yet beauty endures in this world. March forward.' You deposit the missive and latch the flap. A profound spiritual peace and gentle warmth comfort your heart, melting away trail fatigue.",
+            "fr": "Tu écris : « À qui lira ceci : le chemin est rude, mais le monde abrite encore de la beauté. Continue d'avancer. » Tu déposes le mot et refermes le petit volet. Une paix spirituelle profonde et une chaleur sereine réconfortent ton cœur, apaisant ta fatigue.",
+            "it": "Scrivi: 'A chiunque legga questo: il cammino è duro, ma il mondo custodisce ancora bellezza. Vai avanti.' Deponi il biglietto e chiudi lo sportellino. Una profonda pace spirituale e un calore sereno confortano il tuo cuore, alleviando la tua stanchezza.",
+            "de": "Du schreibst: „An wen auch immer dies liest: Der Weg ist hart, doch die Welt birgt noch Schönheit. Geh weiter voran.“ Du legst die Notiz hinein und schließt die kleine Klappe. Ein tiefer geistiger Friede und eine ruhige Wärme trösten dein Herz und lindern deine Erschöpfung.",
+            "zh": "你写道：「无论是谁读到这封信：道路艰辛，但这世界仍藏着美好。请继续前行。」你放下字条，合上小门。一种深沉的心灵平静与安详的暖意抚慰着你的心，缓解了你的疲惫。",
+            "ja": "お前はこう書く：「これを読む者へ——道は険しいが、この世界にはまだ美しさが残っている。前へ進み続けよ」。メモを入れ、小さな扉を閉じる。深い精神的な安らぎと穏やかな温もりが心を癒し、旅の疲れを和らげてくれる。"
+        },
+        "next": [
+            "buzon_root"
+        ],
+        "reward": "faceta:bondad=+1;heal:35"
+    },
+    "buzon_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Cerrar el buzón y continuar la marcha",
+            "en": "🚶  Close the box and march on",
+            "fr": "🚶  Fermer la boîte et poursuivre sa marche",
+            "it": "🚶  Chiudere la cassetta e proseguire la marcia",
+            "de": "🚶  Den Kasten schließen und weitermarschieren",
+            "zh": "🚶  关上信箱，继续前行",
+            "ja": "🚶  郵便受けを閉じて、歩みを続ける"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

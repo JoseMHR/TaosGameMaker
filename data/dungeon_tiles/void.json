@@ -1,0 +1,11 @@
+{
+	"t": "void",
+	"order": 105,
+	"label": "Vacío",
+	"icon": "·",
+	"color": "#0a0c14",
+	"group": "Estructura",
+	"render": {
+		"shape": "none"
+	}
+}

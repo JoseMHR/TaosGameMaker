@@ -1,0 +1,61 @@
+{
+  "name": {
+    "es": "El Corruptor Silvestre",
+    "en": "The Wildland Corruptor",
+    "fr": "Le Corrupteur Sauvage",
+    "it": "Il Corruttore Silvestre",
+    "de": "Der Wildniskorrumpierer",
+    "zh": "野境腐化者",
+    "ja": "野生の堕落者"
+  },
+  "family": "beast",
+  "archetype": "balanced",
+  "icon": "🍄",
+  "image": "res://assets/combat/enemies/en_sylvan_corruptor.png",
+  "attack_type": "magic",
+  "base_dodge": 8.0,
+  "dodge_scale": 0.2,
+  "element": "poison",
+  "weak_to": [
+    "fire"
+  ],
+  "resist": [
+    "earth",
+    "poison"
+  ],
+  "status_on_hit": {
+    "type": "poison",
+    "chance": 0.45,
+    "turns": 3,
+    "power": 8
+  },
+  "ai": "caster",
+  "xp_reward_base": 240,
+  "xp_reward_scale": 13.0,
+  "gold_reward_base": 120,
+  "gold_reward_scale": 9.0,
+  "skills": [
+    {
+      "level": 1,
+      "skill_id": "plague_roots"
+    },
+    {
+      "level": 38,
+      "skill_id": "toxic_burst"
+    }
+  ],
+  "loot": [
+    {
+      "kind": "gold",
+      "min": 160,
+      "max": 290
+    },
+    {
+      "kind": "equipment",
+      "chance": 1.0,
+      "level": 8
+    }
+  ],
+  "zone": "zona_6_arcanum",
+  "is_boss": false
+}

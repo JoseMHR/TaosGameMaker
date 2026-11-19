@@ -1,0 +1,26 @@
+{
+    "id": "npc_vendedor_aire",
+    "type": "poi",
+    "icon": "🎈",
+    "name": {
+        "es": "Barón Von Vapores",
+        "en": "Baron Von Fumes",
+        "fr": "Baron Von Vapeurs",
+        "it": "Barone Von Vapori",
+        "de": "Baron Von Dünste",
+        "zh": "蒸汽男爵",
+        "ja": "蒸気男爵"
+    },
+    "desc": {
+        "es": "Un vendedor de labia imparable que intenta colocarte botellas de aire en la plaza de Gloriam. (PNJ singular).",
+        "en": "A merchant with unstoppable patter trying to sell you bottles of air in Gloriam's plaza. (Singular NPC).",
+        "fr": "Un marchand au bagout imparable qui essaie de te fourguer des bouteilles d'air sur la place de Gloriam. (PNJ singulier).",
+        "it": "Un venditore dalla parlantina inarrestabile che cerca di rifilarti bottiglie d'aria nella piazza di Gloriam. (PNG singolare).",
+        "de": "Ein Händler mit unaufhaltsamem Mundwerk, der versucht, dir auf dem Platz von Gloriam Flaschen mit Luft anzudrehen. (Einzigartiger NPC).",
+        "zh": "一位滔滔不绝的商人，试图在格洛里亚姆广场上把一瓶瓶空气卖给你。（唯一NPC）。",
+        "ja": "グロリアムの広場で空気の瓶を売りつけようとする、口達者な商人。（唯一のNPC）。"
+    },
+    "npc": "npc_vendedor_aire",
+    "bg": "bg_world_poi_pradera_vendedor_aire.png",
+    "music": "poi_comic"
+}

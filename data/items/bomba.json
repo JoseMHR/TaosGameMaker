@@ -1,0 +1,23 @@
+{
+    "name": {
+        "es": "Bomba",
+        "en": "Bomb",
+        "fr": "Bombe",
+        "it": "Bomba",
+        "de": "Bombe",
+        "zh": "炸弹",
+        "ja": "爆弾"
+    },
+    "desc": {
+        "es": "Explosivo que se coloca en el suelo: estalla tras unos segundos y demuele rocas y muros preparados a su alrededor.",
+        "en": "A ground-placed explosive: after a few seconds it blows up, demolishing prepared rocks and walls around it.",
+        "fr": "Explosif posé au sol : il explose après quelques secondes, démolissant les rochers et murs préparés autour de lui.",
+        "it": "Esplosivo posato a terra: dopo pochi secondi esplode, demolendo rocce e muri preparati nelle vicinanze.",
+        "de": "Ein am Boden platzierter Sprengsatz: Nach wenigen Sekunden explodiert er und zerstört vorbereitete Felsen und Mauern in der Umgebung.",
+        "zh": "放置在地面的爆炸物：数秒后引爆，摧毁周围预设的岩石与墙壁。",
+        "ja": "地面に設置する爆発物。数秒後に爆発し、周囲の準備された岩や壁を破壊する。"
+    },
+    "icon": "💣",
+    "category": "consumable",
+    "usable": false
+}

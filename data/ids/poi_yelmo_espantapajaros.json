@@ -1,0 +1,26 @@
+{
+    "id": "poi_yelmo_espantapajaros",
+    "type": "poi",
+    "icon": "🎃",
+    "name": {
+        "es": "El Espantapájaros Filósofo",
+        "en": "The Philosopher Scarecrow",
+        "fr": "L'Épouvantail Philosophe",
+        "it": "Lo Spaventapasseri Filosofo",
+        "de": "Die Philosophische Vogelscheuche",
+        "zh": "哲学家稻草人",
+        "ja": "哲学者かかし"
+    },
+    "desc": {
+        "es": "Un espantapájaros torcido en un bancal muerto que parece juzgar cada uno de tus pasos. (POI de inspección).",
+        "en": "A crooked scarecrow on a dead furrow that seems to judge your every step. (Inspection POI).",
+        "fr": "Un épouvantail tordu dans un champ mort qui semble juger chacun de tes pas. (POI d'inspection).",
+        "it": "Uno spaventapasseri storto in un campo morto che sembra giudicare ogni tuo passo. (POI di ispezione).",
+        "de": "Eine schiefe Vogelscheuche auf einem toten Feld, die jeden deiner Schritte zu beurteilen scheint. (Inspektions-POI).",
+        "zh": "枯死田地里一个歪斜的稻草人，似乎在评判你的一举一动。（探查类兴趣点）。",
+        "ja": "枯れた畑に立つ傾いたかかし。お前の一歩一歩を裁いているように見える。（調査ポイント）。"
+    },
+    "npc": "poi_yelmo_espantapajaros",
+    "bg": "bg_world_poi_yelmo_espantapajaros.png",
+    "music": "poi_comic"
+}

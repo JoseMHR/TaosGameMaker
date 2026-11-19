@@ -1,0 +1,55 @@
+{
+  "name": {
+    "es": "Elemental de Fuego",
+    "en": "Fire Elemental",
+    "fr": "Élémentaire de Feu",
+    "it": "Elementale di Fuoco",
+    "de": "Feuerelementar",
+    "zh": "火元素",
+    "ja": "ファイアエレメンタル"
+  },
+  "family": "magical",
+  "archetype": "glass_cannon",
+  "icon": "🔥",
+  "image": "res://assets/combat/enemies/en_fire_elemental.png",
+  "attack_type": "magic",
+  "base_dodge": 8.0,
+  "dodge_scale": 0.2,
+  "element": "fire",
+  "weak_to": [
+    "water",
+    "ice"
+  ],
+  "resist": [
+    "fire"
+  ],
+  "ai": "caster",
+  "xp_reward_base": 160,
+  "xp_reward_scale": 10.5,
+  "gold_reward_base": 80,
+  "gold_reward_scale": 7.0,
+  "skills": [
+    {
+      "level": 1,
+      "skill_id": "fireball"
+    },
+    {
+      "level": 29,
+      "skill_id": "inferno"
+    }
+  ],
+  "loot": [
+    {
+      "kind": "gold",
+      "min": 6,
+      "max": 18
+    },
+    {
+      "kind": "equipment",
+      "chance": 0.15,
+      "level": 1
+    }
+  ],
+  "zone": "zona_5_desierto",
+  "is_boss": false
+}

@@ -1,0 +1,64 @@
+{
+  "name": {
+    "es": "Escorpión de las Arenas",
+    "en": "Sand Scorpion",
+    "fr": "Scorpion des Sables",
+    "it": "Scorpione delle Sabbie",
+    "de": "Sandskorpion",
+    "zh": "沙地蝎子",
+    "ja": "サンドスコーピオン"
+  },
+  "family": "beast",
+  "archetype": "balanced",
+  "icon": "🦂",
+  "image": "res://assets/combat/enemies/en_scorpion.png",
+  "attack_type": "physical",
+  "base_dodge": 8.0,
+  "dodge_scale": 0.2,
+  "element": "earth",
+  "weak_to": [
+    "water",
+    "ice"
+  ],
+  "resist": [
+    "fire",
+    "poison"
+  ],
+  "status_on_hit": {
+    "type": "poison",
+    "chance": 0.35,
+    "turns": 3,
+    "power": 12
+  },
+  "ai": "aggressive",
+  "xp_reward_base": 120,
+  "xp_reward_scale": 10.0,
+  "gold_reward_base": 65,
+  "gold_reward_scale": 6.0,
+  "skills": [
+    {
+      "level": 1,
+      "skill_id": "rend"
+    },
+    {
+      "level": 25,
+      "skill_id": "tail_whip"
+    }
+  ],
+  "loot": [
+    {
+      "kind": "gold",
+      "min": 40,
+      "max": 90
+    },
+    {
+      "kind": "item",
+      "id": "carne",
+      "chance": 0.4,
+      "min": 1,
+      "max": 2
+    }
+  ],
+  "zone": "zona_5_desierto",
+  "is_boss": false
+}

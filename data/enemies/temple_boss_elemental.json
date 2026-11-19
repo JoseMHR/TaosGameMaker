@@ -1,0 +1,61 @@
+{
+  "name": {
+    "es": "Núcleo Inestable",
+    "en": "Unstable Core",
+    "fr": "Noyau Instable",
+    "it": "Nucleo Instabile",
+    "de": "Instabiler Kern",
+    "zh": "不稳定核心",
+    "ja": "不安定なコア"
+  },
+  "icon": "🔮",
+  "image": "res://assets/combat/enemies/en_unstable_core.png",
+  "attack_type": "magic",
+  "base_dodge": 0.0,
+  "dodge_scale": 0.0,
+  "element": "fire",
+  "weak_to": [
+    "water",
+    "ice",
+    "earth",
+    "wind"
+  ],
+  "resist": [
+    "fire"
+  ],
+  "ai": "caster",
+  "xp_reward_base": 430,
+  "xp_reward_scale": 20.0,
+  "gold_reward_base": 260,
+  "gold_reward_scale": 18.0,
+  "skills": [
+    {
+      "level": 1,
+      "skill_id": "core_spark"
+    },
+    {
+      "level": 5,
+      "skill_id": "core_flame"
+    },
+    {
+      "level": 10,
+      "skill_id": "core_burst"
+    }
+  ],
+  "loot": [
+    {
+      "kind": "gold",
+      "min": 120,
+      "max": 220
+    },
+    {
+      "kind": "equipment",
+      "chance": 1.0,
+      "level": 4
+    }
+  ],
+  "family": "magical",
+  "archetype": "boss",
+  "zone": "zona_4_celestia",
+  "is_boss": true
+}

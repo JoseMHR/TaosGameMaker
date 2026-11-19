@@ -1,0 +1,40 @@
+{
+    "name": {
+        "es": "Escudo Égida",
+        "en": "Aegis Shield",
+        "fr": "Bouclier Égide",
+        "it": "Scudo Egida",
+        "de": "Ägisschild",
+        "zh": "神盾护盾",
+        "ja": "イージスシールド"
+    },
+    "desc": {
+        "es": "El baluarte definitivo de Arcanum, con generador de campo de fuerza esférico.",
+        "en": "The ultimate Arcanum bulwark with a spherical force field generator.",
+        "fr": "Le rempart ultime d'Arcanum, avec générateur de champ de force sphérique.",
+        "it": "Il baluardo definitivo di Arcanum, con generatore di campo di forza sferico.",
+        "de": "Das ultimative Bollwerk von Arcanum mit kugelförmigem Kraftfeldgenerator.",
+        "zh": "奥秘遗迹的终极堡垒，配备球形力场发生器。",
+        "ja": "アルカナムの究極の防壁。球形フォースフィールド生成装置を搭載。"
+    },
+    "icon": "🛡️",
+    "category": "equipment",
+    "usable": false,
+    "slot": "shield",
+    "tier": 6,
+    "bonuses": {
+        "vit": 22
+    },
+    "combat": {
+        "phys_defense": 145,
+        "mag_defense": 145
+    },
+    "traits": [
+        {
+            "type": "all_element_resist",
+            "value": 0.2,
+            "min_refine": 5,
+            "desc": "+20% Resistencia a Todos los Elementos"
+        }
+    ]
+}

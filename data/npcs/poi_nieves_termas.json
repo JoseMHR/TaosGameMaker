@@ -1,0 +1,117 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "Las Termas Escondidas",
+            "en": "The Hidden Hot Springs",
+            "fr": "Les Sources Chaudes Cachées",
+            "it": "Le Terme Nascoste",
+            "de": "Die Versteckten Thermalquellen",
+            "zh": "隐秘温泉",
+            "ja": "隠された温泉"
+        },
+        "next": [],
+        "reward": "bg=0.10,0.09,0.10"
+    },
+    "term_root": {
+        "type": "message",
+        "text": {
+            "es": "Entre dos peñascos helados se abre un pequeño milagro: una poza de agua turquesa que humea contra el aire gélido, rodeada de musgo verde que se niega a morir. El vapor huele a minerales y a calor de verdad. En el borde, un viajero flacucho tirita abrazado a sus rodillas, mirando el agua con anhelo pero sin atreverse a entrar en terreno ajeno.",
+            "en": "Between two icy crags opens a small miracle: a pool of turquoise water steaming against the frozen air, ringed by green moss that refuses to die. The vapor smells of minerals and genuine warmth. At the edge, a scrawny traveler shivers hugging his knees, gazing at the water with longing but not daring to trespass on another's ground.",
+            "fr": "Entre deux rochers gelés s'ouvre un petit miracle : une mare d'eau turquoise qui fume contre l'air glacial, entourée de mousse verte qui refuse de mourir. La vapeur sent les minéraux et la vraie chaleur. Au bord, un voyageur maigrichon frissonne en serrant ses genoux, regardant l'eau avec envie mais sans oser entrer sur un terrain qui n'est pas le sien.",
+            "it": "Tra due rocce ghiacciate si apre un piccolo miracolo: una pozza d'acqua turchese che fuma contro l'aria gelida, circondata da muschio verde che si rifiuta di morire. Il vapore odora di minerali e di vero calore. Sul bordo, un viaggiatore magrolino trema abbracciato alle proprie ginocchia, guardando l'acqua con desiderio ma senza osare entrare in un territorio altrui.",
+            "de": "Zwischen zwei vereisten Felsen öffnet sich ein kleines Wunder: ein türkisfarbener Wasserpool, der gegen die eisige Luft dampft, umgeben von grünem Moos, das sich weigert zu sterben. Der Dampf riecht nach Mineralien und echter Wärme. Am Rand zittert ein hagerer Reisender, die Knie umklammernd, und blickt sehnsüchtig auf das Wasser, ohne sich zu trauen, fremden Boden zu betreten.",
+            "zh": "两块冰封的巨岩之间，藏着一处小小的奇迹：一汪碧绿的池水在寒气中蒸腾冒烟，四周环绕着不肯枯死的绿苔。水汽中弥漫着矿物与真正暖意的气息。池边，一个瘦弱的旅人抱膝而坐，瑟瑟发抖，渴望地望着池水，却不敢擅自踏入别人的领地。",
+            "ja": "二つの凍った岩の間に、小さな奇跡が広がっている——凍てつく空気の中で湯気を立てるトルコ石色の水たまり、そのまわりには枯れることを拒む緑の苔。蒸気には鉱物と本物の温もりの匂いがする。縁では、痩せた旅人が膝を抱えて震えながら、憧れの眼差しで水を見つめているが、他人の領域に踏み込む勇気はないようだ。"
+        },
+        "next": [
+            "term_opt_banho",
+            "term_opt_invitar",
+            "term_opt_salir"
+        ],
+        "reward": ""
+    },
+    "term_opt_banho": {
+        "type": "option",
+        "text": {
+            "es": "♨️  Darte un baño reparador (recupera fuerzas)",
+            "en": "♨️  Take a restorative soak (recover your strength)",
+            "fr": "♨️  Prendre un bain réparateur (récupère tes forces)",
+            "it": "♨️  Fare un bagno rigenerante (recupera le forze)",
+            "de": "♨️  Ein erholsames Bad nehmen (Kräfte wiederherstellen)",
+            "zh": "♨️  泡个恢复元气的热水澡（恢复体力）",
+            "ja": "♨️  癒しの湯浴みをする（体力を回復する）"
+        },
+        "next": [
+            "term_msg_banho"
+        ],
+        "reward": ""
+    },
+    "term_msg_banho": {
+        "type": "message",
+        "text": {
+            "es": "Te despojas del equipo helado y te sumerges hasta el cuello. El calor se te mete en los huesos como un abrazo largamente esperado y disuelve el cansancio del camino. Los músculos se destensan, los cortes escuecen y luego se calman. Cuando sales, envuelto en vapor, te sientes nuevo, listo para volver a enfrentarte al hielo.",
+            "en": "You strip off your frozen gear and sink up to your neck. The heat seeps into your bones like a long-awaited embrace and dissolves the weariness of the road. Your muscles unknot, your cuts sting and then settle. When you climb out, wreathed in steam, you feel new, ready to face the ice again.",
+            "fr": "Tu te débarrasses de ton équipement glacé et t'immerges jusqu'au cou. La chaleur pénètre tes os comme une étreinte longtemps attendue et dissout la fatigue du chemin. Les muscles se détendent, les coupures piquent puis s'apaisent. Quand tu sors, enveloppé de vapeur, tu te sens neuf, prêt à affronter à nouveau la glace.",
+            "it": "Ti liberi dell'equipaggiamento ghiacciato e ti immergi fino al collo. Il calore ti penetra nelle ossa come un abbraccio a lungo atteso e dissolve la stanchezza del cammino. I muscoli si distendono, i tagli bruciano e poi si calmano. Quando esci, avvolto nel vapore, ti senti nuovo, pronto ad affrontare di nuovo il ghiaccio.",
+            "de": "Du wirfst deine vereiste Ausrüstung ab und tauchst bis zum Hals ein. Die Hitze dringt in deine Knochen wie eine lang ersehnte Umarmung und löst die Erschöpfung des Weges auf. Die Muskeln entspannen sich, die Schnitte brennen und beruhigen sich dann. Als du aussteigst, in Dampf gehüllt, fühlst du dich erneuert, bereit, dem Eis wieder zu trotzen.",
+            "zh": "你卸下冰冷的装备，将自己没入水中直到颈部。热气渗入骨髓，如同一次期盼已久的拥抱，融化了旅途的疲惫。肌肉舒展开来，伤口先是刺痛，随后平息。当你从水中起身，被水汽笼罩时，你感觉焕然一新，准备好再次面对寒冰。",
+            "ja": "凍りついた装備を脱ぎ捨て、首まで湯に浸かる。熱が骨の髄まで染み渡り、長らく待ち望んだ抱擁のように旅の疲れを溶かしていく。筋肉がほぐれ、切り傷はひりつき、やがて落ち着く。湯気に包まれて上がる頃には、生まれ変わったような気分で、再び氷に立ち向かう準備が整っている。"
+        },
+        "next": [
+            "term_root"
+        ],
+        "reward": "heal:9999"
+    },
+    "term_opt_invitar": {
+        "type": "option",
+        "text": {
+            "es": "🤝  Invitar al viajero tiritón a compartir las termas",
+            "en": "🤝  Invite the shivering traveler to share the springs",
+            "fr": "🤝  Inviter le voyageur frissonnant à partager les sources",
+            "it": "🤝  Invitare il viaggiatore infreddolito a condividere le terme",
+            "de": "🤝  Den frierenden Reisenden einladen, die Quellen zu teilen",
+            "zh": "🤝  邀请瑟瑟发抖的旅人共享温泉",
+            "ja": "🤝  震える旅人を温泉に誘う"
+        },
+        "next": [
+            "term_msg_invitar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "term_msg_invitar": {
+        "type": "message",
+        "text": {
+            "es": "'No es mía, pero no será de nadie si nos morimos de frío discutiendo de quién es', le dices, y le tiendes la mano. Al viajero se le ilumina la cara. Se sumergen los dos y él suspira como si llevara semanas conteniendo el aliento. En agradecimiento, saca de su hatillo un frasco de bálsamo calorífico y te lo regala: 'Para la próxima ventisca. Los que comparten calor sobreviven; los que lo acaparan, no.'",
+            "en": "'It isn't mine, but it'll be no one's if we freeze to death arguing over whose it is,' you tell him, and offer your hand. The traveler's face lights up. You both sink in and he sighs as if he'd been holding his breath for weeks. In gratitude, he pulls from his bundle a flask of warming balm and gives it to you: 'For the next blizzard. Those who share warmth survive; those who hoard it don't.'",
+            "fr": "« Elle n'est pas à moi, mais elle ne sera à personne si on meurt de froid à se disputer à qui elle appartient », lui dis-tu en lui tendant la main. Le visage du voyageur s'illumine. Ils s'immergent tous les deux et il soupire comme s'il retenait son souffle depuis des semaines. En remerciement, il sort de son baluchon une fiole de baume chauffant et te l'offre : « Pour la prochaine tempête. Ceux qui partagent la chaleur survivent ; ceux qui l'accaparent, non. »",
+            "it": "'Non è mia, ma non sarà di nessuno se moriamo di freddo a discutere di chi sia', gli dici, tendendogli la mano. Il volto del viaggiatore si illumina. Si immergono entrambi e lui sospira come se avesse trattenuto il respiro per settimane. In segno di gratitudine, tira fuori dal suo fagotto una fiala di balsamo riscaldante e te la regala: 'Per la prossima bufera. Chi condivide il calore sopravvive; chi lo accumula, no.'",
+            "de": "„Sie gehört mir nicht, aber sie wird niemandem gehören, wenn wir erfrieren, während wir darüber streiten, wem sie gehört“, sagst du ihm und reichst ihm die Hand. Das Gesicht des Reisenden hellt sich auf. Beide tauchen ein, und er seufzt, als hätte er wochenlang den Atem angehalten. Aus Dankbarkeit holt er aus seinem Bündel ein Fläschchen wärmenden Balsams und schenkt es dir: „Für den nächsten Schneesturm. Wer Wärme teilt, überlebt; wer sie hortet, nicht.“",
+            "zh": "「这泉水不是我的，但要是我们为了争论它属于谁而冻死在这里，那它就谁的都不是了」，你对他说，并伸出手。旅人的脸顿时亮了起来。两人一同浸入水中，他长舒一口气，仿佛已憋了好几周的呼吸。为表感激，他从包袱里掏出一瓶暖身药膏送给你：「留着应付下一场暴风雪吧。分享温暖的人才能活下去；独占温暖的人不行。」",
+            "ja": "「これは俺のものじゃないが、誰のものかで揉めて凍え死んだら、結局誰のものでもなくなる」そう言って手を差し伸べる。旅人の顔がぱっと明るくなる。二人で湯に浸かると、彼は何週間も息を止めていたかのようにため息をつく。感謝の印に、彼は包みから温め軟膏の小瓶を取り出して差し出す。「次の吹雪のためにとっておけ。温もりを分け合う者は生き残る。独り占めする者は生き残れない」"
+        },
+        "next": [
+            "term_opt_salir"
+        ],
+        "reward": "faceta:bondad=+1;heal:9999;gflag:term_compartida",
+        "condition": "no_gflag(\"term_compartida\")",
+        "once": true
+    },
+    "term_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Vestirte y seguir hacia el frío",
+            "en": "🚶  Dress and head back into the cold",
+            "fr": "🚶  T'habiller et repartir vers le froid",
+            "it": "🚶  Vestirti e proseguire nel freddo",
+            "de": "🚶  Sich anziehen und zurück in die Kälte gehen",
+            "zh": "🚶  穿好衣服，重新踏入严寒",
+            "ja": "🚶  服を着て、再び寒さの中へ向かう"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "id": "poi_celestia_jardin_estatuas",
+    "type": "poi",
+    "icon": "🗿",
+    "name": {
+        "es": "El Jardín de las Estatuas que Lloran",
+        "en": "The Garden of Weeping Statues",
+        "fr": "Le Jardin des Statues qui Pleurent",
+        "it": "Il Giardino delle Statue Piangenti",
+        "de": "Der Garten der Weinenden Statuen",
+        "zh": "哭泣雕像花园",
+        "ja": "泣く彫像の庭"
+    },
+    "desc": {
+        "es": "Un jardín de estatuas de mármol de las que brota agua real por los ojos, sin fuente ni tubería que la explique. (POI de inspección).",
+        "en": "A garden of marble statues from whose eyes real water flows, with no fountain or pipe to explain it. (Inspection POI).",
+        "fr": "Un jardin de statues en marbre dont les yeux laissent couler de l'eau réelle, sans fontaine ni tuyau pour l'expliquer. (POI d'inspection).",
+        "it": "Un giardino di statue di marmo dai cui occhi sgorga acqua vera, senza fontana né tubo che lo spieghi. (POI di ispezione).",
+        "de": "Ein Garten mit Marmorstatuen, aus deren Augen echtes Wasser fließt, ohne Brunnen oder Rohr, das dies erklärt. (Inspektions-POI).",
+        "zh": "一座大理石雕像花园，雕像的眼中流出真实的泪水，却没有喷泉或管道可以解释这一现象。（探查类兴趣点）。",
+        "ja": "大理石の彫像の庭。その目から本物の水が流れ落ちるが、それを説明する噴水や配管はどこにもない。（調査ポイント）。"
+    },
+    "npc": "poi_celestia_jardin_estatuas",
+    "bg": "bg_world_poi_celestia_jardin_estatuas.png",
+    "music": "creepy"
+}

@@ -1,0 +1,168 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Aguador Generoso",
+            "en": "The Generous Water-Bearer",
+            "fr": "Le Porteur d'Eau Généreux",
+            "it": "L'Acquaiolo Generoso",
+            "de": "Der Großzügige Wasserträger",
+            "zh": "慷慨的水贩",
+            "ja": "気前のいい水売り"
+        },
+        "next": [],
+        "reward": "avatar=🫗;bg=0.13,0.11,0.05"
+    },
+    "agu_done": {
+        "type": "message",
+        "text": {
+            "es": "El aguador te saluda con una sonrisa cansada y te llena el odre sin que se lo pidas. 'Bebe, amigo. Aquí siempre habrá agua para ti mientras yo la tenga.' El pozo, milagrosamente, sigue dando agua fresca a todo el que llega con sed y sin monedas.",
+            "en": "The water-bearer greets you with a tired smile and fills your waterskin without being asked. 'Drink, friend. There will always be water here for you while I have it.' The well, miraculously, keeps giving fresh water to all who arrive thirsty and without coin.",
+            "fr": "Le porteur d'eau te salue d'un sourire fatigué et remplit ton outre sans que tu le demandes. « Bois, mon ami. Il y aura toujours de l'eau ici pour toi tant que j'en aurai. » Le puits, miraculeusement, continue de donner de l'eau fraîche à tous ceux qui arrivent assoiffés et sans pièces.",
+            "it": "L'acquaiolo ti saluta con un sorriso stanco e ti riempie l'otre senza che tu lo chieda. 'Bevi, amico. Ci sarà sempre acqua qui per te finché ne avrò io.' Il pozzo, miracolosamente, continua a dare acqua fresca a tutti quelli che arrivano assetati e senza monete.",
+            "de": "Der Wasserträger grüßt dich mit einem müden Lächeln und füllt deinen Wasserschlauch, ohne dass du fragst. „Trink, Freund. Hier wird immer Wasser für dich sein, solange ich es habe.“ Der Brunnen gibt wundersamerweise weiterhin frisches Wasser an alle, die durstig und ohne Münzen ankommen.",
+            "zh": "水贩带着疲惫的笑容向你打招呼，不等你开口就给你的水袋灌满了水。「喝吧，朋友。只要我还有水，这里就永远为你留着水。」这口井奇迹般地继续为每一个口渴又没钱的旅人提供清凉的水。",
+            "ja": "水売りは疲れた笑顔でお前を迎え、頼まれもせずに水袋を満たしてくれる。「飲めよ、友よ。俺に水がある限り、ここにはいつでもお前のための水がある」井戸は不思議なことに、渇いて金のない者すべてに新鮮な水を与え続けている。"
+        },
+        "next": [
+            "agu_opt_salir"
+        ],
+        "reward": "",
+        "condition": "gflag(\"agu_ayudado\")"
+    },
+    "agu_root": {
+        "type": "message",
+        "text": {
+            "es": "Junto a un pozo de piedra, a la sombra de un toldo remendado, un hombre de piel curtida reparte agua en cuencos a los pocos viajeros que cruzan estas dunas. No cobra nada. A su lado, un cartel escrito a mano dice: 'El agua no se vende. El agua se comparte. El que muere de sed teniendo un pozo al lado muere dos veces.' Al verte llegar, sonríe y llena un cuenco sin preguntar. Pero notas que el nivel del pozo está peligrosamente bajo.",
+            "en": "By a stone well, in the shade of a patched awning, a leather-skinned man ladles water into bowls for the few travelers who cross these dunes. He charges nothing. Beside him, a hand-written sign reads: 'Water is not sold. Water is shared. Whoever dies of thirst with a well beside them dies twice.' Seeing you arrive, he smiles and fills a bowl without asking. But you notice the well's level is dangerously low.",
+            "fr": "Près d'un puits de pierre, à l'ombre d'un auvent rapiécé, un homme au teint tanné distribue de l'eau dans des bols aux quelques voyageurs qui traversent ces dunes. Il ne fait rien payer. À côté de lui, une pancarte écrite à la main dit : « L'eau ne se vend pas. L'eau se partage. Celui qui meurt de soif avec un puits à côté meurt deux fois. » En te voyant arriver, il sourit et remplit un bol sans poser de question. Mais tu remarques que le niveau du puits est dangereusement bas.",
+            "it": "Vicino a un pozzo di pietra, all'ombra di una tenda rattoppata, un uomo con la pelle conciata distribuisce acqua in ciotole ai pochi viaggiatori che attraversano queste dune. Non chiede nulla. Al suo fianco, un cartello scritto a mano dice: 'L'acqua non si vende. L'acqua si condivide. Chi muore di sete avendo un pozzo a fianco muore due volte.' Vedendoti arrivare, sorride e riempie una ciotola senza chiedere. Ma noti che il livello del pozzo è pericolosamente basso.",
+            "de": "Neben einem Steinbrunnen, im Schatten einer geflickten Plane, verteilt ein Mann mit gegerbter Haut Wasser in Schalen an die wenigen Reisenden, die diese Dünen durchqueren. Er verlangt nichts. Neben ihm steht ein handgeschriebenes Schild: „Wasser wird nicht verkauft. Wasser wird geteilt. Wer neben einem Brunnen an Durst stirbt, stirbt zweimal.“ Als er dich kommen sieht, lächelt er und füllt eine Schale, ohne zu fragen. Doch du bemerkst, dass der Wasserstand im Brunnen gefährlich niedrig ist.",
+            "zh": "在一口石井旁，一块打了补丁的遮阳布下，一个皮肤晒得黝黑的男人正给穿越这片沙丘的少数旅人往碗里分水。他分毫不取。他身旁有一块手写的告示牌写着：「水不出售。水要分享。守着水井渴死的人，会死两次。」看到你走来，他微笑着不等你开口便给你倒满一碗水。但你注意到井里的水位已经危险地低了。",
+            "ja": "石の井戸のそばで、繕われた天幕の陰に、日焼けした肌の男が、この砂丘を渡るわずかな旅人たちに碗で水を分け与えている。彼は何も要求しない。傍らには手書きの立て札があり、こう書かれている：「水は売り物ではない。水は分け合うものだ。井戸のすぐ隣で渇きに死ぬ者は、二度死ぬ」お前が来るのを見て、彼は笑い、何も聞かずに碗を満たす。だがお前は、井戸の水位が危険なほど低いことに気づく。"
+        },
+        "next": [
+            "agu_opt_beber",
+            "agu_opt_ayudar",
+            "agu_opt_robar",
+            "agu_opt_salir"
+        ],
+        "reward": ""
+    },
+    "agu_opt_beber": {
+        "type": "option",
+        "text": {
+            "es": "💧  Aceptar el agua con gratitud y descansar a la sombra",
+            "en": "💧  Accept the water gratefully and rest in the shade",
+            "fr": "💧  Accepter l'eau avec gratitude et te reposer à l'ombre",
+            "it": "💧  Accettare l'acqua con gratitudine e riposare all'ombra",
+            "de": "💧  Das Wasser dankbar annehmen und im Schatten ausruhen",
+            "zh": "💧  感激地接受这碗水，在阴凉处休息一下",
+            "ja": "💧  感謝して水を受け取り、日陰で休む"
+        },
+        "next": [
+            "agu_msg_beber"
+        ],
+        "reward": ""
+    },
+    "agu_msg_beber": {
+        "type": "message",
+        "text": {
+            "es": "Bebes hasta saciarte y te dejas caer a la sombra del toldo. El aguador te cuenta que aprendió a compartir el agua el día que él mismo estuvo a punto de morir de sed y un desconocido le salvó la vida con un solo trago. 'Devuelvo lo que me dieron', dice, encogiéndose de hombros. 'Es la única deuda que da gusto pagar.' Recuperas fuerzas y algo más: la certeza de que la bondad, en el desierto, es la única sombra fiable.",
+            "en": "You drink your fill and sink into the shade of the awning. The water-bearer tells you he learned to share water the day he himself nearly died of thirst and a stranger saved his life with a single gulp. 'I give back what I was given,' he says, shrugging. 'It's the only debt that's a pleasure to pay.' You recover your strength, and something more: the certainty that kindness, in the desert, is the only reliable shade.",
+            "fr": "Tu bois jusqu'à être rassasié et te laisses tomber à l'ombre de l'auvent. Le porteur d'eau te raconte qu'il a appris à partager l'eau le jour où lui-même a été à deux doigts de mourir de soif et qu'un inconnu lui a sauvé la vie avec une seule gorgée. « Je rends ce qu'on m'a donné », dit-il en haussant les épaules. « C'est la seule dette qu'on rembourse avec plaisir. » Tu retrouves des forces, et quelque chose de plus : la certitude que la bonté, dans le désert, est la seule ombre fiable.",
+            "it": "Bevi fino a saziarti e ti lasci cadere all'ombra della tenda. L'acquaiolo ti racconta che imparò a condividere l'acqua il giorno in cui lui stesso stava per morire di sete e uno sconosciuto gli salvò la vita con un solo sorso. 'Restituisco quello che mi hanno dato', dice, alzando le spalle. 'È l'unico debito che fa piacere pagare.' Ricuperi le forze e qualcosa in più: la certezza che la bontà, nel deserto, è l'unica ombra affidabile.",
+            "de": "Du trinkst, bis du gesättigt bist, und lässt dich in den Schatten der Plane sinken. Der Wasserträger erzählt dir, dass er teilen lernte, an dem Tag, als er selbst fast an Durst gestorben wäre und ein Fremder ihm mit einem einzigen Schluck das Leben rettete. „Ich gebe zurück, was mir gegeben wurde“, sagt er achselzuckend. „Es ist die einzige Schuld, die man gern begleicht.“ Du gewinnst Kraft zurück, und noch etwas mehr: die Gewissheit, dass Güte in der Wüste der einzig verlässliche Schatten ist.",
+            "zh": "你喝到心满意足，倒在遮阳布下的阴凉处休息。水贩告诉你，他学会分享水，是在他自己差点因渴而死、一个陌生人用仅仅一口水救了他命的那天。「我把别人给我的还回去，」他耸肩说道。「这是唯一一份让人乐于偿还的债。」你恢复了力气，还多了一样东西：一种笃信——在沙漠中，善意才是唯一可靠的阴凉。",
+            "ja": "満足するまで飲み、天幕の陰に身を沈める。水売りは、自分自身が渇きで死にかけた日、見知らぬ誰かがたった一口の水で命を救ってくれた時に、水を分け合うことを学んだのだと語る。「与えられたものを返しているだけさ」と肩をすくめて言う。「喜んで払える唯一の借りだ」お前は力を取り戻し、それ以上のものも得る——砂漠において、優しさこそが唯一信頼できる日陰なのだという確信を。"
+        },
+        "next": [
+            "agu_root"
+        ],
+        "reward": "heal:9999"
+    },
+    "agu_opt_ayudar": {
+        "type": "option",
+        "text": {
+            "es": "🤝  Dejarle unas monedas para que cave un pozo más hondo (−15 oro)",
+            "en": "🤝  Leave him some coins to dig a deeper well (−15 gold)",
+            "fr": "🤝  Lui laisser quelques pièces pour qu'il creuse un puits plus profond (−15 or)",
+            "it": "🤝  Lasciargli alcune monete perché scavi un pozzo più profondo (−15 oro)",
+            "de": "🤝  Ihm etwas Geld hinterlassen, damit er einen tieferen Brunnen gräbt (−15 Gold)",
+            "zh": "🤝  留下一些钱给他，让他挖一口更深的井（-15金币）",
+            "ja": "🤝  もっと深い井戸を掘るための金を渡す（-15ゴールド）"
+        },
+        "next": [
+            "agu_msg_ayudar"
+        ],
+        "reward": "gold:-15",
+        "condition": "gold >= 15 and no_gflag(\"agu_ayudado\")",
+        "once": true
+    },
+    "agu_msg_ayudar": {
+        "type": "message",
+        "text": {
+            "es": "Le pones unas monedas en la mano callosa. 'No es para ti', le aclaras. 'Es para que sigas dando de beber cuando yo ya no pase por aquí.' El hombre se queda mirando las monedas, luego a ti, y se le humedecen los ojos. 'Que el desierto te devuelva sombra por cada gota que ayudas a compartir', dice. Y te entrega un odre grande, siempre fresco, como recuerdo de que el agua compartida nunca se agota del todo.",
+            "en": "You press some coins into his calloused hand. 'It's not for you,' you clarify. 'It's so you keep giving people water when I no longer pass this way.' The man stares at the coins, then at you, and his eyes grow wet. 'May the desert give you shade for every drop you help to share,' he says. And he hands you a large waterskin, always cool, as a reminder that shared water never fully runs dry.",
+            "fr": "Tu lui mets quelques pièces dans la main calleuse. « Ce n'est pas pour toi », précises-tu. « C'est pour que tu continues à donner à boire quand je ne passerai plus par ici. » L'homme regarde les pièces, puis toi, et ses yeux s'humidifient. « Que le désert te rende de l'ombre pour chaque goutte que tu aides à partager », dit-il. Et il te tend une grande outre, toujours fraîche, en souvenir que l'eau partagée ne s'épuise jamais complètement.",
+            "it": "Gli metti alcune monete nella mano callosa. 'Non è per te', chiarisci. 'È perché continui a dare da bere quando io non passerò più di qui.' L'uomo guarda le monete, poi te, e gli occhi gli si inumidiscono. 'Che il deserto ti restituisca ombra per ogni goccia che aiuti a condividere', dice. E ti consegna un grande otre, sempre fresco, come ricordo che l'acqua condivisa non si esaurisce mai del tutto.",
+            "de": "Du legst ihm ein paar Münzen in die schwielige Hand. „Das ist nicht für dich“, klärst du auf. „Es ist, damit du weiterhin Wasser gibst, wenn ich nicht mehr hier vorbeikomme.“ Der Mann starrt die Münzen an, dann dich, und seine Augen werden feucht. „Möge dir die Wüste für jeden Tropfen, den du zu teilen hilfst, Schatten geben“, sagt er. Und er überreicht dir einen großen, stets kühlen Wasserschlauch, als Erinnerung daran, dass geteiltes Wasser nie ganz versiegt.",
+            "zh": "你把几枚硬币放进他布满老茧的手里。「这不是给你的，」你解释道，「是为了让你在我不再经过这里时，也能继续给人送水喝。」男人盯着那些硬币，又看看你，眼里泛起了泪光。「愿沙漠为你分享出的每一滴水，回馈以阴凉，」他说道。他递给你一个总是保持凉爽的大水袋，作为分享的水永远不会真正枯竭的纪念。",
+            "ja": "彼のたこのできた手に硬貨をいくつか置く。「お前のためじゃない」と説明する。「俺がもうここを通らなくなった後も、水を与え続けてくれるためだ」男は硬貨を見つめ、それからお前を見つめると、目が潤む。「お前が分け与える一滴一滴のために、砂漠が日陰をくれますように」と言う。そして常に冷たい大きな水袋を渡してくれる。分け合う水は決して完全には枯れないという記念として。"
+        },
+        "next": [
+            "agu_opt_salir"
+        ],
+        "reward": "faceta:bondad=+2;gflag:agu_ayudado",
+        "once": true
+    },
+    "agu_opt_robar": {
+        "type": "option",
+        "text": {
+            "es": "🪣  Llenar tus odres a rebosar aprovechando su generosidad",
+            "en": "🪣  Fill your waterskins to the brim, exploiting his generosity",
+            "fr": "🪣  Remplir tes outres à ras bord en profitant de sa générosité",
+            "it": "🪣  Riempire i tuoi otri fino all'orlo sfruttando la sua generosità",
+            "de": "🪣  Deine Wasserschläuche bis zum Rand füllen und seine Großzügigkeit ausnutzen",
+            "zh": "🪣  利用他的慷慨，把你的水袋灌得满满的",
+            "ja": "🪣  彼の親切心を利用して水袋を満杯にする"
+        },
+        "next": [
+            "agu_msg_robar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "agu_msg_robar": {
+        "type": "message",
+        "text": {
+            "es": "Aprovechas su hospitalidad para vaciarle medio pozo en tus odres. El aguador no te lo impide; ni siquiera cambia el gesto. Solo dice, en voz baja: 'Llévate lo que necesites. Pero recuerda que detrás de ti vienen otros con la misma sed, y ellos beberán lo que tú dejes.' Te marchas con los odres llenos y una piedra en el estómago que ni toda esa agua consigue quitarte.",
+            "en": "You exploit his hospitality to drain half his well into your waterskins. The water-bearer doesn't stop you; he doesn't even change his expression. He only says, quietly: 'Take what you need. But remember that behind you come others with the same thirst, and they'll drink what you leave.' You leave with your waterskins full and a stone in your stomach that all that water can't wash away.",
+            "fr": "Tu profites de son hospitalité pour vider la moitié du puits dans tes outres. Le porteur d'eau ne t'en empêche pas ; il ne change même pas d'expression. Il dit seulement, à voix basse : « Prends ce dont tu as besoin. Mais souviens-toi qu'après toi viennent d'autres avec la même soif, et ils boiront ce que tu laisses. » Tu repars avec les outres pleines et une pierre dans l'estomac que même toute cette eau ne parvient pas à ôter.",
+            "it": "Approfitti della sua ospitalità per svuotargli metà del pozzo nei tuoi otri. L'acquaiolo non ti ferma; non cambia nemmeno espressione. Dice solo, a voce bassa: 'Prendi quello che ti serve. Ma ricorda che dopo di te vengono altri con la stessa sete, e berranno quello che lasci.' Te ne vai con gli otri pieni e una pietra nello stomaco che nemmeno tutta quell'acqua riesce a togliere.",
+            "de": "Du nutzt seine Gastfreundschaft aus, um ihm den halben Brunnen in deine Wasserschläuche zu leeren. Der Wasserträger hält dich nicht auf; er verändert nicht einmal seinen Ausdruck. Er sagt nur, leise: „Nimm, was du brauchst. Aber denk daran, dass nach dir andere mit demselben Durst kommen, und sie werden trinken, was du übrig lässt.“ Du gehst mit vollen Wasserschläuchen und einem Stein im Magen, den all dieses Wasser nicht wegwaschen kann.",
+            "zh": "你利用了他的好客，把井里的一半水都灌进了你的水袋。水贩没有阻止你；连表情都没有变。他只是低声说道：「拿走你需要的吧。但要记住，在你之后还有其他同样口渴的人，他们只能喝到你剩下的水。」你带着灌满的水袋离开了，胃里却压着一块石头，即便喝再多的水也无法冲走。",
+            "ja": "彼のもてなしを利用して、井戸の半分を自分の水袋に空にしてしまう。水売りはお前を止めない。表情さえ変えない。ただ静かに言う。「必要なだけ持っていけ。だがお前の後には、同じ渇きを抱えた者たちが来る。彼らはお前が残したものを飲むことになる」満杯の水袋とともに立ち去るが、胃の中の重い石は、どんな水をもってしても洗い流すことができない。"
+        },
+        "next": [
+            "agu_opt_salir"
+        ],
+        "reward": "faceta:bondad=-1"
+    },
+    "agu_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Despedirte del aguador y volver a las dunas",
+            "en": "🚶  Say goodbye to the water-bearer and return to the dunes",
+            "fr": "🚶  Prendre congé du porteur d'eau et retourner dans les dunes",
+            "it": "🚶  Congedarti dall'acquaiolo e tornare alle dune",
+            "de": "🚶  Sich vom Wasserträger verabschieden und zu den Dünen zurückkehren",
+            "zh": "🚶  向水贩告别，重新回到沙丘之中",
+            "ja": "🚶  水売りに別れを告げ、砂丘に戻る"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

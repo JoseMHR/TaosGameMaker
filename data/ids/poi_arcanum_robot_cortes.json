@@ -1,0 +1,26 @@
+{
+    "id": "poi_arcanum_robot_cortes",
+    "type": "poi",
+    "icon": "🤖",
+    "name": {
+        "es": "El Robot Cortés Averiado",
+        "en": "The Broken Courtesy Robot",
+        "fr": "Le Robot Courtois Détraqué",
+        "it": "Il Robot Cortese Guasto",
+        "de": "Der Kaputte Höfliche Roboter",
+        "zh": "损坏的礼仪机器人",
+        "ja": "壊れた礼儀正しいロボット"
+    },
+    "desc": {
+        "es": "Un autómata de recepción medio destrozado que, pese a todo, sigue empeñado en ofrecer un servicio impecable. (PNJ singular).",
+        "en": "A half-wrecked reception automaton that, despite everything, is still determined to provide impeccable service. (Singular NPC).",
+        "fr": "Un automate de réception à moitié détruit qui, malgré tout, s'obstine à offrir un service impeccable. (PNJ singulier).",
+        "it": "Un automa da reception mezzo distrutto che, nonostante tutto, continua a impegnarsi per offrire un servizio impeccabile. (PNG singolare).",
+        "de": "Ein halb zerstörter Empfangsautomat, der trotz allem weiterhin darauf besteht, tadellosen Service zu bieten. (Einzigartiger NPC).",
+        "zh": "一台半损毁的接待自动机，尽管如此，仍执意要提供无可挑剔的服务。（唯一NPC）。",
+        "ja": "半壊した受付オートマトンだが、それでも完璧な接客を提供しようと意地を張っている。（唯一のNPC）。"
+    },
+    "npc": "poi_arcanum_robot_cortes",
+    "bg": "bg_world_poi_arcanum_robot_cortes.png",
+    "music": "poi_comic"
+}

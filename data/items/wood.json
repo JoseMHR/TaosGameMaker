@@ -1,0 +1,23 @@
+{
+    "name": {
+        "es": "Madera",
+        "en": "Wood",
+        "fr": "Bois",
+        "it": "Legno",
+        "de": "Holz",
+        "zh": "木材",
+        "ja": "木材"
+    },
+    "desc": {
+        "es": "Un tronco de madera básico para construcción.",
+        "en": "A basic wooden log for construction.",
+        "fr": "Une bûche de bois basique pour la construction.",
+        "it": "Un tronco di legno base per la costruzione.",
+        "de": "Ein einfacher Holzstamm für den Bau.",
+        "zh": "用于建造的基础木材。",
+        "ja": "建築用の基本的な木の丸太。"
+    },
+    "icon": "🪵",
+    "category": "other",
+    "usable": false
+}

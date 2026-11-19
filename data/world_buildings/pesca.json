@@ -1,0 +1,8 @@
+{
+    "label": "Muelle de Pesca",
+    "icon": "🎣",
+    "scale": 1.0,
+    "y_offset": 0.0,
+    "description": "Caseta y embarcadero de pescadores.",
+    "model_path": "pesca"
+}

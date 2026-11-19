@@ -1,0 +1,166 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "Sacerdotisa Elaria",
+            "en": "Priestess Elaria",
+            "fr": "Prêtresse Elaria",
+            "it": "Sacerdotessa Elaria",
+            "de": "Priesterin Elaria",
+            "zh": "祭司艾拉莉亚",
+            "ja": "祭司エラリア"
+        },
+        "next": [],
+        "reward": "avatar=🧝‍♀️;bg=0.03,0.05,0.09"
+    },
+    "church_1": {
+        "type": "message",
+        "text": {
+            "es": "Que la Esfera vele por ti, criatura de tierra hueca. Aquí curamos el cuerpo... y fingimos curar el alma. ¿Qué te aqueja?",
+            "en": "May the Sphere watch over you, child of the hollow earth. Here we heal the body... and pretend to heal the soul. What ails you?",
+            "fr": "Que la Sphère veille sur toi, créature de la terre creuse. Ici nous soignons le corps... et faisons semblant de soigner l'âme. Qu'est-ce qui t'afflige ?",
+            "it": "Che la Sfera vegli su di te, creatura della terra cava. Qui curiamo il corpo... e fingiamo di curare l'anima. Cosa ti affligge?",
+            "de": "Möge die Sphäre über dich wachen, Geschöpf der hohlen Erde. Hier heilen wir den Körper... und tun so, als würden wir die Seele heilen. Was plagt dich?",
+            "zh": "愿真理之球守护你，空心大地的造物。在这里我们医治肉体……并假装医治灵魂。你有什么烦恼？",
+            "ja": "空洞なる大地の子よ、球がお前を見守らんことを。ここでは肉体を癒す……そして魂を癒すふりをする。何に悩んでいる？"
+        },
+        "next": [
+            "church_1a",
+            "church_1b",
+            "church_1b2",
+            "church_1c",
+            "church_1d"
+        ],
+        "reward": ""
+    },
+    "church_1a": {
+        "type": "option",
+        "text": {
+            "es": "✨  Pedir sanación divina",
+            "en": "✨  Ask for divine healing",
+            "fr": "✨  Demander une guérison divine",
+            "it": "✨  Chiedere guarigione divina",
+            "de": "✨  Um göttliche Heilung bitten",
+            "zh": "✨  祈求神圣治愈",
+            "ja": "✨  神の癒しを求める"
+        },
+        "next": [
+            "church_1ar"
+        ],
+        "reward": "heal"
+    },
+    "church_1ar": {
+        "type": "message",
+        "text": {
+            "es": "La luz te ha remendado. No preguntes qué luz.",
+            "en": "The light has mended you. Don't ask which light.",
+            "fr": "La lumière t'a rapiécé. Ne demande pas quelle lumière.",
+            "it": "La luce ti ha rammendato. Non chiedere quale luce.",
+            "de": "Das Licht hat dich geflickt. Frag nicht, welches Licht.",
+            "zh": "光已经修复了你。别问是什么光。",
+            "ja": "光がお前を繕った。どの光かは聞くな。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "church_1b": {
+        "type": "option",
+        "text": {
+            "es": "💰  Donar a los huérfanos (-50 Oro) (+1 Amabilidad)",
+            "en": "💰  Donate to the orphans (-50 Gold) (+1 Kindness)",
+            "fr": "💰  Faire un don aux orphelins (-50 Or) (+1 Bonté)",
+            "it": "💰  Donare agli orfani (-50 Oro) (+1 Bontà)",
+            "de": "💰  An die Waisen spenden (-50 Gold) (+1 Güte)",
+            "zh": "💰  向孤儿捐款（-50金币）（+1善良）",
+            "ja": "💰  孤児に寄付する（-50ゴールド）（+1優しさ）"
+        },
+        "next": [
+            "church_1br"
+        ],
+        "reward": "gold:-50;faceta:amabilidad=+1;flag:donated_orphans",
+        "condition": "gold >= 50 and no_flag(\"donated_orphans\")"
+    },
+    "church_1b2": {
+        "type": "option",
+        "text": {
+            "es": "💰  Donar a los huérfanos (-50 Oro)",
+            "en": "💰  Donate to the orphans (-50 Gold)",
+            "fr": "💰  Faire un don aux orphelins (-50 Or)",
+            "it": "💰  Donare agli orfani (-50 Oro)",
+            "de": "💰  An die Waisen spenden (-50 Gold)",
+            "zh": "💰  向孤儿捐款（-50金币）",
+            "ja": "💰  孤児に寄付する（-50ゴールド）"
+        },
+        "next": [
+            "church_1br"
+        ],
+        "reward": "gold:-50",
+        "condition": "gold >= 50 and has_flag(\"donated_orphans\")"
+    },
+    "church_1br": {
+        "type": "message",
+        "text": {
+            "es": "Que tu bondad regrese multiplicada... o al menos que no te la roben por el camino.",
+            "en": "May your kindness return manyfold... or at least not get stolen on the way.",
+            "fr": "Que ta bonté te revienne multipliée... ou du moins, qu'on ne te la vole pas en chemin.",
+            "it": "Che la tua bontà ti ritorni moltiplicata... o almeno che non te la rubino per strada.",
+            "de": "Möge deine Güte vervielfacht zu dir zurückkehren... oder wenigstens nicht unterwegs gestohlen werden.",
+            "zh": "愿你的善意成倍归来……或者至少别在路上被人偷走。",
+            "ja": "お前の善行が幾重にも返ってきますように……あるいは、せめて道中で盗まれませんように。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "church_1c": {
+        "type": "option",
+        "text": {
+            "es": "😒  Burlarse de las escrituras",
+            "en": "😒  Mock the scriptures",
+            "fr": "😒  Se moquer des écritures",
+            "it": "😒  Deridere le scritture",
+            "de": "😒  Die Schriften verspotten",
+            "zh": "😒  嘲笑经文",
+            "ja": "😒  聖典を嘲る"
+        },
+        "next": [
+            "church_1cr"
+        ],
+        "reward": "faceta:amabilidad=-1;faceta:encanto=-1"
+    },
+    "church_1cr": {
+        "type": "message",
+        "text": {
+            "es": "Rezaré por tu alma descarriada. Va a hacer falta.",
+            "en": "I'll pray for your wayward soul. It's going to need it.",
+            "fr": "Je prierai pour ton âme égarée. Elle en aura besoin.",
+            "it": "Pregherò per la tua anima traviata. Ne avrà bisogno.",
+            "de": "Ich werde für deine verirrte Seele beten. Sie wird es brauchen.",
+            "zh": "我会为你迷失的灵魂祈祷。它会需要的。",
+            "ja": "お前の迷える魂のために祈っておこう。それが必要になるだろうからな。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "church_1d": {
+        "type": "option",
+        "text": {
+            "es": "👋  Despedirse",
+            "en": "👋  Say goodbye",
+            "fr": "👋  Prendre congé",
+            "it": "👋  Congedarsi",
+            "de": "👋  Sich verabschieden",
+            "zh": "👋  告别",
+            "ja": "👋  別れを告げる"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "label": "Puente de Madera",
+    "icon": "🌉",
+    "scale": 1.0,
+    "y_offset": 0.0,
+    "description": "Estructura de madera para cruzar ríos y cañones.",
+    "model_path": "puente"
+}

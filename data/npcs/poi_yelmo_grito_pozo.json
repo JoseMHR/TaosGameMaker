@@ -1,0 +1,167 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Grito en el Fondo del Pozo",
+            "en": "The Cry at the Bottom of the Well",
+            "fr": "Le Cri au Fond du Puits",
+            "it": "Il Grido nel Fondo del Pozzo",
+            "de": "Der Schrei am Grund des Brunnens",
+            "zh": "井底的呼喊",
+            "ja": "井戸の底の叫び"
+        },
+        "next": [],
+        "reward": "avatar=🕳️;bg=0.06,0.06,0.08"
+    },
+    "pozogr_root": {
+        "type": "message",
+        "text": {
+            "es": "El pozo lleva seco desde antes de que nacieras: la cuerda podrida, el cubo hecho astillas. Y sin embargo, del fondo negro sube una voz. Débil, rota, suplicante: '¿Hola? ¿Hay alguien? Por favor... ayúdame a salir...' Se te hiela la sangre, porque esa voz —cada matiz, cada temblor— es EXACTAMENTE la tuya. Como si tú mismo estuvieras ahí abajo, gritando desde hace años.",
+            "en": "The well has been dry since before you were born: the rope rotted, the bucket splintered. And yet, from the black depth, a voice rises. Faint, broken, pleading: 'Hello? Is anyone there? Please... help me out...' Your blood runs cold, because that voice —every nuance, every tremor— is EXACTLY yours. As if you yourself were down there, screaming for years.",
+            "fr": "Le puits est sec depuis avant ta naissance : la corde pourrie, le seau réduit en éclats. Et pourtant, du fond noir monte une voix. Faible, brisée, suppliante : « Bonjour ? Y a-t-il quelqu'un ? S'il vous plaît... aidez-moi à sortir... » Ton sang se glace, car cette voix — chaque nuance, chaque tremblement — est EXACTEMENT la tienne. Comme si toi-même étais là-dessous, criant depuis des années.",
+            "it": "Il pozzo è secco da prima che tu nascessi: la corda marcita, il secchio in frantumi. Eppure, dal fondo nero sale una voce. Debole, rotta, supplicante: 'Buongiorno? C'è qualcuno? Per favore... aiutatemi a uscire...' Ti si gela il sangue, perché quella voce —ogni nuance, ogni tremore— è ESATTAMENTE la tua. Come se tu stesso fossi là sotto, gridando da anni.",
+            "de": "Der Brunnen ist trocken, seit bevor du geboren wurdest: das verrottete Seil, der zersplitterte Eimer. Und doch steigt aus der schwarzen Tiefe eine Stimme auf. Schwach, gebrochen, flehend: „Hallo? Ist da jemand? Bitte... hilf mir heraus...“ Dein Blut gefriert, denn diese Stimme — jede Nuance, jedes Zittern — ist GENAU deine. Als wärst du selbst dort unten, seit Jahren schreiend.",
+            "zh": "这口井在你出生之前就已经干涸了：绳子已经腐烂，水桶碎成了木屑。但即便如此，一个声音从黑暗的深处升起。微弱，破碎，哀求着：「你好？有人吗？求你……帮我出去……」你的血液瞬间凝固，因为那个声音——每一个音调，每一次颤抖——都完完全全是你自己的声音。仿佛你自己就在下面，已经喊了多年。",
+            "ja": "この井戸はお前が生まれる前から涸れている——腐った縄、砕けた桶。それでも、黒い底から声が上がってくる。弱々しく、途切れ、懇願するように——「もしもし？誰かいるか？頼む……出してくれ……」血の気が引く、その声——一つ一つの抑揚、震えのすべてが——まさにお前自身の声だからだ。まるでお前自身がそこにいて、何年も叫び続けているかのように。"
+        },
+        "next": [
+            "pozogr_opt_bajar",
+            "pozogr_opt_hablar",
+            "pozogr_opt_tapar",
+            "pozogr_opt_huir"
+        ],
+        "reward": ""
+    },
+    "pozogr_opt_bajar": {
+        "type": "option",
+        "text": {
+            "es": "🪢  Atar tu cuerda al brocal y descender a la oscuridad a por quien sea",
+            "en": "🪢  Tie your rope to the rim and descend into the dark for whoever it is",
+            "fr": "🪢  Attacher ta corde à la margelle et descendre dans l'obscurité pour qui que ce soit",
+            "it": "🪢  Legare la tua corda al bordo e scendere nell'oscurità per chiunque sia",
+            "de": "🪢  Dein Seil an den Rand binden und in die Dunkelheit hinabsteigen, wer auch immer es sein mag",
+            "zh": "🪢  把你的绳子系在井沿上，无论下面是谁，都下去看看",
+            "ja": "🪢  縄を縁に結び、誰であろうと闇の中へ下る"
+        },
+        "next": [
+            "pozogr_msg_bajar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "pozogr_msg_bajar": {
+        "type": "message",
+        "text": {
+            "es": "Bajas metro a metro hacia el frío. La voz calla cuando tus pies tocan el fondo. No hay nadie. Solo un charquito de agua negra que refleja tu cara... y tu reflejo NO se mueve a la vez que tú. Te sonríe cuando tú aprietas los dientes. 'Al fin bajas', dice tu reflejo con tu voz. 'Llevo tanto esperando a que dejes de huir de mí.' Subes a toda prisa, con el corazón desbocado, pero también con una certeza extraña: has mirado a los ojos a lo que te da miedo y sigues respirando. Eso, en el fondo, es lo único que hace falta para ser valiente.",
+            "en": "You climb down meter by meter into the cold. The voice falls silent when your feet touch bottom. There's no one. Only a small pool of black water reflecting your face... and your reflection does NOT move in time with you. It smiles when you clench your teeth. 'You finally came down,' your reflection says in your voice. 'I've waited so long for you to stop running from me.' You scramble back up, heart pounding, but with a strange certainty too: you've looked in the eyes of what frightens you and you're still breathing. That, in the end, is all it takes to be brave.",
+            "fr": "Tu descends mètre par mètre vers le froid. La voix se taît quand tes pieds touchent le fond. Il n'y a personne. Seulement une petite mare d'eau noire qui reflète ton visage... et ton reflet ne bouge PAS en même temps que toi. Il te souriait quand tu serres les dents. « Enfin tu descends », dit ton reflet de ta voix. « J'attends depuis si longtemps que tu arrêtes de me fuir. » Tu remontes à toute vitesse, le cœur battant à tout rompre, mais aussi avec une certitude étrange : tu as regardé dans les yeux ce qui te fait peur et tu respires encore. Ça, au fond, c'est tout ce qu'il faut pour être courageux.",
+            "it": "Scendi metro per metro verso il freddo. La voce tace quando i tuoi piedi tocca il fondo. Non c'è nessuno. Solo una pozzanghera d'acqua nera che riflette il tuo viso... e il tuo riflesso NON si muove insieme a te. Ti sorride quando tu stringi i denti. 'Finalmente scendi', dice il tuo riflesso con la tua voce. 'Aspettavo da tanto che smettessi di scappare da me.' Risali di corsa, con il cuore in tumulto, ma anche con una strana certezza: hai guardato negli occhi ciò che ti fa paura e respiri ancora. Questo, in fondo, è l'unica cosa necessaria per essere coraggiosi.",
+            "de": "Du steigst Meter für Meter in die Kälte hinab. Die Stimme verstummt, als deine Füße den Boden berühren. Niemand ist da. Nur eine kleine Pfütze schwarzen Wassers, die dein Gesicht spiegelt... und dein Spiegelbild bewegt sich NICHT gleichzeitig mit dir. Es lächelt, wenn du die Zähne zusammenbeißt. „Endlich steigst du herab“, sagt dein Spiegelbild mit deiner Stimme. „Ich habe so lange gewartet, dass du aufhörst, vor mir zu fliehen.“ Du kletterst eilig wieder hinauf, das Herz rasend, aber auch mit einer seltsamen Gewissheit: du hast dem, was dich ängstigt, in die Augen geschaut und atmest noch. Das ist, im Grunde, alles, was es braucht, um mutig zu sein.",
+            "zh": "你一米一米地朝寒冷之处下降。当你的脚触到底部时，声音便沉默了。没有人。只有一小片黑水映照着你的脸……而你的倒影并没有与你同步移动。当你咬紧牙关时，它却在微笑。「你终于下来了，」你的倒影用你的声音说道。「我等了这么久，就是等你停止逃避我。」你急忙爬上去，心跳狂乱，但也带着一种奇怪的确定感：你直视了让你恐惧的东西的双眼，而你依然在呼吸。归根结底，这就是勇敢所需要的一切。",
+            "ja": "一メートルずつ、寒さの中へ下っていく。足が底に触れると、声が静まる。誰もいない。ただ黒い水の小さな水たまりがお前の顔を映しているだけだ……そしてその反射は、お前と「同時に」動かない。歯を食いしばると、それは微笑む。「ついに降りてきたのか」お前の声で反射は言う。「お前が俺から逃げるのをやめるのを、こんなに長く待っていたんだ」慌てて上に戻る、心臓を高鳴らせながら。だが奇妙な確信も抱いている——お前を恐れさせるものの目を見つめ、それでも呼吸している。結局、勇気とはそれだけで十分なのだ。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:valor=+1;faceta:cordura=-1"
+    },
+    "pozogr_opt_hablar": {
+        "type": "option",
+        "text": {
+            "es": "🗣️  Asomarte y hablarle: ¿Quién eres? ¿Cómo has llegado ahí?",
+            "en": "🗣️  Lean over and speak to it: Who are you? How did you get down there?",
+            "fr": "🗣️  Te pencher et lui parler : Qui es-tu ? Comment es-tu arrivé là ?",
+            "it": "🗣️  Sporgerti e parlargli: Chi sei? Come sei arrivato lì?",
+            "de": "🗣️  Dich hinüberlehnen und mit ihr sprechen: Wer bist du? Wie bist du dorthin gekommen?",
+            "zh": "🗣️  探身向它说话：你是谁？你是怎么到那里去的？",
+            "ja": "🗣️  身を乗り出し話しかける：お前は誰だ？どうやってそこに行ったんだ？"
+        },
+        "next": [
+            "pozogr_msg_hablar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "pozogr_msg_hablar": {
+        "type": "message",
+        "text": {
+            "es": "'¿Que quién soy?', responde la voz, y ahora suena divertida. 'Soy la parte de ti que dejaste caer para poder seguir caminando. La que gritó cuando pasó lo que pasó, mientras tú apretabas los labios y mirabas al frente. Sigo aquí abajo. Siempre estaré aquí abajo.' El eco se repite hasta apagarse. Te apartas del brocal sin respuestas, pero con la incómoda sensación de que ciertos pozos no están hechos para asomarse.",
+            "en": "'Who am I?', the voice replies, and now it sounds amused. 'I'm the part of you that you let fall so you could keep walking. The part that screamed when what happened happened, while you pressed your lips shut and looked ahead. I'm still down here. I'll always be down here.' The echo repeats until it dies. You step back from the rim with no answers, but with the uneasy feeling that some wells are not meant to be leaned into.",
+            "fr": "« Qui je suis ? », répond la voix, et maintenant elle semble amusée. « Je suis la partie de toi que tu as laissée tomber pour pouvoir continuer à marcher. Celle qui a crié quand ce qui s'est passé s'est passé, tandis que toi tu serrais les lèvres et regardais droit devant. Je suis toujours là-dessous. Je serai toujours là-dessous. » L'écho se répète jusqu'à s'éteindre. Tu t'écartes de la margelle sans réponses, mais avec la sensation inconfortable que certains puits ne sont pas faits pour qu'on s'y penche.",
+            "it": "'Chi sono io?', risponde la voce, e ora suona divertita. 'Sono la parte di te che hai lasciato cadere per poter continuare a camminare. Quella che gridò quando accadde quello che accadde, mentre tu stringevi le labbra e guardavi avanti. Sono ancora qui sotto. Sarò sempre qui sotto.' L'eco si ripete finché non si spegne. Ti allontani dal bordo senza risposte, ma con la scomoda sensazione che certi pozzi non sono fatti per sporgersi.",
+            "de": "„Wer ich bin?“, antwortet die Stimme, und jetzt klingt sie amüsiert. „Ich bin der Teil von dir, den du fallen ließest, um weiterzugehen. Der, der schrie, als geschah, was geschah, während du deine Lippen zusammenpresstest und geradeaus schautest. Ich bin immer noch hier unten. Ich werde immer hier unten sein.“ Das Echo wiederholt sich, bis es erstirbt. Du trittst ohne Antworten vom Rand zurück, aber mit dem unbequemen Gefühl, dass manche Brunnen nicht dafür gemacht sind, dass man sich über sie beugt.",
+            "zh": "「我是谁？」那声音回答道，此刻听起来带着一丝戏谑。「我是你为了能继续走下去而丢弃的那部分自己。是那个当事情发生时高声呼喊、而你却紧闭双唇、目视前方的那一部分。我依然在这下面。我将永远在这下面。」回声一直重复直到消失。你从井沿退开，没有得到答案，却带着一种不安的感觉：有些井，本就不该被人俯身窥探。",
+            "ja": "「俺が誰かって？」声が答える。今は面白がっているように聞こえる。「俺はお前が歩き続けるために切り落とした部分だ。あの出来事が起きた時に叫んでいた部分、お前が唇を噛みしめて前を見つめていた間にな。俺はまだここの下にいる。永遠にここの下にいる」反響は消えるまで繰り返される。答えを得ることなく縁から離れるが、一部の井戸は覗き込むためにできていないという不快な感覚を抱えたまま。"
+        },
+        "next": [
+            "pozogr_root"
+        ],
+        "reward": "faceta:cordura=-1"
+    },
+    "pozogr_opt_tapar": {
+        "type": "option",
+        "text": {
+            "es": "🪨  Cubrir el pozo con losas para que esa voz no vuelva a salir",
+            "en": "🪨  Seal the well with slabs so that voice never rises again",
+            "fr": "🪨  Couvrir le puits de dalles pour que cette voix ne remonte plus jamais",
+            "it": "🪨  Coprire il pozzo con lastre perché quella voce non salga più",
+            "de": "🪨  Den Brunnen mit Platten versiegeln, damit diese Stimme nie wieder aufsteigt",
+            "zh": "🪨  用石板封住这口井，让那个声音再也传不出来",
+            "ja": "🪨  石板で井戸を封じ、その声が二度と上がってこないようにする"
+        },
+        "next": [
+            "pozogr_msg_tapar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "pozogr_msg_tapar": {
+        "type": "message",
+        "text": {
+            "es": "Arrastras piedras planas y tapias la boca del pozo, sudando, hasta que no queda ni una rendija. Al colocar la última losa, la voz da un grito ahogado que se corta en seco. Silencio. Te sientas encima, jadeando. No sabes si has enterrado a un monstruo o si te has enterrado a ti mismo un poco más hondo. Pero al menos, por ahora, ya no oyes gritar. A veces la única manera de seguir es dejar de escuchar lo que no puedes arreglar.",
+            "en": "You drag flat stones and wall up the mouth of the well, sweating, until not a crack remains. As you set the last slab, the voice gives a strangled cry that cuts off dead. Silence. You sit on top, panting. You don't know if you've buried a monster or buried yourself a little deeper. But at least, for now, you no longer hear the screaming. Sometimes the only way forward is to stop listening to what you can't fix.",
+            "fr": "Tu traînes des pierres plates et murges la bouche du puits, en sueur, jusqu'à ce qu'il ne reste plus la moindre fissure. En posant la dernière dalle, la voix pousse un cri étouffé qui s'interrompt net. Silence. Tu t'assois dessus, essoufflé. Tu ne sais pas si tu as enterré un monstre ou si tu t'es enterré toi-même un peu plus profondément. Mais au moins, pour l'instant, tu n'entends plus crier. Parfois la seule façon d'avancer est d'arrêter d'écouter ce qu'on ne peut pas réparer.",
+            "it": "Trascini pietre piatte e tapi la bocca del pozzo, sudando, finché non rimane nemmeno una fessura. Nel posare l'ultima lastra, la voce emette un grido strozzato che si interrompe di colpo. Silenzio. Ti siedi sopra, ansimando. Non sai se hai sepolto un mostro o hai sepolto te stesso un po' più a fondo. Ma almeno, per ora, non senti più gridare. A volte l'unico modo per andare avanti è smettere di ascoltare ciò che non puoi aggiustare.",
+            "de": "Du schleppst flache Steine heran und mauerst die Öffnung des Brunnens zu, schwitzend, bis kein Riss mehr übrig ist. Als du die letzte Platte setzt, stößt die Stimme einen erstickten Schrei aus, der abrupt abbricht. Stille. Du setzt dich darauf, keuchend. Du weißt nicht, ob du ein Monster begraben oder dich selbst noch ein bisschen tiefer begraben hast. Aber wenigstens hörst du jetzt kein Schreien mehr. Manchmal ist der einzige Weg voranzukommen, aufzuhören, dem zuzuhören, was man nicht reparieren kann.",
+            "zh": "你拖来一块块平石，汗流浃背地砌起这口井的井口，直到连一道缝隙都不剩。放上最后一块石板时，那声音发出一声被扼断的惨叫，戛然而止。寂静。你坐在上面，喘着气。你不知道自己埋葬的是一个怪物，还是把自己埋得更深了一些。但至少，现在你听不到叫喊了。有时前进的唯一方法，就是不再倾听你无法修复的东西。",
+            "ja": "平らな石を引いてきて、汗をかきながら井戸の口を塞ぎ、隙間一つ残らないようにする。最後の石板を置いた時、声は喉を絞められたような叫びを発し、突然途切れる。静寂。喘ぎながらその上に座る。怪物を埋葬したのか、自分自身をさらに深く埋葬したのかは分からない。だが少なくとも今は、叫び声は聞こえない。時に前に進む唯一の方法は、修復できないものに耳を傾けるのをやめることなのだ。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:cordura=+1;faceta:valor=-1"
+    },
+    "pozogr_opt_huir": {
+        "type": "option",
+        "text": {
+            "es": "🏃  Alejarte del pozo lo más rápido que puedas, sin mirar atrás",
+            "en": "🏃  Get away from the well as fast as you can, without looking back",
+            "fr": "🏃  T'éloigner du puits le plus vite possible, sans regarder en arrière",
+            "it": "🏃  Allontanarti dal pozzo il più rapidamente possibile, senza guardare indietro",
+            "de": "🏃  Dich so schnell wie möglich vom Brunnen entfernen, ohne zurückzublicken",
+            "zh": "🏃  以最快的速度离开这口井，不要回头看",
+            "ja": "🏃  後ろを見ずに、できるだけ速く井戸から離れる"
+        },
+        "next": [
+            "pozogr_msg_huir"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "pozogr_msg_huir": {
+        "type": "message",
+        "text": {
+            "es": "Echas a correr. La voz te persigue rebotando en el páramo: '¡No te vayas! ¡No otra vez! ¡SIEMPRE te vas!' Corres hasta que el pulso te tapa el oído y ya no la oyes. Cuando por fin te detienes, doblado sobre las rodillas, no sabes si has escapado de algo o simplemente lo has dejado atrás para que te alcance más tarde. Huir es rápido; el problema es que lo que huye de un pozo suele caer en otro.",
+            "en": "You break into a run. The voice chases you, bouncing across the moor: 'Don't go! Not again! You ALWAYS leave!' You run until your pulse drowns your hearing and you can't hear it anymore. When you finally stop, doubled over your knees, you don't know whether you've escaped something or simply left it behind to catch you later. Running is fast; the trouble is that whatever flees one well tends to fall into another.",
+            "fr": "Tu te mets à courir. La voix te poursuit en résonnant dans la lande : « Ne pars pas ! Pas encore une fois ! Tu pars TOUJOURS ! » Tu cours jusqu'à ce que ton pouls t'assourdisse et que tu ne l'entendes plus. Quand tu t'arrêtes enfin, plié sur tes genoux, tu ne sais pas si tu as échappé à quelque chose ou si tu l'as simplement laissé derrière toi pour qu'il te rattrape plus tard. Fuir est rapide ; le problème est que ce qui fuit un puits a tendance à tomber dans un autre.",
+            "it": "Ti metti a correre. La voce ti perseguita rimbombando nella landa: 'Non andartene! Non un'altra volta! Te ne vai SEMPRE!' Corri finché il polso non ti tappa l'orecchio e non la senti più. Quando finalmente ti fermi, piegato sulle ginocchia, non sai se sei fuggito da qualcosa o se l'hai semplicemente lasciato dietro perché ti raggiunga più tardi. Fuggire è rapido; il problema è che ciò che fugge da un pozzo tende a cadere in un altro.",
+            "de": "Du beginnst zu rennen. Die Stimme jagt dich, im Ödland widerhallend: „Geh nicht weg! Nicht noch einmal! Du gehst IMMER weg!“ Du läufst, bis dein Puls deine Ohren übertönt und du sie nicht mehr hörst. Als du schließlich anhältst, über die Knie gebeugt, weißt du nicht, ob du etwas entkommen bist oder es einfach zurückgelassen hast, damit es dich später einholt. Fliehen ist schnell; das Problem ist, dass, was einem Brunnen entflieht, meist in einen anderen fällt.",
+            "zh": "你开始奔跑。那声音在荒原上回响着追赶你：「别走！别再走了！你总是要走！」你一直跑，直到脉搏的声音盖住了你的听觉，你再也听不到它了。当你终于停下来，弯着腰喘息时，你不知道自己是逃脱了什么东西，还是只是把它留在了后面，让它稍后追上你。逃跑是快的；问题是，从一口井里逃出来的东西，往往会掉进另一口井里。",
+            "ja": "走り出す。声は荒野に響きながら追いかけてくる——「行かないで！もう一度なんて嫌だ！お前はいつも去ってしまう！」脈拍が耳を塞ぎ、もう聞こえなくなるまで走る。ついに立ち止まり、膝に手をついた時、何かから逃げたのか、それを後で追いつかせるために置いてきただけなのか分からない。逃げるのは速い。問題は、一つの井戸から逃げるものは、たいてい別の井戸に落ちるということだ。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:valor=-1"
+    }
+}

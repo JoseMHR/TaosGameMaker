@@ -1,0 +1,16 @@
+{
+	"code": "grs",
+	"order": 2,
+	"label": "Pradera",
+	"color": "#3f8f43",
+	"icon": "🌿",
+	"biome_color": "#1c2b17",
+	"walkable": true,
+	"texture": "pradera",
+	"tint": "#72a25b",
+	"roughness": 0.88,
+	"variants": [
+		{ "weight": 1, "label": "Sendero", "icon": "🌱", "biome_color": "#18241b" },
+		{ "weight": 2, "label": "Pradera", "icon": "🌿", "biome_color": "#1c2b17" }
+	]
+}

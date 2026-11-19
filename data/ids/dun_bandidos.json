@@ -1,0 +1,28 @@
+{
+    "id": "dun_bandidos",
+    "type": "dungeon",
+    "name": {
+        "es": "Cueva de los Bandidos",
+        "en": "Bandit Cave",
+        "fr": "Grotte des Bandits",
+        "it": "Grotta dei Banditi",
+        "de": "Banditenhöhle",
+        "zh": "强盗洞穴",
+        "ja": "盗賊の洞窟"
+    },
+    "icon": "🕳️",
+    "desc": {
+        "es": "Cueva de los Bandidos",
+        "en": "Bandit Cave",
+        "fr": "Grotte des Bandits",
+        "it": "Grotta dei Banditi",
+        "de": "Banditenhöhle",
+        "zh": "强盗洞穴",
+        "ja": "盗賊の洞窟"
+    },
+    "bg": [
+        0.05,
+        0.05,
+        0.08
+    ]
+}

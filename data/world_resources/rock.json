@@ -1,0 +1,10 @@
+{
+    "code": "rock",
+    "order": 2,
+    "label": "Cantera de Piedra",
+    "icon": "⛰️",
+    "biome_color": "#2c2b33",
+    "description": "Una zona rocosa ideal para extraer piedra.",
+    "placeable": true,
+    "skill": "minero"
+}

@@ -1,0 +1,9 @@
+{
+	"code": "gold",
+	"order": 3,
+	"label": "Cantera de Oro",
+	"icon": "💰",
+	"biome_color": "#30431a",
+	"description": "Una veta dorada entre las rocas.",
+	"placeable": true
+}

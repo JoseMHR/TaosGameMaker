@@ -1,0 +1,150 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Buhonero Incansablemente Optimista",
+            "en": "The Relentlessly Optimistic Peddler",
+            "fr": "Le Colporteur Inlassablement Optimiste",
+            "it": "Il Merciaio Instancabilmente Ottimista",
+            "de": "Der Unermüdlich Optimistische Hausierer",
+            "zh": "永不气馁的乐观货郎",
+            "ja": "疲れ知らずの楽観的な行商人"
+        },
+        "next": [],
+        "reward": "avatar=🧳;bg=0.11,0.09,0.05"
+    },
+    "buh_root": {
+        "type": "message",
+        "text": {
+            "es": "Un hombre enjuto de sonrisa deslumbrante empuja un carro que cruje bajo el peso de mil cachivaches: paraguas para un desierto, botas de nadar, un mapa de un reino que no existe. '¡AJÁ! ¡Un cliente con buen ojo!', exclama antes de que digas nada. 'Amigo mío, has llegado en el DÍA perfecto. Todo, absolutamente todo, está de oferta porque el mundo se acaba... probablemente. ¿Qué necesita el héroe de hoy?'",
+            "en": "A wiry man with a dazzling grin pushes a cart groaning under a thousand knick-knacks: umbrellas for a desert, swimming boots, a map of a kingdom that doesn't exist. 'AHA! A customer with a keen eye!' he cries before you say a word. 'My friend, you've arrived on the PERFECT day. Everything, absolutely everything, is on sale because the world is ending... probably. What does today's hero need?'",
+            "fr": "Un homme maigre au sourire éblouissant pousse une charrette qui grince sous le poids de mille babioles : des parapluies pour un désert, des bottes de natation, une carte d'un royaume qui n'existe pas. « AH HA ! Un client au bon œil ! » s'exclame-t-il avant que tu ne dises un mot. « Mon ami, tu arrives le jour PARFAIT. Tout, absolument tout, est en solde parce que le monde touche à sa fin... probablement. De quoi le héros du jour a-t-il besoin ? »",
+            "it": "Un uomo smilzo dal sorriso abbagliante spinge un carretto che scricchiola sotto il peso di mille cianfrusaglie: ombrelli per un deserto, stivali da nuoto, una mappa di un regno che non esiste. 'AH HA! Un cliente dall'occhio buono!', esclama prima che tu dica una parola. 'Amico mio, sei arrivato nel giorno PERFETTO. Tutto, assolutamente tutto, è in offerta perché il mondo sta per finire... probabilmente. Di cosa ha bisogno l'eroe di oggi?'",
+            "de": "Ein hagerer Mann mit strahlendem Lächeln schiebt einen Karren, der unter dem Gewicht tausender Krimskrams ächzt: Regenschirme für eine Wüste, Schwimmstiefel, eine Karte eines Königreichs, das nicht existiert. „AHA! Ein Kunde mit gutem Auge!“, ruft er, bevor du ein Wort sagst. „Mein Freund, du bist am PERFEKTEN Tag angekommen. Alles, absolut alles, ist im Angebot, weil die Welt untergeht... wahrscheinlich. Was braucht der Held von heute?“",
+            "zh": "一个瘦削、笑容灿烂的男人推着一辆嘎吱作响的手推车，车上堆满了成千上万件杂物：给沙漠用的雨伞、游泳靴、一张根本不存在的王国的地图。「哈哈！好眼光的顾客啊！」他不等你开口就大喊道。「朋友，你来的这一天简直太完美了。所有东西，绝对是所有东西，都在打折，因为这世界快要完蛋了……大概吧。今天的英雄需要点什么呢？」",
+            "ja": "眩しい笑顔の痩せた男が、千の小間物の重みで軋む荷車を押している——砂漠用の傘、水泳用のブーツ、存在しない王国の地図。「おお！目利きの客だ！」お前が一言も発する前に彼はそう叫ぶ。「友よ、完璧な日にやってきたな。世界が終わるから……たぶんな、すべて、本当にすべてが特売中だ。今日の英雄には何が必要かな？」"
+        },
+        "next": [
+            "buh_opt_estrella",
+            "buh_opt_regatear",
+            "buh_opt_pasado",
+            "buh_opt_salir"
+        ],
+        "reward": ""
+    },
+    "buh_opt_estrella": {
+        "type": "option",
+        "text": {
+            "es": "✨  ¿Cuál es tu mejor producto?",
+            "en": "✨  What's your finest product?",
+            "fr": "✨  Quel est ton meilleur produit ?",
+            "it": "✨  Qual è il tuo prodotto migliore?",
+            "de": "✨  Was ist dein bestes Produkt?",
+            "zh": "✨  你最好的商品是什么？",
+            "ja": "✨  一番の売れ筋商品は何だ？"
+        },
+        "next": [
+            "buh_msg_estrella"
+        ],
+        "reward": ""
+    },
+    "buh_msg_estrella": {
+        "type": "message",
+        "text": {
+            "es": "Con reverencia teatral, saca de una caja forrada de terciopelo... una piedra corriente. 'Contemplad: la PIEDRA ANTIPÁNICO. ¿Un dragón? Le lanzas la piedra. ¿Un bandido? Le lanzas la piedra. ¿Angustia existencial a las tres de la madrugada? Sostienes la piedra y respiras. ¡Cero mantenimiento, garantía de por vida —la tuya, no la de la piedra—!' Es, sin lugar a dudas, una piedra. Y sin embargo casi te convence.",
+            "en": "With theatrical reverence, he draws from a velvet-lined box... an ordinary rock. 'Behold: the ANTI-PANIC STONE. A dragon? You throw the stone at it. A bandit? You throw the stone. Existential dread at three in the morning? You hold the stone and breathe. Zero maintenance, lifetime warranty — yours, not the stone's!' It is, beyond any doubt, a rock. And yet he almost sells you on it.",
+            "fr": "Avec une révérence théâtrale, il sort d'une boîte tapissée de velours... une pierre ordinaire. « Contemplez : la PIERRE ANTI-PANIQUE. Un dragon ? Vous lui lancez la pierre. Un bandit ? Vous lui lancez la pierre. Une angoisse existentielle à trois heures du matin ? Vous tenez la pierre et vous respirez. Zéro entretien, garantie à vie — la vôtre, pas celle de la pierre — ! » C'est, sans aucun doute, une pierre. Et pourtant il te convainc presque.",
+            "it": "Con reverenza teatrale, tira fuori da una scatola foderata di velluto... una pietra qualunque. 'Contemplate: la PIETRA ANTIPANICO. Un drago? Le lanci la pietra. Un bandito? Le lanci la pietra. Angoscia esistenziale alle tre di notte? Tieni la pietra e respiri. Zero manutenzione, garanzia a vita — la vostra, non quella della pietra —!' È, senza dubbio, una pietra. Eppure quasi ti convince.",
+            "de": "Mit theatralischer Ehrfurcht zieht er aus einer samtausgekleideten Schachtel... einen gewöhnlichen Stein. „Betrachtet: den ANTI-PANIK-STEIN. Ein Drache? Ihr werft den Stein auf ihn. Ein Bandit? Ihr werft den Stein. Existenzielle Angst um drei Uhr morgens? Ihr haltet den Stein und atmet. Null Wartung, lebenslange Garantie — eure, nicht die des Steins —!“ Es ist, ohne jeden Zweifel, ein Stein. Und dennoch überzeugt er dich fast.",
+            "zh": "他带着戏剧化的虔诚，从一个天鹅绒衬里的盒子里掏出……一块普通的石头。「看啊：这是防恐慌石。遇到龙？把石头扔过去。遇到强盗？把石头扔过去。凌晨三点的存在主义焦虑？握住石头呼吸就好。零维护，终身保修——是你的寿命，不是石头的！」这毫无疑问就是一块石头。然而他几乎说服了你购买。",
+            "ja": "芝居がかった敬意を込めて、ベルベット張りの箱から……ただの石を取り出す。「見よ：パニック防止石だ。竜？石を投げつければいい。盗賊？石を投げつければいい。夜中の三時の実存的な不安？石を握って呼吸すればいい。メンテナンス不要、生涯保証つき——お前の寿命の話で、石の寿命じゃないがな！」それは間違いなくただの石だ。それなのに、彼はほとんどお前を説得しかける。"
+        },
+        "next": [
+            "buh_root"
+        ],
+        "reward": ""
+    },
+    "buh_opt_regatear": {
+        "type": "option",
+        "text": {
+            "es": "🧠  Regatear hasta desmontar su verborrea de vendedor",
+            "en": "🧠  Haggle until you unravel his sales patter",
+            "fr": "🧠  Marchander jusqu'à démonter son bagou de vendeur",
+            "it": "🧠  Contrattare finché non smonti la sua verbosità da venditore",
+            "de": "🧠  Feilschen, bis du sein Verkäufergeschwätz entlarvst",
+            "zh": "🧠  讨价还价，直到拆穿他的推销花招",
+            "ja": "🧠  値切り倒し、商人の口上を打ち崩す"
+        },
+        "next": [
+            "buh_msg_regatear"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "buh_msg_regatear": {
+        "type": "message",
+        "text": {
+            "es": "Le sigues el juego pregunta a pregunta —'¿garantía de por vida de quién?', '¿oferta comparada con qué precio?', '¿por qué un paraguas en un páramo seco?'— hasta que el sudor le corona la frente. Finalmente levanta las manos, riendo de verdad. 'Está bien, está bien, tienes la cabeza más rápida que mi labia. Toma, por listo.' Te desliza un puñado de monedas a modo de tributo. Has ganado un duelo de ingenio a un profesional del disparate.",
+            "en": "You play along question by question — 'lifetime warranty for whom?', 'a sale compared to what price?', 'why an umbrella in a dry moor?' — until sweat beads on his brow. At last he throws up his hands, laughing for real. 'All right, all right, your mind is quicker than my tongue. Here, for being sharp.' He slips you a handful of coins as tribute. You've won a duel of wits against a professional of nonsense.",
+            "fr": "Tu joues le jeu question après question — « garantie à vie de qui ? », « solde comparé à quel prix ? », « pourquoi un parapluie dans une lande sèche ? » — jusqu'à ce que la sueur perle sur son front. Il finit par lever les mains, riant pour de bon. « D'accord, d'accord, tu as l'esprit plus rapide que ma langue. Tiens, pour ta finesse. » Il te glisse une poignée de pièces en guise de tribut. Tu as gagné un duel d'esprit contre un professionnel du non-sens.",
+            "it": "Gli tieni testa domanda dopo domanda — 'garanzia a vita di chi?', 'offerta rispetto a quale prezzo?', 'perché un ombrello in una landa secca?' — finché il sudore non gli imperla la fronte. Alla fine alza le mani, ridendo davvero. 'Va bene, va bene, hai la mente più veloce della mia parlantina. Tieni, per essere sveglio.' Ti fa scivolare una manciata di monete come tributo. Hai vinto un duello di ingegno contro un professionista del nonsenso.",
+            "de": "Du spielst Frage für Frage mit — „lebenslange Garantie von wem?“, „Angebot verglichen mit welchem Preis?“, „warum ein Regenschirm in einer trockenen Heide?“ — bis ihm der Schweiß auf der Stirn steht. Schließlich hebt er die Hände, wirklich lachend. „Na gut, na gut, dein Verstand ist schneller als meine Zunge. Hier, weil du so clever bist.“ Er schiebt dir eine Handvoll Münzen als Tribut zu. Du hast ein Wortgefecht gegen einen Profi des Unsinns gewonnen.",
+            "zh": "你一步步跟他斗智——「谁的终身保修？」、「相较于什么价格的折扣？」、「为什么要在干燥的荒原上卖伞？」——直到他额头冒汗。他终于举起双手，真心大笑起来。「好吧，好吧，你的脑子比我的嘴皮子还快。给你，算是聪明的奖励。」他塞给你一把硬币作为致敬。你在这场与胡言乱语专家的智斗中获胜了。",
+            "ja": "お前は一つずつ質問で追い詰めていく——「誰の生涯保証だ？」「何と比べての特売なんだ？」「なぜ乾いた荒野で傘を売っているんだ？」——彼の額に汗が浮かぶまで。ついに彼は両手を上げ、本気で笑い出す。「わかった、わかった、お前の頭は俺の口上より速いな。ほら、賢さへのご褒美だ」彼は貢物として一握りの硬貨を渡してくる。ナンセンスの達人との知恵比べに勝利したのだ。"
+        },
+        "next": [
+            "buh_opt_salir"
+        ],
+        "reward": "faceta:inteligencia=+1;gold:20;gflag:buh_regateado",
+        "condition": "no_gflag(\"buh_regateado\")",
+        "once": true
+    },
+    "buh_opt_pasado": {
+        "type": "option",
+        "text": {
+            "es": "🕯️  ¿Cómo sigues sonriendo en un sitio tan muerto?",
+            "en": "🕯️  How do you keep smiling in a place this dead?",
+            "fr": "🕯️  Comment fais-tu pour continuer à sourire dans un endroit aussi mort ?",
+            "it": "🕯️  Come fai a continuare a sorridere in un posto così morto?",
+            "de": "🕯️  Wie schaffst du es, an einem so toten Ort weiter zu lächeln?",
+            "zh": "🕯️  在这么死气沉沉的地方，你是怎么继续保持微笑的？",
+            "ja": "🕯️  こんな死んだような場所で、どうして笑顔でいられるんだ？"
+        },
+        "next": [
+            "buh_msg_pasado"
+        ],
+        "reward": ""
+    },
+    "buh_msg_pasado": {
+        "type": "message",
+        "text": {
+            "es": "Por un instante, la sonrisa se le queda quieta, como una máscara colgada de un clavo. 'Vendí de todo en ciudades que ya no existen, amigo. Aprendí que el que deja de sonreír, deja de andar. Y el que deja de andar, se queda aquí para siempre.' Señala el páramo con la barbilla. Luego recupera el brillo de vendedor de golpe. '¡Pero eso no lo vendo! Eso es gratis. ¡Como el consejo malo!'",
+            "en": "For an instant, the grin freezes, like a mask hung on a nail. 'I sold everything in cities that no longer exist, friend. I learned that the one who stops smiling stops walking. And the one who stops walking stays here forever.' He nods his chin at the moor. Then the salesman's shine snaps back all at once. 'But that one I don't sell! That one's free. Like bad advice!'",
+            "fr": "Pendant un instant, le sourire se fige, comme un masque suspendu à un clou. « J'ai tout vendu dans des villes qui n'existent plus, mon ami. J'ai appris que celui qui arrête de sourire, arrête de marcher. Et celui qui arrête de marcher, reste ici pour toujours. » Il désigne la lande du menton. Puis l'éclat du vendeur revient d'un coup. « Mais ça, je ne le vends pas ! C'est gratuit. Comme les mauvais conseils ! »",
+            "it": "Per un istante, il sorriso si ferma, come una maschera appesa a un chiodo. 'Ho venduto di tutto in città che non esistono più, amico. Ho imparato che chi smette di sorridere, smette di camminare. E chi smette di camminare, resta qui per sempre.' Indica la landa con il mento. Poi recupera di colpo il lucore da venditore. 'Ma quello non lo vendo! Quello è gratis. Come i cattivi consigli!'",
+            "de": "Für einen Moment erstarrt das Lächeln, wie eine an einem Nagel hängende Maske. „Ich habe alles in Städten verkauft, die nicht mehr existieren, Freund. Ich habe gelernt, dass wer aufhört zu lächeln, aufhört zu gehen. Und wer aufhört zu gehen, bleibt hier für immer.“ Er nickt mit dem Kinn zur Heide. Dann kehrt der Verkäufer-Glanz schlagartig zurück. „Aber das verkaufe ich nicht! Das ist umsonst. Wie schlechter Rat!“",
+            "zh": "有那么一瞬间，微笑僵住了，像挂在钉子上的面具。「我曾在那些已不复存在的城市里卖过所有东西，朋友。我明白了，一个人一旦不再微笑，就会停止前行。而一个人一旦停止前行，就会永远留在这里。」他用下巴指向荒原。然后，那种商人的光彩瞬间又回来了。「不过那个我不卖！那个是免费的。就像坏建议一样！」",
+            "ja": "一瞬、笑顔が凍りつく。まるで釘にかけられた仮面のように。「もう存在しない街で何でも売ってきたんだ、友よ。笑うのをやめた者は歩くのをやめる、そして歩くのをやめた者は永遠にここに留まる、と学んだ」彼はあごで荒野を指す。それから商人の輝きが一瞬で戻ってくる。「だがその話は売り物じゃない！それはタダだ、悪いアドバイスと同じでな！」"
+        },
+        "next": [
+            "buh_root"
+        ],
+        "reward": ""
+    },
+    "buh_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Hoy no, gracias (huir de la oferta)",
+            "en": "🚶  Not today, thanks (flee the sales pitch)",
+            "fr": "🚶  Pas aujourd'hui, merci (fuir l'offre de vente)",
+            "it": "🚶  Oggi no, grazie (fuggire dall'offerta)",
+            "de": "🚶  Heute nicht, danke (dem Verkaufsgespräch entfliehen)",
+            "zh": "🚶  今天不用了，谢谢（逃离这场推销）",
+            "ja": "🚶  今日はいい、ありがとう（売り込みから逃げる）"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

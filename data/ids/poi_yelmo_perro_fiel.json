@@ -1,0 +1,26 @@
+{
+    "id": "poi_yelmo_perro_fiel",
+    "type": "poi",
+    "icon": "🐕",
+    "name": {
+        "es": "El Perro que Aún Espera",
+        "en": "The Dog That Still Waits",
+        "fr": "Le Chien qui Attend Encore",
+        "it": "Il Cane che Aspetta Ancora",
+        "de": "Der Hund, der Noch Wartet",
+        "zh": "仍在等待的狗",
+        "ja": "まだ待ち続ける犬"
+    },
+    "desc": {
+        "es": "Un perro flaco y tembloroso monta guardia junto a una choza hundida, esperando a un amo que no volverá. (PNJ singular).",
+        "en": "A thin, trembling dog stands guard by a caved-in hut, waiting for a master who will not return. (Singular NPC).",
+        "fr": "Un chien maigre et tremblant monte la garde près d'une cabane effondrée, attendant un maître qui ne reviendra pas. (PNJ singulier).",
+        "it": "Un cane magro e tremante monta la guardia accanto a una capanna crollata, aspettando un padrone che non tornerà. (PNG singolare).",
+        "de": "Ein dünner, zitternder Hund hält Wache neben einer eingestürzten Hütte und wartet auf einen Herrn, der nicht zurückkehren wird. (Einzigartiger NPC).",
+        "zh": "一只瘦弱颤抖的狗守在一间倒塌的小屋旁，等待着一位再也不会回来的主人。（唯一NPC）。",
+        "ja": "崩れた小屋のそばで見張りを続ける、痩せて震える犬。戻ってこない主人を待ち続けている。（唯一のNPC）。"
+    },
+    "npc": "poi_yelmo_perro_fiel",
+    "bg": "bg_world_poi_yelmo_perro_fiel.png",
+    "music": "poi_generic"
+}

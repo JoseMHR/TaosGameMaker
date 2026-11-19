@@ -1,0 +1,58 @@
+{
+  "name": {
+    "es": "Coloso de Piedra",
+    "en": "Stone Colossus",
+    "fr": "Colosse de Pierre",
+    "it": "Colosso di Pietra",
+    "de": "Steinkoloss",
+    "zh": "石巨像",
+    "ja": "ストーンコロッサス"
+  },
+  "icon": "🗿",
+  "image": "res://assets/combat/enemies/en_stone_colossus.png",
+  "attack_type": "physical",
+  "base_dodge": 5.0,
+  "dodge_scale": 0.1,
+  "element": "physical",
+  "weak_to": [
+    "magic"
+  ],
+  "resist": [
+    "physical"
+  ],
+  "ai": "aggressive",
+  "xp_reward_base": 250,
+  "xp_reward_scale": 16.0,
+  "gold_reward_base": 150,
+  "gold_reward_scale": 12.0,
+  "skills": [
+    {
+      "level": 1,
+      "skill_id": "cleave"
+    },
+    {
+      "level": 10,
+      "skill_id": "iron_guard"
+    },
+    {
+      "level": 13,
+      "skill_id": "crushing_blow"
+    }
+  ],
+  "loot": [
+    {
+      "kind": "gold",
+      "min": 120,
+      "max": 220
+    },
+    {
+      "kind": "equipment",
+      "chance": 1.0,
+      "level": 4
+    }
+  ],
+  "family": "humanoid",
+  "archetype": "boss",
+  "zone": "zona_3_sylphrena",
+  "is_boss": true
+}

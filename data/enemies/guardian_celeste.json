@@ -1,0 +1,60 @@
+{
+  "name": {
+    "es": "Guardián Celeste",
+    "en": "Celestial Guardian",
+    "fr": "Gardien Céleste",
+    "it": "Guardiano Celeste",
+    "de": "Himmlischer Wächter",
+    "zh": "天界守护者",
+    "ja": "天界の守護者"
+  },
+  "family": "construct",
+  "archetype": "boss",
+  "icon": "🛡️",
+  "image": "res://assets/combat/enemies/en_celestial_guardian.png",
+  "attack_type": "physical",
+  "base_dodge": 12.0,
+  "dodge_scale": 0.2,
+  "element": "holy",
+  "weak_to": [
+    "dark"
+  ],
+  "resist": [
+    "holy",
+    "physical",
+    "wind"
+  ],
+  "ai": "defensive",
+  "xp_reward_base": 2000,
+  "xp_reward_scale": 45.0,
+  "gold_reward_base": 1200,
+  "gold_reward_scale": 40.0,
+  "skills": [
+    {
+      "level": 1,
+      "skill_id": "celestial_blade"
+    },
+    {
+      "level": 30,
+      "skill_id": "divine_shield"
+    },
+    {
+      "level": 50,
+      "skill_id": "holy_judgment"
+    }
+  ],
+  "loot": [
+    {
+      "kind": "gold",
+      "min": 20,
+      "max": 45
+    },
+    {
+      "kind": "equipment",
+      "chance": 0.25,
+      "level": 8
+    }
+  ],
+  "zone": "zona_secreta",
+  "is_boss": true
+}

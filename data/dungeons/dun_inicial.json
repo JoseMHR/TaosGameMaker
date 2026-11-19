@@ -1,0 +1,2327 @@
+{
+    "name": {
+        "es": "La cueva de la Esfera",
+        "en": "The Sphere's Cave",
+        "fr": "La grotte de la Sphère",
+        "it": "La grotta della Sfera",
+        "de": "Die Höhle der Sphäre",
+        "zh": "球体洞穴",
+        "ja": "球の洞窟"
+    },
+    "theme": "temple",
+    "boss": "",
+    "music": "orb_room",
+    "cell_size": 3,
+    "wall_height": 3,
+    "sky": "night_sky",
+    "fill_light": 0.35,
+    "ambient_energy": 0.48,
+    "spawn": {
+        "f": 0,
+        "x": 3,
+        "y": 10
+    },
+    "exit_to": {
+        "x": 19,
+        "y": 41
+    },
+    "floors": [
+        {
+            "name": "Planta 0 (Piso Inferior - Y=0m)",
+            "w": 7,
+            "h": 14,
+            "cells": [
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "ramp"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "hojas_pared",
+                        "wall_snap": true,
+                        "rot": 90
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "text": {
+                            "es": "Tus manos aún huelen a frío y metal. Cierra los ojos si no quieres recordar.",
+                            "en": "Your hands still smell of cold and metal. Close your eyes if you don't want to remember.",
+                            "fr": "Tes mains sentent encore le froid et le métal. Ferme les yeux si tu ne veux pas te souvenir.",
+                            "it": "Le tue mani odorano ancora di freddo e metallo. Chiudi gli occhi se non vuoi ricordare.",
+                            "de": "Deine Hände riechen noch nach Kälte und Metall. Schließ die Augen, wenn du dich nicht erinnern willst.",
+                            "zh": "你的双手仍散发着寒冷与金属的气味。如果你不想记起，就闭上眼睛吧。",
+                            "ja": "お前の手はまだ冷たさと金属の匂いがする。思い出したくないなら、目を閉じろ。"
+                        },
+                        "wall_face": "este",
+                        "text_color": "#8c3832",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "torch",
+                        "torch_face": "norte",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "torch",
+                        "torch_face": "norte",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "text": {
+                            "es": "Alguien te prometió que no pasaría nada. La culpa nunca camina sola.",
+                            "en": "Someone promised you nothing would happen. Guilt never walks alone.",
+                            "fr": "Quelqu'un t'a promis qu'il ne se passerait rien. La culpabilité ne marche jamais seule.",
+                            "it": "Qualcuno ti promise che non sarebbe successo nulla. La colpa non cammina mai da sola.",
+                            "de": "Jemand hat dir versprochen, dass nichts passieren würde. Schuld geht nie allein.",
+                            "zh": "有人向你保证不会有事发生。愧疚从不独自前行。",
+                            "ja": "誰かが、何も起きないと約束した。罪悪感は決して一人では歩かない。"
+                        },
+                        "wall_face": "oeste",
+                        "text_color": "#7e2e28",
+                        "wall": "tex_temple_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "floor": false,
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "cama",
+                        "wall_snap": true
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "hojas_pared",
+                        "wall_snap": true,
+                        "rot": 270
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "barril_manzanas"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "text": {
+                            "es": "¿Cuántas veces has recorrido este pasillo creyendo que era la primera vez?",
+                            "en": "How many times have you walked this hallway believing it was the first time?",
+                            "fr": "Combien de fois as-tu parcouru ce couloir en croyant que c'était la première fois ?",
+                            "it": "Quante volte hai percorso questo corridoio credendo che fosse la prima volta?",
+                            "de": "Wie oft bist du diesen Gang schon entlanggegangen und dachtest, es wäre das erste Mal?",
+                            "zh": "你已经走过这条走廊多少次了，却每次都以为这是第一次？",
+                            "ja": "初めてだと思い込みながら、この廊下を何度歩いてきたのだろうか？"
+                        },
+                        "wall_face": "este",
+                        "text_color": "#84393c",
+                        "text_bg": false,
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "text": {
+                            "es": "El eco de una puerta cerrándose al otro lado. Nadie volverá a abrirla.",
+                            "en": "The echo of a door closing on the other side. No one will ever open it again.",
+                            "fr": "L'écho d'une porte qui se ferme de l'autre côté. Personne ne la rouvrira jamais.",
+                            "it": "L'eco di una porta che si chiude dall'altra parte. Nessuno la riaprirà mai più.",
+                            "de": "Das Echo einer Tür, die sich auf der anderen Seite schließt. Niemand wird sie je wieder öffnen.",
+                            "zh": "另一端传来一扇门关闭的回声。再也没有人会把它打开。",
+                            "ja": "向こう側でドアが閉まる音の残響。誰も二度とそれを開けることはない。"
+                        },
+                        "wall_face": "oeste",
+                        "text_color": "#7e3034",
+                        "wall": "tex_temple_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "armario_libreria",
+                        "wall_snap": true,
+                        "rot": 270
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "torch",
+                        "torch_face": "sur",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "torch",
+                        "torch_face": "sur",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "door",
+                        "state": "closed",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Planta 1 (Piso Intermedio - Y=3m)",
+            "w": 7,
+            "h": 12,
+            "cells": [
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "torch",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "arrow": "left",
+                        "text": {
+                            "es": "Hacia el olvido",
+                            "en": "Toward oblivion",
+                            "fr": "Vers l'oubli",
+                            "it": "Verso l'oblio",
+                            "de": "Zur Vergessenheit",
+                            "zh": "通往遗忘",
+                            "ja": "忘却へ"
+                        },
+                        "text_color": "#dcd0b8",
+                        "arrow_color": "#5b4a25",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "ramp"
+                    },
+                    {
+                        "t": "wall",
+                        "arrow": "right",
+                        "text": {
+                            "es": "Hacia la verdad",
+                            "en": "Toward the truth",
+                            "fr": "Vers la vérité",
+                            "it": "Verso la verità",
+                            "de": "Zur Wahrheit",
+                            "zh": "通往真相",
+                            "ja": "真実へ"
+                        },
+                        "text_color": "#dcd0b8",
+                        "arrow_color": "#5b4a25",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "torch",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "text": {
+                            "es": "Una risa pequeña que se corta de golpe. Y después... el silencio.",
+                            "en": "A small laugh that cuts off abruptly. And then... silence.",
+                            "fr": "Un petit rire qui s'arrête net. Et ensuite... le silence.",
+                            "it": "Una risatina che si interrompe di colpo. E poi... il silenzio.",
+                            "de": "Ein kleines Lachen, das abrupt abbricht. Und danach... die Stille.",
+                            "zh": "一阵稚嫩的笑声戛然而止。然后……是寂静。",
+                            "ja": "小さな笑い声が、突然途切れる。そしてその後は……沈黙。"
+                        },
+                        "text_color": "#8a322e",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall_face": "este",
+                        "text": {
+                            "es": "Este lugar no es una tumba de reyes. Es la celda de alguien que huye de la vigilia.",
+                            "en": "This place is no tomb of kings. It's the cell of someone fleeing wakefulness.",
+                            "fr": "Ce lieu n'est pas une tombe de rois. C'est la cellule de quelqu'un qui fuit l'éveil.",
+                            "it": "Questo luogo non è una tomba di re. È la cella di qualcuno che fugge dalla veglia.",
+                            "de": "Dieser Ort ist kein Königsgrab. Es ist die Zelle von jemandem, der vor dem Wachsein flieht.",
+                            "zh": "这里不是帝王的陵墓，而是一个逃避清醒的人的囚室。",
+                            "ja": "ここは王の墓などではない。覚醒から逃げる者の独房だ。"
+                        },
+                        "text_bg": false,
+                        "text_color": "#8c7e6c",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "text": {
+                            "es": "Sigue caminando. Quizá si llegas al final, la memoria te devuelva lo que perdiste.",
+                            "en": "Keep walking. Maybe if you reach the end, memory will give back what you lost.",
+                            "fr": "Continue à marcher. Peut-être que si tu atteins la fin, la mémoire te rendra ce que tu as perdu.",
+                            "it": "Continua a camminare. Forse se arrivi alla fine, il ricordo ti restituirà ciò che hai perso.",
+                            "de": "Geh weiter. Vielleicht gibt dir die Erinnerung, wenn du das Ende erreichst, zurück, was du verloren hast.",
+                            "zh": "继续走下去吧。也许当你走到尽头，记忆会把你失去的东西还给你。",
+                            "ja": "歩き続けろ。もし最後にたどり着けば、記憶は失ったものを返してくれるかもしれない。"
+                        },
+                        "text_color": "#823630",
+                        "wall": "tex_temple_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall_face": "norte",
+                        "text": {
+                            "es": "La casa quedó a oscuras. Solo se escucha el viento en las ventanas vacías.",
+                            "en": "The house went dark. Only the wind can be heard in the empty windows.",
+                            "fr": "La maison est restée dans l'obscurité. On n'entend plus que le vent dans les fenêtres vides.",
+                            "it": "La casa è rimasta al buio. Si sente solo il vento nelle finestre vuote.",
+                            "de": "Das Haus blieb im Dunkeln. Nur der Wind ist in den leeren Fenstern zu hören.",
+                            "zh": "房子已陷入黑暗。只能听见风穿过空荡窗户的声音。",
+                            "ja": "家は闇に沈んだ。空っぽの窓に吹く風の音だけが聞こえる。"
+                        },
+                        "text_color": "#9a8c78",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "lever",
+                        "eid": "lever_left",
+                        "targets": [
+                            {
+                                "eid": "floor_0_lava",
+                                "action": "convert_lava"
+                            }
+                        ],
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "arrow": "left",
+                        "arrow_color": "gold",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "arrow": "right",
+                        "arrow_color": "gold",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "lever",
+                        "eid": "lever_right",
+                        "targets": [
+                            {
+                                "eid": "floor_0_lava",
+                                "action": "convert_lava"
+                            }
+                        ],
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "torch",
+                        "torch_face": "sur",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "torch",
+                        "torch_face": "sur",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Planta 2 (Piso Superior - Y=6m)",
+            "w": 8,
+            "h": 40,
+            "cells": [
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "torch",
+                        "torch_face": "oeste",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "torch",
+                        "torch_face": "este",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "grab_column",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "torch",
+                        "torch_face": "oeste",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "torch",
+                        "torch_face": "este",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "grab_column",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "purify_poison_water",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "torch",
+                        "torch_face": "oeste",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "torch",
+                        "torch_face": "este",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "spikes"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "spikes"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "spikes"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "spikes"
+                    },
+                    {
+                        "t": "spikes"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_campfire",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_roots",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_campfire",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "torch",
+                        "torch_face": "oeste",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_ice_block",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "teleport",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "elem_ice_block",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "torch",
+                        "torch_face": "este",
+                        "tex": "tex_temple_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_temple_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_temple_floor"
+                    }
+                ]
+            ]
+        }
+    ],
+    "tex_wall": "tex_temple_wall",
+    "tex_floor": "tex_temple_floor",
+    "ambient_color": "#241d2c",
+    "fog": true,
+    "fog_color": "#181220",
+    "fog_density": 0.025,
+    "void_type": "abyss"
+}

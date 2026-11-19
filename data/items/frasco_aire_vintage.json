@@ -1,0 +1,23 @@
+{
+    "name": {
+        "es": "Frasco de Aire Vintage",
+        "en": "Vintage Air Flask",
+        "fr": "Flacon d'Air Vintage",
+        "it": "Fiasco d'Aria Vintage",
+        "de": "Vintage-Luftflakon",
+        "zh": "复古空气瓶",
+        "ja": "ヴィンテージエアフラスコ"
+    },
+    "desc": {
+        "es": "Un frasco sellado que contiene, según su vendedor, aire de una añada excepcional. En realidad contiene exactamente lo mismo que hay fuera del frasco, solo que embotellado con una etiqueta muy elegante. Objeto de coleccionista para el estafado orgulloso.",
+        "en": "A sealed flask containing, according to its seller, air of an exceptional vintage. In reality it contains exactly the same as what's outside the flask, only bottled with a very elegant label. A collector's item for the proud swindled.",
+        "fr": "Un flacon scellé contenant, selon son vendeur, de l'air d'un millésime exceptionnel. En réalité, il contient exactement la même chose qu'à l'extérieur du flacon, seulement embouteillé avec une étiquette très élégante. Objet de collection pour l'escroqué fier.",
+        "it": "Un fiasco sigillato che contiene, secondo il venditore, aria di un'annata eccezionale. In realtà contiene esattamente ciò che c'è fuori dal fiasco, solo imbottigliato con un'etichetta molto elegante. Oggetto da collezione per il truffato orgoglioso.",
+        "de": "Ein versiegelter Flakon, der laut Verkäufer Luft eines außergewöhnlichen Jahrgangs enthält. In Wirklichkeit enthält er genau dasselbe wie außerhalb des Flakons, nur mit einem sehr eleganten Etikett abgefüllt. Sammlerstück für den stolzen Betrogenen.",
+        "zh": "一个密封的瓶子，据卖家所说装有绝佳年份的空气。实际上里面装的和瓶外的空气毫无二致，只是贴了一张非常华丽的标签。是骄傲的受骗者的收藏品。",
+        "ja": "販売者曰く特別な年代の空気が入っているという密封された瓶。実際には瓶の外の空気と全く同じものが入っているだけで、ただ非常に上品なラベルが貼られているに過ぎない。誇り高き詐欺被害者のためのコレクターズアイテム。"
+    },
+    "icon": "🎐",
+    "category": "important",
+    "usable": false
+}

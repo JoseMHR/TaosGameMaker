@@ -1,0 +1,46 @@
+{
+    "name": {
+        "es": "Báculo de Plasma",
+        "en": "Plasma Staff",
+        "fr": "Bâton de Plasma",
+        "it": "Bastone al Plasma",
+        "de": "Plasmastab",
+        "zh": "等离子法杖",
+        "ja": "プラズマスタッフ"
+    },
+    "desc": {
+        "es": "Canalizador hiperbólico de cargas eléctricas y plasma ionizado.",
+        "en": "Hyperbolic channeler of electrical charges and ionized plasma.",
+        "fr": "Canaliseur hyperbolique de charges électriques et de plasma ionisé.",
+        "it": "Canalizzatore iperbolico di cariche elettriche e plasma ionizzato.",
+        "de": "Hyperbolischer Kanalisierer für elektrische Ladungen und ionisiertes Plasma.",
+        "zh": "能引导电荷与电离等离子体的双曲导管。",
+        "ja": "電荷とイオン化プラズマを導く双曲線型のチャネラー。"
+    },
+    "icon": "🪄",
+    "category": "equipment",
+    "usable": false,
+    "slot": "weapon",
+    "tier": 6,
+    "element": "lightning",
+    "bonuses": {
+        "int": 28
+    },
+    "combat": {
+        "mag_damage": 258
+    },
+    "traits": [
+        {
+            "type": "element_attack",
+            "element": "lightning",
+            "min_refine": 0,
+            "desc": "Hechizos imbuidos en Rayo/Plasma"
+        },
+        {
+            "type": "lightning_damage_bonus",
+            "value": 0.2,
+            "min_refine": 5,
+            "desc": "+20% Daño de habilidades eléctricas"
+        }
+    ]
+}

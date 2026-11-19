@@ -1,0 +1,32 @@
+{
+    "name": {
+        "es": "Anillo de Rubí Reforzado",
+        "en": "Reinforced Ruby Ring",
+        "fr": "Anneau de Rubis Renforcé",
+        "it": "Anello di Rubino Rinforzato",
+        "de": "Verstärkter Rubinring",
+        "zh": "强化红宝石戒指",
+        "ja": "強化ルビーリング"
+    },
+    "desc": {
+        "es": "Un rubí engastado en un aro de acero del desierto. Su brillo interior pulsa al ritmo del corazón de quien lo lleva.",
+        "en": "A ruby set in a band of desert steel. Its inner glow pulses to the wearer's heartbeat.",
+        "fr": "Un rubis serti dans un anneau d'acier du désert. Sa lueur intérieure pulse au rythme du cœur de celui qui le porte.",
+        "it": "Un rubino incastonato in un anello di acciaio del deserto. Il suo bagliore interno pulsa al ritmo del cuore di chi lo indossa.",
+        "de": "Ein Rubin, gefasst in einem Ring aus Wüstenstahl. Sein inneres Leuchten pulsiert im Takt des Herzschlags des Trägers.",
+        "zh": "镶嵌在沙漠钢戒环上的红宝石。其内在的光辉随佩戴者的心跳搏动。",
+        "ja": "砂漠の鋼の輪にはめ込まれたルビー。その内なる輝きは装着者の鼓動に合わせて脈打つ。"
+    },
+    "icon": "💍",
+    "category": "equipment",
+    "usable": false,
+    "slot": "accessory",
+    "tier": 5,
+    "bonuses": {
+        "luk": 8,
+        "int": 5
+    },
+    "combat": {
+        "mag_damage": 70
+    }
+}

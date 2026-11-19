@@ -1,0 +1,26 @@
+{
+    "id": "poi_final_juez_culpa",
+    "type": "poi",
+    "icon": "⚖️",
+    "name": {
+        "es": "El Juez de la Culpa",
+        "en": "The Judge of Guilt",
+        "fr": "Le Juge de la Culpabilité",
+        "it": "Il Giudice della Colpa",
+        "de": "Der Richter der Schuld",
+        "zh": "愧疚的审判者",
+        "ja": "罪悪感の裁判官"
+    },
+    "desc": {
+        "es": "Una figura encapuchada sentada tras una balanza espectral, que aguarda para pesar tu culpa en el silencio del abismo. (PNJ singular).",
+        "en": "A hooded figure seated behind a spectral scale, waiting to weigh your guilt in the silence of the abyss. (Singular NPC).",
+        "fr": "Une silhouette encapuchonnée assise derrière une balance spectrale, attendant de peser ta culpabilité dans le silence de l'abîme. (PNJ singulier).",
+        "it": "Una figura incappucciata seduta dietro una bilancia spettrale, in attesa di pesare la tua colpa nel silenzio dell'abisso. (PNG singolare).",
+        "de": "Eine vermummte Gestalt sitzt hinter einer geisterhaften Waage und wartet darauf, deine Schuld in der Stille des Abgrunds zu wiegen. (Einzigartiger NPC).",
+        "zh": "一个戴兜帽的身影坐在幽灵天平之后，在深渊的寂静中等待着称量你的愧疚。（唯一NPC）。",
+        "ja": "深淵の静寂の中、亡霊のような天秤の向こうに座り、お前の罪悪感を量る時を待つフード姿の人物。（唯一のNPC）。"
+    },
+    "npc": "poi_final_juez_culpa",
+    "bg": "bg_world_poi_final_juez_culpa.png",
+    "music": "creepy"
+}

@@ -1,0 +1,148 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "La Torre que se Rinde Despacio",
+            "en": "The Tower That Surrenders Slowly",
+            "fr": "La Tour qui Cède Lentement",
+            "it": "La Torre che Cede Lentamente",
+            "de": "Der Turm, der sich Langsam Ergibt",
+            "zh": "缓缓倾颓的高塔",
+            "ja": "ゆっくりと崩れゆく塔"
+        },
+        "next": [],
+        "reward": "avatar=🗼;bg=0.12,0.12,0.14"
+    },
+    "torre_root": {
+        "type": "message",
+        "text": {
+            "es": "Una torre de mármol se inclina sobre la plaza en un ángulo imposible, congelada a mitad de una caída que empezó hace cien años y nunca termina. Una escalera de caracol trepa por su interior hacia una campana muda en lo alto. Un cartel grabado advierte: 'El que suba verá lejos. El que mire abajo, caerá.' Los sabios de Celestia la rodean con respeto y nadie sube: dicen que arriba el viento te muestra tu vida entera de un solo golpe, y no todos aguantan verla.",
+            "en": "A marble tower leans over the square at an impossible angle, frozen mid-fall in a collapse that began a hundred years ago and never ends. A spiral staircase climbs its interior toward a silent bell at the top. An engraved sign warns: 'Who climbs will see far. Who looks down will fall.' The sages of Celestia circle it with respect and no one climbs: they say that up there the wind shows you your whole life in a single blow, and not everyone can bear the sight.",
+            "fr": "Une tour de marbre penche sur la place à un angle impossible, figée en pleine chute qui a commencé il y a cent ans et ne se termine jamais. Un escalier en colimaçon grimpe à l'intérieur vers une cloche muette au sommet. Une pancarte gravée avertit : « Celui qui monte verra loin. Celui qui regarde en bas, tombera. » Les sages de Celestia l'entourent avec respect et personne n'y monte : on dit qu'en haut, le vent te montre toute ta vie d'un seul coup, et que tout le monde ne peut supporter de la voir.",
+            "it": "Una torre di marmo si inclina sulla piazza a un angolo impossibile, congelata a metà di una caduta iniziata cento anni fa e mai finita. Una scala a chiocciola sale al suo interno verso una campana muta in cima. Un cartello inciso avverte: 'Chi sale vedrà lontano. Chi guarda in basso, cadrà.' I saggi di Celestia la circondano con rispetto e nessuno sale: dicono che lassù il vento ti mostra tutta la tua vita in un colpo solo, e non tutti riescono a sopportarne la vista.",
+            "de": "Ein Marmorturm neigt sich in einem unmöglichen Winkel über den Platz, mitten in einem Fall erstarrt, der vor hundert Jahren begann und nie endet. Eine Wendeltreppe steigt in seinem Inneren zu einer stummen Glocke ganz oben hinauf. Ein eingraviertes Schild warnt: „Wer hinaufsteigt, wird weit sehen. Wer hinabblickt, wird fallen.“ Die Weisen von Celestia umgeben ihn respektvoll und niemand steigt hinauf: man sagt, dort oben zeigt dir der Wind dein ganzes Leben in einem einzigen Schlag, und nicht jeder erträgt diesen Anblick.",
+            "zh": "一座大理石塔以一个不可能的角度倾斜在广场上，凝固在一场始于百年前、却永远不会结束的倒塌之中。一道螺旋楼梯从塔内攀升至顶端一口沉默的钟。一块雕刻的告示牌警告道：「登塔者将望见远方。俯视者，将坠落。」塞莱斯提亚的贤者们怀着敬意围绕着它，却无人攀登：据说在塔顶，风会将你的一生一次性展现给你，而并非所有人都能承受这份景象。",
+            "ja": "大理石の塔が広場の上であり得ない角度に傾き、百年前に始まって決して終わらない崩落の途中で凍りついている。螺旋階段がその内部を、頂上の沈黙した鐘へと登っていく。刻まれた看板が警告する：「登る者は遠くを見る。下を見る者は落ちる」。セレスティアの賢者たちは敬意を持ってそれを取り囲み、誰も登らない——そこでは風が一瞬にして全人生を見せると言われており、誰もがその光景に耐えられるわけではないのだと。"
+        },
+        "next": [
+            "torre_opt_subir",
+            "torre_opt_estudiar",
+            "torre_opt_bajar"
+        ],
+        "reward": ""
+    },
+    "torre_opt_subir": {
+        "type": "option",
+        "text": {
+            "es": "🧗  Subir hasta arriba del todo, cueste lo que cueste ver",
+            "en": "🧗  Climb all the way to the top, whatever you may have to see",
+            "fr": "🧗  Monter jusqu'en haut, quoi qu'il t'en coûte de voir",
+            "it": "🧗  Salire fino in cima, qualunque cosa ti costi vedere",
+            "de": "🧗  Ganz nach oben klettern, koste es, was es wolle zu sehen",
+            "zh": "🧗  一路爬到顶端，无论要看到什么代价都在所不惜",
+            "ja": "🧗  何を見ることになろうと、頂上まで登り切る"
+        },
+        "next": [
+            "torre_msg_subir"
+        ],
+        "reward": ""
+    },
+    "torre_msg_subir": {
+        "type": "message",
+        "text": {
+            "es": "Subes los escalones inclinados con el corazón en un puño, sin mirar abajo ni una vez. Arriba, junto a la campana muda, el viento te golpea con imágenes: todo lo que has hecho y todo lo que no te atreviste a hacer, a la vez, sin filtro. Duele. Aprietas los dientes y lo sostienes hasta el final, sin apartar la vista. Cuando el vendaval amaina, sigues de pie. No te has caído. Bajas temblando pero erguido: has mirado tu vida entera de frente y has aguantado. Poca gente puede decir lo mismo.",
+            "en": "You climb the tilted steps with your heart in your throat, never once looking down. At the top, beside the silent bell, the wind strikes you with images: everything you've done and everything you didn't dare to do, all at once, unfiltered. It hurts. You grit your teeth and hold it to the end, never looking away. When the gale dies, you're still standing. You haven't fallen. You descend trembling but upright: you've looked at your whole life head-on and endured. Few people can say the same.",
+            "fr": "Tu montes les marches inclinées le cœur serré, sans jamais regarder en bas. En haut, près de la cloche muette, le vent te frappe d'images : tout ce que tu as fait et tout ce que tu n'as pas osé faire, en même temps, sans filtre. Ça fait mal. Tu serres les dents et tiens bon jusqu'au bout, sans détourner le regard. Quand la tempête s'apaise, tu es toujours debout. Tu n'es pas tombé. Tu redescends tremblant mais droit : tu as regardé toute ta vie en face et tu as tenu bon. Peu de gens peuvent en dire autant.",
+            "it": "Sali i gradini inclinati con il cuore in gola, senza guardare mai in basso. In cima, accanto alla campana muta, il vento ti colpisce con immagini: tutto ciò che hai fatto e tutto ciò che non hai osato fare, contemporaneamente, senza filtro. Fa male. Stringi i denti e resisti fino alla fine, senza distogliere lo sguardo. Quando la bufera si placa, sei ancora in piedi. Non sei caduto. Scendi tremante ma eretto: hai guardato tutta la tua vita in faccia e hai retto. Poche persone possono dire lo stesso.",
+            "de": "Du steigst die schrägen Stufen hinauf, das Herz zugeschnürt, ohne ein einziges Mal nach unten zu schauen. Oben, neben der stummen Glocke, trifft dich der Wind mit Bildern: alles, was du getan hast, und alles, was du nicht zu tun wagtest, gleichzeitig, ungefiltert. Es tut weh. Du beißt die Zähne zusammen und hältst bis zum Ende durch, ohne wegzuschauen. Als der Sturm nachlässt, stehst du noch. Du bist nicht gefallen. Du steigst zitternd, aber aufrecht hinab: du hast dein ganzes Leben ins Gesicht geschaut und durchgehalten. Nur wenige können dasselbe sagen.",
+            "zh": "你心提到嗓子眼，爬上倾斜的台阶，一次也没有向下看。在塔顶，紧挨着那口沉默的钟，狂风用画面猛烈地击打着你：你做过的一切，以及你不敢做的一切，同时涌来，毫无过滤。这很痛苦。你咬紧牙关，坚持到最后，从未移开目光。当狂风平息时，你依然站立着。你没有跌倒。你颤抖着走下来，却依然挺直：你直面了自己的整个人生，并且撑过来了。很少有人能说出同样的话。",
+            "ja": "傾いた階段を、胸を締め付けられながら、一度も下を見ずに登る。頂上、沈黙の鐘のそばで、風がイメージでお前を打ちのめす——してきたこと、そしてしようとしなかったことすべてが、同時に、フィルターなしで。痛い。歯を食いしばり、目をそらさずに最後まで耐える。突風が収まると、まだ立っている。落ちなかった。震えながらも真っ直ぐに降りていく——自分の人生全体を正面から見つめ、耐え抜いたのだ。同じことを言える者はほとんどいない。"
+        },
+        "next": [
+            "torre_msg_subir2"
+        ],
+        "reward": ""
+    },
+    "torre_msg_subir2": {
+        "type": "message",
+        "text": {
+            "es": "Al pisar tierra firme, la campana muda de arriba suena por primera vez en un siglo: un tañido limpio, grave, que recorre toda Celestia. Los sabios te miran boquiabiertos. No dices nada. Algunas cosas se tocan una vez en la vida.",
+            "en": "As you set foot on solid ground, the silent bell above rings for the first time in a century: a clean, deep toll that rolls across all of Celestia. The sages stare, open-mouthed. You say nothing. Some things you ring once in a lifetime.",
+            "fr": "En posant le pied sur la terre ferme, la cloche muette là-haut sonne pour la première fois depuis un siècle : un tintement clair et grave qui parcourt toute Celestia. Les sages te regardent bouche bée. Tu ne dis rien. Certaines choses, on ne les vit qu'une fois dans sa vie.",
+            "it": "Nel mettere piede sulla terraferma, la campana muta lassù suona per la prima volta in un secolo: un rintocco pulito e grave che percorre tutta Celestia. I saggi ti guardano a bocca aperta. Non dici nulla. Alcune cose si toccano una sola volta nella vita.",
+            "de": "Als du festen Boden betrittst, läutet die stumme Glocke dort oben zum ersten Mal seit einem Jahrhundert: ein klarer, tiefer Klang, der ganz Celestia durchzieht. Die Weisen starren dich mit offenem Mund an. Du sagst nichts. Manche Dinge berührt man nur einmal im Leben.",
+            "zh": "当你的脚踏上坚实的地面时，塔顶那口沉默的钟一百年来第一次敲响：一声清澈而低沉的钟声传遍整个塞莱斯提亚。贤者们目瞪口呆地看着你。你什么也没说。有些事，一生只能触碰一次。",
+            "ja": "しっかりとした地面に足をつけた瞬間、上の沈黙の鐘が百年ぶりに鳴る——澄んだ、深い響きがセレスティア全体に広がっていく。賢者たちは口を開けたままお前を見つめる。お前は何も言わない。一生に一度だけ鳴らすべきものがあるのだ。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:valor=+2;faceta:cordura=-1"
+    },
+    "torre_opt_estudiar": {
+        "type": "option",
+        "text": {
+            "es": "📐  Estudiar por qué la torre no termina de caer",
+            "en": "📐  Study why the tower never finishes falling",
+            "fr": "📐  Étudier pourquoi la tour n'en finit jamais de tomber",
+            "it": "📐  Studiare perché la torre non finisce mai di cadere",
+            "de": "📐  Untersuchen, warum der Turm nie zu Ende fällt",
+            "zh": "📐  研究这座塔为何永远无法彻底倒塌",
+            "ja": "📐  なぜ塔が決して倒れきらないのかを調べる"
+        },
+        "next": [
+            "torre_msg_estudiar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "torre_msg_estudiar": {
+        "type": "message",
+        "text": {
+            "es": "Rodeas la base midiendo ángulos y grietas. La torre debería haberse desplomado hace décadas: desafía toda ley conocida. En la primera piedra hallas la clave, grabada por su arquitecto: 'La construí inclinada a propósito. Una torre que cae para siempre no cae nunca. Como el duelo: mientras dura, sostiene.' Es a la vez un prodigio de ingeniería y una metáfora demasiado exacta. Te alejas admirando el ingenio de fabricar una caída eterna para no tener que aceptar el final.",
+            "en": "You circle the base measuring angles and cracks. The tower should have collapsed decades ago: it defies every known law. On the first stone you find the key, carved by its architect: 'I built it leaning on purpose. A tower forever falling never falls. Like grief: as long as it lasts, it holds you up.' It's at once a marvel of engineering and a metaphor too exact. You leave admiring the ingenuity of crafting an eternal fall so as never to accept the end.",
+            "fr": "Tu fais le tour de la base en mesurant les angles et les fissures. La tour aurait dû s'effondrer il y a des décennies : elle défie toute loi connue. Sur la première pierre, tu trouves la clé, gravée par son architecte : « Je l'ai construite penchée exprès. Une tour qui tombe pour toujours ne tombe jamais. Comme le deuil : tant qu'il dure, il te soutient. » C'est à la fois un prodige d'ingénierie et une métaphore trop exacte. Tu t'éloignes en admirant l'ingéniosité de fabriquer une chute éternelle pour ne jamais avoir à accepter la fin.",
+            "it": "Giri intorno alla base misurando angoli e crepe. La torre sarebbe dovuta crollare decenni fa: sfida ogni legge conosciuta. Sulla prima pietra trovi la chiave, incisa dal suo architetto: 'L'ho costruita inclinata apposta. Una torre che cade per sempre non cade mai. Come il lutto: finché dura, sostiene.' È al tempo stesso un prodigio di ingegneria e una metafora troppo esatta. Ti allontani ammirando l'ingegnosità di fabbricare una caduta eterna per non dover mai accettare la fine.",
+            "de": "Du umkreist die Basis und misst Winkel und Risse. Der Turm hätte vor Jahrzehnten einstürzen müssen: er trotzt jedem bekannten Gesetz. Auf dem ersten Stein findest du den Schlüssel, von seinem Architekten eingemeißelt: „Ich baute ihn absichtlich schräg. Ein Turm, der ewig fällt, fällt nie. Wie Trauer: solange sie andauert, trägt sie dich.“ Es ist zugleich ein Wunderwerk der Ingenieurskunst und eine allzu genaue Metapher. Du gehst weg und bewunderst den Einfallsreichtum, einen ewigen Fall zu erschaffen, um das Ende niemals akzeptieren zu müssen.",
+            "zh": "你绕着地基测量角度和裂缝。这座塔本该在几十年前就已倒塌：它违反了一切已知的定律。在第一块石头上，你发现了答案——建筑师亲手刻下的话：「我故意把它建成倾斜的。一座永远在倒塌的塔永远不会倒塌。就像悲伤一样：只要它持续着，它就在支撑着你。」这既是一项工程学奇迹，也是一个过于精确的隐喻。你离开时，赞叹着这份巧思——制造一场永恒的坠落，只为永远不必接受终结。",
+            "ja": "角度とひび割れを測りながら基部を回る。この塔は何十年も前に崩壊しているはずだ——既知のあらゆる法則に逆らっている。最初の石に、建築家自身が刻んだ鍵が見つかる。「わざと傾けて建てた。永遠に倒れ続ける塔は決して倒れない。悲しみのように——それが続く限り、それはお前を支える」それは工学の驚異であると同時に、あまりにも的確な比喩でもある。終わりを決して受け入れずに済むよう、永遠の落下を作り出す独創性に感嘆しながら立ち去る。"
+        },
+        "next": [
+            "torre_root"
+        ],
+        "reward": "faceta:inteligencia=+1"
+    },
+    "torre_opt_bajar": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Mejor no tentar a la suerte. Dejar la torre en paz",
+            "en": "🚶  Best not to tempt fate. Leave the tower in peace",
+            "fr": "🚶  Mieux vaut ne pas tenter le sort. Laisser la tour en paix",
+            "it": "🚶  Meglio non tentare la sorte. Lasciare la torre in pace",
+            "de": "🚶  Besser nicht das Schicksal herausfordern. Den Turm in Frieden lassen",
+            "zh": "🚶  最好别试探命运。让这座塔安静地待着",
+            "ja": "🚶  運を試さない方がいい。塔をそっとしておく"
+        },
+        "next": [
+            "torre_msg_bajar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "torre_msg_bajar": {
+        "type": "message",
+        "text": {
+            "es": "Miras la escalera inclinada, luego la campana muda allá arriba, y decides que hoy no. Te dices que no tienes por qué demostrar nada, que ver tu vida entera de un vistazo no le hace bien a nadie. Puede que sea sensatez pura. Pero al alejarte, una parte de ti sabe que la torre seguirá ahí, esperando, y que has aplazado una cita contigo mismo que tarde o temprano tendrás que cumplir.",
+            "en": "You look at the tilted staircase, then the silent bell up there, and decide not today. You tell yourself you have nothing to prove, that seeing your whole life at a glance does no one any good. Maybe it's pure good sense. But as you walk away, a part of you knows the tower will still be there, waiting, and that you've postponed an appointment with yourself that sooner or later you'll have to keep.",
+            "fr": "Tu regardes l'escalier incliné, puis la cloche muette là-haut, et décides que ce n'est pas pour aujourd'hui. Tu te dis que tu n'as rien à prouver, que voir toute sa vie d'un coup d'œil ne fait de bien à personne. C'est peut-être du pur bon sens. Mais en t'éloignant, une partie de toi sait que la tour restera là, à attendre, et que tu as reporté un rendez-vous avec toi-même que tu devras tôt ou tard honorer.",
+            "it": "Guardi la scala inclinata, poi la campana muta lassù, e decidi che oggi no. Ti dici che non hai nulla da dimostrare, che vedere tutta la tua vita in un colpo d'occhio non fa bene a nessuno. Forse è pura saggezza. Ma allontanandoti, una parte di te sa che la torre resterà lì, ad aspettare, e che hai rimandato un appuntamento con te stesso che prima o poi dovrai onorare.",
+            "de": "Du schaust die schräge Treppe an, dann die stumme Glocke dort oben, und entscheidest, dass heute nicht der Tag ist. Du sagst dir, du hast nichts zu beweisen, dass es niemandem hilft, das ganze Leben mit einem Blick zu sehen. Vielleicht ist das pure Vernunft. Aber während du weggehst, weiß ein Teil von dir, dass der Turm dort bleiben wird, wartend, und dass du eine Verabredung mit dir selbst aufgeschoben hast, die du früher oder später einhalten musst.",
+            "zh": "你看着那道倾斜的楼梯，又看了看塔顶那口沉默的钟，决定今天不是时候。你告诉自己，你没有什么需要证明的，一眼看尽整个人生对谁都没有好处。也许这纯粹是理智的选择。但在你离开的同时，你内心深处知道，这座塔会一直在那里等待着，而你只是推迟了一场迟早都要赴约的、与自己的约会。",
+            "ja": "傾いた階段を、そして頭上の沈黙の鐘を見て、今日ではないと決める。証明すべきことは何もない、一目で人生全体を見ることは誰の得にもならないと自分に言い聞かせる。それは純粋な分別かもしれない。だが立ち去りながら、お前の一部は分かっている——塔はそこに残り、待ち続け、遅かれ早かれ果たさねばならない自分自身との約束を先延ばしにしたのだと。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:valor=-1"
+    }
+}

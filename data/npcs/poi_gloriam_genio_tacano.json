@@ -1,0 +1,150 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Genio Tacaño",
+            "en": "The Stingy Genie",
+            "fr": "Le Génie Radin",
+            "it": "Il Genio Tirchio",
+            "de": "Der Geizige Geist",
+            "zh": "吝啬的精灵",
+            "ja": "けちな魔神"
+        },
+        "next": [],
+        "reward": "avatar=🪔;bg=0.14,0.11,0.06"
+    },
+    "genio_root": {
+        "type": "message",
+        "text": {
+            "es": "Tropiezas con una lámpara medio enterrada. Al frotarla, brota un genio enorme y musculoso que, en lugar de una voz atronadora, suelta un bostezo. 'Ay, otro. Vale, mira: tres deseos, sí, lo típico. Pero te aviso ya de que llevo cuatro mil años haciendo esto y estoy QUEMADísimo, así que voy a interpretar lo que pidas de la forma que menos me haga currar. Reglas de la casa. ¿Y bien? Sorpréndeme, pero sin pasarte.'",
+            "en": "You trip over a half-buried lamp. Rubbing it, out billows an enormous, muscular genie who, instead of a thunderous voice, lets out a yawn. 'Ugh, another one. Fine, look: three wishes, yeah, the usual. But I'm warning you now, I've been doing this for four thousand years and I am SO burnt out, so I'm going to interpret whatever you ask in whatever way makes me work the least. House rules. Well? Surprise me, but don't overdo it.'",
+            "fr": "Tu trébuches sur une lampe à moitié enterrée. En la frottant, en sort un génie énorme et musclé qui, au lieu d'une voix tonitruante, laisse échapper un bâillement. « Ah, encore un. Bon, écoute : trois vœux, oui, le classique. Mais je te préviens tout de suite, ça fait quatre mille ans que je fais ça et je suis complètement CRAMÉ, donc je vais interpréter ce que tu demandes de la façon qui me fera le moins bosser. Règles de la maison. Alors ? Surprends-moi, mais n'en fais pas trop. »",
+            "it": "Inciampi in una lampada mezza sepolta. Sfregandola, ne esce un genio enorme e muscoloso che, invece di una voce tonante, emette uno sbadiglio. 'Ah, un altro. Va bene, guarda: tre desideri, sì, il solito. Ma ti avviso subito che sono quattromila anni che faccio questo e sono COMPLETAMENTE ESAURITO, quindi interpreterò quello che chiedi nel modo che mi faccia lavorare di meno. Regole della casa. E allora? Sorprendimi, ma senza esagerare.'",
+            "de": "Du stolperst über eine halb vergrabene Lampe. Beim Reiben erscheint ein riesiger, muskulöser Geist, der statt einer donnernden Stimme ein Gähnen ausstößt. „Ach, noch einer. Na gut, hör zu: drei Wünsche, ja, das Übliche. Aber ich sage dir gleich, ich mache das seit viertausend Jahren und bin völlig AUSGEBRANNT, also werde ich alles, worum du bittest, so auslegen, dass es mir am wenigsten Arbeit macht. Hausregeln. Also? Überrasche mich, aber übertreib's nicht.“",
+            "zh": "你被一盏半埋在地下的神灯绊倒。摩擦它之后，冒出了一个巨大而肌肉发达的精灵，他没有发出雷鸣般的声音，反而打了个哈欠。「唉，又一个。好吧，听着：三个愿望，对，老一套。但我先提醒你，我干这个已经四千年了，早就精疲力竭了，所以我会用最省事的方式来解读你许的愿。这是本店的规矩。好了？给我个惊喜吧，但别太过分。」",
+            "ja": "半分埋もれたランプにつまずく。擦ってみると、雷鳴のような声の代わりに欠伸をする巨大で筋肉質な魔神が現れる。「ああ、また一人か。よし、聞け——願いは三つ、まあ普通だな。だが先に言っておくが、俺はこれを四千年もやっていて、もうすっかり燃え尽きているんだ。だから、お前の頼み事は俺が一番働かなくて済むように解釈させてもらう。これがこの店のルールだ。さて？驚かせてくれ、ただしやりすぎるなよ」"
+        },
+        "next": [
+            "genio_opt_riqueza",
+            "genio_opt_listo",
+            "genio_opt_libertad",
+            "genio_opt_salir"
+        ],
+        "reward": ""
+    },
+    "genio_opt_riqueza": {
+        "type": "option",
+        "text": {
+            "es": "💰  ¡Deseo ser inmensamente rico!",
+            "en": "💰  I wish to be immensely rich!",
+            "fr": "💰  Je veux devenir immensément riche !",
+            "it": "💰  Desidero essere immensamente ricco!",
+            "de": "💰  Ich wünsche mir, unermesslich reich zu sein!",
+            "zh": "💰  我希望变得极其富有！",
+            "ja": "💰  途方もない金持ちになりたい！"
+        },
+        "next": [
+            "genio_msg_riqueza"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "genio_msg_riqueza": {
+        "type": "message",
+        "text": {
+            "es": "'Hecho', dice el genio chascando los dedos con desgana. No pasa nada. '¿Ves? Ya está. Ahora te llamas Ricardo de segundo nombre. Rich-Ardo. Inmensamente Rich-Ardo. Tres monedas de propina por la molestia.' Te caen tres monedas en la mano. 'Técnicamente eres más rico que hace un minuto. No me mires así, letra pequeña, amigo, letra pequeña.' Te vas timado pero, hay que admitirlo, impecablemente timado.",
+            "en": "'Done,' the genie says, snapping his fingers listlessly. Nothing happens. 'See? All set. Your middle name is now Rich. Immensely-Rich. Three coins tip for the trouble.' Three coins drop into your hand. 'Technically you're richer than a minute ago. Don't look at me like that — fine print, friend, fine print.' You leave swindled but, you have to admit, impeccably swindled.",
+            "fr": "« C'est fait », dit le génie en claquant des doigts avec nonchalance. Rien ne se passe. « Tu vois ? Voilà, c'est fait. Maintenant ton deuxième prénom, c'est Richard. Richard-issime. Immensément Richard. Trois pièces de pourboire pour le dérangement. » Trois pièces tombent dans ta main. « Techniquement tu es plus riche qu'il y a une minute. Ne me regarde pas comme ça, petits caractères, mon ami, petits caractères. » Tu repars floué mais, il faut l'admettre, impeccablement floué.",
+            "it": "'Fatto', dice il genio schioccando le dita con svogliatezza. Non succede nulla. 'Vedi? Ecco fatto. Ora il tuo secondo nome è Riccardo. Ricchissimo-Ardo. Immensamente Ricco. Tre monete di mancia per il disturbo.' Tre monete ti cadono in mano. 'Tecnicamente sei più ricco di un minuto fa. Non guardarmi così, clausole scritte in piccolo, amico, clausole in piccolo.' Te ne vai fregato ma, bisogna ammetterlo, impeccabilmente fregato.",
+            "de": "„Erledigt“, sagt der Geist und schnippt lustlos mit den Fingern. Nichts passiert. „Siehst du? Fertig. Jetzt lautet dein zweiter Vorname Reich. Unermesslich-Reich. Drei Münzen Trinkgeld für die Mühe.“ Drei Münzen fallen in deine Hand. „Technisch gesehen bist du reicher als vor einer Minute. Schau mich nicht so an — Kleingedrucktes, mein Freund, Kleingedrucktes.“ Du gehst betrogen, aber, das muss man zugeben, tadellos betrogen.",
+            "zh": "「搞定了，」精灵懒洋洋地打了个响指说道。什么也没发生。「看到了吗？就这样，搞定了。现在你的中间名叫『富』。极其富有的『富』。三枚硬币作为麻烦费的小费。」三枚硬币落入你的手心。「从技术上讲，你确实比一分钟前更富有了。别那样看着我——小字条款，朋友，小字条款。」你被骗了，但不得不承认，这是一次无可挑剔的欺骗。",
+            "ja": "「よし、やったぞ」魔神はだるそうに指を鳴らす。何も起こらない。「見ろよ？もう終わりだ。これでお前のミドルネームは『金持ち』だ。途方もない金持ちだ。手間賃として硬貨三枚をやろう」硬貨が三枚手に落ちる。「厳密に言えば、一分前より金持ちになったわけだ。そんな目で見るな——注意書きだよ、友よ、注意書き」だまされたが、認めざるを得ない、見事にだまされたのだと思いながら立ち去る。"
+        },
+        "next": [
+            "genio_root"
+        ],
+        "reward": "gold:+3;faceta:aspecto=-1"
+    },
+    "genio_opt_listo": {
+        "type": "option",
+        "text": {
+            "es": "🧠  Pedir con astucia: Deseo que TÚ desees concederme lo mejor para mí",
+            "en": "🧠  Wish cleverly: I wish that YOU wished to grant me what's best for me",
+            "fr": "🧠  Demander avec ruse : Je souhaite que TOI, tu souhaites m'accorder ce qui est le mieux pour moi",
+            "it": "🧠  Chiedere con astuzia: Desidero che TU desideri concedermi ciò che è meglio per me",
+            "de": "🧠  Listig wünschen: Ich wünsche, dass DU wünschst, mir das zu gewähren, was das Beste für mich ist",
+            "zh": "🧠  狡黠地许愿：我希望你希望赐予我对我最好的东西",
+            "ja": "🧠  狡猾に願う：お前が俺に最善のものを与えたいと願うことを、俺は願う"
+        },
+        "next": [
+            "genio_msg_listo"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "genio_msg_listo": {
+        "type": "message",
+        "text": {
+            "es": "El genio se queda paralizado. Abre la boca. La cierra. Se rasca la calva. 'Espera. Si deseo concederte lo mejor... entonces querré hacerlo bien... pero eso me obliga a currar de verdad, que es justo lo que... argh. ¡ME HAS HACKEADO!' Suelta una carcajada de admiración sincera. 'En cuatro mil años nadie me había pillado en mi propia trampa. Toma, por listo, y sin trampa esta vez.' Te entrega una bolsa de oro de verdad y un amuleto útil. Pensar mejor que el que quiere engañarte es su propia recompensa.",
+            "en": "The genie freezes. He opens his mouth. Closes it. Scratches his bald head. 'Wait. If I wish to grant you what's best... then I'll want to do it right... but that forces me to actually work, which is exactly what... argh. YOU HACKED ME!' He bursts into laughter of genuine admiration. 'In four thousand years no one caught me in my own trap. Here, for being clever, and no tricks this time.' He hands you a real bag of gold and a useful charm. Out-thinking the one who means to cheat you is its own reward.",
+            "fr": "Le génie reste paralysé. Il ouvre la bouche. La referme. Se gratte le crâne chauve. « Attends. Si je souhaite t'accorder le meilleur... alors je voudrai bien le faire... mais ça m'oblige à vraiment bosser, ce qui est exactement ce que... argh. TU M'AS PIRATÉ ! » Il éclate d'un rire d'admiration sincère. « En quatre mille ans, personne ne m'avait pris à mon propre piège. Tiens, pour ta finesse, et sans arnaque cette fois. » Il te tend un vrai sac d'or et une amulette utile. Penser mieux que celui qui veut te tromper est sa propre récompense.",
+            "it": "Il genio si paralizza. Apre la bocca. La chiude. Si gratta la testa calva. 'Aspetta. Se desidero concederti il meglio... allora vorrò farlo bene... ma questo mi costringe a lavorare davvero, che è esattamente ciò che... argh. MI HAI FREGATO!' Scoppia in una risata di sincera ammirazione. 'In quattromila anni nessuno mi aveva mai preso nella mia stessa trappola. Tieni, per essere sveglio, e senza inganni questa volta.' Ti consegna un vero sacco d'oro e un amuleto utile. Pensare meglio di chi vuole ingannarti è già una ricompensa.",
+            "de": "Der Geist erstarrt. Er öffnet den Mund. Schließt ihn. Kratzt sich am kahlen Kopf. „Warte. Wenn ich wünsche, dir das Beste zu gewähren... dann will ich es richtig machen... aber das zwingt mich, wirklich zu arbeiten, was genau das ist, was... argh. DU HAST MICH AUSGETRICKST!“ Er bricht in ein Lachen aufrichtiger Bewunderung aus. „In viertausend Jahren hat mich niemand in meiner eigenen Falle erwischt. Hier, weil du so clever bist, und diesmal ohne Tricks.“ Er reicht dir einen echten Sack Gold und ein nützliches Amulett. Klüger zu sein als der, der dich betrügen will, ist Belohnung genug.",
+            "zh": "精灵愣住了。他张开嘴。又闭上。挠了挠光头。「等等。如果我希望赐予你最好的……那我就得好好做……但这就迫使我真的去干活，而这正是……啊啊啊。你把我给套路了！」他爆发出一阵真心佩服的大笑。「四千年了，从没有人在我自己设的陷阱里抓住过我。给你，算是聪明的奖励，这次没有诈骗。」他递给你一袋真正的金子和一枚有用的护身符。比想要欺骗你的人更聪明，本身就是一种奖赏。",
+            "ja": "魔神が固まる。口を開く。閉じる。禿げた頭を掻く。「待て。俺がお前に最善のものを与えたいと願うなら……ちゃんとやりたくなる……だがそれは本当に働かされることになる、まさにそれこそが……ぐああ。ハックされたぞ！」心からの感嘆の笑いを爆発させる。「四千年で誰も自分自身の罠に俺を嵌めた者はいなかった。ほら、賢さへのご褒美だ、今回は騙しなしでな」本物の金貨袋と役立つお守りを手渡してくる。騙そうとする者より賢く考えることは、それ自体が報酬なのだ。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:inteligencia=+1;gold:+40"
+    },
+    "genio_opt_libertad": {
+        "type": "option",
+        "text": {
+            "es": "🕊️  Deseo que quedes libre de la lámpara y descanses de una vez",
+            "en": "🕊️  I wish for you to be freed from the lamp and finally rest",
+            "fr": "🕊️  Je souhaite que tu sois libéré de la lampe et que tu te reposes enfin",
+            "it": "🕊️  Desidero che tu sia libero dalla lampada e che tu possa finalmente riposare",
+            "de": "🕊️  Ich wünsche mir, dass du von der Lampe befreit wirst und endlich ruhst",
+            "zh": "🕊️  我希望你能从神灯中解脱，终于得以休息",
+            "ja": "🕊️  お前がランプから解放され、ついに休めるように願う"
+        },
+        "next": [
+            "genio_msg_libertad"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "genio_msg_libertad": {
+        "type": "message",
+        "text": {
+            "es": "El genio se queda de piedra. 'Espera... ¿me estás gastando un deseo... a MÍ?' Por primera vez en milenios, la desgana se le cae de la cara. Cuatro mil años concediendo deseos ajenos y nadie había pensado nunca en el suyo. Las cadenas invisibles que lo ataban a la lámpara se deshacen en humo dorado. 'No... no sé ni qué se hace en libertad', balbucea, emocionado. 'Pero pienso averiguarlo.' Antes de esfumarse hacia el horizonte, te bendice con una fortuna sincera. La bondad gratuita descoloca hasta a los seres milenarios.",
+            "en": "The genie turns to stone. 'Wait... you're spending a wish... on ME?' For the first time in millennia, the boredom falls from his face. Four thousand years granting others' wishes and no one ever thought of his. The invisible chains binding him to the lamp dissolve into golden smoke. 'I... I don't even know what one does when free,' he stammers, moved. 'But I intend to find out.' Before vanishing toward the horizon, he blesses you with a heartfelt fortune. Kindness with no strings attached throws even ancient beings off balance.",
+            "fr": "Le génie reste pétrifié. « Attends... tu dépenses un vœu... pour MOI ? » Pour la première fois depuis des millénaires, la lassitude tombe de son visage. Quatre mille ans à exaucer les vœux des autres et personne n'avait jamais pensé au sien. Les chaînes invisibles qui le liaient à la lampe se dissolvent en fumée dorée. « Je... je ne sais même pas ce qu'on fait, libre », balbutie-t-il, ému. « Mais je compte bien le découvrir. » Avant de s'évanouir vers l'horizon, il te bénit d'une véritable fortune. La bonté gratuite déstabilise même les êtres millénaires.",
+            "it": "Il genio si pietrifica. 'Aspetta... stai spendendo un desiderio... per ME?' Per la prima volta in millenni, la svogliatezza gli cade dal viso. Quattromila anni a esaudire desideri altrui e nessuno aveva mai pensato al suo. Le catene invisibili che lo legavano alla lampada si dissolvono in fumo dorato. 'Io... non so nemmeno cosa si fa da liberi', balbetta, commosso. 'Ma intendo scoprirlo.' Prima di svanire verso l'orizzonte, ti benedice con una fortuna sincera. La bontà gratuita spiazza persino gli esseri millenari.",
+            "de": "Der Geist erstarrt zu Stein. „Warte... du verbrauchst einen Wunsch... für MICH?“ Zum ersten Mal seit Jahrtausenden fällt die Lustlosigkeit aus seinem Gesicht. Viertausend Jahre lang die Wünsche anderer erfüllt, und niemand hatte je an seinen eigenen gedacht. Die unsichtbaren Ketten, die ihn an die Lampe banden, lösen sich in goldenem Rauch auf. „Ich... ich weiß nicht einmal, was man in Freiheit tut“, stammelt er gerührt. „Aber ich habe vor, es herauszufinden.“ Bevor er zum Horizont verschwindet, segnet er dich mit aufrichtigem Reichtum. Bedingungslose Güte bringt selbst uralte Wesen aus der Fassung.",
+            "zh": "精灵僵住了。「等等……你要花掉一个愿望……用在我身上？」千百年来第一次，那份倦怠从他脸上消失了。四千年来一直满足他人的愿望，却从没有人想过他自己的愿望。那些将他束缚在神灯上的无形锁链化作金色烟雾消散。「我……我甚至不知道自由是什么样子，」他结结巴巴地说，深受感动。「但我打算去弄清楚。」在消失于地平线之前，他真心实意地祝福你财源广进。无条件的善意，就连千年的存在也会为之动容。",
+            "ja": "魔神は石のように固まる。「待て……お前は俺のために願いを使うのか？」何千年ぶりかで、彼の顔から倦怠感が消える。四千年間、他人の願いを叶え続けてきたが、誰も彼自身の願いなど考えたことがなかった。ランプに彼を縛りつけていた見えない鎖が、金色の煙となって溶けていく。「俺は……自由になったら何をすればいいのかさえ分からない」感動して口ごもる。「だが、それを見つけるつもりだ」地平線の彼方に消える前に、彼は心からの財運をお前に授ける。見返りを求めない善意は、太古の存在すら動揺させるものだ。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:bondad=+1;gold:+30"
+    },
+    "genio_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Paso. Con lo tacaño que eres, mejor me lo guardo. Dejarlo estar",
+            "en": "🚶  Pass. As stingy as you are, Ill save my wishes.' Leave it be",
+            "fr": "🚶  Non merci. Vu comme tu es radin, je préfère les garder. Laisser tomber",
+            "it": "🚶  Passo. Visto quanto sei tirchio, meglio che me li tenga. Lasciar perdere",
+            "de": "🚶  Nein danke. Bei deiner Geizigkeit behalte ich sie lieber. Es bleiben lassen",
+            "zh": "🚶  算了。你这么小气，我还是留着我的愿望吧。不予理会",
+            "ja": "🚶  やめておく。そんなにけちなら、願いは取っておくよ放っておく"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

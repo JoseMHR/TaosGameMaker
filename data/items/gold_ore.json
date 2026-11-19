@@ -1,0 +1,23 @@
+{
+    "name": {
+        "es": "Mineral de oro",
+        "en": "Gold Ore",
+        "fr": "Minerai d'Or",
+        "it": "Minerale d'Oro",
+        "de": "Golderz",
+        "zh": "金矿石",
+        "ja": "金鉱石"
+    },
+    "desc": {
+        "es": "Una veta de mineral dorado de gran valor.",
+        "en": "A valuable vein of golden ore.",
+        "fr": "Un filon de minerai doré de grande valeur.",
+        "it": "Un filone di minerale dorato di grande valore.",
+        "de": "Eine wertvolle Ader goldenen Erzes.",
+        "zh": "一脉极具价值的黄金矿石。",
+        "ja": "非常に価値のある金鉱の鉱脈。"
+    },
+    "icon": "💰",
+    "category": "other",
+    "usable": false
+}

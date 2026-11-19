@@ -1,0 +1,33 @@
+{
+    "id": "poi_celestia_archmage",
+    "type": "poi",
+    "name": {
+        "es": "Torre del Archimago",
+        "en": "Archmage's Tower",
+        "fr": "Tour de l'Archimage",
+        "it": "Torre dell'Arcimago",
+        "de": "Turm des Erzmagiers",
+        "zh": "大法师之塔",
+        "ja": "大魔導士の塔"
+    },
+    "icon": "🧙",
+    "desc": {
+        "es": "El más sabio de Celestia",
+        "en": "The wisest in Celestia",
+        "fr": "Le plus sage de Celestia",
+        "it": "Il più saggio di Celestia",
+        "de": "Der Weiseste von Celestia",
+        "zh": "塞莱斯提亚最智慧的人",
+        "ja": "セレスティア随一の賢者"
+    },
+    "kind": "npc",
+    "npc": "archmage_celestia",
+    "presences": [
+        {
+            "condition": "default",
+            "actor": "archmage_celestia",
+            "entry_node": ""
+        }
+    ],
+    "bg": "bg_city_celestia_archmage.png"
+}

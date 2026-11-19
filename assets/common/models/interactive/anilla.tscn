@@ -1,0 +1,128 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/graphics/OrbRotator3D.gd" id="1_rotator"]
+[ext_resource type="Script" path="res://scripts/graphics/ParticleCuller3D.gd" id="2_culler"]
+
+[sub_resource type="StandardMaterial3D" id="Mat_PurpleRing"]
+albedo_color = Color(0.62, 0.22, 0.95, 1)
+metallic = 0.85
+roughness = 0.22
+emission_enabled = true
+emission = Color(0.72, 0.25, 1, 1)
+emission_energy_multiplier = 2.2
+rim_enabled = true
+rim = 0.75
+rim_tint = 0.6
+
+[sub_resource type="TorusMesh" id="Mesh_Ring"]
+inner_radius = 0.2
+outer_radius = 0.32
+
+[sub_resource type="StandardMaterial3D" id="Mat_InnerAura"]
+transparency = 1
+blend_mode = 1
+cull_mode = 2
+shading_mode = 0
+albedo_color = Color(0.85, 0.45, 1, 0.65)
+
+[sub_resource type="TorusMesh" id="Mesh_InnerAura"]
+inner_radius = 0.13
+outer_radius = 0.19
+
+[sub_resource type="StandardMaterial3D" id="Mat_ArcaneGem"]
+albedo_color = Color(0.95, 0.6, 1, 1)
+metallic = 0.9
+roughness = 0.15
+emission_enabled = true
+emission = Color(0.95, 0.45, 1, 1)
+emission_energy_multiplier = 3.5
+
+[sub_resource type="SphereMesh" id="Mesh_Gem"]
+radius = 0.04
+height = 0.08
+radial_segments = 12
+rings = 6
+
+[sub_resource type="StandardMaterial3D" id="Mat_MoteQuad"]
+transparency = 1
+blend_mode = 1
+shading_mode = 0
+vertex_color_use_as_albedo = true
+albedo_color = Color(0.85, 0.5, 1, 0.85)
+billboard_mode = 3
+billboard_keep_scale = true
+particles_anim_h_frames = 1
+particles_anim_v_frames = 1
+particles_anim_loop = false
+
+[sub_resource type="QuadMesh" id="Mesh_MoteQuad"]
+material = SubResource("Mat_MoteQuad")
+size = Vector2(0.04, 0.04)
+
+[sub_resource type="Gradient" id="Gradient_Motes"]
+offsets = PackedFloat32Array(0, 0.3, 0.7, 1)
+colors = PackedColorArray(0.6, 0.2, 0.9, 0, 0.85, 0.45, 1, 0.9, 0.95, 0.65, 1, 0.8, 0.5, 0.1, 0.8, 0)
+
+[node name="Anilla" type="Node3D"]
+
+[node name="Pivot" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
+script = ExtResource("1_rotator")
+rotation_speed = 1.6
+bob_amplitude = 0.045
+bob_speed = 2.2
+
+[node name="RingMesh" type="MeshInstance3D" parent="Pivot"]
+transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
+material_override = SubResource("Mat_PurpleRing")
+mesh = SubResource("Mesh_Ring")
+
+[node name="InnerAura" type="MeshInstance3D" parent="Pivot"]
+transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
+material_override = SubResource("Mat_InnerAura")
+mesh = SubResource("Mesh_InnerAura")
+
+[node name="GemTop" type="MeshInstance3D" parent="Pivot"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.26, 0)
+material_override = SubResource("Mat_ArcaneGem")
+mesh = SubResource("Mesh_Gem")
+
+[node name="GemBottom" type="MeshInstance3D" parent="Pivot"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.26, 0)
+material_override = SubResource("Mat_ArcaneGem")
+mesh = SubResource("Mesh_Gem")
+
+[node name="GemLeft" type="MeshInstance3D" parent="Pivot"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.26, 0, 0)
+material_override = SubResource("Mat_ArcaneGem")
+mesh = SubResource("Mesh_Gem")
+
+[node name="GemRight" type="MeshInstance3D" parent="Pivot"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.26, 0, 0)
+material_override = SubResource("Mat_ArcaneGem")
+mesh = SubResource("Mesh_Gem")
+
+[node name="PurpleLight" type="OmniLight3D" parent="Pivot"]
+light_color = Color(0.78, 0.38, 1, 1)
+light_energy = 1.3
+omni_range = 2.5
+omni_attenuation = 1.6
+
+[node name="ArcaneMotes" type="CPUParticles3D" parent="Pivot"]
+amount = 10
+lifetime = 2.0
+mesh = SubResource("Mesh_MoteQuad")
+emission_shape = 1
+emission_sphere_radius = 0.28
+direction = Vector3(0, 1, 0)
+spread = 35.0
+gravity = Vector3(0, 0.12, 0)
+initial_velocity_min = 0.02
+initial_velocity_max = 0.08
+scale_amount_min = 0.6
+scale_amount_max = 1.2
+color_ramp = SubResource("Gradient_Motes")
+
+[node name="ParticleCuller" type="VisibleOnScreenNotifier3D" parent="Pivot/ArcaneMotes"]
+aabb = AABB(-0.4, -0.4, -0.4, 0.8, 0.8, 0.8)
+script = ExtResource("2_culler")

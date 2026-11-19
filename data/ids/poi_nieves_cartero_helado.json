@@ -1,0 +1,26 @@
+{
+    "id": "poi_nieves_cartero_helado",
+    "type": "poi",
+    "icon": "✉️",
+    "name": {
+        "es": "El Cartero que Nunca Llegó",
+        "en": "The Mail Carrier Who Never Arrived",
+        "fr": "Le Facteur qui n'Arriva Jamais",
+        "it": "Il Postino che Non Arrivò Mai",
+        "de": "Der Postbote, der Nie Ankam",
+        "zh": "从未抵达的邮差",
+        "ja": "決してたどり着かなかった郵便配達人"
+    },
+    "desc": {
+        "es": "Congelado a mitad de una ventisca, un cartero abraza su saca. Dentro, una sola carta que jamás llegó a su destino. (PNJ singular).",
+        "en": "Frozen mid-blizzard, a mail carrier clutches his satchel. Inside, a single letter that never reached its destination. (Singular NPC).",
+        "fr": "Figé au milieu d'un blizzard, un facteur serre son sac contre lui. À l'intérieur, une seule lettre qui n'atteignit jamais sa destination. (PNJ singulier).",
+        "it": "Congelato a metà di una bufera, un postino abbraccia la sua sacca. Dentro, una sola lettera che non giunse mai a destinazione. (PNG singolare).",
+        "de": "Mitten in einem Schneesturm erstarrt, umklammert ein Postbote seine Tasche. Darin ein einziger Brief, der sein Ziel nie erreichte. (Einzigartiger NPC).",
+        "zh": "在暴风雪中被冻僵的邮差紧紧抱着他的邮袋。袋子里只有一封从未送达目的地的信。（唯一NPC）。",
+        "ja": "吹雪の最中に凍りついた郵便配達人が郵袋を抱きしめている。中には、決して届くことのなかった一通の手紙。（唯一のNPC）。"
+    },
+    "npc": "poi_nieves_cartero_helado",
+    "bg": "bg_world_poi_nieves_cartero_helado.png",
+    "music": "poi_generic"
+}

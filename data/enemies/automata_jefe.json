@@ -1,0 +1,68 @@
+{
+  "name": {
+    "es": "Autómata Prototipo",
+    "en": "Prototype Automaton",
+    "fr": "Automate Prototype",
+    "it": "Automa Prototipo",
+    "de": "Automaten-Prototyp",
+    "zh": "原型自动机",
+    "ja": "試作オートマトン"
+  },
+  "family": "construct",
+  "archetype": "boss",
+  "icon": "🤖",
+  "image": "res://assets/combat/enemies/en_automaton_boss.png",
+  "attack_type": "magic",
+  "base_dodge": 8.0,
+  "dodge_scale": 0.2,
+  "element": "lightning",
+  "weak_to": [
+    "water",
+    "earth"
+  ],
+  "resist": [
+    "lightning",
+    "poison",
+    "physical"
+  ],
+  "ai": "defensive",
+  "xp_reward_base": 650,
+  "xp_reward_scale": 25.0,
+  "gold_reward_base": 400,
+  "gold_reward_scale": 22.0,
+  "skills": [
+    {
+      "level": 1,
+      "skill_id": "laser_sweep"
+    },
+    {
+      "level": 38,
+      "skill_id": "electric_shield"
+    },
+    {
+      "level": 42,
+      "skill_id": "hyper_beam"
+    }
+  ],
+  "loot": [
+    {
+      "kind": "gold",
+      "min": 30,
+      "max": 60
+    },
+    {
+      "kind": "item",
+      "id": "nucleo_automata",
+      "chance": 0.6,
+      "min": 1,
+      "max": 2
+    },
+    {
+      "kind": "equipment",
+      "chance": 0.35,
+      "level": 14
+    }
+  ],
+  "zone": "zona_6_arcanum",
+  "is_boss": true
+}

@@ -1,0 +1,32 @@
+{
+    "id": "poi_sylphrena_board",
+    "type": "poi",
+    "name": {
+        "es": "Tablón de Encargos",
+        "en": "Request Board",
+        "fr": "Tableau des Commandes",
+        "it": "Bacheca degli Incarichi",
+        "de": "Auftragsbrett",
+        "zh": "委托布告栏",
+        "ja": "依頼掲示板"
+    },
+    "icon": "📋",
+    "desc": {
+        "es": "Encargos de la Ciudad Imperial",
+        "en": "Imperial City requests",
+        "fr": "Commandes de la Cité Impériale",
+        "it": "Incarichi della Città Imperiale",
+        "de": "Aufträge der Kaiserstadt",
+        "zh": "帝都的委托任务",
+        "ja": "帝都の依頼"
+    },
+    "kind": "board",
+    "presences": [
+        {
+            "condition": "default",
+            "actor": "poi_sylphrena_board",
+            "entry_node": ""
+        }
+    ],
+    "bg": "bg_city_sylphrena_board.png"
+}

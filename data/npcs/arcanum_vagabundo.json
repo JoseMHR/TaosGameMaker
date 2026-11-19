@@ -1,0 +1,149 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "Nox el Vagabundo",
+            "en": "Nox the Vagabond",
+            "fr": "Nox le Vagabond",
+            "it": "Nox il Vagabondo",
+            "de": "Nox der Landstreicher",
+            "zh": "流浪者诺克斯",
+            "ja": "放浪者ノックス"
+        },
+        "next": [],
+        "reward": "avatar=🥀;bg=0.04,0.04,0.05"
+    },
+    "nox_done": {
+        "type": "message",
+        "text": {
+            "es": "Nox bebe el sedante de un trago y sus ojos, por un instante, dejan de temblar. '...la esfera brillaba tanto, Elara... no debiste acercarte tanto... papá lo siente, papá lo siente muchísimo...' Se queda mirando la nada. Luego, más claro que nunca: 'El laboratorio, bajo la fábrica de circuitos. Ahí es donde pasó. Ahí es donde TODO pasó.'",
+            "en": "Nox drinks the sedative in one gulp and his eyes, for a moment, stop trembling. '...the sphere shone so bright, Elara... you shouldn't have gotten so close... daddy's sorry, daddy's so, so sorry...' He stares into nothing. Then, clearer than ever: 'The laboratory, beneath the circuit factory. That's where it happened. That's where EVERYTHING happened.'",
+            "fr": "Nox boit le sédatif d'un trait et ses yeux, un instant, cessent de trembler. « ...la sphère brillait tellement, Elara... tu n'aurais pas dû t'approcher autant... papa est désolé, papa est vraiment, vraiment désolé... » Il fixe le vide. Puis, plus clair que jamais : « Le laboratoire, sous l'usine de circuits. C'est là que c'est arrivé. C'est là que TOUT est arrivé. »",
+            "it": "Nox beve il sedativo in un sorso e i suoi occhi, per un istante, smettono di tremare. '...la sfera brillava così tanto, Elara... non dovevi avvicinarti tanto... papà è dispiaciuto, papà è dispiaciutissimo...' Fissa il nulla. Poi, più chiaro che mai: 'Il laboratorio, sotto la fabbrica di circuiti. È lì che è successo. È lì che è successo TUTTO.'",
+            "de": "Nox trinkt das Beruhigungsmittel in einem Zug und seine Augen hören für einen Moment auf zu zittern. „...die Sphäre leuchtete so hell, Elara... du hättest dich nicht so annähern sollen... Papa tut es leid, Papa tut es so, so leid...“ Er starrt ins Leere. Dann, klarer als je zuvor: „Das Labor, unter der Schaltkreisfabrik. Dort ist es passiert. Dort ist ALLES passiert.“",
+            "zh": "诺克斯一口喝下镇静剂，他的双眼有那么一瞬间停止了颤抖。「……那球体那么亮，艾拉拉……你不该靠得那么近……爸爸很抱歉，爸爸真的、真的很抱歉……」他凝视着虚无。然后，前所未有地清醒：「实验室，在电路工厂下面。事情就是在那里发生的。一切都是在那里发生的。」",
+            "ja": "ノックスは鎮静剤を一気に飲み干し、その瞳が一瞬、震えを止める。「……あの球があんなに輝いていた、エララ……あんなに近づくべきじゃなかった……パパはすまない、パパは本当に、本当にすまない……」彼は虚空を見つめる。そして、これまでになく明瞭に：「あの研究所だ、回路工場の地下。あそこで起きたんだ。すべてはあそこで起きたんだ」"
+        },
+        "next": [
+            "nox_done_ok"
+        ],
+        "reward": "-item:sedante=1;gflag:nox_recuerdos_done;faceta:cordura=-1",
+        "condition": "has_item(\"sedante\") and no_gflag(\"nox_recuerdos_done\")",
+        "once": true
+    },
+    "nox_done_ok": {
+        "type": "option",
+        "text": {
+            "es": "😟  ...¿Papá?",
+            "en": "😟  ...Daddy?",
+            "fr": "😟  ...Papa ?",
+            "it": "😟  ...Papà?",
+            "de": "😟  ...Papa?",
+            "zh": "😟  ……爸爸？",
+            "ja": "😟  ……パパ？"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "nox_hint": {
+        "type": "message",
+        "text": {
+            "es": "Nox tiembla contra la tubería, murmurando entre toses. '...el accidente... la hora del colapso... alguien tiene que apagarlo antes de que vuelva a pasar...' Sus ojos, por un segundo, te miran con una lucidez que no encaja con su aspecto. Parece necesitar algo que le calme los nervios.",
+            "en": "Nox trembles against the pipe, muttering between coughs. '...the accident... the hour of the collapse... someone has to shut it down before it happens again...' His eyes, for a second, look at you with a clarity that doesn't match his appearance. He seems to need something to calm his nerves.",
+            "fr": "Nox tremble contre la tuyauterie, marmonnant entre deux toux. « ...l'accident... l'heure de l'effondrement... quelqu'un doit l'arrêter avant que ça ne recommence... » Ses yeux, un instant, te regardent avec une lucidité qui ne correspond pas à son apparence. Il semble avoir besoin de quelque chose pour calmer ses nerfs.",
+            "it": "Nox trema contro il tubo, mormorando tra i colpi di tosse. '...l'incidente... l'ora del collasso... qualcuno deve spegnerlo prima che accada di nuovo...' I suoi occhi, per un secondo, ti guardano con una lucidità che non si addice al suo aspetto. Sembra aver bisogno di qualcosa per calmare i nervi.",
+            "de": "Nox zittert an der Rohrleitung und murmelt zwischen den Hustenanfällen. „...der Unfall... die Stunde des Zusammenbruchs... jemand muss es abschalten, bevor es wieder passiert...“ Seine Augen blicken dich für eine Sekunde mit einer Klarheit an, die nicht zu seinem Erscheinungsbild passt. Er scheint etwas zu brauchen, um seine Nerven zu beruhigen.",
+            "zh": "诺克斯靠在管道上颤抖着，在咳嗽间隙喃喃自语。「……那场事故……崩溃的那一刻……得有人在它重演之前关掉它……」他的眼睛有那么一秒钟，用一种与他外表不符的清醒注视着你。他似乎需要什么东西来平复情绪。",
+            "ja": "ノックスは配管にもたれて震え、咳の合間に呟いている。「……あの事故……崩壊の時……誰かが、また起こる前に止めなければ……」その瞳が一瞬、彼の姿には似つかわしくない明晰さでお前を見つめる。神経を落ち着かせる何かを必要としているようだ。"
+        },
+        "next": [
+            "nox_hint_ok"
+        ],
+        "reward": "",
+        "condition": "no_gflag(\"nox_recuerdos_done\")"
+    },
+    "nox_hint_ok": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Le dejaré descansar",
+            "en": "🚶  I'll let him rest",
+            "fr": "🚶  Je vais le laisser se reposer",
+            "it": "🚶  Lo lascerò riposare",
+            "de": "🚶  Ich lasse ihn ruhen",
+            "zh": "🚶  我会让他休息",
+            "ja": "🚶  彼を休ませておこう"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "nox_1": {
+        "type": "message",
+        "text": {
+            "es": "Tos... el humo nos devora los ojos, pero aquí en las tuberías al menos el calor nos mantiene vivos.",
+            "en": "Cough... smoke eats our eyes, but down here by the steam pipes warmth keeps us alive.",
+            "fr": "Tousse... la fumée nous dévore les yeux, mais ici, près des tuyaux de vapeur, la chaleur au moins nous garde en vie.",
+            "it": "Tosse... il fumo ci divora gli occhi, ma qui vicino ai tubi del vapore, almeno il calore ci tiene in vita.",
+            "de": "Husten... der Rauch frisst uns die Augen, aber hier unten bei den Dampfrohren hält uns wenigstens die Wärme am Leben.",
+            "zh": "咳……浓烟刺痛我们的双眼，但在这蒸汽管道旁，至少暖意能让我们活下去。",
+            "ja": "ゴホッ……煙が目を焼くが、ここの蒸気管のそばなら、せめて暖かさが俺たちを生かしてくれる。"
+        },
+        "next": [
+            "nox_1a",
+            "nox_1b"
+        ],
+        "reward": "",
+        "condition": "gflag(\"nox_recuerdos_done\")"
+    },
+    "nox_1a": {
+        "type": "option",
+        "text": {
+            "es": "🗣️  ¿Cómo sobrevivís aquí?",
+            "en": "🗣️  How do you survive here?",
+            "fr": "🗣️  Comment survivez-vous ici ?",
+            "it": "🗣️  Come sopravvivete qui?",
+            "de": "🗣️  Wie überlebt ihr hier?",
+            "zh": "🗣️  你们是怎么在这里活下来的？",
+            "ja": "🗣️  ここでどうやって生き延びているんだ？"
+        },
+        "next": [
+            "nox_vida"
+        ],
+        "reward": ""
+    },
+    "nox_vida": {
+        "type": "message",
+        "text": {
+            "es": "Nos alimentamos de lo que tiran las fábricas superiores y nos ayudamos entre nosotros. Nadie mira hacia abajo. Gracias por escucharme antes, viajero. Hacía años que no dormía tan tranquilo.",
+            "en": "We feed on scrap from upper factories and help each other. Nobody looks down here. Thanks for listening to me earlier, traveler. I haven't slept this soundly in years.",
+            "fr": "Nous nous nourrissons de ce que les usines supérieures jettent et nous nous entraidons entre nous. Personne ne regarde vers le bas. Merci de m'avoir écouté tout à l'heure, voyageur. Ça faisait des années que je n'avais pas dormi aussi tranquillement.",
+            "it": "Ci nutriamo di ciò che le fabbriche superiori buttano via e ci aiutiamo a vicenda. Nessuno guarda quaggiù. Grazie per avermi ascoltato prima, viaggiatore. Non dormivo così tranquillo da anni.",
+            "de": "Wir ernähren uns von dem, was die oberen Fabriken wegwerfen, und helfen einander. Niemand schaut hier herunter. Danke, dass du mir vorhin zugehört hast, Reisender. Ich habe seit Jahren nicht mehr so ruhig geschlafen.",
+            "zh": "我们靠上层工厂丢弃的东西为生，彼此互相扶持。没人会往下看。谢谢你刚才听我说话，旅人。我已经好多年没睡得这么安稳了。",
+            "ja": "上の工場が捨てるものを食べて、お互い助け合って暮らしている。誰も下を見ようとしない。さっきは話を聞いてくれてありがとう、旅人よ。こんなに安らかに眠れたのは何年ぶりだろう。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "nox_1b": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Toma algo de calor",
+            "en": "🚶  Stay warm",
+            "fr": "🚶  Reste bien au chaud",
+            "it": "🚶  Stai al caldo",
+            "de": "🚶  Bleib warm",
+            "zh": "🚶  注意保暖",
+            "ja": "🚶  温かくしていてくれ"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

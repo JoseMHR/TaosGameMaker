@@ -1,0 +1,26 @@
+{
+    "id": "poi_sylphrena_lago_reflejo",
+    "type": "poi",
+    "icon": "🪞",
+    "name": {
+        "es": "El Lago que te Mira Mal",
+        "en": "The Lake That Watches You Wrong",
+        "fr": "Le Lac qui te Regarde Mal",
+        "it": "Il Lago che ti Guarda Male",
+        "de": "Der See, der Dich Falsch Ansieht",
+        "zh": "凝视错误的湖",
+        "ja": "誤って見つめてくる湖"
+    },
+    "desc": {
+        "es": "Un lago de aguas quietas y perfectas cuyo reflejo te muestra haciendo cosas que tú no estás haciendo. (PNJ singular).",
+        "en": "A lake of still, perfect water whose reflection shows you doing things you are not doing. (Singular NPC).",
+        "fr": "Un lac aux eaux calmes et parfaites dont le reflet te montre faisant des choses que tu ne fais pas. (PNJ singulier).",
+        "it": "Un lago dalle acque calme e perfette il cui riflesso ti mostra fare cose che non stai facendo. (PNG singolare).",
+        "de": "Ein See mit ruhigem, perfektem Wasser, dessen Spiegelbild dich Dinge tun zeigt, die du nicht tust. (Einzigartiger NPC).",
+        "zh": "一片湖水平静完美，倒影中的你却在做着你并未做的事情。（唯一NPC）。",
+        "ja": "静かで完璧な湖面。その反射には、お前がしていないはずのことをしている姿が映る。（唯一のNPC）。"
+    },
+    "npc": "poi_sylphrena_lago_reflejo",
+    "bg": "bg_world_poi_sylphrena_lago_reflejo.png",
+    "music": "poi_generic"
+}

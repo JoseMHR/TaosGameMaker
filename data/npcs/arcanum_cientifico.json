@@ -1,0 +1,149 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "Dr. Kaelen",
+            "en": "Dr. Kaelen",
+            "fr": "Dr Kaelen",
+            "it": "Dott. Kaelen",
+            "de": "Dr. Kaelen",
+            "zh": "凯伦博士",
+            "ja": "ケイレン博士"
+        },
+        "next": [],
+        "reward": "avatar=🧪;bg=0.05,0.08,0.09"
+    },
+    "kael_1": {
+        "type": "message",
+        "text": {
+            "es": "¡Ah, director! Vuelve usted a los túneles inferiores... Cuidado con los condensadores de plasma, estamos a punto de estabilizar la energía sintética del núcleo. ¿Cómo lleva la revisión de los informes de esta semana?",
+            "en": "Ah, director! Back in the lower tunnels again... Watch the plasma capacitors, we're close to stabilizing core synthetic energy. How's your review of this week's reports coming along?",
+            "fr": "Ah, directeur ! Vous revoilà dans les tunnels inférieurs... Attention aux condensateurs de plasma, nous sommes sur le point de stabiliser l'énergie synthétique du noyau. Où en est votre révision des rapports de cette semaine ?",
+            "it": "Ah, direttore! Di nuovo nei tunnel inferiori... Attento ai condensatori al plasma, siamo vicini a stabilizzare l'energia sintetica del nucleo. Come procede la revisione dei rapporti di questa settimana?",
+            "de": "Ah, Direktor! Schon wieder in den unteren Tunneln... Vorsicht bei den Plasmakondensatoren, wir sind kurz davor, die synthetische Kernenergie zu stabilisieren. Wie kommt Ihre Durchsicht der Berichte dieser Woche voran?",
+            "zh": "啊，主任！您又回到下层隧道来了……小心那些等离子电容器，我们快要稳定核心的合成能源了。这周的报告审查进行得如何？",
+            "ja": "ああ、所長！また下層トンネルにお戻りですか……プラズマコンデンサーにお気をつけを、コアの合成エネルギー安定化まであと少しです。今週の報告書の確認はいかがですか？"
+        },
+        "next": [
+            "kael_1a",
+            "kael_1b",
+            "kael_1c",
+            "kael_1d"
+        ],
+        "reward": ""
+    },
+    "kael_1a": {
+        "type": "option",
+        "text": {
+            "es": "🤔  ¿Director? Yo no soy... (indagar, -1 Cordura)",
+            "en": "🤔  Director? I'm not... (probe further, -1 Sanity)",
+            "fr": "🤔  Directeur ? Je ne suis pas... (creuser, -1 Santé mentale)",
+            "it": "🤔  Direttore? Io non sono... (indagare, -1 Sanità)",
+            "de": "🤔  Direktor? Ich bin nicht... (nachfragen, -1 Verstand)",
+            "zh": "🤔  主任？我不是……（追问，-1理智）",
+            "ja": "🤔  所長？俺は違う……（探る、-1正気度）"
+        },
+        "next": [
+            "kael_correccion"
+        ],
+        "reward": "faceta:cordura=-1;music:creepy;gflag:kael_director_respondido",
+        "condition": "no_gflag(\"kael_director_respondido\")"
+    },
+    "kael_correccion": {
+        "type": "message",
+        "text": {
+            "es": "El Dr. Kaelen deja de teclear. Se gira lentamente hacia ti, y por primera vez desde que llegaste, sus ojos —antes cansados— brillan con una claridad perturbadora. 'Sí. Sí eres tú. Nunca olvidaré tu cara, jefe. Tú me enseñaste a ser quien soy. Y mi hija Beatriz seguirá tus pasos, sin duda. Incluso fuiste capaz de asesinar a tu propia kljdlkfjalkdfj por la ciencia.' Su voz se distorsiona en un eco metálico mientras el laboratorio entero parpadea entre luz y oscuridad, los instrumentos zumban fuera de control... y de repente, todo vuelve a la normalidad. Kaelen ya está de vuelta en sus informes, como si nunca hubiera dicho nada.",
+            "en": "Dr. Kaelen stops typing. He turns to you slowly, and for the first time since you arrived, his eyes —once weary— gleam with an unsettling clarity. 'Yes. Yes, it's you. I will never forget your face, boss. You taught me to become who I am. And my daughter Beatriz will surely follow in your footsteps. You were even capable of murdering your own kljdlkfjalkdfj for the sake of science.' His voice distorts into a metallic echo as the entire lab flickers between light and darkness, the instruments whirring out of control... and then, just as suddenly, everything returns to normal. Kaelen is already back to his reports, as if he'd never said a word.",
+            "fr": "Le Dr Kaelen cesse de taper. Il se tourne lentement vers toi, et pour la première fois depuis ton arrivée, ses yeux — jusque-là fatigués — brillent d'une clarté troublante. « Oui. Oui, c'est bien vous. Je n'oublierai jamais votre visage, patron. Vous m'avez appris à devenir qui je suis. Et ma fille Beatriz suivra vos pas, sans aucun doute. Vous avez même été capable d'assassiner votre propre kljdlkfjalkdfj pour la science. » Sa voix se déforme en écho métallique tandis que tout le laboratoire clignote entre lumière et obscurité, les instruments bourdonnent hors de contrôle... et soudain, tout redevient normal. Kaelen est déjà retourné à ses rapports, comme s'il n'avait jamais rien dit.",
+            "it": "Il Dott. Kaelen smette di digitare. Si gira lentamente verso di te, e per la prima volta da quando sei arrivato, i suoi occhi —prima stanchi— brillano di una lucidità inquietante. 'Sì. Sì, sei tu. Non dimenticherò mai il tuo volto, capo. Mi hai insegnato a diventare chi sono. E mia figlia Beatriz seguirà sicuramente le tue orme. Sei stato persino capace di assassinare il tuo stesso kljdlkfjalkdfj per la scienza.' La sua voce si distorce in un'eco metallica mentre l'intero laboratorio lampeggia tra luce e oscurità, gli strumenti ronzano fuori controllo... e improvvisamente, tutto torna normale. Kaelen è già tornato ai suoi rapporti, come se non avesse mai detto nulla.",
+            "de": "Dr. Kaelen hört auf zu tippen. Er dreht sich langsam zu dir um, und zum ersten Mal seit deiner Ankunft glänzen seine Augen —vormals müde— mit einer beunruhigenden Klarheit. „Ja. Ja, Sie sind es. Ich werde Ihr Gesicht nie vergessen, Chef. Sie haben mich gelehrt, zu werden, wer ich bin. Und meine Tochter Beatriz wird sicherlich in Ihre Fußstapfen treten. Sie waren sogar fähig, Ihre eigene kljdlkfjalkdfj für die Wissenschaft zu ermorden.“ Seine Stimme verzerrt sich zu einem metallischen Echo, während das gesamte Labor zwischen Licht und Dunkelheit flackert, die Instrumente außer Kontrolle summen... und plötzlich, ebenso abrupt, kehrt alles zur Normalität zurück. Kaelen ist bereits wieder bei seinen Berichten, als hätte er nie ein Wort gesagt.",
+            "zh": "凯伦博士停止了打字。他缓缓转向你，自你抵达以来第一次，他那双原本疲惫的眼睛闪烁着一种令人不安的清醒。「是的。是的，就是你。我永远不会忘记你的脸，老板。是你教会了我成为现在的自己。而我的女儿贝雅特丽丝无疑也会追随你的脚步。你甚至能为了科学杀死你自己的kljdlkfjalkdfj。」他的声音扭曲成金属般的回声，整个实验室在光明与黑暗之间闪烁，仪器失控地嗡嗡作响……然后，一切又突然恢复正常。凯伦已经回到了他的报告中，仿佛什么都没说过。",
+            "ja": "ケイレン博士はタイピングをやめる。ゆっくりとお前の方を振り向く。到着してから初めて、これまで疲れていたはずの彼の目が、不穏なほどの明晰さで輝いている。「そうだ。そうだ、あなただ。あなたの顔は決して忘れません、所長。あなたは私に、今の私になることを教えてくれた。そして娘のベアトリスも、間違いなくあなたの足跡をたどるでしょう。あなたは科学のために、自分自身のkljdlkfjalkdfjさえも殺すことができた」。彼の声が金属的な残響に歪み、研究所全体が光と闇の間で明滅し、機器が制御不能に唸る……そして突然、何事もなかったかのように元に戻る。ケイレンはすでに報告書に戻っている、まるで一言も言わなかったかのように。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "kael_1b": {
+        "type": "option",
+        "text": {
+            "es": "😐  Sí, todo en orden, doctor (seguirle la corriente, +1 Cordura)",
+            "en": "😐  Yes, all in order, doctor (play along, +1 Sanity)",
+            "fr": "😐  Oui, tout est en ordre, docteur (jouer le jeu, +1 Santé mentale)",
+            "it": "😐  Sì, tutto a posto, dottore (assecondarlo, +1 Sanità)",
+            "de": "😐  Ja, alles in Ordnung, Doktor (mitspielen, +1 Verstand)",
+            "zh": "😐  是的，一切都好，博士（顺着他说，+1理智）",
+            "ja": "😐  はい、すべて順調です、博士（話を合わせる、+1正気度）"
+        },
+        "next": [
+            "kael_seguir"
+        ],
+        "reward": "faceta:cordura=+1;gflag:kael_director_respondido",
+        "condition": "no_gflag(\"kael_director_respondido\")"
+    },
+    "kael_seguir": {
+        "type": "message",
+        "text": {
+            "es": "'Excelente, como siempre. No sé qué haríamos sin usted al mando de este proyecto.' Kaelen te dedica una sonrisa cansada pero sincera. 'Seguiré tu ejemplo, director.'",
+            "en": "'Excellent, as always. I don't know what we'd do without you leading this project.' Kaelen offers you a tired but sincere smile. 'I will follow your example, director.'",
+            "fr": "« Excellent, comme toujours. Je ne sais pas ce qu'on ferait sans vous à la tête de ce projet. » Kaelen t'offre un sourire fatigué mais sincère. « Je suivrai votre exemple, directeur. »",
+            "it": "'Eccellente, come sempre. Non so cosa faremmo senza di lei alla guida di questo progetto.' Kaelen ti rivolge un sorriso stanco ma sincero. 'Seguirò il suo esempio, direttore.'",
+            "de": "„Ausgezeichnet, wie immer. Ich weiß nicht, was wir ohne Sie an der Spitze dieses Projekts tun würden.“ Kaelen schenkt dir ein müdes, aber aufrichtiges Lächeln. „Ich werde Ihrem Beispiel folgen, Direktor.“",
+            "zh": "「一如既往地出色。真不知道没有您领导这个项目我们该怎么办。」凯伦向你露出疲惫却真诚的微笑。「我会追随您的榜样，主任。」",
+            "ja": "「相変わらず素晴らしい。あなたがこのプロジェクトを率いてくださらなければ、我々はどうなっていたことか」。ケイレンは疲れているが誠実な笑みを浮かべる。「あなたの模範に従いましょう、所長」"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "kael_1c": {
+        "type": "option",
+        "text": {
+            "es": "🧬  ¿Qué investigáis aquí?",
+            "en": "🧬  What are you researching here?",
+            "fr": "🧬  Que recherchez-vous ici ?",
+            "it": "🧬  Cosa state ricercando qui?",
+            "de": "🧬  Woran forschen Sie hier?",
+            "zh": "🧬  你们在这里研究什么？",
+            "ja": "🧬  ここで何を研究しているのですか？"
+        },
+        "next": [
+            "kael_investigacion"
+        ],
+        "reward": ""
+    },
+    "kael_investigacion": {
+        "type": "message",
+        "text": {
+            "es": "Buscamos fusionar la cibernética con la energía primordial para superar los límites biológicos. Aunque, si le soy sincero, director, desde el incidente con su hija en el ala de pruebas, el consejo quiere resultados YA, no promesas.",
+            "en": "We seek to fuse cybernetics with primordial energy to surpass biological limits. Though, if I'm honest, director, since the incident with your daughter in the testing wing, the board wants results NOW, not promises.",
+            "fr": "Nous cherchons à fusionner la cybernétique avec l'énergie primordiale pour dépasser les limites biologiques. Bien que, pour être honnête, directeur, depuis l'incident avec votre fille dans l'aile des essais, le conseil veut des résultats MAINTENANT, pas des promesses.",
+            "it": "Cerchiamo di fondere la cibernetica con l'energia primordiale per superare i limiti biologici. Anche se, se devo essere sincero, direttore, dall'incidente con sua figlia nell'ala dei test, il consiglio vuole risultati ORA, non promesse.",
+            "de": "Wir versuchen, Kybernetik mit urtümlicher Energie zu verschmelzen, um biologische Grenzen zu überwinden. Obwohl, wenn ich ehrlich bin, Direktor, seit dem Vorfall mit Ihrer Tochter im Testflügel will der Vorstand JETZT Ergebnisse, keine Versprechen.",
+            "zh": "我们致力于将控制论与原初能量融合，以超越生物极限。不过说实话，主任，自从您女儿在测试区发生那件事以后，董事会现在要的是立竿见影的结果，而不是承诺。",
+            "ja": "生物学的限界を超えるため、サイバネティクスと原初エネルギーの融合を目指しています。ですが正直に申し上げますと所長、試験区画でのお嬢様の事件以来、理事会は約束ではなく、今すぐの結果を求めています。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "kael_1d": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Os dejo trabajar",
+            "en": "🚶  I will let you work",
+            "fr": "🚶  Je vous laisse travailler",
+            "it": "🚶  Vi lascio lavorare",
+            "de": "🚶  Ich lasse Sie weiterarbeiten",
+            "zh": "🚶  我不打扰你们工作了",
+            "ja": "🚶  お仕事の邪魔はしません"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

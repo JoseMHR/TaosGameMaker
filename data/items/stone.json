@@ -1,0 +1,23 @@
+{
+    "name": {
+        "es": "Piedra",
+        "en": "Stone",
+        "fr": "Pierre",
+        "it": "Pietra",
+        "de": "Stein",
+        "zh": "石头",
+        "ja": "石"
+    },
+    "desc": {
+        "es": "Piedra resistente para forjar y construir.",
+        "en": "Sturdy stone for forging and building.",
+        "fr": "Pierre résistante pour forger et construire.",
+        "it": "Pietra resistente per forgiare e costruire.",
+        "de": "Robuster Stein zum Schmieden und Bauen.",
+        "zh": "坚固的石头，可用于锻造与建造。",
+        "ja": "鍛造や建築に使える頑丈な石。"
+    },
+    "icon": "🪨",
+    "category": "other",
+    "usable": false
+}

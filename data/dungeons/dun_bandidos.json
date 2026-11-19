@@ -1,0 +1,5683 @@
+{
+    "name": {
+        "es": "Cueva de los Perdidos",
+        "en": "Cave of the Lost",
+        "fr": "Grotte des Perdus",
+        "it": "Grotta dei Perduti",
+        "de": "Höhle der Verlorenen",
+        "zh": "迷失者洞穴",
+        "ja": "迷子の洞窟"
+    },
+    "theme": "cave",
+    "boss": "bandido_jefe",
+    "boss_level": 15,
+    "music": "dungeon_bandidos",
+    "cell_size": 4,
+    "wall_height": 4,
+    "ceiling": true,
+    "fog": true,
+    "ambient_energy": 0.4,
+    "ambient_color": "#2c2522",
+    "fill_light": 0.25,
+    "spawn": {
+        "f": 0,
+        "x": 17,
+        "y": 28
+    },
+    "portals": {
+        "west": {
+            "spawn": {
+                "f": 0,
+                "x": 17,
+                "y": 28
+            }
+        },
+        "east": {
+            "spawn": {
+                "f": 0,
+                "x": 17,
+                "y": 12
+            }
+        }
+    },
+    "floors": [
+        {
+            "name": "Catacumbas (P0)",
+            "w": 35,
+            "h": 41,
+            "cells": [
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "torch"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "torch"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "torch"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "torch"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "torch"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "torch"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "torch"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "torch"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "torch"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "torch"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "teleport",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "monster",
+                        "boss": true,
+                        "ref": "bandido_jefe",
+                        "level": 15,
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "torch"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "torch"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "grab_column"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "grab_column"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "torch"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "torch"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "grab_ring"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "grab_ring"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "grab_ring"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "grab_ring"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier",
+                        "rot": 90
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "grab_column"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "grab_column"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier",
+                        "rot": 90
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier",
+                        "rot": 90
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "torch"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "torch"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier",
+                        "rot": 90
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "torch"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "torch"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier",
+                        "rot": 90
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier",
+                        "rot": 90
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "torch"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "torch"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "torch"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "torch"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier",
+                        "rot": 90
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "torch"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "torch"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier",
+                        "rot": 90
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "torch"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "torch"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "torch"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "torch"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "torch"
+                    },
+                    {
+                        "t": "teleport",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "torch"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "torch"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "torch"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "torch"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "torch"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "torch"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier",
+                        "rot": 90
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier",
+                        "rot": 90
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "torch"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "break_barrier"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "torch"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "torch"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "torch"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_cave_wall"
+                    },
+                    {
+                        "t": "torch"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "smart",
+                        "kit": "reveal_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_cave_wall"
+                    }
+                ]
+            ]
+        }
+    ],
+    "tex_wall": "tex_cave_wall",
+    "tex_floor": "tex_cave_wall",
+    "void_type": "spikes"
+}

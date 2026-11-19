@@ -1,0 +1,28 @@
+{
+    "id": "dun_laboratorio",
+    "type": "dungeon",
+    "name": {
+        "es": "Laboratorio de Arcanum",
+        "en": "Arcanum Laboratory",
+        "fr": "Laboratoire d'Arcanum",
+        "it": "Laboratorio di Arcanum",
+        "de": "Arcanum-Labor",
+        "zh": "奥秘遗迹实验室",
+        "ja": "アルカナム研究所"
+    },
+    "icon": "🕳️",
+    "desc": {
+        "es": "Laboratorio de Arcanum",
+        "en": "Arcanum Laboratory",
+        "fr": "Laboratoire d'Arcanum",
+        "it": "Laboratorio di Arcanum",
+        "de": "Arcanum-Labor",
+        "zh": "奥秘遗迹实验室",
+        "ja": "アルカナム研究所"
+    },
+    "bg": [
+        0.05,
+        0.05,
+        0.08
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "id": "poi_arcanum_reloj_parado",
+    "type": "poi",
+    "icon": "🕰️",
+    "name": {
+        "es": "El Reloj Detenido",
+        "en": "The Stopped Clock",
+        "fr": "L'Horloge Arrêtée",
+        "it": "L'Orologio Fermo",
+        "de": "Die Stehengebliebene Uhr",
+        "zh": "停摆的时钟",
+        "ja": "止まった時計"
+    },
+    "desc": {
+        "es": "Un enorme reloj de torre caído en el páramo, con las agujas clavadas para siempre en una hora concreta. (POI de inspección).",
+        "en": "A huge tower clock fallen in the badlands, its hands frozen forever at one precise hour. (Inspection POI).",
+        "fr": "Une énorme horloge de tour tombée dans les terres désolées, ses aiguilles figées pour toujours sur une heure précise. (POI d'inspection).",
+        "it": "Un enorme orologio da torre caduto nelle terre desolate, con le lancette bloccate per sempre su un'ora precisa. (POI di ispezione).",
+        "de": "Eine riesige Turmuhr, gestürzt im Ödland, ihre Zeiger für immer auf eine bestimmte Stunde eingefroren. (Inspektions-POI).",
+        "zh": "一座倒在荒地中的巨大钟楼，指针永远定格在某个精确的时刻。（探查类兴趣点）。",
+        "ja": "荒野に倒れた巨大な塔の時計。針は永遠にある一つの時刻で止まっている。（調査ポイント）。"
+    },
+    "npc": "poi_arcanum_reloj_parado",
+    "bg": "bg_world_poi_arcanum_reloj_parado.png",
+    "music": "creepy"
+}

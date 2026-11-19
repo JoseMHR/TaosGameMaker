@@ -1,0 +1,26 @@
+{
+    "id": "poi_campamento_desierto",
+    "type": "poi",
+    "icon": "🍲",
+    "name": {
+        "es": "Restos del Banquete Furtivo",
+        "en": "Remains of the Furtive Feast",
+        "fr": "Restes du Festin Furtif",
+        "it": "Resti del Banchetto Furtivo",
+        "de": "Überreste des Heimlichen Festmahls",
+        "zh": "秘密盛宴的遗迹",
+        "ja": "隠れ宴の残骸"
+    },
+    "desc": {
+        "es": "Una olla chamuscada y notas de cocina abandonadas en la arena. (POI de inspección).",
+        "en": "A scorched pot and abandoned cooking notes in the sand. (Inspection POI).",
+        "fr": "Une marmite calcinée et des notes de cuisine abandonnées dans le sable. (POI d'inspection).",
+        "it": "Una pentola bruciacchiata e appunti di cucina abbandonati nella sabbia. (POI di ispezione).",
+        "de": "Ein angesengter Topf und verlassene Kochnotizen im Sand. (Inspektions-POI).",
+        "zh": "沙地上一口烧焦的锅和被遗弃的烹饪笔记。（探查类兴趣点）。",
+        "ja": "砂の中に焦げた鍋と置き去りにされた料理のメモ。（調査ポイント）。"
+    },
+    "npc": "poi_campamento_desierto",
+    "bg": "bg_world_poi_gloriam_campamento.png",
+    "music": "poi_generic"
+}

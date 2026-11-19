@@ -1,0 +1,26 @@
+{
+    "id": "poi_celestia_estatua_heroe",
+    "type": "poi",
+    "icon": "🗿",
+    "name": {
+        "es": "La Estatua del Héroe Equivocado",
+        "en": "The Statue of the Wrong Hero",
+        "fr": "La Statue du Mauvais Héros",
+        "it": "La Statua dell'Eroe Sbagliato",
+        "de": "Die Statue des Falschen Helden",
+        "zh": "错认的英雄雕像",
+        "ja": "間違った英雄の像"
+    },
+    "desc": {
+        "es": "Una estatua monumental de un héroe glorioso cuya placa, sin embargo, describe a alguien muy distinto. (POI de inspección).",
+        "en": "A monumental statue of a glorious hero whose plaque, however, describes someone very different. (Inspection POI).",
+        "fr": "Une statue monumentale d'un héros glorieux dont la plaque, pourtant, décrit quelqu'un de très différent. (POI d'inspection).",
+        "it": "Una statua monumentale di un eroe glorioso la cui targa, tuttavia, descrive qualcuno di molto diverso. (POI di ispezione).",
+        "de": "Eine monumentale Statue eines glorreichen Helden, deren Tafel jedoch jemand ganz anderen beschreibt. (Inspektions-POI).",
+        "zh": "一座宏伟的英雄雕像，然而铭牌上描述的却是截然不同的人。（探查类兴趣点）。",
+        "ja": "栄光ある英雄の巨大な像だが、その銘板には全く別の人物のことが書かれている。（調査ポイント）。"
+    },
+    "npc": "poi_celestia_estatua_heroe",
+    "bg": "bg_world_poi_celestia_estatua_heroe.png",
+    "music": "poi_generic"
+}

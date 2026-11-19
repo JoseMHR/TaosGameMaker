@@ -1,0 +1,42 @@
+# Godot 4+ specific ignores
+.godot/
+*.translation
+
+# Android build cache & binaries
+**/android/build/build/
+**/android/build/.gradle/
+**/android/build/.kotlin/
+**/android/build/assetPackInstallTime/build/
+**/android/build/libs/
+**/android/build/outputs/
+*.apk
+*.aab
+*.aar
+local.properties
+
+# Android keystores (Never commit private keys!)
+*.keystore
+*.jks
+
+# Python cache (tools, editor/serve.py)
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Node cache (tools/check_editor.mjs)
+node_modules/
+package-lock.json
+
+# OS files & caches
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp
+*.temp
+
+# IDE / Editor config
+.idea/
+.vscode/
+*.swp
+*.bak

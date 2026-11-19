@@ -1,0 +1,167 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Gremio de las Artes Inútiles",
+            "en": "The Guild of Useless Arts",
+            "fr": "Le Gremio des Arts Inutiles",
+            "it": "La Gilda delle Arti Inutili",
+            "de": "Die Gilde der Nutzlosen Künste",
+            "zh": "无用艺术公会",
+            "ja": "無用の芸術ギルド"
+        },
+        "next": [],
+        "reward": "avatar=🎭;bg=0.08,0.06,0.10"
+    },
+    "gre_done": {
+        "type": "message",
+        "text": {
+            "es": "El maestro del gremio te recibe con una reverencia exageradísima. '¡El graduado más prometedor en la historia de lo intrascendente! ¿Vienes a perfeccionar tu Suspiro Dramático o a matricularte en Caídas Elegantes Nivel 2?' Detrás, tres alumnos practican tropezar con gracia.",
+            "en": "The guild master receives you with a wildly exaggerated bow. 'The most promising graduate in the history of the inconsequential! Have you come to perfect your Dramatic Sigh, or to enroll in Elegant Falling, Level 2?' Behind him, three students practice tripping gracefully.",
+            "fr": "Le maître du gremio te reçoit avec une révérence extrêmement exagérée. « Le diplômé le plus prometteur de l'histoire de l'insignifiant ! Viens-tu perfectionner ton Soupir Dramatique ou t'inscrire aux Chutes Élégantes Niveau 2 ? » Derrière lui, trois élèves s'exercent à trébucher avec grâce.",
+            "it": "Il maestro della gilda ti accoglie con un inchino esageratissimo. 'Il laureato più promettente nella storia dell'irrilevante! Vieni a perfezionare il tuo Sospiro Drammatico o a iscriverti alle Cadute Eleganti Livello 2?' Dietro di lui, tre allievi si esercitano a inciampare con grazia.",
+            "de": "Der Gildenmeister empfängt dich mit einer maßlos übertriebenen Verbeugung. „Der vielversprechendste Absolvent in der Geschichte des Unbedeutenden! Bist du hier, um deinen Dramatischen Seufzer zu perfektionieren oder um dich für Elegantes Stolpern, Stufe 2, einzuschreiben?“ Hinter ihm üben drei Schüler, elegant zu stolpern.",
+            "zh": "公会大师用一个极其夸张的鞠躬迎接你。「无关紧要之事历史上最有前途的毕业生！你是来完善你的『戏剧性叹息』的，还是来报名『优雅摔倒二级课程』的？」在他身后，三名学生正在练习优雅地跌倒。",
+            "ja": "ギルドの師範が、極めて大げさなお辞儀でお前を迎える。「取るに足らぬことの歴史における最も有望な卒業生よ！『劇的なため息』を極めに来たのか、それとも『優雅な転び方レベル2』に入学しに来たのか？」その背後で、三人の生徒たちが優雅につまずく練習をしている。"
+        },
+        "next": [
+            "gre_opt_salir"
+        ],
+        "reward": "",
+        "condition": "gflag(\"gre_graduado\")"
+    },
+    "gre_root": {
+        "type": "message",
+        "text": {
+            "es": "Entre los solemnes templos de sabios de Celestia, una carpa de rayas chillonas desentona con orgullo. Un cartel proclama: 'GREMIO DE LAS ARTES INÚTILES — Fundado por gente a la que echaron de gremios serios.' Dentro, un maestro de bigote encerado enseña a un grupo a suspirar con desgarro, fingir desmayos convincentes y saludar con el sombrero sin que se caiga. 'Todo el mundo aprende a luchar', te dice al verte. '¿Pero quién enseña a RENDIRSE con dignidad? Nosotros.'",
+            "en": "Amid Celestia's solemn temples of sages, a garishly striped tent proudly clashes. A sign proclaims: 'GUILD OF USELESS ARTS — Founded by people thrown out of serious guilds.' Inside, a master with a waxed mustache teaches a group to sigh heartbreakingly, feign convincing faints, and tip a hat without dropping it. 'Everyone learns to fight,' he tells you on seeing you. 'But who teaches how to SURRENDER with dignity? We do.'",
+            "fr": "Parmi les temples solennels des sages de Celestia, une tente aux rayures criardes tranche fièrement. Un écriteau proclame : « GREMIO DES ARTS INUTILES — Fondé par des gens chassés des gremios sérieux. » À l'intérieur, un maître à la moustache cirée enseigne à un groupe à soupirer avec déchirement, à feindre des évanouissements convaincants et à saluer du chapeau sans le faire tomber. « Tout le monde apprend à combattre », te dit-il en te voyant. « Mais qui enseigne à SE RENDRE avec dignité ? Nous. »",
+            "it": "Tra i solenni templi dei sapienti di Celestia, una tenda a righe stridenti contrasta con orgoglio. Un cartello proclama: 'GILDA DELLE ARTI INUTILI — Fondata da gente cacciata da gilde serie.' All'interno, un maestro con baffi incerati insegna a un gruppo a sospirare con struggimento, a fingere svenimenti convincenti e a salutare col cappello senza farlo cadere. 'Tutti imparano a combattere', ti dice vedendoti. 'Ma chi insegna a ARRENDERSI con dignità? Noi.'",
+            "de": "Zwischen den ehrwürdigen Weisentempeln von Celestia sticht ein grell gestreiftes Zelt stolz heraus. Ein Schild verkündet: „GILDE DER NUTZLOSEN KÜNSTE — Gegründet von Leuten, die aus ernsten Gilden geworfen wurden.“ Drinnen bringt ein Meister mit gewichstem Schnurrbart einer Gruppe bei, herzzerreißend zu seufzen, überzeugende Ohnmachten zu fälschen und mit dem Hut zu grüßen, ohne ihn fallen zu lassen. „Jeder lernt zu kämpfen“, sagt er, als er dich sieht. „Aber wer lehrt, wie man sich mit Würde ERGIBT? Wir.“",
+            "zh": "在塞莱斯提亚那些庄严肃穆的贤者神庙之间，一座条纹刺眼的帐篷骄傲地显得格格不入。一块告示牌上写着：「无用艺术公会——由被正经公会驱逐的人建立。」在里面，一位留着上蜡胡须的大师正在教一群人如何撕心裂肺地叹息、伪装令人信服的昏厥，以及如何脱帽致意而不让帽子掉落。「所有人都学着战斗，」他看到你时说道，「但谁来教人如何有尊严地『投降』呢？我们教。」",
+            "ja": "セレスティアの厳粛な賢者たちの神殿の間で、けたたましい縞模様のテントが誇らしげに異彩を放っている。看板にはこうある：「無用の芸術ギルド——真剣なギルドから追放された者たちによって設立」中では、蝋を塗った髭の師範が、心を打つようなため息のつき方、説得力のある偽の失神、帽子を落とさずに敬礼する方法を教えている。「誰もが戦い方を学ぶ」お前を見て彼は言う。「だが誰が尊厳を持って『降伏する』方法を教えるのだ？我々だ」"
+        },
+        "next": [
+            "gre_opt_aprender",
+            "gre_opt_filosofia",
+            "gre_opt_reirse",
+            "gre_opt_salir"
+        ],
+        "reward": ""
+    },
+    "gre_opt_aprender": {
+        "type": "option",
+        "text": {
+            "es": "🎩  Recibir una clase magistral de presencia escénica",
+            "en": "🎩  Take a masterclass in stage presence",
+            "fr": "🎩  Recevoir un cours magistral de présence scénique",
+            "it": "🎩  Ricevere una lezione magistrale di presenza scenica",
+            "de": "🎩  Einen Meisterkurs in Bühnenpräsenz nehmen",
+            "zh": "🎩  接受一场关于舞台气场的大师课",
+            "ja": "🎩  『舞台での存在感』のマスタークラスを受ける"
+        },
+        "next": [
+            "gre_msg_aprender"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "gre_msg_aprender": {
+        "type": "message",
+        "text": {
+            "es": "El maestro te enseña a entrar en cualquier sala como si el mundo te debiera una disculpa: la barbilla justa, la pausa dramática, la mirada que dice 'he vivido cosas'. Practicas la reverencia perfecta y el gesto de capa hasta que te sale natural. Puede que nunca gane una batalla, pero de repente sabes que la mitad de imponer respeto es, simplemente, creértelo. Sales caminando con un aplomo que no tenías al entrar.",
+            "en": "The master teaches you to enter any room as if the world owed you an apology: the exact chin, the dramatic pause, the gaze that says 'I've been through things'. You practice the perfect bow and the cape flourish until it comes naturally. It may never win a battle, but suddenly you know that half of commanding respect is, simply, believing it yourself. You walk out with a poise you didn't have when you came in.",
+            "fr": "Le maître t'apprend à entrer dans n'importe quelle salle comme si le monde te devait des excuses : le menton juste, la pause dramatique, le regard qui dit « j'ai vécu des choses ». Tu pratiques la révérence parfaite et le geste de la cape jusqu'à ce que ça devienne naturel. Ça ne te fera peut-être jamais gagner une bataille, mais tu comprends soudain que la moitié du fait d'imposer le respect, c'est simplement d'y croire toi-même. Tu sors avec un aplomb que tu n'avais pas en entrant.",
+            "it": "Il maestro ti insegna a entrare in qualsiasi sala come se il mondo ti dovesse delle scuse: il mento giusto, la pausa drammatica, lo sguardo che dice 'ho vissuto cose'. Ti esercitai nel perfetto inchino e nel gesto del mantello finché non ti viene naturale. Forse non vincerà mai una battaglia, ma improvvisamente sai che metà dell'imporre rispetto è, semplicemente, crederci tu stesso. Esci camminando con un aplomb che non avevi entrando.",
+            "de": "Der Meister bringt dir bei, jeden Raum zu betreten, als schuldete dir die Welt eine Entschuldigung: das richtige Kinn, die dramatische Pause, der Blick, der sagt „ich habe Dinge erlebt“. Du übst die perfekte Verbeugung und die Umhang-Geste, bis es dir natürlich vorkommt. Es mag dir nie eine Schlacht gewinnen, aber plötzlich weißt du, dass die Hälfte des Respekterzwingens einfach darin liegt, es selbst zu glauben. Du gehst mit einer Souveränität hinaus, die du beim Eintreten nicht hattest.",
+            "zh": "这位大师教你如何走进任何一个房间，仿佛整个世界都欠你一个道歉：恰到好处的下巴角度，戏剧性的停顿，一种说着「我经历过很多事」的眼神。你练习着完美的鞠躬和披风的甩动动作，直到它变得自然而然。这或许永远不会帮你赢得一场战斗，但你突然明白，让人产生敬畏感的一半秘诀，仅仅是你自己相信这一点。你带着进来时所没有的沉稳气度走了出去。",
+            "ja": "師範は、世界が謝罪を負っているかのように、どんな部屋にでも入る方法を教える——ちょうどいい顎の角度、劇的な間、「私は色々経験してきた」と語る眼差し。完璧なお辞儀とマントの所作を、自然にできるようになるまで練習する。それが戦いに勝つことは決してないかもしれないが、人に敬意を強いることの半分は、単に自分自身がそれを信じることなのだと突然分かる。入った時にはなかった落ち着きを身につけて出ていく。"
+        },
+        "next": [
+            "gre_opt_salir"
+        ],
+        "reward": "faceta:aspecto=+1;gflag:gre_graduado",
+        "condition": "no_gflag(\"gre_graduado\")",
+        "once": true
+    },
+    "gre_opt_filosofia": {
+        "type": "option",
+        "text": {
+            "es": "🤔  ¿De qué sirve todo esto realmente?",
+            "en": "🤔  What is any of this actually good for?",
+            "fr": "🤔  Tout ça sert vraiment à quoi ?",
+            "it": "🤔  A cosa serve realmente tutto questo?",
+            "de": "🤔  Wozu dient das alles wirklich?",
+            "zh": "🤔  这一切到底有什么用？",
+            "ja": "🤔  これは一体何の役に立つんだ？"
+        },
+        "next": [
+            "gre_msg_filosofia"
+        ],
+        "reward": ""
+    },
+    "gre_msg_filosofia": {
+        "type": "message",
+        "text": {
+            "es": "El maestro se pone insólitamente serio. 'Escucha bien, héroe. Un día te toparás con algo que no puedes vencer con la espada. Y ese día, saber suplicar, fingirte muerto o bailar hasta desarmar a tu enemigo te salvará la vida cuando toda tu fuerza no valga nada.' Guiña un ojo. 'Los débiles sobrevivimos siendo listos. Recuérdalo cuando los fuertes ya no estén.' Extrañamente, sus palabras se te quedan grabadas.",
+            "en": "The master turns unusually serious. 'Listen well, hero. One day you'll run into something you can't beat with a sword. And on that day, knowing how to beg, play dead, or dance your enemy into disarming himself will save your life when all your strength counts for nothing.' He winks. 'We weaklings survive by being clever. Remember it when the strong are gone.' Strangely, his words stay with you.",
+            "fr": "Le maître devient étrangement sérieux. « Écoute bien, héros. Un jour, tu tomberas sur quelque chose que tu ne pourras pas vaincre par l'épée. Et ce jour-là, savoir supplier, faire le mort ou danser jusqu'à désarmer ton ennemi te sauvera la vie quand toute ta force ne vaudra plus rien. » Il te fait un clin d'œil. « Nous les faibles, nous survivons en étant intelligents. Souviens-t'en quand les forts ne seront plus là. » Étrangement, ses paroles restent gravées en toi.",
+            "it": "Il maestro diventa insolitamente serio. 'Ascolta bene, eroe. Un giorno ti scontrerai con qualcosa che non puoi vincere con la spada. E quel giorno, saper supplicare, fingerti morto o danzare fino a disarmare il tuo nemico ti salverà la vita quando tutta la tua forza non varrà nulla.' Fa l'occhiolino. 'Noi debolli sopravviviamo essendo astuti. Ricordalo quando i forti non ci saranno più.' Strananamente, le sue parole ti rimangono impresse.",
+            "de": "Der Meister wird ungewöhnlich ernst. „Hör gut zu, Held. Eines Tages wirst du auf etwas stoßen, das du nicht mit dem Schwert besiegen kannst. Und an jenem Tag wird es dir das Leben retten, zu flehen, dich totzustellen oder deinen Feind mit Tanzen zu entwaffnen, wenn all deine Stärke nichts mehr wert ist.“ Er zwinkert. „Wir Schwachen überleben, weil wir klug sind. Denk daran, wenn die Starken nicht mehr da sind.“ Seltsamerweise bleiben seine Worte in dir haften.",
+            "zh": "大师变得异常严肃起来。「好好听着，英雄。有一天你会遇到无法用剑击败的东西。而到那一天，懂得如何乞求、装死，或者跳舞让敌人自行卸下武装，会在你所有的力量都毫无用处时救你一命。」他眨了眨眼。「我们弱者靠聪明才能生存下去。等强者不在了的时候，记住这句话。」奇怪的是，他的话竟深深地印在了你的脑海里。",
+            "ja": "師範は珍しく真剣になる。「よく聞け、英雄よ。いつか剣で勝てないものに出会う日が来る。その時、懇願する術、死んだふりをする術、あるいは敵を武装解除させるまで踊る術を知っていることが、力がすべて無価値になった時にお前の命を救うのだ」ウィンクする。「我々弱者は賢さで生き延びる。強者がいなくなった時、それを思い出せ」奇妙なことに、その言葉はお前の心に深く刻まれる。"
+        },
+        "next": [
+            "gre_root"
+        ],
+        "reward": ""
+    },
+    "gre_opt_reirse": {
+        "type": "option",
+        "text": {
+            "es": "😂  Reírte en su cara: Menuda pérdida de tiempo",
+            "en": "😂  Laugh in his face: What a waste of time",
+            "fr": "😂  Te moquer de lui en riant : Quelle perte de temps",
+            "it": "😂  Riderti in faccia: Che perdita di tempo",
+            "de": "😂  Ihm ins Gesicht lachen: Was für eine Zeitverschwendung",
+            "zh": "😂  当面嘲笑他：真是浪费时间",
+            "ja": "😂  彼の顔を見て笑う：なんて時間の無駄だ"
+        },
+        "next": [
+            "gre_msg_reirse"
+        ],
+        "reward": ""
+    },
+    "gre_msg_reirse": {
+        "type": "message",
+        "text": {
+            "es": "Te ríes con ganas. El maestro no se ofende; al contrario, ejecuta una caída dramática tan perfecta, con un gemido tan lastimero, que por un segundo crees de verdad que le ha dado un infarto. Toda la carpa contiene el aliento. Luego se levanta de un salto, impecable, y hace una reverencia mientras los alumnos aplauden. Te ha dado una lección práctica de humildad sin decir una palabra. El que se ríe último, resulta, hace la mejor caída.",
+            "en": "You laugh out loud. The master isn't offended; on the contrary, he performs a dramatic collapse so perfect, with a moan so pitiful, that for a second you genuinely believe he's had a heart attack. The whole tent holds its breath. Then he springs back up, immaculate, and bows while the students applaud. He has given you a practical lesson in humility without a word. The one who laughs last, it turns out, does the best pratfall.",
+            "fr": "Tu ris de bon cœur. Le maître ne s'en offense pas ; au contraire, il exécute une chute dramatique si parfaite, avec un gémissement si pitoyable, que pendant une seconde tu crois vraiment qu'il vient d'avoir une crise cardiaque. Toute la tente retient son souffle. Puis il se relève d'un bond, impeccable, et salue tandis que les élèves applaudissent. Il t'a donné une leçon pratique d'humilité sans dire un mot. Celui qui rit en dernier, il s'avère, fait la meilleure chute.",
+            "it": "Ridi di cuore. Il maestro non se ne offende; al contrario, esegue una caduta drammatica così perfetta, con un gemito così pietoso, che per un secondo credi davvero che gli sia venuto un infarto. Tutta la tenda trattiene il respiro. Poi si rialza di scatto, impeccabile, e fa un inchino mentre gli allievi applaudono. Ti ha dato una lezione pratica di umiltà senza dire una parola. Chi ride ultimo, si scopre, fa la caduta migliore.",
+            "de": "Du lachst herzlich. Der Meister nimmt es nicht übel; im Gegenteil, er führt einen dramatischen Sturz so perfekt aus, mit einem so kläglichen Stöhnen, dass du für eine Sekunde wirklich glaubst, er hätte einen Herzinfarkt erlitten. Das ganze Zelt hält den Atem an. Dann springt er tadellos wieder auf und verneigt sich, während die Schüler applaudieren. Er hat dir ohne ein Wort eine praktische Lektion in Demut gegeben. Wer zuletzt lacht, so stellt sich heraus, fällt am besten.",
+            "zh": "你痛快地大笑起来。大师并未生气；相反，他表演了一次如此完美的戏剧性摔倒，伴随着如此可怜的呻吟，以至于你一瞬间真以为他心脏病发作了。整座帐篷都倒吸了一口气。随后他一跃而起，姿态无可挑剔，在学生们的掌声中鞠躬致意。他没说一句话，却给你上了一堂实践的谦逊课。原来，最后笑的人，摔得最好。",
+            "ja": "お前は心から笑う。師範は気にしない。それどころか、あまりにも完璧で、あまりにも哀れなうめき声を伴った劇的な倒れ方を披露する。一瞬、本当に心臓発作を起こしたのかと思うほどだ。テント全体が息をのむ。それから彼は完璧な様子で跳ね上がり、生徒たちの拍手の中お辞儀をする。彼は一言も語らずに、謙虚さの実践的な教訓をお前に与えたのだ。最後に笑う者が、結局、最高の転び方をするというわけだ。"
+        },
+        "next": [
+            "gre_root"
+        ],
+        "reward": ""
+    },
+    "gre_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Salir de la carpa (con una reverencia, por si acaso)",
+            "en": "🚶  Leave the tent (with a bow, just in case)",
+            "fr": "🚶  Sortir de la tente (avec une révérence, au cas où)",
+            "it": "🚶  Uscire dalla tenda (con un inchino, giusto per sicurezza)",
+            "de": "🚶  Das Zelt verlassen (mit einer Verbeugung, nur zur Sicherheit)",
+            "zh": "🚶  离开帐篷（顺便鞠个躬，以防万一）",
+            "ja": "🚶  テントを出る（念のため、お辞儀をしてから）"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "id": "poi_arcanum_board",
+    "type": "poi",
+    "icon": "📋",
+    "name": {
+        "es": "Tablón de Contratos",
+        "en": "Contract Board",
+        "fr": "Tableau des Contrats",
+        "it": "Bacheca dei Contratti",
+        "de": "Vertragsbrett",
+        "zh": "契约布告栏",
+        "ja": "契約掲示板"
+    },
+    "desc": {
+        "es": "Pantalla holográfica con misiones de extracción y cacería tecnológica",
+        "en": "Holographic display with tech salvage and bounty jobs",
+        "fr": "Écran holographique avec des missions d'extraction et de chasse technologique",
+        "it": "Schermo olografico con missioni di estrazione e caccia tecnologica",
+        "de": "Holografisches Display mit Bergungs- und Technologie-Kopfgeldaufträgen",
+        "zh": "全息屏幕，显示着回收与科技悬赏任务",
+        "ja": "採取任務と技術狩猟の依頼が表示されるホログラム画面"
+    },
+    "kind": "board",
+    "bg": "bg_city_arcanum_board.png"
+}

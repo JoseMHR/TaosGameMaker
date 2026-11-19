@@ -1,0 +1,150 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "Vex el Camarero Neón",
+            "en": "Vex the Neon Bartender",
+            "fr": "Vex le Barman Néon",
+            "it": "Vex il Barista Neon",
+            "de": "Vex der Neon-Barkeeper",
+            "zh": "霓虹酒保维克斯",
+            "ja": "ネオンバーテンダーのヴェックス"
+        },
+        "next": [],
+        "reward": "avatar=🍸;bg=0.05,0.03,0.09"
+    },
+    "vex_1": {
+        "type": "message",
+        "text": {
+            "es": "¡Vaya cara traes, forastero! Las luces de neón parpadean en verde esmeralda y el zumbido de la ventilación filtra el smog metálico del subsuelo. '¿Buscando refugio de los cables pelados o algo que te limpie el hollín de los pulmones? En el Bar Subterráneo servimos combustible de alto octanaje tanto para orgánicos como para cibernéticos.'",
+            "en": "Rough look on you, stranger! Emerald neon flickers and ventilation hums filtering the subterranean metal smog. 'Seeking shelter from frayed conduits or something to cleanse soot from your lungs? At the Subterranean Lounge we pour high octane fuel for organics and cyborgs alike.'",
+            "fr": "Quelle tête tu as, l'étranger ! Les néons clignotent en vert émeraude et le bourdonnement de la ventilation filtre le smog métallique du sous-sol. « Tu cherches un refuge contre les câbles dénudés ou quelque chose pour nettoyer la suie de tes poumons ? Au Bar Souterrain, on sert du carburant haut de gamme aussi bien pour les organiques que pour les cybernétiques. »",
+            "it": "Che faccia hai, straniero! I neon lampeggiano in verde smeraldo e il ronzio della ventilazione filtra lo smog metallico del sottosuolo. 'Cerchi rifugio dai cavi scoperti o qualcosa che ti pulisca la fuliggine dai polmoni? Al Bar Sotterraneo serviamo carburante ad alto ottano sia per organici che per cibernetici.'",
+            "de": "Was für ein Gesicht, Fremder! Das Neonlicht flackert smaragdgrün, und das Summen der Belüftung filtert den metallischen Smog des Untergrunds. „Suchst du Schutz vor blanken Kabeln oder etwas, um den Ruß aus deinen Lungen zu spülen? In der Unterirdischen Bar servieren wir hochoktanigen Treibstoff für Organische wie Kybernetische gleichermaßen.“",
+            "zh": "外乡人，你这脸色可真难看！霓虹灯闪烁着翠绿的光芒，通风系统的嗡嗡声过滤着地下的金属烟雾。「想找个躲避裸露电缆的地方，还是想要点能清洗肺里烟灰的东西？在地下酒吧，我们为有机生命体和机械生命体都供应高辛烷值的燃料。」",
+            "ja": "ひどい顔色だな、旅の者よ！ネオンはエメラルドグリーンに明滅し、換気の唸りが地下の金属スモッグを濾過している。「剥き出しの配線から逃げ場を探しているのか、それとも肺の煤を洗い流す何かが欲しいのか？地下ラウンジでは、有機生命体にもサイボーグにも高オクタンの燃料を提供している」"
+        },
+        "next": [
+            "vex_opt_trago",
+            "vex_opt_jukebox",
+            "vex_opt_rumores",
+            "vex_opt_salir"
+        ],
+        "reward": ""
+    },
+    "vex_opt_trago": {
+        "type": "option",
+        "text": {
+            "es": "🍹  Ponme ese Cóctel de Electrolitos Sintéticos de alto voltaje (10 Oro)",
+            "en": "🍹  Pour me that high-voltage Synthetic Electrolyte Cocktail (10 Gold)",
+            "fr": "🍹  Sers-moi ce Cocktail d'Électrolytes Synthétiques haute tension (10 Or)",
+            "it": "🍹  Versami quel Cocktail di Elettroliti Sintetici ad alto voltaggio (10 Oro)",
+            "de": "🍹  Gib mir diesen hochvoltigen Synthetischen Elektrolyt-Cocktail (10 Gold)",
+            "zh": "🍹  给我来一杯高压合成电解质鸡尾酒（10金币）",
+            "ja": "🍹  あの高電圧の合成電解質カクテルをくれ（10ゴールド）"
+        },
+        "next": [
+            "vex_bebida"
+        ],
+        "reward": "gold:-10;heal:30;faceta:valor=+1",
+        "condition": "gold >= 10"
+    },
+    "vex_bebida": {
+        "type": "message",
+        "text": {
+            "es": "Vex agita una coctelera de cromo que suelta chispas azules y vierte un líquido fosforescente que burbujea en tu copa. Al beberlo sientes una sacudida eléctrica que te eriza el vello y reactiva cada fibra muscular como un choque desfibrilador. Vex asiente complacido: '¡Eso es acero líquido! Ahora tienes pulso de androide de asalto.'",
+            "en": "Vex shakes a chrome shaker crackling with azure sparks, pouring a phosphorescent liquid that bubbles in your glass. Downing it sends an electric jolt bristling your skin, kickstarting every muscle fiber like a defibrillator pulse. Vex nods in approval: 'That is liquid steel! Now you carry the pulse of a frontline assault android.'",
+            "fr": "Vex agite un shaker chromé qui crépite d'étincelles bleues et verse un liquide phosphorescent qui pétille dans ton verre. En le buvant, tu ressens une décharge électrique qui te hérisse les poils et réactive chaque fibre musculaire comme un choc défibrillateur. Vex hoche la tête, satisfait : « Ça, c'est de l'acier liquide ! Tu as maintenant le pouls d'un androïde d'assaut. »",
+            "it": "Vex agita uno shaker cromato che sprigiona scintille blu e versa un liquido fosforescente che frizza nel tuo bicchiere. Bevendolo senti una scossa elettrica che ti fa rizzare i peli e riattiva ogni fibra muscolare come uno shock da defibrillatore. Vex annuisce compiaciuto: 'Questo è acciaio liquido! Ora hai il polso di un androide d'assalto.'",
+            "de": "Vex schüttelt einen verchromten Shaker, der blaue Funken sprüht, und gießt eine phosphoreszierende Flüssigkeit ein, die in deinem Glas sprudelt. Beim Trinken spürst du einen elektrischen Schlag, der deine Haare sträubt und jede Muskelfaser wie ein Defibrillator-Stoß wieder aktiviert. Vex nickt zufrieden: „Das ist flüssiger Stahl! Jetzt hast du den Puls eines Sturm-Androiden.“",
+            "zh": "维克斯摇晃着一个泛着蓝色火花的镀铬调酒壶，往你的杯子里倒入一种冒着泡的磷光液体。喝下去的瞬间，一股电流让你毛发直竖，重新激活了每一根肌肉纤维，仿佛除颤器电击一般。维克斯满意地点点头：「这可是液态钢！你现在拥有突击机器人的脉搏了。」",
+            "ja": "ヴェックスは青い火花を散らすクロムのシェイカーを振り、燐光を放つ液体をグラスに注ぐ。飲み干すと、電気の衝撃が全身の毛を逆立て、除細動器のような刺激で筋繊維の一本一本を再起動させる。ヴェックスは満足げに頷く。「それが液体鋼だ！これでお前も強襲アンドロイドの鼓動を持ったわけだ」"
+        },
+        "next": [
+            "vex_1"
+        ],
+        "reward": ""
+    },
+    "vex_opt_jukebox": {
+        "type": "option",
+        "text": {
+            "es": "🧠  (Examinar la vieja gramola holográfica que chirría en la esquina y recalibrar sus circuitos)",
+            "en": "🧠  (Inspect the glitching holographic jukebox in the corner and recalibrate its circuitry)",
+            "fr": "🧠  (Examiner le vieux juke-box holographique qui grésille dans le coin et recalibrer ses circuits)",
+            "it": "🧠  (Esaminare il vecchio jukebox olografico che scricchiola nell'angolo e ricalibrare i suoi circuiti)",
+            "de": "🧠  (Die alte, knirschende holografische Jukebox in der Ecke untersuchen und ihre Schaltkreise neu kalibrieren)",
+            "zh": "🧠  （检查角落里那台故障的全息点唱机，重新校准它的电路）",
+            "ja": "🧠  （隅で不調を起こしているホログラフィック・ジュークボックスを調べ、回路を再調整する）"
+        },
+        "next": [
+            "vex_msg_jukebox"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "vex_msg_jukebox": {
+        "type": "message",
+        "text": {
+            "es": "Abres el panel lateral de la máquina de música, puenteas dos condensadores recalentados y ajustas la frecuencia del resonador acústico con pulso firme. De pronto, la gramola cobra vida proyectando notas holográficas de synthwave retro que inundan la taberna con un ritmo electrizante. Los parroquianos vitorean y Vex te guiña un ojo: '¡Llevaba tres meses estropeada! Te has ganado el respeto de todos los manitas del sector.' Te desliza unas piezas de valor y monedas.",
+            "en": "You pop the side panel of the music machine, bypass two scorched capacitors, and tune the acoustic resonator with steady fingers. Suddenly, the jukebox bursts into vibrant life, casting neon synthwave notes that bathe the lounge in electrifying rhythm. The regulars cheer and Vex winks: 'Been busted for three solid months! You earned the respect of every wrench in the sector.' He slides valuable scrap and coin your way.",
+            "fr": "Tu ouvres le panneau latéral de la machine à musique, court-circuites deux condensateurs surchauffés et ajustes la fréquence du résonateur acoustique d'un pouls ferme. Soudain, le juke-box reprend vie en projetant des notes holographiques de synthwave rétro qui inondent la taverne d'un rythme électrisant. Les habitués acclament et Vex te fait un clin d'œil : « Ça faisait trois mois qu'elle était en panne ! Tu as gagné le respect de tous les bricoleurs du secteur. » Il te glisse quelques pièces de valeur et des monnaies.",
+            "it": "Apri il pannello laterale della macchina musicale, bypassi due condensatori surriscaldati e regoli la frequenza del risonatore acustico con mano ferma. All'improvviso, il jukebox prende vita proiettando note olografiche di synthwave retro che inondano la taverna con un ritmo elettrizzante. Gli habitué esultano e Vex ti fa l'occhiolino: 'Era rotto da tre mesi! Ti sei guadagnato il rispetto di tutti i tecnici del settore.' Ti fa scivolare alcuni pezzi di valore e monete.",
+            "de": "Du öffnest die Seitenwand der Musikmaschine, überbrückst zwei überhitzte Kondensatoren und stimmst die Frequenz des akustischen Resonators mit ruhiger Hand ab. Plötzlich erwacht die Jukebox zum Leben und projiziert holografische Retro-Synthwave-Noten, die die Taverne in einen elektrisierenden Rhythmus tauchen. Die Stammgäste jubeln, und Vex zwinkert dir zu: „Die war drei Monate lang kaputt! Du hast dir den Respekt aller Bastler des Sektors verdient.“ Er schiebt dir wertvolle Teile und Münzen zu.",
+            "zh": "你打开音乐机器的侧面板，绕过两个过热的电容器，用沉稳的手法调整了声共振器的频率。突然，点唱机重新焕发了生机，投射出复古合成波音符的全息影像，用一股电流般的节奏充满了整个酒馆。常客们欢呼起来，维克斯朝你眨了眨眼：「这台机器已经坏了整整三个月了！你赢得了这一带所有维修工的尊敬。」他递给你一些值钱的零件和硬币。",
+            "ja": "音楽機械の側面パネルを開け、過熱した二つのコンデンサーをバイパスし、安定した手つきで音響共鳴器の周波数を調整する。突然、ジュークボックスが息を吹き返し、レトロなシンセウェーブのホログラフィック音符を放ち、酒場を電撃的なリズムで満たす。常連客たちが歓声を上げ、ヴェックスがウィンクする。「三ヶ月も壊れたままだったんだ！この区画の修理工たち全員の尊敬を勝ち取ったな」彼は貴重な部品と硬貨をお前に渡す。"
+        },
+        "next": [
+            "vex_1"
+        ],
+        "reward": "faceta:inteligencia=+1;gold:+35"
+    },
+    "vex_opt_rumores": {
+        "type": "option",
+        "text": {
+            "es": "🤖  ¿Qué historias se oyen en la barra sobre los rincones oscuros de Arcanum?",
+            "en": "🤖  What tales are murmured at the counter regarding Arcanum's shadowy corners?",
+            "fr": "🤖  Quelles histoires se racontent au bar sur les recoins sombres d'Arcanum ?",
+            "it": "🤖  Che storie si sentono al bancone sugli angoli oscuri di Arcanum?",
+            "de": "🤖  Welche Geschichten hört man an der Theke über die dunklen Ecken von Arcanum?",
+            "zh": "🤖  关于奥秘遗迹那些黑暗角落，吧台上都流传着什么故事？",
+            "ja": "🤖  アルカナムの暗い片隅について、カウンターではどんな話がささやかれている？"
+        },
+        "next": [
+            "vex_rumor"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "vex_rumor": {
+        "type": "message",
+        "text": {
+            "es": "Vex pasa un trapo por la barra y baja la voz: 'En el sector de los ascensores abandonados hay una cabina que no sube ni baja: dicen que si entras, escuchas voces del futuro. Y cerca de la terminal averiada vaga un niño con glitch que repite códigos en bucle... Algunos creen que son las memorias de la IA que controlaba la ciudad antes del gran apagón. Ten cuidado por dónde pisas.'",
+            "en": "Vex scrubs the counter and drops his voice: 'In the abandoned lift sector there is a carriage that goes neither up nor down: folk say stepping inside lets you hear voices from ahead in time. And near the severed terminal wanders a glitch-child reciting infinite loops... Some reckon it is fragmented memories of the prime AI from before the grid fell dark. Watch your footing.'",
+            "fr": "Vex passe un chiffon sur le comptoir et baisse la voix : « Dans le secteur des ascenseurs abandonnés, il y a une cabine qui ne monte ni ne descend : on dit que si tu entres, tu entends des voix du futur. Et près du terminal en panne erre un enfant glitché qui répète des codes en boucle... Certains pensent que ce sont les mémoires de l'IA qui contrôlait la ville avant la grande panne. Fais attention où tu mets les pieds. »",
+            "it": "Vex passa uno straccio sul bancone e abbassa la voce: 'Nel settore degli ascensori abbandonati c'è una cabina che non sale né scende: dicono che se entri, senti voci dal futuro. E vicino al terminale guasto vaga un bambino con glitch che ripete codici in loop... Alcuni credono siano i ricordi dell'IA che controllava la città prima del grande blackout. Fai attenzione dove metti i piedi.'",
+            "de": "Vex wischt über die Theke und senkt die Stimme: „Im Sektor der verlassenen Aufzüge gibt es eine Kabine, die weder hoch- noch runterfährt: Man sagt, wenn du hineingehst, hörst du Stimmen aus der Zukunft. Und in der Nähe des defekten Terminals wandert ein glitchendes Kind umher, das endlos Codes wiederholt... Manche glauben, es seien fragmentierte Erinnerungen der KI, die die Stadt vor dem großen Blackout kontrollierte. Pass auf, wo du hintrittst.“",
+            "zh": "维克斯擦了擦柜台，压低声音说：「在废弃的电梯区，有一部电梯既不上升也不下降：据说如果你走进去，会听到来自未来的声音。而在故障终端附近，游荡着一个满是故障的小孩，不断循环重复着代码……有人认为那是大停电之前控制这座城市的人工智能的记忆碎片。走路小心点。」",
+            "ja": "ヴェックスはカウンターを拭きながら声を落とす。「放棄されたエレベーター区画には、上にも下にも動かないカゴがある……中に入ると未来の声が聞こえると言われている。そして故障した端末の近くには、無限ループでコードを繰り返す不具合だらけの子供の姿がうろついている……大停電前にこの街を制御していたAIの断片的な記憶だと信じる者もいる。足元には気をつけろよ」"
+        },
+        "next": [
+            "vex_1"
+        ],
+        "reward": "faceta:bondad=+1;discover:lore_arcanum_subsuelo"
+    },
+    "vex_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Me vuelvo a la calle, Vex. Sigue sirviendo buen voltaje",
+            "en": "🚶  Back to the alleys, Vex. Keep the voltage humming",
+            "fr": "🚶  Je retourne dans les ruelles, Vex. Continue à servir du bon voltage",
+            "it": "🚶  Torno nei vicoli, Vex. Continua a servire buon voltaggio",
+            "de": "🚶  Zurück in die Gassen, Vex. Sorg weiter für gutes Voltage",
+            "zh": "🚶  我回街上去了，维克斯。继续供应优质电压吧",
+            "ja": "🚶  路地に戻るよ、ヴェックス。いい電圧を出し続けてくれ"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

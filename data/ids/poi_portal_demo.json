@@ -1,0 +1,35 @@
+{
+    "id": "poi_portal_demo",
+    "type": "poi",
+    "name": {
+        "es": "Portal de Pruebas",
+        "en": "Test Portal",
+        "fr": "Portail de Test",
+        "it": "Portale di Prova",
+        "de": "Testportal",
+        "zh": "测试传送门",
+        "ja": "テストポータル"
+    },
+    "icon": "🌀",
+    "desc": {
+        "es": "Un POI que abre la Cámara de Pruebas mediante portal data-driven.",
+        "en": "A POI that opens the Test Chamber via a data-driven portal.",
+        "fr": "Un POI qui ouvre la Chambre de Test via un portail piloté par les données.",
+        "it": "Un POI che apre la Camera di Prova tramite un portale basato sui dati.",
+        "de": "Ein POI, der die Testkammer über ein datengesteuertes Portal öffnet.",
+        "zh": "一个通过数据驱动传送门打开测试房间的兴趣点。",
+        "ja": "データ駆動のポータルを通じてテストチェンバーを開くPOI。"
+    },
+    "portal": {
+        "view": "dungeon",
+        "event_id": "dun_lab"
+    },
+    "presences": [
+        {
+            "condition": "default",
+            "actor": "poi_portal_demo",
+            "entry_node": ""
+        }
+    ],
+    "bg": "bg_temple_origen.png"
+}

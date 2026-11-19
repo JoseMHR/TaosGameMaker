@@ -1,0 +1,5856 @@
+{
+    "id": "dun_nieves",
+    "name": {
+        "es": "Catacumba de las Nieves",
+        "en": "Snow Catacombs",
+        "fr": "Catacombes des Neiges",
+        "it": "Catacombe delle Nevi",
+        "de": "Schneekatakomben",
+        "zh": "雪原墓穴",
+        "ja": "雪のカタコンベ"
+    },
+    "theme": "snow_catacomb",
+    "boss": "eco_fragmentado",
+    "boss_level": 7,
+    "music": "dungeon_snow",
+    "tex_wall": "tex_snow_wall",
+    "tex_floor": "tex_snow_floor",
+    "cell_size": 4,
+    "wall_height": 4,
+    "ceiling": false,
+    "sky": "stars",
+    "fog": true,
+    "fog_color": "#e0eaf5",
+    "fog_density": 0.14,
+    "fog_sky_affect": 1,
+    "ambient_energy": 0.4,
+    "ambient_color": "#2a3545",
+    "fill_light": 0.25,
+    "spawn": {
+        "f": 0,
+        "x": 17,
+        "y": 28
+    },
+    "portals": {
+        "west": {
+            "spawn": {
+                "f": 0,
+                "x": 17,
+                "y": 28
+            }
+        },
+        "east": {
+            "spawn": {
+                "f": 0,
+                "x": 17,
+                "y": 12
+            }
+        }
+    },
+    "floors": [
+        {
+            "name": "Cripta Helada",
+            "w": 35,
+            "h": 41,
+            "cells": [
+                [
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    },
+                    {
+                        "t": "void"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "teleport",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "monster",
+                        "boss": true,
+                        "ref": "eco_fragmentado",
+                        "level": 8,
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "teleport",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "chest",
+                        "gold": 120,
+                        "items": [
+                            {
+                                "id": "cota_escarcha",
+                                "qty": 1
+                            }
+                        ],
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "floor",
+                        "tex": "tex_snow_floor"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    }
+                ],
+                [
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    },
+                    {
+                        "t": "wall",
+                        "wall": "tex_snow_wall"
+                    }
+                ]
+            ]
+        }
+    ]
+}

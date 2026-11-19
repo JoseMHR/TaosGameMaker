@@ -1,0 +1,23 @@
+{
+    "id": "sendero_psiquico",
+    "type": "dungeon",
+    "name": {
+        "es": "El Sendero del Psiquico",
+        "en": "The Psychic's Path",
+        "fr": "Le Sentier du Psychique",
+        "it": "Il Sentiero dello Psichico",
+        "de": "Der Pfad des Hellsehers",
+        "zh": "灵能者之路",
+        "ja": "超能力者の道"
+    },
+    "icon": "🔮",
+    "desc": {
+        "es": "Templo tematico: abre la reja con el Agarre Psiquico y vence al Vacio Etereo para aprenderlo.",
+        "en": "Themed temple: open the gate with the Psychic Grab and defeat the Ethereal Void to learn it.",
+        "fr": "Temple thématique : ouvre la grille avec la Prise Psychique et vaincs le Vide Éthéré pour l'apprendre.",
+        "it": "Tempio tematico: apri la grata con la Presa Psichica e sconfiggi il Vuoto Etereo per impararla.",
+        "de": "Themen-Tempel: öffne das Gitter mit dem Psychischen Griff und besiege die Ätherische Leere, um ihn zu erlernen.",
+        "zh": "主题神庙：用灵能抓握打开栅栏，击败以太虚空以学会此技能。",
+        "ja": "テーマ神殿：サイキックグラブで格子を開け、エーテルヴォイドを倒してそれを習得せよ。"
+    }
+}

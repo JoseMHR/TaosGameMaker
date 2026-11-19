@@ -1,0 +1,32 @@
+{
+    "id": "dun_final_3",
+    "type": "dungeon",
+    "name": {
+        "es": "Fase 3: Cripta de la Tentación",
+        "en": "Phase 3: Crypt of Temptation",
+        "fr": "Phase 3 : Crypte de la Tentation",
+        "it": "Fase 3: Cripta della Tentazione",
+        "de": "Phase 3: Gruft der Versuchung",
+        "zh": "第三阶段：诱惑地穴",
+        "ja": "第三段階：誘惑の地下墓地"
+    },
+    "icon": "🕳️",
+    "portal": {
+        "view": "dungeon",
+        "event_id": "dun_final_3"
+    },
+    "desc": {
+        "es": "Templo del Origen - Fase 3: La sala de los cofres trampa y el dilema de la avaricia.",
+        "en": "Temple of Origin - Phase 3: The trap chest room and the dilemma of greed.",
+        "fr": "Temple de l'Origine - Phase 3 : La salle des coffres piégés et le dilemme de l'avidité.",
+        "it": "Tempio dell'Origine - Fase 3: La sala dei forzieri trappola e il dilemma dell'avidità.",
+        "de": "Tempel des Ursprungs - Phase 3: Der Raum der Fallenkisten und das Dilemma der Gier.",
+        "zh": "起源神庙——第三阶段：陷阱宝箱之厅与贪婪的两难抉择。",
+        "ja": "起源の神殿——第三段階：罠の宝箱の間と強欲のジレンマ。"
+    },
+    "bg": [
+        0.05,
+        0.05,
+        0.08
+    ]
+}

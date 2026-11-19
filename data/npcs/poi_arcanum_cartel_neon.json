@@ -1,0 +1,117 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Cartel de Neón Mentiroso",
+            "en": "The Lying Neon Sign",
+            "fr": "L'Enseigne au Néon Mensongère",
+            "it": "L'Insegna al Neon Bugiarda",
+            "de": "Das Lügende Neonschild",
+            "zh": "撒谎的霓虹招牌",
+            "ja": "嘘つきのネオン看板"
+        },
+        "next": [],
+        "reward": "bg=0.07,0.05,0.09"
+    },
+    "neon_root": {
+        "type": "message",
+        "text": {
+            "es": "Un gigantesco anuncio de neón se yergue sobre las ruinas, alimentado por una energía que ya nadie debería poder pagar. Con letras rosas y azules proclama, radiante: 'ARCANUM — ¡CONSTRUIMOS EL MAÑANA QUE MERECES!'. Pero varias letras están fundidas y parpadean con un ritmo irregular, casi como un código. Si te quedas mirando el tiempo suficiente, el mensaje 'oficial' empieza a deshacerse en otra cosa.",
+            "en": "A gigantic neon ad towers over the ruins, powered by an energy no one should be able to afford anymore. In pink and blue letters it proclaims, radiant: 'ARCANUM — WE BUILD THE TOMORROW YOU DESERVE!'. But several letters are burnt out and flicker in an irregular rhythm, almost like a code. If you stare long enough, the 'official' message begins to dissolve into something else.",
+            "fr": "Une gigantesque publicité au néon se dresse au-dessus des ruines, alimentée par une énergie que plus personne ne devrait pouvoir se permettre. En lettres roses et bleues, elle proclame, radieuse : « ARCANUM — NOUS CONSTRUISONS LE DEMAIN QUE VOUS MÉRITEZ ! ». Mais plusieurs lettres sont grillées et clignotent à un rythme irrégulier, presque comme un code. Si tu la fixes assez longtemps, le message « officiel » commence à se défaire en autre chose.",
+            "it": "Una gigantesca pubblicità al neon si erge sopra le rovine, alimentata da un'energia che nessuno dovrebbe più potersi permettere. In lettere rosa e blu proclama, radiosa: 'ARCANUM — COSTRUIAMO IL DOMANI CHE MERITI!'. Ma diverse lettere sono fulminate e lampeggiano con un ritmo irregolare, quasi come un codice. Se la fissi abbastanza a lungo, il messaggio 'ufficiale' comincia a disfarsi in qualcos'altro.",
+            "de": "Eine gigantische Neonreklame ragt über den Ruinen empor, gespeist von einer Energie, die sich niemand mehr leisten können sollte. In rosa und blauen Buchstaben verkündet sie strahlend: „ARCANUM — WIR BAUEN DAS MORGEN, DAS DU VERDIENST!“. Doch mehrere Buchstaben sind durchgebrannt und flackern in einem unregelmäßigen Rhythmus, fast wie ein Code. Wenn du lange genug hinstarrst, beginnt sich die „offizielle“ Botschaft in etwas anderes aufzulösen.",
+            "zh": "一块巨大的霓虹广告牌矗立在废墟之上，由一种如今理应无人能负担得起的能源驱动着。粉蓝相间的字母骄傲地宣告着：「奥秘遗迹——我们为你打造应得的明天！」但有几个字母已经烧坏，以一种不规则的节奏闪烁着，几乎像是某种密码。如果你盯着看得足够久，这条「官方」信息就会开始瓦解，显露出别的东西。",
+            "ja": "廃墟の上に巨大なネオン広告がそびえ立ち、もはや誰にも支払えないはずのエネルギーで輝いている。ピンクと青の文字で、輝かしくこう宣言している：「アルカナム——お前にふさわしい明日を築く！」だが、いくつかの文字は切れており、不規則なリズムで点滅している——まるで暗号のように。十分長く見つめていると、この「公式」メッセージは別のものへと崩れ始める。"
+        },
+        "next": [
+            "neon_opt_descifrar",
+            "neon_opt_reparar",
+            "neon_opt_salir"
+        ],
+        "reward": ""
+    },
+    "neon_opt_descifrar": {
+        "type": "option",
+        "text": {
+            "es": "🧠  Descifrar qué dicen las letras que sí siguen encendidas",
+            "en": "🧠  Decode what the letters still lit actually spell",
+            "fr": "🧠  Déchiffrer ce que disent les lettres encore allumées",
+            "it": "🧠  Decifrare cosa dicono le lettere ancora accese",
+            "de": "🧠  Entschlüsseln, was die noch leuchtenden Buchstaben wirklich sagen",
+            "zh": "🧠  破译仍然亮着的字母所拼出的内容",
+            "ja": "🧠  まだ点灯している文字が実際に何を綴っているか解読する"
+        },
+        "next": [
+            "neon_msg_descifrar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "neon_msg_descifrar": {
+        "type": "message",
+        "text": {
+            "es": "Anotas solo las letras encendidas, ignorando las fundidas, y el eslogan corporativo se desmorona hasta revelar el mensaje que alguien dejó escondido a plena vista: 'A R C A N U M — R O B A M O S T U M A Ñ A N A'. Un empleado desesperado saboteó el propio anuncio de la empresa para que la verdad brillara cada noche sobre la ciudad, y nadie, en años, se molestó en leerla. Sonríes con amargura: las mentiras más grandes siempre llevan la verdad escrita en letra pequeña.",
+            "en": "You note only the lit letters, ignoring the dead ones, and the corporate slogan crumbles to reveal the message someone hid in plain sight: 'A R C A N U M — W E S T E A L Y O U R T O M O R R O W'. A desperate employee sabotaged the company's own ad so the truth would shine over the city every night, and no one, in years, bothered to read it. You smile bitterly: the biggest lies always carry the truth written in fine print.",
+            "fr": "Tu ne notes que les lettres allumées, en ignorant les grillées, et le slogan corporatif s'effondre pour révéler le message que quelqu'un a caché à la vue de tous : « A R C A N U M — N O U S V O L O N S V O T R E D E M A I N ». Un employé désespéré a saboté la propre publicité de l'entreprise pour que la vérité brille chaque nuit sur la ville, et personne, en des années, n'a pris la peine de la lire. Tu souris avec amertume : les plus grands mensonges portent toujours la vérité écrite en petits caractères.",
+            "it": "Annoti solo le lettere accese, ignorando quelle fulminate, e lo slogan aziendale crolla rivelando il messaggio che qualcuno ha nascosto in bella vista: 'A R C A N U M — R U B I A M O I L T U O D O M A N I'. Un dipendente disperato ha sabotato la stessa pubblicità dell'azienda affinché la verità brillasse ogni notte sopra la città, e nessuno, per anni, si è preso la briga di leggerla. Sorridi amaramente: le bugie più grandi portano sempre la verità scritta in caratteri piccoli.",
+            "de": "Du notierst nur die leuchtenden Buchstaben, ignorierst die durchgebrannten, und der Firmenslogan zerfällt und enthüllt die Botschaft, die jemand offen sichtbar versteckt hat: „A R C A N U M — W I R S T E H L E N D E I N M O R G E N“. Ein verzweifelter Angestellter hat die firmeneigene Werbung sabotiert, damit die Wahrheit jede Nacht über der Stadt leuchtet, und niemand hat sich jahrelang die Mühe gemacht, sie zu lesen. Du lächelst bitter: Die größten Lügen tragen die Wahrheit stets im Kleingedruckten.",
+            "zh": "你只记录仍然亮着的字母，忽略烧坏的部分，公司的口号随即崩解，露出有人故意隐藏在众目睽睽之下的信息：「奥秘遗迹——我们偷走你的明天」。一名绝望的员工蓄意破坏了公司自家的广告，好让真相每晚都照耀这座城市，而这些年来却无人费心去读它。你苦笑一下：最大的谎言，其真相总是用小字写着。",
+            "ja": "点灯している文字だけを書き留め、切れた文字を無視すると、企業のスローガンは崩れ去り、誰かが白日の下に隠したメッセージが姿を現す：「アルカナム——我々はお前の明日を盗む」。絶望した従業員が自社の広告そのものを妨害し、真実が毎晩この街の上で輝くようにしたのだ。だが何年もの間、誰もそれを読もうとはしなかった。お前は苦々しく微笑む——最大の嘘には、いつも小さな文字で真実が書かれているものだ。"
+        },
+        "next": [
+            "neon_opt_salir"
+        ],
+        "reward": "faceta:inteligencia=+1;gflag:neon_descifrado",
+        "condition": "no_gflag(\"neon_descifrado\")",
+        "once": true
+    },
+    "neon_opt_reparar": {
+        "type": "option",
+        "text": {
+            "es": "🔧  Reparar las letras fundidas para restaurar el eslogan original",
+            "en": "🔧  Repair the dead letters to restore the original slogan",
+            "fr": "🔧  Réparer les lettres grillées pour restaurer le slogan original",
+            "it": "🔧  Riparare le lettere fulminate per ripristinare lo slogan originale",
+            "de": "🔧  Die durchgebrannten Buchstaben reparieren, um den ursprünglichen Slogan wiederherzustellen",
+            "zh": "🔧  修复烧坏的字母，恢复原本的口号",
+            "ja": "🔧  切れた文字を修理し、元のスローガンを復元する"
+        },
+        "next": [
+            "neon_msg_reparar"
+        ],
+        "reward": ""
+    },
+    "neon_msg_reparar": {
+        "type": "message",
+        "text": {
+            "es": "Trepas por la estructura y reconectas los tubos fundidos. El cartel se enciende entero, deslumbrante, y vuelve a mentir con orgullo: 'ARCANUM — ¡CONSTRUIMOS EL MAÑANA QUE MERECES!'. La verdad oculta desaparece bajo el brillo perfecto de la propaganda. Bajas incómodo, preguntándote si acabas de arreglar algo o si simplemente has vuelto a tapar una verdad que llevaba años intentando salir. A veces reparar es la forma más limpia de mentir.",
+            "en": "You climb the structure and reconnect the dead tubes. The sign lights up whole, dazzling, and proudly lies again: 'ARCANUM — WE BUILD THE TOMORROW YOU DESERVE!'. The hidden truth vanishes beneath the perfect glow of propaganda. You climb down uneasy, wondering whether you've just fixed something or simply covered up again a truth that had spent years trying to get out. Sometimes repair is the cleanest way to lie.",
+            "fr": "Tu grimpes sur la structure et reconnectes les tubes grillés. L'enseigne s'allume entièrement, éblouissante, et recommence à mentir fièrement : « ARCANUM — NOUS CONSTRUISONS LE DEMAIN QUE VOUS MÉRITEZ ! ». La vérité cachée disparaît sous l'éclat parfait de la propagande. Tu redescends mal à l'aise, te demandant si tu viens de réparer quelque chose ou si tu as simplement recouvert une vérité qui essayait de sortir depuis des années. Parfois, réparer est la façon la plus propre de mentir.",
+            "it": "Ti arrampichi sulla struttura e ricolleghi i tubi fulminati. L'insegna si accende per intero, abbagliante, e torna a mentire con orgoglio: 'ARCANUM — COSTRUIAMO IL DOMANI CHE MERITI!'. La verità nascosta scompare sotto il bagliore perfetto della propaganda. Scendi a disagio, chiedendoti se hai appena riparato qualcosa o se hai semplicemente ricoperto di nuovo una verità che da anni cercava di uscire. A volte riparare è il modo più pulito di mentire.",
+            "de": "Du kletterst auf die Struktur und verbindest die durchgebrannten Röhren neu. Das Schild leuchtet vollständig auf, blendend, und lügt wieder stolz: „ARCANUM — WIR BAUEN DAS MORGEN, DAS DU VERDIENST!“. Die verborgene Wahrheit verschwindet unter dem perfekten Glanz der Propaganda. Du kletterst unbehaglich hinunter und fragst dich, ob du gerade etwas repariert oder nur wieder eine Wahrheit zugedeckt hast, die seit Jahren versuchte, ans Licht zu kommen. Manchmal ist Reparieren die sauberste Art zu lügen.",
+            "zh": "你爬上支架，重新接好烧坏的灯管。招牌完全亮了起来，光彩夺目，再次骄傲地撒着谎：「奥秘遗迹——我们为你打造应得的明天！」隐藏的真相消失在这完美的宣传光辉之下。你心情不安地爬下来，不知道自己刚才究竟是修好了什么，还是又一次掩盖了一个多年来一直试图浮现的真相。有时候，修复是撒谎最干净利落的方式。",
+            "ja": "構造物によじ登り、切れた管を繋ぎ直す。看板は完全に点灯し、眩いばかりに輝き、再び誇らしげに嘘をつく——「アルカナム——お前にふさわしい明日を築く！」隠された真実は、完璧なプロパガンダの輝きの下に消えていく。落ち着かない気分で降りながら、自分が今何かを直したのか、それとも何年も外に出ようとしていた真実をまた覆い隠しただけなのか、と自問する。時に修理とは、最も清潔な嘘のつき方なのだ。"
+        },
+        "next": [
+            "neon_opt_salir"
+        ],
+        "reward": ""
+    },
+    "neon_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Dejar el cartel parpadeando su verdad a nadie",
+            "en": "🚶  Leave the sign flickering its truth to no one",
+            "fr": "🚶  Laisser l'enseigne clignoter sa vérité pour personne",
+            "it": "🚶  Lasciare l'insegna a lampeggiare la sua verità per nessuno",
+            "de": "🚶  Das Schild seine Wahrheit für niemanden weiterblinken lassen",
+            "zh": "🚶  任由招牌为无人闪烁着它的真相",
+            "ja": "🚶  誰のためでもなく真実を点滅させ続ける看板を後にする"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

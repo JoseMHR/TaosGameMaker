@@ -1,0 +1,34 @@
+{
+    "id": "poi_presa_001",
+    "type": "poi",
+    "visual": "presa",
+    "name": {
+        "es": "Presa Abandonada",
+        "en": "Abandoned Dam",
+        "fr": "Barrage Abandonné",
+        "it": "Diga Abbandonata",
+        "de": "Verlassener Damm",
+        "zh": "废弃的水坝",
+        "ja": "放棄されたダム"
+    },
+    "icon": "🚧",
+    "desc": {
+        "es": "Una vieja presa cerrada",
+        "en": "An old closed dam",
+        "fr": "Un vieux barrage fermé",
+        "it": "Una vecchia diga chiusa",
+        "de": "Ein alter geschlossener Damm",
+        "zh": "一座已封闭的老旧水坝",
+        "ja": "閉鎖された古いダム"
+    },
+    "npc": "poi_presa_001",
+    "presences": [
+        {
+            "condition": "default",
+            "actor": "poi_presa_001",
+            "entry_node": ""
+        }
+    ],
+    "bg": "bg_world_poi_yelmo_presa_001.png",
+    "music": "poi_generic"
+}

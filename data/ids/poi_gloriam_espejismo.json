@@ -1,0 +1,26 @@
+{
+    "id": "poi_gloriam_espejismo",
+    "type": "poi",
+    "icon": "🏝️",
+    "name": {
+        "es": "El Espejismo Cabezota",
+        "en": "The Stubborn Mirage",
+        "fr": "Le Mirage Têtu",
+        "it": "Il Miraggio Testardo",
+        "de": "Die Störrische Fata Morgana",
+        "zh": "固执的海市蜃楼",
+        "ja": "頑固な蜃気楼"
+    },
+    "desc": {
+        "es": "Un oasis reluciente que insiste, con vehemencia, en que es completamente real y no un espejismo. (POI de inspección).",
+        "en": "A glittering oasis that insists, vehemently, that it is entirely real and not a mirage. (Inspection POI).",
+        "fr": "Une oasis étincelante qui insiste, avec véhémence, sur le fait qu'elle est totalement réelle et non un mirage. (POI d'inspection).",
+        "it": "Un'oasi scintillante che insiste, con veemenza, sul fatto di essere completamente reale e non un miraggio. (POI di ispezione).",
+        "de": "Eine glitzernde Oase, die vehement darauf besteht, völlig real und keine Fata Morgana zu sein. (Inspektions-POI).",
+        "zh": "一片闪烁的绿洲，激烈地坚称自己完全真实，绝非海市蜃楼。（探查类兴趣点）。",
+        "ja": "自分は完全に本物で蜃気楼などではないと激しく主張する、きらめくオアシス。（調査ポイント）。"
+    },
+    "npc": "poi_gloriam_espejismo",
+    "bg": "bg_world_poi_gloriam_espejismo.png",
+    "music": "poi_comic"
+}

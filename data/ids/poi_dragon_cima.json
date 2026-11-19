@@ -1,0 +1,42 @@
+{
+    "id": "poi_dragon_cima",
+    "gate": {
+        "dir": "south",
+        "open_when": "gate_flag('dragon_egg_remembered') or gate_flag('dragon_cima_unlocked')"
+    },
+    "type": "poi",
+    "name": {
+        "es": "Cima del Dragón",
+        "en": "Dragon's Peak",
+        "fr": "Sommet du Dragon",
+        "it": "Cima del Drago",
+        "de": "Drachengipfel",
+        "zh": "巨龙之巅",
+        "ja": "竜の頂"
+    },
+    "icon": "🐲",
+    "desc": {
+        "es": "Un rugido furioso resuena entre las cumbres nevadas",
+        "en": "A furious roar echoes among the snowy peaks",
+        "fr": "Un rugissement furieux résonne parmi les cimes enneigées",
+        "it": "Un ruggito furioso risuona tra le cime innevate",
+        "de": "Ein wütendes Gebrüll hallt zwischen den schneebedeckten Gipfeln wider",
+        "zh": "愤怒的咆哮在积雪的山巅间回响",
+        "ja": "雪に覆われた頂の間に激しい咆哮が響き渡る"
+    },
+    "npc": "dragon_furioso",
+    "presences": [
+        {
+            "condition": "has_item(\"recuerdos_aiden\")",
+            "actor": "dragon_huevo",
+            "entry_node": ""
+        },
+        {
+            "condition": "default",
+            "actor": "dragon_furioso",
+            "entry_node": ""
+        }
+    ],
+    "bg": "bg_world_poi_arcanum_cima_dragon.png",
+    "music": "poi_generic"
+}

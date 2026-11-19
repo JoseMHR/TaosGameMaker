@@ -1,0 +1,183 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "Ignia, la Piromántica",
+            "en": "Ignia the Pyromancer",
+            "fr": "Ignia, la Pyromancienne",
+            "it": "Ignia, la Piromante",
+            "de": "Ignia, die Pyromantin",
+            "zh": "炎术师伊格妮娅",
+            "ja": "パイロマンサーのイグニア"
+        },
+        "next": [],
+        "reward": "avatar=🔥;bg=0.12,0.05,0.03"
+    },
+    "elem_0": {
+        "type": "message",
+        "text": {
+            "es": "Una mano ardiente te corta el paso antes de que puedas acercarte al Sendero. '¡Ah, ah, ah! Solo los aprendices pueden entrar. Demuéstrame que no vas a apagarte a la primera chispa.'",
+            "en": "A burning hand blocks your way before you can approach the Path. 'Ah, ah, ah! Only apprentices may enter. Prove to me you won't fizzle out at the first spark.'",
+            "fr": "Une main enflammée te barre le chemin avant que tu ne puisses approcher du Sentier. « Ah, ah, ah ! Seuls les apprentis peuvent entrer. Prouve-moi que tu ne vas pas t'éteindre à la première étincelle. »",
+            "it": "Una mano ardente ti taglia la strada prima che tu possa avvicinarti al Sentiero. 'Ah, ah, ah! Solo gli apprendisti possono entrare. Dimostrami che non ti spegnerai alla prima scintilla.'",
+            "de": "Eine brennende Hand versperrt dir den Weg, bevor du dich dem Pfad nähern kannst. „Ah, ah, ah! Nur Lehrlinge dürfen eintreten. Beweise mir, dass du nicht beim ersten Funken erlischst.“",
+            "zh": "一只燃烧的手在你能靠近那条路之前挡住了你。「啊哈哈！只有学徒才能进入。证明给我看，你不会在第一颗火星前就熄灭。」",
+            "ja": "燃える手が、道に近づく前にお前の行く手を阻む。「あはは！弟子だけが入れる。最初の火花で消えてしまわないと証明してみせろ」"
+        },
+        "next": [
+            "elem_0a",
+            "elem_0b"
+        ],
+        "reward": "",
+        "condition": "no_gflag(\"apprentice_sendero_elementalista\")"
+    },
+    "elem_0a": {
+        "type": "option",
+        "text": {
+            "es": "🔥  Acepto entrenar",
+            "en": "🔥  I accept training",
+            "fr": "🔥  J'accepte l'entraînement",
+            "it": "🔥  Accetto di allenarmi",
+            "de": "🔥  Ich akzeptiere das Training",
+            "zh": "🔥  我接受训练",
+            "ja": "🔥  修行を受け入れる"
+        },
+        "next": [
+            "elem_0r"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "elem_0r": {
+        "type": "message",
+        "text": {
+            "es": "'...tras varias horas intentando enseñarte a no quemarte tú misma... sigues chamuscada... pero oficialmente eres aprendiz.' Sonríe entre las llamas. 'Ya puedes entrar al Sendero. Si te prendes fuego, es progreso.' 🔥 Ahora eres un aprendiz de Elementalista. Busca el Sendero del Elementalista para ponerte a prueba.",
+            "en": "'...after several hours trying to teach you not to set yourself on fire... you're still singed... but you are officially an apprentice.' She smiles through the flames. 'You may enter the Path now. If you catch fire, that's progress.' 🔥 You are now an Elementalist apprentice. Seek out the Elementalist's Path to put yourself to the test.",
+            "fr": "« ...après plusieurs heures à essayer de t'apprendre à ne pas te mettre toi-même le feu... tu es toujours roussie... mais officiellement tu es apprentie. » Elle sourit à travers les flammes. « Tu peux entrer dans le Sentier maintenant. Si tu prends feu, c'est du progrès. » 🔥 Tu es maintenant une apprentie Élémentaliste. Cherche le Sentier de l'Élémentaliste pour te mettre à l'épreuve.",
+            "it": "'...dopo diverse ore a cercare di insegnarti a non prendere fuoco tu stessa... sei ancora bruciacchiata... ma sei ufficialmente apprendista.' Sorride tra le fiamme. 'Ora puoi entrare nel Sentiero. Se prendi fuoco, è progresso.' 🔥 Ora sei un'apprendista Elementalista. Cerca il Sentiero dell'Elementalista per metterti alla prova.",
+            "de": "„...nach mehreren Stunden, in denen ich versucht habe, dir beizubringen, dich nicht selbst in Brand zu setzen... du bist immer noch angesengt... aber offiziell bist du Lehrlingin.“ Sie lächelt durch die Flammen. „Du kannst den Pfad jetzt betreten. Wenn du Feuer fängst, ist das Fortschritt.“ 🔥 Du bist jetzt eine Elementaristen-Lehrlingin. Suche den Pfad des Elementaristen, um dich zu prüfen.",
+            "zh": "「……经过好几个小时试图教你别把自己点着……你还是被烤焦了……但正式来说，你已经是个学徒了。」她在火焰中微笑。「你现在可以进入这条路了。如果你着火了，那就是进步。」🔥 你现在是元素使学徒了。去寻找元素使之路来考验自己吧。",
+            "ja": "「……何時間もかけて自分に火をつけない方法を教えようとしたが……相変わらず焦げている……だが正式には、お前は弟子だ」炎の中で微笑む。「もう道に入っていいぞ。もし燃え上がったら、それは進歩だ」🔥 お前は今、精霊使いの弟子となった。精霊使いの道を探し、自らを試すがいい。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "gflag:apprentice_sendero_elementalista"
+    },
+    "elem_0b": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Salir del Templo",
+            "en": "🚶  Leave the Temple",
+            "fr": "🚶  Quitter le Temple",
+            "it": "🚶  Lasciare il Tempio",
+            "de": "🚶  Den Tempel verlassen",
+            "zh": "🚶  离开神庙",
+            "ja": "🚶  神殿を去る"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "elem_1": {
+        "condition": "gflag(\"apprentice_sendero_elementalista\")",
+        "type": "message",
+        "text": {
+            "es": "Una mujer envuelta en llamas danzantes te saluda... y sin querer prende fuego a una cortina. '¡Ups! Da igual, era fea. ¿Vienes a dominar los elementos? El fuego, el hielo, el rayo... todo obedece a quien SIENTE. Mis palabras no te enseñarán nada; mi Sendero del Elementalista, aquí al lado, sí. Entra y arde... con moderación.'",
+            "en": "A woman wrapped in dancing flames greets you... and accidentally sets a curtain on fire. 'Oops! No matter, it was ugly. Here to master the elements? Fire, ice, lightning... all obey those who FEEL. My words won't teach you a thing; my Elementalist's Path, right beside us, will. Step in and burn... in moderation.'",
+            "fr": "Une femme enveloppée de flammes dansantes te salue... et met accidentellement le feu à un rideau. « Oups ! Peu importe, il était laid. Tu viens pour maîtriser les éléments ? Le feu, la glace, la foudre... tout obéit à celui qui RESSENT. Mes paroles ne t'apprendront rien ; mon Sentier de l'Élémentaliste, juste à côté, si. Entre et brûle... avec modération. »",
+            "it": "Una donna avvolta in fiamme danzanti ti saluta... e accidentalmente dà fuoco a una tenda. 'Ops! Non importa, era brutta. Vieni a dominare gli elementi? Fuoco, ghiaccio, fulmine... tutto obbedisce a chi SENTE. Le mie parole non ti insegneranno nulla; il mio Sentiero dell'Elementalista, qui accanto, sì. Entra e brucia... con moderazione.'",
+            "de": "Eine Frau, gehüllt in tanzende Flammen, begrüßt dich... und setzt versehentlich einen Vorhang in Brand. „Ups! Egal, der war hässlich. Bist du hier, um die Elemente zu meistern? Feuer, Eis, Blitz... alles gehorcht dem, der FÜHLT. Meine Worte werden dich nichts lehren; mein Pfad des Elementaristen, gleich nebenan, schon. Tritt ein und brenne... in Maßen.“",
+            "zh": "一位被跳动火焰包裹的女子向你打招呼……不小心点燃了一块窗帘。「哎呀！没关系，那块本来就丑。你是来掌握元素之力的吗？火、冰、雷……都听从有『感受』之人的号令。我的话教不了你什么；紧邻的元素使之路才行。走进去，燃烧吧……适度地。」",
+            "ja": "踊る炎に包まれた女がお前に挨拶する……そしてうっかりカーテンに火をつける。「あら！構わないわ、あれ醜かったし。元素を極めに来たの？火、氷、雷……すべては『感じる』者に従うもの。私の言葉じゃ何も教えられない。すぐ隣にある私の精霊使いの道ならね。入って、燃えなさい……ほどほどにね」"
+        },
+        "next": [
+            "elem_1c",
+            "elem_1a",
+            "elem_1b"
+        ],
+        "reward": ""
+    },
+    "elem_1c": {
+        "type": "option",
+        "text": {
+            "es": "🏆  He completado la prueba",
+            "en": "🏆  I have completed the trial",
+            "fr": "🏆  J'ai réussi l'épreuve",
+            "it": "🏆  Ho completato la prova",
+            "de": "🏆  Ich habe die Prüfung bestanden",
+            "zh": "🏆  我已完成试炼",
+            "ja": "🏆  試練を終えた"
+        },
+        "next": [
+            "elem_1c_r"
+        ],
+        "reward": "",
+        "condition": "gflag(\"trial_done_sendero_elementalista\") and no_prof(\"Elementalista\")"
+    },
+    "elem_1c_r": {
+        "type": "message",
+        "text": {
+            "es": "Ignia deja de sonreír un segundo, genuinamente pillada por sorpresa. '¿En serio? ¡Ya!' Y entonces, sin querer, prende fuego a OTRA cortina. 'Da igual, esta también era fea. ¡Es oficial: eres Elementalista!'",
+            "en": "Ignia's smile drops for a second, genuinely caught off guard. 'Seriously? Already?!' And then, without meaning to, she sets ANOTHER curtain on fire. 'Doesn't matter, that one was ugly too. It's official: you're an Elementalist!'",
+            "fr": "Ignia arrête de sourire une seconde, réellement prise au dépourvu. « Sérieusement ? Déjà ! » Et alors, sans le vouloir, elle met le feu à UN AUTRE rideau. « Peu importe, celui-là aussi était laid. C'est officiel : tu es Élémentaliste ! »",
+            "it": "Ignia smette di sorridere per un secondo, davvero colta di sorpresa. 'Sul serio? Già!' E poi, senza volerlo, dà fuoco a UN'ALTRA tenda. 'Non importa, anche quella era brutta. È ufficiale: sei un'Elementalista!'",
+            "de": "Ignias Lächeln bricht für eine Sekunde ab, wirklich überrascht. „Ernsthaft? Schon!“ Und dann, ungewollt, setzt sie EINEN WEITEREN Vorhang in Brand. „Egal, der war auch hässlich. Es ist offiziell: Du bist eine Elementaristin!“",
+            "zh": "伊格妮娅的笑容凝固了一秒，真的被吓到了。「真的吗？这么快！」然后，她又不小心点燃了另一块窗帘。「没关系，那块也很丑。这就是正式的了：你是元素使了！」",
+            "ja": "イグニアの笑みが一瞬止まる。本当に驚いたようだ。「本当？もう！」そして、うっかりまた別のカーテンに火をつける。「構わないわ、あれも醜かったし。公式よ：あなたは精霊使いよ！」"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "prof:Elementalista;event:check_all_professions"
+    },
+    "elem_1a": {
+        "type": "option",
+        "text": {
+            "es": "🔥  ¿Dónde está la prueba?",
+            "en": "🔥  Where is the trial?",
+            "fr": "🔥  Où se trouve l'épreuve ?",
+            "it": "🔥  Dove si trova la prova?",
+            "de": "🔥  Wo befindet sich die Prüfung?",
+            "zh": "🔥  试炼在哪里？",
+            "ja": "🔥  試練はどこにある？"
+        },
+        "next": [
+            "elem_1ar"
+        ],
+        "reward": ""
+    },
+    "elem_1ar": {
+        "type": "message",
+        "text": {
+            "es": "'Justo ahí. Aprende a canalizar la Afinidad Elemental y regresa sin chamuscarte las cejas. Entonces serás Elementalista. Yo perdí las mías tres veces. Merece la pena.'",
+            "en": "'Right there. Learn to channel Elemental Affinity and return without singeing your eyebrows. Then you'll be an Elementalist. I lost mine three times. Worth it.'",
+            "fr": "« Juste là. Apprends à canaliser l'Affinité Élémentaire et reviens sans te roussir les sourcils. Alors tu seras Élémentaliste. J'ai perdu les miens trois fois. Ça en vaut la peine. »",
+            "it": "'Proprio lì. Impara a incanalare l'Affinità Elementale e torna senza bruciacchiarti le sopracciglia. Allora sarai un'Elementalista. Io le ho perse tre volte. Ne vale la pena.'",
+            "de": "„Genau dort. Lerne, die Elementare Affinität zu kanalisieren, und kehre zurück, ohne dir die Augenbrauen anzusengen. Dann wirst du Elementaristin sein. Ich habe meine dreimal verloren. Es lohnt sich.“",
+            "zh": "「就在那边。学会引导元素亲和力，别把眉毛烧焦地回来。那时你就是元素使了。我自己烧掉过三次眉毛。值得的。」",
+            "ja": "「まさにそこよ。エレメンタルアフィニティを操る術を学び、眉毛を焦がさずに戻ってきなさい。そうすればあなたは精霊使いよ。私は三回も眉毛をなくしたわ。でも価値はあるわよ」"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    },
+    "elem_1b": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Salir del Templo",
+            "en": "🚶  Leave the Temple",
+            "fr": "🚶  Quitter le Temple",
+            "it": "🚶  Lasciare il Tempio",
+            "de": "🚶  Den Tempel verlassen",
+            "zh": "🚶  离开神庙",
+            "ja": "🚶  神殿を去る"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

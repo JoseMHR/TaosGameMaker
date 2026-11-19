@@ -1,0 +1,41 @@
+{
+    "name": {
+        "es": "Escudo Espejismo",
+        "en": "Mirage Shield",
+        "fr": "Bouclier Mirage",
+        "it": "Scudo Miraggio",
+        "de": "Fata-Morgana-Schild",
+        "zh": "幻境护盾",
+        "ja": "ミラージュシールド"
+    },
+    "desc": {
+        "es": "Escudo con superficie irisada que confunde la trayectoria de los golpes.",
+        "en": "Iridescent shield that misleads incoming attacks.",
+        "fr": "Bouclier à surface irisée qui trouble la trajectoire des coups.",
+        "it": "Scudo con superficie iridescente che confonde la traiettoria dei colpi.",
+        "de": "Schild mit schillernder Oberfläche, der die Flugbahn von Treffern verwirrt.",
+        "zh": "表面呈虹彩光泽的盾牌，能扰乱攻击轨迹。",
+        "ja": "虹色に輝く表面で攻撃の軌道を惑わす盾。"
+    },
+    "icon": "🛡️",
+    "category": "equipment",
+    "usable": false,
+    "slot": "shield",
+    "tier": 4,
+    "bonuses": {
+        "agi": 5,
+        "int": 4
+    },
+    "combat": {
+        "phys_defense": 46,
+        "mag_defense": 46
+    },
+    "traits": [
+        {
+            "type": "evasion",
+            "value": 0.12,
+            "min_refine": 5,
+            "desc": "+12% Probabilidad de Evasión total"
+        }
+    ]
+}

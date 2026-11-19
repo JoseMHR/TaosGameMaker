@@ -1,0 +1,41 @@
+{
+    "name": {
+        "es": "Botas de Arena",
+        "en": "Sand Boots",
+        "fr": "Bottes de Sable",
+        "it": "Stivali di Sabbia",
+        "de": "Sandstiefel",
+        "zh": "流沙靴",
+        "ja": "サンドブーツ"
+    },
+    "desc": {
+        "es": "Calzado encantado para cruzar las dunas sin hundirse ni fatigarse.",
+        "en": "Enchanted footwear to tread dunes without sinking or tiring.",
+        "fr": "Chaussures enchantées pour traverser les dunes sans s'enfoncer ni se fatiguer.",
+        "it": "Calzature incantate per attraversare le dune senza affondare né stancarsi.",
+        "de": "Verzauberte Schuhe, um Dünen zu überqueren, ohne einzusinken oder zu ermüden.",
+        "zh": "施了魔法的鞋履，可穿越沙丘而不下陷或疲劳。",
+        "ja": "沈むことも疲れることもなく砂丘を渡れる魔法の靴。"
+    },
+    "icon": "👢",
+    "category": "equipment",
+    "usable": false,
+    "slot": "shoes",
+    "tier": 5,
+    "bonuses": {
+        "agi": 14,
+        "vit": 6
+    },
+    "combat": {
+        "phys_defense": 28,
+        "mag_defense": 18
+    },
+    "traits": [
+        {
+            "type": "terrain_mastery",
+            "terrain": "desert",
+            "min_refine": 0,
+            "desc": "Desplazamiento óptimo en el desierto sin penalización"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "name": {
+        "es": "Espada Oxidada",
+        "en": "Rusty Sword",
+        "fr": "Épée Rouillée",
+        "it": "Spada Arrugginita",
+        "de": "Rostiges Schwert",
+        "zh": "生锈的剑",
+        "ja": "錆びた剣"
+    },
+    "desc": {
+        "es": "Una espada vieja y mellada. Mejor que pelear a puñetazos.",
+        "en": "An old, notched sword. Better than fighting bare-fisted.",
+        "fr": "Une vieille épée ébréchée. Mieux vaut ça que se battre à mains nues.",
+        "it": "Una vecchia spada intaccata. Meglio che combattere a pugni nudi.",
+        "de": "Ein altes, schartiges Schwert. Besser als mit bloßen Fäusten zu kämpfen.",
+        "zh": "一把老旧有缺口的剑，总比赤手空拳搏斗强。",
+        "ja": "古く刃こぼれした剣。素手で戦うよりはマシだ。"
+    },
+    "icon": "🗡️",
+    "category": "equipment",
+    "usable": false,
+    "slot": "weapon",
+    "tier": 1,
+    "bonuses": {
+        "str": 2
+    },
+    "combat": {
+        "phys_damage": 18
+    }
+}

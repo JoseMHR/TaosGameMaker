@@ -1,0 +1,26 @@
+{
+    "id": "poi_gloriam_duelo_pistolero",
+    "type": "poi",
+    "icon": "🤠",
+    "name": {
+        "es": "El Duelo del Mediodía",
+        "en": "The High-Noon Duel",
+        "fr": "Le Duel de Midi",
+        "it": "Il Duello di Mezzogiorno",
+        "de": "Das Mittagsduell",
+        "zh": "正午对决",
+        "ja": "真昼の決闘"
+    },
+    "desc": {
+        "es": "Un forastero curtido te reta a un duelo al sol en mitad de un pueblo fantasma del desierto. Solo hay un problema: no llevas pistola. Ni él. (PNJ singular).",
+        "en": "A weathered stranger challenges you to a high-noon duel in a desert ghost town. There's just one problem: you have no pistol. Neither does he. (Singular NPC).",
+        "fr": "Un étranger tanné te défie en duel au soleil au milieu d'une ville fantôme du désert. Il n'y a qu'un problème : tu n'as pas de pistolet. Lui non plus. (PNJ singulier).",
+        "it": "Uno straniero segnato dal tempo ti sfida a duello sotto il sole in mezzo a una città fantasma del deserto. C'è solo un problema: non hai una pistola. Nemmeno lui. (PNG singolare).",
+        "de": "Ein wettergegerbter Fremder fordert dich zu einem Duell in der Mittagssonne mitten in einer Geisterstadt der Wüste heraus. Es gibt nur ein Problem: Du hast keine Pistole. Er auch nicht. (Einzigartiger NPC).",
+        "zh": "一个饱经风霜的陌生人在沙漠鬼镇中向你发起正午决斗的挑战。只有一个问题：你没有枪。他也没有。（唯一NPC）。",
+        "ja": "日焼けした見知らぬ男が、砂漠のゴーストタウンの真ん中で真昼の決闘を挑んでくる。ただ一つ問題がある——お前は拳銃を持っていない。彼もだ。（唯一のNPC）。"
+    },
+    "npc": "poi_gloriam_duelo_pistolero",
+    "bg": "bg_world_poi_gloriam_duelo_pistolero.png",
+    "music": "poi_generic"
+}

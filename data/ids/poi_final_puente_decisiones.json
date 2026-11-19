@@ -1,0 +1,26 @@
+{
+    "id": "poi_final_puente_decisiones",
+    "type": "poi",
+    "icon": "🌉",
+    "name": {
+        "es": "El Puente de lo que No Hiciste",
+        "en": "The Bridge of What You Didn't Do",
+        "fr": "Le Pont de ce que Tu N'as Pas Fait",
+        "it": "Il Ponte di ciò che Non Hai Fatto",
+        "de": "Die Brücke Dessen, was Du Nicht Getan Hast",
+        "zh": "未曾之举之桥",
+        "ja": "しなかったことの橋"
+    },
+    "desc": {
+        "es": "Un puente colgante sobre el abismo, hecho con los tablones de cada decisión que no te atreviste a tomar. Cruje a cada paso. (PNJ singular).",
+        "en": "A suspension bridge over the abyss, built from the planks of every choice you didn't dare to make. It creaks with each step. (Singular NPC).",
+        "fr": "Un pont suspendu au-dessus de l'abîme, fait des planches de chaque décision que tu n'as pas osé prendre. Il craque à chaque pas. (PNJ singulier).",
+        "it": "Un ponte sospeso sull'abisso, fatto con le assi di ogni decisione che non hai osato prendere. Scricchiola a ogni passo. (PNG singolare).",
+        "de": "Eine Hängebrücke über dem Abgrund, gebaut aus den Planken jeder Entscheidung, die du nicht zu treffen wagtest. Sie knarrt bei jedem Schritt. (Einzigartiger NPC).",
+        "zh": "一座横跨深渊的吊桥，由你不敢做出的每一个决定的木板搭建而成。每走一步都吱嘎作响。（唯一NPC）。",
+        "ja": "深淵にかかる吊り橋。お前が下す勇気のなかった決断の板でできている。一歩ごとに軋む。（唯一のNPC）。"
+    },
+    "npc": "poi_final_puente_decisiones",
+    "bg": "bg_world_poi_final_puente_decisiones.png",
+    "music": "poi_generic"
+}

@@ -1,0 +1,262 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Pollo Oracular",
+            "en": "The Oracular Chicken",
+            "fr": "Le Poulet Oraculaire",
+            "it": "Il Pollo Oracolare",
+            "de": "Das Orakelhuhn",
+            "zh": "神谕之鸡",
+            "ja": "神託の鶏"
+        },
+        "next": [],
+        "reward": "avatar=🐔;bg=0.07,0.06,0.05"
+    },
+    "pollo_root": {
+        "type": "message",
+        "text": {
+            "es": "Un pollo rechoncho de plumas blancas impolutas te mira fijamente con un ojo ladeado mientras picotea granos de maíz dibujando patrones geométricos perfectos en el suelo. De repente, una voz profunda y resonante, como si viniera del fondo del cosmos, retumba en tu mente: 'MORTAL DE CARNE EFÍMERA. HAS LLEGADO ANTE KOKORIKÓS, EL OJO QUE TODO LO VE. HAZ TU CONSULTA O RETÍRATE ANTES DE QUE CONVIERTA TU DESTINO EN MAÍZ TOSTADO.'",
+            "en": "A plump chicken with immaculate white feathers stares at you with one unblinking eye while pecking corn grains into mathematically flawless geometric sigils on the dirt. Suddenly, a deep, resonant voice booming from the edge of the cosmos echoes in your mind: 'MORTAL OF FLESH AND SHADOW. YOU STAND BEFORE KOKORIKOS, THE ALL-SEEING BEAK. UTTER YOUR INQUIRY OR DEPART BEFORE I ROAST YOUR DESTINY LIKE CORN.'",
+            "fr": "Un poulet rondouillard aux plumes blanches immaculées te fixe d'un œil de biais tout en picorant des grains de maïs qui dessinent des motifs géométriques parfaits sur le sol. Soudain, une voix profonde et résonnante, comme venue du fond du cosmos, retentit dans ton esprit : « MORTEL DE CHAIR ÉPHÉMÈRE. TU TE TIENS DEVANT KOKORIKOS, L'ŒIL QUI VOIT TOUT. FAIS TA REQUÊTE OU RETIRE-TOI AVANT QUE JE NE TRANSFORME TON DESTIN EN MAÏS GRILLÉ. »",
+            "it": "Un pollo rotondetto dalle piume bianche immacolate ti fissa con un occhio inclinato mentre becca chicchi di mais disegnando motivi geometrici perfetti sul terreno. Improvvisamente, una voce profonda e risonante, come proveniente dal fondo del cosmo, rimbomba nella tua mente: 'MORTALE DI CARNE EFFIMERA. SEI GIUNTO DINANZI A KOKORIKOS, L'OCCHIO CHE TUTTO VEDE. FAI LA TUA DOMANDA O RITIRATI PRIMA CHE TRASFORMI IL TUO DESTINO IN MAIS TOSTATO.'",
+            "de": "Ein rundliches Huhn mit makellos weißen Federn starrt dich mit schiefem Auge an, während es Maiskörner pickt, die perfekte geometrische Muster auf den Boden zeichnen. Plötzlich dröhnt eine tiefe, hallende Stimme, als käme sie vom Grund des Kosmos, in deinem Kopf: „STERBLICHER AUS VERGÄNGLICHEM FLEISCH. DU STEHST VOR KOKORIKOS, DEM ALLESSEHENDEN AUGE. STELLE DEINE FRAGE ODER ZIEH DICH ZURÜCK, BEVOR ICH DEIN SCHICKSAL ZU GERÖSTETEM MAIS MACHE.“",
+            "zh": "一只圆滚滚、羽毛洁白无瑕的鸡歪着头死死盯着你，同时啄食着玉米粒，在地上勾勒出完美的几何图案。突然，一个低沉而回响的声音，仿佛来自宇宙深处，在你的脑海中轰鸣：「凡俗的血肉之躯。你站在无所不见之眼——克克里科斯的面前。提出你的询问，否则趁我还没把你的命运变成烤玉米之前退下。」",
+            "ja": "汚れのない白い羽毛を持つ丸々とした鶏が、片方の目を傾けてお前をじっと見つめながら、地面に完璧な幾何学模様を描くようにトウモロコシの粒をついばんでいる。突然、宇宙の底から来たかのような深く響く声が心の中に轟く。「儚き肉の死すべき者よ。お前は全てを見通す目、ココリコスの前に立っている。問いを述べよ、さもなくばお前の運命を焼きトウモロコシに変える前に去れ」"
+        },
+        "next": [
+            "pollo_opt_destino",
+            "pollo_opt_rey",
+            "pollo_opt_grano",
+            "pollo_opt_salir"
+        ],
+        "reward": ""
+    },
+    "pollo_opt_destino": {
+        "type": "option",
+        "text": {
+            "es": "🔮  ¿Cuál es mi verdadero origen?",
+            "en": "🔮  What is my true origin?",
+            "fr": "🔮  Quelle est ma véritable origine ?",
+            "it": "🔮  Qual è la mia vera origine?",
+            "de": "🔮  Was ist mein wahrer Ursprung?",
+            "zh": "🔮  我真正的起源是什么？",
+            "ja": "🔮  私の本当の起源は何だ？"
+        },
+        "next": [
+            "pollo_msg_destino"
+        ],
+        "reward": ""
+    },
+    "pollo_msg_destino": {
+        "type": "message",
+        "text": {
+            "es": "El pollo da tres giros sobre sí mismo y clava el pico en una piedra. 'NO NACISTE DE MADRE NI DE SEMILLA. ERES LA CHISPA QUE QUEDÓ ATRAPADA CUANDO LA ESFERA DEL TIEMPO SE FRACTURÓ EN DOS. BUSCAS TUS RECUERDOS, PERO CUANDO LOS ENCUENTRES... DESEARÁS VOLVER A SER UN IGNORANTE.' El pollo suelta un vulgar: '¡Cloc, cloc!'",
+            "en": "The chicken spins thrice on one talon and jabs its beak into a pebble. 'YOU WERE BORN OF NEITHER WOMB NOR SEED. YOU ARE THE RESIDUAL SPARK TRAPPED WHEN THE ORB OF TIME SHATTERED IN TWAIN. YOU SEEK YOUR MEMORIES, BUT ONCE UNVEILED... YOU WILL CRAVE OBLIVION.' The chicken then lets out a standard: 'Cluck, cluck!'",
+            "fr": "Le poulet fait trois tours sur lui-même et plante son bec dans une pierre. « TU N'ES NÉ NI D'UNE MÈRE NI D'UNE GRAINE. TU ES L'ÉTINCELLE QUI EST RESTÉE PIÉGÉE QUAND LA SPHÈRE DU TEMPS S'EST FRACTURÉE EN DEUX. TU CHERCHES TES SOUVENIRS, MAIS QUAND TU LES TROUVERAS... TU SOUHAITERAS REDEVENIR IGNORANT. » Le poulet lâche un vulgaire : « Cot, cot ! »",
+            "it": "Il pollo fa tre giri su se stesso e conficca il becco in una pietra. 'NON SEI NATO DA MADRE NÉ DA SEME. SEI LA SCINTILLA RIMASTA INTRAPPOLATA QUANDO LA SFERA DEL TEMPO SI FRATTURÒ IN DUE. CERCHI I TUOI RICORDI, MA QUANDO LI TROVERAI... DESIDERERAI TORNARE A ESSERE IGNORANTE.' Il pollo emette un volgare: 'Coccodè, coccodè!'",
+            "de": "Das Huhn dreht sich dreimal um sich selbst und bohrt seinen Schnabel in einen Stein. „DU WURDEST WEDER VON EINER MUTTER NOCH VON EINEM SAMEN GEBOREN. DU BIST DER FUNKE, DER GEFANGEN BLIEB, ALS DIE SPHÄRE DER ZEIT IN ZWEI TEILE ZERSPRANG. DU SUCHST DEINE ERINNERUNGEN, ABER WENN DU SIE FINDEST... WIRST DU DIR WÜNSCHEN, WIEDER UNWISSEND ZU SEIN.“ Das Huhn stößt ein vulgäres „Gack, gack!“ aus.",
+            "zh": "鸡在原地转了三圈，用喙戳向一块石头。「你既非母亲所生，也非种子所育。你是时间之球一分为二时被困住的那点火花。你在寻找你的记忆，但当你找到它们时……你会渴望重新变回一无所知的人。」鸡发出一声粗俗的：「咯咯，咯咯！」",
+            "ja": "鶏は三回自分の周りを回り、くちばしを石に突き立てる。「お前は母からも種からも生まれてはいない。お前は時の球が二つに砕けた時に閉じ込められた残り火なのだ。お前は記憶を求めているが、いざそれが明らかになった時……お前は忘却を渇望するだろう」それから鶏はありふれた「コッコッコー！」を発する。"
+        },
+        "next": [
+            "pollo_root"
+        ],
+        "reward": ""
+    },
+    "pollo_opt_rey": {
+        "type": "option",
+        "text": {
+            "es": "👑  ¿Qué trama el Rey de Celestia?",
+            "en": "👑  What is the King of Celestia plotting?",
+            "fr": "👑  Que trame le Roi de Celestia ?",
+            "it": "👑  Cosa trama il Re di Celestia?",
+            "de": "👑  Was hat der König von Celestia im Schilde?",
+            "zh": "👑  塞莱斯提亚国王在密谋什么？",
+            "ja": "👑  セレスティア王は何を企んでいる？"
+        },
+        "next": [
+            "pollo_msg_rey"
+        ],
+        "reward": ""
+    },
+    "pollo_msg_rey": {
+        "type": "message",
+        "text": {
+            "es": "'EL MONARCA HA PERDIDO LA RAZÓN, AUNQUE NADIE OSA DECÍRSELO A LA CARA. ARRASTRARÁ A CELESTIA A UN CAOS DE GUERRAS SIN FIN... HASTA QUE ALGUIEN, POR FIN, LE CLAVE UN CUCHILLO EN LA ESPALDA.' El pollo ladea la cabeza, como esperando tu reacción con genuina expectación aviar.",
+            "en": "'THE MONARCH HAS LOST HIS MIND, THOUGH NO ONE DARES SAY IT TO HIS FACE. HE WILL DRAG CELESTIA INTO ENDLESS WARS AND CHAOS... UNTIL SOMEONE, AT LAST, PLANTS A KNIFE IN HIS BACK.' The chicken tilts its head, awaiting your reaction with genuine avian anticipation.",
+            "fr": "« LE MONARQUE A PERDU LA RAISON, BIEN QUE PERSONNE N'OSE LE LUI DIRE EN FACE. IL ENTRAÎNERA CELESTIA DANS UN CHAOS DE GUERRES SANS FIN... JUSQU'À CE QUE QUELQU'UN, ENFIN, LUI PLANTE UN COUTEAU DANS LE DOS. » Le poulet penche la tête, semblant attendre ta réaction avec une véritable anticipation aviaire.",
+            "it": "'IL MONARCA HA PERSO LA RAGIONE, ANCHE SE NESSUNO OSA DIRGLIELO IN FACCIA. TRASCINERÀ CELESTIA IN UN CAOS DI GUERRE SENZA FINE... FINCHÉ QUALCUNO, FINALMENTE, GLI CONFICCHERÀ UN COLTELLO NELLA SCHIENA.' Il pollo inclina la testa, come aspettando la tua reazione con genuina aspettativa aviaria.",
+            "de": "„DER MONARCH HAT DEN VERSTAND VERLOREN, OBWOHL SICH NIEMAND TRAUT, ES IHM INS GESICHT ZU SAGEN. ER WIRD CELESTIA IN EIN CHAOS ENDLOSER KRIEGE ZIEHEN... BIS IHM JEMAND ENDLICH EIN MESSER IN DEN RÜCKEN RAMMT.“ Das Huhn neigt den Kopf, als würde es deine Reaktion mit echter geflügelter Vorfreude erwarten.",
+            "zh": "「这位君主已经失去了理智，尽管没人敢当面对他说这句话。他会把塞莱斯提亚拖入一场永无止境的战争混乱……直到有人终于在他的背后插上一刀。」鸡歪着头，仿佛带着真正的禽类期待，等待着你的反应。",
+            "ja": "「君主は正気を失っているが、誰も面と向かってそれを言う勇気はない。彼はセレスティアを終わりなき戦争の混沌に引きずり込むだろう……最終的に誰かが背中にナイフを突き立てるまでは」鶏は頭を傾げ、まるで真の鳥類的な期待を込めてお前の反応を待っているかのようだ。"
+        },
+        "next": [
+            "pollo_rey_opt_como",
+            "pollo_rey_opt_no_preguntar",
+            "pollo_rey_opt_quien"
+        ],
+        "reward": ""
+    },
+    "pollo_rey_opt_como": {
+        "type": "option",
+        "text": {
+            "es": "❓  ¿Cómo?",
+            "en": "❓  How?",
+            "fr": "❓  Comment ?",
+            "it": "❓  Come?",
+            "de": "❓  Wie?",
+            "zh": "❓  怎么会？",
+            "ja": "❓  どうやって？"
+        },
+        "next": [
+            "pollo_rey_msg_como"
+        ],
+        "reward": ""
+    },
+    "pollo_rey_msg_como": {
+        "type": "message",
+        "text": {
+            "es": "'LAS GUERRAS CONTRA EL PAÍS DEL FUEGO NO TRAERÁN GLORIA NI TERRITORIO, SOLO CENIZA Y VIUDAS. CADA VICTORIA LO ENVALENTONA MÁS, Y CADA DERROTA LO ENFURECE TODAVÍA MÁS. ES UN CICLO QUE SOLO PUEDE TERMINAR MAL, PARA ÉL Y PARA TODOS LOS DEMÁS.' El pollo picotea el suelo, aparentemente satisfecho con su análisis geopolítico.",
+            "en": "'THE WARS AGAINST THE FIRE COUNTRY WILL BRING NEITHER GLORY NOR TERRITORY, ONLY ASH AND WIDOWS. EACH VICTORY EMBOLDENS HIM FURTHER, AND EACH DEFEAT ENRAGES HIM EVEN MORE. IT IS A CYCLE THAT CAN ONLY END BADLY, FOR HIM AND FOR EVERYONE ELSE.' The chicken pecks at the ground, seemingly pleased with its own geopolitical analysis.",
+            "fr": "« LES GUERRES CONTRE LE PAYS DU FEU N'APPORTERONT NI GLOIRE NI TERRITOIRE, SEULEMENT DES CENDRES ET DES VEUVES. CHAQUE VICTOIRE L'ENHARDIT DAVANTAGE, ET CHAQUE DÉFAITE LE RENDIT ENCORE PLUS FURIEUX. C'EST UN CYCLE QUI NE PEUT QUE MAL FINIR, POUR LUI ET POUR TOUS LES AUTRES. » Le poulet picore le sol, apparemment satisfait de son analyse géopolitique.",
+            "it": "'LE GUERRE CONTRO IL PAESE DEL FUOCO NON PORTERANNO GLORIA NÉ TERRITORIO, SOLO CENERE E VEDOVE. OGNI VITTORIA LO RENDE PIÙ TEMERARIO, E OGNI SCONFITTA LO INFURIA ANCORA DI PIÙ. È UN CICLO CHE PUÒ SOLO FINIRE MALE, PER LUI E PER TUTTI GLI ALTRI.' Il pollo becca il terreno, apparentemente soddisfatto della sua analisi geopolitica.",
+            "de": "„DIE KRIEGE GEGEN DAS FEUERLAND WERDEN WEDER RUHM NOCH GEBIET BRINGEN, NUR ASCHE UND WITWEN. JEDER SIEG MACHT IHN VERWEGENER, UND JEDE NIEDERLAGE MACHT IHN NOCH WÜTENDER. ES IST EIN KREISLAUF, DER NUR SCHLECHT ENDEN KANN, FÜR IHN UND FÜR ALLE ANDEREN.“ Das Huhn pickt auf dem Boden herum, offensichtlich zufrieden mit seiner geopolitischen Analyse.",
+            "zh": "「与火焰之国的战争既不会带来荣耀也不会带来领土，只会带来灰烬和寡妇。每一次胜利都让他更加胆大妄为，每一次失败都让他更加暴怒。这是一个只能以糟糕结局收场的循环，无论对他还是对其他所有人来说都是如此。」鸡啄着地面，似乎对自己的地缘政治分析感到很满意。",
+            "ja": "「火の国との戦争は栄光も領土ももたらさず、灰と未亡人だけを残す。勝利のたびに彼はより大胆になり、敗北のたびにより激怒する。これは彼にとっても、他の全員にとっても、悪く終わるしかないサイクルなのだ」鶏は地面をつつき、自らの地政学的分析に満足しているようだ。"
+        },
+        "next": [
+            "pollo_root"
+        ],
+        "reward": ""
+    },
+    "pollo_rey_opt_no_preguntar": {
+        "type": "option",
+        "text": {
+            "es": "🤐  Prefiero no preguntar más",
+            "en": "🤐  I'd rather not ask any more",
+            "fr": "🤐  Je préfère ne plus demander",
+            "it": "🤐  Preferisco non chiedere altro",
+            "de": "🤐  Ich frage lieber nicht weiter",
+            "zh": "🤐  我还是不问了",
+            "ja": "🤐  もう聞かないでおく"
+        },
+        "next": [
+            "pollo_root"
+        ],
+        "reward": ""
+    },
+    "pollo_rey_opt_quien": {
+        "type": "option",
+        "text": {
+            "es": "🔪  ¿Y quién será el que lo mate?",
+            "en": "🔪  And who will be the one to kill him?",
+            "fr": "🔪  Et qui sera celui qui le tuera ?",
+            "it": "🔪  E chi sarà colui che lo ucciderà?",
+            "de": "🔪  Und wer wird derjenige sein, der ihn tötet?",
+            "zh": "🔪  那谁会是杀死他的人呢？",
+            "ja": "🔪  では誰が彼を殺すのだ？"
+        },
+        "next": [
+            "pollo_msg_creepy_1"
+        ],
+        "reward": "music:creepy",
+        "condition": "no_gflag(\"pollo_rey_secreto_revelado\")"
+    },
+    "pollo_msg_creepy_1": {
+        "type": "message",
+        "text": {
+            "es": "El pollo deja de picotear. Su ojo, antes vivaz, se queda fijo y vidrioso. La voz cósmica que resonaba en tu mente cambia de tono, volviéndose grave y cavernosa: 'CUANDO AQUEL QUE HA SALVADO EL YELMO RECUPERE SUS RECUERDOS... SI LA CORDURA LOGRA MANTENER... PROVOCARÁ LA MUERTE DEL REY, DEL PRESIDENTE, DE TODO SER CUANTO VIVE EN ESTE CONTINENTE...' Una pausa antinatural. '...ESO SÍ, SI LOGRA MANTENER LA CORDURA, PORQUE UNA MENTE HUMANA NORMAL NO PUEDE CONVIVIR CON ESO.'",
+            "en": "The chicken stops pecking. Its once-lively eye goes fixed and glassy. The cosmic voice echoing in your mind shifts tone, dropping into something deep and cavernous: 'WHEN THE ONE WHO SAVED THE HELM RECLAIMS THEIR MEMORIES... SHOULD SANITY MANAGE TO HOLD... IT WILL CAUSE THE DEATH OF THE KING, OF THE PRESIDENT, OF EVERY LIVING BEING ON THIS CONTINENT...' An unnatural pause. '...THOUGH ONLY IF SANITY HOLDS, BECAUSE A NORMAL HUMAN MIND CANNOT COEXIST WITH THAT.'",
+            "fr": "Le poulet cesse de picorer. Son œil, autrefois vif, devient fixe et vitreux. La voix cosmique qui résonnait dans ton esprit change de ton, devenant grave et caverneuse : « QUAND CELUI QUI A SAUVÉ LE HEAUME RÉCUPÉRERA SES SOUVENIRS... SI SA RAISON PARVIENT À TENIR... IL PROVOQUERA LA MORT DU ROI, DU PRÉSIDENT, DE TOUT ÊTRE VIVANT SUR CE CONTINENT... » Une pause contre nature. « ...ET ENCORE, S'IL PARVIENT À GARDER SA RAISON, CAR UN ESPRIT HUMAIN NORMAL NE PEUT COHABITER AVEC CELA. »",
+            "it": "Il pollo smette di beccare. Il suo occhio, prima vivace, resta fisso e vitreo. La voce cosmica che risuonava nella tua mente cambia tono, diventando grave e cavernosa: 'QUANDO COLUI CHE HA SALVATO L'ELMO RECUPERERÀ I SUOI RICORDI... SE LA SANITÀ MENTALE RIUSCIRÀ A REGGERE... PROVOCHERÀ LA MORTE DEL RE, DEL PRESIDENTE, DI OGNI ESSERE VIVENTE SU QUESTO CONTINENTE...' Una pausa innaturale. '...QUESTO SÌ, SE RIUSCIRÀ A MANTENERE LA SANITÀ MENTALE, PERCHÉ UNA MENTE UMANA NORMALE NON PUÒ CONVIVERE CON QUESTO.'",
+            "de": "Das Huhn hört auf zu picken. Sein einst lebhaftes Auge wird starr und glasig. Die kosmische Stimme, die in deinem Kopf widerhallte, ändert den Ton, wird tief und höhlenartig: „WENN JENER, DER DEN HELM RETTETE, SEINE ERINNERUNGEN ZURÜCKGEWINNT... SOLLTE DER VERSTAND STANDHALTEN... WIRD ES DEN TOD DES KÖNIGS, DES PRÄSIDENTEN, JEDES LEBEWESENS AUF DIESEM KONTINENT VERURSACHEN...“ Eine widernatürliche Pause. „...ABER NUR, WENN DER VERSTAND STANDHÄLT, DENN EIN NORMALER MENSCHLICHER VERSTAND KANN DAMIT NICHT KOEXISTIEREN.“",
+            "zh": "鸡停止了啄食。它那曾经充满生气的眼睛变得呆滞而无神。在你脑海中回响的那个宇宙之声改变了语调，变得低沉而空洞：「当拯救了头盔之地的那个人重新找回记忆时……如果理智能够守住……将会导致国王、总统，以及这片大陆上所有生灵的死亡……」一个不自然的停顿。「……当然，前提是他能保持理智，因为一个正常的人类心智无法与之共存。」",
+            "ja": "鶏はつつくのをやめる。かつて生き生きとしていたその目は固定され、ガラスのようになる。心の中で響いていた宇宙の声は調子を変え、深く洞窟のようなものになる。「兜を救った者が記憶を取り戻す時……正気が持ちこたえられれば……それは王の死、大統領の死、この大陸に生きるすべての者の死を引き起こすだろう……」不自然な間。「……ただし、正気が持ちこたえればの話だ。なぜなら普通の人間の心はそれと共存できないからだ」"
+        },
+        "next": [
+            "pollo_opt_creepy_continuar"
+        ],
+        "reward": ""
+    },
+    "pollo_opt_creepy_continuar": {
+        "type": "option",
+        "text": {
+            "es": "😨  ...¿De quién hablas?",
+            "en": "😨  ...who are you talking about?",
+            "fr": "😨  ...De qui parles-tu ?",
+            "it": "😨  ...Di chi stai parlando?",
+            "de": "😨  ...Von wem sprichst du?",
+            "zh": "😨  ……你在说谁？",
+            "ja": "😨  ……誰のことを言っているんだ？"
+        },
+        "next": [
+            "pollo_msg_creepy_final"
+        ],
+        "reward": ""
+    },
+    "pollo_msg_creepy_final": {
+        "type": "message",
+        "text": {
+            "es": "'SÍ. HABLO DE KJFKDJFLDJ.' El nombre no debería significar nada, y sin embargo algo en tu interior se retuerce al oírlo. La imagen del pollo empieza a temblar, sus plumas se disuelven en píxeles de estática, el cielo se pliega sobre sí mismo... Y entonces, tan súbito como empezó, todo vuelve a la normalidad. El pollo sigue picoteando maíz como si nada. Decides, con firmeza, no volver a preguntar por esto NUNCA MÁS.",
+            "en": "'YES. I SPEAK OF KJFKDJFLDJ.' The name should mean nothing, and yet something inside you recoils at the sound of it. The chicken's image begins to shudder, its feathers dissolving into static pixels, the sky folding in on itself... And then, as suddenly as it began, everything returns to normal. The chicken resumes pecking corn as if nothing happened. You decide, firmly, to NEVER ask about this again.",
+            "fr": "« OUI. JE PARLE DE KJFKDJFLDJ. » Le nom ne devrait rien signifier, et pourtant quelque chose en toi se contracte en l'entendant. L'image du poulet commence à trembler, ses plumes se dissolvent en pixels de parasites, le ciel se replie sur lui-même... Et alors, aussi soudainement que c'est arrivé, tout redevient normal. Le poulet continue de picorer du maïs comme si de rien n'était. Tu décides, fermement, de ne plus jamais poser de question à ce sujet.",
+            "it": "'SÌ. PARLO DI KJFKDJFLDJ.' Il nome non dovrebbe significare nulla, eppure qualcosa dentro di te si contorce nel sentirlo. L'immagine del pollo inizia a tremare, le sue piume si dissolvono in pixel di statica, il cielo si piega su se stesso... E poi, così improvviso come è iniziato, tutto torna alla normalità. Il pollo continua a beccare mais come se nulla fosse. Decidi, con fermezza, di non chiedere mai più di questo.",
+            "de": "„JA. ICH SPRECHE VON KJFKDJFLDJ.“ Der Name sollte nichts bedeuten, und dennoch krümmt sich etwas in dir bei dem Klang. Das Bild des Huhns beginnt zu zittern, seine Federn lösen sich in statisches Rauschen auf, der Himmel faltet sich in sich selbst... Und dann, so plötzlich wie es begann, kehrt alles zur Normalität zurück. Das Huhn pickt weiter Mais, als wäre nichts geschehen. Du entscheidest fest, NIEMALS wieder danach zu fragen.",
+            "zh": "「是的。我说的是克夫克德夫克德吉。」这个名字本不该有任何意义，但听到它时，你的内心却有什么东西扭曲了一下。鸡的影像开始颤动，它的羽毛化解成静电的像素，天空自我折叠……然后，一切又像开始时那样突然恢复了正常。鸡继续啄着玉米，仿佛什么都没有发生过。你坚定地决定，再也不再问起这件事。",
+            "ja": "「そうだ。クジフクジフルジについて話している」その名前は何の意味もないはずなのに、それを聞くと何かがお前の中で縮こまる。鶏の姿が震え始め、羽毛が静電気のピクセルに溶けていき、空が折り畳まれていく……そして、始まった時と同じくらい唐突に、すべてが元に戻る。鶏は何事もなかったかのようにトウモロコシをつつき続ける。お前はきっぱりと、これについては二度と尋ねないと決める。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "gflag:pollo_rey_secreto_revelado;faceta:cordura=-1"
+    },
+    "pollo_opt_grano": {
+        "type": "option",
+        "text": {
+            "es": "🌾  (Ofrecerle un grano de trigo)",
+            "en": "🌾  (Offer a grain of wheat)",
+            "fr": "🌾  (Lui offrir un grain de blé)",
+            "it": "🌾  (Offrirgli un chicco di grano)",
+            "de": "🌾  (Ihm ein Weizenkorn anbieten)",
+            "zh": "🌾  （递给它一粒小麦）",
+            "ja": "🌾  （小麦の粒を差し出す）"
+        },
+        "next": [
+            "pollo_msg_grano"
+        ],
+        "reward": ""
+    },
+    "pollo_msg_grano": {
+        "type": "message",
+        "text": {
+            "es": "El pollo engulle el grano a la velocidad del rayo. La voz cósmica susurra: 'TU TRIBUTO HA SIDO ACEPTADO. VE EN PAZ, SACO DE HUESOS.'",
+            "en": "The chicken swallows the grain at lightning speed. The cosmic voice whispers: 'THY TRIBUTE HATH BEEN ACCEPTED. GO FORTH IN PEACE, SACK OF BONES.'",
+            "fr": "Le poulet avale le grain à la vitesse de l'éclair. La voix cosmique murmure : « TON TRIBUT A ÉTÉ ACCEPTÉ. VA EN PAIX, SAC D'OS. »",
+            "it": "Il pollo ingoia il chicco alla velocità della luce. La voce cosmica sussurra: 'IL TUO TRIBUTO È STATO ACCETTATO. VAI IN PACE, SACCO D'OSSA.'",
+            "de": "Das Huhn verschlingt das Korn blitzschnell. Die kosmische Stimme flüstert: „DEIN TRIBUT WURDE ANGENOMMEN. GEH IN FRIEDEN, KNOCHENSACK.“",
+            "zh": "鸡以闪电般的速度吞下了这粒谷物。宇宙之声低语道：「你的贡品已被接受。安心离去吧，骨头袋子。」",
+            "ja": "鶏は稲妻のような速さでその粒を飲み込む。宇宙の声が囁く。「お前の貢物は受け入れられた。安らかに行け、骨の袋よ」"
+        },
+        "next": [
+            "pollo_root"
+        ],
+        "reward": ""
+    },
+    "pollo_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  (Alejarse con respeto místico)",
+            "en": "🚶  (Back away with mystical reverence)",
+            "fr": "🚶  (S'éloigner avec un respect mystique)",
+            "it": "🚶  (Allontanarsi con rispetto mistico)",
+            "de": "🚶  (Sich mit mystischem Respekt entfernen)",
+            "zh": "🚶  （带着神秘的敬意退去）",
+            "ja": "🚶  （神秘的な敬意を持って立ち去る）"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

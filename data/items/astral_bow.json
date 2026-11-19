@@ -1,0 +1,31 @@
+{
+    "name": {
+        "es": "Arco Astral",
+        "en": "Astral Bow",
+        "fr": "Arc Astral",
+        "it": "Arco Astrale",
+        "de": "Astralbogen",
+        "zh": "星辉之弓",
+        "ja": "アストラルボウ"
+    },
+    "desc": {
+        "es": "Forjado con luz estelar, dispara flechas que nunca fallan su blanco.",
+        "en": "Forged from starlight, it fires arrows that never miss their mark.",
+        "fr": "Forgé avec la lumière des étoiles, il tire des flèches qui n'échouent jamais leur cible.",
+        "it": "Forgiato con la luce delle stelle, scaglia frecce che non mancano mai il bersaglio.",
+        "de": "Aus Sternenlicht geschmiedet, verschießt er Pfeile, die ihr Ziel nie verfehlen.",
+        "zh": "以星光锻造，射出的箭矢从不失手。",
+        "ja": "星明かりで鍛えられ、決して的を外さない矢を放つ。"
+    },
+    "icon": "🏹",
+    "category": "equipment",
+    "usable": false,
+    "slot": "weapon",
+    "tier": 6,
+    "bonuses": {
+        "dex": 16
+    },
+    "combat": {
+        "range_damage": 192
+    }
+}

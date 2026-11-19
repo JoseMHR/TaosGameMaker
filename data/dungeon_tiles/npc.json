@@ -1,0 +1,9 @@
+{
+	"t": "npc",
+	"order": 204,
+	"label": "NPC",
+	"icon": "🧑",
+	"color": "#2f9a63",
+	"group": "Sistema",
+	"entity": true
+}

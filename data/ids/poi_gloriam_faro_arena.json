@@ -1,0 +1,26 @@
+{
+    "id": "poi_gloriam_faro_arena",
+    "type": "poi",
+    "icon": "🗼",
+    "name": {
+        "es": "El Faro sin Mar",
+        "en": "The Lighthouse Without a Sea",
+        "fr": "Le Phare sans Mer",
+        "it": "Il Faro senza Mare",
+        "de": "Der Leuchtturm ohne Meer",
+        "zh": "无海的灯塔",
+        "ja": "海のない灯台"
+    },
+    "desc": {
+        "es": "Un faro solitario en mitad del desierto sigue barriendo la arena con su haz, advirtiendo de un mar que se secó con gente aún dentro. (PNJ singular).",
+        "en": "A lone lighthouse in the middle of the desert still sweeps the sand with its beam, warning of a sea that dried up with people still in it. (Singular NPC).",
+        "fr": "Un phare solitaire au milieu du désert balaie toujours le sable de son faisceau, avertissant d'une mer asséchée avec des gens encore dedans. (PNJ singulier).",
+        "it": "Un faro solitario in mezzo al deserto continua a spazzare la sabbia con il suo fascio di luce, avvertendo di un mare prosciugato con persone ancora dentro. (PNG singolare).",
+        "de": "Ein einsamer Leuchtturm mitten in der Wüste fegt weiterhin mit seinem Strahl über den Sand und warnt vor einem ausgetrockneten Meer, in dem noch Menschen sind. (Einzigartiger NPC).",
+        "zh": "沙漠中一座孤独的灯塔，仍用光束扫过沙地，警告着一片干涸的海——里面还困着人。（唯一NPC）。",
+        "ja": "砂漠の真ん中に立つ孤独な灯台。今もその光で砂を照らし、まだ人がいる干上がった海の存在を警告している。（唯一のNPC）。"
+    },
+    "npc": "poi_gloriam_faro_arena",
+    "bg": "bg_world_poi_gloriam_faro_arena.png",
+    "music": "poi_generic"
+}

@@ -1,0 +1,26 @@
+{
+    "id": "poi_final_eco_elena",
+    "type": "poi",
+    "icon": "🎵",
+    "name": {
+        "es": "El Eco de Elena",
+        "en": "The Echo of Elena",
+        "fr": "L'Écho d'Elena",
+        "it": "L'Eco di Elena",
+        "de": "Das Echo von Elena",
+        "zh": "艾琳娜的回声",
+        "ja": "エレナの残響"
+    },
+    "desc": {
+        "es": "La silueta translúcida de una mujer que canta una nana, dándote la espalda, al borde del abismo. (PNJ singular).",
+        "en": "The translucent silhouette of a woman singing a lullaby, her back to you, at the edge of the abyss. (Singular NPC).",
+        "fr": "La silhouette translucide d'une femme qui chante une berceuse, te tournant le dos, au bord de l'abîme. (PNJ singulier).",
+        "it": "La silhouette traslucida di una donna che canta una ninna nanna, dandoti le spalle, sull'orlo dell'abisso. (PNG singolare).",
+        "de": "Die durchscheinende Silhouette einer Frau, die ein Schlaflied singt, dir den Rücken zugewandt, am Rande des Abgrunds. (Einzigartiger NPC).",
+        "zh": "深渊边缘，一个半透明的女性身影背对着你，唱着摇篮曲。（唯一NPC）。",
+        "ja": "深淵の縁で、背を向けて子守唄を歌う半透明の女性の影。（唯一のNPC）。"
+    },
+    "npc": "poi_final_eco_elena",
+    "bg": "bg_world_poi_final_eco_elena.png",
+    "music": "creepy"
+}

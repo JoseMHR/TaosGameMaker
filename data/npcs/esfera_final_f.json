@@ -1,0 +1,65 @@
+{
+    "name": {
+        "es": "La Esfera de la Verdad",
+        "en": "The Sphere of Truth",
+        "fr": "La Sphère de la Vérité",
+        "it": "La Sfera della Verità",
+        "de": "Die Sphäre der Wahrheit",
+        "zh": "真理之球",
+        "ja": "真実の球"
+    },
+    "intro": {
+        "type": "message",
+        "text": {
+            "es": "Aiden... Te reconozco en tu totalidad. No solo como el hombre que perdió a su hija, sino como el alma que ha caminado las seis sendas del mundo para encontrarse a sí misma. Has sido guerrero, arquero, sacerdote, elementalista, psíquico y dueño de tu propio tiempo. Has atravesado el abismo de tu culpa y has elegido la bondad absoluta. La Esfera ya no es un tribunal para ti; es un espejo de luz. Atraviesa el umbral... y lleva el amor de Elara de vuelta al mundo para sanar a quienes sufren.",
+            "en": "Aiden... I recognize you in your wholeness. Not merely as the man who lost his daughter, but as the soul who walked all six paths of the world to find himself. You have been warrior, archer, priest, elementalist, psychic, and master of your own time. You crossed the abyss of your guilt and chose absolute compassion. The Sphere is no longer a tribunal for you; it is a mirror of light. Step through the threshold... and carry Elara's love back into the waking world to heal those who suffer.",
+            "fr": "Aiden... Je te reconnais dans ta totalité. Non seulement comme l'homme qui a perdu sa fille, mais comme l'âme qui a parcouru les six voies du monde pour se retrouver. Tu as été guerrier, archer, prêtre, élémentaliste, psychique et maître de ton propre temps. Tu as traversé l'abîme de ta culpabilité et choisi la bonté absolue. La Sphère n'est plus un tribunal pour toi ; elle est un miroir de lumière. Franchis le seuil... et ramène l'amour d'Elara dans le monde éveillé pour guérir ceux qui souffrent.",
+            "it": "Aiden... Ti riconosco nella tua totalità. Non solo come l'uomo che ha perso sua figlia, ma come l'anima che ha percorso le sei vie del mondo per ritrovare se stessa. Sei stato guerriero, arciere, sacerdote, elementalista, psichico e padrone del tuo tempo. Hai attraversato l'abisso della tua colpa e hai scelto la bontà assoluta. La Sfera non è più un tribunale per te; è uno specchio di luce. Varca la soglia... e riporta l'amore di Elara nel mondo di veglia per guarire chi soffre.",
+            "de": "Aiden... Ich erkenne dich in deiner Gesamtheit. Nicht nur als den Mann, der seine Tochter verlor, sondern als die Seele, die alle sechs Wege der Welt beschritten hat, um sich selbst zu finden. Du warst Krieger, Bogenschütze, Priester, Elementarist, Hellseher und Herr deiner eigenen Zeit. Du hast den Abgrund deiner Schuld durchquert und dich für absolute Güte entschieden. Die Sphäre ist für dich kein Tribunal mehr; sie ist ein Spiegel des Lichts. Durchschreite die Schwelle... und trage Elaras Liebe zurück in die wache Welt, um jenen zu heilen, die leiden.",
+            "zh": "艾登……我认识你的全部。不仅仅是那个失去女儿的男人，更是那个走遍世间六条道路、只为找回自我的灵魂。你曾是战士、弓箭手、祭司、元素使、灵能者，也曾是时间的主人。你穿越了愧疚的深渊，选择了至纯的善良。真理之球对你而言不再是审判庭，而是一面光之明镜。跨过这道门槛吧……把艾拉拉的爱带回清醒的世界，去治愈那些仍在受苦的人。",
+            "ja": "エイデン……お前という存在の全てを認めよう。娘を失った男としてだけではなく、自分自身を見つけるために世界の六つの道を歩んだ魂として。お前は戦士であり、弓兵であり、司祭であり、精霊使いであり、超能力者であり、そして己の時を統べる者であった。罪悪感の深淵を越え、絶対的な善を選び取った。球はもうお前にとって法廷ではない。光の鏡なのだ。その敷居を越えよ……そしてエララの愛を目覚めた世界へ持ち帰り、苦しむ者たちを癒せ。"
+        },
+        "options": [
+            {
+                "text": {
+                    "es": "Contemplar el desenlace (Final F: Epílogo Secreto)",
+                    "en": "Behold the outcome (Ending F: Secret Epilogue)",
+                    "fr": "Contempler le dénouement (Fin F : Épilogue secret)",
+                    "it": "Contemplare l'epilogo (Finale F: Epilogo segreto)",
+                    "de": "Den Ausgang betrachten (Ende F: Geheimer Epilog)",
+                    "zh": "凝视结局（结局F：秘密尾声）",
+                    "ja": "結末を見つめる（エンディングF：秘密のエピローグ）"
+                },
+                "next": "trigger_scene"
+            },
+            {
+                "text": {
+                    "es": "Volver al mapa",
+                    "en": "Return to map",
+                    "fr": "Retourner à la carte",
+                    "it": "Tornare alla mappa",
+                    "de": "Zur Karte zurückkehren",
+                    "zh": "返回地图",
+                    "ja": "地図に戻る"
+                },
+                "next": "close"
+            }
+        ]
+    },
+    "trigger_scene": {
+        "type": "message",
+        "text": {
+            "es": "La luz de la Esfera te envuelve por completo...",
+            "en": "The Sphere's light envelops you completely...",
+            "fr": "La lumière de la Sphère t'enveloppe complètement...",
+            "it": "La luce della Sfera ti avvolge completamente...",
+            "de": "Das Licht der Sphäre umhüllt dich vollständig...",
+            "zh": "球体的光芒将你彻底笼罩……",
+            "ja": "球の光がお前を完全に包み込む……"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "cine:final_f"
+    }
+}

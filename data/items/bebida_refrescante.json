@@ -1,0 +1,26 @@
+{
+    "name": {
+        "es": "Bebida Refrescante",
+        "en": "Refreshing Drink",
+        "fr": "Boisson Rafraîchissante",
+        "it": "Bevanda Rinfrescante",
+        "de": "Erfrischendes Getränk",
+        "zh": "清凉饮品",
+        "ja": "さわやかドリンク"
+    },
+    "desc": {
+        "es": "Infusión helada de hibisco y dátiles, servida en la Cantina del Espejismo. Alivia el calor de las dunas.",
+        "en": "Iced hibiscus and date brew, served at the Mirage Cantina. Eases the heat of the dunes.",
+        "fr": "Infusion glacée d'hibiscus et de dattes, servie à la Cantina du Mirage. Soulage la chaleur des dunes.",
+        "it": "Infuso ghiacciato di ibisco e datteri, servito alla Cantina del Miraggio. Allevia il calore delle dune.",
+        "de": "Eisiger Hibiskus-Dattel-Aufguss, serviert in der Fata-Morgana-Cantina. Lindert die Hitze der Dünen.",
+        "zh": "在幻境酒馆供应的冰镇玫瑰茄椰枣饮，能缓解沙丘的酷热。",
+        "ja": "蜃気楼カンティーナで提供されるハイビスカスとナツメヤシの冷たい飲み物。砂丘の暑さを和らげる。"
+    },
+    "icon": "🥤",
+    "category": "consumable",
+    "usable": true,
+    "effects": {
+        "heal_pct": 0.1
+    }
+}

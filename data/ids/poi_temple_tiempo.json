@@ -1,0 +1,32 @@
+{
+    "id": "poi_temple_tiempo",
+    "type": "poi",
+    "name": {
+        "es": "Templo del Tiempo",
+        "en": "Temple of Time",
+        "fr": "Temple du Temps",
+        "it": "Tempio del Tempo",
+        "de": "Tempel der Zeit",
+        "zh": "时间神庙",
+        "ja": "時の神殿"
+    },
+    "icon": "⏳",
+    "desc": {
+        "es": "Donde el instante se pliega",
+        "en": "Where the instant folds",
+        "fr": "Où l'instant se replie",
+        "it": "Dove l'istante si piega",
+        "de": "Wo sich der Augenblick faltet",
+        "zh": "瞬间在此折叠之地",
+        "ja": "瞬間が折り畳まれる場所"
+    },
+    "npc": "temple_time",
+    "presences": [
+        {
+            "condition": "default",
+            "actor": "temple_time",
+            "entry_node": ""
+        }
+    ],
+    "bg": "bg_temple_tiempo.png"
+}

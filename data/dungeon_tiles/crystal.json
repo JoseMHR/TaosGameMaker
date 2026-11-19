@@ -1,0 +1,10 @@
+{
+	"t": "crystal",
+	"order": 207,
+	"label": "Cristal",
+	"icon": "💎",
+	"color": "#00ffff",
+	"group": "Sistema",
+	"solid": true,
+	"entity": true
+}

@@ -1,0 +1,42 @@
+{
+    "name": {
+        "es": "Chaleco de Seda Arcana",
+        "en": "Arcane Silk Vest",
+        "fr": "Gilet en Soie Arcanique",
+        "it": "Gilet di Seta Arcana",
+        "de": "Arkane Seidenweste",
+        "zh": "秘法丝绸背心",
+        "ja": "アーケインシルクベスト"
+    },
+    "desc": {
+        "es": "Tejido encantado de Celestia con hilos repelentes de energía mágica.",
+        "en": "Enchanted Celestia garment with magic-repelling threads.",
+        "fr": "Tissu enchanté de Celestia avec des fils repoussant l'énergie magique.",
+        "it": "Tessuto incantato di Celestia con fili repellenti all'energia magica.",
+        "de": "Verzaubertes Kleidungsstück aus Celestia mit magieabweisenden Fäden.",
+        "zh": "塞莱斯提亚的附魔织物，丝线能排斥魔法能量。",
+        "ja": "魔力を弾く糸を使ったセレスティアの魔法の衣服。"
+    },
+    "icon": "🦺",
+    "category": "equipment",
+    "usable": false,
+    "slot": "armor",
+    "tier": 4,
+    "bonuses": {
+        "int": 7,
+        "agi": 4
+    },
+    "combat": {
+        "phys_defense": 26,
+        "mag_defense": 48
+    },
+    "traits": [
+        {
+            "type": "resist_damage_type",
+            "damage_type": "magic",
+            "value": 0.15,
+            "min_refine": 0,
+            "desc": "+15% Resistencia a daño Mágico"
+        }
+    ]
+}

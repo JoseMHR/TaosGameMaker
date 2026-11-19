@@ -1,0 +1,23 @@
+{
+    "id": "dun_yelmo",
+    "type": "dungeon",
+    "name": {
+        "es": "Túnel del Yelmo",
+        "en": "Helm Tunnel",
+        "fr": "Tunnel du Heaume",
+        "it": "Tunnel dell'Elmo",
+        "de": "Helmtunnel",
+        "zh": "头盔隧道",
+        "ja": "兜のトンネル"
+    },
+    "icon": "⛰️",
+    "desc": {
+        "es": "Túnel excavado a través de la cordillera del Yelmo que conecta el valle inicial con la pradera este.",
+        "en": "Tunnel carved through the Helm mountain range connecting the starter valley with the eastern prairie.",
+        "fr": "Tunnel creusé à travers la chaîne du Heaume reliant la vallée de départ à la prairie orientale.",
+        "it": "Tunnel scavato attraverso la catena montuosa dell'Elmo che collega la valle iniziale con la prateria orientale.",
+        "de": "Tunnel durch das Helmgebirge, der das Startertal mit der östlichen Prärie verbindet.",
+        "zh": "穿过头盔山脉的隧道，连接起始山谷与东部草原。",
+        "ja": "初期の谷と東の草原を結ぶ、兜山脈を貫くトンネル。"
+    }
+}

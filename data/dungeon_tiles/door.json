@@ -1,0 +1,17 @@
+{
+	"t": "door",
+	"order": 30,
+	"label": "Puerta",
+	"icon": "🚪",
+	"color": "#b07c2f",
+	"group": "Tiempo",
+	"entity": true,
+	"stateful": true,
+	"skill": "tiempo",
+	"kinds": [
+		"door",
+		"gate",
+		"timed"
+	],
+	"model": "puerta_madera"
+}

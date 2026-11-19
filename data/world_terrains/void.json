@@ -1,0 +1,17 @@
+{
+    "code": "void",
+    "order": 14,
+    "label": "Grieta de Realidad",
+    "color": "#2a1b3d",
+    "icon": "🌀",
+    "biome_color": "#1a1029",
+    "description": "El suelo tiembla, como una imagen mal cargada. Por un instante, no estás seguro de si esto es tierra de verdad.",
+    "walkable": true,
+    "speed_mult": 0.8,
+    "texture": "res://assets/world/map/tile_grieta.png",
+    "tint": "#8a6bc9",
+    "roughness": 0.4,
+    "emission": "#6a3dbf",
+    "emission_energy": 0.6,
+    "emission_pulse": 0.3
+}

@@ -1,0 +1,62 @@
+{
+  "name": {
+    "es": "Criatura Corrupta",
+    "en": "Corrupted Creature",
+    "fr": "Créature Corrompue",
+    "it": "Creatura Corrotta",
+    "de": "Verdorbene Kreatur",
+    "zh": "堕落生物",
+    "ja": "堕落した生物"
+  },
+  "family": "beast",
+  "archetype": "glass_cannon",
+  "icon": "🐗",
+  "image": "res://assets/combat/enemies/en_corrupted_creature.png",
+  "attack_type": "physical",
+  "base_dodge": 11.0,
+  "dodge_scale": 0.25,
+  "element": "poison",
+  "weak_to": [
+    "fire",
+    "holy"
+  ],
+  "resist": [
+    "poison",
+    "dark"
+  ],
+  "status_on_hit": {
+    "type": "poison",
+    "chance": 0.4,
+    "turns": 3,
+    "power": 5
+  },
+  "ai": "aggressive",
+  "xp_reward_base": 230,
+  "xp_reward_scale": 12.5,
+  "gold_reward_base": 115,
+  "gold_reward_scale": 8.5,
+  "skills": [
+    {
+      "level": 1,
+      "skill_id": "corrupted_claw"
+    },
+    {
+      "level": 37,
+      "skill_id": "toxic_burst"
+    }
+  ],
+  "loot": [
+    {
+      "kind": "gold",
+      "min": 25,
+      "max": 55
+    },
+    {
+      "kind": "equipment",
+      "chance": 0.3,
+      "level": 6
+    }
+  ],
+  "zone": "zona_6_arcanum",
+  "is_boss": false
+}

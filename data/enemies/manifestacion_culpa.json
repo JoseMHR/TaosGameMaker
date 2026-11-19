@@ -1,0 +1,65 @@
+{
+  "name": {
+    "es": "Manifestación de la Culpa",
+    "en": "Manifestation of Guilt",
+    "fr": "Manifestation de la Culpabilité",
+    "it": "Manifestazione della Colpa",
+    "de": "Manifestation der Schuld",
+    "zh": "愧疚化身",
+    "ja": "罪悪感の顕現"
+  },
+  "family": "manifestacion",
+  "archetype": "balanced",
+  "icon": "😔",
+  "image": "res://assets/combat/enemies/en_guilt_manifestation.png",
+  "attack_type": "magic",
+  "base_dodge": 9.0,
+  "dodge_scale": 0.2,
+  "element": "dark",
+  "weak_to": [
+    "holy"
+  ],
+  "resist": [
+    "dark",
+    "poison"
+  ],
+  "status_on_hit": {
+    "type": "stun",
+    "chance": 0.2,
+    "turns": 1,
+    "power": 0
+  },
+  "ai": "caster",
+  "xp_reward_base": 360,
+  "xp_reward_scale": 16.5,
+  "gold_reward_base": 190,
+  "gold_reward_scale": 12.5,
+  "skills": [
+    {
+      "level": 1,
+      "skill_id": "mental_agony"
+    },
+    {
+      "level": 46,
+      "skill_id": "unholy_drain"
+    },
+    {
+      "level": 48,
+      "skill_id": "guilt_burst"
+    }
+  ],
+  "loot": [
+    {
+      "kind": "gold",
+      "min": 150,
+      "max": 300
+    },
+    {
+      "kind": "equipment",
+      "chance": 0.9,
+      "level": 9
+    }
+  ],
+  "zone": "zona_7_epilogo",
+  "is_boss": false
+}

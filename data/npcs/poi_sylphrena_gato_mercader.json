@@ -1,0 +1,569 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Gato Mercader",
+            "en": "The Merchant Cat",
+            "fr": "Le Chat Marchand",
+            "it": "Il Gatto Mercante",
+            "de": "Die Handelskatze",
+            "zh": "商人猫",
+            "ja": "商人猫"
+        },
+        "next": [],
+        "reward": "avatar=🐈;bg=0.10,0.09,0.06"
+    },
+    "entry": {
+        "type": "flow",
+        "next": [
+            "gato_hub_socio",
+            "gato_hub_first"
+        ]
+    },
+    "gato_hub_first": {
+        "type": "message",
+        "condition": "default",
+        "text": {
+            "es": "En una esquina soleada del mercado campestre de Sylphrena, un tenderete de fruta y provisiones ha sido usurpado por un gato atigrado del tamaño de un cojín. Está sentado con majestuosidad sobre la balanza, con la cola rodeando una cajita de madera con monedas. Un cartel infantil clavado en la madera reza: 'ATENDIDO POR EL SEÑOR BIGOTES. NO REGATEAR.' El felino te mide con la mirada entrecerrada de quien sabe que tiene el monopolio absoluto.",
+            "en": "In a sunny corner of Sylphrena's countryside market, a fruit and supply stall has been usurped by a cushion-sized tabby cat. It sits majestically atop the scale, its tail curled around a wooden coin box. A child's sign nailed to the wood reads: 'SERVED BY MISTER WHISKERS. NO HAGGLING.' The feline measures you with narrowed eyes, knowing full well it holds an absolute monopoly.",
+            "fr": "Dans un coin ensoleillé du marché champêtre de Sylphrena, un étal de fruits et de provisions a été usurpé par un chat tigré de la taille d'un coussin. Il est assis avec majesté sur la balance, la queue enroulée autour d'une petite boîte en bois pleine de pièces. Un écriteau enfantin cloué sur le bois dit : « SERVI PAR MONSIEUR MOUSTACHES. PAS DE MARCHANDAGE. » Le félin te toise du regard mi-clos de celui qui sait détenir un monopole absolu.",
+            "it": "In un angolo soleggiato del mercato campestre di Sylphrena, una bancarella di frutta e provviste è stata usurpata da un gatto tigrato grande quanto un cuscino. Siede maestosamente sulla bilancia, con la coda arrotolata attorno a una scatoletta di legno con monete. Un cartello infantile inchiodato al legno recita: 'SERVITO DAL SIGNOR BAFFI. NON SI CONTRATTA.' Il felino ti squadra con lo sguardo socchiuso di chi sa di avere il monopolio assoluto.",
+            "de": "In einer sonnigen Ecke des Landmarkts von Sylphrena hat eine kissengroße getigerte Katze einen Obst- und Vorratsstand usurpiert. Sie sitzt majestätisch auf der Waage, den Schwanz um eine hölzerne Münzkiste gerollt. Ein kindliches Schild, ins Holz genagelt, verkündet: „BEDIENT VON HERR SCHNURRBART. KEIN FEILSCHEN.“ Der Kater mustert dich mit halb geschlossenen Augen, wissend, dass er ein absolutes Monopol besitzt.",
+            "zh": "在希尔芙蕾娜乡村市场一个阳光明媚的角落里，一个水果和食品摊位被一只枕头大小的虎斑猫霸占了。它威严地坐在秤上，尾巴缠绕着一个装硬币的木盒。木板上钉着一块孩子气的告示牌，写着：「由胡须先生服务。禁止讨价还价。」这只猫用半眯着的眼神打量着你，那是深知自己拥有绝对垄断地位者的目光。",
+            "ja": "シルフレナの田舎市場の日当たりの良い一角で、果物と食料品の屋台がクッションほどの大きさのトラ猫に乗っ取られている。天秤の上に威厳をもって座り、尻尾を木製の硬貨箱に巻きつけている。木に打ち付けられた子供っぽい看板にはこう書かれている——「ミスター・ヒゲが対応します。値切り交渉お断り」その猫は、絶対的な独占を持つ者の目つきでお前を値踏みする。"
+        },
+        "next": [
+            "gato_opt_comprar_fruta",
+            "gato_opt_pescado_crudo_first",
+            "gato_opt_pescado_cocinado_first",
+            "gato_opt_leche_first",
+            "gato_opt_tirar_mesa_first",
+            "gato_opt_acariciar_barbilla",
+            "gato_opt_acariciar_barriga",
+            "gato_opt_regatear",
+            "gato_opt_salir"
+        ],
+        "reward": ""
+    },
+    "gato_hub_socio": {
+        "type": "message",
+        "condition": "gflag(\"gato_socio\")",
+        "text": {
+            "es": "Al entrar al puesto, el Señor Bigotes te reconoce al instante y emite un suave 'miau' con un parpadeo lento de confianza absoluta. Se despereza, se tumba sobre la balanza marcando cero kilos de productividad y te cede un rincón del mostrador. El imperio comercial conjunto sigue en marcha: él pone la presencia aristocrática y tú te encargas de la clientela.",
+            "en": "As you enter the stall, Mister Whiskers recognizes you instantly, giving a soft 'meow' with a slow blink of absolute trust. He stretches out, lounges across the scale registering zero kilograms of productivity, and yields a corner of the counter. The joint mercantile empire thrives: he provides aristocratic presence while you handle the customers.",
+            "fr": "En entrant dans l'étal, Monsieur Moustaches te reconnaît instantanément et émet un doux « miaou » avec un lent clignement de confiance absolue. Il s'étire, s'étale sur la balance qui affiche zéro kilo de productivité, et te cède un coin du comptoir. L'empire commercial conjoint continue de tourner : il apporte la présence aristocratique et toi tu t'occupes de la clientèle.",
+            "it": "Entrando nella bancarella, il Signor Baffi ti riconosce all'istante ed emette un dolce 'miao' con un lento battito di ciglia di fiducia assoluta. Si stiracchia, si sdraia sulla bilancia segnando zero chili di produttività e ti cede un angolo del bancone. L'impero commerciale congiunto prosegue: lui offre la presenza aristocratica e tu ti occupi della clientela.",
+            "de": "Als du den Stand betrittst, erkennt Herr Schnurrbart dich sofort und stößt ein sanftes „Miau“ mit einem langsamen Blinzeln absoluten Vertrauens aus. Er streckt sich, legt sich auf die Waage, die null Kilogramm Produktivität anzeigt, und überlässt dir eine Ecke der Theke. Das gemeinsame Handelsimperium blüht weiter: er liefert aristokratische Präsenz, während du dich um die Kundschaft kümmerst.",
+            "zh": "当你走进摊位时，胡须先生立刻认出了你，发出一声轻柔的「喵」，缓缓地眨了眨眼，那是绝对信任的表示。它伸了个懒腰，趴在秤上，显示出零公斤的生产力，并把柜台的一角让给了你。这个共同经营的商业帝国依然在运转：它负责贵族般的存在感，而你负责应付顾客。",
+            "ja": "屋台に入ると、ミスター・ヒゲはすぐにお前を認識し、絶対的な信頼を込めたゆっくりとした瞬きとともに柔らかく「ニャー」と鳴く。体を伸ばし、生産性ゼロキログラムを示す天秤の上に寝そべり、カウンターの一角を譲る。共同の商業帝国は繁栄を続けている——彼が貴族的な存在感を提供し、お前が顧客対応を担当するのだ。"
+        },
+        "next": [
+            "gato_opt_siesta",
+            "gato_opt_dividendos",
+            "gato_opt_comprar_socio",
+            "gato_opt_pescado_crudo_socio",
+            "gato_opt_pescado_cocinado_socio",
+            "gato_opt_leche_socio",
+            "gato_opt_tirar_mesa_socio",
+            "gato_opt_auditoria",
+            "gato_opt_barriga_socio",
+            "gato_opt_salir"
+        ],
+        "reward": ""
+    },
+    "gato_opt_comprar_fruta": {
+        "type": "option",
+        "text": {
+            "es": "🍎  Comprar manzana fresca y pan del día (−3 oro)",
+            "en": "🍎  Buy a fresh apple and daily bread (−3 gold)",
+            "fr": "🍎  Acheter une pomme fraîche et du pain du jour (−3 or)",
+            "it": "🍎  Comprare una mela fresca e pane del giorno (−3 oro)",
+            "de": "🍎  Einen frischen Apfel und Tagesbrot kaufen (−3 Gold)",
+            "zh": "🍎  购买新鲜苹果和当日面包（-3金币）",
+            "ja": "🍎  新鮮なリンゴと本日のパンを買う（-3ゴールド）"
+        },
+        "next": [
+            "gato_msg_comprar_fruta"
+        ],
+        "reward": "gold:-3;heal:15;item:pan=1",
+        "condition": "gold >= 3"
+    },
+    "gato_msg_comprar_fruta": {
+        "type": "message",
+        "text": {
+            "es": "Depositas tres monedas en la cajita de madera y tomas una manzana crujiente junto a una hogaza caliente. El Señor Bigotes sigue tu mano con la mirada, comprueba el tintineo del oro y asiente con dignidad empresarial. Con la pata delantera empuja una moneda hacia ti como descuento de cortesía. Un comerciante exigente, pero honrado a su manera.",
+            "en": "You deposit three coins into the wooden box and take a crisp apple along with a warm loaf. Mister Whiskers tracks your hand with his eyes, verifies the chime of gold, and nods with entrepreneurial dignity. With his forepaw, he bats one coin back toward you as a courtesy discount. A demanding merchant, but fair in his own way.",
+            "fr": "Tu déposes trois pièces dans la petite boîte en bois et prends une pomme croquante avec une miche encore chaude. Monsieur Moustaches suit ta main du regard, vérifie le tintement de l'or et hoche la tête avec dignité entrepreneuriale. De sa patte avant, il repousse une pièce vers toi en guise de remise de courtoisie. Un commerçant exigeant, mais honnête à sa manière.",
+            "it": "Deponi tre monete nella scatoletta di legno e prendi una mela croccante insieme a una pagnotta calda. Il Signor Baffi segue la tua mano con lo sguardo, verifica il tintinnio dell'oro e annuisce con dignità imprenditoriale. Con la zampa anteriore spinge una moneta verso di te come sconto di cortesia. Un commerciante esigente, ma onesto a modo suo.",
+            "de": "Du legst drei Münzen in die hölzerne Kiste und nimmst einen knackigen Apfel samt einem warmen Laib Brot. Herr Schnurrbart verfolgt deine Hand mit den Augen, prüft das Klirren des Goldes und nickt mit unternehmerischer Würde. Mit seiner Vorderpfote schiebt er dir eine Münze als Höflichkeitsrabatt zurück. Ein anspruchsvoller, aber auf seine Art ehrlicher Kaufmann.",
+            "zh": "你把三枚硬币放进木盒，拿起一个脆生生的苹果和一条热乎乎的面包。胡须先生用眼睛追随着你的手，确认了金子的叮当声，带着企业家般的尊严点了点头。它用前爪把一枚硬币推还给你，作为礼节性的折扣。一位要求严格，但以自己的方式诚实的商人。",
+            "ja": "木箱に三枚の硬貨を入れ、パリッとしたリンゴと温かいパンの塊を手に取る。ミスター・ヒゲはお前の手を目で追い、金の音を確認し、起業家らしい威厳とともに頷く。前足で一枚の硬貨を礼儀正しい割引としてお前に押し戻す。要求は厳しいが、彼なりに正直な商人だ。"
+        },
+        "next": [
+            "gato_hub_first"
+        ],
+        "reward": ""
+    },
+    "gato_opt_comprar_socio": {
+        "type": "option",
+        "text": {
+            "es": "🧺  Adquirir cesta de provisiones selectas de socio (−5 oro)",
+            "en": "🧺  Purchase partner's select provision basket (−5 gold)",
+            "fr": "🧺  Acquérir un panier de provisions choisies pour associé (−5 or)",
+            "it": "🧺  Acquistare un cesto di provviste selezionate da socio (−5 oro)",
+            "de": "🧺  Einen Korb ausgewählter Vorräte für Partner erwerben (−5 Gold)",
+            "zh": "🧺  购买合伙人专属精选补给篮（-5金币）",
+            "ja": "🧺  パートナー専用の厳選食料バスケットを購入する（-5ゴールド）"
+        },
+        "next": [
+            "gato_msg_comprar_socio"
+        ],
+        "reward": "gold:-5;heal:25;item:pan=1;item:queso_artesanal=1",
+        "condition": "gold >= 5"
+    },
+    "gato_msg_comprar_socio": {
+        "type": "message",
+        "text": {
+            "es": "Como socio preferente, abres la cesta guardada bajo el lienzo: pan crujiente y un trozo de queso artesanal curado. El Señor Bigotes maúlla complacido al ver que las cuentas cuadran y te pasa la pata suavemente por la muñeca en señal de camaradería comercial.",
+            "en": "As preferred partner, you open the basket kept under the canvas: crusty bread and a wedge of aged artisanal cheese. Mister Whiskers purrs pleased to see the books balance, gently resting his paw on your wrist in mercantile camaraderie.",
+            "fr": "En tant que partenaire privilégié, tu ouvres le panier caché sous la toile : du pain croustillant et un morceau de fromage artisanal affiné. Monsieur Moustaches miaule de satisfaction en voyant que les comptes sont équilibrés et pose doucement sa patte sur ton poignet en signe de camaraderie commerciale.",
+            "it": "Come socio privilegiato, apri il cesto custodito sotto il telo: pane croccante e un pezzo di formaggio artigianale stagionato. Il Signor Baffi miagola compiaciuto vedendo che i conti tornano e ti posa delicatamente la zampa sul polso in segno di cameratismo commerciale.",
+            "de": "Als bevorzugter Partner öffnest du den unter der Leinwand aufbewahrten Korb: knuspriges Brot und ein Stück gereiften handwerklichen Käses. Herr Schnurrbart schnurrt zufrieden, als er sieht, dass die Bücher stimmen, und legt sanft seine Pfote auf dein Handgelenk als Zeichen kaufmännischer Kameradschaft.",
+            "zh": "作为优先合伙人，你打开了藏在帆布下的篮子：酥脆的面包和一块陈年手工奶酪。胡须先生看到账目平衡，满意地喵喵叫着，轻轻地把爪子放在你的手腕上，表示商业上的伙伴情谊。",
+            "ja": "優遇パートナーとして、キャンバスの下に保管されたバスケットを開ける——サクサクのパンと熟成された手作りチーズの一片。ミスター・ヒゲは帳簿が合っているのを見て満足げに鳴き、商業的な仲間意識を示すように優しく手首に前足を置く。"
+        },
+        "next": [
+            "gato_hub_socio"
+        ],
+        "reward": ""
+    },
+    "gato_opt_pescado_crudo_first": {
+        "type": "option",
+        "text": {
+            "es": "🐟  Ofrecerle un pescado fresco entero",
+            "en": "🐟  Offer him a whole fresh fish",
+            "fr": "🐟  Lui offrir un poisson frais entier",
+            "it": "🐟  Offrirgli un pesce fresco intero",
+            "de": "🐟  Ihm einen ganzen frischen Fisch anbieten",
+            "zh": "🐟  给它一整条新鲜的鱼",
+            "ja": "🐟  丸ごとの新鮮な魚を贈る"
+        },
+        "next": [
+            "gato_msg_pescado_primero"
+        ],
+        "reward": "-item:fish=1;item:colgante_casteo=1;faceta:bondad=+1;xp:25;discover:poi_sylphrena_gato_mercader;gflag:gato_pescado_dado",
+        "condition": "has_item(\"fish\") and no_gflag(\"gato_pescado_dado\")"
+    },
+    "gato_opt_pescado_cocinado_first": {
+        "type": "option",
+        "text": {
+            "es": "🍢  Ofrecerle un pescado a la brasa calentito",
+            "en": "🍢  Offer him a warm grilled fish",
+            "fr": "🍢  Lui offrir un poisson grillé bien chaud",
+            "it": "🍢  Offrirgli un pesce alla brace ben caldo",
+            "de": "🍢  Ihm einen warmen gegrillten Fisch anbieten",
+            "zh": "🍢  给它一条温热的烤鱼",
+            "ja": "🍢  温かい焼き魚を贈る"
+        },
+        "next": [
+            "gato_msg_pescado_primero"
+        ],
+        "reward": "-item:cooked_fish=1;item:colgante_casteo=1;faceta:bondad=+1;xp:25;discover:poi_sylphrena_gato_mercader;gflag:gato_pescado_dado",
+        "condition": "has_item(\"cooked_fish\") and no_gflag(\"gato_pescado_dado\")"
+    },
+    "gato_opt_pescado_crudo_socio": {
+        "type": "option",
+        "text": {
+            "es": "🐟  Compartir un pescado fresco con tu socio",
+            "en": "🐟  Share a fresh fish with your partner",
+            "fr": "🐟  Partager un poisson frais avec ton associé",
+            "it": "🐟  Condividere un pesce fresco con il tuo socio",
+            "de": "🐟  Einen frischen Fisch mit deinem Partner teilen",
+            "zh": "🐟  与你的合伙人分享一条新鲜的鱼",
+            "ja": "🐟  パートナーと新鮮な魚を分け合う"
+        },
+        "next": [
+            "gato_msg_pescado_socio"
+        ],
+        "reward": "-item:fish=1;gold:25;heal:15;faceta:bondad=+1",
+        "condition": "has_item(\"fish\")"
+    },
+    "gato_opt_pescado_cocinado_socio": {
+        "type": "option",
+        "text": {
+            "es": "🍢  Compartir un pescado asado crujiente con tu socio",
+            "en": "🍢  Share a crispy grilled fish with your partner",
+            "fr": "🍢  Partager un poisson grillé croustillant avec ton associé",
+            "it": "🍢  Condividere un pesce arrostito croccante con il tuo socio",
+            "de": "🍢  Einen knusprigen gegrillten Fisch mit deinem Partner teilen",
+            "zh": "🍢  与你的合伙人分享一条脆皮烤鱼",
+            "ja": "🍢  パリッとした焼き魚をパートナーと分け合う"
+        },
+        "next": [
+            "gato_msg_pescado_socio"
+        ],
+        "reward": "-item:cooked_fish=1;gold:25;heal:20;faceta:bondad=+1",
+        "condition": "has_item(\"cooked_fish\")"
+    },
+    "gato_msg_pescado_primero": {
+        "type": "message",
+        "text": {
+            "es": "El Señor Bigotes abre los ojos como platos dorados. Da un salto ágil, atrapa el pescado con ambas garras y lo devora en cuatro bocados ruidosos con éxtasis total. Al terminar, se relame minuciosamente los bigotes y mete la pata hasta el fondo de una caja secreta bajo el mostrador. Saca arrastrando un brillante Colgante de Casteo que algún mago distraído olvidó como fianza: «Un manjar digno de reyes merece una joya auténtica».",
+            "en": "Mister Whiskers opens his eyes wide like golden saucers. With an agile leap, he snatches the fish in both paws and devours it in four noisy bites of pure bliss. Licking his whiskers clean, he reaches deep into a secret crate under the counter and pulls out a gleaming Casting Pendant forgotten by an absent-minded mage: 'A royal feast warrants genuine jewelry.'",
+            "fr": "Monsieur Moustaches ouvre grand ses yeux comme des soucoupes dorées. D'un bond agile, il attrape le poisson à deux pattes et le dévore en quatre bouchées bruyantes dans une extase totale. En finissant, il se lèche méticuleusement les moustaches et plonge la patte au fond d'une boîte secrète sous le comptoir. Il en tire un brillant Pendentif d'Incantation qu'un mage distrait a oublié en caution : « Un mets digne des rois mérite un vrai bijou. »",
+            "it": "Il Signor Baffi spalanca gli occhi come piatti dorati. Con un balzo agile, afferra il pesce con entrambe le zampe e lo divora in quattro bocconi rumorosi in totale estasi. Finito, si lecca meticolosamente i baffi e infila la zampa fino in fondo a una scatola segreta sotto il bancone. Ne tira fuori un lucente Ciondolo dell'Incantesimo che un mago distratto dimenticò come cauzione: 'Un banchetto degno di re merita un gioiello autentico.'",
+            "de": "Herr Schnurrbart reißt die Augen weit auf wie goldene Untertassen. Mit einem geschickten Sprung schnappt er sich den Fisch mit beiden Pfoten und verschlingt ihn in vier lauten Bissen in völliger Ekstase. Danach leckt er sich sorgfältig die Schnurrhaare und greift tief in eine geheime Kiste unter der Theke. Er zieht einen glänzenden Zauberanhänger hervor, den ein zerstreuter Magier als Pfand vergaß: „Ein königliches Mahl verdient echten Schmuck.“",
+            "zh": "胡须先生睁大了它那双如金盘般的眼睛。它敏捷一跃，用两只爪子抓住鱼，在极度狂喜中四口就吞了下去。吃完后，它一丝不苟地舔了舔胡须，把爪子伸进柜台下一个隐秘的盒子深处。它拽出了一件闪亮的施法坠饰，那是某位心不在焉的法师留作抵押而遗忘的：「配得上国王的美食，理应配上一件真正的珠宝。」",
+            "ja": "ミスター・ヒゲは金色の皿のように目を大きく見開く。素早い跳躍で両方の前足で魚をつかみ、四回の騒がしい一口で完全な恍惚の中で貪り食う。食べ終えると、丁寧にヒゲを舐め、カウンターの下の秘密の箱に前足を深く突っ込む。ぼんやりした魔法使いが担保として忘れていった輝く詠唱のペンダントを取り出す。「王にふさわしいご馳走には本物の宝石がふさわしい」"
+        },
+        "next": [
+            "gato_hub_first"
+        ],
+        "reward": ""
+    },
+    "gato_msg_pescado_socio": {
+        "type": "message",
+        "text": {
+            "es": "El gato tritura el pescado con deleite absoluto, haciendo retumbar el mostrador con su ronroneo voraz. Satisfecho, empuja con la pata 25 monedas de oro relucientes de la caja comunal hacia tus manos: «Dividendos culinarios para el mejor socio de Sylphrena».",
+            "en": "The cat crunches the fish with absolute joy, rattling the counter with ferocious purring. Fully satisfied, he pats 25 shiny gold coins from the communal chest into your hands: 'Culinary dividends for the finest partner in Sylphrena.'",
+            "fr": "Le chat broie le poisson avec un plaisir absolu, faisant vibrer le comptoir de son ronronnement vorace. Satisfait, il pousse de la patte 25 pièces d'or brillantes de la caisse commune vers tes mains : « Dividendes culinaires pour le meilleur associé de Sylphrena. »",
+            "it": "Il gatto trita il pesce con assoluto piacere, facendo rimbombare il bancone con il suo ronron vorace. Soddisfatto, spinge con la zampa 25 luccicanti monete d'oro dalla cassa comune verso le tue mani: 'Dividendi culinari per il miglior socio di Sylphrena.'",
+            "de": "Die Katze zermalmt den Fisch mit absolutem Vergnügen und lässt die Theke mit ihrem gierigen Schnurren erzittern. Zufrieden schiebt sie mit der Pfote 25 glänzende Goldmünzen aus der gemeinsamen Kasse in deine Hände: „Kulinarische Dividenden für den besten Partner von Sylphrena.“",
+            "zh": "这只猫带着绝对的喜悦嚼碎了鱼，贪婪的呼噜声震动了柜台。它满意地用爪子从公共钱箱里推出25枚闪亮的金币到你手中：「给希尔芙蕾娜最好的合伙人的美食分红。」",
+            "ja": "猫は絶対的な喜びとともに魚を噛み砕き、貪欲な喉鳴りでカウンターを震わせる。満足した様子で、共同の金庫から輝く金貨25枚を前足でお前の手に押し出す。「シルフレナ最高のパートナーへの料理配当だ」"
+        },
+        "next": [
+            "gato_hub_socio"
+        ],
+        "reward": ""
+    },
+    "gato_opt_leche_first": {
+        "type": "option",
+        "text": {
+            "es": "🥛  Servirle un cuenco de leche fresca de granja",
+            "en": "🥛  Pour him a bowl of fresh farm milk",
+            "fr": "🥛  Lui servir un bol de lait frais de ferme",
+            "it": "🥛  Servirgli una ciotola di latte fresco di fattoria",
+            "de": "🥛  Ihm eine Schüssel frischer Bauernmilch servieren",
+            "zh": "🥛  给它盛一碗新鲜的农场牛奶",
+            "ja": "🥛  新鮮な農場のミルクを一杯注いでやる"
+        },
+        "next": [
+            "gato_msg_leche"
+        ],
+        "reward": "-item:milk=1;item:potion_mid=1;faceta:aspecto=+1;xp:15",
+        "condition": "has_item(\"milk\")"
+    },
+    "gato_opt_leche_socio": {
+        "type": "option",
+        "text": {
+            "es": "🥛  Invitar al Señor Bigotes a un tazón de leche fresca",
+            "en": "🥛  Treat Mister Whiskers to a bowl of fresh milk",
+            "fr": "🥛  Offrir à Monsieur Moustaches un bol de lait frais",
+            "it": "🥛  Offrire al Signor Baffi una ciotola di latte fresco",
+            "de": "🥛  Herr Schnurrbart eine Schüssel frischer Milch spendieren",
+            "zh": "🥛  请胡须先生喝一碗新鲜牛奶",
+            "ja": "🥛  ミスター・ヒゲに新鮮なミルクを一杯ご馳走する"
+        },
+        "next": [
+            "gato_msg_leche"
+        ],
+        "reward": "-item:milk=1;item:potion_mid=1;faceta:aspecto=+1;xp:15",
+        "condition": "has_item(\"milk\")"
+    },
+    "gato_msg_leche": {
+        "type": "message",
+        "text": {
+            "es": "Viertes la leche en un platito hondo de arcilla. El Señor Bigotes se agacha con prestancia y la bebe a lengüetazos pausados y milimétricos hasta dejar el plato reluciente. Se frota su cabeza atigrada contra tu mano con un ronroneo vibrante y hace rodar una Poción Intermedia hacia tu bolsillo con la nariz.",
+            "en": "You pour the milk into a shallow clay bowl. Mister Whiskers crouches with elegance and laps it up in slow, rhythmic strokes until the dish shines clean. He rubs his tabby head against your hand with a vibrant purr, rolling a Mid Potion into your pocket with his nose.",
+            "fr": "Tu verses le lait dans une petite assiette creuse en argile. Monsieur Moustaches s'accroupit avec prestance et le boit à petits coups de langue mesurés jusqu'à ce que l'assiette brille. Il frotte sa tête tigrée contre ta main avec un ronronnement vibrant et fait rouler une Potion Intermédiaire vers ta poche avec son nez.",
+            "it": "Versi il latte in un piattino fondo di argilla. Il Signor Baffi si accovaccia con prestanza e lo beve con leccatine pausate e millimetriche finché il piatto non è lucido. Si strofina la testa tigrata contro la tua mano con un ronron vibrante e fa rotolare una Pozione Intermedia verso la tua tasca con il naso.",
+            "de": "Du gießt die Milch in einen flachen Tonteller. Herr Schnurrbart hockt sich elegant hin und trinkt sie in langsamen, präzisen Zungenschlägen, bis der Teller blank ist. Er reibt seinen getigerten Kopf schnurrend an deiner Hand und rollt dir mit der Nase eine Mitteltrank in die Tasche.",
+            "zh": "你把牛奶倒进一个浅浅的陶土碟子里。胡须先生优雅地蹲下，用缓慢而精准的舌头舔食，直到碟子被舔得锃亮。它用它那虎斑脑袋蹭着你的手，发出震颤的呼噜声，还用鼻子把一瓶中级药水推进了你的口袋。",
+            "ja": "浅い陶製の皿にミルクを注ぐ。ミスター・ヒゲは優雅にしゃがみ込み、皿が輝くまでゆっくりと正確な舐め方で飲み干す。振動するような喉鳴りとともにトラ猫の頭をお前の手に擦りつけ、鼻で中級ポーションをお前のポケットに転がし入れる。"
+        },
+        "next": [
+            "gato_hub_socio"
+        ],
+        "reward": ""
+    },
+    "gato_opt_tirar_mesa_first": {
+        "type": "option",
+        "text": {
+            "es": "🎲  Pagar para que tire un objeto misterioso de la mesa (−10 oro)",
+            "en": "🎲  Pay him to bat a mystery object off the table (−10 gold)",
+            "fr": "🎲  Le payer pour faire tomber un objet mystère de la table (−10 or)",
+            "it": "🎲  Pagarlo per far cadere un oggetto misterioso dal tavolo (−10 oro)",
+            "de": "🎲  Ihn dafür bezahlen, ein mysteriöses Objekt vom Tisch zu stoßen (−10 Gold)",
+            "zh": "🎲  付钱让它把一件神秘物品从桌上打落（-10金币）",
+            "ja": "🎲  謎の物品をテーブルから叩き落とすよう金を払う（-10ゴールド）"
+        },
+        "next": [
+            "gato_msg_tirar_mesa"
+        ],
+        "reward": "gold:-10;item:potion_mid=1;faceta:cordura=+1",
+        "condition": "gold >= 10"
+    },
+    "gato_opt_tirar_mesa_socio": {
+        "type": "option",
+        "text": {
+            "es": "🎲  Contratar el Servicio Balístico Felino: tirar algo al suelo (−10 oro)",
+            "en": "🎲  Hire the Feline Ballistic Service: bat something off the table (−10 gold)",
+            "fr": "🎲  Engager le Service Balistique Félin : faire tomber quelque chose au sol (−10 or)",
+            "it": "🎲  Assumere il Servizio Balistico Felino: far cadere qualcosa a terra (−10 oro)",
+            "de": "🎲  Den Feliner Ballistischen Dienst engagieren: etwas vom Tisch stoßen (−10 Gold)",
+            "zh": "🎲  雇佣猫科弹道服务：把某样东西打到地上（-10金币）",
+            "ja": "🎲  『猫の弾道サービス』を雇う：何かを床に落とす（-10ゴールド）"
+        },
+        "next": [
+            "gato_msg_tirar_mesa"
+        ],
+        "reward": "gold:-10;item:potion_mid=1;faceta:cordura=+1",
+        "condition": "gold >= 10"
+    },
+    "gato_msg_tirar_mesa": {
+        "type": "message",
+        "text": {
+            "es": "Dejas 10 monedas sobre la madera. El Señor Bigotes se levanta despacio, camina hacia el borde del mostrador y clava la mirada en una hilera de frascos y cajas. Te mira fijamente a los ojos sin parpadear. Alza una patita blanca... y con una lentitud dramática y calculada, ¡ZAS! Empuja un frasco al suelo. Te agachas a recogerlo al vuelo: es una Poción Intermedia milagrosamente intacta. El gato parpadea satisfecho con su obra destructiva.",
+            "en": "You place 10 coins on the wood. Mister Whiskers rises slowly, stalks to the edge of the counter, and fixes his gaze on a row of jars and boxes. He looks dead into your eyes without blinking. He raises one white paw... and with dramatic, calculated slowness, SWIPE! He knocks a jar to the ground. You catch it just before it shatters: a miraculously intact Mid Potion. The cat blinks, pleased with his destructive art.",
+            "fr": "Tu laisses 10 pièces sur le bois. Monsieur Moustaches se lève lentement, marche vers le bord du comptoir et fixe son regard sur une rangée de bocaux et de boîtes. Il te regarde droit dans les yeux sans ciller. Il lève une petite patte blanche... et avec une lenteur dramatique et calculée, PAF ! Il pousse un bocal au sol. Tu te penches pour le rattraper au vol : c'est une Potion Intermédiaire miraculeusement intacte. Le chat cligne des yeux, satisfait de son œuvre destructrice.",
+            "it": "Lasci 10 monete sul legno. Il Signor Baffi si alza lentamente, cammina verso il bordo del bancone e fissa lo sguardo su una fila di barattoli e scatole. Ti guarda fisso negli occhi senza sbattere ciglio. Alza una zampina bianca... e con una lentezza drammatica e calcolata, ZAC! Spinge un barattolo a terra. Ti chini a raccoglierlo al volo: è una Pozione Intermedia miracolosamente intatta. Il gatto sbatte le palpebre soddisfatto della sua opera distruttiva.",
+            "de": "Du legst 10 Münzen auf das Holz. Herr Schnurrbart erhebt sich langsam, schleicht zum Rand der Theke und fixiert eine Reihe von Gläsern und Schachteln. Er starrt dir ohne zu blinzeln direkt in die Augen. Er hebt eine weiße Pfote... und mit dramatischer, kalkulierter Langsamkeit, ZACK! Er stößt ein Glas zu Boden. Du beugst dich vor, um es im Flug aufzufangen: eine wundersamerweise unversehrte Mitteltrank. Die Katze blinzelt, zufrieden mit ihrem zerstörerischen Werk.",
+            "zh": "你在木台上留下10枚硬币。胡须先生缓缓站起身，走到柜台边缘，把目光锁定在一排罐子和盒子上。它一眨不眨地直视着你的眼睛。它抬起一只白色的小爪子……以一种戏剧性且精心计算的缓慢……啪！把一个罐子推落地面。你俯身接住了它：一瓶奇迹般完好无损的中级药水。这只猫满意地眨了眨眼，为自己的破坏杰作感到骄傲。",
+            "ja": "木のカウンターに硬貨十枚を置く。ミスター・ヒゲはゆっくりと立ち上がり、カウンターの端まで歩き、瓶や箱の列に視線を固定する。瞬きもせずお前の目を真っすぐに見つめる。白い前足を上げる……そして劇的で計算された遅さで、パシャッ！瓶を床に叩き落とす。落下する瞬間にそれを受け止める——奇跡的に無傷の中級ポーションだ。猫は破壊の芸術に満足げに瞬きをする。"
+        },
+        "next": [
+            "gato_hub_socio"
+        ],
+        "reward": ""
+    },
+    "gato_opt_acariciar_barbilla": {
+        "type": "option",
+        "text": {
+            "es": "🐾  Rascarle bajo la barbilla con suavidad diplomática",
+            "en": "🐾  Scratch under his chin with diplomatic gentleness",
+            "fr": "🐾  Le gratter sous le menton avec une douceur diplomatique",
+            "it": "🐾  Grattargli sotto il mento con dolcezza diplomatica",
+            "de": "🐾  Ihn mit diplomatischer Sanftheit unter dem Kinn kraulen",
+            "zh": "🐾  以外交般的温柔挠挠它的下巴",
+            "ja": "🐾  外交的な優しさで顎の下を掻いてやる"
+        },
+        "next": [
+            "gato_msg_acariciar_barbilla"
+        ],
+        "reward": "faceta:aspecto=+1;gflag:gato_socio;discover:poi_sylphrena_gato_mercader",
+        "condition": "no_gflag(\"gato_socio\")"
+    },
+    "gato_msg_acariciar_barbilla": {
+        "type": "message",
+        "text": {
+            "es": "Le ofreces el dorso de la mano y esperas su consentimiento. El Señor Bigotes olisquea tus nudillos, emite un breve 'prrr' y frota su barbilla contra tus dedos. Al rascarle la zona justa, cierra los ojos en éxtasis puro y se aparta unos centímetros para hacerte hueco sobre la balanza. Quedas oficialmente nombrado 'Socio Comercial Preferente del Imperio Bigotes'. A partir de ahora compartís mostrador, comodidades y beneficios.",
+            "en": "You offer the back of your hand and await his consent. Mister Whiskers sniffs your knuckles, lets out a brief 'prrr', and rubs his chin against your fingers. Finding the exact sweet spot, he shuts his eyes in pure ecstasy and slides over to make room on the scale. You are officially appointed 'Preferred Business Partner of the Whiskers Empire'. From now on, you share counter, perks, and profits.",
+            "fr": "Tu lui offres le dos de ta main et attends son consentement. Monsieur Moustaches renifle tes phalanges, émet un bref « prrr » et frotte son menton contre tes doigts. En grattant exactement là où il le faut, il ferme les yeux dans une extase pure et se décale de quelques centimètres pour te faire une place sur la balance. Tu es officiellement nommé « Associé Commercial Privilégié de l'Empire Moustaches ». Désormais vous partagez comptoir, avantages et bénéfices.",
+            "it": "Gli offri il dorso della mano e attendi il suo consenso. Il Signor Baffi annusa le tue nocche, emette un breve 'prrr' e strofina il mento contro le tue dita. Grattando esattamente nel punto giusto, chiude gli occhi in pura estasi e si sposta di qualche centimetro per farti spazio sulla bilancia. Vieni ufficialmente nominato 'Socio Commerciale Privilegiato dell'Impero Baffi'. D'ora in poi condividete bancone, comodità e profitti.",
+            "de": "Du bietest ihm den Handrücken an und wartest auf seine Zustimmung. Herr Schnurrbart beschnuppert deine Knöchel, stößt ein kurzes „prrr“ aus und reibt sein Kinn an deinen Fingern. Beim Kraulen der genau richtigen Stelle schließt er die Augen in reiner Ekstase und rutscht ein paar Zentimeter zur Seite, um dir Platz auf der Waage zu machen. Du bist offiziell zum „Bevorzugten Geschäftspartner des Schnurrbart-Imperiums“ ernannt. Von nun an teilt ihr Theke, Annehmlichkeiten und Gewinne.",
+            "zh": "你把手背伸给它，等待它的应允。胡须先生嗅了嗅你的指节，发出一声短促的「呼噜」，并用下巴蹭着你的手指。挠到恰到好处的位置时，它闭上眼睛陷入纯粹的狂喜，并挪动几厘米，在秤上给你腾出空间。你正式被任命为「胡须帝国的优先商业合伙人」。从今以后，你们共享柜台、待遇和利润。",
+            "ja": "手の甲を差し出し、彼の同意を待つ。ミスター・ヒゲはお前の指の関節を嗅ぎ、短い「プルル」という声を出し、顎を指に擦りつける。まさにちょうどいい場所を掻いてやると、純粋な恍惚に目を閉じ、数センチずれて天秤の上に場所を空けてくれる。お前は正式に「ヒゲ帝国の優遇ビジネスパートナー」に任命される。これからはカウンター、特典、利益を分け合うことになる。"
+        },
+        "next": [
+            "gato_hub_socio"
+        ],
+        "reward": ""
+    },
+    "gato_opt_acariciar_barriga": {
+        "type": "option",
+        "text": {
+            "es": "⚠️  Acariciar su esponjosa barriguita expuesta (¡Riesgo extremo!)",
+            "en": "⚠️  Rub his fluffy exposed belly (Extreme hazard!)",
+            "fr": "⚠️  Caresser son petit ventre pelucheux exposé (Risque extrême !)",
+            "it": "⚠️  Accarezzare la sua morbida pancina esposta (Rischio estremo!)",
+            "de": "⚠️  Seinen flauschigen entblößten Bauch streicheln (Extremes Risiko!)",
+            "zh": "⚠️  抚摸它露出的毛茸茸的小肚子（极端风险！）",
+            "ja": "⚠️  ふわふわの露わになったお腹を撫でる（極度の危険！）"
+        },
+        "next": [
+            "gato_msg_acariciar_barriga"
+        ],
+        "reward": "damage:1;faceta:valor=+1"
+    },
+    "gato_opt_barriga_socio": {
+        "type": "option",
+        "text": {
+            "es": "⚠️  Poner a prueba la alianza: tocar la barriga prohibida",
+            "en": "⚠️  Test the alliance: touch the forbidden belly",
+            "fr": "⚠️  Mettre lalliance à lépreuve : toucher le ventre interdit",
+            "it": "⚠️  Mettere alla prova l'alleanza: toccare la pancia proibita",
+            "de": "⚠️  Das Bündnis auf die Probe stellen: den verbotenen Bauch berühren",
+            "zh": "⚠️  考验这段联盟：触摸那禁忌的肚子",
+            "ja": "⚠️  同盟を試す：禁断の腹を触る"
+        },
+        "next": [
+            "gato_msg_acariciar_barriga"
+        ],
+        "reward": "damage:1;faceta:valor=+1"
+    },
+    "gato_msg_acariciar_barriga": {
+        "type": "message",
+        "text": {
+            "es": "El Señor Bigotes bosteza y se tumba boca arriba, exponiendo una nube de pelo atigrado que parece pedir caricias a gritos. ¡Grave error! En cuanto tus dedos rozan el pelaje, las cuatro patas con sus garras afiladas se cierran como un cepo de caza sobre tu muñeca. ¡CLAC! Te propina dos mordisquitos y un zarpazo de advertencia que te raspa 1 punto de vida. Retiras la mano escarmentado mientras el gato vuelve a sentarse como si nada hubiera ocurrido. Temerario, pero valiente.",
+            "en": "Mister Whiskers yawns and flops onto his back, exposing a cloud of tabby fur that practically screams for belly rubs. Fatal mistake! The instant your fingers touch the fluff, all four paws snap shut like a bear trap around your wrist. SNAP! He delivers two sharp nibbles and a warning swipe that shaves off 1 HP. You pull your hand back chastened, while the cat calmly sits up as if nothing happened. Foolhardy, but courageous.",
+            "fr": "Monsieur Moustaches bâille et se roule sur le dos, exposant un nuage de poils tigrés qui semble réclamer des caresses à grands cris. Grave erreur ! Dès que tes doigts effleurent le pelage, les quatre pattes aux griffes acérées se referment comme un piège à ours sur ton poignet. CLAC ! Il t'inflige deux petites morsures et un coup de griffe d'avertissement qui t'enlève 1 point de vie. Tu retires ta main, penaud, tandis que le chat se rassoit calmement comme si de rien n'était. Téméraire, mais courageux.",
+            "it": "Il Signor Baffi sbadiglia e si rotola sulla schiena, esponendo una nuvola di pelo tigrato che sembra chiedere carezze a gran voce. Grave errore! Non appena le tue dita sfiorano il pelo, le quattro zampe con gli artigli affilati si chiudono come una tagliola sul tuo polso. CLAC! Ti infligge due morsettini e una zampata d'avvertimento che ti toglie 1 punto vita. Ritiri la mano ammaestrato, mentre il gatto si risiede calmo come se nulla fosse accaduto. Temerario, ma coraggioso.",
+            "de": "Herr Schnurrbart gähnt und rollt sich auf den Rücken, wobei er eine Wolke getigerten Fells zur Schau stellt, die förmlich nach Bauchkraulen schreit. Schwerer Fehler! Sobald deine Finger das Fell berühren, schnappen alle vier Pfoten mit scharfen Krallen wie eine Bärenfalle um dein Handgelenk. KLICK! Er verpasst dir zwei kleine Bisse und einen Warnkratzer, der dir 1 Lebenspunkt kostet. Du ziehst deine Hand zurückgeschreckt zurück, während die Katze sich ruhig wieder hinsetzt, als wäre nichts geschehen. Waghalsig, aber mutig.",
+            "zh": "胡须先生打了个哈欠，翻身仰躺，露出一团虎斑毛，仿佛在大声呼唤着抚摸。严重的错误！你的手指刚一触碰到毛皮，四只带着锋利爪子的爪子便像捕熊夹一样合拢在你的手腕上。喀嚓！它给了你两下小咬和一次警告性的抓挠，削去了你1点生命值。你悔悟地收回手，而这只猫却平静地重新坐好，仿佛什么都没发生过。鲁莽，但也算勇敢。",
+            "ja": "ミスター・ヒゲはあくびをして仰向けに転がり、腹を撫でろと言わんばかりのトラ模様の毛の雲をさらけ出す。致命的な間違いだ！指がふわふわの毛に触れた瞬間、鋭い爪を持つ四本の足が熊罠のように手首を締め付ける。バチン！二回の鋭い噛みつきと警告の一撃を食らい、HPが1減る。懲りた様子で手を引っ込める一方、猫は何事もなかったかのように落ち着いて座り直す。無謀だが、勇敢だ。"
+        },
+        "next": [
+            "gato_hub_socio"
+        ],
+        "reward": ""
+    },
+    "gato_opt_siesta": {
+        "type": "option",
+        "text": {
+            "es": "😴  Echar una siesta terapéutica junto al Señor Bigotes (Descanso total)",
+            "en": "😴  Take a therapeutic nap alongside Mister Whiskers (Full rest)",
+            "fr": "😴  Faire une sieste thérapeutique avec Monsieur Moustaches (Repos complet)",
+            "it": "😴  Fare un pisolino terapeutico insieme al Signor Baffi (Riposo totale)",
+            "de": "😴  Ein therapeutisches Nickerchen mit Herrn Schnurrbart machen (Volle Erholung)",
+            "zh": "😴  和胡须先生一起来场治愈系午睡（完全恢复）",
+            "ja": "😴  ミスター・ヒゲと一緒に治療的な昼寝をする（完全回復）"
+        },
+        "next": [
+            "gato_msg_siesta"
+        ],
+        "reward": "heal:max;faceta:cordura=+1"
+    },
+    "gato_msg_siesta": {
+        "type": "message",
+        "text": {
+            "es": "Acomodas los codos en el mostrador, apoyas la frente en el suave cojín de lana y cierras los ojos. El Señor Bigotes camina parsimoniosamente sobre tu brazo, se enrosca junto a tu cuello como una estola tibia y comienza a ronronear con una cadencia hipnótica. Quince minutos después despiertas con la mente despejada, las heridas completamente curadas y una relajación que ningún santuario sagrado podría igualar.",
+            "en": "You rest your elbows on the counter, lay your forehead on the soft wool cushion, and close your eyes. Mister Whiskers pads deliberately across your arm, curls around your neck like a warm scarf, and begins purring with hypnotic cadence. Fifteen minutes later you awaken with a clear mind, fully healed wounds, and tranquility that no holy sanctuary could ever match.",
+            "fr": "Tu poses les coudes sur le comptoir, appuies ton front sur le doux coussin de laine et fermes les yeux. Monsieur Moustaches marche paisiblement sur ton bras, s'enroule autour de ton cou comme une étole chaude et commence à ronronner d'une cadence hypnotique. Quinze minutes plus tard, tu te réveilles l'esprit clair, les blessures complètement soignées, avec une relaxation qu'aucun sanctuaire sacré ne pourrait égaler.",
+            "it": "Appoggi i gomiti sul bancone, posi la fronte sul morbido cuscino di lana e chiudi gli occhi. Il Signor Baffi cammina con calma sul tuo braccio, si arrotola attorno al tuo collo come una stola calda e inizia a fare le fusa con una cadenza ipnotica. Quindici minuti dopo ti svegli con la mente sgombra, le ferite completamente guarite e un rilassamento che nessun santuario sacro potrebbe eguagliare.",
+            "de": "Du stützt die Ellbogen auf die Theke, legst deine Stirn auf das weiche Wollkissen und schließt die Augen. Herr Schnurrbart läuft gelassen über deinen Arm, rollt sich wie eine warme Stola um deinen Hals und beginnt mit hypnotischem Rhythmus zu schnurren. Fünfzehn Minuten später erwachst du mit klarem Verstand, vollständig geheilten Wunden und einer Entspannung, die kein heiliges Heiligtum jemals erreichen könnte.",
+            "zh": "你把手肘搭在柜台上，把额头靠在柔软的羊毛垫子上，闭上眼睛。胡须先生不慌不忙地走过你的手臂，像一条温暖的披肩一样蜷在你的脖子上，开始以催眠般的节奏打起呼噜。十五分钟后，你醒来时头脑清晰，伤口完全愈合，那种放松感是任何神圣的圣所都无法媲美的。",
+            "ja": "肘をカウンターに置き、額を柔らかな羊毛のクッションに乗せて目を閉じる。ミスター・ヒゲはゆったりとお前の腕を歩き、温かいストールのように首に巻きつき、催眠的なリズムで喉を鳴らし始める。十五分後、澄んだ心、完全に癒えた傷、そしてどんな聖なる聖域も及ばないほどの安らぎとともに目覚める。"
+        },
+        "next": [
+            "gato_hub_socio"
+        ],
+        "reward": ""
+    },
+    "gato_opt_dividendos": {
+        "type": "option",
+        "text": {
+            "es": "🪙  Cobrar los dividendos trimestrales del negocio (+30 oro)",
+            "en": "🪙  Collect quarterly business dividends (+30 gold)",
+            "fr": "🪙  Encaisser les dividendes trimestriels de l'entreprise (+30 or)",
+            "it": "🪙  Riscuotere i dividendi trimestrali dell'attività (+30 oro)",
+            "de": "🪙  Die vierteljährlichen Geschäftsdividenden einziehen (+30 Gold)",
+            "zh": "🪙  领取季度分红（+30金币）",
+            "ja": "🪙  四半期の事業配当を受け取る（+30ゴールド）"
+        },
+        "next": [
+            "gato_msg_dividendos"
+        ],
+        "reward": "gold:30;gflag:gato_dividendos_cobrados;faceta:inteligencia=+1",
+        "condition": "no_gflag(\"gato_dividendos_cobrados\")",
+        "once": true
+    },
+    "gato_msg_dividendos": {
+        "type": "message",
+        "text": {
+            "es": "Miras la caja de recaudación. El Señor Bigotes bosteza desinteresado y aparta la cola de la cerradura con un movimiento majestuoso. Abres la tapa y retiras 30 relucientes monedas de oro como tu parte legítima de los beneficios. El gato te observa de reojo, comprobando que no toques el fondo de emergencia, y vuelve a dormitar satisfecho con la distribución de capital.",
+            "en": "You eye the revenue box. Mister Whiskers yawns disinterestedly and sweeps his tail away from the latch with a regal flick. You flip the lid and withdraw 30 gleaming gold coins as your rightful share of the profits. The cat watches out of the corner of his eye to ensure you don't raid the emergency fund, then resumes napping, content with capital distribution.",
+            "fr": "Tu regardes la caisse de recette. Monsieur Moustaches bâille avec indifférence et écarte la queue de la serrure d'un geste majestueux. Tu ouvres le couvercle et retires 30 pièces d'or brillantes comme ta part légitime des bénéfices. Le chat t'observe du coin de l'œil, s'assurant que tu ne touches pas au fonds d'urgence, puis se rendort satisfait de la répartition du capital.",
+            "it": "Guardi la cassa degli incassi. Il Signor Baffi sbadiglia disinteressato e sposta la coda dalla serratura con un movimento maestoso. Apri il coperchio e prelevi 30 luccicanti monete d'oro come tua legittima parte dei profitti. Il gatto ti osserva con la coda dell'occhio, controllando che tu non tocchi il fondo di emergenza, e torna ad appisolarsi soddisfatto della distribuzione del capitale.",
+            "de": "Du blickst auf die Einnahmenkasse. Herr Schnurrbart gähnt desinteressiert und zieht den Schwanz mit einer majestätischen Bewegung vom Schloss weg. Du öffnest den Deckel und entnimmst 30 glänzende Goldmünzen als deinen rechtmäßigen Anteil an den Gewinnen. Die Katze beobachtet dich aus dem Augenwinkel, um sicherzustellen, dass du nicht an den Notfallfonds gehst, und döst dann zufrieden mit der Kapitalverteilung weiter.",
+            "zh": "你看向那个收款盒。胡须先生毫不在意地打了个哈欠，用一个庄严的动作把尾巴从锁上挪开。你打开盖子，取出30枚闪亮的金币作为你应得的利润分成。这只猫用眼角余光看着你，确认你没有动用应急资金，然后满意地继续打盹，为资本分配感到满意。",
+            "ja": "収入箱を見つめる。ミスター・ヒゲは興味なさそうにあくびをし、堂々とした動きで尻尾を鍵から離す。蓋を開け、正当な利益の分け前として輝く金貨30枚を取り出す。猫は目の端でお前を見張り、緊急資金に手を出していないことを確認すると、資本配分に満足して再びうたた寝を始める。"
+        },
+        "next": [
+            "gato_hub_socio"
+        ],
+        "reward": ""
+    },
+    "gato_opt_auditoria": {
+        "type": "option",
+        "text": {
+            "es": "📜  Revisar el libro de cuentas con el Señor Bigotes",
+            "en": "📜  Review the ledger with Mister Whiskers",
+            "fr": "📜  Revoir le grand livre avec Monsieur Moustaches",
+            "it": "📜  Rivedere il libro contabile con il Signor Baffi",
+            "de": "📜  Das Kontobuch mit Herrn Schnurrbart überprüfen",
+            "zh": "📜  和胡须先生一起核对账本",
+            "ja": "📜  ミスター・ヒゲと帳簿を確認する"
+        },
+        "next": [
+            "gato_msg_auditoria"
+        ],
+        "reward": "faceta:inteligencia=+1;gflag:gato_auditoria_hecha",
+        "condition": "no_gflag(\"gato_auditoria_hecha\")",
+        "once": true
+    },
+    "gato_msg_auditoria": {
+        "type": "message",
+        "text": {
+            "es": "Despliegas un pergamino con cifras de ventas, costes de fruta y márgenes de beneficio. El Señor Bigotes se acerca con paso ceremonioso, huele la tinta fresca, muerde la esquina superior del papel para certificar el documento y se echa a dormir exactamente encima de la columna de gastos. Su dictamen financiero es concluyente: balance perfecto, cero impuestos, prosperidad garantizada.",
+            "en": "You unroll a parchment detailing sales figures, fruit costs, and profit margins. Mister Whiskers steps forward with ceremonial grace, sniffs the wet ink, bites off the upper corner to authenticate the document, and lies down directly over the expense column. His financial audit is conclusive: balanced ledger, zero taxes, guaranteed prosperity.",
+            "fr": "Tu déroules un parchemin avec des chiffres de vente, des coûts de fruits et des marges bénéficiaires. Monsieur Moustaches s'approche d'un pas cérémonieux, sent l'encre fraîche, mord le coin supérieur du papier pour certifier le document et va se coucher exactement sur la colonne des dépenses. Son verdict financier est concluant : bilan parfait, zéro impôt, prospérité garantie.",
+            "it": "Srotoli una pergamena con cifre di vendita, costi della frutta e margini di profitto. Il Signor Baffi si avvicina con passo cerimonioso, annusa l'inchiostro fresco, morde l'angolo superiore della carta per certificare il documento e si sdraia esattamente sopra la colonna delle spese. Il suo verdetto finanziario è conclusivo: bilancio perfetto, zero tasse, prosperità garantita.",
+            "de": "Du entrollst ein Pergament mit Verkaufszahlen, Fruchtkosten und Gewinnspannen. Herr Schnurrbart nähert sich mit zeremoniellem Schritt, riecht an der frischen Tinte, beißt die obere Ecke des Papiers ab, um das Dokument zu beglaubigen, und legt sich genau auf die Ausgabenspalte. Sein finanzielles Urteil ist eindeutig: perfekte Bilanz, null Steuern, garantierter Wohlstand.",
+            "zh": "你展开了一卷写着销售数字、水果成本和利润率的羊皮纸。胡须先生带着仪式般的步伐走近，闻了闻新鲜的墨水，咬掉纸张的上角以认证这份文件，然后正好躺在支出栏上。它的财务鉴定是确凿的：完美的收支平衡，零税收，繁荣有保障。",
+            "ja": "売上高、果物の原価、利益率が記された羊皮紙を広げる。ミスター・ヒゲは儀式めいた足取りで近づき、新鮮なインクの匂いを嗅ぎ、文書を認証するために紙の上端を噛み切り、まさに経費の欄の上に横たわる。彼の財務監査は決定的だ——完璧な帳簿、税金ゼロ、繁栄保証。"
+        },
+        "next": [
+            "gato_hub_socio"
+        ],
+        "reward": ""
+    },
+    "gato_opt_regatear": {
+        "type": "option",
+        "text": {
+            "es": "💰  Intentar regatear señalando una manzana con una mancha",
+            "en": "💰  Try to haggle by pointing at a bruised apple",
+            "fr": "💰  Essayer de marchander en désignant une pomme tachée",
+            "it": "💰  Provare a contrattare indicando una mela ammaccata",
+            "de": "💰  Versuchen zu feilschen, indem man auf einen fleckigen Apfel zeigt",
+            "zh": "💰  指着一个有瑕疵的苹果，试图讨价还价",
+            "ja": "💰  傷のあるリンゴを指して値切ろうとする"
+        },
+        "next": [
+            "gato_msg_regatear"
+        ],
+        "reward": ""
+    },
+    "gato_msg_regatear": {
+        "type": "message",
+        "text": {
+            "es": "Intentas discutir el precio argumentando que las manzanas son de cosecha pasada. El Señor Bigotes no se inmuta: levanta una pata delantera y da dos toquecitos secos sobre el cartel que reza 'NO REGATEAR'. Acto seguido te clava una mirada de desprecio tan aristocrática, gélida y devastadora que te sientes una criatura insignificante. Te disculpas en voz baja ante el felino para salvar lo que queda de tu orgullo.",
+            "en": "You try to negotiate by arguing the apples are yesterday's harvest. Mister Whiskers doesn't flinch: he raises a forepaw and taps twice against the sign reading 'NO HAGGLING'. He then pins you with a stare of aristocratic disdain so frigid and devastating you feel like an insignificant speck. You mutter an apology to the cat just to salvage what remains of your dignity.",
+            "fr": "Tu essaies de discuter le prix en arguant que les pommes sont de la récolte précédente. Monsieur Moustaches ne bronche pas : il lève une patte avant et donne deux petits coups secs sur l'écriteau « PAS DE MARCHANDAGE ». Il te fixe ensuite d'un regard de mépris si aristocratique, si glacial et si dévastateur que tu te sens une créature insignifiante. Tu t'excuses à voix basse auprès du félin pour sauver ce qu'il reste de ta fierté.",
+            "it": "Provi a discutere il prezzo sostenendo che le mele sono del raccolto passato. Il Signor Baffi non si scompone: alza una zampa anteriore e dà due colpetti secchi sul cartello che recita 'NON SI CONTRATTA'. Subito dopo ti conficca uno sguardo di disprezzo così aristocratico, gelido e devastante che ti senti una creatura insignificante. Ti scusi a bassa voce con il felino per salvare quel che resta del tuo orgoglio.",
+            "de": "Du versuchst, über den Preis zu verhandeln, indem du behauptest, die Äpfel seien von der letzten Ernte. Herr Schnurrbart lässt sich nicht beirren: er hebt eine Vorderpfote und klopft zweimal trocken auf das Schild „KEIN FEILSCHEN“. Anschließend fixiert er dich mit einem so aristokratischen, eisigen und vernichtenden Blick der Verachtung, dass du dich wie ein unbedeutendes Wesen fühlst. Du entschuldigst dich leise bei der Katze, um zu retten, was von deinem Stolz übrig ist.",
+            "zh": "你试图以苹果是过季收成为由讨价还价。胡须先生毫不动摇：它抬起一只前爪，在写着「禁止讨价还价」的告示牌上干脆地拍了两下。随后它用一种如此贵族、如此冰冷、如此毁灭性的鄙夷目光钉住了你，让你感觉自己是个微不足道的生物。你低声向这只猫道歉，以挽救所剩无几的自尊。",
+            "ja": "リンゴが去年の収穫だと主張して値段の交渉を試みる。ミスター・ヒゲは動じない——前足を上げて『値切り交渉お断り』の看板を二回乾いた音で叩く。それから、あまりにも貴族的で、冷淡で、壊滅的な軽蔑の視線を突き刺してくるので、自分がちっぽけな存在に感じられる。残った誇りを救うため、猫に小声で謝罪する。"
+        },
+        "next": [
+            "gato_hub_first"
+        ],
+        "reward": "faceta:cordura=+1"
+    },
+    "gato_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Despedirte del Señor Bigotes y seguir tu camino",
+            "en": "🚶  Take your leave of Mister Whiskers and carry on",
+            "fr": "🚶  Dire au revoir à Monsieur Moustaches et poursuivre ton chemin",
+            "it": "🚶  Salutare il Signor Baffi e proseguire il tuo cammino",
+            "de": "🚶  Sich von Herrn Schnurrbart verabschieden und weitergehen",
+            "zh": "🚶  向胡须先生道别，继续赶路",
+            "ja": "🚶  ミスター・ヒゲに別れを告げ、先へ進む"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

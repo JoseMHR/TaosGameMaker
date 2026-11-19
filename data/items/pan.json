@@ -1,0 +1,26 @@
+{
+    "name": {
+        "es": "Pan",
+        "en": "Bread",
+        "fr": "Pain",
+        "it": "Pane",
+        "de": "Brot",
+        "zh": "面包",
+        "ja": "パン"
+    },
+    "desc": {
+        "es": "Una hogaza de pan recién horneada con trigo de la cosecha.",
+        "en": "A loaf of bread freshly baked with harvested wheat.",
+        "fr": "Une miche de pain fraîchement cuite avec du blé de la récolte.",
+        "it": "Una pagnotta di pane appena sfornata con grano del raccolto.",
+        "de": "Ein frisch gebackener Laib Brot aus geerntetem Weizen.",
+        "zh": "用刚收获的小麦烤制的新鲜面包。",
+        "ja": "収穫した小麦で焼きたてのパン。"
+    },
+    "icon": "🍞",
+    "category": "edible",
+    "usable": true,
+    "effects": {
+        "heal_pct": 0.25
+    }
+}

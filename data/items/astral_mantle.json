@@ -1,0 +1,32 @@
+{
+    "name": {
+        "es": "Manto Astral",
+        "en": "Astral Mantle",
+        "fr": "Manteau Astral",
+        "it": "Manto Astrale",
+        "de": "Astralmantel",
+        "zh": "星辉斗篷",
+        "ja": "アストラルマント"
+    },
+    "desc": {
+        "es": "Tejido con hilos de luz estelar, roza lo divino.",
+        "en": "Woven with threads of starlight, bordering on the divine.",
+        "fr": "Tissé avec des fils de lumière stellaire, il frôle le divin.",
+        "it": "Tessuto con fili di luce stellare, sfiora il divino.",
+        "de": "Aus Fäden von Sternenlicht gewoben, grenzt er ans Göttliche.",
+        "zh": "以星光丝线织成，近乎神圣。",
+        "ja": "星明かりの糸で織られ、神聖さすら感じさせる。"
+    },
+    "icon": "👘",
+    "category": "equipment",
+    "usable": false,
+    "slot": "armor",
+    "tier": 5,
+    "bonuses": {
+        "int": 13
+    },
+    "combat": {
+        "mag_defense": 70,
+        "mag_damage": 15
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "id": "poi_nieves_termas",
+    "type": "poi",
+    "icon": "♨️",
+    "name": {
+        "es": "Las Termas Escondidas",
+        "en": "The Hidden Hot Springs",
+        "fr": "Les Sources Chaudes Cachées",
+        "it": "Le Terme Nascoste",
+        "de": "Die Versteckten Thermalquellen",
+        "zh": "隐秘温泉",
+        "ja": "隠された温泉"
+    },
+    "desc": {
+        "es": "Un manantial de agua humeante oculto entre las rocas heladas, un oasis de calor en mitad del hielo. (POI de descanso).",
+        "en": "A steaming spring hidden among the frozen rocks, an oasis of warmth in the heart of the ice. (Rest POI).",
+        "fr": "Une source d'eau fumante cachée parmi les rochers gelés, une oasis de chaleur au cœur de la glace. (POI de repos).",
+        "it": "Una sorgente d'acqua fumante nascosta tra le rocce ghiacciate, un'oasi di calore in mezzo al ghiaccio. (POI di riposo).",
+        "de": "Eine dampfende Quelle, versteckt zwischen den vereisten Felsen, eine Oase der Wärme mitten im Eis. (Rast-POI).",
+        "zh": "隐藏在冰岩之间的一处热气腾腾的泉水，是冰天雪地中的一片温暖绿洲。（休憩类兴趣点）。",
+        "ja": "凍った岩の間に隠された湯気立つ温泉。氷の只中にある温もりのオアシス。（休憩ポイント）。"
+    },
+    "npc": "poi_nieves_termas",
+    "bg": "bg_world_poi_nieve_termas.png",
+    "music": "poi_house_cozy"
+}

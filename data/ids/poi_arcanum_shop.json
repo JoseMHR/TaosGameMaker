@@ -1,0 +1,34 @@
+{
+    "id": "poi_arcanum_shop",
+    "type": "poi",
+    "name": {
+        "es": "Mercado de Arcanum",
+        "en": "Arcanum Market",
+        "fr": "Marché d'Arcanum",
+        "it": "Mercato di Arcanum",
+        "de": "Arcanum-Markt",
+        "zh": "奥秘遗迹市场",
+        "ja": "アルカナム市場"
+    },
+    "icon": "🛒",
+    "desc": {
+        "es": "Puestos de componentes reciclados y armamento experimental",
+        "en": "Stalls of recycled parts and experimental weaponry",
+        "fr": "Étals de pièces recyclées et d'armement expérimental",
+        "it": "Bancarelle di pezzi riciclati e armamento sperimentale",
+        "de": "Stände mit recycelten Teilen und experimentellen Waffen",
+        "zh": "出售回收零件与实验性武器的摊位",
+        "ja": "リサイクル部品と実験兵器の露店"
+    },
+    "kind": "shop",
+    "npc": "shopkeeper_arcanum",
+    "stock": "arcanum",
+    "presences": [
+        {
+            "condition": "default",
+            "actor": "shopkeeper_arcanum",
+            "entry_node": ""
+        }
+    ],
+    "bg": "bg_city_arcanum_shop.png"
+}

@@ -1,0 +1,25 @@
+{
+    "id": "poi_gloriam_board",
+    "type": "poi",
+    "icon": "📋",
+    "name": {
+        "es": "Tablón de la Caravana",
+        "en": "Caravan Board",
+        "fr": "Tableau de la Caravane",
+        "it": "Bacheca della Carovana",
+        "de": "Karawanenbrett",
+        "zh": "商队布告栏",
+        "ja": "キャラバン掲示板"
+    },
+    "desc": {
+        "es": "Encargos y contratos del gremio de mercaderes de Gloriam",
+        "en": "Quests and bounties from Gloriam merchant guild",
+        "fr": "Commandes et contrats de la guilde des marchands de Gloriam",
+        "it": "Incarichi e contratti della gilda dei mercanti di Gloriam",
+        "de": "Aufträge und Verträge der Händlergilde von Gloriam",
+        "zh": "格洛里亚姆商会的任务与契约",
+        "ja": "グロリアム商人ギルドの依頼と契約"
+    },
+    "kind": "board",
+    "bg": "bg_city_gloriam_board.png"
+}

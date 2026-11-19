@@ -1,0 +1,168 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Pescador sin Agua",
+            "en": "The Waterless Fisherman",
+            "fr": "Le Pêcheur sans Eau",
+            "it": "Il Pescatore senza Acqua",
+            "de": "Der Wasserlose Fischer",
+            "zh": "无水渔夫",
+            "ja": "水のない漁師"
+        },
+        "next": [],
+        "reward": "avatar=🎣;bg=0.09,0.08,0.06"
+    },
+    "pes_done": {
+        "type": "message",
+        "text": {
+            "es": "El viejo sigue allí, la caña tendida sobre el polvo. Al verte, sin girarse, murmura: 'El agua vuelve, muchacho. La escucho bajo las piedras. Tú también la escucharás.' Y algo en tu pecho, que no sabes nombrar, le cree.",
+            "en": "The old man is still there, his rod cast out over the dust. Seeing you, without turning, he murmurs: 'The water is coming back, lad. I hear it beneath the stones. You'll hear it too.' And something in your chest you can't name believes him.",
+            "fr": "Le vieil homme est toujours là, sa canne tendue au-dessus de la poussière. En te voyant, sans se retourner, il murmure : « L'eau revient, mon garçon. Je l'entends sous les pierres. Toi aussi tu l'entendras. » Et quelque chose dans ta poitrine, que tu ne sais pas nommer, le croit.",
+            "it": "Il vecchio è ancora lì, la canna tesa sopra la polvere. Vedendoti, senza girarsi, mormora: 'L'acqua sta tornando, ragazzo. La sento sotto le pietre. La sentirai anche tu.' E qualcosa nel tuo petto, che non sai nominare, gli crede.",
+            "de": "Der alte Mann ist immer noch da, die Angel über den Staub gespannt. Als er dich sieht, murmelt er, ohne sich umzudrehen: „Das Wasser kommt zurück, Junge. Ich höre es unter den Steinen. Du wirst es auch hören.“ Und etwas in deiner Brust, das du nicht benennen kannst, glaubt ihm.",
+            "zh": "老人依然在那里，钓竿伸在尘土之上。看到你时，他没有转身，喃喃道：「水会回来的，孩子。我能听见它在石头下面。你也会听到的。」你胸中某种说不出名字的东西相信了他。",
+            "ja": "老人はまだそこにいる、竿を埃の上に伸ばしたまま。お前を見て、振り向かずに呟く。「水は戻ってくるさ、坊や。石の下でその音が聞こえる。お前にも聞こえるようになる」名付けようのない何かが胸の中で彼を信じている。"
+        },
+        "next": [
+            "pes_opt_salir"
+        ],
+        "reward": "",
+        "condition": "gflag(\"pes_animado\")"
+    },
+    "pes_root": {
+        "type": "message",
+        "text": {
+            "es": "En mitad del lecho agrietado de un lago muerto, un anciano está sentado en un taburete plegable con una caña de pescar. El anzuelo cuelga sobre tierra reseca que no ha visto agua en años. A su lado, un cubo vacío y una silla plegada, como si esperase compañía. 'Chsss', te dice sin mirarte. 'Los vas a espantar.'",
+            "en": "In the middle of a dead lake's cracked bed, an old man sits on a folding stool with a fishing rod. The hook dangles over parched earth that hasn't seen water in years. Beside him, an empty bucket and a folded chair, as if awaiting company. 'Shhh,' he says without looking at you. 'You'll scare them off.'",
+            "fr": "Au milieu du lit craquelé d'un lac mort, un vieil homme est assis sur un tabouret pliant avec une canne à pêche. L'hameçon pend au-dessus de la terre desséchée qui n'a pas vu d'eau depuis des années. À côté de lui, un seau vide et une chaise pliée, comme s'il attendait de la compagnie. « Chut », te dit-il sans te regarder. « Tu vas les effrayer. »",
+            "it": "In mezzo al letto screpolato di un lago morto, un vecchio è seduto su uno sgabello pieghevole con una canna da pesca. L'amo pende sopra terra riarsa che non vede acqua da anni. Accanto a lui, un secchio vuoto e una sedia piegata, come se aspettasse compagnia. 'Sssh', ti dice senza guardarti. 'Li spaventerai.'",
+            "de": "Mitten im rissigen Bett eines toten Sees sitzt ein alter Mann auf einem Klapphocker mit einer Angelrute. Der Haken baumelt über ausgedörrter Erde, die seit Jahren kein Wasser gesehen hat. Neben ihm ein leerer Eimer und ein zusammengeklappter Stuhl, als würde er auf Gesellschaft warten. „Pssst“, sagt er, ohne dich anzusehen. „Du wirst sie verschrecken.“",
+            "zh": "在一片枯死湖泊的龟裂湖床中央，一位老人坐在折叠凳上，手持一根钓竿。鱼钩悬在那片多年未见水的干裂土地上方。他身旁放着一个空水桶和一把折叠椅，仿佛在等待陪伴。「嘘，」他没有看你，说道，「你会把它们吓跑的。」",
+            "ja": "干上がった湖の割れた湖底の真ん中で、老人が折り畳み椅子に座り、釣竿を構えている。針は何年も水を見ていない乾いた土の上にぶら下がっている。傍らには空のバケツと畳まれた椅子。まるで連れを待っているかのようだ。「シーッ」お前を見ずに彼は言う。「魚が逃げるだろう」"
+        },
+        "next": [
+            "pes_opt_preguntar",
+            "pes_opt_animar",
+            "pes_opt_burla",
+            "pes_opt_salir"
+        ],
+        "reward": ""
+    },
+    "pes_opt_preguntar": {
+        "type": "option",
+        "text": {
+            "es": "🐟  ¿Qué esperas pescar aquí, abuelo?",
+            "en": "🐟  What are you hoping to catch here, old man?",
+            "fr": "🐟  Qu'espères-tu pêcher ici, grand-père ?",
+            "it": "🐟  Cosa speri di pescare qui, nonno?",
+            "de": "🐟  Was hoffst du hier zu fangen, Alter?",
+            "zh": "🐟  爷爷，你在这儿想钓到什么呢？",
+            "ja": "🐟  じいさん……ここで何を釣るつもりだ？"
+        },
+        "next": [
+            "pes_msg_preguntar"
+        ],
+        "reward": ""
+    },
+    "pes_msg_preguntar": {
+        "type": "message",
+        "text": {
+            "es": "'¿Pescar? Bah. Aquí no queda ni un renacuajo.' Da unos golpecitos al taburete vacío de al lado. 'Pesco costumbre. Mi hija se sentaba ahí, en esa silla, cada tarde. Ahora la silla pesca conmigo.' Se le quiebra un poco la voz, pero sonríe. 'Cuando reabráis la presa, el agua volverá. Y cuando el agua vuelve, vuelve todo lo demás. Ya lo verás.'",
+            "en": "'Catch? Bah. There's not a single tadpole left here.' He taps the empty stool beside him. 'I fish for habit. My daughter used to sit there, in that chair, every evening. Now the chair fishes with me.' His voice cracks a little, but he smiles. 'When you reopen the dam, the water will return. And when the water comes back, everything else comes with it. You'll see.'",
+            "fr": "« Pêcher ? Bah. Il ne reste pas un seul têtard ici. » Il tapote le tabouret vide à côté. « Je pêche l'habitude. Ma fille s'asseyait là, sur cette chaise, tous les soirs. Maintenant la chaise pêche avec moi. » Sa voix se brise un peu, mais il sourit. « Quand vous rouvrirez le barrage, l'eau reviendra. Et quand l'eau revient, tout le reste revient aussi. Tu verras. »",
+            "it": "'Pescare? Bah. Non è rimasto nemmeno un girino qui.' Dà dei colpetti allo sgabello vuoto accanto a sé. 'Pesco l'abitudine. Mia figlia sedeva lì, su quella sedia, ogni sera. Ora la sedia pesca con me.' La voce gli si spezza un po', ma sorride. 'Quando riaprirete la diga, l'acqua tornerà. E quando l'acqua torna, torna tutto il resto. Vedrai.'",
+            "de": "„Fangen? Bah. Hier ist nicht mal mehr eine Kaulquappe übrig.“ Er klopft auf den leeren Hocker neben sich. „Ich angle Gewohnheit. Meine Tochter saß dort, auf diesem Stuhl, jeden Abend. Jetzt angelt der Stuhl mit mir.“ Seine Stimme bricht ein wenig, aber er lächelt. „Wenn ihr den Damm wieder öffnet, kommt das Wasser zurück. Und wenn das Wasser zurückkommt, kommt alles andere mit. Du wirst sehen.“",
+            "zh": "「钓？呵。这里连一只蝌蚪都不剩了。」他轻拍着身边那把空凳子。「我钓的是习惯。我女儿以前每天傍晚都坐在那里，坐在那把椅子上。现在那把椅子替我陪着钓鱼。」他的声音有些哽咽，但他笑了。「等你们重新打开水坝，水就会回来。水一旦回来，其他一切也会跟着回来。你会看到的。」",
+            "ja": "「釣る？ふん、ここにはオタマジャクシ一匹残っちゃいない」隣の空の椅子を軽く叩く。「習慣を釣っているのさ。娘は毎晩あそこ、その椅子に座っていた。今はその椅子が俺と一緒に釣りをしている」少し声を震わせながらも微笑む。「お前たちがダムを開ければ、水は戻ってくる。水が戻れば、他のすべても戻ってくるものさ。いずれ分かる」"
+        },
+        "next": [
+            "pes_root"
+        ],
+        "reward": ""
+    },
+    "pes_opt_animar": {
+        "type": "option",
+        "text": {
+            "es": "🤝  Sentarte un rato en la silla vacía y hacerle compañía",
+            "en": "🤝  Sit a while in the empty chair and keep him company",
+            "fr": "🤝  T'asseoir un moment sur la chaise vide pour lui tenir compagnie",
+            "it": "🤝  Sederti un po' sulla sedia vuota per fargli compagnia",
+            "de": "🤝  Dich eine Weile auf den leeren Stuhl setzen, um ihm Gesellschaft zu leisten",
+            "zh": "🤝  在空椅子上坐一会儿，陪陪他",
+            "ja": "🤝  空いた椅子にしばらく座って彼に付き合う"
+        },
+        "next": [
+            "pes_msg_animar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "pes_msg_animar": {
+        "type": "message",
+        "text": {
+            "es": "Despliegas la silla y te sientas a su lado, caña imaginaria en mano. Pasáis un rato en silencio mirando la tierra seca como si fuera un mar en calma. El viejo no dice nada, pero cuando te levantas te aprieta el hombro con una mano nudosa. 'Gracias por no reírte', dice. 'Hacía mucho que alguien no se sentaba ahí.' Te vas con el pecho más ligero.",
+            "en": "You unfold the chair and sit beside him, an imaginary rod in hand. You spend a while in silence, staring at the dry earth as if it were a calm sea. The old man says nothing, but when you rise he squeezes your shoulder with a gnarled hand. 'Thank you for not laughing,' he says. 'It's been a long time since anyone sat there.' You leave with a lighter chest.",
+            "fr": "Tu déplies la chaise et t'assois à côté de lui, une canne imaginaire à la main. Vous passez un moment en silence à regarder la terre sèche comme si c'était une mer calme. Le vieil homme ne dit rien, mais quand tu te lèves, il te serre l'épaule d'une main noueuse. « Merci de ne pas rire », dit-il. « Ça faisait longtemps que personne ne s'était assis là. » Tu pars la poitrine plus légère.",
+            "it": "Apri la sedia e ti siedi accanto a lui, con una canna immaginaria in mano. Passate un po' di tempo in silenzio guardando la terra secca come se fosse un mare calmo. Il vecchio non dice nulla, ma quando ti alzi ti stringe la spalla con una mano nodosa. 'Grazie per non aver riso', dice. 'Era da tanto che nessuno si sedeva lì.' Te ne vai con il petto più leggero.",
+            "de": "Du klappst den Stuhl auf und setzt dich neben ihn, eine imaginäre Angel in der Hand. Ihr verbringt eine Weile schweigend damit, die trockene Erde anzustarren, als wäre sie ein ruhiges Meer. Der alte Mann sagt nichts, aber als du dich erhebst, drückt er deine Schulter mit einer knorrigen Hand. „Danke, dass du nicht gelacht hast“, sagt er. „Es ist lange her, dass jemand dort gesessen hat.“ Du gehst mit leichterer Brust.",
+            "zh": "你打开椅子，坐在他身旁，手里握着一根想象中的钓竿。你们静静地待了一会儿，凝视着那片干燥的土地，仿佛它是一片平静的海洋。老人什么都没说，但当你起身时，他用一只布满老茧的手握了握你的肩膀。「谢谢你没有笑我，」他说，「已经很久没人坐在那儿了。」你带着轻松了许多的心情离开了。",
+            "ja": "椅子を広げ、想像上の釣竿を手に彼の隣に座る。乾いた大地を穏やかな海であるかのように見つめながら、しばらく沈黙のうちに過ごす。老人は何も言わないが、お前が立ち上がると節くれ立った手で肩を握る。「笑わないでくれてありがとう」と彼は言う。「長い間、誰もそこに座らなかったんだ」胸が軽くなって立ち去る。"
+        },
+        "next": [
+            "pes_opt_salir"
+        ],
+        "reward": "faceta:bondad=+1;gflag:pes_animado",
+        "condition": "no_gflag(\"pes_animado\")",
+        "once": true
+    },
+    "pes_opt_burla": {
+        "type": "option",
+        "text": {
+            "es": "😏  Aquí no hay agua, viejo. Estás perdiendo el tiempo.",
+            "en": "😏  Theres no water here, old man. Youre wasting your time.",
+            "fr": "😏  Il n'y a pas d'eau ici, vieil homme. Tu perds ton temps.",
+            "it": "😏  Qui non c'è acqua, vecchio. Stai perdendo tempo.",
+            "de": "😏  Hier gibt es kein Wasser, Alter. Du verschwendest deine Zeit.",
+            "zh": "😏  这里没有水，老头。你在浪费时间。",
+            "ja": "😏  ここに水はないぞ、じいさん。時間の無駄だ"
+        },
+        "next": [
+            "pes_msg_burla"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "pes_msg_burla": {
+        "type": "message",
+        "text": {
+            "es": "El anciano por fin se gira y te clava una mirada más afilada de lo que esperabas. 'Todos perdemos el tiempo en algo, muchacho. Yo espero agua. ¿Tú qué esperas, ahí de pie sin recordar ni tu nombre?' Vuelve a su caña. El golpe ha dado justo donde no tienes memoria, y duele más de lo razonable.",
+            "en": "The old man finally turns and fixes you with a stare sharper than you expected. 'We all waste our time on something, lad. I wait for water. What do you wait for, standing there without even remembering your own name?' He returns to his rod. The jab lands right where you have no memory, and it stings more than it reasonably should.",
+            "fr": "Le vieil homme se retourne enfin et te fixe d'un regard plus perçant que tu ne t'y attendais. « Nous perdons tous notre temps sur quelque chose, mon garçon. Moi, j'attends de l'eau. Toi, qu'attends-tu, debout là sans même te souvenir de ton propre nom ? » Il retourne à sa canne. Le coup a frappé exactement là où tu n'as pas de mémoire, et ça fait plus mal que raisonnable.",
+            "it": "Il vecchio finalmente si gira e ti punta uno sguardo più tagliente di quanto ti aspettassi. 'Tutti perdiamo tempo in qualcosa, ragazzo. Io aspetto l'acqua. Tu cosa aspetti, lì in piedi senza ricordare nemmeno il tuo nome?' Torna alla sua canna. Il colpo è arrivato proprio dove non hai memoria, e fa male più del ragionevole.",
+            "de": "Der alte Mann dreht sich endlich um und fixiert dich mit einem schärferen Blick, als du erwartet hättest. „Wir alle verschwenden unsere Zeit mit etwas, Junge. Ich warte auf Wasser. Worauf wartest du, dort stehend, ohne dich auch nur an deinen eigenen Namen zu erinnern?“ Er kehrt zu seiner Angel zurück. Der Stich trifft genau dort, wo du keine Erinnerung hast, und schmerzt mehr, als es sollte.",
+            "zh": "老人终于转过身来，用一种比你预想更锐利的目光盯着你。「我们都在为某些事情浪费时间，孩子。我在等水。你呢，站在那儿，连自己的名字都记不起，你在等什么？」他重新转向他的钓竿。这一击正好击中了你毫无记忆的那个地方，痛得远超合理程度。",
+            "ja": "老人はついに振り向き、予想よりも鋭い視線でお前を見据える。「誰もが何かに時間を無駄にしているものだ、坊や。俺は水を待っている。お前は何を待っているんだ、自分の名前すら思い出せずにそこに突っ立って？」彼は再び釣竿に向き直る。その一撃はまさにお前の記憶の欠落した場所を突き刺し、理不尽なほど痛む。"
+        },
+        "next": [
+            "pes_opt_salir"
+        ],
+        "reward": "faceta:cordura=-1"
+    },
+    "pes_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Dejarle con su pesca imposible",
+            "en": "🚶  Leave him to his impossible fishing",
+            "fr": "🚶  Le laisser à sa pêche impossible",
+            "it": "🚶  Lasciarlo alla sua pesca impossibile",
+            "de": "🚶  Ihn seinem unmöglichen Angeln überlassen",
+            "zh": "🚶  留他继续那不可能的垂钓",
+            "ja": "🚶  彼をあり得ない釣りに残して去る"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

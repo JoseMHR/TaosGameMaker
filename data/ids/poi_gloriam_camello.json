@@ -1,0 +1,26 @@
+{
+    "id": "poi_gloriam_camello",
+    "type": "poi",
+    "icon": "🐫",
+    "name": {
+        "es": "El Camello Quejica",
+        "en": "The Grumpy Camel",
+        "fr": "Le Chameau Grincheux",
+        "it": "Il Cammello Lamentoso",
+        "de": "Das Griesgrämige Kamel",
+        "zh": "爱抱怨的骆驼",
+        "ja": "文句たらたらのラクダ"
+    },
+    "desc": {
+        "es": "Un camello abandonado y profundamente ofendido por la vida, que escupe a todo el que no le cae bien. (PNJ singular).",
+        "en": "An abandoned camel, deeply offended by life, that spits at anyone it dislikes. (Singular NPC).",
+        "fr": "Un chameau abandonné et profondément offensé par la vie, qui crache sur tous ceux qu'il n'aime pas. (PNJ singulier).",
+        "it": "Un cammello abbandonato e profondamente offeso dalla vita, che sputa a chiunque non gli piaccia. (PNG singolare).",
+        "de": "Ein verlassenes Kamel, zutiefst gekränkt vom Leben, das jeden anspuckt, den es nicht mag. (Einzigartiger NPC).",
+        "zh": "一只被遗弃、对生活深感不满的骆驼，会朝任何它不喜欢的人吐口水。（唯一NPC）。",
+        "ja": "見捨てられ、人生に深く憤慨しているラクダ。気に入らない相手には唾を吐きかける。（唯一のNPC）。"
+    },
+    "npc": "poi_gloriam_camello",
+    "bg": "bg_world_poi_gloriam_camello.png",
+    "music": "poi_comic"
+}

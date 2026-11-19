@@ -1,0 +1,47 @@
+{
+    "name": {
+        "es": "Hoja Llameante",
+        "en": "Flame Blade",
+        "fr": "Lame Ardente",
+        "it": "Lama Fiammeggiante",
+        "de": "Flammenklinge",
+        "zh": "烈焰之刃",
+        "ja": "フレイムブレード"
+    },
+    "desc": {
+        "es": "Espada de fusión térmica construida con tecnología hiperavanzada de Arcanum.",
+        "en": "Thermal fusion sword built with hyper-advanced Arcanum technology.",
+        "fr": "Épée à fusion thermique construite avec la technologie hyper-avancée d'Arcanum.",
+        "it": "Spada a fusione termica costruita con tecnologia iperavanzata di Arcanum.",
+        "de": "Thermofusionsschwert, gebaut mit hyperfortschrittlicher Arcanum-Technologie.",
+        "zh": "以奥秘遗迹超先进科技打造的热熔合金剑。",
+        "ja": "アルカナムの超先端技術で作られた熱核融合剣。"
+    },
+    "icon": "🗡️",
+    "category": "equipment",
+    "usable": false,
+    "slot": "weapon",
+    "tier": 6,
+    "element": "fire",
+    "bonuses": {
+        "str": 24,
+        "vit": 12
+    },
+    "combat": {
+        "phys_damage": 240
+    },
+    "traits": [
+        {
+            "type": "element_attack",
+            "element": "fire",
+            "min_refine": 0,
+            "desc": "Ataques de fusión imbuidos en Fuego"
+        },
+        {
+            "type": "crit_damage",
+            "value": 0.25,
+            "min_refine": 5,
+            "desc": "+25% Daño Crítico"
+        }
+    ]
+}

@@ -1,0 +1,1490 @@
+{
+  "gritar_furioso": {
+    "name": {
+      "es": "Gritar Furioso",
+      "en": "Furious Roar",
+      "fr": "Cri Furieux",
+      "it": "Grido Furioso",
+      "de": "Wutschrei",
+      "zh": "怒吼",
+      "ja": "激怒の叫び"
+    },
+    "role": "buff",
+    "power_mult": 1.0,
+    "type": "physical",
+    "element": "physical",
+    "self_status": {
+      "type": "berserk",
+      "turns": 2,
+      "power": 0
+    }
+  },
+  "ataque_mortal": {
+    "name": {
+      "es": "Ataque Mortal",
+      "en": "Death Strike",
+      "fr": "Frappe Mortelle",
+      "it": "Colpo Mortale",
+      "de": "Todesstoß",
+      "zh": "死亡一击",
+      "ja": "死の一撃"
+    },
+    "role": "attack",
+    "power_mult": 1.0,
+    "type": "physical",
+    "element": "physical",
+    "unstoppable": true
+  },
+  "strike": {
+    "name": {
+      "es": "Golpe",
+      "en": "Strike",
+      "fr": "Frappe",
+      "it": "Colpo",
+      "de": "Schlag",
+      "zh": "打击",
+      "ja": "打撃"
+    },
+    "role": "attack",
+    "power_mult": 1.0,
+    "type": "physical",
+    "element": "physical"
+  },
+  "heavy_strike": {
+    "name": {
+      "es": "Golpe Pesado",
+      "en": "Heavy Strike",
+      "fr": "Frappe Lourde",
+      "it": "Colpo Pesante",
+      "de": "Schwerer Schlag",
+      "zh": "重击",
+      "ja": "重い一撃"
+    },
+    "role": "attack",
+    "power_mult": 1.4,
+    "type": "physical",
+    "element": "physical"
+  },
+  "crushing_blow": {
+    "name": {
+      "es": "Golpe Demoledor",
+      "en": "Crushing Blow",
+      "fr": "Coup Dévastateur",
+      "it": "Colpo Devastante",
+      "de": "Zermalmender Schlag",
+      "zh": "碎骨一击",
+      "ja": "破壊の打撃"
+    },
+    "role": "attack",
+    "power_mult": 1.8,
+    "type": "physical",
+    "element": "physical",
+    "status": {
+      "type": "stun",
+      "chance": 0.35,
+      "turns": 1,
+      "power": 0
+    }
+  },
+  "cleave": {
+    "name": {
+      "es": "Tajo Hendidor",
+      "en": "Cleaving Slash",
+      "fr": "Taille Fendante",
+      "it": "Fendente",
+      "de": "Spaltender Hieb",
+      "zh": "开裂斩击",
+      "ja": "切り裂く斬撃"
+    },
+    "role": "attack",
+    "power_mult": 1.4,
+    "type": "physical",
+    "element": "physical"
+  },
+  "claw": {
+    "name": {
+      "es": "Zarpazo",
+      "en": "Claw",
+      "fr": "Coup de Griffe",
+      "it": "Colpo di Zampa",
+      "de": "Kralle",
+      "zh": "爪击",
+      "ja": "爪撃"
+    },
+    "role": "attack",
+    "power_mult": 0.95,
+    "type": "physical",
+    "element": "physical"
+  },
+  "bite": {
+    "name": {
+      "es": "Mordisco",
+      "en": "Bite",
+      "fr": "Morsure",
+      "it": "Morso",
+      "de": "Biss",
+      "zh": "咬击",
+      "ja": "一噛み"
+    },
+    "role": "attack",
+    "power_mult": 1.1,
+    "type": "physical",
+    "element": "physical"
+  },
+  "tackle": {
+    "name": {
+      "es": "Placaje",
+      "en": "Tackle",
+      "fr": "Plaquage",
+      "it": "Placcaggio",
+      "de": "Rammstoß",
+      "zh": "冲撞",
+      "ja": "体当たり"
+    },
+    "role": "attack",
+    "power_mult": 1.2,
+    "type": "physical",
+    "element": "physical"
+  },
+  "rend": {
+    "name": {
+      "es": "Desgarrar",
+      "en": "Rend",
+      "fr": "Déchirure",
+      "it": "Squarcio",
+      "de": "Zerreißen",
+      "zh": "撕裂",
+      "ja": "引き裂く"
+    },
+    "role": "attack",
+    "power_mult": 1.25,
+    "type": "physical",
+    "element": "physical",
+    "status": {
+      "type": "bleed",
+      "chance": 0.6,
+      "turns": 3,
+      "power": 10
+    }
+  },
+  "quick_shot": {
+    "name": {
+      "es": "Tiro Rápido",
+      "en": "Quick Shot",
+      "fr": "Tir Rapide",
+      "it": "Tiro Rapido",
+      "de": "Schnellschuss",
+      "zh": "快射",
+      "ja": "クイックショット"
+    },
+    "role": "attack",
+    "power_mult": 1.15,
+    "type": "ranged",
+    "element": "physical"
+  },
+  "poison_arrow": {
+    "name": {
+      "es": "Flecha Venenosa",
+      "en": "Poison Arrow",
+      "fr": "Flèche Empoisonnée",
+      "it": "Freccia Velenosa",
+      "de": "Giftpfeil",
+      "zh": "毒箭",
+      "ja": "毒矢"
+    },
+    "role": "attack",
+    "power_mult": 1.2,
+    "type": "ranged",
+    "element": "poison",
+    "status": {
+      "type": "poison",
+      "chance": 0.7,
+      "turns": 3,
+      "power": 12
+    }
+  },
+  "dive_attack": {
+    "name": {
+      "es": "Ataque en Picado",
+      "en": "Dive Attack",
+      "fr": "Attaque en Piqué",
+      "it": "Attacco in Picchiata",
+      "de": "Sturzangriff",
+      "zh": "俯冲攻击",
+      "ja": "急降下攻撃"
+    },
+    "role": "attack",
+    "power_mult": 1.5,
+    "type": "physical",
+    "element": "wind"
+  },
+  "wing_gale": {
+    "name": {
+      "es": "Vendaval Alar",
+      "en": "Wing Gale",
+      "fr": "Bourrasque Ailée",
+      "it": "Raffica Alata",
+      "de": "Flügelsturm",
+      "zh": "翼风暴",
+      "ja": "風翼の疾風"
+    },
+    "role": "attack",
+    "power_mult": 1.3,
+    "type": "magic",
+    "element": "wind"
+  },
+  "feather_storm": {
+    "name": {
+      "es": "Tormenta de Plumas",
+      "en": "Feather Storm",
+      "fr": "Tempête de Plumes",
+      "it": "Tempesta di Piume",
+      "de": "Federsturm",
+      "zh": "羽毛风暴",
+      "ja": "羽の嵐"
+    },
+    "role": "attack",
+    "power_mult": 1.6,
+    "type": "ranged",
+    "element": "wind"
+  },
+  "anchor_smash": {
+    "name": {
+      "es": "Golpe de Ancla",
+      "en": "Anchor Smash",
+      "fr": "Coup d'Ancre",
+      "it": "Schianto d'Ancora",
+      "de": "Ankerschlag",
+      "zh": "锚链重击",
+      "ja": "いかりの一撃"
+    },
+    "role": "attack",
+    "power_mult": 1.8,
+    "type": "physical",
+    "element": "physical",
+    "status": {
+      "type": "stun",
+      "chance": 0.4,
+      "turns": 1,
+      "power": 0
+    }
+  },
+  "bone_slash": {
+    "name": {
+      "es": "Tajo Óseo",
+      "en": "Bone Slash",
+      "fr": "Taille d'Os",
+      "it": "Fendente d'Osso",
+      "de": "Knochenhieb",
+      "zh": "白骨斩击",
+      "ja": "骨の斬撃"
+    },
+    "role": "attack",
+    "power_mult": 1.3,
+    "type": "physical",
+    "element": "physical"
+  },
+  "death_strike": {
+    "name": {
+      "es": "Golpe Letal",
+      "en": "Death Strike"
+    },
+    "role": "attack",
+    "power_mult": 1.7,
+    "type": "physical",
+    "element": "dark"
+  },
+  "stone_fist": {
+    "name": {
+      "es": "Puño de Piedra",
+      "en": "Stone Fist",
+      "fr": "Poing de Pierre",
+      "it": "Pugno di Pietra",
+      "de": "Steinfaust",
+      "zh": "石拳",
+      "ja": "石の拳"
+    },
+    "role": "attack",
+    "power_mult": 1.7,
+    "type": "physical",
+    "element": "earth"
+  },
+  "tail_whip": {
+    "name": {
+      "es": "Coletazo Sísmico",
+      "en": "Seismic Tail Whip",
+      "fr": "Coup de Queue Sismique",
+      "it": "Colpo di Coda Sismico",
+      "de": "Seismischer Schwanzhieb",
+      "zh": "地震尾扫",
+      "ja": "地震の尾なぎ"
+    },
+    "role": "attack",
+    "power_mult": 1.6,
+    "type": "physical",
+    "element": "earth"
+  },
+  "dune_swallow": {
+    "name": {
+      "es": "Fauces de la Duna",
+      "en": "Dune Swallow",
+      "fr": "Mâchoires des Dunes",
+      "it": "Fauci della Duna",
+      "de": "Kiefer der Düne",
+      "zh": "沙丘吞噬",
+      "ja": "沙丘の顎"
+    },
+    "role": "attack",
+    "power_mult": 2.0,
+    "type": "physical",
+    "element": "earth"
+  },
+  "predator_pounce": {
+    "name": {
+      "es": "Abalanzada Voraz",
+      "en": "Predator Pounce",
+      "fr": "Bond du Prédateur",
+      "it": "Assalto del Predatore",
+      "de": "Raubtiersprung",
+      "zh": "猛襲",
+      "ja": "捕食者の飛びかかり"
+    },
+    "role": "attack",
+    "power_mult": 2.2,
+    "type": "physical",
+    "element": "physical"
+  },
+  "cataclysm_stomp": {
+    "name": {
+      "es": "Pisada Cataclísmica",
+      "en": "Cataclysm Stomp",
+      "fr": "Piétinement Cataclysmique",
+      "it": "Calpestio Cataclismico",
+      "de": "Kataklysmischer Tritt",
+      "zh": "毁灭踩踏",
+      "ja": "大災害の踏みつけ"
+    },
+    "role": "attack",
+    "power_mult": 2.2,
+    "type": "physical",
+    "element": "earth",
+    "status": {
+      "type": "stun",
+      "chance": 0.5,
+      "turns": 1,
+      "power": 0
+    }
+  },
+  "celestial_blade": {
+    "name": {
+      "es": "Hoja Celestial",
+      "en": "Celestial Blade",
+      "fr": "Lame Céleste",
+      "it": "Lama Celeste",
+      "de": "Himmlische Klinge",
+      "zh": "天使刃",
+      "ja": "天使の刃"
+    },
+    "role": "attack",
+    "power_mult": 2.0,
+    "type": "physical",
+    "element": "holy"
+  },
+  "frost_bite": {
+    "name": {
+      "es": "Mordisco Helado",
+      "en": "Frost Bite",
+      "fr": "Morsure de Givre",
+      "it": "Morso Gelido",
+      "de": "Frostbiss",
+      "zh": "冰冻咬击",
+      "ja": "氷の一噛み"
+    },
+    "role": "attack",
+    "power_mult": 1.3,
+    "type": "physical",
+    "element": "ice",
+    "status": {
+      "type": "slow",
+      "chance": 0.5,
+      "turns": 2,
+      "power": 0
+    }
+  },
+  "shadow_bolt": {
+    "name": {
+      "es": "Descarga Sombría",
+      "en": "Shadow Bolt",
+      "fr": "Décharge des Ténèbres",
+      "it": "Scarica d'Ombra",
+      "de": "Schattenblitz",
+      "zh": "暗影震波",
+      "ja": "闇の衝撃"
+    },
+    "role": "attack",
+    "power_mult": 1.3,
+    "type": "magic",
+    "element": "dark"
+  },
+  "freeze_nova": {
+    "name": {
+      "es": "Nova Gélida",
+      "en": "Freeze Nova",
+      "fr": "Nova de Gel",
+      "it": "Nova Gelida",
+      "de": "Frostnova",
+      "zh": "冰霜新星",
+      "ja": "氷の新星"
+    },
+    "role": "attack",
+    "power_mult": 1.5,
+    "type": "magic",
+    "element": "ice",
+    "status": {
+      "type": "stun",
+      "chance": 0.45,
+      "turns": 1,
+      "power": 0
+    }
+  },
+  "harpy_peck": {
+    "name": {
+      "es": "Picotazo",
+      "en": "Harpy Peck",
+      "fr": "Coup de Bec",
+      "it": "Beccata",
+      "de": "Picken",
+      "zh": "啄击",
+      "ja": "くちばし攻撃"
+    },
+    "role": "attack",
+    "power_mult": 0.5,
+    "type": "physical",
+    "element": "physical"
+  },
+  "harpy_gust": {
+    "name": {
+      "es": "Ráfaga Pluvial",
+      "en": "Feather Gust",
+      "fr": "Rafale de Plumes",
+      "it": "Raffica di Piume",
+      "de": "Federbö",
+      "zh": "羽毛阵风",
+      "ja": "羽の突風"
+    },
+    "role": "attack",
+    "power_mult": 0.65,
+    "type": "ranged",
+    "element": "wind"
+  },
+  "gale_slash": {
+    "name": {
+      "es": "Corte de Viento",
+      "en": "Gale Slash",
+      "fr": "Taille de Vent",
+      "it": "Taglio del Vento",
+      "de": "Windhieb",
+      "zh": "风刃斩击",
+      "ja": "風の斬撃"
+    },
+    "role": "attack",
+    "power_mult": 0.6,
+    "type": "ranged",
+    "element": "wind"
+  },
+  "mind_blast": {
+    "name": {
+      "es": "Estallido Psíquico",
+      "en": "Mind Blast",
+      "fr": "Explosion Mentale",
+      "it": "Esplosione Psichica",
+      "de": "Geistesexplosion",
+      "zh": "精神爆发",
+      "ja": "マインドブラスト"
+    },
+    "role": "attack",
+    "power_mult": 0.6,
+    "type": "magic",
+    "element": "magic"
+  },
+  "psychic_crush": {
+    "name": {
+      "es": "Aplastamiento Mental",
+      "en": "Psychic Crush",
+      "fr": "Écrasement Psychique",
+      "it": "Schiacciamento Psichico",
+      "de": "Psychische Zerquetschung",
+      "zh": "精神碾压",
+      "ja": "サイキッククラッシュ"
+    },
+    "role": "attack",
+    "power_mult": 0.65,
+    "type": "magic",
+    "element": "magic",
+    "status": {
+      "type": "confuse",
+      "chance": 0.2,
+      "turns": 1,
+      "power": 0
+    }
+  },
+  "time_warp": {
+    "name": {
+      "es": "Distorsión Temporal",
+      "en": "Time Warp",
+      "fr": "Distorsion Temporelle",
+      "it": "Distorsione Temporale",
+      "de": "Zeitverzerrung",
+      "zh": "时间扭曲",
+      "ja": "タイムワープ"
+    },
+    "role": "attack",
+    "power_mult": 0.6,
+    "type": "magic",
+    "element": "time",
+    "status": {
+      "type": "slow",
+      "chance": 0.3,
+      "turns": 2,
+      "power": 0
+    }
+  },
+  "decay_pulse": {
+    "name": {
+      "es": "Pulso Entrópico",
+      "en": "Decay Pulse",
+      "fr": "Pulsation de Décomposition",
+      "it": "Impulso di Decadimento",
+      "de": "Verfallsimpuls",
+      "zh": "腐朽脉冲",
+      "ja": "崩壊の脈動"
+    },
+    "role": "attack",
+    "power_mult": 0.65,
+    "type": "magic",
+    "element": "time"
+  },
+  "void_pulse": {
+    "name": {
+      "es": "Pulso del Vacío",
+      "en": "Void Pulse",
+      "fr": "Pulsation du Vide",
+      "it": "Impulso del Vuoto",
+      "de": "Leerenpuls",
+      "zh": "虚空脉冲",
+      "ja": "ヴォイドパルス"
+    },
+    "role": "attack",
+    "power_mult": 0.55,
+    "type": "magic",
+    "element": "magic"
+  },
+  "core_spark": {
+    "name": {
+      "es": "Chispa Inestable",
+      "en": "Unstable Spark",
+      "fr": "Étincelle Instable",
+      "it": "Scintilla Instabile",
+      "de": "Instabiler Funke",
+      "zh": "不稳定火花",
+      "ja": "不安定な火花"
+    },
+    "role": "attack",
+    "power_mult": 0.52,
+    "type": "magic",
+    "element": "fire"
+  },
+  "core_flame": {
+    "name": {
+      "es": "Llamarada Central",
+      "en": "Core Flame",
+      "fr": "Flamme Centrale",
+      "it": "Fiamma Centrale",
+      "de": "Kernflamme",
+      "zh": "核心火焰",
+      "ja": "コアフレイム"
+    },
+    "role": "attack",
+    "power_mult": 0.60,
+    "type": "magic",
+    "element": "fire"
+  },
+  "core_burst": {
+    "name": {
+      "es": "Estallido Térmico",
+      "en": "Thermal Burst",
+      "fr": "Éruption Thermique",
+      "it": "Raffica Termica",
+      "de": "Thermoböe",
+      "zh": "热能爆发",
+      "ja": "サーマルバースト"
+    },
+    "role": "attack",
+    "power_mult": 0.65,
+    "type": "magic",
+    "element": "fire"
+  },
+  "lich_curse": {
+    "name": {
+      "es": "Maldición Sombría",
+      "en": "Shadow Curse",
+      "fr": "Malédiction d'Ombre",
+      "it": "Maledizione Ombre",
+      "de": "Schattenfluch",
+      "zh": "暗影诅咒",
+      "ja": "影の呪い"
+    },
+    "role": "attack",
+    "power_mult": 0.50,
+    "type": "magic",
+    "element": "dark"
+  },
+  "lich_touch": {
+    "name": {
+      "es": "Tacto Espectral",
+      "en": "Spectral Touch",
+      "fr": "Toucher Spectral",
+      "it": "Tocco Spettrale",
+      "de": "Spektrale Berührung",
+      "zh": "幽灵之触",
+      "ja": "幽霊の接触"
+    },
+    "role": "attack",
+    "power_mult": 0.58,
+    "type": "magic",
+    "element": "dark"
+  },
+  "lich_blast": {
+    "name": {
+      "es": "Descarga de Ánimas",
+      "en": "Soul Blast",
+      "fr": "Décharge d'Âmes",
+      "it": "Scarica d'Anime",
+      "de": "Seelenstoß",
+      "zh": "灵魂冲击",
+      "ja": "魂の放電"
+    },
+    "role": "attack",
+    "power_mult": 0.65,
+    "type": "magic",
+    "element": "dark"
+  },
+  "chrono_tick": {
+    "name": {
+      "es": "Tic Temporal",
+      "en": "Chrono Tick",
+      "fr": "Tic Temporel",
+      "it": "Tic Temporale",
+      "de": "Chrono-Ticken",
+      "zh": "时间滴答",
+      "ja": "クロノチック"
+    },
+    "role": "attack",
+    "power_mult": 0.52,
+    "type": "magic",
+    "element": "time"
+  },
+  "fireball": {
+    "name": {
+      "es": "Bola de Fuego",
+      "en": "Fireball",
+      "fr": "Boule de Feu",
+      "it": "Palla di Fuoco",
+      "de": "Feuerball",
+      "zh": "火焰弹",
+      "ja": "ファイアーボール"
+    },
+    "role": "attack",
+    "power_mult": 1.5,
+    "type": "magic",
+    "element": "fire",
+    "status": {
+      "type": "burn",
+      "chance": 0.5,
+      "turns": 3,
+      "power": 15
+    }
+  },
+  "ice_lance": {
+    "name": {
+      "es": "Lanza de Hielo",
+      "en": "Ice Lance",
+      "fr": "Lance de Glace",
+      "it": "Lancia di Ghiaccio",
+      "de": "Eislanze",
+      "zh": "冰枪",
+      "ja": "氷の槍"
+    },
+    "role": "attack",
+    "power_mult": 1.5,
+    "type": "magic",
+    "element": "ice"
+  },
+  "thunder_surge": {
+    "name": {
+      "es": "Sobrecarga de Rayos",
+      "en": "Thunder Surge",
+      "fr": "Surtension Foudroyante",
+      "it": "Sovraccarico di Fulmini",
+      "de": "Donnerüberladung",
+      "zh": "雷电洪流",
+      "ja": "雷の波動"
+    },
+    "role": "attack",
+    "power_mult": 1.6,
+    "type": "magic",
+    "element": "lightning"
+  },
+  "unholy_drain": {
+    "name": {
+      "es": "Drenaje Impío",
+      "en": "Unholy Drain",
+      "fr": "Drain Impie",
+      "it": "Prosciugamento Empio",
+      "de": "Unheiliger Entzug",
+      "zh": "邪恶吸取",
+      "ja": "冒渎の消耗"
+    },
+    "role": "attack",
+    "power_mult": 1.35,
+    "type": "magic",
+    "element": "dark"
+  },
+  "dark_nova": {
+    "name": {
+      "es": "Nova Oscura",
+      "en": "Dark Nova",
+      "fr": "Nova Sombre",
+      "it": "Nova Oscura",
+      "de": "Dunkle Nova",
+      "zh": "暗黑新星",
+      "ja": "闇の新星"
+    },
+    "role": "attack",
+    "power_mult": 1.8,
+    "type": "magic",
+    "element": "dark"
+  },
+  "radiant_smite": {
+    "name": {
+      "es": "Castigo Radiante",
+      "en": "Radiant Smite",
+      "fr": "Châtiment Radieux",
+      "it": "Castigo Radioso",
+      "de": "Strahlende Strafe",
+      "zh": "光辉制裁",
+      "ja": "光輝の懲罰"
+    },
+    "role": "attack",
+    "power_mult": 1.6,
+    "type": "magic",
+    "element": "holy"
+  },
+  "quake": {
+    "name": {
+      "es": "Terremoto",
+      "en": "Earthquake",
+      "fr": "Tremblement de Terre",
+      "it": "Terremoto",
+      "de": "Erdbeben",
+      "zh": "地震",
+      "ja": "地震"
+    },
+    "role": "attack",
+    "power_mult": 1.5,
+    "type": "magic",
+    "element": "earth"
+  },
+  "boulder_crash": {
+    "name": {
+      "es": "Impacto Rocoso",
+      "en": "Boulder Crash",
+      "fr": "Impact de Rocher",
+      "it": "Schianto di Macigno",
+      "de": "Felsbrockeneinschlag",
+      "zh": "巨石撞击",
+      "ja": "巨石の衝撞"
+    },
+    "role": "attack",
+    "power_mult": 1.8,
+    "type": "physical",
+    "element": "earth"
+  },
+  "laser_beam": {
+    "name": {
+      "es": "Rayo Láser",
+      "en": "Laser Beam",
+      "fr": "Rayon Laser",
+      "it": "Raggio Laser",
+      "de": "Laserstrahl",
+      "zh": "激光光束",
+      "ja": "レーザービーム"
+    },
+    "role": "attack",
+    "power_mult": 1.4,
+    "type": "magic",
+    "element": "lightning"
+  },
+  "overcharge_blast": {
+    "name": {
+      "es": "Disparo Sobrecargado",
+      "en": "Overcharge Blast",
+      "fr": "Tir Surchargé",
+      "it": "Sparo Sovraccaricato",
+      "de": "Überladener Schuss",
+      "zh": "过载弹射",
+      "ja": "オーバーチャージブラスト"
+    },
+    "role": "attack",
+    "power_mult": 1.75,
+    "type": "magic",
+    "element": "lightning"
+  },
+  "poison_bite": {
+    "name": {
+      "es": "Mordisco Venenoso",
+      "en": "Poison Bite",
+      "fr": "Morsure Venimeuse",
+      "it": "Morso Velenoso",
+      "de": "Giftbiss",
+      "zh": "毒噬",
+      "ja": "毒の一噛み"
+    },
+    "role": "attack",
+    "power_mult": 1.2,
+    "type": "physical",
+    "element": "poison",
+    "status": {
+      "type": "poison",
+      "chance": 0.6,
+      "turns": 3,
+      "power": 14
+    }
+  },
+  "acid_spray": {
+    "name": {
+      "es": "Rocío Ácido",
+      "en": "Acid Spray",
+      "fr": "Jet d'Acide",
+      "it": "Spruzzo Acido",
+      "de": "Säurespritzer",
+      "zh": "酸液喷洒",
+      "ja": "酸の飛沫"
+    },
+    "role": "attack",
+    "power_mult": 1.4,
+    "type": "magic",
+    "element": "poison",
+    "status": {
+      "type": "poison",
+      "chance": 0.7,
+      "turns": 3,
+      "power": 20
+    }
+  },
+  "inferno": {
+    "name": {
+      "es": "Infierno Abrasador",
+      "en": "Scorching Inferno",
+      "fr": "Enfer Brulant",
+      "it": "Inferno Bruciante",
+      "de": "Sengendes Inferno",
+      "zh": "灼烧地狱",
+      "ja": "焦砂の地獄"
+    },
+    "role": "attack",
+    "power_mult": 1.9,
+    "type": "magic",
+    "element": "fire",
+    "status": {
+      "type": "burn",
+      "chance": 0.7,
+      "turns": 3,
+      "power": 25
+    }
+  },
+  "plasma_shot": {
+    "name": {
+      "es": "Disparo de Plasma",
+      "en": "Plasma Shot",
+      "fr": "Tir de Plasma",
+      "it": "Colpo di Plasma",
+      "de": "Plasmaschuss",
+      "zh": "等离子弹",
+      "ja": "プラズマショット"
+    },
+    "role": "attack",
+    "power_mult": 1.45,
+    "type": "ranged",
+    "element": "lightning"
+  },
+  "laser_sweep": {
+    "name": {
+      "es": "Barrido Láser",
+      "en": "Laser Sweep",
+      "fr": "Balayage Laser",
+      "it": "Spazzata Laser",
+      "de": "Laserfeger",
+      "zh": "激光扫射",
+      "ja": "レーザースイープ"
+    },
+    "role": "attack",
+    "power_mult": 1.65,
+    "type": "magic",
+    "element": "lightning"
+  },
+  "corrupted_claw": {
+    "name": {
+      "es": "Garra Corrupta",
+      "en": "Corrupted Claw",
+      "fr": "Griffe Corrompue",
+      "it": "Artiglio Corrotto",
+      "de": "Verderbte Kralle",
+      "zh": "腐化利爪",
+      "ja": "汚濁した爪"
+    },
+    "role": "attack",
+    "power_mult": 1.5,
+    "type": "physical",
+    "element": "poison",
+    "status": {
+      "type": "poison",
+      "chance": 0.5,
+      "turns": 3,
+      "power": 20
+    }
+  },
+  "plague_roots": {
+    "name": {
+      "es": "Raíces Plagadas",
+      "en": "Plague Roots",
+      "fr": "Racines de la Peste",
+      "it": "Radici della Piaga",
+      "de": "Pestwurzeln",
+      "zh": "瘟疫根须",
+      "ja": "疫毒の根"
+    },
+    "role": "attack",
+    "power_mult": 1.45,
+    "type": "magic",
+    "element": "poison",
+    "status": {
+      "type": "poison",
+      "chance": 0.7,
+      "turns": 3,
+      "power": 22
+    }
+  },
+  "frenzy_bite": {
+    "name": {
+      "es": "Mordisco Frenético",
+      "en": "Frenzy Bite",
+      "fr": "Morsure Frénétique",
+      "it": "Morso Frenetico",
+      "de": "Rasender Biss",
+      "zh": "狂乱之噬",
+      "ja": "狂気の一噛み"
+    },
+    "role": "attack",
+    "power_mult": 1.5,
+    "type": "physical",
+    "element": "poison"
+  },
+  "toxic_burst": {
+    "name": {
+      "es": "Brote Tóxico",
+      "en": "Toxic Burst",
+      "fr": "Éruption Toxique",
+      "it": "Esplosione Tossica",
+      "de": "Toxischer Ausbruch",
+      "zh": "毒素喷发",
+      "ja": "有毒の噴発"
+    },
+    "role": "attack",
+    "power_mult": 1.6,
+    "type": "magic",
+    "element": "poison",
+    "status": {
+      "type": "poison",
+      "chance": 0.8,
+      "turns": 3,
+      "power": 25
+    }
+  },
+  "hyper_beam": {
+    "name": {
+      "es": "Hiperrayo Arcano",
+      "en": "Arcane Hyper Beam",
+      "fr": "Hyper Rayon Arcanique",
+      "it": "Ipertravaglio Arcano",
+      "de": "Arkaner Hyperstrahl",
+      "zh": "奥术超激光",
+      "ja": "アーカノムハイビーム"
+    },
+    "role": "attack",
+    "power_mult": 1.95,
+    "type": "magic",
+    "element": "lightning"
+  },
+  "void_laser": {
+    "name": {
+      "es": "Láser del Vacío",
+      "en": "Void Laser",
+      "fr": "Laser du Néant",
+      "it": "Laser del Vuoto",
+      "de": "Leerenlaser",
+      "zh": "虚无激光",
+      "ja": "虚無のレーザー"
+    },
+    "role": "attack",
+    "power_mult": 2.0,
+    "type": "magic",
+    "element": "dark"
+  },
+  "corruption_wave": {
+    "name": {
+      "es": "Ola de Corrupción",
+      "en": "Corruption Wave",
+      "fr": "Vague de Corruption",
+      "it": "Onda di Corruzione",
+      "de": "Verderbniswelle",
+      "zh": "腐蚀浪潮",
+      "ja": "汚濁の波"
+    },
+    "role": "attack",
+    "power_mult": 1.7,
+    "type": "magic",
+    "element": "poison",
+    "status": {
+      "type": "stun",
+      "chance": 0.35,
+      "turns": 1,
+      "power": 0
+    }
+  },
+  "hellfire": {
+    "name": {
+      "es": "Fuego Infernal",
+      "en": "Hellfire",
+      "fr": "Feu de l'Enfer",
+      "it": "Fuoco Infernale",
+      "de": "Höllenfeuer",
+      "zh": "地狱之火",
+      "ja": "地獄の炎"
+    },
+    "role": "attack",
+    "power_mult": 1.75,
+    "type": "magic",
+    "element": "fire",
+    "status": {
+      "type": "burn",
+      "chance": 0.6,
+      "turns": 3,
+      "power": 30
+    }
+  },
+  "dark_cleave": {
+    "name": {
+      "es": "Tajo Sombrío",
+      "en": "Dark Cleave",
+      "fr": "Taille des Ténèbres",
+      "it": "Fendente Oscuro",
+      "de": "Dunkler Spalthieb",
+      "zh": "暗影斩击",
+      "ja": "闇の斬撃"
+    },
+    "role": "attack",
+    "power_mult": 1.8,
+    "type": "physical",
+    "element": "dark"
+  },
+  "mental_agony": {
+    "name": {
+      "es": "Agonía Mental",
+      "en": "Mental Agony",
+      "fr": "Agonie Mentale",
+      "it": "Agonia Mentale",
+      "de": "Geistige Agonie",
+      "zh": "精神痛苦",
+      "ja": "精神の苦悶"
+    },
+    "role": "attack",
+    "power_mult": 1.6,
+    "type": "magic",
+    "element": "magic"
+  },
+  "guilt_burst": {
+    "name": {
+      "es": "Estallido de Culpa",
+      "en": "Guilt Burst",
+      "fr": "Explosion de Culpabilité",
+      "it": "Esplosione di Colpa",
+      "de": "Schuldexplosion",
+      "zh": "内疚迸发",
+      "ja": "自責の噴発"
+    },
+    "role": "attack",
+    "power_mult": 1.9,
+    "type": "magic",
+    "element": "dark"
+  },
+  "ice_shards": {
+    "name": {
+      "es": "Fragmentos Gélidos",
+      "en": "Glacial Shards",
+      "fr": "Éclats Glaciaux",
+      "it": "Schegge Glaciali",
+      "de": "Gletschersplitter",
+      "zh": "冰屑碎片",
+      "ja": "氷河の砕片"
+    },
+    "role": "attack",
+    "power_mult": 1.6,
+    "type": "magic",
+    "element": "ice"
+  },
+  "balance_strike": {
+    "name": {
+      "es": "Impacto Equilibrante",
+      "en": "Balancing Strike",
+      "fr": "Frappe d'Équilibre",
+      "it": "Colpo d'Equilibrio",
+      "de": "Ausgleichsschlag",
+      "zh": "平衡打击",
+      "ja": "バランスの一撃"
+    },
+    "role": "attack",
+    "power_mult": 1.8,
+    "type": "physical",
+    "element": "magic"
+  },
+  "cosmic_spear": {
+    "name": {
+      "es": "Lanza Cósmica",
+      "en": "Cosmic Spear",
+      "fr": "Lance Cosmique",
+      "it": "Lancia Cosmica",
+      "de": "Kosmische Lanze",
+      "zh": "宇宙巨枪",
+      "ja": "宇宙の槍"
+    },
+    "role": "attack",
+    "power_mult": 1.85,
+    "type": "magic",
+    "element": "holy"
+  },
+  "judgement_beam": {
+    "name": {
+      "es": "Rayo del Juicio",
+      "en": "Judgement Beam",
+      "fr": "Rayon du Jugement",
+      "it": "Raggio del Giudizio",
+      "de": "Urteilsstrahl",
+      "zh": "判决光束",
+      "ja": "審判の光線"
+    },
+    "role": "attack",
+    "power_mult": 2.0,
+    "type": "magic",
+    "element": "holy"
+  },
+  "divine_wrath": {
+    "name": {
+      "es": "Ira Divina",
+      "en": "Divine Wrath",
+      "fr": "Courroux Divin",
+      "it": "Ira Divina",
+      "de": "Göttlicher Zorn",
+      "zh": "神谕之怒",
+      "ja": "神の怒り"
+    },
+    "role": "attack",
+    "power_mult": 2.0,
+    "type": "magic",
+    "element": "holy"
+  },
+  "truth_burst": {
+    "name": {
+      "es": "Estallido de la Verdad",
+      "en": "Truth Burst",
+      "fr": "Explosion de Vérité",
+      "it": "Esplosione della Verità",
+      "de": "Wahrheitsexplosion",
+      "zh": "真理迸发",
+      "ja": "真実の噴発"
+    },
+    "role": "attack",
+    "power_mult": 2.2,
+    "type": "magic",
+    "element": "magic",
+    "effect": "ignore_def_half"
+  },
+  "supernova": {
+    "name": {
+      "es": "Supernova Cósmica",
+      "en": "Cosmic Supernova",
+      "fr": "Supernova Cosmique",
+      "it": "Supernova Cosmica",
+      "de": "Kosmische Supernova",
+      "zh": "宇宙超新星",
+      "ja": "宇宙の超新星"
+    },
+    "role": "attack",
+    "power_mult": 2.5,
+    "type": "magic",
+    "element": "holy"
+  },
+  "holy_judgment": {
+    "name": {
+      "es": "Juicio Sagrado",
+      "en": "Holy Judgment",
+      "fr": "Jugement Sacré",
+      "it": "Giudizio Sacro",
+      "de": "Heiliges Urteil",
+      "zh": "神圣判决",
+      "ja": "神聖の審判"
+    },
+    "role": "attack",
+    "power_mult": 2.3,
+    "type": "magic",
+    "element": "holy"
+  },
+  "earth_core_blast": {
+    "name": {
+      "es": "Núcleo Telúrico",
+      "en": "Earth Core Blast",
+      "fr": "Explosion du Noyau Terrestre",
+      "it": "Esplosione del Nucleo Terrestre",
+      "de": "Erdkernexplosion",
+      "zh": "地核弹",
+      "ja": "地核の爆発"
+    },
+    "role": "attack",
+    "power_mult": 2.4,
+    "type": "magic",
+    "element": "earth"
+  },
+  "tri_elemental_breath": {
+    "name": {
+      "es": "Aliento Trivalente",
+      "en": "Tri-Elemental Breath",
+      "fr": "Souffle Tri-Élémentaire",
+      "it": "Soffio Tri-Elementale",
+      "de": "Dreielementarer Atem",
+      "zh": "三元息",
+      "ja": "三属性のブレス"
+    },
+    "role": "attack",
+    "power_mult": 2.5,
+    "type": "magic",
+    "element": "fire"
+  },
+  "aullido_miedo": {
+    "name": {
+      "es": "Aullido Temible",
+      "en": "Fearsome Howl",
+      "fr": "Hurlement Terrifiant",
+      "it": "Ululato Terrificante",
+      "de": "Furchterregendes Geheul",
+      "zh": "可怖嚎叫",
+      "ja": "恐怖の咆哮"
+    },
+    "role": "attack",
+    "power_mult": 0.5,
+    "type": "magic",
+    "element": "physical",
+    "status": {
+      "type": "atk_down",
+      "chance": 0.8,
+      "turns": 2,
+      "power": 0
+    }
+  },
+  "dodge_stance": {
+    "name": {
+      "es": "Postura Evasiva",
+      "en": "Evasive Stance",
+      "fr": "Posture d'Évasion",
+      "it": "Posizione Evasiva",
+      "de": "Ausweichhaltung",
+      "zh": "闪避姿态",
+      "ja": "回避の構え"
+    },
+    "role": "buff",
+    "self_status": {
+      "type": "evasion_up",
+      "turns": 2,
+      "power": 0
+    }
+  },
+  "goblin_rage": {
+    "name": {
+      "es": "Furia Goblin",
+      "en": "Goblin Rage",
+      "fr": "Rage Gobeline",
+      "it": "Furia Goblin",
+      "de": "Goblinwut",
+      "zh": "哥布林狂怒",
+      "ja": "ゴブリンの激怒"
+    },
+    "role": "buff",
+    "self_status": {
+      "type": "berserk",
+      "turns": 3,
+      "power": 0
+    }
+  },
+  "provoke_rage": {
+    "name": {
+      "es": "Frenesí Brutal",
+      "en": "Brutal Frenzy",
+      "fr": "Frénésie Brutale",
+      "it": "Frenesia Brutale",
+      "de": "Brutaler Rausch",
+      "zh": "暴虐狂乱",
+      "ja": "残酷な狂乱"
+    },
+    "role": "buff",
+    "self_status": {
+      "type": "berserk",
+      "turns": 3,
+      "power": 0
+    }
+  },
+  "roar": {
+    "name": {
+      "es": "Rugido Aterrador",
+      "en": "Terrifying Roar",
+      "fr": "Rugissement Terrifiant",
+      "it": "Ruggito Terrificante",
+      "de": "Erschreckendes Brüllen",
+      "zh": "恐怖咆吼",
+      "ja": "恐怖の咆哮"
+    },
+    "role": "buff",
+    "self_status": {
+      "type": "berserk",
+      "turns": 2,
+      "power": 0
+    }
+  },
+  "iron_guard": {
+    "name": {
+      "es": "Guardia Férrea",
+      "en": "Iron Guard",
+      "fr": "Garde de Fer",
+      "it": "Guardia di Ferro",
+      "de": "Eiserne Wache",
+      "zh": "钢铁护卫",
+      "ja": "鉄の構え"
+    },
+    "role": "buff",
+    "self_status": {
+      "type": "def_up",
+      "turns": 3,
+      "power": 0
+    }
+  },
+  "earthen_shield": {
+    "name": {
+      "es": "Escudo de Roca",
+      "en": "Earthen Shield",
+      "fr": "Bouclier de Terre",
+      "it": "Scudo di Terra",
+      "de": "Erdschild",
+      "zh": "岩石盾",
+      "ja": "岩の盾"
+    },
+    "role": "buff",
+    "self_status": {
+      "type": "def_up",
+      "turns": 3,
+      "power": 0
+    }
+  },
+  "electric_shield": {
+    "name": {
+      "es": "Campo Electrostático",
+      "en": "Electrostatic Field",
+      "fr": "Champ Électrostatique",
+      "it": "Campo Elettrostatico",
+      "de": "Elektrostatisches Feld",
+      "zh": "静电场",
+      "ja": "静電の場"
+    },
+    "role": "buff",
+    "self_status": {
+      "type": "def_up",
+      "turns": 3,
+      "power": 0
+    }
+  },
+  "barrier_pulse": {
+    "name": {
+      "es": "Pulso de Barrera",
+      "en": "Barrier Pulse",
+      "fr": "Pulsation de Barrière",
+      "it": "Impulso Barriera",
+      "de": "Barriereimpuls",
+      "zh": "屏障脉冲",
+      "ja": "障壁の波動"
+    },
+    "role": "buff",
+    "self_status": {
+      "type": "def_up",
+      "turns": 3,
+      "power": 0
+    }
+  },
+  "divine_shield": {
+    "name": {
+      "es": "Escudo Divino",
+      "en": "Divine Shield",
+      "fr": "Bouclier Divin",
+      "it": "Scudo Divino",
+      "de": "Göttlicher Schild",
+      "zh": "神圣盾",
+      "ja": "神の盾"
+    },
+    "role": "buff",
+    "self_status": {
+      "type": "def_up",
+      "turns": 3,
+      "power": 0
+    }
+  },
+  "immovable_bastion": {
+    "name": {
+      "es": "Bastión Inamovible",
+      "en": "Immovable Bastion",
+      "fr": "Bastion Inamovible",
+      "it": "Bastione Inamovibile",
+      "de": "Unbeweglicher Bastion",
+      "zh": "不动堡垒",
+      "ja": "不動の要塞"
+    },
+    "role": "buff",
+    "self_status": {
+      "type": "def_up",
+      "turns": 3,
+      "power": 0
+    }
+  },
+  "ultimate_roar": {
+    "name": {
+      "es": "Rugido Supremo",
+      "en": "Ultimate Roar",
+      "fr": "Rugissement Suprême",
+      "it": "Ruggito Supremo",
+      "de": "Ultimatives Brüllen",
+      "zh": "至高咆吼",
+      "ja": "最高の咆哮"
+    },
+    "role": "buff",
+    "self_status": {
+      "type": "berserk",
+      "turns": 4,
+      "power": 0
+    }
+  }
+}

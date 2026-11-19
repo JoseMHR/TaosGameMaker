@@ -1,0 +1,26 @@
+{
+    "id": "poi_sylphrena_feria_abandonada",
+    "type": "poi",
+    "icon": "🎠",
+    "name": {
+        "es": "La Feria que Nunca Cerró",
+        "en": "The Fair That Never Closed",
+        "fr": "La Foire qui n'a Jamais Fermé",
+        "it": "La Fiera che Non Chiuse Mai",
+        "de": "Der Jahrmarkt, der Nie Schloss",
+        "zh": "从未停业的集市",
+        "ja": "決して閉まらない縁日"
+    },
+    "desc": {
+        "es": "Una feria abandonada hace décadas sigue girando y sonando sola, con las luces encendidas y sin un alma. (PNJ singular).",
+        "en": "A fair abandoned decades ago still spins and plays by itself, lights on and not a soul in sight. (Singular NPC).",
+        "fr": "Une foire abandonnée depuis des décennies continue de tourner et de jouer seule, avec les lumières allumées et sans une âme qui vive. (PNJ singulier).",
+        "it": "Una fiera abbandonata da decenni continua a girare e a suonare da sola, con le luci accese e senza anima viva. (PNG singolare).",
+        "de": "Ein seit Jahrzehnten verlassener Jahrmarkt dreht und spielt sich weiterhin von selbst, mit brennenden Lichtern und ohne eine lebende Seele. (Einzigartiger NPC).",
+        "zh": "一座荒废数十年的集市依然自行转动、自行奏乐，灯火通明，却空无一人。（唯一NPC）。",
+        "ja": "何十年も前に見捨てられた縁日が、今も独りでに回り、音楽を鳴らし続けている。明かりはついているが、人っ子一人いない。（唯一のNPC）。"
+    },
+    "npc": "poi_sylphrena_feria_abandonada",
+    "bg": "bg_world_poi_sylphrena_feria_abandonada.png",
+    "music": "poi_generic"
+}

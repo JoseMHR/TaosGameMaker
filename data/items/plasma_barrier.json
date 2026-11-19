@@ -1,0 +1,41 @@
+{
+    "name": {
+        "es": "Barrera de Plasma",
+        "en": "Plasma Barrier",
+        "fr": "Barrière de Plasma",
+        "it": "Barriera al Plasma",
+        "de": "Plasmabarriere",
+        "zh": "等离子屏障",
+        "ja": "プラズマバリア"
+    },
+    "desc": {
+        "es": "Emisor de energía compacta que dispersa ráfagas térmicas y físicas.",
+        "en": "Compact energy emitter dispersing thermal and kinetic blasts.",
+        "fr": "Émetteur d'énergie compact qui disperse les rafales thermiques et physiques.",
+        "it": "Emettitore di energia compatto che disperde raffiche termiche e fisiche.",
+        "de": "Kompakter Energieemitter, der thermische und physische Stöße abwehrt.",
+        "zh": "紧凑型能量发射器，能分散热能与物理冲击波。",
+        "ja": "熱的および物理的な衝撃波を分散させるコンパクトなエネルギー放射装置。"
+    },
+    "icon": "🛡️",
+    "category": "equipment",
+    "usable": false,
+    "slot": "shield",
+    "tier": 5,
+    "bonuses": {
+        "vit": 10,
+        "int": 6
+    },
+    "combat": {
+        "phys_defense": 88,
+        "mag_defense": 88
+    },
+    "traits": [
+        {
+            "type": "elemental_damage_reduction",
+            "value": 0.15,
+            "min_refine": 5,
+            "desc": "Reduce un 15% todo el daño elemental recibido"
+        }
+    ]
+}

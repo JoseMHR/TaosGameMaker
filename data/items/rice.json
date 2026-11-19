@@ -1,0 +1,23 @@
+{
+    "name": {
+        "es": "Arroz",
+        "en": "Rice",
+        "fr": "Riz",
+        "it": "Riso",
+        "de": "Reis",
+        "zh": "大米",
+        "ja": "米"
+    },
+    "desc": {
+        "es": "Grano de arroz recién cosechado. Se puede cocinar.",
+        "en": "Freshly harvested rice grain. Can be cooked.",
+        "fr": "Grain de riz fraîchement récolté. Peut être cuisiné.",
+        "it": "Chicco di riso appena raccolto. Può essere cucinato.",
+        "de": "Frisch geernteter Reis. Kann gekocht werden.",
+        "zh": "刚收获的稻谷。可以烹饪。",
+        "ja": "収穫したばかりの米粒。調理できる。"
+    },
+    "icon": "🌾",
+    "category": "other",
+    "usable": false
+}

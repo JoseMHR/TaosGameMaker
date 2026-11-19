@@ -1,0 +1,23 @@
+{
+    "name": {
+        "es": "Pluma de la Fortuna Teórica",
+        "en": "Feather of Theoretical Fortune",
+        "fr": "Plume de la Fortune Théorique",
+        "it": "Piuma della Fortuna Teorica",
+        "de": "Feder des theoretischen Glücks",
+        "zh": "理论幸运之羽",
+        "ja": "理論上の幸運の羽"
+    },
+    "desc": {
+        "es": "Una pluma que, según el Pollo Oracular, atrae una suerte extraordinaria. En teoría. Nadie ha logrado demostrar el efecto, pero tampoco descartarlo. La ciencia sigue investigando.",
+        "en": "A feather that, according to the Oracular Chicken, attracts extraordinary luck. In theory. No one has managed to prove the effect, nor to rule it out. Science is still looking into it.",
+        "fr": "Une plume qui, selon le Poulet Oraculaire, attire une chance extraordinaire. En théorie. Personne n'a réussi à prouver l'effet, ni à l'écarter. La science continue d'enquêter.",
+        "it": "Una piuma che, secondo il Pollo Oracolare, attira una fortuna straordinaria. In teoria. Nessuno è riuscito a dimostrare l'effetto, né a escluderlo. La scienza continua a indagare.",
+        "de": "Eine Feder, die laut dem Orakelhuhn außergewöhnliches Glück anzieht. Theoretisch. Niemand konnte die Wirkung beweisen, aber auch nicht ausschließen. Die Wissenschaft forscht weiter.",
+        "zh": "据神谕之鸡所说，这根羽毛能带来非凡的运气。理论上是这样。至今无人能证实，也无人能否定这一效果。科学仍在探索中。",
+        "ja": "オラクルチキンによれば並外れた幸運を引き寄せるという羽根。理論上は。誰もその効果を証明できていないが、否定もできていない。科学は今も調査を続けている。"
+    },
+    "icon": "🪶",
+    "category": "important",
+    "usable": false
+}

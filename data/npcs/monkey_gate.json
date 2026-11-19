@@ -1,0 +1,100 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "Mono del Puente",
+            "en": "Bridge Monkey",
+            "fr": "Le Singe du Pont",
+            "it": "La Scimmia del Ponte",
+            "de": "Der Brückenaffe",
+            "zh": "桥上猴子",
+            "ja": "橋の猿"
+        },
+        "next": [],
+        "reward": "avatar=🐒;bg=0.06,0.07,0.05"
+    },
+    "monkey_root": {
+        "type": "message",
+        "text": {
+            "es": "Un mono con un pelaje y una cara que se parecen sospechosamente al mismísimo Son Goku... no el Saiyan de las bolas de energía, sino el otro, el Rey Mono de toda la vida, bastón y todo. Se sienta sobre el poste principal del puente colgante, mordisqueando una rama con aire de rey del peaje. Te señala con una garra descarada y extiende la otra palma abierta exigiendo tributo comestible. '¡¡Ujujú!! ¡¡Aak-aak!! (Traducción: ¡Nadie cruza mi puente sin pagar el impuesto potásico!)'",
+            "en": "A monkey whose fur and face look suspiciously like Son Goku himself... not the energy-blast-throwing Saiyan, the OTHER one, the classic Monkey King, staff included. He perches atop the suspension bridge pylon, gnawing on a twig with the swagger of a tollway baron. He points a sassy claw at your chest and extends an open palm demanding edible tribute. 'Ooh-ooh! Aak-aak!! (Translation: None shall cross my bridge without paying the royal potassium tariff!)'",
+            "fr": "Un singe dont le pelage et le visage ressemblent étrangement à Son Goku en personne... pas le Saiyan aux boules d'énergie, l'autre, le classique Roi Singe, bâton compris. Il se perche au sommet du pylône du pont suspendu, mâchonnant une brindille avec l'assurance d'un baron du péage. Il pointe une griffe insolente vers ta poitrine et tend l'autre paume ouverte, exigeant un tribut comestible. « Ouh-ouh ! Aak-aak !! (Traduction : Nul ne traverse mon pont sans payer la taxe royale au potassium !) »",
+            "it": "Una scimmia il cui pelo e il cui viso somigliano sospettosamente a Son Goku in persona... non il Saiyan dalle sfere di energia, l'altro, il classico Re Scimmia, bastone incluso. Si appollaia sulla sommità del pilone del ponte sospeso, sgranocchiando un ramoscello con l'aria di un barone del pedaggio. Ti punta contro una zampa insolente e tende l'altro palmo aperto, esigendo tributo commestibile. 'Uhuhu! Aak-aak!! (Traduzione: Nessuno attraversa il mio ponte senza pagare la tassa reale sul potassio!)'",
+            "de": "Ein Affe, dessen Fell und Gesicht verdächtig an Son Goku persönlich erinnern... nicht der Saiyajin mit den Energiebällen, sondern der andere, der klassische Affenkönig, samt Stab. Er hockt auf dem Pfeiler der Hängebrücke, kaut auf einem Zweig herum mit der Attitüde eines Mautbarons. Er zeigt frech mit einer Kralle auf deine Brust und streckt die andere Handfläche aus, um einen essbaren Tribut zu fordern. „Uhuhu! Aak-aak!! (Übersetzung: Niemand überquert meine Brücke, ohne die königliche Kaliumsteuer zu entrichten!)“",
+            "zh": "一只猴子，皮毛与面容诡异地酷似孙悟空本人……不是那个放能量波的赛亚人，是另一个，经典的美猴王，连金箍棒都一应俱全。它蹲坐在吊桥主柱顶端，一边啃着树枝，一边摆出收费站霸主的架势。它用一只无礼的爪子指向你的胸口，另一只手掌摊开，索要可食用的贡品。「唔唔！啊咔啊咔！（翻译：谁想过我的桥，都得先交钾元素税！）」",
+            "ja": "その毛並みと顔つきが、あの孫悟空——エネルギー波を放つサイヤ人の方ではなく、如意棒を持った古典的な斉天大聖の方——に不気味なほど似ている猿。吊り橋の支柱の上に腰かけ、小枝をかじりながら通行料の元締めのような態度を見せる。生意気な爪でお前の胸を指し、もう片方の手のひらを開いて食べ物の貢物を要求してくる。「ウッキー！アッカアッカ！！（訳：カリウム税を払わぬ者は誰も我が橋を渡れぬ！）」"
+        },
+        "next": [
+            "monkey_opt_banana",
+            "monkey_opt_amenazar",
+            "monkey_opt_salir"
+        ],
+        "reward": ""
+    },
+    "monkey_opt_banana": {
+        "type": "option",
+        "text": {
+            "es": "🍌  Ofrecerle un plátano maduro",
+            "en": "🍌  Offer a ripe banana",
+            "fr": "🍌  Lui offrir une banane bien mûre",
+            "it": "🍌  Offrirle una banana matura",
+            "de": "🍌  Ihm eine reife Banane anbieten",
+            "zh": "🍌  递给它一根熟透的香蕉",
+            "ja": "🍌  熟れたバナナを差し出す"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "item_remove:banana;questf:monkey_cleared;gflag:monkey_cleared;lore:monkey_tribute",
+        "condition": "has_item(\"banana\")",
+        "once": true
+    },
+    "monkey_opt_amenazar": {
+        "type": "option",
+        "text": {
+            "es": "⚔️  ¡Apártate de en medio, bicho!",
+            "en": "⚔️  Out of my way, you furball!",
+            "fr": "⚔️  Écarte-toi de mon chemin, sale bestiole !",
+            "it": "⚔️  Levati di mezzo, bestiaccia!",
+            "de": "⚔️  Aus dem Weg, Vieh!",
+            "zh": "⚔️  滚开，臭猴子！",
+            "ja": "⚔️  どけ、この毛玉め！"
+        },
+        "next": [
+            "monkey_msg_amenazar"
+        ],
+        "reward": ""
+    },
+    "monkey_msg_amenazar": {
+        "type": "message",
+        "text": {
+            "es": "El mono te lanza una cáscara podrida a la cara con puntería olímpica, se da palmadas en el trasero y se ríe a carcajadas colgado de la cola. Las cuerdas del puente crujen amenazadoramente. Está claro que la diplomacia de fruta es la única vía.",
+            "en": "The monkey hurls a rotten peel straight at your forehead with Olympic precision, slaps his backside, and cackles hysterically while dangling from his tail. The bridge ropes creak menacingly. It is overwhelmingly apparent that fruit diplomacy is the only viable path.",
+            "fr": "Le singe te lance une écorce pourrie en pleine figure avec une précision olympique, se tape les fesses et éclate de rire, suspendu par la queue. Les cordes du pont grincent d'un air menaçant. Il est clair que la diplomatie fruitière est la seule voie possible.",
+            "it": "La scimmia ti lancia una buccia marcia in faccia con precisione olimpica, si dà pacche sul sedere e scoppia a ridere appesa per la coda. Le corde del ponte scricchiolano minacciosamente. È chiaro che la diplomazia della frutta è l'unica via percorribile.",
+            "de": "Der Affe wirft dir mit olympischer Präzision eine verfaulte Schale ins Gesicht, klatscht sich auf den Hintern und lacht hysterisch, an seinem Schwanz baumelnd. Die Seile der Brücke knarren bedrohlich. Es ist überdeutlich, dass Obstdiplomatie der einzige gangbare Weg ist.",
+            "zh": "猴子以奥运级的精准度朝你脸上扔来一片腐烂的果皮，拍着屁股放声大笑，尾巴倒挂在半空中。桥绳发出不祥的吱嘎声。显然，水果外交是唯一可行的办法。",
+            "ja": "猴はオリンピック級の正確さで腐った皮をお前の顔面に投げつけ、尻を叩きながら尻尾でぶら下がって大笑いする。橋の縄が不穏に軋む。果物外交だけが唯一の道であることは明白だ。"
+        },
+        "next": [
+            "monkey_root"
+        ],
+        "reward": ""
+    },
+    "monkey_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Buscaré algo dulce para este aduanero...",
+            "en": "🚶  I will look for something sweet for this gatekeeper...",
+            "fr": "🚶  Je vais chercher quelque chose de sucré pour ce douanier...",
+            "it": "🚶  Cercherò qualcosa di dolce per questo doganiere...",
+            "de": "🚶  Ich werde etwas Süßes für diesen Zöllner suchen...",
+            "zh": "🚶  我去找点甜食给这个「关卡守卫」吧……",
+            "ja": "🚶  この関所番のために甘いものを探すとしよう……"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

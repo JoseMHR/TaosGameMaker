@@ -1,0 +1,59 @@
+{
+  "name": {
+    "es": "Águila Imperial",
+    "en": "Imperial Eagle",
+    "fr": "Aigle Impérial",
+    "it": "Aquila Imperiale",
+    "de": "Kaiseradler",
+    "zh": "帝国之鹰",
+    "ja": "インペリアルイーグル"
+  },
+  "family": "beast",
+  "archetype": "glass_cannon",
+  "icon": "🦅",
+  "image": "res://assets/combat/enemies/en_imperial_eagle.png",
+  "attack_type": "physical",
+  "base_dodge": 14.0,
+  "dodge_scale": 0.3,
+  "element": "wind",
+  "weak_to": [
+    "ice",
+    "lightning"
+  ],
+  "resist": [
+    "wind"
+  ],
+  "ai": "aggressive",
+  "xp_reward_base": 95,
+  "xp_reward_scale": 8.5,
+  "gold_reward_base": 50,
+  "gold_reward_scale": 5.5,
+  "skills": [
+    {
+      "level": 1,
+      "skill_id": "dive_attack"
+    },
+    {
+      "level": 18,
+      "skill_id": "wing_gale"
+    },
+    {
+      "level": 22,
+      "skill_id": "feather_storm"
+    }
+  ],
+  "loot": [
+    {
+      "kind": "gold",
+      "min": 18,
+      "max": 40
+    },
+    {
+      "kind": "equipment",
+      "chance": 0.2,
+      "level": 8
+    }
+  ],
+  "zone": "zona_4_celestia",
+  "is_boss": false
+}

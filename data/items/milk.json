@@ -1,0 +1,23 @@
+{
+    "name": {
+        "es": "Leche",
+        "en": "Milk",
+        "fr": "Lait",
+        "it": "Latte",
+        "de": "Milch",
+        "zh": "牛奶",
+        "ja": "牛乳"
+    },
+    "desc": {
+        "es": "Leche fresca de granja.",
+        "en": "Fresh farm milk.",
+        "fr": "Lait de ferme frais.",
+        "it": "Latte fresco di fattoria.",
+        "de": "Frische Bauernhofmilch.",
+        "zh": "新鲜的农场牛奶。",
+        "ja": "新鮮な農場の牛乳。"
+    },
+    "icon": "🥛",
+    "category": "other",
+    "usable": false
+}

@@ -1,0 +1,238 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Recluso del Yelmo",
+            "en": "The Hermit of the Helm",
+            "fr": "L'Ermite du Heaume",
+            "it": "Il Recluso dell'Elmo",
+            "de": "Der Einsiedler des Helms",
+            "zh": "头盔隐士",
+            "ja": "兜の隠者"
+        },
+        "next": [],
+        "reward": "avatar=🤪;bg=0.08,0.06,0.04"
+    },
+    "entry": {
+        "type": "message",
+        "text": {
+            "es": "¡¡PARALIZA AHÍ, BÍPEDO SOSPECHOSO!! Un anciano de ojos saltones salta desde detrás de una pila de cacharros blandiendo una sartén abollada como si fuera una espada sagrada. '¡No des un paso más! ¡Sé a qué vienes! ¡Vienes a robarme los pensamientos de la ciénaga! ¡O peor... eres un espía de las ranas monárquicas! ¡¡CONFIESA, MALDITO ANFIBIO!!'",
+            "en": "FREEZE RIGHT THERE, SUSPICIOUS BIPED!! A bug-eyed old hermit leaps from behind a pile of junk brandishing a dented frying pan like a holy blade. 'Don't take another step! I know why you are here! You want to steal my swamp thoughts! Or worse... you are a spy for the monarchist frogs! CONFESS, YOU CURSED AMPHIBIAN!!'",
+            "fr": "IMMOBILISE-TOI LÀ, BIPÈDE SUSPECT !! Un vieil homme aux yeux exorbités surgit de derrière un tas de ferraille en brandissant une poêle cabossée comme une épée sacrée. « Ne fais pas un pas de plus ! Je sais pourquoi tu es là ! Tu viens voler mes pensées de marécage ! Ou pire... tu es un espion des grenouilles monarchistes ! AVOUE, MAUDIT AMPHIBIEN !! »",
+            "it": "FERMATI LÌ, BIPEDE SOSPETTO!! Un anziano dagli occhi sporgenti salta fuori da dietro una pila di cianfrusaglie brandendo una padella ammaccata come se fosse una spada sacra. 'Non fare un altro passo! So perché sei venuto! Vieni a rubarmi i pensieri della palude! O peggio... sei una spia delle rane monarchiche! CONFESSA, MALEDETTO ANFIBIO!!'",
+            "de": "STEH SOFORT STILL, VERDÄCHTIGER ZWEIBEINER!! Ein alter Mann mit hervorquellenden Augen springt hinter einem Haufen Gerümpel hervor und schwingt eine verbeulte Bratpfanne wie ein heiliges Schwert. „Keinen Schritt weiter! Ich weiß, warum du kommst! Du willst meine Sumpfgedanken stehlen! Oder schlimmer... du bist ein Spion der monarchistischen Frösche! GESTEHE, VERFLUCHTER AMPHIBIE!!“",
+            "zh": "站住，可疑的两足动物！！一位眼睛暴凸的老人从一堆杂物后面跳出来，挥舞着一个凹陷的平底锅，仿佛那是一把神圣的剑。「不许再往前一步！我知道你来这里的目的！你是来偷我沼泽思想的！或者更糟……你是保皇派青蛙的间谍！坦白吧，该死的两栖动物！！」",
+            "ja": "そこで止まれ、怪しげな二足歩行生物め！！目玉の飛び出た老人がガラクタの山の背後から飛び出し、へこんだフライパンを聖なる剣のように振り回す。「もう一歩も動くな！お前が何をしに来たか知っているぞ！俺の沼の思想を盗みに来たんだろう！さもなくば……君主派カエルのスパイだな！白状しろ、呪われた両生類め！！」"
+        },
+        "next": [
+            "recluso_opt_reward_tent",
+            "recluso_opt_camp_info",
+            "recluso_opt_calma",
+            "recluso_opt_presa",
+            "recluso_opt_sarten",
+            "recluso_opt_salir"
+        ],
+        "reward": ""
+    },
+    "recluso_menu": {
+        "type": "message",
+        "text": {
+            "es": "El recluso te vigila de reojo mientras acaricia con cariño su sartén abollada. '¿Qué más tramas, bípedo? Habla rápido antes de que Doña Sarténica se impaciente.'",
+            "en": "The hermit eyes you suspiciously while affectionately caressing his dented frying pan. 'What else are you plotting, biped? Speak quickly before Lady Skillet grows impatient.'",
+            "fr": "L'ermite te surveille du coin de l'œil tout en caressant affectueusement sa poêle cabossée. « Que trames-tu d'autre, bipède ? Parle vite avant que Dame Poêlette ne perde patience. »",
+            "it": "Il recluso ti sorveglia con la coda dell'occhio mentre accarezza con affetto la sua padella ammaccata. 'Cos'altro stai tramando, bipede? Parla in fretta prima che Donna Padellina si spazientisca.'",
+            "de": "Der Einsiedler beobachtet dich aus dem Augenwinkel, während er liebevoll seine verbeulte Bratpfanne streichelt. „Was heckst du sonst noch aus, Zweibeiner? Sprich schnell, bevor Frau Pfännchen ungeduldig wird.“",
+            "zh": "隐士用眼角余光监视着你，同时深情地抚摸着他那个凹陷的平底锅。「你还在密谋什么呢，两足动物？快说，趁平底锅小姐还没不耐烦。」",
+            "ja": "隠者は目の端でお前を見張りながら、愛おしそうにへこんだフライパンを撫でている。「他に何を企んでいるんだ、二足歩行生物め？フライパン嬢が痺れを切らす前に早く話せ」"
+        },
+        "next": [
+            "recluso_opt_reward_tent",
+            "recluso_opt_camp_info",
+            "recluso_opt_calma",
+            "recluso_opt_presa",
+            "recluso_opt_sarten",
+            "recluso_opt_salir"
+        ],
+        "reward": ""
+    },
+    "recluso_opt_reward_tent": {
+        "type": "option",
+        "text": {
+            "es": "⛺  ¡He abierto la presa! El agua ya corre por el valle",
+            "en": "⛺  I opened the dam! Water is rushing through the valley",
+            "fr": "⛺  J'ai ouvert le barrage ! L'eau coule déjà dans la vallée",
+            "it": "⛺  Ho aperto la diga! L'acqua scorre già nella valle",
+            "de": "⛺  Ich habe den Damm geöffnet! Das Wasser fließt bereits durchs Tal",
+            "zh": "⛺  我打开了水坝！水已经流入山谷了",
+            "ja": "⛺  ダムを開いたぞ！水がもう谷を流れている"
+        },
+        "next": [
+            "recluso_msg_reward_tent"
+        ],
+        "reward": "item:tent=1;flag:recluso_tent_given;gflag:recluso_tent_given;rel:1;xp:44",
+        "condition": "gflag(\"dam_opened\") and no_gflag(\"recluso_tent_given\")",
+        "once": true
+    },
+    "recluso_msg_reward_tent": {
+        "type": "message",
+        "text": {
+            "es": "'¡¡EL AGUA!! ¡¡EL RÍO HA VUELTO, BÍPEDO MILAGROSO!!' El viejo da tres saltos mortales (casi partiéndose la cadera) y abraza su sartén con lágrimas en los ojos. '¡Las ranas no han podido detenernos! ¡Por fin puedo lavarme las patachas y Doña Sarténica brilla de felicidad! Se te ve curtido, bípedo, casi pareces un guerrero de verdad y no un fantasma desmemoriado. Toma esto: ¡es mi tienda de campaña de explorador! Puedes montarla en cualquier pradera abierta para establecer tu base de operaciones y descansar. ¡Te la has ganado con creces!'",
+            "en": "'THE WATER!! THE RIVER IS BACK, MIRACULOUS BIPED!!' The old hermit performs three erratic somersaults and hugs his frying pan with tears in his eyes. 'The frogs could not stop us! Finally I can wash my feet and Lady Skillet shines with joy! You look hardened, biped—almost like a true warrior and not an amnesiac ghost. Take this: my explorer's tent! You can set it up on any open meadow to build your base of operations and rest. You've earned it!'",
+            "fr": "« L'EAU !! LA RIVIÈRE EST DE RETOUR, BIPÈDE MIRACULEUX !! » Le vieil homme fait trois cabrioles hasardeuses (manquant de se briser la hanche) et étreint sa poêle les larmes aux yeux. « Les grenouilles n'ont pas pu nous arrêter ! Je peux enfin me laver les pattounes et Dame Poêlette brille de bonheur ! Tu as l'air aguerri, bipède, tu ressembles presque à un vrai guerrier et non à un fantôme amnésique. Tiens, prends ceci : ma tente d'explorateur ! Tu peux la monter dans n'importe quelle prairie ouverte pour établir ta base d'opérations et te reposer. Tu l'as amplement méritée ! »",
+            "it": "'L'ACQUA!! IL FIUME È TORNATO, BIPEDE MIRACOLOSO!!' Il vecchio fa tre capriole scomposte (rischiando di rompersi l'anca) e abbraccia la sua padella con le lacrime agli occhi. 'Le rane non sono riuscite a fermarci! Finalmente posso lavarmi le zampette e Donna Padellina brilla di felicità! Sembri temprato, bipede, sembri quasi un vero guerriero e non un fantasma smemorato. Tieni questo: la mia tenda da esploratore! Puoi montarla in qualsiasi prato aperto per stabilire la tua base operativa e riposare. Te la sei guadagnata alla grande!'",
+            "de": "„DAS WASSER!! DER FLUSS IST ZURÜCK, WUNDERSAMER ZWEIBEINER!!“ Der alte Mann macht drei unkoordinierte Purzelbäume (fast bricht er sich die Hüfte) und umarmt seine Pfanne mit Tränen in den Augen. „Die Frösche konnten uns nicht aufhalten! Endlich kann ich mir die Pfötchen waschen, und Frau Pfännchen glänzt vor Freude! Du siehst abgehärtet aus, Zweibeiner, fast wie ein echter Krieger und nicht wie ein amnesischer Geist. Nimm das: mein Entdeckerzelt! Du kannst es auf jeder offenen Wiese aufschlagen, um deine Operationsbasis zu errichten und dich auszuruhen. Du hast es dir mehr als verdient!“",
+            "zh": "「水啊！！河水回来了，奇迹般的两足动物！！」老人做了三个笨拙的翻滚（差点摔断了髋骨），眼含泪水地抱着他的平底锅。「青蛙们没能阻止我们！我终于可以洗我的小爪子了，平底锅小姐也高兴得闪闪发光！你看起来变得坚韧了，两足动物，几乎像个真正的战士，而不是一个失忆的幽灵了。拿着这个：我的探险帐篷！你可以在任何开阔的草地上搭建它，作为你的行动基地休息。你完全配得上它！」",
+            "ja": "「水だ！！川が戻ってきたぞ、奇跡の二足歩行生物め！！」老人は三回不格好な宙返りをし（腰を折りそうになりながら）、涙を浮かべてフライパンを抱きしめる。「カエルどもは俺たちを止められなかった！ようやく足を洗えるし、フライパン嬢も幸せに輝いている！お前は鍛えられたようだな、二足歩行生物め、記憶喪失の幽霊じゃなくてほとんど本物の戦士みたいだ。これを取れ——俺の探検用テントだ！どんな開けた草原にも設置して、拠点にして休むことができる。十分に稼いだ分だぞ！」"
+        },
+        "next": [
+            "recluso_menu"
+        ],
+        "reward": ""
+    },
+    "recluso_opt_camp_info": {
+        "type": "option",
+        "text": {
+            "es": "⛺  ¿Cómo funciona el campamento base?",
+            "en": "⛺  How does the base camp work?",
+            "fr": "⛺  Comment fonctionne le camp de base ?",
+            "it": "⛺  Come funziona il campo base?",
+            "de": "⛺  Wie funktioniert das Basislager?",
+            "zh": "⛺  基地营地是怎么运作的？",
+            "ja": "⛺  ベースキャンプはどう機能する？"
+        },
+        "next": [
+            "recluso_msg_camp_info"
+        ],
+        "reward": "",
+        "condition": "gflag(\"recluso_tent_given\") or has_item(\"tent\")"
+    },
+    "recluso_msg_camp_info": {
+        "type": "message",
+        "text": {
+            "es": "'¡Escucha bien, cabeza de chorlito! Busca una pradera verde y despejada (sin casas ni obstáculos cerca) y monta tu tienda. Dentro podrás descansar y pasar el tiempo. Además, justo a su lado podrás construir una hoguera con madera para cocinar provisiones y curarte antes de entrar a la cueva del este (dun_yelmo). ¡Es tu fortaleza portátil!'",
+            "en": "'Listen well, birdbrain! Find an open meadow (clear of houses or obstacles nearby) and pitch your tent. Inside you can rest and pass the time. Plus, right next to it you can build a campfire with wood to cook food and heal before heading into the eastern cave (dun_yelmo). It's your portable fortress!'",
+            "fr": "« Écoute bien, cervelle de moineau ! Trouve une prairie verte et dégagée (sans maisons ni obstacles à proximité) et monte ta tente. À l'intérieur tu pourras te reposer et passer le temps. En plus, juste à côté tu pourras construire un feu de camp avec du bois pour cuisiner des provisions et te soigner avant d'entrer dans la grotte de l'est (dun_yelmo). C'est ta forteresse portable ! »",
+            "it": "'Ascolta bene, testa di rapa! Trova un prato verde e sgombro (senza case o ostacoli nelle vicinanze) e monta la tenda. Dentro potrai riposare e passare il tempo. Inoltre, proprio accanto potrai costruire un falò con la legna per cucinare provviste e curarti prima di entrare nella grotta a est (dun_yelmo). È la tua fortezza portatile!'",
+            "de": "„Hör gut zu, Spatzenhirn! Finde eine grüne, freie Wiese (ohne Häuser oder Hindernisse in der Nähe) und schlage dein Zelt auf. Drin kannst du dich ausruhen und die Zeit verbringen. Außerdem kannst du direkt daneben ein Lagerfeuer mit Holz bauen, um Vorräte zu kochen und dich zu heilen, bevor du in die östliche Höhle gehst (dun_yelmo). Es ist deine tragbare Festung!“",
+            "zh": "「听好了，麻雀脑袋！找一片开阔的绿色草地（附近没有房子或障碍物），把帐篷搭起来。在里面你可以休息、打发时间。而且，就在旁边，你还可以用木材生一堆篝火，用来烹饪补给品，并在进入东边的洞穴（dun_yelmo）之前恢复健康。这就是你的便携要塞！」",
+            "ja": "「よく聞け、雀の脳みそ！開けた緑の草原を見つけて（近くに家や障害物がないところ）、テントを張れ。中で休んで時間を過ごせる。それに、すぐ隣で木材を使って焚き火を作れば、食料を調理したり、東の洞窟（dun_yelmo）に入る前に体を癒したりできる。お前の携帯要塞というわけだ！」"
+        },
+        "next": [
+            "recluso_menu"
+        ],
+        "reward": ""
+    },
+    "recluso_opt_calma": {
+        "type": "option",
+        "text": {
+            "es": "🍳  Tranquilo, no soy ninguna rana...",
+            "en": "🍳  Calm down, I am not a frog...",
+            "fr": "🍳  Calme-toi, je ne suis pas une grenouille...",
+            "it": "🍳  Tranquillo, non sono una rana...",
+            "de": "🍳  Beruhige dich, ich bin kein Frosch...",
+            "zh": "🍳  冷静点，我不是什么青蛙……",
+            "ja": "🍳  落ち着け、俺はカエルじゃない……"
+        },
+        "next": [
+            "recluso_msg_calma"
+        ],
+        "reward": ""
+    },
+    "recluso_msg_calma": {
+        "type": "message",
+        "text": {
+            "es": "El viejo entrecierra los ojos a milímetros de tu nariz, oliéndote intensamente. 'Mmmm... no hueles a charca, hueles a... ¿polvo de héroe desmemoriado? ¡Bah, peor aún! ¡Esos atraen desastres! Llevo cuarenta años encerrado aquí esperando que alguien haga correr el agua por este valle reseco. ¡La sequía nos seca las neuronas, muchacho!'",
+            "en": "The old man squints inches from your nose, sniffing you intensely. 'Mmmm... you don't smell like a pond, you smell like... amnesiac hero dust? Bah, even worse! Those attract disasters! I have been locked in here for forty years waiting for someone to let the water flow through this parched valley. The drought dries up our brain cells, kid!'",
+            "fr": "Le vieil homme plisse les yeux à quelques millimètres de ton nez, te reniflant intensément. « Mmmm... tu ne sens pas la mare, tu sens... la poussière de héros amnésique ? Bah, encore pire ! Ces gens-là attirent les désastres ! Ça fait quarante ans que je suis enfermé ici, attendant que quelqu'un fasse couler l'eau dans cette vallée desséchée. La sécheresse nous assèche les neurones, mon garçon ! »",
+            "it": "Il vecchio strizza gli occhi a pochi millimetri dal tuo naso, annusandoti intensamente. 'Mmmm... non odori di stagno, odori di... polvere di eroe smemorato? Bah, ancora peggio! Quelli attirano disastri! Sono chiuso qui da quarant'anni ad aspettare che qualcuno faccia scorrere di nuovo l'acqua in questa valle arida. La siccità ci secca i neuroni, ragazzo!'",
+            "de": "Der Alte kneift die Augen wenige Millimeter von deiner Nase entfernt zusammen und schnüffelt intensiv an dir. „Hmmm... du riechst nicht nach Teich, du riechst nach... amnesischem Heldenstaub? Bah, noch schlimmer! Die ziehen Katastrophen an! Ich bin hier seit vierzig Jahren eingesperrt und warte darauf, dass jemand das Wasser durch dieses ausgetrocknete Tal fließen lässt. Die Dürre trocknet uns die Neuronen aus, Junge!“",
+            "zh": "老人眯起眼睛，凑到离你鼻子几毫米的地方，猛烈地嗅着你。「唔……你身上闻起来不像池塘，闻起来像……失忆英雄的尘埃？呸，更糟糕！那种人总招惹灾祸！我被困在这里四十年了，就等着有人让水重新流进这片干涸的山谷。干旱把我们的脑细胞都晒干了，孩子！」",
+            "ja": "老人はお前の鼻先数ミリのところで目を細め、激しく匂いを嗅ぐ。「うーむ……お前は池の匂いじゃない、記憶喪失の英雄の埃の匂いか？ふん、もっと悪いぞ！そういう奴らは災いを引き寄せる！俺はこの乾いた谷に誰かが水を流してくれるのを、四十年もここに閉じ込められて待っていたんだ。干ばつは我々の脳細胞を乾かしてしまうんだ、坊主！」"
+        },
+        "next": [
+            "recluso_menu"
+        ],
+        "reward": ""
+    },
+    "recluso_opt_presa": {
+        "type": "option",
+        "text": {
+            "es": "🌊  ¿Cómo se puede hacer que vuelva a fluir el agua?",
+            "en": "🌊  How can water be made to flow again?",
+            "fr": "🌊  Comment peut-on faire couler l'eau à nouveau ?",
+            "it": "🌊  Come si può far tornare a scorrere l'acqua?",
+            "de": "🌊  Wie kann man das Wasser wieder zum Fließen bringen?",
+            "zh": "🌊  怎样才能让水重新流动起来？",
+            "ja": "🌊  どうすれば水を再び流せる？"
+        },
+        "next": [
+            "recluso_msg_presa"
+        ],
+        "reward": "",
+        "condition": "no_gflag(\"dam_opened\")"
+    },
+    "recluso_msg_presa": {
+        "type": "message",
+        "text": {
+            "es": "'¡¡LA PRESA, CABEZA DE MELÓN!!' Te golpea la frente suavemente con la sartén haciendo un cómico CLANG. 'Al este de aquí están las compuertas colosales de la Presa de Yelmo. El mecanismo está bloqueado desde el Gran Cataclismo, cortando el paso del río. Si alguien tuviera el valor de activar la palanca... ¡zas! El agua volvería a fluir por todo el valle y la vida regresaría a estas tierras. ¡Pero cuidado con los bichos sedientos!'",
+            "en": "'THE DAM, MELON HEAD!!' He gently bonks your forehead with the frying pan with a comical CLANG. 'East of here lie the colossal floodgates of Helm Dam. The mechanism has been locked since the Great Cataclysm, blocking the river flow. If someone had the guts to trigger the lever... bam! Water would rush back into the whole valley and life would return. But beware the thirsty beasts!'",
+            "fr": "« LE BARRAGE, TÊTE DE MELON !! » Il te tape doucement le front avec la poêle en faisant un comique CLANG. « À l'est d'ici se trouvent les vannes colossales du Barrage du Heaume. Le mécanisme est bloqué depuis le Grand Cataclysme, coupant le passage du fleuve. Si quelqu'un avait le courage d'activer le levier... pan ! L'eau se remettrait à couler dans toute la vallée et la vie reviendrait sur ces terres. Mais méfie-toi des bêtes assoiffées ! »",
+            "it": "'LA DIGA, TESTA DI MELONE!!' Ti colpisce delicatamente la fronte con la padella facendo un comico CLANG. 'A est di qui ci sono le colossali paratoie della Diga dell'Elmo. Il meccanismo è bloccato dal Grande Cataclisma, tagliando il passaggio del fiume. Se qualcuno avesse il coraggio di attivare la leva... zac! L'acqua tornerebbe a scorrere per tutta la valle e la vita tornerebbe in queste terre. Ma attento alle bestie assetate!'",
+            "de": "„DER DAMM, MELONENKOPF!!“ Er klopft dir sanft mit der Pfanne auf die Stirn und macht ein komisches KLONG. „Östlich von hier befinden sich die kolossalen Schleusen des Helmdamms. Der Mechanismus ist seit dem Großen Kataklysmus blockiert und unterbricht den Flusslauf. Wenn jemand den Mut hätte, den Hebel zu betätigen... peng! Das Wasser würde wieder durch das ganze Tal fließen und Leben würde in diese Lande zurückkehren. Aber hüte dich vor den durstigen Bestien!“",
+            "zh": "「水坝啊，甜瓜脑袋！！」他用平底锅轻轻敲了敲你的额头，发出滑稽的「咣」一声。「从这里往东走，就是头盔水坝那巨大的水闸。自从大灾变以来，这套机制就一直被锁住，切断了河流的流动。如果有人有勇气去触发那根拉杆……砰！水就会重新流遍整个山谷，生命也会回到这片土地上。但要小心那些口渴的野兽！」",
+            "ja": "「ダムだ、メロン頭め！！」フライパンで額を軽く叩き、コミカルなカーンという音を立てる。「ここから東に、兜のダムの巨大な水門がある。仕組みは大災厄以来ロックされていて、川の流れを止めているんだ。もし誰かがレバーを起動する勇気を持っていたら……ドカン！水は谷全体に再び流れ込み、この土地に生命が戻ってくる。だが渇いた獣どもに気をつけろ！」"
+        },
+        "next": [
+            "recluso_menu"
+        ],
+        "reward": ""
+    },
+    "recluso_opt_sarten": {
+        "type": "option",
+        "text": {
+            "es": "🍳  ¿Me prestas esa sartén?",
+            "en": "🍳  Can I borrow that frying pan?",
+            "fr": "🍳  Tu me prêtes cette poêle ?",
+            "it": "🍳  Mi presti quella padella?",
+            "de": "🍳  Kann ich mir diese Bratpfanne ausleihen?",
+            "zh": "🍳  能把那个平底锅借给我吗？",
+            "ja": "🍳  そのフライパンを貸してくれるか？"
+        },
+        "next": [
+            "recluso_msg_sarten"
+        ],
+        "reward": ""
+    },
+    "recluso_msg_sarten": {
+        "type": "message",
+        "text": {
+            "es": "'¡¡JAMÁS!! ¡Doña Sarténica es mi única amiga leal, mi escudo contra las radiaciones astrales y mi tostadora de escarabajos! ¡Consíguete tu propia arma legendaria de cocina!'",
+            "en": "'NEVER!! Lady Skillet is my only loyal friend, my shield against astral radiation, and my beetle toaster! Go get your own legendary kitchen cutlery!'",
+            "fr": "« JAMAIS !! Dame Poêlette est ma seule amie loyale, mon bouclier contre les radiations astrales et mon grille-scarabée ! Trouve-toi ta propre arme légendaire de cuisine ! »",
+            "it": "'MAI!! Donna Padellina è la mia unica amica leale, il mio scudo contro le radiazioni astrali e il mio tostascarafaggi! Procurati la tua arma leggendaria da cucina!'",
+            "de": "„NIEMALS!! Frau Pfännchen ist meine einzige treue Freundin, mein Schild gegen astrale Strahlung und mein Käfertoaster! Besorg dir deine eigene legendäre Küchenwaffe!“",
+            "zh": "「绝不可能！！平底锅小姐是我唯一忠诚的朋友，是我抵御星辰辐射的盾牌，也是我的甲虫烤箱！自己去弄一把传说级的厨房武器吧！」",
+            "ja": "「絶対にだめだ！！フライパン嬢は俺の唯一の忠実な友達で、星の放射線から守る盾で、カブトムシ焼き器なんだぞ！自分の伝説の台所武器を手に入れろ！」"
+        },
+        "next": [
+            "recluso_menu"
+        ],
+        "reward": ""
+    },
+    "recluso_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  (Retroceder despacio sin hacer movimientos bruscos)",
+            "en": "🚶  (Back away slowly without sudden movements)",
+            "fr": "🚶  (Reculer lentement sans mouvements brusques)",
+            "it": "🚶  (Indietreggiare lentamente senza movimenti bruschi)",
+            "de": "🚶  (Langsam zurückweichen, ohne plötzliche Bewegungen)",
+            "zh": "🚶  （慢慢后退，不做突然的动作）",
+            "ja": "🚶  （急な動きをせず、ゆっくりと後退する）"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

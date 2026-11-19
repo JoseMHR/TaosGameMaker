@@ -1,0 +1,298 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "Campamento Desierto",
+            "en": "Desert Campsite",
+            "fr": "Campement du Désert",
+            "it": "Accampamento nel Deserto",
+            "de": "Wüstenlager",
+            "zh": "沙漠营地",
+            "ja": "砂漠の野営地"
+        },
+        "next": [],
+        "reward": "bg=0.12,0.09,0.04"
+    },
+    "intro": {
+        "type": "message",
+        "text": {
+            "es": "Los rescoldos de una hoguera aún tibia. Una olla de hierro chamuscada, volcada sobre la arena. Y, medio enterrado, un cuaderno de cocina abierto por una página manchada de algo que prefieres no identificar. Quienquiera que acampara aquí se marchó con muchísima prisa, a juzgar por la bota que dejó atrás. Solo una.",
+            "en": "The embers of a still-warm campfire. A scorched iron pot, tipped over in the sand. And, half-buried, a cooking notebook open to a page stained with something you'd rather not identify. Whoever camped here left in a tremendous hurry, judging by the boot they left behind. Just the one.",
+            "fr": "Les braises d'un feu de camp encore tièdes. Une marmite en fer calcinée, renversée dans le sable. Et, à moitié enterré, un carnet de cuisine ouvert à une page tachée de quelque chose que tu préfères ne pas identifier. Quiconque a campé ici est parti dans une hâte folle, à en juger par la botte qu'il a laissée derrière lui. Une seule.",
+            "it": "Le braci di un falò ancora tiepide. Una pentola di ferro bruciacchiata, rovesciata nella sabbia. E, mezzo sepolto, un quaderno di cucina aperto su una pagina macchiata di qualcosa che preferisci non identificare. Chiunque abbia accampato qui è partito con grandissima fretta, a giudicare dallo stivale che ha lasciato indietro. Solo uno.",
+            "de": "Die Glut eines noch warmen Lagerfeuers. Ein verkohlter Eisentopf, umgekippt im Sand. Und, halb vergraben, ein Kochbuch, aufgeschlagen auf einer Seite, befleckt mit etwas, das du lieber nicht identifizierst. Wer auch immer hier campiert hat, ist in großer Eile aufgebrochen, zu urteilen nach dem Stiefel, den er zurückließ. Nur einer.",
+            "zh": "一堆仍有余温的篝火余烬。一口烧焦的铁锅，倒扣在沙地上。还有一本半埋在沙里的烹饪笔记本，翻开在一页沾着某种你宁愿不去辨认的东西的地方。不管是谁在这里扎营，都走得极其匆忙——从他留下的靴子来看。只有一只。",
+            "ja": "まだ温かい焚き火の残り火。砂に転がった焦げた鉄鍋。そして半分埋もれた料理ノートが、正体を確かめたくない何かで汚れたページで開かれている。ここで野営していた者が誰であれ、残していったブーツから判断するに、大慌てで去ったようだ。片方だけ。"
+        },
+        "next": [
+            "act_read",
+            "act_search",
+            "act_clean",
+            "back"
+        ],
+        "condition": "not_discovered(\"poi_campamento_desierto\")"
+    },
+    "act_read": {
+        "type": "option",
+        "text": {
+            "es": "📖  Leer la trágica receta en el cuaderno de cocina",
+            "en": "📖  Read the tragic recipe in the culinary journal",
+            "fr": "📖  Lire la recette tragique dans le carnet de cuisine",
+            "it": "📖  Leggere la tragica ricetta nel quaderno di cucina",
+            "de": "📖  Das tragische Rezept im Kochbuch lesen",
+            "zh": "📖  阅读烹饪笔记本上那段悲剧的食谱",
+            "ja": "📖  料理ノートの悲劇的なレシピを読む"
+        },
+        "next": [
+            "res"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "res": {
+        "type": "message",
+        "text": {
+            "es": "«Estofado de Escorpión y Dátiles», reza el título, seguido de instrucciones detalladas y una caligrafía cada vez más nerviosa. Al final, subrayado tres veces y con tanta fuerza que rasgó el papel: «EL AGUIJÓN NO. REPITO: EL AGUIJÓN. NO.». Debajo, una única palabra emborronada: «...ay». Ahora entiendes lo de la bota y la huida a la pata coja. La anatomía gastronómica del desierto queda grabada en tu memoria.",
+            "en": "«Scorpion & Date Stew», reads the title, followed by detailed instructions and increasingly nervous handwriting. At the end, underlined three times and hard enough to tear the paper: «NOT THE STINGER. I REPEAT: THE STINGER. NOT.». Below it, a single smudged word: «...ow». Now you understand the lone boot and the frantic one-legged sprint. Desert culinary biology is etched in your mind.",
+            "fr": "« Ragoût de Scorpion et Dattes », dit le titre, suivi d'instructions détaillées et d'une écriture de plus en plus nerveuse. À la fin, souligné trois fois et avec tant de force que le papier s'est déchiré : « PAS LE DARD. JE RÉPÈTE : LE DARD. NON. » En dessous, un seul mot maculé : « ...aïe ». Tu comprends maintenant l'histoire de la botte et la fuite à cloche-pied. La biologie culinaire du désert est gravée dans ta mémoire.",
+            "it": "'Stufato di Scorpione e Datteri', recita il titolo, seguito da istruzioni dettagliate e da una calligrafia sempre più nervosa. Alla fine, sottolineato tre volte e con tanta forza da strappare la carta: 'NON IL PUNGIGLIONE. RIPETO: IL PUNGIGLIONE. NO.' Sotto, un'unica parola sbavata: '...ahi'. Ora capisci la storia dello stivale e la fuga zoppicante. La biologia gastronomica del deserto è impressa nella tua memoria.",
+            "de": "„Skorpion-Dattel-Eintopf“, lautet der Titel, gefolgt von detaillierten Anweisungen und zunehmend nervöser Handschrift. Am Ende, dreimal unterstrichen und so kräftig, dass das Papier riss: „NICHT DEN STACHEL. ICH WIEDERHOLE: DEN STACHEL. NICHT.“ Darunter, ein einziges verwischtes Wort: „...au“. Jetzt verstehst du die Geschichte mit dem Stiefel und der humpelnden Flucht. Die kulinarische Biologie der Wüste hat sich in dein Gedächtnis eingebrannt.",
+            "zh": "「蝎子椰枣炖菜」，标题写道，随后是详细的做法说明，字迹越来越紧张。最后，被划了三条下划线，力道大得撕破了纸张：「不要毒针。我重复一遍：毒针。不要碰。」下面，一个模糊的字：「……哎呀。」你现在明白了那只靴子和单脚跳着逃跑的故事。沙漠美食生物学从此深深刻在了你的记忆中。",
+            "ja": "「サソリとナツメヤシの煮込み」というタイトルの後に、詳細な手順とますます神経質になっていく筆跡が続く。最後には三重に、紙が破れるほど強く下線が引かれている——「針はダメだ。繰り返す、針。ダメだ」その下には、にじんだ一言：「……いてっ」これで、片方だけのブーツと片足で逃げ出した理由が理解できる。砂漠の料理生物学がお前の記憶に刻まれる。"
+        },
+        "next": [
+            "intro_r"
+        ],
+        "reward": "xp:20;faceta:inteligencia=+1;discover:poi_campamento_desierto"
+    },
+    "act_search": {
+        "type": "option",
+        "text": {
+            "es": "🔍  (Rebuscar entre los fardos y alforjas semienterradas)",
+            "en": "🔍  (Scavenge through the half-buried packs and saddlebags)",
+            "fr": "🔍  (Fouiller parmi les balluchons et les sacoches à moitié enterrés)",
+            "it": "🔍  (Rovistare tra i fagotti e le bisacce mezzo sepolte)",
+            "de": "🔍  (Die halb vergrabenen Bündel und Satteltaschen durchsuchen)",
+            "zh": "🔍  （在半埋的行李和鞍袋中翻找）",
+            "ja": "🔍  （半分埋もれた荷物と鞍袋を漁る）"
+        },
+        "next": [
+            "res_search"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "res_search": {
+        "type": "message",
+        "text": {
+            "es": "Remueves la arena junto a la lona y das con una petaca de hojalata sellada que contiene dátiles confitados en miel aún en perfecto estado, junto a una bolsa con 30 monedas de oro que el cocinero olvidó en su huida despavorida. Tu agudeza exploradora salva provisiones de primera categoría.",
+            "en": "Sifting sand beneath the canvas, you turn up an airtight tin preserving honey-glazed desert dates in prime condition, alongside a coin pouch with 30 gold coins the cook abandoned in his panicked sprint. Your scavenging savvy secures first-rate trail provisions.",
+            "fr": "Tu remues le sable près de la bâche et trouves une petite gourde en fer-blanc scellée contenant des dattes confites au miel encore en parfait état, ainsi qu'une bourse de 30 pièces d'or que le cuisinier a oubliée dans sa fuite éperdue. Ta perspicacité d'explorateur sauve des provisions de première qualité.",
+            "it": "Rimuovi la sabbia accanto al telone e trovi una piccola fiaschetta di latta sigillata contenente datteri canditi al miele ancora in perfette condizioni, insieme a una sacca con 30 monete d'oro che il cuoco dimenticò nella sua fuga precipitosa. La tua astuzia da esploratore salva provviste di prima categoria.",
+            "de": "Du wühlst den Sand neben der Plane um und findest eine versiegelte Blechdose mit honigkandierten Datteln in perfektem Zustand, zusammen mit einem Beutel mit 30 Goldmünzen, die der Koch bei seiner panischen Flucht vergaß. Deine Entdeckerklugheit rettet erstklassige Vorräte.",
+            "zh": "你在帆布旁翻动沙子，发现了一个密封的锡罐，里面装着依然完好的蜂蜜蜜饯椰枣，还有一个装着30枚金币的袋子，那是厨师在惊慌逃跑时遗忘的。你敏锐的探索本能拯救了这些一流的补给品。",
+            "ja": "帆布の傍らの砂をかき分けると、まだ完璧な状態の蜂蜜漬けナツメヤシが入った密閉された缶と、慌てふためいた逃走の際にコックが忘れていった金貨30枚入りの袋を見つける。お前の探索者としての鋭さが一級の物資を救う。"
+        },
+        "next": [
+            "intro_r"
+        ],
+        "reward": "faceta:valor=+1;gold:+30;heal:35"
+    },
+    "act_clean": {
+        "type": "option",
+        "text": {
+            "es": "🧹  (Sofocar bien los rescoldos con arena para proteger las acacias del oasis)",
+            "en": "🧹  (Smother the embers thoroughly with sand to protect the oasis palms)",
+            "fr": "🧹  (Bien étouffer les braises avec du sable pour protéger les acacias de l'oasis)",
+            "it": "🧹  (Soffocare bene le braci con la sabbia per proteggere le acacie dell'oasi)",
+            "de": "🧹  (Die Glut gründlich mit Sand ersticken, um die Akazien der Oase zu schützen)",
+            "zh": "🧹  （用沙子彻底扑灭余烬，保护绿洲的金合欢树）",
+            "ja": "🧹  （オアシスのアカシアを守るため、砂で残り火をしっかり消す）"
+        },
+        "next": [
+            "res_clean"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "res_clean": {
+        "type": "message",
+        "text": {
+            "es": "Palas arena con esmero sobre las brasas ardientes hasta que el humo cesa por completo. Prevenir un incendio en un ecosistema tan frágil es el deber de cualquier viajero honorable. Tu respeto hacia el entorno silvestre ennoblece tu carácter.",
+            "en": "You spade grit deliberately across the glowing coals until all embers die. Preventing brushfires in such a fragile biome is the solemn charge of any true ranger. Your mindful stewardship of the wilderness ennobles your character.",
+            "fr": "Tu pelletes soigneusement du sable sur les braises ardentes jusqu'à ce que la fumée cesse complètement. Prévenir un incendie dans un écosystème aussi fragile est le devoir de tout voyageur honorable. Ton respect envers l'environnement sauvage ennoblit ton caractère.",
+            "it": "Spali con cura sabbia sulle braci ardenti finché il fumo non cessa del tutto. Prevenire un incendio in un ecosistema così fragile è il dovere di ogni viaggiatore onorevole. Il tuo rispetto per l'ambiente selvaggio nobilita il tuo carattere.",
+            "de": "Du schaufelst sorgfältig Sand über die glühenden Kohlen, bis der Rauch vollständig aufhört. Einen Brand in einem so fragilen Ökosystem zu verhindern, ist die Pflicht jedes ehrenhaften Reisenden. Dein Respekt vor der wilden Umgebung adelt deinen Charakter.",
+            "zh": "你仔细地把沙子铲到灼热的炭火上，直到烟雾完全停止。防止在如此脆弱的生态系统中发生火灾，是每一位光荣旅人的责任。你对野外环境的尊重使你的品格更加高尚。",
+            "ja": "煙が完全に止まるまで、丁寧に砂を燃える炭にかける。これほど脆弱な生態系での火事を防ぐことは、名誉ある旅人の厳粛な務めだ。荒野への配慮がお前の人格を高める。"
+        },
+        "next": [
+            "intro_r"
+        ],
+        "reward": "faceta:bondad=+1"
+    },
+    "intro_r": {
+        "type": "message",
+        "text": {
+            "es": "El campamento abandonado sigue en calma bajo el sol abrasador del desierto. La lona flamea suavemente con la brisa cálida y los fardos semienterrados ofrecen un rincón resguardado en el mar de dunas.",
+            "en": "The abandoned campsite rests quiet beneath the blazing desert sun. The tarp flutters softly in the hot breeze and half-buried packs provide a sheltered nook in the sea of dunes.",
+            "fr": "Le campement abandonné reste calme sous le soleil brûlant du désert. La bâche flotte doucement dans la brise chaude et les balluchons à moitié enterrés offrent un coin abrité dans cette mer de dunes.",
+            "it": "L'accampamento abbandonato resta tranquillo sotto il sole cocente del deserto. Il telone svolazza dolcemente nella brezza calda e i fagotti mezzo sepolti offrono un angolo riparato nel mare di dune.",
+            "de": "Das verlassene Lager liegt ruhig unter der glühenden Wüstensonne. Die Plane flattert sanft in der warmen Brise, und die halb vergrabenen Bündel bieten eine geschützte Ecke im Dünenmeer.",
+            "zh": "这座废弃的营地在灼热的沙漠阳光下静静矗立着。帆布在温暖的微风中轻轻飘动，半埋的行李在这片沙丘之海中提供了一处避风的角落。",
+            "ja": "放棄された野営地は、灼熱の砂漠の太陽の下で静かに佇んでいる。帆布は温かい風にそよぎ、半分埋もれた荷物が砂丘の海の中に守られた一角を提供している。"
+        },
+        "next": [
+            "act_r_recipe",
+            "act_r_rest",
+            "act_r_aid",
+            "act_r_sift",
+            "back"
+        ],
+        "condition": "discovered(\"poi_campamento_desierto\")"
+    },
+    "act_r_recipe": {
+        "type": "option",
+        "text": {
+            "es": "📖  Repasar el cuaderno para estudiar trucos de supervivencia culinaria del desierto",
+            "en": "📖  Review the culinary notes to study desert survival cooking tricks",
+            "fr": "📖  Revoir le carnet pour étudier des astuces de survie culinaire dans le désert",
+            "it": "📖  Rileggere il quaderno per studiare trucchi di sopravvivenza culinaria del deserto",
+            "de": "📖  Das Kochbuch erneut durchsehen, um Tricks zum kulinarischen Überleben in der Wüste zu lernen",
+            "zh": "📖  重新翻阅笔记本，学习沙漠烹饪生存技巧",
+            "ja": "📖  砂漠のサバイバル料理の技を学ぶためノートを見直す"
+        },
+        "next": [
+            "res_r_recipe"
+        ],
+        "reward": ""
+    },
+    "res_r_recipe": {
+        "type": "message",
+        "text": {
+            "es": "Lees atentamente los márgenes del recetario: cómo extraer agua limpia de los cactus espinosos, qué raíces arenosas aplacan la fiebre y cómo cocinar la carne dura de reptil. Integrar estos conocimientos afina tu intelecto y astucia de explorador.",
+            "en": "You carefully read the notebook margins: extracting pure moisture from thorny cacti, soothing fevers with tuber roots, and tenderizing tough reptile meat. Absorbing this lore sharpens your intellect and wilderness wits.",
+            "fr": "Tu lis attentivement les marges du recueil de recettes : comment extraire de l'eau pure des cactus épineux, quelles racines sablonneuses apaisent la fièvre et comment cuisiner la viande dure de reptile. Intégrer ces connaissances affine ton intellect et ton astuce d'explorateur.",
+            "it": "Leggi con attenzione i margini del ricettario: come estrarre acqua pulita dai cactus spinosi, quali radici sabbiose placano la febbre e come cucinare la carne dura di rettile. Integrare queste conoscenze affina il tuo intelletto e la tua astuzia da esploratore.",
+            "de": "Du liest aufmerksam die Randnotizen des Kochbuchs: wie man aus dornigen Kakteen sauberes Wasser gewinnt, welche sandigen Wurzeln Fieber lindern und wie man zähes Reptilienfleisch zubereitet. Dieses Wissen zu verinnerlichen schärft deinen Verstand und deine Entdeckerschlauheit.",
+            "zh": "你仔细阅读食谱边缘的批注：如何从多刺的仙人掌中提取洁净的水，哪些沙地根茎能退烧，以及如何烹饪坚韧的爬行动物肉。吸收这些知识磨砺了你的智慧和探索者的机敏。",
+            "ja": "レシピの余白を注意深く読む——棘だらけのサボテンからきれいな水を採取する方法、どの砂地の根が熱を和らげるか、そして硬い爬虫類の肉を調理する方法。この知識を吸収することで、知性と探索者としての機知が磨かれる。"
+        },
+        "next": [
+            "intro_r"
+        ],
+        "reward": "faceta:inteligencia=+1;xp:15"
+    },
+    "act_r_rest": {
+        "type": "option",
+        "text": {
+            "es": "⛺  Descansar a la sombra de la lona y hervir una infusión reparadora",
+            "en": "⛺  Rest under the canvas shade and brew a soothing herbal tea",
+            "fr": "⛺  Se reposer à l'ombre de la bâche et faire bouillir une infusion réparatrice",
+            "it": "⛺  Riposare all'ombra del telone e far bollire un infuso ristoratore",
+            "de": "⛺  Sich im Schatten der Plane ausruhen und einen erholsamen Kräutertee aufbrühen",
+            "zh": "⛺  在帆布的阴凉下休息，煮一壶恢复元气的茶饮",
+            "ja": "⛺  帆布の日陰で休み、癒しのハーブティーを淹れる"
+        },
+        "next": [
+            "res_r_rest"
+        ],
+        "reward": ""
+    },
+    "res_r_rest": {
+        "type": "message",
+        "text": {
+            "es": "Aprovechas la sombra de la lona para resguardarte del sol implacable. Calientas un trago de agua con dátiles en la olla limpia y te descalzas un momento sobre la arena fresca del fondo. La pausa te devuelve el vigor y sosiega tus pensamientos.",
+            "en": "You take advantage of the shade to escape the unforgiving sun. You brew water with dates in the cleansed pot and rest your feet upon the cool deep sand. The respite restores your vigor and soothes your thoughts.",
+            "fr": "Tu profites de l'ombre de la bâche pour t'abriter du soleil implacable. Tu fais chauffer une gorgée d'eau avec des dattes dans la marmite propre et te déchausses un moment sur le sable frais du fond. La pause te redonne de la vigueur et apaise tes pensées.",
+            "it": "Approfitti dell'ombra del telone per ripararti dal sole implacabile. Scaldi un sorso d'acqua con datteri nella pentola pulita e ti scalzi un momento sulla sabbia fresca del fondo. La pausa ti restituisce vigore e placa i tuoi pensieri.",
+            "de": "Du nutzt den Schatten der Plane, um dich vor der gnadenlosen Sonne zu schützen. Du erwärmst einen Schluck Wasser mit Datteln im sauberen Topf und ziehst dir für einen Moment die Schuhe auf dem kühlen tiefen Sand aus. Die Pause bringt dir neue Kraft und beruhigt deine Gedanken.",
+            "zh": "你利用帆布的阴凉躲避无情的烈日。你在洗净的锅中用椰枣煮了一口热水，还在下面凉爽的沙子上脱下鞋子休息了片刻。这段休息恢复了你的活力，也平静了你的思绪。",
+            "ja": "帆布の日陰を利用して容赦ない太陽から逃れる。清潔な鍋でナツメヤシと水を温め、底の涼しい砂の上でしばらく靴を脱いで休む。この休息が活力を取り戻し、思考を落ち着かせる。"
+        },
+        "next": [
+            "intro_r"
+        ],
+        "reward": "heal:40;faceta:cordura=+1;xp:10"
+    },
+    "act_r_aid": {
+        "type": "option",
+        "text": {
+            "es": "🩹  Dejar una venda limpia y agua fresca junto a la bota abandonada",
+            "en": "🩹  Leave a clean bandage and fresh water beside the abandoned boot",
+            "fr": "🩹  Laisser un bandage propre et de l'eau fraîche près de la botte abandonnée",
+            "it": "🩹  Lasciare una benda pulita e acqua fresca accanto allo stivale abbandonato",
+            "de": "🩹  Einen sauberen Verband und frisches Wasser neben dem verlassenen Stiefel hinterlassen",
+            "zh": "🩹  在那只被遗弃的靴子旁留下干净的绷带和清水",
+            "ja": "🩹  捨てられたブーツの傍らに清潔な包帯と新鮮な水を残す"
+        },
+        "next": [
+            "res_r_aid"
+        ],
+        "reward": ""
+    },
+    "res_r_aid": {
+        "type": "message",
+        "text": {
+            "es": "Por si el desdichado cocinero regresa algún día cojeando a por sus utensilios, dejas un vendaje esterilizado y un odre con agua fresca. Mostrar bondad desinteresada en la aridez del desierto ennoblece tu espíritu de aventurero.",
+            "en": "In case the unfortunate cook ever hobbles back to retrieve his gear, you leave a sterile bandage and a flask of fresh water. Showing selfless kindness in the harshness of the desert ennobles your adventurer spirit.",
+            "fr": "Au cas où le malheureux cuisinier reviendrait un jour clopinant récupérer ses ustensiles, tu laisses un bandage stérilisé et une outre d'eau fraîche. Faire preuve de bonté désintéressée dans l'aridité du désert ennoblit ton esprit d'aventurier.",
+            "it": "Nel caso il malcapitato cuoco tornasse un giorno zoppicando a recuperare i suoi utensili, lasci una benda sterilizzata e un otre d'acqua fresca. Mostrare bontà disinteressata nell'aridità del deserto nobilita il tuo spirito d'avventuriero.",
+            "de": "Für den Fall, dass der unglückliche Koch eines Tages humpelnd zurückkehrt, um seine Utensilien zu holen, hinterlässt du einen sterilen Verband und einen Schlauch mit frischem Wasser. Selbstlose Güte in der Trockenheit der Wüste zu zeigen, adelt deinen Abenteurergeist.",
+            "zh": "以防那位不幸的厨师有朝一日一瘸一拐地回来取回他的用具，你留下了一条消过毒的绷带和一袋清水。在沙漠的荒芜中展现无私的善意，使你的冒险者精神更加高尚。",
+            "ja": "不運なコックがいつか道具を取りに片足で戻ってくるかもしれないので、消毒された包帯と新鮮な水の入った水筒を残す。砂漠の過酷さの中で無私の優しさを示すことは、お前の冒険者としての精神を高める。"
+        },
+        "next": [
+            "intro_r"
+        ],
+        "reward": "faceta:bondad=+1;xp:15"
+    },
+    "act_r_sift": {
+        "type": "option",
+        "text": {
+            "es": "🔍  Remover la arena con la punta de la bota buscando objetos caídos",
+            "en": "🔍  Sift the sand with your boot tip searching for dropped items",
+            "fr": "🔍  Remuer le sable du bout de la botte à la recherche d'objets tombés",
+            "it": "🔍  Rimuovere la sabbia con la punta dello stivale cercando oggetti caduti",
+            "de": "🔍  Den Sand mit der Stiefelspitze durchwühlen und nach heruntergefallenen Gegenständen suchen",
+            "zh": "🔍  用靴尖翻动沙子，寻找掉落的物品",
+            "ja": "🔍  落ちた物を探してブーツの先で砂をかき混ぜる"
+        },
+        "next": [
+            "res_r_sift"
+        ],
+        "reward": ""
+    },
+    "res_r_sift": {
+        "type": "message",
+        "text": {
+            "es": "Pateas la arena removida cerca del fogón. Entre la ceniza fría descubres una bolsa de especias del oasis intacta y 20 monedas de oro que rodaron durante la precipitada estampida. Tu tenaz perseverancia es recompensada.",
+            "en": "You kick through the churned sand near the firepit. Amid cool ash you uncover a pouch of pristine oasis spices and 20 gold coins lost in the frantic stampede. Your stubborn perseverance is rewarded.",
+            "fr": "Tu donnes des coups de pied dans le sable remué près du foyer. Parmi les cendres froides, tu découvres un sachet d'épices d'oasis intact et 20 pièces d'or qui ont roulé pendant la débandade précipitée. Ta persévérance tenace est récompensée.",
+            "it": "Dai calci alla sabbia smossa vicino al focolare. Tra la cenere fredda scopri un sacchetto di spezie dell'oasi intatto e 20 monete d'oro rotolate durante la fuga precipitosa. La tua tenace perseveranza è ricompensata.",
+            "de": "Du trittst durch den aufgewühlten Sand in der Nähe der Feuerstelle. Zwischen der kalten Asche entdeckst du einen unversehrten Beutel mit Oasengewürzen und 20 Goldmünzen, die während der hastigen Flucht rollten. Deine hartnäckige Ausdauer wird belohnt.",
+            "zh": "你踢了踢炉灶附近被翻动过的沙子。在冷灰之中，你发现了一袋完好无损的绿洲香料，以及在慌乱逃跑中滚落的20枚金币。你坚韧不拔的毅力得到了回报。",
+            "ja": "炉の近くの掻き乱された砂を蹴る。冷たい灰の中に、無傷のオアシス香辛料の袋と、慌ただしい逃走の際に転がった金貨20枚を見つける。粘り強い忍耐が報われる。"
+        },
+        "next": [
+            "intro_r"
+        ],
+        "reward": "faceta:valor=+1;gold:+20;xp:10"
+    },
+    "back": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Marcharse",
+            "en": "🚶  Leave",
+            "fr": "🚶  Partir",
+            "it": "🚶  Andarsene",
+            "de": "🚶  Gehen",
+            "zh": "🚶  离开",
+            "ja": "🚶  立ち去る"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

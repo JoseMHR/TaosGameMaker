@@ -1,0 +1,26 @@
+{
+    "id": "poi_gloriam_taberna",
+    "type": "poi",
+    "icon": "🍹",
+    "name": {
+        "es": "Taberna del Espejismo",
+        "en": "Mirage Tavern",
+        "fr": "Taverne du Mirage",
+        "it": "Taverna del Miraggio",
+        "de": "Fata-Morgana-Taverne",
+        "zh": "海市蜃楼酒馆",
+        "ja": "蜃気楼酒場"
+    },
+    "desc": {
+        "es": "Bebidas frías de dátiles y descanso para viajeros de las arenas",
+        "en": "Cold date drinks and rest for desert wanderers",
+        "fr": "Boissons fraîches aux dattes et repos pour les voyageurs des sables",
+        "it": "Bevande fresche ai datteri e riposo per i viandanti delle sabbie",
+        "de": "Kalte Dattelgetränke und Rast für Wüstenwanderer",
+        "zh": "冰凉的椰枣饮品，供沙漠旅人歇息",
+        "ja": "冷たいナツメヤシの飲み物と、砂漠の旅人のための休息"
+    },
+    "kind": "tavern",
+    "npc": "gloriam_tabernero",
+    "bg": "bg_city_gloriam_taberna.png"
+}

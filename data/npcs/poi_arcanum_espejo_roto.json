@@ -1,0 +1,149 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Espejo Agrietado",
+            "en": "The Cracked Mirror",
+            "fr": "Le Miroir Fissuré",
+            "it": "Lo Specchio Incrinato",
+            "de": "Der Gesprungene Spiegel",
+            "zh": "裂缝之镜",
+            "ja": "ひび割れた鏡"
+        },
+        "next": [],
+        "reward": "bg=0.05,0.05,0.07"
+    },
+    "esp_root": {
+        "type": "message",
+        "text": {
+            "es": "Un espejo de cuerpo entero, con el marco dorado descascarillado, se alza solo y absurdo en mitad del páramo tóxico. Una grieta larga lo cruza en diagonal. Al pasar por delante, tu reflejo aparece con un retraso de medio segundo, como si le costara decidirse a imitarte. Y cuando por fin te copia, el que hay al otro lado del cristal no lleva armadura de héroe: lleva una bata blanca.",
+            "en": "A full-length mirror, its gilded frame flaking, stands alone and absurd in the middle of the toxic badlands. A long crack crosses it diagonally. As you pass in front of it, your reflection appears half a second late, as if reluctant to imitate you. And when it finally copies you, the one on the other side of the glass wears no hero's armor: he wears a white coat.",
+            "fr": "Un miroir en pied, au cadre doré écaillé, se dresse seul et absurde au milieu du désert toxique. Une longue fissure le traverse en diagonale. En passant devant, ton reflet apparaît avec un demi-seconde de retard, comme s'il hésitait à t'imiter. Et quand il finit par te copier, celui de l'autre côté de la vitre ne porte pas d'armure de héros : il porte une blouse blanche.",
+            "it": "Uno specchio a figura intera, con la cornice dorata scrostata, si erge solo e assurdo in mezzo alla landa tossica. Una lunga crepa lo attraversa in diagonale. Passandogli davanti, il tuo riflesso appare con mezzo secondo di ritardo, come se esitasse a imitarti. E quando finalmente ti copia, quello dall'altra parte del vetro non indossa un'armatura da eroe: indossa un camice bianco.",
+            "de": "Ein Standspiegel mit abblätterndem goldenem Rahmen steht einsam und absurd mitten im toxischen Ödland. Ein langer Riss durchzieht ihn diagonal. Wenn du davor vorbeigehst, erscheint dein Spiegelbild eine halbe Sekunde verzögert, als würde es zögern, dich nachzuahmen. Und wenn es dich schließlich kopiert, trägt derjenige auf der anderen Seite des Glases keine Heldenrüstung: er trägt einen weißen Kittel.",
+            "zh": "一面金色画框已经剥落的全身镜，孤零零、荒谬地矗立在这片有毒荒原的中央。一道长长的裂缝斜穿而过。当你走过它面前时，你的倒影会延迟半秒才出现，仿佛它不太情愿模仿你。而当它终于映出你的样子时，玻璃另一侧的那个人穿的不是英雄的盔甲：而是一件白大褂。",
+            "ja": "金色の額縁が剥がれ落ちた姿見が、有毒な荒野の真ん中に一枚だけ、不条理に立っている。長いひびが対角線に走っている。前を通り過ぎると、お前の反射は半秒遅れて現れる。まるでお前を真似ることをためらっているかのように。そしてついに模倣する時、ガラスの向こうにいる者は英雄の鎧を纏っていない——白衣を纏っているのだ。"
+        },
+        "next": [
+            "esp_opt_acercarse",
+            "esp_opt_hablar",
+            "esp_opt_romper",
+            "esp_opt_salir"
+        ],
+        "reward": ""
+    },
+    "esp_opt_acercarse": {
+        "type": "option",
+        "text": {
+            "es": "🪞  Acercarte hasta pegar la cara al cristal agrietado",
+            "en": "🪞  Move close until your face is against the cracked glass",
+            "fr": "🪞  Tapprocher jusquà coller ton visage au verre fissuré",
+            "it": "🪞  Avvicinarti fino a incollare il viso al vetro incrinato",
+            "de": "🪞  Näherkommen, bis dein Gesicht am gesprungenen Glas klebt",
+            "zh": "🪞  凑近，把脸贴在裂开的玻璃上",
+            "ja": "🪞  ひび割れたガラスに顔を押し付けるまで近づく"
+        },
+        "next": [
+            "esp_msg_acercarse"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "esp_msg_acercarse": {
+        "type": "message",
+        "text": {
+            "es": "Pegas la nariz al espejo. El reflejo hace lo mismo, pero su cara está más demacrada, con ojeras profundas y los ojos rojos de no dormir. Mueve los labios en silencio y, aunque no oyes nada, lees perfectamente lo que dice: 'Sé que estás ahí dentro. Sé lo que hicimos. Cuando estés listo para recordarlo, yo estaré esperándote de este lado.' El cristal se empaña con un aliento que no es el tuyo.",
+            "en": "You press your nose to the mirror. The reflection does the same, but its face is more haggard, with deep shadows and eyes red from lack of sleep. Its lips move in silence and, though you hear nothing, you read perfectly what it says: 'I know you're in there. I know what we did. When you're ready to remember, I'll be waiting for you on this side.' The glass fogs with a breath that isn't yours.",
+            "fr": "Tu colles ton nez au miroir. Le reflet fait de même, mais son visage est plus émacié, avec des cernes profonds et les yeux rouges de manque de sommeil. Il remue les lèvres en silence et, bien que tu n'entendes rien, tu lis parfaitement ce qu'il dit : « Je sais que tu es là-dedans. Je sais ce que nous avons fait. Quand tu seras prêt à t'en souvenir, je t'attendrai de ce côté. » Le verre s'embue d'une haleine qui n'est pas la tienne.",
+            "it": "Incolli il naso allo specchio. Il riflesso fa lo stesso, ma il suo volto è più smunto, con occhiaie profonde e gli occhi rossi per la mancanza di sonno. Muove le labbra in silenzio e, sebbene tu non senta nulla, leggi perfettamente cosa dice: 'So che sei lì dentro. So cosa abbiamo fatto. Quando sarai pronto a ricordarlo, ti aspetterò da questa parte.' Il vetro si appanna con un respiro che non è il tuo.",
+            "de": "Du presst deine Nase an den Spiegel. Das Spiegelbild tut dasselbe, aber sein Gesicht ist abgezehrter, mit tiefen Schatten und roten Augen vom Schlafmangel. Es bewegt lautlos die Lippen, und obwohl du nichts hörst, liest du perfekt, was es sagt: „Ich weiß, dass du da drin bist. Ich weiß, was wir getan haben. Wenn du bereit bist, dich zu erinnern, werde ich auf dieser Seite auf dich warten.“ Das Glas beschlägt von einem Atem, der nicht deiner ist.",
+            "zh": "你把鼻子贴在镜子上。倒影也做了同样的动作，但它的脸更加憔悴，眼下有深深的黑眼圈，双眼因失眠而通红。它无声地动着嘴唇，虽然你听不到任何声音，却能完美地读懂它说的话：「我知道你在里面。我知道我们做过什么。当你准备好回忆起来时，我会在这一边等你。」玻璃上蒙上了一层不属于你的呼吸雾气。",
+            "ja": "鏡に鼻を押し付ける。反射も同じことをするが、その顔はより憔悴し、深いくまと、眠れぬ夜のせいで赤くなった目をしている。声もなく唇を動かすが、何も聞こえないのに、それが言っていることは完璧に読み取れる。「お前がそこにいることは分かっている。俺たちが何をしたかも知っている。思い出す準備ができたら、こちら側で待っている」ガラスが、お前のものではない息で曇る。"
+        },
+        "next": [
+            "esp_opt_salir"
+        ],
+        "reward": "faceta:cordura=-1;gflag:esp_reflejo_visto"
+    },
+    "esp_opt_hablar": {
+        "type": "option",
+        "text": {
+            "es": "💬  Preguntarle al reflejo: ¿Quién eres tú?",
+            "en": "💬  Ask the reflection: Who are you?",
+            "fr": "💬  Demander au reflet : Qui es-tu ?",
+            "it": "💬  Chiedere al riflesso: Chi sei tu?",
+            "de": "💬  Das Spiegelbild fragen: Wer bist du?",
+            "zh": "💬  问倒影：你是谁？",
+            "ja": "💬  反射に尋ねる：お前は誰だ？"
+        },
+        "next": [
+            "esp_msg_hablar"
+        ],
+        "reward": ""
+    },
+    "esp_msg_hablar": {
+        "type": "message",
+        "text": {
+            "es": "'¿Quién eres tú?', preguntas en voz alta. El reflejo ladea la cabeza con una tristeza infinita y responde, con tu propia voz saliendo del cristal: 'La pregunta correcta no es esa. La pregunta correcta es quién eres TÚ, y por qué necesitas una armadura y una espada para no verme.' Se te seca la boca. El reflejo espera, paciente, la respuesta que aún no puedes darle.",
+            "en": "'Who are you?' you ask aloud. The reflection tilts its head with infinite sadness and answers, your own voice coming out of the glass: 'That's not the right question. The right question is who YOU are, and why you need armor and a sword so you don't have to see me.' Your mouth goes dry. The reflection waits, patient, for the answer you can't yet give.",
+            "fr": "« Qui es-tu ? » demandes-tu à voix haute. Le reflet penche la tête avec une tristesse infinie et répond, avec ta propre voix sortant du verre : « Ce n'est pas la bonne question. La bonne question est qui es-TU, et pourquoi tu as besoin d'une armure et d'une épée pour ne pas me voir. » Ta bouche se dessèche. Le reflet attend, patient, la réponse que tu ne peux pas encore lui donner.",
+            "it": "'Chi sei tu?', chiedi ad alta voce. Il riflesso inclina la testa con infinita tristezza e risponde, con la tua stessa voce che esce dal vetro: 'Non è questa la domanda giusta. La domanda giusta è chi sei TU, e perché hai bisogno di un'armatura e di una spada per non vedermi.' Ti si secca la bocca. Il riflesso aspetta, paziente, la risposta che ancora non puoi dargli.",
+            "de": "„Wer bist du?“, fragst du laut. Das Spiegelbild neigt den Kopf mit unendlicher Traurigkeit und antwortet mit deiner eigenen Stimme, die aus dem Glas kommt: „Das ist nicht die richtige Frage. Die richtige Frage ist, wer DU bist, und warum du eine Rüstung und ein Schwert brauchst, um mich nicht zu sehen.“ Dein Mund wird trocken. Das Spiegelbild wartet geduldig auf die Antwort, die du ihm noch nicht geben kannst.",
+            "zh": "「你是谁？」你大声问道。倒影带着无尽的悲伤歪着头，用你自己的声音从玻璃中回答：「这不是正确的问题。正确的问题是，你是谁，以及为什么你需要盔甲和剑才能不去看见我。」你的嘴变得干涩。倒影耐心地等待着，等待着你还无法给出的答案。",
+            "ja": "「お前は誰だ？」と声に出して尋ねる。反射は無限の悲しみとともに首を傾げ、お前自身の声でガラスから答える。「それは正しい質問じゃない。正しい質問は、お前が誰なのか、そしてなぜ俺を見なくて済むように鎧と剣が必要なのか、だ」口の中が乾く。反射は、お前がまだ与えられない答えを、辛抱強く待っている。"
+        },
+        "next": [
+            "esp_root"
+        ],
+        "reward": ""
+    },
+    "esp_opt_romper": {
+        "type": "option",
+        "text": {
+            "es": "👊  Romper el espejo de un puñetazo",
+            "en": "👊  Smash the mirror with your fist",
+            "fr": "👊  Briser le miroir d'un coup de poing",
+            "it": "👊  Rompere lo specchio con un pugno",
+            "de": "👊  Den Spiegel mit einem Faustschlag zerschmettern",
+            "zh": "👊  一拳打碎这面镜子",
+            "ja": "👊  拳で鏡を叩き割る"
+        },
+        "next": [
+            "esp_msg_romper"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "esp_msg_romper": {
+        "type": "message",
+        "text": {
+            "es": "Descargas el puño contra el cristal y este estalla en mil astillas que caen tintineando sobre la roca. Por un segundo respiras aliviado... hasta que ves que cada esquirla, cada fragmento diminuto esparcido por el suelo, sigue reflejando la misma cara demacrada de bata blanca, ahora multiplicada por mil, todas mirándote a la vez. No puedes romper un reflejo que llevas dentro. Te alejas con los nudillos sangrando y la sensación de haber empeorado las cosas.",
+            "en": "You drive your fist into the glass and it shatters into a thousand shards that fall tinkling onto the rock. For a second you breathe easier... until you see that every sliver, every tiny fragment scattered on the ground, still reflects the same haggard white-coated face, now multiplied a thousandfold, all staring at you at once. You can't break a reflection you carry inside. You walk away with bleeding knuckles and the sense of having made things worse.",
+            "fr": "Tu assènes un coup de poing sur le verre, qui explose en mille éclats tintant sur la roche. Pendant une seconde tu respires soulagé... jusqu'à ce que tu voies que chaque esquille, chaque minuscule fragment éparpillé au sol, reflète encore le même visage émacié en blouse blanche, maintenant multiplié par mille, tous te regardant à la fois. Tu ne peux pas briser un reflet que tu portes en toi. Tu t'éloignes, les phalanges en sang et le sentiment d'avoir aggravé les choses.",
+            "it": "Sferri un pugno contro il vetro, che esplode in mille schegge che cadono tintinnando sulla roccia. Per un secondo respiri sollevato... finché non vedi che ogni scheggia, ogni minuscolo frammento sparso a terra, riflette ancora lo stesso volto smunto in camice bianco, ora moltiplicato per mille, tutti che ti guardano contemporaneamente. Non puoi rompere un riflesso che porti dentro di te. Ti allontani con le nocche sanguinanti e la sensazione di aver peggiorato le cose.",
+            "de": "Du schlägst mit der Faust auf das Glas, das in tausend Splitter zerbirst, die klirrend auf den Fels fallen. Für eine Sekunde atmest du erleichtert auf... bis du siehst, dass jeder Splitter, jedes winzige über den Boden verstreute Fragment, immer noch dasselbe abgezehrte, weißbekittelte Gesicht widerspiegelt, jetzt tausendfach vervielfacht, alle starren dich gleichzeitig an. Du kannst kein Spiegelbild zerbrechen, das du in dir trägst. Du gehst mit blutenden Knöcheln und dem Gefühl davon, die Dinge verschlimmert zu haben.",
+            "zh": "你朝玻璃猛击一拳，玻璃碎成千片，叮当作响地落在岩石上。有那么一秒钟，你松了口气……直到你发现，每一块碎片，每一个散落在地上的微小碎块，都依然映照着那张憔悴的白大褂脸，如今被放大成千个，同时凝视着你。你无法打碎一个你内心深处携带的倒影。你带着流血的指节和一种把事情弄得更糟的感觉离开了。",
+            "ja": "拳をガラスに叩きつけると、それは千の破片となって岩の上に音を立てて散らばる。一瞬、安堵の息をつく……だがすぐに気づく。散らばったすべての破片、あらゆる小さな断片が、いまだに同じやつれた白衣の顔を映し出している——今や千倍に増殖し、すべてが同時にお前を見つめている。心の中に抱える反射は壊せない。血まみれの拳と、事態を悪化させたという思いを抱えて、その場を去る。"
+        },
+        "next": [
+            "esp_opt_salir"
+        ],
+        "reward": "faceta:cordura=-1"
+    },
+    "esp_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Apartar la vista y seguir adelante",
+            "en": "🚶  Look away and move on",
+            "fr": "🚶  Détourner le regard et continuer",
+            "it": "🚶  Distogliere lo sguardo e proseguire",
+            "de": "🚶  Wegschauen und weitergehen",
+            "zh": "🚶  移开视线，继续前行",
+            "ja": "🚶  目を逸らして先へ進む"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

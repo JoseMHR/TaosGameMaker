@@ -1,0 +1,40 @@
+{
+    "name": {
+        "es": "Núcleo Cuántico",
+        "en": "Quantum Core",
+        "fr": "Noyau Quantique",
+        "it": "Nucleo Quantico",
+        "de": "Quantenkern",
+        "zh": "量子核心",
+        "ja": "量子コア"
+    },
+    "desc": {
+        "es": "Generador de probabilidad cuántica que optimiza los ciclos de acción.",
+        "en": "Quantum probability core optimizing action cycles.",
+        "fr": "Générateur de probabilité quantique qui optimise les cycles d'action.",
+        "it": "Generatore di probabilità quantistica che ottimizza i cicli di azione.",
+        "de": "Quantenwahrscheinlichkeitskern, der Aktionszyklen optimiert.",
+        "zh": "能优化行动周期的量子概率发生器。",
+        "ja": "行動サイクルを最適化する量子確率コア。"
+    },
+    "icon": "⚛️",
+    "category": "equipment",
+    "usable": false,
+    "slot": "accessory",
+    "tier": 6,
+    "bonuses": {
+        "int": 20,
+        "agi": 16
+    },
+    "combat": {
+        "mag_damage": 75
+    },
+    "traits": [
+        {
+            "type": "start_pa_bonus",
+            "value": 1,
+            "min_refine": 5,
+            "desc": "Inicia cada combate con +1 Punto de Acción (PA)"
+        }
+    ]
+}

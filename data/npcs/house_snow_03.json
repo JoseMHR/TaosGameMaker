@@ -1,0 +1,150 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Ermitaño de la Campana",
+            "en": "The Bell Hermit",
+            "fr": "L'Ermite de la Cloche",
+            "it": "L'Eremita della Campana",
+            "de": "Der Glockeneremit",
+            "zh": "钟之隐士",
+            "ja": "鐘の隠者"
+        },
+        "next": [],
+        "reward": "avatar=🔔;bg=0.06,0.06,0.08"
+    },
+    "snow03_root": {
+        "type": "message",
+        "text": {
+            "es": "Un hombre enjuto con barba escarchada sostiene un mazo forrado de fieltro frente a una gigantesca campana de bronce suspendida en un arco de roca helada. '¡DONG! ¡DONG! ¿Lo oyes, viajero? Cada campanada adormece al Leviatán que duerme bajo el lecho de hielo. Si dejo de tocar cinco minutos... ¡el monstruo despierta y se traga la cordillera entera!'",
+            "en": "A gaunt hermit with a frostbitten beard clutches a felt mallet before a mammoth bronze bell hung in a natural glacial arch. 'DONG! DONG! Hearest thou, traveler? Every chime lulls the Leviathan slumbering beneath the permafrost. If I cease for five minutes... the behemoth awakens and swallows the mountain chain whole!'",
+            "fr": "Un homme maigre à la barbe givrée tient un maillet garni de feutre devant une gigantesque cloche de bronze suspendue dans un arc de roche gelée. « DONG ! DONG ! Tu l'entends, voyageur ? Chaque coup endort le Léviathan qui dort sous le lit de glace. Si j'arrête de sonner cinq minutes... le monstre se réveille et avale toute la chaîne de montagnes ! »",
+            "it": "Un uomo emaciato con la barba brinata tiene un mazzuolo foderato di feltro davanti a una gigantesca campana di bronzo sospesa in un arco di roccia ghiacciata. 'DONG! DONG! Lo senti, viaggiatore? Ogni rintocco addormenta il Leviatano che dorme sotto il letto di ghiaccio. Se smetto di suonare per cinque minuti... il mostro si sveglia e ingoia l'intera catena montuosa!'",
+            "de": "Ein hagerer Mann mit vereistem Bart hält einen mit Filz gepolsterten Klöppel vor einer gigantischen Bronzeglocke, aufgehängt in einem gefrorenen Felsbogen. „DONG! DONG! Hörst du das, Reisender? Jeder Schlag wiegt den Leviathan in den Schlaf, der unter dem Eisbett schlummert. Wenn ich fünf Minuten aufhöre zu läuten... erwacht das Ungeheuer und verschlingt die ganze Bergkette!“",
+            "zh": "一个瘦骨嶙峋、胡须结霜的男人手持一柄裹着毡布的槌子，站在一个悬挂在冰岩拱门中的巨大青铜钟前。「咚！咚！你听到了吗，旅人？每一声钟响都在哄睡沉睡在冰床之下的利维坦。如果我停止敲钟五分钟……那怪物就会醒来，吞掉整条山脉！」",
+            "ja": "霜のついた髭を蓄えた痩せた男が、凍った岩のアーチに吊るされた巨大な青銅の鐘の前で、フェルトを巻いた槌を握っている。「ゴーン！ゴーン！聞こえるか、旅人よ？一打ちごとに、氷の床の下で眠るリヴァイアサンを眠らせているのだ。五分でも鳴らすのを止めれば……怪物が目覚め、山脈全体を丸呑みにしてしまう！」"
+        },
+        "next": [
+            "snow03_opt_relevo",
+            "snow03_opt_tocar",
+            "snow03_opt_verdad",
+            "snow03_opt_salir"
+        ],
+        "reward": ""
+    },
+    "snow03_opt_relevo": {
+        "type": "option",
+        "text": {
+            "es": "☕  Tómate este caldo caliente y descansa quince minutos; yo vigilaré la campana",
+            "en": "☕  Drink this hot broth and rest fifteen minutes; I shall tend the bell",
+            "fr": "☕  Bois ce bouillon chaud et repose-toi quinze minutes ; je veillerai sur la cloche",
+            "it": "☕  Bevi questo brodo caldo e riposa quindici minuti; io sorveglierò la campana",
+            "de": "☕  Trink diese heiße Brühe und ruh dich fünfzehn Minuten aus; ich hüte die Glocke",
+            "zh": "☕  喝下这碗热汤，休息十五分钟；我来看守钟",
+            "ja": "☕  この温かいスープを飲んで十五分休め。鐘は俺が見張っておく"
+        },
+        "next": [
+            "snow03_msg_relevo"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "snow03_msg_relevo": {
+        "type": "message",
+        "text": {
+            "es": "El ermitaño se derrumba sobre un banco de madera con lágrimas de alivio en los ojos, frotándose las manos agarrotadas. '¡Llevaba tres días sin sentarme! Los dioses te bendigan por tu piedad.' Durante un cuarto de hora tocas el ritmo cadencioso con templanza impecable. Cuidar de los agotados llena tu espíritu de nobleza.",
+            "en": "The hermit sinks onto a frost-rimed bench, tears of pure relief welling in his eyes as he rubs cramped wrists. 'Three days without resting my heels! May the heavens bless thy mercy.' For fifteen minutes you strike the rhythmic cadence with steady vigilance. Guarding the weary fills your spirit with nobility.",
+            "fr": "L'ermite s'effondre sur un banc de bois, des larmes de soulagement aux yeux, se frottant les mains ankylosées. « Ça faisait trois jours que je ne m'étais pas assis ! Que les dieux te bénissent pour ta pitié. » Pendant un quart d'heure, tu maintiens le rythme cadencé avec une constance irréprochable. Prendre soin des épuisés remplit ton esprit de noblesse.",
+            "it": "L'eremita si accascia su una panca di legno con lacrime di sollievo negli occhi, strofinandosi le mani intorpidite. 'Erano tre giorni che non mi sedevo! Gli dei ti benedicano per la tua pietà.' Per un quarto d'ora mantieni il ritmo cadenzato con impeccabile costanza. Prenderti cura degli sfiniti riempie il tuo spirito di nobiltà.",
+            "de": "Der Eremit sinkt auf eine Holzbank, Tränen der Erleichterung in den Augen, während er seine verkrampften Hände reibt. „Drei Tage lang habe ich mich nicht hingesetzt! Mögen die Götter dich für dein Mitgefühl segnen.“ Eine Viertelstunde lang hältst du den rhythmischen Takt mit tadelloser Beständigkeit. Sich um die Erschöpften zu kümmern erfüllt deinen Geist mit Adel.",
+            "zh": "隐士瘫坐在木凳上，眼中含着解脱的泪水，揉搓着僵硬的双手。「我已经三天没坐下过了！愿神明保佑你的仁慈。」在一刻钟的时间里，你以无可挑剔的稳定敲出那有节奏的钟声。照顾疲惫之人让你的精神充满高尚。",
+            "ja": "隠者は木のベンチに崩れ落ち、安堵の涙を浮かべながら、こわばった手をこすり合わせる。「三日も座っていなかったんだ！お前の慈悲に神々のご加護を」十五分間、お前は完璧な安定感でその律動的な音を鳴らし続ける。疲れ果てた者を見守ることは、お前の精神を高潔さで満たす。"
+        },
+        "next": [
+            "snow03_root"
+        ],
+        "reward": "faceta:bondad=+1;heal:30"
+    },
+    "snow03_opt_tocar": {
+        "type": "option",
+        "text": {
+            "es": "🔔  Déjame asestar una campanada con toda la fuerza de mis brazos",
+            "en": "🔔  Let me strike a chime with all the strength in my arms",
+            "fr": "🔔  Laisse-moi frapper un coup de toutes mes forces",
+            "it": "🔔  Lasciami assestare un rintocco con tutta la forza delle mie braccia",
+            "de": "🔔  Lass mich mit aller Kraft meiner Arme einen Schlag ausführen",
+            "zh": "🔔  让我用全身的力气敲一声钟",
+            "ja": "🔔  腕の力を込めて一打ちさせてくれ"
+        },
+        "next": [
+            "snow03_msg_tocar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "snow03_msg_tocar": {
+        "type": "message",
+        "text": {
+            "es": "Blandes el mazo y descargas un golpe colosal en el bronce sagrado: ¡¡DOOOOONG!! Una onda sónica pura y cristalina sacude la nieve acumulada en los riscos y reverbera por todo el valle en una melodía purificadora. La vibración suelta una bolsa con 30 monedas de oro que había quedado encajada tras el badajo hace décadas. Una energía vigorizante recorre tus venas.",
+            "en": "You hoist the mallet and strike a titanic blow upon the consecrated bronze: DOOOOONG!! A crystalline acoustic wave cascades avalanches from sheer cliffs and echoes across the vale in purifying cadence. The resonance dislodges a pouch with 30 gold coins trapped behind the clapper decades ago. Invigorating power surges through you.",
+            "fr": "Tu brandis le maillet et abats un coup colossal sur le bronze sacré : DOOOOONG !! Une onde sonore pure et cristalline secoue la neige accumulée sur les falaises et résonne dans toute la vallée en une mélodie purifiante. La vibration délivre une bourse contenant 30 pièces d'or qui était restée coincée derrière le battant depuis des décennies. Une énergie vivifiante parcourt tes veines.",
+            "it": "Brandisci il mazzuolo e sferri un colpo colossale sul bronzo sacro: DOOOOONG!! Un'onda sonora pura e cristallina scuote la neve accumulata sulle rocce e riverbera per tutta la valle in una melodia purificatrice. La vibrazione libera una borsa con 30 monete d'oro rimasta incastrata dietro il battaglio per decenni. Un'energia vigorizzante ti percorre le vene.",
+            "de": "Du schwingst den Klöppel und lässt einen kolossalen Schlag auf das geweihte Bronze niedergehen: DOOOOONG!! Eine reine, kristallklare Schallwelle erschüttert den angehäuften Schnee an den Klippen und hallt in reinigender Melodie durch das ganze Tal. Die Erschütterung befreit einen Beutel mit 30 Goldmünzen, der seit Jahrzehnten hinter dem Klöppel eingeklemmt war. Belebende Energie strömt durch deine Adern.",
+            "zh": "你挥起槌子，朝神圣的青铜猛力一击：咚——！！一股纯净澄澈的声波震荡震落悬崖上堆积的积雪，在整个山谷中回荡出净化般的旋律。这一震动松开了几十年前卡在钟舌后面的一个装有30枚金币的钱袋。一股振奋的能量涌遍你全身。",
+            "ja": "槌を振り上げ、聖なる青銅に渾身の一撃を叩き込む——ゴォォォーン！！純粋で水晶のような音波が断崖に積もった雪を揺らし、浄化するような旋律で谷全体に響き渡る。その振動により、何十年も舌の裏に挟まっていた金貨30枚入りの袋が外れ落ちる。活力を与えるエネルギーが血管を駆け巡る。"
+        },
+        "next": [
+            "snow03_root"
+        ],
+        "reward": "faceta:valor=+1;heal:40;gold:+30"
+    },
+    "snow03_opt_verdad": {
+        "type": "option",
+        "text": {
+            "es": "🐉  ¿De verdad hay un leviatán bajo el glaciar o es una leyenda de los antiguos?",
+            "en": "🐉  Is there genuinely a leviathan beneath the glacier or mere elder lore?",
+            "fr": "🐉  Y a-t-il vraiment un léviathan sous le glacier ou est-ce une légende des anciens ?",
+            "it": "🐉  C'è davvero un leviatano sotto il ghiacciaio o è una leggenda degli antichi?",
+            "de": "🐉  Gibt es wirklich einen Leviathan unter dem Gletscher oder ist das nur eine alte Legende?",
+            "zh": "🐉  冰川下真的有利维坦，还是这只是古人的传说？",
+            "ja": "🐉  本当に氷河の下にリヴァイアサンがいるのか、それとも古人の伝説なのか？"
+        },
+        "next": [
+            "snow03_msg_verdad"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "snow03_msg_verdad": {
+        "type": "message",
+        "text": {
+            "es": "'¡Pregúntale a las grietas de la cueva! Cuando el sol se pone, se escucha un ronquido colosal que hace temblar las estalactitas. Los antiguos sacerdotes pusieron esta campana con frecuencia de arrullo. ¡Soy el niñero de la bestia más grande del mundo!' Analizar las frecuencias acústicas de las cumbres amplía tu mente.",
+            "en": "'Ask the yawning crevasses! When dusk falls, a titanic snore vibrates the stalactites. Ancient priests attuned this bell to a lullaby harmonic. I am the nursemaid to the largest beast in existence!' Pondering mountain acoustic resonance expands your intellect.",
+            "fr": "« Demande aux crevasses de la grotte ! Quand le soleil se couche, on entend un ronflement colossal qui fait trembler les stalactites. Les anciens prêtres ont accordé cette cloche sur une fréquence de berceuse. Je suis la nourrice de la plus grande bête du monde ! » Analyser les fréquences acoustiques des sommets élargit ton esprit.",
+            "it": "'Chiedi alle crepe della grotta! Quando il sole tramonta, si sente un russare colossale che fa tremare le stalattiti. Gli antichi sacerdoti hanno accordato questa campana a una frequenza di ninna nanna. Sono la balia della bestia più grande del mondo!' Analizzare le frequenze acustiche delle vette amplia la tua mente.",
+            "de": "„Frag die Spalten der Höhle! Wenn die Sonne untergeht, hört man ein kolossales Schnarchen, das die Stalaktiten erzittern lässt. Die alten Priester stimmten diese Glocke auf eine Wiegenlied-Frequenz ab. Ich bin die Amme des größten Tieres der Welt!“ Über die akustischen Frequenzen der Gipfel nachzudenken erweitert deinen Geist.",
+            "zh": "「去问洞穴的裂缝吧！日落时分，会听到一阵巨大的鼾声，震得钟乳石都颤动起来。古代祭司把这口钟调校成了摇篮曲的频率。我就是这个世界上最大野兽的保姆！」分析山峰的声学频率拓宽了你的思维。",
+            "ja": "「洞窟の裂け目に聞いてみろ！日が暮れると、鍾乳石を震わせるほどの巨大ないびきが聞こえるんだ。古の司祭たちはこの鐘を子守唄の周波数に調律した。俺はこの世で最も大きな獣の乳母というわけだ！」山々の音響周波数を考察することは、お前の知性を広げる。"
+        },
+        "next": [
+            "snow03_root"
+        ],
+        "reward": "faceta:inteligencia=+1;discover:lore_campana_hielo"
+    },
+    "snow03_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Sigue con tu guardia vigilante, amigo de la campana",
+            "en": "🚶  Keep up thy vigilant watch, friend of the bell",
+            "fr": "🚶  Continue ta garde vigilante, ami de la cloche",
+            "it": "🚶  Continua la tua guardia vigile, amico della campana",
+            "de": "🚶  Führe deine wachsame Wache fort, Freund der Glocke",
+            "zh": "🚶  继续你警醒的守望吧，钟之友",
+            "ja": "🚶  油断のない見張りを続けてくれ、鐘の友よ"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

@@ -1,0 +1,72 @@
+{
+  "name": {
+    "es": "Guardián Supremo",
+    "en": "Supreme Guardian",
+    "fr": "Gardien Suprême",
+    "it": "Guardiano Supremo",
+    "de": "Oberster Wächter",
+    "zh": "至高守护者",
+    "ja": "至高の守護者"
+  },
+  "family": "manifestacion",
+  "archetype": "boss",
+  "icon": "🕊️",
+  "image": "res://assets/combat/enemies/en_supreme_guardian.png",
+  "attack_type": "magic",
+  "base_dodge": 12.0,
+  "dodge_scale": 0.2,
+  "element": "holy",
+  "weak_to": [
+    "dark"
+  ],
+  "resist": [
+    "holy",
+    "fire",
+    "ice",
+    "lightning",
+    "poison"
+  ],
+  "status_on_hit": {
+    "type": "atk_down",
+    "chance": 0.2,
+    "turns": 2,
+    "power": 0
+  },
+  "ai": "caster",
+  "xp_reward_base": 2500,
+  "xp_reward_scale": 50.0,
+  "gold_reward_base": 1500,
+  "gold_reward_scale": 50.0,
+  "skills": [
+    {
+      "level": 1,
+      "skill_id": "divine_wrath"
+    },
+    {
+      "level": 1,
+      "skill_id": "cosmic_spear"
+    },
+    {
+      "level": 47,
+      "skill_id": "truth_burst"
+    },
+    {
+      "level": 50,
+      "skill_id": "supernova"
+    }
+  ],
+  "loot": [
+    {
+      "kind": "gold",
+      "min": 600,
+      "max": 1200
+    },
+    {
+      "kind": "equipment",
+      "chance": 1.0,
+      "level": 30
+    }
+  ],
+  "zone": "zona_7_epilogo",
+  "is_boss": true
+}

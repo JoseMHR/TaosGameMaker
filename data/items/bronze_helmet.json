@@ -1,0 +1,31 @@
+{
+    "name": {
+        "es": "Casco de Bronce",
+        "en": "Bronze Helmet",
+        "fr": "Casque de Bronze",
+        "it": "Elmo di Bronzo",
+        "de": "Bronzehelm",
+        "zh": "青铜头盔",
+        "ja": "ブロンズヘルム"
+    },
+    "desc": {
+        "es": "Un casco de bronce sencillo.",
+        "en": "A simple bronze helmet.",
+        "fr": "Un casque de bronze tout simple.",
+        "it": "Un semplice elmo di bronzo.",
+        "de": "Ein einfacher Bronzehelm.",
+        "zh": "一顶朴素的青铜头盔。",
+        "ja": "簡素な青銅の兜。"
+    },
+    "icon": "🪖",
+    "category": "equipment",
+    "usable": false,
+    "slot": "helmet",
+    "tier": 1,
+    "bonuses": {
+        "vit": 2
+    },
+    "combat": {
+        "phys_defense": 8
+    }
+}

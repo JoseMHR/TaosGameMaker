@@ -1,0 +1,27 @@
+{
+    "id": "poi_tumba_yelmo_01",
+    "type": "poi",
+    "visual": "poi_tumba",
+    "icon": "🪦",
+    "name": {
+        "es": "La Tumba del Descanso Eterno",
+        "en": "Tomb of Eternal Rest",
+        "fr": "La Tombe du Repos Éternel",
+        "it": "La Tomba del Riposo Eterno",
+        "de": "Das Grab der Ewigen Ruhe",
+        "zh": "永眠之墓",
+        "ja": "永遠の眠りの墓"
+    },
+    "desc": {
+        "es": "Una lápida rústica de piedra donde yace alguien con muy pocas ganas de visitas. (POI de inspección).",
+        "en": "A rustic stone grave where someone lies with zero desire for visitors. (Inspection POI).",
+        "fr": "Une tombe rustique en pierre où repose quelqu'un qui n'a que peu envie de visites. (POI d'inspection).",
+        "it": "Una tomba rustica di pietra dove giace qualcuno con pochissima voglia di visite. (POI di ispezione).",
+        "de": "Ein rustikales Steingrab, in dem jemand mit sehr wenig Verlangen nach Besuchen ruht. (Inspektions-POI).",
+        "zh": "一座朴素的石墓，长眠着一个几乎不想被打扰的人。（探查类兴趣点）。",
+        "ja": "訪問者などほとんど望んでいない誰かが眠る、素朴な石の墓。（調査ポイント）。"
+    },
+    "npc": "poi_tumba_yelmo_01",
+    "bg": "bg_world_poi_yelmo_tumba.png",
+    "music": "poi_comic"
+}

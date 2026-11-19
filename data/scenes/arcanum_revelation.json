@@ -1,0 +1,127 @@
+{
+    "meta": {
+        "title": {
+            "es": "La Revelación de Arcanum",
+            "en": "The Arcanum Revelation",
+            "fr": "La Révélation d'Arcanum",
+            "it": "La Rivelazione di Arcanum",
+            "de": "Die Arcanum-Enthüllung",
+            "zh": "奥秘遗迹的真相",
+            "ja": "アルカナムの啓示"
+        },
+        "desc": "Cinemática disparada por el evento 'clear_laboratorio' (data/events.json) al derrotar al Experimento de Arcanium en dun_laboratorio, tras recuperar los 3 documentos de la tragedia de Aiden. Marca el giro creepy del Acto 4 y abre el paso al Templo del Origen (Zona Final)."
+    },
+    "entry": "n1",
+    "nodes": {
+        "n1": {
+            "kind": "say",
+            "speaker": {
+                "es": "Narrador",
+                "en": "Narrator",
+                "fr": "Narrateur",
+                "it": "Narratore",
+                "de": "Erzähler",
+                "zh": "旁白",
+                "ja": "ナレーター"
+            },
+            "portrait": "📄",
+            "text": {
+                "es": "El Experimento se derrumba entre chispas y silencio. Con la mano temblando, extiendes sobre una mesa metálica el Informe Arcanum 04, el dibujo arrugado y el registro médico. Las piezas, por fin, encajan de un modo que no querías ver.",
+                "en": "The Experiment collapses in sparks and silence. With a trembling hand, you spread the Arcanum Report 04, the crumpled drawing and the medical record on a metal table. The pieces, at last, fit together in a way you didn't want to see.",
+                "fr": "L'Expérience s'effondre dans les étincelles et le silence. La main tremblante, tu étales sur une table métallique le Rapport Arcanum 04, le dessin froissé et le dossier médical. Les pièces, enfin, s'assemblent d'une façon que tu ne voulais pas voir.",
+                "it": "L'Esperimento crolla tra scintille e silenzio. Con la mano tremante, stendi su un tavolo metallico il Rapporto Arcanum 04, il disegno sgualcito e la cartella clinica. I pezzi, finalmente, si incastrano in un modo che non volevi vedere.",
+                "de": "Das Experiment bricht in Funken und Stille zusammen. Mit zitternder Hand breitest du auf einem Metalltisch den Arcanum-Bericht 04, die zerknitterte Zeichnung und die Krankenakte aus. Die Teile fügen sich endlich auf eine Weise zusammen, die du nicht sehen wolltest.",
+                "zh": "实验体在火花与寂静中轰然倒塌。你颤抖着手，把《奥秘遗迹报告04》、皱巴巴的画作和病历摊在金属桌上。这些碎片终于以一种你不愿看到的方式拼凑在了一起。",
+                "ja": "実験体は火花と静寂の中で崩れ落ちる。震える手で、金属の机の上にアルカナム報告書04、しわくちゃの絵、そして医療記録を広げる。ピースはついに、見たくなかった形で組み合わさる。"
+            },
+            "fx": {
+                "darken": 0.5,
+                "sfx": "click"
+            },
+            "next": "n2"
+        },
+        "n2": {
+            "kind": "say",
+            "speaker": {
+                "es": "Voz distante",
+                "en": "Distant voice",
+                "fr": "Voix lointaine",
+                "it": "Voce distante",
+                "de": "Ferne Stimme",
+                "zh": "遥远的声音",
+                "ja": "遠くの声"
+            },
+            "portrait": "🧬",
+            "text": {
+                "es": "'Arcanum 04: la corporación exige resultados o se cancela el proyecto de las esferas. Firmado: dirección de investigación.' Reconoces la letra. Es la tuya.",
+                "en": "'Arcanum 04: the corporation demands results or the sphere project gets cancelled. Signed: research management.' You recognize the handwriting. It's yours.",
+                "fr": "« Arcanum 04 : la corporation exige des résultats ou le projet des sphères est annulé. Signé : direction de la recherche. » Tu reconnais l'écriture. C'est la tienne.",
+                "it": "'Arcanum 04: la corporazione esige risultati o il progetto delle sfere viene cancellato. Firmato: direzione della ricerca.' Riconosci la grafia. È la tua.",
+                "de": "„Arcanum 04: Der Konzern verlangt Ergebnisse, sonst wird das Sphärenprojekt eingestellt. Gezeichnet: Forschungsleitung.“ Du erkennst die Handschrift. Es ist deine.",
+                "zh": "「奥秘遗迹04号：财团要求出成果，否则球体项目将被取消。签署人：研究部门主管。」你认出了这笔迹，那是你自己的。",
+                "ja": "「アルカナム04：企業は成果を要求している。さもなくば球体プロジェクトは中止だ。署名：研究部門長」その筆跡に見覚えがある。自分のものだ。"
+            },
+            "fx": {
+                "darken": 0.55
+            },
+            "next": "n3"
+        },
+        "n3": {
+            "kind": "say",
+            "speaker": {
+                "es": "Narrador",
+                "en": "Narrator",
+                "fr": "Narrateur",
+                "it": "Narratore",
+                "de": "Erzähler",
+                "zh": "旁白",
+                "ja": "ナレーター"
+            },
+            "portrait": "🖍️",
+            "text": {
+                "es": "El dibujo muestra a una niña sonriente de la mano de su padre, junto a una esfera brillante. 'Para papá'. El registro médico es frío y directo: exposición aguda a radiación de esfera. Paciente: Elara. Edad: 6 años.",
+                "en": "The drawing shows a smiling girl holding her father's hand next to a glowing orb. 'For daddy'. The medical record is cold and direct: acute exposure to sphere radiation. Patient: Elara. Age: 6.",
+                "fr": "Le dessin montre une fillette souriante tenant la main de son père, près d'une sphère brillante. « Pour papa. » Le dossier médical est froid et direct : exposition aiguë au rayonnement d'une sphère. Patiente : Elara. Âge : 6 ans.",
+                "it": "Il disegno mostra una bambina sorridente per mano al padre, accanto a una sfera luminosa. 'Per papà'. La cartella clinica è fredda e diretta: esposizione acuta a radiazioni di sfera. Paziente: Elara. Età: 6 anni.",
+                "de": "Die Zeichnung zeigt ein lächelndes Mädchen, das die Hand seines Vaters hält, neben einer leuchtenden Sphäre. „Für Papa.“ Die Krankenakte ist kalt und direkt: akute Strahlenbelastung durch eine Sphäre. Patientin: Elara. Alter: 6 Jahre.",
+                "zh": "画中是一个笑容满面的小女孩牵着父亲的手，旁边是一颗发光的球体。「给爸爸」。病历冷冰冰地写着：急性球体辐射暴露。患者：艾拉拉。年龄：6岁。",
+                "ja": "絵には、光る球のそばで父親の手を握り微笑む少女が描かれている。「パパへ」。医療記録は冷たく端的だ。球体放射線への急性被曝。患者：エララ。年齢：6歳。"
+            },
+            "fx": {
+                "darken": 0.65
+            },
+            "next": "n4"
+        },
+        "n4": {
+            "kind": "say",
+            "speaker": {
+                "es": "Aiden",
+                "en": "Aiden",
+                "fr": "Aiden",
+                "it": "Aiden",
+                "de": "Aiden",
+                "zh": "艾登",
+                "ja": "エイデン"
+            },
+            "portrait": "😨",
+            "text": {
+                "es": "No es un cuento de héroes. Nunca lo fue. Es tu propia mente, intentando sobrevivir a un duelo que no has terminado de asumir. La niebla del abismo, al suroeste, empieza a disiparse.",
+                "en": "It isn't a story of heroes. It never was. It's your own mind, trying to survive a grief you never finished facing. The fog over the southwestern abyss begins to lift.",
+                "fr": "Ce n'est pas un conte de héros. Ça ne l'a jamais été. C'est ton propre esprit, essayant de survivre à un deuil que tu n'as jamais fini d'accepter. Le brouillard au-dessus de l'abîme, au sud-ouest, commence à se dissiper.",
+                "it": "Non è una storia di eroi. Non lo è mai stata. È la tua stessa mente, che cerca di sopravvivere a un lutto che non hai mai finito di accettare. La nebbia sull'abisso, a sudovest, comincia a dissiparsi.",
+                "de": "Es ist keine Heldengeschichte. War es nie. Es ist dein eigener Geist, der versucht, eine Trauer zu überleben, die du nie ganz verarbeitet hast. Der Nebel über dem Abgrund im Südwesten beginnt sich zu lichten.",
+                "zh": "这不是英雄的故事，从来都不是。这是你自己的心智，正努力从一场从未真正走出的悲痛中幸存下来。西南方深渊上空的迷雾开始消散。",
+                "ja": "これは英雄譚などではない。最初からそうではなかった。これは、乗り越えきれなかった悲嘆を生き延びようとする、お前自身の心なのだ。南西の深淵に立ち込めていた霧が晴れ始める。"
+            },
+            "fx": {
+                "darken": 0.4,
+                "glow": 0.2
+            },
+            "next": "end"
+        },
+        "end": {
+            "kind": "flow",
+            "op": "end"
+        }
+    }
+}

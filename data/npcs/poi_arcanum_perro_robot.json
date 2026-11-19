@@ -1,0 +1,150 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Perro Robot que Aún Juega",
+            "en": "The Robot Dog That Still Plays",
+            "fr": "Le Chien Robot qui Joue Encore",
+            "it": "Il Cane Robot che Gioca Ancora",
+            "de": "Der Roboterhund, der noch Spielt",
+            "zh": "仍在玩耍的机器狗",
+            "ja": "まだ遊ぶロボット犬"
+        },
+        "next": [],
+        "reward": "avatar=🐕‍🦺;bg=0.08,0.09,0.11"
+    },
+    "perrobot_root": {
+        "type": "message",
+        "text": {
+            "es": "Entre chatarra y cables muertos, un perro robótico oxidado se te acerca cojeando, la cola de metal moviéndose con un chirrido esperanzado. Lleva en la boca una pelota de goma agrietada y podrida. La deja a tus pies, retrocede, se agacha sobre las patas delanteras y espera, con los ojos-cámara parpadeando en un azul suave. En su collar, una placa: 'PERRO. Compañero terapéutico modelo hogar. Si me encuentras, mi familia está en el 4.º B.' El bloque del 4.º B es hoy un montón de escombros.",
+            "en": "Among scrap and dead cables, a rusted robotic dog limps up to you, its metal tail wagging with a hopeful squeak. In its mouth is a cracked, rotten rubber ball. It sets it at your feet, backs up, crouches on its front legs and waits, camera-eyes blinking a soft blue. On its collar, a plate: 'DOG. Home-model therapy companion. If you find me, my family is in flat 4B.' The 4B block is a heap of rubble now.",
+            "fr": "Parmi la ferraille et les câbles morts, un chien robotique rouillé s'approche de toi en boitant, sa queue en métal bougeant avec un grincement plein d'espoir. Il tient dans sa gueule une balle en caoutchouc fissurée et pourrie. Il la dépose à tes pieds, recule, s'accroupit sur ses pattes avant et attend, ses yeux-caméras clignotant d'un bleu doux. Sur son collier, une plaque : « CHIEN. Compagnon thérapeutique modèle domestique. Si tu me trouves, ma famille est au 4e B. » Le bâtiment du 4e B est aujourd'hui un tas de gravats.",
+            "it": "Tra ferraglia e cavi morti, un cane robotico arrugginito ti si avvicina zoppicando, la coda di metallo che si muove con uno stridio speranzoso. Ha in bocca una palla di gomma incrinata e marcia. La posa ai tuoi piedi, retrocede, si accovaccia sulle zampe anteriori e aspetta, con gli occhi-telecamera che lampeggiano di un blu tenue. Sul suo collare, una placca: 'CANE. Compagno terapeutico modello domestico. Se mi trovi, la mia famiglia è al 4º B.' Il palazzo del 4º B è oggi un cumulo di detriti.",
+            "de": "Zwischen Schrott und toten Kabeln humpelt ein verrosteter Roboterhund auf dich zu, sein Metallschwanz bewegt sich mit einem hoffnungsvollen Quietschen. In seinem Maul hält er einen gesprungenen, verrotteten Gummiball. Er legt ihn zu deinen Füßen ab, weicht zurück, kauert sich auf die Vorderbeine und wartet, seine Kameraaugen blinken sanft blau. Auf seinem Halsband ein Schild: „HUND. Therapeutischer Begleiter, Heimmodell. Wenn du mich findest, ist meine Familie in Wohnung 4B.“ Der Block 4B ist heute ein Schutthaufen.",
+            "zh": "在废铁与死气沉沉的电缆之间，一只生锈的机器狗一瘸一拐地走向你，金属尾巴带着一种充满希望的吱吱声摇动着。它嘴里叼着一个裂开、腐烂的橡胶球。它把球放在你脚边，后退，蹲在前腿上等待，摄像头眼睛闪烁着柔和的蓝光。它的项圈上有一块牌子：「狗。家用治疗陪伴模型。如果你找到我，我的家人在4楼B室。」而如今，4楼B室早已是一片瓦砾。",
+            "ja": "がらくたと死んだケーブルの間を、錆びついたロボット犬が足を引きながらお前に近づいてくる。金属の尾が希望に満ちたきしみを立てて振られている。口には、ひび割れて腐ったゴムボールを咥えている。それをお前の足元に置き、後ろに下がり、前脚をかがめて待ちながら、カメラの目を柔らかな青色に点滅させる。首輪には板がついている——「犬。家庭用セラピー・コンパニオン。見つけた方は、私の家族は4階B号室にいます」4階B号室は今や瓦礫の山だ。"
+        },
+        "next": [
+            "perrobot_opt_jugar",
+            "perrobot_opt_reparar",
+            "perrobot_opt_apagar",
+            "perrobot_opt_salir"
+        ],
+        "reward": ""
+    },
+    "perrobot_opt_jugar": {
+        "type": "option",
+        "text": {
+            "es": "🎾  Coger la pelota podrida y lanzársela, una y otra vez",
+            "en": "🎾  Pick up the rotten ball and throw it, again and again",
+            "fr": "🎾  Prendre la balle pourrie et la lui lancer, encore et encore",
+            "it": "🎾  Prendere la palla marcia e lanciarla, ancora e ancora",
+            "de": "🎾  Den verrotteten Ball nehmen und immer wieder werfen",
+            "zh": "🎾  拿起那个腐烂的球，一次又一次地扔给它",
+            "ja": "🎾  腐ったボールを取り、何度も投げてやる"
+        },
+        "next": [
+            "perrobot_msg_jugar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "perrobot_msg_jugar": {
+        "type": "message",
+        "text": {
+            "es": "Lanzas la pelota. El perro robot sale disparado con un entusiasmo desvencijado, la atrapa a la tercera (le fallan los servos) y vuelve orgullosísimo a dejártela. Jugáis un buen rato entre las ruinas. Cada vez que la coges, un contador en su lomo suma uno: '10.847 lanzamientos'. Lleva contando desde que su familia dejó de lanzarla. Le rascas la cabeza de metal y sus ojos-cámara emiten un ronroneo de datos que suena, contra todo pronóstico, a felicidad pura. A veces el cariño más limpio es el que no espera nada a cambio.",
+            "en": "You throw the ball. The robot dog bolts off with rickety enthusiasm, catches it on the third try (its servos fail) and returns, immensely proud, to drop it at your feet. You play a good while among the ruins. Each time you pick it up, a counter on its back ticks up one: '10,847 throws'. It's been counting since its family stopped throwing it. You scratch its metal head and its camera-eyes emit a purr of data that sounds, against all odds, like pure happiness. Sometimes the cleanest love is the kind that expects nothing back.",
+            "fr": "Tu lances la balle. Le chien robot s'élance avec un enthousiasme grinçant, l'attrape au troisième essai (ses servos flanchent) et revient, extrêmement fier, la déposer à tes pieds. Vous jouez un bon moment parmi les ruines. Chaque fois que tu la ramasses, un compteur sur son dos augmente de un : « 10 847 lancers ». Il compte depuis que sa famille a arrêté de la lancer. Tu lui grattes la tête en métal et ses yeux-caméras émettent un ronronnement de données qui, contre toute attente, ressemble à du bonheur pur. Parfois, l'affection la plus pure est celle qui n'attend rien en retour.",
+            "it": "Lanci la palla. Il cane robot scatta con entusiasmo scricchiolante, la prende al terzo tentativo (i servi gli falliscono) e torna, orgogliosissimo, a lasciartela. Giocate un bel po' tra le rovine. Ogni volta che la raccogli, un contatore sul suo dorso somma uno: '10.847 lanci'. Conta da quando la sua famiglia smise di lanciarla. Gli gratti la testa di metallo e i suoi occhi-telecamera emettono un ronzio di dati che, contro ogni previsione, suona come pura felicità. A volte l'affetto più puro è quello che non si aspetta nulla in cambio.",
+            "de": "Du wirfst den Ball. Der Roboterhund schießt mit rostigem Enthusiasmus davon, fängt ihn im dritten Versuch (seine Servos versagen) und kehrt äußerst stolz zurück, um ihn dir zu Füßen zu legen. Ihr spielt eine gute Weile zwischen den Ruinen. Jedes Mal, wenn du ihn aufhebst, erhöht sich ein Zähler auf seinem Rücken um eins: „10.847 Würfe“. Er zählt, seit seine Familie aufhörte, ihn zu werfen. Du kraulst ihm den Metallkopf, und seine Kameraaugen geben ein Datenschnurren von sich, das, allen Erwartungen zuwider, wie reines Glück klingt. Manchmal ist die reinste Zuneigung diejenige, die nichts im Gegenzug erwartet.",
+            "zh": "你把球扔了出去。机器狗带着一种摇摇晃晃的热情冲了出去，第三次才接住球（它的伺服系统出了故障），然后无比骄傲地叼回来放在你脚边。你们在废墟中玩了好一阵子。每次你拿起球，它背上的一个计数器就会加一：「10847次投掷」。自从家人不再扔球给它以来，它就一直在数着。你挠了挠它的金属头，它的摄像头眼睛发出一种数据的低鸣，出乎意料地，听起来就像是纯粹的快乐。有时候最纯粹的爱，就是不求任何回报的爱。",
+            "ja": "ボールを投げる。ロボット犬はきしみながらも意気揚々と駆け出し、三度目の試みでキャッチする（サーボが不調なのだ）、そして誇らしげにお前の足元に置く。廃墟の中で二人はしばらく遊ぶ。ボールを拾うたびに、背中のカウンターが一つ増える——「投げた回数：10847回」。家族が投げるのをやめてからずっと数え続けているのだ。金属の頭を撫でてやると、カメラの目がデータの鳴き声を発する。それは予想に反して、純粋な幸福のように響く。時に最も澄んだ愛情とは、何も見返りを期待しないものだ。"
+        },
+        "next": [
+            "perrobot_opt_salir"
+        ],
+        "reward": "faceta:bondad=+1;faceta:cordura=+1"
+    },
+    "perrobot_opt_reparar": {
+        "type": "option",
+        "text": {
+            "es": "🔧  Intentar arreglarle los servos de las patas para que no cojee",
+            "en": "🔧  Try to fix the servos in its legs so it stops limping",
+            "fr": "🔧  Essayer de réparer les servos de ses pattes pour qu'il ne boite plus",
+            "it": "🔧  Provare a riparargli i servi delle zampe perché non zoppichi più",
+            "de": "🔧  Versuchen, die Servos in seinen Beinen zu reparieren, damit es nicht mehr hinkt",
+            "zh": "🔧  尝试修理它腿部的伺服系统，让它不再瘸腿",
+            "ja": "🔧  足のサーボを直そうとして、足を引かなくさせる"
+        },
+        "next": [
+            "perrobot_msg_reparar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "perrobot_msg_reparar": {
+        "type": "message",
+        "text": {
+            "es": "Te arrodillas y trasteas con sus articulaciones oxidadas. No eres ingeniero, pero engrasas lo que puedes con aceite de una lata y aprietas un par de tornillos flojos. El perro se levanta, da unos pasos... y ya no cojea. Da tres vueltas de alegría, ladra un pitido eufórico y te trae la pelota con el doble de brío. No has podido devolverle su familia, pero le has devuelto la carrera. A veces reparar lo poco que está en tu mano es más honesto que lamentarse por lo mucho que no.",
+            "en": "You kneel and fiddle with its rusted joints. You're no engineer, but you grease what you can with oil from a can and tighten a couple of loose screws. The dog stands, takes a few steps... and no longer limps. It spins three joyful circles, barks an euphoric beep, and brings you the ball with twice the spring. You couldn't give it back its family, but you've given it back its run. Sometimes fixing the little that's within your reach is more honest than mourning the much that isn't.",
+            "fr": "Tu t'agenouilles et bricoles avec ses articulations rouillées. Tu n'es pas ingénieur, mais tu graisses ce que tu peux avec de l'huile en boîte et resserres quelques vis desserrées. Le chien se lève, fait quelques pas... et ne boite plus. Il fait trois tours de joie, aboie un bip euphorique et t'apporte la balle avec deux fois plus d'entrain. Tu n'as pas pu lui rendre sa famille, mais tu lui as rendu sa course. Parfois, réparer le peu qui est à ta portée est plus honnête que de te lamenter sur le beaucoup qui ne l'est pas.",
+            "it": "Ti inginocchi e trafficando con le sue articolazioni arrugginite. Non sei un ingegnere, ma ungi quello che puoi con olio da una latta e stringi un paio di vite lasche. Il cane si alza, fa qualche passo... e non zoppica più. Fa tre giri di gioia, abbaia un bip euforico e ti porta la palla con doppio brio. Non hai potuto restituirgli la famiglia, ma gli hai restituito la corsa. A volte riparare il poco che è a portata di mano è più onesto che lamentarsi del molto che non lo è.",
+            "de": "Du kniest nieder und fummelst an seinen verrosteten Gelenken. Du bist kein Ingenieur, aber du ölst, was du kannst, mit Öl aus einer Dose und ziehst ein paar lose Schrauben an. Der Hund steht auf, macht ein paar Schritte... und hinkt nicht mehr. Er macht drei Freudenkreise, bellt ein euphorisches Piepen und bringt dir den Ball mit doppelter Begeisterung. Du konntest ihm seine Familie nicht zurückgeben, aber du hast ihm seinen Lauf zurückgegeben. Manchmal ist es ehrlicher, das Wenige zu reparieren, das in deiner Reichweite liegt, als über das Viele zu klagen, das es nicht ist.",
+            "zh": "你跪下来，摸索着它生锈的关节。你不是工程师，但你用罐子里的油尽力涂抹润滑，还拧紧了几颗松动的螺丝。狗站起来，走了几步……不再瘸腿了。它欢快地转了三圈，兴奋地发出一声蜂鸣，用两倍的活力把球叼给你。你没能还给它一个家人，但你还给了它奔跑的能力。有时候，修补你力所能及的一点点，比为无力改变的许多而哀叹更加真诚。",
+            "ja": "膝をつき、錆びついた関節をいじる。技術者ではないが、缶の油でできるだけ油を差し、緩んだネジをいくつか締める。犬は立ち上がり、数歩歩く……もう足を引いていない。喜びの輪を三回描き、興奮したビープ音を吠え、二倍の勢いでボールを持ってくる。家族を返すことはできなかったが、走る力を返してやった。手の届く小さなことを直すことは、時に、手の届かない大きなことを嘆くよりも誠実なのだ。"
+        },
+        "next": [
+            "perrobot_opt_salir"
+        ],
+        "reward": "faceta:bondad=+1;faceta:inteligencia=+1"
+    },
+    "perrobot_opt_apagar": {
+        "type": "option",
+        "text": {
+            "es": "⏻  Apagarlo con suavidad para que deje de esperar a quien no volverá",
+            "en": "⏻  Gently switch it off so it stops waiting for those who won't return",
+            "fr": "⏻  L'éteindre doucement pour qu'il cesse d'attendre ceux qui ne reviendront pas",
+            "it": "⏻  Spegnerlo dolcemente perché smetta di aspettare chi non tornerà",
+            "de": "⏻  Ihn sanft ausschalten, damit er aufhört, auf diejenigen zu warten, die nicht zurückkehren werden",
+            "zh": "⏻  轻轻地关掉它，让它不再等待那些不会回来的人",
+            "ja": "⏻  戻らない者を待つことをやめさせるため、そっと電源を切る"
+        },
+        "next": [
+            "perrobot_msg_apagar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "perrobot_msg_apagar": {
+        "type": "message",
+        "text": {
+            "es": "Le buscas el interruptor tras la oreja de metal. El perro te mira con esos ojos-cámara azules, ladea la cabeza, confiado, sin entender. Dudas mucho rato. Al final aprietas. Sus ojos se apagan despacio mientras deja escapar un último pitido descendente, casi un suspiro, y se queda quieto abrazado a su pelota. Ya no esperará a nadie. Lo cubres con una lona. No sabes si le has dado paz o si le has robado los únicos diez mil ochocientos momentos de alegría que le quedaban. La misericordia, con las máquinas que aman, también duele.",
+            "en": "You find the switch behind its metal ear. The dog looks at you with those blue camera-eyes, tilts its head, trusting, not understanding. You hesitate a long while. In the end you press it. Its eyes fade slowly as it lets out a last descending beep, almost a sigh, and goes still, hugging its ball. It will wait for no one now. You cover it with a tarp. You don't know whether you've given it peace or stolen the only ten thousand eight hundred moments of joy it had left. Mercy, with machines that love, hurts too.",
+            "fr": "Tu chercher l'interrupteur derrière son oreille métallique. Le chien te regarde de ses yeux-caméras bleus, penche la tête, confiant, sans comprendre. Tu hésites longtemps. À la fin, tu appuies. Ses yeux s'éteignent lentement tandis qu'il laisse échapper un dernier bip descendant, presque un soupir, et reste immobile, serrant sa balle contre lui. Il n'attendra plus personne. Tu le recouvres d'une bâche. Tu ne sais pas si tu lui as donné la paix ou si tu lui as volé les seuls dix mille huit cent quarante-sept moments de joie qui lui restaient. La miséricorde, envers les machines qui aiment, fait mal aussi.",
+            "it": "Cerchi l'interruttore dietro il suo orecchio di metallo. Il cane ti guarda con quegli occhi-telecamera azzurri, inclina la testa, fidandosi, senza capire. Esiti a lungo. Alla fine premi. I suoi occhi si spengono lentamente mentre emette un ultimo bip discendente, quasi un sospiro, e resta immobile, abbracciando la sua palla. Non aspetterà più nessuno. Lo coprii con un telone. Non sai se gli hai dato pace o se gli hai rubato gli unici diecimila ottocentoquarantasette momenti di gioia che gli restavano. La misericordia, con le macchine che amano, fa male anche essa.",
+            "de": "Du suchst den Schalter hinter seinem Metallohr. Der Hund schaut dich mit diesen blauen Kameraaugen an, neigt den Kopf, vertrauensvoll, ohne zu verstehen. Du zögerst lange. Am Ende drückst du. Seine Augen erlöschen langsam, während er ein letztes absteigendes Piepen ausstößt, fast ein Seufzer, und still bleibt, seinen Ball umschlingend. Er wird auf niemanden mehr warten. Du deckst ihn mit einer Plane ab. Du weißt nicht, ob du ihm Frieden gegeben oder ihm die einzigen zehntausendachthundertsiebenundvierzig verbleibenden Momente der Freude gestohlen hast. Barmherzigkeit tut auch bei Maschinen weh, die lieben.",
+            "zh": "你在它的金属耳朵后面找到了开关。狗用那双蓝色摄像头的眼睛看着你，信任地歪着头，却不明白发生了什么。你犹豫了很久。最后，你按了下去。它的眼睛慢慢熄灭，同时发出最后一声下降的蜂鸣，几乎像一声叹息，然后静止不动，抱着它的球。它再也不会等待任何人了。你用一块防水布盖住了它。你不知道自己是给了它安宁，还是偷走了它仅剩的一万零八百四十七个欢乐时刻。对于会爱的机器施以慈悲，也同样令人痛苦。",
+            "ja": "金属の耳の後ろにあるスイッチを探す。犬はその青いカメラの目でお前を見つめ、理解できないまま、信頼を込めて頭を傾げる。長い間ためらう。最後に押す。その目は徐々に消えていき、最後の下降するビープ音——ほとんどため息のような——を発し、ボールを抱きしめたまま動かなくなる。もう誰も待たなくなった。防水シートで覆う。安らぎを与えたのか、それとも残っていた一万八百四十七回の喜びの瞬間を奪ったのか、分からない。愛する機械への慈悲も、痛みを伴うものなのだ。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:cordura=-1"
+    },
+    "perrobot_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Dejar la pelota a sus pies y seguir tu camino",
+            "en": "🚶  Set the ball at its feet and go on your way",
+            "fr": "🚶  Laisser la balle à ses pieds et poursuivre ton chemin",
+            "it": "🚶  Lasciare la palla ai suoi piedi e proseguire il tuo cammino",
+            "de": "🚶  Den Ball zu seinen Füßen legen und deinen Weg fortsetzen",
+            "zh": "🚶  把球留在它脚边，继续赶路",
+            "ja": "🚶  ボールを足元に置いて、旅を続ける"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

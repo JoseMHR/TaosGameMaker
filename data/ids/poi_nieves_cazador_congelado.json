@@ -1,0 +1,26 @@
+{
+    "id": "poi_nieves_cazador_congelado",
+    "type": "poi",
+    "icon": "🧊",
+    "name": {
+        "es": "El Cazador Congelado",
+        "en": "The Frozen Hunter",
+        "fr": "Le Chasseur Gelé",
+        "it": "Il Cacciatore Congelato",
+        "de": "Der Gefrorene Jäger",
+        "zh": "冰封的猎人",
+        "ja": "凍った狩人"
+    },
+    "desc": {
+        "es": "Un cazador atrapado en un bloque de hielo transparente, congelado a mitad de un paso, con el rostro sereno. (POI de inspección).",
+        "en": "A hunter caught in a block of clear ice, frozen mid-step, his face serene. (Inspection POI).",
+        "fr": "Un chasseur pris dans un bloc de glace transparente, figé en plein pas, le visage serein. (POI d'inspection).",
+        "it": "Un cacciatore intrappolato in un blocco di ghiaccio trasparente, congelato a metà di un passo, con il volto sereno. (POI di ispezione).",
+        "de": "Ein Jäger, gefangen in einem Block aus klarem Eis, mitten im Schritt erstarrt, mit heiterem Gesichtsausdruck. (Inspektions-POI).",
+        "zh": "一位猎人被困在透明的冰块中，在行进途中被定格，面容安详。（探查类兴趣点）。",
+        "ja": "透明な氷の塊に閉じ込められた猟師。歩みの途中で凍りつき、その表情は穏やかだ。（調査ポイント）。"
+    },
+    "npc": "poi_nieves_cazador_congelado",
+    "bg": "bg_world_poi_nieve_cazador_congelado.png",
+    "music": "creepy"
+}

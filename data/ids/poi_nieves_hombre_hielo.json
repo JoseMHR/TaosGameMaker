@@ -1,0 +1,26 @@
+{
+    "id": "poi_nieves_hombre_hielo",
+    "type": "poi",
+    "icon": "🧊",
+    "name": {
+        "es": "El Hombre de Hielo que Sonríe",
+        "en": "The Smiling Ice-Man",
+        "fr": "L'Homme de Glace qui Sourit",
+        "it": "L'Uomo di Ghiaccio che Sorride",
+        "de": "Der Lächelnde Eismann",
+        "zh": "微笑的冰人",
+        "ja": "微笑む氷の男"
+    },
+    "desc": {
+        "es": "Una figura humana perfectamente congelada, sonriente, de pie en mitad de la nieve. Juraría que parpadea cuando no la miras. (PNJ singular).",
+        "en": "A perfectly frozen human figure, smiling, standing in the middle of the snow. You'd swear it blinks when you're not looking. (Singular NPC).",
+        "fr": "Une figure humaine parfaitement gelée, souriante, debout au milieu de la neige. On jurerait qu'elle cligne des yeux quand on ne la regarde pas. (PNJ singulier).",
+        "it": "Una figura umana perfettamente congelata, sorridente, in piedi in mezzo alla neve. Giureresti che sbatte le palpebre quando non la guardi. (PNG singolare).",
+        "de": "Eine perfekt gefrorene menschliche Gestalt, lächelnd, mitten im Schnee stehend. Man würde schwören, sie blinzelt, wenn man nicht hinsieht. (Einzigartiger NPC).",
+        "zh": "一个完美冰封的人形雕像，面带微笑，站立在雪中。你会发誓，当你不看它时，它会眨眼。（唯一NPC）。",
+        "ja": "雪の中に立つ、完璧に凍りついた人の姿。微笑んでいる。見ていない時に瞬きをしていると誓ってもいい。（唯一のNPC）。"
+    },
+    "npc": "poi_nieves_hombre_hielo",
+    "bg": "bg_world_poi_nieves_hombre_hielo.png",
+    "music": "poi_generic"
+}

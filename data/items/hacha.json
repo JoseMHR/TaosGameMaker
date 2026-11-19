@@ -1,0 +1,23 @@
+{
+    "name": {
+        "es": "Hacha",
+        "en": "Axe",
+        "fr": "Hache",
+        "it": "Ascia",
+        "de": "Axt",
+        "zh": "斧头",
+        "ja": "斧"
+    },
+    "desc": {
+        "es": "Herramienta versátil: tala árboles, obtiene madera y rompe barricadas y obstáculos de madera.",
+        "en": "Versatile tool: chops trees, gathers wood and breaks wooden barricades and obstacles.",
+        "fr": "Outil polyvalent : abat les arbres, récolte du bois et brise les barricades et obstacles en bois.",
+        "it": "Strumento versatile: abbatte alberi, raccoglie legna e distrugge barricate e ostacoli di legno.",
+        "de": "Vielseitiges Werkzeug: fällt Bäume, sammelt Holz und zerstört hölzerne Barrikaden und Hindernisse.",
+        "zh": "多功能工具：砍树取材，并破坏木质路障与障碍物。",
+        "ja": "多用途な道具：木を切り倒して木材を得たり、木製のバリケードや障害物を壊したりする。"
+    },
+    "icon": "🪓",
+    "category": "tool",
+    "usable": false
+}

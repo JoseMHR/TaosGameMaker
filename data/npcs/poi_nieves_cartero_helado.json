@@ -1,0 +1,150 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Cartero que Nunca Llegó",
+            "en": "The Mail Carrier Who Never Arrived",
+            "fr": "Le Facteur qui n'Arriva Jamais",
+            "it": "Il Postino che Non Arrivò Mai",
+            "de": "Der Postbote, der Nie Ankam",
+            "zh": "从未抵达的邮差",
+            "ja": "決してたどり着かなかった郵便配達人"
+        },
+        "next": [],
+        "reward": "avatar=✉️;bg=0.11,0.13,0.16"
+    },
+    "cartero_root": {
+        "type": "message",
+        "text": {
+            "es": "Medio sepultado por un ventisquero, un hombre con uniforme raído de cartero sigue de rodillas, congelado, abrazando contra el pecho una saca de cuero. La ventisca lo pilló a un paso del refugio: se ven, a pocos metros, las luces apagadas de una cabaña que nunca alcanzó. Sus dedos helados protegen la saca como si dentro llevara algo más valioso que su propia vida. Al aflojarla, cae una única carta, sellada, con la tinta corrida por el hielo pero aún legible.",
+            "en": "Half-buried by a snowdrift, a man in the threadbare uniform of a mail carrier kneels, frozen, clutching a leather satchel to his chest. The blizzard caught him a single step from shelter: a few meters off you can see the dark windows of a cabin he never reached. His frozen fingers guard the satchel as if it held something more precious than his own life. As you loosen it, a single letter falls out, sealed, its ink smeared by ice but still legible.",
+            "fr": "À moitié enseveli sous une congère, un homme en uniforme élimé de facteur reste à genoux, gelé, serrant contre sa poitrine une sacoche de cuir. La tempête l'a surpris à un pas du refuge : on aperçoit, à quelques mètres, les fenêtres éteintes d'une cabane qu'il n'a jamais atteinte. Ses doigts gelés protègent la sacoche comme si elle contenait quelque chose de plus précieux que sa propre vie. En la desserrant, une unique lettre tombe, scellée, l'encre coulée par le gel mais encore lisible.",
+            "it": "Mezzo sepolto da una bufera di neve, un uomo con l'uniforme logora di postino resta in ginocchio, congelato, stringendo al petto una bisaccia di cuoio. La tempesta lo colse a un passo dal rifugio: si vedono, a pochi metri, le finestre spente di una capanna che non raggiunse mai. Le sue dita congelate proteggono la bisaccia come se contenesse qualcosa di più prezioso della sua stessa vita. Nell'allentarla, cade un'unica lettera, sigillata, con l'inchiostro sbiadito dal ghiaccio ma ancora leggibile.",
+            "de": "Halb von einer Schneewehe begraben, kniet ein Mann in der abgetragenen Postboten-Uniform, erfroren, eine Ledertasche an die Brust gedrückt. Der Sturm erwischte ihn einen Schritt vor der Zuflucht: wenige Meter entfernt sieht man die dunklen Fenster einer Hütte, die er nie erreichte. Seine gefrorenen Finger schützen die Tasche, als enthielte sie etwas Kostbareres als sein eigenes Leben. Beim Lockern fällt ein einzelner versiegelter Brief heraus, die Tinte vom Eis verschmiert, aber noch lesbar.",
+            "zh": "一个身穿破旧邮差制服的男人半埋在雪堆中，已然冻僵，跪着，双臂紧紧抱着一个皮革邮袋。暴风雪在他离庇护所仅一步之遥时将他困住：几米开外，能看见一间他从未抵达的小屋熄灭的窗户。他冻僵的手指护着邮袋，仿佛里面装着比他自己生命更珍贵的东西。松开它时，掉出一封信，已封好，墨迹被冰霜晕开，但仍可辨认。",
+            "ja": "吹き溜まりに半ば埋もれ、擦り切れた郵便配達人の制服を着た男が、革の郵袋を胸に抱きしめたまま凍りついて跪いている。吹雪は彼が避難所まであと一歩というところで彼を捕らえた——数メートル先には、彼が決して辿り着けなかった小屋の明かりの消えた窓が見える。凍った指は、まるで自分の命よりも貴重な何かが入っているかのように、その袋を守っている。緩めると、封をされた一通の手紙が落ちる。インクは氷で滲んでいるが、まだ読める。"
+        },
+        "next": [
+            "cartero_opt_leer",
+            "cartero_opt_entregar",
+            "cartero_opt_enterrar",
+            "cartero_opt_salir"
+        ],
+        "reward": ""
+    },
+    "cartero_opt_leer": {
+        "type": "option",
+        "text": {
+            "es": "📖  Leer la carta para saber por qué murió protegiéndola",
+            "en": "📖  Read the letter to learn why he died protecting it",
+            "fr": "📖  Lire la lettre pour savoir pourquoi il est mort en la protégeant",
+            "it": "📖  Leggere la lettera per sapere perché morì proteggendola",
+            "de": "📖  Den Brief lesen, um herauszufinden, warum er beim Schützen starb",
+            "zh": "📖  阅读这封信，弄清他为何为了保护它而死",
+            "ja": "📖  それを守って死んだ理由を知るために手紙を読む"
+        },
+        "next": [
+            "cartero_msg_leer"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "cartero_msg_leer": {
+        "type": "message",
+        "text": {
+            "es": "La abres con cuidado. Es una carta de una madre a su hijo soldado: 'No hace falta que ganes ninguna guerra para volver a casa. Vuelve y ya está. La cena estará caliente. Te quiero igual seas héroe o cobarde.' El cartero murió cruzando una ventisca para que un desconocido supiera que era esperado sin condiciones. No entregó la carta, pero la protegió hasta el último aliento. Hay quien da la vida por causas enormes; este hombre la dio por un 'te quiero' que no era ni suyo.",
+            "en": "You open it carefully. It's a letter from a mother to her soldier son: 'You don't have to win any war to come home. Just come back. Dinner will be warm. I love you the same whether you're a hero or a coward.' The mail carrier died crossing a blizzard so a stranger would know he was awaited without conditions. He never delivered the letter, but he guarded it to his last breath. Some give their lives for enormous causes; this man gave his for an 'I love you' that wasn't even his own.",
+            "fr": "Tu l'ouvres avec précaution. C'est une lettre d'une mère à son fils soldat : « Tu n'as pas besoin de gagner une guerre pour rentrer à la maison. Reviens, c'est tout. Le dîner sera chaud. Je t'aime que tu sois héros ou lâche. » Le facteur est mort en traversant une tempête pour qu'un inconnu sache qu'il était attendu sans condition. Il n'a jamais livré la lettre, mais l'a protégée jusqu'à son dernier souffle. Certains donnent leur vie pour d'immenses causes ; cet homme l'a donnée pour un « je t'aime » qui n'était même pas le sien.",
+            "it": "La apri con cura. È una lettera di una madre al figlio soldato: 'Non hai bisogno di vincere nessuna guerra per tornare a casa. Torna e basta. La cena sarà calda. Ti amo che tu sia eroe o codardo.' Il postino morì attraversando una bufera perché uno sconosciuto sapesse di essere atteso senza condizioni. Non consegnò la lettera, ma la protesse fino all'ultimo respiro. C'è chi dà la vita per grandi cause; quest'uomo la diede per un 'ti amo' che non era nemmeno suo.",
+            "de": "Du öffnest ihn vorsichtig. Es ist ein Brief einer Mutter an ihren Soldatensohn: „Du musst keinen Krieg gewinnen, um nach Hause zu kommen. Komm einfach zurück. Das Essen wird warm sein. Ich liebe dich, ob als Held oder Feigling.“ Der Postbote starb beim Durchqueren eines Sturms, damit ein Fremder wusste, dass er bedingungslos erwartet wurde. Er lieferte den Brief nie ab, doch beschützte ihn bis zum letzten Atemzug. Manche geben ihr Leben für große Ursachen; dieser Mann gab es für ein „Ich liebe dich“, das nicht einmal seines war.",
+            "zh": "你小心地打开它。这是一位母亲写给她当兵儿子的信：「你不需要打赢任何一场战争才能回家。回来就好。晚饭会热腾腾地等着你。无论你是英雄还是懦夫，我都爱你。」邮差穿越暴风雪而死，只为了让一个陌生人知道，自己无条件地被等待着。他没能送出这封信，却守护它直到最后一口气。有人为伟大的事业献出生命；而这个人，为的是一句甚至不属于他的「我爱你」。",
+            "ja": "慎重にそれを開く。兵士の息子に宛てた母親からの手紙だ。「戦争に勝つ必要なんてないの。ただ帰ってきて。夕食は温かいまま待っているわ。英雄でも臆病者でも、変わらずあなたを愛している」。郵便配達人は、見知らぬ誰かに無条件で待たれていることを知らせるため、吹雪の中を渡ろうとして死んだ。彼はその手紙を届けられなかったが、最後の息まで守り抜いた。巨大な大義のために命を捧げる者もいれば、この男は自分のものでさえない「愛している」という言葉のために命を捧げたのだ。"
+        },
+        "next": [
+            "cartero_root"
+        ],
+        "reward": "faceta:cordura=-1"
+    },
+    "cartero_opt_entregar": {
+        "type": "option",
+        "text": {
+            "es": "🏠  Terminar su ruta: llevar la carta a la cabaña que él no alcanzó",
+            "en": "🏠  Finish his route: take the letter to the cabin he never reached",
+            "fr": "🏠  Terminer sa tournée : porter la lettre à la cabane qu'il n'a jamais atteinte",
+            "it": "🏠  Terminare il suo giro: portare la lettera alla capanna che non raggiunse",
+            "de": "🏠  Seine Runde beenden: den Brief zur Hütte bringen, die er nie erreichte",
+            "zh": "🏠  完成他的路线：把信送到他未能抵达的小屋",
+            "ja": "🏠  彼の配達を終わらせる：辿り着けなかった小屋に手紙を届ける"
+        },
+        "next": [
+            "cartero_msg_entregar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "cartero_msg_entregar": {
+        "type": "message",
+        "text": {
+            "es": "Recoges la carta, la guardas junto al pecho como hacía él y caminas los últimos metros que a él le costaron la vida. En la cabaña, una anciana abre la puerta. Cuando reconoce el sello de su propia letra, se le doblan las rodillas: llevaba años sin saber si su carta había salido siquiera. 'Mi niño murió en la guerra', susurra. 'Pero saber que alguien intentó llegar... que no se rindió... gracias.' Te marchas con la saca vacía y el pecho lleno. Terminar el camino de otro cuando él ya no puede es la clase de valentía que nadie aplaude.",
+            "en": "You take the letter, tuck it against your chest the way he did, and walk the last few meters that cost him his life. At the cabin, an old woman opens the door. When she recognizes the seal of her own handwriting, her knees buckle: for years she never knew whether her letter had even been sent. 'My boy died in the war,' she whispers. 'But to know someone tried to arrive... that he didn't give up... thank you.' You leave with an empty satchel and a full chest. Finishing another's road when he no longer can is the kind of courage no one applauds.",
+            "fr": "Tu prends la lettre, la ranges contre ta poitrine comme il le faisait et marches les derniers mètres qui lui ont coûté la vie. À la cabane, une vieille femme ouvre la porte. Quand elle reconnaît le sceau de sa propre écriture, ses genoux flanchent : cela faisait des années qu'elle ne savait pas si sa lettre était même partie. « Mon fils est mort à la guerre », murmure-t-elle. « Mais savoir que quelqu'un a essayé d'arriver... qu'il n'a pas abandonné... merci. » Tu repars avec la sacoche vide et la poitrine pleine. Terminer le chemin d'un autre quand il ne le peut plus est le genre de courage que personne n'applaudit.",
+            "it": "Prendi la lettera, la custodisci contro il petto come faceva lui e cammini gli ultimi metri che a lui costarono la vita. Alla capanna, un'anziana apre la porta. Quando riconosce il sigillo della sua stessa scrittura, le si piegano le ginocchia: erano anni che non sapeva se la sua lettera fosse mai partita. 'Mio figlio è morto in guerra', sussurra. 'Ma sapere che qualcuno ha provato ad arrivare... che non si è arreso... grazie.' Te ne vai con la bisaccia vuota e il petto pieno. Terminare il cammino di un altro quando lui non può più è il tipo di coraggio che nessuno applaude.",
+            "de": "Du nimmst den Brief, hältst ihn wie er an deine Brust und gehst die letzten Meter, die ihm das Leben kosteten. An der Hütte öffnet eine alte Frau die Tür. Als sie das Siegel ihrer eigenen Handschrift erkennt, geben ihre Knie nach: seit Jahren wusste sie nicht, ob ihr Brief überhaupt abgeschickt worden war. „Mein Junge starb im Krieg“, flüstert sie. „Aber zu wissen, dass jemand versuchte anzukommen... dass er nicht aufgab... danke.“ Du gehst mit leerer Tasche und vollem Herzen. Den Weg eines anderen zu vollenden, wenn er es selbst nicht mehr kann, ist die Art von Mut, für die niemand applaudiert.",
+            "zh": "你拿起信，像他一样把它贴在胸前，走完了那让他付出生命的最后几米。在小屋前，一位老妇人打开了门。当她认出那是自己笔迹的封印时，她的膝盖一软：多年来她一直不知道自己的信是否曾寄出去过。「我的孩子死在了战场上，」她低语道，「但知道有人曾努力抵达……没有放弃……谢谢你。」你带着空空的邮袋和满溢的心离开了。在别人无法完成时替他走完最后的路，是那种无人喝彩的勇气。",
+            "ja": "手紙を取り、彼がそうしたように胸に抱き、彼が命を落とした最後の数メートルを歩く。小屋では老女が扉を開ける。自分自身の筆跡の封印だと気づいた瞬間、彼女は膝の力が抜ける——長年、自分の手紙が実際に送られたかどうかさえ知らなかったのだ。「息子は戦争で死んだの」と彼女は囁く。「でも誰かが届けようとしてくれたと知って……諦めなかったと……ありがとう」お前は空の郵袋と満たされた胸を抱えて立ち去る。他の誰かが果たせなかった道を完遂すること、それは誰にも称賛されない種類の勇気だ。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:bondad=+1;faceta:valor=+1"
+    },
+    "cartero_opt_enterrar": {
+        "type": "option",
+        "text": {
+            "es": "⛏️  Darle sepultura a él antes que preocuparte por su carga",
+            "en": "⛏️  Bury him first, before worrying about his cargo",
+            "fr": "⛏️  L'enterrer d'abord, avant de te préoccuper de sa charge",
+            "it": "⛏️  Seppellirlo prima, prima di preoccuparti del suo carico",
+            "de": "⛏️  Ihn zuerst begraben, bevor du dich um seine Fracht sorgst",
+            "zh": "⛏️  先安葬他，再去操心他携带的东西",
+            "ja": "⛏️  荷物を心配する前に、まず彼を埋葬する"
+        },
+        "next": [
+            "cartero_msg_enterrar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "cartero_msg_enterrar": {
+        "type": "message",
+        "text": {
+            "es": "Antes que nada, cavas en la nieve dura y das sepultura al cartero, con su gorra por lápida. 'Cumpliste', le dices. 'Nadie podría haber hecho más.' Colocas la carta bajo la gorra, para que descanse con lo que murió protegiendo. Quizá nunca llegue a su destino, pero al menos no acabará pisoteada en el barro. Hay dignidad en cerrar bien las historias, aunque no tengan final feliz.",
+            "en": "Before anything else, you dig into the hard snow and give the carrier a burial, his cap for a headstone. 'You did your duty,' you tell him. 'No one could have done more.' You place the letter beneath the cap, so it rests with what he died protecting. Maybe it will never reach its destination, but at least it won't end up trampled in the mud. There's dignity in closing stories properly, even those without a happy ending.",
+            "fr": "Avant toute chose, tu creuses dans la neige durcie et donnes une sépulture au facteur, sa casquette en guise de pierre tombale. « Tu as accompli ton devoir », lui dis-tu. « Personne n'aurait pu faire plus. » Tu places la lettre sous la casquette, pour qu'elle repose avec ce qu'il est mort en protégeant. Elle n'atteindra peut-être jamais sa destination, mais au moins elle ne finira pas piétinée dans la boue. Il y a de la dignité à bien clore les histoires, même sans fin heureuse.",
+            "it": "Prima di tutto, scavi nella neve dura e dai sepoltura al postino, con il berretto per lapide. 'Hai fatto il tuo dovere', gli dici. 'Nessuno avrebbe potuto fare di più.' Metti la lettera sotto il berretto, perché riposi con ciò che morì proteggendo. Forse non raggiungerà mai la sua destinazione, ma almeno non finirà calpestata nel fango. C'è dignità nel chiudere bene le storie, anche quelle senza lieto fine.",
+            "de": "Zuallererst gräbst du im harten Schnee und bestattest den Postboten, seine Mütze als Grabstein. „Du hast deine Pflicht erfüllt“, sagst du ihm. „Niemand hätte mehr tun können.“ Du legst den Brief unter die Mütze, damit er mit dem ruht, was er beschützend starb. Vielleicht wird er nie sein Ziel erreichen, aber wenigstens endet er nicht im Schlamm zertreten. Es liegt Würde darin, Geschichten ordentlich abzuschließen, auch solche ohne Happy End.",
+            "zh": "你首先在坚硬的雪地里挖了一个坑，用他的帽子做墓碑，把邮差安葬了。「你尽到了自己的职责，」你对他说，「没有人能做得更多了。」你把信放在帽子下面，让它与他至死守护的东西一同安息。这封信也许永远无法抵达它的目的地，但至少它不会最终被踩进泥泞里。妥善地为故事画上句号是一种尊严，即便它没有一个幸福的结局。",
+            "ja": "何よりもまず、硬い雪を掘り、帽子を墓標にして郵便配達人を埋葬する。「お前は義務を果たした」と語りかける。「誰もこれ以上のことはできなかっただろう」帽子の下に手紙を置き、彼が守って死んだものとともに安らかに眠らせる。それが宛先に届くことは決してないかもしれないが、少なくとも泥に踏みにじられて終わることはない。物語をきちんと締めくくることには尊厳がある。たとえ幸せな結末がなくとも。"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": "faceta:bondad=+1"
+    },
+    "cartero_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Dejarlo todo como está y seguir tu camino",
+            "en": "🚶  Leave everything as it is and go on your way",
+            "fr": "🚶  Tout laisser tel quel et poursuivre ton chemin",
+            "it": "🚶  Lasciare tutto com'è e proseguire il tuo cammino",
+            "de": "🚶  Alles so lassen, wie es ist, und deinen Weg fortsetzen",
+            "zh": "🚶  一切保持原样，继续赶路",
+            "ja": "🚶  すべてをそのままにして先へ進む"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

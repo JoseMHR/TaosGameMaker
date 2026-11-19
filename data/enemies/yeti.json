@@ -1,0 +1,65 @@
+{
+  "name": {
+    "es": "Yeti",
+    "en": "Yeti",
+    "fr": "Yéti",
+    "it": "Yeti",
+    "de": "Yeti",
+    "zh": "雪怪",
+    "ja": "イエティ"
+  },
+  "family": "beast",
+  "archetype": "tank",
+  "icon": "🦣",
+  "image": "res://assets/combat/enemies/en_yeti.png",
+  "attack_type": "physical",
+  "base_dodge": 4.0,
+  "dodge_scale": 0.1,
+  "element": "ice",
+  "weak_to": [
+    "fire"
+  ],
+  "resist": [
+    "ice",
+    "physical"
+  ],
+  "status_on_hit": {
+    "type": "slow",
+    "chance": 0.35,
+    "turns": 2,
+    "power": 0
+  },
+  "ai": "aggressive",
+  "xp_reward_base": 42,
+  "xp_reward_scale": 6.0,
+  "gold_reward_base": 18,
+  "gold_reward_scale": 3.5,
+  "skills": [
+    {
+      "level": 1,
+      "skill_id": "heavy_strike"
+    },
+    {
+      "level": 5,
+      "skill_id": "tackle"
+    },
+    {
+      "level": 6,
+      "skill_id": "roar"
+    }
+  ],
+  "loot": [
+    {
+      "kind": "gold",
+      "min": 15,
+      "max": 34
+    },
+    {
+      "kind": "equipment",
+      "chance": 0.3,
+      "level": 5
+    }
+  ],
+  "zone": "zona_2_nieve",
+  "is_boss": false
+}

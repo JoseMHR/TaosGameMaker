@@ -1,0 +1,48 @@
+{
+	"gather": {
+		"icon": "🪵",
+		"possible_targets": ["wood", "stone", "fish"],
+		"title": {
+			"es": "Recolecta {amount} de {target_name}",
+			"en": "Gather {amount} {target_name}"
+		},
+		"desc": {
+			"es": "La ciudad necesita suministros. Trae {amount} de {target_name} y recibirás una recompensa.",
+			"en": "The town needs supplies. Bring {amount} {target_name} for a reward."
+		},
+		"reward_gold_factor": 2.2,
+		"reward_xp_factor": 1.6,
+		"amount_base": 8,
+		"amount_per_level": 0.6
+	},
+	"kill": {
+		"icon": "⚔️",
+		"title": {
+			"es": "Amenaza en los caminos",
+			"en": "Threat on the roads"
+		},
+		"desc": {
+			"es": "Se han avistado {amount} criaturas hostiles cerca. Elimínalas para asegurar la zona.",
+			"en": "{amount} hostile creatures have been spotted nearby. Defeat them to secure the area."
+		},
+		"reward_gold_factor": 3.2,
+		"reward_xp_factor": 2.4,
+		"amount_base": 2,
+		"amount_per_level": 0.15
+	},
+	"visit": {
+		"icon": "🚪",
+		"title": {
+			"es": "Reconocimiento de la zona",
+			"en": "Area reconnaissance"
+		},
+		"desc": {
+			"es": "Visita {amount} edificios distintos para conocer mejor la zona.",
+			"en": "Visit {amount} different buildings to get to know the area."
+		},
+		"reward_gold_factor": 1.6,
+		"reward_xp_factor": 1.1,
+		"amount_base": 2,
+		"amount_per_level": 0.1
+	}
+}

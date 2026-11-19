@@ -1,0 +1,32 @@
+{
+    "name": {
+        "es": "Casco Básico",
+        "en": "Basic Helmet",
+        "fr": "Casque Basique",
+        "it": "Elmo Base",
+        "de": "Basishelm",
+        "zh": "基础头盔",
+        "ja": "ベーシックヘルム"
+    },
+    "desc": {
+        "es": "Un casco elemental pero resistente que resguarda la cabeza de golpes directos.",
+        "en": "A basic yet sturdy helmet that shields the head from direct blows.",
+        "fr": "Un casque élémentaire mais résistant qui protège la tête des coups directs.",
+        "it": "Un elmo elementare ma resistente che protegge la testa dai colpi diretti.",
+        "de": "Ein einfacher, aber robuster Helm, der den Kopf vor direkten Treffern schützt.",
+        "zh": "一顶朴素但坚固的头盔，可保护头部免受直接打击。",
+        "ja": "簡素ながら頑丈で、頭を直接の打撃から守る兜。"
+    },
+    "icon": "🪖",
+    "category": "equipment",
+    "usable": false,
+    "slot": "helmet",
+    "tier": 1,
+    "bonuses": {
+        "vit": 2
+    },
+    "combat": {
+        "phys_defense": 8,
+        "mag_defense": 2
+    }
+}

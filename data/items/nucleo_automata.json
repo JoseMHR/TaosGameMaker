@@ -1,0 +1,23 @@
+{
+    "name": {
+        "es": "Núcleo de Autómata",
+        "en": "Automaton Core",
+        "fr": "Noyau d'Automate",
+        "it": "Nucleo dell'Automa",
+        "de": "Automatenkern",
+        "zh": "自动机核心",
+        "ja": "オートマトンコア"
+    },
+    "desc": {
+        "es": "Un núcleo de energía arcana extraído de un autómata desactivado. Brik pagaría bien por unos cuantos.",
+        "en": "An arcane energy core pulled from a deactivated automaton. Brik would pay well for a handful of these.",
+        "fr": "Un noyau d'énergie arcanique extrait d'un automate désactivé. Brik paierait cher pour quelques-uns.",
+        "it": "Un nucleo di energia arcana estratto da un automa disattivato. Brik pagherebbe bene per qualcuno.",
+        "de": "Ein arkaner Energiekern aus einem deaktivierten Automaten. Brik würde für ein paar davon gut bezahlen.",
+        "zh": "从已停用的自动机中取出的秘法能量核心，布里克愿为几个这样的核心出高价。",
+        "ja": "停止したオートマトンから取り出された秘術エネルギーコア。ブリックはこれらをいくつか高値で買い取るだろう。"
+    },
+    "icon": "🔋",
+    "category": "other",
+    "usable": false
+}

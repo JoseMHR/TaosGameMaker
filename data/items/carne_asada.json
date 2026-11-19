@@ -1,0 +1,26 @@
+{
+    "name": {
+        "es": "Carne Asada",
+        "en": "Roast Meat",
+        "fr": "Viande Grillée",
+        "it": "Carne Arrostita",
+        "de": "Gebratenes Fleisch",
+        "zh": "烤肉",
+        "ja": "焼き肉"
+    },
+    "desc": {
+        "es": "Un buen filete asado. Restaura vida, pero no maná.",
+        "en": "A hearty roast. Restores health, but no mana.",
+        "fr": "Un bon steak grillé. Restaure la vie, mais pas le mana.",
+        "it": "Una buona bistecca alla griglia. Ripristina la vita, ma non il mana.",
+        "de": "Ein herzhaftes gebratenes Steak. Stellt Leben wieder her, aber kein Mana.",
+        "zh": "一份美味的烤肉排。恢复生命值，但不恢复魔法值。",
+        "ja": "美味しい焼きステーキ。HPは回復するが、MPは回復しない。"
+    },
+    "icon": "🍖",
+    "category": "edible",
+    "usable": true,
+    "effects": {
+        "heal_pct": 0.3
+    }
+}

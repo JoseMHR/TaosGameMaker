@@ -1,0 +1,32 @@
+{
+    "name": {
+        "es": "Peto Arcanium",
+        "en": "Arcanium Chestplate",
+        "fr": "Plastron Arcanium",
+        "it": "Corazza Arcanium",
+        "de": "Arcanium-Brustplatte",
+        "zh": "奥秘遗迹胸甲",
+        "ja": "アルカニウムチェストプレート"
+    },
+    "desc": {
+        "es": "Placas metálicas ensambladas por autómatas, con núcleos de energía residual todavía activos. Pesado, pero prácticamente indestructible.",
+        "en": "Metal plating assembled by automatons, still carrying active residual energy cores. Heavy, but nearly indestructible.",
+        "fr": "Plaques métalliques assemblées par des automates, avec des noyaux d'énergie résiduelle encore actifs. Lourd, mais pratiquement indestructible.",
+        "it": "Piastre metalliche assemblate da automi, con nuclei di energia residua ancora attivi. Pesante, ma praticamente indistruttibile.",
+        "de": "Metallplatten, zusammengebaut von Automaten, mit noch aktiven Restenergiekernen. Schwer, aber praktisch unzerstörbar.",
+        "zh": "由自动机组装的金属板，内含仍在运作的残余能量核心，沉重却几乎坚不可摧。",
+        "ja": "オートマトンによって組み立てられた金属板で、まだ活性化している残留エネルギーコアを持つ。重いがほぼ破壊不能。"
+    },
+    "icon": "🦾",
+    "category": "equipment",
+    "usable": false,
+    "slot": "armor",
+    "tier": 5,
+    "bonuses": {
+        "vit": 9,
+        "int": 3
+    },
+    "combat": {
+        "phys_defense": 22
+    }
+}

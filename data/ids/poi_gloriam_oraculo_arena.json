@@ -1,0 +1,26 @@
+{
+    "id": "poi_gloriam_oraculo_arena",
+    "type": "poi",
+    "icon": "🔮",
+    "name": {
+        "es": "El Oráculo de Arena",
+        "en": "The Sand Oracle",
+        "fr": "L'Oracle de Sable",
+        "it": "L'Oracolo di Sabbia",
+        "de": "Das Sandorakel",
+        "zh": "沙之神谕",
+        "ja": "砂の神託"
+    },
+    "desc": {
+        "es": "Una anciana velada que lee el futuro (y el pasado) en los dibujos que la arena forma al caer entre sus dedos. (PNJ singular).",
+        "en": "A veiled old woman who reads the future (and the past) in the patterns sand makes falling through her fingers. (Singular NPC).",
+        "fr": "Une vieille femme voilée qui lit l'avenir (et le passé) dans les dessins que forme le sable en tombant entre ses doigts. (PNJ singulier).",
+        "it": "Un'anziana velata che legge il futuro (e il passato) nei disegni che la sabbia forma cadendo tra le sue dita. (PNG singolare).",
+        "de": "Eine verschleierte alte Frau, die die Zukunft (und die Vergangenheit) in den Mustern liest, die der Sand beim Fallen durch ihre Finger bildet. (Einzigartiger NPC).",
+        "zh": "一位蒙着面纱的老妇，从指间流下的沙粒形成的图案中窥见未来（与过去）。（唯一NPC）。",
+        "ja": "指の間から落ちる砂が描く模様から未来（と過去）を読み取る、ベールをまとった老婆。（唯一のNPC）。"
+    },
+    "npc": "poi_gloriam_oraculo_arena",
+    "bg": "bg_world_poi_gloriam_oraculo_arena.png",
+    "music": "creepy"
+}

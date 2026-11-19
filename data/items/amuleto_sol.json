@@ -1,0 +1,48 @@
+{
+    "name": {
+        "es": "Amuleto Solar",
+        "en": "Solar Amulet",
+        "fr": "Amulette Solaire",
+        "it": "Amuleto Solare",
+        "de": "Sonnenamulett",
+        "zh": "太阳护身符",
+        "ja": "ソーラーアミュレット"
+    },
+    "desc": {
+        "es": "Colgante con el sello del dios de las arenas ardientes.",
+        "en": "Pendant bearing the seal of the burning sands deity.",
+        "fr": "Pendentif portant le sceau du dieu des sables brûlants.",
+        "it": "Ciondolo con il sigillo del dio delle sabbie ardenti.",
+        "de": "Anhänger mit dem Siegel des Gottes der brennenden Sande.",
+        "zh": "刻有灼热沙漠之神印记的吊坠。",
+        "ja": "灼熱の砂の神の印を刻んだペンダント。"
+    },
+    "icon": "☀️",
+    "category": "equipment",
+    "usable": false,
+    "slot": "accessory",
+    "tier": 5,
+    "bonuses": {
+        "vit": 10,
+        "str": 8
+    },
+    "combat": {
+        "phys_defense": 20,
+        "mag_defense": 20
+    },
+    "traits": [
+        {
+            "type": "resist_element",
+            "element": "fire",
+            "value": 0.25,
+            "min_refine": 0,
+            "desc": "+25% Resistencia a Fuego y Quemadura"
+        },
+        {
+            "type": "heat_hazard_reduction",
+            "value": 0.3,
+            "min_refine": 0,
+            "desc": "-30% velocidad de la insolación al pisar desierto"
+        }
+    ]
+}

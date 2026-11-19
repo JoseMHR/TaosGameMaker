@@ -1,0 +1,169 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "La Caravana Fantasma",
+            "en": "The Ghost Caravan",
+            "fr": "La Caravane Fantôme",
+            "it": "La Carovana Fantasma",
+            "de": "Die Geisterkarawane",
+            "zh": "幽灵商队",
+            "ja": "幽霊キャラバン"
+        },
+        "next": [],
+        "reward": "bg=0.14,0.11,0.06"
+    },
+    "car_done": {
+        "type": "message",
+        "text": {
+            "es": "La caravana sigue detenida en su marcha eterna hacia una ciudad que ya no existe. Las huellas que cubriste con arena han desaparecido, pero al pasar juras oír, muy bajo, un tintineo de cascabeles de camello agradecido perderse en el viento.",
+            "en": "The caravan remains halted in its eternal march toward a city that no longer exists. The tracks you covered with sand are gone, but as you pass you'd swear you hear, very faintly, a jingle of grateful camel bells fading into the wind.",
+            "fr": "La caravane reste immobile dans sa marche éternelle vers une ville qui n'existe plus. Les traces que tu as recouvertes de sable ont disparu, mais en passant tu jurerais entendre, très faiblement, un tintement de clochettes de chameau reconnaissant se perdre dans le vent.",
+            "it": "La carovana resta ferma nella sua marcia eterna verso una città che non esiste più. Le tracce che hai coperto di sabbia sono scomparse, ma passando giureresti di sentire, molto piano, un tintinnio di campanelli di cammello riconoscente perdersi nel vento.",
+            "de": "Die Karawane bleibt in ihrem ewigen Marsch zu einer nicht mehr existierenden Stadt weiterhin bewegungslos. Die Spuren, die du mit Sand bedeckt hast, sind verschwunden, aber im Vorbeigehen würdest du schwören, ganz leise ein Klingeln dankbarer Kamelglöckchen im Wind verklingen zu hören.",
+            "zh": "商队依然静止不动，永远行进在通往一座已不复存在的城市的路上。你用沙子覆盖的足迹已经消失，但当你经过时，你会发誓自己隐约听到一阵感激的骆驼铃声，正随风消散。",
+            "ja": "キャラバンは、もはや存在しない街への永遠の行進の途中で止まったままだ。お前が砂で覆った足跡は消えているが、通り過ぎる時、感謝するようなラクダの鈴の音が風に消えていくのがかすかに聞こえた気がする。"
+        },
+        "next": [
+            "car_opt_salir"
+        ],
+        "reward": "",
+        "condition": "gflag(\"car_honrada\")"
+    },
+    "car_root": {
+        "type": "message",
+        "text": {
+            "es": "Media docena de figuras emergen de la arena en fila: camellos resecos y jinetes convertidos en cuero y hueso, todos orientados en la misma dirección, congelados a mitad de un paso que nunca terminaron. El viento silba entre las costillas de las monturas. Las alforjas siguen cargadas de especias que ya nadie olerá. Fuera lo que fuese lo que los detuvo, los pilló a todos a la vez, sin tiempo ni para gritar.",
+            "en": "Half a dozen figures rise from the sand in a line: withered camels and riders turned to leather and bone, all facing the same direction, frozen mid-step in a stride they never finished. The wind whistles through the mounts' ribs. The saddlebags are still loaded with spices no one will ever smell. Whatever stopped them caught them all at once, without even time to scream.",
+            "fr": "Une demi-douzaine de silhouettes émergent du sable en file : chameaux desséchés et cavaliers changés en cuir et en os, tous orientés dans la même direction, figés en plein pas qu'ils n'ont jamais terminé. Le vent siffle entre les côtes des montures. Les sacoches sont toujours chargées d'épices que plus personne ne sentira jamais. Quoi que ce fût qui les ait arrêtés, cela les a tous frappés en même temps, sans même le temps de crier.",
+            "it": "Mezza dozzina di figure emergono dalla sabbia in fila: cammelli inariditi e cavalieri trasformati in cuoio e ossa, tutti orientati nella stessa direzione, congelati a metà di un passo mai concluso. Il vento fischia tra le costole delle cavalcature. Le bisacce sono ancora cariche di spezie che nessuno annuserà mai più. Qualunque cosa li abbia fermati, li ha colpiti tutti insieme, senza nemmeno il tempo di gridare.",
+            "de": "Ein halbes Dutzend Gestalten erhebt sich in einer Reihe aus dem Sand: ausgetrocknete Kamele und zu Leder und Knochen gewordene Reiter, alle in dieselbe Richtung ausgerichtet, mitten in einem nie vollendeten Schritt erstarrt. Der Wind pfeift durch die Rippen der Reittiere. Die Satteltaschen sind noch immer beladen mit Gewürzen, die niemand mehr riechen wird. Was auch immer sie aufhielt, es traf sie alle gleichzeitig, ohne dass ihnen auch nur Zeit zum Schreien blieb.",
+            "zh": "半打身影排成一列从沙中显现：干枯的骆驼和已变成皮革与骨骼的骑手，全都朝着同一个方向，凝固在一个从未完成的步伐中。风在坐骑的肋骨间呼啸而过。鞍袋里依然装满了再也不会有人闻到的香料。无论是什么让他们停下的，它一次性击中了所有人，甚至来不及尖叫。",
+            "ja": "半ダースほどの人影が一列になって砂から現れる——干からびたラクダと、革と骨に変わった乗り手たち、すべて同じ方向を向き、決して終わらなかった一歩の途中で凍りついている。風が乗騎の肋骨の間を吹き抜ける。鞍袋には、もう誰も嗅ぐことのない香辛料がまだ詰まっている。彼らを止めた何かは、叫ぶ暇さえ与えずに、一斉に全員を襲ったのだ。"
+        },
+        "next": [
+            "car_opt_investigar",
+            "car_opt_honrar",
+            "car_opt_saquear",
+            "car_opt_salir"
+        ],
+        "reward": ""
+    },
+    "car_opt_investigar": {
+        "type": "option",
+        "text": {
+            "es": "🔎  Buscar qué detuvo a la caravana entera de golpe",
+            "en": "🔎  Search for what stopped the whole caravan at once",
+            "fr": "🔎  Chercher ce qui a arrêté toute la caravane d'un coup",
+            "it": "🔎  Cercare cosa ha fermato l'intera carovana in un colpo solo",
+            "de": "🔎  Herausfinden, was die gesamte Karawane auf einmal aufhielt",
+            "zh": "🔎  查明是什么让整支商队瞬间停止",
+            "ja": "🔎  何がキャラバン全体を一斉に止めたのかを調べる"
+        },
+        "next": [
+            "car_msg_investigar"
+        ],
+        "reward": ""
+    },
+    "car_msg_investigar": {
+        "type": "message",
+        "text": {
+            "es": "Recorres la fila. Todos los jinetes miran al mismo punto del horizonte, y todos tienen los brazos alzados, no en defensa, sino en asombro, como quien contempla algo hermoso e imposible. En el suelo, un diario reseco tiene una última línea: 'Vimos la luz salir del templo bajo la arena. Era tan bella que ninguno pudo dar un paso más. Que los dioses perdonen a quien despierte lo que duerme ahí abajo.' Un escalofrío te recorre pese al calor abrasador.",
+            "en": "You walk the line. Every rider faces the same point on the horizon, and all of them have their arms raised, not in defense, but in wonder, like people beholding something beautiful and impossible. On the ground, a dried journal has one last line: 'We saw the light rise from the temple beneath the sand. It was so beautiful that none of us could take another step. May the gods forgive whoever wakes what sleeps down there.' A shiver runs through you despite the scorching heat.",
+            "fr": "Tu parcours la file. Tous les cavaliers regardent le même point de l'horizon, et tous ont les bras levés, non pas en défense, mais en émerveillement, comme quelqu'un contemplant quelque chose de beau et d'impossible. Sur le sol, un journal desséché contient une dernière ligne : « Nous avons vu la lumière jaillir du temple sous le sable. Elle était si belle qu'aucun de nous n'a pu faire un pas de plus. Que les dieux pardonnent à celui qui réveillera ce qui dort là-dessous. » Un frisson te parcourt malgré la chaleur écrasante.",
+            "it": "Percorri la fila. Tutti i cavalieri guardano lo stesso punto dell'orizzonte, e tutti hanno le braccia alzate, non in difesa, ma in stupore, come chi contempla qualcosa di bello e impossibile. Sul terreno, un diario secco ha un'ultima riga: 'Abbiamo visto la luce uscire dal tempio sotto la sabbia. Era così bella che nessuno di noi ha potuto fare un altro passo. Che gli dèi perdonino chi risveglierà ciò che dorme là sotto.' Un brivido ti percorre nonostante il calore soffocante.",
+            "de": "Du gehst die Reihe entlang. Alle Reiter blicken auf denselben Punkt am Horizont, und alle haben die Arme erhoben, nicht zur Verteidigung, sondern in Staunen, wie jemand, der etwas Schönes und Unmögliches betrachtet. Am Boden hat ein ausgetrocknetes Tagebuch eine letzte Zeile: „Wir sahen das Licht aus dem Tempel unter dem Sand aufsteigen. Es war so schön, dass keiner von uns einen weiteren Schritt tun konnte. Mögen die Götter demjenigen vergeben, der weckt, was dort unten schläft.“ Ein Schauer durchfährt dich trotz der glühenden Hitze.",
+            "zh": "你沿着队列走过。所有骑手都望着地平线上同一个点，双臂高举——不是为了防御，而是出于惊叹，像是在凝视某种美丽而不可能的事物。地上，一本干枯的日记留下最后一行字：「我们看见光从沙下的神殿中升起。它太美了，我们中没有一个人还能再迈出一步。愿众神宽恕唤醒那沉睡在下方之物的人。」尽管酷热难耐，一阵寒意还是掠过了你的全身。",
+            "ja": "列に沿って歩く。すべての乗り手が地平線の同じ一点を見つめており、腕を上げているのは防御のためではなく、驚嘆のためだ——美しく、あり得ないものを目にした者のように。地面には、干からびた日誌に最後の一行がある：「砂の下の神殿から光が昇るのを見た。あまりに美しく、誰一人としてこれ以上歩を進めることができなかった。あそこに眠るものを目覚めさせる者を、神々が許してくださいますように」灼熱の暑さにもかかわらず、震えが走る。"
+        },
+        "next": [
+            "car_root"
+        ],
+        "reward": ""
+    },
+    "car_opt_honrar": {
+        "type": "option",
+        "text": {
+            "es": "🕯️  Cubrir los cuerpos con arena y darles descanso",
+            "en": "🕯️  Cover the bodies with sand and give them rest",
+            "fr": "🕯️  Couvrir les corps de sable et leur donner du repos",
+            "it": "🕯️  Coprire i corpi di sabbia e dar loro riposo",
+            "de": "🕯️  Die Körper mit Sand bedecken und ihnen Ruhe geben",
+            "zh": "🕯️  用沙子覆盖尸体，让他们安息",
+            "ja": "🕯️  遺体を砂で覆い、安らぎを与える"
+        },
+        "next": [
+            "car_msg_honrar"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "car_msg_honrar": {
+        "type": "message",
+        "text": {
+            "es": "Con las manos y el viento a favor, vas cubriendo de arena a los jinetes y sus monturas, uno a uno, murmurando una despedida para gente cuyos nombres nunca sabrás. Cuando terminas, la caravana descansa por fin bajo un manto dorado, como debió estar hace siglos. El desierto parece agradecértelo con una brisa repentina que te seca el sudor de la frente. Nadie merece quedar a medio camino para siempre.",
+            "en": "With your hands and the wind on your side, you cover the riders and their mounts with sand, one by one, murmuring a farewell for people whose names you'll never know. When you finish, the caravan rests at last beneath a golden shroud, as it should have centuries ago. The desert seems to thank you with a sudden breeze that dries the sweat from your brow. No one deserves to be left halfway forever.",
+            "fr": "Avec tes mains et le vent en ta faveur, tu couvres de sable les cavaliers et leurs montures, un par un, murmurant un adieu pour des gens dont tu ne sauras jamais les noms. Quand tu termines, la caravane repose enfin sous un linceul doré, comme elle aurait dû l'être depuis des siècles. Le désert semble te remercier par une brise soudaine qui sèche la sueur de ton front. Personne ne mérite de rester à mi-chemin pour toujours.",
+            "it": "Con le mani e il vento a tuo favore, copri di sabbia i cavalieri e le loro cavalcature, uno per uno, mormorando un addio a persone di cui non conoscerai mai i nomi. Quando finisci, la carovana riposa finalmente sotto un manto dorato, come sarebbe dovuto accadere secoli fa. Il deserto sembra ringraziarti con una brezza improvvisa che ti asciuga il sudore dalla fronte. Nessuno merita di restare a metà strada per sempre.",
+            "de": "Mit deinen Händen und dem Wind auf deiner Seite bedeckst du die Reiter und ihre Reittiere einen nach dem anderen mit Sand und murmelst einen Abschied für Menschen, deren Namen du nie erfahren wirst. Als du fertig bist, ruht die Karawane endlich unter einem goldenen Mantel, wie es schon vor Jahrhunderten hätte sein sollen. Die Wüste scheint dir mit einer plötzlichen Brise zu danken, die den Schweiß von deiner Stirn trocknet. Niemand verdient es, für immer auf halbem Weg zurückzubleiben.",
+            "zh": "借着双手和顺风，你一个接一个地用沙子掩埋了骑手和他们的坐骑，低声向那些你永远不会知道姓名的人道别。当你完成时，商队终于在一层金色的裹尸布下安息了，如同几个世纪前就该发生的那样。沙漠似乎以一阵突如其来的微风感谢你，吹干了你额头的汗水。没有人应该永远停留在半路。",
+            "ja": "手と味方の風を使い、一人ずつ、乗り手とその騎乗動物を砂で覆い、決して名前を知ることのない人々に別れの言葉を呟く。終える頃には、キャラバンは何世紀も前にそうあるべきだった金色の覆いの下で、ついに安らかに眠る。砂漠は突然の風でお前に感謝しているかのように、額の汗を乾かしてくれる。誰も永遠に道半ばで取り残される値打ちなどないのだ。"
+        },
+        "next": [
+            "car_opt_salir"
+        ],
+        "reward": "faceta:bondad=+1;gflag:car_honrada",
+        "condition": "no_gflag(\"car_honrada\")",
+        "once": true
+    },
+    "car_opt_saquear": {
+        "type": "option",
+        "text": {
+            "es": "🎒  Vaciar las alforjas de especias valiosas",
+            "en": "🎒  Empty the saddlebags of valuable spices",
+            "fr": "🎒  Vider les sacoches de leurs épices précieuses",
+            "it": "🎒  Svuotare le bisacce dalle spezie preziose",
+            "de": "🎒  Die Satteltaschen von wertvollen Gewürzen leeren",
+            "zh": "🎒  搜刮出鞍袋中珍贵的香料",
+            "ja": "🎒  鞍袋から貴重な香辛料を取り出す"
+        },
+        "next": [
+            "car_msg_saquear"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "car_msg_saquear": {
+        "type": "message",
+        "text": {
+            "es": "Rebuscas en las alforjas y llenas tu morral de especias raras aún fragantes, que valdrán una fortuna en Gloriam. Justo cuando te alejas, el viento cambia y una ráfaga de arena te azota la cara con una fuerza casi deliberada, como una bofetada. Cuando por fin abres los ojos, todos los jinetes de cuero parecen mirarte a ti. Probablemente sea el calor. Probablemente.",
+            "en": "You rummage through the saddlebags and fill your pack with rare, still-fragrant spices that will be worth a fortune in Gloriam. Just as you walk off, the wind shifts and a gust of sand lashes your face with an almost deliberate force, like a slap. When you finally open your eyes, all the leathery riders seem to be looking at you. It's probably the heat. Probably.",
+            "fr": "Tu fouilles les sacoches et remplis ton sac d'épices rares encore parfumées, qui vaudront une fortune à Gloriam. Juste au moment où tu t'éloignes, le vent change et une rafale de sable te frappe le visage avec une force presque délibérée, comme une gifle. Quand tu ouvres enfin les yeux, tous les cavaliers de cuir semblent te regarder. C'est probablement la chaleur. Probablement.",
+            "it": "Frughi nelle bisacce e riempi la tua bisaccia di spezie rare ancora fragranti, che varranno una fortuna a Gloriam. Proprio mentre ti allontani, il vento cambia e una raffica di sabbia ti sferza il viso con una forza quasi deliberata, come uno schiaffo. Quando finalmente apri gli occhi, tutti i cavalieri di cuoio sembrano guardarti. Probabilmente è il caldo. Probabilmente.",
+            "de": "Du durchsuchst die Satteltaschen und füllst deinen Rucksack mit seltenen, noch duftenden Gewürzen, die in Gloriam ein Vermögen wert sein werden. Genau als du weggehst, dreht sich der Wind, und eine Sandböe peitscht dir mit fast bewusster Kraft ins Gesicht, wie eine Ohrfeige. Als du endlich die Augen öffnest, scheinen dich alle ledernen Reiter anzustarren. Wahrscheinlich ist es die Hitze. Wahrscheinlich.",
+            "zh": "你翻找鞍袋，把仍然芳香的稀有香料塞满了你的背包，这些香料在格洛里亚姆能卖出一大笔钱。就在你转身离开的那一刻，风向突变，一阵沙尘以一种几乎是刻意的力道抽打在你脸上，如同一记耳光。当你终于睁开眼睛时，所有那些皮革骑手似乎都在盯着你看。大概是天气太热了吧。大概是。",
+            "ja": "鞍袋を漁り、まだ香りの残る貴重な香辛料で袋を満たす。グロリアムで一財産になるだろう。ちょうど立ち去ろうとした瞬間、風向きが変わり、まるで意図的な力を持つかのような砂の突風が、平手打ちのように顔を打つ。ようやく目を開けると、革になった乗り手たち全員がこちらを見ているように見える。おそらく暑さのせいだろう。おそらくは。"
+        },
+        "next": [
+            "car_opt_salir"
+        ],
+        "reward": "gold:60;faceta:bondad=-1",
+        "condition": "no_gflag(\"car_honrada\")"
+    },
+    "car_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Dejar la caravana en su marcha eterna",
+            "en": "🚶  Leave the caravan to its eternal march",
+            "fr": "🚶  Laisser la caravane à sa marche éternelle",
+            "it": "🚶  Lasciare la carovana alla sua marcia eterna",
+            "de": "🚶  Die Karawane ihrem ewigen Marsch überlassen",
+            "zh": "🚶  留下商队继续它永恒的行进",
+            "ja": "🚶  永遠の行進を続けるキャラバンを残して去る"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}

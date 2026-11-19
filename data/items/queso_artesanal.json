@@ -1,0 +1,30 @@
+{
+    "name": {
+        "es": "Queso Artesanal",
+        "en": "Artisan Cheese",
+        "fr": "Fromage Artisanal",
+        "it": "Formaggio Artigianale",
+        "de": "Handwerklicher Käse",
+        "zh": "手工奶酪",
+        "ja": "職人チーズ"
+    },
+    "desc": {
+        "es": "Queso curado con leche fresca. Concede un buff temporal [🛡️ Vigor] (+15% Defensa).",
+        "en": "Cheese cured with fresh milk. Grants a temporary [🛡️ Vigor] buff (+15% Defense).",
+        "fr": "Fromage affiné au lait frais. Accorde un bonus temporaire [🛡️ Vigueur] (+15% Défense).",
+        "it": "Formaggio stagionato con latte fresco. Conferisce un buff temporaneo [🛡️ Vigore] (+15% Difesa).",
+        "de": "Mit frischer Milch gereifter Käse. Gewährt einen temporären [🛡️ Vitalität]-Buff (+15% Verteidigung).",
+        "zh": "以鲜奶熟成的奶酪，给予临时的【🛡️ 活力】增益（防御力 +15%）。",
+        "ja": "新鮮な牛乳で熟成させたチーズ。一時的な【🛡️ 活力】バフ（防御力+15%）を付与する。"
+    },
+    "icon": "🧀",
+    "category": "edible",
+    "usable": true,
+    "effects": {
+        "heal_pct": 0.35,
+        "buff": {
+            "key": "vigor",
+            "duration": 600
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "name": {
+        "es": "Escudo Desgastado",
+        "en": "Worn Shield",
+        "fr": "Bouclier Usé",
+        "it": "Scudo Consumato",
+        "de": "Abgenutzter Schild",
+        "zh": "破旧盾牌",
+        "ja": "使い古された盾"
+    },
+    "desc": {
+        "es": "Un escudo viejo pero funcional.",
+        "en": "An old but functional shield.",
+        "fr": "Un vieux bouclier mais fonctionnel.",
+        "it": "Uno scudo vecchio ma funzionale.",
+        "de": "Ein alter, aber funktionaler Schild.",
+        "zh": "老旧但仍能使用的盾牌。",
+        "ja": "古いが使える盾。"
+    },
+    "icon": "🛡️",
+    "category": "equipment",
+    "usable": false,
+    "slot": "shield",
+    "tier": 2,
+    "bonuses": {
+        "vit": 3
+    },
+    "combat": {
+        "phys_defense": 26
+    }
+}

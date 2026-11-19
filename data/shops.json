@@ -1,0 +1,264 @@
+{
+    "default": [
+        {
+            "id": "pocion_vida_inferior",
+            "price": 30
+        },
+        {
+            "id": "pocion_mana_inferior",
+            "price": 30
+        },
+        {
+            "id": "rusty_sword",
+            "price": 40
+        },
+        {
+            "id": "wooden_bow",
+            "price": 40
+        },
+        {
+            "id": "novice_staff",
+            "price": 40
+        },
+        {
+            "id": "leather_cap",
+            "price": 25
+        },
+        {
+            "id": "wooden_shield",
+            "price": 30
+        },
+        {
+            "id": "leather_armor",
+            "price": 35
+        },
+        {
+            "id": "semilla_trigo",
+            "price": 8
+        },
+        {
+            "id": "semilla_arroz",
+            "price": 8
+        }
+    ],
+    "imperial": [
+        {
+            "id": "pocion_vida_inferior",
+            "price": 30
+        },
+        {
+            "id": "pocion_mana_inferior",
+            "price": 30
+        },
+        {
+            "id": "tent",
+            "price": 100
+        },
+        {
+            "id": "steel_sword",
+            "price": 140
+        },
+        {
+            "id": "hunters_bow",
+            "price": 135
+        },
+        {
+            "id": "oak_staff",
+            "price": 130
+        },
+        {
+            "id": "mind_crystal",
+            "price": 120
+        },
+        {
+            "id": "hunter_tunic",
+            "price": 110
+        },
+        {
+            "id": "knight_helmet",
+            "price": 95
+        },
+        {
+            "id": "tower_shield",
+            "price": 150
+        },
+        {
+            "id": "ruby_ring",
+            "price": 130
+        },
+        {
+            "id": "bomba",
+            "price": 25
+        },
+        {
+            "id": "semilla_trigo",
+            "price": 8
+        },
+        {
+            "id": "semilla_arroz",
+            "price": 8
+        }
+    ],
+    "celestia": [
+        {
+            "id": "pocion_vida_inferior",
+            "price": 30
+        },
+        {
+            "id": "pocion_mana_inferior",
+            "price": 30
+        },
+        {
+            "id": "tent",
+            "price": 100
+        },
+        {
+            "id": "imperial_blade",
+            "price": 380
+        },
+        {
+            "id": "composite_bow",
+            "price": 370
+        },
+        {
+            "id": "crystal_wand",
+            "price": 390
+        },
+        {
+            "id": "chrono_hourglass",
+            "price": 320
+        },
+        {
+            "id": "titanium_plate",
+            "price": 420
+        },
+        {
+            "id": "silk_vest",
+            "price": 340
+        },
+        {
+            "id": "mirage_shield",
+            "price": 360
+        },
+        {
+            "id": "sapphire_ring",
+            "price": 300
+        },
+        {
+            "id": "bomba",
+            "price": 25
+        }
+    ],
+    "desert": [
+        {
+            "id": "pocion_vida_intermedia",
+            "price": 90
+        },
+        {
+            "id": "pocion_mana_intermedia",
+            "price": 90
+        },
+        {
+            "id": "bebida_refrescante",
+            "price": 45
+        },
+        {
+            "id": "tent",
+            "price": 100
+        },
+        {
+            "id": "desert_scimitar",
+            "price": 850
+        },
+        {
+            "id": "dune_sniper",
+            "price": 840
+        },
+        {
+            "id": "solar_scepter",
+            "price": 880
+        },
+        {
+            "id": "mirage_orb",
+            "price": 720
+        },
+        {
+            "id": "nomad_garb",
+            "price": 760
+        },
+        {
+            "id": "dragon_leather",
+            "price": 890
+        },
+        {
+            "id": "plasma_barrier",
+            "price": 800
+        },
+        {
+            "id": "botas_arena",
+            "price": 600
+        },
+        {
+            "id": "amuleto_sol",
+            "price": 650
+        },
+        {
+            "id": "semilla_cactus",
+            "price": 10
+        }
+    ],
+    "arcanum": [
+        {
+            "id": "pocion_vida_superior",
+            "price": 220
+        },
+        {
+            "id": "pocion_mana_superior",
+            "price": 220
+        },
+        {
+            "id": "elixir_max",
+            "price": 600
+        },
+        {
+            "id": "tent",
+            "price": 100
+        },
+        {
+            "id": "flame_blade",
+            "price": 1950
+        },
+        {
+            "id": "arcane_bow",
+            "price": 1920
+        },
+        {
+            "id": "plasma_staff",
+            "price": 2050
+        },
+        {
+            "id": "quantum_core",
+            "price": 1750
+        },
+        {
+            "id": "cyber_vest",
+            "price": 1650
+        },
+        {
+            "id": "alloy_mesh",
+            "price": 1900
+        },
+        {
+            "id": "aegis_shield",
+            "price": 1850
+        },
+        {
+            "id": "crown_of_light",
+            "price": 2200
+        },
+        {
+            "id": "bomba",
+            "price": 35
+        }
+    ]
+}

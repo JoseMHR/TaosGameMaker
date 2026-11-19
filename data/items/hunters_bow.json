@@ -1,0 +1,40 @@
+{
+    "name": {
+        "es": "Arco de Cazador",
+        "en": "Hunter's Bow",
+        "fr": "Arc du Chasseur",
+        "it": "Arco del Cacciatore",
+        "de": "Jägerbogen",
+        "zh": "猎人之弓",
+        "ja": "ハンターズボウ"
+    },
+    "desc": {
+        "es": "Arco largo de madera noble con cuerda reforzada.",
+        "en": "A fine hardwood bow with a reinforced string.",
+        "fr": "Long arc en bois noble avec corde renforcée.",
+        "it": "Lungo arco di legno pregiato con corda rinforzata.",
+        "de": "Langbogen aus edlem Holz mit verstärkter Sehne.",
+        "zh": "以名贵木材制成的长弓，配有强化弓弦。",
+        "ja": "強化された弦を持つ高級木材の長弓。"
+    },
+    "icon": "🏹",
+    "category": "equipment",
+    "usable": false,
+    "slot": "weapon",
+    "tier": 3,
+    "bonuses": {
+        "dex": 4,
+        "agi": 3
+    },
+    "combat": {
+        "range_damage": 42
+    },
+    "traits": [
+        {
+            "type": "crit_chance",
+            "value": 0.1,
+            "min_refine": 5,
+            "desc": "+10% Probabilidad de Crítico"
+        }
+    ]
+}

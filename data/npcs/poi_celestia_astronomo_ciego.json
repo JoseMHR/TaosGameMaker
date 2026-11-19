@@ -1,0 +1,137 @@
+{
+    "_meta": {
+        "type": "meta",
+        "text": {
+            "es": "El Astrónomo Ciego",
+            "en": "The Blind Astronomer",
+            "fr": "L'Astronome Aveugle",
+            "it": "L'Astronomo Cieco",
+            "de": "Der Blinde Astronom",
+            "zh": "盲眼天文学家",
+            "ja": "盲目の天文学者"
+        },
+        "next": [],
+        "reward": "avatar=🔭;bg=0.05,0.06,0.11"
+    },
+    "ast_done": {
+        "type": "message",
+        "text": {
+            "es": "El anciano vuelve la cara hacia ti al oír tus pasos y sonríe. 'El que me prestó sus ojos. Siéntate cuando quieras, muchacho. El cielo no se mueve deprisa; podemos esperarlo juntos.' Tantea el aire hasta dar con tu hombro, y lo aprieta.",
+            "en": "The old man turns his face toward you at the sound of your steps and smiles. 'The one who lent me his eyes. Sit whenever you like, lad. The sky doesn't move fast; we can wait for it together.' He gropes the air until he finds your shoulder, and squeezes it.",
+            "fr": "Le vieil homme tourne le visage vers toi en entendant tes pas et sourit. « Celui qui m'a prêté ses yeux. Assieds-toi quand tu veux, mon garçon. Le ciel ne bouge pas vite ; nous pouvons l'attendre ensemble. » Il tâtonne dans l'air jusqu'à trouver ton épaule, et la serre.",
+            "it": "L'anziano volge il viso verso di te sentendo i tuoi passi e sorride. 'Colui che mi ha prestato i suoi occhi. Siediti quando vuoi, ragazzo. Il cielo non si muove in fretta; possiamo aspettarlo insieme.' Tasta l'aria finché non trova la tua spalla, e la stringe.",
+            "de": "Der alte Mann wendet sein Gesicht dir zu, als er deine Schritte hört, und lächelt. „Der, der mir seine Augen geliehen hat. Setz dich, wann immer du willst, Junge. Der Himmel bewegt sich nicht schnell; wir können ihn gemeinsam abwarten.“ Er tastet in der Luft, bis er deine Schulter findet, und drückt sie.",
+            "zh": "老人听到你的脚步声，转过脸来，微笑着。「是那个把自己的眼睛借给我的人啊。想坐就坐吧，孩子。天空不会移动得太快，我们可以一起等它。」他在空中摸索，直到找到你的肩膀，轻轻握住。",
+            "ja": "老人はお前の足音を聞いて顔を向け、微笑む。「私に目を貸してくれた者だな。好きな時に座るがいい、坊や。空は急いで動かない、一緒に待つとしよう」彼は空中を探り、お前の肩を見つけて握りしめる。"
+        },
+        "next": [
+            "ast_opt_salir"
+        ],
+        "reward": "",
+        "condition": "gflag(\"ast_cielo_descrito\")"
+    },
+    "ast_root": {
+        "type": "message",
+        "text": {
+            "es": "En lo alto de una colina de Celestia, un anciano ciego está sentado ante un telescopio de bronce que apunta al cielo. Sus ojos son dos nubes lechosas, pero sus manos se mueven con seguridad absoluta sobre un enorme mapa estelar dibujado a mano, añadiendo puntos que ya no puede ver. 'No hace falta ver una estrella para saber que sigue ahí', dice sin girarse. 'Igual que no hace falta tener a alguien delante para seguir queriéndolo.'",
+            "en": "Atop a hill in Celestia, a blind old man sits before a bronze telescope aimed at the sky. His eyes are two milky clouds, but his hands move with absolute certainty over an enormous hand-drawn star map, adding points he can no longer see. 'You don't need to see a star to know it's still there,' he says without turning. 'Just as you don't need someone in front of you to keep loving them.'",
+            "fr": "Au sommet d'une colline de Celestia, un vieil homme aveugle est assis devant un télescope de bronze pointé vers le ciel. Ses yeux sont deux nuages laiteux, mais ses mains se déplacent avec une assurance absolue sur une énorme carte stellaire dessinée à la main, ajoutant des points qu'il ne peut plus voir. « Il n'est pas nécessaire de voir une étoile pour savoir qu'elle est toujours là », dit-il sans se retourner. « Tout comme il n'est pas nécessaire d'avoir quelqu'un devant soi pour continuer à l'aimer. »",
+            "it": "In cima a una collina di Celestia, un anziano cieco è seduto davanti a un telescopio di bronzo puntato verso il cielo. I suoi occhi sono due nubi lattiginose, ma le sue mani si muovono con assoluta sicurezza su un'enorme mappa stellare disegnata a mano, aggiungendo punti che non può più vedere. 'Non serve vedere una stella per sapere che è ancora lì', dice senza girarsi. 'Così come non serve avere qualcuno davanti per continuare ad amarlo.'",
+            "de": "Auf einem Hügel in Celestia sitzt ein blinder alter Mann vor einem auf den Himmel gerichteten Bronzeteleskop. Seine Augen sind zwei milchige Wolken, doch seine Hände bewegen sich mit absoluter Sicherheit über eine riesige, handgezeichnete Sternenkarte und fügen Punkte hinzu, die er nicht mehr sehen kann. „Man muss keinen Stern sehen, um zu wissen, dass er noch da ist“, sagt er, ohne sich umzudrehen. „Genauso wenig muss man jemanden vor sich haben, um ihn weiter zu lieben.“",
+            "zh": "在塞莱斯提亚一座小山的顶端，一位失明的老人坐在一架指向天空的青铜望远镜前。他的双眼如两团乳白色的云雾，但他的双手却带着绝对的自信，在一幅巨大的手绘星图上移动，添加着他再也看不见的点。「不需要看见一颗星星，也能知道它依然存在，」他头也不回地说道，「就像不需要有人在眼前，也能继续爱着他。」",
+            "ja": "セレスティアの丘の上で、盲目の老人が空を向いた青銅の望遠鏡の前に座っている。その目は二つの乳白色の雲のようだが、両手は絶対的な確信を持って、もう見ることのできない点を書き加えながら、巨大な手描きの星図の上を動いている。「星が見えなくても、それがまだそこにあると分かる」振り向かずに彼は言う。「目の前に誰かがいなくても、その人を愛し続けられるのと同じことだ」"
+        },
+        "next": [
+            "ast_opt_describir",
+            "ast_opt_aprender",
+            "ast_opt_salir"
+        ],
+        "reward": ""
+    },
+    "ast_opt_describir": {
+        "type": "option",
+        "text": {
+            "es": "🌌  Describirle con detalle el cielo de esta noche",
+            "en": "🌌  Describe tonight's sky to him in detail",
+            "fr": "🌌  Lui décrire en détail le ciel de ce soir",
+            "it": "🌌  Descrivergli nei dettagli il cielo di questa notte",
+            "de": "🌌  Ihm den heutigen Nachthimmel im Detail beschreiben",
+            "zh": "🌌  向他详细描述今晚的天空",
+            "ja": "🌌  今夜の空を彼に詳しく描写する"
+        },
+        "next": [
+            "ast_msg_describir"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "ast_msg_describir": {
+        "type": "message",
+        "text": {
+            "es": "Te sientas a su lado y le cuentas lo que ves: la luna baja y anaranjada, el racimo de estrellas al este, la estela pálida que cruza el cielo entero. El anciano cierra los ojos ciegos y escucha como quien bebe agua tras un desierto. 'Gracias', susurra al fin, con la voz quebrada. 'Mi hija me describía el cielo así, cada noche, hasta que se fue. Llevaba años sin volver a verlo. Me acabas de devolver un pedacito de ella.' Te marchas con el pecho cálido y un nudo dulce en la garganta.",
+            "en": "You sit beside him and tell him what you see: the low, orange moon, the cluster of stars to the east, the pale trail that crosses the whole sky. The old man closes his blind eyes and listens like a man drinking water after a desert. 'Thank you,' he whispers at last, his voice cracking. 'My daughter used to describe the sky to me like that, every night, until she was gone. I hadn't seen it in years. You've just given me back a little piece of her.' You leave with a warm chest and a sweet knot in your throat.",
+            "fr": "Tu t'assois à côté de lui et lui racontes ce que tu vois : la lune basse et orangée, l'amas d'étoiles à l'est, la traînée pâle qui traverse tout le ciel. Le vieil homme ferme ses yeux aveugles et écoute comme quelqu'un qui boit de l'eau après un désert. « Merci », murmure-t-il enfin, la voix brisée. « Ma fille me décrivait le ciel ainsi, chaque nuit, jusqu'à ce qu'elle s'en aille. Ça faisait des années que je ne l'avais pas revu. Tu viens de me rendre un petit morceau d'elle. » Tu pars le cœur chaud et la gorge nouée de douceur.",
+            "it": "Ti siedi accanto a lui e gli racconti cosa vedi: la luna bassa e arancione, il gruppo di stelle a est, la scia pallida che attraversa tutto il cielo. L'anziano chiude gli occhi ciechi e ascolta come chi beve acqua dopo un deserto. 'Grazie', sussurra infine, con la voce spezzata. 'Mia figlia mi descriveva il cielo così, ogni notte, finché se ne andò. Non lo vedevo da anni. Mi hai appena restituito un pezzetto di lei.' Te ne vai con il petto caldo e un dolce nodo in gola.",
+            "de": "Du setzt dich neben ihn und erzählst ihm, was du siehst: den tiefstehenden orangen Mond, das Sternenbüschel im Osten, die blasse Spur, die den ganzen Himmel durchquert. Der alte Mann schließt seine blinden Augen und lauscht wie jemand, der nach einer Wüstendurchquerung Wasser trinkt. „Danke“, flüstert er schließlich mit brüchiger Stimme. „Meine Tochter beschrieb mir den Himmel so, jede Nacht, bis sie fortging. Ich hatte ihn seit Jahren nicht mehr gesehen. Du hast mir gerade ein kleines Stückchen von ihr zurückgegeben.“ Du gehst mit warmer Brust und einem süßen Kloß im Hals.",
+            "zh": "你在他身旁坐下，向他描述你所看到的：低垂的橙色月亮，东方的星团，横贯整片天空的淡淡光痕。老人闭上他失明的双眼，倾听着，如同一个在沙漠中终于喝到水的人。「谢谢你，」他终于低声说道，声音颤抖。「我女儿以前每晚都这样为我描述天空，直到她离开。我已经好多年没有『看见』过它了。你刚刚把她的一小部分还给了我。」你带着温暖的心和喉咙里那甜蜜的哽咽离开了。",
+            "ja": "彼の隣に座り、見えるものを語って聞かせる——低く橙色に輝く月、東の星団、空全体を横切る淡い光の筋を。老人は盲目の目を閉じ、砂漠の後に水を飲む者のように耳を傾ける。「ありがとう」ようやく彼はかすれた声で囁く。「娘が毎晩、そんなふうに空を描写してくれたものだ、彼女が去るまでは。何年もそれを見ていなかった。お前は今、彼女のほんの一部を私に返してくれたのだ」お前は温かい胸と、優しく締め付けられる喉を抱えて去っていく。"
+        },
+        "next": [
+            "ast_opt_salir"
+        ],
+        "reward": "faceta:bondad=+1;gflag:ast_cielo_descrito",
+        "condition": "no_gflag(\"ast_cielo_descrito\")",
+        "once": true
+    },
+    "ast_opt_aprender": {
+        "type": "option",
+        "text": {
+            "es": "📐  Pedirle que te enseñe a orientarte por las estrellas",
+            "en": "📐  Ask him to teach you to navigate by the stars",
+            "fr": "📐  Lui demander de t'apprendre à te repérer grâce aux étoiles",
+            "it": "📐  Chiedergli di insegnarti a orientarti con le stelle",
+            "de": "📐  Ihn bitten, dir beizubringen, dich an den Sternen zu orientieren",
+            "zh": "📐  请他教你如何用星星辨认方向",
+            "ja": "📐  星で方角を知る術を教えてほしいと頼む"
+        },
+        "next": [
+            "ast_msg_aprender"
+        ],
+        "reward": "",
+        "once": true
+    },
+    "ast_msg_aprender": {
+        "type": "message",
+        "text": {
+            "es": "El anciano guía tus dedos sobre el mapa estelar y te enseña a leer el cielo como una brújula: qué estrella señala el norte helado, cuál guía a los barcos de vuelta a casa, cuál solo sale cuando alguien la necesita. 'La memoria', concluye, 'es el único telescopio que no se rompe. Guarda las cosas importantes ahí, muchacho, donde ni la ceguera ni el tiempo puedan robártelas.' Sales sabiendo un poco más del cielo y de ti mismo.",
+            "en": "The old man guides your fingers over the star map and teaches you to read the sky like a compass: which star marks the frozen north, which guides ships home, which rises only when someone needs it. 'Memory,' he concludes, 'is the only telescope that never breaks. Keep the important things there, lad, where neither blindness nor time can steal them from you.' You leave knowing a little more about the sky, and about yourself.",
+            "fr": "Le vieil homme guide tes doigts sur la carte stellaire et t'apprend à lire le ciel comme une boussole : quelle étoile indique le nord glacé, laquelle guide les navires vers la maison, laquelle ne se lève que lorsque quelqu'un en a besoin. « La mémoire », conclut-il, « est le seul télescope qui ne se casse jamais. Garde les choses importantes là, mon garçon, où ni la cécité ni le temps ne peuvent te les voler. » Tu repars en connaissant un peu mieux le ciel, et toi-même.",
+            "it": "L'anziano guida le tue dita sulla mappa stellare e ti insegna a leggere il cielo come una bussola: quale stella indica il nord ghiacciato, quale guida le navi verso casa, quale sorge solo quando qualcuno ne ha bisogno. 'La memoria', conclude, 'è l'unico telescopio che non si rompe. Custodisci lì le cose importanti, ragazzo, dove né la cecità né il tempo possono rubartele.' Te ne vai sapendo un po' di più sul cielo, e su te stesso.",
+            "de": "Der alte Mann führt deine Finger über die Sternenkarte und bringt dir bei, den Himmel wie einen Kompass zu lesen: welcher Stern den eisigen Norden markiert, welcher Schiffe nach Hause führt, welcher nur aufgeht, wenn jemand ihn braucht. „Erinnerung“, schließt er, „ist das einzige Teleskop, das nie zerbricht. Bewahre die wichtigen Dinge dort auf, Junge, wo weder Blindheit noch Zeit sie dir stehlen können.“ Du gehst und weißt ein wenig mehr über den Himmel und über dich selbst.",
+            "zh": "老人引导你的手指在星图上移动，教你如何像使用罗盘一样解读天空：哪颗星指向冰封的北方，哪颗星引导船只归家，哪颗星只在有人需要时才会升起。「记忆，」他总结道，「是唯一不会破碎的望远镜。把重要的东西存放在那里吧，孩子，那里失明和时间都无法从你身上偷走它们。」你带着对天空、也对自己更多一分的了解离开了。",
+            "ja": "老人はお前の指を星図の上に導き、空をコンパスのように読む術を教える——どの星が凍てつく北を示すか、どの星が船を故郷へ導くか、どの星が誰かが必要とする時にだけ昇るのかを。「記憶とは」と彼は締めくくる、「決して壊れない唯一の望遠鏡だ。大切なものはそこにしまっておけ、坊や。盲目も時間も、そこからは奪えない」お前は空について、そして自分自身について、少しだけ深く知って立ち去る。"
+        },
+        "next": [
+            "ast_opt_salir"
+        ],
+        "reward": "faceta:inteligencia=+1;gflag:ast_aprendido",
+        "condition": "no_gflag(\"ast_aprendido\")",
+        "once": true
+    },
+    "ast_opt_salir": {
+        "type": "option",
+        "text": {
+            "es": "🚶  Dejarle con su cielo recordado",
+            "en": "🚶  Leave him to his remembered sky",
+            "fr": "🚶  Le laisser avec son ciel remémoré",
+            "it": "🚶  Lasciarlo con il suo cielo ricordato",
+            "de": "🚶  Ihn mit seinem erinnerten Himmel zurücklassen",
+            "zh": "🚶  留他与他所回忆的天空独处",
+            "ja": "🚶  彼を、思い出の空とともに残して去る"
+        },
+        "next": [
+            "close"
+        ],
+        "reward": ""
+    }
+}
