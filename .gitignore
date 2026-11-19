@@ -2,13 +2,8 @@
 .godot/
 *.translation
 
-# Android build cache & binaries
-**/android/build/build/
-**/android/build/.gradle/
-**/android/build/.kotlin/
-**/android/build/assetPackInstallTime/build/
-**/android/build/libs/
-**/android/build/outputs/
+# Android build template & binaries
+android/build/
 *.apk
 *.aab
 *.aar
