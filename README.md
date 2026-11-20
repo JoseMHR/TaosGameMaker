@@ -7,12 +7,13 @@
 
 ![Engine](https://img.shields.io/badge/Engine-Godot_4.3%2B-478CBF?logo=godot-engine&logoColor=white)
 ![Studio](https://img.shields.io/badge/Web_Studio-45%2B_visual_tools-8A2BE2)
-![Release](https://img.shields.io/github/v/release/JoseMHR/taos-game-maker?color=2ea44f&label=Release)
+![Release](https://img.shields.io/github/v/release/JoseMHR/TaosGameMaker?color=2ea44f&label=Release)
 ![License](https://img.shields.io/badge/License-100%25_Free_%26_Open_Source-brightgreen)
 ![Royalties](https://img.shields.io/badge/Games_you_build-100%25_Royalty--Free-F9A825)
 ![Export](https://img.shields.io/badge/Export-Windows_%7C_macOS_%7C_Linux_%7C_Android-00A8E8)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-00457C?style=flat&logo=paypal&logoColor=white)](https://www.paypal.com/donate/?hosted_button_id=SAWNH6X9N38RY)
 
-**[📖 Official Documentation & Showcase](https://josemhr.github.io/taos-game-maker/) · [📦 Download v1.1 Packages](https://github.com/JoseMHR/taos-game-maker/releases/latest) · [🎮 Play Free Demo (Echoes of Truth)](https://taosworld.itch.io/echoesoftruth) · [🎬 Engine Video Tour](https://youtu.be/9ugIta7vTkQ)**
+**[📖 Official Documentation & Showcase](https://josemhr.github.io/TaosGameMaker/) · [📦 Download v1.1 Packages](https://github.com/JoseMHR/TaosGameMaker/releases/latest) · [🎮 Play Free Demo (Echoes of Truth)](https://taosworld.itch.io/echoesoftruth) · [🎬 Engine Video Tour](https://youtu.be/9ugIta7vTkQ) · [💖 Donate](https://www.paypal.com/donate/?hosted_button_id=SAWNH6X9N38RY)**
 
 </div>
 
@@ -131,6 +132,31 @@ For in-depth guides, select your preferred language folder inside [`docs/guide/`
 - **Chapter 07**: Customizing Your Project (Rebranding, Genres & Commercialization)
 - **Chapter 08**: CLI Tools and Automated Data Validation
 - **Chapter 09**: FAQ & Troubleshooting
+
+---
+
+## 💖 Support & Donations / Apoya el Desarrollo
+
+Taos Game Maker y el Web Studio Suite son **100% gratuitos, de código abierto y libres de royalties**.  
+Si este framework te ha sido útil para crear tus juegos, te ha ahorrado semanas de trabajo o deseas apoyar su mantenimiento y desarrollo continuo con nuevas funcionalidades, cualquier donación es profundamente apreciada.
+
+<div align="center">
+
+[![Donate with PayPal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate/?hosted_button_id=SAWNH6X9N38RY)
+
+<br/>
+
+<a href="https://www.paypal.com/donate/?hosted_button_id=SAWNH6X9N38RY" target="_blank" rel="noopener">
+  <img src="docs/assets/paypal-qr.png" alt="Scan QR to donate via PayPal" width="160" style="border-radius: 12px; margin: 12px 0;" />
+</a>
+
+<br/>
+
+*Escanea el código QR con tu móvil o haz clic en el botón para donar de forma segura mediante PayPal.*
+
+👉 **Enlace directo / Direct link:** [https://www.paypal.com/donate/?hosted_button_id=SAWNH6X9N38RY](https://www.paypal.com/donate/?hosted_button_id=SAWNH6X9N38RY)
+
+</div>
 
 ---
 
