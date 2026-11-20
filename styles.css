@@ -741,6 +741,114 @@ tr:nth-child(even) {
   color: var(--accent-cyan);
 }
 
+/* Donation & Support Section */
+.section-donation {
+  position: relative;
+  overflow: hidden;
+}
+
+.donation-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+.donation-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2.5rem 2rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-xl);
+  transition: var(--transition);
+  position: relative;
+}
+
+.donation-card:hover {
+  border-color: var(--border-glow);
+  box-shadow: var(--shadow-md), var(--shadow-glow);
+  transform: translateY(-4px);
+}
+
+.donation-card-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  margin-bottom: 1.25rem;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
+}
+
+.donation-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.85rem;
+  margin: 1.5rem 0 1rem;
+  width: 100%;
+}
+
+.btn-paypal {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.65rem;
+  background: linear-gradient(135deg, #0070ba 0%, #003087 100%);
+  color: #ffffff !important;
+  font-weight: 700;
+  font-size: 1.05rem;
+  padding: 0.85rem 2rem;
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(56, 189, 248, 0.3);
+  cursor: pointer;
+  box-shadow: 0 6px 20px rgba(0, 112, 186, 0.4);
+  transition: var(--transition);
+  text-decoration: none;
+  width: 100%;
+  max-width: 280px;
+}
+
+.btn-paypal:hover {
+  background: linear-gradient(135deg, #005ea6 0%, #00256c 100%);
+  box-shadow: 0 8px 25px rgba(0, 112, 186, 0.6);
+  transform: translateY(-2px);
+  border-color: var(--accent-cyan);
+}
+
+.qr-frame {
+  display: inline-block;
+  background: #ffffff;
+  padding: 12px;
+  border-radius: var(--radius-lg);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5), 0 0 20px rgba(56, 189, 248, 0.2);
+  transition: var(--transition);
+  margin: 0.5rem 0;
+}
+
+.qr-frame:hover {
+  transform: scale(1.04);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.6), 0 0 30px rgba(56, 189, 248, 0.4);
+}
+
+.qr-frame img {
+  width: 160px;
+  height: 160px;
+  display: block;
+}
+
+.qr-hint {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  margin-top: 0.5rem;
+}
+
 /* Responsive */
 @media (max-width: 900px) {
   .showcase-card { grid-template-columns: 1fr; }
