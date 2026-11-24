@@ -13,7 +13,7 @@
 ![Export](https://img.shields.io/badge/Export-Windows_%7C_macOS_%7C_Linux_%7C_Android-00A8E8)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-00457C?style=flat&logo=paypal&logoColor=white)](https://www.paypal.com/donate/?hosted_button_id=SAWNH6X9N38RY)
 
-**[📖 Official Documentation & Showcase](https://josemhr.github.io/TaosGameMaker/) · [📦 Download v1.1 Packages](https://github.com/JoseMHR/TaosGameMaker/releases/latest) · [🎮 Play Free Demo](https://taosworld.itch.io/echoesoftruth) · [🎬 Engine Video Tour](https://youtu.be/9ugIta7vTkQ) · [🎬 Tráiler del Juego (ES)](https://youtu.be/xNsCNHatSUI) · [🎬 Game Trailer (EN)](https://youtu.be/Omau2eJ1cR8) · [🌐 Universo Literario](https://sites.google.com/view/sagalazaro) · [💖 Donate](https://www.paypal.com/donate/?hosted_button_id=SAWNH6X9N38RY)**
+**[📖 Official Documentation & Showcase](https://josemhr.github.io/TaosGameMaker/) · [📦 Download v1.1 Packages](https://github.com/JoseMHR/TaosGameMaker/releases/latest) · [🎮 Play Free Demo](https://taosworld.itch.io/echoesoftruth) · [🎬 Engine Video Tour](https://youtu.be/9ugIta7vTkQ) · [🎬 Game Trailer (ES)](https://youtu.be/xNsCNHatSUI) · [🎬 Game Trailer (EN)](https://youtu.be/Omau2eJ1cR8) · [🌐 Literary Universe](https://sites.google.com/view/sagalazaro) · [💖 Donate](https://www.paypal.com/donate/?hosted_button_id=SAWNH6X9N38RY)**
 
 </div>
 
@@ -135,10 +135,10 @@ For in-depth guides, select your preferred language folder inside [`docs/guide/`
 
 ---
 
-## 💖 Support & Donations / Apoya el Desarrollo
+## 💖 Support & Donations
 
-Taos Game Maker y el Web Studio Suite son **100% gratuitos, de código abierto y libres de royalties**.  
-Si este framework te ha sido útil para crear tus juegos, te ha ahorrado semanas de trabajo o deseas apoyar su mantenimiento y desarrollo continuo con nuevas funcionalidades, cualquier donación es profundamente apreciada.
+Taos Game Maker and the Web Studio Suite are **100% free, open-source, and royalty-free forever**.  
+If this framework has been helpful for creating your games, saved you weeks of work, or if you wish to support its ongoing maintenance and new features, any donation is deeply appreciated.
 
 <div align="center">
 
@@ -152,9 +152,9 @@ Si este framework te ha sido útil para crear tus juegos, te ha ahorrado semanas
 
 <br/>
 
-*Escanea el código QR con tu móvil o haz clic en el botón para donar de forma segura mediante PayPal.*
+*Scan the QR code with your mobile device or click the button to donate securely via PayPal.*
 
-👉 **Enlace directo / Direct link:** [https://www.paypal.com/donate/?hosted_button_id=SAWNH6X9N38RY](https://www.paypal.com/donate/?hosted_button_id=SAWNH6X9N38RY)
+👉 **Direct link:** [https://www.paypal.com/donate/?hosted_button_id=SAWNH6X9N38RY](https://www.paypal.com/donate/?hosted_button_id=SAWNH6X9N38RY)
 
 </div>
 
