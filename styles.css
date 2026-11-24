@@ -137,12 +137,14 @@ a:hover { color: #7dd3fc; text-decoration: none; }
 }
 
 .nav-link {
+  display: inline-block;
   color: var(--text-secondary);
   font-size: 0.95rem;
   font-weight: 500;
   transition: var(--transition);
   padding: 0.4rem 0.2rem;
   position: relative;
+  text-decoration: none;
 }
 
 .nav-link:hover,
@@ -155,7 +157,7 @@ a:hover { color: #7dd3fc; text-decoration: none; }
   position: absolute;
   bottom: -4px;
   left: 0;
-  right: 0;
+  width: 100%;
   height: 2px;
   background: var(--accent-cyan);
   border-radius: 2px;
@@ -964,3 +966,18 @@ tr:nth-child(even) {
   .btn-lg { width: 100%; }
   .hero-actions { flex-direction: column; width: 100%; }
 }
+
+/* Bilingual Page Content Switching */
+html[lang="es"] [data-lang-block="en"] {
+  display: none !important;
+}
+html[lang="es"] [data-lang-block="es"] {
+  display: block !important;
+}
+html[lang="en"] [data-lang-block="es"] {
+  display: none !important;
+}
+html[lang="en"] [data-lang-block="en"] {
+  display: block !important;
+}
+

@@ -19,12 +19,12 @@
       </a>
 
       <ul class="nav-menu">
-        <li><a href="index.html" class="nav-link">Overview</a></li>
-        <li><a href="getting-started.html" class="nav-link">Getting Started</a></li>
-        <li><a href="architecture.html" class="nav-link">Architecture</a></li>
-        <li><a href="data-formats.html" class="nav-link">Data Schemas</a></li>
-        <li><a href="faq.html" class="nav-link active">FAQ & Licensing</a></li>
-        <li><a href="index.html#donate" class="nav-link">💖 Support</a></li>
+        <li><a href="index.html" class="nav-link" id="nav-overview">Overview</a></li>
+        <li><a href="getting-started.html" class="nav-link" id="nav-getting-started">Getting Started</a></li>
+        <li><a href="architecture.html" class="nav-link" id="nav-architecture">Architecture</a></li>
+        <li><a href="data-formats.html" class="nav-link" id="nav-data-formats">Data Schemas</a></li>
+        <li><a href="faq.html" class="nav-link active" id="nav-faq">FAQ & Licensing</a></li>
+        <li><a href="index.html#donate" class="nav-link" id="nav-support">💖 Support</a></li>
       </ul>
 
       <div class="nav-cta">
@@ -41,127 +41,257 @@
   <main class="doc-layout">
     <div class="container">
       <article class="doc-article">
-        <div class="section-tag">Frequently Asked Questions</div>
-        <h1>FAQ & Licensing</h1>
-        <p style="font-size: 1.15rem;">
-          Everything you need to know about licensing, platform capabilities, and using Taos Game Maker for your own projects.
-        </p>
 
-        <!-- FAQ Accordion List -->
-        <div class="faq-list" style="margin-top: 2.5rem;">
+        <!-- ENGLISH CONTENT BLOCK -->
+        <div data-lang-block="en">
+          <div class="section-tag">Frequently Asked Questions</div>
+          <h1>FAQ & Licensing</h1>
+          <p style="font-size: 1.15rem;">
+            Everything you need to know about licensing, platform capabilities, and using Taos Game Maker for your own projects.
+          </p>
 
-          <div class="faq-item">
-            <button class="faq-question">
-              <span>Do I need to know how to code to make a game?</span>
-              <span class="faq-icon">+</span>
-            </button>
-            <div class="faq-answer">
-              <strong>No programming is required for core game creation.</strong> You can design complete world maps, assemble 3D dungeons, write branching dialogue trees, configure monster stats, build questlines, and balance items entirely through the <strong>45+ visual tools</strong> in the included No-Code Web Studio Suite.
-              <br><br>
-              If you <em>are</em> a programmer, the entire Godot 4 project is provided in clean, modular GDScript with zero hidden binary blobs, giving you complete freedom to extend, customize formulas, or write custom shaders.
+          <!-- FAQ Accordion List -->
+          <div class="faq-list" style="margin-top: 2.5rem;">
+
+            <div class="faq-item">
+              <button class="faq-question">
+                <span>Do I need to know how to code to make a game?</span>
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer">
+                <strong>No programming is required for core game creation.</strong> You can design complete world maps, assemble 3D dungeons, write branching dialogue trees, configure monster stats, build questlines, and balance items entirely through the <strong>45+ visual tools</strong> in the included No-Code Web Studio Suite.
+                <br><br>
+                If you <em>are</em> a programmer, the entire Godot 4 project is provided in clean, modular GDScript with zero hidden binary blobs, giving you complete freedom to extend, customize formulas, or write custom shaders.
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question">
+                <span>Is Taos Game Maker really 100% free? Can I sell my games?</span>
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer">
+                <strong>Yes, 100% free, open source, and royalty-free.</strong> You can clone or download Taos Game Maker directly from GitHub at zero cost. You can create commercial games and sell them on Steam, itch.io, Google Play, Epic Games Store, or consoles, and you keep <strong>100% of your revenue</strong>. You never owe royalties or licensing fees.
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question">
+                <span>How can I support development or donate to the project?</span>
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer">
+                Taos Game Maker is 100% free and open-source. If the framework saves you time or empowers your game development journey, you can support continuous maintenance and new features with a voluntary donation via our <a href="index.html#donate"><strong>PayPal Support & Donation page</strong></a> (one-click web payment or mobile QR scan).
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question">
+                <span>What exactly is included in the package?</span>
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer">
+                The package includes:
+                <ul>
+                  <li><strong>Complete Godot 4.3+ Project Template:</strong> Ready to open, customize, and export.</li>
+                  <li><strong>Local Web Studio Suite:</strong> Over 45 visual tools (Map Editor, 3D Dungeon Piece Architect, Dialogue Node Graph, Combat Sandbox, Item & Quest Wizards, Media Library, and QA Validator).</li>
+                  <li><strong>Full Core Subsystems:</strong> 3D Overworld, 1st-Person Grid Dungeon Crawler, Turn-Based Tactical Combat, Visual Novel Dialogue System, and City Crafting/Gathering.</li>
+                  <li><strong>Multiplatform Export Presets:</strong> Pre-tuned configurations for Windows, Linux, macOS, Android (APK/AAB), and Web (HTML5).</li>
+                  <li><strong>Starter Assets:</strong> Base models, textures, interface graphics, sound effects, and music tracks.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question">
+                <span>What platforms can I export my games to?</span>
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer">
+                Taos Game Maker includes tested and pre-configured export presets for:
+                <ul>
+                  <li><strong>Windows Desktop:</strong> 64-bit standalone executable (`.exe`).</li>
+                  <li><strong>Linux / X11:</strong> Native 64-bit binary (`.x86_64`), compatible with desktop Linux and <strong>Steam Deck (SteamOS)</strong>.</li>
+                  <li><strong>macOS:</strong> Universal binary supporting both Intel and Apple Silicon (M1/M2/M3/M4).</li>
+                  <li><strong>Android:</strong> Standard APK and Google Play Store App Bundle (`.aab`).</li>
+                  <li><strong>Web (HTML5):</strong> Playable directly in browser via WebAssembly/WebGL.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question">
+                <span>Is there any DRM, subscription, or online requirement?</span>
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer">
+                <strong>Zero DRM, zero telemetry, zero subscriptions.</strong> Taos Game Maker is 100% free and open source. The local web studio and Godot engine run completely offline on your computer. You own the files forever.
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question">
+                <span>How does Taos Game Maker relate to Echoes of Truth?</span>
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer">
+                <strong>Echoes of Truth (Ecos de la Verdad)</strong> is our full-length tactical RPG built 100% on top of Taos Game Maker. It serves as both a complete standalone game and a living, playable demonstration of the engine's capabilities. You can play it for free on <a href="https://taosworld.itch.io/echoesoftruth" target="_blank" rel="noopener">itch.io</a> or download it from <a href="https://taosworld.gumroad.com/l/EchoesOfTruth" target="_blank" rel="noopener">Gumroad</a>.
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question">
+                <span>What license does Taos Game Maker use?</span>
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer">
+                The engine codebase and Web Studio suite are open source under the <strong>MIT License</strong>. You are free to use, modify, and build commercial or free games with zero royalties (attribution and preserving the copyright notice are required per MIT terms). The narrative intellectual property, universe lore, characters, and original art assets of <em>Echoes of Truth</em> and <em>The Lazarus Saga</em> remain proprietary © 2026 Taos World.
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Contact Box -->
+          <div class="callout callout-info" style="margin-top: 3rem;">
+            <div class="callout-icon">💬</div>
+            <div>
+              <strong>Have More Questions or Need Support?</strong><br>
+              Reach out directly via email at <a href="mailto:jose.manuel.reyes.1986@gmail.com">jose.manuel.reyes.1986@gmail.com</a> or visit the official universe community at <a href="https://sites.google.com/view/sagalazaro" target="_blank" rel="noopener">Saga Lázaro (ES)</a> / <a href="https://sites.google.com/view/the-lazarus-saga/" target="_blank" rel="noopener">The Lazarus Saga (EN)</a>.
             </div>
           </div>
 
-          <div class="faq-item">
-            <button class="faq-question">
-              <span>Is Taos Game Maker really 100% free? Can I sell my games?</span>
-              <span class="faq-icon">+</span>
-            </button>
-            <div class="faq-answer">
-              <strong>Yes, 100% free, open source, and royalty-free.</strong> You can clone or download Taos Game Maker directly from GitHub at zero cost. You can create commercial games and sell them on Steam, itch.io, Google Play, Epic Games Store, or consoles, and you keep <strong>100% of your revenue</strong>. You never owe royalties or licensing fees.
-            </div>
+          <!-- Navigation Buttons -->
+          <div style="margin-top: 3rem; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem;">
+            <a href="data-formats.html" class="btn btn-secondary">← Previous: Data Schemas</a>
+            <a href="index.html" class="btn btn-primary">Return to Overview →</a>
           </div>
-
-          <div class="faq-item">
-            <button class="faq-question">
-              <span>How can I support development or donate to the project?</span>
-              <span class="faq-icon">+</span>
-            </button>
-            <div class="faq-answer">
-              Taos Game Maker is 100% free and open-source. If the framework saves you time or empowers your game development journey, you can support continuous maintenance and new features with a voluntary donation via our <a href="index.html#donate"><strong>PayPal Support & Donation page</strong></a> (one-click web payment or mobile QR scan).
-            </div>
-          </div>
-
-          <div class="faq-item">
-            <button class="faq-question">
-              <span>What exactly is included in the package?</span>
-              <span class="faq-icon">+</span>
-            </button>
-            <div class="faq-answer">
-              The package includes:
-              <ul>
-                <li><strong>Complete Godot 4.3+ Project Template:</strong> Ready to open, customize, and export.</li>
-                <li><strong>Local Web Studio Suite:</strong> Over 45 visual tools (Map Editor, 3D Dungeon Piece Architect, Dialogue Node Graph, Combat Sandbox, Item & Quest Wizards, Media Library, and QA Validator).</li>
-                <li><strong>Full Core Subsystems:</strong> 3D Overworld, 1st-Person Grid Dungeon Crawler, Turn-Based Tactical Combat, Visual Novel Dialogue System, and City Crafting/Gathering.</li>
-                <li><strong>Multiplatform Export Presets:</strong> Pre-tuned configurations for Windows, Linux, macOS, Android (APK/AAB), and Web (HTML5).</li>
-                <li><strong>Starter Assets:</strong> Base models, textures, interface graphics, sound effects, and music tracks.</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="faq-item">
-            <button class="faq-question">
-              <span>What platforms can I export my games to?</span>
-              <span class="faq-icon">+</span>
-            </button>
-            <div class="faq-answer">
-              Taos Game Maker includes tested and pre-configured export presets for:
-              <ul>
-                <li><strong>Windows Desktop:</strong> 64-bit standalone executable (`.exe`).</li>
-                <li><strong>Linux / X11:</strong> Native 64-bit binary (`.x86_64`), compatible with desktop Linux and <strong>Steam Deck (SteamOS)</strong>.</li>
-                <li><strong>macOS:</strong> Universal binary supporting both Intel and Apple Silicon (M1/M2/M3/M4).</li>
-                <li><strong>Android:</strong> Standard APK and Google Play Store App Bundle (`.aab`).</li>
-                <li><strong>Web (HTML5):</strong> Playable directly in browser via WebAssembly/WebGL.</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="faq-item">
-            <button class="faq-question">
-              <span>Is there any DRM, subscription, or online requirement?</span>
-              <span class="faq-icon">+</span>
-            </button>
-            <div class="faq-answer">
-              <strong>Zero DRM, zero telemetry, zero subscriptions.</strong> Taos Game Maker is 100% free and open source. The local web studio and Godot engine run completely offline on your computer. You own the files forever.
-            </div>
-          </div>
-
-          <div class="faq-item">
-            <button class="faq-question">
-              <span>How does Taos Game Maker relate to Echoes of Truth?</span>
-              <span class="faq-icon">+</span>
-            </button>
-            <div class="faq-answer">
-              <strong>Echoes of Truth (Ecos de la Verdad)</strong> is our full-length tactical RPG built 100% on top of Taos Game Maker. It serves as both a complete standalone game and a living, playable demonstration of the engine's capabilities. You can play it for free on <a href="https://taosworld.itch.io/echoesoftruth" target="_blank" rel="noopener">itch.io</a> or download it from <a href="https://taosworld.gumroad.com/l/EchoesOfTruth" target="_blank" rel="noopener">Gumroad</a>.
-            </div>
-          </div>
-
-          <div class="faq-item">
-            <button class="faq-question">
-              <span>What license does Taos Game Maker use?</span>
-              <span class="faq-icon">+</span>
-            </button>
-            <div class="faq-answer">
-              The engine codebase and Web Studio suite are open source under the <strong>MIT License</strong>. You are free to use, modify, and build commercial or free games with zero royalties (attribution and preserving the copyright notice are required per MIT terms). The narrative intellectual property, universe lore, characters, and original art assets of <em>Echoes of Truth</em> and <em>The Lazarus Saga</em> remain proprietary © 2026 Taos World.
-            </div>
-          </div>
-
         </div>
 
-        <!-- Contact Box -->
-        <div class="callout callout-info" style="margin-top: 3rem;">
-          <div class="callout-icon">💬</div>
-          <div>
-            <strong>Have More Questions or Need Support?</strong><br>
-            Reach out directly via email at <a href="mailto:jose.manuel.reyes.1986@gmail.com">jose.manuel.reyes.1986@gmail.com</a> or visit the official universe community at <a href="https://sites.google.com/view/sagalazaro" target="_blank" rel="noopener">Saga Lázaro (ES)</a> / <a href="https://sites.google.com/view/the-lazarus-saga/" target="_blank" rel="noopener">The Lazarus Saga (EN)</a>.
+        <!-- SPANISH CONTENT BLOCK -->
+        <div data-lang-block="es">
+          <div class="section-tag">Preguntas Frecuentes</div>
+          <h1>FAQ y Licencias</h1>
+          <p style="font-size: 1.15rem;">
+            Todo lo que necesitas saber sobre licencias, soporte de plataformas y cómo utilizar Taos Game Maker en tus propios proyectos.
+          </p>
+
+          <!-- FAQ Accordion List -->
+          <div class="faq-list" style="margin-top: 2.5rem;">
+
+            <div class="faq-item">
+              <button class="faq-question">
+                <span>¿Necesito saber programar para crear un juego?</span>
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer">
+                <strong>No es necesario programar para la creación esencial del juego.</strong> Puedes diseñar mundos enteros, construir mazmorras 3D, escribir árboles de diálogo ramificados, configurar enemigos, misiones y calibrar objetos a través de las <strong>más de 45 herramientas visuales</strong> del Estudio Web local incluido.
+                <br><br>
+                Si <em>eres</em> programador, todo el proyecto de Godot 4 está implementado en GDScript modular y limpio, sin binarios opacos, ofreciéndote total libertad para ampliar código, modificar fórmulas o crear shaders propios.
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question">
+                <span>¿Es realmente 100% gratuito? ¿Puedo vender mis juegos comerciales?</span>
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer">
+                <strong>Sí, 100% gratuito, de código abierto y sin regalías.</strong> Puedes clonar o descargar Taos Game Maker desde GitHub a coste cero. Puedes crear juegos comerciales y venderlos en Steam, itch.io, Google Play, Epic Games Store o consolas, conservando el <strong>100% de tus ingresos</strong>. Nunca tendrás que pagar regalías ni cuotas de licencia.
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question">
+                <span>¿Cómo puedo apoyar el desarrollo o donar al proyecto?</span>
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer">
+                Taos Game Maker es gratuito y open source. Si el framework te ayuda o ahorra tiempo en tus desarrollos, puedes contribuir al mantenimiento y futuras mejoras con una donación voluntaria en nuestra <a href="index.html#donate"><strong>página de Apoyo y Donaciones vía PayPal</strong></a> (pago web directo o escaneo de código QR móvil).
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question">
+                <span>¿Qué incluye exactamente el paquete?</span>
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer">
+                El paquete completo incluye:
+                <ul>
+                  <li><strong>Plantilla completa para Godot 4.3+:</strong> Lista para abrir, personalizar y exportar.</li>
+                  <li><strong>Estudio Web Visual Local:</strong> Más de 45 herramientas (Editor de Mapamundi, Arquitecto 3D de Mazmorras, Grafo de Diálogos, Sandbox de Combate, Asistentes de Objetos y Misiones, Gestor Multimedia y Validador QA).</li>
+                  <li><strong>Subsistemas Core Integrados:</strong> Overworld 3D, Crawler de Mazmorras en 1ª Persona por Casillas, Combate Táctico por Turnos, Diálogos de Novela Visual y Recolección/Comercio.</li>
+                  <li><strong>Presets de Exportación Multiplataforma:</strong> Ajustados para Windows, Linux, macOS, Android (APK/AAB) y Web (HTML5).</li>
+                  <li><strong>Assets de Inicio:</strong> Modelos 3D base, texturas, interfaz, efectos de sonido y pistas de música.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question">
+                <span>¿A qué plataformas puedo exportar mis juegos?</span>
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer">
+                Taos Game Maker incluye presets probados para:
+                <ul>
+                  <li><strong>Windows:</strong> Ejecutable de 64 bits independiente (`.exe`).</li>
+                  <li><strong>Linux / X11:</strong> Binario nativo de 64 bits (`.x86_64`), compatible con distribuciones de escritorio y <strong>Steam Deck (SteamOS)</strong>.</li>
+                  <li><strong>macOS:</strong> Binario universal compatible con procesadores Intel y Apple Silicon (M1/M2/M3/M4).</li>
+                  <li><strong>Android:</strong> Archivos APK estándar y paquetes para Google Play Store (`.aab`).</li>
+                  <li><strong>Web (HTML5):</strong> Ejecución directa en navegador mediante WebAssembly y WebGL.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question">
+                <span>¿Existe algún DRM, suscripción o requisito de conexión online?</span>
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer">
+                <strong>Cero DRM, cero telemetría y cero suscripciones.</strong> Taos Game Maker es software libre. Tanto el estudio web local como el motor Godot funcionan 100% offline en tu equipo. Los archivos son tuyos para siempre.
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question">
+                <span>¿Qué relación tiene Taos Game Maker con Echoes of Truth?</span>
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer">
+                <strong>Echoes of Truth (Ecos de la Verdad)</strong> es nuestro RPG táctico completo desarrollado al 100% sobre Taos Game Maker. Sirve como juego independiente y a la vez como demostración jugable viva de las posibilidades del motor. Puedes jugarlo gratis en <a href="https://taosworld.itch.io/echoesoftruth" target="_blank" rel="noopener">itch.io</a> o descargarlo desde <a href="https://taosworld.gumroad.com/l/EchoesOfTruth" target="_blank" rel="noopener">Gumroad</a>.
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question">
+                <span>¿Qué licencia utiliza Taos Game Maker?</span>
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer">
+                El código del motor y la suite del Estudio Web son de código abierto bajo <strong>Licencia MIT</strong>. Eres libre de usarlo, modificarlo y publicar juegos gratuitos o comerciales sin pagar cánones (solo se requiere preservar el aviso de copyright y la atribución según los términos MIT). La propiedad intelectual narrativa, el universo literario, personajes y arte original de <em>Echoes of Truth</em> y <em>La Saga Lázaro</em> pertenecen a © 2026 Taos World.
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Cuadro de Contacto -->
+          <div class="callout callout-info" style="margin-top: 3rem;">
+            <div class="callout-icon">💬</div>
+            <div>
+              <strong>¿Tienes Dudas Adicionales o Necesitas Ayuda?</strong><br>
+              Escríbeme directamente por correo a <a href="mailto:jose.manuel.reyes.1986@gmail.com">jose.manuel.reyes.1986@gmail.com</a> o visita la comunidad oficial en <a href="https://sites.google.com/view/sagalazaro" target="_blank" rel="noopener">Saga Lázaro (ES)</a> / <a href="https://sites.google.com/view/the-lazarus-saga/" target="_blank" rel="noopener">The Lazarus Saga (EN)</a>.
+            </div>
+          </div>
+
+          <!-- Enlaces de Navegación -->
+          <div style="margin-top: 3rem; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem;">
+            <a href="data-formats.html" class="btn btn-secondary">← Anterior: Esquemas de Datos</a>
+            <a href="index.html" class="btn btn-primary">Volver a Visión General →</a>
           </div>
         </div>
 
-        <!-- Navigation Buttons -->
-        <div style="margin-top: 3rem; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem;">
-          <a href="data-formats.html" class="btn btn-secondary">← Previous: Data Schemas</a>
-          <a href="index.html" class="btn btn-primary">Return to Overview →</a>
-        </div>
       </article>
     </div>
   </main>
@@ -169,11 +299,55 @@
   <!-- Footer -->
   <footer class="footer">
     <div class="container">
-      <div class="footer-legal-notice">
+      <div class="footer-legal-notice" id="footer-legal">
         <strong>License & IP Notice:</strong> The Taos Game Maker engine and Web Studio suite are open source under the <strong>MIT License</strong> (free to use, modify, and ship commercial games with attribution). The narrative IP, characters, storyline, and original art of <em>Echoes of Truth</em> & <em>The Lazarus Saga</em> are © 2026 Taos World. All rights reserved.
       </div>
+
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="brand">
+            <div class="brand-icon">⚡</div>
+            <span>Taos Game Maker</span>
+          </div>
+          <p id="footer-brand-desc">Data-driven tactical RPG framework and local web studio for Godot 4.</p>
+        </div>
+
+        <div>
+          <div class="footer-title" id="footer-title-docs">Documentation</div>
+          <ul class="footer-links">
+            <li><a href="getting-started.html" id="footer-link-getting-started">Getting Started</a></li>
+            <li><a href="architecture.html" id="footer-link-architecture">System Architecture</a></li>
+            <li><a href="data-formats.html" id="footer-link-data-formats">JSON Data Schemas</a></li>
+            <li><a href="faq.html" id="footer-link-faq">FAQ & Licensing</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-title" id="footer-title-products">Products & Demos</div>
+          <ul class="footer-links">
+            <li><a href="https://github.com/JoseMHR/TaosGameMaker" target="_blank" rel="noopener" id="footer-link-repo">GitHub Repository (Free)</a></li>
+            <li><a href="https://github.com/JoseMHR/TaosGameMaker/releases/latest" target="_blank" rel="noopener" id="footer-link-release">Download Latest Release</a></li>
+            <li><a href="https://taosworld.itch.io/echoesoftruth" target="_blank" rel="noopener" id="footer-link-demo">Echoes of Truth (Demo)</a></li>
+            <li><a href="https://youtu.be/9ugIta7vTkQ" target="_blank" rel="noopener" id="footer-link-video">Engine Video Tour</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-title" id="footer-title-community">Community & Contact</div>
+          <ul class="footer-links">
+            <li><a href="index.html#donate" style="color: #f472b6; font-weight: 600;" id="footer-link-support">💖 Support & Donate</a></li>
+            <li><a href="mailto:jose.manuel.reyes.1986@gmail.com">jose.manuel.reyes.1986@gmail.com</a></li>
+            <li><a href="https://sites.google.com/view/sagalazaro" target="_blank" rel="noopener" id="footer-link-book-es">Official Book Site (ES)</a></li>
+            <li><a href="https://sites.google.com/view/the-lazarus-saga/" target="_blank" rel="noopener" id="footer-link-book-en">Official Book Site (EN)</a></li>
+            <li><a href="https://youtu.be/xNsCNHatSUI" target="_blank" rel="noopener" id="footer-link-trailer-es">🎬 Game Trailer (Echoes of Truth - ES)</a></li>
+            <li><a href="https://youtu.be/Omau2eJ1cR8" target="_blank" rel="noopener" id="footer-link-trailer-en">🎬 Game Trailer (Echoes of Truth - EN)</a></li>
+          </ul>
+        </div>
+      </div>
+
       <div class="footer-bottom">
         <div>© 2026 Taos World. Created by <a href="https://josemhr.github.io/JoseMHR/" target="_blank" rel="noopener" style="color: var(--text-accent); text-decoration: underline;">JoseMHR</a>.</div>
+        <div id="footer-crafted">Crafted for Godot Engine developers worldwide.</div>
       </div>
     </div>
   </footer>
