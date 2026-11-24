@@ -363,7 +363,7 @@ a:hover { color: #7dd3fc; text-decoration: none; }
   gap: 1.75rem;
 }
 
-.grid-2 { grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); }
+.grid-2 { grid-template-columns: repeat(2, 1fr); }
 .grid-3 { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
 .grid-4 { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
 
@@ -921,6 +921,7 @@ tr:nth-child(even) {
 
 @media (max-width: 768px) {
   .nav-menu { display: none; }
+  .grid-2 { grid-template-columns: 1fr; }
   .footer-grid { grid-template-columns: 1fr; }
   .hero { padding: 3rem 0 2rem; }
   .btn-lg { width: 100%; }
