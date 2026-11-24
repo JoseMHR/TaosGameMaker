@@ -13,7 +13,7 @@ then export to Windows, macOS, Linux and Android with **100% royalty-free commer
 ![Royalties](https://img.shields.io/badge/Games_you_build-100%25_Royalty--Free-F9A825)
 ![Export](https://img.shields.io/badge/Export-Windows_%7C_macOS_%7C_Linux_%7C_Android-00A8E8)
 
-**[📖 Documentation Site](https://josemhr.github.io/taos-game-maker/) · [⭐ GitHub Repository](https://github.com/JoseMHR/taos-game-maker) · [📦 Download ZIP](https://github.com/JoseMHR/taos-game-maker/archive/refs/heads/main.zip) · [🎮 Play the Free Demo](https://taosworld.itch.io/echoesoftruth) · [🎬 Video Tour](https://youtu.be/9ugIta7vTkQ)**
+**[📖 Documentation Site](https://josemhr.github.io/TaosGameMaker/) · [⭐ GitHub Repository](https://github.com/JoseMHR/TaosGameMaker) · [📦 Download ZIP](https://github.com/JoseMHR/TaosGameMaker/archive/refs/heads/main.zip) · [🎮 Play the Free Demo](https://taosworld.itch.io/echoesoftruth) · [🎬 Engine Video Tour](https://youtu.be/9ugIta7vTkQ)**
 
 </div>
 
@@ -60,13 +60,15 @@ The best way to judge a framework is to play a game made with it. **Echoes of Tr
 
 | Resource | Link |
 |---|---|
-| 📖 Documentation & showcase site | https://josemhr.github.io/taos-game-maker/ |
-| ⭐ GitHub Repository | https://github.com/JoseMHR/taos-game-maker |
-| 📦 Download Engine (ZIP) | https://github.com/JoseMHR/taos-game-maker/archive/refs/heads/main.zip |
+| 📖 Documentation & showcase site | https://josemhr.github.io/TaosGameMaker/ |
+| ⭐ GitHub Repository | https://github.com/JoseMHR/TaosGameMaker |
+| 📦 Download Engine (ZIP) | https://github.com/JoseMHR/TaosGameMaker/archive/refs/heads/main.zip |
 | 🎮 Free demo — Echoes of Truth | https://taosworld.itch.io/echoesoftruth |
 | 🎬 Engine video tour (YouTube) | https://youtu.be/9ugIta7vTkQ |
-| 🎬 Game video tour (YouTube) | https://www.youtube.com/watch?v=Omau2eJ1cR8 |
-| 🌐 Official universe website | https://sites.google.com/view/the-lazarus-saga/ |
+| 🎬 Game trailer (EN - YouTube) | https://www.youtube.com/watch?v=Omau2eJ1cR8 |
+| 🎬 Game trailer (ES - YouTube) | https://www.youtube.com/watch?v=xNsCNHatSUI |
+| 🌐 Official universe website (EN) | https://sites.google.com/view/the-lazarus-saga/ |
+| 🌐 Official universe website (ES) | https://sites.google.com/view/sagalazaro |
 
 ## ✅ Is it for you?
 
@@ -77,7 +79,7 @@ The best way to judge a framework is to play a game made with it. **Echoes of Tr
 | Want a working tactical JRPG to dissect and mod | Want to resell the engine package as your own |
 | Plan to sell your game (you keep 100% of revenue) | Need multiplayer, console ports or non-JRPG genres |
 
-The full licensing FAQ lives here: **[FAQ & Licensing](https://josemhr.github.io/taos-game-maker/faq.html)**
+The full licensing FAQ lives here: **[FAQ & Licensing](https://josemhr.github.io/TaosGameMaker/faq.html)**
 
 ## 📦 What's inside the package
 
@@ -93,7 +95,7 @@ The full licensing FAQ lives here: **[FAQ & Licensing](https://josemhr.github.io
 
 Taos Game Maker is **free and open-source software**. 
 - The **`main` branch** hosts the full Godot 4 project, GDScript codebase, databases, and local web studio.
-- The **`gh-pages` branch** hosts the public documentation site at [https://josemhr.github.io/taos-game-maker/](https://josemhr.github.io/taos-game-maker/).
+- The **`gh-pages` branch** hosts the public documentation site at [https://josemhr.github.io/TaosGameMaker/](https://josemhr.github.io/TaosGameMaker/).
 
 If this framework helps you, consider giving the repo a ⭐ — it genuinely helps other developers find it!
 
@@ -127,15 +129,17 @@ Taos Game Maker is provided as free and open-source software. Games and content 
 
 | Recurso | Enlace |
 |---|---|
-| 📖 Web de documentación | https://josemhr.github.io/taos-game-maker/ |
-| ⭐ Repositorio de GitHub | https://github.com/JoseMHR/taos-game-maker |
-| 📦 Descargar Motor (ZIP) | https://github.com/JoseMHR/taos-game-maker/archive/refs/heads/main.zip |
+| 📖 Web de documentación | https://josemhr.github.io/TaosGameMaker/ |
+| ⭐ Repositorio de GitHub | https://github.com/JoseMHR/TaosGameMaker |
+| 📦 Descargar Motor (ZIP) | https://github.com/JoseMHR/TaosGameMaker/archive/refs/heads/main.zip |
 | 🎮 Demo gratuita — Echoes of Truth | https://taosworld.itch.io/echoesoftruth |
 | 🎬 Vídeo demo del motor | https://youtu.be/9ugIta7vTkQ |
-| 🎬 Vídeo demo del juego | https://www.youtube.com/watch?v=xNsCNHatSUI |
-| 🌐 Web oficial del universo | https://sites.google.com/view/sagalazaro |
+| 🎬 Tráiler del juego (ES) | https://www.youtube.com/watch?v=xNsCNHatSUI |
+| 🎬 Tráiler del juego (EN) | https://www.youtube.com/watch?v=Omau2eJ1cR8 |
+| 🌐 Web oficial del universo (ES) | https://sites.google.com/view/sagalazaro |
+| 🌐 Web oficial del universo (EN) | https://sites.google.com/view/the-lazarus-saga/ |
 
-**¿Es para ti?** ✔️ Sí, si quieres crear JRPGs en Godot sin partir de cero, sabes editar un JSON (o quieres evitar el código) y piensas vender tu juego quedándote el 100% de los ingresos. ✖️ No, si esperas un motor independiente que funcione sin abrir Godot o assets AAA. Detalles completos en la [FAQ y licencia](https://josemhr.github.io/taos-game-maker/faq.html).
+**¿Es para ti?** ✔️ Sí, si quieres crear JRPGs en Godot sin partir de cero, sabes editar un JSON (o quieres evitar el código) y piensas vender tu juego quedándote el 100% de los ingresos. ✖️ No, si esperas un motor independiente que funcione sin abrir Godot o assets AAA. Detalles completos en la [FAQ y licencia](https://josemhr.github.io/TaosGameMaker/faq.html).
 
 **El paquete incluye:** plantilla completa de proyecto Godot 4.3+ · estudio web local con 45+ herramientas · Echoes of Truth como referencia · presets de exportación (Windows, Linux, macOS, Android) · assets iniciales · documentación en 7 idiomas · 100% Libre y Código Abierto · licencia libre de regalías para todo lo que crees.
 
