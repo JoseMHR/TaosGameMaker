@@ -28,8 +28,12 @@
       </ul>
 
       <div class="nav-cta">
-        <a href="https://taosworld.itch.io/echoesoftruth" target="_blank" rel="noopener" class="btn btn-secondary btn-sm">Play Demo (Free)</a>
-        <a href="https://github.com/JoseMHR/TaosGameMaker" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Get Engine (Free)</a>
+        <div class="lang-switcher">
+          <button class="lang-btn" data-lang="es" onclick="setLanguage('es')">🇪🇸 ES</button>
+          <button class="lang-btn active" data-lang="en" onclick="setLanguage('en')">🇬🇧 EN</button>
+        </div>
+        <a href="https://taosworld.itch.io/echoesoftruth" target="_blank" rel="noopener" class="btn btn-secondary btn-sm" id="nav-btn-demo">Play Demo (Free)</a>
+        <a href="https://github.com/JoseMHR/TaosGameMaker" target="_blank" rel="noopener" class="btn btn-primary btn-sm" id="nav-btn-engine">Get Engine (Free)</a>
       </div>
     </div>
   </header>
@@ -196,5 +200,6 @@
     </div>
   </footer>
 
+  <script src="app.js"></script>
 </body>
 </html>

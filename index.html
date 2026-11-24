@@ -20,17 +20,21 @@
       </a>
 
       <ul class="nav-menu">
-        <li><a href="index.html" class="nav-link active">Overview</a></li>
-        <li><a href="getting-started.html" class="nav-link">Getting Started</a></li>
-        <li><a href="architecture.html" class="nav-link">Architecture</a></li>
-        <li><a href="data-formats.html" class="nav-link">Data Schemas</a></li>
-        <li><a href="faq.html" class="nav-link">FAQ & Licensing</a></li>
-        <li><a href="#donate" class="nav-link">💖 Support</a></li>
+        <li><a href="index.html" class="nav-link active" id="nav-overview">Overview</a></li>
+        <li><a href="getting-started.html" class="nav-link" id="nav-getting-started">Getting Started</a></li>
+        <li><a href="architecture.html" class="nav-link" id="nav-architecture">Architecture</a></li>
+        <li><a href="data-formats.html" class="nav-link" id="nav-data-formats">Data Schemas</a></li>
+        <li><a href="faq.html" class="nav-link" id="nav-faq">FAQ & Licensing</a></li>
+        <li><a href="#donate" class="nav-link" id="nav-support">💖 Support</a></li>
       </ul>
 
       <div class="nav-cta">
-        <a href="https://taosworld.itch.io/echoesoftruth" target="_blank" rel="noopener" class="btn btn-secondary btn-sm">Play Demo (Free)</a>
-        <a href="https://github.com/JoseMHR/TaosGameMaker" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Get Engine (Free)</a>
+        <div class="lang-switcher">
+          <button class="lang-btn" data-lang="es" onclick="setLanguage('es')">🇪🇸 ES</button>
+          <button class="lang-btn active" data-lang="en" onclick="setLanguage('en')">🇬🇧 EN</button>
+        </div>
+        <a href="https://taosworld.itch.io/echoesoftruth" target="_blank" rel="noopener" class="btn btn-secondary btn-sm" id="nav-btn-demo">Play Demo (Free)</a>
+        <a href="https://github.com/JoseMHR/TaosGameMaker" target="_blank" rel="noopener" class="btn btn-primary btn-sm" id="nav-btn-engine">Get Engine (Free)</a>
       </div>
     </div>
   </header>
@@ -39,22 +43,22 @@
   <main>
     <section class="hero">
       <div class="container">
-        <div class="hero-badge">Godot 4.3+ • Data-Driven RPG Framework & Local Web Studio</div>
-        <h1 class="hero-title">
+        <div class="hero-badge" id="hero-badge">Godot 4.3+ • Data-Driven RPG Framework & Local Web Studio</div>
+        <h1 class="hero-title" id="hero-title">
           Data-Driven Tactical JRPG Framework & <span class="gradient-text">Local Web Studio</span> for Godot 4
         </h1>
-        <p class="hero-subtitle">
+        <p class="hero-subtitle" id="hero-subtitle">
           Build deep 3D overworlds, first-person grid dungeon crawlers, turn-based tactical combat, and branching visual novels in Godot 4 without wrestling with spaghetti code. Fully driven by clean JSON databases and 45+ visual web tools.
         </p>
 
         <div class="hero-actions">
-          <a href="https://github.com/JoseMHR/TaosGameMaker" target="_blank" rel="noopener" class="btn btn-primary btn-lg">
+          <a href="https://github.com/JoseMHR/TaosGameMaker" target="_blank" rel="noopener" class="btn btn-primary btn-lg" id="hero-btn-engine">
             <span>⚡</span> Get Taos Game Maker (Free & Open Source)
           </a>
-          <a href="https://taosworld.itch.io/echoesoftruth" target="_blank" rel="noopener" class="btn btn-secondary btn-lg">
+          <a href="https://taosworld.itch.io/echoesoftruth" target="_blank" rel="noopener" class="btn btn-secondary btn-lg" id="hero-btn-demo">
             <span>🎮</span> Play Demo: Echoes of Truth
           </a>
-          <a href="getting-started.html" class="btn btn-outline btn-lg">
+          <a href="getting-started.html" class="btn btn-outline btn-lg" id="hero-btn-guide">
             <span>📖</span> Quickstart Guide
           </a>
         </div>
@@ -62,8 +66,8 @@
         <!-- Video Showcase Box -->
         <div class="hero-video-section">
           <div class="hero-video-header">
-            <span class="badge badge-cyan">🎬 Engine & Web Studio Video Tour</span>
-            <p class="hero-video-caption">See the Godot 4 framework, 3D overworld, turn-based combat, and local Web Studio in action.</p>
+            <span class="badge badge-cyan" id="video-badge">🎬 Engine & Web Studio Video Tour</span>
+            <p class="hero-video-caption" id="video-caption">See the Godot 4 framework, 3D overworld, turn-based combat, and local Web Studio in action.</p>
           </div>
           <div class="video-wrapper">
             <div class="video-container">
@@ -84,9 +88,9 @@
     <section class="section section-alt">
       <div class="container">
         <div class="section-header">
-          <div class="section-tag">Core Engine Architecture</div>
-          <h2>The Four Pillars of Taos Game Maker</h2>
-          <p>A unified engine combining classic RPG genres into a cohesive, production-ready framework built for Godot 4.</p>
+          <div class="section-tag" id="pillars-tag">Core Engine Architecture</div>
+          <h2 id="pillars-title">The Four Pillars of Taos Game Maker</h2>
+          <p id="pillars-desc">A unified engine combining classic RPG genres into a cohesive, production-ready framework built for Godot 4.</p>
         </div>
 
         <div class="grid grid-2">
@@ -97,15 +101,15 @@
             </div>
             <div class="card-body">
               <div class="card-icon">🗺️</div>
-              <h3 class="card-title">3D Overworld & Grid Exploration</h3>
-              <p class="card-text">
+              <h3 class="card-title" id="pillar-1-title">3D Overworld & Grid Exploration</h3>
+              <p class="card-text" id="pillar-1-desc">
                 High-performance tile-based overworld system with smooth grid movement, custom terrain biomes (grasslands, deserts, volcanic crags, snowy wastes), dynamic weather systems, fog of war, interactive Points of Interest (POIs), gathering nodes, and seamless city transitions.
               </p>
               <div class="card-tags">
-                <span class="badge badge-cyan">3D Tile Coordinates</span>
-                <span class="badge">Dynamic Biomes</span>
-                <span class="badge">Weather & Fog</span>
-                <span class="badge">Resource Gathering</span>
+                <span class="badge badge-cyan" id="pillar-1-tag-1">3D Tile Coordinates</span>
+                <span class="badge" id="pillar-1-tag-2">Dynamic Biomes</span>
+                <span class="badge" id="pillar-1-tag-3">Weather & Fog</span>
+                <span class="badge" id="pillar-1-tag-4">Resource Gathering</span>
               </div>
             </div>
           </div>
@@ -117,15 +121,15 @@
             </div>
             <div class="card-body">
               <div class="card-icon">🏰</div>
-              <h3 class="card-title">First-Person Grid Dungeon Crawler</h3>
-              <p class="card-text">
+              <h3 class="card-title" id="pillar-2-title">First-Person Grid Dungeon Crawler</h3>
+              <p class="card-text" id="pillar-2-desc">
                 Classic 90-degree step-and-turn first-person dungeon exploration. Procedural and handcrafted modular rooms, interactive dungeon pieces, door gates, loot chests with lock-picking mechanics, hidden traps, atmospheric torch lighting, and boss encounters.
               </p>
               <div class="card-tags">
-                <span class="badge badge-cyan">1st-Person Grid Step</span>
-                <span class="badge">Modular Rooms</span>
-                <span class="badge">Trap & Chest Systems</span>
-                <span class="badge">3D Lighting</span>
+                <span class="badge badge-cyan" id="pillar-2-tag-1">1st-Person Grid Step</span>
+                <span class="badge" id="pillar-2-tag-2">Modular Rooms</span>
+                <span class="badge" id="pillar-2-tag-3">Trap & Chest Systems</span>
+                <span class="badge" id="pillar-2-tag-4">3D Lighting</span>
               </div>
             </div>
           </div>
@@ -137,15 +141,15 @@
             </div>
             <div class="card-body">
               <div class="card-icon">⚔️</div>
-              <h3 class="card-title">Turn-Based Tactical RPG Combat</h3>
-              <p class="card-text">
+              <h3 class="card-title" id="pillar-3-title">Turn-Based Tactical RPG Combat</h3>
+              <p class="card-text" id="pillar-3-desc">
                 Full-featured tactical battle engine with initiative queue, dynamic action menus, status effects, damage formulas, skill trees, item inventories, juice animations (screen shake, damage popups, hit flashes), and multi-phase boss mechanics.
               </p>
               <div class="card-tags">
-                <span class="badge badge-cyan">Initiative Turn Order</span>
-                <span class="badge">Status & Affinities</span>
-                <span class="badge">Juice FX</span>
-                <span class="badge">Enemy AI Routines</span>
+                <span class="badge badge-cyan" id="pillar-3-tag-1">Initiative Turn Order</span>
+                <span class="badge" id="pillar-3-tag-2">Status & Affinities</span>
+                <span class="badge" id="pillar-3-tag-3">Juice FX</span>
+                <span class="badge" id="pillar-3-tag-4">Enemy AI Routines</span>
               </div>
             </div>
           </div>
@@ -157,15 +161,15 @@
             </div>
             <div class="card-body">
               <div class="card-icon">📜</div>
-              <h3 class="card-title">Visual Novel & Branching Narrative</h3>
-              <p class="card-text">
+              <h3 class="card-title" id="pillar-4-title">Visual Novel & Branching Narrative</h3>
+              <p class="card-text" id="pillar-4-desc">
                 Expressive narrative engine featuring full-screen character portraits, expression transitions, branching player choices, global flag checks, quest hooks, profession synergy dialogs, and a responsive multi-language localization framework.
               </p>
               <div class="card-tags">
-                <span class="badge badge-cyan">Branching Dialog Trees</span>
-                <span class="badge">Character Portraits</span>
-                <span class="badge">Global Story Flags</span>
-                <span class="badge">i18n Multi-Language</span>
+                <span class="badge badge-cyan" id="pillar-4-tag-1">Branching Dialog Trees</span>
+                <span class="badge" id="pillar-4-tag-2">Character Portraits</span>
+                <span class="badge" id="pillar-4-tag-3">Global Story Flags</span>
+                <span class="badge" id="pillar-4-tag-4">i18n Multi-Language</span>
               </div>
             </div>
           </div>
@@ -177,34 +181,34 @@
     <section class="section">
       <div class="container">
         <div class="section-header">
-          <div class="section-tag">Production Workflow</div>
-          <h2>How It Works: Clean Data, Visual Speed</h2>
-          <p>Keep stats, quests, and dialogues in readable JSON files, decoupled from GDScript logic.</p>
+          <div class="section-tag" id="workflow-tag">Production Workflow</div>
+          <h2 id="workflow-title">How It Works: Clean Data, Visual Speed</h2>
+          <p id="workflow-desc">Keep stats, quests, and dialogues in readable JSON files, decoupled from GDScript logic.</p>
         </div>
 
         <div class="steps-pipeline">
           <div class="step-card">
             <div class="step-number">1</div>
-            <h3>Pure Data-Driven Core</h3>
-            <p>Every enemy, item, dialogue, quest, and map cell lives in human-readable JSON files. Zero proprietary binary formats.</p>
+            <h3 id="step-1-title">Pure Data-Driven Core</h3>
+            <p id="step-1-desc">Every enemy, item, dialogue, quest, and map cell lives in human-readable JSON files. Zero proprietary binary formats.</p>
           </div>
 
           <div class="step-card">
             <div class="step-number">2</div>
-            <h3>45+ Local Web Studio Tools</h3>
-            <p>Run the included zero-dependency Python server. Design worlds, dialogues, and dungeon levels with visual drag-and-drop tools.</p>
+            <h3 id="step-2-title">45+ Local Web Studio Tools</h3>
+            <p id="step-2-desc">Run the included zero-dependency Python server. Design worlds, dialogues, and dungeon levels with visual drag-and-drop tools.</p>
           </div>
 
           <div class="step-card">
             <div class="step-number">3</div>
-            <h3>Instant Live Reload in Godot</h3>
-            <p>Save in the web editor and test immediately in Godot 4. The engine reloads data definitions on the fly.</p>
+            <h3 id="step-3-title">Instant Live Reload in Godot</h3>
+            <p id="step-3-desc">Save in the web editor and test immediately in Godot 4. The engine reloads data definitions on the fly.</p>
           </div>
 
           <div class="step-card">
             <div class="step-number">4</div>
-            <h3>Multiplatform Export Ready</h3>
-            <p>Export natively to Windows, Linux, macOS, Android (APK/AAB), and Web (HTML5) with tuned export presets.</p>
+            <h3 id="step-4-title">Multiplatform Export Ready</h3>
+            <p id="step-4-desc">Export natively to Windows, Linux, macOS, Android (APK/AAB), and Web (HTML5) with tuned export presets.</p>
           </div>
         </div>
 
@@ -214,10 +218,10 @@
             <img src="assets/img/screenshot-editor.jpg" alt="Taos Game Maker Web Studio - Visual Dungeon & Level Editor" style="width: 100%; border-radius: var(--radius-md); display: block;" loading="lazy">
           </div>
           <div style="text-align: center; margin-top: 1rem;">
-            <span class="badge badge-cyan">Visual Studio Suite</span>
-            <span class="badge">45+ Web Tools</span>
-            <span class="badge">Instant Godot Reload</span>
-            <p style="margin-top: 0.5rem; font-size: 0.95rem; color: var(--text-secondary);">
+            <span class="badge badge-cyan" id="studio-tag-1">Visual Studio Suite</span>
+            <span class="badge" id="studio-tag-2">45+ Web Tools</span>
+            <span class="badge" id="studio-tag-3">Instant Godot Reload</span>
+            <p style="margin-top: 0.5rem; font-size: 0.95rem; color: var(--text-secondary);" id="studio-caption">
               Local Web Studio running on Python: visual dungeon map editor, 3D walkthrough preview, entity palette, and real-time JSON sync.
             </p>
           </div>
@@ -229,23 +233,23 @@
     <section class="section section-alt">
       <div class="container">
         <div class="section-header">
-          <div class="section-tag">Transmedia Showcase</div>
-          <h2>Built for Real Games: The Samiria Universe</h2>
-          <p>Taos Game Maker isn't a theoretical prototype. It powers our own playable tactical RPG and fantasy literary franchise.</p>
+          <div class="section-tag" id="transmedia-tag">Transmedia Showcase</div>
+          <h2 id="transmedia-title">Built for Real Games: The Samiria Universe</h2>
+          <p id="transmedia-desc">Taos Game Maker isn't a theoretical prototype. It powers our own playable tactical RPG and fantasy literary franchise.</p>
         </div>
 
         <!-- Game Showcase -->
         <div class="showcase-card">
           <img src="assets/img/echoes-of-truth-cover.jpg" alt="Echoes of Truth RPG Cover" class="showcase-img">
           <div class="showcase-content">
-            <div class="section-tag">Playable Demonstration Game</div>
+            <div class="section-tag" id="game-tag">Playable Demonstration Game</div>
             <h3>Echoes of Truth (Ecos de la Verdad)</h3>
-            <p>
+            <p id="game-desc">
               A full tactical JRPG and first-person grid crawler built 100% with Taos Game Maker. Explore ancient temple ruins, uncover fractured cosmic lore, and battle mythical creatures across the realm of Samiria.
             </p>
             <div style="display: flex; gap: 0.75rem; flex-wrap: wrap; margin-top: 1rem;">
-              <a href="https://taosworld.itch.io/echoesoftruth" target="_blank" rel="noopener" class="btn btn-secondary">Play on itch.io (Free)</a>
-              <a href="https://taosworld.gumroad.com/l/EchoesOfTruth" target="_blank" rel="noopener" class="btn btn-outline">Gumroad Edition (€0+)</a>
+              <a href="https://taosworld.itch.io/echoesoftruth" target="_blank" rel="noopener" class="btn btn-secondary" id="game-btn-itch">Play on itch.io (Free)</a>
+              <a href="https://taosworld.gumroad.com/l/EchoesOfTruth" target="_blank" rel="noopener" class="btn btn-outline" id="game-btn-gumroad">Gumroad Edition (€0+)</a>
               <a href="https://youtu.be/xNsCNHatSUI" target="_blank" rel="noopener" class="btn btn-outline">🎬 Trailer (ES)</a>
               <a href="https://youtu.be/Omau2eJ1cR8" target="_blank" rel="noopener" class="btn btn-outline">🎬 Trailer (EN)</a>
             </div>
@@ -256,9 +260,9 @@
         <div class="showcase-card">
           <img src="assets/img/lazarus-saga-cover.jpg" alt="The Lazarus Saga Fantasy Universe" class="showcase-img">
           <div class="showcase-content">
-            <div class="section-tag">Dark Fantasy Literary Universe</div>
+            <div class="section-tag" id="book-tag">Dark Fantasy Literary Universe</div>
             <h3>The Lazarus Saga (La Saga Lázaro)</h3>
-            <p>
+            <p id="book-desc">
               The dark fantasy novel series that serves as the mythological foundation for the game's lore, ancient spheres, and celestial pantheon. Available worldwide on Amazon in both Spanish and English.
             </p>
             <div style="display: flex; gap: 0.75rem; flex-wrap: wrap; margin-top: 1rem;">
@@ -279,9 +283,9 @@
       <div class="container">
         <div class="donation-strip">
           <div class="donation-strip-info">
-            <div class="donation-strip-tag">💖 Community Support</div>
-            <h3>Support Taos Game Maker</h3>
-            <p>
+            <div class="donation-strip-tag" id="donate-tag">💖 Community Support</div>
+            <h3 id="donate-title">Support Taos Game Maker</h3>
+            <p id="donate-desc">
               Taos Game Maker is free and open source under the MIT License. If it helps with your project, you can support ongoing maintenance via PayPal.
             </p>
           </div>
@@ -292,10 +296,10 @@
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M7.076 21.337H2.47a.641.641 0 0 1-.633-.74L4.944 3.72a.787.787 0 0 1 .777-.655h7.248c3.551 0 6.068 1.488 5.765 4.887-.272 3.036-2.288 4.787-5.26 4.787H10.51l-1.42 7.828a.787.787 0 0 1-.777.655l-1.237.115zm3.765-10.74h2.155c2.046 0 3.32-.973 3.498-2.956.177-1.996-.94-2.887-2.987-2.887H9.728l-1.144 5.843h2.257z"/>
                 </svg>
-                <span>Donate with PayPal</span>
+                <span id="donate-btn-text">Donate with PayPal</span>
               </button>
             </form>
-            <a href="https://www.paypal.com/donate/?hosted_button_id=SAWNH6X9N38RY" target="_blank" rel="noopener" class="btn btn-outline btn-sm">
+            <a href="https://www.paypal.com/donate/?hosted_button_id=SAWNH6X9N38RY" target="_blank" rel="noopener" class="btn btn-outline btn-sm" id="donate-direct">
               Direct Link ↗
             </a>
             <div class="qr-compact" title="Scan to donate via mobile">
@@ -309,15 +313,15 @@
     <!-- Call to Action Banner -->
     <section class="section">
       <div class="container" style="text-align: center; max-width: 800px;">
-        <h2>Explore Taos Game Maker</h2>
-        <p style="font-size: 1.15rem; margin-bottom: 2rem;">
+        <h2 id="cta-title">Explore Taos Game Maker</h2>
+        <p style="font-size: 1.15rem; margin-bottom: 2rem;" id="cta-desc">
           Get the complete Godot 4 framework, all 45+ Web Studio visual tools, starter assets, and multiplatform export presets under the MIT License.
         </p>
         <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
-          <a href="https://github.com/JoseMHR/TaosGameMaker" target="_blank" rel="noopener" class="btn btn-primary btn-lg">
+          <a href="https://github.com/JoseMHR/TaosGameMaker" target="_blank" rel="noopener" class="btn btn-primary btn-lg" id="cta-btn-github">
             <span>⭐</span> View on GitHub (Free & Open Source)
           </a>
-          <a href="https://github.com/JoseMHR/TaosGameMaker/releases/latest" target="_blank" rel="noopener" class="btn btn-secondary btn-lg">
+          <a href="https://github.com/JoseMHR/TaosGameMaker/releases/latest" target="_blank" rel="noopener" class="btn btn-secondary btn-lg" id="cta-btn-release">
             <span>📦</span> Download Latest Release
           </a>
         </div>
@@ -328,7 +332,7 @@
   <!-- Footer -->
   <footer class="footer">
     <div class="container">
-      <div class="footer-legal-notice">
+      <div class="footer-legal-notice" id="footer-legal">
         <strong>License & IP Notice:</strong> The Taos Game Maker engine and Web Studio suite are open source under the <strong>MIT License</strong> (free to use, modify, and ship commercial games with attribution). The narrative IP, characters, storyline, and original art of <em>Echoes of Truth</em> & <em>The Lazarus Saga</em> are © 2026 Taos World. All rights reserved.
       </div>
 
@@ -338,11 +342,11 @@
             <div class="brand-icon">⚡</div>
             <span>Taos Game Maker</span>
           </div>
-          <p>Data-driven tactical RPG framework and local web studio for Godot 4.</p>
+          <p id="footer-brand-desc">Data-driven tactical RPG framework and local web studio for Godot 4.</p>
         </div>
 
         <div>
-          <div class="footer-title">Documentation</div>
+          <div class="footer-title" id="footer-title-docs">Documentation</div>
           <ul class="footer-links">
             <li><a href="getting-started.html">Getting Started</a></li>
             <li><a href="architecture.html">System Architecture</a></li>
@@ -352,19 +356,19 @@
         </div>
 
         <div>
-          <div class="footer-title">Products & Demos</div>
+          <div class="footer-title" id="footer-title-products">Products & Demos</div>
           <ul class="footer-links">
-            <li><a href="https://github.com/JoseMHR/TaosGameMaker" target="_blank" rel="noopener">GitHub Repository (Free)</a></li>
-            <li><a href="https://github.com/JoseMHR/TaosGameMaker/releases/latest" target="_blank" rel="noopener">Download Latest Release</a></li>
-            <li><a href="https://taosworld.itch.io/echoesoftruth" target="_blank" rel="noopener">Echoes of Truth (Demo)</a></li>
-            <li><a href="https://youtu.be/9ugIta7vTkQ" target="_blank" rel="noopener">Engine Video Tour</a></li>
+            <li><a href="https://github.com/JoseMHR/TaosGameMaker" target="_blank" rel="noopener" id="footer-link-repo">GitHub Repository (Free)</a></li>
+            <li><a href="https://github.com/JoseMHR/TaosGameMaker/releases/latest" target="_blank" rel="noopener" id="footer-link-release">Download Latest Release</a></li>
+            <li><a href="https://taosworld.itch.io/echoesoftruth" target="_blank" rel="noopener" id="footer-link-demo">Echoes of Truth (Demo)</a></li>
+            <li><a href="https://youtu.be/9ugIta7vTkQ" target="_blank" rel="noopener" id="footer-link-video">Engine Video Tour</a></li>
           </ul>
         </div>
 
         <div>
-          <div class="footer-title">Community & Contact</div>
+          <div class="footer-title" id="footer-title-community">Community & Contact</div>
           <ul class="footer-links">
-            <li><a href="#donate" style="color: #f472b6; font-weight: 600;">💖 Support & Donate</a></li>
+            <li><a href="#donate" style="color: #f472b6; font-weight: 600;" id="footer-link-support">💖 Support & Donate</a></li>
             <li><a href="mailto:jose.manuel.reyes.1986@gmail.com">jose.manuel.reyes.1986@gmail.com</a></li>
             <li><a href="https://sites.google.com/view/sagalazaro" target="_blank" rel="noopener">Official Site (ES)</a></li>
             <li><a href="https://sites.google.com/view/the-lazarus-saga/" target="_blank" rel="noopener">Official Site (EN)</a></li>
@@ -376,10 +380,12 @@
 
       <div class="footer-bottom">
         <div>© 2026 Taos World. Created by <a href="https://josemhr.github.io/JoseMHR/" target="_blank" rel="noopener" style="color: var(--text-accent); text-decoration: underline;">JoseMHR</a>.</div>
-        <div>Crafted for Godot Engine developers worldwide.</div>
+        <div id="footer-crafted">Crafted for Godot Engine developers worldwide.</div>
       </div>
     </div>
   </footer>
 
+  <!-- Bilingual & Interactive Core -->
+  <script src="app.js"></script>
 </body>
 </html>
