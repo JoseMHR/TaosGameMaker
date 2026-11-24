@@ -13,7 +13,7 @@
 ![Export](https://img.shields.io/badge/Export-Windows_%7C_macOS_%7C_Linux_%7C_Android-00A8E8)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-00457C?style=flat&logo=paypal&logoColor=white)](https://www.paypal.com/donate/?hosted_button_id=SAWNH6X9N38RY)
 
-**[📖 Official Documentation & Showcase](https://josemhr.github.io/TaosGameMaker/) · [📦 Download v1.1 Packages](https://github.com/JoseMHR/TaosGameMaker/releases/latest) · [🎮 Play Free Demo (Echoes of Truth)](https://taosworld.itch.io/echoesoftruth) · [🎬 Engine Video Tour](https://youtu.be/9ugIta7vTkQ) · [💖 Donate](https://www.paypal.com/donate/?hosted_button_id=SAWNH6X9N38RY)**
+**[📖 Official Documentation & Showcase](https://josemhr.github.io/TaosGameMaker/) · [📦 Download v1.1 Packages](https://github.com/JoseMHR/TaosGameMaker/releases/latest) · [🎮 Play Free Demo](https://taosworld.itch.io/echoesoftruth) · [🎬 Engine Video Tour](https://youtu.be/9ugIta7vTkQ) · [🎬 Tráiler del Juego (ES)](https://youtu.be/xNsCNHatSUI) · [🎬 Game Trailer (EN)](https://youtu.be/Omau2eJ1cR8) · [🌐 Universo Literario](https://sites.google.com/view/sagalazaro) · [💖 Donate](https://www.paypal.com/donate/?hosted_button_id=SAWNH6X9N38RY)**
 
 </div>
 
