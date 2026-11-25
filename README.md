@@ -13,7 +13,7 @@ then export to Windows, macOS, Linux and Android with **100% royalty-free commer
 ![Royalties](https://img.shields.io/badge/Games_you_build-100%25_Royalty--Free-F9A825)
 ![Export](https://img.shields.io/badge/Export-Windows_%7C_macOS_%7C_Linux_%7C_Android-00A8E8)
 
-**[📖 Documentation Site](https://josemhr.github.io/TaosGameMaker/) · [⭐ GitHub Repository](https://github.com/JoseMHR/TaosGameMaker) · [📦 Download ZIP](https://github.com/JoseMHR/TaosGameMaker/archive/refs/heads/main.zip) · [🎮 Play the Free Demo](https://taosworld.itch.io/echoesoftruth) · [🎬 Engine Video Tour](https://youtu.be/9ugIta7vTkQ)**
+**[📖 Documentation Site](https://josemhr.github.io/TaosGameMaker/) · [🏪 Godot Asset Store](https://store.godotengine.org/asset/taos/taos-game-maker/) · [⭐ GitHub Repository](https://github.com/JoseMHR/TaosGameMaker) · [📦 Download ZIP](https://github.com/JoseMHR/TaosGameMaker/archive/refs/heads/main.zip) · [🎮 Play the Free Demo](https://taosworld.itch.io/echoesoftruth) · [🎬 Engine Video Tour](https://youtu.be/9ugIta7vTkQ)**
 
 </div>
 
@@ -60,6 +60,7 @@ The best way to judge a framework is to play a game made with it. **Echoes of Tr
 
 | Resource | Link |
 |---|---|
+| 🏪 Godot Asset Store (Official) | https://store.godotengine.org/asset/taos/taos-game-maker/ |
 | 📖 Documentation & showcase site | https://josemhr.github.io/TaosGameMaker/ |
 | ⭐ GitHub Repository | https://github.com/JoseMHR/TaosGameMaker |
 | 📦 Download Engine (ZIP) | https://github.com/JoseMHR/TaosGameMaker/archive/refs/heads/main.zip |
@@ -129,6 +130,7 @@ Taos Game Maker is provided as free and open-source software. Games and content 
 
 | Recurso | Enlace |
 |---|---|
+| 🏪 Godot Asset Store (Oficial) | https://store.godotengine.org/asset/taos/taos-game-maker/ |
 | 📖 Web de documentación | https://josemhr.github.io/TaosGameMaker/ |
 | ⭐ Repositorio de GitHub | https://github.com/JoseMHR/TaosGameMaker |
 | 📦 Descargar Motor (ZIP) | https://github.com/JoseMHR/TaosGameMaker/archive/refs/heads/main.zip |
@@ -145,6 +147,6 @@ Taos Game Maker is provided as free and open-source software. Games and content 
 
 **Sobre este repositorio:** Taos Game Maker es software libre y de código abierto.
 - La rama **`main`** contiene el proyecto completo de Godot 4, el código GDScript y el estudio web local.
-- La rama **`gh-pages`** aloja la web de documentación en [https://josemhr.github.io/taos-game-maker/](https://josemhr.github.io/taos-game-maker/).
+- La rama **`gh-pages`** aloja la web de documentación en [https://josemhr.github.io/TaosGameMaker/](https://josemhr.github.io/TaosGameMaker/).
 
 © 2026 Taos World. All rights reserved.

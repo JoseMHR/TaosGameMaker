@@ -14,6 +14,7 @@ const translations = {
     "nav-data-formats": "Data Schemas",
     "nav-faq": "FAQ & Licensing",
     "nav-support": "💖 Support",
+    "nav-btn-store": "Godot Store",
     "nav-btn-demo": "Play Demo (Free)",
     "nav-btn-engine": "Get Engine (Free)",
 
@@ -21,7 +22,8 @@ const translations = {
     "hero-badge": "Godot 4.3+ • Data-Driven RPG Framework & Local Web Studio",
     "hero-title": "Data-Driven Tactical JRPG Framework & <span class=\"gradient-text\">Local Web Studio</span> for Godot 4",
     "hero-subtitle": "Build deep 3D overworlds, first-person grid dungeon crawlers, turn-based tactical combat, and branching visual novels in Godot 4 without wrestling with spaghetti code. Fully driven by clean JSON databases and 45+ visual web tools.",
-    "hero-btn-engine": "<span>⚡</span> Get Taos Game Maker (Free & Open Source)",
+    "hero-btn-store": "<span>🏪</span> Godot Asset Store",
+    "hero-btn-engine": "<span>⚡</span> GitHub Repository (Free & Open Source)",
     "hero-btn-demo": "<span>🎮</span> Play Demo: Echoes of Truth",
     "hero-btn-guide": "<span>📖</span> Quickstart Guide",
     "video-badge": "🎬 Engine & Web Studio Video Tour",
@@ -83,7 +85,6 @@ const translations = {
     "game-tag": "Playable Demonstration Game",
     "game-desc": "A full tactical JRPG and first-person grid crawler built 100% with Taos Game Maker. Explore ancient temple ruins, uncover fractured cosmic lore, and battle mythical creatures across the realm of Samiria.",
     "game-btn-itch": "Play on itch.io (Free)",
-    "game-btn-gumroad": "Gumroad Edition (€0+)",
 
     "book-tag": "Dark Fantasy Literary Universe",
     "book-desc": "The dark fantasy novel series that serves as the mythological foundation for the game's lore, ancient spheres, and celestial pantheon. Available worldwide on Amazon in both Spanish and English.",
@@ -98,6 +99,7 @@ const translations = {
     // CTA
     "cta-title": "Explore Taos Game Maker",
     "cta-desc": "Get the complete Godot 4 framework, all 45+ Web Studio visual tools, starter assets, and multiplatform export presets under the MIT License.",
+    "cta-btn-store": "<span>🏪</span> Godot Asset Store",
     "cta-btn-github": "<span>⭐</span> View on GitHub (Free & Open Source)",
     "cta-btn-release": "<span>📦</span> Download Latest Release",
 
@@ -112,6 +114,7 @@ const translations = {
     "footer-link-data-formats": "JSON Data Schemas",
     "footer-link-faq": "FAQ & Licensing",
     "footer-link-support": "💖 Support & Donate",
+    "footer-link-store": "Godot Asset Store (Official)",
     "footer-link-release": "Download Latest Release",
     "footer-link-repo": "GitHub Repository (Free)",
     "footer-link-demo": "Echoes of Truth (Demo)",
@@ -131,6 +134,7 @@ const translations = {
     "nav-data-formats": "Esquemas JSON",
     "nav-faq": "FAQ y Licencia",
     "nav-support": "💖 Apoyo",
+    "nav-btn-store": "Godot Store",
     "nav-btn-demo": "Jugar Demo (Gratis)",
     "nav-btn-engine": "Descargar Motor",
 
@@ -138,7 +142,8 @@ const translations = {
     "hero-badge": "Godot 4.3+ • Framework RPG Data-Driven y Estudio Web Local",
     "hero-title": "Framework JRPG Táctico Data-Driven y <span class=\"gradient-text\">Estudio Web Local</span> para Godot 4",
     "hero-subtitle": "Crea overworlds 3D, mazmorras en primera persona por casillas, combate táctico por turnos y novelas visuales en Godot 4 sin lidiar con código espagueti. Todo impulsado por bases de datos JSON limpias y 45+ herramientas web visuales.",
-    "hero-btn-engine": "<span>⚡</span> Descargar Taos Game Maker (Código Abierto)",
+    "hero-btn-store": "<span>🏪</span> Godot Asset Store",
+    "hero-btn-engine": "<span>⚡</span> Repositorio GitHub (Código Abierto)",
     "hero-btn-demo": "<span>🎮</span> Jugar Demo: Echoes of Truth",
     "hero-btn-guide": "<span>📖</span> Guía de Inicio Rápido",
     "video-badge": "🎬 Tour en Vídeo del Motor y Estudio Web",
@@ -200,7 +205,6 @@ const translations = {
     "game-tag": "Juego de Demostración Completo",
     "game-desc": "Un RPG táctico completo y crawler en primera persona desarrollado al 100% con Taos Game Maker. Explora ruinas de templos antiguos, desentraña misterios cósmicos y combate criaturas míticas en Samiria.",
     "game-btn-itch": "Jugar en itch.io (Gratis)",
-    "game-btn-gumroad": "Edición Gumroad (€0+)",
 
     "book-tag": "Universo Literario de Fantasía Oscura",
     "book-desc": "La saga de novelas de fantasía oscura y ciencia ficción que conforma la base mitológica del juego, las esferas ancestrales y el panteón celestial. Disponible a nivel mundial en Amazon en español e inglés.",
@@ -215,6 +219,7 @@ const translations = {
     // CTA
     "cta-title": "Explora Taos Game Maker",
     "cta-desc": "Descarga el framework completo para Godot 4, las 45+ herramientas visuales del Estudio Web, starter assets y presets de exportación bajo Licencia MIT.",
+    "cta-btn-store": "<span>🏪</span> Godot Asset Store",
     "cta-btn-github": "<span>⭐</span> Ver en GitHub (Código Abierto)",
     "cta-btn-release": "<span>📦</span> Descargar Última Versión",
 
@@ -229,6 +234,7 @@ const translations = {
     "footer-link-data-formats": "Esquemas de Datos JSON",
     "footer-link-faq": "FAQ y Licencias",
     "footer-link-support": "💖 Apoyo y Donaciones",
+    "footer-link-store": "Godot Asset Store (Oficial)",
     "footer-link-release": "Descargar Última Versión",
     "footer-link-repo": "Repositorio GitHub (Gratis)",
     "footer-link-demo": "Echoes of Truth (Demo)",
