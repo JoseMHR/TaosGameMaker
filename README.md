@@ -68,8 +68,8 @@ The best way to judge a framework is to play a game made with it. **Echoes of Tr
 | 🎬 Engine video tour (YouTube) | https://youtu.be/9ugIta7vTkQ |
 | 🎬 Game trailer (EN - YouTube) | https://www.youtube.com/watch?v=Omau2eJ1cR8 |
 | 🎬 Game trailer (ES - YouTube) | https://www.youtube.com/watch?v=xNsCNHatSUI |
-| 🌐 Official universe website (EN) | https://sites.google.com/view/the-lazarus-saga/ |
-| 🌐 Official universe website (ES) | https://sites.google.com/view/sagalazaro |
+| 🌐 Official universe website (EN) | https://josemhr.github.io/SagaLazaro/ |
+| 🌐 Official universe website (ES) | https://josemhr.github.io/SagaLazaro/ |
 
 ## ✅ Is it for you?
 
@@ -138,8 +138,8 @@ Taos Game Maker is provided as free and open-source software. Games and content 
 | 🎬 Vídeo demo del motor | https://youtu.be/9ugIta7vTkQ |
 | 🎬 Tráiler del juego (ES) | https://www.youtube.com/watch?v=xNsCNHatSUI |
 | 🎬 Tráiler del juego (EN) | https://www.youtube.com/watch?v=Omau2eJ1cR8 |
-| 🌐 Web oficial del universo (ES) | https://sites.google.com/view/sagalazaro |
-| 🌐 Web oficial del universo (EN) | https://sites.google.com/view/the-lazarus-saga/ |
+| 🌐 Web oficial del universo (ES) | https://josemhr.github.io/SagaLazaro/ |
+| 🌐 Web oficial del universo (EN) | https://josemhr.github.io/SagaLazaro/ |
 
 **¿Es para ti?** ✔️ Sí, si quieres crear JRPGs en Godot sin partir de cero, sabes editar un JSON (o quieres evitar el código) y piensas vender tu juego quedándote el 100% de los ingresos. ✖️ No, si esperas un motor independiente que funcione sin abrir Godot o assets AAA. Detalles completos en la [FAQ y licencia](https://josemhr.github.io/TaosGameMaker/faq.html).
 
