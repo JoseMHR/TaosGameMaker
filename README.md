@@ -11,9 +11,10 @@
 ![License](https://img.shields.io/badge/License-100%25_Free_%26_Open_Source-brightgreen)
 ![Royalties](https://img.shields.io/badge/Games_you_build-100%25_Royalty--Free-F9A825)
 ![Export](https://img.shields.io/badge/Export-Windows_%7C_macOS_%7C_Linux_%7C_Android-00A8E8)
+[![Godot Asset Store](https://img.shields.io/badge/Godot_Asset_Library-Taos_Game_Maker-478CBF?logo=godot-engine&logoColor=white)](https://store.godotengine.org/asset/taos/taos-game-maker/)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-00457C?style=flat&logo=paypal&logoColor=white)](https://www.paypal.com/donate/?hosted_button_id=SAWNH6X9N38RY)
 
-**[📖 Official Documentation & Showcase](https://josemhr.github.io/TaosGameMaker/) · [📦 Download v1.1 Packages](https://github.com/JoseMHR/TaosGameMaker/releases/latest) · [🎮 Play Free Demo](https://taosworld.itch.io/echoesoftruth) · [🎬 Engine Video Tour](https://youtu.be/9ugIta7vTkQ) · [🎬 Game Trailer (ES)](https://youtu.be/xNsCNHatSUI) · [🎬 Game Trailer (EN)](https://youtu.be/Omau2eJ1cR8) · [🌐 Literary Universe](https://sites.google.com/view/sagalazaro) · [💖 Donate](https://www.paypal.com/donate/?hosted_button_id=SAWNH6X9N38RY)**
+**[📖 Official Documentation & Showcase](https://josemhr.github.io/TaosGameMaker/) · [🏪 Godot Asset Store](https://store.godotengine.org/asset/taos/taos-game-maker/) · [📦 Download Latest Release](https://github.com/JoseMHR/TaosGameMaker/releases/latest) · [🎮 Play Free Demo](https://taosworld.itch.io/echoesoftruth) · [🎬 Engine Video Tour](https://youtu.be/9ugIta7vTkQ) · [🎬 Game Trailer (ES)](https://youtu.be/xNsCNHatSUI) · [🎬 Game Trailer (EN)](https://youtu.be/Omau2eJ1cR8) · [🌐 Literary Universe](https://sites.google.com/view/sagalazaro) · [💖 Donate](https://www.paypal.com/donate/?hosted_button_id=SAWNH6X9N38RY)**
 
 </div>
 

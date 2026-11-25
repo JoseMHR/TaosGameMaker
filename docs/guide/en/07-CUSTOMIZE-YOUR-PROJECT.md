@@ -11,7 +11,7 @@ This practical guide takes you through transforming the sample RPG into **your o
 Define how you will package and sell this project:
 
 ### Distribution Models
-- **As a Premium Template / RPG Engine for Other Creators (itch.io, Gumroad, Asset Stores)**:
+- **As a Premium Template / RPG Engine for Other Creators (Godot Asset Store, GitHub...)**:
   Distribute the complete repository containing Godot 4 + the `editor/` suite. Buyers receive a turn-key JRPG engine and visual No-Code editor to make their own games without programming. This documentation suite in `docs/guide/` (available in 7 languages) serves as the official user manual for your customers.
 - **As a Standalone Commercial Video Game (Steam, Nintendo Switch, Google Play, iOS, itch.io)**:
   Replace the sample story in `data/` and art in `assets/` with your own intellectual property. When exporting your final build (`export_presets.cfg`), development tools (`editor/`, `tools/`, `docs/`) are **automatically excluded**, producing a clean, optimized executable for your target storefront.

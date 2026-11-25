@@ -3,7 +3,7 @@
 ## Phase 0 — Modèle Commercial et Portée
 
 ### Modèles de Distribution
-- **En tant que Modèle Premium / Moteur JRPG pour d'autres créateurs (itch.io, Gumroad, Asset Store)** :
+- **En tant que Modèle Premium / Moteur JRPG pour d'autres créateurs (Godot Asset Store, GitHub...)** :
   Distribuez l'intégralité du projet comprenant Godot 4 et le dossier `editor/`. L'acheteur bénéficie d'une solution clé en main prête à l'emploi et de ce guide complet disponible en 7 langues.
 - **En tant que Jeu Commercial Indépendant (Steam, Nintendo Switch, Google Play, iOS)** :
   Remplacez le contenu de `data/` et les ressources de `assets/` par vos propres créations. Lors de l'exportation depuis Godot (`export_presets.cfg`), les outils de développement (`editor/`, `tools/`, `docs/`) sont **automatiquement exclus**.

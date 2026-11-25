@@ -3,7 +3,7 @@
 ## Phase 0 — Vertriebsmodell und Umfang
 
 ### Geschäftsmodelle
-- **Als Premium-Vorlage / JRPG-Engine für andere Entwickler (itch.io, Gumroad, Asset Store)**:
+- **Als Premium-Vorlage / JRPG-Engine für andere Entwickler (Godot Asset Store, GitHub...)**:
   Verteilen Sie das gesamte Repository inklusive Godot 4 und dem Ordner `editor/`. Käufer erhalten eine schlüsselfertige Engine und einen No-Code-Editor. Dieses Handbuch (in 7 Sprachen) dient als Benutzeranleitung.
 - **Als Eigenständiges Kommerzielles Spiel (Steam, Nintendo Switch, Google Play, iOS)**:
   Ersetzen Sie den Beispielinhalt in `data/` und die Assets in `assets/`. Beim Export aus Godot (`export_presets.cfg`) werden Entwicklungswerkzeuge (`editor/`, `tools/`, `docs/`) **automatisch ausgeschlossen**.

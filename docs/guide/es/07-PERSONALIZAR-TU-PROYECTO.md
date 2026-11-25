@@ -13,7 +13,7 @@ tocar GDScript salvo que quieras mecánicas nuevas de verdad (lo señalamos dond
 Antes de comenzar, define cómo vas a enfocar y distribuir este proyecto:
 
 ### Modelos de Distribución
-- **Como Template Premium / Motor RPG para otros desarrolladores (itch.io, Gumroad, Asset Store)**:
+- **Como Template Premium / Motor RPG para otros desarrolladores (Godot Asset Store, GitHub...)**:
   Distribuyes el repositorio completo con Godot 4 + la carpeta `editor/`. El comprador adquiere una solución llave en mano: un motor JRPG completo y probado junto a una herramienta web "No-Code" para crear su propio juego sin programar. La documentación de `docs/guide/` (disponible en 7 idiomas) sirve como manual de usuario oficial para tus clientes.
 - **Como Videojuego Comercial Propio (Steam, Nintendo Switch, Google Play, iOS, itch.io)**:
   Reemplazas el contenido de ejemplo (`data/`) y el arte (`assets/`) por tu propia obra. Al exportar desde Godot (`export_presets.cfg`), las herramientas de desarrollo (`editor/`, `tools/`, `docs/`) quedan **automáticamente excluidas** del paquete final, generando un ejecutable limpio y optimizado para la plataforma de destino.
