@@ -13,7 +13,7 @@ then export to Windows, macOS, Linux and Android with **100% royalty-free commer
 ![Royalties](https://img.shields.io/badge/Games_you_build-100%25_Royalty--Free-F9A825)
 ![Export](https://img.shields.io/badge/Export-Windows_%7C_macOS_%7C_Linux_%7C_Android-00A8E8)
 
-**[📖 Documentation Site](https://josemhr.github.io/TaosGameMaker/) · [🏪 Godot Asset Store](https://store.godotengine.org/asset/taos/taos-game-maker/) · [⭐ GitHub Repository](https://github.com/JoseMHR/TaosGameMaker) · [📦 Download ZIP](https://github.com/JoseMHR/TaosGameMaker/archive/refs/heads/main.zip) · [🎮 Play the Free Demo](https://taosworld.itch.io/echoesoftruth) · [🎬 Engine Video Tour](https://youtu.be/9ugIta7vTkQ)**
+**[📖 Documentation Site](https://josemhr.github.io/TaosGameMaker/) · [🏪 Godot Asset Store](https://store.godotengine.org/asset/taos/taos-game-maker/) · [⭐ GitHub Repository](https://github.com/JoseMHR/TaosGameMaker) · [📦 Download ZIP](https://github.com/JoseMHR/TaosGameMaker/archive/refs/heads/main.zip) · [📱 Play on Google Play (Android)](https://play.google.com/store/apps/details?id=com.taosworld.ecosdelaverdad) · [🎮 Play on itch.io (PC/Mac)](https://taosworld.itch.io/echoesoftruth) · [🎬 Engine Video Tour](https://youtu.be/9ugIta7vTkQ)**
 
 </div>
 
@@ -46,7 +46,7 @@ You are never locked in. Start visual, go as deep as you want.
 
 The best way to judge a framework is to play a game made with it. **Echoes of Truth** (free) was built 100% with Taos Game Maker — it is also included as the reference template, so you can open any scene, database or dialogue and see exactly how it was made.
 
-▶️ **[Play Echoes of Truth — Free](https://taosworld.itch.io/echoesoftruth)**
+▶️ **[Play Echoes of Truth on Google Play (Android)](https://play.google.com/store/apps/details?id=com.taosworld.ecosdelaverdad)** · **[Play on itch.io (PC / Mac)](https://taosworld.itch.io/echoesoftruth)**
 
 <!-- OPCIONAL: capturas — descomenta y ajusta los nombres de archivo a los de tu carpeta assets/img/
 <p align="center">
@@ -64,7 +64,8 @@ The best way to judge a framework is to play a game made with it. **Echoes of Tr
 | 📖 Documentation & showcase site | https://josemhr.github.io/TaosGameMaker/ |
 | ⭐ GitHub Repository | https://github.com/JoseMHR/TaosGameMaker |
 | 📦 Download Engine (ZIP) | https://github.com/JoseMHR/TaosGameMaker/archive/refs/heads/main.zip |
-| 🎮 Free demo — Echoes of Truth | https://taosworld.itch.io/echoesoftruth |
+| 📱 Play on Google Play (Android) | https://play.google.com/store/apps/details?id=com.taosworld.ecosdelaverdad |
+| 🎮 Play on itch.io (PC / Mac) | https://taosworld.itch.io/echoesoftruth |
 | 🎬 Engine video tour (YouTube) | https://youtu.be/9ugIta7vTkQ |
 | 🎬 Game trailer (EN - YouTube) | https://www.youtube.com/watch?v=Omau2eJ1cR8 |
 | 🎬 Game trailer (ES - YouTube) | https://www.youtube.com/watch?v=xNsCNHatSUI |
@@ -134,7 +135,8 @@ Taos Game Maker is provided as free and open-source software. Games and content 
 | 📖 Web de documentación | https://josemhr.github.io/TaosGameMaker/ |
 | ⭐ Repositorio de GitHub | https://github.com/JoseMHR/TaosGameMaker |
 | 📦 Descargar Motor (ZIP) | https://github.com/JoseMHR/TaosGameMaker/archive/refs/heads/main.zip |
-| 🎮 Demo gratuita — Echoes of Truth | https://taosworld.itch.io/echoesoftruth |
+| 📱 Jugar en Google Play (Android) | https://play.google.com/store/apps/details?id=com.taosworld.ecosdelaverdad |
+| 🎮 Jugar en itch.io (PC / Mac) | https://taosworld.itch.io/echoesoftruth |
 | 🎬 Vídeo demo del motor | https://youtu.be/9ugIta7vTkQ |
 | 🎬 Tráiler del juego (ES) | https://www.youtube.com/watch?v=xNsCNHatSUI |
 | 🎬 Tráiler del juego (EN) | https://www.youtube.com/watch?v=Omau2eJ1cR8 |
