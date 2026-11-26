@@ -67,10 +67,8 @@ The best way to judge a framework is to play a game made with it. **Echoes of Tr
 | 📱 Play on Google Play (Android) | https://play.google.com/store/apps/details?id=com.taosworld.ecosdelaverdad |
 | 🎮 Play on itch.io (PC / Mac) | https://taosworld.itch.io/echoesoftruth |
 | 🎬 Engine video tour (YouTube) | https://youtu.be/9ugIta7vTkQ |
-| 🎬 Game trailer (EN - YouTube) | https://www.youtube.com/watch?v=Omau2eJ1cR8 |
-| 🎬 Game trailer (ES - YouTube) | https://www.youtube.com/watch?v=xNsCNHatSUI |
-| 🌐 Official universe website (EN) | https://josemhr.github.io/SagaLazaro/ |
-| 🌐 Official universe website (ES) | https://josemhr.github.io/SagaLazaro/ |
+| 🎬 Game trailer (YouTube) | https://www.youtube.com/watch?v=Omau2eJ1cR8 |
+| 🌐 Official universe website | https://josemhr.github.io/SagaLazaro/ |
 
 ## ✅ Is it for you?
 
@@ -138,10 +136,8 @@ Taos Game Maker is provided as free and open-source software. Games and content 
 | 📱 Jugar en Google Play (Android) | https://play.google.com/store/apps/details?id=com.taosworld.ecosdelaverdad |
 | 🎮 Jugar en itch.io (PC / Mac) | https://taosworld.itch.io/echoesoftruth |
 | 🎬 Vídeo demo del motor | https://youtu.be/9ugIta7vTkQ |
-| 🎬 Tráiler del juego (ES) | https://www.youtube.com/watch?v=xNsCNHatSUI |
-| 🎬 Tráiler del juego (EN) | https://www.youtube.com/watch?v=Omau2eJ1cR8 |
-| 🌐 Web oficial del universo (ES) | https://josemhr.github.io/SagaLazaro/ |
-| 🌐 Web oficial del universo (EN) | https://josemhr.github.io/SagaLazaro/ |
+| 🎬 Tráiler del juego | https://www.youtube.com/watch?v=xNsCNHatSUI |
+| 🌐 Web oficial del universo | https://josemhr.github.io/SagaLazaro/ |
 
 **¿Es para ti?** ✔️ Sí, si quieres crear JRPGs en Godot sin partir de cero, sabes editar un JSON (o quieres evitar el código) y piensas vender tu juego quedándote el 100% de los ingresos. ✖️ No, si esperas un motor independiente que funcione sin abrir Godot o assets AAA. Detalles completos en la [FAQ y licencia](https://josemhr.github.io/TaosGameMaker/faq.html).
 

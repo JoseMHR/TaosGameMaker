@@ -86,9 +86,13 @@ const translations = {
     "game-desc": "A full tactical JRPG and first-person grid crawler built 100% with Taos Game Maker. Available on Google Play Store for Android, and on itch.io for PC, Windows, macOS, and Linux.",
     "game-btn-playstore": "Google Play Store (Android)",
     "game-btn-itch": "Play on itch.io (PC / Mac)",
+    "game-btn-trailer": "🎬 Official Trailer",
 
     "book-tag": "Dark Fantasy Literary Universe",
     "book-desc": "The dark fantasy novel series that serves as the mythological foundation for the game's lore, ancient spheres, and celestial pantheon. Available worldwide on Amazon in both Spanish and English.",
+    "book-btn-web": "Official Site",
+    "book-btn-1": "Book 1",
+    "book-btn-2": "Book 2",
 
     // Support & Donation
     "donate-tag": "💖 Community Support",
@@ -121,10 +125,8 @@ const translations = {
     "footer-link-playstore": "Google Play Store (Android)",
     "footer-link-demo": "Echoes of Truth (itch.io - PC/Mac)",
     "footer-link-video": "Engine Video Tour",
-    "footer-link-book-es": "Official Book Site (ES)",
-    "footer-link-book-en": "Official Book Site (EN)",
-    "footer-link-trailer-es": "🎬 Game Trailer (Echoes of Truth - ES)",
-    "footer-link-trailer-en": "🎬 Game Trailer (Echoes of Truth - EN)",
+    "footer-link-book": "Official Book Site",
+    "footer-link-trailer": "🎬 Game Trailer (Echoes of Truth)",
     "footer-crafted": "Crafted for Godot Engine developers worldwide."
   },
 
@@ -208,9 +210,13 @@ const translations = {
     "game-desc": "Un RPG táctico completo y crawler en primera persona desarrollado al 100% con Taos Game Maker. Disponible oficialmente en Google Play Store para dispositivos Android, y en itch.io para jugar en PC, Windows, macOS y Linux.",
     "game-btn-playstore": "Google Play Store (Android)",
     "game-btn-itch": "Jugar en itch.io (PC / Mac)",
+    "game-btn-trailer": "🎬 Tráiler Oficial",
 
     "book-tag": "Universo Literario de Fantasía Oscura",
     "book-desc": "La saga de novelas de fantasía oscura y ciencia ficción que conforma la base mitológica del juego, las esferas ancestrales y el panteón celestial. Disponible a nivel mundial en Amazon en español e inglés.",
+    "book-btn-web": "Web Oficial",
+    "book-btn-1": "Libro 1",
+    "book-btn-2": "Libro 2",
 
     // Support & Donation
     "donate-tag": "💖 Apoyo Comunitario",
@@ -243,10 +249,8 @@ const translations = {
     "footer-link-playstore": "Google Play Store (Android)",
     "footer-link-demo": "Echoes of Truth (itch.io - PC/Mac)",
     "footer-link-video": "Tour en Vídeo del Motor",
-    "footer-link-book-es": "Web Oficial de los Libros (ES)",
-    "footer-link-book-en": "Web Oficial de los Libros (EN)",
-    "footer-link-trailer-es": "🎬 Tráiler del Juego (Echoes of Truth - ES)",
-    "footer-link-trailer-en": "🎬 Tráiler del Juego (Echoes of Truth - EN)",
+    "footer-link-book": "Web Oficial de los Libros",
+    "footer-link-trailer": "🎬 Tráiler del Juego (Echoes of Truth)",
     "footer-crafted": "Diseñado para la comunidad de desarrolladores de Godot Engine."
   }
 };
@@ -292,6 +296,24 @@ function setLanguage(lang) {
       }
     }
   });
+
+  // Dynamic URLs by language
+  const gameTrailer = document.getElementById('game-btn-trailer');
+  if (gameTrailer) {
+    gameTrailer.href = lang === 'es' ? 'https://youtu.be/xNsCNHatSUI' : 'https://youtu.be/Omau2eJ1cR8';
+  }
+  const footerTrailer = document.getElementById('footer-link-trailer');
+  if (footerTrailer) {
+    footerTrailer.href = lang === 'es' ? 'https://youtu.be/xNsCNHatSUI' : 'https://youtu.be/Omau2eJ1cR8';
+  }
+  const book1 = document.getElementById('book-btn-1');
+  if (book1) {
+    book1.href = lang === 'es' ? 'https://www.amazon.es/dp/B0HLSQKMR1' : 'https://www.amazon.com/dp/B0HMFQVSF2';
+  }
+  const book2 = document.getElementById('book-btn-2');
+  if (book2) {
+    book2.href = lang === 'es' ? 'https://www.amazon.es/dp/B0HLSTMRWC' : 'https://www.amazon.com/dp/B0HMF7GWZD';
+  }
 }
 
 // Run on page load
